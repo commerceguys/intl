@@ -75,20 +75,29 @@ foreach ($locales as $locale) {
     }
 }
 
-// Remove localizations that are the same as the ones for the parent locale.
-// For example, don't provide "fr-FR" if "fr" has the same data.
+// Identify localizations that are the same as the ones for the parent locale.
+// For example, "fr-FR" if "fr" has the same data.
+$duplicates = array();
 foreach ($languages as $locale => $localizedLanguages) {
     if (strpos($locale, '-') !== FALSE) {
         $localeParts = explode('-', $locale);
-        $parentLanguages = $languages[$localeParts[0]];
-        $diff = array_udiff($localizedLanguages, $parentLanguages, function ($first, $second) {
+        array_pop($localeParts);
+        $parentLocale = implode('-', $localeParts);
+        $diff = array_udiff($localizedLanguages, $languages[$parentLocale], function ($first, $second) {
             return ($first['name'] == $second['name']) ? 0 : 1;
         });
 
         if (empty($diff)) {
-            unset($languages[$locale]);
+            // The duplicates are not removed right away because they might
+            // still be needed for other duplicate checks (for example,
+            // when there are locales like bs-Latn-BA, bs-Latn, bs).
+            $duplicates[] = $locale;
         }
     }
+}
+// Remove the duplicates.
+foreach ($duplicates as $locale) {
+    unset($languages[$locale]);
 }
 
 // Write out the localizations.
