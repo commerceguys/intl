@@ -1,0 +1,21 @@
+{
+    "name": "commerceguys/intl",
+    "type": "library",
+    "description": "Internationalization library powered by CLDR data.",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/yaml": "2.4.*",
+        "ext-bcmath": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CommerceGuys\\Intl\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bojan Zivanovic"
+        }
+    ]
+}
