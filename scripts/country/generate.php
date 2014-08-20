@@ -70,18 +70,11 @@ foreach ($locales as $locale) {
     $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/territories.json'), TRUE);
     $data = $data['main'][$locale]['localeDisplayNames']['territories'];
     foreach ($data as $countryCode => $countryName) {
-        if (is_numeric($countryCode) || in_array($countryCode, array('EU', 'ZZ'))) {
-            // Ignore territories that aren't countries (continents, EU).
-            continue;
+        if (isset($baseData[$countryCode])) {
+            $countries[$locale][$countryCode] = array(
+                'name' => $countryName,
+            );
         }
-        if (strpos($countryCode, '-alt-') !== FALSE) {
-            // Ignore alternative names.
-            continue;
-        }
-
-        $countries[$locale][$countryCode] = array(
-            'name' => $countryName,
-        );
     }
 }
 
