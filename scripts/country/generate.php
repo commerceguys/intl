@@ -29,6 +29,18 @@ $ignoredCountries = array(
     'ZZ', // Unknown region
 );
 
+// Locales listed without a "-" match all variants.
+// Locales listed with a "-" match only those exact ones.
+$ignoredLocales = array(
+    // Those locales are 90% untranslated.
+    'aa', 'as', 'az-Cyrl', 'az-Cyrl-AZ', 'bem', 'dua', 'gv', 'haw', 'ig', 'ii',
+    'kkj', 'kok', 'kw', 'lkt', 'mgo', 'nnh', 'nr', 'nso', 'om', 'os', 'pa-Arab',
+    'pa-Arab-PK', 'rw', 'sah', 'ss', 'ssy', 'st', 'tg', 'tn', 'ts', 'uz-Arab',
+    'uz-Arab-AF', 've', 'vo', 'xh',
+    // Special "grouping" locales.
+    'root', 'en-US-POSIX', 'en-001', 'en-150',
+);
+
 // Assemble the base data. Use the "en" data to get a list of countries.
 $codeMappings = json_decode(file_get_contents($codeMappings), TRUE);
 $codeMappings = $codeMappings['supplemental']['codeMappings'];
@@ -64,8 +76,11 @@ file_put_contents('base.yml', $yaml);
 $locales = array();
 if ($handle = opendir('../json_full/main')) {
     while (false !== ($entry = readdir($handle))) {
-        if (substr($entry, 0, 1) != '.' && !in_array($entry, array('en-US-POSIX', 'en-001', 'en-150'))) {
-          $locales[] = $entry;
+        if (substr($entry, 0, 1) != '.') {
+            $entryParts = explode('-', $entry);
+            if (!in_array($entry, $ignoredLocales) && !in_array($entryParts[0], $ignoredLocales)) {
+                $locales[] = $entry;
+            }
         }
     }
     closedir($handle);
@@ -78,6 +93,11 @@ foreach ($locales as $locale) {
     $data = $data['main'][$locale]['localeDisplayNames']['territories'];
     foreach ($data as $countryCode => $countryName) {
         if (isset($baseData[$countryCode])) {
+            // This country name is untranslated, use the english version.
+            if ($countryCode == $countryName) {
+                $countryName = $countryData[$countryCode];
+            }
+
             $countries[$locale][$countryCode] = array(
                 'name' => $countryName,
             );

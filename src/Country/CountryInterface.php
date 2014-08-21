@@ -21,6 +21,9 @@ interface CountryInterface
     /**
      * Gets the country name.
      *
+     * Note that certain locales have incomplete translations, in which
+     * case the english version of the country name is used instead.
+     *
      * @return string
      */
     public function getName();
