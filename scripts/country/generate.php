@@ -22,6 +22,13 @@ if (!file_exists($codeMappings)) {
     die("The $codeMappings file was not found");
 }
 
+$ignoredCountries = array(
+    'AN', // Netherlands Antilles, no longer exists.
+    'BV', 'HM', 'CP', // Uninhabited islands.
+    'EU', 'QO', // European Union, Outlying Oceania. Not countries.
+    'ZZ', // Unknown region
+);
+
 // Assemble the base data. Use the "en" data to get a list of countries.
 $codeMappings = json_decode(file_get_contents($codeMappings), TRUE);
 $codeMappings = $codeMappings['supplemental']['codeMappings'];
@@ -29,8 +36,8 @@ $countryData = json_decode(file_get_contents($enCountries), TRUE);
 $countryData = $countryData['main']['en']['localeDisplayNames']['territories'];
 $baseData = array();
 foreach ($countryData as $countryCode => $countryName) {
-    if (is_numeric($countryCode) || in_array($countryCode, array('EU', 'ZZ'))) {
-        // Ignore territories that aren't countries (continents, EU).
+    if (is_numeric($countryCode) || in_array($countryCode, $ignoredCountries)) {
+        // Ignore continents, regions, uninhabited islands.
         continue;
     }
     if (strpos($countryCode, '-alt-') !== FALSE) {
@@ -57,7 +64,7 @@ file_put_contents('base.yml', $yaml);
 $locales = array();
 if ($handle = opendir('../json_full/main')) {
     while (false !== ($entry = readdir($handle))) {
-        if (substr($entry, 0, 1) != '.' && !in_array($entry, array('en-001', 'en-150'))) {
+        if (substr($entry, 0, 1) != '.' && !in_array($entry, array('en-US-POSIX', 'en-001', 'en-150'))) {
           $locales[] = $entry;
         }
     }
