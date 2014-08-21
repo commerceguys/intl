@@ -114,6 +114,9 @@ class DefaultCountryManager implements CountryManagerInterface
         if (isset($definition['numeric_code'])) {
             $country->setNumericCode($definition['numeric_code']);
         }
+        if (isset($definition['telephone_code'])) {
+            $country->setTelephoneCode($definition['telephone_code']);
+        }
 
         return $country;
     }

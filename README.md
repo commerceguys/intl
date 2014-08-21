@@ -3,7 +3,7 @@ intl
 
 A PHP 5.4+ internationalization library, powered by CLDR data.
 
-Features: 
+Features:
 - NumberFormatter, inspired by [intl](http://php.net/manual/en/class.numberformatter.php).
 - Currencies
 - Countries
@@ -98,6 +98,7 @@ $countryManager = new DefaultCountryManager;
 // Get the US country using the default locale (en).
 $country = $countryManager->get('US');
 echo $country->getCountryCode(); // US
+echo $country->getTelephoneCode(); // 1
 echo $country->getName(); // United States
 
 // Get the US country using the fr-FR locale.
