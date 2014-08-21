@@ -36,6 +36,8 @@ $ignoredCountries = array(
 // Locales listed without a "-" match all variants.
 // Locales listed with a "-" match only those exact ones.
 $ignoredLocales = array(
+    // Interlingua is a made up language.
+    'ia',
     // Those locales are 90% untranslated.
     'aa', 'as', 'az-Cyrl', 'az-Cyrl-AZ', 'bem', 'dua', 'gv', 'haw', 'ig', 'ii',
     'kkj', 'kok', 'kw', 'lkt', 'mgo', 'nnh', 'nr', 'nso', 'om', 'os', 'pa-Arab',

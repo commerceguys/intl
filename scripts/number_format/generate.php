@@ -17,12 +17,24 @@ if (!is_dir('../json_full/main')) {
     die("The '../json_full/main' directory was not found");
 }
 
+// Locales listed without a "-" match all variants.
+// Locales listed with a "-" match only those exact ones.
+$ignoredLocales = array(
+    // Interlingua is a made up language.
+    'ia',
+    // Special "grouping" locales.
+    'root', 'en-US-POSIX', 'en-001', 'en-150',
+);
+
 // Gather available locales.
 $locales = array();
 if ($handle = opendir('../json_full/main')) {
     while (false !== ($entry = readdir($handle))) {
-        if (substr($entry, 0, 1) != '.' && !in_array($entry, array('en-US-POSIX', 'en-001', 'en-150'))) {
-          $locales[] = $entry;
+        if (substr($entry, 0, 1) != '.') {
+            $entryParts = explode('-', $entry);
+            if (!in_array($entry, $ignoredLocales) && !in_array($entryParts[0], $ignoredLocales)) {
+                $locales[] = $entry;
+            }
         }
     }
     closedir($handle);
