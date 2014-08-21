@@ -19,11 +19,15 @@ $dumper = new Dumper;
 $isoCurrencies = '../c2.xml';
 // Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
 $cldrCurrencies = '../json_full/main/en-US/currencies.json';
+$currencyData = '../json_full/supplemental/currencyData.json';
 if (!file_exists($isoCurrencies)) {
     die("The $isoCurrencies file was not found");
 }
 if (!file_exists($cldrCurrencies)) {
     die("The $cldrCurrencies file was not found");
+}
+if (!file_exists($currencyData)) {
+    die("The $currencyData file was not found");
 }
 
 // Locales listed without a "-" match all variants.
@@ -40,8 +44,10 @@ $ignoredLocales = array(
 
 // Assemble the base data.
 $baseData = array();
-$data = simplexml_load_file($isoCurrencies);
-foreach ($data->CcyTbl->CcyNtry as $currency) {
+$currencyData = json_decode(file_get_contents($currencyData), TRUE);
+$currencyData = $currencyData['supplemental']['currencyData']['fractions'];
+$isoData = simplexml_load_file($isoCurrencies);
+foreach ($isoData->CcyTbl->CcyNtry as $currency) {
     $attributes = (array) $currency->CcyNm->attributes();
     if (!empty($attributes) && !empty($attributes['@attributes']['IsFund'])) {
         // Ignore funds.
@@ -62,9 +68,14 @@ foreach ($data->CcyTbl->CcyNtry as $currency) {
         'code' => $currencyCode,
         'numeric_code' => $currency['CcyNbr'],
     );
-    // Store fraction_digits only if it differs from the default (2).
-    if ($currency['CcyMnrUnts'] != 2) {
-        $baseData[$currencyCode]['fraction_digits'] = $currency['CcyMnrUnts'];
+    // Take the fraction digits from CLDR, not ISO, because it reflects real
+    // life usage more closely. If the digits aren't set, that means that the
+    // default value (2) should be used.
+    if (isset($currencyData[$currencyCode]['_digits'])) {
+        $fractionDigits = $currencyData[$currencyCode]['_digits'];
+        if ($fractionDigits != 2) {
+            $baseData[$currencyCode]['fraction_digits'] = $fractionDigits;
+        }
     }
 }
 

@@ -4,12 +4,15 @@ AED:
 AFN:
     code: AFN
     numeric_code: '971'
+    fraction_digits: '0'
 ALL:
     code: ALL
     numeric_code: '008'
+    fraction_digits: '0'
 AMD:
     code: AMD
     numeric_code: '051'
+    fraction_digits: '0'
 ANG:
     code: ANG
     numeric_code: '532'
@@ -95,9 +98,11 @@ CNY:
 COP:
     code: COP
     numeric_code: '170'
+    fraction_digits: '0'
 CRC:
     code: CRC
     numeric_code: '188'
+    fraction_digits: '0'
 CUC:
     code: CUC
     numeric_code: '931'
@@ -166,6 +171,7 @@ GTQ:
 GYD:
     code: GYD
     numeric_code: '328'
+    fraction_digits: '0'
 HKD:
     code: HKD
     numeric_code: '344'
@@ -181,9 +187,11 @@ HTG:
 HUF:
     code: HUF
     numeric_code: '348'
+    fraction_digits: '0'
 IDR:
     code: IDR
     numeric_code: '360'
+    fraction_digits: '0'
 ILS:
     code: ILS
     numeric_code: '376'
@@ -193,10 +201,11 @@ INR:
 IQD:
     code: IQD
     numeric_code: '368'
-    fraction_digits: '3'
+    fraction_digits: '0'
 IRR:
     code: IRR
     numeric_code: '364'
+    fraction_digits: '0'
 ISK:
     code: ISK
     numeric_code: '352'
@@ -228,6 +237,7 @@ KMF:
 KPW:
     code: KPW
     numeric_code: '408'
+    fraction_digits: '0'
 KRW:
     code: KRW
     numeric_code: '410'
@@ -245,9 +255,11 @@ KZT:
 LAK:
     code: LAK
     numeric_code: '418'
+    fraction_digits: '0'
 LBP:
     code: LBP
     numeric_code: '422'
+    fraction_digits: '0'
 LKR:
     code: LKR
     numeric_code: '144'
@@ -273,24 +285,29 @@ MDL:
 MGA:
     code: MGA
     numeric_code: '969'
+    fraction_digits: '0'
 MKD:
     code: MKD
     numeric_code: '807'
 MMK:
     code: MMK
     numeric_code: '104'
+    fraction_digits: '0'
 MNT:
     code: MNT
     numeric_code: '496'
+    fraction_digits: '0'
 MOP:
     code: MOP
     numeric_code: '446'
 MRO:
     code: MRO
     numeric_code: '478'
+    fraction_digits: '0'
 MUR:
     code: MUR
     numeric_code: '480'
+    fraction_digits: '0'
 MVR:
     code: MVR
     numeric_code: '462'
@@ -343,6 +360,7 @@ PHP:
 PKR:
     code: PKR
     numeric_code: '586'
+    fraction_digits: '0'
 PLN:
     code: PLN
     numeric_code: '985'
@@ -359,6 +377,7 @@ RON:
 RSD:
     code: RSD
     numeric_code: '941'
+    fraction_digits: '0'
 RUB:
     code: RUB
     numeric_code: '643'
@@ -390,9 +409,11 @@ SHP:
 SLL:
     code: SLL
     numeric_code: '694'
+    fraction_digits: '0'
 SOS:
     code: SOS
     numeric_code: '706'
+    fraction_digits: '0'
 SRD:
     code: SRD
     numeric_code: '968'
@@ -402,12 +423,14 @@ SSP:
 STD:
     code: STD
     numeric_code: '678'
+    fraction_digits: '0'
 SVC:
     code: SVC
     numeric_code: '222'
 SYP:
     code: SYP
     numeric_code: '760'
+    fraction_digits: '0'
 SZL:
     code: SZL
     numeric_code: '748'
@@ -439,6 +462,7 @@ TWD:
 TZS:
     code: TZS
     numeric_code: '834'
+    fraction_digits: '0'
 UAH:
     code: UAH
     numeric_code: '980'
@@ -455,6 +479,7 @@ UYU:
 UZS:
     code: UZS
     numeric_code: '860'
+    fraction_digits: '0'
 VEF:
     code: VEF
     numeric_code: '937'
@@ -487,6 +512,7 @@ XPF:
 YER:
     code: YER
     numeric_code: '886'
+    fraction_digits: '0'
 ZAR:
     code: ZAR
     numeric_code: '710'
