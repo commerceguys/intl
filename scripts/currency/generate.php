@@ -26,6 +26,18 @@ if (!file_exists($cldrCurrencies)) {
     die("The $cldrCurrencies file was not found");
 }
 
+// Locales listed without a "-" match all variants.
+// Locales listed with a "-" match only those exact ones.
+$ignoredLocales = array(
+    // Those locales are 90% untranslated.
+    'aa', 'as', 'az-Cyrl', 'az-Cyrl-AZ', 'bem', 'dua', 'gv', 'haw', 'ig', 'ii',
+    'kkj', 'kok', 'kw', 'lkt', 'mgo', 'nnh', 'nr', 'nso', 'om', 'os', 'pa-Arab',
+    'pa-Arab-PK', 'rw', 'sah', 'ss', 'ssy', 'st', 'tg', 'tn', 'ts', 'uz-Arab',
+    'uz-Arab-AF', 've', 'vo', 'xh',
+    // Special "grouping" locales.
+    'root', 'en-US-POSIX', 'en-001', 'en-150',
+);
+
 // Assemble the base data.
 $baseData = array();
 $data = simplexml_load_file($isoCurrencies);
@@ -65,8 +77,11 @@ file_put_contents('base.yml', $yaml);
 $locales = array();
 if ($handle = opendir('../json_full/main')) {
     while (false !== ($entry = readdir($handle))) {
-        if (substr($entry, 0, 1) != '.' && !in_array($entry, array('en-001', 'en-150'))) {
-          $locales[] = $entry;
+        if (substr($entry, 0, 1) != '.') {
+            $entryParts = explode('-', $entry);
+            if (!in_array($entry, $ignoredLocales) && !in_array($entryParts[0], $ignoredLocales)) {
+                $locales[] = $entry;
+            }
         }
     }
     closedir($handle);
