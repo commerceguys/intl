@@ -41,10 +41,10 @@ use CommerceGuys\Intl\NumberFormat\DefaultNumberFormatManager;
 use CommerceGuys\Intl\Formatter\NumberFormatter;
 
 $currencyManager = new DefaultCurrencyManager;
-$currency = $currencyManager->get('USD');
-
 $numberFormatManager = new DefaultNumberFormatManager;
-$numberFormat = $numberFormatManager->get('en-US');
+
+$currency = $currencyManager->get('USD');
+$numberFormat = $numberFormatManager->get('en');
 
 $decimalFormatter = new NumberFormatter($numberFormat);
 echo $decimalFormatter->format('1234.99'); // 123,456.99
@@ -59,6 +59,12 @@ echo $currencyFormatter->formatCurrency('2.99', $currency); // $2.99
 // primarily for amounts shown on invoices.
 $invoiceCurrencyFormatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY_ACCOUNTING);
 echo $invoiceCurrencyFormatter->formatCurrency('-2.99', $currency); // (2.99$)
+
+// Arabic, Arabic extended, Bengali, Devanagari digits are supported as expected.
+$currency = $currencyManager->get('USD', 'ar');
+$numberFormat = $numberFormatManager->get('ar');
+$currencyFormatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
+echo $currencyFormatter->formatCurrency('1230.99', $currency); // US$ ١٬٢٣٠٫٩٩
 ```
 
 Currencies
@@ -76,7 +82,7 @@ echo $currency->getNumericCode(); // 840
 echo $currency->getFractionDigits(); // 2
 echo $currency->getName(); // US Dollar
 echo $currency->getSymbol(); // $
-echo $currency->getLocale(); // en-US
+echo $currency->getLocale(); // en
 
 // Get the USD currency using the fr-FR locale.
 $currency = $currencyManager->get('USD', 'fr-FR');

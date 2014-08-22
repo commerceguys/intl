@@ -168,7 +168,11 @@ class NumberFormatter implements NumberFormatterInterface
         $pattern = $negative ? $this->negativePattern : $this->positivePattern;
         $value = preg_replace('/#(?:[\.,]#+)*0(?:[,\.][0#]+)*/', $value, $pattern);
 
-        return $this->replaceSymbols($value);
+        // Localize the number.
+        $value = $this->replaceDigits($value);
+        $value = $this->replaceSymbols($value);
+
+        return $value;
     }
 
     /**
@@ -211,9 +215,45 @@ class NumberFormatter implements NumberFormatterInterface
     }
 
     /**
+     * Replaces digits with their localized equivalents.
+     *
+     * @param string $value The value being formatted.
+     *
+     * @return string
+     */
+    protected function replaceDigits($value)
+    {
+        $digits[NumberFormatInterface::NUMBERING_SYSTEM_ARABIC] = array(
+            0 => '٠', 1 => '١', 2 => '٢', 3 => '٣', 4 => '٤',
+            5 => '٥', 6 => '٦', 7 => '٧', 8 => '٨', 9 => '٩',
+        );
+        $digits[NumberFormatInterface::NUMBERING_SYSTEM_ARABIC_EXTENDED] = array(
+            0 => '۰', 1 => '۱', 2 => '۲', 3 => '۳', 4 => '۴',
+            5 => '۵', 6 => '۶', 7 => '۷', 8 => '۸', 9 => '۹',
+        );
+        $digits[NumberFormatInterface::NUMBERING_SYSTEM_BENGALI] = array(
+            0 => '০', 1 => '১', 2 => '২', 3 => '৩', 4 => '৪',
+            5 => '৫', 6 => '৬', 7 => '৭', 8 => '৮', 9 => '৯',
+        );
+        $digits[NumberFormatInterface::NUMBERING_SYSTEM_DEVANAGARI] = array(
+            0 => '०', 1 => '१', 2 => '२', 3 => '३', 4 => '४',
+            5 => '५', 6 => '६', 7 => '७', 8 => '८', 9 => '९',
+        );
+
+        $numberingSystem = $this->numberFormat->getNumberingSystem();
+        if (isset($digits[$numberingSystem])) {
+            $value = strtr($value, $digits[$numberingSystem]);
+        }
+
+        return $value;
+    }
+
+    /**
      * Replaces number symbols with their localized equivalents.
      *
      * @param string $value The value being formatted.
+     *
+     * @return string
      *
      * @see http://cldr.unicode.org/translation/number-symbols
      */
