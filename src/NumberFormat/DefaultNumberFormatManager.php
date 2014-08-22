@@ -43,17 +43,18 @@ class DefaultNumberFormatManager implements NumberFormatManagerInterface
             $this->definitions[$locale] = $this->parser->parse(file_get_contents($filename));
         }
 
-        return $this->createNumberFormatFromDefinition($this->definitions[$locale]);
+        return $this->createNumberFormatFromDefinition($this->definitions[$locale], $locale);
     }
 
     /**
      * Creates a number format object from the provided definition.
      *
      * @param array $definition The number format definition.
+     * @param string $locale The locale of the number format definition.
      *
      * @return \CommerceGuys\Intl\NumberFormat\NumberFormat
      */
-    protected function createNumberFormatFromDefinition(array $definition)
+    protected function createNumberFormatFromDefinition(array $definition, $locale)
     {
         $definition += array(
             'decimal_separator' => '.',
@@ -64,7 +65,7 @@ class DefaultNumberFormatManager implements NumberFormatManagerInterface
         );
 
         $numberFormat = new NumberFormat();
-        $numberFormat->setLocale($definition['locale']);
+        $numberFormat->setLocale($locale);
         $numberFormat->setNumberingSystem($definition['numbering_system']);
         $numberFormat->setDecimalSeparator($definition['decimal_separator']);
         $numberFormat->setGroupingSeparator($definition['grouping_separator']);
