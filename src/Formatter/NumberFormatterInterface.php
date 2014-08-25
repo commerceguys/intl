@@ -44,6 +44,19 @@ interface NumberFormatterInterface
     public function formatCurrency($value, CurrencyInterface $currency);
 
     /**
+     * Parses a formatted currency value.
+     *
+     * Commonly used in price input widgets where the end-user might
+     * input a value using digits and symbols common to their locale.
+     *
+     * @param string $value The value to parse.
+     * @param CommerceGuys\Intl\Currency\CurrencyInterface $currency The currency.
+     *
+     * @return string|false The parsed numeric value or FALSE on error.
+     */
+    public function parseCurrency($value, CurrencyInterface $currency);
+
+    /**
      * Gets the number format.
      *
      * @return CommerceGuys\Intl\NumberFormat\NumberFormatInterface

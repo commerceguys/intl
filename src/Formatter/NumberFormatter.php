@@ -75,6 +75,30 @@ class NumberFormatter implements NumberFormatterInterface
      */
     protected $currencyDisplay;
 
+    /**
+     * Localized digits.
+     *
+     * @var array
+     */
+    protected $digits = array(
+        NumberFormatInterface::NUMBERING_SYSTEM_ARABIC => array(
+            0 => '٠', 1 => '١', 2 => '٢', 3 => '٣', 4 => '٤',
+            5 => '٥', 6 => '٦', 7 => '٧', 8 => '٨', 9 => '٩',
+        ),
+        NumberFormatInterface::NUMBERING_SYSTEM_ARABIC_EXTENDED => array(
+            0 => '۰', 1 => '۱', 2 => '۲', 3 => '۳', 4 => '۴',
+            5 => '۵', 6 => '۶', 7 => '۷', 8 => '۸', 9 => '۹',
+        ),
+        NumberFormatInterface::NUMBERING_SYSTEM_BENGALI => array(
+            0 => '০', 1 => '১', 2 => '২', 3 => '৩', 4 => '৪',
+            5 => '৫', 6 => '৬', 7 => '৭', 8 => '৮', 9 => '৯',
+        ),
+        NumberFormatInterface::NUMBERING_SYSTEM_DEVANAGARI => array(
+            0 => '०', 1 => '१', 2 => '२', 3 => '३', 4 => '४',
+            5 => '५', 6 => '६', 7 => '७', 8 => '८', 9 => '९',
+        ),
+    );
+
     public function __construct(NumberFormatInterface $numberFormat, $style = self::DECIMAL)
     {
         $availablePatterns = array(
@@ -221,6 +245,41 @@ class NumberFormatter implements NumberFormatterInterface
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function parseCurrency($value, CurrencyInterface $currency)
+    {
+        $replacements = array(
+            // Convert the localized symbols back to their original form.
+            $this->numberFormat->getDecimalSeparator() => '.',
+            $this->numberFormat->getPlusSign() => '+',
+            $this->numberFormat->getMinusSign() => '-',
+
+            // Strip any grouping separators, the currency code or symbol.
+            $this->numberFormat->getGroupingSeparator() => '',
+            $currency->getCurrencyCode() => '',
+            $currency->getSymbol() => '',
+
+            // Strip whitespace (spaces and non-breaking spaces).
+            ' ' => '',
+            chr(0xC2) . chr(0xA0) => '',
+        );
+        $numberingSystem = $this->numberFormat->getNumberingSystem();
+        if (isset($this->digits[$numberingSystem])) {
+            // Convert the localized digits back to latin.
+            $replacements += array_flip($this->digits[$numberingSystem]);
+        }
+
+        $value = strtr($value, $replacements);
+        if (substr($value, 0, 1) == '(' && substr($value, -1, 1) == ')') {
+            // This is an accounting formatted negative number.
+            $value = '-' . str_replace(array('(', ')'), '', $value);
+        }
+
+        return is_numeric($value) ? $value : FALSE;
+    }
+
+    /**
      * Replaces digits with their localized equivalents.
      *
      * @param string $value The value being formatted.
@@ -229,26 +288,9 @@ class NumberFormatter implements NumberFormatterInterface
      */
     protected function replaceDigits($value)
     {
-        $digits[NumberFormatInterface::NUMBERING_SYSTEM_ARABIC] = array(
-            0 => '٠', 1 => '١', 2 => '٢', 3 => '٣', 4 => '٤',
-            5 => '٥', 6 => '٦', 7 => '٧', 8 => '٨', 9 => '٩',
-        );
-        $digits[NumberFormatInterface::NUMBERING_SYSTEM_ARABIC_EXTENDED] = array(
-            0 => '۰', 1 => '۱', 2 => '۲', 3 => '۳', 4 => '۴',
-            5 => '۵', 6 => '۶', 7 => '۷', 8 => '۸', 9 => '۹',
-        );
-        $digits[NumberFormatInterface::NUMBERING_SYSTEM_BENGALI] = array(
-            0 => '০', 1 => '১', 2 => '২', 3 => '৩', 4 => '৪',
-            5 => '৫', 6 => '৬', 7 => '৭', 8 => '৮', 9 => '৯',
-        );
-        $digits[NumberFormatInterface::NUMBERING_SYSTEM_DEVANAGARI] = array(
-            0 => '०', 1 => '१', 2 => '२', 3 => '३', 4 => '४',
-            5 => '५', 6 => '६', 7 => '७', 8 => '८', 9 => '९',
-        );
-
         $numberingSystem = $this->numberFormat->getNumberingSystem();
-        if (isset($digits[$numberingSystem])) {
-            $value = strtr($value, $digits[$numberingSystem]);
+        if (isset($this->digits[$numberingSystem])) {
+            $value = strtr($value, $this->digits[$numberingSystem]);
         }
 
         return $value;
@@ -266,11 +308,11 @@ class NumberFormatter implements NumberFormatterInterface
     protected function replaceSymbols($value)
     {
         $replacements = array(
-           '.' => $this->numberFormat->getDecimalSeparator(),
-           ',' => $this->numberFormat->getGroupingSeparator(),
-           '+' => $this->numberFormat->getPlusSign(),
-           '-' => $this->numberFormat->getMinusSign(),
-           '%' => $this->numberFormat->getPercentSign(),
+            '.' => $this->numberFormat->getDecimalSeparator(),
+            ',' => $this->numberFormat->getGroupingSeparator(),
+            '+' => $this->numberFormat->getPlusSign(),
+            '-' => $this->numberFormat->getMinusSign(),
+            '%' => $this->numberFormat->getPercentSign(),
         );
 
         return strtr($value, $replacements);

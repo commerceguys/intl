@@ -65,6 +65,9 @@ $currency = $currencyManager->get('USD', 'ar');
 $numberFormat = $numberFormatManager->get('ar');
 $currencyFormatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
 echo $currencyFormatter->formatCurrency('1230.99', $currency); // US$ ١٬٢٣٠٫٩٩
+
+// Parse formatted values into numeric values.
+echo $currencyFormatter->parseCurrency('US$ ١٬٢٣٠٫٩٩', $currency); // 1230.99
 ```
 
 Currencies
