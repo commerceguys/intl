@@ -2,6 +2,7 @@
 
 namespace CommerceGuys\Intl\Formatter;
 
+use CommerceGuys\Intl\InvalidArgumentException;
 use CommerceGuys\Intl\Currency\CurrencyInterface;
 use CommerceGuys\Intl\NumberFormat\NumberFormatInterface;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
@@ -123,6 +124,11 @@ class NumberFormatter implements NumberFormatterInterface
      */
     public function format($value)
     {
+        if (!is_numeric($value)) {
+            $message = sprintf('The provided value "%s" must be a valid number or numeric string.', $value);
+            throw new InvalidArgumentException($message);
+        }
+
         // Ensure that the value is positive and has the right number of digits.
         $negative = (bccomp('0', $value, 12) == 1);
         $signMultiplier = $negative ? '-1' : '1';
