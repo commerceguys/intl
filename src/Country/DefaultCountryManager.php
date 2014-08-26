@@ -36,10 +36,16 @@ class DefaultCountryManager implements CountryManagerInterface
      */
     protected $parser;
 
-    public function __construct()
+    /**
+     * Creates a DefaultCountryManager instance.
+     *
+     * @param string $definitionPath The path to the country definitions.
+     *                               Defaults to 'resources/country'.
+     */
+    public function __construct($definitionPath = null)
     {
         $this->parser = new Parser();
-        $this->definitionPath = __DIR__ . '/../../resources/country/';
+        $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/country/';
         $this->baseDefinitions = $this->parser->parse(file_get_contents($this->definitionPath . 'base.yml'));
     }
 

@@ -36,10 +36,16 @@ class DefaultCurrencyManager implements CurrencyManagerInterface
      */
     protected $parser;
 
-    public function __construct()
+    /**
+     * Creates a DefaultCurrencyManager instance.
+     *
+     * @param string $definitionPath The path to the currency definitions.
+     *                               Defaults to 'resources/currency'.
+     */
+    public function __construct($definitionPath = null)
     {
         $this->parser = new Parser();
-        $this->definitionPath = __DIR__ . '/../../resources/currency/';
+        $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/currency/';
         $this->baseDefinitions = $this->parser->parse(file_get_contents($this->definitionPath . 'base.yml'));
     }
 

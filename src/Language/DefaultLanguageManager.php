@@ -26,10 +26,16 @@ class DefaultLanguageManager implements LanguageManagerInterface
      */
     protected $parser;
 
-    public function __construct()
+    /**
+     * Creates a DefaultLanguageManager instance.
+     *
+     * @param string $definitionPath The path to the currency definitions.
+     *                               Defaults to 'resources/language'.
+     */
+    public function __construct($definitionPath = null)
     {
         $this->parser = new Parser();
-        $this->definitionPath = __DIR__ . '/../../resources/language/';
+        $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/language/';
     }
 
     /**

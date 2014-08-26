@@ -26,10 +26,16 @@ class DefaultNumberFormatManager implements NumberFormatManagerInterface
      */
     protected $parser;
 
-    public function __construct()
+    /**
+     * Creates a DefaultNumberFormatManager instance.
+     *
+     * @param string $definitionPath The path to the number format definitions.
+     *                               Defaults to 'resources/number_format'.
+     */
+    public function __construct($definitionPath = null)
     {
         $this->parser = new Parser();
-        $this->definitionPath = __DIR__ . '/../../resources/number_format/';
+        $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/number_format/';
     }
 
     /**
