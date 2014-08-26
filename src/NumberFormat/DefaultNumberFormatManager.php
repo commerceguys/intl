@@ -62,13 +62,21 @@ class DefaultNumberFormatManager implements NumberFormatManagerInterface
      */
     protected function createNumberFormatFromDefinition(array $definition, $locale)
     {
-        $definition += array(
-            'decimal_separator' => '.',
-            'grouping_separator' => ',',
-            'plus_sign' => '+',
-            'minus_sign' => '-',
-            'percent_sign' => '%',
-        );
+        if (!isset($definition['decimal_separator'])) {
+            $definition['decimal_separator'] = '.';
+        }
+        if (!isset($definition['grouping_separator'])) {
+            $definition['grouping_separator'] = ',';
+        }
+        if (!isset($definition['plus_sign'])) {
+            $definition['plus_sign'] = '+';
+        }
+        if (!isset($definition['minus_sign'])) {
+            $definition['minus_sign'] = '-';
+        }
+        if (!isset($definition['percent_sign'])) {
+            $definition['percent_sign'] = '%';
+        }
 
         $numberFormat = new NumberFormat();
         $numberFormat->setLocale($locale);

@@ -110,9 +110,9 @@ class DefaultCurrencyManager implements CurrencyManagerInterface
      */
     protected function createCurrencyFromDefinition(array $definition, $locale)
     {
-        $definition += array(
-            'fraction_digits' => 2,
-        );
+        if (!isset($definition['fraction_digits'])) {
+            $definition['fraction_digits'] = 2;
+        }
 
         $currency = new Currency();
         $currency->setCurrencyCode($definition['code']);
