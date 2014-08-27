@@ -5,7 +5,7 @@ namespace CommerceGuys\Intl\Tests\Language;
 use CommerceGuys\Intl\Language\Language;
 
 /**
- * @coversDefaultClass CommerceGuys\Intl\Language\Language
+ * @coversDefaultClass \CommerceGuys\Intl\Language\Language
  */
 class LanguageTest extends \PHPUnit_Framework_TestCase
 {

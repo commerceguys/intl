@@ -7,7 +7,7 @@ use Symfony\Component\Yaml\Dumper;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * @coversDefaultClass CommerceGuys\Intl\Country\DefaultCountryManager
+ * @coversDefaultClass \CommerceGuys\Intl\Country\DefaultCountryManager
  */
 class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
 {
@@ -98,13 +98,13 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createCountryFromDefinition
-     * @uses CommerceGuys\Intl\Country\Country::getCountryCode
-     * @uses CommerceGuys\Intl\Country\Country::setCountryCode
-     * @uses CommerceGuys\Intl\Country\Country::setName
-     * @uses CommerceGuys\Intl\Country\Country::setThreeLetterCode
-     * @uses CommerceGuys\Intl\Country\Country::setNumericCode
-     * @uses CommerceGuys\Intl\Country\Country::setTelephoneCode
-     * @uses CommerceGuys\Intl\Country\Country::setLocale
+     * @uses \CommerceGuys\Intl\Country\Country::getCountryCode
+     * @uses \CommerceGuys\Intl\Country\Country::setCountryCode
+     * @uses \CommerceGuys\Intl\Country\Country::setName
+     * @uses \CommerceGuys\Intl\Country\Country::setThreeLetterCode
+     * @uses \CommerceGuys\Intl\Country\Country::setNumericCode
+     * @uses \CommerceGuys\Intl\Country\Country::setTelephoneCode
+     * @uses \CommerceGuys\Intl\Country\Country::setLocale
      * @depends testConstructor
      */
     public function testGetAll($countryManager)

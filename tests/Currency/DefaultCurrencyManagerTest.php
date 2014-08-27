@@ -7,7 +7,7 @@ use Symfony\Component\Yaml\Dumper;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * @coversDefaultClass CommerceGuys\Intl\Currency\DefaultCurrencyManager
+ * @coversDefaultClass \CommerceGuys\Intl\Currency\DefaultCurrencyManager
  */
 class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
 {
@@ -69,18 +69,18 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCurrencyFromDefinition
-     * @uses CommerceGuys\Intl\Currency\Currency::getCurrencyCode
-     * @uses CommerceGuys\Intl\Currency\Currency::setCurrencyCode
-     * @uses CommerceGuys\Intl\Currency\Currency::getName
-     * @uses CommerceGuys\Intl\Currency\Currency::setName
-     * @uses CommerceGuys\Intl\Currency\Currency::getNumericCode
-     * @uses CommerceGuys\Intl\Currency\Currency::setNumericCode
-     * @uses CommerceGuys\Intl\Currency\Currency::getFractionDigits
-     * @uses CommerceGuys\Intl\Currency\Currency::setFractionDigits
-     * @uses CommerceGuys\Intl\Currency\Currency::getSymbol
-     * @uses CommerceGuys\Intl\Currency\Currency::setSymbol
-     * @uses CommerceGuys\Intl\Currency\Currency::getLocale
-     * @uses CommerceGuys\Intl\Currency\Currency::setLocale
+     * @uses \CommerceGuys\Intl\Currency\Currency::getCurrencyCode
+     * @uses \CommerceGuys\Intl\Currency\Currency::setCurrencyCode
+     * @uses \CommerceGuys\Intl\Currency\Currency::getName
+     * @uses \CommerceGuys\Intl\Currency\Currency::setName
+     * @uses \CommerceGuys\Intl\Currency\Currency::getNumericCode
+     * @uses \CommerceGuys\Intl\Currency\Currency::setNumericCode
+     * @uses \CommerceGuys\Intl\Currency\Currency::getFractionDigits
+     * @uses \CommerceGuys\Intl\Currency\Currency::setFractionDigits
+     * @uses \CommerceGuys\Intl\Currency\Currency::getSymbol
+     * @uses \CommerceGuys\Intl\Currency\Currency::setSymbol
+     * @uses \CommerceGuys\Intl\Currency\Currency::getLocale
+     * @uses \CommerceGuys\Intl\Currency\Currency::setLocale
      * @depends testConstructor
      */
     public function testGet($currencyManager)
@@ -110,13 +110,13 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createCurrencyFromDefinition
-     * @uses CommerceGuys\Intl\Currency\Currency::getCurrencyCode
-     * @uses CommerceGuys\Intl\Currency\Currency::setCurrencyCode
-     * @uses CommerceGuys\Intl\Currency\Currency::setName
-     * @uses CommerceGuys\Intl\Currency\Currency::setNumericCode
-     * @uses CommerceGuys\Intl\Currency\Currency::setFractionDigits
-     * @uses CommerceGuys\Intl\Currency\Currency::setSymbol
-     * @uses CommerceGuys\Intl\Currency\Currency::setLocale
+     * @uses \CommerceGuys\Intl\Currency\Currency::getCurrencyCode
+     * @uses \CommerceGuys\Intl\Currency\Currency::setCurrencyCode
+     * @uses \CommerceGuys\Intl\Currency\Currency::setName
+     * @uses \CommerceGuys\Intl\Currency\Currency::setNumericCode
+     * @uses \CommerceGuys\Intl\Currency\Currency::setFractionDigits
+     * @uses \CommerceGuys\Intl\Currency\Currency::setSymbol
+     * @uses \CommerceGuys\Intl\Currency\Currency::setLocale
      * @depends testConstructor
      */
     public function testGetAll($currencyManager)

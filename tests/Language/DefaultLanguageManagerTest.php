@@ -7,7 +7,7 @@ use Symfony\Component\Yaml\Dumper;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * @coversDefaultClass CommerceGuys\Intl\Language\DefaultLanguageManager
+ * @coversDefaultClass \CommerceGuys\Intl\Language\DefaultLanguageManager
  */
 class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
 {
@@ -48,12 +48,12 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createLanguageFromDefinition
-     * @uses CommerceGuys\Intl\Language\Language::getLanguageCode
-     * @uses CommerceGuys\Intl\Language\Language::setLanguageCode
-     * @uses CommerceGuys\Intl\Language\Language::getName
-     * @uses CommerceGuys\Intl\Language\Language::setName
-     * @uses CommerceGuys\Intl\Language\Language::getLocale
-     * @uses CommerceGuys\Intl\Language\Language::setLocale
+     * @uses \CommerceGuys\Intl\Language\Language::getLanguageCode
+     * @uses \CommerceGuys\Intl\Language\Language::setLanguageCode
+     * @uses \CommerceGuys\Intl\Language\Language::getName
+     * @uses \CommerceGuys\Intl\Language\Language::setName
+     * @uses \CommerceGuys\Intl\Language\Language::getLocale
+     * @uses \CommerceGuys\Intl\Language\Language::setLocale
      * @depends testConstructor
      */
     public function testGet($languageManager)
@@ -80,10 +80,10 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createLanguageFromDefinition
-     * @uses CommerceGuys\Intl\Language\Language::getLanguageCode
-     * @uses CommerceGuys\Intl\Language\Language::setLanguageCode
-     * @uses CommerceGuys\Intl\Language\Language::setName
-     * @uses CommerceGuys\Intl\Language\Language::setLocale
+     * @uses \CommerceGuys\Intl\Language\Language::getLanguageCode
+     * @uses \CommerceGuys\Intl\Language\Language::setLanguageCode
+     * @uses \CommerceGuys\Intl\Language\Language::setName
+     * @uses \CommerceGuys\Intl\Language\Language::setLocale
      * @depends testConstructor
      */
     public function testGetAll($languageManager)
