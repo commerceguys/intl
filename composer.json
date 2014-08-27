@@ -17,6 +17,11 @@
             "CommerceGuys\\Intl\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "CommerceGuys\\Intl\\Tests\\": "tests"
+        }
+    },
     "authors": [
         {
             "name": "Bojan Zivanovic"
