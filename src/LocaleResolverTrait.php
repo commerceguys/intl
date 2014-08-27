@@ -40,7 +40,7 @@ trait LocaleResolverTrait
         // A fallback locale was provided, add it to the end of the chain.
         if (isset($fallbackLocale)) {
             $fallbackLocaleVariants = $this->getLocaleVariants($fallbackLocale);
-            $localeVariants = array_merge($localeVariants, $fallbackLocale);
+            $localeVariants = array_merge($localeVariants, $fallbackLocaleVariants);
         }
 
         // Try to resolve a locale by finding a matching definition file.
