@@ -65,7 +65,6 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ::__construct
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCurrencyFromDefinition
@@ -81,6 +80,8 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\Currency\Currency::setSymbol
      * @uses \CommerceGuys\Intl\Currency\Currency::getLocale
      * @uses \CommerceGuys\Intl\Currency\Currency::setLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
     public function testGet($currencyManager)
@@ -98,6 +99,8 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @expectedException \CommerceGuys\Intl\Currency\UnknownCurrencyException
      * @depends testConstructor
      */
@@ -117,6 +120,8 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\Currency\Currency::setFractionDigits
      * @uses \CommerceGuys\Intl\Currency\Currency::setSymbol
      * @uses \CommerceGuys\Intl\Currency\Currency::setLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
     public function testGetAll($currencyManager)

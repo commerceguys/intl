@@ -41,7 +41,6 @@ class DefaultNumberFormatManagerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ::__construct
      * @covers ::get
      * @covers ::createNumberFormatFromDefinition
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getLocale
@@ -66,6 +65,8 @@ class DefaultNumberFormatManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setCurrencyPattern
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getAccountingCurrencyPattern
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setAccountingCurrencyPattern
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
     public function testGet($numberFormatManager)

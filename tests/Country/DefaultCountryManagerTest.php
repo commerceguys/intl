@@ -69,6 +69,20 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCountryFromDefinition
+     * @uses \CommerceGuys\Intl\Country\Country::getCountryCode
+     * @uses \CommerceGuys\Intl\Country\Country::setCountryCode
+     * @uses \CommerceGuys\Intl\Country\Country::getName
+     * @uses \CommerceGuys\Intl\Country\Country::setName
+     * @uses \CommerceGuys\Intl\Country\Country::getThreeLetterCode
+     * @uses \CommerceGuys\Intl\Country\Country::setThreeLetterCode
+     * @uses \CommerceGuys\Intl\Country\Country::getNumericCode
+     * @uses \CommerceGuys\Intl\Country\Country::setNumericCode
+     * @uses \CommerceGuys\Intl\Country\Country::getTelephoneCode
+     * @uses \CommerceGuys\Intl\Country\Country::setTelephoneCode
+     * @uses \CommerceGuys\Intl\Country\Country::getLocale
+     * @uses \CommerceGuys\Intl\Country\Country::setLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
     public function testGet($countryManager)
@@ -86,6 +100,8 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @expectedException \CommerceGuys\Intl\Country\UnknownCountryException
      * @depends testConstructor
      */
@@ -105,6 +121,8 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\Country\Country::setNumericCode
      * @uses \CommerceGuys\Intl\Country\Country::setTelephoneCode
      * @uses \CommerceGuys\Intl\Country\Country::setLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
     public function testGetAll($countryManager)

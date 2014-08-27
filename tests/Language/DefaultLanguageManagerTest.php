@@ -44,7 +44,6 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ::__construct
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createLanguageFromDefinition
@@ -68,6 +67,8 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @expectedException \CommerceGuys\Intl\Language\UnknownLanguageException
      * @depends testConstructor
      */
@@ -84,6 +85,8 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\Language\Language::setLanguageCode
      * @uses \CommerceGuys\Intl\Language\Language::setName
      * @uses \CommerceGuys\Intl\Language\Language::setLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
     public function testGetAll($languageManager)
