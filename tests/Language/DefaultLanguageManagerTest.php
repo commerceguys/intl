@@ -37,8 +37,11 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
         $root = vfsStream::setup('resources');
         vfsStream::newFile('language/en.yml')->at($root)->setContent($dumper->dump($this->englishDefinitions));
 
-        // Instantiate the language manager.
+        // Instantiate the language manager and confirm that the definition path
+        // was properly set.
         $languageManager = new DefaultLanguageManager('vfs://resources/language/');
+        $definitionPath = $this->getObjectAttribute($languageManager, 'definitionPath');
+        $this->assertEquals($definitionPath, 'vfs://resources/language/');
 
         return $languageManager;
     }
@@ -53,6 +56,8 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\Language\Language::setName
      * @uses \CommerceGuys\Intl\Language\Language::getLocale
      * @uses \CommerceGuys\Intl\Language\Language::setLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
     public function testGet($languageManager)

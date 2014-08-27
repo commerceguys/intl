@@ -55,11 +55,11 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
         vfsStream::newFile('currency/base.yml')->at($root)->setContent($dumper->dump($this->baseDefinitions));
         vfsStream::newFile('currency/en.yml')->at($root)->setContent($dumper->dump($this->englishDefinitions));
 
-        // Instantiate the currency manager and confirm that the parsed
-        // base definitions match the starting ones.
+        // Instantiate the currency manager and confirm that the definition path
+        // was properly set.
         $currencyManager = new DefaultCurrencyManager('vfs://resources/currency/');
-        $baseDefinitions = $this->getObjectAttribute($currencyManager, 'baseDefinitions');
-        $this->assertEquals($baseDefinitions, $this->baseDefinitions);
+        $definitionPath = $this->getObjectAttribute($currencyManager, 'definitionPath');
+        $this->assertEquals($definitionPath, 'vfs://resources/currency/');
 
         return $currencyManager;
     }

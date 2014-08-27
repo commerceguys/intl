@@ -34,8 +34,11 @@ class DefaultNumberFormatManagerTest extends \PHPUnit_Framework_TestCase
         $root = vfsStream::setup('resources');
         vfsStream::newFile('number_format/en.yml')->at($root)->setContent($dumper->dump($this->englishDefinition));
 
-        // Instantiate the numberFormat manager.
+        // Instantiate the number format manager and confirm that the definition
+        // path was properly set.
         $numberFormatManager = new DefaultNumberFormatManager('vfs://resources/number_format/');
+        $definitionPath = $this->getObjectAttribute($numberFormatManager, 'definitionPath');
+        $this->assertEquals($definitionPath, 'vfs://resources/number_format/');
 
         return $numberFormatManager;
     }

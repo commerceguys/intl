@@ -56,11 +56,11 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
         vfsStream::newFile('country/base.yml')->at($root)->setContent($dumper->dump($this->baseDefinitions));
         vfsStream::newFile('country/en.yml')->at($root)->setContent($dumper->dump($this->englishDefinitions));
 
-        // Instantiate the country manager and confirm that the parsed
-        // base definitions match the starting ones.
+        // Instantiate the country manager and confirm that the definition path
+        // was properly set.
         $countryManager = new DefaultCountryManager('vfs://resources/country/');
-        $baseDefinitions = $this->getObjectAttribute($countryManager, 'baseDefinitions');
-        $this->assertEquals($baseDefinitions, $this->baseDefinitions);
+        $definitionPath = $this->getObjectAttribute($countryManager, 'definitionPath');
+        $this->assertEquals($definitionPath, 'vfs://resources/country/');
 
         return $countryManager;
     }
