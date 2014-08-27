@@ -46,7 +46,6 @@ class DefaultCurrencyManager implements CurrencyManagerInterface
     {
         $this->parser = new Parser();
         $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/currency/';
-        $this->baseDefinitions = $this->parser->parse(file_get_contents($this->definitionPath . 'base.yml'));
     }
 
     /**
@@ -91,6 +90,11 @@ class DefaultCurrencyManager implements CurrencyManagerInterface
         if (!isset($this->definitions[$locale])) {
             $filename = $this->definitionPath . $locale . '.yml';
             $this->definitions[$locale] = $this->parser->parse(file_get_contents($filename));
+
+            // Make sure the base definitions have been loaded.
+            if (empty($this->baseDefinitions)) {
+                $this->baseDefinitions = $this->parser->parse(file_get_contents($this->definitionPath . 'base.yml'));
+            }
             // Merge-in base definitions.
             foreach ($this->definitions[$locale] as $currencyCode => $definition) {
                 $this->definitions[$locale][$currencyCode] += $this->baseDefinitions[$currencyCode];
