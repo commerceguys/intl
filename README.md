@@ -25,6 +25,8 @@ dataset is always fresh.
 Having access to the CLDR dataset also makes it possible to offer additional APIs,
 such as listing all currencies.
 
+More backstory can be found in [this blog post](https://drupalcommerce.org/blog/15916/commerce-2x-stories-internationalization).
+
 Formatting numbers
 ------------------
 Formats numbers (decimals, percents, currency amounts) using locale-specific rules.
