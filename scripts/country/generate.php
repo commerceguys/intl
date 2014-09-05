@@ -10,7 +10,7 @@ include '../../vendor/autoload.php';
 
 use Symfony\Component\Yaml\Dumper;
 
-$dumper = new Dumper;
+$dumper = new Dumper();
 
 // Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
 $enCountries = '../json_full/main/en/territories.json';
@@ -48,11 +48,11 @@ $ignoredLocales = array(
 );
 
 // Assemble the base data. Use the "en" data to get a list of countries.
-$telephoneCodeData = json_decode(file_get_contents($telephoneCodeData), TRUE);
+$telephoneCodeData = json_decode(file_get_contents($telephoneCodeData), true);
 $telephoneCodeData = $telephoneCodeData['supplemental']['telephoneCodeData'];
-$codeMappings = json_decode(file_get_contents($codeMappings), TRUE);
+$codeMappings = json_decode(file_get_contents($codeMappings), true);
 $codeMappings = $codeMappings['supplemental']['codeMappings'];
-$countryData = json_decode(file_get_contents($enCountries), TRUE);
+$countryData = json_decode(file_get_contents($enCountries), true);
 $countryData = $countryData['main']['en']['localeDisplayNames']['territories'];
 $baseData = array();
 foreach ($countryData as $countryCode => $countryName) {
@@ -78,12 +78,10 @@ foreach ($countryData as $countryCode => $countryName) {
     if (in_array($countryCode, array('IC', 'EA'))) {
         // "Canary Islands" and "Ceuta and Melilla" use Spain's.
         $baseData[$countryCode]['telephone_code'] = $telephoneCodeData['ES'][0]['telephoneCountryCode'];
-    }
-    elseif ($countryCode == 'XK') {
+    } elseif ($countryCode == 'XK') {
         // Kosovo uses three telephone codes. Use Serbia's until that gets resolved.
         $baseData[$countryCode]['telephone_code'] = $telephoneCodeData['RS'][0]['telephoneCountryCode'];
-    }
-    elseif (isset($telephoneCodeData[$countryCode])) {
+    } elseif (isset($telephoneCodeData[$countryCode])) {
         $baseData[$countryCode]['telephone_code'] = $telephoneCodeData[$countryCode][0]['telephoneCountryCode'];
     }
 }
@@ -110,7 +108,7 @@ if ($handle = opendir('../json_full/main')) {
 // Create the localizations.
 $countries = array();
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/territories.json'), TRUE);
+    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/territories.json'), true);
     $data = $data['main'][$locale]['localeDisplayNames']['territories'];
     foreach ($data as $countryCode => $countryName) {
         if (isset($baseData[$countryCode])) {

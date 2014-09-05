@@ -14,7 +14,7 @@ include '../../vendor/autoload.php';
 
 use Symfony\Component\Yaml\Dumper;
 
-$dumper = new Dumper;
+$dumper = new Dumper();
 
 // Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
 $enLanguages = '../json_full/main/en/languages.json';
@@ -39,7 +39,7 @@ $ignoredLocales = array(
 $languages = array();
 // Load the "en" data first so that it can be used as a fallback for
 // untranslated language names in other locales.
-$languageData = json_decode(file_get_contents($enLanguages), TRUE);
+$languageData = json_decode(file_get_contents($enLanguages), true);
 $languageData = $languageData['main']['en']['localeDisplayNames']['languages'];
 foreach ($languageData as $languageCode => $languageName) {
     if (strpos($languageCode, '-alt-') === FALSE) {
@@ -74,7 +74,7 @@ foreach ($languages['en'] as $languageCode => $languageData) {
 
 // Load the localizations.
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/languages.json'), TRUE);
+    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/languages.json'), true);
     $data = $data['main'][$locale]['localeDisplayNames']['languages'];
     foreach ($data as $languageCode => $languageName) {
         if (isset($languages['en'][$languageCode])) {

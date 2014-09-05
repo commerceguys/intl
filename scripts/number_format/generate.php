@@ -10,7 +10,7 @@ include '../../vendor/autoload.php';
 
 use Symfony\Component\Yaml\Dumper;
 
-$dumper = new Dumper;
+$dumper = new Dumper();
 
 // Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
 if (!is_dir('../json_full/main')) {
@@ -43,13 +43,12 @@ if ($handle = opendir('../json_full/main')) {
 // Load the data.
 $numberFormats = array();
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/numbers.json'), TRUE);
+    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/numbers.json'), true);
     $data = $data['main'][$locale]['numbers'];
     // Use the default numbering system, if it's supported.
     if (in_array($data['defaultNumberingSystem'], array('arab', 'arabext', 'beng', 'deva', 'latn'))) {
         $numberingSystem = $data['defaultNumberingSystem'];
-    }
-    else {
+    } else {
         $numberingSystem = 'latn';
     }
 

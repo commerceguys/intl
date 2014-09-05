@@ -13,7 +13,7 @@ include '../../vendor/autoload.php';
 
 use Symfony\Component\Yaml\Dumper;
 
-$dumper = new Dumper;
+$dumper = new Dumper();
 
 // Downloaded from http://www.currency-iso.org/en/home/tables/table-a1.html
 $isoCurrencies = '../c2.xml';
@@ -46,7 +46,7 @@ $ignoredLocales = array(
 
 // Assemble the base data.
 $baseData = array();
-$currencyData = json_decode(file_get_contents($currencyData), TRUE);
+$currencyData = json_decode(file_get_contents($currencyData), true);
 $currencyData = $currencyData['supplemental']['currencyData']['fractions'];
 $isoData = simplexml_load_file($isoCurrencies);
 foreach ($isoData->CcyTbl->CcyNtry as $currency) {
@@ -103,7 +103,7 @@ if ($handle = opendir('../json_full/main')) {
 // Create the localizations.
 $currencies = array();
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/currencies.json'), TRUE);
+    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/currencies.json'), true);
     $data = $data['main'][$locale]['numbers']['currencies'];
     foreach ($data as $currencyCode => $currency) {
         if (isset($baseData[$currencyCode])) {

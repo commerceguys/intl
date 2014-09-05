@@ -122,7 +122,7 @@ class NumberFormatter implements NumberFormatterInterface
         $this->numberFormat = $numberFormat;
         $this->positivePattern = $patterns[0];
         $this->negativePattern = $patterns[1];
-        $this->groupingUsed = (strpos($this->positivePattern, ',') !== FALSE);
+        $this->groupingUsed = (strpos($this->positivePattern, ',') !== false);
         // This pattern has number groups, parse them.
         if ($this->groupingUsed) {
             preg_match('/#+0/', $this->positivePattern, $primaryGroupMatches);
@@ -236,8 +236,7 @@ class NumberFormatter implements NumberFormatterInterface
         // Determine whether to show the currency symbol or the currency code.
         if ($this->currencyDisplay == self::CURRENCY_DISPLAY_SYMBOL) {
             $symbol = $currency->getSymbol();
-        }
-        else {
+        } else {
             $symbol = $currency->getCurrencyCode();
         }
 
@@ -276,7 +275,7 @@ class NumberFormatter implements NumberFormatterInterface
             $value = '-' . str_replace(array('(', ')'), '', $value);
         }
 
-        return is_numeric($value) ? $value : FALSE;
+        return is_numeric($value) ? $value : false;
     }
 
     /**
@@ -345,7 +344,8 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function getMaximumFractionDigits() {
+    public function getMaximumFractionDigits()
+    {
         return $this->maximumFractionDigits;
     }
 

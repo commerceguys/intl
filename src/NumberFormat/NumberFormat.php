@@ -102,84 +102,96 @@ class NumberFormat implements NumberFormatInterface
     /**
      * {@inheritdoc}
      */
-    public function getNumberingSystem() {
+    public function getNumberingSystem()
+    {
         return $this->numberingSystem;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function setNumberingSystem($numberingSystem) {
+    public function setNumberingSystem($numberingSystem)
+    {
         $this->numberingSystem = $numberingSystem;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function getDecimalSeparator() {
+    public function getDecimalSeparator()
+    {
         return $this->decimalSeparator;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function setDecimalSeparator($decimalSeparator) {
+    public function setDecimalSeparator($decimalSeparator)
+    {
         $this->decimalSeparator = $decimalSeparator;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function getGroupingSeparator() {
+    public function getGroupingSeparator()
+    {
         return $this->groupingSeparator;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function setGroupingSeparator($groupingSeparator) {
+    public function setGroupingSeparator($groupingSeparator)
+    {
         $this->groupingSeparator = $groupingSeparator;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function getPlusSign() {
+    public function getPlusSign()
+    {
         return $this->plusSign;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function setPlusSign($plusSign) {
+    public function setPlusSign($plusSign)
+    {
         $this->plusSign = $plusSign;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function getMinusSign() {
+    public function getMinusSign()
+    {
         return $this->minusSign;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function setMinusSign($minusSign) {
+    public function setMinusSign($minusSign)
+    {
         $this->minusSign = $minusSign;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function getPercentSign() {
+    public function getPercentSign()
+    {
         return $this->percentSign;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function setPercentSign($percentSign) {
+    public function setPercentSign($percentSign)
+    {
         $this->percentSign = $percentSign;
     }
 
