@@ -3,10 +3,9 @@
 namespace CommerceGuys\Intl\Language;
 
 use CommerceGuys\Intl\LocaleResolverTrait;
-use Symfony\Component\Yaml\Parser;
 
 /**
- * Manages languages based on YAML definitions.
+ * Manages languages based on JSON definitions.
  */
 class DefaultLanguageManager implements LanguageManagerInterface
 {
@@ -20,13 +19,6 @@ class DefaultLanguageManager implements LanguageManagerInterface
     protected $definitions = array();
 
     /**
-     * The yaml parser.
-     *
-     * @var \Symfony\Component\Yaml\Parser
-     */
-    protected $parser;
-
-    /**
      * Creates a DefaultLanguageManager instance.
      *
      * @param string $definitionPath The path to the currency definitions.
@@ -34,7 +26,6 @@ class DefaultLanguageManager implements LanguageManagerInterface
      */
     public function __construct($definitionPath = null)
     {
-        $this->parser = new Parser();
         $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/language/';
     }
 
@@ -78,8 +69,8 @@ class DefaultLanguageManager implements LanguageManagerInterface
     protected function loadDefinitions($locale)
     {
         if (!isset($this->definitions[$locale])) {
-            $filename = $this->definitionPath . $locale . '.yml';
-            $this->definitions[$locale] = $this->parser->parse(file_get_contents($filename));
+            $filename = $this->definitionPath . $locale . '.json';
+            $this->definitions[$locale] = json_decode(file_get_contents($filename), true);
         }
 
         return $this->definitions[$locale];

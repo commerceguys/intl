@@ -46,7 +46,7 @@ trait LocaleResolverTrait
         // Try to resolve a locale by finding a matching definition file.
         $resolvedLocale = null;
         foreach ($localeVariants as $localeVariant) {
-            $path = $this->definitionPath . $localeVariant . '.yml';
+            $path = $this->definitionPath . $localeVariant . '.json';
             if (file_exists($path)) {
                 $resolvedLocale = $localeVariant;
                 break;

@@ -1,19 +1,13 @@
 <?php
 
 /**
- * Generates the yml files stored in resources/currency.
+ * Generates the json files stored in resources/currency.
  *
  * The ISO currency list is used as a base, since it doesn't contain
  * deprecated currencies, unlike CLDR (v25 has 139 deprecated entries).
  */
 
 set_time_limit(0);
-
-include '../../vendor/autoload.php';
-
-use Symfony\Component\Yaml\Dumper;
-
-$dumper = new Dumper();
 
 // Downloaded from http://www.currency-iso.org/en/home/tables/table-a1.html
 $isoCurrencies = '../c2.xml';
@@ -81,10 +75,10 @@ foreach ($isoData->CcyTbl->CcyNtry as $currency) {
     }
 }
 
-// Write out base.yml.
+// Write out base.json.
 ksort($baseData);
-$yaml = $dumper->dump($baseData, 3);
-file_put_contents('base.yml', $yaml);
+$json = json_encode($baseData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+file_put_contents('base.json', $json);
 
 // Gather available locales.
 $locales = array();
@@ -143,6 +137,6 @@ foreach ($duplicates as $locale) {
 // Write out the localizations.
 foreach ($currencies as $locale => $localizedCurrencies) {
     ksort($localizedCurrencies);
-    $yaml = $dumper->dump($localizedCurrencies, 3);
-    file_put_contents($locale . '.yml', $yaml);
+    $json = json_encode($localizedCurrencies, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    file_put_contents($locale . '.json', $json);
 }

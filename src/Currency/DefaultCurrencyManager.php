@@ -3,10 +3,9 @@
 namespace CommerceGuys\Intl\Currency;
 
 use CommerceGuys\Intl\LocaleResolverTrait;
-use Symfony\Component\Yaml\Parser;
 
 /**
- * Manages currencies based on YAML definitions.
+ * Manages currencies based on JSON definitions.
  */
 class DefaultCurrencyManager implements CurrencyManagerInterface
 {
@@ -30,13 +29,6 @@ class DefaultCurrencyManager implements CurrencyManagerInterface
     protected $definitions = array();
 
     /**
-     * The yaml parser.
-     *
-     * @var \Symfony\Component\Yaml\Parser
-     */
-    protected $parser;
-
-    /**
      * Creates a DefaultCurrencyManager instance.
      *
      * @param string $definitionPath The path to the currency definitions.
@@ -44,7 +36,6 @@ class DefaultCurrencyManager implements CurrencyManagerInterface
      */
     public function __construct($definitionPath = null)
     {
-        $this->parser = new Parser();
         $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/currency/';
     }
 
@@ -88,12 +79,12 @@ class DefaultCurrencyManager implements CurrencyManagerInterface
     protected function loadDefinitions($locale)
     {
         if (!isset($this->definitions[$locale])) {
-            $filename = $this->definitionPath . $locale . '.yml';
-            $this->definitions[$locale] = $this->parser->parse(file_get_contents($filename));
+            $filename = $this->definitionPath . $locale . '.json';
+            $this->definitions[$locale] = json_decode(file_get_contents($filename), true);
 
             // Make sure the base definitions have been loaded.
             if (empty($this->baseDefinitions)) {
-                $this->baseDefinitions = $this->parser->parse(file_get_contents($this->definitionPath . 'base.yml'));
+                $this->baseDefinitions = json_decode(file_get_contents($this->definitionPath . 'base.json'), true);
             }
             // Merge-in base definitions.
             foreach ($this->definitions[$locale] as $currencyCode => $definition) {

@@ -3,7 +3,6 @@
 namespace CommerceGuys\Intl\Tests\Language;
 
 use CommerceGuys\Intl\Language\DefaultLanguageManager;
-use Symfony\Component\Yaml\Dumper;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -32,10 +31,9 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstructor()
     {
-        // Mock the existence of YAML definitions on the filesystem.
-        $dumper = new Dumper;
+        // Mock the existence of JSON definitions on the filesystem.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('language/en.yml')->at($root)->setContent($dumper->dump($this->englishDefinitions));
+        vfsStream::newFile('language/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
 
         // Instantiate the language manager and confirm that the definition path
         // was properly set.

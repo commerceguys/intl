@@ -16,9 +16,9 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
     {
         // Simulate the presence of various definitions.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('dummy/bs-Cyrl.yml')->at($root)->setContent('');
-        vfsStream::newFile('dummy/bs.yml')->at($root)->setContent('');
-        vfsStream::newFile('dummy/en.yml')->at($root)->setContent('');
+        vfsStream::newFile('dummy/bs-Cyrl.json')->at($root)->setContent('');
+        vfsStream::newFile('dummy/bs.json')->at($root)->setContent('');
+        vfsStream::newFile('dummy/en.json')->at($root)->setContent('');
 
         $this->manager = new DummyManager;
     }

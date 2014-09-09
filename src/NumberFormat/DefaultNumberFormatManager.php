@@ -3,10 +3,9 @@
 namespace CommerceGuys\Intl\NumberFormat;
 
 use CommerceGuys\Intl\LocaleResolverTrait;
-use Symfony\Component\Yaml\Parser;
 
 /**
- * Manages number formats based on YAML definitions.
+ * Manages number formats based on JSON definitions.
  */
 class DefaultNumberFormatManager implements NumberFormatManagerInterface
 {
@@ -20,13 +19,6 @@ class DefaultNumberFormatManager implements NumberFormatManagerInterface
     protected $definitions = array();
 
     /**
-     * The yaml parser.
-     *
-     * @var \Symfony\Component\Yaml\Parser
-     */
-    protected $parser;
-
-    /**
      * Creates a DefaultNumberFormatManager instance.
      *
      * @param string $definitionPath The path to the number format definitions.
@@ -34,7 +26,6 @@ class DefaultNumberFormatManager implements NumberFormatManagerInterface
      */
     public function __construct($definitionPath = null)
     {
-        $this->parser = new Parser();
         $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/number_format/';
     }
 
@@ -45,8 +36,8 @@ class DefaultNumberFormatManager implements NumberFormatManagerInterface
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         if (!isset($this->definitions[$locale])) {
-            $filename = $this->definitionPath . $locale . '.yml';
-            $this->definitions[$locale] = $this->parser->parse(file_get_contents($filename));
+            $filename = $this->definitionPath . $locale . '.json';
+            $this->definitions[$locale] = json_decode(file_get_contents($filename), true);
         }
 
         return $this->createNumberFormatFromDefinition($this->definitions[$locale], $locale);

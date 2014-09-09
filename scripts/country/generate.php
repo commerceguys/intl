@@ -1,16 +1,10 @@
 <?php
 
 /**
- * Generates the yml files stored in resources/country.
+ * Generates the json files stored in resources/country.
  */
 
 set_time_limit(0);
-
-include '../../vendor/autoload.php';
-
-use Symfony\Component\Yaml\Dumper;
-
-$dumper = new Dumper();
 
 // Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
 $enCountries = '../json_full/main/en/territories.json';
@@ -86,10 +80,10 @@ foreach ($countryData as $countryCode => $countryName) {
     }
 }
 
-// Write out base.yml.
+// Write out base.json.
 ksort($baseData);
-$yaml = $dumper->dump($baseData, 3);
-file_put_contents('base.yml', $yaml);
+$json = json_encode($baseData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+file_put_contents('base.json', $json);
 
 // Gather available locales.
 $locales = array();
@@ -152,6 +146,6 @@ foreach ($duplicates as $locale) {
 // Write out the localizations.
 foreach ($countries as $locale => $localizedCountries) {
     ksort($localizedCountries);
-    $yaml = $dumper->dump($localizedCountries, 3);
-    file_put_contents($locale . '.yml', $yaml);
+    $json = json_encode($localizedCountries, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    file_put_contents($locale . '.json', $json);
 }

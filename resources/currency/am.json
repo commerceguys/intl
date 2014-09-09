@@ -1,0 +1,634 @@
+{
+    "AED": {
+        "name": "የተባበሩት የአረብ ኤምረትስ ዲርሀም",
+        "symbol": "AED"
+    },
+    "AFN": {
+        "name": "የአፍጋን አፍጋኒ",
+        "symbol": "AFN"
+    },
+    "ALL": {
+        "name": "የአልባንያ ሌክ",
+        "symbol": "ALL"
+    },
+    "AMD": {
+        "name": "የአርመን ድራም",
+        "symbol": "AMD"
+    },
+    "ANG": {
+        "name": "ኔዘርላንድስ አንቲሊአን ጊልደር",
+        "symbol": "ANG"
+    },
+    "AOA": {
+        "name": "የአንጎላ ኩዋንዛ",
+        "symbol": "AOA"
+    },
+    "ARS": {
+        "name": "የአርጀንቲና ፔሶ",
+        "symbol": "ARS"
+    },
+    "AUD": {
+        "name": "የአውስትራሊያ ዶላር",
+        "symbol": "AU$"
+    },
+    "AWG": {
+        "name": "አሩባን ፍሎሪን",
+        "symbol": "AWG"
+    },
+    "AZN": {
+        "name": "የአዛርባጃን ማናት",
+        "symbol": "AZN"
+    },
+    "BAM": {
+        "name": "የቦስኒያ ሄርዞጎቪና የሚመነዘር ማርክ",
+        "symbol": "BAM"
+    },
+    "BBD": {
+        "name": "የባርቤዶስ ዶላር",
+        "symbol": "BBD"
+    },
+    "BDT": {
+        "name": "የባንግላዲሽ ታካ",
+        "symbol": "BDT"
+    },
+    "BGN": {
+        "name": "የቡልጋሪያ ሌቭ",
+        "symbol": "BGN"
+    },
+    "BHD": {
+        "name": "የባኽሬን ዲናር",
+        "symbol": "BHD"
+    },
+    "BIF": {
+        "name": "የብሩንዲ ፍራንክ",
+        "symbol": "BIF"
+    },
+    "BMD": {
+        "name": "የቤርሙዳ ዶላር",
+        "symbol": "BMD"
+    },
+    "BND": {
+        "name": "የብሩኔ ዶላር",
+        "symbol": "BND"
+    },
+    "BOB": {
+        "name": "የቦሊቪያ ቦሊቪያኖ",
+        "symbol": "BOB"
+    },
+    "BRL": {
+        "name": "የብራዚል ሪል",
+        "symbol": "R$"
+    },
+    "BSD": {
+        "name": "የባሃማስ ዶላር",
+        "symbol": "BSD"
+    },
+    "BTN": {
+        "name": "ብሁታኒዝ ንጉልትረም",
+        "symbol": "BTN"
+    },
+    "BWP": {
+        "name": "የቦትስዋና ፑላ",
+        "symbol": "BWP"
+    },
+    "BYR": {
+        "name": "የቤላሩስያ ሩብል",
+        "symbol": "BYR"
+    },
+    "BZD": {
+        "name": "የቤሊዝ ዶላር",
+        "symbol": "BZD"
+    },
+    "CAD": {
+        "name": "የካናዳ ዶላር",
+        "symbol": "CA$"
+    },
+    "CDF": {
+        "name": "የኮንጐ ፍራንክ ኮንጐሌዝ",
+        "symbol": "CDF"
+    },
+    "CHF": {
+        "name": "የስዊስ ፍራንክ",
+        "symbol": "CHF"
+    },
+    "CLP": {
+        "name": "የቺሊ ፔሶ",
+        "symbol": "CLP"
+    },
+    "CNY": {
+        "name": "የቻይና የን",
+        "symbol": "CN¥"
+    },
+    "COP": {
+        "name": "የኮሎምቢያ ፔሶ",
+        "symbol": "COP"
+    },
+    "CRC": {
+        "name": "የኮስታሪካ ኮሎን",
+        "symbol": "CRC"
+    },
+    "CUC": {
+        "name": "የኩባ የሚመነዘር ፔሶ",
+        "symbol": "CUC"
+    },
+    "CUP": {
+        "name": "የኩባ ፔሶ",
+        "symbol": "CUP"
+    },
+    "CVE": {
+        "name": "የኬፕ ቫርዲ ኤስኩዶ",
+        "symbol": "CVE"
+    },
+    "CZK": {
+        "name": "ቼክ ሪፐፕሊክ ኮሩና",
+        "symbol": "CZK"
+    },
+    "DJF": {
+        "name": "የጅቡቲ ፍራንክ",
+        "symbol": "DJF"
+    },
+    "DKK": {
+        "name": "የዴንማርክ ክሮን",
+        "symbol": "DKK"
+    },
+    "DOP": {
+        "name": "የዶሚኒክ ፔሶ",
+        "symbol": "DOP"
+    },
+    "DZD": {
+        "name": "የአልጄሪያ ዲናር",
+        "symbol": "DZD"
+    },
+    "EGP": {
+        "name": "የግብጽ ፓውንድ",
+        "symbol": "EGP"
+    },
+    "ERN": {
+        "name": "ዬኤርትራ ናቅፋ",
+        "symbol": "ERN"
+    },
+    "ETB": {
+        "name": "የኢትዮጵያ ብር",
+        "symbol": "ብር"
+    },
+    "EUR": {
+        "name": "ዩሮ",
+        "symbol": "€"
+    },
+    "FJD": {
+        "name": "የፊጂ ዶላር",
+        "symbol": "FJD"
+    },
+    "FKP": {
+        "name": "የፎክላንድ ደሴቶች ፓውንድ",
+        "symbol": "FKP"
+    },
+    "GBP": {
+        "name": "የእንግሊዝ ፓውንድ ስተርሊንግ",
+        "symbol": "£"
+    },
+    "GEL": {
+        "name": "የጆርጅያ ላሪ",
+        "symbol": "GEL"
+    },
+    "GHS": {
+        "name": "የጋና ሲዲ",
+        "symbol": "GHS"
+    },
+    "GIP": {
+        "name": "ጊብራልታር ፓውንድ",
+        "symbol": "GIP"
+    },
+    "GMD": {
+        "name": "የጋምቢያ ዳላሲ",
+        "symbol": "GMD"
+    },
+    "GNF": {
+        "name": "የጊኒ ፍራንክ",
+        "symbol": "GNF"
+    },
+    "GTQ": {
+        "name": "ጓቲማላን ኩቲዛል",
+        "symbol": "GTQ"
+    },
+    "GYD": {
+        "name": "የጉየና ዶላር",
+        "symbol": "GYD"
+    },
+    "HKD": {
+        "name": "የሆንግኮንግ ዶላር",
+        "symbol": "HK$"
+    },
+    "HNL": {
+        "name": "የሃንዱራ ሌምፓአይራ",
+        "symbol": "HNL"
+    },
+    "HRK": {
+        "name": "የክሮሽያ ኩና",
+        "symbol": "HRK"
+    },
+    "HTG": {
+        "name": "የሃያቲ ጓርዴ",
+        "symbol": "HTG"
+    },
+    "HUF": {
+        "name": "የሁንጋሪ ፎሪንት",
+        "symbol": "HUF"
+    },
+    "IDR": {
+        "name": "የኢንዶኔዥያ ሩፒሃ",
+        "symbol": "IDR"
+    },
+    "ILS": {
+        "name": "የእስራኤል አዲስ ሽቅል",
+        "symbol": "₪"
+    },
+    "INR": {
+        "name": "የሕንድ ሩፒ",
+        "symbol": "₹"
+    },
+    "IQD": {
+        "name": "የኢራቅ ዲናር",
+        "symbol": "IQD"
+    },
+    "IRR": {
+        "name": "የኢራን ሪአል",
+        "symbol": "IRR"
+    },
+    "ISK": {
+        "name": "የአይስላንድ ክሮና",
+        "symbol": "ISK"
+    },
+    "JMD": {
+        "name": "የጃማይካ ዶላር",
+        "symbol": "JMD"
+    },
+    "JOD": {
+        "name": "የጆርዳን ዲናር",
+        "symbol": "JOD"
+    },
+    "JPY": {
+        "name": "የጃፓን የን",
+        "symbol": "JP¥"
+    },
+    "KES": {
+        "name": "የኬኒያ ሺሊንግ",
+        "symbol": "KES"
+    },
+    "KGS": {
+        "name": "የኪርጊስታን ሶም",
+        "symbol": "KGS"
+    },
+    "KHR": {
+        "name": "የካምቦዲያ ሬል",
+        "symbol": "KHR"
+    },
+    "KMF": {
+        "name": "የኮሞሮ ፍራንክ",
+        "symbol": "KMF"
+    },
+    "KPW": {
+        "name": "የሰሜን ኮሪያ ዎን",
+        "symbol": "KPW"
+    },
+    "KRW": {
+        "name": "የደቡብ ኮሪያ ዎን",
+        "symbol": "₩"
+    },
+    "KWD": {
+        "name": "የኩዌት ዲናር",
+        "symbol": "KWD"
+    },
+    "KYD": {
+        "name": "የካይማን ደሴቶች ዶላር",
+        "symbol": "KYD"
+    },
+    "KZT": {
+        "name": "የካዛኪስታን ተንጌ",
+        "symbol": "KZT"
+    },
+    "LAK": {
+        "name": "የላኦቲ ኪፕ",
+        "symbol": "LAK"
+    },
+    "LBP": {
+        "name": "የሊባኖስ ፓውንድ",
+        "symbol": "LBP"
+    },
+    "LKR": {
+        "name": "የሲሪላንካ ሩፒ",
+        "symbol": "LKR"
+    },
+    "LRD": {
+        "name": "የላይቤሪያ ዶላር",
+        "symbol": "LRD"
+    },
+    "LSL": {
+        "name": "የሌሶቶ ሎቲ",
+        "symbol": "LSL"
+    },
+    "LTL": {
+        "name": "ሊቱዌንያን ሊታስ",
+        "symbol": "LTL"
+    },
+    "LYD": {
+        "name": "የሊቢያ ዲናር",
+        "symbol": "LYD"
+    },
+    "MAD": {
+        "name": "የሞሮኮ ዲርሀም",
+        "symbol": "MAD"
+    },
+    "MDL": {
+        "name": "ሞልዶቫን ሊኡ",
+        "symbol": "MDL"
+    },
+    "MGA": {
+        "name": "የማደጋስካር ፋርንክ",
+        "symbol": "MGA"
+    },
+    "MKD": {
+        "name": "የሜቆድንያ ዲናር",
+        "symbol": "MKD"
+    },
+    "MMK": {
+        "name": "ምያንማ ክያት",
+        "symbol": "MMK"
+    },
+    "MNT": {
+        "name": "የሞንጎሊያን ቱግሪክ",
+        "symbol": "MNT"
+    },
+    "MOP": {
+        "name": "የማካኔዝ ፓታካ",
+        "symbol": "MOP"
+    },
+    "MRO": {
+        "name": "የሞሪቴኒያ ኦውጉያ",
+        "symbol": "MRO"
+    },
+    "MUR": {
+        "name": "የሞሪሸስ ሩፒ",
+        "symbol": "MUR"
+    },
+    "MVR": {
+        "name": "የማልዲቫ ሩፊያ",
+        "symbol": "MVR"
+    },
+    "MWK": {
+        "name": "የማላዊ ኩዋቻ",
+        "symbol": "MWK"
+    },
+    "MXN": {
+        "name": "የሜክሲኮ ፔሶ",
+        "symbol": "MX$"
+    },
+    "MYR": {
+        "name": "የማሌዥያ ሪንጊት",
+        "symbol": "MYR"
+    },
+    "MZN": {
+        "name": "የሞዛምቢክ ሜቲካል",
+        "symbol": "MZN"
+    },
+    "NAD": {
+        "name": "የናሚቢያ ዶላር",
+        "symbol": "NAD"
+    },
+    "NGN": {
+        "name": "የናይጄሪያ ናኢራ",
+        "symbol": "NGN"
+    },
+    "NIO": {
+        "name": "የኒካራጓ ኮርዶባ",
+        "symbol": "NIO"
+    },
+    "NOK": {
+        "name": "የኖርዌይ ክሮን",
+        "symbol": "NOK"
+    },
+    "NPR": {
+        "name": "የኔፓል ሩፒ",
+        "symbol": "NPR"
+    },
+    "NZD": {
+        "name": "የኒውዚላንድ ዶላር",
+        "symbol": "NZ$"
+    },
+    "OMR": {
+        "name": "የኦማን ሪአል",
+        "symbol": "OMR"
+    },
+    "PAB": {
+        "name": "ፓናማኒአን ባልቦአ",
+        "symbol": "PAB"
+    },
+    "PEN": {
+        "name": "የፔሩቪያ ኑኤቮ ሶል",
+        "symbol": "PEN"
+    },
+    "PGK": {
+        "name": "የፓፕዋ ኒው ጊኒ ኪና",
+        "symbol": "PGK"
+    },
+    "PHP": {
+        "name": "የፊሊፒንስ ፔሶ",
+        "symbol": "PHP"
+    },
+    "PKR": {
+        "name": "የፓኪስታን ሩፒ",
+        "symbol": "PKR"
+    },
+    "PLN": {
+        "name": "የፖላንድ ዝሎቲ",
+        "symbol": "PLN"
+    },
+    "PYG": {
+        "name": "የፓራጓይ ጉአራኒ",
+        "symbol": "PYG"
+    },
+    "QAR": {
+        "name": "የኳታር ሪአል",
+        "symbol": "QAR"
+    },
+    "RON": {
+        "name": "የሮማኒያ ለው",
+        "symbol": "RON"
+    },
+    "RSD": {
+        "name": "የሰርቢያ ዲናር",
+        "symbol": "RSD"
+    },
+    "RUB": {
+        "name": "የሩስያ ሩብል",
+        "symbol": "RUB"
+    },
+    "RWF": {
+        "name": "የሩዋንዳ ፍራንክ",
+        "symbol": "RWF"
+    },
+    "SAR": {
+        "name": "የሳውዲ ሪያል",
+        "symbol": "SAR"
+    },
+    "SBD": {
+        "name": "የሰለሞን ደሴቶች ዶላር",
+        "symbol": "SBD"
+    },
+    "SCR": {
+        "name": "የሲሼል ሩፒ",
+        "symbol": "SCR"
+    },
+    "SDG": {
+        "name": "የሱዳን ዲናር",
+        "symbol": "SDG"
+    },
+    "SEK": {
+        "name": "የስዊድን ክሮና",
+        "symbol": "SEK"
+    },
+    "SGD": {
+        "name": "የሲንጋፖር ዶላር",
+        "symbol": "SGD"
+    },
+    "SHP": {
+        "name": "የሴይንት ሔሌና ፓውንድ",
+        "symbol": "SHP"
+    },
+    "SLL": {
+        "name": "የሴራሊዎን ሊዎን",
+        "symbol": "SLL"
+    },
+    "SOS": {
+        "name": "የሶማሌ ሺሊንግ",
+        "symbol": "SOS"
+    },
+    "SRD": {
+        "name": "የሰርናሜዝ ዶላር",
+        "symbol": "SRD"
+    },
+    "SSP": {
+        "name": "የደቡብ ሱዳን ፓውንድ",
+        "symbol": "SSP"
+    },
+    "STD": {
+        "name": "የሳኦ ቶመ እና ፕሪንሲፐ ዶብራ",
+        "symbol": "STD"
+    },
+    "SVC": {
+        "name": "SVC",
+        "symbol": "SVC"
+    },
+    "SYP": {
+        "name": "የሲሪያ ፓውንድ",
+        "symbol": "SYP"
+    },
+    "SZL": {
+        "name": "የስዋዚላንድ ሊላንገኒ",
+        "symbol": "SZL"
+    },
+    "THB": {
+        "name": "የታይላንድ ባህት",
+        "symbol": "฿"
+    },
+    "TJS": {
+        "name": "የታጂክስታን ሶሞኒ",
+        "symbol": "TJS"
+    },
+    "TMT": {
+        "name": "ቱርክሜኒስታኒ ማናት",
+        "symbol": "TMT"
+    },
+    "TND": {
+        "name": "የቱኒዚያ ዲናር",
+        "symbol": "TND"
+    },
+    "TOP": {
+        "name": "ቶንጋን ፓ'አንጋ",
+        "symbol": "TOP"
+    },
+    "TRY": {
+        "name": "የቱርክ ሊራ",
+        "symbol": "TRY"
+    },
+    "TTD": {
+        "name": "የትሪንዳድ እና ቶቤጎዶላር",
+        "symbol": "TTD"
+    },
+    "TWD": {
+        "name": "የአዲሷ ታይዋን ዶላር",
+        "symbol": "NT$"
+    },
+    "TZS": {
+        "name": "የታንዛኒያ ሺሊንግ",
+        "symbol": "TZS"
+    },
+    "UAH": {
+        "name": "የዩክሬን ሀሪይቭኒአ",
+        "symbol": "UAH"
+    },
+    "UGX": {
+        "name": "የዩጋንዳ ሺሊንግ",
+        "symbol": "UGX"
+    },
+    "USD": {
+        "name": "የአሜሪካን ዶላር",
+        "symbol": "US$"
+    },
+    "UYU": {
+        "name": "የኡራጓይ ፔሶ",
+        "symbol": "UYU"
+    },
+    "UZS": {
+        "name": "የኡዝፔኪስታን ሶም",
+        "symbol": "UZS"
+    },
+    "VEF": {
+        "name": "የቬንዝዌላ ቦሊቫር",
+        "symbol": "VEF"
+    },
+    "VND": {
+        "name": "የቭየትናም ዶንግ",
+        "symbol": "₫"
+    },
+    "VUV": {
+        "name": "የቫንዋንቱ ቫቱ",
+        "symbol": "VUV"
+    },
+    "WST": {
+        "name": "ሳሞአን ታላ",
+        "symbol": "WST"
+    },
+    "XAF": {
+        "name": "ሴኤፍአ ፍራንክ ቤእአሴ",
+        "symbol": "FCFA"
+    },
+    "XCD": {
+        "name": "የምዕራብ ካሪብያን ዶላር",
+        "symbol": "EC$"
+    },
+    "XOF": {
+        "name": "ሴኤፍአ ፍራንክ ቤሴእአኦ",
+        "symbol": "CFA"
+    },
+    "XPF": {
+        "name": "ሲ ኤፍ ፒ ፍራንክ",
+        "symbol": "CFPF"
+    },
+    "YER": {
+        "name": "የየመን ሪአል",
+        "symbol": "YER"
+    },
+    "ZAR": {
+        "name": "የደቡብ አፍሪካ ራንድ",
+        "symbol": "ZAR"
+    },
+    "ZMW": {
+        "name": "የዛምቢያ ክዋቻ",
+        "symbol": "ZMW"
+    },
+    "ZWL": {
+        "name": "ZWL",
+        "symbol": "ZWL"
+    }
+}

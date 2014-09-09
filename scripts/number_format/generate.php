@@ -1,16 +1,10 @@
 <?php
 
 /**
- * Generates the yml files stored in resources/number_format.
+ * Generates the json files stored in resources/number_format.
  */
 
 set_time_limit(0);
-
-include '../../vendor/autoload.php';
-
-use Symfony\Component\Yaml\Dumper;
-
-$dumper = new Dumper();
 
 // Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
 if (!is_dir('../json_full/main')) {
@@ -108,6 +102,6 @@ foreach ($duplicates as $locale) {
 
 // Write out the data.
 foreach ($numberFormats as $locale => $numberFormat) {
-    $yaml = $dumper->dump($numberFormat, 3);
-    file_put_contents($locale . '.yml', $yaml);
+    $json = json_encode($numberFormat, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    file_put_contents($locale . '.json', $json);
 }

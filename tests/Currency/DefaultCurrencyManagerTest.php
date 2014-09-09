@@ -3,7 +3,6 @@
 namespace CommerceGuys\Intl\Tests\Currency;
 
 use CommerceGuys\Intl\Currency\DefaultCurrencyManager;
-use Symfony\Component\Yaml\Dumper;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -49,11 +48,10 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstructor()
     {
-        // Mock the existence of YAML definitions on the filesystem.
-        $dumper = new Dumper;
+        // Mock the existence of JSON definitions on the filesystem.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('currency/base.yml')->at($root)->setContent($dumper->dump($this->baseDefinitions));
-        vfsStream::newFile('currency/en.yml')->at($root)->setContent($dumper->dump($this->englishDefinitions));
+        vfsStream::newFile('currency/base.json')->at($root)->setContent(json_encode($this->baseDefinitions));
+        vfsStream::newFile('currency/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
 
         // Instantiate the currency manager and confirm that the definition path
         // was properly set.

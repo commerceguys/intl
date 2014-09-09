@@ -1,0 +1,634 @@
+{
+    "AED": {
+        "name": "Արաբական Միացյալ Էմիրությունների դիրհամ",
+        "symbol": "AED"
+    },
+    "AFN": {
+        "name": "Աֆղանական աֆղանի",
+        "symbol": "AFN"
+    },
+    "ALL": {
+        "name": "Ալբանական լեկ",
+        "symbol": "ALL"
+    },
+    "AMD": {
+        "name": "Հայկական դրամ",
+        "symbol": "դր."
+    },
+    "ANG": {
+        "name": "Նիդերլանդական Անտիլների գուլդեն",
+        "symbol": "ANG"
+    },
+    "AOA": {
+        "name": "Անգոլական կվանզա",
+        "symbol": "AOA"
+    },
+    "ARS": {
+        "name": "Արգենտինական պեսո",
+        "symbol": "ARS"
+    },
+    "AUD": {
+        "name": "Ավստրալական դոլար",
+        "symbol": "A$"
+    },
+    "AWG": {
+        "name": "Արուբական ֆլորին",
+        "symbol": "AWG"
+    },
+    "AZN": {
+        "name": "Ադրբեջանական մանաթ",
+        "symbol": "AZN"
+    },
+    "BAM": {
+        "name": "Բոսնիա և Հերցեգովինայի փոխարկելի մարկա",
+        "symbol": "BAM"
+    },
+    "BBD": {
+        "name": "Բարբադոսյան դոլար",
+        "symbol": "BBD"
+    },
+    "BDT": {
+        "name": "Բանգլադեշի տակա",
+        "symbol": "BDT"
+    },
+    "BGN": {
+        "name": "Բուլղարական լև",
+        "symbol": "BGN"
+    },
+    "BHD": {
+        "name": "Բահրեյնական դինար",
+        "symbol": "BHD"
+    },
+    "BIF": {
+        "name": "Բուրունդիի ֆրանկ",
+        "symbol": "BIF"
+    },
+    "BMD": {
+        "name": "Բերմուդյան դոլար",
+        "symbol": "BMD"
+    },
+    "BND": {
+        "name": "Բրունեյական դոլար",
+        "symbol": "BND"
+    },
+    "BOB": {
+        "name": "Բոլիվիական բոլիվիանո",
+        "symbol": "BOB"
+    },
+    "BRL": {
+        "name": "Բրազիլական ռեալ",
+        "symbol": "R$"
+    },
+    "BSD": {
+        "name": "Բահամական դոլար",
+        "symbol": "BSD"
+    },
+    "BTN": {
+        "name": "Բութանական նգուլտրում",
+        "symbol": "BTN"
+    },
+    "BWP": {
+        "name": "Բոթսվանական պուլա",
+        "symbol": "BWP"
+    },
+    "BYR": {
+        "name": "Բելառուսական ռուբլի",
+        "symbol": "BYR"
+    },
+    "BZD": {
+        "name": "Բելիզի դոլար",
+        "symbol": "BZD"
+    },
+    "CAD": {
+        "name": "Կանադական դոլար",
+        "symbol": "CA$"
+    },
+    "CDF": {
+        "name": "Կոնգոյի ֆրանկ",
+        "symbol": "CDF"
+    },
+    "CHF": {
+        "name": "Շվեյցարական ֆրանկ",
+        "symbol": "CHF"
+    },
+    "CLP": {
+        "name": "Չիլիական պեսո",
+        "symbol": "CLP"
+    },
+    "CNY": {
+        "name": "Չինական յուան",
+        "symbol": "CN¥"
+    },
+    "COP": {
+        "name": "Կոլումբիական պեսո",
+        "symbol": "COP"
+    },
+    "CRC": {
+        "name": "Կոստա Ռիկայի կոլոն",
+        "symbol": "CRC"
+    },
+    "CUC": {
+        "name": "Կուբական փոխարկելի պեսո",
+        "symbol": "CUC"
+    },
+    "CUP": {
+        "name": "Կուբական պեսո",
+        "symbol": "CUP"
+    },
+    "CVE": {
+        "name": "Կաբո Վերդեի էսկուդո",
+        "symbol": "CVE"
+    },
+    "CZK": {
+        "name": "Չեխական կրոնա",
+        "symbol": "CZK"
+    },
+    "DJF": {
+        "name": "Ջիբութիի ֆրանկ",
+        "symbol": "DJF"
+    },
+    "DKK": {
+        "name": "Դանիական կրոնա",
+        "symbol": "DKK"
+    },
+    "DOP": {
+        "name": "Դոմինիկական պեսո",
+        "symbol": "DOP"
+    },
+    "DZD": {
+        "name": "Ալժիրական դինար",
+        "symbol": "DZD"
+    },
+    "EGP": {
+        "name": "Եգիպտական ֆունտ",
+        "symbol": "EGP"
+    },
+    "ERN": {
+        "name": "Էրիթրեական նակֆա",
+        "symbol": "ERN"
+    },
+    "ETB": {
+        "name": "Եթովպական բիր",
+        "symbol": "ETB"
+    },
+    "EUR": {
+        "name": "Եվրո",
+        "symbol": "€"
+    },
+    "FJD": {
+        "name": "Ֆիջիական դոլար",
+        "symbol": "FJD"
+    },
+    "FKP": {
+        "name": "Ֆոլկլենդյան կղզիներ ֆունտ",
+        "symbol": "FKP"
+    },
+    "GBP": {
+        "name": "Բրիտանական ֆունտ ստեռլինգ",
+        "symbol": "£"
+    },
+    "GEL": {
+        "name": "Վրացական լարի",
+        "symbol": "GEL"
+    },
+    "GHS": {
+        "name": "Գանական սեդի",
+        "symbol": "GHS"
+    },
+    "GIP": {
+        "name": "Ջիբրալթարի ֆունտ",
+        "symbol": "GIP"
+    },
+    "GMD": {
+        "name": "Գամբիական դալասի",
+        "symbol": "GMD"
+    },
+    "GNF": {
+        "name": "Գվինեական ֆրանկ",
+        "symbol": "GNF"
+    },
+    "GTQ": {
+        "name": "Գվատեմալական կետսալ",
+        "symbol": "GTQ"
+    },
+    "GYD": {
+        "name": "Գայանական դոլար",
+        "symbol": "GYD"
+    },
+    "HKD": {
+        "name": "Հոնկոնգի դոլար",
+        "symbol": "HK$"
+    },
+    "HNL": {
+        "name": "Հոնդուրասական լեմպրիա",
+        "symbol": "HNL"
+    },
+    "HRK": {
+        "name": "Խորվաթական կունա",
+        "symbol": "HRK"
+    },
+    "HTG": {
+        "name": "Հաիթյան գուրդ",
+        "symbol": "HTG"
+    },
+    "HUF": {
+        "name": "Հունգարական ֆորինտ",
+        "symbol": "HUF"
+    },
+    "IDR": {
+        "name": "Ինդոնեզական ռուփի",
+        "symbol": "IDR"
+    },
+    "ILS": {
+        "name": "Իսրայելի նոր շեկել",
+        "symbol": "₪"
+    },
+    "INR": {
+        "name": "Հնդկական ռուփի",
+        "symbol": "₹"
+    },
+    "IQD": {
+        "name": "Իրաքյան դինար",
+        "symbol": "IQD"
+    },
+    "IRR": {
+        "name": "Իրանական ռիալ",
+        "symbol": "IRR"
+    },
+    "ISK": {
+        "name": "Իսլանդական կրոնա",
+        "symbol": "ISK"
+    },
+    "JMD": {
+        "name": "Ջամայկական դոլար",
+        "symbol": "JMD"
+    },
+    "JOD": {
+        "name": "Հորդանանական դինար",
+        "symbol": "JOD"
+    },
+    "JPY": {
+        "name": "Ճապոնական իեն",
+        "symbol": "JP¥"
+    },
+    "KES": {
+        "name": "Քենիական շիլինգ",
+        "symbol": "KES"
+    },
+    "KGS": {
+        "name": "Ղրղզական սոմ",
+        "symbol": "KGS"
+    },
+    "KHR": {
+        "name": "Կամբոջական ռիել",
+        "symbol": "KHR"
+    },
+    "KMF": {
+        "name": "Կոմորյան կղզիների ֆրանկ",
+        "symbol": "KMF"
+    },
+    "KPW": {
+        "name": "ԿԺԴՀ-ի վոնա",
+        "symbol": "KPW"
+    },
+    "KRW": {
+        "name": "Հարավկորեական վոնա",
+        "symbol": "₩"
+    },
+    "KWD": {
+        "name": "Քուվեյթական դինար",
+        "symbol": "KWD"
+    },
+    "KYD": {
+        "name": "Կայմանյան կղզիների դոլար",
+        "symbol": "KYD"
+    },
+    "KZT": {
+        "name": "Ղազախական տենգե",
+        "symbol": "KZT"
+    },
+    "LAK": {
+        "name": "Լաոսական կիպ",
+        "symbol": "LAK"
+    },
+    "LBP": {
+        "name": "Լիբանանական ֆունտ",
+        "symbol": "LBP"
+    },
+    "LKR": {
+        "name": "Լանկիական ռուփի",
+        "symbol": "LKR"
+    },
+    "LRD": {
+        "name": "Լիբերիական դոլար",
+        "symbol": "LRD"
+    },
+    "LSL": {
+        "name": "LSL",
+        "symbol": "LSL"
+    },
+    "LTL": {
+        "name": "Լիտվական լիտ",
+        "symbol": "LTL"
+    },
+    "LYD": {
+        "name": "Լիբիական դինար",
+        "symbol": "LYD"
+    },
+    "MAD": {
+        "name": "Մարոկական դիրհամ",
+        "symbol": "MAD"
+    },
+    "MDL": {
+        "name": "Մոլդովական լեյ",
+        "symbol": "MDL"
+    },
+    "MGA": {
+        "name": "Մադագասկարի արիարի",
+        "symbol": "MGA"
+    },
+    "MKD": {
+        "name": "Մակեդոնական դենար",
+        "symbol": "MKD"
+    },
+    "MMK": {
+        "name": "Մյանմական կյատ",
+        "symbol": "MMK"
+    },
+    "MNT": {
+        "name": "Մոնղոլական տուգրիկ",
+        "symbol": "MNT"
+    },
+    "MOP": {
+        "name": "Մակաոյի պատակա",
+        "symbol": "MOP"
+    },
+    "MRO": {
+        "name": "Մավրիտանական ուգիյա",
+        "symbol": "MRO"
+    },
+    "MUR": {
+        "name": "Մավրիկական ռուփի",
+        "symbol": "MUR"
+    },
+    "MVR": {
+        "name": "Մալդիվյան ռուֆիա",
+        "symbol": "MVR"
+    },
+    "MWK": {
+        "name": "Մալավիական կվաչա",
+        "symbol": "MWK"
+    },
+    "MXN": {
+        "name": "Մեքսիկական պեսո",
+        "symbol": "MX$"
+    },
+    "MYR": {
+        "name": "Մալայզիական ռինգիտ",
+        "symbol": "MYR"
+    },
+    "MZN": {
+        "name": "Մոզամբիկյան մետիկալ",
+        "symbol": "MZN"
+    },
+    "NAD": {
+        "name": "Նամիբիական դոլար",
+        "symbol": "NAD"
+    },
+    "NGN": {
+        "name": "Նիգերիական նայրա",
+        "symbol": "NGN"
+    },
+    "NIO": {
+        "name": "Նիկարագուական կորդոբա",
+        "symbol": "NIO"
+    },
+    "NOK": {
+        "name": "Նորվեգական կրոնա",
+        "symbol": "NOK"
+    },
+    "NPR": {
+        "name": "Նեպալական ռուփի",
+        "symbol": "NPR"
+    },
+    "NZD": {
+        "name": "Նորզելանդական դոլար",
+        "symbol": "NZ$"
+    },
+    "OMR": {
+        "name": "Օմանական ռիալ",
+        "symbol": "OMR"
+    },
+    "PAB": {
+        "name": "Պանամական բալբոա",
+        "symbol": "PAB"
+    },
+    "PEN": {
+        "name": "Պերուի նոր սոլ",
+        "symbol": "PEN"
+    },
+    "PGK": {
+        "name": "Պապուա-Նոր Գվինեայի կինա",
+        "symbol": "PGK"
+    },
+    "PHP": {
+        "name": "Ֆիլիպինական պեսո",
+        "symbol": "PHP"
+    },
+    "PKR": {
+        "name": "Պակիստանական ռուփի",
+        "symbol": "PKR"
+    },
+    "PLN": {
+        "name": "Լեհական զլոտի",
+        "symbol": "PLN"
+    },
+    "PYG": {
+        "name": "Պարագվայական գուարանի",
+        "symbol": "PYG"
+    },
+    "QAR": {
+        "name": "Քաթարական ռիալ",
+        "symbol": "QAR"
+    },
+    "RON": {
+        "name": "Ռումինական լեյ",
+        "symbol": "RON"
+    },
+    "RSD": {
+        "name": "Սերբական դինար",
+        "symbol": "RSD"
+    },
+    "RUB": {
+        "name": "Ռուսական ռուբլի",
+        "symbol": "RUB"
+    },
+    "RWF": {
+        "name": "Ռուանդական ֆրանկ",
+        "symbol": "RWF"
+    },
+    "SAR": {
+        "name": "Սաուդյան Արաբիայի ռիալ",
+        "symbol": "SAR"
+    },
+    "SBD": {
+        "name": "Սողոմոնյան կղզիների դոլար",
+        "symbol": "SBD"
+    },
+    "SCR": {
+        "name": "Սեյշելյան կղզիների ռուփի",
+        "symbol": "SCR"
+    },
+    "SDG": {
+        "name": "Սուդանական ֆունտ",
+        "symbol": "SDG"
+    },
+    "SEK": {
+        "name": "Շվեդական կրոնա",
+        "symbol": "SEK"
+    },
+    "SGD": {
+        "name": "Սինգապուրյան դոլար",
+        "symbol": "SGD"
+    },
+    "SHP": {
+        "name": "Սուրբ Հեղինեի կղզու ֆունտ",
+        "symbol": "SHP"
+    },
+    "SLL": {
+        "name": "Սիերա-Լեոնեի լեոնե",
+        "symbol": "SLL"
+    },
+    "SOS": {
+        "name": "Սոմալիական շիլինգ",
+        "symbol": "SOS"
+    },
+    "SRD": {
+        "name": "Սուրինամական դոլար",
+        "symbol": "SRD"
+    },
+    "SSP": {
+        "name": "Հարավսուդանական ֆունտ",
+        "symbol": "SSP"
+    },
+    "STD": {
+        "name": "Սան Տոմե և Պրինսիպիի դոբրա",
+        "symbol": "STD"
+    },
+    "SVC": {
+        "name": "SVC",
+        "symbol": "SVC"
+    },
+    "SYP": {
+        "name": "Սիրիական ֆունտ",
+        "symbol": "SYP"
+    },
+    "SZL": {
+        "name": "Սվազիլենդական լիլանգենի",
+        "symbol": "SZL"
+    },
+    "THB": {
+        "name": "Թաիլանդական բատ",
+        "symbol": "฿"
+    },
+    "TJS": {
+        "name": "Տաջիկական սոմոնի",
+        "symbol": "TJS"
+    },
+    "TMT": {
+        "name": "Թուրքմենական մանաթ",
+        "symbol": "TMT"
+    },
+    "TND": {
+        "name": "Թունիսական դինար",
+        "symbol": "TND"
+    },
+    "TOP": {
+        "name": "Տոնգայի պաանգա",
+        "symbol": "TOP"
+    },
+    "TRY": {
+        "name": "Թուրքական լիրա",
+        "symbol": "TRY"
+    },
+    "TTD": {
+        "name": "Տրինիդադ և Տոբագոյի դոլար",
+        "symbol": "TTD"
+    },
+    "TWD": {
+        "name": "Թայվանական նոր դոլար",
+        "symbol": "NT$"
+    },
+    "TZS": {
+        "name": "Տանզանիական շիլինգ",
+        "symbol": "TZS"
+    },
+    "UAH": {
+        "name": "Ուկրաինական գրիվնա",
+        "symbol": "UAH"
+    },
+    "UGX": {
+        "name": "Ուգանդական շիլինգ",
+        "symbol": "UGX"
+    },
+    "USD": {
+        "name": "ԱՄՆ դոլար",
+        "symbol": "$"
+    },
+    "UYU": {
+        "name": "Ուրուգվայական պեսո",
+        "symbol": "UYU"
+    },
+    "UZS": {
+        "name": "Ուզբեկական սում",
+        "symbol": "UZS"
+    },
+    "VEF": {
+        "name": "Վենեսուելական բոլիվար",
+        "symbol": "VEF"
+    },
+    "VND": {
+        "name": "Վիետնամական դոնգ",
+        "symbol": "₫"
+    },
+    "VUV": {
+        "name": "Վանուատուի վատու",
+        "symbol": "VUV"
+    },
+    "WST": {
+        "name": "Սամոական տալա",
+        "symbol": "WST"
+    },
+    "XAF": {
+        "name": "Աֆրիկական ֆինանսական համայնքի ֆրանկ BEAC",
+        "symbol": "FCFA"
+    },
+    "XCD": {
+        "name": "Արևելակարիբյան դոլար",
+        "symbol": "EC$"
+    },
+    "XOF": {
+        "name": "Աֆրիկական ֆինանսական համայնքի ֆրանկ BCEAO",
+        "symbol": "CFA"
+    },
+    "XPF": {
+        "name": "ԿՊՖ ֆրանկ",
+        "symbol": "CFPF"
+    },
+    "YER": {
+        "name": "Եմենական ռիալ",
+        "symbol": "YER"
+    },
+    "ZAR": {
+        "name": "Հարավաֆրիկական ռենդ",
+        "symbol": "ZAR"
+    },
+    "ZMW": {
+        "name": "Զամբիական կվաչա",
+        "symbol": "ZMW"
+    },
+    "ZWL": {
+        "name": "ZWL",
+        "symbol": "ZWL"
+    }
+}

@@ -3,7 +3,6 @@
 namespace CommerceGuys\Intl\Tests\NumberFormat;
 
 use CommerceGuys\Intl\NumberFormat\DefaultNumberFormatManager;
-use Symfony\Component\Yaml\Dumper;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -29,10 +28,9 @@ class DefaultNumberFormatManagerTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstructor()
     {
-        // Mock the existence of YAML definitions on the filesystem.
-        $dumper = new Dumper;
+        // Mock the existence of JSON definitions on the filesystem.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('number_format/en.yml')->at($root)->setContent($dumper->dump($this->englishDefinition));
+        vfsStream::newFile('number_format/en.json')->at($root)->setContent(json_encode($this->englishDefinition));
 
         // Instantiate the number format manager and confirm that the definition
         // path was properly set.

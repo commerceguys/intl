@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Generates the yml files stored in resources/language.
+ * Generates the json files stored in resources/language.
  *
  * CLDR lists about 515 languages, many of them dead (like Latin or Old English).
  * In order to decrease the list to a reasonable size, only the languages
@@ -9,12 +9,6 @@
  */
 
 set_time_limit(0);
-
-include '../../vendor/autoload.php';
-
-use Symfony\Component\Yaml\Dumper;
-
-$dumper = new Dumper();
 
 // Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
 $enLanguages = '../json_full/main/en/languages.json';
@@ -119,6 +113,6 @@ foreach ($duplicates as $locale) {
 // Write out the localizations.
 foreach ($languages as $locale => $localizedLanguages) {
     ksort($localizedLanguages);
-    $yaml = $dumper->dump($localizedLanguages, 3);
-    file_put_contents($locale . '.yml', $yaml);
+    $json = json_encode($localizedLanguages, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    file_put_contents($locale . '.json', $json);
 }
