@@ -75,10 +75,6 @@
         "code": "bs",
         "name": "Tiếng Nam Tư"
     },
-    "byn": {
-        "code": "byn",
-        "name": "Tiếng Blin"
-    },
     "ca": {
         "code": "ca",
         "name": "Tiếng Catalan"
@@ -122,6 +118,10 @@
     "dje": {
         "code": "dje",
         "name": "Tiếng Zarma"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "Tiếng Hạ Sorbia"
     },
     "dyo": {
         "code": "dyo",
@@ -177,7 +177,7 @@
     },
     "es-ES": {
         "code": "es-ES",
-        "name": "Tiếng Tây Ban Nha (I-bê-ri)"
+        "name": "es_ES"
     },
     "es-MX": {
         "code": "es-MX",
@@ -275,6 +275,10 @@
         "code": "hr",
         "name": "Tiếng Croatia"
     },
+    "hsb": {
+        "code": "hsb",
+        "name": "Tiếng Thượng Sorbia"
+    },
     "hu": {
         "code": "hu",
         "name": "Tiếng Hungary"
@@ -349,7 +353,7 @@
     },
     "km": {
         "code": "km",
-        "name": "Tiếng Campuchia"
+        "name": "Tiếng Khơ-me"
     },
     "kn": {
         "code": "kn",
@@ -357,7 +361,7 @@
     },
     "ko": {
         "code": "ko",
-        "name": "Tiếng Hàn Quốc"
+        "name": "Tiếng Hàn"
     },
     "ks": {
         "code": "ks",
@@ -382,6 +386,10 @@
     "lag": {
         "code": "lag",
         "name": "Tiếng Langi"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "Tiếng Luxembourg"
     },
     "lg": {
         "code": "lg",
@@ -477,7 +485,7 @@
     },
     "nd": {
         "code": "nd",
-        "name": "Bắc Ndebele"
+        "name": "Tiếng Ndebele Miền Bắc"
     },
     "ne": {
         "code": "ne",
@@ -509,7 +517,7 @@
     },
     "or": {
         "code": "or",
-        "name": "Tiếng Ô-ri-a"
+        "name": "Tiếng Oriya"
     },
     "pa": {
         "code": "pa",
@@ -533,7 +541,11 @@
     },
     "pt-PT": {
         "code": "pt-PT",
-        "name": "Tiếng Bồ Đào Nha (I-bê-ri)"
+        "name": "pt_PT"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "Tiếng Quechua"
     },
     "rm": {
         "code": "rm",
@@ -545,7 +557,7 @@
     },
     "ro": {
         "code": "ro",
-        "name": "Tiếng Romania"
+        "name": "Tiếng Rumani"
     },
     "ro-MD": {
         "code": "ro-MD",
@@ -573,7 +585,7 @@
     },
     "se": {
         "code": "se",
-        "name": "Bắc Sami"
+        "name": "Tiếng Sami Miền Bắc"
     },
     "seh": {
         "code": "seh",
@@ -603,6 +615,10 @@
         "code": "sl",
         "name": "Tiếng Slovenia"
     },
+    "smn": {
+        "code": "smn",
+        "name": "Tiếng Inari Sami"
+    },
     "sn": {
         "code": "sn",
         "name": "Tiếng Shona"
@@ -629,7 +645,7 @@
     },
     "swc": {
         "code": "swc",
-        "name": "Tiếng Swahili Công-gô"
+        "name": "Tiếng Swahili Congo"
     },
     "ta": {
         "code": "ta",
@@ -651,10 +667,6 @@
         "code": "ti",
         "name": "Tiếng Tigrigya"
     },
-    "tig": {
-        "code": "tig",
-        "name": "Tiếng Tigre"
-    },
     "to": {
         "code": "to",
         "name": "Tiếng Tonga"
@@ -673,7 +685,7 @@
     },
     "ug": {
         "code": "ug",
-        "name": "Tiếng Duy Ngô Nhĩ"
+        "name": "Tiếng Uyghur"
     },
     "uk": {
         "code": "uk",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "Tiếng Walser"
     },
-    "wal": {
-        "code": "wal",
-        "name": "Tiếng Walamo"
-    },
     "xog": {
         "code": "xog",
         "name": "Tiếng Soga"
@@ -714,6 +722,10 @@
     "yav": {
         "code": "yav",
         "name": "Tiếng Yangben"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "Tiếng Y-đit"
     },
     "yo": {
         "code": "yo",
@@ -729,11 +741,11 @@
     },
     "zh-Hans": {
         "code": "zh-Hans",
-        "name": "Tiếng Trung (Giản thể)"
+        "name": "zh_Hans"
     },
     "zh-Hant": {
         "code": "zh-Hant",
-        "name": "Tiếng Trung (Phồn thể)"
+        "name": "zh_Hant"
     },
     "zu": {
         "code": "zu",

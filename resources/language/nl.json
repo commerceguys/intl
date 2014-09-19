@@ -21,7 +21,7 @@
     },
     "ar-001": {
         "code": "ar-001",
-        "name": "Modern standaard Arabisch"
+        "name": "modern standaard Arabisch"
     },
     "asa": {
         "code": "asa",
@@ -75,10 +75,6 @@
         "code": "bs",
         "name": "Bosnisch"
     },
-    "byn": {
-        "code": "byn",
-        "name": "Blin"
-    },
     "ca": {
         "code": "ca",
         "name": "Catalaans"
@@ -122,6 +118,10 @@
     "dje": {
         "code": "dje",
         "name": "Zarma"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "Nedersorbisch"
     },
     "dyo": {
         "code": "dyo",
@@ -185,7 +185,7 @@
     },
     "et": {
         "code": "et",
-        "name": "Estlands"
+        "name": "Estisch"
     },
     "eu": {
         "code": "eu",
@@ -233,7 +233,7 @@
     },
     "fy": {
         "code": "fy",
-        "name": "West-Fries"
+        "name": "Fries"
     },
     "ga": {
         "code": "ga",
@@ -241,7 +241,7 @@
     },
     "gd": {
         "code": "gd",
-        "name": "Schots Gaelic"
+        "name": "Schots-Gaelisch"
     },
     "gl": {
         "code": "gl",
@@ -249,7 +249,7 @@
     },
     "gsw": {
         "code": "gsw",
-        "name": "Zwitsers Duits"
+        "name": "Zwitserduits"
     },
     "gu": {
         "code": "gu",
@@ -274,6 +274,10 @@
     "hr": {
         "code": "hr",
         "name": "Kroatisch"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "Oppersorbisch"
     },
     "hu": {
         "code": "hu",
@@ -313,7 +317,7 @@
     },
     "kab": {
         "code": "kab",
-        "name": "Kabyle"
+        "name": "Kabylisch"
     },
     "kam": {
         "code": "kam",
@@ -333,7 +337,7 @@
     },
     "ki": {
         "code": "ki",
-        "name": "Kikuyu"
+        "name": "Gikuyu"
     },
     "kk": {
         "code": "kk",
@@ -383,9 +387,13 @@
         "code": "lag",
         "name": "Langi"
     },
+    "lb": {
+        "code": "lb",
+        "name": "Luxemburgs"
+    },
     "lg": {
         "code": "lg",
-        "name": "Ganda"
+        "name": "Luganda"
     },
     "ln": {
         "code": "ln",
@@ -413,11 +421,11 @@
     },
     "lv": {
         "code": "lv",
-        "name": "Letlands"
+        "name": "Lets"
     },
     "mas": {
         "code": "mas",
-        "name": "Masai"
+        "name": "Maa"
     },
     "mer": {
         "code": "mer",
@@ -429,7 +437,7 @@
     },
     "mg": {
         "code": "mg",
-        "name": "Malagasisch"
+        "name": "Malagassisch"
     },
     "mgh": {
         "code": "mgh",
@@ -465,7 +473,7 @@
     },
     "my": {
         "code": "my",
-        "name": "Birmees"
+        "name": "Birmaans"
     },
     "naq": {
         "code": "naq",
@@ -477,7 +485,7 @@
     },
     "nd": {
         "code": "nd",
-        "name": "Noord-Ndbele"
+        "name": "Noord-Ndebele"
     },
     "ne": {
         "code": "ne",
@@ -535,6 +543,10 @@
         "code": "pt-PT",
         "name": "Europees Portugees"
     },
+    "qu": {
+        "code": "qu",
+        "name": "Quechua"
+    },
     "rm": {
         "code": "rm",
         "name": "Reto-Romaans"
@@ -549,7 +561,7 @@
     },
     "ro-MD": {
         "code": "ro-MD",
-        "name": "Moldavisch"
+        "name": "ro_MD"
     },
     "rof": {
         "code": "rof",
@@ -603,6 +615,10 @@
         "code": "sl",
         "name": "Sloveens"
     },
+    "smn": {
+        "code": "smn",
+        "name": "Inari-Samisch"
+    },
     "sn": {
         "code": "sn",
         "name": "Shona"
@@ -650,10 +666,6 @@
     "ti": {
         "code": "ti",
         "name": "Tigrinya"
-    },
-    "tig": {
-        "code": "tig",
-        "name": "Tigre"
     },
     "to": {
         "code": "to",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "Walser"
     },
-    "wal": {
-        "code": "wal",
-        "name": "Walamo"
-    },
     "xog": {
         "code": "xog",
         "name": "Soga"
@@ -714,6 +722,10 @@
     "yav": {
         "code": "yav",
         "name": "Yangben"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "Jiddisch"
     },
     "yo": {
         "code": "yo",
@@ -729,14 +741,14 @@
     },
     "zh-Hans": {
         "code": "zh-Hans",
-        "name": "Vereenvoudigd Chinees"
+        "name": "vereenvoudigd Chinees"
     },
     "zh-Hant": {
         "code": "zh-Hant",
-        "name": "Traditioneel Chinees"
+        "name": "traditioneel Chinees"
     },
     "zu": {
         "code": "zu",
-        "name": "Zulu"
+        "name": "Zoeloe"
     }
 }

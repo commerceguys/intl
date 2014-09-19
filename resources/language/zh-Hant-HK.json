@@ -75,10 +75,6 @@
         "code": "bs",
         "name": "波士尼亞文"
     },
-    "byn": {
-        "code": "byn",
-        "name": "比林文"
-    },
     "ca": {
         "code": "ca",
         "name": "加泰羅尼亞文"
@@ -113,7 +109,7 @@
     },
     "de-AT": {
         "code": "de-AT",
-        "name": "德文 (奧地利)"
+        "name": "奧地利德文"
     },
     "de-CH": {
         "code": "de-CH",
@@ -122,6 +118,10 @@
     "dje": {
         "code": "dje",
         "name": "扎爾馬文"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "下索布文"
     },
     "dyo": {
         "code": "dyo",
@@ -149,19 +149,19 @@
     },
     "en-AU": {
         "code": "en-AU",
-        "name": "英文 (澳洲)"
+        "name": "澳洲英文"
     },
     "en-CA": {
         "code": "en-CA",
-        "name": "英文 (加拿大)"
+        "name": "加拿大英文"
     },
     "en-GB": {
         "code": "en-GB",
-        "name": "英文 (英國)"
+        "name": "英國英文"
     },
     "en-US": {
         "code": "en-US",
-        "name": "英文 (美國)"
+        "name": "美國英文"
     },
     "eo": {
         "code": "eo",
@@ -173,15 +173,15 @@
     },
     "es-419": {
         "code": "es-419",
-        "name": "西班牙文 (拉丁美洲)"
+        "name": "拉丁美洲西班牙文"
     },
     "es-ES": {
         "code": "es-ES",
-        "name": "西班牙文 (歐洲)"
+        "name": "歐洲西班牙文"
     },
     "es-MX": {
         "code": "es-MX",
-        "name": "西班牙文 (墨西哥)"
+        "name": "墨西哥西班牙文"
     },
     "et": {
         "code": "et",
@@ -221,11 +221,11 @@
     },
     "fr-CA": {
         "code": "fr-CA",
-        "name": "法文 (加拿大)"
+        "name": "fr_CA"
     },
     "fr-CH": {
         "code": "fr-CH",
-        "name": "法文 (瑞士)"
+        "name": "fr_CH"
     },
     "fur": {
         "code": "fur",
@@ -249,7 +249,7 @@
     },
     "gsw": {
         "code": "gsw",
-        "name": "德文 (瑞士)"
+        "name": "德文（瑞士）"
     },
     "gu": {
         "code": "gu",
@@ -273,7 +273,11 @@
     },
     "hr": {
         "code": "hr",
-        "name": "克羅埃西亞文"
+        "name": "克羅地亞文"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "上索布文"
     },
     "hu": {
         "code": "hu",
@@ -353,7 +357,7 @@
     },
     "kn": {
         "code": "kn",
-        "name": "坎那達文"
+        "name": "坎納達文"
     },
     "ko": {
         "code": "ko",
@@ -382,6 +386,10 @@
     "lag": {
         "code": "lag",
         "name": "朗吉文"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "盧森堡文"
     },
     "lg": {
         "code": "lg",
@@ -429,7 +437,7 @@
     },
     "mg": {
         "code": "mg",
-        "name": "馬爾加什文"
+        "name": "馬拉加斯文"
     },
     "mgh": {
         "code": "mgh",
@@ -509,7 +517,7 @@
     },
     "or": {
         "code": "or",
-        "name": "歐利亞文"
+        "name": "奧里雅文"
     },
     "pa": {
         "code": "pa",
@@ -533,7 +541,11 @@
     },
     "pt-PT": {
         "code": "pt-PT",
-        "name": "葡萄牙文 (歐洲)"
+        "name": "歐洲葡萄牙文"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "蓋楚瓦文"
     },
     "rm": {
         "code": "rm",
@@ -549,7 +561,7 @@
     },
     "ro-MD": {
         "code": "ro-MD",
-        "name": "摩爾多瓦文"
+        "name": "摩爾多瓦羅馬尼亞文"
     },
     "rof": {
         "code": "rof",
@@ -601,11 +613,15 @@
     },
     "sl": {
         "code": "sl",
-        "name": "斯洛維尼亞文"
+        "name": "斯洛文尼亞文"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "伊納裡薩米文"
     },
     "sn": {
         "code": "sn",
-        "name": "塞內加爾文"
+        "name": "修納文"
     },
     "so": {
         "code": "so",
@@ -629,7 +645,7 @@
     },
     "swc": {
         "code": "swc",
-        "name": "史瓦希里文（剛果）"
+        "name": "剛果史瓦希里文"
     },
     "ta": {
         "code": "ta",
@@ -650,10 +666,6 @@
     "ti": {
         "code": "ti",
         "name": "提格利尼亞文"
-    },
-    "tig": {
-        "code": "tig",
-        "name": "蒂格雷文"
     },
     "to": {
         "code": "to",
@@ -681,7 +693,7 @@
     },
     "ur": {
         "code": "ur",
-        "name": "烏都文"
+        "name": "烏爾都文"
     },
     "uz": {
         "code": "uz",
@@ -689,7 +701,7 @@
     },
     "vai": {
         "code": "vai",
-        "name": "越南文（Vai）"
+        "name": "瓦伊文"
     },
     "vi": {
         "code": "vi",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "瓦瑟文"
     },
-    "wal": {
-        "code": "wal",
-        "name": "瓦拉莫文"
-    },
     "xog": {
         "code": "xog",
         "name": "索加文"
@@ -714,6 +722,10 @@
     "yav": {
         "code": "yav",
         "name": "洋卞文"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "意第緒文"
     },
     "yo": {
         "code": "yo",

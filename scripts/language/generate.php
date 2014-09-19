@@ -10,8 +10,8 @@
 
 set_time_limit(0);
 
-// Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
-$enLanguages = '../json_full/main/en/languages.json';
+// Downloaded from http://unicode.org/Public/cldr/26/json-full.zip
+$enLanguages = '../json-full/main/en/languages.json';
 if (!file_exists($enLanguages)) {
     die("The $enLanguages file was not found");
 }
@@ -21,13 +21,15 @@ if (!file_exists($enLanguages)) {
 $ignoredLocales = array(
     // Interlingua is a made up language.
     'ia',
+    // Valencian differs from its parent only by a single character (è/é).
+    'ca-ES-VALENCIA',
     // Those locales are 90% untranslated.
     'aa', 'as', 'az-Cyrl', 'az-Cyrl-AZ', 'bem', 'dua', 'gv', 'haw', 'ig', 'ii',
     'kkj', 'kok', 'kw', 'lkt', 'mgo', 'nnh', 'nr', 'nso', 'om', 'os', 'pa-Arab',
-    'pa-Arab-PK', 'rw', 'sah', 'ss', 'ssy', 'st', 'tg', 'tn', 'ts', 'uz-Arab',
-    'uz-Arab-AF', 've', 'vo', 'xh',
+    'pa-Arab-PK', 'qu', 'rw', 'sah', 'smn', 'ss', 'ssy', 'st', 'tg', 'tn', 'ts',
+    'uz-Arab', 'uz-Arab-AF', 've', 'vo', 'xh', 'yi',
     // Special "grouping" locales.
-    'root', 'en-US-POSIX', 'en-001', 'en-150',
+    'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
 );
 
 $languages = array();
@@ -46,7 +48,7 @@ foreach ($languageData as $languageCode => $languageName) {
 
 // Gather available locales.
 $locales = array();
-if ($handle = opendir('../json_full/main')) {
+if ($handle = opendir('../json-full/main')) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
             $entryParts = explode('-', $entry);
@@ -68,7 +70,7 @@ foreach ($languages['en'] as $languageCode => $languageData) {
 
 // Load the localizations.
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/languages.json'), true);
+    $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/languages.json'), true);
     $data = $data['main'][$locale]['localeDisplayNames']['languages'];
     foreach ($data as $languageCode => $languageName) {
         if (isset($languages['en'][$languageCode])) {

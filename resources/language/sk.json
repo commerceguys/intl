@@ -21,7 +21,7 @@
     },
     "ar-001": {
         "code": "ar-001",
-        "name": "moderná štandardná arabčina"
+        "name": "arabčina (moderná štandardná)"
     },
     "asa": {
         "code": "asa",
@@ -75,17 +75,13 @@
         "code": "bs",
         "name": "bosniačtina"
     },
-    "byn": {
-        "code": "byn",
-        "name": "blin"
-    },
     "ca": {
         "code": "ca",
         "name": "katalánčina"
     },
     "cgg": {
         "code": "cgg",
-        "name": "čiga"
+        "name": "kiga"
     },
     "chr": {
         "code": "chr",
@@ -113,15 +109,19 @@
     },
     "de-AT": {
         "code": "de-AT",
-        "name": "rakúska nemčina"
+        "name": "nemčina (rakúska)"
     },
     "de-CH": {
         "code": "de-CH",
-        "name": "švajčiarska spisovná nemčina"
+        "name": "nemčina (švajčiarska spisovná)"
     },
     "dje": {
         "code": "dje",
         "name": "zarma"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "dolnolužická srbčina"
     },
     "dyo": {
         "code": "dyo",
@@ -137,7 +137,7 @@
     },
     "ee": {
         "code": "ee",
-        "name": "eweština"
+        "name": "ewe"
     },
     "el": {
         "code": "el",
@@ -149,19 +149,19 @@
     },
     "en-AU": {
         "code": "en-AU",
-        "name": "austrálska angličtina"
+        "name": "angličtina (austrálska)"
     },
     "en-CA": {
         "code": "en-CA",
-        "name": "kanadská angličtina"
+        "name": "angličtina (kanadská)"
     },
     "en-GB": {
         "code": "en-GB",
-        "name": "britská angličtina"
+        "name": "angličtina (britská)"
     },
     "en-US": {
         "code": "en-US",
-        "name": "americká angličtina"
+        "name": "angličtina (americká)"
     },
     "eo": {
         "code": "eo",
@@ -173,15 +173,15 @@
     },
     "es-419": {
         "code": "es-419",
-        "name": "latinskoamerická španielčina"
+        "name": "španielčina (latinskoamerická)"
     },
     "es-ES": {
         "code": "es-ES",
-        "name": "iberská španielčina"
+        "name": "španielčina (európska)"
     },
     "es-MX": {
         "code": "es-MX",
-        "name": "mexická španielčina"
+        "name": "španielčina (mexická)"
     },
     "et": {
         "code": "et",
@@ -221,11 +221,11 @@
     },
     "fr-CA": {
         "code": "fr-CA",
-        "name": "kanadská francúzština"
+        "name": "francúzština (kanadská)"
     },
     "fr-CH": {
         "code": "fr-CH",
-        "name": "švajčiarska francúzština"
+        "name": "francúzština (švajčiarska)"
     },
     "fur": {
         "code": "fur",
@@ -249,7 +249,7 @@
     },
     "gsw": {
         "code": "gsw",
-        "name": "švajčiarska nemčina"
+        "name": "nemčina (švajčiarska)"
     },
     "gu": {
         "code": "gu",
@@ -274,6 +274,10 @@
     "hr": {
         "code": "hr",
         "name": "chorvátčina"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "hornolužická srbčina"
     },
     "hu": {
         "code": "hu",
@@ -305,7 +309,7 @@
     },
     "jmc": {
         "code": "jmc",
-        "name": "machame"
+        "name": "mašame"
     },
     "ka": {
         "code": "ka",
@@ -333,7 +337,7 @@
     },
     "ki": {
         "code": "ki",
-        "name": "kikuju"
+        "name": "kikujčina"
     },
     "kk": {
         "code": "kk",
@@ -341,15 +345,15 @@
     },
     "kl": {
         "code": "kl",
-        "name": "grónska eskimáčtina"
+        "name": "grónčina"
     },
     "kln": {
         "code": "kln",
-        "name": "kalenjin"
+        "name": "kalendžin"
     },
     "km": {
         "code": "km",
-        "name": "kambodžská khmérčina"
+        "name": "khmérčina"
     },
     "kn": {
         "code": "kn",
@@ -383,6 +387,10 @@
         "code": "lag",
         "name": "langi"
     },
+    "lb": {
+        "code": "lb",
+        "name": "luxemburčina"
+    },
     "lg": {
         "code": "lg",
         "name": "gandčina"
@@ -409,7 +417,7 @@
     },
     "luy": {
         "code": "luy",
-        "name": "luyia"
+        "name": "luhja"
     },
     "lv": {
         "code": "lv",
@@ -433,7 +441,7 @@
     },
     "mgh": {
         "code": "mgh",
-        "name": "makhuwa-meetto"
+        "name": "makua-meetto"
     },
     "mk": {
         "code": "mk",
@@ -477,7 +485,7 @@
     },
     "nd": {
         "code": "nd",
-        "name": "severné ndbele"
+        "name": "severné ndebele"
     },
     "ne": {
         "code": "ne",
@@ -521,7 +529,7 @@
     },
     "ps": {
         "code": "ps",
-        "name": "paštúnčina"
+        "name": "paštčina"
     },
     "pt": {
         "code": "pt",
@@ -529,11 +537,15 @@
     },
     "pt-BR": {
         "code": "pt-BR",
-        "name": "brazílska portugalčina"
+        "name": "portugalčina (brazílska)"
     },
     "pt-PT": {
         "code": "pt-PT",
-        "name": "iberská portugalčina"
+        "name": "portugalčina (európska)"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "kečuánčina"
     },
     "rm": {
         "code": "rm",
@@ -541,7 +553,7 @@
     },
     "rn": {
         "code": "rn",
-        "name": "rundčina"
+        "name": "kirundčina"
     },
     "ro": {
         "code": "ro",
@@ -573,7 +585,7 @@
     },
     "se": {
         "code": "se",
-        "name": "severná saamčina"
+        "name": "severné sami"
     },
     "seh": {
         "code": "seh",
@@ -603,6 +615,10 @@
         "code": "sl",
         "name": "slovinčina"
     },
+    "smn": {
+        "code": "smn",
+        "name": "sami (inari)"
+    },
     "sn": {
         "code": "sn",
         "name": "šončina"
@@ -625,11 +641,11 @@
     },
     "sw": {
         "code": "sw",
-        "name": "swahilčina"
+        "name": "svahilčina"
     },
     "swc": {
         "code": "swc",
-        "name": "konžská svahilčina"
+        "name": "svahilčina (konžská)"
     },
     "ta": {
         "code": "ta",
@@ -651,10 +667,6 @@
         "code": "ti",
         "name": "tigriňa"
     },
-    "tig": {
-        "code": "tig",
-        "name": "tigrejčina"
-    },
     "to": {
         "code": "to",
         "name": "tongčina"
@@ -665,11 +677,11 @@
     },
     "twq": {
         "code": "twq",
-        "name": "tasawak"
+        "name": "tasawaq"
     },
     "tzm": {
         "code": "tzm",
-        "name": "stredomarocká berberčina"
+        "name": "tamašek (stredomarocký)"
     },
     "ug": {
         "code": "ug",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "walserčina"
     },
-    "wal": {
-        "code": "wal",
-        "name": "walamo"
-    },
     "xog": {
         "code": "xog",
         "name": "soga"
@@ -715,13 +723,17 @@
         "code": "yav",
         "name": "jangben"
     },
+    "yi": {
+        "code": "yi",
+        "name": "jidiš"
+    },
     "yo": {
         "code": "yo",
         "name": "jorubčina"
     },
     "zgh": {
         "code": "zgh",
-        "name": "štandardný marocký tamazight"
+        "name": "tamašek (štandardný marocký)"
     },
     "zh": {
         "code": "zh",
@@ -729,11 +741,11 @@
     },
     "zh-Hans": {
         "code": "zh-Hans",
-        "name": "zjednodušená čínština"
+        "name": "čínština (zjednodušená)"
     },
     "zh-Hant": {
         "code": "zh-Hant",
-        "name": "tradičná čínština"
+        "name": "čínština (tradičná)"
     },
     "zu": {
         "code": "zu",

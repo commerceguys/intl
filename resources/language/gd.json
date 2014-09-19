@@ -13,7 +13,7 @@
     },
     "am": {
         "code": "am",
-        "name": "Amharais"
+        "name": "Amtharais"
     },
     "ar": {
         "code": "ar",
@@ -21,7 +21,7 @@
     },
     "ar-001": {
         "code": "ar-001",
-        "name": "ar_001"
+        "name": "Nuadh-Arabais Stannardach"
     },
     "asa": {
         "code": "asa",
@@ -29,7 +29,7 @@
     },
     "ast": {
         "code": "ast",
-        "name": "Asturian"
+        "name": "Astùrais"
     },
     "az": {
         "code": "az",
@@ -57,7 +57,7 @@
     },
     "bn": {
         "code": "bn",
-        "name": "Bengali"
+        "name": "Beangailis"
     },
     "bo": {
         "code": "bo",
@@ -75,10 +75,6 @@
         "code": "bs",
         "name": "Bosnais"
     },
-    "byn": {
-        "code": "byn",
-        "name": "Blin"
-    },
     "ca": {
         "code": "ca",
         "name": "Catalanais"
@@ -93,7 +89,7 @@
     },
     "cs": {
         "code": "cs",
-        "name": "Seicis"
+        "name": "Seacais"
     },
     "cy": {
         "code": "cy",
@@ -122,6 +118,10 @@
     "dje": {
         "code": "dje",
         "name": "Zarma"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "Sòrbais Ìochdarach"
     },
     "dyo": {
         "code": "dyo",
@@ -161,7 +161,7 @@
     },
     "en-US": {
         "code": "en-US",
-        "name": "Beurla nan SA"
+        "name": "Beurla na h-Aimeireaga"
     },
     "eo": {
         "code": "eo",
@@ -173,19 +173,19 @@
     },
     "es-419": {
         "code": "es-419",
-        "name": "es_419"
+        "name": "Spàinntis na h-Aimeireaga Laidinneach"
     },
     "es-ES": {
         "code": "es-ES",
-        "name": "es_ES"
+        "name": "Spàinntis Eòrpach"
     },
     "es-MX": {
         "code": "es-MX",
-        "name": "es_MX"
+        "name": "Spàinntis Mheagsagach"
     },
     "et": {
         "code": "et",
-        "name": "Estonais"
+        "name": "Eastoinis"
     },
     "eu": {
         "code": "eu",
@@ -225,7 +225,7 @@
     },
     "fr-CH": {
         "code": "fr-CH",
-        "name": "Fraingis na h-Eilbheise"
+        "name": "Fraingis Eilbheiseach"
     },
     "fur": {
         "code": "fur",
@@ -233,7 +233,7 @@
     },
     "fy": {
         "code": "fy",
-        "name": "Frìsis Iarach"
+        "name": "Frìoslannais Siarach"
     },
     "ga": {
         "code": "ga",
@@ -275,6 +275,10 @@
         "code": "hr",
         "name": "Cròthaisis"
     },
+    "hsb": {
+        "code": "hsb",
+        "name": "Sòrbais Uachdarach"
+    },
     "hu": {
         "code": "hu",
         "name": "Ungairis"
@@ -289,7 +293,7 @@
     },
     "is": {
         "code": "is",
-        "name": "Innis-Tìlis"
+        "name": "Innis Tìlis"
     },
     "it": {
         "code": "it",
@@ -357,7 +361,7 @@
     },
     "ko": {
         "code": "ko",
-        "name": "Coireanais"
+        "name": "Coirèanais"
     },
     "ks": {
         "code": "ks",
@@ -377,11 +381,15 @@
     },
     "ky": {
         "code": "ky",
-        "name": "Cìorgais"
+        "name": "Cìorgasais"
     },
     "lag": {
         "code": "lag",
         "name": "Langi"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "Lugsamburgais"
     },
     "lg": {
         "code": "lg",
@@ -417,7 +425,7 @@
     },
     "mas": {
         "code": "mas",
-        "name": "Masai"
+        "name": "Maasai"
     },
     "mer": {
         "code": "mer",
@@ -477,7 +485,7 @@
     },
     "nd": {
         "code": "nd",
-        "name": "North Ndebele"
+        "name": "Ndebele Thuathach"
     },
     "ne": {
         "code": "ne",
@@ -521,7 +529,7 @@
     },
     "ps": {
         "code": "ps",
-        "name": "Paistiu"
+        "name": "Pachtu"
     },
     "pt": {
         "code": "pt",
@@ -529,11 +537,15 @@
     },
     "pt-BR": {
         "code": "pt-BR",
-        "name": "Portagailis Bhraisil"
+        "name": "Portagailis Bhraisileach"
     },
     "pt-PT": {
         "code": "pt-PT",
-        "name": "pt_PT"
+        "name": "Portagailis Eòrpach"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "Ceatsua"
     },
     "rm": {
         "code": "rm",
@@ -541,11 +553,11 @@
     },
     "rn": {
         "code": "rn",
-        "name": "Rundi"
+        "name": "Kirundi"
     },
     "ro": {
         "code": "ro",
-        "name": "Ròmanais"
+        "name": "Romàinis"
     },
     "ro-MD": {
         "code": "ro-MD",
@@ -603,6 +615,10 @@
         "code": "sl",
         "name": "Slòbhainis"
     },
+    "smn": {
+        "code": "smn",
+        "name": "Sàmais Inari"
+    },
     "sn": {
         "code": "sn",
         "name": "Shona"
@@ -613,7 +629,7 @@
     },
     "sq": {
         "code": "sq",
-        "name": "Albanais"
+        "name": "Albàinis"
     },
     "sr": {
         "code": "sr",
@@ -625,11 +641,11 @@
     },
     "sw": {
         "code": "sw",
-        "name": "Swahili"
+        "name": "Kiswahili"
     },
     "swc": {
         "code": "swc",
-        "name": "Congo Swahili"
+        "name": "Kiswahili na Congo"
     },
     "ta": {
         "code": "ta",
@@ -651,13 +667,9 @@
         "code": "ti",
         "name": "Tigrinya"
     },
-    "tig": {
-        "code": "tig",
-        "name": "Tigre"
-    },
     "to": {
         "code": "to",
-        "name": "Tongan"
+        "name": "Tongais"
     },
     "tr": {
         "code": "tr",
@@ -669,7 +681,7 @@
     },
     "tzm": {
         "code": "tzm",
-        "name": "Central Atlas Tamazight"
+        "name": "Tamazight Meadhan na h-Atlas"
     },
     "ug": {
         "code": "ug",
@@ -681,7 +693,7 @@
     },
     "ur": {
         "code": "ur",
-        "name": "Urdu"
+        "name": "Ùrdu"
     },
     "uz": {
         "code": "uz",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "Walser"
     },
-    "wal": {
-        "code": "wal",
-        "name": "Wolaytta"
-    },
     "xog": {
         "code": "xog",
         "name": "Soga"
@@ -715,13 +723,17 @@
         "code": "yav",
         "name": "Yangben"
     },
+    "yi": {
+        "code": "yi",
+        "name": "Iùdhais"
+    },
     "yo": {
         "code": "yo",
-        "name": "Yoruba"
+        "name": "Ioruba"
     },
     "zgh": {
         "code": "zgh",
-        "name": "Standard Moroccan Tamazight"
+        "name": "Tamazight Stannardach Moroco"
     },
     "zh": {
         "code": "zh",

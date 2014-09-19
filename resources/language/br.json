@@ -21,7 +21,7 @@
     },
     "ar-001": {
         "code": "ar-001",
-        "name": "ar_001"
+        "name": "arabeg modern"
     },
     "asa": {
         "code": "asa",
@@ -75,10 +75,6 @@
         "code": "bs",
         "name": "bosneg"
     },
-    "byn": {
-        "code": "byn",
-        "name": "blin"
-    },
     "ca": {
         "code": "ca",
         "name": "katalaneg"
@@ -123,6 +119,10 @@
         "code": "dje",
         "name": "Zarma"
     },
+    "dsb": {
+        "code": "dsb",
+        "name": "izelsorabeg"
+    },
     "dyo": {
         "code": "dyo",
         "name": "Jola-Fonyi"
@@ -161,7 +161,7 @@
     },
     "en-US": {
         "code": "en-US",
-        "name": "saozneg S.U."
+        "name": "saozneg Amerika"
     },
     "eo": {
         "code": "eo",
@@ -181,7 +181,7 @@
     },
     "es-MX": {
         "code": "es-MX",
-        "name": "es_MX"
+        "name": "spagnoleg Mecʼhiko"
     },
     "et": {
         "code": "et",
@@ -233,7 +233,7 @@
     },
     "fy": {
         "code": "fy",
-        "name": "frizeg ar C'hornôg"
+        "name": "frizeg ar Cʼhornôg"
     },
     "ga": {
         "code": "ga",
@@ -274,6 +274,10 @@
     "hr": {
         "code": "hr",
         "name": "kroateg"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "uhelsorabeg"
     },
     "hu": {
         "code": "hu",
@@ -382,6 +386,10 @@
     "lag": {
         "code": "lag",
         "name": "Langi"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "luksembourgeg"
     },
     "lg": {
         "code": "lg",
@@ -535,6 +543,10 @@
         "code": "pt-PT",
         "name": "portugaleg Europa"
     },
+    "qu": {
+        "code": "qu",
+        "name": "kechuaeg"
+    },
     "rm": {
         "code": "rm",
         "name": "romañcheg"
@@ -603,6 +615,10 @@
         "code": "sl",
         "name": "sloveneg"
     },
+    "smn": {
+        "code": "smn",
+        "name": "sámi Inari"
+    },
     "sn": {
         "code": "sn",
         "name": "shona"
@@ -650,10 +666,6 @@
     "ti": {
         "code": "ti",
         "name": "tigrigna"
-    },
-    "tig": {
-        "code": "tig",
-        "name": "tigreaneg"
     },
     "to": {
         "code": "to",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "walser"
     },
-    "wal": {
-        "code": "wal",
-        "name": "walamo"
-    },
     "xog": {
         "code": "xog",
         "name": "Soga"
@@ -715,13 +723,17 @@
         "code": "yav",
         "name": "Yangben"
     },
+    "yi": {
+        "code": "yi",
+        "name": "yiddish"
+    },
     "yo": {
         "code": "yo",
         "name": "yorouba"
     },
     "zgh": {
         "code": "zgh",
-        "name": "Standard Moroccan Tamazight"
+        "name": "tamacheg Maroko standart"
     },
     "zh": {
         "code": "zh",

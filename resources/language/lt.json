@@ -75,10 +75,6 @@
         "code": "bs",
         "name": "bosnių"
     },
-    "byn": {
-        "code": "byn",
-        "name": "blin"
-    },
     "ca": {
         "code": "ca",
         "name": "katalonų"
@@ -123,21 +119,25 @@
         "code": "dje",
         "name": "zarmų"
     },
+    "dsb": {
+        "code": "dsb",
+        "name": "žemutinių sorbų"
+    },
     "dyo": {
         "code": "dyo",
         "name": "džiola-foni"
     },
     "dz": {
         "code": "dz",
-        "name": "svazilando"
+        "name": "botijų"
     },
     "ebu": {
         "code": "ebu",
-        "name": "Embu"
+        "name": "embu"
     },
     "ee": {
         "code": "ee",
-        "name": "eve"
+        "name": "evių"
     },
     "el": {
         "code": "el",
@@ -275,6 +275,10 @@
         "code": "hr",
         "name": "kroatų"
     },
+    "hsb": {
+        "code": "hsb",
+        "name": "aukštutinių sorbų"
+    },
     "hu": {
         "code": "hu",
         "name": "vengrų"
@@ -301,11 +305,11 @@
     },
     "jgo": {
         "code": "jgo",
-        "name": "Ngomba"
+        "name": "ngombų"
     },
     "jmc": {
         "code": "jmc",
-        "name": "machamų"
+        "name": "mačamų"
     },
     "ka": {
         "code": "ka",
@@ -313,11 +317,11 @@
     },
     "kab": {
         "code": "kab",
-        "name": "kabilo"
+        "name": "kebailų"
     },
     "kam": {
         "code": "kam",
-        "name": "kamba"
+        "name": "kembų"
     },
     "kde": {
         "code": "kde",
@@ -329,11 +333,11 @@
     },
     "khq": {
         "code": "khq",
-        "name": "koyra čini"
+        "name": "kojra čini"
     },
     "ki": {
         "code": "ki",
-        "name": "kikui"
+        "name": "kikujų"
     },
     "kk": {
         "code": "kk",
@@ -365,7 +369,7 @@
     },
     "ksb": {
         "code": "ksb",
-        "name": "sambalų"
+        "name": "šambalų"
     },
     "ksf": {
         "code": "ksf",
@@ -383,13 +387,17 @@
         "code": "lag",
         "name": "langi"
     },
+    "lb": {
+        "code": "lb",
+        "name": "liuksemburgiečių"
+    },
     "lg": {
         "code": "lg",
         "name": "ganda"
     },
     "ln": {
         "code": "ln",
-        "name": "lingala"
+        "name": "ngalų"
     },
     "lo": {
         "code": "lo",
@@ -409,7 +417,7 @@
     },
     "luy": {
         "code": "luy",
-        "name": "luyia"
+        "name": "luja"
     },
     "lv": {
         "code": "lv",
@@ -433,7 +441,7 @@
     },
     "mgh": {
         "code": "mgh",
-        "name": "makhuva-maeto"
+        "name": "makua-maeto"
     },
     "mk": {
         "code": "mk",
@@ -469,7 +477,7 @@
     },
     "naq": {
         "code": "naq",
-        "name": "namų"
+        "name": "nama"
     },
     "nb": {
         "code": "nb",
@@ -505,7 +513,7 @@
     },
     "nyn": {
         "code": "nyn",
-        "name": "niankole"
+        "name": "niankolų"
     },
     "or": {
         "code": "or",
@@ -535,6 +543,10 @@
         "code": "pt-PT",
         "name": "Europos portugalų"
     },
+    "qu": {
+        "code": "qu",
+        "name": "kečujų"
+    },
     "rm": {
         "code": "rm",
         "name": "retoromanų"
@@ -561,11 +573,11 @@
     },
     "rwk": {
         "code": "rwk",
-        "name": "rwa"
+        "name": "rua"
     },
     "saq": {
         "code": "saq",
-        "name": "samburų"
+        "name": "sambūrų"
     },
     "sbp": {
         "code": "sbp",
@@ -573,7 +585,7 @@
     },
     "se": {
         "code": "se",
-        "name": "šiaurinių samių"
+        "name": "šiaurės samių"
     },
     "seh": {
         "code": "seh",
@@ -581,7 +593,7 @@
     },
     "ses": {
         "code": "ses",
-        "name": "koyraboro seni"
+        "name": "kojraboro seni"
     },
     "sg": {
         "code": "sg",
@@ -603,9 +615,13 @@
         "code": "sl",
         "name": "slovėnų"
     },
+    "smn": {
+        "code": "smn",
+        "name": "Inario samių"
+    },
     "sn": {
         "code": "sn",
-        "name": "šona"
+        "name": "šonų"
     },
     "so": {
         "code": "so",
@@ -629,7 +645,7 @@
     },
     "swc": {
         "code": "swc",
-        "name": "Kongo svahili"
+        "name": "Kongo suahilių"
     },
     "ta": {
         "code": "ta",
@@ -651,10 +667,6 @@
         "code": "ti",
         "name": "tigrajų"
     },
-    "tig": {
-        "code": "tig",
-        "name": "tigre"
-    },
     "to": {
         "code": "to",
         "name": "tonganų"
@@ -669,7 +681,7 @@
     },
     "tzm": {
         "code": "tzm",
-        "name": "Centrinio Maroko tamazightų"
+        "name": "Centrinio Maroko tamazitų"
     },
     "ug": {
         "code": "ug",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "valserų"
     },
-    "wal": {
-        "code": "wal",
-        "name": "valamo"
-    },
     "xog": {
         "code": "xog",
         "name": "sogų"
@@ -714,6 +722,10 @@
     "yav": {
         "code": "yav",
         "name": "jangbenų"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "jidiš"
     },
     "yo": {
         "code": "yo",

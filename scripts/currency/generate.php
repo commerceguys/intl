@@ -11,9 +11,9 @@ set_time_limit(0);
 
 // Downloaded from http://www.currency-iso.org/en/home/tables/table-a1.html
 $isoCurrencies = '../c2.xml';
-// Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
-$cldrCurrencies = '../json_full/main/en-US/currencies.json';
-$currencyData = '../json_full/supplemental/currencyData.json';
+// Downloaded from http://unicode.org/Public/cldr/26/json-full.zip
+$cldrCurrencies = '../json-full/main/en-US/currencies.json';
+$currencyData = '../json-full/supplemental/currencyData.json';
 if (!file_exists($isoCurrencies)) {
     die("The $isoCurrencies file was not found");
 }
@@ -29,13 +29,15 @@ if (!file_exists($currencyData)) {
 $ignoredLocales = array(
     // Interlingua is a made up language.
     'ia',
+    // Valencian differs from its parent only by a single character (è/é).
+    'ca-ES-VALENCIA',
     // Those locales are 90% untranslated.
     'aa', 'as', 'az-Cyrl', 'az-Cyrl-AZ', 'bem', 'dua', 'gv', 'haw', 'ig', 'ii',
     'kkj', 'kok', 'kw', 'lkt', 'mgo', 'nnh', 'nr', 'nso', 'om', 'os', 'pa-Arab',
-    'pa-Arab-PK', 'rw', 'sah', 'ss', 'ssy', 'st', 'tg', 'tn', 'ts', 'uz-Arab',
-    'uz-Arab-AF', 've', 'vo', 'xh',
+    'pa-Arab-PK', 'qu', 'rw', 'sah', 'smn', 'ss', 'ssy', 'st', 'tg', 'tn', 'ts',
+    'uz-Arab', 'uz-Arab-AF', 've', 'vo', 'xh', 'yi',
     // Special "grouping" locales.
-    'root', 'en-US-POSIX', 'en-001', 'en-150',
+    'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
 );
 
 // Assemble the base data.
@@ -82,7 +84,7 @@ file_put_contents('base.json', $json);
 
 // Gather available locales.
 $locales = array();
-if ($handle = opendir('../json_full/main')) {
+if ($handle = opendir('../json-full/main')) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
             $entryParts = explode('-', $entry);
@@ -97,7 +99,7 @@ if ($handle = opendir('../json_full/main')) {
 // Create the localizations.
 $currencies = array();
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/currencies.json'), true);
+    $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/currencies.json'), true);
     $data = $data['main'][$locale]['numbers']['currencies'];
     foreach ($data as $currencyCode => $currency) {
         if (isset($baseData[$currencyCode])) {

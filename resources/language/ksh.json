@@ -9,19 +9,19 @@
     },
     "ak": {
         "code": "ak",
-        "name": "Akan"
+        "name": "Akahnesch"
     },
     "am": {
         "code": "am",
-        "name": "Amhaaresch"
+        "name": "Amhahresch"
     },
     "ar": {
         "code": "ar",
-        "name": "Araabesch"
+        "name": "Arahbesch"
     },
     "ar-001": {
         "code": "ar-001",
-        "name": "Schtandatt Araabesch"
+        "name": "Schtandatt Arahbesch"
     },
     "asa": {
         "code": "asa",
@@ -29,11 +29,11 @@
     },
     "ast": {
         "code": "ast",
-        "name": "Asturian"
+        "name": "Astuhrejahnesch"
     },
     "az": {
         "code": "az",
-        "name": "Asserbaidschaanesch"
+        "name": "Asserbaidschahnesch"
     },
     "bas": {
         "code": "bas",
@@ -61,11 +61,11 @@
     },
     "bo": {
         "code": "bo",
-        "name": "Tibeetesch"
+        "name": "Tibehtesch"
     },
     "br": {
         "code": "br",
-        "name": "Breton"
+        "name": "Bettohnesch"
     },
     "brx": {
         "code": "brx",
@@ -75,13 +75,9 @@
         "code": "bs",
         "name": "Boßnesch"
     },
-    "byn": {
-        "code": "byn",
-        "name": "Blin"
-    },
     "ca": {
         "code": "ca",
-        "name": "Kattalanesch"
+        "name": "Kattalahnesch"
     },
     "cgg": {
         "code": "cgg",
@@ -97,11 +93,11 @@
     },
     "cy": {
         "code": "cy",
-        "name": "Walliisesch"
+        "name": "Wallihsesch"
     },
     "da": {
         "code": "da",
-        "name": "Dänesch"
+        "name": "Dähnesch"
     },
     "dav": {
         "code": "dav",
@@ -123,13 +119,17 @@
         "code": "dje",
         "name": "Zarma"
     },
+    "dsb": {
+        "code": "dsb",
+        "name": "Niddersorbesch"
+    },
     "dyo": {
         "code": "dyo",
         "name": "Jola-Fonyi"
     },
     "dz": {
         "code": "dz",
-        "name": "Butanesch"
+        "name": "Butahnesch"
     },
     "ebu": {
         "code": "ebu",
@@ -141,7 +141,7 @@
     },
     "el": {
         "code": "el",
-        "name": "Jriischesch"
+        "name": "Jrihschesch"
     },
     "en": {
         "code": "en",
@@ -169,7 +169,7 @@
     },
     "es": {
         "code": "es",
-        "name": "Schpaanesch"
+        "name": "Schpahnesch"
     },
     "es-419": {
         "code": "es-419",
@@ -177,11 +177,11 @@
     },
     "es-ES": {
         "code": "es-ES",
-        "name": "Schpaanesch uß Schpaaneje"
+        "name": "Schpahnesch en Schpahneje"
     },
     "es-MX": {
         "code": "es-MX",
-        "name": "es_MX"
+        "name": "Schpahnesch en Mäxikoh"
     },
     "et": {
         "code": "et",
@@ -209,7 +209,7 @@
     },
     "fil": {
         "code": "fil",
-        "name": "Fillipiinesch"
+        "name": "Filipino"
     },
     "fo": {
         "code": "fo",
@@ -275,6 +275,10 @@
         "code": "hr",
         "name": "Krowatesch"
     },
+    "hsb": {
+        "code": "hsb",
+        "name": "Upper Sorbian"
+    },
     "hu": {
         "code": "hu",
         "name": "Unjarresch"
@@ -309,7 +313,7 @@
     },
     "ka": {
         "code": "ka",
-        "name": "Je'orjesch"
+        "name": "Je’orjesch"
     },
     "kab": {
         "code": "kab",
@@ -377,11 +381,15 @@
     },
     "ky": {
         "code": "ky",
-        "name": "Kirjiisesch"
+        "name": "Kirjihsesch"
     },
     "lag": {
         "code": "lag",
         "name": "Langi"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "Luxemborjesch"
     },
     "lg": {
         "code": "lg",
@@ -535,6 +543,10 @@
         "code": "pt-PT",
         "name": "Pochtojesesch uß Pochtojall"
     },
+    "qu": {
+        "code": "qu",
+        "name": "Kättschowa"
+    },
     "rm": {
         "code": "rm",
         "name": "Rätoromaanesch"
@@ -603,6 +615,10 @@
         "code": "sl",
         "name": "ẞloveenesch"
     },
+    "smn": {
+        "code": "smn",
+        "name": "Inari Sami"
+    },
     "sn": {
         "code": "sn",
         "name": "Schi-Schona"
@@ -651,10 +667,6 @@
         "code": "ti",
         "name": "Tijrenejaanesch"
     },
-    "tig": {
-        "code": "tig",
-        "name": "Tigre"
-    },
     "to": {
         "code": "to",
         "name": "Tongjaanesch"
@@ -673,7 +685,7 @@
     },
     "ug": {
         "code": "ug",
-        "name": "Uj'juuersch"
+        "name": "Uj’juuersch"
     },
     "uk": {
         "code": "uk",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "Walserdütsch"
     },
-    "wal": {
-        "code": "wal",
-        "name": "Wolaytta"
-    },
     "xog": {
         "code": "xog",
         "name": "Soga"
@@ -714,6 +722,10 @@
     "yav": {
         "code": "yav",
         "name": "Yangben"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "Yiddish"
     },
     "yo": {
         "code": "yo",

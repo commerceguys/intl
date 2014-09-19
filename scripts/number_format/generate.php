@@ -6,9 +6,9 @@
 
 set_time_limit(0);
 
-// Downloaded from http://unicode.org/Public/cldr/25/json_full.zip
-if (!is_dir('../json_full/main')) {
-    die("The '../json_full/main' directory was not found");
+// Downloaded from http://unicode.org/Public/cldr/26/json-full.zip
+if (!is_dir('../json-full/main')) {
+    die("The '../json-full/main' directory was not found");
 }
 
 // Locales listed without a "-" match all variants.
@@ -17,12 +17,12 @@ $ignoredLocales = array(
     // Interlingua is a made up language.
     'ia',
     // Special "grouping" locales.
-    'root', 'en-US-POSIX', 'en-001', 'en-150',
+    'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
 );
 
 // Gather available locales.
 $locales = array();
-if ($handle = opendir('../json_full/main')) {
+if ($handle = opendir('../json-full/main')) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
             $entryParts = explode('-', $entry);
@@ -37,7 +37,7 @@ if ($handle = opendir('../json_full/main')) {
 // Load the data.
 $numberFormats = array();
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json_full/main/' . $locale . '/numbers.json'), true);
+    $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/numbers.json'), true);
     $data = $data['main'][$locale]['numbers'];
     // Use the default numbering system, if it's supported.
     if (in_array($data['defaultNumberingSystem'], array('arab', 'arabext', 'beng', 'deva', 'latn'))) {

@@ -75,10 +75,6 @@
         "code": "bs",
         "name": "lea fakaposinia"
     },
-    "byn": {
-        "code": "byn",
-        "name": "lea fakapilini"
-    },
     "ca": {
         "code": "ca",
         "name": "lea fakakatalani"
@@ -117,11 +113,15 @@
     },
     "de-CH": {
         "code": "de-CH",
-        "name": "lea fakasiamane-suisisālani ma'olunga"
+        "name": "lea fakasiamane-hake-suisilani"
     },
     "dje": {
         "code": "dje",
         "name": "lea fakatisāma"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "lea fakasōpia-hifo"
     },
     "dyo": {
         "code": "dyo",
@@ -169,7 +169,7 @@
     },
     "es": {
         "code": "es",
-        "name": "lea fakasīpenisi"
+        "name": "lea fakasipēnisi"
     },
     "es-419": {
         "code": "es-419",
@@ -177,7 +177,7 @@
     },
     "es-ES": {
         "code": "es-ES",
-        "name": "lea fakasipēnisi-'iulope"
+        "name": "lea fakasipēnisi-‘iulope"
     },
     "es-MX": {
         "code": "es-MX",
@@ -225,7 +225,7 @@
     },
     "fr-CH": {
         "code": "fr-CH",
-        "name": "lea fakafalanisē-suisisālani"
+        "name": "lea fakafalanisē-suisilani"
     },
     "fur": {
         "code": "fur",
@@ -233,7 +233,7 @@
     },
     "fy": {
         "code": "fy",
-        "name": "lea fakafilisia hihifo"
+        "name": "lea fakafilisia-hihifo"
     },
     "ga": {
         "code": "ga",
@@ -249,7 +249,7 @@
     },
     "gsw": {
         "code": "gsw",
-        "name": "lea fakasiamane-suisisālani"
+        "name": "lea fakasiamane-suisilani"
     },
     "gu": {
         "code": "gu",
@@ -274,6 +274,10 @@
     "hr": {
         "code": "hr",
         "name": "lea fakakuloisia"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "lea fakasōpia-hake"
     },
     "hu": {
         "code": "hu",
@@ -349,7 +353,7 @@
     },
     "km": {
         "code": "km",
-        "name": "lea fakakemipōtia"
+        "name": "lea fakakamipōtia"
     },
     "kn": {
         "code": "kn",
@@ -361,7 +365,7 @@
     },
     "ks": {
         "code": "ks",
-        "name": "lea fakakesimia"
+        "name": "lea fakakāsimila"
     },
     "ksb": {
         "code": "ksb",
@@ -377,11 +381,15 @@
     },
     "ky": {
         "code": "ky",
-        "name": "lea fakakiataisi"
+        "name": "lea fakakīsisi"
     },
     "lag": {
         "code": "lag",
         "name": "lea fakalangi"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "lea fakalakisimipeki"
     },
     "lg": {
         "code": "lg",
@@ -477,7 +485,7 @@
     },
     "nd": {
         "code": "nd",
-        "name": "lea netepele fakatokelau"
+        "name": "lea fakanetepele-tokelau"
     },
     "ne": {
         "code": "ne",
@@ -533,7 +541,11 @@
     },
     "pt-PT": {
         "code": "pt-PT",
-        "name": "lea fakapotukali-ʻeulope"
+        "name": "lea fakapotukali-ʻiulope"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "lea fakakuetisa"
     },
     "rm": {
         "code": "rm",
@@ -541,7 +553,7 @@
     },
     "rn": {
         "code": "rn",
-        "name": "lea luaniti"
+        "name": "lea fakaluaniti"
     },
     "ro": {
         "code": "ro",
@@ -573,7 +585,7 @@
     },
     "se": {
         "code": "se",
-        "name": "lea sami fakatokelau"
+        "name": "lea fakasami-tokelau"
     },
     "seh": {
         "code": "seh",
@@ -585,7 +597,7 @@
     },
     "sg": {
         "code": "sg",
-        "name": "lea sango"
+        "name": "lea fakasangikō"
     },
     "shi": {
         "code": "shi",
@@ -603,9 +615,13 @@
         "code": "sl",
         "name": "lea fakasolovenia"
     },
+    "smn": {
+        "code": "smn",
+        "name": "lea fakasami-ʻinali"
+    },
     "sn": {
         "code": "sn",
-        "name": "lea sona"
+        "name": "lea fakasiona"
     },
     "so": {
         "code": "so",
@@ -629,7 +645,7 @@
     },
     "swc": {
         "code": "swc",
-        "name": "lea fakakongo suahilī"
+        "name": "lea fakasuahili-kongikō"
     },
     "ta": {
         "code": "ta",
@@ -645,15 +661,11 @@
     },
     "th": {
         "code": "th",
-        "name": "lea fakataileni"
+        "name": "lea fakatailani"
     },
     "ti": {
         "code": "ti",
         "name": "lea fakatikilinia"
-    },
-    "tig": {
-        "code": "tig",
-        "name": "lea fakatikilīnia"
     },
     "to": {
         "code": "to",
@@ -669,7 +681,7 @@
     },
     "tzm": {
         "code": "tzm",
-        "name": "lea fakatamasaiti ʻatilasi-loloto"
+        "name": "lea fakatamasaiti-ʻatilasi-loloto"
     },
     "ug": {
         "code": "ug",
@@ -677,11 +689,11 @@
     },
     "uk": {
         "code": "uk",
-        "name": "lea fakaʻiukālia"
+        "name": "lea fakaʻūkalaʻine"
     },
     "ur": {
         "code": "ur",
-        "name": "lea fakaʻetiu"
+        "name": "lea fakaʻūtū"
     },
     "uz": {
         "code": "uz",
@@ -693,7 +705,7 @@
     },
     "vi": {
         "code": "vi",
-        "name": "lea fakavietinemi"
+        "name": "lea fakavietinami"
     },
     "vun": {
         "code": "vun",
@@ -703,10 +715,6 @@
         "code": "wae",
         "name": "lea fakaʻualiseli"
     },
-    "wal": {
-        "code": "wal",
-        "name": "lea fakaʻuolaita"
-    },
     "xog": {
         "code": "xog",
         "name": "lea fakasoka"
@@ -715,13 +723,17 @@
         "code": "yav",
         "name": "lea fakaʻiangipeni"
     },
+    "yi": {
+        "code": "yi",
+        "name": "lea fakaītisi"
+    },
     "yo": {
         "code": "yo",
         "name": "lea fakaʻiōlupa"
     },
     "zgh": {
         "code": "zgh",
-        "name": "lea fakatamasaiti moloko"
+        "name": "lea fakatamasaiti-moloko"
     },
     "zh": {
         "code": "zh",
