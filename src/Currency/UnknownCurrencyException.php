@@ -7,7 +7,7 @@ use CommerceGuys\Intl\Exception;
 
 /**
  * This exception is thrown when an unknown currency code is passed to the
- * CurrencyManager.
+ * CurrencyRepository.
  */
 class UnknownCurrencyException extends InvalidArgumentException implements Exception
 {

@@ -3,9 +3,9 @@
 namespace CommerceGuys\Intl\Currency;
 
 /**
- * Currency manager interface.
+ * Currency repository interface.
  */
-interface CurrencyManagerInterface
+interface CurrencyRepositoryInterface
 {
     /**
      * Returns a currency instance matching the provided currency code.

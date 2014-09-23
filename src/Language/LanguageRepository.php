@@ -7,7 +7,7 @@ use CommerceGuys\Intl\LocaleResolverTrait;
 /**
  * Manages languages based on JSON definitions.
  */
-class DefaultLanguageManager implements LanguageManagerInterface
+class LanguageRepository implements LanguageRepositoryInterface
 {
     use LocaleResolverTrait;
 
@@ -19,7 +19,7 @@ class DefaultLanguageManager implements LanguageManagerInterface
     protected $definitions = array();
 
     /**
-     * Creates a DefaultLanguageManager instance.
+     * Creates a LanguageRepository instance.
      *
      * @param string $definitionPath The path to the currency definitions.
      *                               Defaults to 'resources/language'.

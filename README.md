@@ -38,15 +38,15 @@ The amounts passed for formatting should already be rounded, because the
 formatter doesn't do any rounding of its own.
 
 ```php
-use CommerceGuys\Intl\Currency\DefaultCurrencyManager;
-use CommerceGuys\Intl\NumberFormat\DefaultNumberFormatManager;
+use CommerceGuys\Intl\Currency\CurrencyRepository;
+use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 use CommerceGuys\Intl\Formatter\NumberFormatter;
 
-$currencyManager = new DefaultCurrencyManager;
-$numberFormatManager = new DefaultNumberFormatManager;
+$currencyRepository = new CurrencyRepository;
+$numberFormatRepository = new NumberFormatRepository;
 
-$currency = $currencyManager->get('USD');
-$numberFormat = $numberFormatManager->get('en');
+$currency = $currencyRepository->get('USD');
+$numberFormat = $numberFormatRepository->get('en');
 
 $decimalFormatter = new NumberFormatter($numberFormat);
 echo $decimalFormatter->format('1234.99'); // 123,456.99
@@ -63,8 +63,8 @@ $invoiceCurrencyFormatter = new NumberFormatter($numberFormat, NumberFormatter::
 echo $invoiceCurrencyFormatter->formatCurrency('-2.99', $currency); // (2.99$)
 
 // Arabic, Arabic extended, Bengali, Devanagari digits are supported as expected.
-$currency = $currencyManager->get('USD', 'ar');
-$numberFormat = $numberFormatManager->get('ar');
+$currency = $currencyRepository->get('USD', 'ar');
+$numberFormat = $numberFormatRepository->get('ar');
 $currencyFormatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
 echo $currencyFormatter->formatCurrency('1230.99', $currency); // US$ ١٬٢٣٠٫٩٩
 
@@ -75,13 +75,13 @@ echo $currencyFormatter->parseCurrency('US$ ١٬٢٣٠٫٩٩', $currency); // 12
 Currencies
 ----------
 ```php
-use CommerceGuys\Intl\Currency\DefaultCurrencyManager;
+use CommerceGuys\Intl\Currency\CurrencyRepository;
 
 // Reads the currency definitions from resources/currency.
-$currencyManager = new DefaultCurrencyManager;
+$currencyRepository = new CurrencyRepository;
 
 // Get the USD currency using the default locale (en).
-$currency = $currencyManager->get('USD');
+$currency = $currencyRepository->get('USD');
 echo $currency->getCurrencyCode(); // USD
 echo $currency->getNumericCode(); // 840
 echo $currency->getFractionDigits(); // 2
@@ -90,53 +90,53 @@ echo $currency->getSymbol(); // $
 echo $currency->getLocale(); // en
 
 // Get the USD currency using the fr-FR locale.
-$currency = $currencyManager->get('USD', 'fr-FR');
+$currency = $currencyRepository->get('USD', 'fr-FR');
 echo $currency->getName(); // dollar des États-Unis
 echo $currency->getSymbol(); // $US
 echo $currency->getLocale(); // fr-FR
 
-$allCurrencies = $currencyManager->getAll();
+$allCurrencies = $currencyRepository->getAll();
 ```
 
 Countries
 ---------
 ```php
-use CommerceGuys\Intl\Country\DefaultCountryManager;
+use CommerceGuys\Intl\Country\CountryRepository;
 
 // Reads the country definitions from resources/country.
-$countryManager = new DefaultCountryManager;
+$countryRepository = new CountryRepository;
 
 // Get the US country using the default locale (en).
-$country = $countryManager->get('US');
+$country = $countryRepository->get('US');
 echo $country->getCountryCode(); // US
 echo $country->getTelephoneCode(); // 1
 echo $country->getName(); // United States
 
 // Get the US country using the fr-FR locale.
-$country = $countryManager->get('US', 'fr-FR');
+$country = $countryRepository->get('US', 'fr-FR');
 echo $country->getName(); // États-Unis
 
-$allCountries = $countryManager->getAll();
+$allCountries = $countryRepository->getAll();
 ```
 
 Languages
 ---------
 ```php
-use CommerceGuys\Intl\Language\DefaultLanguageManager;
+use CommerceGuys\Intl\Language\LanguageRepository;
 
 // Reads the language definitions from resources/language.
-$languageManager = new DefaultLanguageManager;
+$languageRepository = new LanguageRepository;
 
 // Get the german language using the default locale (en).
-$language = $languageManager->get('de');
+$language = $languageRepository->get('de');
 echo $language->getLanguageCode(); // de
 echo $language->getName(); // German
 
 // Get the german language using the fr-FR locale.
-$language = $languageManager->get('de', 'fr-FR');
+$language = $languageRepository->get('de', 'fr-FR');
 echo $language->getName(); // allemand
 
-$allLanguages = $languageManager->getAll();
+$allLanguages = $languageRepository->getAll();
 ```
 
 Implementing the library
@@ -152,7 +152,7 @@ Taking currencies as an example, a merchant frequently wants to be able to:
 - Enable/disable existing currencies
 - Modify an existing currency (changing the default number of fraction digits, for example).
 
-This would be accomplished by using the DefaultCurrencyManager to get all default currencies and
+This would be accomplished by using the CurrencyRepository to get all default currencies and
 insert them into the database. The doctrine entity (or any similar data object) would then implement
 the CurrencyInterface so that the NumberFormatter can continue to work.
 

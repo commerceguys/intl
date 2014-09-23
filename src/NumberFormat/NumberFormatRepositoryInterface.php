@@ -3,9 +3,9 @@
 namespace CommerceGuys\Intl\NumberFormat;
 
 /**
- * Number format manager interface.
+ * Number format repository interface.
  */
-interface NumberFormatManagerInterface
+interface NumberFormatRepositoryInterface
 {
     /**
      * Returns a number format instance for the provided locale.

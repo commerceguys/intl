@@ -2,13 +2,13 @@
 
 namespace CommerceGuys\Intl\Tests\Country;
 
-use CommerceGuys\Intl\Country\DefaultCountryManager;
+use CommerceGuys\Intl\Country\CountryRepository;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * @coversDefaultClass \CommerceGuys\Intl\Country\DefaultCountryManager
+ * @coversDefaultClass \CommerceGuys\Intl\Country\CountryRepository
  */
-class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
+class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Base country definitions.
@@ -54,13 +54,13 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
         vfsStream::newFile('country/base.json')->at($root)->setContent(json_encode($this->baseDefinitions));
         vfsStream::newFile('country/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
 
-        // Instantiate the country manager and confirm that the definition path
+        // Instantiate the country repository and confirm that the definition path
         // was properly set.
-        $countryManager = new DefaultCountryManager('vfs://resources/country/');
-        $definitionPath = $this->getObjectAttribute($countryManager, 'definitionPath');
+        $countryRepository = new CountryRepository('vfs://resources/country/');
+        $definitionPath = $this->getObjectAttribute($countryRepository, 'definitionPath');
         $this->assertEquals($definitionPath, 'vfs://resources/country/');
 
-        return $countryManager;
+        return $countryRepository;
     }
 
     /**
@@ -83,9 +83,9 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
-    public function testGet($countryManager)
+    public function testGet($countryRepository)
     {
-        $country = $countryManager->get('FR');
+        $country = $countryRepository->get('FR');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Country\\Country', $country);
         $this->assertEquals($country->getCountryCode(), 'FR');
         $this->assertEquals($country->getName(), 'France');
@@ -103,9 +103,9 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
      * @expectedException \CommerceGuys\Intl\Country\UnknownCountryException
      * @depends testConstructor
      */
-    public function testGetInvalidCountry($countryManager)
+    public function testGetInvalidCountry($countryRepository)
     {
-        $countryManager->get('DE');
+      $countryRepository->get('DE');
     }
 
     /**
@@ -123,9 +123,9 @@ class DefaultCountryManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
-    public function testGetAll($countryManager)
+    public function testGetAll($countryRepository)
     {
-        $countries = $countryManager->getAll();
+        $countries = $countryRepository->getAll();
         $this->assertArrayHasKey('FR', $countries);
         $this->assertArrayHasKey('US', $countries);
         $this->assertEquals($countries['FR']->getCountryCode(), 'FR');

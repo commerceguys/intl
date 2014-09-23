@@ -2,13 +2,13 @@
 
 namespace CommerceGuys\Intl\Tests\Language;
 
-use CommerceGuys\Intl\Language\DefaultLanguageManager;
+use CommerceGuys\Intl\Language\LanguageRepository;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * @coversDefaultClass \CommerceGuys\Intl\Language\DefaultLanguageManager
+ * @coversDefaultClass \CommerceGuys\Intl\Language\LanguageRepository
  */
-class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
+class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * English language definitions.
@@ -35,13 +35,13 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
         $root = vfsStream::setup('resources');
         vfsStream::newFile('language/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
 
-        // Instantiate the language manager and confirm that the definition path
+        // Instantiate the language repository and confirm that the definition path
         // was properly set.
-        $languageManager = new DefaultLanguageManager('vfs://resources/language/');
-        $definitionPath = $this->getObjectAttribute($languageManager, 'definitionPath');
+        $languageRepository = new LanguageRepository('vfs://resources/language/');
+        $definitionPath = $this->getObjectAttribute($languageRepository, 'definitionPath');
         $this->assertEquals($definitionPath, 'vfs://resources/language/');
 
-        return $languageManager;
+        return $languageRepository;
     }
 
     /**
@@ -58,9 +58,9 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
-    public function testGet($languageManager)
+    public function testGet($languageRepository)
     {
-        $language = $languageManager->get('en');
+        $language = $languageRepository->get('en');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Language\\Language', $language);
         $this->assertEquals($language->getLanguageCode(), 'en');
         $this->assertEquals($language->getName(), 'English');
@@ -75,9 +75,9 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
      * @expectedException \CommerceGuys\Intl\Language\UnknownLanguageException
      * @depends testConstructor
      */
-    public function testGetInvalidLanguage($languageManager)
+    public function testGetInvalidLanguage($languageRepository)
     {
-        $languageManager->get('de');
+      $languageRepository->get('de');
     }
 
     /**
@@ -92,9 +92,9 @@ class DefaultLanguageManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
-    public function testGetAll($languageManager)
+    public function testGetAll($languageRepository)
     {
-        $languages = $languageManager->getAll();
+        $languages = $languageRepository->getAll();
         $this->assertArrayHasKey('en', $languages);
         $this->assertArrayHasKey('fr', $languages);
         $this->assertEquals($languages['en']->getLanguageCode(), 'en');

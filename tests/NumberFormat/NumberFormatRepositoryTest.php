@@ -2,13 +2,13 @@
 
 namespace CommerceGuys\Intl\Tests\NumberFormat;
 
-use CommerceGuys\Intl\NumberFormat\DefaultNumberFormatManager;
+use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * @coversDefaultClass \CommerceGuys\Intl\NumberFormat\DefaultNumberFormatManager
+ * @coversDefaultClass \CommerceGuys\Intl\NumberFormat\NumberFormatRepository
  */
-class DefaultNumberFormatManagerTest extends \PHPUnit_Framework_TestCase
+class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * English number format definition.
@@ -32,13 +32,13 @@ class DefaultNumberFormatManagerTest extends \PHPUnit_Framework_TestCase
         $root = vfsStream::setup('resources');
         vfsStream::newFile('number_format/en.json')->at($root)->setContent(json_encode($this->englishDefinition));
 
-        // Instantiate the number format manager and confirm that the definition
+        // Instantiate the number format repository and confirm that the definition
         // path was properly set.
-        $numberFormatManager = new DefaultNumberFormatManager('vfs://resources/number_format/');
-        $definitionPath = $this->getObjectAttribute($numberFormatManager, 'definitionPath');
+        $numberFormatRepository = new NumberFormatRepository('vfs://resources/number_format/');
+        $definitionPath = $this->getObjectAttribute($numberFormatRepository, 'definitionPath');
         $this->assertEquals($definitionPath, 'vfs://resources/number_format/');
 
-        return $numberFormatManager;
+        return $numberFormatRepository;
     }
 
     /**
@@ -70,9 +70,9 @@ class DefaultNumberFormatManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
-    public function testGet($numberFormatManager)
+    public function testGet($numberFormatRepository)
     {
-        $numberFormat = $numberFormatManager->get('en');
+        $numberFormat = $numberFormatRepository->get('en');
         $this->assertInstanceOf('CommerceGuys\\Intl\\NumberFormat\\NumberFormat', $numberFormat);
         $this->assertEquals($numberFormat->getLocale(), 'en');
         $this->assertEquals($numberFormat->getNumberingSystem(), 'latn');

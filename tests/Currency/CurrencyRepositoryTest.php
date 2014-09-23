@@ -2,13 +2,13 @@
 
 namespace CommerceGuys\Intl\Tests\Currency;
 
-use CommerceGuys\Intl\Currency\DefaultCurrencyManager;
+use CommerceGuys\Intl\Currency\CurrencyRepository;
 use org\bovigo\vfs\vfsStream;
 
 /**
- * @coversDefaultClass \CommerceGuys\Intl\Currency\DefaultCurrencyManager
+ * @coversDefaultClass \CommerceGuys\Intl\Currency\CurrencyRepository
  */
-class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
+class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Base currency definitions.
@@ -53,13 +53,13 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
         vfsStream::newFile('currency/base.json')->at($root)->setContent(json_encode($this->baseDefinitions));
         vfsStream::newFile('currency/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
 
-        // Instantiate the currency manager and confirm that the definition path
+        // Instantiate the currency repository and confirm that the definition path
         // was properly set.
-        $currencyManager = new DefaultCurrencyManager('vfs://resources/currency/');
-        $definitionPath = $this->getObjectAttribute($currencyManager, 'definitionPath');
+        $currencyRepository = new CurrencyRepository('vfs://resources/currency/');
+        $definitionPath = $this->getObjectAttribute($currencyRepository, 'definitionPath');
         $this->assertEquals($definitionPath, 'vfs://resources/currency/');
 
-        return $currencyManager;
+        return $currencyRepository;
     }
 
     /**
@@ -82,9 +82,9 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
-    public function testGet($currencyManager)
+    public function testGet($currencyRepository)
     {
-        $currency = $currencyManager->get('USD');
+        $currency = $currencyRepository->get('USD');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
         $this->assertEquals($currency->getCurrencyCode(), 'USD');
         $this->assertEquals($currency->getName(), 'US Dollar');
@@ -102,9 +102,9 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
      * @expectedException \CommerceGuys\Intl\Currency\UnknownCurrencyException
      * @depends testConstructor
      */
-    public function testGetInvalidCurrency($currencyManager)
+    public function testGetInvalidCurrency($currencyRepository)
     {
-        $currencyManager->get('RSD');
+        $currencyRepository->get('RSD');
     }
 
     /**
@@ -122,9 +122,9 @@ class DefaultCurrencyManagerTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
      * @depends testConstructor
      */
-    public function testGetAll($currencyManager)
+    public function testGetAll($currencyRepository)
     {
-        $currencies = $currencyManager->getAll();
+        $currencies = $currencyRepository->getAll();
         $this->assertArrayHasKey('USD', $currencies);
         $this->assertArrayHasKey('EUR', $currencies);
         $this->assertEquals($currencies['USD']->getCurrencyCode(), 'USD');

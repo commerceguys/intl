@@ -5,9 +5,9 @@ namespace CommerceGuys\Intl\NumberFormat;
 use CommerceGuys\Intl\LocaleResolverTrait;
 
 /**
- * Manages number formats based on JSON definitions.
+ * Repository for number formats based on JSON definitions.
  */
-class DefaultNumberFormatManager implements NumberFormatManagerInterface
+class NumberFormatRepository implements NumberFormatRepositoryInterface
 {
     use LocaleResolverTrait;
 
@@ -19,7 +19,7 @@ class DefaultNumberFormatManager implements NumberFormatManagerInterface
     protected $definitions = array();
 
     /**
-     * Creates a DefaultNumberFormatManager instance.
+     * Creates a NumberFormatRepository instance.
      *
      * @param string $definitionPath The path to the number format definitions.
      *                               Defaults to 'resources/number_format'.

@@ -5,9 +5,9 @@ namespace CommerceGuys\Intl\Tests;
 use CommerceGuys\Intl\LocaleResolverTrait;
 
 /**
- * Dummy manager used for testing the LocaleResolverTrait.
+ * Dummy repository used for testing the LocaleResolverTrait.
  */
-class DummyManager
+class DummyRepository
 {
     use LocaleResolverTrait;
 
