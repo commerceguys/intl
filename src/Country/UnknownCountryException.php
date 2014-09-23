@@ -7,7 +7,7 @@ use CommerceGuys\Intl\Exception;
 
 /**
  * This exception is thrown when an unknown country code is passed to the
- * CountryManager.
+ * CountryRepository.
  */
 class UnknownCountryException extends InvalidArgumentException implements Exception
 {

@@ -2,7 +2,7 @@
 
 namespace CommerceGuys\Intl\Tests;
 
-use CommerceGuys\Intl\Tests\DummyManager;
+use CommerceGuys\Intl\Tests\DummyRepository;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -10,7 +10,7 @@ use org\bovigo\vfs\vfsStream;
  */
 class LocaleResolverTest extends \PHPUnit_Framework_TestCase
 {
-    protected $manager;
+    protected $repository;
 
     public function setUp()
     {
@@ -20,7 +20,7 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
         vfsStream::newFile('dummy/bs.json')->at($root)->setContent('');
         vfsStream::newFile('dummy/en.json')->at($root)->setContent('');
 
-        $this->manager = new DummyManager;
+        $this->repository = new DummyRepository;
     }
 
     /**
@@ -29,11 +29,11 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
      */
     public function testLocaleFallback()
     {
-        $locale = $this->manager->runResolveLocale('bs-Cyrl-BA');
+        $locale = $this->repository->runResolveLocale('bs-Cyrl-BA');
         $this->assertEquals($locale, 'bs-Cyrl');
-        $locale = $this->manager->runResolveLocale('bs-Latn-BA');
+        $locale = $this->repository->runResolveLocale('bs-Latn-BA');
         $this->assertEquals($locale, 'bs');
-        $locale = $this->manager->runResolveLocale('de', 'en-US');
+        $locale = $this->repository->runResolveLocale('de', 'en-US');
         $this->assertEquals($locale, 'en');
     }
 
@@ -44,6 +44,6 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvalidLocale()
     {
-        $locale = $this->manager->runResolveLocale('de');
+        $locale = $this->repository->runResolveLocale('de');
     }
 }

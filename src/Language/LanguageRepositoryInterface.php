@@ -3,9 +3,9 @@
 namespace CommerceGuys\Intl\Language;
 
 /**
- * Language manager interface.
+ * Language repository interface.
  */
-interface LanguageManagerInterface
+interface LanguageRepositoryInterface
 {
     /**
      * Returns a language instance matching the provided language code.

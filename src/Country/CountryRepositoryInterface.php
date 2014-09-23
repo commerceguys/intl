@@ -3,9 +3,9 @@
 namespace CommerceGuys\Intl\Country;
 
 /**
- * Country manager interface.
+ * Country repository interface.
  */
-interface CountryManagerInterface
+interface CountryRepositoryInterface
 {
     /**
      * Returns a country instance matching the provided country code.

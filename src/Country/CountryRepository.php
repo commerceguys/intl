@@ -7,7 +7,7 @@ use CommerceGuys\Intl\LocaleResolverTrait;
 /**
  * Manages countries based on JSON definitions.
  */
-class DefaultCountryManager implements CountryManagerInterface
+class CountryRepository implements CountryRepositoryInterface
 {
     use LocaleResolverTrait;
 
@@ -29,7 +29,7 @@ class DefaultCountryManager implements CountryManagerInterface
     protected $definitions = array();
 
     /**
-     * Creates a DefaultCountryManager instance.
+     * Creates a CountryRepository instance.
      *
      * @param string $definitionPath The path to the country definitions.
      *                               Defaults to 'resources/country'.
