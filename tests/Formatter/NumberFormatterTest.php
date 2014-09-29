@@ -65,7 +65,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @covers ::__construct
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    *
-   * @expectedException         \CommerceGuys\Intl\InvalidArgumentException
+   * @expectedException         \CommerceGuys\Intl\Exception\InvalidArgumentException
    * @expectedExceptionMessage  Unknown format style provided to DecimalFormatter::__construct().
    */
   public function testConstructorWithInvalidStyle() {
@@ -124,7 +124,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @uses CommerceGuys\Intl\Formatter\NumberFormatter::format
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    *
-   * @expectedException \CommerceGuys\Intl\InvalidArgumentException
+   * @expectedException \CommerceGuys\Intl\Exception\InvalidArgumentException
    */
   public function testFormatOnlyAllowsNumbers() {
     $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);

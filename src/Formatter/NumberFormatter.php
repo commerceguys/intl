@@ -2,8 +2,8 @@
 
 namespace CommerceGuys\Intl\Formatter;
 
-use CommerceGuys\Intl\InvalidArgumentException;
 use CommerceGuys\Intl\Currency\CurrencyInterface;
+use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\NumberFormat\NumberFormatInterface;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 

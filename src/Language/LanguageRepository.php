@@ -3,6 +3,7 @@
 namespace CommerceGuys\Intl\Language;
 
 use CommerceGuys\Intl\LocaleResolverTrait;
+use CommerceGuys\Intl\Exception\UnknownLanguageException;
 
 /**
  * Manages languages based on JSON definitions.

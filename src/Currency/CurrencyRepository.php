@@ -3,6 +3,7 @@
 namespace CommerceGuys\Intl\Currency;
 
 use CommerceGuys\Intl\LocaleResolverTrait;
+use CommerceGuys\Intl\Exception\UnknownCurrencyException;
 
 /**
  * Manages currencies based on JSON definitions.

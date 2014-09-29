@@ -100,7 +100,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::loadDefinitions
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
-     * @expectedException \CommerceGuys\Intl\Country\UnknownCountryException
+     * @expectedException \CommerceGuys\Intl\Exception\UnknownCountryException
      * @depends testConstructor
      */
     public function testGetInvalidCountry($countryRepository)

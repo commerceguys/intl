@@ -2,6 +2,8 @@
 
 namespace CommerceGuys\Intl;
 
+use CommerceGuys\Intl\Exception\UnknownLocaleException;
+
 trait LocaleResolverTrait
 {
     /**

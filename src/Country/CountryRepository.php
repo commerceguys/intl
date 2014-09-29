@@ -3,6 +3,7 @@
 namespace CommerceGuys\Intl\Country;
 
 use CommerceGuys\Intl\LocaleResolverTrait;
+use CommerceGuys\Intl\Exception\UnknownCountryException;
 
 /**
  * Manages countries based on JSON definitions.

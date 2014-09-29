@@ -40,7 +40,7 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::resolveLocale
      * @covers ::getLocaleVariants
-     * @expectedException \CommerceGuys\Intl\UnknownLocaleException
+     * @expectedException \CommerceGuys\Intl\Exception\UnknownLocaleException
      */
     public function testInvalidLocale()
     {

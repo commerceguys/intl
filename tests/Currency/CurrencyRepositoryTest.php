@@ -99,7 +99,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::loadDefinitions
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
-     * @expectedException \CommerceGuys\Intl\Currency\UnknownCurrencyException
+     * @expectedException \CommerceGuys\Intl\Exception\UnknownCurrencyException
      * @depends testConstructor
      */
     public function testGetInvalidCurrency($currencyRepository)

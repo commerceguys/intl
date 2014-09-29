@@ -72,7 +72,7 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::loadDefinitions
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
-     * @expectedException \CommerceGuys\Intl\Language\UnknownLanguageException
+     * @expectedException \CommerceGuys\Intl\Exception\UnknownLanguageException
      * @depends testConstructor
      */
     public function testGetInvalidLanguage($languageRepository)
