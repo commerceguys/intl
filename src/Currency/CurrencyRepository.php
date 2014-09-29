@@ -71,8 +71,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * Loads the currency definitions for the provided locale.
      *
-     * @param string $locale
-     *   The desired locale.
+     * @param string $locale The desired locale.
      *
      * @return array
      */
@@ -98,10 +97,10 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * Creates a currency object from the provided definition.
      *
-     * @param array $definition The currency definition.
-     * @param string $locale The locale of the currency definition.
+     * @param array  $definition The currency definition.
+     * @param string $locale     The locale of the currency definition.
      *
-     * @return \CommerceGuys\Intl\Currency\Currency
+     * @return Currency
      */
     protected function createCurrencyFromDefinition(array $definition, $locale)
     {

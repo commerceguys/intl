@@ -46,10 +46,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
     /**
      * Creates a number format object from the provided definition.
      *
-     * @param array $definition The number format definition.
-     * @param string $locale The locale of the number format definition.
+     * @param array  $definition The number format definition.
+     * @param string $locale     The locale of the number format definition.
      *
-     * @return \CommerceGuys\Intl\NumberFormat\NumberFormat
+     * @return NumberFormat
      */
     protected function createNumberFormatFromDefinition(array $definition, $locale)
     {

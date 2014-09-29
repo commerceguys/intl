@@ -71,8 +71,7 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * Loads the country definitions for the provided locale.
      *
-     * @param string $locale
-     *   The desired locale.
+     * @param string $locale The desired locale.
      *
      * @return array
      */
@@ -98,10 +97,10 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * Creates a country object from the provided definition.
      *
-     * @param array $definition The country definition.
-     * @param string $locale The locale of the country definition.
+     * @param array  $definition The country definition.
+     * @param string $locale     The locale of the country definition.
      *
-     * @return \CommerceGuys\Intl\Country\Country
+     * @return Country
      */
     protected function createCountryFromDefinition(array $definition, $locale)
     {

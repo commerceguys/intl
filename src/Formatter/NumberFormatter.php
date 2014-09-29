@@ -15,7 +15,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * The number format.
      *
-     * @var \CommerceGuys\NumberFormat\NumberFormatInterface
+     * @var NumberFormatInterface
      */
     protected $numberFormat;
 
@@ -99,6 +99,14 @@ class NumberFormatter implements NumberFormatterInterface
         ),
     );
 
+    /**
+     * Creaes a NumberFormatter instance.
+     *
+     * @param NumberFormatInterface $numberFormat The number format.
+     * @param string                $style        The formatting style.
+     *
+     * @throws InvalidArgumentException
+     */
     public function __construct(NumberFormatInterface $numberFormat, $style = self::DECIMAL)
     {
         $availablePatterns = array(

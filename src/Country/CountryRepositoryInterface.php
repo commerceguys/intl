@@ -10,18 +10,18 @@ interface CountryRepositoryInterface
     /**
      * Returns a country instance matching the provided country code.
      *
-     * @param string $countryCode The country code.
-     * @param string $locale The locale (i.e. fr_FR).
+     * @param string $countryCode    The country code.
+     * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
-     * @return \CommerceGuys\Intl\Country\CountryInterface
+     * @return CountryInterface
      */
     public function get($countryCode, $locale = 'en', $fallbackLocale = null);
 
     /**
      * Returns all available country instances.
      *
-     * @param string $locale The locale (i.e. fr_FR).
+     * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
      * @return array An array of countries implementing the CountryInterface,

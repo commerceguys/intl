@@ -22,14 +22,12 @@ trait LocaleResolverTrait
      * The first locale for which a definition file is found, wins.
      * Otherwise, an exception is thrown.
      *
-     * @param string $locale
-     *   The desired locale. For example "fr-FR".
-     * @param string $fallbackLocale
-     *   An optional fallback locale. For example "en".
+     * @param string $locale         The desired locale (i.e. fr-FR).
+     * @param string $fallbackLocale A fallback locale (i.e "en").
      *
      * @return string
      *
-     * @throws \CommerceGuys\Intl\UnknownLocaleException
+     * @throws UnknownLocaleException
      */
     protected function resolveLocale($locale, $fallbackLocale = null)
     {
@@ -68,8 +66,7 @@ trait LocaleResolverTrait
      * 2) bs-Cyrl
      * 3) bs
      *
-     * @param string $locale
-     *   The locale. For example "fr-FR".
+     * @param string $locale The locale (i.e. fr-FR).
      *
      * @return array An array of all variants of a locale.
      */

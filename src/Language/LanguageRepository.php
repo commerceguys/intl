@@ -61,8 +61,7 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * Loads the language definitions for the provided locale.
      *
-     * @param string $locale
-     *   The desired locale.
+     * @param string $locale The desired locale.
      *
      * @return array
      */
@@ -79,10 +78,10 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * Creates a language object from the provided definition.
      *
-     * @param array $definition The language definition.
-     * @param string $locale The locale of the language definition.
+     * @param array  $definition The language definition.
+     * @param string $locale     The locale of the language definition.
      *
-     * @return \CommerceGuys\Intl\Language\Language
+     * @return Language
      */
     protected function createLanguageFromDefinition(array $definition, $locale)
     {

@@ -10,10 +10,10 @@ interface NumberFormatRepositoryInterface
     /**
      * Returns a number format instance for the provided locale.
      *
-     * @param string $locale The locale (i.e. fr_FR).
+     * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
-     * @return \CommerceGuys\Intl\NumberFormat\NumberFormatInterface
+     * @return NumberFormatInterface
      */
     public function get($locale, $fallbackLocale = null);
 }

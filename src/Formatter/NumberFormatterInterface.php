@@ -36,8 +36,8 @@ interface NumberFormatterInterface
      * This formatter doesn't do any rounding of its own, and will simply
      * truncate extra digits.
      *
-     * @param string $value The value to format.
-     * @param CommerceGuys\Intl\Currency\CurrencyInterface $currency The currency.
+     * @param string            $value    The value to format.
+     * @param CurrencyInterface $currency The currency.
      *
      * @return string
      */
@@ -49,8 +49,8 @@ interface NumberFormatterInterface
      * Commonly used in price input widgets where the end-user might
      * input a value using digits and symbols common to their locale.
      *
-     * @param string $value The value to parse.
-     * @param CommerceGuys\Intl\Currency\CurrencyInterface $currency The currency.
+     * @param string            $value    The value to parse.
+     * @param CurrencyInterface $currency The currency.
      *
      * @return string|false The parsed numeric value or FALSE on error.
      */
@@ -59,7 +59,7 @@ interface NumberFormatterInterface
     /**
      * Gets the number format.
      *
-     * @return CommerceGuys\Intl\NumberFormat\NumberFormatInterface
+     * @return NumberFormatInterface
      */
     public function getNumberFormat();
 
