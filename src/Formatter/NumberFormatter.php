@@ -347,6 +347,8 @@ class NumberFormatter implements NumberFormatterInterface
     public function setMinimumFractionDigits($minimumFractionDigits)
     {
         $this->minimumFractionDigits = $minimumFractionDigits;
+
+        return $this;
     }
 
     /**
@@ -363,6 +365,8 @@ class NumberFormatter implements NumberFormatterInterface
     public function setMaximumFractionDigits($maximumFractionDigits)
     {
         $this->maximumFractionDigits = $maximumFractionDigits;
+
+        return $this;
     }
 
     /**
@@ -379,6 +383,8 @@ class NumberFormatter implements NumberFormatterInterface
     public function setGroupingUsed($groupingUsed)
     {
         $this->groupingUsed = $groupingUsed;
+
+        return $this;
     }
 
     /**
@@ -395,5 +401,7 @@ class NumberFormatter implements NumberFormatterInterface
     public function setCurrencyDisplay($currencyDisplay)
     {
         $this->currencyDisplay = $currencyDisplay;
+
+        return $this;
     }
 }
