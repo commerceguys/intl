@@ -10,7 +10,7 @@ use CommerceGuys\Intl\Country\Country;
 class CountryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \CommerceGuys\Intl\Country\Country
+     * @var Country
      */
     protected $country;
 

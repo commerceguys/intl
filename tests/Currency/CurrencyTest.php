@@ -10,7 +10,7 @@ use CommerceGuys\Intl\Currency\Currency;
 class CurrencyTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \CommerceGuys\Intl\Currency\Currency
+     * @var Currency
      */
     protected $currency;
 

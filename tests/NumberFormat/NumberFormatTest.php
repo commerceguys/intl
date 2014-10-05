@@ -10,7 +10,7 @@ use CommerceGuys\Intl\NumberFormat\NumberFormat;
 class NumberFormatTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \CommerceGuys\Intl\NumberFormat\NumberFormat
+     * @var NumberFormat
      */
     protected $numberFormat;
 

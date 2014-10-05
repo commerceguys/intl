@@ -10,7 +10,7 @@ use CommerceGuys\Intl\Language\Language;
 class LanguageTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \CommerceGuys\Intl\Language\Language
+     * @var Language
      */
     protected $language;
 
