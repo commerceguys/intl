@@ -66,20 +66,8 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCurrencyFromDefinition
-     * @uses \CommerceGuys\Intl\Currency\Currency::getCurrencyCode
-     * @uses \CommerceGuys\Intl\Currency\Currency::setCurrencyCode
-     * @uses \CommerceGuys\Intl\Currency\Currency::getName
-     * @uses \CommerceGuys\Intl\Currency\Currency::setName
-     * @uses \CommerceGuys\Intl\Currency\Currency::getNumericCode
-     * @uses \CommerceGuys\Intl\Currency\Currency::setNumericCode
-     * @uses \CommerceGuys\Intl\Currency\Currency::getFractionDigits
-     * @uses \CommerceGuys\Intl\Currency\Currency::setFractionDigits
-     * @uses \CommerceGuys\Intl\Currency\Currency::getSymbol
-     * @uses \CommerceGuys\Intl\Currency\Currency::setSymbol
-     * @uses \CommerceGuys\Intl\Currency\Currency::getLocale
-     * @uses \CommerceGuys\Intl\Currency\Currency::setLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\Currency\Currency
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */
     public function testGet($currencyRepository)
@@ -97,8 +85,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @expectedException \CommerceGuys\Intl\Exception\UnknownCurrencyException
      * @depends testConstructor
      */
@@ -111,15 +98,8 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createCurrencyFromDefinition
-     * @uses \CommerceGuys\Intl\Currency\Currency::getCurrencyCode
-     * @uses \CommerceGuys\Intl\Currency\Currency::setCurrencyCode
-     * @uses \CommerceGuys\Intl\Currency\Currency::setName
-     * @uses \CommerceGuys\Intl\Currency\Currency::setNumericCode
-     * @uses \CommerceGuys\Intl\Currency\Currency::setFractionDigits
-     * @uses \CommerceGuys\Intl\Currency\Currency::setSymbol
-     * @uses \CommerceGuys\Intl\Currency\Currency::setLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\Currency\Currency
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */
     public function testGetAll($currencyRepository)

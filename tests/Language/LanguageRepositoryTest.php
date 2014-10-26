@@ -48,14 +48,8 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createLanguageFromDefinition
-     * @uses \CommerceGuys\Intl\Language\Language::getLanguageCode
-     * @uses \CommerceGuys\Intl\Language\Language::setLanguageCode
-     * @uses \CommerceGuys\Intl\Language\Language::getName
-     * @uses \CommerceGuys\Intl\Language\Language::setName
-     * @uses \CommerceGuys\Intl\Language\Language::getLocale
-     * @uses \CommerceGuys\Intl\Language\Language::setLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\Language\Language
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */
     public function testGet($languageRepository)
@@ -70,8 +64,7 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @expectedException \CommerceGuys\Intl\Exception\UnknownLanguageException
      * @depends testConstructor
      */
@@ -84,12 +77,8 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createLanguageFromDefinition
-     * @uses \CommerceGuys\Intl\Language\Language::getLanguageCode
-     * @uses \CommerceGuys\Intl\Language\Language::setLanguageCode
-     * @uses \CommerceGuys\Intl\Language\Language::setName
-     * @uses \CommerceGuys\Intl\Language\Language::setLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\Language\Language
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */
     public function testGetAll($languageRepository)

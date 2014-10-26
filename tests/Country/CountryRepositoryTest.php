@@ -67,20 +67,8 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCountryFromDefinition
-     * @uses \CommerceGuys\Intl\Country\Country::getCountryCode
-     * @uses \CommerceGuys\Intl\Country\Country::setCountryCode
-     * @uses \CommerceGuys\Intl\Country\Country::getName
-     * @uses \CommerceGuys\Intl\Country\Country::setName
-     * @uses \CommerceGuys\Intl\Country\Country::getThreeLetterCode
-     * @uses \CommerceGuys\Intl\Country\Country::setThreeLetterCode
-     * @uses \CommerceGuys\Intl\Country\Country::getNumericCode
-     * @uses \CommerceGuys\Intl\Country\Country::setNumericCode
-     * @uses \CommerceGuys\Intl\Country\Country::getTelephoneCode
-     * @uses \CommerceGuys\Intl\Country\Country::setTelephoneCode
-     * @uses \CommerceGuys\Intl\Country\Country::getLocale
-     * @uses \CommerceGuys\Intl\Country\Country::setLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\Country\Country
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */
     public function testGet($countryRepository)
@@ -98,8 +86,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @expectedException \CommerceGuys\Intl\Exception\UnknownCountryException
      * @depends testConstructor
      */
@@ -112,15 +99,8 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createCountryFromDefinition
-     * @uses \CommerceGuys\Intl\Country\Country::getCountryCode
-     * @uses \CommerceGuys\Intl\Country\Country::setCountryCode
-     * @uses \CommerceGuys\Intl\Country\Country::setName
-     * @uses \CommerceGuys\Intl\Country\Country::setThreeLetterCode
-     * @uses \CommerceGuys\Intl\Country\Country::setNumericCode
-     * @uses \CommerceGuys\Intl\Country\Country::setTelephoneCode
-     * @uses \CommerceGuys\Intl\Country\Country::setLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\Country\Country
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */
     public function testGetAll($countryRepository)

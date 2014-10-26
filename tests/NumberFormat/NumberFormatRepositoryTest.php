@@ -44,30 +44,8 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::createNumberFormatFromDefinition
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getLocale
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setLocale
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getNumberingSystem
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setNumberingSystem
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getDecimalSeparator
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setDecimalSeparator
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getGroupingSeparator
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setGroupingSeparator
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getPlusSign
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setPlusSign
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getMinusSign
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setMinusSign
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getPercentSign
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setPercentSign
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getDecimalPattern
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setDecimalPattern
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getPercentPattern
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setPercentPattern
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getCurrencyPattern
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setCurrencyPattern
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::getAccountingCurrencyPattern
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat::setAccountingCurrencyPattern
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocale
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getLocaleVariants
+     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */
     public function testGet($numberFormatRepository)
