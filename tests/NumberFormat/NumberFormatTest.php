@@ -16,7 +16,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->numberFormat = new NumberFormat;
+        $this->numberFormat = new NumberFormat();
     }
 
     /**

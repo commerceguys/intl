@@ -2,7 +2,6 @@
 
 namespace CommerceGuys\Intl\Tests;
 
-use CommerceGuys\Intl\Tests\DummyRepository;
 use org\bovigo\vfs\vfsStream;
 
 /**
@@ -10,6 +9,9 @@ use org\bovigo\vfs\vfsStream;
  */
 class LocaleResolverTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @var DummyRepository
+     */
     protected $repository;
 
     public function setUp()
@@ -20,7 +22,7 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
         vfsStream::newFile('dummy/bs.json')->at($root)->setContent('');
         vfsStream::newFile('dummy/en.json')->at($root)->setContent('');
 
-        $this->repository = new DummyRepository;
+        $this->repository = new DummyRepository();
     }
 
     /**

@@ -16,7 +16,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->country = new Country;
+        $this->country = new Country();
     }
 
     /**

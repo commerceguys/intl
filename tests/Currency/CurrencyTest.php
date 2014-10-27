@@ -16,7 +16,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->currency = new Currency;
+        $this->currency = new Currency();
     }
 
     /**

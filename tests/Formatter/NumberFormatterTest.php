@@ -54,7 +54,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @uses CommerceGuys\Intl\Formatter\NumberFormatter::getNumberFormat
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    */
-  public function testConstructor() {
+  public function testConstructor()
+  {
     $numberFormat = new NumberFormat();
     $numberFormat->setDecimalPattern('#,##,##0.###');
     $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
@@ -68,7 +69,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @expectedException         \CommerceGuys\Intl\Exception\InvalidArgumentException
    * @expectedExceptionMessage  Unknown format style provided to DecimalFormatter::__construct().
    */
-  public function testConstructorWithInvalidStyle() {
+  public function testConstructorWithInvalidStyle()
+  {
     $numberFormat = new NumberFormat();
     new NumberFormatter($numberFormat, 'foo');
   }
@@ -82,7 +84,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    *
    * @dataProvider numberValueProvider
    */
-  public function testFormat($number_format, $style, $value, $expected_value) {
+  public function testFormat($number_format, $style, $value, $expected_value)
+  {
     $formatter = new NumberFormatter($number_format, $style);
 
     $formattedNumber = $formatter->format($value);
@@ -98,7 +101,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @uses CommerceGuys\Intl\Formatter\NumberFormatter::replaceSymbols
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    */
-  public function testFormatFractionDigits() {
+  public function testFormatFractionDigits()
+  {
     $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
 
     $formatter = new NumberFormatter($numberFormat);
@@ -126,7 +130,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    *
    * @expectedException \CommerceGuys\Intl\Exception\InvalidArgumentException
    */
-  public function testFormatOnlyAllowsNumbers() {
+  public function testFormatOnlyAllowsNumbers()
+  {
     $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
     $formatter = new NumberFormatter($numberFormat);
     $formatter->format('a12.34');
@@ -143,7 +148,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    *
    * @dataProvider currencyValueProvider
    */
-  public function testFormatCurrency($number_format, $currency, $style, $value, $expected_value) {
+  public function testFormatCurrency($number_format, $currency, $style, $value, $expected_value)
+  {
     $formatter = new NumberFormatter($number_format, $style);
 
     $formattedNumber = $formatter->formatCurrency($value, $currency);
@@ -158,7 +164,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    *
    * @dataProvider formattedCurrencyProvider
    */
-  public function testParseCurrency($number_format, $currency, $style, $value, $expected_value) {
+  public function testParseCurrency($number_format, $currency, $style, $value, $expected_value)
+  {
     $formatter = new NumberFormatter($number_format, $style);
 
     $parsedNumber = $formatter->parseCurrency($value, $currency);
@@ -170,7 +177,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @uses CommerceGuys\Intl\Formatter\NumberFormatter::__construct
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    */
-  public function testGetNumberFormat() {
+  public function testGetNumberFormat()
+  {
     $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
     $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
     $this->assertSame($numberFormat, $formatter->getNumberFormat());
@@ -181,7 +189,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @uses CommerceGuys\Intl\Formatter\NumberFormatter::__construct
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    */
-  public function testMinimumFractionDigits() {
+  public function testMinimumFractionDigits()
+  {
     $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
 
     // Defaults to 0 for decimal and percentage formats.
@@ -202,7 +211,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @uses CommerceGuys\Intl\Formatter\NumberFormatter::__construct
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    */
-  public function testMaximumFractionDigits() {
+  public function testMaximumFractionDigits()
+  {
     $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
 
     // Defaults to 3 for decimal and percentage formats.
@@ -227,7 +237,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @uses CommerceGuys\Intl\Formatter\NumberFormatter::replaceSymbols
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    */
-  public function testGroupingUsed() {
+  public function testGroupingUsed()
+  {
     $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
 
     // The formatter groups correctly.
@@ -237,7 +248,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     // The formatter respects grouping turned off.
     $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
-    $formatter->setGroupingUsed(FALSE);
+    $formatter->setGroupingUsed(false);
     $this->assertFalse($formatter->isGroupingUsed());
     $this->assertSame('10000.9', $formatter->format('10000.90'));
   }
@@ -253,7 +264,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
    * @uses CommerceGuys\Intl\Formatter\NumberFormatter::replaceSymbols
    * @uses CommerceGuys\Intl\NumberFormat\NumberFormat
    */
-  public function testCurrencyDisplay() {
+  public function testCurrencyDisplay()
+  {
     $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
     $currency = $this->createCurrency($this->currencies['USD']);
 
@@ -274,7 +286,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
   /**
    * Provides the number format, number style, value and expected formatted value.
    */
-  public function numberValueProvider() {
+  public function numberValueProvider()
+  {
     return array(
       array($this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '-50.5', '-50.5'),
       array($this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::PERCENT, '50.5', '50.5%'),
@@ -288,7 +301,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
   /**
    * Provides the number format, currency format, number style, value and expected formatted value.
    */
-  public function currencyValueProvider() {
+  public function currencyValueProvider()
+  {
     return array(
       array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '-5.05', '-$5.05'),
       array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '-5.05', '($5.05)'),
@@ -302,7 +316,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
   /**
    * Provides values for the formatted currency parser.
    */
-  public function formattedCurrencyProvider() {
+  public function formattedCurrencyProvider()
+  {
     return array(
       array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '$500,100.05', '500100.05'),
       array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '-$1,059.59', '-1059.59'),
@@ -314,7 +329,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
   /**
    * Helper for initiating a new NumberFormat object.
    */
-  protected function createNumberFormat(array $definition, $locale = 'en') {
+  protected function createNumberFormat(array $definition, $locale = 'en')
+  {
     $default = array(
       'decimal_separator' => '.',
       'grouping_separator' => ',',

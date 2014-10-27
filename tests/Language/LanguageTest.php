@@ -16,7 +16,7 @@ class LanguageTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->language = new Language;
+        $this->language = new Language();
     }
 
     /**
