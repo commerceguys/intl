@@ -3,6 +3,7 @@
 namespace CommerceGuys\Intl\Formatter;
 
 use CommerceGuys\Intl\Currency\CurrencyInterface;
+use CommerceGuys\Intl\NumberFormat\NumberFormatInterface;
 
 interface NumberFormatterInterface
 {

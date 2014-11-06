@@ -5,7 +5,6 @@ namespace CommerceGuys\Intl\Formatter;
 use CommerceGuys\Intl\Currency\CurrencyInterface;
 use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\NumberFormat\NumberFormatInterface;
-use CommerceGuys\Intl\NumberFormat\NumberFormat;
 
 /**
  * Formats numbers using locale-specific patterns.
@@ -103,7 +102,7 @@ class NumberFormatter implements NumberFormatterInterface
      * Creaes a NumberFormatter instance.
      *
      * @param NumberFormatInterface $numberFormat The number format.
-     * @param string                $style        The formatting style.
+     * @param integer               $style        The formatting style.
      *
      * @throws InvalidArgumentException
      */
