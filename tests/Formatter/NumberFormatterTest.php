@@ -57,7 +57,6 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function testConstructor()
     {
         $numberFormat = new NumberFormat();
-        $numberFormat->setDecimalPattern('#,##,##0.###');
         $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
         $this->assertSame($numberFormat, $formatter->getNumberFormat());
     }
@@ -67,7 +66,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      *
      * @expectedException         \CommerceGuys\Intl\Exception\InvalidArgumentException
-     * @expectedExceptionMessage  Unknown format style provided to DecimalFormatter::__construct().
+     * @expectedExceptionMessage  Unknown format style provided to NumberFormatter::__construct().
      */
     public function testConstructorWithInvalidStyle()
     {

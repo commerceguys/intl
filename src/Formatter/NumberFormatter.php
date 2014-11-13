@@ -114,9 +114,9 @@ class NumberFormatter implements NumberFormatterInterface
             self::CURRENCY => $numberFormat->getCurrencyPattern(),
             self::CURRENCY_ACCOUNTING => $numberFormat->getAccountingCurrencyPattern(),
         );
-        if (!isset($availablePatterns[$style])) {
+        if (!array_key_exists($style, $availablePatterns)) {
             // Unknown type.
-            throw new InvalidArgumentException('Unknown format style provided to DecimalFormatter::__construct().');
+            throw new InvalidArgumentException('Unknown format style provided to NumberFormatter::__construct().');
         }
 
         // Split the selected pattern into positive and negative patterns.
