@@ -69,14 +69,14 @@ interface CurrencyInterface
      * Used when rounding or formatting an amount for display.
      * Actual storage precision can be greater.
      *
-     * @return integer
+     * @return int
      */
     public function getFractionDigits();
 
     /**
      * Sets the number of fraction digits.
      *
-     * @param integer $fractionDigits The number of fraction digits.
+     * @param int $fractionDigits The number of fraction digits.
      */
     public function setFractionDigits($fractionDigits);
 }

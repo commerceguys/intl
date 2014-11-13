@@ -71,14 +71,14 @@ interface NumberFormatterInterface
      * Defaults to null for currency styles, since the currency number of
      * fraction digits is used as the default in that case.
      *
-     * @return integer
+     * @return int
      */
     public function getMinimumFractionDigits();
 
     /**
      * Sets the minimum number of fraction digits.
      *
-     * @param integer $minimumFractionDigits
+     * @param int $minimumFractionDigits
      */
     public function setMinimumFractionDigits($minimumFractionDigits);
 
@@ -89,14 +89,14 @@ interface NumberFormatterInterface
      * Defaults to null for currency styles, since the currency number of
      * fraction digits is used as the default in that case.
      *
-     * @return integer
+     * @return int
      */
     public function getMaximumFractionDigits();
 
     /**
      * Sets the maximum number of fraction digits.
      *
-     * @param integer $maximumFractionDigits
+     * @param int $maximumFractionDigits
      */
     public function setMaximumFractionDigits($maximumFractionDigits);
 
@@ -121,14 +121,14 @@ interface NumberFormatterInterface
      * currency symbol (CURRENCY_DISPLAY_SYMBOL) or the
      * currency code (CURRENCY_DISPLAY_CODE).
      *
-     * @return integer
+     * @return int
      */
     public function getCurrencyDisplay();
 
     /**
      * Sets the currency display style.
      *
-     * @param integer $currencyDisplay One of the CURRENCY_DISPLAY_ constants.
+     * @param int $currencyDisplay One of the CURRENCY_DISPLAY_ constants.
      */
     public function setCurrencyDisplay($currencyDisplay);
 }

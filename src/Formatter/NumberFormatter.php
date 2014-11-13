@@ -42,35 +42,35 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * The size of the group of digits closest to the decimal point.
      *
-     * @var integer
+     * @var int
      */
     protected $primaryGroupSize;
 
     /**
      * The size of every group of digits after the primary group.
      *
-     * @var integer
+     * @var int
      */
     protected $secondaryGroupSize;
 
     /**
      * The minimum number of fraction digits to show.
      *
-     * @var integer
+     * @var int
      */
     protected $minimumFractionDigits;
 
     /**
      * The maximum number of fraction digits to show.
      *
-     * @var integer
+     * @var int
      */
     protected $maximumFractionDigits;
 
     /**
      * The currency display style.
      *
-     * @var integer
+     * @var int
      */
     protected $currencyDisplay;
 
@@ -102,7 +102,7 @@ class NumberFormatter implements NumberFormatterInterface
      * Creaes a NumberFormatter instance.
      *
      * @param NumberFormatInterface $numberFormat The number format.
-     * @param integer               $style        The formatting style.
+     * @param int                   $style        The formatting style.
      *
      * @throws InvalidArgumentException
      */
