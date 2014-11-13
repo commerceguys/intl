@@ -27,8 +27,8 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     public function testCountryCode()
     {
         $this->country->setCountryCode('US');
-        $this->assertEquals($this->country->getCountryCode(), 'US');
-        $this->assertEquals((string) $this->country, 'US');
+        $this->assertEquals('US', $this->country->getCountryCode());
+        $this->assertEquals('US', (string) $this->country);
     }
 
     /**
@@ -38,7 +38,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     public function testName()
     {
         $this->country->setName('United States');
-        $this->assertEquals($this->country->getName(), 'United States');
+        $this->assertEquals('United States', $this->country->getName());
     }
 
     /**
@@ -48,7 +48,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     public function testThreeLetterCode()
     {
         $this->country->setThreeLetterCode('USA');
-        $this->assertEquals($this->country->getThreeLetterCode(), 'USA');
+        $this->assertEquals('USA', $this->country->getThreeLetterCode());
     }
 
     /**
@@ -58,7 +58,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     public function testNumericCode()
     {
         $this->country->setNumericCode('840');
-        $this->assertEquals($this->country->getNumericCode(), '840');
+        $this->assertEquals('840', $this->country->getNumericCode());
     }
 
     /**
@@ -68,7 +68,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     public function testTelephoneCode()
     {
         $this->country->setTelephoneCode('1');
-        $this->assertEquals($this->country->getTelephoneCode(), '1');
+        $this->assertEquals('1', $this->country->getTelephoneCode());
     }
 
     /**
@@ -78,6 +78,6 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     public function testLocale()
     {
         $this->country->setLocale('en');
-        $this->assertEquals($this->country->getLocale(), 'en');
+        $this->assertEquals('en', $this->country->getLocale());
     }
 }

@@ -58,7 +58,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
         // was properly set.
         $countryRepository = new CountryRepository('vfs://resources/country/');
         $definitionPath = $this->getObjectAttribute($countryRepository, 'definitionPath');
-        $this->assertEquals($definitionPath, 'vfs://resources/country/');
+        $this->assertEquals('vfs://resources/country/', $definitionPath);
 
         return $countryRepository;
     }
@@ -75,12 +75,12 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         $country = $countryRepository->get('FR');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Country\\Country', $country);
-        $this->assertEquals($country->getCountryCode(), 'FR');
-        $this->assertEquals($country->getName(), 'France');
-        $this->assertEquals($country->getThreeLetterCode(), 'FRA');
-        $this->assertEquals($country->getNumericCode(), '250');
-        $this->assertEquals($country->getTelephoneCode(), '33');
-        $this->assertEquals($country->getLocale(), 'en');
+        $this->assertEquals('FR', $country->getCountryCode());
+        $this->assertEquals('France', $country->getName());
+        $this->assertEquals('FRA', $country->getThreeLetterCode());
+        $this->assertEquals('250', $country->getNumericCode());
+        $this->assertEquals('33', $country->getTelephoneCode());
+        $this->assertEquals('en', $country->getLocale());
     }
 
     /**
@@ -108,7 +108,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
         $countries = $countryRepository->getAll();
         $this->assertArrayHasKey('FR', $countries);
         $this->assertArrayHasKey('US', $countries);
-        $this->assertEquals($countries['FR']->getCountryCode(), 'FR');
-        $this->assertEquals($countries['US']->getCountryCode(), 'US');
+        $this->assertEquals('FR', $countries['FR']->getCountryCode());
+        $this->assertEquals('US', $countries['US']->getCountryCode());
     }
 }

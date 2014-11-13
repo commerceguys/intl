@@ -36,7 +36,7 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
         // path was properly set.
         $numberFormatRepository = new NumberFormatRepository('vfs://resources/number_format/');
         $definitionPath = $this->getObjectAttribute($numberFormatRepository, 'definitionPath');
-        $this->assertEquals($definitionPath, 'vfs://resources/number_format/');
+        $this->assertEquals('vfs://resources/number_format/', $definitionPath);
 
         return $numberFormatRepository;
     }
@@ -52,17 +52,17 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         $numberFormat = $numberFormatRepository->get('en');
         $this->assertInstanceOf('CommerceGuys\\Intl\\NumberFormat\\NumberFormat', $numberFormat);
-        $this->assertEquals($numberFormat->getLocale(), 'en');
-        $this->assertEquals($numberFormat->getNumberingSystem(), 'latn');
-        $this->assertEquals($numberFormat->getDecimalSeparator(), '.');
-        $this->assertEquals($numberFormat->getGroupingSeparator(), ',');
-        $this->assertEquals($numberFormat->getPlusSign(), '+');
-        $this->assertEquals($numberFormat->getMinusSign(), '-');
-        $this->assertEquals($numberFormat->getPercentSign(), '%');
-        $this->assertEquals($numberFormat->getDecimalPattern(), '#,##0.###');
-        $this->assertEquals($numberFormat->getPercentPattern(), '#,##0%');
-        $this->assertEquals($numberFormat->getCurrencyPattern(), '¤#,##0.00');
-        $this->assertEquals($numberFormat->getAccountingCurrencyPattern(), '¤#,##0.00;(¤#,##0.00)');
+        $this->assertEquals('en', $numberFormat->getLocale());
+        $this->assertEquals('latn', $numberFormat->getNumberingSystem());
+        $this->assertEquals('.', $numberFormat->getDecimalSeparator());
+        $this->assertEquals(',', $numberFormat->getGroupingSeparator());
+        $this->assertEquals('+', $numberFormat->getPlusSign());
+        $this->assertEquals('-', $numberFormat->getMinusSign());
+        $this->assertEquals('%', $numberFormat->getPercentSign());
+        $this->assertEquals('#,##0.###', $numberFormat->getDecimalPattern());
+        $this->assertEquals('#,##0%', $numberFormat->getPercentPattern());
+        $this->assertEquals('¤#,##0.00', $numberFormat->getCurrencyPattern());
+        $this->assertEquals('¤#,##0.00;(¤#,##0.00)', $numberFormat->getAccountingCurrencyPattern());
 
         return $numberFormat;
     }

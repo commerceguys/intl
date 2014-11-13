@@ -27,8 +27,8 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     public function testCurrencyCode()
     {
         $this->currency->setCurrencyCode('USD');
-        $this->assertEquals($this->currency->getCurrencyCode(), 'USD');
-        $this->assertEquals((string) $this->currency, 'USD');
+        $this->assertEquals('USD', $this->currency->getCurrencyCode());
+        $this->assertEquals('USD', (string) $this->currency);
     }
 
     /**
@@ -38,7 +38,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     public function testName()
     {
         $this->currency->setName('US Dollar');
-        $this->assertEquals($this->currency->getName(), 'US Dollar');
+        $this->assertEquals('US Dollar', $this->currency->getName());
     }
 
     /**
@@ -48,7 +48,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     public function testNumericCode()
     {
         $this->currency->setNumericCode('840');
-        $this->assertEquals($this->currency->getNumericCode(), '840');
+        $this->assertEquals('840', $this->currency->getNumericCode());
     }
 
     /**
@@ -58,7 +58,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     public function testFractionDigits()
     {
         $this->currency->setFractionDigits('2');
-        $this->assertEquals($this->currency->getFractionDigits(), '2');
+        $this->assertEquals('2', $this->currency->getFractionDigits());
     }
 
     /**
@@ -68,7 +68,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     public function testSymbol()
     {
         $this->currency->setSymbol('$');
-        $this->assertEquals($this->currency->getSymbol(), '$');
+        $this->assertEquals('$', $this->currency->getSymbol());
     }
 
     /**
@@ -78,6 +78,6 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     public function testLocale()
     {
         $this->currency->setLocale('en');
-        $this->assertEquals($this->currency->getLocale(), 'en');
+        $this->assertEquals('en', $this->currency->getLocale());
     }
 }

@@ -39,7 +39,7 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
         // was properly set.
         $languageRepository = new LanguageRepository('vfs://resources/language/');
         $definitionPath = $this->getObjectAttribute($languageRepository, 'definitionPath');
-        $this->assertEquals($definitionPath, 'vfs://resources/language/');
+        $this->assertEquals('vfs://resources/language/', $definitionPath);
 
         return $languageRepository;
     }
@@ -56,9 +56,9 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         $language = $languageRepository->get('en');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Language\\Language', $language);
-        $this->assertEquals($language->getLanguageCode(), 'en');
-        $this->assertEquals($language->getName(), 'English');
-        $this->assertEquals($language->getLocale(), 'en');
+        $this->assertEquals('en', $language->getLanguageCode());
+        $this->assertEquals('English', $language->getName());
+        $this->assertEquals('en', $language->getLocale());
     }
 
     /**
@@ -86,7 +86,7 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
         $languages = $languageRepository->getAll();
         $this->assertArrayHasKey('en', $languages);
         $this->assertArrayHasKey('fr', $languages);
-        $this->assertEquals($languages['en']->getLanguageCode(), 'en');
-        $this->assertEquals($languages['fr']->getLanguageCode(), 'fr');
+        $this->assertEquals('en', $languages['en']->getLanguageCode());
+        $this->assertEquals('fr', $languages['fr']->getLanguageCode());
     }
 }

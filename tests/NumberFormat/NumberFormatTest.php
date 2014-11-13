@@ -26,7 +26,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testLocale()
     {
         $this->numberFormat->setLocale('en');
-        $this->assertEquals($this->numberFormat->getLocale(), 'en');
+        $this->assertEquals('en', $this->numberFormat->getLocale());
     }
 
     /**
@@ -36,7 +36,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testNumberingSystem()
     {
         $this->numberFormat->setNumberingSystem('latn');
-        $this->assertEquals($this->numberFormat->getNumberingSystem(), 'latn');
+        $this->assertEquals('latn', $this->numberFormat->getNumberingSystem());
     }
 
     /**
@@ -46,7 +46,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testDecimalSeparator()
     {
         $this->numberFormat->setDecimalSeparator('.');
-        $this->assertEquals($this->numberFormat->getDecimalSeparator(), '.');
+        $this->assertEquals('.', $this->numberFormat->getDecimalSeparator());
     }
 
     /**
@@ -56,7 +56,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testGroupingSeparator()
     {
         $this->numberFormat->setGroupingSeparator(',');
-        $this->assertEquals($this->numberFormat->getGroupingSeparator(), ',');
+        $this->assertEquals(',', $this->numberFormat->getGroupingSeparator());
     }
 
     /**
@@ -66,7 +66,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testPlusSign()
     {
         $this->numberFormat->setPlusSign('+');
-        $this->assertEquals($this->numberFormat->getPlusSign(), '+');
+        $this->assertEquals('+', $this->numberFormat->getPlusSign());
     }
 
     /**
@@ -76,7 +76,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testMinusSign()
     {
         $this->numberFormat->setMinusSign('-');
-        $this->assertEquals($this->numberFormat->getMinusSign(), '-');
+        $this->assertEquals('-', $this->numberFormat->getMinusSign());
     }
 
     /**
@@ -86,7 +86,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testPercentSign()
     {
         $this->numberFormat->setPercentSign('%');
-        $this->assertEquals($this->numberFormat->getPercentSign(), '%');
+        $this->assertEquals('%', $this->numberFormat->getPercentSign());
     }
 
     /**
@@ -96,7 +96,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testDecimalPattern()
     {
         $this->numberFormat->setDecimalPattern('#,##0.###');
-        $this->assertEquals($this->numberFormat->getDecimalPattern(), '#,##0.###');
+        $this->assertEquals('#,##0.###', $this->numberFormat->getDecimalPattern());
     }
 
     /**
@@ -106,7 +106,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testPercentPattern()
     {
         $this->numberFormat->setPercentPattern('#,##0%');
-        $this->assertEquals($this->numberFormat->getPercentPattern(), '#,##0%');
+        $this->assertEquals('#,##0%', $this->numberFormat->getPercentPattern());
     }
 
     /**
@@ -116,7 +116,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testCurrencyPattern()
     {
         $this->numberFormat->setCurrencyPattern('¤#,##0.00');
-        $this->assertEquals($this->numberFormat->getCurrencyPattern(), '¤#,##0.00');
+        $this->assertEquals('¤#,##0.00', $this->numberFormat->getCurrencyPattern());
     }
 
     /**
@@ -126,6 +126,6 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
     public function testAccountingCurrencyPattern()
     {
         $this->numberFormat->setAccountingCurrencyPattern('¤#,##0.00;(¤#,##0.00)');
-        $this->assertEquals($this->numberFormat->getAccountingCurrencyPattern(), '¤#,##0.00;(¤#,##0.00)');
+        $this->assertEquals('¤#,##0.00;(¤#,##0.00)', $this->numberFormat->getAccountingCurrencyPattern());
     }
 }

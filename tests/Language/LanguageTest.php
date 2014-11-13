@@ -27,8 +27,8 @@ class LanguageTest extends \PHPUnit_Framework_TestCase
     public function testLanguageCode()
     {
         $this->language->setLanguageCode('en');
-        $this->assertEquals($this->language->getLanguageCode(), 'en');
-        $this->assertEquals((string) $this->language, 'en');
+        $this->assertEquals('en', $this->language->getLanguageCode());
+        $this->assertEquals('en', (string) $this->language);
     }
 
     /**
@@ -38,7 +38,7 @@ class LanguageTest extends \PHPUnit_Framework_TestCase
     public function testName()
     {
         $this->language->setName('English');
-        $this->assertEquals($this->language->getName(), 'English');
+        $this->assertEquals('English', $this->language->getName());
     }
 
     /**
@@ -48,6 +48,6 @@ class LanguageTest extends \PHPUnit_Framework_TestCase
     public function testLocale()
     {
         $this->language->setLocale('en');
-        $this->assertEquals($this->language->getLocale(), 'en');
+        $this->assertEquals('en', $this->language->getLocale());
     }
 }

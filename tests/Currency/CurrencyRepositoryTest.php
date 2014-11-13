@@ -57,7 +57,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
         // was properly set.
         $currencyRepository = new CurrencyRepository('vfs://resources/currency/');
         $definitionPath = $this->getObjectAttribute($currencyRepository, 'definitionPath');
-        $this->assertEquals($definitionPath, 'vfs://resources/currency/');
+        $this->assertEquals('vfs://resources/currency/', $definitionPath);
 
         return $currencyRepository;
     }
@@ -74,12 +74,12 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         $currency = $currencyRepository->get('USD');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
-        $this->assertEquals($currency->getCurrencyCode(), 'USD');
-        $this->assertEquals($currency->getName(), 'US Dollar');
-        $this->assertEquals($currency->getNumericCode(), '840');
-        $this->assertEquals($currency->getFractionDigits(), '2');
-        $this->assertEquals($currency->getSymbol(), '$');
-        $this->assertEquals($currency->getLocale(), 'en');
+        $this->assertEquals('USD', $currency->getCurrencyCode());
+        $this->assertEquals('US Dollar', $currency->getName());
+        $this->assertEquals('840', $currency->getNumericCode());
+        $this->assertEquals('2', $currency->getFractionDigits());
+        $this->assertEquals('$', $currency->getSymbol());
+        $this->assertEquals('en', $currency->getLocale());
     }
 
     /**
@@ -107,7 +107,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
         $currencies = $currencyRepository->getAll();
         $this->assertArrayHasKey('USD', $currencies);
         $this->assertArrayHasKey('EUR', $currencies);
-        $this->assertEquals($currencies['USD']->getCurrencyCode(), 'USD');
-        $this->assertEquals($currencies['EUR']->getCurrencyCode(), 'EUR');
+        $this->assertEquals('USD', $currencies['USD']->getCurrencyCode());
+        $this->assertEquals('EUR', $currencies['EUR']->getCurrencyCode());
     }
 }

@@ -32,11 +32,11 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
     public function testLocaleFallback()
     {
         $locale = $this->repository->runResolveLocale('bs-Cyrl-BA');
-        $this->assertEquals($locale, 'bs-Cyrl');
+        $this->assertEquals('bs-Cyrl', $locale);
         $locale = $this->repository->runResolveLocale('bs-Latn-BA');
-        $this->assertEquals($locale, 'bs');
+        $this->assertEquals('bs', $locale);
         $locale = $this->repository->runResolveLocale('de', 'en-US');
-        $this->assertEquals($locale, 'en');
+        $this->assertEquals('en', $locale);
     }
 
     /**
