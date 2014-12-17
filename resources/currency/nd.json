@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "Dola laseArab",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -19,17 +15,9 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "Kwanza yase Angola",
-        "symbol": "AOA"
-    },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "Dola yase Australia",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -55,14 +43,6 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "Dinari yase Bhahareni",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Fulenki yase Bhurundi",
-        "symbol": "BIF"
-    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -87,10 +67,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Phula yase Botswana",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +75,9 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Dola yase Khanada",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Fulenki yase Khongo",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Fulenki yase Swisi",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Yuan Renminbi yase China",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,45 +95,81 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Escudo Caboverdiano",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
     },
-    "DJF": {
-        "name": "Fulenki yase Jibhuthi",
-        "symbol": "DJF"
-    },
-    "DKK": {
-        "name": "DKK",
-        "symbol": "DKK"
-    },
-    "DOP": {
-        "name": "DOP",
-        "symbol": "DOP"
+    "GMD": {
+        "name": "Dalasi yase Gambia",
+        "symbol": "GMD"
     },
     "DZD": {
         "name": "Dinali yase Aljeriya",
         "symbol": "DZD"
     },
-    "EGP": {
-        "name": "Phawundi laseGibhide",
-        "symbol": "EGP"
+    "BHD": {
+        "name": "Dinari yase Bhahareni",
+        "symbol": "BHD"
     },
-    "ERN": {
-        "name": "Nakfa yase Eritrea",
-        "symbol": "ERN"
+    "LYD": {
+        "name": "Dinari yase Libya",
+        "symbol": "LYD"
+    },
+    "SDG": {
+        "name": "Dinari yase Sudani",
+        "symbol": "SDG"
+    },
+    "TND": {
+        "name": "Dinari yase Tunisiya",
+        "symbol": "TND"
+    },
+    "MAD": {
+        "name": "Dirham yase Morokho",
+        "symbol": "MAD"
+    },
+    "DKK": {
+        "name": "DKK",
+        "symbol": "DKK"
+    },
+    "STD": {
+        "name": "Dobra yase Sao Tome lo Principe",
+        "symbol": "STD"
+    },
+    "AED": {
+        "name": "Dola laseArab",
+        "symbol": "AED"
     },
     "ETB": {
         "name": "Dola laseEthiopia",
         "symbol": "ETB"
     },
-    "EUR": {
-        "name": "Yuro",
-        "symbol": "€"
+    "USD": {
+        "name": "Dola yase Amelika",
+        "symbol": "US$"
+    },
+    "AUD": {
+        "name": "Dola yase Australia",
+        "symbol": "A$"
+    },
+    "CAD": {
+        "name": "Dola yase Khanada",
+        "symbol": "CA$"
+    },
+    "LRD": {
+        "name": "Dola yase Libheriya",
+        "symbol": "LRD"
+    },
+    "NAD": {
+        "name": "Dola yase Namibiya",
+        "symbol": "NAD"
+    },
+    "DOP": {
+        "name": "DOP",
+        "symbol": "DOP"
+    },
+    "CVE": {
+        "name": "Escudo Caboverdiano",
+        "symbol": "CVE"
     },
     "FJD": {
         "name": "FJD",
@@ -183,9 +179,41 @@
         "name": "FKP",
         "symbol": "FKP"
     },
-    "GBP": {
-        "name": "Phawundi yase Ngilandi",
-        "symbol": "£"
+    "XOF": {
+        "name": "Fulenki CFA BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Fulenki CFA BEAC",
+        "symbol": "FCFA"
+    },
+    "BIF": {
+        "name": "Fulenki yase Bhurundi",
+        "symbol": "BIF"
+    },
+    "DJF": {
+        "name": "Fulenki yase Jibhuthi",
+        "symbol": "DJF"
+    },
+    "KMF": {
+        "name": "Fulenki yase Khomoro",
+        "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Fulenki yase Khongo",
+        "symbol": "CDF"
+    },
+    "MGA": {
+        "name": "Fulenki yase Malagasi",
+        "symbol": "MGA"
+    },
+    "RWF": {
+        "name": "Fulenki yase Ruwanda",
+        "symbol": "RWF"
+    },
+    "CHF": {
+        "name": "Fulenki yase Swisi",
+        "symbol": "CHF"
     },
     "GEL": {
         "name": "GEL",
@@ -198,10 +226,6 @@
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Dalasi yase Gambia",
-        "symbol": "GMD"
     },
     "GNF": {
         "name": "GNF",
@@ -243,10 +267,6 @@
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "Rupi yase Indiya",
-        "symbol": "₹"
-    },
     "IQD": {
         "name": "IQD",
         "symbol": "IQD"
@@ -267,14 +287,6 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Yeni yase Japhani",
-        "symbol": "JP¥"
-    },
-    "KES": {
-        "name": "Shilingi yase Kenya",
-        "symbol": "KES"
-    },
     "KGS": {
         "name": "KGS",
         "symbol": "KGS"
@@ -283,10 +295,6 @@
         "name": "KHR",
         "symbol": "KHR"
     },
-    "KMF": {
-        "name": "Fulenki yase Khomoro",
-        "symbol": "KMF"
-    },
     "KPW": {
         "name": "KPW",
         "symbol": "KPW"
@@ -294,6 +302,18 @@
     "KRW": {
         "name": "KRW",
         "symbol": "₩"
+    },
+    "MWK": {
+        "name": "Kwacha yase Malawi",
+        "symbol": "MWK"
+    },
+    "ZMW": {
+        "name": "Kwacha yase Zambiya",
+        "symbol": "ZMW"
+    },
+    "AOA": {
+        "name": "Kwanza yase Angola",
+        "symbol": "AOA"
     },
     "KWD": {
         "name": "KWD",
@@ -315,13 +335,17 @@
         "name": "LBP",
         "symbol": "LBP"
     },
+    "SLL": {
+        "name": "Leyoni",
+        "symbol": "SLL"
+    },
+    "SZL": {
+        "name": "Lilangeni",
+        "symbol": "SZL"
+    },
     "LKR": {
         "name": "LKR",
         "symbol": "LKR"
-    },
-    "LRD": {
-        "name": "Dola yase Libheriya",
-        "symbol": "LRD"
     },
     "LSL": {
         "name": "Lothi yase Lesotho",
@@ -331,21 +355,9 @@
         "name": "LTL",
         "symbol": "LTL"
     },
-    "LYD": {
-        "name": "Dinari yase Libya",
-        "symbol": "LYD"
-    },
-    "MAD": {
-        "name": "Dirham yase Morokho",
-        "symbol": "MAD"
-    },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Fulenki yase Malagasi",
-        "symbol": "MGA"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +375,9 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "Ugwiya yase Moritaniya",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Rupi yase Morishasi",
-        "symbol": "MUR"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Kwacha yase Malawi",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -391,9 +391,9 @@
         "name": "MZN",
         "symbol": "MZN"
     },
-    "NAD": {
-        "name": "Dola yase Namibiya",
-        "symbol": "NAD"
+    "ERN": {
+        "name": "Nakfa yase Eritrea",
+        "symbol": "ERN"
     },
     "NGN": {
         "name": "Nayira yase Nijeriya",
@@ -431,9 +431,25 @@
         "name": "PGK",
         "symbol": "PGK"
     },
+    "EGP": {
+        "name": "Phawundi laseGibhide",
+        "symbol": "EGP"
+    },
+    "GBP": {
+        "name": "Phawundi yase Ngilandi",
+        "symbol": "£"
+    },
+    "SHP": {
+        "name": "Phawundindi laseSt Helena",
+        "symbol": "SHP"
+    },
     "PHP": {
         "name": "PHP",
         "symbol": "PHP"
+    },
+    "BWP": {
+        "name": "Phula yase Botswana",
+        "symbol": "BWP"
     },
     "PKR": {
         "name": "PKR",
@@ -451,6 +467,14 @@
         "name": "QAR",
         "symbol": "QAR"
     },
+    "ZAR": {
+        "name": "Randi yase Afrika ye Zanzi",
+        "symbol": "ZAR"
+    },
+    "SAR": {
+        "name": "Riyal yase Saudi",
+        "symbol": "SAR"
+    },
     "RON": {
         "name": "RON",
         "symbol": "RON"
@@ -463,25 +487,21 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "Fulenki yase Ruwanda",
-        "symbol": "RWF"
+    "INR": {
+        "name": "Rupi yase Indiya",
+        "symbol": "₹"
     },
-    "SAR": {
-        "name": "Riyal yase Saudi",
-        "symbol": "SAR"
-    },
-    "SBD": {
-        "name": "SBD",
-        "symbol": "SBD"
+    "MUR": {
+        "name": "Rupi yase Morishasi",
+        "symbol": "MUR"
     },
     "SCR": {
         "name": "Rupi yase Seyisheli",
         "symbol": "SCR"
     },
-    "SDG": {
-        "name": "Dinari yase Sudani",
-        "symbol": "SDG"
+    "SBD": {
+        "name": "SBD",
+        "symbol": "SBD"
     },
     "SEK": {
         "name": "SEK",
@@ -491,17 +511,21 @@
         "name": "SGD",
         "symbol": "SGD"
     },
-    "SHP": {
-        "name": "Phawundindi laseSt Helena",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "Leyoni",
-        "symbol": "SLL"
+    "KES": {
+        "name": "Shilingi yase Kenya",
+        "symbol": "KES"
     },
     "SOS": {
         "name": "Shilingi yase Somaliya",
         "symbol": "SOS"
+    },
+    "TZS": {
+        "name": "Shilingi yase Tanzaniya",
+        "symbol": "TZS"
+    },
+    "UGX": {
+        "name": "Shilingi yase Uganda",
+        "symbol": "UGX"
     },
     "SRD": {
         "name": "SRD",
@@ -511,10 +535,6 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Dobra yase Sao Tome lo Principe",
-        "symbol": "STD"
-    },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
@@ -522,10 +542,6 @@
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Lilangeni",
-        "symbol": "SZL"
     },
     "THB": {
         "name": "THB",
@@ -538,10 +554,6 @@
     "TMT": {
         "name": "TMT",
         "symbol": "TMT"
-    },
-    "TND": {
-        "name": "Dinari yase Tunisiya",
-        "symbol": "TND"
     },
     "TOP": {
         "name": "TOP",
@@ -559,21 +571,13 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Shilingi yase Tanzaniya",
-        "symbol": "TZS"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
     },
-    "UGX": {
-        "name": "Shilingi yase Uganda",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Dola yase Amelika",
-        "symbol": "US$"
+    "MRO": {
+        "name": "Ugwiya yase Moritaniya",
+        "symbol": "MRO"
     },
     "UYU": {
         "name": "UYU",
@@ -599,33 +603,29 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "Fulenki CFA BEAC",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "Fulenki CFA BCEAO",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
         "symbol": "CFPF"
     },
+    "JPY": {
+        "name": "Yeni yase Japhani",
+        "symbol": "JP¥"
+    },
     "YER": {
         "name": "YER",
         "symbol": "YER"
     },
-    "ZAR": {
-        "name": "Randi yase Afrika ye Zanzi",
-        "symbol": "ZAR"
+    "CNY": {
+        "name": "Yuan Renminbi yase China",
+        "symbol": "CN¥"
     },
-    "ZMW": {
-        "name": "Kwacha yase Zambiya",
-        "symbol": "ZMW"
+    "EUR": {
+        "name": "Yuro",
+        "symbol": "€"
     },
     "ZWL": {
         "name": "ZWL",

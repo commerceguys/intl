@@ -111,13 +111,13 @@
         "name": "CHF",
         "symbol": "CHF"
     },
-    "CLP": {
-        "name": "CLP",
-        "symbol": "CLP"
-    },
     "CNY": {
         "name": "Chinesiši Yuan",
         "symbol": "CN¥"
+    },
+    "CLP": {
+        "name": "CLP",
+        "symbol": "CLP"
     },
     "COP": {
         "name": "COP",
@@ -151,6 +151,10 @@
         "name": "DKK",
         "symbol": "DKK"
     },
+    "USD": {
+        "name": "Dollar",
+        "symbol": "$"
+    },
     "DOP": {
         "name": "DOP",
         "symbol": "DOP"
@@ -182,10 +186,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "Pfund",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -266,10 +266,6 @@
     "JOD": {
         "name": "JOD",
         "symbol": "JOD"
-    },
-    "JPY": {
-        "name": "Yen",
-        "symbol": "¥"
     },
     "KES": {
         "name": "KES",
@@ -427,6 +423,10 @@
         "name": "PEN",
         "symbol": "PEN"
     },
+    "GBP": {
+        "name": "Pfund",
+        "symbol": "£"
+    },
     "PGK": {
         "name": "PGK",
         "symbol": "PGK"
@@ -571,10 +571,6 @@
         "name": "UGX",
         "symbol": "UGX"
     },
-    "USD": {
-        "name": "Dollar",
-        "symbol": "$"
-    },
     "UYU": {
         "name": "UYU",
         "symbol": "UYU"
@@ -614,6 +610,10 @@
     "XPF": {
         "name": "XPF",
         "symbol": "CFPF"
+    },
+    "JPY": {
+        "name": "Yen",
+        "symbol": "¥"
     },
     "YER": {
         "name": "YER",

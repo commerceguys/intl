@@ -11,6 +11,14 @@
         "code": "ak",
         "name": "Akan"
     },
+    "sq": {
+        "code": "sq",
+        "name": "Albaneesk"
+    },
+    "en-US": {
+        "code": "en-US",
+        "name": "Amerikaansk Ingelsk"
+    },
     "am": {
         "code": "am",
         "name": "Amhaarsk"
@@ -19,53 +27,53 @@
         "code": "ar",
         "name": "Arabysk"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "Modern standert Arabysk"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
+    "hy": {
+        "code": "hy",
+        "name": "Armeensk"
     },
     "ast": {
         "code": "ast",
         "name": "Asturysk"
     },
+    "asa": {
+        "code": "asa",
+        "name": "Asu"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "Australysk Ingelsk"
+    },
     "az": {
         "code": "az",
         "name": "Azerbeidzjaansk"
     },
-    "bas": {
-        "code": "bas",
-        "name": "Basa"
-    },
-    "be": {
-        "code": "be",
-        "name": "Wyt-Russysk"
-    },
-    "bez": {
-        "code": "bez",
-        "name": "Bena"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "Bulgaarsk"
+    "ksf": {
+        "code": "ksf",
+        "name": "Bafia"
     },
     "bm": {
         "code": "bm",
         "name": "Bambara"
     },
+    "bas": {
+        "code": "bas",
+        "name": "Basa"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "Baskysk"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "Bena"
+    },
     "bn": {
         "code": "bn",
         "name": "Bengaalsk"
     },
-    "bo": {
-        "code": "bo",
-        "name": "Tibetaansk"
-    },
-    "br": {
-        "code": "br",
-        "name": "Bretonsk"
+    "my": {
+        "code": "my",
+        "name": "Birmees"
     },
     "brx": {
         "code": "brx",
@@ -75,181 +83,125 @@
         "code": "bs",
         "name": "Bosnysk"
     },
-    "ca": {
-        "code": "ca",
-        "name": "Katalaansk"
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "Brazyljaansk Portugees"
     },
-    "cgg": {
-        "code": "cgg",
-        "name": "Chiga"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "Cherokee"
-    },
-    "cs": {
-        "code": "cs",
-        "name": "Tsjechysk"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "Welsk"
-    },
-    "da": {
-        "code": "da",
-        "name": "Deensk"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
-    },
-    "de": {
-        "code": "de",
-        "name": "Dútsk"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "Eastenryks Dútsk"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "Switsersk Heechdútsk"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "Zarma"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "Nedersorbysk"
-    },
-    "dyo": {
-        "code": "dyo",
-        "name": "Jola-Fonyi"
-    },
-    "dz": {
-        "code": "dz",
-        "name": "Dzongkha"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embu"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "Ewe"
-    },
-    "el": {
-        "code": "el",
-        "name": "Gryks"
-    },
-    "en": {
-        "code": "en",
-        "name": "Ingelsk"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Australysk Ingelsk"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Kanadeesk Ingelsk"
+    "br": {
+        "code": "br",
+        "name": "Bretonsk"
     },
     "en-GB": {
         "code": "en-GB",
         "name": "Britsk Ingelsk"
     },
-    "en-US": {
-        "code": "en-US",
-        "name": "Amerikaansk Ingelsk"
+    "bg": {
+        "code": "bg",
+        "name": "Bulgaarsk"
+    },
+    "chr": {
+        "code": "chr",
+        "name": "Cherokee"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "Chiga"
+    },
+    "swc": {
+        "code": "swc",
+        "name": "Congo Swahili"
+    },
+    "da": {
+        "code": "da",
+        "name": "Deensk"
+    },
+    "de": {
+        "code": "de",
+        "name": "Dútsk"
+    },
+    "dz": {
+        "code": "dz",
+        "name": "Dzongkha"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "Eastenryks Dútsk"
+    },
+    "ebu": {
+        "code": "ebu",
+        "name": "Embu"
     },
     "eo": {
         "code": "eo",
         "name": "Esperanto"
     },
-    "es": {
-        "code": "es",
-        "name": "Spaansk"
+    "et": {
+        "code": "et",
+        "name": "Estlânsk"
     },
-    "es-419": {
-        "code": "es-419",
-        "name": "Latynsk-Amerikaansk Spaansk"
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "Europees Portugees"
     },
     "es-ES": {
         "code": "es-ES",
         "name": "Europeesk Spaansk"
     },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "Meksikaansk Spaansk"
-    },
-    "et": {
-        "code": "et",
-        "name": "Estlânsk"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "Baskysk"
+    "ee": {
+        "code": "ee",
+        "name": "Ewe"
     },
     "ewo": {
         "code": "ewo",
         "name": "Ewondo"
     },
-    "fa": {
-        "code": "fa",
-        "name": "Perzysk"
+    "fo": {
+        "code": "fo",
+        "name": "Faeröersk"
     },
-    "ff": {
-        "code": "ff",
-        "name": "Fulah"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "Finsk"
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "Ferienfâldich Sineesk"
     },
     "fil": {
         "code": "fil",
         "name": "Filipynsk"
     },
-    "fo": {
-        "code": "fo",
-        "name": "Faeröersk"
+    "fi": {
+        "code": "fi",
+        "name": "Finsk"
     },
     "fr": {
         "code": "fr",
         "name": "Frânsk"
     },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "Kanadeesk Frânsk"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "Switserse Frânsk"
-    },
     "fur": {
         "code": "fur",
         "name": "Friulysk"
     },
-    "fy": {
-        "code": "fy",
-        "name": "West-Frysk"
-    },
-    "ga": {
-        "code": "ga",
-        "name": "Iersk"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "Schotsk Gaelic"
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
     },
     "gl": {
         "code": "gl",
         "name": "Galisysk"
     },
-    "gsw": {
-        "code": "gsw",
-        "name": "Switsers Dútsk"
+    "lg": {
+        "code": "lg",
+        "name": "Ganda"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "Georgysk"
+    },
+    "kl": {
+        "code": "kl",
+        "name": "Grienlâns"
+    },
+    "el": {
+        "code": "el",
+        "name": "Gryks"
     },
     "gu": {
         "code": "gu",
@@ -271,29 +223,17 @@
         "code": "hi",
         "name": "Hindi"
     },
-    "hr": {
-        "code": "hr",
-        "name": "Kroatysk"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "Oppersorbysk"
-    },
     "hu": {
         "code": "hu",
         "name": "Hongaarsk"
     },
-    "hy": {
-        "code": "hy",
-        "name": "Armeensk"
+    "ga": {
+        "code": "ga",
+        "name": "Iersk"
     },
-    "id": {
-        "code": "id",
-        "name": "Yndonezysk"
-    },
-    "is": {
-        "code": "is",
-        "name": "Yslâns"
+    "en": {
+        "code": "en",
+        "name": "Ingelsk"
     },
     "it": {
         "code": "it",
@@ -303,105 +243,101 @@
         "code": "ja",
         "name": "Japans"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "Georgysk"
-    },
-    "kab": {
-        "code": "kab",
-        "name": "Kabyle"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "Kamba"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
+    "dyo": {
+        "code": "dyo",
+        "name": "Jola-Fonyi"
     },
     "kea": {
         "code": "kea",
         "name": "Kaapverdysk Creools"
     },
-    "khq": {
-        "code": "khq",
-        "name": "Koyra Chiini"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "Kazachs"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "Grienlâns"
+    "kab": {
+        "code": "kab",
+        "name": "Kabyle"
     },
     "kln": {
         "code": "kln",
         "name": "Kalenjin"
     },
-    "km": {
-        "code": "km",
-        "name": "Khmer"
+    "kam": {
+        "code": "kam",
+        "name": "Kamba"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "Kanadeesk Frânsk"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "Kanadeesk Ingelsk"
     },
     "kn": {
         "code": "kn",
         "name": "Kannada"
     },
-    "ko": {
-        "code": "ko",
-        "name": "Koreaansk"
-    },
     "ks": {
         "code": "ks",
         "name": "Kasjmiri"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
+    "ca": {
+        "code": "ca",
+        "name": "Katalaansk"
     },
-    "ksf": {
-        "code": "ksf",
-        "name": "Bafia"
+    "kk": {
+        "code": "kk",
+        "name": "Kazachs"
     },
-    "ksh": {
-        "code": "ksh",
-        "name": "Kölsch"
+    "km": {
+        "code": "km",
+        "name": "Khmer"
+    },
+    "ki": {
+        "code": "ki",
+        "name": "Kikuyu"
     },
     "ky": {
         "code": "ky",
         "name": "Kirgizysk"
     },
+    "rn": {
+        "code": "rn",
+        "name": "Kirundi"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Kölsch"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "Koreaansk"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "Koyra Chiini"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "Koyraboro Senni"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "Kroatysk"
+    },
     "lag": {
         "code": "lag",
         "name": "Langi"
     },
-    "lb": {
-        "code": "lb",
-        "name": "Luxemburgs"
+    "lo": {
+        "code": "lo",
+        "name": "Laotiaansk"
     },
-    "lg": {
-        "code": "lg",
-        "name": "Ganda"
+    "lv": {
+        "code": "lv",
+        "name": "Letlâns"
     },
     "ln": {
         "code": "ln",
         "name": "Lingala"
-    },
-    "lo": {
-        "code": "lo",
-        "name": "Laotiaansk"
     },
     "lt": {
         "code": "lt",
@@ -415,49 +351,37 @@
         "code": "luo",
         "name": "Luo"
     },
+    "lb": {
+        "code": "lb",
+        "name": "Luxemburgs"
+    },
     "luy": {
         "code": "luy",
         "name": "Luyia"
-    },
-    "lv": {
-        "code": "lv",
-        "name": "Letlâns"
-    },
-    "mas": {
-        "code": "mas",
-        "name": "Masai"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "Morisyen"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "Malagasysk"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "Makhuwa-Meetto"
     },
     "mk": {
         "code": "mk",
         "name": "Macedonysk"
     },
+    "jmc": {
+        "code": "jmc",
+        "name": "Machame"
+    },
+    "mgh": {
+        "code": "mgh",
+        "name": "Makhuwa-Meetto"
+    },
+    "kde": {
+        "code": "kde",
+        "name": "Makonde"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "Malagasysk"
+    },
     "ml": {
         "code": "ml",
         "name": "Malayalam"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "Mongools"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "Marathi"
     },
     "ms": {
         "code": "ms",
@@ -467,41 +391,77 @@
         "code": "mt",
         "name": "Maltees"
     },
+    "mr": {
+        "code": "mr",
+        "name": "Marathi"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "Masai"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "Meksikaansk Spaansk"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "Meru"
+    },
+    "ar-001": {
+        "code": "ar-001",
+        "name": "Modern standert Arabysk"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "Moldavysk"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "Mongools"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "Morisyen"
+    },
     "mua": {
         "code": "mua",
         "name": "Mundang"
-    },
-    "my": {
-        "code": "my",
-        "name": "Birmees"
     },
     "naq": {
         "code": "naq",
         "name": "Nama"
     },
-    "nb": {
-        "code": "nb",
-        "name": "Noors - Bokmål"
+    "nl": {
+        "code": "nl",
+        "name": "Nederlânsk"
     },
-    "nd": {
-        "code": "nd",
-        "name": "Noard-Ndbele"
+    "dsb": {
+        "code": "dsb",
+        "name": "Nedersorbysk"
     },
     "ne": {
         "code": "ne",
         "name": "Nepalees"
     },
-    "nl": {
-        "code": "nl",
-        "name": "Nederlânsk"
-    },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "Vlaams"
+    "jgo": {
+        "code": "jgo",
+        "name": "Ngomba"
     },
     "nmg": {
         "code": "nmg",
         "name": "Ngumba"
+    },
+    "nd": {
+        "code": "nd",
+        "name": "Noard-Ndbele"
+    },
+    "se": {
+        "code": "se",
+        "name": "Noard-Samysk"
+    },
+    "nb": {
+        "code": "nb",
+        "name": "Noors - Bokmål"
     },
     "nn": {
         "code": "nn",
@@ -519,49 +479,49 @@
         "code": "or",
         "name": "Odia"
     },
-    "pa": {
-        "code": "pa",
-        "name": "Punjabi"
+    "ug": {
+        "code": "ug",
+        "name": "Oeigoers"
     },
-    "pl": {
-        "code": "pl",
-        "name": "Poalsk"
+    "uk": {
+        "code": "uk",
+        "name": "Oekraïens"
+    },
+    "uz": {
+        "code": "uz",
+        "name": "Oezbeeks"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "Oppersorbysk"
     },
     "ps": {
         "code": "ps",
         "name": "Pasjtoe"
     },
+    "fa": {
+        "code": "fa",
+        "name": "Perzysk"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "Poalsk"
+    },
     "pt": {
         "code": "pt",
         "name": "Portugeesk"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "Brazyljaansk Portugees"
-    },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "Europees Portugees"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "Quechua"
+    "pa": {
+        "code": "pa",
+        "name": "Punjabi"
     },
     "rm": {
         "code": "rm",
         "name": "Reto-Romaansk"
     },
-    "rn": {
-        "code": "rn",
-        "name": "Kirundi"
-    },
     "ro": {
         "code": "ro",
         "name": "Roemeensk"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "Moldavysk"
     },
     "rof": {
         "code": "rof",
@@ -579,77 +539,101 @@
         "code": "saq",
         "name": "Samburu"
     },
+    "sg": {
+        "code": "sg",
+        "name": "Sango"
+    },
     "sbp": {
         "code": "sbp",
         "name": "Sangu"
     },
-    "se": {
-        "code": "se",
-        "name": "Noard-Samysk"
+    "gd": {
+        "code": "gd",
+        "name": "Schotsk Gaelic"
     },
     "seh": {
         "code": "seh",
         "name": "Sena"
     },
-    "ses": {
-        "code": "ses",
-        "name": "Koyraboro Senni"
+    "sr": {
+        "code": "sr",
+        "name": "Servysk"
     },
-    "sg": {
-        "code": "sg",
-        "name": "Sango"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "Tashelhiyt"
-    },
-    "si": {
-        "code": "si",
-        "name": "Singalees"
-    },
-    "sk": {
-        "code": "sk",
-        "name": "Slowaaks"
-    },
-    "sl": {
-        "code": "sl",
-        "name": "Sloveensk"
-    },
-    "smn": {
-        "code": "smn",
-        "name": "Inari Sami"
+    "ksb": {
+        "code": "ksb",
+        "name": "Shambala"
     },
     "sn": {
         "code": "sn",
         "name": "Shona"
     },
+    "zh": {
+        "code": "zh",
+        "name": "Sineesk"
+    },
+    "si": {
+        "code": "si",
+        "name": "Singalees"
+    },
+    "sl": {
+        "code": "sl",
+        "name": "Sloveensk"
+    },
+    "sk": {
+        "code": "sk",
+        "name": "Slowaaks"
+    },
+    "xog": {
+        "code": "xog",
+        "name": "Soga"
+    },
     "so": {
         "code": "so",
         "name": "Somalysk"
     },
-    "sq": {
-        "code": "sq",
-        "name": "Albaneesk"
+    "es": {
+        "code": "es",
+        "name": "Spaansk"
     },
-    "sr": {
-        "code": "sr",
-        "name": "Servysk"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "Zweeds"
+    "zgh": {
+        "code": "zgh",
+        "name": "Standert Marokkaanske Tamazight"
     },
     "sw": {
         "code": "sw",
         "name": "Swahili"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Congo Swahili"
+    "gsw": {
+        "code": "gsw",
+        "name": "Switsers Dútsk"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "Switserse Frânsk"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "Switsersk Heechdútsk"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "Taita"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "Tamazight (Sintraal-Marokko)"
     },
     "ta": {
         "code": "ta",
         "name": "Tamil"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "Tasawaq"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "Tashelhiyt"
     },
     "te": {
         "code": "te",
@@ -663,6 +647,10 @@
         "code": "th",
         "name": "Thais"
     },
+    "bo": {
+        "code": "bo",
+        "name": "Tibetaansk"
+    },
     "ti": {
         "code": "ti",
         "name": "Tigrinya"
@@ -671,33 +659,21 @@
         "code": "to",
         "name": "Tongaansk"
     },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "Tradisjoneel Sineesk"
+    },
+    "cs": {
+        "code": "cs",
+        "name": "Tsjechysk"
+    },
     "tr": {
         "code": "tr",
         "name": "Turks"
     },
-    "twq": {
-        "code": "twq",
-        "name": "Tasawaq"
-    },
-    "tzm": {
-        "code": "tzm",
-        "name": "Tamazight (Sintraal-Marokko)"
-    },
-    "ug": {
-        "code": "ug",
-        "name": "Oeigoers"
-    },
-    "uk": {
-        "code": "uk",
-        "name": "Oekraïens"
-    },
     "ur": {
         "code": "ur",
         "name": "Urdu"
-    },
-    "uz": {
-        "code": "uz",
-        "name": "Oezbeeks"
     },
     "vai": {
         "code": "vai",
@@ -707,6 +683,10 @@
         "code": "vi",
         "name": "Vietnamees"
     },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "Vlaams"
+    },
     "vun": {
         "code": "vun",
         "name": "Vunjo"
@@ -715,40 +695,44 @@
         "code": "wae",
         "name": "Walser"
     },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
+    "cy": {
+        "code": "cy",
+        "name": "Welsk"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "West-Frysk"
+    },
+    "be": {
+        "code": "be",
+        "name": "Wyt-Russysk"
     },
     "yav": {
         "code": "yav",
         "name": "Yangben"
     },
-    "yi": {
-        "code": "yi",
-        "name": "Jiddysk"
+    "id": {
+        "code": "id",
+        "name": "Yndonezysk"
     },
     "yo": {
         "code": "yo",
         "name": "Yoruba"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "Standert Marokkaanske Tamazight"
+    "is": {
+        "code": "is",
+        "name": "Yslâns"
     },
-    "zh": {
-        "code": "zh",
-        "name": "Sineesk"
-    },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "Ferienfâldich Sineesk"
-    },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "Tradisjoneel Sineesk"
+    "dje": {
+        "code": "dje",
+        "name": "Zarma"
     },
     "zu": {
         "code": "zu",
         "name": "Zulu"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "Zweeds"
     }
 }

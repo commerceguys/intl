@@ -43,6 +43,10 @@
         "name": "BAM",
         "symbol": "BAM"
     },
+    "INR": {
+        "name": "Barata rupio",
+        "symbol": "₹"
+    },
     "BBD": {
         "name": "BBD",
         "symbol": "BBD"
@@ -79,6 +83,10 @@
         "name": "Brazila realo",
         "symbol": "R$"
     },
+    "GBP": {
+        "name": "Brita pundo",
+        "symbol": "£"
+    },
     "BSD": {
         "name": "BSD",
         "symbol": "BSD"
@@ -99,25 +107,13 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Kanada dolaro",
-        "symbol": "CA$"
-    },
     "CDF": {
         "name": "CDF",
         "symbol": "CDF"
     },
-    "CHF": {
-        "name": "Svisa franko",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Ĉina juano",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -143,13 +139,17 @@
         "name": "CZK",
         "symbol": "CZK"
     },
-    "DJF": {
-        "name": "DJF",
-        "symbol": "DJF"
+    "CNY": {
+        "name": "Ĉina juano",
+        "symbol": "CN¥"
     },
     "DKK": {
         "name": "Dana krono",
         "symbol": "DKK"
+    },
+    "DJF": {
+        "name": "DJF",
+        "symbol": "DJF"
     },
     "DOP": {
         "name": "DOP",
@@ -183,10 +183,6 @@
         "name": "FKP",
         "symbol": "FKP"
     },
-    "GBP": {
-        "name": "Brita pundo",
-        "symbol": "£"
-    },
     "GEL": {
         "name": "GEL",
         "symbol": "GEL"
@@ -215,13 +211,13 @@
         "name": "GYD",
         "symbol": "GYD"
     },
-    "HKD": {
-        "name": "Honkonga dolaro",
-        "symbol": "HK$"
-    },
     "HNL": {
         "name": "HNL",
         "symbol": "HNL"
+    },
+    "HKD": {
+        "name": "Honkonga dolaro",
+        "symbol": "HK$"
     },
     "HRK": {
         "name": "HRK",
@@ -235,17 +231,13 @@
         "name": "HUF",
         "symbol": "HUF"
     },
-    "IDR": {
-        "name": "Indonezia rupio",
-        "symbol": "IDR"
-    },
     "ILS": {
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "Barata rupio",
-        "symbol": "₹"
+    "IDR": {
+        "name": "Indonezia rupio",
+        "symbol": "IDR"
     },
     "IQD": {
         "name": "IQD",
@@ -259,6 +251,10 @@
         "name": "ISK",
         "symbol": "ISK"
     },
+    "JPY": {
+        "name": "Japana eno",
+        "symbol": "JP¥"
+    },
     "JMD": {
         "name": "JMD",
         "symbol": "JMD"
@@ -267,9 +263,9 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Japana eno",
-        "symbol": "JP¥"
+    "CAD": {
+        "name": "Kanada dolaro",
+        "symbol": "CA$"
     },
     "KES": {
         "name": "KES",
@@ -290,10 +286,6 @@
     "KPW": {
         "name": "KPW",
         "symbol": "KPW"
-    },
-    "KRW": {
-        "name": "Sud-korea ŭono",
-        "symbol": "₩"
     },
     "KWD": {
         "name": "KWD",
@@ -343,6 +335,10 @@
         "name": "MDL",
         "symbol": "MDL"
     },
+    "MXN": {
+        "name": "Meksika peso",
+        "symbol": "MX$"
+    },
     "MGA": {
         "name": "MGA",
         "symbol": "MGA"
@@ -379,10 +375,6 @@
         "name": "MWK",
         "symbol": "MWK"
     },
-    "MXN": {
-        "name": "Meksika peso",
-        "symbol": "MX$"
-    },
     "MYR": {
         "name": "MYR",
         "symbol": "MYR"
@@ -406,6 +398,10 @@
     "NOK": {
         "name": "Norvega krono",
         "symbol": "NOK"
+    },
+    "TWD": {
+        "name": "Nova tajvana dolaro",
+        "symbol": "NT$"
     },
     "NPR": {
         "name": "NPR",
@@ -483,10 +479,6 @@
         "name": "SDG",
         "symbol": "SDG"
     },
-    "SEK": {
-        "name": "Sveda krono",
-        "symbol": "SEK"
-    },
     "SGD": {
         "name": "SGD",
         "symbol": "SGD"
@@ -515,9 +507,25 @@
         "name": "STD",
         "symbol": "STD"
     },
+    "ZAR": {
+        "name": "Sud-afrika rando",
+        "symbol": "ZAR"
+    },
+    "KRW": {
+        "name": "Sud-korea ŭono",
+        "symbol": "₩"
+    },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
+    },
+    "SEK": {
+        "name": "Sveda krono",
+        "symbol": "SEK"
+    },
+    "CHF": {
+        "name": "Svisa franko",
+        "symbol": "CHF"
     },
     "SYP": {
         "name": "SYP",
@@ -547,17 +555,13 @@
         "name": "TOP",
         "symbol": "TOP"
     },
-    "TRY": {
-        "name": "Turka liro",
-        "symbol": "₺"
-    },
     "TTD": {
         "name": "TTD",
         "symbol": "TTD"
     },
-    "TWD": {
-        "name": "Nova tajvana dolaro",
-        "symbol": "NT$"
+    "TRY": {
+        "name": "Turka liro",
+        "symbol": "₺"
     },
     "TZS": {
         "name": "TZS",
@@ -618,10 +622,6 @@
     "YER": {
         "name": "YER",
         "symbol": "YER"
-    },
-    "ZAR": {
-        "name": "Sud-afrika rando",
-        "symbol": "ZAR"
     },
     "ZMW": {
         "name": "ZMW",

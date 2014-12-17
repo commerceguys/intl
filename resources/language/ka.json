@@ -1,15 +1,43 @@
 {
-    "af": {
-        "code": "af",
-        "name": "აფრიკაანსი"
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
     },
-    "agq": {
-        "code": "agq",
-        "name": "აღემი"
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "ავსტრალიური ინგლისური"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "ავსტრიული გერმანული"
+    },
+    "az": {
+        "code": "az",
+        "name": "აზერბაიჯანული"
     },
     "ak": {
         "code": "ak",
         "name": "აკანი"
+    },
+    "sq": {
+        "code": "sq",
+        "name": "ალბანური"
+    },
+    "en-US": {
+        "code": "en-US",
+        "name": "ამერიკული ინგლისური"
     },
     "am": {
         "code": "am",
@@ -19,25 +47,37 @@
         "code": "ar",
         "name": "არაბული"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "თანამედროვე სტანდარტული არაბული"
+    "ast": {
+        "code": "ast",
+        "name": "ასტურიული"
     },
     "asa": {
         "code": "asa",
         "name": "ასუ"
     },
-    "ast": {
-        "code": "ast",
-        "name": "ასტურიული"
+    "af": {
+        "code": "af",
+        "name": "აფრიკაანსი"
     },
-    "az": {
-        "code": "az",
-        "name": "აზერბაიჯანული"
+    "agq": {
+        "code": "agq",
+        "name": "აღემი"
+    },
+    "bm": {
+        "code": "bm",
+        "name": "ბამბარა"
     },
     "bas": {
         "code": "bas",
         "name": "ბასა"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "ბასკური"
+    },
+    "ksf": {
+        "code": "ksf",
+        "name": "ბაფია"
     },
     "be": {
         "code": "be",
@@ -47,25 +87,17 @@
         "code": "bez",
         "name": "ბენა"
     },
-    "bg": {
-        "code": "bg",
-        "name": "ბულგარული"
-    },
-    "bm": {
-        "code": "bm",
-        "name": "ბამბარა"
-    },
     "bn": {
         "code": "bn",
         "name": "ბენგალური"
     },
-    "bo": {
-        "code": "bo",
-        "name": "ტიბეტური"
+    "el": {
+        "code": "el",
+        "name": "ბერძნული"
     },
-    "br": {
-        "code": "br",
-        "name": "ბრეტონული"
+    "my": {
+        "code": "my",
+        "name": "ბირმული"
     },
     "brx": {
         "code": "brx",
@@ -75,629 +107,97 @@
         "code": "bs",
         "name": "ბოსნიური"
     },
-    "ca": {
-        "code": "ca",
-        "name": "კატალანური"
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "ბრაზილიური პორტუგალიური"
     },
-    "cgg": {
-        "code": "cgg",
-        "name": "ჩიგა"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "ჩეროკი"
-    },
-    "cs": {
-        "code": "cs",
-        "name": "ჩეხური"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "უელსური"
-    },
-    "da": {
-        "code": "da",
-        "name": "დანიური"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "ტაიტა"
-    },
-    "de": {
-        "code": "de",
-        "name": "გერმანული"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "ავსტრიული გერმანული"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "შვეიცარიული ზემოგერმანული"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "ზარმა"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "ქვემოსორბული"
-    },
-    "dyo": {
-        "code": "dyo",
-        "name": "დიოლა"
-    },
-    "dz": {
-        "code": "dz",
-        "name": "ძონგკხა"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "ემბუ"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "ევე"
-    },
-    "el": {
-        "code": "el",
-        "name": "ბერძნული"
-    },
-    "en": {
-        "code": "en",
-        "name": "ინგლისური"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "ავსტრალიური ინგლისური"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "კანადური ინგლისური"
+    "br": {
+        "code": "br",
+        "name": "ბრეტონული"
     },
     "en-GB": {
         "code": "en-GB",
         "name": "ბრიტანული ინგლისური"
     },
-    "en-US": {
-        "code": "en-US",
-        "name": "ამერიკული ინგლისური"
-    },
-    "eo": {
-        "code": "eo",
-        "name": "ესპერანტო"
-    },
-    "es": {
-        "code": "es",
-        "name": "ესპანური"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "ლათინურ ამერიკული ესპანური"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "ევროპული ესპანური"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "მექსიკური ესპანური"
-    },
-    "et": {
-        "code": "et",
-        "name": "ესტონური"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "ბასკური"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "ევონდო"
-    },
-    "fa": {
-        "code": "fa",
-        "name": "სპარსული"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "Fulah"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "ფინური"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "ფილიპინური"
-    },
-    "fo": {
-        "code": "fo",
-        "name": "ფარერული"
-    },
-    "fr": {
-        "code": "fr",
-        "name": "ფრანგული"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "კანადური ფრანგული"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "შვეიცარიული ფრანგული"
-    },
-    "fur": {
-        "code": "fur",
-        "name": "ფრიულური"
-    },
-    "fy": {
-        "code": "fy",
-        "name": "დასავლეთფრიზიული"
-    },
-    "ga": {
-        "code": "ga",
-        "name": "ირლანდიური"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "შოტლანდიური გელური"
+    "bg": {
+        "code": "bg",
+        "name": "ბულგარული"
     },
     "gl": {
         "code": "gl",
         "name": "გალისიური"
     },
-    "gsw": {
-        "code": "gsw",
-        "name": "შვეიცარიული გერმანული"
-    },
-    "gu": {
-        "code": "gu",
-        "name": "გუჯარათი"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "გუსიი"
-    },
-    "ha": {
-        "code": "ha",
-        "name": "ჰაუსა"
-    },
-    "he": {
-        "code": "he",
-        "name": "ებრაული"
-    },
-    "hi": {
-        "code": "hi",
-        "name": "ჰინდი"
-    },
-    "hr": {
-        "code": "hr",
-        "name": "ხორვატული"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "ზემოსორბული"
-    },
-    "hu": {
-        "code": "hu",
-        "name": "უნგრული"
-    },
-    "hy": {
-        "code": "hy",
-        "name": "სომხური"
-    },
-    "id": {
-        "code": "id",
-        "name": "ინდონეზიური"
-    },
-    "is": {
-        "code": "is",
-        "name": "ისლანდიური"
-    },
-    "it": {
-        "code": "it",
-        "name": "იტალიური"
-    },
-    "ja": {
-        "code": "ja",
-        "name": "იაპონური"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "ნგომბა"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "კიმაშამი"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "ქართული"
-    },
-    "kab": {
-        "code": "kab",
-        "name": "კაბილური"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "კამბა"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "მაკონდე"
-    },
-    "kea": {
-        "code": "kea",
-        "name": "კაბუვერდიანუ"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "კოირა-ჩიინი"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "კიკუიუ"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "ყაზახური"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "დასავლეთ გრენლანდიური"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "კალენჯინი"
-    },
-    "km": {
-        "code": "km",
-        "name": "ქმერული"
-    },
-    "kn": {
-        "code": "kn",
-        "name": "კანადა"
-    },
-    "ko": {
-        "code": "ko",
-        "name": "კორეული"
-    },
-    "ks": {
-        "code": "ks",
-        "name": "ქაშმირული"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "შამბალა"
-    },
-    "ksf": {
-        "code": "ksf",
-        "name": "ბაფია"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
-    },
-    "ky": {
-        "code": "ky",
-        "name": "ყირგიზული"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "ლანგი"
-    },
-    "lb": {
-        "code": "lb",
-        "name": "ლუქსემბურგული"
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "გამარტივებული ჩინური"
     },
     "lg": {
         "code": "lg",
         "name": "განდა"
     },
-    "ln": {
-        "code": "ln",
-        "name": "ლინგალა"
+    "de": {
+        "code": "de",
+        "name": "გერმანული"
     },
-    "lo": {
-        "code": "lo",
-        "name": "ლაოსური"
+    "guz": {
+        "code": "guz",
+        "name": "გუსიი"
     },
-    "lt": {
-        "code": "lt",
-        "name": "ლიტვური"
+    "gu": {
+        "code": "gu",
+        "name": "გუჯარათი"
     },
-    "lu": {
-        "code": "lu",
-        "name": "ლუბა-კატანგა"
+    "da": {
+        "code": "da",
+        "name": "დანიური"
     },
-    "luo": {
-        "code": "luo",
-        "name": "ლუო"
+    "kl": {
+        "code": "kl",
+        "name": "დასავლეთ გრენლანდიური"
     },
-    "luy": {
-        "code": "luy",
-        "name": "ლუჰია"
+    "fy": {
+        "code": "fy",
+        "name": "დასავლეთფრიზიული"
     },
-    "lv": {
-        "code": "lv",
-        "name": "ლატვიური"
+    "dyo": {
+        "code": "dyo",
+        "name": "დიოლა"
     },
-    "mas": {
-        "code": "mas",
-        "name": "მასაი"
+    "he": {
+        "code": "he",
+        "name": "ებრაული"
     },
-    "mer": {
-        "code": "mer",
-        "name": "მერუ"
+    "ee": {
+        "code": "ee",
+        "name": "ევე"
     },
-    "mfe": {
-        "code": "mfe",
-        "name": "მორისიენი"
+    "ewo": {
+        "code": "ewo",
+        "name": "ევონდო"
     },
-    "mg": {
-        "code": "mg",
-        "name": "მალაგასიური"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "მაქუვა-მეეტო"
-    },
-    "mk": {
-        "code": "mk",
-        "name": "მაკედონური"
-    },
-    "ml": {
-        "code": "ml",
-        "name": "მალაიალამური"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "მონღოლური"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "მარათჰი"
-    },
-    "ms": {
-        "code": "ms",
-        "name": "მალაიური"
-    },
-    "mt": {
-        "code": "mt",
-        "name": "მალტური"
-    },
-    "mua": {
-        "code": "mua",
-        "name": "მუნდანგი"
-    },
-    "my": {
-        "code": "my",
-        "name": "ბირმული"
-    },
-    "naq": {
-        "code": "naq",
-        "name": "ნამა"
-    },
-    "nb": {
-        "code": "nb",
-        "name": "ნორვეგიული ბუკმოლი"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "ჩრდილოეთ ნდებელე"
-    },
-    "ne": {
-        "code": "ne",
-        "name": "ნეპალური"
-    },
-    "nl": {
-        "code": "nl",
-        "name": "ნიდერლანდური"
-    },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "ფლამანდიური"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "კვასიო"
-    },
-    "nn": {
-        "code": "nn",
-        "name": "ნორვეგიული ნიუნორსკი"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "ნუერი"
-    },
-    "nyn": {
-        "code": "nyn",
-        "name": "ნიანკოლე"
-    },
-    "or": {
-        "code": "or",
-        "name": "ორია"
-    },
-    "pa": {
-        "code": "pa",
-        "name": "პენჯაბური"
-    },
-    "pl": {
-        "code": "pl",
-        "name": "პოლონური"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "პუშტუ"
-    },
-    "pt": {
-        "code": "pt",
-        "name": "პორტუგალიური"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "ბრაზილიური პორტუგალიური"
+    "es-ES": {
+        "code": "es-ES",
+        "name": "ევროპული ესპანური"
     },
     "pt-PT": {
         "code": "pt-PT",
         "name": "ევროპული პორტუგალიური"
     },
-    "qu": {
-        "code": "qu",
-        "name": "კეჩუა"
+    "ebu": {
+        "code": "ebu",
+        "name": "ემბუ"
     },
-    "rm": {
-        "code": "rm",
-        "name": "რეტორომანული"
+    "es": {
+        "code": "es",
+        "name": "ესპანური"
     },
-    "rn": {
-        "code": "rn",
-        "name": "რუნდი"
+    "eo": {
+        "code": "eo",
+        "name": "ესპერანტო"
     },
-    "ro": {
-        "code": "ro",
-        "name": "რუმინული"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "მოლდავური"
-    },
-    "rof": {
-        "code": "rof",
-        "name": "რომბო"
-    },
-    "ru": {
-        "code": "ru",
-        "name": "რუსული"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "რუა"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "სამბურუ"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "სანგუ"
-    },
-    "se": {
-        "code": "se",
-        "name": "ჩრდილოეთ საამური"
-    },
-    "seh": {
-        "code": "seh",
-        "name": "სენა"
-    },
-    "ses": {
-        "code": "ses",
-        "name": "კოირაბორო-სენი"
-    },
-    "sg": {
-        "code": "sg",
-        "name": "სანგო"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "შილჰა"
-    },
-    "si": {
-        "code": "si",
-        "name": "სინჰალური"
-    },
-    "sk": {
-        "code": "sk",
-        "name": "სლოვაკური"
-    },
-    "sl": {
-        "code": "sl",
-        "name": "სლოვენური"
-    },
-    "smn": {
-        "code": "smn",
-        "name": "ინარი-საამური"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "შონა"
-    },
-    "so": {
-        "code": "so",
-        "name": "სომალიური"
-    },
-    "sq": {
-        "code": "sq",
-        "name": "ალბანური"
-    },
-    "sr": {
-        "code": "sr",
-        "name": "სერბული"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "შვედური"
-    },
-    "sw": {
-        "code": "sw",
-        "name": "სუაჰილი"
-    },
-    "swc": {
-        "code": "swc",
-        "name": "კონგოს სუაჰილი"
-    },
-    "ta": {
-        "code": "ta",
-        "name": "ტამილური"
-    },
-    "te": {
-        "code": "te",
-        "name": "ტელუგუ"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "ტესო"
-    },
-    "th": {
-        "code": "th",
-        "name": "ტაი"
-    },
-    "ti": {
-        "code": "ti",
-        "name": "თიგრინია"
-    },
-    "to": {
-        "code": "to",
-        "name": "ტონგანური"
-    },
-    "tr": {
-        "code": "tr",
-        "name": "თურქული"
-    },
-    "twq": {
-        "code": "twq",
-        "name": "ტასავაქი"
-    },
-    "tzm": {
-        "code": "tzm",
-        "name": "ცენტრალური მოროკოს ტამაზიგხტი"
-    },
-    "ug": {
-        "code": "ug",
-        "name": "უიღურული"
-    },
-    "uk": {
-        "code": "uk",
-        "name": "უკრაინული"
-    },
-    "ur": {
-        "code": "ur",
-        "name": "ურდუ"
-    },
-    "uz": {
-        "code": "uz",
-        "name": "უზბეკური"
+    "et": {
+        "code": "et",
+        "name": "ესტონური"
     },
     "vai": {
         "code": "vai",
@@ -711,44 +211,528 @@
         "code": "vun",
         "name": "ვუნჯო"
     },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
+    "dje": {
+        "code": "dje",
+        "name": "ზარმა"
     },
-    "xog": {
-        "code": "xog",
-        "name": "სოგა"
+    "hsb": {
+        "code": "hsb",
+        "name": "ზემოსორბული"
     },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
+    "zu": {
+        "code": "zu",
+        "name": "ზულუ"
     },
-    "yi": {
-        "code": "yi",
-        "name": "იდიში"
+    "ar-001": {
+        "code": "ar-001",
+        "name": "თანამედროვე სტანდარტული არაბული"
+    },
+    "ti": {
+        "code": "ti",
+        "name": "თიგრინია"
+    },
+    "tr": {
+        "code": "tr",
+        "name": "თურქული"
+    },
+    "ja": {
+        "code": "ja",
+        "name": "იაპონური"
+    },
+    "en": {
+        "code": "en",
+        "name": "ინგლისური"
+    },
+    "id": {
+        "code": "id",
+        "name": "ინდონეზიური"
     },
     "yo": {
         "code": "yo",
         "name": "იორუბა"
     },
+    "ga": {
+        "code": "ga",
+        "name": "ირლანდიური"
+    },
+    "is": {
+        "code": "is",
+        "name": "ისლანდიური"
+    },
+    "it": {
+        "code": "it",
+        "name": "იტალიური"
+    },
+    "kab": {
+        "code": "kab",
+        "name": "კაბილური"
+    },
+    "kea": {
+        "code": "kea",
+        "name": "კაბუვერდიანუ"
+    },
+    "kln": {
+        "code": "kln",
+        "name": "კალენჯინი"
+    },
+    "kam": {
+        "code": "kam",
+        "name": "კამბა"
+    },
+    "kn": {
+        "code": "kn",
+        "name": "კანადა"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "კანადური ინგლისური"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "კანადური ფრანგული"
+    },
+    "ca": {
+        "code": "ca",
+        "name": "კატალანური"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "კვასიო"
+    },
+    "ki": {
+        "code": "ki",
+        "name": "კიკუიუ"
+    },
+    "jmc": {
+        "code": "jmc",
+        "name": "კიმაშამი"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "კოირა-ჩიინი"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "კოირაბორო-სენი"
+    },
+    "swc": {
+        "code": "swc",
+        "name": "კონგოს სუაჰილი"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "კორეული"
+    },
+    "lag": {
+        "code": "lag",
+        "name": "ლანგი"
+    },
+    "lo": {
+        "code": "lo",
+        "name": "ლაოსური"
+    },
+    "lv": {
+        "code": "lv",
+        "name": "ლატვიური"
+    },
+    "ln": {
+        "code": "ln",
+        "name": "ლინგალა"
+    },
+    "lt": {
+        "code": "lt",
+        "name": "ლიტვური"
+    },
+    "lu": {
+        "code": "lu",
+        "name": "ლუბა-კატანგა"
+    },
+    "luo": {
+        "code": "luo",
+        "name": "ლუო"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "ლუქსემბურგული"
+    },
+    "luy": {
+        "code": "luy",
+        "name": "ლუჰია"
+    },
+    "mk": {
+        "code": "mk",
+        "name": "მაკედონური"
+    },
+    "kde": {
+        "code": "kde",
+        "name": "მაკონდე"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "მალაგასიური"
+    },
+    "ml": {
+        "code": "ml",
+        "name": "მალაიალამური"
+    },
+    "ms": {
+        "code": "ms",
+        "name": "მალაიური"
+    },
+    "mt": {
+        "code": "mt",
+        "name": "მალტური"
+    },
+    "mr": {
+        "code": "mr",
+        "name": "მარათჰი"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "მასაი"
+    },
+    "mgh": {
+        "code": "mgh",
+        "name": "მაქუვა-მეეტო"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "მერუ"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "მექსიკური ესპანური"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "მოლდავური"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "მონღოლური"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "მორისიენი"
+    },
+    "mua": {
+        "code": "mua",
+        "name": "მუნდანგი"
+    },
+    "naq": {
+        "code": "naq",
+        "name": "ნამა"
+    },
+    "jgo": {
+        "code": "jgo",
+        "name": "ნგომბა"
+    },
+    "ne": {
+        "code": "ne",
+        "name": "ნეპალური"
+    },
+    "nyn": {
+        "code": "nyn",
+        "name": "ნიანკოლე"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "ნიდერლანდური"
+    },
+    "nb": {
+        "code": "nb",
+        "name": "ნორვეგიული ბუკმოლი"
+    },
+    "nn": {
+        "code": "nn",
+        "name": "ნორვეგიული ნიუნორსკი"
+    },
+    "nus": {
+        "code": "nus",
+        "name": "ნუერი"
+    },
+    "or": {
+        "code": "or",
+        "name": "ორია"
+    },
+    "pa": {
+        "code": "pa",
+        "name": "პენჯაბური"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "პოლონური"
+    },
+    "pt": {
+        "code": "pt",
+        "name": "პორტუგალიური"
+    },
+    "ps": {
+        "code": "ps",
+        "name": "პუშტუ"
+    },
+    "rm": {
+        "code": "rm",
+        "name": "რეტორომანული"
+    },
+    "rof": {
+        "code": "rof",
+        "name": "რომბო"
+    },
+    "rwk": {
+        "code": "rwk",
+        "name": "რუა"
+    },
+    "ro": {
+        "code": "ro",
+        "name": "რუმინული"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "რუნდი"
+    },
+    "ru": {
+        "code": "ru",
+        "name": "რუსული"
+    },
+    "saq": {
+        "code": "saq",
+        "name": "სამბურუ"
+    },
+    "sg": {
+        "code": "sg",
+        "name": "სანგო"
+    },
+    "sbp": {
+        "code": "sbp",
+        "name": "სანგუ"
+    },
+    "seh": {
+        "code": "seh",
+        "name": "სენა"
+    },
+    "sr": {
+        "code": "sr",
+        "name": "სერბული"
+    },
+    "si": {
+        "code": "si",
+        "name": "სინჰალური"
+    },
+    "sk": {
+        "code": "sk",
+        "name": "სლოვაკური"
+    },
+    "sl": {
+        "code": "sl",
+        "name": "სლოვენური"
+    },
+    "xog": {
+        "code": "xog",
+        "name": "სოგა"
+    },
+    "so": {
+        "code": "so",
+        "name": "სომალიური"
+    },
+    "hy": {
+        "code": "hy",
+        "name": "სომხური"
+    },
+    "fa": {
+        "code": "fa",
+        "name": "სპარსული"
+    },
     "zgh": {
         "code": "zgh",
         "name": "სტანდარტული მაროკოული ტამაზიგხტი"
     },
-    "zh": {
-        "code": "zh",
-        "name": "ჩინური"
+    "sw": {
+        "code": "sw",
+        "name": "სუაჰილი"
     },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "გამარტივებული ჩინური"
+    "th": {
+        "code": "th",
+        "name": "ტაი"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "ტაიტა"
+    },
+    "ta": {
+        "code": "ta",
+        "name": "ტამილური"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "ტასავაქი"
+    },
+    "te": {
+        "code": "te",
+        "name": "ტელუგუ"
+    },
+    "teo": {
+        "code": "teo",
+        "name": "ტესო"
+    },
+    "bo": {
+        "code": "bo",
+        "name": "ტიბეტური"
+    },
+    "to": {
+        "code": "to",
+        "name": "ტონგანური"
     },
     "zh-Hant": {
         "code": "zh-Hant",
         "name": "ტრადიციული ჩინური"
     },
-    "zu": {
-        "code": "zu",
-        "name": "ზულუ"
+    "cy": {
+        "code": "cy",
+        "name": "უელსური"
+    },
+    "uz": {
+        "code": "uz",
+        "name": "უზბეკური"
+    },
+    "ug": {
+        "code": "ug",
+        "name": "უიღურული"
+    },
+    "uk": {
+        "code": "uk",
+        "name": "უკრაინული"
+    },
+    "hu": {
+        "code": "hu",
+        "name": "უნგრული"
+    },
+    "ur": {
+        "code": "ur",
+        "name": "ურდუ"
+    },
+    "fo": {
+        "code": "fo",
+        "name": "ფარერული"
+    },
+    "fil": {
+        "code": "fil",
+        "name": "ფილიპინური"
+    },
+    "fi": {
+        "code": "fi",
+        "name": "ფინური"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "ფლამანდიური"
+    },
+    "fr": {
+        "code": "fr",
+        "name": "ფრანგული"
+    },
+    "fur": {
+        "code": "fur",
+        "name": "ფრიულური"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "ქართული"
+    },
+    "ks": {
+        "code": "ks",
+        "name": "ქაშმირული"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "ქვემოსორბული"
+    },
+    "km": {
+        "code": "km",
+        "name": "ქმერული"
+    },
+    "kk": {
+        "code": "kk",
+        "name": "ყაზახური"
+    },
+    "ky": {
+        "code": "ky",
+        "name": "ყირგიზული"
+    },
+    "ksb": {
+        "code": "ksb",
+        "name": "შამბალა"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "შვედური"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "შვეიცარიული გერმანული"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "შვეიცარიული ზემოგერმანული"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "შვეიცარიული ფრანგული"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "შილჰა"
+    },
+    "sn": {
+        "code": "sn",
+        "name": "შონა"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "შოტლანდიური გელური"
+    },
+    "chr": {
+        "code": "chr",
+        "name": "ჩეროკი"
+    },
+    "cs": {
+        "code": "cs",
+        "name": "ჩეხური"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "ჩიგა"
+    },
+    "zh": {
+        "code": "zh",
+        "name": "ჩინური"
+    },
+    "nd": {
+        "code": "nd",
+        "name": "ჩრდილოეთ ნდებელე"
+    },
+    "se": {
+        "code": "se",
+        "name": "ჩრდილოეთ საამური"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "ცენტრალური მოროკოს ტამაზიგხტი"
+    },
+    "dz": {
+        "code": "dz",
+        "name": "ძონგკხა"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "ხორვატული"
+    },
+    "ha": {
+        "code": "ha",
+        "name": "ჰაუსა"
+    },
+    "hi": {
+        "code": "hi",
+        "name": "ჰინდი"
     }
 }

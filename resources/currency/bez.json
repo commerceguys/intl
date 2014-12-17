@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "Lupila lwa Hufalme dza Huhihalabu",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -19,17 +15,9 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "Lupila lwa Huangola",
-        "symbol": "AOA"
-    },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "Lupila lwa Huaustlalia",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -55,14 +43,6 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "Lupila lwa Hubahareni",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Lupila lwa Huburundi",
-        "symbol": "BIF"
-    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -87,10 +67,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Lupila lwa Hubotswana",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +75,9 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Lupila lwa Hukanada",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Lupila lwa Hukongo",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Lupila lwa Huuswisi",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Lupila lwa Huchina",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,17 +95,9 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Lupila lwa Hukepuvede",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "Lupila lwa Hujibuti",
-        "symbol": "DJF"
     },
     "DKK": {
         "name": "DKK",
@@ -155,26 +107,6 @@
         "name": "DOP",
         "symbol": "DOP"
     },
-    "DZD": {
-        "name": "Lupila lwa Hualjelia",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "Lupila lwa Humisri",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "Lupila lwa Hueritrea",
-        "symbol": "ERN"
-    },
-    "ETB": {
-        "name": "Lupila lwa Huuhabeshi",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "Lupila lwa Yulo",
-        "symbol": "€"
-    },
     "FJD": {
         "name": "FJD",
         "symbol": "FJD"
@@ -182,10 +114,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "Lupila lwa Huuingereza",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -198,10 +126,6 @@
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Lupila lwa Hugambia",
-        "symbol": "GMD"
     },
     "GNF": {
         "name": "GNF",
@@ -243,10 +167,6 @@
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "Lupila lwa Huindia",
-        "symbol": "₹"
-    },
     "IQD": {
         "name": "IQD",
         "symbol": "IQD"
@@ -267,14 +187,6 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Lupila lwa Hijapani",
-        "symbol": "JP¥"
-    },
-    "KES": {
-        "name": "Shilingi ya Hukenya",
-        "symbol": "KES"
-    },
     "KGS": {
         "name": "KGS",
         "symbol": "KGS"
@@ -282,10 +194,6 @@
     "KHR": {
         "name": "KHR",
         "symbol": "KHR"
-    },
-    "KMF": {
-        "name": "Lupila lwa Hukomoro",
-        "symbol": "KMF"
     },
     "KPW": {
         "name": "KPW",
@@ -319,33 +227,201 @@
         "name": "LKR",
         "symbol": "LKR"
     },
-    "LRD": {
-        "name": "Lupila lwa Hulibelia",
-        "symbol": "LRD"
+    "LTL": {
+        "name": "LTL",
+        "symbol": "LTL"
+    },
+    "XOF": {
+        "name": "Lupila lwa CFA BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Lupila lwa CFA BEAC",
+        "symbol": "FCFA"
+    },
+    "JPY": {
+        "name": "Lupila lwa Hijapani",
+        "symbol": "JP¥"
+    },
+    "ZAR": {
+        "name": "Lupila lwa Huafriaka ya Hukusini",
+        "symbol": "ZAR"
+    },
+    "DZD": {
+        "name": "Lupila lwa Hualjelia",
+        "symbol": "DZD"
+    },
+    "AOA": {
+        "name": "Lupila lwa Huangola",
+        "symbol": "AOA"
+    },
+    "AUD": {
+        "name": "Lupila lwa Huaustlalia",
+        "symbol": "A$"
+    },
+    "BHD": {
+        "name": "Lupila lwa Hubahareni",
+        "symbol": "BHD"
+    },
+    "BWP": {
+        "name": "Lupila lwa Hubotswana",
+        "symbol": "BWP"
+    },
+    "MGA": {
+        "name": "Lupila lwa Hubukini",
+        "symbol": "MGA"
+    },
+    "BIF": {
+        "name": "Lupila lwa Huburundi",
+        "symbol": "BIF"
+    },
+    "CNY": {
+        "name": "Lupila lwa Huchina",
+        "symbol": "CN¥"
+    },
+    "ERN": {
+        "name": "Lupila lwa Hueritrea",
+        "symbol": "ERN"
+    },
+    "AED": {
+        "name": "Lupila lwa Hufalme dza Huhihalabu",
+        "symbol": "AED"
+    },
+    "GMD": {
+        "name": "Lupila lwa Hugambia",
+        "symbol": "GMD"
+    },
+    "INR": {
+        "name": "Lupila lwa Huindia",
+        "symbol": "₹"
+    },
+    "DJF": {
+        "name": "Lupila lwa Hujibuti",
+        "symbol": "DJF"
+    },
+    "CAD": {
+        "name": "Lupila lwa Hukanada",
+        "symbol": "CA$"
+    },
+    "CVE": {
+        "name": "Lupila lwa Hukepuvede",
+        "symbol": "CVE"
+    },
+    "KMF": {
+        "name": "Lupila lwa Hukomoro",
+        "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Lupila lwa Hukongo",
+        "symbol": "CDF"
     },
     "LSL": {
         "name": "Lupila lwa Hulesoto",
         "symbol": "LSL"
     },
-    "LTL": {
-        "name": "LTL",
-        "symbol": "LTL"
+    "LRD": {
+        "name": "Lupila lwa Hulibelia",
+        "symbol": "LRD"
     },
     "LYD": {
         "name": "Lupila lwa Hulibya",
         "symbol": "LYD"
     },
+    "MWK": {
+        "name": "Lupila lwa Humalawi",
+        "symbol": "MWK"
+    },
+    "USD": {
+        "name": "Lupila lwa Humalekani",
+        "symbol": "US$"
+    },
+    "EGP": {
+        "name": "Lupila lwa Humisri",
+        "symbol": "EGP"
+    },
+    "MUR": {
+        "name": "Lupila lwa Humolisi",
+        "symbol": "MUR"
+    },
+    "MRO": {
+        "name": "Lupila lwa Humolitania",
+        "symbol": "MRO"
+    },
     "MAD": {
         "name": "Lupila lwa Humoloko",
         "symbol": "MAD"
     },
+    "NAD": {
+        "name": "Lupila lwa Hunamibia",
+        "symbol": "NAD"
+    },
+    "NGN": {
+        "name": "Lupila lwa Hunijelia",
+        "symbol": "NGN"
+    },
+    "RWF": {
+        "name": "Lupila lwa Hurwanda",
+        "symbol": "RWF"
+    },
+    "SHP": {
+        "name": "Lupila lwa Husantahelena",
+        "symbol": "SHP"
+    },
+    "STD": {
+        "name": "Lupila lwa Husaotome na Huprinisipe",
+        "symbol": "STD"
+    },
+    "SAR": {
+        "name": "Lupila lwa Husaudi",
+        "symbol": "SAR"
+    },
+    "SCR": {
+        "name": "Lupila lwa Hushelisheli",
+        "symbol": "SCR"
+    },
+    "SOS": {
+        "name": "Lupila lwa Husomalia",
+        "symbol": "SOS"
+    },
+    "SDG": {
+        "name": "Lupila lwa Husudani",
+        "symbol": "SDG"
+    },
+    "TND": {
+        "name": "Lupila lwa Hutunisia",
+        "symbol": "TND"
+    },
+    "ETB": {
+        "name": "Lupila lwa Huuhabeshi",
+        "symbol": "ETB"
+    },
+    "GBP": {
+        "name": "Lupila lwa Huuingereza",
+        "symbol": "£"
+    },
+    "CHF": {
+        "name": "Lupila lwa Huuswisi",
+        "symbol": "CHF"
+    },
+    "ZMW": {
+        "name": "Lupila lwa Huzambia",
+        "symbol": "ZMW"
+    },
+    "SZL": {
+        "name": "Lupila lwa Lilangeni",
+        "symbol": "SZL"
+    },
+    "SLL": {
+        "name": "Lupila lwa Lioni",
+        "symbol": "SLL"
+    },
+    "EUR": {
+        "name": "Lupila lwa Yulo",
+        "symbol": "€"
+    },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Lupila lwa Hubukini",
-        "symbol": "MGA"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +439,9 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "Lupila lwa Humolitania",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Lupila lwa Humolisi",
-        "symbol": "MUR"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Lupila lwa Humalawi",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -390,14 +454,6 @@
     "MZN": {
         "name": "MZN",
         "symbol": "MZN"
-    },
-    "NAD": {
-        "name": "Lupila lwa Hunamibia",
-        "symbol": "NAD"
-    },
-    "NGN": {
-        "name": "Lupila lwa Hunijelia",
-        "symbol": "NGN"
     },
     "NIO": {
         "name": "NIO",
@@ -463,25 +519,9 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "Lupila lwa Hurwanda",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "Lupila lwa Husaudi",
-        "symbol": "SAR"
-    },
     "SBD": {
         "name": "SBD",
         "symbol": "SBD"
-    },
-    "SCR": {
-        "name": "Lupila lwa Hushelisheli",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "Lupila lwa Husudani",
-        "symbol": "SDG"
     },
     "SEK": {
         "name": "SEK",
@@ -491,17 +531,17 @@
         "name": "SGD",
         "symbol": "SGD"
     },
-    "SHP": {
-        "name": "Lupila lwa Husantahelena",
-        "symbol": "SHP"
+    "KES": {
+        "name": "Shilingi ya Hukenya",
+        "symbol": "KES"
     },
-    "SLL": {
-        "name": "Lupila lwa Lioni",
-        "symbol": "SLL"
+    "TZS": {
+        "name": "Shilingi ya Hutanzania",
+        "symbol": "TSh"
     },
-    "SOS": {
-        "name": "Lupila lwa Husomalia",
-        "symbol": "SOS"
+    "UGX": {
+        "name": "Shilingi ya Huuganda",
+        "symbol": "UGX"
     },
     "SRD": {
         "name": "SRD",
@@ -511,10 +551,6 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Lupila lwa Husaotome na Huprinisipe",
-        "symbol": "STD"
-    },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
@@ -522,10 +558,6 @@
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Lupila lwa Lilangeni",
-        "symbol": "SZL"
     },
     "THB": {
         "name": "THB",
@@ -538,10 +570,6 @@
     "TMT": {
         "name": "TMT",
         "symbol": "TMT"
-    },
-    "TND": {
-        "name": "Lupila lwa Hutunisia",
-        "symbol": "TND"
     },
     "TOP": {
         "name": "TOP",
@@ -559,21 +587,9 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Shilingi ya Hutanzania",
-        "symbol": "TSh"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
-    },
-    "UGX": {
-        "name": "Shilingi ya Huuganda",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Lupila lwa Humalekani",
-        "symbol": "US$"
     },
     "UYU": {
         "name": "UYU",
@@ -599,17 +615,9 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "Lupila lwa CFA BEAC",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "Lupila lwa CFA BCEAO",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
@@ -618,14 +626,6 @@
     "YER": {
         "name": "YER",
         "symbol": "YER"
-    },
-    "ZAR": {
-        "name": "Lupila lwa Huafriaka ya Hukusini",
-        "symbol": "ZAR"
-    },
-    "ZMW": {
-        "name": "Lupila lwa Huzambia",
-        "symbol": "ZMW"
     },
     "ZWL": {
         "name": "ZWL",

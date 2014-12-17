@@ -1,571 +1,163 @@
 {
-    "af": {
-        "code": "af",
-        "name": "አፍሪካንኛ"
-    },
-    "agq": {
-        "code": "agq",
-        "name": "አገም"
-    },
-    "ak": {
-        "code": "ak",
-        "name": "አካንኛ"
-    },
-    "am": {
-        "code": "am",
-        "name": "አማርኛ"
-    },
-    "ar": {
-        "code": "ar",
-        "name": "ዓረብኛ"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "ዘመናዊ መደበኛ ዓረብኛ"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "አሱ"
-    },
     "ast": {
         "code": "ast",
         "name": "Asturian"
-    },
-    "az": {
-        "code": "az",
-        "name": "አዘርባጃንኛ"
     },
     "bas": {
         "code": "bas",
         "name": "Basaa"
     },
-    "be": {
-        "code": "be",
-        "name": "ቤላራሻኛ"
-    },
-    "bez": {
-        "code": "bez",
-        "name": "ቤና"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "ቡልጋሪኛ"
-    },
-    "bm": {
-        "code": "bm",
-        "name": "ባምባርኛ"
-    },
-    "bn": {
-        "code": "bn",
-        "name": "ቤንጋሊኛ"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "ቲቤታንኛ"
-    },
-    "br": {
-        "code": "br",
-        "name": "ብሬቶንኛ"
-    },
-    "brx": {
-        "code": "brx",
-        "name": "ቦዶ"
-    },
-    "bs": {
-        "code": "bs",
-        "name": "ቦስኒያንኛ"
-    },
-    "ca": {
-        "code": "ca",
-        "name": "ካታላንኛ"
-    },
-    "cgg": {
-        "code": "cgg",
-        "name": "ቺጋኛ"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "ቼሮኬኛ"
-    },
-    "cs": {
-        "code": "cs",
-        "name": "ቼክኛ"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "ወልሽ"
-    },
-    "da": {
-        "code": "da",
-        "name": "ዴኒሽ"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "ታይታኛ"
-    },
-    "de": {
-        "code": "de",
-        "name": "ጀርመን"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "የኦስትሪያ ጀርመን"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "የስዊዝ ከፍተኛ ጀርመንኛ"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "ዛርማኛ"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "የታችኛው ሶርቢያንኛ"
-    },
-    "dyo": {
-        "code": "dyo",
-        "name": "ጆላ ፎንያኛ"
-    },
-    "dz": {
-        "code": "dz",
-        "name": "ድዞንግኻኛ"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "ኢቦኛ"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "ኢዊ"
-    },
-    "el": {
-        "code": "el",
-        "name": "ግሪክኛ"
-    },
-    "en": {
-        "code": "en",
-        "name": "እንግሊዝኛ"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "የአውስትራሊያ እንግሊዝኛ"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "የካናዳ እንግሊዝኛ"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "የብሪቲሽ እንግሊዝኛ"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "የአሜሪካ እንግሊዝኛ"
-    },
-    "eo": {
-        "code": "eo",
-        "name": "ኤስፐራንቶ"
-    },
-    "es": {
-        "code": "es",
-        "name": "ስፓኒሽ"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "የላቲን አሜሪካ ስፓኒሽ"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "የአውሮፓ እስፓንኛ"
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
     },
     "es-MX": {
         "code": "es-MX",
         "name": "es_MX"
     },
-    "et": {
-        "code": "et",
-        "name": "ኢስቶኒያንኛ"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "ባስክኛ"
-    },
     "ewo": {
         "code": "ewo",
         "name": "Ewondo"
-    },
-    "fa": {
-        "code": "fa",
-        "name": "ፐርሺያኛ"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "Fulah"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "ፊኒሽ"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "ፊሊፒንኛ"
-    },
-    "fo": {
-        "code": "fo",
-        "name": "ፋሮኛ"
-    },
-    "fr": {
-        "code": "fr",
-        "name": "ፈረንሳይኛ"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "የካናዳ ፈረንሳይኛ"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "የስዊዝ ፈረንሳይኛ"
     },
     "fur": {
         "code": "fur",
         "name": "Friulian"
     },
-    "fy": {
-        "code": "fy",
-        "name": "የምዕራብ ፍሪስኛ"
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
     },
-    "ga": {
-        "code": "ga",
-        "name": "አይሪሽ"
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
     },
-    "gd": {
-        "code": "gd",
-        "name": "እስኮትስ ጌልክኛ"
-    },
-    "gl": {
-        "code": "gl",
-        "name": "ጋሊሺያ"
-    },
-    "gsw": {
-        "code": "gsw",
-        "name": "የስዊዝ ጀርመን"
-    },
-    "gu": {
-        "code": "gu",
-        "name": "ጉጃርቲኛ"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "ጉስሊኛ"
-    },
-    "ha": {
-        "code": "ha",
-        "name": "ሃውሳኛ"
-    },
-    "he": {
-        "code": "he",
-        "name": "ዕብራስጥ"
-    },
-    "hi": {
-        "code": "hi",
-        "name": "ሒንዱኛ"
-    },
-    "hr": {
-        "code": "hr",
-        "name": "ክሮሽያንኛ"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "የላይኛው ሶርቢያንኛ"
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
     },
     "hu": {
         "code": "hu",
         "name": "ሀንጋሪኛ"
     },
-    "hy": {
-        "code": "hy",
-        "name": "አርመናዊ"
-    },
-    "id": {
-        "code": "id",
-        "name": "ኢንዶኔዥኛ"
-    },
-    "is": {
-        "code": "is",
-        "name": "አይስላንድኛ"
-    },
-    "it": {
-        "code": "it",
-        "name": "ጣሊያንኛ"
-    },
-    "ja": {
-        "code": "ja",
-        "name": "ጃፓንኛ"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "ንጎባኛ"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "ማቻሜኛ"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "ጆርጂያን"
-    },
-    "kab": {
-        "code": "kab",
-        "name": "ካብይል"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "ካምባ"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "ማኮንዴ"
-    },
-    "kea": {
-        "code": "kea",
-        "name": "ካቡቨርዲያኑ"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "ኮይራ ቺኒ"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "ኪኩዩ"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "ካዛክኛ"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "ካላሊሱትኛ"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "ካለንጂን"
-    },
-    "km": {
-        "code": "km",
-        "name": "ክመርኛ ማእከላዊ"
-    },
-    "kn": {
-        "code": "kn",
-        "name": "ካናዳኛ"
-    },
-    "ko": {
-        "code": "ko",
-        "name": "ኮሪያኛ"
-    },
-    "ks": {
-        "code": "ks",
-        "name": "ካሽሚርኛ"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "ሻምባላ"
-    },
-    "ksf": {
-        "code": "ksf",
-        "name": "ባፊያ"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
-    },
-    "ky": {
-        "code": "ky",
-        "name": "ኪርጊዝኛ"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "ላንጊ"
-    },
-    "lb": {
-        "code": "lb",
-        "name": "ሉክዘምበርገርኛ"
-    },
-    "lg": {
-        "code": "lg",
-        "name": "ጋንዳኛ"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "ሊንጋላኛ"
-    },
-    "lo": {
-        "code": "lo",
-        "name": "ላውስኛ"
-    },
-    "lt": {
-        "code": "lt",
-        "name": "ሉቴንያንኛ"
+    "ha": {
+        "code": "ha",
+        "name": "ሃውሳኛ"
     },
     "lu": {
         "code": "lu",
         "name": "ሉባ ካታንጋ"
     },
+    "lt": {
+        "code": "lt",
+        "name": "ሉቴንያንኛ"
+    },
     "luo": {
         "code": "luo",
         "name": "ሉኦ"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "ሉክዘምበርገርኛ"
     },
     "luy": {
         "code": "luy",
         "name": "ሉዪያ"
     },
+    "ln": {
+        "code": "ln",
+        "name": "ሊንጋላኛ"
+    },
     "lv": {
         "code": "lv",
         "name": "ላትቪያን"
     },
-    "mas": {
-        "code": "mas",
-        "name": "ማሳይ"
+    "lag": {
+        "code": "lag",
+        "name": "ላንጊ"
     },
-    "mer": {
-        "code": "mer",
-        "name": "ሜሩ"
+    "lo": {
+        "code": "lo",
+        "name": "ላውስኛ"
     },
-    "mfe": {
-        "code": "mfe",
-        "name": "ሞሪሲየኛ"
+    "sq": {
+        "code": "sq",
+        "name": "ልቤኒኛ"
     },
-    "mg": {
-        "code": "mg",
-        "name": "ማላጋስኛ"
+    "hi": {
+        "code": "hi",
+        "name": "ሒንዱኛ"
     },
-    "mgh": {
-        "code": "mgh",
-        "name": "ማኩዋ ሜቶ"
+    "tzm": {
+        "code": "tzm",
+        "name": "መካከለኛ አትላስ ታማዚግት"
     },
-    "mk": {
-        "code": "mk",
-        "name": "ማሴዶንኛ"
-    },
-    "ml": {
-        "code": "ml",
-        "name": "ማላያላምኛ"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "ሞንጎላዊኛ"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "ማራቲኛ"
-    },
-    "ms": {
-        "code": "ms",
-        "name": "ማላይኛ"
-    },
-    "mt": {
-        "code": "mt",
-        "name": "ማልቲስኛ"
+    "zgh": {
+        "code": "zgh",
+        "name": "መደበኛ የሞሮኮ ታማዚግት"
     },
     "mua": {
         "code": "mua",
         "name": "ሙንዳንግ"
     },
-    "my": {
-        "code": "my",
-        "name": "ቡርማኛ"
+    "ml": {
+        "code": "ml",
+        "name": "ማላያላምኛ"
     },
-    "naq": {
-        "code": "naq",
-        "name": "ናማ"
+    "ms": {
+        "code": "ms",
+        "name": "ማላይኛ"
     },
-    "nb": {
-        "code": "nb",
-        "name": "የኖርዌይ ቦክማል"
+    "mg": {
+        "code": "mg",
+        "name": "ማላጋስኛ"
     },
-    "nd": {
-        "code": "nd",
-        "name": "ሰሜን ንዴብሌ"
+    "mt": {
+        "code": "mt",
+        "name": "ማልቲስኛ"
     },
-    "ne": {
-        "code": "ne",
-        "name": "ኔፓሊኛ"
+    "mr": {
+        "code": "mr",
+        "name": "ማራቲኛ"
     },
-    "nl": {
-        "code": "nl",
-        "name": "ደች"
+    "mas": {
+        "code": "mas",
+        "name": "ማሳይ"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "ፍሌሚሽ"
+    "mk": {
+        "code": "mk",
+        "name": "ማሴዶንኛ"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "ክዋሲዮ"
+    "jmc": {
+        "code": "jmc",
+        "name": "ማቻሜኛ"
     },
-    "nn": {
-        "code": "nn",
-        "name": "የኖርዌይ ናይኖርስክ"
+    "mgh": {
+        "code": "mgh",
+        "name": "ማኩዋ ሜቶ"
     },
-    "nus": {
-        "code": "nus",
-        "name": "ኑዌር"
+    "kde": {
+        "code": "kde",
+        "name": "ማኮንዴ"
     },
-    "nyn": {
-        "code": "nyn",
-        "name": "ኒያንኮልኛ"
-    },
-    "or": {
-        "code": "or",
-        "name": "ኦሪያኛ"
-    },
-    "pa": {
-        "code": "pa",
-        "name": "ፑንጃብኛ"
-    },
-    "pl": {
-        "code": "pl",
-        "name": "ፖሊሽኛ"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "ፓሽቶኛ"
-    },
-    "pt": {
-        "code": "pt",
-        "name": "ፖርቹጋልኛ"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "የብራዚል ፖርቹጋልኛ"
-    },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "የአውሮፓ ፖርቹጋልኛ"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "ኵቿኛ"
-    },
-    "rm": {
-        "code": "rm",
-        "name": "ሮማንሽ"
-    },
-    "rn": {
-        "code": "rn",
-        "name": "ሩንዲኛ"
-    },
-    "ro": {
-        "code": "ro",
-        "name": "ሮማኒያን"
+    "mer": {
+        "code": "mer",
+        "name": "ሜሩ"
     },
     "ro-MD": {
         "code": "ro-MD",
         "name": "ሞልዳቫዊና"
     },
-    "rof": {
-        "code": "rof",
-        "name": "ሮምቦ"
+    "mfe": {
+        "code": "mfe",
+        "name": "ሞሪሲየኛ"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "ሞንጎላዊኛ"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "ሩንዲኛ"
     },
     "ru": {
         "code": "ru",
@@ -575,6 +167,38 @@
         "code": "rwk",
         "name": "ርዋ"
     },
+    "ro": {
+        "code": "ro",
+        "name": "ሮማኒያን"
+    },
+    "rm": {
+        "code": "rm",
+        "name": "ሮማንሽ"
+    },
+    "rof": {
+        "code": "rof",
+        "name": "ሮምቦ"
+    },
+    "se": {
+        "code": "se",
+        "name": "ሰሜናዊ ሳሚ"
+    },
+    "nd": {
+        "code": "nd",
+        "name": "ሰሜን ንዴብሌ"
+    },
+    "sr": {
+        "code": "sr",
+        "name": "ሰርቢኛ"
+    },
+    "so": {
+        "code": "so",
+        "name": "ሱማልኛ"
+    },
+    "si": {
+        "code": "si",
+        "name": "ሲንሃልኛ"
+    },
     "saq": {
         "code": "saq",
         "name": "ሳምቡሩ"
@@ -583,57 +207,21 @@
         "code": "sbp",
         "name": "ሳንጉ"
     },
-    "se": {
-        "code": "se",
-        "name": "ሰሜናዊ ሳሚ"
+    "sg": {
+        "code": "sg",
+        "name": "ሳንጎኛ"
     },
     "seh": {
         "code": "seh",
         "name": "ሴና"
     },
-    "ses": {
-        "code": "ses",
-        "name": "ኮይራቦሮ ሴኒ"
-    },
-    "sg": {
-        "code": "sg",
-        "name": "ሳንጎኛ"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "ታቼልሂት"
-    },
-    "si": {
-        "code": "si",
-        "name": "ሲንሃልኛ"
-    },
-    "sk": {
-        "code": "sk",
-        "name": "ስሎቫክኛ"
-    },
     "sl": {
         "code": "sl",
         "name": "ስሎቪኛ"
     },
-    "smn": {
-        "code": "smn",
-        "name": "ኢናሪ ሳሚ"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "ሾናኛ"
-    },
-    "so": {
-        "code": "so",
-        "name": "ሱማልኛ"
-    },
-    "sq": {
-        "code": "sq",
-        "name": "ልቤኒኛ"
-    },
-    "sr": {
-        "code": "sr",
-        "name": "ሰርቢኛ"
+    "sk": {
+        "code": "sk",
+        "name": "ስሎቫክኛ"
     },
     "sv": {
         "code": "sv",
@@ -643,25 +231,121 @@
         "code": "sw",
         "name": "ስዋሂሊኛ"
     },
-    "swc": {
-        "code": "swc",
-        "name": "ኮንጎ ስዋሂሊ"
+    "es": {
+        "code": "es",
+        "name": "ስፓኒሽ"
     },
-    "ta": {
-        "code": "ta",
-        "name": "ታሚልኛ"
+    "xog": {
+        "code": "xog",
+        "name": "ሶጋ"
+    },
+    "ksb": {
+        "code": "ksb",
+        "name": "ሻምባላ"
+    },
+    "sn": {
+        "code": "sn",
+        "name": "ሾናኛ"
+    },
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "ቀለል ያለ ቻይንኛ"
+    },
+    "bg": {
+        "code": "bg",
+        "name": "ቡልጋሪኛ"
+    },
+    "my": {
+        "code": "my",
+        "name": "ቡርማኛ"
+    },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "ባህላዊ ቻይንኛ"
+    },
+    "bm": {
+        "code": "bm",
+        "name": "ባምባርኛ"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "ባስክኛ"
+    },
+    "ksf": {
+        "code": "ksf",
+        "name": "ባፊያ"
+    },
+    "be": {
+        "code": "be",
+        "name": "ቤላራሻኛ"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "ቤና"
+    },
+    "bn": {
+        "code": "bn",
+        "name": "ቤንጋሊኛ"
+    },
+    "br": {
+        "code": "br",
+        "name": "ብሬቶንኛ"
+    },
+    "bs": {
+        "code": "bs",
+        "name": "ቦስኒያንኛ"
+    },
+    "brx": {
+        "code": "brx",
+        "name": "ቦዶ"
+    },
+    "vun": {
+        "code": "vun",
+        "name": "ቩንጆ"
+    },
+    "vi": {
+        "code": "vi",
+        "name": "ቪትናምኛ"
+    },
+    "vai": {
+        "code": "vai",
+        "name": "ቫይ"
     },
     "te": {
         "code": "te",
         "name": "ተሉጉኛ"
     },
-    "teo": {
-        "code": "teo",
-        "name": "ቴሶ"
+    "tr": {
+        "code": "tr",
+        "name": "ቱርክኛ"
+    },
+    "bo": {
+        "code": "bo",
+        "name": "ቲቤታንኛ"
+    },
+    "ta": {
+        "code": "ta",
+        "name": "ታሚልኛ"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "ታሳዋቅ"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "ታቼልሂት"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "ታይታኛ"
     },
     "th": {
         "code": "th",
         "name": "ታይኛ"
+    },
+    "teo": {
+        "code": "teo",
+        "name": "ቴሶ"
     },
     "ti": {
         "code": "ti",
@@ -671,84 +355,384 @@
         "code": "to",
         "name": "ቶንጋኛ"
     },
-    "tr": {
-        "code": "tr",
-        "name": "ቱርክኛ"
-    },
-    "twq": {
-        "code": "twq",
-        "name": "ታሳዋቅ"
-    },
-    "tzm": {
-        "code": "tzm",
-        "name": "መካከለኛ አትላስ ታማዚግት"
-    },
-    "ug": {
-        "code": "ug",
-        "name": "ኡዊግሁርኛ"
-    },
-    "uk": {
-        "code": "uk",
-        "name": "ዩክሬንኛ"
-    },
-    "ur": {
-        "code": "ur",
-        "name": "ኡርዱኛ"
-    },
-    "uz": {
-        "code": "uz",
-        "name": "ኡዝቤክኛ"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "ቫይ"
-    },
-    "vi": {
-        "code": "vi",
-        "name": "ቪትናምኛ"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "ቩንጆ"
-    },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "ሶጋ"
-    },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
-    },
-    "yi": {
-        "code": "yi",
-        "name": "ይዲሽኛ"
-    },
-    "yo": {
-        "code": "yo",
-        "name": "ዮሩባዊኛ"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "መደበኛ የሞሮኮ ታማዚግት"
+    "cgg": {
+        "code": "cgg",
+        "name": "ቺጋኛ"
     },
     "zh": {
         "code": "zh",
         "name": "ቻይንኛ"
     },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "ቀለል ያለ ቻይንኛ"
+    "chr": {
+        "code": "chr",
+        "name": "ቼሮኬኛ"
     },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "ባህላዊ ቻይንኛ"
+    "cs": {
+        "code": "cs",
+        "name": "ቼክኛ"
+    },
+    "nus": {
+        "code": "nus",
+        "name": "ኑዌር"
+    },
+    "nyn": {
+        "code": "nyn",
+        "name": "ኒያንኮልኛ"
+    },
+    "naq": {
+        "code": "naq",
+        "name": "ናማ"
+    },
+    "ne": {
+        "code": "ne",
+        "name": "ኔፓሊኛ"
+    },
+    "jgo": {
+        "code": "jgo",
+        "name": "ንጎባኛ"
+    },
+    "am": {
+        "code": "am",
+        "name": "አማርኛ"
+    },
+    "hy": {
+        "code": "hy",
+        "name": "አርመናዊ"
+    },
+    "asa": {
+        "code": "asa",
+        "name": "አሱ"
+    },
+    "ak": {
+        "code": "ak",
+        "name": "አካንኛ"
+    },
+    "az": {
+        "code": "az",
+        "name": "አዘርባጃንኛ"
+    },
+    "ga": {
+        "code": "ga",
+        "name": "አይሪሽ"
+    },
+    "is": {
+        "code": "is",
+        "name": "አይስላንድኛ"
+    },
+    "agq": {
+        "code": "agq",
+        "name": "አገም"
+    },
+    "af": {
+        "code": "af",
+        "name": "አፍሪካንኛ"
+    },
+    "ur": {
+        "code": "ur",
+        "name": "ኡርዱኛ"
+    },
+    "ug": {
+        "code": "ug",
+        "name": "ኡዊግሁርኛ"
+    },
+    "uz": {
+        "code": "uz",
+        "name": "ኡዝቤክኛ"
+    },
+    "et": {
+        "code": "et",
+        "name": "ኢስቶኒያንኛ"
+    },
+    "ebu": {
+        "code": "ebu",
+        "name": "ኢቦኛ"
+    },
+    "id": {
+        "code": "id",
+        "name": "ኢንዶኔዥኛ"
+    },
+    "ee": {
+        "code": "ee",
+        "name": "ኢዊ"
+    },
+    "eo": {
+        "code": "eo",
+        "name": "ኤስፐራንቶ"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "እስኮትስ ጌልክኛ"
+    },
+    "en": {
+        "code": "en",
+        "name": "እንግሊዝኛ"
+    },
+    "or": {
+        "code": "or",
+        "name": "ኦሪያኛ"
+    },
+    "ky": {
+        "code": "ky",
+        "name": "ኪርጊዝኛ"
+    },
+    "ki": {
+        "code": "ki",
+        "name": "ኪኩዩ"
+    },
+    "kln": {
+        "code": "kln",
+        "name": "ካለንጂን"
+    },
+    "kl": {
+        "code": "kl",
+        "name": "ካላሊሱትኛ"
+    },
+    "kam": {
+        "code": "kam",
+        "name": "ካምባ"
+    },
+    "ks": {
+        "code": "ks",
+        "name": "ካሽሚርኛ"
+    },
+    "kea": {
+        "code": "kea",
+        "name": "ካቡቨርዲያኑ"
+    },
+    "kab": {
+        "code": "kab",
+        "name": "ካብይል"
+    },
+    "ca": {
+        "code": "ca",
+        "name": "ካታላንኛ"
+    },
+    "kn": {
+        "code": "kn",
+        "name": "ካናዳኛ"
+    },
+    "kk": {
+        "code": "kk",
+        "name": "ካዛክኛ"
+    },
+    "km": {
+        "code": "km",
+        "name": "ክመርኛ ማእከላዊ"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "ክሮሽያንኛ"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "ክዋሲዮ"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "ኮሪያኛ"
+    },
+    "swc": {
+        "code": "swc",
+        "name": "ኮንጎ ስዋሂሊ"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "ኮይራ ቺኒ"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "ኮይራቦሮ ሴኒ"
+    },
+    "cy": {
+        "code": "cy",
+        "name": "ወልሽ"
+    },
+    "ar": {
+        "code": "ar",
+        "name": "ዓረብኛ"
+    },
+    "he": {
+        "code": "he",
+        "name": "ዕብራስጥ"
+    },
+    "ar-001": {
+        "code": "ar-001",
+        "name": "ዘመናዊ መደበኛ ዓረብኛ"
     },
     "zu": {
         "code": "zu",
         "name": "ዙሉኛ"
+    },
+    "dje": {
+        "code": "dje",
+        "name": "ዛርማኛ"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "የላይኛው ሶርቢያንኛ"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "የምዕራብ ፍሪስኛ"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "የስዊዝ ከፍተኛ ጀርመንኛ"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "የስዊዝ ጀርመን"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "የስዊዝ ፈረንሳይኛ"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "የብሪቲሽ እንግሊዝኛ"
+    },
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "የብራዚል ፖርቹጋልኛ"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "የታችኛው ሶርቢያንኛ"
+    },
+    "nb": {
+        "code": "nb",
+        "name": "የኖርዌይ ቦክማል"
+    },
+    "nn": {
+        "code": "nn",
+        "name": "የኖርዌይ ናይኖርስክ"
+    },
+    "en-US": {
+        "code": "en-US",
+        "name": "የአሜሪካ እንግሊዝኛ"
+    },
+    "es-ES": {
+        "code": "es-ES",
+        "name": "የአውሮፓ እስፓንኛ"
+    },
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "የአውሮፓ ፖርቹጋልኛ"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "የአውስትራሊያ እንግሊዝኛ"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "የኦስትሪያ ጀርመን"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "የካናዳ እንግሊዝኛ"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "የካናዳ ፈረንሳይኛ"
+    },
+    "uk": {
+        "code": "uk",
+        "name": "ዩክሬንኛ"
+    },
+    "yo": {
+        "code": "yo",
+        "name": "ዮሩባዊኛ"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "ደች"
+    },
+    "da": {
+        "code": "da",
+        "name": "ዴኒሽ"
+    },
+    "dz": {
+        "code": "dz",
+        "name": "ድዞንግኻኛ"
+    },
+    "de": {
+        "code": "de",
+        "name": "ጀርመን"
+    },
+    "ja": {
+        "code": "ja",
+        "name": "ጃፓንኛ"
+    },
+    "dyo": {
+        "code": "dyo",
+        "name": "ጆላ ፎንያኛ"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "ጆርጂያን"
+    },
+    "guz": {
+        "code": "guz",
+        "name": "ጉስሊኛ"
+    },
+    "gu": {
+        "code": "gu",
+        "name": "ጉጃርቲኛ"
+    },
+    "gl": {
+        "code": "gl",
+        "name": "ጋሊሺያ"
+    },
+    "lg": {
+        "code": "lg",
+        "name": "ጋንዳኛ"
+    },
+    "el": {
+        "code": "el",
+        "name": "ግሪክኛ"
+    },
+    "it": {
+        "code": "it",
+        "name": "ጣሊያንኛ"
+    },
+    "fr": {
+        "code": "fr",
+        "name": "ፈረንሳይኛ"
+    },
+    "fil": {
+        "code": "fil",
+        "name": "ፊሊፒንኛ"
+    },
+    "fi": {
+        "code": "fi",
+        "name": "ፊኒሽ"
+    },
+    "fo": {
+        "code": "fo",
+        "name": "ፋሮኛ"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "ፍሌሚሽ"
+    },
+    "fa": {
+        "code": "fa",
+        "name": "ፐርሺያኛ"
+    },
+    "pa": {
+        "code": "pa",
+        "name": "ፑንጃብኛ"
+    },
+    "ps": {
+        "code": "ps",
+        "name": "ፓሽቶኛ"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "ፖሊሽኛ"
+    },
+    "pt": {
+        "code": "pt",
+        "name": "ፖርቹጋልኛ"
     }
 }

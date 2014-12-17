@@ -1,11 +1,23 @@
 {
-    "AED": {
-        "name": "Yunaitɛ Arabhi Ɛmire Dihami",
-        "symbol": "AED"
+    "ZAR": {
+        "name": "Afirika Kɔi Leŋŋɛ lɔ Randi",
+        "symbol": "ZAR"
+    },
+    "XOF": {
+        "name": "Áfíríka Tele Jíí Sifa",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Áfíríka Tɛ Sifa",
+        "symbol": "FCFA"
     },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
+    },
+    "DZD": {
+        "name": "Agiriya Dina",
+        "symbol": "DZD"
     },
     "ALL": {
         "name": "ALL",
@@ -26,10 +38,6 @@
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "Ɔ́situwa Dala",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -59,6 +67,10 @@
         "name": "Bharɛŋ Dina",
         "symbol": "BHD"
     },
+    "BWP": {
+        "name": "Bhosuwana Pula",
+        "symbol": "BWP"
+    },
     "BIF": {
         "name": "Bhurundi Furaŋki",
         "symbol": "BIF"
@@ -87,10 +99,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Bhosuwana Pula",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +107,13 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Kanada Dala",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Kóngo Furaŋki",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Suwesi Furaŋki",
-        "symbol": "CHF"
+    "CNY": {
+        "name": "Chaníĩ Yuwaŋ Rɛŋmimbi",
+        "symbol": "CN¥"
     },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Chaníĩ Yuwaŋ Rɛŋmimbi",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,17 +131,9 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Ɛsikudo Cabovɛdiyano",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "Jibhuti Furaŋki",
-        "symbol": "DJF"
     },
     "DKK": {
         "name": "DKK",
@@ -155,25 +143,13 @@
         "name": "DOP",
         "symbol": "DOP"
     },
-    "DZD": {
-        "name": "Agiriya Dina",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "Míséla Pɔɔ̃",
-        "symbol": "EGP"
-    },
     "ERN": {
         "name": "Ɛritera Nakifa",
         "symbol": "ERN"
     },
-    "ETB": {
-        "name": "Ítiyopiya Bhii",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "Yuro",
-        "symbol": "€"
+    "CVE": {
+        "name": "Ɛsikudo Cabovɛdiyano",
+        "symbol": "CVE"
     },
     "FJD": {
         "name": "FJD",
@@ -183,9 +159,9 @@
         "name": "FKP",
         "symbol": "FKP"
     },
-    "GBP": {
-        "name": "Jengési Pɔɔ̃ Sitɛ́liŋ",
-        "symbol": "£"
+    "GMD": {
+        "name": "Gambiya Dalasi",
+        "symbol": "GMD"
     },
     "GEL": {
         "name": "GEL",
@@ -198,10 +174,6 @@
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Gambiya Dalasi",
-        "symbol": "GMD"
     },
     "GNF": {
         "name": "GNF",
@@ -259,6 +231,22 @@
         "name": "ISK",
         "symbol": "ISK"
     },
+    "ETB": {
+        "name": "Ítiyopiya Bhii",
+        "symbol": "ETB"
+    },
+    "JPY": {
+        "name": "Japaniĩ Yɛŋ",
+        "symbol": "JP¥"
+    },
+    "GBP": {
+        "name": "Jengési Pɔɔ̃ Sitɛ́liŋ",
+        "symbol": "£"
+    },
+    "DJF": {
+        "name": "Jibhuti Furaŋki",
+        "symbol": "DJF"
+    },
     "JMD": {
         "name": "JMD",
         "symbol": "JMD"
@@ -267,9 +255,9 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Japaniĩ Yɛŋ",
-        "symbol": "JP¥"
+    "CAD": {
+        "name": "Kanada Dala",
+        "symbol": "CA$"
     },
     "KES": {
         "name": "Kénya Siyeŋ",
@@ -286,6 +274,10 @@
     "KMF": {
         "name": "Komoro Furaŋki",
         "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Kóngo Furaŋki",
+        "symbol": "CDF"
     },
     "KPW": {
         "name": "KPW",
@@ -307,6 +299,14 @@
         "name": "KZT",
         "symbol": "KZT"
     },
+    "SAR": {
+        "name": "Lahabu Sawodi Riya",
+        "symbol": "SAR"
+    },
+    "LRD": {
+        "name": "Laibhiya Dala",
+        "symbol": "$"
+    },
     "LAK": {
         "name": "LAK",
         "symbol": "LAK"
@@ -315,37 +315,45 @@
         "name": "LBP",
         "symbol": "LBP"
     },
-    "LKR": {
-        "name": "LKR",
-        "symbol": "LKR"
+    "LYD": {
+        "name": "Libhiya Dina",
+        "symbol": "LYD"
     },
-    "LRD": {
-        "name": "Laibhiya Dala",
-        "symbol": "$"
+    "SZL": {
+        "name": "Lilangeni",
+        "symbol": "SZL"
     },
     "LSL": {
         "name": "Lisóto Loti",
         "symbol": "LSL"
     },
+    "SLL": {
+        "name": "Liyɔɔ̀",
+        "symbol": "SLL"
+    },
+    "LKR": {
+        "name": "LKR",
+        "symbol": "LKR"
+    },
     "LTL": {
         "name": "LTL",
         "symbol": "LTL"
     },
-    "LYD": {
-        "name": "Libhiya Dina",
-        "symbol": "LYD"
+    "MGA": {
+        "name": "Malagasi Ariyari",
+        "symbol": "MGA"
     },
-    "MAD": {
-        "name": "Mɔroko Dihami",
-        "symbol": "MAD"
+    "MWK": {
+        "name": "Malawi Kuwacha",
+        "symbol": "MWK"
     },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
     },
-    "MGA": {
-        "name": "Malagasi Ariyari",
-        "symbol": "MGA"
+    "EGP": {
+        "name": "Míséla Pɔɔ̃",
+        "symbol": "EGP"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +371,21 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "Mɔretani Yugiya",
-        "symbol": "MRO"
-    },
     "MUR": {
         "name": "Mɔreshɔ Rupi",
         "symbol": "MUR"
     },
+    "MRO": {
+        "name": "Mɔretani Yugiya",
+        "symbol": "MRO"
+    },
+    "MAD": {
+        "name": "Mɔroko Dihami",
+        "symbol": "MAD"
+    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Malawi Kuwacha",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -391,13 +399,13 @@
         "name": "MZN",
         "symbol": "MZN"
     },
-    "NAD": {
-        "name": "Namibiya Dala",
-        "symbol": "NAD"
-    },
     "NGN": {
         "name": "Naĩjiriya Naĩra",
         "symbol": "NGN"
+    },
+    "NAD": {
+        "name": "Namibiya Dala",
+        "symbol": "NAD"
     },
     "NIO": {
         "name": "NIO",
@@ -418,6 +426,10 @@
     "OMR": {
         "name": "OMR",
         "symbol": "OMR"
+    },
+    "AUD": {
+        "name": "Ɔ́situwa Dala",
+        "symbol": "A$"
     },
     "PAB": {
         "name": "PAB",
@@ -443,6 +455,10 @@
         "name": "PLN",
         "symbol": "PLN"
     },
+    "USD": {
+        "name": "Poo Dala",
+        "symbol": "US$"
+    },
     "PYG": {
         "name": "PYG",
         "symbol": "PYG"
@@ -450,6 +466,10 @@
     "QAR": {
         "name": "QAR",
         "symbol": "QAR"
+    },
+    "RWF": {
+        "name": "Rawunda Furaŋki",
+        "symbol": "RWF"
     },
     "RON": {
         "name": "RON",
@@ -463,13 +483,9 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "Rawunda Furaŋki",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "Lahabu Sawodi Riya",
-        "symbol": "SAR"
+    "STD": {
+        "name": "Sawo Tombe ɓɛ a Gbawo Dobura",
+        "symbol": "STD"
     },
     "SBD": {
         "name": "SBD",
@@ -478,10 +494,6 @@
     "SCR": {
         "name": "SCR",
         "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "Sudaniĩ Pɔɔ̃",
-        "symbol": "SDG"
     },
     "SEK": {
         "name": "SEK",
@@ -495,10 +507,6 @@
         "name": "Siŋ Hɛlina Pɔɔ̃",
         "symbol": "SHP"
     },
-    "SLL": {
-        "name": "Liyɔɔ̀",
-        "symbol": "SLL"
-    },
     "SOS": {
         "name": "Somaliya Siyeŋ",
         "symbol": "SOS"
@@ -511,9 +519,13 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Sawo Tombe ɓɛ a Gbawo Dobura",
-        "symbol": "STD"
+    "SDG": {
+        "name": "Sudaniĩ Pɔɔ̃",
+        "symbol": "SDG"
+    },
+    "CHF": {
+        "name": "Suwesi Furaŋki",
+        "symbol": "CHF"
     },
     "SVC": {
         "name": "SVC",
@@ -523,9 +535,9 @@
         "name": "SYP",
         "symbol": "SYP"
     },
-    "SZL": {
-        "name": "Lilangeni",
-        "symbol": "SZL"
+    "TZS": {
+        "name": "Taŋzaniya Siyeŋ",
+        "symbol": "TZS"
     },
     "THB": {
         "name": "THB",
@@ -539,10 +551,6 @@
         "name": "TMT",
         "symbol": "TMT"
     },
-    "TND": {
-        "name": "Tunisiya Dina",
-        "symbol": "TND"
-    },
     "TOP": {
         "name": "TOP",
         "symbol": "TOP"
@@ -555,25 +563,17 @@
         "name": "TTD",
         "symbol": "TTD"
     },
+    "TND": {
+        "name": "Tunisiya Dina",
+        "symbol": "TND"
+    },
     "TWD": {
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Taŋzaniya Siyeŋ",
-        "symbol": "TZS"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
-    },
-    "UGX": {
-        "name": "Yuganda Siyeŋ",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Poo Dala",
-        "symbol": "US$"
     },
     "UYU": {
         "name": "UYU",
@@ -599,17 +599,9 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "Áfíríka Tɛ Sifa",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "Áfíríka Tele Jíí Sifa",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
@@ -619,9 +611,17 @@
         "name": "YER",
         "symbol": "YER"
     },
-    "ZAR": {
-        "name": "Afirika Kɔi Leŋŋɛ lɔ Randi",
-        "symbol": "ZAR"
+    "UGX": {
+        "name": "Yuganda Siyeŋ",
+        "symbol": "UGX"
+    },
+    "AED": {
+        "name": "Yunaitɛ Arabhi Ɛmire Dihami",
+        "symbol": "AED"
+    },
+    "EUR": {
+        "name": "Yuro",
+        "symbol": "€"
     },
     "ZMW": {
         "name": "Zambiya Kuwacha",

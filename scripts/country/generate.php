@@ -19,6 +19,11 @@ if (!file_exists($codeMappings)) {
 if (!file_exists($telephoneCodeData)) {
     die("The $telephoneCodeData file was not found");
 }
+if (!function_exists('collator_create')) {
+    // Reimplementing intl's collator would be a huge undertaking, so we
+    // use it instead to presort the generated locale specific data.
+    die('The intl extension was not found.');
+}
 
 $ignoredCountries = array(
     'AN', // Netherlands Antilles, no longer exists.
@@ -147,7 +152,11 @@ foreach ($duplicates as $locale) {
 
 // Write out the localizations.
 foreach ($countries as $locale => $localizedCountries) {
-    ksort($localizedCountries);
+    $collator = collator_create($locale);
+    uasort($localizedCountries, function($a, $b) use ($collator) {
+        return collator_compare($collator, $a['name'], $b['name']);
+    });
+
     $json = json_encode($localizedCountries, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     file_put_contents($locale . '.json', $json);
 }

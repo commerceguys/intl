@@ -1,67 +1,123 @@
 {
-    "AED": {
-        "name": "Dirham Uni Emirat Arab",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "Afgani Afganistan",
         "symbol": "AFN"
     },
-    "ALL": {
-        "name": "Lek Albania",
-        "symbol": "ALL"
+    "MGA": {
+        "name": "Ariary Madagaskar",
+        "symbol": "MGA"
     },
-    "AMD": {
-        "name": "Dram Armenia",
-        "symbol": "AMD"
+    "THB": {
+        "name": "Baht Thailand",
+        "symbol": "฿"
     },
-    "ANG": {
-        "name": "Guilder Antilla Belanda",
-        "symbol": "ANG"
+    "PAB": {
+        "name": "Balboa Panama",
+        "symbol": "PAB"
     },
-    "AOA": {
-        "name": "Kwanza Angola",
-        "symbol": "AOA"
+    "ETB": {
+        "name": "Birr Etiopia",
+        "symbol": "ETB"
     },
-    "ARS": {
-        "name": "Peso Argentina",
-        "symbol": "ARS"
+    "VEF": {
+        "name": "Bolivar Venezuela",
+        "symbol": "VEF"
     },
-    "AUD": {
-        "name": "Dolar Australia",
-        "symbol": "AU$"
+    "BOB": {
+        "name": "Boliviano",
+        "symbol": "BOB"
     },
-    "AWG": {
-        "name": "Florin Aruba",
-        "symbol": "AWG"
+    "GHS": {
+        "name": "Cedi Ghana",
+        "symbol": "GHS"
     },
-    "AZN": {
-        "name": "Manat Azerbaijan",
-        "symbol": "AZN"
+    "SVC": {
+        "name": "Colon El Savador",
+        "symbol": "SVC"
     },
-    "BAM": {
-        "name": "Mark Konvertibel Bosnia-Herzegovina",
-        "symbol": "BAM"
+    "CRC": {
+        "name": "Colon Kosta Rika",
+        "symbol": "CRC"
     },
-    "BBD": {
-        "name": "Dolar Barbados",
-        "symbol": "BBD"
+    "NIO": {
+        "name": "Cordoba Nikaragua",
+        "symbol": "NIO"
     },
-    "BDT": {
-        "name": "Taka Bangladesh",
-        "symbol": "BDT"
+    "GMD": {
+        "name": "Dalasi Gambia",
+        "symbol": "GMD"
     },
-    "BGN": {
-        "name": "Lev Bulgaria",
-        "symbol": "BGN"
+    "MKD": {
+        "name": "Denar Makedonia",
+        "symbol": "MKD"
+    },
+    "DZD": {
+        "name": "Dinar Algeria",
+        "symbol": "DZD"
     },
     "BHD": {
         "name": "Dinar Bahrain",
         "symbol": "BHD"
     },
-    "BIF": {
-        "name": "Franc Burundi",
-        "symbol": "BIF"
+    "IQD": {
+        "name": "Dinar Irak",
+        "symbol": "IQD"
+    },
+    "KWD": {
+        "name": "Dinar Kuwait",
+        "symbol": "KWD"
+    },
+    "LYD": {
+        "name": "Dinar Libya",
+        "symbol": "LYD"
+    },
+    "RSD": {
+        "name": "Dinar Serbia",
+        "symbol": "RSD"
+    },
+    "TND": {
+        "name": "Dinar Tunisia",
+        "symbol": "TND"
+    },
+    "JOD": {
+        "name": "Dinar Yordania",
+        "symbol": "JOD"
+    },
+    "MAD": {
+        "name": "Dirham Maroko",
+        "symbol": "MAD"
+    },
+    "AED": {
+        "name": "Dirham Uni Emirat Arab",
+        "symbol": "AED"
+    },
+    "STD": {
+        "name": "Dobra Sao Tome dan Principe",
+        "symbol": "STD"
+    },
+    "USD": {
+        "name": "Dolar Amerika Serikat",
+        "symbol": "US$"
+    },
+    "AUD": {
+        "name": "Dolar Australia",
+        "symbol": "AU$"
+    },
+    "BSD": {
+        "name": "Dolar Bahama",
+        "symbol": "BSD"
+    },
+    "BBD": {
+        "name": "Dolar Barbados",
+        "symbol": "BBD"
+    },
+    "TWD": {
+        "name": "Dolar Baru Taiwan",
+        "symbol": "NT$"
+    },
+    "BZD": {
+        "name": "Dolar Belize",
+        "symbol": "BZD"
     },
     "BMD": {
         "name": "Dolar Bermuda",
@@ -71,145 +127,9 @@
         "name": "Dolar Brunei",
         "symbol": "BND"
     },
-    "BOB": {
-        "name": "Boliviano",
-        "symbol": "BOB"
-    },
-    "BRL": {
-        "name": "Real Brasil",
-        "symbol": "R$"
-    },
-    "BSD": {
-        "name": "Dolar Bahama",
-        "symbol": "BSD"
-    },
-    "BTN": {
-        "name": "Ngultrum Bhutan",
-        "symbol": "BTN"
-    },
-    "BWP": {
-        "name": "Pula Botswana",
-        "symbol": "BWP"
-    },
-    "BYR": {
-        "name": "Rubel Belarusia",
-        "symbol": "BYR"
-    },
-    "BZD": {
-        "name": "Dolar Belize",
-        "symbol": "BZD"
-    },
-    "CAD": {
-        "name": "Dolar Kanada",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Franc Kongo",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Franc Swiss",
-        "symbol": "CHF"
-    },
-    "CLP": {
-        "name": "Peso Cile",
-        "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Yuan China",
-        "symbol": "CN¥"
-    },
-    "COP": {
-        "name": "Peso Kolombia",
-        "symbol": "COP"
-    },
-    "CRC": {
-        "name": "Colon Kosta Rika",
-        "symbol": "CRC"
-    },
-    "CUC": {
-        "name": "Peso Konvertibel Kuba",
-        "symbol": "CUC"
-    },
-    "CUP": {
-        "name": "Peso Kuba",
-        "symbol": "CUP"
-    },
-    "CVE": {
-        "name": "Escudo Tanjung Verde",
-        "symbol": "CVE"
-    },
-    "CZK": {
-        "name": "Koruna Cheska",
-        "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "Franc Jibuti",
-        "symbol": "DJF"
-    },
-    "DKK": {
-        "name": "Krone Denmark",
-        "symbol": "DKK"
-    },
-    "DOP": {
-        "name": "Peso Dominika",
-        "symbol": "DOP"
-    },
-    "DZD": {
-        "name": "Dinar Algeria",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "Pound Mesir",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "Nakfa Eritrea",
-        "symbol": "ERN"
-    },
-    "ETB": {
-        "name": "Birr Etiopia",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "Euro",
-        "symbol": "€"
-    },
     "FJD": {
         "name": "Dolar Fiji",
         "symbol": "FJD"
-    },
-    "FKP": {
-        "name": "Pound Kepulauan Falkland",
-        "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "Pound Sterling Inggris",
-        "symbol": "£"
-    },
-    "GEL": {
-        "name": "Lari Georgia",
-        "symbol": "GEL"
-    },
-    "GHS": {
-        "name": "Cedi Ghana",
-        "symbol": "GHS"
-    },
-    "GIP": {
-        "name": "Pound Gibraltar",
-        "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Dalasi Gambia",
-        "symbol": "GMD"
-    },
-    "GNF": {
-        "name": "Franc Guinea",
-        "symbol": "GNF"
-    },
-    "GTQ": {
-        "name": "Quetzal Guatemala",
-        "symbol": "GTQ"
     },
     "GYD": {
         "name": "Dolar Guyana",
@@ -219,21 +139,425 @@
         "name": "Dolar Hong Kong",
         "symbol": "HK$"
     },
-    "HNL": {
-        "name": "Lempira Honduras",
-        "symbol": "HNL"
+    "JMD": {
+        "name": "Dolar Jamaika",
+        "symbol": "JMD"
     },
-    "HRK": {
-        "name": "Kuna Kroasia",
-        "symbol": "HRK"
+    "CAD": {
+        "name": "Dolar Kanada",
+        "symbol": "CA$"
+    },
+    "XCD": {
+        "name": "Dolar Karibia Timur",
+        "symbol": "EC$"
+    },
+    "KYD": {
+        "name": "Dolar Kepulauan Cayman",
+        "symbol": "KYD"
+    },
+    "SBD": {
+        "name": "Dolar Kepulauan Solomon",
+        "symbol": "SBD"
+    },
+    "LRD": {
+        "name": "Dolar Liberia",
+        "symbol": "LRD"
+    },
+    "NAD": {
+        "name": "Dolar Namibia",
+        "symbol": "NAD"
+    },
+    "NZD": {
+        "name": "Dolar Selandia Baru",
+        "symbol": "NZ$"
+    },
+    "SGD": {
+        "name": "Dolar Singapura",
+        "symbol": "SGD"
+    },
+    "SRD": {
+        "name": "Dolar Suriname",
+        "symbol": "SRD"
+    },
+    "TTD": {
+        "name": "Dolar Trinidad dan Tobago",
+        "symbol": "TTD"
+    },
+    "ZWL": {
+        "name": "Dolar Zimbabwe (2009)",
+        "symbol": "ZWL"
+    },
+    "VND": {
+        "name": "Dong Vietnam",
+        "symbol": "₫"
+    },
+    "AMD": {
+        "name": "Dram Armenia",
+        "symbol": "AMD"
+    },
+    "CVE": {
+        "name": "Escudo Tanjung Verde",
+        "symbol": "CVE"
+    },
+    "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+    },
+    "AWG": {
+        "name": "Florin Aruba",
+        "symbol": "AWG"
+    },
+    "HUF": {
+        "name": "Forint Hungaria",
+        "symbol": "HUF"
+    },
+    "BIF": {
+        "name": "Franc Burundi",
+        "symbol": "BIF"
+    },
+    "XOF": {
+        "name": "Franc CFA BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Franc CFA BEAC",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "Franc CFP",
+        "symbol": "CFPF"
+    },
+    "GNF": {
+        "name": "Franc Guinea",
+        "symbol": "GNF"
+    },
+    "DJF": {
+        "name": "Franc Jibuti",
+        "symbol": "DJF"
+    },
+    "KMF": {
+        "name": "Franc Komoro",
+        "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Franc Kongo",
+        "symbol": "CDF"
+    },
+    "RWF": {
+        "name": "Franc Rwanda",
+        "symbol": "RWF"
+    },
+    "CHF": {
+        "name": "Franc Swiss",
+        "symbol": "CHF"
     },
     "HTG": {
         "name": "Gourde Haiti",
         "symbol": "HTG"
     },
-    "HUF": {
-        "name": "Forint Hungaria",
-        "symbol": "HUF"
+    "PYG": {
+        "name": "Guarani Paraguay",
+        "symbol": "PYG"
+    },
+    "ANG": {
+        "name": "Guilder Antilla Belanda",
+        "symbol": "ANG"
+    },
+    "UAH": {
+        "name": "Hryvnia Ukraina",
+        "symbol": "UAH"
+    },
+    "PGK": {
+        "name": "Kina Papua Nugini",
+        "symbol": "PGK"
+    },
+    "LAK": {
+        "name": "Kip Laos",
+        "symbol": "LAK"
+    },
+    "CZK": {
+        "name": "Koruna Cheska",
+        "symbol": "CZK"
+    },
+    "ISK": {
+        "name": "Krona Islandia",
+        "symbol": "ISK"
+    },
+    "SEK": {
+        "name": "Krona Swedia",
+        "symbol": "SEK"
+    },
+    "DKK": {
+        "name": "Krone Denmark",
+        "symbol": "DKK"
+    },
+    "NOK": {
+        "name": "Krone Norwegia",
+        "symbol": "NOK"
+    },
+    "HRK": {
+        "name": "Kuna Kroasia",
+        "symbol": "HRK"
+    },
+    "MWK": {
+        "name": "Kwacha Malawi",
+        "symbol": "MWK"
+    },
+    "ZMW": {
+        "name": "Kwacha Zambia",
+        "symbol": "ZMW"
+    },
+    "AOA": {
+        "name": "Kwanza Angola",
+        "symbol": "AOA"
+    },
+    "MMK": {
+        "name": "Kyat Myanmar",
+        "symbol": "MMK"
+    },
+    "GEL": {
+        "name": "Lari Georgia",
+        "symbol": "GEL"
+    },
+    "ALL": {
+        "name": "Lek Albania",
+        "symbol": "ALL"
+    },
+    "HNL": {
+        "name": "Lempira Honduras",
+        "symbol": "HNL"
+    },
+    "SLL": {
+        "name": "Leone Sierra Leone",
+        "symbol": "SLL"
+    },
+    "MDL": {
+        "name": "Leu Moldova",
+        "symbol": "MDL"
+    },
+    "RON": {
+        "name": "Leu Rumania",
+        "symbol": "RON"
+    },
+    "BGN": {
+        "name": "Lev Bulgaria",
+        "symbol": "BGN"
+    },
+    "SZL": {
+        "name": "Lilangeni Swaziland",
+        "symbol": "SZL"
+    },
+    "TRY": {
+        "name": "Lira Turki",
+        "symbol": "TRY"
+    },
+    "LTL": {
+        "name": "Litas Lituania",
+        "symbol": "LTL"
+    },
+    "LSL": {
+        "name": "Loti Lesotho",
+        "symbol": "LSL"
+    },
+    "AZN": {
+        "name": "Manat Azerbaijan",
+        "symbol": "AZN"
+    },
+    "TMT": {
+        "name": "Manat Turkimenistan",
+        "symbol": "TMT"
+    },
+    "BAM": {
+        "name": "Mark Konvertibel Bosnia-Herzegovina",
+        "symbol": "BAM"
+    },
+    "MZN": {
+        "name": "Metical Mozambik",
+        "symbol": "MZN"
+    },
+    "NGN": {
+        "name": "Naira Nigeria",
+        "symbol": "NGN"
+    },
+    "ERN": {
+        "name": "Nakfa Eritrea",
+        "symbol": "ERN"
+    },
+    "BTN": {
+        "name": "Ngultrum Bhutan",
+        "symbol": "BTN"
+    },
+    "PEN": {
+        "name": "Nuevo Sol Peru",
+        "symbol": "PEN"
+    },
+    "MRO": {
+        "name": "Ouguiya Mauritania",
+        "symbol": "MRO"
+    },
+    "TOP": {
+        "name": "Paʻanga Tonga",
+        "symbol": "TOP"
+    },
+    "MOP": {
+        "name": "Pataca Makau",
+        "symbol": "MOP"
+    },
+    "ARS": {
+        "name": "Peso Argentina",
+        "symbol": "ARS"
+    },
+    "CLP": {
+        "name": "Peso Cile",
+        "symbol": "CLP"
+    },
+    "DOP": {
+        "name": "Peso Dominika",
+        "symbol": "DOP"
+    },
+    "PHP": {
+        "name": "Peso Filipina",
+        "symbol": "PHP"
+    },
+    "COP": {
+        "name": "Peso Kolombia",
+        "symbol": "COP"
+    },
+    "CUC": {
+        "name": "Peso Konvertibel Kuba",
+        "symbol": "CUC"
+    },
+    "CUP": {
+        "name": "Peso Kuba",
+        "symbol": "CUP"
+    },
+    "MXN": {
+        "name": "Peso Meksiko",
+        "symbol": "MX$"
+    },
+    "UYU": {
+        "name": "Peso Uruguay",
+        "symbol": "$U"
+    },
+    "PLN": {
+        "name": "Polandia Zloty",
+        "symbol": "PLN"
+    },
+    "GIP": {
+        "name": "Pound Gibraltar",
+        "symbol": "GIP"
+    },
+    "FKP": {
+        "name": "Pound Kepulauan Falkland",
+        "symbol": "FKP"
+    },
+    "LBP": {
+        "name": "Pound Lebanon",
+        "symbol": "LBP"
+    },
+    "EGP": {
+        "name": "Pound Mesir",
+        "symbol": "EGP"
+    },
+    "SHP": {
+        "name": "Pound Saint Helena",
+        "symbol": "SHP"
+    },
+    "GBP": {
+        "name": "Pound Sterling Inggris",
+        "symbol": "£"
+    },
+    "SDG": {
+        "name": "Pound Sudan",
+        "symbol": "SDG"
+    },
+    "SSP": {
+        "name": "Pound Sudan Selatan",
+        "symbol": "SSP"
+    },
+    "SYP": {
+        "name": "Pound Suriah",
+        "symbol": "SYP"
+    },
+    "BWP": {
+        "name": "Pula Botswana",
+        "symbol": "BWP"
+    },
+    "GTQ": {
+        "name": "Quetzal Guatemala",
+        "symbol": "GTQ"
+    },
+    "ZAR": {
+        "name": "Rand Afrika Selatan",
+        "symbol": "ZAR"
+    },
+    "BRL": {
+        "name": "Real Brasil",
+        "symbol": "R$"
+    },
+    "IRR": {
+        "name": "Rial Iran",
+        "symbol": "IRR"
+    },
+    "OMR": {
+        "name": "Rial Oman",
+        "symbol": "OMR"
+    },
+    "QAR": {
+        "name": "Rial Qatar",
+        "symbol": "QAR"
+    },
+    "YER": {
+        "name": "Rial Yaman",
+        "symbol": "YER"
+    },
+    "KHR": {
+        "name": "Riel Kamboja",
+        "symbol": "KHR"
+    },
+    "MYR": {
+        "name": "Ringgit Malaysia",
+        "symbol": "MYR"
+    },
+    "SAR": {
+        "name": "Riyal Arab Saudi",
+        "symbol": "SAR"
+    },
+    "BYR": {
+        "name": "Rubel Belarusia",
+        "symbol": "BYR"
+    },
+    "RUB": {
+        "name": "Rubel Rusia",
+        "symbol": "RUB"
+    },
+    "MVR": {
+        "name": "Rufiyaa Maladewa",
+        "symbol": "MVR"
+    },
+    "INR": {
+        "name": "Rupee India",
+        "symbol": "Rs"
+    },
+    "MUR": {
+        "name": "Rupee Mauritius",
+        "symbol": "MUR"
+    },
+    "NPR": {
+        "name": "Rupee Nepal",
+        "symbol": "NPR"
+    },
+    "PKR": {
+        "name": "Rupee Pakistan",
+        "symbol": "PKR"
+    },
+    "SCR": {
+        "name": "Rupee Seychelles",
+        "symbol": "SCR"
+    },
+    "LKR": {
+        "name": "Rupee Sri Lanka",
+        "symbol": "LKR"
     },
     "IDR": {
         "name": "Rupiah Indonesia",
@@ -243,392 +567,68 @@
         "name": "Shekel Baru Israel",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "Rupee India",
-        "symbol": "Rs"
-    },
-    "IQD": {
-        "name": "Dinar Irak",
-        "symbol": "IQD"
-    },
-    "IRR": {
-        "name": "Rial Iran",
-        "symbol": "IRR"
-    },
-    "ISK": {
-        "name": "Krona Islandia",
-        "symbol": "ISK"
-    },
-    "JMD": {
-        "name": "Dolar Jamaika",
-        "symbol": "JMD"
-    },
-    "JOD": {
-        "name": "Dinar Yordania",
-        "symbol": "JOD"
-    },
-    "JPY": {
-        "name": "Yen Jepang",
-        "symbol": "JP¥"
-    },
     "KES": {
         "name": "Shilling Kenya",
         "symbol": "KES"
-    },
-    "KGS": {
-        "name": "Som Kirgistan",
-        "symbol": "KGS"
-    },
-    "KHR": {
-        "name": "Riel Kamboja",
-        "symbol": "KHR"
-    },
-    "KMF": {
-        "name": "Franc Komoro",
-        "symbol": "KMF"
-    },
-    "KPW": {
-        "name": "Won Korea Utara",
-        "symbol": "KPW"
-    },
-    "KRW": {
-        "name": "Won Korea Selatan",
-        "symbol": "₩"
-    },
-    "KWD": {
-        "name": "Dinar Kuwait",
-        "symbol": "KWD"
-    },
-    "KYD": {
-        "name": "Dolar Kepulauan Cayman",
-        "symbol": "KYD"
-    },
-    "KZT": {
-        "name": "Tenge Kazakstan",
-        "symbol": "KZT"
-    },
-    "LAK": {
-        "name": "Kip Laos",
-        "symbol": "LAK"
-    },
-    "LBP": {
-        "name": "Pound Lebanon",
-        "symbol": "LBP"
-    },
-    "LKR": {
-        "name": "Rupee Sri Lanka",
-        "symbol": "LKR"
-    },
-    "LRD": {
-        "name": "Dolar Liberia",
-        "symbol": "LRD"
-    },
-    "LSL": {
-        "name": "Loti Lesotho",
-        "symbol": "LSL"
-    },
-    "LTL": {
-        "name": "Litas Lituania",
-        "symbol": "LTL"
-    },
-    "LYD": {
-        "name": "Dinar Libya",
-        "symbol": "LYD"
-    },
-    "MAD": {
-        "name": "Dirham Maroko",
-        "symbol": "MAD"
-    },
-    "MDL": {
-        "name": "Leu Moldova",
-        "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Ariary Madagaskar",
-        "symbol": "MGA"
-    },
-    "MKD": {
-        "name": "Denar Makedonia",
-        "symbol": "MKD"
-    },
-    "MMK": {
-        "name": "Kyat Myanmar",
-        "symbol": "MMK"
-    },
-    "MNT": {
-        "name": "Tugrik Mongolia",
-        "symbol": "MNT"
-    },
-    "MOP": {
-        "name": "Pataca Makau",
-        "symbol": "MOP"
-    },
-    "MRO": {
-        "name": "Ouguiya Mauritania",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Rupee Mauritius",
-        "symbol": "MUR"
-    },
-    "MVR": {
-        "name": "Rufiyaa Maladewa",
-        "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Kwacha Malawi",
-        "symbol": "MWK"
-    },
-    "MXN": {
-        "name": "Peso Meksiko",
-        "symbol": "MX$"
-    },
-    "MYR": {
-        "name": "Ringgit Malaysia",
-        "symbol": "MYR"
-    },
-    "MZN": {
-        "name": "Metical Mozambik",
-        "symbol": "MZN"
-    },
-    "NAD": {
-        "name": "Dolar Namibia",
-        "symbol": "NAD"
-    },
-    "NGN": {
-        "name": "Naira Nigeria",
-        "symbol": "NGN"
-    },
-    "NIO": {
-        "name": "Cordoba Nikaragua",
-        "symbol": "NIO"
-    },
-    "NOK": {
-        "name": "Krone Norwegia",
-        "symbol": "NOK"
-    },
-    "NPR": {
-        "name": "Rupee Nepal",
-        "symbol": "NPR"
-    },
-    "NZD": {
-        "name": "Dolar Selandia Baru",
-        "symbol": "NZ$"
-    },
-    "OMR": {
-        "name": "Rial Oman",
-        "symbol": "OMR"
-    },
-    "PAB": {
-        "name": "Balboa Panama",
-        "symbol": "PAB"
-    },
-    "PEN": {
-        "name": "Nuevo Sol Peru",
-        "symbol": "PEN"
-    },
-    "PGK": {
-        "name": "Kina Papua Nugini",
-        "symbol": "PGK"
-    },
-    "PHP": {
-        "name": "Peso Filipina",
-        "symbol": "PHP"
-    },
-    "PKR": {
-        "name": "Rupee Pakistan",
-        "symbol": "PKR"
-    },
-    "PLN": {
-        "name": "Polandia Zloty",
-        "symbol": "PLN"
-    },
-    "PYG": {
-        "name": "Guarani Paraguay",
-        "symbol": "PYG"
-    },
-    "QAR": {
-        "name": "Rial Qatar",
-        "symbol": "QAR"
-    },
-    "RON": {
-        "name": "Leu Rumania",
-        "symbol": "RON"
-    },
-    "RSD": {
-        "name": "Dinar Serbia",
-        "symbol": "RSD"
-    },
-    "RUB": {
-        "name": "Rubel Rusia",
-        "symbol": "RUB"
-    },
-    "RWF": {
-        "name": "Franc Rwanda",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "Riyal Arab Saudi",
-        "symbol": "SAR"
-    },
-    "SBD": {
-        "name": "Dolar Kepulauan Solomon",
-        "symbol": "SBD"
-    },
-    "SCR": {
-        "name": "Rupee Seychelles",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "Pound Sudan",
-        "symbol": "SDG"
-    },
-    "SEK": {
-        "name": "Krona Swedia",
-        "symbol": "SEK"
-    },
-    "SGD": {
-        "name": "Dolar Singapura",
-        "symbol": "SGD"
-    },
-    "SHP": {
-        "name": "Pound Saint Helena",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "Leone Sierra Leone",
-        "symbol": "SLL"
     },
     "SOS": {
         "name": "Shilling Somalia",
         "symbol": "SOS"
     },
-    "SRD": {
-        "name": "Dolar Suriname",
-        "symbol": "SRD"
-    },
-    "SSP": {
-        "name": "Pound Sudan Selatan",
-        "symbol": "SSP"
-    },
-    "STD": {
-        "name": "Dobra Sao Tome dan Principe",
-        "symbol": "STD"
-    },
-    "SVC": {
-        "name": "Colon El Savador",
-        "symbol": "SVC"
-    },
-    "SYP": {
-        "name": "Pound Suriah",
-        "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Lilangeni Swaziland",
-        "symbol": "SZL"
-    },
-    "THB": {
-        "name": "Baht Thailand",
-        "symbol": "฿"
-    },
-    "TJS": {
-        "name": "Somoni Tajikistan",
-        "symbol": "TJS"
-    },
-    "TMT": {
-        "name": "Manat Turkimenistan",
-        "symbol": "TMT"
-    },
-    "TND": {
-        "name": "Dinar Tunisia",
-        "symbol": "TND"
-    },
-    "TOP": {
-        "name": "Paʻanga Tonga",
-        "symbol": "TOP"
-    },
-    "TRY": {
-        "name": "Lira Turki",
-        "symbol": "TRY"
-    },
-    "TTD": {
-        "name": "Dolar Trinidad dan Tobago",
-        "symbol": "TTD"
-    },
-    "TWD": {
-        "name": "Dolar Baru Taiwan",
-        "symbol": "NT$"
-    },
     "TZS": {
         "name": "Shilling Tanzania",
         "symbol": "TZS"
-    },
-    "UAH": {
-        "name": "Hryvnia Ukraina",
-        "symbol": "UAH"
     },
     "UGX": {
         "name": "Shilling Uganda",
         "symbol": "UGX"
     },
-    "USD": {
-        "name": "Dolar Amerika Serikat",
-        "symbol": "US$"
-    },
-    "UYU": {
-        "name": "Peso Uruguay",
-        "symbol": "$U"
+    "KGS": {
+        "name": "Som Kirgistan",
+        "symbol": "KGS"
     },
     "UZS": {
         "name": "Som Uzbekistan",
         "symbol": "UZS"
     },
-    "VEF": {
-        "name": "Bolivar Venezuela",
-        "symbol": "VEF"
+    "TJS": {
+        "name": "Somoni Tajikistan",
+        "symbol": "TJS"
     },
-    "VND": {
-        "name": "Dong Vietnam",
-        "symbol": "₫"
-    },
-    "VUV": {
-        "name": "Vatu Vanuatu",
-        "symbol": "VUV"
+    "BDT": {
+        "name": "Taka Bangladesh",
+        "symbol": "BDT"
     },
     "WST": {
         "name": "Tala Samoa",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "Franc CFA BEAC",
-        "symbol": "FCFA"
+    "KZT": {
+        "name": "Tenge Kazakstan",
+        "symbol": "KZT"
     },
-    "XCD": {
-        "name": "Dolar Karibia Timur",
-        "symbol": "EC$"
+    "MNT": {
+        "name": "Tugrik Mongolia",
+        "symbol": "MNT"
     },
-    "XOF": {
-        "name": "Franc CFA BCEAO",
-        "symbol": "CFA"
+    "VUV": {
+        "name": "Vatu Vanuatu",
+        "symbol": "VUV"
     },
-    "XPF": {
-        "name": "Franc CFP",
-        "symbol": "CFPF"
+    "KRW": {
+        "name": "Won Korea Selatan",
+        "symbol": "₩"
     },
-    "YER": {
-        "name": "Rial Yaman",
-        "symbol": "YER"
+    "KPW": {
+        "name": "Won Korea Utara",
+        "symbol": "KPW"
     },
-    "ZAR": {
-        "name": "Rand Afrika Selatan",
-        "symbol": "ZAR"
+    "JPY": {
+        "name": "Yen Jepang",
+        "symbol": "JP¥"
     },
-    "ZMW": {
-        "name": "Kwacha Zambia",
-        "symbol": "ZMW"
-    },
-    "ZWL": {
-        "name": "Dolar Zimbabwe (2009)",
-        "symbol": "ZWL"
+    "CNY": {
+        "name": "Yuan China",
+        "symbol": "CN¥"
     }
 }

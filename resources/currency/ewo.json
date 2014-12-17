@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "Dirám yá Emirá Aráb Uní",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -19,17 +15,13 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "Kwánəza yá Angolá",
-        "symbol": "AOA"
+    "MGA": {
+        "name": "Ariari yá Maləgás",
+        "symbol": "MGA"
     },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "Dolár yá Osətəralí",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -55,13 +47,9 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "Dinár yá Bahərɛ́n",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Fəláŋ yá Burundí",
-        "symbol": "BIF"
+    "ETB": {
+        "name": "Bír yá Etsiópia",
+        "symbol": "ETB"
     },
     "BMD": {
         "name": "BMD",
@@ -87,10 +75,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Púlá yá Botswána",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +83,9 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Dolár yá Kanáda",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Fəláŋ yá Kongo",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Fəláŋ yá Suís",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Yuán Renəminəbí yá Tsainís",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,45 +103,109 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Esəkúdo yá Kápə́vɛ́rə",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
     },
-    "DJF": {
-        "name": "Fəláŋ yá dzibutí",
-        "symbol": "DJF"
-    },
-    "DKK": {
-        "name": "DKK",
-        "symbol": "DKK"
-    },
-    "DOP": {
-        "name": "DOP",
-        "symbol": "DOP"
+    "GMD": {
+        "name": "Dalasí yá Gámbía",
+        "symbol": "GMD"
     },
     "DZD": {
         "name": "Dinár yá Alehérí",
         "symbol": "DZD"
     },
-    "EGP": {
-        "name": "Lívə́lə yá Ehíbətía",
-        "symbol": "EGP"
+    "BHD": {
+        "name": "Dinár yá Bahərɛ́n",
+        "symbol": "BHD"
     },
-    "ERN": {
-        "name": "Náfəka yá Eritelé",
-        "symbol": "ERN"
+    "LYD": {
+        "name": "Dinár yá Libí",
+        "symbol": "LYD"
     },
-    "ETB": {
-        "name": "Bír yá Etsiópia",
-        "symbol": "ETB"
+    "TND": {
+        "name": "Dinár yá Tunisí",
+        "symbol": "TND"
+    },
+    "AED": {
+        "name": "Dirám yá Emirá Aráb Uní",
+        "symbol": "AED"
+    },
+    "MAD": {
+        "name": "Dirám yá Maróg",
+        "symbol": "MAD"
+    },
+    "DKK": {
+        "name": "DKK",
+        "symbol": "DKK"
+    },
+    "STD": {
+        "name": "Dóbə́ra yá Saó Tomé ai Pəlinəsípe",
+        "symbol": "STD"
+    },
+    "USD": {
+        "name": "Dolár yá amɛ́rəkə",
+        "symbol": "US$"
+    },
+    "CAD": {
+        "name": "Dolár yá Kanáda",
+        "symbol": "CA$"
+    },
+    "LRD": {
+        "name": "Dolár yá Libéria",
+        "symbol": "LRD"
+    },
+    "NAD": {
+        "name": "Dolár yá Namibí",
+        "symbol": "NAD"
+    },
+    "AUD": {
+        "name": "Dolár yá Osətəralí",
+        "symbol": "A$"
+    },
+    "DOP": {
+        "name": "DOP",
+        "symbol": "DOP"
+    },
+    "CVE": {
+        "name": "Esəkúdo yá Kápə́vɛ́rə",
+        "symbol": "CVE"
     },
     "EUR": {
         "name": "əró",
         "symbol": "€"
+    },
+    "XOF": {
+        "name": "Fəláŋ CFA (BCEAO)",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Fəláŋ CFA (BEAC)",
+        "symbol": "FCFA"
+    },
+    "BIF": {
+        "name": "Fəláŋ yá Burundí",
+        "symbol": "BIF"
+    },
+    "DJF": {
+        "name": "Fəláŋ yá dzibutí",
+        "symbol": "DJF"
+    },
+    "KMF": {
+        "name": "Fəláŋ yá Komória",
+        "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Fəláŋ yá Kongo",
+        "symbol": "CDF"
+    },
+    "RWF": {
+        "name": "Fəláŋ yá Ruwandá",
+        "symbol": "RWF"
+    },
+    "CHF": {
+        "name": "Fəláŋ yá Suís",
+        "symbol": "CHF"
     },
     "FJD": {
         "name": "FJD",
@@ -182,10 +214,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "Lívə́lə Sətərəlíŋ",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -198,10 +226,6 @@
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Dalasí yá Gámbía",
-        "symbol": "GMD"
     },
     "GNF": {
         "name": "GNF",
@@ -243,10 +267,6 @@
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "Rupí yá ɛ́ndía",
-        "symbol": "₹"
-    },
     "IQD": {
         "name": "IQD",
         "symbol": "IQD"
@@ -267,14 +287,6 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Yɛ́n yá Hapɔ́n",
-        "symbol": "JP¥"
-    },
-    "KES": {
-        "name": "Silíŋ yá Keniá",
-        "symbol": "KES"
-    },
     "KGS": {
         "name": "KGS",
         "symbol": "KGS"
@@ -283,10 +295,6 @@
         "name": "KHR",
         "symbol": "KHR"
     },
-    "KMF": {
-        "name": "Fəláŋ yá Komória",
-        "symbol": "KMF"
-    },
     "KPW": {
         "name": "KPW",
         "symbol": "KPW"
@@ -294,6 +302,18 @@
     "KRW": {
         "name": "KRW",
         "symbol": "₩"
+    },
+    "AOA": {
+        "name": "Kwánəza yá Angolá",
+        "symbol": "AOA"
+    },
+    "MWK": {
+        "name": "Kwatsa yá Malawí",
+        "symbol": "MWK"
+    },
+    "ZMW": {
+        "name": "Kwatsa yá Zambí",
+        "symbol": "ZMW"
     },
     "KWD": {
         "name": "KWD",
@@ -315,13 +335,33 @@
         "name": "LBP",
         "symbol": "LBP"
     },
+    "SLL": {
+        "name": "Leóne yá Sierá-leónə",
+        "symbol": "SLL"
+    },
+    "SZL": {
+        "name": "Lilangeni yá Swazí",
+        "symbol": "SZL"
+    },
+    "GBP": {
+        "name": "Lívə́lə Sətərəlíŋ",
+        "symbol": "£"
+    },
+    "EGP": {
+        "name": "Lívə́lə yá Ehíbətía",
+        "symbol": "EGP"
+    },
+    "SHP": {
+        "name": "Lívələ yá Ǹfúfúb Elɛ́n",
+        "symbol": "SHP"
+    },
+    "SDG": {
+        "name": "Lívələ yá Sudán",
+        "symbol": "SDG"
+    },
     "LKR": {
         "name": "LKR",
         "symbol": "LKR"
-    },
-    "LRD": {
-        "name": "Dolár yá Libéria",
-        "symbol": "LRD"
     },
     "LSL": {
         "name": "Lotí yá Lesotó",
@@ -331,21 +371,9 @@
         "name": "LTL",
         "symbol": "LTL"
     },
-    "LYD": {
-        "name": "Dinár yá Libí",
-        "symbol": "LYD"
-    },
-    "MAD": {
-        "name": "Dirám yá Maróg",
-        "symbol": "MAD"
-    },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Ariari yá Maləgás",
-        "symbol": "MGA"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +391,9 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "Ugiya yá Moritaní",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Rupí yá Morís",
-        "symbol": "MUR"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Kwatsa yá Malawí",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -391,9 +407,9 @@
         "name": "MZN",
         "symbol": "MZN"
     },
-    "NAD": {
-        "name": "Dolár yá Namibí",
-        "symbol": "NAD"
+    "ERN": {
+        "name": "Náfəka yá Eritelé",
+        "symbol": "ERN"
     },
     "NGN": {
         "name": "Náíra yá Nihéria",
@@ -443,6 +459,10 @@
         "name": "PLN",
         "symbol": "PLN"
     },
+    "BWP": {
+        "name": "Púlá yá Botswána",
+        "symbol": "BWP"
+    },
     "PYG": {
         "name": "PYG",
         "symbol": "PYG"
@@ -450,6 +470,14 @@
     "QAR": {
         "name": "QAR",
         "symbol": "QAR"
+    },
+    "ZAR": {
+        "name": "Ránədə yá Afiríka",
+        "symbol": "ZAR"
+    },
+    "SAR": {
+        "name": "Riál yá Arabí Saudí",
+        "symbol": "SAR"
     },
     "RON": {
         "name": "RON",
@@ -463,25 +491,21 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "Fəláŋ yá Ruwandá",
-        "symbol": "RWF"
+    "INR": {
+        "name": "Rupí yá ɛ́ndía",
+        "symbol": "₹"
     },
-    "SAR": {
-        "name": "Riál yá Arabí Saudí",
-        "symbol": "SAR"
-    },
-    "SBD": {
-        "name": "SBD",
-        "symbol": "SBD"
+    "MUR": {
+        "name": "Rupí yá Morís",
+        "symbol": "MUR"
     },
     "SCR": {
         "name": "Rupí yá Sɛsɛ́l",
         "symbol": "SCR"
     },
-    "SDG": {
-        "name": "Lívələ yá Sudán",
-        "symbol": "SDG"
+    "SBD": {
+        "name": "SBD",
+        "symbol": "SBD"
     },
     "SEK": {
         "name": "SEK",
@@ -491,17 +515,21 @@
         "name": "SGD",
         "symbol": "SGD"
     },
-    "SHP": {
-        "name": "Lívələ yá Ǹfúfúb Elɛ́n",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "Leóne yá Sierá-leónə",
-        "symbol": "SLL"
+    "KES": {
+        "name": "Silíŋ yá Keniá",
+        "symbol": "KES"
     },
     "SOS": {
         "name": "Silíŋ yá Somalí",
         "symbol": "SOS"
+    },
+    "TZS": {
+        "name": "Silíŋ yá Tanazaní",
+        "symbol": "TZS"
+    },
+    "UGX": {
+        "name": "Silíŋ yá Ugandá (1966–1987)",
+        "symbol": "UGX"
     },
     "SRD": {
         "name": "SRD",
@@ -511,10 +539,6 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Dóbə́ra yá Saó Tomé ai Pəlinəsípe",
-        "symbol": "STD"
-    },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
@@ -522,10 +546,6 @@
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Lilangeni yá Swazí",
-        "symbol": "SZL"
     },
     "THB": {
         "name": "THB",
@@ -538,10 +558,6 @@
     "TMT": {
         "name": "TMT",
         "symbol": "TMT"
-    },
-    "TND": {
-        "name": "Dinár yá Tunisí",
-        "symbol": "TND"
     },
     "TOP": {
         "name": "TOP",
@@ -559,21 +575,13 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Silíŋ yá Tanazaní",
-        "symbol": "TZS"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
     },
-    "UGX": {
-        "name": "Silíŋ yá Ugandá (1966–1987)",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Dolár yá amɛ́rəkə",
-        "symbol": "US$"
+    "MRO": {
+        "name": "Ugiya yá Moritaní",
+        "symbol": "MRO"
     },
     "UYU": {
         "name": "UYU",
@@ -599,17 +607,9 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "Fəláŋ CFA (BEAC)",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "Fəláŋ CFA (BCEAO)",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
@@ -619,13 +619,13 @@
         "name": "YER",
         "symbol": "YER"
     },
-    "ZAR": {
-        "name": "Ránədə yá Afiríka",
-        "symbol": "ZAR"
+    "JPY": {
+        "name": "Yɛ́n yá Hapɔ́n",
+        "symbol": "JP¥"
     },
-    "ZMW": {
-        "name": "Kwatsa yá Zambí",
-        "symbol": "ZMW"
+    "CNY": {
+        "name": "Yuán Renəminəbí yá Tsainís",
+        "symbol": "CN¥"
     },
     "ZWL": {
         "name": "ZWL",

@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "Kuɗin Haɗaɗɗiyar Daular Larabawa",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -19,17 +15,9 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "Kuɗin Angola",
-        "symbol": "AOA"
-    },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "Dalar Ostareliya",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -55,14 +43,6 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "Kuɗin Baharan",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Kuɗin Burundi",
-        "symbol": "BIF"
-    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -87,10 +67,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Kuɗin Baswana",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +75,9 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Dalar Kanada",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Kuɗin Kongo",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Kuɗin Suwizalan",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Kuɗin Caina\/Sin",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,17 +95,29 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Kuɗin Tsibiran Kap Barde",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
     },
-    "DJF": {
-        "name": "Kuɗin Jibuti",
-        "symbol": "DJF"
+    "USD": {
+        "name": "Dalar Amurka",
+        "symbol": "US$"
+    },
+    "CAD": {
+        "name": "Dalar Kanada",
+        "symbol": "CA$"
+    },
+    "LRD": {
+        "name": "Dalar Laberiya",
+        "symbol": "LRD"
+    },
+    "NAD": {
+        "name": "Dalar Namibiya",
+        "symbol": "NAD"
+    },
+    "AUD": {
+        "name": "Dalar Ostareliya",
+        "symbol": "A$"
     },
     "DKK": {
         "name": "DKK",
@@ -155,25 +127,21 @@
         "name": "DOP",
         "symbol": "DOP"
     },
-    "DZD": {
-        "name": "Kuɗin Aljeriya",
-        "symbol": "DZD"
+    "GBP": {
+        "name": "Fam kin Ingila",
+        "symbol": "£"
     },
     "EGP": {
         "name": "Fam kin Masar",
         "symbol": "EGP"
     },
-    "ERN": {
-        "name": "Kuɗin Eritireya",
-        "symbol": "ERN"
+    "SHP": {
+        "name": "Fam kin San Helena",
+        "symbol": "SHP"
     },
-    "ETB": {
-        "name": "Kuɗin Habasha",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "Yuro",
-        "symbol": "€"
+    "SDG": {
+        "name": "Fam kin Sudan",
+        "symbol": "SDG"
     },
     "FJD": {
         "name": "FJD",
@@ -182,10 +150,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "Fam kin Ingila",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -198,10 +162,6 @@
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Kuɗin Gambiya",
-        "symbol": "GMD"
     },
     "GNF": {
         "name": "GNF",
@@ -243,10 +203,6 @@
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "Kuɗin Indiya",
-        "symbol": "₹"
-    },
     "IQD": {
         "name": "IQD",
         "symbol": "IQD"
@@ -267,14 +223,6 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Kuɗin Japan",
-        "symbol": "JP¥"
-    },
-    "KES": {
-        "name": "Sulen Kenya",
-        "symbol": "KES"
-    },
     "KGS": {
         "name": "KGS",
         "symbol": "KGS"
@@ -283,10 +231,6 @@
         "name": "KHR",
         "symbol": "KHR"
     },
-    "KMF": {
-        "name": "Kuɗin Kwamoras",
-        "symbol": "KMF"
-    },
     "KPW": {
         "name": "KPW",
         "symbol": "KPW"
@@ -294,6 +238,142 @@
     "KRW": {
         "name": "KRW",
         "symbol": "₩"
+    },
+    "ZAR": {
+        "name": "Kuɗin Afirka Ta Kudu",
+        "symbol": "ZAR"
+    },
+    "DZD": {
+        "name": "Kuɗin Aljeriya",
+        "symbol": "DZD"
+    },
+    "AOA": {
+        "name": "Kuɗin Angola",
+        "symbol": "AOA"
+    },
+    "BHD": {
+        "name": "Kuɗin Baharan",
+        "symbol": "BHD"
+    },
+    "BWP": {
+        "name": "Kuɗin Baswana",
+        "symbol": "BWP"
+    },
+    "BIF": {
+        "name": "Kuɗin Burundi",
+        "symbol": "BIF"
+    },
+    "CNY": {
+        "name": "Kuɗin Caina\/Sin",
+        "symbol": "CN¥"
+    },
+    "ERN": {
+        "name": "Kuɗin Eritireya",
+        "symbol": "ERN"
+    },
+    "GMD": {
+        "name": "Kuɗin Gambiya",
+        "symbol": "GMD"
+    },
+    "ETB": {
+        "name": "Kuɗin Habasha",
+        "symbol": "ETB"
+    },
+    "AED": {
+        "name": "Kuɗin Haɗaɗɗiyar Daular Larabawa",
+        "symbol": "AED"
+    },
+    "INR": {
+        "name": "Kuɗin Indiya",
+        "symbol": "₹"
+    },
+    "JPY": {
+        "name": "Kuɗin Japan",
+        "symbol": "JP¥"
+    },
+    "DJF": {
+        "name": "Kuɗin Jibuti",
+        "symbol": "DJF"
+    },
+    "CDF": {
+        "name": "Kuɗin Kongo",
+        "symbol": "CDF"
+    },
+    "KMF": {
+        "name": "Kuɗin Kwamoras",
+        "symbol": "KMF"
+    },
+    "LSL": {
+        "name": "Kuɗin Lesoto",
+        "symbol": "LSL"
+    },
+    "LYD": {
+        "name": "Kuɗin Libiya",
+        "symbol": "LYD"
+    },
+    "SZL": {
+        "name": "Kuɗin Lilangeni",
+        "symbol": "SZL"
+    },
+    "MGA": {
+        "name": "Kuɗin Madagaskar",
+        "symbol": "MGA"
+    },
+    "MWK": {
+        "name": "Kuɗin Malawi",
+        "symbol": "MWK"
+    },
+    "MAD": {
+        "name": "Kuɗin Maroko",
+        "symbol": "MAD"
+    },
+    "MRO": {
+        "name": "Kuɗin Moritaniya",
+        "symbol": "MRO"
+    },
+    "MUR": {
+        "name": "Kuɗin Moritus",
+        "symbol": "MUR"
+    },
+    "RWF": {
+        "name": "Kuɗin Ruwanda",
+        "symbol": "RWF"
+    },
+    "SCR": {
+        "name": "Kuɗin Saishal",
+        "symbol": "SCR"
+    },
+    "SLL": {
+        "name": "Kuɗin Salewo",
+        "symbol": "SLL"
+    },
+    "STD": {
+        "name": "Kuɗin Sawo Tome da Paransip",
+        "symbol": "STD"
+    },
+    "XAF": {
+        "name": "Kuɗin Sefa na Afirka Ta Tsakiya",
+        "symbol": "FCFA"
+    },
+    "XOF": {
+        "name": "Kuɗin Sefa na Afirka Ta Yamma",
+        "symbol": "CFA"
+    },
+    "CHF": {
+        "name": "Kuɗin Suwizalan",
+        "symbol": "CHF"
+    },
+    "TND": {
+        "name": "Kuɗin Tunisiya",
+        "symbol": "TND"
+    },
+    "CVE": {
+        "name": "Kuɗin Tsibiran Kap Barde",
+        "symbol": "CVE"
+    },
+    "ZMW": {
+        "name": "Kuɗin Zambiya",
+        "symbol": "ZMW"
     },
     "KWD": {
         "name": "KWD",
@@ -319,33 +399,13 @@
         "name": "LKR",
         "symbol": "LKR"
     },
-    "LRD": {
-        "name": "Dalar Laberiya",
-        "symbol": "LRD"
-    },
-    "LSL": {
-        "name": "Kuɗin Lesoto",
-        "symbol": "LSL"
-    },
     "LTL": {
         "name": "LTL",
         "symbol": "LTL"
     },
-    "LYD": {
-        "name": "Kuɗin Libiya",
-        "symbol": "LYD"
-    },
-    "MAD": {
-        "name": "Kuɗin Maroko",
-        "symbol": "MAD"
-    },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Kuɗin Madagaskar",
-        "symbol": "MGA"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +423,9 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "Kuɗin Moritaniya",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Kuɗin Moritus",
-        "symbol": "MUR"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Kuɗin Malawi",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -390,10 +438,6 @@
     "MZN": {
         "name": "MZN",
         "symbol": "MZN"
-    },
-    "NAD": {
-        "name": "Dalar Namibiya",
-        "symbol": "NAD"
     },
     "NGN": {
         "name": "Naira",
@@ -451,6 +495,10 @@
         "name": "QAR",
         "symbol": "QAR"
     },
+    "SAR": {
+        "name": "Riyal",
+        "symbol": "SAR"
+    },
     "RON": {
         "name": "RON",
         "symbol": "RON"
@@ -463,25 +511,9 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "Kuɗin Ruwanda",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "Riyal",
-        "symbol": "SAR"
-    },
     "SBD": {
         "name": "SBD",
         "symbol": "SBD"
-    },
-    "SCR": {
-        "name": "Kuɗin Saishal",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "Fam kin Sudan",
-        "symbol": "SDG"
     },
     "SEK": {
         "name": "SEK",
@@ -491,18 +523,6 @@
         "name": "SGD",
         "symbol": "SGD"
     },
-    "SHP": {
-        "name": "Fam kin San Helena",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "Kuɗin Salewo",
-        "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "Sulen Somaliya",
-        "symbol": "SOS"
-    },
     "SRD": {
         "name": "SRD",
         "symbol": "SRD"
@@ -511,9 +531,21 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Kuɗin Sawo Tome da Paransip",
-        "symbol": "STD"
+    "UGX": {
+        "name": "Sule Yuganda",
+        "symbol": "UGX"
+    },
+    "KES": {
+        "name": "Sulen Kenya",
+        "symbol": "KES"
+    },
+    "SOS": {
+        "name": "Sulen Somaliya",
+        "symbol": "SOS"
+    },
+    "TZS": {
+        "name": "Sulen Tanzaniya",
+        "symbol": "TZS"
     },
     "SVC": {
         "name": "SVC",
@@ -522,10 +554,6 @@
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Kuɗin Lilangeni",
-        "symbol": "SZL"
     },
     "THB": {
         "name": "THB",
@@ -538,10 +566,6 @@
     "TMT": {
         "name": "TMT",
         "symbol": "TMT"
-    },
-    "TND": {
-        "name": "Kuɗin Tunisiya",
-        "symbol": "TND"
     },
     "TOP": {
         "name": "TOP",
@@ -559,21 +583,9 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Sulen Tanzaniya",
-        "symbol": "TZS"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
-    },
-    "UGX": {
-        "name": "Sule Yuganda",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Dalar Amurka",
-        "symbol": "US$"
     },
     "UYU": {
         "name": "UYU",
@@ -599,17 +611,9 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "Kuɗin Sefa na Afirka Ta Tsakiya",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "Kuɗin Sefa na Afirka Ta Yamma",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
@@ -619,13 +623,9 @@
         "name": "YER",
         "symbol": "YER"
     },
-    "ZAR": {
-        "name": "Kuɗin Afirka Ta Kudu",
-        "symbol": "ZAR"
-    },
-    "ZMW": {
-        "name": "Kuɗin Zambiya",
-        "symbol": "ZMW"
+    "EUR": {
+        "name": "Yuro",
+        "symbol": "€"
     },
     "ZWL": {
         "name": "ZWL",

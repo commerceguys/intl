@@ -7,65 +7,89 @@
         "code": "agq",
         "name": "aghemų"
     },
+    "ga": {
+        "code": "ga",
+        "name": "airių"
+    },
     "ak": {
         "code": "ak",
         "name": "akanų"
+    },
+    "sq": {
+        "code": "sq",
+        "name": "albanų"
     },
     "am": {
         "code": "am",
         "name": "amharų"
     },
+    "en": {
+        "code": "en",
+        "name": "anglų"
+    },
     "ar": {
         "code": "ar",
         "name": "arabų"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "šiuolaikinė standartinė arabų"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "asu"
+    "hy": {
+        "code": "hy",
+        "name": "armėnų"
     },
     "ast": {
         "code": "ast",
         "name": "asturianų"
     },
+    "asa": {
+        "code": "asa",
+        "name": "asu"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "aukštutinių sorbų"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "Australijos anglų"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "Austrijos vokiečių"
+    },
     "az": {
         "code": "az",
         "name": "azerbaidžaniečių"
     },
-    "bas": {
-        "code": "bas",
-        "name": "basų"
+    "ksf": {
+        "code": "ksf",
+        "name": "bafų"
     },
     "be": {
         "code": "be",
         "name": "baltarusių"
     },
-    "bez": {
-        "code": "bez",
-        "name": "benų"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "bulgarų"
-    },
     "bm": {
         "code": "bm",
         "name": "bambarų"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "baskų"
+    },
+    "bas": {
+        "code": "bas",
+        "name": "basų"
     },
     "bn": {
         "code": "bn",
         "name": "bengalų"
     },
-    "bo": {
-        "code": "bo",
-        "name": "tibetiečių"
+    "bez": {
+        "code": "bez",
+        "name": "benų"
     },
-    "br": {
-        "code": "br",
-        "name": "bretonų"
+    "my": {
+        "code": "my",
+        "name": "birmiečių"
     },
     "brx": {
         "code": "brx",
@@ -75,181 +99,113 @@
         "code": "bs",
         "name": "bosnių"
     },
-    "ca": {
-        "code": "ca",
-        "name": "katalonų"
+    "dz": {
+        "code": "dz",
+        "name": "botijų"
     },
-    "cgg": {
-        "code": "cgg",
-        "name": "čigų"
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "Brazilijos portugalų"
     },
-    "chr": {
-        "code": "chr",
-        "name": "čerokių"
+    "br": {
+        "code": "br",
+        "name": "bretonų"
+    },
+    "bg": {
+        "code": "bg",
+        "name": "bulgarų"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "Centrinio Maroko tamazitų"
     },
     "cs": {
         "code": "cs",
         "name": "čekų"
     },
-    "cy": {
-        "code": "cy",
-        "name": "valų"
+    "chr": {
+        "code": "chr",
+        "name": "čerokių"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "čigų"
     },
     "da": {
         "code": "da",
         "name": "danų"
     },
-    "dav": {
-        "code": "dav",
-        "name": "taitų"
-    },
-    "de": {
-        "code": "de",
-        "name": "vokiečių"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "Austrijos vokiečių"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "Šveicarijos aukštutinė vokiečių"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "zarmų"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "žemutinių sorbų"
+    "en-GB": {
+        "code": "en-GB",
+        "name": "Didžiosios Britanijos anglų"
     },
     "dyo": {
         "code": "dyo",
         "name": "džiola-foni"
     },
-    "dz": {
-        "code": "dz",
-        "name": "botijų"
-    },
     "ebu": {
         "code": "ebu",
         "name": "embu"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "evių"
-    },
-    "el": {
-        "code": "el",
-        "name": "graikų"
-    },
-    "en": {
-        "code": "en",
-        "name": "anglų"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Australijos anglų"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Kanados anglų"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Didžiosios Britanijos anglų"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "Jungtinių Valstijų anglų"
     },
     "eo": {
         "code": "eo",
         "name": "esperanto"
     },
-    "es": {
-        "code": "es",
-        "name": "ispanų"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "Lotynų Amerikos ispanų"
+    "et": {
+        "code": "et",
+        "name": "estų"
     },
     "es-ES": {
         "code": "es-ES",
         "name": "Europos ispanų"
     },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "Meksikos ispanų"
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "Europos portugalų"
     },
-    "et": {
-        "code": "et",
-        "name": "estų"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "baskų"
+    "ee": {
+        "code": "ee",
+        "name": "evių"
     },
     "ewo": {
         "code": "ewo",
         "name": "evondo"
     },
-    "fa": {
-        "code": "fa",
-        "name": "persų"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "fulahų"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "suomių"
+    "fo": {
+        "code": "fo",
+        "name": "farerų"
     },
     "fil": {
         "code": "fil",
         "name": "filipiniečių"
     },
-    "fo": {
-        "code": "fo",
-        "name": "farerų"
-    },
-    "fr": {
-        "code": "fr",
-        "name": "prancūzų"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "Kanados prancūzų"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "Šveicarijos prancūzų"
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "flamandų"
     },
     "fur": {
         "code": "fur",
         "name": "frulan"
     },
-    "fy": {
-        "code": "fy",
-        "name": "vakarų fryzų"
-    },
-    "ga": {
-        "code": "ga",
-        "name": "airių"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "škotų (gėlų)"
+    "ff": {
+        "code": "ff",
+        "name": "fulahų"
     },
     "gl": {
         "code": "gl",
         "name": "galisų"
     },
-    "gsw": {
-        "code": "gsw",
-        "name": "Šveicarijos vokiečių"
+    "lg": {
+        "code": "lg",
+        "name": "ganda"
+    },
+    "el": {
+        "code": "el",
+        "name": "graikų"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "gruzinų"
     },
     "gu": {
         "code": "gu",
@@ -271,22 +227,6 @@
         "code": "hi",
         "name": "hindi"
     },
-    "hr": {
-        "code": "hr",
-        "name": "kroatų"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "aukštutinių sorbų"
-    },
-    "hu": {
-        "code": "hu",
-        "name": "vengrų"
-    },
-    "hy": {
-        "code": "hy",
-        "name": "armėnų"
-    },
     "id": {
         "code": "id",
         "name": "indoneziečių"
@@ -295,53 +235,29 @@
         "code": "is",
         "name": "islandų"
     },
+    "es": {
+        "code": "es",
+        "name": "ispanų"
+    },
     "it": {
         "code": "it",
         "name": "italų"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "jangbenų"
     },
     "ja": {
         "code": "ja",
         "name": "japonų"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "ngombų"
+    "yo": {
+        "code": "yo",
+        "name": "jorubų"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "mačamų"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "gruzinų"
-    },
-    "kab": {
-        "code": "kab",
-        "name": "kebailų"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "kembų"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "makondų"
-    },
-    "kea": {
-        "code": "kea",
-        "name": "Žaliojo Kyšulio kreolų"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "kojra čini"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "kikujų"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "kazachų"
+    "en-US": {
+        "code": "en-US",
+        "name": "Jungtinių Valstijų anglų"
     },
     "kl": {
         "code": "kl",
@@ -351,113 +267,141 @@
         "code": "kln",
         "name": "kalenjinų"
     },
-    "km": {
-        "code": "km",
-        "name": "khmerų"
+    "en-CA": {
+        "code": "en-CA",
+        "name": "Kanados anglų"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "Kanados prancūzų"
     },
     "kn": {
         "code": "kn",
         "name": "kanadų"
     },
-    "ko": {
-        "code": "ko",
-        "name": "korėjiečių"
-    },
     "ks": {
         "code": "ks",
         "name": "kašmyrų"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "šambalų"
+    "ca": {
+        "code": "ca",
+        "name": "katalonų"
     },
-    "ksf": {
-        "code": "ksf",
-        "name": "bafų"
+    "kk": {
+        "code": "kk",
+        "name": "kazachų"
     },
-    "ksh": {
-        "code": "ksh",
-        "name": "kolognų"
+    "kab": {
+        "code": "kab",
+        "name": "kebailų"
+    },
+    "kam": {
+        "code": "kam",
+        "name": "kembų"
+    },
+    "km": {
+        "code": "km",
+        "name": "khmerų"
+    },
+    "ki": {
+        "code": "ki",
+        "name": "kikujų"
+    },
+    "zh": {
+        "code": "zh",
+        "name": "kinų"
     },
     "ky": {
         "code": "ky",
         "name": "kirgizų"
     },
+    "khq": {
+        "code": "khq",
+        "name": "kojra čini"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "kojraboro seni"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "kolognų"
+    },
+    "swc": {
+        "code": "swc",
+        "name": "Kongo suahilių"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "korėjiečių"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "kroatų"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "kvasių"
+    },
     "lag": {
         "code": "lag",
         "name": "langi"
-    },
-    "lb": {
-        "code": "lb",
-        "name": "liuksemburgiečių"
-    },
-    "lg": {
-        "code": "lg",
-        "name": "ganda"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "ngalų"
     },
     "lo": {
         "code": "lo",
         "name": "laosiečių"
     },
+    "lv": {
+        "code": "lv",
+        "name": "latvių"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "lenkų"
+    },
     "lt": {
         "code": "lt",
         "name": "lietuvių"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "liuksemburgiečių"
     },
     "lu": {
         "code": "lu",
         "name": "luba katanga"
     },
-    "luo": {
-        "code": "luo",
-        "name": "Luo"
-    },
     "luy": {
         "code": "luy",
         "name": "luja"
     },
-    "lv": {
-        "code": "lv",
-        "name": "latvių"
+    "luo": {
+        "code": "luo",
+        "name": "Luo"
     },
-    "mas": {
-        "code": "mas",
-        "name": "masajų"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "merų"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "morisijų"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "malagasų"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "makua-maeto"
+    "jmc": {
+        "code": "jmc",
+        "name": "mačamų"
     },
     "mk": {
         "code": "mk",
         "name": "makedonų"
     },
+    "kde": {
+        "code": "kde",
+        "name": "makondų"
+    },
+    "mgh": {
+        "code": "mgh",
+        "name": "makua-maeto"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "malagasų"
+    },
     "ml": {
         "code": "ml",
         "name": "malajalių"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "mongolų"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "maratų"
     },
     "ms": {
         "code": "ms",
@@ -467,53 +411,73 @@
         "code": "mt",
         "name": "maltiečių"
     },
+    "mr": {
+        "code": "mr",
+        "name": "maratų"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "masajų"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "Meksikos ispanų"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "merų"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "moldavų"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "mongolų"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "morisijų"
+    },
     "mua": {
         "code": "mua",
         "name": "mundangų"
-    },
-    "my": {
-        "code": "my",
-        "name": "birmiečių"
     },
     "naq": {
         "code": "naq",
         "name": "nama"
     },
-    "nb": {
-        "code": "nb",
-        "name": "Norvegijos rašytinė – būkmolų"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "šiaurės ndebelų"
+    "nn": {
+        "code": "nn",
+        "name": "naujoji norvegų"
     },
     "ne": {
         "code": "ne",
         "name": "nepaliečių"
     },
-    "nl": {
-        "code": "nl",
-        "name": "olandų"
+    "ln": {
+        "code": "ln",
+        "name": "ngalų"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "flamandų"
+    "jgo": {
+        "code": "jgo",
+        "name": "ngombų"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "kvasių"
+    "nyn": {
+        "code": "nyn",
+        "name": "niankolų"
     },
-    "nn": {
-        "code": "nn",
-        "name": "naujoji norvegų"
+    "nb": {
+        "code": "nb",
+        "name": "Norvegijos rašytinė – būkmolų"
     },
     "nus": {
         "code": "nus",
         "name": "nuerų"
     },
-    "nyn": {
-        "code": "nyn",
-        "name": "niankolų"
+    "nl": {
+        "code": "nl",
+        "name": "olandų"
     },
     "or": {
         "code": "or",
@@ -523,85 +487,65 @@
         "code": "pa",
         "name": "pendžabų"
     },
-    "pl": {
-        "code": "pl",
-        "name": "lenkų"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "puštūnų"
+    "fa": {
+        "code": "fa",
+        "name": "persų"
     },
     "pt": {
         "code": "pt",
         "name": "portugalų"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "Brazilijos portugalų"
+    "fr": {
+        "code": "fr",
+        "name": "prancūzų"
     },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "Europos portugalų"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "kečujų"
+    "ps": {
+        "code": "ps",
+        "name": "puštūnų"
     },
     "rm": {
         "code": "rm",
         "name": "retoromanų"
     },
-    "rn": {
-        "code": "rn",
-        "name": "rundi"
-    },
-    "ro": {
-        "code": "ro",
-        "name": "rumunų"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "moldavų"
-    },
     "rof": {
         "code": "rof",
         "name": "rombo"
-    },
-    "ru": {
-        "code": "ru",
-        "name": "rusų"
     },
     "rwk": {
         "code": "rwk",
         "name": "rua"
     },
+    "ro": {
+        "code": "ro",
+        "name": "rumunų"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "rundi"
+    },
+    "ru": {
+        "code": "ru",
+        "name": "rusų"
+    },
     "saq": {
         "code": "saq",
         "name": "sambūrų"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "sangų"
-    },
-    "se": {
-        "code": "se",
-        "name": "šiaurės samių"
-    },
-    "seh": {
-        "code": "seh",
-        "name": "senų"
-    },
-    "ses": {
-        "code": "ses",
-        "name": "kojraboro seni"
     },
     "sg": {
         "code": "sg",
         "name": "sango"
     },
-    "shi": {
-        "code": "shi",
-        "name": "tachelhitų"
+    "sbp": {
+        "code": "sbp",
+        "name": "sangų"
+    },
+    "seh": {
+        "code": "seh",
+        "name": "senų"
+    },
+    "sr": {
+        "code": "sr",
+        "name": "serbų"
     },
     "si": {
         "code": "si",
@@ -615,41 +559,89 @@
         "code": "sl",
         "name": "slovėnų"
     },
-    "smn": {
-        "code": "smn",
-        "name": "Inario samių"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "šonų"
+    "xog": {
+        "code": "xog",
+        "name": "sogų"
     },
     "so": {
         "code": "so",
         "name": "somaliečių"
     },
-    "sq": {
-        "code": "sq",
-        "name": "albanų"
-    },
-    "sr": {
-        "code": "sr",
-        "name": "serbų"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "švedų"
+    "zgh": {
+        "code": "zgh",
+        "name": "standartinė Maroko tamazigtų"
     },
     "sw": {
         "code": "sw",
         "name": "suahilių"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Kongo suahilių"
+    "fi": {
+        "code": "fi",
+        "name": "suomių"
+    },
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "supaprastintoji kinų"
+    },
+    "ksb": {
+        "code": "ksb",
+        "name": "šambalų"
+    },
+    "nd": {
+        "code": "nd",
+        "name": "šiaurės ndebelų"
+    },
+    "se": {
+        "code": "se",
+        "name": "šiaurės samių"
+    },
+    "ar-001": {
+        "code": "ar-001",
+        "name": "šiuolaikinė standartinė arabų"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "škotų (gėlų)"
+    },
+    "sn": {
+        "code": "sn",
+        "name": "šonų"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "švedų"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "Šveicarijos aukštutinė vokiečių"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "Šveicarijos prancūzų"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "Šveicarijos vokiečių"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "tachelhitų"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "taitų"
+    },
+    "th": {
+        "code": "th",
+        "name": "tajų"
     },
     "ta": {
         "code": "ta",
         "name": "tamilų"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "tasavakų"
     },
     "te": {
         "code": "te",
@@ -659,9 +651,9 @@
         "code": "teo",
         "name": "teso"
     },
-    "th": {
-        "code": "th",
-        "name": "tajų"
+    "bo": {
+        "code": "bo",
+        "name": "tibetiečių"
     },
     "ti": {
         "code": "ti",
@@ -671,17 +663,13 @@
         "code": "to",
         "name": "tonganų"
     },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "tradicinė kinų"
+    },
     "tr": {
         "code": "tr",
         "name": "turkų"
-    },
-    "twq": {
-        "code": "twq",
-        "name": "tasavakų"
-    },
-    "tzm": {
-        "code": "tzm",
-        "name": "Centrinio Maroko tamazitų"
     },
     "ug": {
         "code": "ug",
@@ -703,52 +691,48 @@
         "code": "vai",
         "name": "Vai"
     },
-    "vi": {
-        "code": "vi",
-        "name": "vietnamiečių"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "vunjo"
+    "fy": {
+        "code": "fy",
+        "name": "vakarų fryzų"
     },
     "wae": {
         "code": "wae",
         "name": "valserų"
     },
-    "xog": {
-        "code": "xog",
-        "name": "sogų"
+    "cy": {
+        "code": "cy",
+        "name": "valų"
     },
-    "yav": {
-        "code": "yav",
-        "name": "jangbenų"
+    "hu": {
+        "code": "hu",
+        "name": "vengrų"
     },
-    "yi": {
-        "code": "yi",
-        "name": "jidiš"
+    "vi": {
+        "code": "vi",
+        "name": "vietnamiečių"
     },
-    "yo": {
-        "code": "yo",
-        "name": "jorubų"
+    "de": {
+        "code": "de",
+        "name": "vokiečių"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "standartinė Maroko tamazigtų"
+    "vun": {
+        "code": "vun",
+        "name": "vunjo"
     },
-    "zh": {
-        "code": "zh",
-        "name": "kinų"
-    },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "supaprastintoji kinų"
-    },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "tradicinė kinų"
+    "dje": {
+        "code": "dje",
+        "name": "zarmų"
     },
     "zu": {
         "code": "zu",
         "name": "zulų"
+    },
+    "kea": {
+        "code": "kea",
+        "name": "Žaliojo Kyšulio kreolų"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "žemutinių sorbų"
     }
 }

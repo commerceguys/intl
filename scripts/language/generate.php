@@ -15,6 +15,11 @@ $enLanguages = '../json-full/main/en/languages.json';
 if (!file_exists($enLanguages)) {
     die("The $enLanguages file was not found");
 }
+if (!function_exists('collator_create')) {
+    // Reimplementing intl's collator would be a huge undertaking, so we
+    // use it instead to presort the generated locale specific data.
+    die('The intl extension was not found.');
+}
 
 // Locales listed without a "-" match all variants.
 // Locales listed with a "-" match only those exact ones.
@@ -114,7 +119,11 @@ foreach ($duplicates as $locale) {
 
 // Write out the localizations.
 foreach ($languages as $locale => $localizedLanguages) {
-    ksort($localizedLanguages);
+    $collator = collator_create($locale);
+    uasort($localizedLanguages, function($a, $b) use ($collator) {
+        return collator_compare($collator, $a['name'], $b['name']);
+    });
+
     $json = json_encode($localizedLanguages, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     file_put_contents($locale . '.json', $json);
 }

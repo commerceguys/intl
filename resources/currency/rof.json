@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "heleri sa Falme za Kiarabu",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -19,17 +15,9 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "heleri sa Angola",
-        "symbol": "AOA"
-    },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "heleri sa Australia",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -55,14 +43,6 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "heleri sa Bahareni",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "heleri sa Burundi",
-        "symbol": "BIF"
-    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -87,10 +67,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "heleri sa Botswana",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +75,9 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "heleri sa Kanada",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "heleri sa Kongo",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "heleri sa Uswisi",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "heleri sa China",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,17 +95,9 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "heleri sa Kepuvede",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "heleri sa Jibuti",
-        "symbol": "DJF"
     },
     "DKK": {
         "name": "DKK",
@@ -155,26 +107,6 @@
         "name": "DOP",
         "symbol": "DOP"
     },
-    "DZD": {
-        "name": "heleri sa Aljeria",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "heleri sa Misri",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "heleri sa Eritrea",
-        "symbol": "ERN"
-    },
-    "ETB": {
-        "name": "heleri sa Uhabeshi",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "yuro",
-        "symbol": "€"
-    },
     "FJD": {
         "name": "FJD",
         "symbol": "FJD"
@@ -182,10 +114,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "heleri sa Uingereza",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -199,10 +127,6 @@
         "name": "GIP",
         "symbol": "GIP"
     },
-    "GMD": {
-        "name": "heleri sa Gambia",
-        "symbol": "GMD"
-    },
     "GNF": {
         "name": "GNF",
         "symbol": "GNF"
@@ -214,6 +138,194 @@
     "GYD": {
         "name": "GYD",
         "symbol": "GYD"
+    },
+    "ZAR": {
+        "name": "heleri sa Afrika Kusini",
+        "symbol": "ZAR"
+    },
+    "DZD": {
+        "name": "heleri sa Aljeria",
+        "symbol": "DZD"
+    },
+    "AOA": {
+        "name": "heleri sa Angola",
+        "symbol": "AOA"
+    },
+    "AUD": {
+        "name": "heleri sa Australia",
+        "symbol": "A$"
+    },
+    "BHD": {
+        "name": "heleri sa Bahareni",
+        "symbol": "BHD"
+    },
+    "BWP": {
+        "name": "heleri sa Botswana",
+        "symbol": "BWP"
+    },
+    "MGA": {
+        "name": "heleri sa Bukini",
+        "symbol": "MGA"
+    },
+    "BIF": {
+        "name": "heleri sa Burundi",
+        "symbol": "BIF"
+    },
+    "XOF": {
+        "name": "heleri sa CFA BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "heleri sa CFA BEAC",
+        "symbol": "FCFA"
+    },
+    "CNY": {
+        "name": "heleri sa China",
+        "symbol": "CN¥"
+    },
+    "ERN": {
+        "name": "heleri sa Eritrea",
+        "symbol": "ERN"
+    },
+    "AED": {
+        "name": "heleri sa Falme za Kiarabu",
+        "symbol": "AED"
+    },
+    "GMD": {
+        "name": "heleri sa Gambia",
+        "symbol": "GMD"
+    },
+    "INR": {
+        "name": "heleri sa India",
+        "symbol": "₹"
+    },
+    "JPY": {
+        "name": "heleri sa Japani",
+        "symbol": "JP¥"
+    },
+    "DJF": {
+        "name": "heleri sa Jibuti",
+        "symbol": "DJF"
+    },
+    "CAD": {
+        "name": "heleri sa Kanada",
+        "symbol": "CA$"
+    },
+    "KES": {
+        "name": "heleri sa Kenya",
+        "symbol": "KES"
+    },
+    "CVE": {
+        "name": "heleri sa Kepuvede",
+        "symbol": "CVE"
+    },
+    "KMF": {
+        "name": "heleri sa Komoro",
+        "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "heleri sa Kongo",
+        "symbol": "CDF"
+    },
+    "LSL": {
+        "name": "heleri sa Lesoto",
+        "symbol": "LSL"
+    },
+    "LRD": {
+        "name": "heleri sa Liberia",
+        "symbol": "LRD"
+    },
+    "LYD": {
+        "name": "heleri sa Libya",
+        "symbol": "LYD"
+    },
+    "MWK": {
+        "name": "heleri sa Malawi",
+        "symbol": "MWK"
+    },
+    "USD": {
+        "name": "heleri sa Marekani",
+        "symbol": "US$"
+    },
+    "EGP": {
+        "name": "heleri sa Misri",
+        "symbol": "EGP"
+    },
+    "MUR": {
+        "name": "heleri sa Morisi",
+        "symbol": "MUR"
+    },
+    "MRO": {
+        "name": "heleri sa Moritania",
+        "symbol": "MRO"
+    },
+    "MAD": {
+        "name": "heleri sa Moroko",
+        "symbol": "MAD"
+    },
+    "NAD": {
+        "name": "heleri sa Namibia",
+        "symbol": "NAD"
+    },
+    "NGN": {
+        "name": "heleri sa Nijeria",
+        "symbol": "NGN"
+    },
+    "RWF": {
+        "name": "heleri sa Rwanda",
+        "symbol": "RWF"
+    },
+    "SHP": {
+        "name": "heleri sa Santahelena",
+        "symbol": "SHP"
+    },
+    "STD": {
+        "name": "heleri sa Sao Tome na Principe",
+        "symbol": "STD"
+    },
+    "SAR": {
+        "name": "heleri sa Saudia",
+        "symbol": "SAR"
+    },
+    "SCR": {
+        "name": "heleri sa Shelisheli",
+        "symbol": "SCR"
+    },
+    "SOS": {
+        "name": "heleri sa Somalia",
+        "symbol": "SOS"
+    },
+    "SDG": {
+        "name": "heleri sa Sudani",
+        "symbol": "SDG"
+    },
+    "TZS": {
+        "name": "heleri sa Tanzania",
+        "symbol": "TSh"
+    },
+    "TND": {
+        "name": "heleri sa Tunisia",
+        "symbol": "TND"
+    },
+    "UGX": {
+        "name": "heleri sa Uganda",
+        "symbol": "UGX"
+    },
+    "ETB": {
+        "name": "heleri sa Uhabeshi",
+        "symbol": "ETB"
+    },
+    "GBP": {
+        "name": "heleri sa Uingereza",
+        "symbol": "£"
+    },
+    "CHF": {
+        "name": "heleri sa Uswisi",
+        "symbol": "CHF"
+    },
+    "ZMW": {
+        "name": "heleri sa Zambia",
+        "symbol": "ZMW"
     },
     "HKD": {
         "name": "HKD",
@@ -243,10 +355,6 @@
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "heleri sa India",
-        "symbol": "₹"
-    },
     "IQD": {
         "name": "IQD",
         "symbol": "IQD"
@@ -267,14 +375,6 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "heleri sa Japani",
-        "symbol": "JP¥"
-    },
-    "KES": {
-        "name": "heleri sa Kenya",
-        "symbol": "KES"
-    },
     "KGS": {
         "name": "KGS",
         "symbol": "KGS"
@@ -282,10 +382,6 @@
     "KHR": {
         "name": "KHR",
         "symbol": "KHR"
-    },
-    "KMF": {
-        "name": "heleri sa Komoro",
-        "symbol": "KMF"
     },
     "KPW": {
         "name": "KPW",
@@ -315,37 +411,25 @@
         "name": "LBP",
         "symbol": "LBP"
     },
+    "SLL": {
+        "name": "leoni",
+        "symbol": "SLL"
+    },
+    "SZL": {
+        "name": "lilangeni",
+        "symbol": "SZL"
+    },
     "LKR": {
         "name": "LKR",
         "symbol": "LKR"
-    },
-    "LRD": {
-        "name": "heleri sa Liberia",
-        "symbol": "LRD"
-    },
-    "LSL": {
-        "name": "heleri sa Lesoto",
-        "symbol": "LSL"
     },
     "LTL": {
         "name": "LTL",
         "symbol": "LTL"
     },
-    "LYD": {
-        "name": "heleri sa Libya",
-        "symbol": "LYD"
-    },
-    "MAD": {
-        "name": "heleri sa Moroko",
-        "symbol": "MAD"
-    },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "heleri sa Bukini",
-        "symbol": "MGA"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +447,9 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "heleri sa Moritania",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "heleri sa Morisi",
-        "symbol": "MUR"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "heleri sa Malawi",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -390,14 +462,6 @@
     "MZN": {
         "name": "MZN",
         "symbol": "MZN"
-    },
-    "NAD": {
-        "name": "heleri sa Namibia",
-        "symbol": "NAD"
-    },
-    "NGN": {
-        "name": "heleri sa Nijeria",
-        "symbol": "NGN"
     },
     "NIO": {
         "name": "NIO",
@@ -463,25 +527,9 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "heleri sa Rwanda",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "heleri sa Saudia",
-        "symbol": "SAR"
-    },
     "SBD": {
         "name": "SBD",
         "symbol": "SBD"
-    },
-    "SCR": {
-        "name": "heleri sa Shelisheli",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "heleri sa Sudani",
-        "symbol": "SDG"
     },
     "SEK": {
         "name": "SEK",
@@ -491,18 +539,6 @@
         "name": "SGD",
         "symbol": "SGD"
     },
-    "SHP": {
-        "name": "heleri sa Santahelena",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "leoni",
-        "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "heleri sa Somalia",
-        "symbol": "SOS"
-    },
     "SRD": {
         "name": "SRD",
         "symbol": "SRD"
@@ -511,10 +547,6 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "heleri sa Sao Tome na Principe",
-        "symbol": "STD"
-    },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
@@ -522,10 +554,6 @@
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "lilangeni",
-        "symbol": "SZL"
     },
     "THB": {
         "name": "THB",
@@ -538,10 +566,6 @@
     "TMT": {
         "name": "TMT",
         "symbol": "TMT"
-    },
-    "TND": {
-        "name": "heleri sa Tunisia",
-        "symbol": "TND"
     },
     "TOP": {
         "name": "TOP",
@@ -559,21 +583,9 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "heleri sa Tanzania",
-        "symbol": "TSh"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
-    },
-    "UGX": {
-        "name": "heleri sa Uganda",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "heleri sa Marekani",
-        "symbol": "US$"
     },
     "UYU": {
         "name": "UYU",
@@ -599,17 +611,9 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "heleri sa CFA BEAC",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "heleri sa CFA BCEAO",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
@@ -619,13 +623,9 @@
         "name": "YER",
         "symbol": "YER"
     },
-    "ZAR": {
-        "name": "heleri sa Afrika Kusini",
-        "symbol": "ZAR"
-    },
-    "ZMW": {
-        "name": "heleri sa Zambia",
-        "symbol": "ZMW"
+    "EUR": {
+        "name": "yuro",
+        "symbol": "€"
     },
     "ZWL": {
         "name": "ZWL",

@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "Laaraw Immaara Margantey Dirham",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -11,9 +7,17 @@
         "name": "ALL",
         "symbol": "ALL"
     },
+    "DZD": {
+        "name": "Alžeeri Dinar",
+        "symbol": "DZD"
+    },
     "AMD": {
         "name": "AMD",
         "symbol": "AMD"
+    },
+    "USD": {
+        "name": "Ameriki Dollar",
+        "symbol": "US$"
     },
     "ANG": {
         "name": "ANG",
@@ -27,10 +31,6 @@
         "name": "ARS",
         "symbol": "ARS"
     },
-    "AUD": {
-        "name": "Ostraali Dollar",
-        "symbol": "A$"
-    },
     "AWG": {
         "name": "AWG",
         "symbol": "AWG"
@@ -38,6 +38,10 @@
     "AZN": {
         "name": "AZN",
         "symbol": "AZN"
+    },
+    "BHD": {
+        "name": "Bahareen Dinar",
+        "symbol": "BHD"
     },
     "BAM": {
         "name": "BAM",
@@ -55,14 +59,6 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "Bahareen Dinar",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Burundi Fraŋ",
-        "symbol": "BIF"
-    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -74,6 +70,14 @@
     "BOB": {
         "name": "BOB",
         "symbol": "BOB"
+    },
+    "BWP": {
+        "name": "Botswaana Pund",
+        "symbol": "BWP"
+    },
+    "GBP": {
+        "name": "Britin Pund",
+        "symbol": "£"
     },
     "BRL": {
         "name": "BRL",
@@ -87,9 +91,9 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Botswaana Pund",
-        "symbol": "BWP"
+    "BIF": {
+        "name": "Burundi Fraŋ",
+        "symbol": "BIF"
     },
     "BYR": {
         "name": "BYR",
@@ -99,25 +103,17 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Kanaada Dollar",
-        "symbol": "CA$"
+    "XOF": {
+        "name": "CFA Fraŋ (BCEAO)",
+        "symbol": "CFA"
     },
-    "CDF": {
-        "name": "Kongo Fraŋ",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Swisu Fraŋ",
-        "symbol": "CHF"
+    "XAF": {
+        "name": "CFA Fraŋ (BEAC)",
+        "symbol": "FCFA"
     },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Sinwa Yuan Renminbi",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,17 +131,9 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Kapuver Escudo",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "Jibuuti Fraŋ",
-        "symbol": "DJF"
     },
     "DKK": {
         "name": "DKK",
@@ -155,18 +143,6 @@
         "name": "DOP",
         "symbol": "DOP"
     },
-    "DZD": {
-        "name": "Alžeeri Dinar",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "Misra Pund",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "Eritree Nafka",
-        "symbol": "ERN"
-    },
     "ETB": {
         "name": "Ecioopi Birr",
         "symbol": "ETB"
@@ -174,6 +150,10 @@
     "EUR": {
         "name": "Eero",
         "symbol": "€"
+    },
+    "ERN": {
+        "name": "Eritree Nafka",
+        "symbol": "ERN"
     },
     "FJD": {
         "name": "FJD",
@@ -183,9 +163,9 @@
         "name": "FKP",
         "symbol": "FKP"
     },
-    "GBP": {
-        "name": "Britin Pund",
-        "symbol": "£"
+    "GMD": {
+        "name": "Gambi Dalasi",
+        "symbol": "GMD"
     },
     "GEL": {
         "name": "GEL",
@@ -199,10 +179,6 @@
         "name": "GIP",
         "symbol": "GIP"
     },
-    "GMD": {
-        "name": "Gambi Dalasi",
-        "symbol": "GMD"
-    },
     "GNF": {
         "name": "GNF",
         "symbol": "GNF"
@@ -214,6 +190,10 @@
     "GYD": {
         "name": "GYD",
         "symbol": "GYD"
+    },
+    "ZAR": {
+        "name": "Hawasa Afriki Rand",
+        "symbol": "ZAR"
     },
     "HKD": {
         "name": "HKD",
@@ -259,6 +239,14 @@
         "name": "ISK",
         "symbol": "ISK"
     },
+    "JPY": {
+        "name": "Jaapoŋ Yen",
+        "symbol": "JP¥"
+    },
+    "DJF": {
+        "name": "Jibuuti Fraŋ",
+        "symbol": "DJF"
+    },
     "JMD": {
         "name": "JMD",
         "symbol": "JMD"
@@ -267,9 +255,13 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Jaapoŋ Yen",
-        "symbol": "JP¥"
+    "CAD": {
+        "name": "Kanaada Dollar",
+        "symbol": "CA$"
+    },
+    "CVE": {
+        "name": "Kapuver Escudo",
+        "symbol": "CVE"
     },
     "KES": {
         "name": "Keeniya Šiiliŋ",
@@ -286,6 +278,10 @@
     "KMF": {
         "name": "Komoor Fraŋ",
         "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Kongo Fraŋ",
+        "symbol": "CDF"
     },
     "KPW": {
         "name": "KPW",
@@ -307,6 +303,10 @@
         "name": "KZT",
         "symbol": "KZT"
     },
+    "AED": {
+        "name": "Laaraw Immaara Margantey Dirham",
+        "symbol": "AED"
+    },
     "LAK": {
         "name": "LAK",
         "symbol": "LAK"
@@ -315,37 +315,53 @@
         "name": "LBP",
         "symbol": "LBP"
     },
-    "LKR": {
-        "name": "LKR",
-        "symbol": "LKR"
-    },
-    "LRD": {
-        "name": "Liberia Dollar",
-        "symbol": "LRD"
+    "SLL": {
+        "name": "Leeon",
+        "symbol": "SLL"
     },
     "LSL": {
         "name": "Leezoto Loti",
         "symbol": "LSL"
     },
-    "LTL": {
-        "name": "LTL",
-        "symbol": "LTL"
+    "LRD": {
+        "name": "Liberia Dollar",
+        "symbol": "LRD"
     },
     "LYD": {
         "name": "Liibi Dinar",
         "symbol": "LYD"
     },
+    "SZL": {
+        "name": "Lilangeni",
+        "symbol": "SZL"
+    },
+    "LKR": {
+        "name": "LKR",
+        "symbol": "LKR"
+    },
+    "LTL": {
+        "name": "LTL",
+        "symbol": "LTL"
+    },
     "MAD": {
         "name": "Maarok Dirham",
         "symbol": "MAD"
+    },
+    "MWK": {
+        "name": "Malaawi Kwaca",
+        "symbol": "MWK"
+    },
+    "MGA": {
+        "name": "Malgaaši Fraŋ",
+        "symbol": "MGA"
     },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
     },
-    "MGA": {
-        "name": "Malgaaši Fraŋ",
-        "symbol": "MGA"
+    "EGP": {
+        "name": "Misra Pund",
+        "symbol": "EGP"
     },
     "MKD": {
         "name": "MKD",
@@ -359,25 +375,21 @@
         "name": "MNT",
         "symbol": "MNT"
     },
-    "MOP": {
-        "name": "MOP",
-        "symbol": "MOP"
+    "MUR": {
+        "name": "Mooris Rupii",
+        "symbol": "MUR"
     },
     "MRO": {
         "name": "Mooritaani Ugiya",
         "symbol": "MRO"
     },
-    "MUR": {
-        "name": "Mooris Rupii",
-        "symbol": "MUR"
+    "MOP": {
+        "name": "MOP",
+        "symbol": "MOP"
     },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Malaawi Kwaca",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -391,13 +403,13 @@
         "name": "MZN",
         "symbol": "MZN"
     },
-    "NAD": {
-        "name": "Naamibi Dollar",
-        "symbol": "NAD"
-    },
     "NGN": {
         "name": "Naajiriya Neera",
         "symbol": "NGN"
+    },
+    "NAD": {
+        "name": "Naamibi Dollar",
+        "symbol": "NAD"
     },
     "NIO": {
         "name": "NIO",
@@ -418,6 +430,10 @@
     "OMR": {
         "name": "OMR",
         "symbol": "OMR"
+    },
+    "AUD": {
+        "name": "Ostraali Dollar",
+        "symbol": "A$"
     },
     "PAB": {
         "name": "PAB",
@@ -467,6 +483,10 @@
         "name": "Rwanda Fraŋ",
         "symbol": "RWF"
     },
+    "STD": {
+        "name": "Sao Tome nda Prinsipe Dobra",
+        "symbol": "STD"
+    },
     "SAR": {
         "name": "Saudiya Riyal",
         "symbol": "SAR"
@@ -479,25 +499,21 @@
         "name": "Seešel Rupii",
         "symbol": "SCR"
     },
-    "SDG": {
-        "name": "Suudaŋ Dinar",
-        "symbol": "SDG"
-    },
     "SEK": {
         "name": "SEK",
         "symbol": "SEK"
-    },
-    "SGD": {
-        "name": "SGD",
-        "symbol": "SGD"
     },
     "SHP": {
         "name": "Seŋ Helena Fraŋ",
         "symbol": "SHP"
     },
-    "SLL": {
-        "name": "Leeon",
-        "symbol": "SLL"
+    "SGD": {
+        "name": "SGD",
+        "symbol": "SGD"
+    },
+    "CNY": {
+        "name": "Sinwa Yuan Renminbi",
+        "symbol": "CN¥"
     },
     "SOS": {
         "name": "Somaali Šiiliŋ",
@@ -511,21 +527,25 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Sao Tome nda Prinsipe Dobra",
-        "symbol": "STD"
+    "SDG": {
+        "name": "Suudaŋ Dinar",
+        "symbol": "SDG"
     },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
     },
+    "CHF": {
+        "name": "Swisu Fraŋ",
+        "symbol": "CHF"
+    },
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
     },
-    "SZL": {
-        "name": "Lilangeni",
-        "symbol": "SZL"
+    "TZS": {
+        "name": "Tanzaani Šiiliŋ",
+        "symbol": "TZS"
     },
     "THB": {
         "name": "THB",
@@ -539,10 +559,6 @@
         "name": "TMT",
         "symbol": "TMT"
     },
-    "TND": {
-        "name": "Tunizi Dinar",
-        "symbol": "TND"
-    },
     "TOP": {
         "name": "TOP",
         "symbol": "TOP"
@@ -555,13 +571,13 @@
         "name": "TTD",
         "symbol": "TTD"
     },
+    "TND": {
+        "name": "Tunizi Dinar",
+        "symbol": "TND"
+    },
     "TWD": {
         "name": "TWD",
         "symbol": "NT$"
-    },
-    "TZS": {
-        "name": "Tanzaani Šiiliŋ",
-        "symbol": "TZS"
     },
     "UAH": {
         "name": "UAH",
@@ -570,10 +586,6 @@
     "UGX": {
         "name": "Uganda Šiiliŋ",
         "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Ameriki Dollar",
-        "symbol": "US$"
     },
     "UYU": {
         "name": "UYU",
@@ -599,17 +611,9 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "CFA Fraŋ (BEAC)",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "CFA Fraŋ (BCEAO)",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
@@ -618,10 +622,6 @@
     "YER": {
         "name": "YER",
         "symbol": "YER"
-    },
-    "ZAR": {
-        "name": "Hawasa Afriki Rand",
-        "symbol": "ZAR"
     },
     "ZMW": {
         "name": "Zambi Kwaca",

@@ -1,15 +1,35 @@
 {
-    "af": {
-        "code": "af",
-        "name": "ఆఫ్రికాన్స్"
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
+    },
+    "ak": {
+        "code": "ak",
+        "name": "అకాన్"
     },
     "agq": {
         "code": "agq",
         "name": "అగేమ్"
     },
-    "ak": {
-        "code": "ak",
-        "name": "అకాన్"
+    "az": {
+        "code": "az",
+        "name": "అజర్బైజాని"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "అప్పర్ సోర్బియన్"
+    },
+    "en-US": {
+        "code": "en-US",
+        "name": "అమెరికన్ ఇంగ్లీష్"
     },
     "am": {
         "code": "am",
@@ -19,9 +39,9 @@
         "code": "ar",
         "name": "అరబిక్"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "ఆధునిక ప్రామాణిక అరబిక్"
+    "sq": {
+        "code": "sq",
+        "name": "అల్బేనియన్"
     },
     "asa": {
         "code": "asa",
@@ -31,317 +51,105 @@
         "code": "ast",
         "name": "అస్టురియాన్"
     },
-    "az": {
-        "code": "az",
-        "name": "అజర్బైజాని"
-    },
-    "bas": {
-        "code": "bas",
-        "name": "బసా"
-    },
-    "be": {
-        "code": "be",
-        "name": "బెలరుశియన్"
-    },
-    "bez": {
-        "code": "bez",
-        "name": "బీనా"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "బల్గేరియన్"
-    },
-    "bm": {
-        "code": "bm",
-        "name": "బంబారా"
-    },
-    "bn": {
-        "code": "bn",
-        "name": "బెంగాలీ"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "టిబెటన్"
-    },
-    "br": {
-        "code": "br",
-        "name": "బ్రెటన్"
-    },
-    "brx": {
-        "code": "brx",
-        "name": "బోడో"
-    },
-    "bs": {
-        "code": "bs",
-        "name": "బోస్నియన్"
-    },
-    "ca": {
-        "code": "ca",
-        "name": "కెటలాన్"
-    },
-    "cgg": {
-        "code": "cgg",
-        "name": "ఛిగా"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "చెరోకీ"
-    },
-    "cs": {
-        "code": "cs",
-        "name": "చెక్"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "వెల్ష్"
-    },
-    "da": {
-        "code": "da",
-        "name": "డేనిష్"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "టైటా"
-    },
-    "de": {
-        "code": "de",
-        "name": "జర్మన్"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "ఆస్ట్రేలియన్ జర్మన్"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "స్విస్ హై జర్మన్"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "జార్మా"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "లోవర్ సోర్బియన్"
-    },
-    "dyo": {
-        "code": "dyo",
-        "name": "జోలా-ఫోనయి"
-    },
-    "dz": {
-        "code": "dz",
-        "name": "జొన్ఖా"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "ఇంబు"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "ఈవీ"
-    },
-    "el": {
-        "code": "el",
-        "name": "గ్రీక్"
-    },
     "en": {
         "code": "en",
         "name": "ఆంగ్లం"
     },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "ఆస్ట్రేలియన్ ఇంగ్లీష్"
+    "ar-001": {
+        "code": "ar-001",
+        "name": "ఆధునిక ప్రామాణిక అరబిక్"
     },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "కెనడియన్ ఇంగ్లీష్"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "బ్రిటిష్ ఇంగ్లీష్"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "అమెరికన్ ఇంగ్లీష్"
-    },
-    "eo": {
-        "code": "eo",
-        "name": "ఎస్పరెన్టొ"
-    },
-    "es": {
-        "code": "es",
-        "name": "స్పానిష్"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "లాటిన్ అమెరికెన్ స్పానిష్"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "యూరోపియన్ స్పానిష్"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "మెక్సికన్ స్పానిష్"
-    },
-    "et": {
-        "code": "et",
-        "name": "ఈస్టొనియన్"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "బాస్క్"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "ఎవోండొ"
-    },
-    "fa": {
-        "code": "fa",
-        "name": "పర్షియన్"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "ఫ్యుల"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "ఫిన్నిష్"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "ఫిలిపినో"
-    },
-    "fo": {
-        "code": "fo",
-        "name": "ఫారోయీజ్"
-    },
-    "fr": {
-        "code": "fr",
-        "name": "ఫ్రెంచ్"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "కెనడియెన్ ఫ్రెంచ్"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "స్విస్ ఫ్రెంచ్"
-    },
-    "fur": {
-        "code": "fur",
-        "name": "ఫ్రియులియన్"
-    },
-    "fy": {
-        "code": "fy",
-        "name": "పశ్చిమ ఫ్రిసియన్"
-    },
-    "ga": {
-        "code": "ga",
-        "name": "ఐరిష్"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "స్కాటిష్ గేలిక్"
-    },
-    "gl": {
-        "code": "gl",
-        "name": "గెలిషియన్"
-    },
-    "gsw": {
-        "code": "gsw",
-        "name": "స్విస్ జర్మన్"
-    },
-    "gu": {
-        "code": "gu",
-        "name": "గుజరాతి"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "గుస్సీ"
-    },
-    "ha": {
-        "code": "ha",
-        "name": "హౌసా"
-    },
-    "he": {
-        "code": "he",
-        "name": "హీబ్రు"
-    },
-    "hi": {
-        "code": "hi",
-        "name": "హిందీ"
-    },
-    "hr": {
-        "code": "hr",
-        "name": "క్రొయెషియన్"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "అప్పర్ సోర్బియన్"
-    },
-    "hu": {
-        "code": "hu",
-        "name": "హన్గేరియన్"
+    "af": {
+        "code": "af",
+        "name": "ఆఫ్రికాన్స్"
     },
     "hy": {
         "code": "hy",
         "name": "ఆర్మేనియన్"
     },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "ఆస్ట్రేలియన్ ఇంగ్లీష్"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "ఆస్ట్రేలియన్ జర్మన్"
+    },
     "id": {
         "code": "id",
         "name": "ఇండోనేషియన్"
     },
-    "is": {
-        "code": "is",
-        "name": "ఐస్లాండిక్"
+    "ebu": {
+        "code": "ebu",
+        "name": "ఇంబు"
     },
     "it": {
         "code": "it",
         "name": "ఇటాలియన్"
     },
-    "ja": {
-        "code": "ja",
-        "name": "జాపనీస్"
+    "ee": {
+        "code": "ee",
+        "name": "ఈవీ"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "గోంబా"
+    "et": {
+        "code": "et",
+        "name": "ఈస్టొనియన్"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "మకొమ్"
+    "uk": {
+        "code": "uk",
+        "name": "ఉక్రేనియన్"
     },
-    "ka": {
-        "code": "ka",
-        "name": "జార్జియన్"
+    "uz": {
+        "code": "uz",
+        "name": "ఉజ్బెక్"
     },
-    "kab": {
-        "code": "kab",
-        "name": "కాబిల్"
+    "nd": {
+        "code": "nd",
+        "name": "ఉత్తర దెబెలె"
+    },
+    "se": {
+        "code": "se",
+        "name": "ఉత్తర సామి"
+    },
+    "ug": {
+        "code": "ug",
+        "name": "ఉయ్‌ఘర్"
+    },
+    "ur": {
+        "code": "ur",
+        "name": "ఉర్దూ"
+    },
+    "ewo": {
+        "code": "ewo",
+        "name": "ఎవోండొ"
+    },
+    "eo": {
+        "code": "eo",
+        "name": "ఎస్పరెన్టొ"
+    },
+    "ga": {
+        "code": "ga",
+        "name": "ఐరిష్"
+    },
+    "is": {
+        "code": "is",
+        "name": "ఐస్లాండిక్"
+    },
+    "or": {
+        "code": "or",
+        "name": "ఒరియా"
     },
     "kam": {
         "code": "kam",
         "name": "కంబా"
     },
-    "kde": {
-        "code": "kde",
-        "name": "మకొండే"
-    },
-    "kea": {
-        "code": "kea",
-        "name": "కాబువేర్దియను"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "కొయరా చీన్నీ"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "కికుయు"
-    },
     "kk": {
         "code": "kk",
         "name": "కజఖ్"
+    },
+    "kn": {
+        "code": "kn",
+        "name": "కన్నడ"
     },
     "kl": {
         "code": "kl",
@@ -351,325 +159,133 @@
         "code": "kln",
         "name": "కలెంజిన్"
     },
-    "km": {
-        "code": "km",
-        "name": "ఖ్మేర్"
+    "swc": {
+        "code": "swc",
+        "name": "కాంగో స్వాహిలి"
     },
-    "kn": {
-        "code": "kn",
-        "name": "కన్నడ"
+    "kab": {
+        "code": "kab",
+        "name": "కాబిల్"
     },
-    "ko": {
-        "code": "ko",
-        "name": "కొరియన్"
+    "kea": {
+        "code": "kea",
+        "name": "కాబువేర్దియను"
     },
     "ks": {
         "code": "ks",
         "name": "కాశ్మీరి"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "శంబాలా"
-    },
-    "ksf": {
-        "code": "ksf",
-        "name": "బాఫియ"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
+    "ki": {
+        "code": "ki",
+        "name": "కికుయు"
     },
     "ky": {
         "code": "ky",
         "name": "కిర్గిజ్"
     },
-    "lag": {
-        "code": "lag",
-        "name": "లాంగీ"
+    "ca": {
+        "code": "ca",
+        "name": "కెటలాన్"
     },
-    "lb": {
-        "code": "lb",
-        "name": "లుక్సంబర్గిష్"
+    "en-CA": {
+        "code": "en-CA",
+        "name": "కెనడియన్ ఇంగ్లీష్"
     },
-    "lg": {
-        "code": "lg",
-        "name": "గాండా"
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "కెనడియెన్ ఫ్రెంచ్"
     },
-    "ln": {
-        "code": "ln",
-        "name": "లింగాల"
+    "khq": {
+        "code": "khq",
+        "name": "కొయరా చీన్నీ"
     },
-    "lo": {
-        "code": "lo",
-        "name": "లావో"
-    },
-    "lt": {
-        "code": "lt",
-        "name": "లిథుయేనియన్"
-    },
-    "lu": {
-        "code": "lu",
-        "name": "లూబ-కటాంగ"
-    },
-    "luo": {
-        "code": "luo",
-        "name": "లువో"
-    },
-    "luy": {
-        "code": "luy",
-        "name": "లుయియ"
-    },
-    "lv": {
-        "code": "lv",
-        "name": "లాట్వియన్"
-    },
-    "mas": {
-        "code": "mas",
-        "name": "మాసాయి"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "మెరు"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "మొరిస్యేన్"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "మాలాగసి"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "మక్వా-మిట్టో"
-    },
-    "mk": {
-        "code": "mk",
-        "name": "మసడోనియన్"
-    },
-    "ml": {
-        "code": "ml",
-        "name": "మలయాళం"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "మంగోలియన్"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "మరాఠీ"
-    },
-    "ms": {
-        "code": "ms",
-        "name": "మలేయ్"
-    },
-    "mt": {
-        "code": "mt",
-        "name": "మాల్టీస్"
-    },
-    "mua": {
-        "code": "mua",
-        "name": "ముదాంగ్"
-    },
-    "my": {
-        "code": "my",
-        "name": "బర్మీస్"
-    },
-    "naq": {
-        "code": "naq",
-        "name": "నమ"
-    },
-    "nb": {
-        "code": "nb",
-        "name": "నార్వీజియన్ బొక్మాల్"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "ఉత్తర దెబెలె"
-    },
-    "ne": {
-        "code": "ne",
-        "name": "నేపాలి"
-    },
-    "nl": {
-        "code": "nl",
-        "name": "డచ్"
-    },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "ఫ్లెమిష్"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "క్వాసియె"
-    },
-    "nn": {
-        "code": "nn",
-        "name": "నార్విజియాన్ న్యోర్స్క్"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "న్యుర్"
-    },
-    "nyn": {
-        "code": "nyn",
-        "name": "న్యాన్కోలె"
-    },
-    "or": {
-        "code": "or",
-        "name": "ఒరియా"
-    },
-    "pa": {
-        "code": "pa",
-        "name": "పంజాబీ"
-    },
-    "pl": {
-        "code": "pl",
-        "name": "పోలిష్"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "పాష్టో"
-    },
-    "pt": {
-        "code": "pt",
-        "name": "పోర్చుగీస్"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "బ్రెజీలియన్ పోర్చుగీస్"
-    },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "యూరోపియన్ పోర్చుగీస్"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "కెషుయా"
-    },
-    "rm": {
-        "code": "rm",
-        "name": "రోమన్ష్"
-    },
-    "rn": {
-        "code": "rn",
-        "name": "రండి"
-    },
-    "ro": {
-        "code": "ro",
-        "name": "రోమానియన్"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "మొల్డావియన్"
-    },
-    "rof": {
-        "code": "rof",
-        "name": "రోంబో"
-    },
-    "ru": {
-        "code": "ru",
-        "name": "రష్యన్"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "ర్వా"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "సంబురు"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "సాంగు"
-    },
-    "se": {
-        "code": "se",
-        "name": "ఉత్తర సామి"
-    },
-    "seh": {
-        "code": "seh",
-        "name": "సెనా"
+    "ko": {
+        "code": "ko",
+        "name": "కొరియన్"
     },
     "ses": {
         "code": "ses",
         "name": "కోయోరాబోరో సెన్నీ"
     },
-    "sg": {
-        "code": "sg",
-        "name": "సాంగో"
+    "hr": {
+        "code": "hr",
+        "name": "క్రొయెషియన్"
     },
-    "shi": {
-        "code": "shi",
-        "name": "టాచెల్‌హిట్"
+    "nmg": {
+        "code": "nmg",
+        "name": "క్వాసియె"
     },
-    "si": {
-        "code": "si",
-        "name": "సింహళం"
+    "km": {
+        "code": "km",
+        "name": "ఖ్మేర్"
     },
-    "sk": {
-        "code": "sk",
-        "name": "స్లోవాక్"
+    "lg": {
+        "code": "lg",
+        "name": "గాండా"
     },
-    "sl": {
-        "code": "sl",
-        "name": "స్లోవేనియాన్"
+    "gu": {
+        "code": "gu",
+        "name": "గుజరాతి"
     },
-    "smn": {
-        "code": "smn",
-        "name": "ఇనారి సామి"
+    "guz": {
+        "code": "guz",
+        "name": "గుస్సీ"
     },
-    "sn": {
-        "code": "sn",
-        "name": "షోన"
+    "gl": {
+        "code": "gl",
+        "name": "గెలిషియన్"
     },
-    "so": {
-        "code": "so",
-        "name": "సోమాలి"
+    "jgo": {
+        "code": "jgo",
+        "name": "గోంబా"
     },
-    "sq": {
-        "code": "sq",
-        "name": "అల్బేనియన్"
+    "el": {
+        "code": "el",
+        "name": "గ్రీక్"
     },
-    "sr": {
-        "code": "sr",
-        "name": "సెర్బియన్"
+    "cs": {
+        "code": "cs",
+        "name": "చెక్"
     },
-    "sv": {
-        "code": "sv",
-        "name": "స్వీడిష్"
+    "chr": {
+        "code": "chr",
+        "name": "చెరోకీ"
     },
-    "sw": {
-        "code": "sw",
-        "name": "స్వాహిలి"
+    "zh": {
+        "code": "zh",
+        "name": "చైనీస్"
     },
-    "swc": {
-        "code": "swc",
-        "name": "కాంగో స్వాహిలి"
+    "cgg": {
+        "code": "cgg",
+        "name": "ఛిగా"
     },
-    "ta": {
-        "code": "ta",
-        "name": "తమిళము"
+    "de": {
+        "code": "de",
+        "name": "జర్మన్"
     },
-    "te": {
-        "code": "te",
-        "name": "తెలుగు"
+    "ja": {
+        "code": "ja",
+        "name": "జాపనీస్"
     },
-    "teo": {
-        "code": "teo",
-        "name": "టెసో"
+    "ka": {
+        "code": "ka",
+        "name": "జార్జియన్"
     },
-    "th": {
-        "code": "th",
-        "name": "థాయ్"
+    "dje": {
+        "code": "dje",
+        "name": "జార్మా"
     },
-    "ti": {
-        "code": "ti",
-        "name": "తిగ్రిన్యా"
+    "zu": {
+        "code": "zu",
+        "name": "జూలూ"
     },
-    "to": {
-        "code": "to",
-        "name": "టాంగాన్"
+    "dz": {
+        "code": "dz",
+        "name": "జొన్ఖా"
+    },
+    "dyo": {
+        "code": "dyo",
+        "name": "జోలా-ఫోనయి"
     },
     "tr": {
         "code": "tr",
@@ -679,25 +295,325 @@
         "code": "twq",
         "name": "టసావాఖ్"
     },
-    "tzm": {
-        "code": "tzm",
-        "name": "సెంట్రల్ అట్లాస్ టామాజైట్"
+    "to": {
+        "code": "to",
+        "name": "టాంగాన్"
     },
-    "ug": {
-        "code": "ug",
-        "name": "ఉయ్‌ఘర్"
+    "shi": {
+        "code": "shi",
+        "name": "టాచెల్‌హిట్"
     },
-    "uk": {
-        "code": "uk",
-        "name": "ఉక్రేనియన్"
+    "bo": {
+        "code": "bo",
+        "name": "టిబెటన్"
     },
-    "ur": {
-        "code": "ur",
-        "name": "ఉర్దూ"
+    "teo": {
+        "code": "teo",
+        "name": "టెసో"
     },
-    "uz": {
-        "code": "uz",
-        "name": "ఉజ్బెక్"
+    "dav": {
+        "code": "dav",
+        "name": "టైటా"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "డచ్"
+    },
+    "da": {
+        "code": "da",
+        "name": "డేనిష్"
+    },
+    "ta": {
+        "code": "ta",
+        "name": "తమిళము"
+    },
+    "ti": {
+        "code": "ti",
+        "name": "తిగ్రిన్యా"
+    },
+    "te": {
+        "code": "te",
+        "name": "తెలుగు"
+    },
+    "th": {
+        "code": "th",
+        "name": "థాయ్"
+    },
+    "naq": {
+        "code": "naq",
+        "name": "నమ"
+    },
+    "nn": {
+        "code": "nn",
+        "name": "నార్విజియాన్ న్యోర్స్క్"
+    },
+    "nb": {
+        "code": "nb",
+        "name": "నార్వీజియన్ బొక్మాల్"
+    },
+    "ne": {
+        "code": "ne",
+        "name": "నేపాలి"
+    },
+    "nyn": {
+        "code": "nyn",
+        "name": "న్యాన్కోలె"
+    },
+    "nus": {
+        "code": "nus",
+        "name": "న్యుర్"
+    },
+    "pa": {
+        "code": "pa",
+        "name": "పంజాబీ"
+    },
+    "fa": {
+        "code": "fa",
+        "name": "పర్షియన్"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "పశ్చిమ ఫ్రిసియన్"
+    },
+    "ps": {
+        "code": "ps",
+        "name": "పాష్టో"
+    },
+    "pt": {
+        "code": "pt",
+        "name": "పోర్చుగీస్"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "పోలిష్"
+    },
+    "zgh": {
+        "code": "zgh",
+        "name": "ప్రామాణిక మొరొకన్ తమజియట్"
+    },
+    "fo": {
+        "code": "fo",
+        "name": "ఫారోయీజ్"
+    },
+    "fi": {
+        "code": "fi",
+        "name": "ఫిన్నిష్"
+    },
+    "fil": {
+        "code": "fil",
+        "name": "ఫిలిపినో"
+    },
+    "ff": {
+        "code": "ff",
+        "name": "ఫ్యుల"
+    },
+    "fur": {
+        "code": "fur",
+        "name": "ఫ్రియులియన్"
+    },
+    "fr": {
+        "code": "fr",
+        "name": "ఫ్రెంచ్"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "ఫ్లెమిష్"
+    },
+    "bm": {
+        "code": "bm",
+        "name": "బంబారా"
+    },
+    "my": {
+        "code": "my",
+        "name": "బర్మీస్"
+    },
+    "bg": {
+        "code": "bg",
+        "name": "బల్గేరియన్"
+    },
+    "bas": {
+        "code": "bas",
+        "name": "బసా"
+    },
+    "ksf": {
+        "code": "ksf",
+        "name": "బాఫియ"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "బాస్క్"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "బీనా"
+    },
+    "bn": {
+        "code": "bn",
+        "name": "బెంగాలీ"
+    },
+    "be": {
+        "code": "be",
+        "name": "బెలరుశియన్"
+    },
+    "brx": {
+        "code": "brx",
+        "name": "బోడో"
+    },
+    "bs": {
+        "code": "bs",
+        "name": "బోస్నియన్"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "బ్రిటిష్ ఇంగ్లీష్"
+    },
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "బ్రెజీలియన్ పోర్చుగీస్"
+    },
+    "br": {
+        "code": "br",
+        "name": "బ్రెటన్"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "మంగోలియన్"
+    },
+    "kde": {
+        "code": "kde",
+        "name": "మకొండే"
+    },
+    "jmc": {
+        "code": "jmc",
+        "name": "మకొమ్"
+    },
+    "mgh": {
+        "code": "mgh",
+        "name": "మక్వా-మిట్టో"
+    },
+    "mr": {
+        "code": "mr",
+        "name": "మరాఠీ"
+    },
+    "ml": {
+        "code": "ml",
+        "name": "మలయాళం"
+    },
+    "ms": {
+        "code": "ms",
+        "name": "మలేయ్"
+    },
+    "mk": {
+        "code": "mk",
+        "name": "మసడోనియన్"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "మాలాగసి"
+    },
+    "mt": {
+        "code": "mt",
+        "name": "మాల్టీస్"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "మాసాయి"
+    },
+    "mua": {
+        "code": "mua",
+        "name": "ముదాంగ్"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "మెక్సికన్ స్పానిష్"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "మెరు"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "మొరిస్యేన్"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "మొల్డావియన్"
+    },
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "యూరోపియన్ పోర్చుగీస్"
+    },
+    "es-ES": {
+        "code": "es-ES",
+        "name": "యూరోపియన్ స్పానిష్"
+    },
+    "yo": {
+        "code": "yo",
+        "name": "యోరుబా"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "రండి"
+    },
+    "ru": {
+        "code": "ru",
+        "name": "రష్యన్"
+    },
+    "rof": {
+        "code": "rof",
+        "name": "రోంబో"
+    },
+    "rm": {
+        "code": "rm",
+        "name": "రోమన్ష్"
+    },
+    "ro": {
+        "code": "ro",
+        "name": "రోమానియన్"
+    },
+    "rwk": {
+        "code": "rwk",
+        "name": "ర్వా"
+    },
+    "lag": {
+        "code": "lag",
+        "name": "లాంగీ"
+    },
+    "lv": {
+        "code": "lv",
+        "name": "లాట్వియన్"
+    },
+    "lo": {
+        "code": "lo",
+        "name": "లావో"
+    },
+    "ln": {
+        "code": "ln",
+        "name": "లింగాల"
+    },
+    "lt": {
+        "code": "lt",
+        "name": "లిథుయేనియన్"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "లుక్సంబర్గిష్"
+    },
+    "luy": {
+        "code": "luy",
+        "name": "లుయియ"
+    },
+    "luo": {
+        "code": "luo",
+        "name": "లువో"
+    },
+    "lu": {
+        "code": "lu",
+        "name": "లూబ-కటాంగ"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "లోవర్ సోర్బియన్"
     },
     "vai": {
         "code": "vai",
@@ -711,44 +627,112 @@
         "code": "vun",
         "name": "వుంజొ"
     },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
+    "cy": {
+        "code": "cy",
+        "name": "వెల్ష్"
     },
-    "xog": {
-        "code": "xog",
-        "name": "సొగా"
+    "ksb": {
+        "code": "ksb",
+        "name": "శంబాలా"
     },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
+    "sn": {
+        "code": "sn",
+        "name": "షోన"
     },
-    "yi": {
-        "code": "yi",
-        "name": "ఇడ్డిష్"
-    },
-    "yo": {
-        "code": "yo",
-        "name": "యోరుబా"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "ప్రామాణిక మొరొకన్ తమజియట్"
-    },
-    "zh": {
-        "code": "zh",
-        "name": "చైనీస్"
+    "saq": {
+        "code": "saq",
+        "name": "సంబురు"
     },
     "zh-Hans": {
         "code": "zh-Hans",
         "name": "సరళీకృత చైనీస్"
     },
+    "sbp": {
+        "code": "sbp",
+        "name": "సాంగు"
+    },
+    "sg": {
+        "code": "sg",
+        "name": "సాంగో"
+    },
     "zh-Hant": {
         "code": "zh-Hant",
         "name": "సాంప్రదాయక చైనీస్"
     },
-    "zu": {
-        "code": "zu",
-        "name": "జూలూ"
+    "si": {
+        "code": "si",
+        "name": "సింహళం"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "సెంట్రల్ అట్లాస్ టామాజైట్"
+    },
+    "seh": {
+        "code": "seh",
+        "name": "సెనా"
+    },
+    "sr": {
+        "code": "sr",
+        "name": "సెర్బియన్"
+    },
+    "xog": {
+        "code": "xog",
+        "name": "సొగా"
+    },
+    "so": {
+        "code": "so",
+        "name": "సోమాలి"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "స్కాటిష్ గేలిక్"
+    },
+    "es": {
+        "code": "es",
+        "name": "స్పానిష్"
+    },
+    "sk": {
+        "code": "sk",
+        "name": "స్లోవాక్"
+    },
+    "sl": {
+        "code": "sl",
+        "name": "స్లోవేనియాన్"
+    },
+    "sw": {
+        "code": "sw",
+        "name": "స్వాహిలి"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "స్విస్ జర్మన్"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "స్విస్ ఫ్రెంచ్"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "స్విస్ హై జర్మన్"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "స్వీడిష్"
+    },
+    "hu": {
+        "code": "hu",
+        "name": "హన్గేరియన్"
+    },
+    "hi": {
+        "code": "hi",
+        "name": "హిందీ"
+    },
+    "he": {
+        "code": "he",
+        "name": "హీబ్రు"
+    },
+    "ha": {
+        "code": "ha",
+        "name": "హౌసా"
     }
 }

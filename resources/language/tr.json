@@ -11,6 +11,14 @@
         "code": "ak",
         "name": "Akan"
     },
+    "de": {
+        "code": "de",
+        "name": "Almanca"
+    },
+    "en-US": {
+        "code": "en-US",
+        "name": "Amerikan İngilizcesi"
+    },
     "am": {
         "code": "am",
         "name": "Amharca"
@@ -19,53 +27,77 @@
         "code": "ar",
         "name": "Arapça"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "Modern Standart Arapça"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
+    "sq": {
+        "code": "sq",
+        "name": "Arnavutça"
     },
     "ast": {
         "code": "ast",
         "name": "Asturyasca"
     },
+    "asa": {
+        "code": "asa",
+        "name": "Asu"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "Aşağı Sorbça"
+    },
+    "es-ES": {
+        "code": "es-ES",
+        "name": "Avrupa İspanyolcası"
+    },
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "Avrupa Portekizcesi"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "Avustralya İngilizcesi"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "Avusturya Almancası"
+    },
     "az": {
         "code": "az",
         "name": "Azerice"
     },
-    "bas": {
-        "code": "bas",
-        "name": "Basa Dili"
-    },
-    "be": {
-        "code": "be",
-        "name": "Beyaz Rusça"
-    },
-    "bez": {
-        "code": "bez",
-        "name": "Bena"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "Bulgarca"
+    "ksf": {
+        "code": "ksf",
+        "name": "Bafia"
     },
     "bm": {
         "code": "bm",
         "name": "Bambara"
     },
+    "bas": {
+        "code": "bas",
+        "name": "Basa Dili"
+    },
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "Basitleştirilmiş Çince"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "Baskça"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "Batı Frizcesi"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "Bena"
+    },
     "bn": {
         "code": "bn",
         "name": "Bengalce"
     },
-    "bo": {
-        "code": "bo",
-        "name": "Tibetçe"
-    },
-    "br": {
-        "code": "br",
-        "name": "Bretonca"
+    "be": {
+        "code": "be",
+        "name": "Beyaz Rusça"
     },
     "brx": {
         "code": "brx",
@@ -75,165 +107,161 @@
         "code": "bs",
         "name": "Boşnakça"
     },
-    "ca": {
-        "code": "ca",
-        "name": "Katalanca"
+    "br": {
+        "code": "br",
+        "name": "Bretonca"
     },
-    "cgg": {
-        "code": "cgg",
-        "name": "Kigaca"
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "Brezilya Portekizcesi"
     },
-    "chr": {
-        "code": "chr",
-        "name": "Çerokice"
+    "bg": {
+        "code": "bg",
+        "name": "Bulgarca"
     },
-    "cs": {
-        "code": "cs",
-        "name": "Çekçe"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "Galce"
-    },
-    "da": {
-        "code": "da",
-        "name": "Danca"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
-    },
-    "de": {
-        "code": "de",
-        "name": "Almanca"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "Avusturya Almancası"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "İsviçre Yüksek Almancası"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "Zarma"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "Aşağı Sorbça"
-    },
-    "dyo": {
-        "code": "dyo",
-        "name": "Jola-Fonyi"
+    "my": {
+        "code": "my",
+        "name": "Burmaca"
     },
     "dz": {
         "code": "dz",
         "name": "Butan Dili"
     },
+    "cs": {
+        "code": "cs",
+        "name": "Çekçe"
+    },
+    "chr": {
+        "code": "chr",
+        "name": "Çerokice"
+    },
+    "zh": {
+        "code": "zh",
+        "name": "Çince"
+    },
+    "da": {
+        "code": "da",
+        "name": "Danca"
+    },
     "ebu": {
         "code": "ebu",
         "name": "Embu"
     },
-    "ee": {
-        "code": "ee",
-        "name": "Ewe"
+    "id": {
+        "code": "id",
+        "name": "Endonezce"
     },
-    "el": {
-        "code": "el",
-        "name": "Yunanca"
-    },
-    "en": {
-        "code": "en",
-        "name": "İngilizce"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Avustralya İngilizcesi"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Kanada İngilizcesi"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "İngiliz İngilizcesi"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "Amerikan İngilizcesi"
+    "hy": {
+        "code": "hy",
+        "name": "Ermenice"
     },
     "eo": {
         "code": "eo",
         "name": "Esperanto"
     },
-    "es": {
-        "code": "es",
-        "name": "İspanyolca"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "Latin Amerika İspanyolcası"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "Avrupa İspanyolcası"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "Meksika İspanyolcası"
-    },
     "et": {
         "code": "et",
         "name": "Estonca"
     },
-    "eu": {
-        "code": "eu",
-        "name": "Baskça"
+    "ee": {
+        "code": "ee",
+        "name": "Ewe"
     },
     "ewo": {
         "code": "ewo",
         "name": "Ewondo"
     },
+    "fo": {
+        "code": "fo",
+        "name": "Faroe Dili"
+    },
     "fa": {
         "code": "fa",
         "name": "Farsça"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "Fulah"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "Fince"
     },
     "fil": {
         "code": "fil",
         "name": "Filipince"
     },
-    "fo": {
-        "code": "fo",
-        "name": "Faroe Dili"
+    "fi": {
+        "code": "fi",
+        "name": "Fince"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "Flamanca"
     },
     "fr": {
         "code": "fr",
         "name": "Fransızca"
     },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "Kanada Fransızcası"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "İsviçre Fransızcası"
-    },
     "fur": {
         "code": "fur",
         "name": "Friulian"
     },
-    "fy": {
-        "code": "fy",
-        "name": "Batı Frizcesi"
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
+    },
+    "cy": {
+        "code": "cy",
+        "name": "Galce"
+    },
+    "gl": {
+        "code": "gl",
+        "name": "Galiçyaca"
+    },
+    "lg": {
+        "code": "lg",
+        "name": "Ganda"
+    },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "Geleneksel Çince"
+    },
+    "kl": {
+        "code": "kl",
+        "name": "Grönland Dili"
+    },
+    "guz": {
+        "code": "guz",
+        "name": "Gusii"
+    },
+    "gu": {
+        "code": "gu",
+        "name": "Güceratça"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "Gürcüce"
+    },
+    "ha": {
+        "code": "ha",
+        "name": "Hausa"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "Hırvatça"
+    },
+    "hi": {
+        "code": "hi",
+        "name": "Hintçe"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "Hollandaca"
+    },
+    "he": {
+        "code": "he",
+        "name": "İbranice"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "İngiliz İngilizcesi"
+    },
+    "en": {
+        "code": "en",
+        "name": "İngilizce"
     },
     "ga": {
         "code": "ga",
@@ -243,165 +271,153 @@
         "code": "gd",
         "name": "İskoç Gal Dili"
     },
-    "gl": {
-        "code": "gl",
-        "name": "Galiçyaca"
+    "es": {
+        "code": "es",
+        "name": "İspanyolca"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "İsveççe"
     },
     "gsw": {
         "code": "gsw",
         "name": "İsviçre Almancası"
     },
-    "gu": {
-        "code": "gu",
-        "name": "Güceratça"
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "İsviçre Fransızcası"
     },
-    "guz": {
-        "code": "guz",
-        "name": "Gusii"
-    },
-    "ha": {
-        "code": "ha",
-        "name": "Hausa"
-    },
-    "he": {
-        "code": "he",
-        "name": "İbranice"
-    },
-    "hi": {
-        "code": "hi",
-        "name": "Hintçe"
-    },
-    "hr": {
-        "code": "hr",
-        "name": "Hırvatça"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "Yukarı Sorbça"
-    },
-    "hu": {
-        "code": "hu",
-        "name": "Macarca"
-    },
-    "hy": {
-        "code": "hy",
-        "name": "Ermenice"
-    },
-    "id": {
-        "code": "id",
-        "name": "Endonezce"
-    },
-    "is": {
-        "code": "is",
-        "name": "İzlandaca"
+    "de-CH": {
+        "code": "de-CH",
+        "name": "İsviçre Yüksek Almancası"
     },
     "it": {
         "code": "it",
         "name": "İtalyanca"
     },
+    "is": {
+        "code": "is",
+        "name": "İzlandaca"
+    },
     "ja": {
         "code": "ja",
         "name": "Japonca"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "Gürcüce"
+    "dyo": {
+        "code": "dyo",
+        "name": "Jola-Fonyi"
     },
     "kab": {
         "code": "kab",
         "name": "Kabiliyece"
     },
-    "kam": {
-        "code": "kam",
-        "name": "Kamba"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
-    },
     "kea": {
         "code": "kea",
         "name": "Kabuverdianu"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "Koyra Chiini"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "Kazakça"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "Grönland Dili"
     },
     "kln": {
         "code": "kln",
         "name": "Kalenjin"
     },
-    "km": {
-        "code": "km",
-        "name": "Kmerce"
+    "kam": {
+        "code": "kam",
+        "name": "Kamba"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "Kanada Fransızcası"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "Kanada İngilizcesi"
     },
     "kn": {
         "code": "kn",
         "name": "Kannada"
     },
-    "ko": {
-        "code": "ko",
-        "name": "Korece"
+    "ca": {
+        "code": "ca",
+        "name": "Katalanca"
+    },
+    "kk": {
+        "code": "kk",
+        "name": "Kazakça"
     },
     "ks": {
         "code": "ks",
         "name": "Keşmirce"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
+    "ky": {
+        "code": "ky",
+        "name": "Kırgızca"
     },
-    "ksf": {
-        "code": "ksf",
-        "name": "Bafia"
+    "cgg": {
+        "code": "cgg",
+        "name": "Kigaca"
+    },
+    "ki": {
+        "code": "ki",
+        "name": "Kikuyu"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "Kirundi"
+    },
+    "km": {
+        "code": "km",
+        "name": "Kmerce"
+    },
+    "swc": {
+        "code": "swc",
+        "name": "Kongo Svahili"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "Korece"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "Koyra Chiini"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "Koyraboro Senni"
     },
     "ksh": {
         "code": "ksh",
         "name": "Köln Diyalekti"
     },
-    "ky": {
-        "code": "ky",
-        "name": "Kırgızca"
+    "nd": {
+        "code": "nd",
+        "name": "Kuzey Ndebele"
+    },
+    "se": {
+        "code": "se",
+        "name": "Kuzey Sami"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "Kwasio"
     },
     "lag": {
         "code": "lag",
         "name": "Langi"
     },
-    "lb": {
-        "code": "lb",
-        "name": "Lüksemburgca"
+    "lo": {
+        "code": "lo",
+        "name": "Laoca"
     },
-    "lg": {
-        "code": "lg",
-        "name": "Ganda"
+    "pl": {
+        "code": "pl",
+        "name": "Lehçe"
+    },
+    "lv": {
+        "code": "lv",
+        "name": "Letonca"
     },
     "ln": {
         "code": "ln",
         "name": "Lingala"
-    },
-    "lo": {
-        "code": "lo",
-        "name": "Laoca"
     },
     "lt": {
         "code": "lt",
@@ -419,89 +435,97 @@
         "code": "luy",
         "name": "Luyia"
     },
-    "lv": {
-        "code": "lv",
-        "name": "Letonca"
+    "lb": {
+        "code": "lb",
+        "name": "Lüksemburgca"
     },
-    "mas": {
-        "code": "mas",
-        "name": "Masai"
+    "hu": {
+        "code": "hu",
+        "name": "Macarca"
     },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "Morisyen"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "Malgaşça"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "Makhuwa-Meetto"
+    "jmc": {
+        "code": "jmc",
+        "name": "Machame"
     },
     "mk": {
         "code": "mk",
         "name": "Makedonca"
     },
+    "mgh": {
+        "code": "mgh",
+        "name": "Makhuwa-Meetto"
+    },
+    "kde": {
+        "code": "kde",
+        "name": "Makonde"
+    },
     "ml": {
         "code": "ml",
         "name": "Malayalam"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "Moğolca"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "Marathi"
     },
     "ms": {
         "code": "ms",
         "name": "Malayca"
     },
+    "mg": {
+        "code": "mg",
+        "name": "Malgaşça"
+    },
     "mt": {
         "code": "mt",
         "name": "Maltaca"
+    },
+    "mr": {
+        "code": "mr",
+        "name": "Marathi"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "Masai"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "Meksika İspanyolcası"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "Meru"
+    },
+    "ar-001": {
+        "code": "ar-001",
+        "name": "Modern Standart Arapça"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "Moğolca"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "Moldovaca"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "Morisyen"
     },
     "mua": {
         "code": "mua",
         "name": "Mundang"
     },
-    "my": {
-        "code": "my",
-        "name": "Burmaca"
-    },
     "naq": {
         "code": "naq",
         "name": "Nama"
-    },
-    "nb": {
-        "code": "nb",
-        "name": "Norveççe Bokmål"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "Kuzey Ndebele"
     },
     "ne": {
         "code": "ne",
         "name": "Nepalce"
     },
-    "nl": {
-        "code": "nl",
-        "name": "Hollandaca"
+    "jgo": {
+        "code": "jgo",
+        "name": "Ngomba"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "Flamanca"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
+    "nb": {
+        "code": "nb",
+        "name": "Norveççe Bokmål"
     },
     "nn": {
         "code": "nn",
@@ -519,13 +543,17 @@
         "code": "or",
         "name": "Oriya Dili"
     },
+    "tzm": {
+        "code": "tzm",
+        "name": "Orta Fas Tamazigti"
+    },
+    "uz": {
+        "code": "uz",
+        "name": "Özbekçe"
+    },
     "pa": {
         "code": "pa",
         "name": "Pencapça"
-    },
-    "pl": {
-        "code": "pl",
-        "name": "Lehçe"
     },
     "ps": {
         "code": "ps",
@@ -535,37 +563,17 @@
         "code": "pt",
         "name": "Portekizce"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "Brezilya Portekizcesi"
-    },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "Avrupa Portekizcesi"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "Keçuvaca"
-    },
     "rm": {
         "code": "rm",
         "name": "Romanşça"
     },
-    "rn": {
-        "code": "rn",
-        "name": "Kirundi"
+    "rof": {
+        "code": "rof",
+        "name": "Rombo"
     },
     "ro": {
         "code": "ro",
         "name": "Romence"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "Moldovaca"
-    },
-    "rof": {
-        "code": "rof",
-        "name": "Rombo"
     },
     "ru": {
         "code": "ru",
@@ -579,33 +587,33 @@
         "code": "saq",
         "name": "Samburu"
     },
+    "sg": {
+        "code": "sg",
+        "name": "Sango"
+    },
     "sbp": {
         "code": "sbp",
         "name": "Sangu"
-    },
-    "se": {
-        "code": "se",
-        "name": "Kuzey Sami"
     },
     "seh": {
         "code": "seh",
         "name": "Sena"
     },
-    "ses": {
-        "code": "ses",
-        "name": "Koyraboro Senni"
-    },
-    "sg": {
-        "code": "sg",
-        "name": "Sango"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "Taşelhit"
-    },
     "si": {
         "code": "si",
         "name": "Seylanca"
+    },
+    "ksb": {
+        "code": "ksb",
+        "name": "Shambala"
+    },
+    "sn": {
+        "code": "sn",
+        "name": "Shona"
+    },
+    "sr": {
+        "code": "sr",
+        "name": "Sırpça"
     },
     "sk": {
         "code": "sk",
@@ -615,41 +623,41 @@
         "code": "sl",
         "name": "Slovence"
     },
-    "smn": {
-        "code": "smn",
-        "name": "Inari Sami"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "Shona"
+    "xog": {
+        "code": "xog",
+        "name": "Soga"
     },
     "so": {
         "code": "so",
         "name": "Somalice"
     },
-    "sq": {
-        "code": "sq",
-        "name": "Arnavutça"
-    },
-    "sr": {
-        "code": "sr",
-        "name": "Sırpça"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "İsveççe"
+    "zgh": {
+        "code": "zgh",
+        "name": "Standart Berberi Dili Tamazight"
     },
     "sw": {
         "code": "sw",
         "name": "Svahili"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Kongo Svahili"
+    "dav": {
+        "code": "dav",
+        "name": "Taita"
     },
     "ta": {
         "code": "ta",
         "name": "Tamilce"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "Tasawaq"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "Taşelhit"
+    },
+    "th": {
+        "code": "th",
+        "name": "Tayca"
     },
     "te": {
         "code": "te",
@@ -659,9 +667,9 @@
         "code": "teo",
         "name": "Teso"
     },
-    "th": {
-        "code": "th",
-        "name": "Tayca"
+    "bo": {
+        "code": "bo",
+        "name": "Tibetçe"
     },
     "ti": {
         "code": "ti",
@@ -675,18 +683,6 @@
         "code": "tr",
         "name": "Türkçe"
     },
-    "twq": {
-        "code": "twq",
-        "name": "Tasawaq"
-    },
-    "tzm": {
-        "code": "tzm",
-        "name": "Orta Fas Tamazigti"
-    },
-    "ug": {
-        "code": "ug",
-        "name": "Uygurca"
-    },
     "uk": {
         "code": "uk",
         "name": "Ukraynaca"
@@ -695,9 +691,9 @@
         "code": "ur",
         "name": "Urduca"
     },
-    "uz": {
-        "code": "uz",
-        "name": "Özbekçe"
+    "ug": {
+        "code": "ug",
+        "name": "Uygurca"
     },
     "vai": {
         "code": "vai",
@@ -715,37 +711,25 @@
         "code": "wae",
         "name": "Walser"
     },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
-    },
     "yav": {
         "code": "yav",
         "name": "Yangben"
-    },
-    "yi": {
-        "code": "yi",
-        "name": "Yidiş"
     },
     "yo": {
         "code": "yo",
         "name": "Yorubaca"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "Standart Berberi Dili Tamazight"
+    "hsb": {
+        "code": "hsb",
+        "name": "Yukarı Sorbça"
     },
-    "zh": {
-        "code": "zh",
-        "name": "Çince"
+    "el": {
+        "code": "el",
+        "name": "Yunanca"
     },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "Basitleştirilmiş Çince"
-    },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "Geleneksel Çince"
+    "dje": {
+        "code": "dje",
+        "name": "Zarma"
     },
     "zu": {
         "code": "zu",

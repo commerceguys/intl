@@ -27,10 +27,6 @@
         "name": "ARS",
         "symbol": "ARS"
     },
-    "AUD": {
-        "name": "аўстралійскі даляр",
-        "symbol": "A$"
-    },
     "AWG": {
         "name": "AWG",
         "symbol": "AWG"
@@ -75,10 +71,6 @@
         "name": "BOB",
         "symbol": "BOB"
     },
-    "BRL": {
-        "name": "бразільскі рэал",
-        "symbol": "R$"
-    },
     "BSD": {
         "name": "BSD",
         "symbol": "BSD"
@@ -90,10 +82,6 @@
     "BWP": {
         "name": "BWP",
         "symbol": "BWP"
-    },
-    "BYR": {
-        "name": "беларускі рубель",
-        "symbol": "р."
     },
     "BZD": {
         "name": "BZD",
@@ -114,10 +102,6 @@
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "кітайскі юань",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -163,17 +147,9 @@
         "name": "EGP",
         "symbol": "EGP"
     },
-    "ERN": {
-        "name": "эрытрэйская накфа",
-        "symbol": "ERN"
-    },
     "ETB": {
         "name": "ETB",
         "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "еўра",
-        "symbol": "€"
     },
     "FJD": {
         "name": "FJD",
@@ -182,10 +158,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "англійскі фунт",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -243,10 +215,6 @@
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "індыйская рупія",
-        "symbol": "₹"
-    },
     "IQD": {
         "name": "IQD",
         "symbol": "IQD"
@@ -266,10 +234,6 @@
     "JOD": {
         "name": "JOD",
         "symbol": "JOD"
-    },
-    "JPY": {
-        "name": "японская іена",
-        "symbol": "¥"
     },
     "KES": {
         "name": "KES",
@@ -403,10 +367,6 @@
         "name": "NIO",
         "symbol": "NIO"
     },
-    "NOK": {
-        "name": "нарвэская крона",
-        "symbol": "NOK"
-    },
     "NPR": {
         "name": "NPR",
         "symbol": "NPR"
@@ -458,10 +418,6 @@
     "RSD": {
         "name": "RSD",
         "symbol": "RSD"
-    },
-    "RUB": {
-        "name": "рускі рубель",
-        "symbol": "рас. руб."
     },
     "RWF": {
         "name": "RWF",
@@ -571,10 +527,6 @@
         "name": "UGX",
         "symbol": "UGX"
     },
-    "USD": {
-        "name": "долар ЗША",
-        "symbol": "$"
-    },
     "UYU": {
         "name": "UYU",
         "symbol": "UYU"
@@ -630,5 +582,53 @@
     "ZWL": {
         "name": "ZWL",
         "symbol": "ZWL"
+    },
+    "GBP": {
+        "name": "англійскі фунт",
+        "symbol": "£"
+    },
+    "AUD": {
+        "name": "аўстралійскі даляр",
+        "symbol": "A$"
+    },
+    "BYR": {
+        "name": "беларускі рубель",
+        "symbol": "р."
+    },
+    "BRL": {
+        "name": "бразільскі рэал",
+        "symbol": "R$"
+    },
+    "USD": {
+        "name": "долар ЗША",
+        "symbol": "$"
+    },
+    "EUR": {
+        "name": "еўра",
+        "symbol": "€"
+    },
+    "INR": {
+        "name": "індыйская рупія",
+        "symbol": "₹"
+    },
+    "CNY": {
+        "name": "кітайскі юань",
+        "symbol": "CN¥"
+    },
+    "NOK": {
+        "name": "нарвэская крона",
+        "symbol": "NOK"
+    },
+    "RUB": {
+        "name": "рускі рубель",
+        "symbol": "рас. руб."
+    },
+    "ERN": {
+        "name": "эрытрэйская накфа",
+        "symbol": "ERN"
+    },
+    "JPY": {
+        "name": "японская іена",
+        "symbol": "¥"
     }
 }

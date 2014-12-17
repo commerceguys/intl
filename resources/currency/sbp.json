@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "Ihela ya Shitwa sha Shiyalabu",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -19,17 +15,9 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "Ihela ya Angola",
-        "symbol": "AOA"
-    },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "Ihela ya Awusitilaliya",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -55,14 +43,6 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "Ihela ya Bahaleni",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Ihela ya Bulundi",
-        "symbol": "BIF"
-    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -87,10 +67,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Ihela ya Botiswana",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +75,9 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Ihela ya Kanada",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Ihela ya Kongo",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Ihela ya Uswisi",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Ihela ya Shina",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,17 +95,9 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Ihela ya Kepuvede",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "Ihela ya Jibuti",
-        "symbol": "DJF"
     },
     "DKK": {
         "name": "DKK",
@@ -155,26 +107,6 @@
         "name": "DOP",
         "symbol": "DOP"
     },
-    "DZD": {
-        "name": "Ihela ya Alijeliya",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "Ihela ya Misili",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "Ihela ya Elitileya",
-        "symbol": "ERN"
-    },
-    "ETB": {
-        "name": "Ihela ya Uhabeshi",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "Ihela ya Ulaya",
-        "symbol": "€"
-    },
     "FJD": {
         "name": "FJD",
         "symbol": "FJD"
@@ -182,10 +114,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "Ihela ya Uwingelesa",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -198,10 +126,6 @@
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Ihela ya Gambiya",
-        "symbol": "GMD"
     },
     "GNF": {
         "name": "GNF",
@@ -239,13 +163,209 @@
         "name": "IDR",
         "symbol": "IDR"
     },
-    "ILS": {
-        "name": "ILS",
-        "symbol": "₪"
+    "ZAR": {
+        "name": "Ihela ya Afilika Kusini",
+        "symbol": "ZAR"
+    },
+    "DZD": {
+        "name": "Ihela ya Alijeliya",
+        "symbol": "DZD"
+    },
+    "AOA": {
+        "name": "Ihela ya Angola",
+        "symbol": "AOA"
+    },
+    "AUD": {
+        "name": "Ihela ya Awusitilaliya",
+        "symbol": "A$"
+    },
+    "BHD": {
+        "name": "Ihela ya Bahaleni",
+        "symbol": "BHD"
+    },
+    "BWP": {
+        "name": "Ihela ya Botiswana",
+        "symbol": "BWP"
+    },
+    "MGA": {
+        "name": "Ihela ya Bukini",
+        "symbol": "MGA"
+    },
+    "BIF": {
+        "name": "Ihela ya Bulundi",
+        "symbol": "BIF"
+    },
+    "XOF": {
+        "name": "Ihela ya CFA BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Ihela ya CFA BEAC",
+        "symbol": "FCFA"
+    },
+    "ERN": {
+        "name": "Ihela ya Elitileya",
+        "symbol": "ERN"
+    },
+    "GMD": {
+        "name": "Ihela ya Gambiya",
+        "symbol": "GMD"
     },
     "INR": {
         "name": "Ihela ya Indiya",
         "symbol": "₹"
+    },
+    "JPY": {
+        "name": "Ihela ya Japani",
+        "symbol": "JP¥"
+    },
+    "DJF": {
+        "name": "Ihela ya Jibuti",
+        "symbol": "DJF"
+    },
+    "CAD": {
+        "name": "Ihela ya Kanada",
+        "symbol": "CA$"
+    },
+    "KES": {
+        "name": "Ihela ya Kenya",
+        "symbol": "KES"
+    },
+    "CVE": {
+        "name": "Ihela ya Kepuvede",
+        "symbol": "CVE"
+    },
+    "KMF": {
+        "name": "Ihela ya Komolo",
+        "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Ihela ya Kongo",
+        "symbol": "CDF"
+    },
+    "LSL": {
+        "name": "Ihela ya Lesoto",
+        "symbol": "LSL"
+    },
+    "LRD": {
+        "name": "Ihela ya Libeliya",
+        "symbol": "LRD"
+    },
+    "LYD": {
+        "name": "Ihela ya Libiya",
+        "symbol": "LYD"
+    },
+    "RWF": {
+        "name": "Ihela ya Lwanda",
+        "symbol": "RWF"
+    },
+    "MWK": {
+        "name": "Ihela ya Malawi",
+        "symbol": "MWK"
+    },
+    "USD": {
+        "name": "Ihela ya Malekani",
+        "symbol": "US$"
+    },
+    "EGP": {
+        "name": "Ihela ya Misili",
+        "symbol": "EGP"
+    },
+    "MUR": {
+        "name": "Ihela ya Molisi",
+        "symbol": "MUR"
+    },
+    "MRO": {
+        "name": "Ihela ya Molitaniya",
+        "symbol": "MRO"
+    },
+    "MAD": {
+        "name": "Ihela ya Moloko",
+        "symbol": "MAD"
+    },
+    "NAD": {
+        "name": "Ihela ya Namibiya",
+        "symbol": "NAD"
+    },
+    "NGN": {
+        "name": "Ihela ya Nijeliya",
+        "symbol": "NGN"
+    },
+    "ZMW": {
+        "name": "Ihela ya Sambiya",
+        "symbol": "ZMW"
+    },
+    "SHP": {
+        "name": "Ihela ya Santahelena",
+        "symbol": "SHP"
+    },
+    "STD": {
+        "name": "Ihela ya Sao Tome ni Pilinsipe",
+        "symbol": "STD"
+    },
+    "SAR": {
+        "name": "Ihela ya Sawudiya",
+        "symbol": "SAR"
+    },
+    "SCR": {
+        "name": "Ihela ya Shelisheli",
+        "symbol": "SCR"
+    },
+    "CNY": {
+        "name": "Ihela ya Shina",
+        "symbol": "CN¥"
+    },
+    "AED": {
+        "name": "Ihela ya Shitwa sha Shiyalabu",
+        "symbol": "AED"
+    },
+    "SLL": {
+        "name": "Ihela ya Siela Liyoni",
+        "symbol": "SLL"
+    },
+    "SOS": {
+        "name": "Ihela ya Somaliya",
+        "symbol": "SOS"
+    },
+    "SDG": {
+        "name": "Ihela ya Sudani",
+        "symbol": "SDG"
+    },
+    "TZS": {
+        "name": "Ihela ya Tansaniya",
+        "symbol": "TSh"
+    },
+    "TND": {
+        "name": "Ihela ya Tunisiya",
+        "symbol": "TND"
+    },
+    "UGX": {
+        "name": "Ihela ya Uganda",
+        "symbol": "UGX"
+    },
+    "ETB": {
+        "name": "Ihela ya Uhabeshi",
+        "symbol": "ETB"
+    },
+    "EUR": {
+        "name": "Ihela ya Ulaya",
+        "symbol": "€"
+    },
+    "SZL": {
+        "name": "Ihela ya Uswasi",
+        "symbol": "SZL"
+    },
+    "CHF": {
+        "name": "Ihela ya Uswisi",
+        "symbol": "CHF"
+    },
+    "GBP": {
+        "name": "Ihela ya Uwingelesa",
+        "symbol": "£"
+    },
+    "ILS": {
+        "name": "ILS",
+        "symbol": "₪"
     },
     "IQD": {
         "name": "IQD",
@@ -267,14 +387,6 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Ihela ya Japani",
-        "symbol": "JP¥"
-    },
-    "KES": {
-        "name": "Ihela ya Kenya",
-        "symbol": "KES"
-    },
     "KGS": {
         "name": "KGS",
         "symbol": "KGS"
@@ -282,10 +394,6 @@
     "KHR": {
         "name": "KHR",
         "symbol": "KHR"
-    },
-    "KMF": {
-        "name": "Ihela ya Komolo",
-        "symbol": "KMF"
     },
     "KPW": {
         "name": "KPW",
@@ -319,33 +427,13 @@
         "name": "LKR",
         "symbol": "LKR"
     },
-    "LRD": {
-        "name": "Ihela ya Libeliya",
-        "symbol": "LRD"
-    },
-    "LSL": {
-        "name": "Ihela ya Lesoto",
-        "symbol": "LSL"
-    },
     "LTL": {
         "name": "LTL",
         "symbol": "LTL"
     },
-    "LYD": {
-        "name": "Ihela ya Libiya",
-        "symbol": "LYD"
-    },
-    "MAD": {
-        "name": "Ihela ya Moloko",
-        "symbol": "MAD"
-    },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Ihela ya Bukini",
-        "symbol": "MGA"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +451,9 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "Ihela ya Molitaniya",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Ihela ya Molisi",
-        "symbol": "MUR"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Ihela ya Malawi",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -390,14 +466,6 @@
     "MZN": {
         "name": "MZN",
         "symbol": "MZN"
-    },
-    "NAD": {
-        "name": "Ihela ya Namibiya",
-        "symbol": "NAD"
-    },
-    "NGN": {
-        "name": "Ihela ya Nijeliya",
-        "symbol": "NGN"
     },
     "NIO": {
         "name": "NIO",
@@ -463,25 +531,9 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "Ihela ya Lwanda",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "Ihela ya Sawudiya",
-        "symbol": "SAR"
-    },
     "SBD": {
         "name": "SBD",
         "symbol": "SBD"
-    },
-    "SCR": {
-        "name": "Ihela ya Shelisheli",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "Ihela ya Sudani",
-        "symbol": "SDG"
     },
     "SEK": {
         "name": "SEK",
@@ -491,18 +543,6 @@
         "name": "SGD",
         "symbol": "SGD"
     },
-    "SHP": {
-        "name": "Ihela ya Santahelena",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "Ihela ya Siela Liyoni",
-        "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "Ihela ya Somaliya",
-        "symbol": "SOS"
-    },
     "SRD": {
         "name": "SRD",
         "symbol": "SRD"
@@ -511,10 +551,6 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Ihela ya Sao Tome ni Pilinsipe",
-        "symbol": "STD"
-    },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
@@ -522,10 +558,6 @@
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Ihela ya Uswasi",
-        "symbol": "SZL"
     },
     "THB": {
         "name": "THB",
@@ -538,10 +570,6 @@
     "TMT": {
         "name": "TMT",
         "symbol": "TMT"
-    },
-    "TND": {
-        "name": "Ihela ya Tunisiya",
-        "symbol": "TND"
     },
     "TOP": {
         "name": "TOP",
@@ -559,21 +587,9 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Ihela ya Tansaniya",
-        "symbol": "TSh"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
-    },
-    "UGX": {
-        "name": "Ihela ya Uganda",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Ihela ya Malekani",
-        "symbol": "US$"
     },
     "UYU": {
         "name": "UYU",
@@ -599,17 +615,9 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "Ihela ya CFA BEAC",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "Ihela ya CFA BCEAO",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
@@ -618,14 +626,6 @@
     "YER": {
         "name": "YER",
         "symbol": "YER"
-    },
-    "ZAR": {
-        "name": "Ihela ya Afilika Kusini",
-        "symbol": "ZAR"
-    },
-    "ZMW": {
-        "name": "Ihela ya Sambiya",
-        "symbol": "ZMW"
     },
     "ZWL": {
         "name": "ZWL",

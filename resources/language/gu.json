@@ -1,27 +1,47 @@
 {
-    "af": {
-        "code": "af",
-        "name": "આફ્રિકન્સ"
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
     },
-    "agq": {
-        "code": "agq",
-        "name": "અઘેમ"
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
+    },
+    "en": {
+        "code": "en",
+        "name": "અંગ્રેજી"
     },
     "ak": {
         "code": "ak",
         "name": "અકાન"
     },
-    "am": {
-        "code": "am",
-        "name": "એમ્હારિક"
+    "agq": {
+        "code": "agq",
+        "name": "અઘેમ"
+    },
+    "az": {
+        "code": "az",
+        "name": "અઝરબૈજાની"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "અપ્પર સોર્બિયન"
+    },
+    "en-US": {
+        "code": "en-US",
+        "name": "અમેરિકન અંગ્રેજી"
     },
     "ar": {
         "code": "ar",
         "name": "અરબી"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "મોડર્ન સ્ટાન્ડર્ડ અરબી"
+    "sq": {
+        "code": "sq",
+        "name": "અલ્બેનિયન"
     },
     "asa": {
         "code": "asa",
@@ -31,289 +51,97 @@
         "code": "ast",
         "name": "અસ્તુરિયન"
     },
-    "az": {
-        "code": "az",
-        "name": "અઝરબૈજાની"
-    },
-    "bas": {
-        "code": "bas",
-        "name": "બસા"
-    },
-    "be": {
-        "code": "be",
-        "name": "બેલારુશિયન"
-    },
-    "bez": {
-        "code": "bez",
-        "name": "બેના"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "બલ્ગેરિયન"
-    },
-    "bm": {
-        "code": "bm",
-        "name": "બામ્બારા"
-    },
-    "bn": {
-        "code": "bn",
-        "name": "બંગાળી"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "તિબેટીયન"
-    },
-    "br": {
-        "code": "br",
-        "name": "બ્રેટોન"
-    },
-    "brx": {
-        "code": "brx",
-        "name": "બોડો"
-    },
-    "bs": {
-        "code": "bs",
-        "name": "બોસ્નિયન"
-    },
-    "ca": {
-        "code": "ca",
-        "name": "કતલાન"
-    },
-    "cgg": {
-        "code": "cgg",
-        "name": "ચિગા"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "શેરોકી"
-    },
-    "cs": {
-        "code": "cs",
-        "name": "ચેક"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "વેલ્શ"
-    },
-    "da": {
-        "code": "da",
-        "name": "ડેનિશ"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "તૈતા"
-    },
-    "de": {
-        "code": "de",
-        "name": "જર્મન"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "ઓસ્ટ્રિઅન જર્મન"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "સ્વિસ હાય જર્મન"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "ઝર્મા"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "નિમ્ન સોર્બિયન"
-    },
-    "dyo": {
-        "code": "dyo",
-        "name": "જોલા-ફોન્યી"
-    },
-    "dz": {
-        "code": "dz",
-        "name": "ડ્ઝોંગ્ખા"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "ઍમ્બુ"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "ઈવ"
-    },
-    "el": {
-        "code": "el",
-        "name": "ગ્રીક"
-    },
-    "en": {
-        "code": "en",
-        "name": "અંગ્રેજી"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "ઓસ્ટ્રેલિયન અંગ્રેજી"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "કેનેડિયન અંગ્રેજી"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "બ્રિટિશ અંગ્રેજી"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "અમેરિકન અંગ્રેજી"
-    },
-    "eo": {
-        "code": "eo",
-        "name": "એસ્પેરાન્ટો"
-    },
-    "es": {
-        "code": "es",
-        "name": "સ્પેનિશ"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "લેટિન અમેરિકન સ્પેનિશ"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "યુરોપિયન સ્પેનિશ"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "મેક્સિકન સ્પેનિશ"
-    },
-    "et": {
-        "code": "et",
-        "name": "એસ્ટોનિયન"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "બાસ્ક"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "ઇવોન્ડો"
-    },
-    "fa": {
-        "code": "fa",
-        "name": "ફારસી"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "ફુલાહ"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "ફિનિશ"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "ફિલિપિનો"
-    },
-    "fo": {
-        "code": "fo",
-        "name": "ફોરિસ્ત"
-    },
-    "fr": {
-        "code": "fr",
-        "name": "ફ્રેન્ચ"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "કેનેડિયન ફ્રેંચ"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "સ્વિસ ફ્રેંચ"
-    },
-    "fur": {
-        "code": "fur",
-        "name": "ફ્રિયુલિયાન"
-    },
-    "fy": {
-        "code": "fy",
-        "name": "પશ્ચિમી ફ્રિશિયન"
-    },
     "ga": {
         "code": "ga",
         "name": "આઇરિશ"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "સ્કોટ્સ ગેલિક"
-    },
-    "gl": {
-        "code": "gl",
-        "name": "ગેલિશિયન"
-    },
-    "gsw": {
-        "code": "gsw",
-        "name": "સ્વિસ જર્મન"
-    },
-    "gu": {
-        "code": "gu",
-        "name": "ગુજરાતી"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "ગુસી"
-    },
-    "ha": {
-        "code": "ha",
-        "name": "હૌસા"
-    },
-    "he": {
-        "code": "he",
-        "name": "હીબ્રુ"
-    },
-    "hi": {
-        "code": "hi",
-        "name": "હિન્દી"
-    },
-    "hr": {
-        "code": "hr",
-        "name": "ક્રોએશિયન"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "અપ્પર સોર્બિયન"
-    },
-    "hu": {
-        "code": "hu",
-        "name": "હંગેરિયન"
-    },
-    "hy": {
-        "code": "hy",
-        "name": "આર્મેનિયન"
-    },
-    "id": {
-        "code": "id",
-        "name": "ઇન્ડોનેશિયન"
     },
     "is": {
         "code": "is",
         "name": "આઇસલેન્ડિક"
     },
+    "af": {
+        "code": "af",
+        "name": "આફ્રિકન્સ"
+    },
+    "hy": {
+        "code": "hy",
+        "name": "આર્મેનિયન"
+    },
     "it": {
         "code": "it",
         "name": "ઇટાલિયન"
     },
-    "ja": {
-        "code": "ja",
-        "name": "જાપાનીઝ"
+    "id": {
+        "code": "id",
+        "name": "ઇન્ડોનેશિયન"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "નગોમ્બા"
+    "ewo": {
+        "code": "ewo",
+        "name": "ઇવોન્ડો"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "મકામે"
+    "ee": {
+        "code": "ee",
+        "name": "ઈવ"
     },
-    "ka": {
-        "code": "ka",
-        "name": "જ્યોર્જિઅન"
+    "ug": {
+        "code": "ug",
+        "name": "ઉઇગુર"
+    },
+    "uz": {
+        "code": "uz",
+        "name": "ઉઝ્બેક"
+    },
+    "or": {
+        "code": "or",
+        "name": "ઉડિયા"
+    },
+    "nd": {
+        "code": "nd",
+        "name": "ઉતર દેબેલ"
+    },
+    "se": {
+        "code": "se",
+        "name": "ઉત્તરીય સામી"
+    },
+    "ur": {
+        "code": "ur",
+        "name": "ઉર્દૂ"
+    },
+    "ebu": {
+        "code": "ebu",
+        "name": "ઍમ્બુ"
+    },
+    "am": {
+        "code": "am",
+        "name": "એમ્હારિક"
+    },
+    "et": {
+        "code": "et",
+        "name": "એસ્ટોનિયન"
+    },
+    "eo": {
+        "code": "eo",
+        "name": "એસ્પેરાન્ટો"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "ઓસ્ટ્રિઅન જર્મન"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "ઓસ્ટ્રેલિયન અંગ્રેજી"
+    },
+    "kk": {
+        "code": "kk",
+        "name": "કઝાખ"
+    },
+    "ca": {
+        "code": "ca",
+        "name": "કતલાન"
+    },
+    "kn": {
+        "code": "kn",
+        "name": "કન્નડ"
     },
     "kab": {
         "code": "kab",
@@ -323,26 +151,6 @@
         "code": "kam",
         "name": "કમ્બા"
     },
-    "kde": {
-        "code": "kde",
-        "name": "મકોન્ડે"
-    },
-    "kea": {
-        "code": "kea",
-        "name": "કાબુવર્ડિઆનુ"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "કોયરા ચિનિ"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "કિકુયૂ"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "કઝાખ"
-    },
     "kl": {
         "code": "kl",
         "name": "કલાલ્લિસુત"
@@ -351,317 +159,117 @@
         "code": "kln",
         "name": "કલેજિન"
     },
-    "km": {
-        "code": "km",
-        "name": "ખ્મેર"
-    },
-    "kn": {
-        "code": "kn",
-        "name": "કન્નડ"
-    },
-    "ko": {
-        "code": "ko",
-        "name": "કોરિયન"
+    "kea": {
+        "code": "kea",
+        "name": "કાબુવર્ડિઆનુ"
     },
     "ks": {
         "code": "ks",
         "name": "કાશ્મીરી"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "શમ્બાલા"
-    },
-    "ksf": {
-        "code": "ksf",
-        "name": "બફિયા"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
+    "ki": {
+        "code": "ki",
+        "name": "કિકુયૂ"
     },
     "ky": {
         "code": "ky",
         "name": "કિર્ગીઝ"
     },
-    "lag": {
-        "code": "lag",
-        "name": "લંગી"
-    },
-    "lb": {
-        "code": "lb",
-        "name": "લક્ઝેમબર્ગિશ"
-    },
-    "lg": {
-        "code": "lg",
-        "name": "ગાંડા"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "લિંગાલા"
-    },
-    "lo": {
-        "code": "lo",
-        "name": "લાઓથિયન"
-    },
-    "lt": {
-        "code": "lt",
-        "name": "લિથુનિયન"
-    },
-    "lu": {
-        "code": "lu",
-        "name": "લ્યૂબા કટાંગા"
-    },
-    "luo": {
-        "code": "luo",
-        "name": "લ્યુઓ"
-    },
-    "luy": {
-        "code": "luy",
-        "name": "લુઈયા"
-    },
-    "lv": {
-        "code": "lv",
-        "name": "લાતવિયન"
-    },
-    "mas": {
-        "code": "mas",
-        "name": "મસાઇ"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "મેરુ"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "મોરીસ્યેન"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "મલાગસી"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "માખુવા-મીટ્ટુ"
-    },
-    "mk": {
-        "code": "mk",
-        "name": "મેસેડોનિયન"
-    },
-    "ml": {
-        "code": "ml",
-        "name": "મલયાલમ"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "મોંગોલિયન"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "મરાઠી"
-    },
-    "ms": {
-        "code": "ms",
-        "name": "મલય"
-    },
-    "mt": {
-        "code": "mt",
-        "name": "માલ્ટિઝ"
-    },
-    "mua": {
-        "code": "mua",
-        "name": "મુનડાન્ગ"
-    },
-    "my": {
-        "code": "my",
-        "name": "બર્મીઝ"
-    },
-    "naq": {
-        "code": "naq",
-        "name": "નમા"
-    },
-    "nb": {
-        "code": "nb",
-        "name": "નોર્વેજીયન બોકમાલ"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "ઉતર દેબેલ"
-    },
-    "ne": {
-        "code": "ne",
-        "name": "નેપાળી"
-    },
-    "nl": {
-        "code": "nl",
-        "name": "ડચ"
-    },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "ફ્લેમિશ"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "ક્વાસિઓ"
-    },
-    "nn": {
-        "code": "nn",
-        "name": "નૉર્વેજીયન નાયનૉર્સ્ક"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "નુએર"
-    },
-    "nyn": {
-        "code": "nyn",
-        "name": "ન્યાનકોલ"
-    },
-    "or": {
-        "code": "or",
-        "name": "ઉડિયા"
-    },
-    "pa": {
-        "code": "pa",
-        "name": "પંજાબી"
-    },
-    "pl": {
-        "code": "pl",
-        "name": "પોલીશ"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "પશ્તો"
-    },
-    "pt": {
-        "code": "pt",
-        "name": "પોર્ટુગીઝ"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "બ્રાઝિલીયન પોર્ટુગીઝ"
-    },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "યુરોપિયન પોર્ટુગીઝ"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "ક્વેચુઆ"
-    },
-    "rm": {
-        "code": "rm",
-        "name": "રોમાન્શ"
-    },
-    "rn": {
-        "code": "rn",
-        "name": "રૂન્દી"
-    },
-    "ro": {
-        "code": "ro",
-        "name": "રોમાનિયન"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "મોલડાવિયન"
-    },
-    "rof": {
-        "code": "rof",
-        "name": "રોમ્બો"
-    },
-    "ru": {
-        "code": "ru",
-        "name": "રશિયન"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "રવા"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "સમ્બુરુ"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "સાંગુ"
-    },
-    "se": {
-        "code": "se",
-        "name": "ઉત્તરીય સામી"
-    },
-    "seh": {
-        "code": "seh",
-        "name": "સેના"
-    },
-    "ses": {
-        "code": "ses",
-        "name": "કોયરાબોરો સેન્ની"
-    },
-    "sg": {
-        "code": "sg",
-        "name": "સાંગો"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "તેશીલહિટ"
-    },
-    "si": {
-        "code": "si",
-        "name": "સિંહાલી"
-    },
-    "sk": {
-        "code": "sk",
-        "name": "સ્લોવૅક"
-    },
-    "sl": {
-        "code": "sl",
-        "name": "સ્લોવેનિયન"
-    },
-    "smn": {
-        "code": "smn",
-        "name": "ઇનારી સામી"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "શોના"
-    },
-    "so": {
-        "code": "so",
-        "name": "સોમાલી"
-    },
-    "sq": {
-        "code": "sq",
-        "name": "અલ્બેનિયન"
-    },
-    "sr": {
-        "code": "sr",
-        "name": "સર્બિયન"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "સ્વીડિશ"
-    },
-    "sw": {
-        "code": "sw",
-        "name": "સ્વાહિલી"
+    "en-CA": {
+        "code": "en-CA",
+        "name": "કેનેડિયન અંગ્રેજી"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "કેનેડિયન ફ્રેંચ"
     },
     "swc": {
         "code": "swc",
         "name": "કોંગો સ્વાહિલી"
     },
-    "ta": {
-        "code": "ta",
-        "name": "તમિલ"
+    "khq": {
+        "code": "khq",
+        "name": "કોયરા ચિનિ"
     },
-    "te": {
-        "code": "te",
-        "name": "તેલુગુ"
+    "ses": {
+        "code": "ses",
+        "name": "કોયરાબોરો સેન્ની"
     },
-    "teo": {
-        "code": "teo",
-        "name": "તેસો"
+    "ko": {
+        "code": "ko",
+        "name": "કોરિયન"
     },
-    "th": {
-        "code": "th",
-        "name": "થાઈ"
+    "hr": {
+        "code": "hr",
+        "name": "ક્રોએશિયન"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "ક્વાસિઓ"
+    },
+    "km": {
+        "code": "km",
+        "name": "ખ્મેર"
+    },
+    "lg": {
+        "code": "lg",
+        "name": "ગાંડા"
+    },
+    "gu": {
+        "code": "gu",
+        "name": "ગુજરાતી"
+    },
+    "guz": {
+        "code": "guz",
+        "name": "ગુસી"
+    },
+    "gl": {
+        "code": "gl",
+        "name": "ગેલિશિયન"
+    },
+    "el": {
+        "code": "el",
+        "name": "ગ્રીક"
+    },
+    "zh": {
+        "code": "zh",
+        "name": "ચાઇનીઝ"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "ચિગા"
+    },
+    "cs": {
+        "code": "cs",
+        "name": "ચેક"
+    },
+    "de": {
+        "code": "de",
+        "name": "જર્મન"
+    },
+    "ja": {
+        "code": "ja",
+        "name": "જાપાનીઝ"
+    },
+    "dyo": {
+        "code": "dyo",
+        "name": "જોલા-ફોન્યી"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "જ્યોર્જિઅન"
+    },
+    "dje": {
+        "code": "dje",
+        "name": "ઝર્મા"
+    },
+    "zu": {
+        "code": "zu",
+        "name": "ઝુલુ"
+    },
+    "tr": {
+        "code": "tr",
+        "name": "ટર્કીશ"
     },
     "ti": {
         "code": "ti",
@@ -671,33 +279,341 @@
         "code": "to",
         "name": "ટોંગાન"
     },
-    "tr": {
-        "code": "tr",
-        "name": "ટર્કીશ"
+    "nl": {
+        "code": "nl",
+        "name": "ડચ"
+    },
+    "da": {
+        "code": "da",
+        "name": "ડેનિશ"
+    },
+    "dz": {
+        "code": "dz",
+        "name": "ડ્ઝોંગ્ખા"
+    },
+    "ta": {
+        "code": "ta",
+        "name": "તમિલ"
     },
     "twq": {
         "code": "twq",
         "name": "તસાવાક"
     },
-    "tzm": {
-        "code": "tzm",
-        "name": "સેન્ટ્રલ ઍટ્લસ તામાઝિગ્ટ"
+    "bo": {
+        "code": "bo",
+        "name": "તિબેટીયન"
     },
-    "ug": {
-        "code": "ug",
-        "name": "ઉઇગુર"
+    "te": {
+        "code": "te",
+        "name": "તેલુગુ"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "તેશીલહિટ"
+    },
+    "teo": {
+        "code": "teo",
+        "name": "તેસો"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "તૈતા"
+    },
+    "th": {
+        "code": "th",
+        "name": "થાઈ"
+    },
+    "jgo": {
+        "code": "jgo",
+        "name": "નગોમ્બા"
+    },
+    "naq": {
+        "code": "naq",
+        "name": "નમા"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "નિમ્ન સોર્બિયન"
+    },
+    "nus": {
+        "code": "nus",
+        "name": "નુએર"
+    },
+    "ne": {
+        "code": "ne",
+        "name": "નેપાળી"
+    },
+    "nn": {
+        "code": "nn",
+        "name": "નૉર્વેજીયન નાયનૉર્સ્ક"
+    },
+    "nb": {
+        "code": "nb",
+        "name": "નોર્વેજીયન બોકમાલ"
+    },
+    "nyn": {
+        "code": "nyn",
+        "name": "ન્યાનકોલ"
+    },
+    "pa": {
+        "code": "pa",
+        "name": "પંજાબી"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "પશ્ચિમી ફ્રિશિયન"
+    },
+    "ps": {
+        "code": "ps",
+        "name": "પશ્તો"
+    },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "પારંપરિક ચાઇનીઝ"
+    },
+    "pt": {
+        "code": "pt",
+        "name": "પોર્ટુગીઝ"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "પોલીશ"
+    },
+    "zgh": {
+        "code": "zgh",
+        "name": "પ્રમાણભૂત મોરોક્કન ટમાઝિટ"
+    },
+    "fa": {
+        "code": "fa",
+        "name": "ફારસી"
+    },
+    "fi": {
+        "code": "fi",
+        "name": "ફિનિશ"
+    },
+    "fil": {
+        "code": "fil",
+        "name": "ફિલિપિનો"
+    },
+    "ff": {
+        "code": "ff",
+        "name": "ફુલાહ"
+    },
+    "fo": {
+        "code": "fo",
+        "name": "ફોરિસ્ત"
+    },
+    "fur": {
+        "code": "fur",
+        "name": "ફ્રિયુલિયાન"
+    },
+    "fr": {
+        "code": "fr",
+        "name": "ફ્રેન્ચ"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "ફ્લેમિશ"
+    },
+    "bn": {
+        "code": "bn",
+        "name": "બંગાળી"
+    },
+    "ksf": {
+        "code": "ksf",
+        "name": "બફિયા"
+    },
+    "my": {
+        "code": "my",
+        "name": "બર્મીઝ"
+    },
+    "bg": {
+        "code": "bg",
+        "name": "બલ્ગેરિયન"
+    },
+    "bas": {
+        "code": "bas",
+        "name": "બસા"
+    },
+    "bm": {
+        "code": "bm",
+        "name": "બામ્બારા"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "બાસ્ક"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "બેના"
+    },
+    "be": {
+        "code": "be",
+        "name": "બેલારુશિયન"
+    },
+    "brx": {
+        "code": "brx",
+        "name": "બોડો"
+    },
+    "bs": {
+        "code": "bs",
+        "name": "બોસ્નિયન"
+    },
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "બ્રાઝિલીયન પોર્ટુગીઝ"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "બ્રિટિશ અંગ્રેજી"
+    },
+    "br": {
+        "code": "br",
+        "name": "બ્રેટોન"
+    },
+    "jmc": {
+        "code": "jmc",
+        "name": "મકામે"
+    },
+    "kde": {
+        "code": "kde",
+        "name": "મકોન્ડે"
+    },
+    "mr": {
+        "code": "mr",
+        "name": "મરાઠી"
+    },
+    "ms": {
+        "code": "ms",
+        "name": "મલય"
+    },
+    "ml": {
+        "code": "ml",
+        "name": "મલયાલમ"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "મલાગસી"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "મસાઇ"
+    },
+    "mgh": {
+        "code": "mgh",
+        "name": "માખુવા-મીટ્ટુ"
+    },
+    "mt": {
+        "code": "mt",
+        "name": "માલ્ટિઝ"
+    },
+    "mua": {
+        "code": "mua",
+        "name": "મુનડાન્ગ"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "મેક્સિકન સ્પેનિશ"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "મેરુ"
+    },
+    "mk": {
+        "code": "mk",
+        "name": "મેસેડોનિયન"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "મોંગોલિયન"
+    },
+    "ar-001": {
+        "code": "ar-001",
+        "name": "મોડર્ન સ્ટાન્ડર્ડ અરબી"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "મોરીસ્યેન"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "મોલડાવિયન"
     },
     "uk": {
         "code": "uk",
         "name": "યુક્રેનિયન"
     },
-    "ur": {
-        "code": "ur",
-        "name": "ઉર્દૂ"
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "યુરોપિયન પોર્ટુગીઝ"
     },
-    "uz": {
-        "code": "uz",
-        "name": "ઉઝ્બેક"
+    "es-ES": {
+        "code": "es-ES",
+        "name": "યુરોપિયન સ્પેનિશ"
+    },
+    "yo": {
+        "code": "yo",
+        "name": "યોરૂબા"
+    },
+    "rwk": {
+        "code": "rwk",
+        "name": "રવા"
+    },
+    "ru": {
+        "code": "ru",
+        "name": "રશિયન"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "રૂન્દી"
+    },
+    "ro": {
+        "code": "ro",
+        "name": "રોમાનિયન"
+    },
+    "rm": {
+        "code": "rm",
+        "name": "રોમાન્શ"
+    },
+    "rof": {
+        "code": "rof",
+        "name": "રોમ્બો"
+    },
+    "lag": {
+        "code": "lag",
+        "name": "લંગી"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "લક્ઝેમબર્ગિશ"
+    },
+    "lo": {
+        "code": "lo",
+        "name": "લાઓથિયન"
+    },
+    "lv": {
+        "code": "lv",
+        "name": "લાતવિયન"
+    },
+    "ln": {
+        "code": "ln",
+        "name": "લિંગાલા"
+    },
+    "lt": {
+        "code": "lt",
+        "name": "લિથુનિયન"
+    },
+    "luy": {
+        "code": "luy",
+        "name": "લુઈયા"
+    },
+    "luo": {
+        "code": "luo",
+        "name": "લ્યુઓ"
+    },
+    "lu": {
+        "code": "lu",
+        "name": "લ્યૂબા કટાંગા"
     },
     "vai": {
         "code": "vai",
@@ -711,44 +627,112 @@
         "code": "vun",
         "name": "વુન્જો"
     },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
+    "cy": {
+        "code": "cy",
+        "name": "વેલ્શ"
     },
-    "xog": {
-        "code": "xog",
-        "name": "સોગા"
+    "ksb": {
+        "code": "ksb",
+        "name": "શમ્બાલા"
     },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
+    "chr": {
+        "code": "chr",
+        "name": "શેરોકી"
     },
-    "yi": {
-        "code": "yi",
-        "name": "યિદ્દિશ"
+    "sn": {
+        "code": "sn",
+        "name": "શોના"
     },
-    "yo": {
-        "code": "yo",
-        "name": "યોરૂબા"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "પ્રમાણભૂત મોરોક્કન ટમાઝિટ"
-    },
-    "zh": {
-        "code": "zh",
-        "name": "ચાઇનીઝ"
+    "saq": {
+        "code": "saq",
+        "name": "સમ્બુરુ"
     },
     "zh-Hans": {
         "code": "zh-Hans",
         "name": "સરળીકૃત ચાઇનીઝ"
     },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "પારંપરિક ચાઇનીઝ"
+    "sr": {
+        "code": "sr",
+        "name": "સર્બિયન"
     },
-    "zu": {
-        "code": "zu",
-        "name": "ઝુલુ"
+    "sbp": {
+        "code": "sbp",
+        "name": "સાંગુ"
+    },
+    "sg": {
+        "code": "sg",
+        "name": "સાંગો"
+    },
+    "si": {
+        "code": "si",
+        "name": "સિંહાલી"
+    },
+    "seh": {
+        "code": "seh",
+        "name": "સેના"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "સેન્ટ્રલ ઍટ્લસ તામાઝિગ્ટ"
+    },
+    "xog": {
+        "code": "xog",
+        "name": "સોગા"
+    },
+    "so": {
+        "code": "so",
+        "name": "સોમાલી"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "સ્કોટ્સ ગેલિક"
+    },
+    "es": {
+        "code": "es",
+        "name": "સ્પેનિશ"
+    },
+    "sk": {
+        "code": "sk",
+        "name": "સ્લોવૅક"
+    },
+    "sl": {
+        "code": "sl",
+        "name": "સ્લોવેનિયન"
+    },
+    "sw": {
+        "code": "sw",
+        "name": "સ્વાહિલી"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "સ્વિસ જર્મન"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "સ્વિસ ફ્રેંચ"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "સ્વિસ હાય જર્મન"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "સ્વીડિશ"
+    },
+    "hu": {
+        "code": "hu",
+        "name": "હંગેરિયન"
+    },
+    "hi": {
+        "code": "hi",
+        "name": "હિન્દી"
+    },
+    "he": {
+        "code": "he",
+        "name": "હીબ્રુ"
+    },
+    "ha": {
+        "code": "ha",
+        "name": "હૌસા"
     }
 }

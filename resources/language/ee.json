@@ -7,21 +7,25 @@
         "code": "agq",
         "name": "aghemgbe"
     },
-    "ak": {
-        "code": "ak",
-        "name": "blugbe"
+    "sq": {
+        "code": "sq",
+        "name": "albaniagbe"
     },
     "am": {
         "code": "am",
         "name": "amhariagbe"
     },
+    "ar-001": {
+        "code": "ar-001",
+        "name": "ar_001"
+    },
     "ar": {
         "code": "ar",
         "name": "arabiagbe"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "ar_001"
+    "hy": {
+        "code": "hy",
+        "name": "armeniagbe"
     },
     "asa": {
         "code": "asa",
@@ -31,13 +35,33 @@
         "code": "ast",
         "name": "asturiagbe"
     },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "australiatɔwo ƒe yevugbe"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "austriatɔwo ƒe germaniagbe"
+    },
     "az": {
         "code": "az",
         "name": "azerbaijangbe"
     },
+    "ksf": {
+        "code": "ksf",
+        "name": "bafiagbe"
+    },
+    "bm": {
+        "code": "bm",
+        "name": "bambaragbe"
+    },
     "bas": {
         "code": "bas",
         "name": "basaagbe"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "basqugbe"
     },
     "be": {
         "code": "be",
@@ -47,25 +71,17 @@
         "code": "bez",
         "name": "benagbe"
     },
-    "bg": {
-        "code": "bg",
-        "name": "bulgariagbe"
-    },
-    "bm": {
-        "code": "bm",
-        "name": "bambaragbe"
-    },
     "bn": {
         "code": "bn",
         "name": "bengalgbe"
     },
-    "bo": {
-        "code": "bo",
-        "name": "tibetagbe"
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "blema tsainagbe"
     },
-    "br": {
-        "code": "br",
-        "name": "bretongbe"
+    "ak": {
+        "code": "ak",
+        "name": "blugbe"
     },
     "brx": {
         "code": "brx",
@@ -75,53 +91,65 @@
         "code": "bs",
         "name": "bosniagbe"
     },
-    "ca": {
-        "code": "ca",
-        "name": "katalagbe"
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "braziltɔwo ƒe portugalgbe"
     },
-    "cgg": {
-        "code": "cgg",
-        "name": "Chiga"
+    "br": {
+        "code": "br",
+        "name": "bretongbe"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "britaintɔwo ƒe yevugbe"
+    },
+    "bg": {
+        "code": "bg",
+        "name": "bulgariagbe"
+    },
+    "my": {
+        "code": "my",
+        "name": "burmagbe"
+    },
+    "kea": {
+        "code": "kea",
+        "name": "cape verdegbe"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "Central Atlas Tamazight"
     },
     "chr": {
         "code": "chr",
         "name": "Cherokee"
     },
-    "cs": {
-        "code": "cs",
-        "name": "tsɛkgbe"
+    "cgg": {
+        "code": "cgg",
+        "name": "Chiga"
     },
-    "cy": {
-        "code": "cy",
-        "name": "walesgbe"
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
+    },
+    "swc": {
+        "code": "swc",
+        "name": "Congo Swahili"
     },
     "da": {
         "code": "da",
         "name": "denmarkgbe"
     },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
+    "ja": {
+        "code": "ja",
+        "name": "dzapangbe"
     },
-    "de": {
-        "code": "de",
-        "name": "germaniagbe"
+    "nd": {
+        "code": "nd",
+        "name": "dziehe ndebelegbe"
     },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "austriatɔwo ƒe germaniagbe"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "swizerlanɖ germaniagbe kɔkɔtɔ"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "zamagbe"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "Lower Sorbian"
+    "se": {
+        "code": "se",
+        "name": "dziehe samigbe"
     },
     "dyo": {
         "code": "dyo",
@@ -135,121 +163,73 @@
         "code": "ebu",
         "name": "embugbe"
     },
-    "ee": {
-        "code": "ee",
-        "name": "eʋegbe"
-    },
-    "el": {
-        "code": "el",
-        "name": "grisigbe"
-    },
-    "en": {
-        "code": "en",
-        "name": "yevugbe"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "australiatɔwo ƒe yevugbe"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "kanadatɔwo ƒe yevugbe"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "britaintɔwo ƒe yevugbe"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "u.s.dukɔmetɔwo ƒe yevugbe"
+    "es-MX": {
+        "code": "es-MX",
+        "name": "es_MX"
     },
     "eo": {
         "code": "eo",
         "name": "esperantogbe"
     },
-    "es": {
-        "code": "es",
-        "name": "spaniagbe"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "latin amerikatɔwo ƒe spaniagbe"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "iberiatɔwo ƒe spaniagbe"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "es_MX"
-    },
     "et": {
         "code": "et",
         "name": "estoniagbe"
     },
-    "eu": {
-        "code": "eu",
-        "name": "basqugbe"
+    "ee": {
+        "code": "ee",
+        "name": "eʋegbe"
     },
     "ewo": {
         "code": "ewo",
         "name": "ewondogbe"
     },
-    "fa": {
-        "code": "fa",
-        "name": "persiagbe"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "fulagbe"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "finlanɖgbe"
+    "fo": {
+        "code": "fo",
+        "name": "faroegbe"
     },
     "fil": {
         "code": "fil",
         "name": "filipingbe"
     },
-    "fo": {
-        "code": "fo",
-        "name": "faroegbe"
+    "fi": {
+        "code": "fi",
+        "name": "finlanɖgbe"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "flemiagbe"
     },
     "fr": {
         "code": "fr",
         "name": "fransegbe"
     },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "kanadatɔwo ƒe fransegbe"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "swizerlanɖtɔwo ƒe fransegbe"
-    },
     "fur": {
         "code": "fur",
         "name": "Friulian"
     },
-    "fy": {
-        "code": "fy",
-        "name": "ɣetoɖoƒe frisiagbe"
-    },
-    "ga": {
-        "code": "ga",
-        "name": "irelanɖgbe"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "skɔtlanɖ gaeliagbe"
+    "ff": {
+        "code": "ff",
+        "name": "fulagbe"
     },
     "gl": {
         "code": "gl",
         "name": "galatagbe"
     },
-    "gsw": {
-        "code": "gsw",
-        "name": "swizerlanɖtɔwo ƒe germaniagbe"
+    "lg": {
+        "code": "lg",
+        "name": "Ganda"
+    },
+    "de": {
+        "code": "de",
+        "name": "germaniagbe"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "gɔgiagbe"
+    },
+    "el": {
+        "code": "el",
+        "name": "grisigbe"
     },
     "gu": {
         "code": "gu",
@@ -258,6 +238,10 @@
     "guz": {
         "code": "guz",
         "name": "Gusii"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "ɣetoɖoƒe frisiagbe"
     },
     "ha": {
         "code": "ha",
@@ -271,77 +255,41 @@
         "code": "hi",
         "name": "hindigbe"
     },
-    "hr": {
-        "code": "hr",
-        "name": "kroatiagbe"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "Upper Sorbian"
+    "nl": {
+        "code": "nl",
+        "name": "hɔlandgbe"
     },
     "hu": {
         "code": "hu",
         "name": "hungarigbe"
     },
-    "hy": {
-        "code": "hy",
-        "name": "armeniagbe"
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "iberiatɔwo ƒe portugalgbe"
     },
-    "id": {
-        "code": "id",
-        "name": "indonesiagbe"
+    "es-ES": {
+        "code": "es-ES",
+        "name": "iberiatɔwo ƒe spaniagbe"
     },
     "is": {
         "code": "is",
         "name": "icelanɖgbe"
     },
+    "id": {
+        "code": "id",
+        "name": "indonesiagbe"
+    },
+    "ga": {
+        "code": "ga",
+        "name": "irelanɖgbe"
+    },
     "it": {
         "code": "it",
         "name": "italiagbe"
     },
-    "ja": {
-        "code": "ja",
-        "name": "dzapangbe"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "gɔgiagbe"
-    },
     "kab": {
         "code": "kab",
         "name": "Kabyle"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "Kamba"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
-    },
-    "kea": {
-        "code": "kea",
-        "name": "cape verdegbe"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "Koyra Chiini"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "kazakhstangbe"
     },
     "kl": {
         "code": "kl",
@@ -351,61 +299,97 @@
         "code": "kln",
         "name": "Kalenjin"
     },
-    "km": {
-        "code": "km",
-        "name": "khmergbe"
+    "kam": {
+        "code": "kam",
+        "name": "Kamba"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "kanadatɔwo ƒe fransegbe"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "kanadatɔwo ƒe yevugbe"
     },
     "kn": {
         "code": "kn",
         "name": "kannadagbe"
     },
-    "ko": {
-        "code": "ko",
-        "name": "koreagbe"
-    },
     "ks": {
         "code": "ks",
         "name": "kashmirgbe"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
+    "ca": {
+        "code": "ca",
+        "name": "katalagbe"
     },
-    "ksf": {
-        "code": "ksf",
-        "name": "bafiagbe"
+    "kk": {
+        "code": "kk",
+        "name": "kazakhstangbe"
     },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
+    "km": {
+        "code": "km",
+        "name": "khmergbe"
+    },
+    "ki": {
+        "code": "ki",
+        "name": "Kikuyu"
+    },
+    "zh": {
+        "code": "zh",
+        "name": "kinagbe"
     },
     "ky": {
         "code": "ky",
         "name": "kirghistangbe"
     },
-    "lag": {
-        "code": "lag",
-        "name": "Langi"
+    "ko": {
+        "code": "ko",
+        "name": "koreagbe"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "Koyra Chiini"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "Koyraboro Senni"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "kroatiagbe"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "kwasiogbe"
     },
     "lb": {
         "code": "lb",
         "name": "laksembɔggbe"
     },
-    "lg": {
-        "code": "lg",
-        "name": "Ganda"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "lingala"
+    "lag": {
+        "code": "lag",
+        "name": "Langi"
     },
     "lo": {
         "code": "lo",
         "name": "laogbe"
     },
+    "lv": {
+        "code": "lv",
+        "name": "latviagbe"
+    },
+    "ln": {
+        "code": "ln",
+        "name": "lingala"
+    },
     "lt": {
         "code": "lt",
         "name": "lithuaniagbe"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "Lower Sorbian"
     },
     "lu": {
         "code": "lu",
@@ -419,45 +403,29 @@
         "code": "luy",
         "name": "luyiagbe"
     },
-    "lv": {
-        "code": "lv",
-        "name": "latviagbe"
-    },
-    "mas": {
-        "code": "mas",
-        "name": "Masai"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "Morisyen"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "malagasegbe"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "makuwa-mitogbe"
+    "jmc": {
+        "code": "jmc",
+        "name": "Machame"
     },
     "mk": {
         "code": "mk",
         "name": "makedoniagbe"
     },
+    "kde": {
+        "code": "kde",
+        "name": "Makonde"
+    },
+    "mgh": {
+        "code": "mgh",
+        "name": "makuwa-mitogbe"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "malagasegbe"
+    },
     "ml": {
         "code": "ml",
         "name": "malayagbe"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "mongoliagbe"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "marathiagbe"
     },
     "ms": {
         "code": "ms",
@@ -467,41 +435,45 @@
         "code": "mt",
         "name": "maltagbe"
     },
+    "mr": {
+        "code": "mr",
+        "name": "marathiagbe"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "Masai"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "Meru"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "mongoliagbe"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "Morisyen"
+    },
     "mua": {
         "code": "mua",
         "name": "mundangbe"
-    },
-    "my": {
-        "code": "my",
-        "name": "burmagbe"
     },
     "naq": {
         "code": "naq",
         "name": "Nama"
     },
-    "nb": {
-        "code": "nb",
-        "name": "nɔweigbe bokmål"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "dziehe ndebelegbe"
-    },
     "ne": {
         "code": "ne",
         "name": "nepalgbe"
     },
-    "nl": {
-        "code": "nl",
-        "name": "hɔlandgbe"
+    "jgo": {
+        "code": "jgo",
+        "name": "Ngomba"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "flemiagbe"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "kwasiogbe"
+    "nb": {
+        "code": "nb",
+        "name": "nɔweigbe bokmål"
     },
     "nn": {
         "code": "nn",
@@ -519,49 +491,37 @@
         "code": "or",
         "name": "oriyagbe"
     },
-    "pa": {
-        "code": "pa",
-        "name": "pundzabgbe"
+    "ps": {
+        "code": "ps",
+        "name": "pashtogbe"
+    },
+    "fa": {
+        "code": "fa",
+        "name": "persiagbe"
     },
     "pl": {
         "code": "pl",
         "name": "polandgbe"
     },
-    "ps": {
-        "code": "ps",
-        "name": "pashtogbe"
-    },
     "pt": {
         "code": "pt",
         "name": "pɔtugalgbe"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "braziltɔwo ƒe portugalgbe"
+    "pa": {
+        "code": "pa",
+        "name": "pundzabgbe"
     },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "iberiatɔwo ƒe portugalgbe"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "kwetsuagbe"
-    },
-    "rm": {
-        "code": "rm",
-        "name": "romanshgbe"
-    },
-    "rn": {
-        "code": "rn",
-        "name": "rundigbe"
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "ro_MD"
     },
     "ro": {
         "code": "ro",
         "name": "romaniagbe"
     },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "ro_MD"
+    "rm": {
+        "code": "rm",
+        "name": "romanshgbe"
     },
     "rof": {
         "code": "rof",
@@ -571,6 +531,10 @@
         "code": "ru",
         "name": "rɔtsiagbe"
     },
+    "rn": {
+        "code": "rn",
+        "name": "rundigbe"
+    },
     "rwk": {
         "code": "rwk",
         "name": "rwagbe"
@@ -579,33 +543,37 @@
         "code": "saq",
         "name": "Samburu"
     },
+    "sg": {
+        "code": "sg",
+        "name": "sangogbe"
+    },
     "sbp": {
         "code": "sbp",
         "name": "sangugbe"
-    },
-    "se": {
-        "code": "se",
-        "name": "dziehe samigbe"
     },
     "seh": {
         "code": "seh",
         "name": "Sena"
     },
-    "ses": {
-        "code": "ses",
-        "name": "Koyraboro Senni"
+    "sr": {
+        "code": "sr",
+        "name": "serbiagbe"
     },
-    "sg": {
-        "code": "sg",
-        "name": "sangogbe"
+    "ksb": {
+        "code": "ksb",
+        "name": "Shambala"
     },
-    "shi": {
-        "code": "shi",
-        "name": "Tachelhit"
+    "sn": {
+        "code": "sn",
+        "name": "shonagbe"
     },
     "si": {
         "code": "si",
         "name": "sinhalgbe"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "skɔtlanɖ gaeliagbe"
     },
     "sk": {
         "code": "sk",
@@ -615,41 +583,61 @@
         "code": "sl",
         "name": "sloveniagbe"
     },
-    "smn": {
-        "code": "smn",
-        "name": "Inari Sami"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "shonagbe"
+    "xog": {
+        "code": "xog",
+        "name": "Soga"
     },
     "so": {
         "code": "so",
         "name": "somaliagbe"
     },
-    "sq": {
-        "code": "sq",
-        "name": "albaniagbe"
+    "es": {
+        "code": "es",
+        "name": "spaniagbe"
     },
-    "sr": {
-        "code": "sr",
-        "name": "serbiagbe"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "swedengbe"
+    "zgh": {
+        "code": "zgh",
+        "name": "Standard Moroccan Tamazight"
     },
     "sw": {
         "code": "sw",
         "name": "swahili"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Congo Swahili"
+    "sv": {
+        "code": "sv",
+        "name": "swedengbe"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "swizerlanɖ germaniagbe kɔkɔtɔ"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "swizerlanɖtɔwo ƒe fransegbe"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "swizerlanɖtɔwo ƒe germaniagbe"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "Tachelhit"
+    },
+    "th": {
+        "code": "th",
+        "name": "tailandgbe"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "Taita"
     },
     "ta": {
         "code": "ta",
         "name": "tamilgbe"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "tasawakgbe"
     },
     "te": {
         "code": "te",
@@ -659,9 +647,13 @@
         "code": "teo",
         "name": "Teso"
     },
-    "th": {
-        "code": "th",
-        "name": "tailandgbe"
+    "tr": {
+        "code": "tr",
+        "name": "tɛkigbe"
+    },
+    "bo": {
+        "code": "bo",
+        "name": "tibetagbe"
     },
     "ti": {
         "code": "ti",
@@ -671,17 +663,17 @@
         "code": "to",
         "name": "tongagbe"
     },
-    "tr": {
-        "code": "tr",
-        "name": "tɛkigbe"
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "tsainagbe"
     },
-    "twq": {
-        "code": "twq",
-        "name": "tasawakgbe"
+    "cs": {
+        "code": "cs",
+        "name": "tsɛkgbe"
     },
-    "tzm": {
-        "code": "tzm",
-        "name": "Central Atlas Tamazight"
+    "en-US": {
+        "code": "en-US",
+        "name": "u.s.dukɔmetɔwo ƒe yevugbe"
     },
     "ug": {
         "code": "ug",
@@ -690,6 +682,10 @@
     "uk": {
         "code": "uk",
         "name": "ukraingbe"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "Upper Sorbian"
     },
     "ur": {
         "code": "ur",
@@ -711,41 +707,29 @@
         "code": "vun",
         "name": "Vunjo"
     },
+    "cy": {
+        "code": "cy",
+        "name": "walesgbe"
+    },
     "wae": {
         "code": "wae",
         "name": "walsegbe"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
     },
     "yav": {
         "code": "yav",
         "name": "yangbengbe"
     },
-    "yi": {
-        "code": "yi",
-        "name": "Yiddish"
+    "en": {
+        "code": "en",
+        "name": "yevugbe"
     },
     "yo": {
         "code": "yo",
         "name": "yorubagbe"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "Standard Moroccan Tamazight"
-    },
-    "zh": {
-        "code": "zh",
-        "name": "kinagbe"
-    },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "tsainagbe"
-    },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "blema tsainagbe"
+    "dje": {
+        "code": "dje",
+        "name": "zamagbe"
     },
     "zu": {
         "code": "zu",

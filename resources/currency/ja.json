@@ -1,11 +1,43 @@
 {
-    "AED": {
-        "name": "アラブ首長国連邦ディルハム",
-        "symbol": "AED"
+    "XOF": {
+        "name": "CFA フラン（BCEAO）",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "CFA フラン（BEAC）",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "CFP フラン",
+        "symbol": "CFPF"
+    },
+    "ISK": {
+        "name": "アイスランド クローナ",
+        "symbol": "ISK"
+    },
+    "AZN": {
+        "name": "アゼルバイジャン マナト",
+        "symbol": "AZN"
     },
     "AFN": {
         "name": "アフガニー",
         "symbol": "AFN"
+    },
+    "AED": {
+        "name": "アラブ首長国連邦ディルハム",
+        "symbol": "AED"
+    },
+    "DZD": {
+        "name": "アルジェリア ディナール",
+        "symbol": "DZD"
+    },
+    "ARS": {
+        "name": "アルゼンチン ペソ",
+        "symbol": "ARS"
+    },
+    "AWG": {
+        "name": "アルバ ギルダー",
+        "symbol": "AWG"
     },
     "ALL": {
         "name": "アルバニア レク",
@@ -15,237 +47,13 @@
         "name": "アルメニア ドラム",
         "symbol": "AMD"
     },
-    "ANG": {
-        "name": "オランダ領アンティル ギルダー",
-        "symbol": "ANG"
-    },
-    "AOA": {
-        "name": "クワンザ",
-        "symbol": "AOA"
-    },
-    "ARS": {
-        "name": "アルゼンチン ペソ",
-        "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "オーストラリア ドル",
-        "symbol": "AU$"
-    },
-    "AWG": {
-        "name": "アルバ ギルダー",
-        "symbol": "AWG"
-    },
-    "AZN": {
-        "name": "アゼルバイジャン マナト",
-        "symbol": "AZN"
-    },
-    "BAM": {
-        "name": "ボスニア マルク (BAM)",
-        "symbol": "BAM"
-    },
-    "BBD": {
-        "name": "バルバドス ドル",
-        "symbol": "BBD"
-    },
-    "BDT": {
-        "name": "バングラデシュ タカ",
-        "symbol": "BDT"
-    },
-    "BGN": {
-        "name": "ブルガリア 新レフ",
-        "symbol": "BGN"
-    },
-    "BHD": {
-        "name": "バーレーン ディナール",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "ブルンジ フラン",
-        "symbol": "BIF"
-    },
-    "BMD": {
-        "name": "バミューダ ドル",
-        "symbol": "BMD"
-    },
-    "BND": {
-        "name": "ブルネイ ドル",
-        "symbol": "BND"
-    },
-    "BOB": {
-        "name": "ボリビア ボリビアーノ",
-        "symbol": "BOB"
-    },
-    "BRL": {
-        "name": "ブラジル レアル",
-        "symbol": "R$"
-    },
-    "BSD": {
-        "name": "バハマ ドル",
-        "symbol": "BSD"
-    },
-    "BTN": {
-        "name": "ブータン ニュルタム",
-        "symbol": "BTN"
-    },
-    "BWP": {
-        "name": "ボツワナ プラ",
-        "symbol": "BWP"
-    },
-    "BYR": {
-        "name": "ベラルーシ ルーブル",
-        "symbol": "BYR"
-    },
-    "BZD": {
-        "name": "ベリーズ ドル",
-        "symbol": "BZD"
-    },
-    "CAD": {
-        "name": "カナダ ドル",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "コンゴ フラン",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "スイス フラン",
-        "symbol": "CHF"
-    },
-    "CLP": {
-        "name": "チリ ペソ",
-        "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "中国人民元",
-        "symbol": "元"
-    },
-    "COP": {
-        "name": "コロンビア ペソ",
-        "symbol": "COP"
-    },
-    "CRC": {
-        "name": "コスタリカ コロン",
-        "symbol": "CRC"
-    },
-    "CUC": {
-        "name": "キューバ 兌換ペソ",
-        "symbol": "CUC"
-    },
-    "CUP": {
-        "name": "キューバ ペソ",
-        "symbol": "CUP"
-    },
-    "CVE": {
-        "name": "カーボベルデ エスクード",
-        "symbol": "CVE"
-    },
-    "CZK": {
-        "name": "チェコ コルナ",
-        "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "ジブチ フラン",
-        "symbol": "DJF"
-    },
-    "DKK": {
-        "name": "デンマーク クローネ",
-        "symbol": "DKK"
-    },
-    "DOP": {
-        "name": "ドミニカ ペソ",
-        "symbol": "DOP"
-    },
-    "DZD": {
-        "name": "アルジェリア ディナール",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "エジプト ポンド",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "エリトリア ナクファ",
-        "symbol": "ERN"
-    },
-    "ETB": {
-        "name": "エチオピア ブル",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "ユーロ",
-        "symbol": "€"
-    },
-    "FJD": {
-        "name": "フィジー諸島 ドル",
-        "symbol": "FJD"
-    },
-    "FKP": {
-        "name": "フォークランド（マルビナス）諸島 ポンド",
-        "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "英国ポンド",
-        "symbol": "£"
-    },
-    "GEL": {
-        "name": "グルジア ラリ",
-        "symbol": "GEL"
-    },
-    "GHS": {
-        "name": "ガーナ セディ",
-        "symbol": "GHS"
-    },
-    "GIP": {
-        "name": "ジブラルタル ポンド",
-        "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "ガンビア ダラシ",
-        "symbol": "GMD"
-    },
-    "GNF": {
-        "name": "ギニア フラン",
-        "symbol": "GNF"
-    },
-    "GTQ": {
-        "name": "グアテマラ ケツァル",
-        "symbol": "GTQ"
-    },
-    "GYD": {
-        "name": "ガイアナ ドル",
-        "symbol": "GYD"
-    },
-    "HKD": {
-        "name": "香港ドル",
-        "symbol": "HK$"
-    },
-    "HNL": {
-        "name": "ホンジュラス レンピラ",
-        "symbol": "HNL"
-    },
-    "HRK": {
-        "name": "クロアチア クーナ",
-        "symbol": "HRK"
-    },
-    "HTG": {
-        "name": "ハイチ グールド",
-        "symbol": "HTG"
-    },
-    "HUF": {
-        "name": "ハンガリー フォリント",
-        "symbol": "HUF"
-    },
-    "IDR": {
-        "name": "インドネシア ルピア",
-        "symbol": "IDR"
+    "YER": {
+        "name": "イエメン リアル",
+        "symbol": "YER"
     },
     "ILS": {
         "name": "イスラエル新シェケル",
         "symbol": "₪"
-    },
-    "INR": {
-        "name": "インド ルピー",
-        "symbol": "₹"
     },
     "IQD": {
         "name": "イラク ディナール",
@@ -255,277 +63,233 @@
         "name": "イラン リアル",
         "symbol": "IRR"
     },
-    "ISK": {
-        "name": "アイスランド クローナ",
-        "symbol": "ISK"
-    },
-    "JMD": {
-        "name": "ジャマイカ ドル",
-        "symbol": "JMD"
-    },
-    "JOD": {
-        "name": "ヨルダン ディナール",
-        "symbol": "JOD"
-    },
-    "JPY": {
-        "name": "日本円",
-        "symbol": "￥"
-    },
-    "KES": {
-        "name": "ケニア シリング",
-        "symbol": "KES"
-    },
-    "KGS": {
-        "name": "キルギスタン ソム",
-        "symbol": "KGS"
-    },
-    "KHR": {
-        "name": "カンボジア リエル",
-        "symbol": "KHR"
-    },
-    "KMF": {
-        "name": "コモロ フラン",
-        "symbol": "KMF"
-    },
-    "KPW": {
-        "name": "北朝鮮 ウォン",
-        "symbol": "KPW"
-    },
-    "KRW": {
-        "name": "韓国 ウォン",
-        "symbol": "￦"
-    },
-    "KWD": {
-        "name": "クウェート ディナール",
-        "symbol": "KWD"
-    },
-    "KYD": {
-        "name": "ケイマン諸島 ドル",
-        "symbol": "KYD"
-    },
-    "KZT": {
-        "name": "カザフスタン テンゲ",
-        "symbol": "KZT"
-    },
-    "LAK": {
-        "name": "ラオス キープ",
-        "symbol": "LAK"
-    },
-    "LBP": {
-        "name": "レバノン ポンド",
-        "symbol": "LBP"
-    },
-    "LKR": {
-        "name": "スリランカ ルピー",
-        "symbol": "LKR"
-    },
-    "LRD": {
-        "name": "リベリア ドル",
-        "symbol": "LRD"
-    },
-    "LSL": {
-        "name": "レソト ロティ",
-        "symbol": "LSL"
-    },
-    "LTL": {
-        "name": "リトアニア リタス",
-        "symbol": "LTL"
-    },
-    "LYD": {
-        "name": "リビア ディナール",
-        "symbol": "LYD"
-    },
-    "MAD": {
-        "name": "モロッコ ディルハム",
-        "symbol": "MAD"
-    },
-    "MDL": {
-        "name": "モルドバ レイ",
-        "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "マダガスカル アリアリ",
-        "symbol": "MGA"
-    },
-    "MKD": {
-        "name": "マケドニア デナル",
-        "symbol": "MKD"
-    },
-    "MMK": {
-        "name": "ミャンマー チャット",
-        "symbol": "MMK"
-    },
-    "MNT": {
-        "name": "モンゴル トグログ",
-        "symbol": "MNT"
-    },
-    "MOP": {
-        "name": "マカオ パタカ",
-        "symbol": "MOP"
-    },
-    "MRO": {
-        "name": "モーリタニア ウギア",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "モーリシャス ルピー",
-        "symbol": "MUR"
-    },
-    "MVR": {
-        "name": "モルディブ諸島 ルフィア",
-        "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "マラウィ クワチャ",
-        "symbol": "MWK"
-    },
-    "MXN": {
-        "name": "メキシコ ペソ",
-        "symbol": "MX$"
-    },
-    "MYR": {
-        "name": "マレーシア リンギット",
-        "symbol": "MYR"
-    },
-    "MZN": {
-        "name": "モザンビーク メティカル",
-        "symbol": "MZN"
-    },
-    "NAD": {
-        "name": "ナミビア ドル",
-        "symbol": "NAD"
-    },
-    "NGN": {
-        "name": "ナイジェリア ナイラ",
-        "symbol": "NGN"
-    },
-    "NIO": {
-        "name": "ニカラグア コルドバ オロ",
-        "symbol": "NIO"
-    },
-    "NOK": {
-        "name": "ノルウェー クローネ",
-        "symbol": "NOK"
-    },
-    "NPR": {
-        "name": "ネパール ルピー",
-        "symbol": "NPR"
-    },
-    "NZD": {
-        "name": "ニュージーランド ドル",
-        "symbol": "NZ$"
-    },
-    "OMR": {
-        "name": "オマーン リアル",
-        "symbol": "OMR"
-    },
-    "PAB": {
-        "name": "パナマ バルボア",
-        "symbol": "PAB"
-    },
-    "PEN": {
-        "name": "ペルー 新ソル",
-        "symbol": "PEN"
-    },
-    "PGK": {
-        "name": "パプアニューギニア キナ",
-        "symbol": "PGK"
-    },
-    "PHP": {
-        "name": "フィリピン ペソ",
-        "symbol": "PHP"
-    },
-    "PKR": {
-        "name": "パキスタン ルピー",
-        "symbol": "PKR"
-    },
-    "PLN": {
-        "name": "ポーランド ズウォティ",
-        "symbol": "PLN"
-    },
-    "PYG": {
-        "name": "パラグアイ グアラニ",
-        "symbol": "PYG"
-    },
-    "QAR": {
-        "name": "カタール リアル",
-        "symbol": "QAR"
-    },
-    "RON": {
-        "name": "ルーマニア レイ",
-        "symbol": "RON"
-    },
-    "RSD": {
-        "name": "ディナール (セルビア)",
-        "symbol": "RSD"
-    },
-    "RUB": {
-        "name": "ロシア ルーブル",
-        "symbol": "RUB"
-    },
-    "RWF": {
-        "name": "ルワンダ フラン",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "サウジ リヤル",
-        "symbol": "SAR"
-    },
-    "SBD": {
-        "name": "ソロモン諸島 ドル",
-        "symbol": "SBD"
-    },
-    "SCR": {
-        "name": "セーシェル ルピー",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "スーダン ポンド",
-        "symbol": "SDG"
-    },
-    "SEK": {
-        "name": "スウェーデン クローナ",
-        "symbol": "SEK"
-    },
-    "SGD": {
-        "name": "シンガポール ドル",
-        "symbol": "SGD"
-    },
-    "SHP": {
-        "name": "セントヘレナ島 ポンド",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "シエラレオネ レオン",
-        "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "ソマリア シリング",
-        "symbol": "SOS"
-    },
-    "SRD": {
-        "name": "スリナム ドル",
-        "symbol": "SRD"
-    },
-    "SSP": {
-        "name": "南スーダン・ポンド",
-        "symbol": "SSP"
-    },
-    "STD": {
-        "name": "サントメ・プリンシペ ドブラ",
-        "symbol": "STD"
+    "INR": {
+        "name": "インド ルピー",
+        "symbol": "₹"
+    },
+    "IDR": {
+        "name": "インドネシア ルピア",
+        "symbol": "IDR"
+    },
+    "UGX": {
+        "name": "ウガンダ シリング",
+        "symbol": "UGX"
+    },
+    "UAH": {
+        "name": "ウクライナ グリブナ",
+        "symbol": "UAH"
+    },
+    "UZS": {
+        "name": "ウズベキスタン スム",
+        "symbol": "UZS"
+    },
+    "UYU": {
+        "name": "ウルグアイ ペソ",
+        "symbol": "UYU"
+    },
+    "EGP": {
+        "name": "エジプト ポンド",
+        "symbol": "EGP"
+    },
+    "ETB": {
+        "name": "エチオピア ブル",
+        "symbol": "ETB"
+    },
+    "ERN": {
+        "name": "エリトリア ナクファ",
+        "symbol": "ERN"
     },
     "SVC": {
         "name": "エルサルバドル コロン",
         "symbol": "SVC"
     },
+    "AUD": {
+        "name": "オーストラリア ドル",
+        "symbol": "AU$"
+    },
+    "OMR": {
+        "name": "オマーン リアル",
+        "symbol": "OMR"
+    },
+    "ANG": {
+        "name": "オランダ領アンティル ギルダー",
+        "symbol": "ANG"
+    },
+    "GHS": {
+        "name": "ガーナ セディ",
+        "symbol": "GHS"
+    },
+    "CVE": {
+        "name": "カーボベルデ エスクード",
+        "symbol": "CVE"
+    },
+    "GYD": {
+        "name": "ガイアナ ドル",
+        "symbol": "GYD"
+    },
+    "KZT": {
+        "name": "カザフスタン テンゲ",
+        "symbol": "KZT"
+    },
+    "QAR": {
+        "name": "カタール リアル",
+        "symbol": "QAR"
+    },
+    "CAD": {
+        "name": "カナダ ドル",
+        "symbol": "CA$"
+    },
+    "GMD": {
+        "name": "ガンビア ダラシ",
+        "symbol": "GMD"
+    },
+    "KHR": {
+        "name": "カンボジア リエル",
+        "symbol": "KHR"
+    },
+    "GNF": {
+        "name": "ギニア フラン",
+        "symbol": "GNF"
+    },
+    "CUP": {
+        "name": "キューバ ペソ",
+        "symbol": "CUP"
+    },
+    "CUC": {
+        "name": "キューバ 兌換ペソ",
+        "symbol": "CUC"
+    },
+    "KGS": {
+        "name": "キルギスタン ソム",
+        "symbol": "KGS"
+    },
+    "GTQ": {
+        "name": "グアテマラ ケツァル",
+        "symbol": "GTQ"
+    },
+    "KWD": {
+        "name": "クウェート ディナール",
+        "symbol": "KWD"
+    },
+    "GEL": {
+        "name": "グルジア ラリ",
+        "symbol": "GEL"
+    },
+    "HRK": {
+        "name": "クロアチア クーナ",
+        "symbol": "HRK"
+    },
+    "AOA": {
+        "name": "クワンザ",
+        "symbol": "AOA"
+    },
+    "KYD": {
+        "name": "ケイマン諸島 ドル",
+        "symbol": "KYD"
+    },
+    "KES": {
+        "name": "ケニア シリング",
+        "symbol": "KES"
+    },
+    "CRC": {
+        "name": "コスタリカ コロン",
+        "symbol": "CRC"
+    },
+    "KMF": {
+        "name": "コモロ フラン",
+        "symbol": "KMF"
+    },
+    "COP": {
+        "name": "コロンビア ペソ",
+        "symbol": "COP"
+    },
+    "CDF": {
+        "name": "コンゴ フラン",
+        "symbol": "CDF"
+    },
+    "SAR": {
+        "name": "サウジ リヤル",
+        "symbol": "SAR"
+    },
+    "WST": {
+        "name": "サモア タラ",
+        "symbol": "WST"
+    },
+    "STD": {
+        "name": "サントメ・プリンシペ ドブラ",
+        "symbol": "STD"
+    },
+    "ZMW": {
+        "name": "ザンビア クワチャ",
+        "symbol": "ZMW"
+    },
+    "SLL": {
+        "name": "シエラレオネ レオン",
+        "symbol": "SLL"
+    },
+    "DJF": {
+        "name": "ジブチ フラン",
+        "symbol": "DJF"
+    },
+    "GIP": {
+        "name": "ジブラルタル ポンド",
+        "symbol": "GIP"
+    },
+    "JMD": {
+        "name": "ジャマイカ ドル",
+        "symbol": "JMD"
+    },
     "SYP": {
         "name": "シリア ポンド",
         "symbol": "SYP"
     },
+    "SGD": {
+        "name": "シンガポール ドル",
+        "symbol": "SGD"
+    },
+    "ZWL": {
+        "name": "ジンバブエ ドル (2009)",
+        "symbol": "ZWL"
+    },
+    "CHF": {
+        "name": "スイス フラン",
+        "symbol": "CHF"
+    },
+    "SEK": {
+        "name": "スウェーデン クローナ",
+        "symbol": "SEK"
+    },
+    "SDG": {
+        "name": "スーダン ポンド",
+        "symbol": "SDG"
+    },
+    "SRD": {
+        "name": "スリナム ドル",
+        "symbol": "SRD"
+    },
+    "LKR": {
+        "name": "スリランカ ルピー",
+        "symbol": "LKR"
+    },
     "SZL": {
         "name": "スワジランド リランゲニ",
         "symbol": "SZL"
+    },
+    "SCR": {
+        "name": "セーシェル ルピー",
+        "symbol": "SCR"
+    },
+    "SHP": {
+        "name": "セントヘレナ島 ポンド",
+        "symbol": "SHP"
+    },
+    "SOS": {
+        "name": "ソマリア シリング",
+        "symbol": "SOS"
+    },
+    "SBD": {
+        "name": "ソロモン諸島 ドル",
+        "symbol": "SBD"
     },
     "THB": {
         "name": "タイ バーツ",
@@ -535,100 +299,336 @@
         "name": "タジキスタン ソモニ",
         "symbol": "TJS"
     },
-    "TMT": {
-        "name": "トルクメニスタン マナト",
-        "symbol": "TMT"
+    "TZS": {
+        "name": "タンザニア シリング",
+        "symbol": "TZS"
+    },
+    "CZK": {
+        "name": "チェコ コルナ",
+        "symbol": "CZK"
     },
     "TND": {
         "name": "チュニジア ディナール",
         "symbol": "TND"
     },
-    "TOP": {
-        "name": "トンガ パ・アンガ",
-        "symbol": "TOP"
+    "CLP": {
+        "name": "チリ ペソ",
+        "symbol": "CLP"
     },
-    "TRY": {
-        "name": "新トルコリラ",
-        "symbol": "TRY"
+    "RSD": {
+        "name": "ディナール (セルビア)",
+        "symbol": "RSD"
+    },
+    "DKK": {
+        "name": "デンマーク クローネ",
+        "symbol": "DKK"
+    },
+    "DOP": {
+        "name": "ドミニカ ペソ",
+        "symbol": "DOP"
     },
     "TTD": {
         "name": "トリニダードトバゴ ドル",
         "symbol": "TTD"
     },
-    "TWD": {
-        "name": "新台湾ドル",
-        "symbol": "NT$"
+    "TMT": {
+        "name": "トルクメニスタン マナト",
+        "symbol": "TMT"
     },
-    "TZS": {
-        "name": "タンザニア シリング",
-        "symbol": "TZS"
+    "TOP": {
+        "name": "トンガ パ・アンガ",
+        "symbol": "TOP"
     },
-    "UAH": {
-        "name": "ウクライナ グリブナ",
-        "symbol": "UAH"
+    "NGN": {
+        "name": "ナイジェリア ナイラ",
+        "symbol": "NGN"
     },
-    "UGX": {
-        "name": "ウガンダ シリング",
-        "symbol": "UGX"
+    "NAD": {
+        "name": "ナミビア ドル",
+        "symbol": "NAD"
     },
-    "USD": {
-        "name": "米ドル",
-        "symbol": "$"
+    "NIO": {
+        "name": "ニカラグア コルドバ オロ",
+        "symbol": "NIO"
     },
-    "UYU": {
-        "name": "ウルグアイ ペソ",
-        "symbol": "UYU"
+    "NZD": {
+        "name": "ニュージーランド ドル",
+        "symbol": "NZ$"
     },
-    "UZS": {
-        "name": "ウズベキスタン スム",
-        "symbol": "UZS"
+    "NPR": {
+        "name": "ネパール ルピー",
+        "symbol": "NPR"
     },
-    "VEF": {
-        "name": "ベネズエラ ボリバル",
-        "symbol": "VEF"
+    "NOK": {
+        "name": "ノルウェー クローネ",
+        "symbol": "NOK"
     },
-    "VND": {
-        "name": "ベトナム ドン",
-        "symbol": "₫"
+    "BHD": {
+        "name": "バーレーン ディナール",
+        "symbol": "BHD"
+    },
+    "HTG": {
+        "name": "ハイチ グールド",
+        "symbol": "HTG"
+    },
+    "PKR": {
+        "name": "パキスタン ルピー",
+        "symbol": "PKR"
+    },
+    "PAB": {
+        "name": "パナマ バルボア",
+        "symbol": "PAB"
     },
     "VUV": {
         "name": "バヌアツ バツ",
         "symbol": "VUV"
     },
-    "WST": {
-        "name": "サモア タラ",
-        "symbol": "WST"
+    "BSD": {
+        "name": "バハマ ドル",
+        "symbol": "BSD"
     },
-    "XAF": {
-        "name": "CFA フラン（BEAC）",
-        "symbol": "FCFA"
+    "PGK": {
+        "name": "パプアニューギニア キナ",
+        "symbol": "PGK"
+    },
+    "BMD": {
+        "name": "バミューダ ドル",
+        "symbol": "BMD"
+    },
+    "PYG": {
+        "name": "パラグアイ グアラニ",
+        "symbol": "PYG"
+    },
+    "BBD": {
+        "name": "バルバドス ドル",
+        "symbol": "BBD"
+    },
+    "HUF": {
+        "name": "ハンガリー フォリント",
+        "symbol": "HUF"
+    },
+    "BDT": {
+        "name": "バングラデシュ タカ",
+        "symbol": "BDT"
+    },
+    "FJD": {
+        "name": "フィジー諸島 ドル",
+        "symbol": "FJD"
+    },
+    "PHP": {
+        "name": "フィリピン ペソ",
+        "symbol": "PHP"
+    },
+    "BTN": {
+        "name": "ブータン ニュルタム",
+        "symbol": "BTN"
+    },
+    "FKP": {
+        "name": "フォークランド（マルビナス）諸島 ポンド",
+        "symbol": "FKP"
+    },
+    "BRL": {
+        "name": "ブラジル レアル",
+        "symbol": "R$"
+    },
+    "BGN": {
+        "name": "ブルガリア 新レフ",
+        "symbol": "BGN"
+    },
+    "BND": {
+        "name": "ブルネイ ドル",
+        "symbol": "BND"
+    },
+    "BIF": {
+        "name": "ブルンジ フラン",
+        "symbol": "BIF"
+    },
+    "VND": {
+        "name": "ベトナム ドン",
+        "symbol": "₫"
+    },
+    "VEF": {
+        "name": "ベネズエラ ボリバル",
+        "symbol": "VEF"
+    },
+    "BYR": {
+        "name": "ベラルーシ ルーブル",
+        "symbol": "BYR"
+    },
+    "BZD": {
+        "name": "ベリーズ ドル",
+        "symbol": "BZD"
+    },
+    "PEN": {
+        "name": "ペルー 新ソル",
+        "symbol": "PEN"
+    },
+    "PLN": {
+        "name": "ポーランド ズウォティ",
+        "symbol": "PLN"
+    },
+    "BAM": {
+        "name": "ボスニア マルク (BAM)",
+        "symbol": "BAM"
+    },
+    "BWP": {
+        "name": "ボツワナ プラ",
+        "symbol": "BWP"
+    },
+    "BOB": {
+        "name": "ボリビア ボリビアーノ",
+        "symbol": "BOB"
+    },
+    "HNL": {
+        "name": "ホンジュラス レンピラ",
+        "symbol": "HNL"
+    },
+    "MOP": {
+        "name": "マカオ パタカ",
+        "symbol": "MOP"
+    },
+    "MKD": {
+        "name": "マケドニア デナル",
+        "symbol": "MKD"
+    },
+    "MGA": {
+        "name": "マダガスカル アリアリ",
+        "symbol": "MGA"
+    },
+    "MWK": {
+        "name": "マラウィ クワチャ",
+        "symbol": "MWK"
+    },
+    "MYR": {
+        "name": "マレーシア リンギット",
+        "symbol": "MYR"
+    },
+    "MMK": {
+        "name": "ミャンマー チャット",
+        "symbol": "MMK"
+    },
+    "MXN": {
+        "name": "メキシコ ペソ",
+        "symbol": "MX$"
+    },
+    "MUR": {
+        "name": "モーリシャス ルピー",
+        "symbol": "MUR"
+    },
+    "MRO": {
+        "name": "モーリタニア ウギア",
+        "symbol": "MRO"
+    },
+    "MZN": {
+        "name": "モザンビーク メティカル",
+        "symbol": "MZN"
+    },
+    "MVR": {
+        "name": "モルディブ諸島 ルフィア",
+        "symbol": "MVR"
+    },
+    "MDL": {
+        "name": "モルドバ レイ",
+        "symbol": "MDL"
+    },
+    "MAD": {
+        "name": "モロッコ ディルハム",
+        "symbol": "MAD"
+    },
+    "MNT": {
+        "name": "モンゴル トグログ",
+        "symbol": "MNT"
+    },
+    "EUR": {
+        "name": "ユーロ",
+        "symbol": "€"
+    },
+    "JOD": {
+        "name": "ヨルダン ディナール",
+        "symbol": "JOD"
+    },
+    "LAK": {
+        "name": "ラオス キープ",
+        "symbol": "LAK"
+    },
+    "LTL": {
+        "name": "リトアニア リタス",
+        "symbol": "LTL"
+    },
+    "LYD": {
+        "name": "リビア ディナール",
+        "symbol": "LYD"
+    },
+    "LRD": {
+        "name": "リベリア ドル",
+        "symbol": "LRD"
+    },
+    "RON": {
+        "name": "ルーマニア レイ",
+        "symbol": "RON"
+    },
+    "RWF": {
+        "name": "ルワンダ フラン",
+        "symbol": "RWF"
+    },
+    "LSL": {
+        "name": "レソト ロティ",
+        "symbol": "LSL"
+    },
+    "LBP": {
+        "name": "レバノン ポンド",
+        "symbol": "LBP"
+    },
+    "RUB": {
+        "name": "ロシア ルーブル",
+        "symbol": "RUB"
+    },
+    "GBP": {
+        "name": "英国ポンド",
+        "symbol": "£"
+    },
+    "KRW": {
+        "name": "韓国 ウォン",
+        "symbol": "￦"
+    },
+    "HKD": {
+        "name": "香港ドル",
+        "symbol": "HK$"
+    },
+    "TRY": {
+        "name": "新トルコリラ",
+        "symbol": "TRY"
+    },
+    "TWD": {
+        "name": "新台湾ドル",
+        "symbol": "NT$"
+    },
+    "CNY": {
+        "name": "中国人民元",
+        "symbol": "元"
     },
     "XCD": {
         "name": "東カリブ ドル",
         "symbol": "EC$"
     },
-    "XOF": {
-        "name": "CFA フラン（BCEAO）",
-        "symbol": "CFA"
-    },
-    "XPF": {
-        "name": "CFP フラン",
-        "symbol": "CFPF"
-    },
-    "YER": {
-        "name": "イエメン リアル",
-        "symbol": "YER"
-    },
     "ZAR": {
         "name": "南アフリカ ランド",
         "symbol": "ZAR"
     },
-    "ZMW": {
-        "name": "ザンビア クワチャ",
-        "symbol": "ZMW"
+    "SSP": {
+        "name": "南スーダン・ポンド",
+        "symbol": "SSP"
     },
-    "ZWL": {
-        "name": "ジンバブエ ドル (2009)",
-        "symbol": "ZWL"
+    "JPY": {
+        "name": "日本円",
+        "symbol": "￥"
+    },
+    "USD": {
+        "name": "米ドル",
+        "symbol": "$"
+    },
+    "KPW": {
+        "name": "北朝鮮 ウォン",
+        "symbol": "KPW"
     }
 }

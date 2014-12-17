@@ -1,108 +1,69 @@
 {
-    "AC": {
-        "name": "Ascension Island"
-    },
-    "AD": {
-        "name": "Andoro"
-    },
-    "AE": {
-        "name": "Falme za Kiarabu"
+    "ZA": {
+        "name": "Afrika Kusini"
     },
     "AF": {
         "name": "Afuganistani"
     },
-    "AG": {
-        "name": "Antigua na Babuda"
-    },
-    "AI": {
-        "name": "Anguila"
-    },
-    "AL": {
-        "name": "Albania"
-    },
-    "AM": {
-        "name": "Amenia"
-    },
-    "AO": {
-        "name": "Angolo"
-    },
-    "AQ": {
-        "name": "Antarctica"
+    "IS": {
+        "name": "Aislandi"
     },
     "AR": {
         "name": "Ajentina"
     },
-    "AS": {
-        "name": "Samoa ya Marekani"
+    "AX": {
+        "name": "Åland Islands"
     },
-    "AT": {
-        "name": "Ostria"
+    "AL": {
+        "name": "Albania"
     },
-    "AU": {
-        "name": "Australia"
+    "DZ": {
+        "name": "Aljeria"
+    },
+    "AM": {
+        "name": "Amenia"
+    },
+    "AD": {
+        "name": "Andoro"
+    },
+    "AO": {
+        "name": "Angolo"
+    },
+    "AI": {
+        "name": "Anguila"
+    },
+    "AQ": {
+        "name": "Antarctica"
+    },
+    "AG": {
+        "name": "Antigua na Babuda"
     },
     "AW": {
         "name": "Aruba"
     },
-    "AX": {
-        "name": "Åland Islands"
+    "AC": {
+        "name": "Ascension Island"
+    },
+    "AU": {
+        "name": "Australia"
+    },
+    "IE": {
+        "name": "Ayalandi"
     },
     "AZ": {
         "name": "Azabajani"
     },
-    "BA": {
-        "name": "Bosnia na Hezegovina"
-    },
     "BB": {
         "name": "Babado"
-    },
-    "BD": {
-        "name": "Bangladeshi"
-    },
-    "BE": {
-        "name": "Ubelgiji"
-    },
-    "BF": {
-        "name": "Bukinafaso"
-    },
-    "BG": {
-        "name": "Bulgaria"
-    },
-    "BH": {
-        "name": "Bahareni"
-    },
-    "BI": {
-        "name": "Burundi"
-    },
-    "BJ": {
-        "name": "Benini"
-    },
-    "BL": {
-        "name": "St. Barthélemy"
-    },
-    "BM": {
-        "name": "Bermuda"
-    },
-    "BN": {
-        "name": "Brunei"
-    },
-    "BO": {
-        "name": "Bolivia"
-    },
-    "BQ": {
-        "name": "Caribbean Netherlands"
-    },
-    "BR": {
-        "name": "Brazili"
     },
     "BS": {
         "name": "Bahamasi"
     },
-    "BT": {
-        "name": "Butani"
+    "BH": {
+        "name": "Bahareni"
     },
-    "BW": {
-        "name": "Botswana"
+    "BD": {
+        "name": "Bangladeshi"
     },
     "BY": {
         "name": "Belarusi"
@@ -110,260 +71,257 @@
     "BZ": {
         "name": "Belize"
     },
-    "CA": {
-        "name": "Kanada"
+    "BJ": {
+        "name": "Benini"
     },
-    "CC": {
-        "name": "Cocos (Keeling) Islands"
+    "BM": {
+        "name": "Bermuda"
     },
-    "CD": {
-        "name": "Jamhuri ya Kidemokrasia ya Kongo"
+    "BO": {
+        "name": "Bolivia"
     },
-    "CF": {
-        "name": "Jamhuri ya Afrika ya Kati"
+    "BA": {
+        "name": "Bosnia na Hezegovina"
     },
-    "CG": {
-        "name": "Kongo"
+    "BW": {
+        "name": "Botswana"
     },
-    "CH": {
-        "name": "Uswisi"
+    "BR": {
+        "name": "Brazili"
     },
-    "CI": {
-        "name": "Kodivaa"
+    "BN": {
+        "name": "Brunei"
     },
-    "CK": {
-        "name": "Visiwa vya Cook"
+    "BF": {
+        "name": "Bukinafaso"
     },
-    "CL": {
-        "name": "Chile"
+    "MG": {
+        "name": "Bukini"
     },
-    "CM": {
-        "name": "Kameruni"
+    "BG": {
+        "name": "Bulgaria"
     },
-    "CN": {
-        "name": "China"
+    "BI": {
+        "name": "Burundi"
     },
-    "CO": {
-        "name": "Kolombia"
-    },
-    "CR": {
-        "name": "Kostarika"
-    },
-    "CU": {
-        "name": "Kuba"
-    },
-    "CV": {
-        "name": "Kepuvede"
-    },
-    "CW": {
-        "name": "Curaçao"
-    },
-    "CX": {
-        "name": "Christmas Island"
-    },
-    "CY": {
-        "name": "Kuprosi"
-    },
-    "CZ": {
-        "name": "Jamhuri ya Cheki"
-    },
-    "DE": {
-        "name": "Ujerumani"
-    },
-    "DG": {
-        "name": "Diego Garcia"
-    },
-    "DJ": {
-        "name": "Jibuti"
-    },
-    "DK": {
-        "name": "Denmaki"
-    },
-    "DM": {
-        "name": "Dominika"
-    },
-    "DO": {
-        "name": "Jamhuri ya Dominika"
-    },
-    "DZ": {
-        "name": "Aljeria"
-    },
-    "EA": {
-        "name": "Ceuta & Melilla"
-    },
-    "EC": {
-        "name": "Ekwado"
-    },
-    "EE": {
-        "name": "Estonia"
-    },
-    "EG": {
-        "name": "Misri"
-    },
-    "EH": {
-        "name": "Western Sahara"
-    },
-    "ER": {
-        "name": "Eritrea"
-    },
-    "ES": {
-        "name": "Hispania"
-    },
-    "ET": {
-        "name": "Uhabeshi"
-    },
-    "FI": {
-        "name": "Ufini"
-    },
-    "FJ": {
-        "name": "Fiji"
-    },
-    "FK": {
-        "name": "Visiwa vya Falkland"
-    },
-    "FM": {
-        "name": "Mikronesia"
-    },
-    "FO": {
-        "name": "Faroe Islands"
-    },
-    "FR": {
-        "name": "Ufaransa"
-    },
-    "GA": {
-        "name": "Gaboni"
-    },
-    "GB": {
-        "name": "Uingereza"
-    },
-    "GD": {
-        "name": "Grenada"
-    },
-    "GE": {
-        "name": "Jojia"
-    },
-    "GF": {
-        "name": "Gwiyana ya Ufaransa"
-    },
-    "GG": {
-        "name": "Guernsey"
-    },
-    "GH": {
-        "name": "Ghana"
-    },
-    "GI": {
-        "name": "Jibralta"
-    },
-    "GL": {
-        "name": "Grinlandi"
-    },
-    "GM": {
-        "name": "Gambia"
-    },
-    "GN": {
-        "name": "Gine"
-    },
-    "GP": {
-        "name": "Gwadelupe"
-    },
-    "GQ": {
-        "name": "Ginekweta"
-    },
-    "GR": {
-        "name": "Ugiriki"
-    },
-    "GS": {
-        "name": "South Georgia & South Sandwich Islands"
-    },
-    "GT": {
-        "name": "Gwatemala"
-    },
-    "GU": {
-        "name": "Gwam"
-    },
-    "GW": {
-        "name": "Ginebisau"
-    },
-    "GY": {
-        "name": "Guyana"
-    },
-    "HK": {
-        "name": "Hong Kong SAR China"
-    },
-    "HN": {
-        "name": "Hondurasi"
-    },
-    "HR": {
-        "name": "Korasia"
-    },
-    "HT": {
-        "name": "Haiti"
-    },
-    "HU": {
-        "name": "Hungaria"
+    "BT": {
+        "name": "Butani"
     },
     "IC": {
         "name": "Canary Islands"
     },
-    "ID": {
-        "name": "Indonesia"
+    "BQ": {
+        "name": "Caribbean Netherlands"
     },
-    "IE": {
-        "name": "Ayalandi"
+    "EA": {
+        "name": "Ceuta & Melilla"
     },
-    "IL": {
-        "name": "Israeli"
+    "TD": {
+        "name": "Chadi"
     },
-    "IM": {
-        "name": "Isle of Man"
+    "CL": {
+        "name": "Chile"
     },
-    "IN": {
-        "name": "India"
+    "CN": {
+        "name": "China"
+    },
+    "CX": {
+        "name": "Christmas Island"
+    },
+    "CC": {
+        "name": "Cocos (Keeling) Islands"
+    },
+    "CW": {
+        "name": "Curaçao"
+    },
+    "DK": {
+        "name": "Denmaki"
+    },
+    "DG": {
+        "name": "Diego Garcia"
+    },
+    "DM": {
+        "name": "Dominika"
+    },
+    "EC": {
+        "name": "Ekwado"
+    },
+    "SV": {
+        "name": "Elsavado"
     },
     "IO": {
         "name": "Eneo la Uingereza katika Bahari Hindi"
     },
+    "ER": {
+        "name": "Eritrea"
+    },
+    "EE": {
+        "name": "Estonia"
+    },
+    "AE": {
+        "name": "Falme za Kiarabu"
+    },
+    "FO": {
+        "name": "Faroe Islands"
+    },
+    "FJ": {
+        "name": "Fiji"
+    },
+    "PH": {
+        "name": "Filipino"
+    },
+    "TF": {
+        "name": "French Southern Territories"
+    },
+    "GA": {
+        "name": "Gaboni"
+    },
+    "GM": {
+        "name": "Gambia"
+    },
+    "GH": {
+        "name": "Ghana"
+    },
+    "GN": {
+        "name": "Gine"
+    },
+    "GW": {
+        "name": "Ginebisau"
+    },
+    "GQ": {
+        "name": "Ginekweta"
+    },
+    "GD": {
+        "name": "Grenada"
+    },
+    "GL": {
+        "name": "Grinlandi"
+    },
+    "GG": {
+        "name": "Guernsey"
+    },
+    "GY": {
+        "name": "Guyana"
+    },
+    "GP": {
+        "name": "Gwadelupe"
+    },
+    "GU": {
+        "name": "Gwam"
+    },
+    "GT": {
+        "name": "Gwatemala"
+    },
+    "GF": {
+        "name": "Gwiyana ya Ufaransa"
+    },
+    "HT": {
+        "name": "Haiti"
+    },
+    "ES": {
+        "name": "Hispania"
+    },
+    "HN": {
+        "name": "Hondurasi"
+    },
+    "HK": {
+        "name": "Hong Kong SAR China"
+    },
+    "HU": {
+        "name": "Hungaria"
+    },
+    "IN": {
+        "name": "India"
+    },
+    "ID": {
+        "name": "Indonesia"
+    },
     "IQ": {
         "name": "Iraki"
     },
-    "IR": {
-        "name": "Uajemi"
+    "IM": {
+        "name": "Isle of Man"
     },
-    "IS": {
-        "name": "Aislandi"
+    "IL": {
+        "name": "Israeli"
     },
     "IT": {
         "name": "Italia"
     },
-    "JE": {
-        "name": "Jersey"
-    },
     "JM": {
         "name": "Jamaika"
     },
-    "JO": {
-        "name": "Yordani"
+    "CF": {
+        "name": "Jamhuri ya Afrika ya Kati"
+    },
+    "CZ": {
+        "name": "Jamhuri ya Cheki"
+    },
+    "DO": {
+        "name": "Jamhuri ya Dominika"
+    },
+    "CD": {
+        "name": "Jamhuri ya Kidemokrasia ya Kongo"
     },
     "JP": {
         "name": "Japani"
     },
-    "KE": {
-        "name": "Kenya"
+    "JE": {
+        "name": "Jersey"
     },
-    "KG": {
-        "name": "Kirigizistani"
+    "GI": {
+        "name": "Jibralta"
+    },
+    "DJ": {
+        "name": "Jibuti"
+    },
+    "GE": {
+        "name": "Jojia"
     },
     "KH": {
         "name": "Kambodia"
     },
+    "CM": {
+        "name": "Kameruni"
+    },
+    "CA": {
+        "name": "Kanada"
+    },
+    "QA": {
+        "name": "Katari"
+    },
+    "KZ": {
+        "name": "Kazakistani"
+    },
+    "KE": {
+        "name": "Kenya"
+    },
+    "CV": {
+        "name": "Kepuvede"
+    },
     "KI": {
         "name": "Kiribati"
+    },
+    "KG": {
+        "name": "Kirigizistani"
+    },
+    "NF": {
+        "name": "Kisiwa cha Norfok"
+    },
+    "CI": {
+        "name": "Kodivaa"
+    },
+    "CO": {
+        "name": "Kolombia"
     },
     "KM": {
         "name": "Komoro"
     },
-    "KN": {
-        "name": "Santakitzi na Nevis"
+    "CG": {
+        "name": "Kongo"
+    },
+    "HR": {
+        "name": "Korasia"
     },
     "KP": {
         "name": "Korea Kaskazini"
@@ -371,38 +329,23 @@
     "KR": {
         "name": "Korea Kusini"
     },
+    "XK": {
+        "name": "Kosovo"
+    },
+    "CR": {
+        "name": "Kostarika"
+    },
+    "CU": {
+        "name": "Kuba"
+    },
+    "CY": {
+        "name": "Kuprosi"
+    },
     "KW": {
         "name": "Kuwaiti"
     },
-    "KY": {
-        "name": "Visiwa vya Kaimai"
-    },
-    "KZ": {
-        "name": "Kazakistani"
-    },
     "LA": {
         "name": "Laosi"
-    },
-    "LB": {
-        "name": "Lebanoni"
-    },
-    "LC": {
-        "name": "Santalusia"
-    },
-    "LI": {
-        "name": "Lishenteni"
-    },
-    "LK": {
-        "name": "Sirilanka"
-    },
-    "LR": {
-        "name": "Liberia"
-    },
-    "LS": {
-        "name": "Lesoto"
-    },
-    "LT": {
-        "name": "Litwania"
     },
     "LU": {
         "name": "Lasembagi"
@@ -410,89 +353,104 @@
     "LV": {
         "name": "Lativia"
     },
+    "LB": {
+        "name": "Lebanoni"
+    },
+    "LS": {
+        "name": "Lesoto"
+    },
+    "LR": {
+        "name": "Liberia"
+    },
     "LY": {
         "name": "Libya"
     },
-    "MA": {
-        "name": "Moroko"
+    "LI": {
+        "name": "Lishenteni"
     },
-    "MC": {
-        "name": "Monako"
-    },
-    "MD": {
-        "name": "Moldova"
-    },
-    "ME": {
-        "name": "Montenegro"
-    },
-    "MF": {
-        "name": "St. Martin"
-    },
-    "MG": {
-        "name": "Bukini"
-    },
-    "MH": {
-        "name": "Visiwa vya Marshal"
-    },
-    "MK": {
-        "name": "Masedonia"
-    },
-    "ML": {
-        "name": "Mali"
-    },
-    "MM": {
-        "name": "Myama"
-    },
-    "MN": {
-        "name": "Mongolia"
+    "LT": {
+        "name": "Litwania"
     },
     "MO": {
         "name": "Macau SAR China"
     },
-    "MP": {
-        "name": "Visiwa vya Mariana vya Kaskazini"
-    },
-    "MQ": {
-        "name": "Martiniki"
-    },
-    "MR": {
-        "name": "Moritania"
-    },
-    "MS": {
-        "name": "Montserrati"
-    },
-    "MT": {
-        "name": "Malta"
-    },
-    "MU": {
-        "name": "Morisi"
-    },
-    "MV": {
-        "name": "Modivu"
-    },
     "MW": {
         "name": "Malawi"
-    },
-    "MX": {
-        "name": "Meksiko"
     },
     "MY": {
         "name": "Malesia"
     },
+    "ML": {
+        "name": "Mali"
+    },
+    "MT": {
+        "name": "Malta"
+    },
+    "US": {
+        "name": "Marekani"
+    },
+    "MQ": {
+        "name": "Martiniki"
+    },
+    "MK": {
+        "name": "Masedonia"
+    },
+    "YT": {
+        "name": "Mayotte"
+    },
+    "MX": {
+        "name": "Meksiko"
+    },
+    "FM": {
+        "name": "Mikronesia"
+    },
+    "EG": {
+        "name": "Misri"
+    },
+    "MV": {
+        "name": "Modivu"
+    },
+    "MD": {
+        "name": "Moldova"
+    },
+    "MC": {
+        "name": "Monako"
+    },
+    "MN": {
+        "name": "Mongolia"
+    },
+    "ME": {
+        "name": "Montenegro"
+    },
+    "MS": {
+        "name": "Montserrati"
+    },
+    "MU": {
+        "name": "Morisi"
+    },
+    "MR": {
+        "name": "Moritania"
+    },
+    "MA": {
+        "name": "Moroko"
+    },
     "MZ": {
         "name": "Msumbiji"
+    },
+    "MM": {
+        "name": "Myama"
     },
     "NA": {
         "name": "Namibia"
     },
-    "NC": {
-        "name": "Nyukaledonia"
+    "NR": {
+        "name": "Nauru"
+    },
+    "NP": {
+        "name": "Nepali"
     },
     "NE": {
         "name": "Nijeri"
-    },
-    "NF": {
-        "name": "Kisiwa cha Norfok"
     },
     "NG": {
         "name": "Nijeria"
@@ -500,20 +458,14 @@
     "NI": {
         "name": "Nikaragwa"
     },
-    "NL": {
-        "name": "Uholanzi"
+    "NU": {
+        "name": "Niue"
     },
     "NO": {
         "name": "Norwe"
     },
-    "NP": {
-        "name": "Nepali"
-    },
-    "NR": {
-        "name": "Nauru"
-    },
-    "NU": {
-        "name": "Niue"
+    "NC": {
+        "name": "Nyukaledonia"
     },
     "NZ": {
         "name": "Nyuzilandi"
@@ -521,50 +473,38 @@
     "OM": {
         "name": "Omani"
     },
-    "PA": {
-        "name": "Panama"
-    },
-    "PE": {
-        "name": "Peru"
-    },
-    "PF": {
-        "name": "Polinesia ya Ufaransa"
-    },
-    "PG": {
-        "name": "Papua"
-    },
-    "PH": {
-        "name": "Filipino"
+    "AT": {
+        "name": "Ostria"
     },
     "PK": {
         "name": "Pakistani"
     },
-    "PL": {
-        "name": "Polandi"
-    },
-    "PM": {
-        "name": "Santapieri na Mikeloni"
-    },
-    "PN": {
-        "name": "Pitkairni"
-    },
-    "PR": {
-        "name": "Pwetoriko"
-    },
-    "PS": {
-        "name": "Ukingo wa Magharibi na Ukanda wa Gaza wa Palestina"
-    },
-    "PT": {
-        "name": "Ureno"
-    },
     "PW": {
         "name": "Palau"
+    },
+    "PA": {
+        "name": "Panama"
+    },
+    "PG": {
+        "name": "Papua"
     },
     "PY": {
         "name": "Paragwai"
     },
-    "QA": {
-        "name": "Katari"
+    "PE": {
+        "name": "Peru"
+    },
+    "PN": {
+        "name": "Pitkairni"
+    },
+    "PL": {
+        "name": "Polandi"
+    },
+    "PF": {
+        "name": "Polinesia ya Ufaransa"
+    },
+    "PR": {
+        "name": "Pwetoriko"
     },
     "RE": {
         "name": "Riyunioni"
@@ -572,68 +512,53 @@
     "RO": {
         "name": "Romania"
     },
-    "RS": {
-        "name": "Serbia"
-    },
-    "RU": {
-        "name": "Urusi"
-    },
     "RW": {
         "name": "Rwanda"
-    },
-    "SA": {
-        "name": "Saudi"
-    },
-    "SB": {
-        "name": "Visiwa vya Solomon"
-    },
-    "SC": {
-        "name": "Shelisheli"
-    },
-    "SD": {
-        "name": "Sudani"
-    },
-    "SE": {
-        "name": "Uswidi"
-    },
-    "SG": {
-        "name": "Singapoo"
-    },
-    "SH": {
-        "name": "Santahelena"
-    },
-    "SI": {
-        "name": "Slovenia"
-    },
-    "SJ": {
-        "name": "Svalbard & Jan Mayen"
-    },
-    "SK": {
-        "name": "Slovakia"
-    },
-    "SL": {
-        "name": "Siera Leoni"
     },
     "SM": {
         "name": "Samarino"
     },
-    "SN": {
-        "name": "Senegali"
+    "WS": {
+        "name": "Samoa"
     },
-    "SO": {
-        "name": "Somalia"
+    "AS": {
+        "name": "Samoa ya Marekani"
     },
-    "SR": {
-        "name": "Surinamu"
+    "SH": {
+        "name": "Santahelena"
     },
-    "SS": {
-        "name": "South Sudan"
+    "KN": {
+        "name": "Santakitzi na Nevis"
+    },
+    "LC": {
+        "name": "Santalusia"
+    },
+    "PM": {
+        "name": "Santapieri na Mikeloni"
+    },
+    "VC": {
+        "name": "Santavisenti na Grenadini"
     },
     "ST": {
         "name": "Sao Tome na Principe"
     },
-    "SV": {
-        "name": "Elsavado"
+    "SA": {
+        "name": "Saudi"
+    },
+    "SN": {
+        "name": "Senegali"
+    },
+    "RS": {
+        "name": "Serbia"
+    },
+    "SC": {
+        "name": "Shelisheli"
+    },
+    "SL": {
+        "name": "Siera Leoni"
+    },
+    "SG": {
+        "name": "Singapoo"
     },
     "SX": {
         "name": "Sint Maarten"
@@ -641,116 +566,191 @@
     "SY": {
         "name": "Siria"
     },
-    "SZ": {
-        "name": "Uswazi"
+    "LK": {
+        "name": "Sirilanka"
     },
-    "TA": {
-        "name": "Tristan da Cunha"
+    "SK": {
+        "name": "Slovakia"
     },
-    "TC": {
-        "name": "Visiwa vya Turki na Kaiko"
+    "SI": {
+        "name": "Slovenia"
     },
-    "TD": {
-        "name": "Chadi"
+    "SO": {
+        "name": "Somalia"
     },
-    "TF": {
-        "name": "French Southern Territories"
+    "GS": {
+        "name": "South Georgia & South Sandwich Islands"
     },
-    "TG": {
-        "name": "Togo"
+    "SS": {
+        "name": "South Sudan"
+    },
+    "BL": {
+        "name": "St. Barthélemy"
+    },
+    "MF": {
+        "name": "St. Martin"
+    },
+    "SD": {
+        "name": "Sudani"
+    },
+    "SR": {
+        "name": "Surinamu"
+    },
+    "SJ": {
+        "name": "Svalbard & Jan Mayen"
     },
     "TH": {
         "name": "Tailandi"
     },
-    "TJ": {
-        "name": "Tajikistani"
-    },
-    "TK": {
-        "name": "Tokelau"
-    },
-    "TL": {
-        "name": "Timori ya Mashariki"
-    },
-    "TM": {
-        "name": "Turukimenistani"
-    },
-    "TN": {
-        "name": "Tunisia"
-    },
-    "TO": {
-        "name": "Tonga"
-    },
-    "TR": {
-        "name": "Uturuki"
-    },
-    "TT": {
-        "name": "Trinidad na Tobago"
-    },
-    "TV": {
-        "name": "Tuvalu"
-    },
     "TW": {
         "name": "Taiwani"
+    },
+    "TJ": {
+        "name": "Tajikistani"
     },
     "TZ": {
         "name": "Tanzania"
     },
-    "UA": {
-        "name": "Ukraini"
+    "TL": {
+        "name": "Timori ya Mashariki"
     },
-    "UG": {
-        "name": "Uganda"
+    "TG": {
+        "name": "Togo"
+    },
+    "TK": {
+        "name": "Tokelau"
+    },
+    "TO": {
+        "name": "Tonga"
+    },
+    "TT": {
+        "name": "Trinidad na Tobago"
+    },
+    "TA": {
+        "name": "Tristan da Cunha"
+    },
+    "TN": {
+        "name": "Tunisia"
+    },
+    "TM": {
+        "name": "Turukimenistani"
+    },
+    "TV": {
+        "name": "Tuvalu"
     },
     "UM": {
         "name": "U.S. Outlying Islands"
     },
-    "US": {
-        "name": "Marekani"
+    "IR": {
+        "name": "Uajemi"
+    },
+    "BE": {
+        "name": "Ubelgiji"
+    },
+    "FR": {
+        "name": "Ufaransa"
+    },
+    "FI": {
+        "name": "Ufini"
+    },
+    "UG": {
+        "name": "Uganda"
+    },
+    "GR": {
+        "name": "Ugiriki"
+    },
+    "ET": {
+        "name": "Uhabeshi"
+    },
+    "NL": {
+        "name": "Uholanzi"
+    },
+    "GB": {
+        "name": "Uingereza"
+    },
+    "DE": {
+        "name": "Ujerumani"
+    },
+    "PS": {
+        "name": "Ukingo wa Magharibi na Ukanda wa Gaza wa Palestina"
+    },
+    "UA": {
+        "name": "Ukraini"
+    },
+    "PT": {
+        "name": "Ureno"
     },
     "UY": {
         "name": "Urugwai"
     },
+    "RU": {
+        "name": "Urusi"
+    },
+    "SZ": {
+        "name": "Uswazi"
+    },
+    "SE": {
+        "name": "Uswidi"
+    },
+    "CH": {
+        "name": "Uswisi"
+    },
+    "TR": {
+        "name": "Uturuki"
+    },
     "UZ": {
         "name": "Uzibekistani"
-    },
-    "VA": {
-        "name": "Vatikani"
-    },
-    "VC": {
-        "name": "Santavisenti na Grenadini"
-    },
-    "VE": {
-        "name": "Venezuela"
-    },
-    "VG": {
-        "name": "Visiwa vya Virgin vya Uingereza"
-    },
-    "VI": {
-        "name": "Visiwa vya Virgin vya Marekani"
-    },
-    "VN": {
-        "name": "Vietinamu"
     },
     "VU": {
         "name": "Vanuatu"
     },
+    "VA": {
+        "name": "Vatikani"
+    },
+    "VE": {
+        "name": "Venezuela"
+    },
+    "VN": {
+        "name": "Vietinamu"
+    },
+    "CK": {
+        "name": "Visiwa vya Cook"
+    },
+    "FK": {
+        "name": "Visiwa vya Falkland"
+    },
+    "KY": {
+        "name": "Visiwa vya Kaimai"
+    },
+    "MP": {
+        "name": "Visiwa vya Mariana vya Kaskazini"
+    },
+    "MH": {
+        "name": "Visiwa vya Marshal"
+    },
+    "SB": {
+        "name": "Visiwa vya Solomon"
+    },
+    "TC": {
+        "name": "Visiwa vya Turki na Kaiko"
+    },
+    "VI": {
+        "name": "Visiwa vya Virgin vya Marekani"
+    },
+    "VG": {
+        "name": "Visiwa vya Virgin vya Uingereza"
+    },
     "WF": {
         "name": "Walis na Futuna"
     },
-    "WS": {
-        "name": "Samoa"
-    },
-    "XK": {
-        "name": "Kosovo"
+    "EH": {
+        "name": "Western Sahara"
     },
     "YE": {
         "name": "Yemeni"
     },
-    "YT": {
-        "name": "Mayotte"
-    },
-    "ZA": {
-        "name": "Afrika Kusini"
+    "JO": {
+        "name": "Yordani"
     },
     "ZM": {
         "name": "Zambia"

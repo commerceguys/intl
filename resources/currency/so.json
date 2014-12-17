@@ -63,6 +63,10 @@
         "name": "BIF",
         "symbol": "BIF"
     },
+    "ETB": {
+        "name": "Birta Itoobbiya",
+        "symbol": "ETB"
+    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -143,13 +147,13 @@
         "name": "CZK",
         "symbol": "CZK"
     },
-    "DJF": {
-        "name": "Faran Jabbuuti",
-        "symbol": "DJF"
-    },
     "DKK": {
         "name": "DKK",
         "symbol": "DKK"
+    },
+    "USD": {
+        "name": "Doollar maraykan",
+        "symbol": "US$"
     },
     "DOP": {
         "name": "DOP",
@@ -167,13 +171,9 @@
         "name": "ERN",
         "symbol": "ERN"
     },
-    "ETB": {
-        "name": "Birta Itoobbiya",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "Yuuroo",
-        "symbol": "€"
+    "DJF": {
+        "name": "Faran Jabbuuti",
+        "symbol": "DJF"
     },
     "FJD": {
         "name": "FJD",
@@ -451,6 +451,10 @@
         "name": "QAR",
         "symbol": "QAR"
     },
+    "SAR": {
+        "name": "Riyaalka Sacuudiga",
+        "symbol": "SAR"
+    },
     "RON": {
         "name": "RON",
         "symbol": "RON"
@@ -466,10 +470,6 @@
     "RWF": {
         "name": "RWF",
         "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "Riyaalka Sacuudiga",
-        "symbol": "SAR"
     },
     "SBD": {
         "name": "SBD",
@@ -491,6 +491,14 @@
         "name": "SGD",
         "symbol": "SGD"
     },
+    "SOS": {
+        "name": "Shilin soomaali",
+        "symbol": "S"
+    },
+    "TZS": {
+        "name": "Shilin Tansaani",
+        "symbol": "TZS"
+    },
     "SHP": {
         "name": "SHP",
         "symbol": "SHP"
@@ -498,10 +506,6 @@
     "SLL": {
         "name": "SLL",
         "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "Shilin soomaali",
-        "symbol": "S"
     },
     "SRD": {
         "name": "SRD",
@@ -559,10 +563,6 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Shilin Tansaani",
-        "symbol": "TZS"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
@@ -570,10 +570,6 @@
     "UGX": {
         "name": "UGX",
         "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Doollar maraykan",
-        "symbol": "US$"
     },
     "UYU": {
         "name": "UYU",
@@ -618,6 +614,10 @@
     "YER": {
         "name": "YER",
         "symbol": "YER"
+    },
+    "EUR": {
+        "name": "Yuuroo",
+        "symbol": "€"
     },
     "ZAR": {
         "name": "ZAR",

@@ -11,33 +11,57 @@
         "code": "ak",
         "name": "akancha"
     },
+    "sq": {
+        "code": "sq",
+        "name": "albancha"
+    },
     "am": {
         "code": "am",
         "name": "amxarcha"
+    },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "anʼanaviy xitoycha"
     },
     "ar": {
         "code": "ar",
         "name": "arabcha"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "zamonavij standart arabcha"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "asucha"
+    "hy": {
+        "code": "hy",
+        "name": "armancha"
     },
     "ast": {
         "code": "ast",
         "name": "Asturian"
     },
-    "az": {
-        "code": "az",
-        "name": "ozarbayjoncha"
+    "asa": {
+        "code": "asa",
+        "name": "asucha"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "Avstraliya inglizchasi"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "Avstriya olmonchasi"
+    },
+    "ksf": {
+        "code": "ksf",
+        "name": "bafiycha"
+    },
+    "bm": {
+        "code": "bm",
+        "name": "bambarcha"
     },
     "bas": {
         "code": "bas",
         "name": "Basaa"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "baskcha"
     },
     "be": {
         "code": "be",
@@ -47,41 +71,37 @@
         "code": "bez",
         "name": "benacha"
     },
-    "bg": {
-        "code": "bg",
-        "name": "bolgarcha"
-    },
-    "bm": {
-        "code": "bm",
-        "name": "bambarcha"
-    },
     "bn": {
         "code": "bn",
         "name": "bengalcha"
     },
-    "bo": {
-        "code": "bo",
-        "name": "tibetcha"
-    },
-    "br": {
-        "code": "br",
-        "name": "bretoncha"
+    "my": {
+        "code": "my",
+        "name": "birmancha"
     },
     "brx": {
         "code": "brx",
         "name": "bodocha"
     },
+    "bg": {
+        "code": "bg",
+        "name": "bolgarcha"
+    },
     "bs": {
         "code": "bs",
         "name": "bosniycha"
     },
-    "ca": {
-        "code": "ca",
-        "name": "katalancha"
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "Braziliya portugalchasi"
     },
-    "cgg": {
-        "code": "cgg",
-        "name": "chigcha"
+    "br": {
+        "code": "br",
+        "name": "bretoncha"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "Britaniya inglizchasi"
     },
     "chr": {
         "code": "chr",
@@ -91,73 +111,21 @@
         "code": "cs",
         "name": "chexcha"
     },
-    "cy": {
-        "code": "cy",
-        "name": "uelscha"
+    "cgg": {
+        "code": "cgg",
+        "name": "chigcha"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
     },
     "da": {
         "code": "da",
         "name": "datcha"
     },
-    "dav": {
-        "code": "dav",
-        "name": "taitcha"
-    },
-    "de": {
-        "code": "de",
-        "name": "nemischa"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "Avstriya olmonchasi"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "Shvesariya olmonchasi"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "zarmacha"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "quyi sorbcha"
-    },
-    "dyo": {
-        "code": "dyo",
-        "name": "yola-fonyicha"
-    },
-    "dz": {
-        "code": "dz",
-        "name": "yovoncha"
-    },
     "ebu": {
         "code": "ebu",
         "name": "embucha"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "ivicha"
-    },
-    "el": {
-        "code": "el",
-        "name": "yunoncha"
-    },
-    "en": {
-        "code": "en",
-        "name": "inglizcha"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Avstraliya inglizchasi"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Kanada inglizchasi"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Britaniya inglizchasi"
     },
     "en-US": {
         "code": "en-US",
@@ -167,89 +135,65 @@
         "code": "eo",
         "name": "esperantocha"
     },
-    "es": {
-        "code": "es",
-        "name": "ispancha"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "Lotin Amerika ispanchasi"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "Yevropa ispanchasi"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "Meksika ispanchasi"
-    },
     "et": {
         "code": "et",
         "name": "estoncha"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "baskcha"
     },
     "ewo": {
         "code": "ewo",
         "name": "Ewondo"
     },
-    "fa": {
-        "code": "fa",
-        "name": "forscha"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "Fulah"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "fincha"
+    "fo": {
+        "code": "fo",
+        "name": "farercha"
     },
     "fil": {
         "code": "fil",
         "name": "filipincha"
     },
-    "fo": {
-        "code": "fo",
-        "name": "farercha"
+    "fi": {
+        "code": "fi",
+        "name": "fincha"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "flamandcha"
+    },
+    "fa": {
+        "code": "fa",
+        "name": "forscha"
     },
     "fr": {
         "code": "fr",
         "name": "fransuzcha"
     },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "Kanada fransuzchasi"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "Shvesariya fransuzchasi"
-    },
     "fur": {
         "code": "fur",
         "name": "Friulian"
     },
-    "fy": {
-        "code": "fy",
-        "name": "gʻarbiy friziancha"
-    },
-    "ga": {
-        "code": "ga",
-        "name": "irlandcha"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "Scottish Gaelic"
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
     },
     "gl": {
         "code": "gl",
         "name": "galitsiycha"
     },
-    "gsw": {
-        "code": "gsw",
-        "name": "shveysariya nemischasi"
+    "lg": {
+        "code": "lg",
+        "name": "gandcha"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "gʻarbiy friziancha"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "gollandcha"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "gruzincha"
     },
     "gu": {
         "code": "gu",
@@ -259,89 +203,45 @@
         "code": "guz",
         "name": "guzcha"
     },
-    "ha": {
-        "code": "ha",
-        "name": "xauscha"
+    "hi": {
+        "code": "hi",
+        "name": "hindcha"
     },
     "he": {
         "code": "he",
         "name": "ibroniy"
     },
-    "hi": {
-        "code": "hi",
-        "name": "hindcha"
-    },
-    "hr": {
-        "code": "hr",
-        "name": "xorvatcha"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "yuqori sorbcha"
-    },
-    "hu": {
-        "code": "hu",
-        "name": "vengrcha"
-    },
-    "hy": {
-        "code": "hy",
-        "name": "armancha"
-    },
     "id": {
         "code": "id",
         "name": "indoneyzcha"
+    },
+    "en": {
+        "code": "en",
+        "name": "inglizcha"
+    },
+    "ga": {
+        "code": "ga",
+        "name": "irlandcha"
     },
     "is": {
         "code": "is",
         "name": "islandcha"
     },
+    "es": {
+        "code": "es",
+        "name": "ispancha"
+    },
     "it": {
         "code": "it",
         "name": "italyancha"
     },
-    "ja": {
-        "code": "ja",
-        "name": "yaponcha"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "ngombcha"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "machamcha"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "gruzincha"
-    },
-    "kab": {
-        "code": "kab",
-        "name": "qobilcha"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "kambcha"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "maqondiy"
+    "ee": {
+        "code": "ee",
+        "name": "ivicha"
     },
     "kea": {
         "code": "kea",
         "name": "kabuverdiancha"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "qoyra-chincha"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "kikuycha"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "qozoqcha"
     },
     "kl": {
         "code": "kl",
@@ -351,57 +251,65 @@
         "code": "kln",
         "name": "kalenjincha"
     },
-    "km": {
-        "code": "km",
-        "name": "xmercha"
+    "kam": {
+        "code": "kam",
+        "name": "kambcha"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "Kanada fransuzchasi"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "Kanada inglizchasi"
     },
     "kn": {
         "code": "kn",
         "name": "kannadcha"
     },
-    "ko": {
-        "code": "ko",
-        "name": "koreyscha"
-    },
     "ks": {
         "code": "ks",
         "name": "kashmircha"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "shambalacha"
+    "ca": {
+        "code": "ca",
+        "name": "katalancha"
     },
-    "ksf": {
-        "code": "ksf",
-        "name": "bafiycha"
+    "ki": {
+        "code": "ki",
+        "name": "kikuycha"
     },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
+    "swc": {
+        "code": "swc",
+        "name": "kongo svahiliycha"
     },
-    "ky": {
-        "code": "ky",
-        "name": "qirgʻizcha"
+    "ko": {
+        "code": "ko",
+        "name": "koreyscha"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "koryaboro senniycha"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "kvaziycha"
     },
     "lag": {
         "code": "lag",
         "name": "langcha"
     },
-    "lb": {
-        "code": "lb",
-        "name": "lyuksemburgcha"
+    "lo": {
+        "code": "lo",
+        "name": "laoscha"
     },
-    "lg": {
-        "code": "lg",
-        "name": "gandcha"
+    "lv": {
+        "code": "lv",
+        "name": "latishcha"
     },
     "ln": {
         "code": "ln",
         "name": "lingalcha"
-    },
-    "lo": {
-        "code": "lo",
-        "name": "laoscha"
     },
     "lt": {
         "code": "lt",
@@ -419,45 +327,29 @@
         "code": "luy",
         "name": "luycha"
     },
-    "lv": {
-        "code": "lv",
-        "name": "latishcha"
+    "lb": {
+        "code": "lb",
+        "name": "lyuksemburgcha"
     },
-    "mas": {
-        "code": "mas",
-        "name": "masaycha"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "merucha"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "morisyencha"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "malagasiycha"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "makuva-mittocha"
+    "jmc": {
+        "code": "jmc",
+        "name": "machamcha"
     },
     "mk": {
         "code": "mk",
         "name": "makedoncha"
     },
+    "mgh": {
+        "code": "mgh",
+        "name": "makuva-mittocha"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "malagasiycha"
+    },
     "ml": {
         "code": "ml",
         "name": "malayamcha"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "mo‘g‘ulcha"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "maratcha"
     },
     "ms": {
         "code": "ms",
@@ -467,41 +359,65 @@
         "code": "mt",
         "name": "maltacha"
     },
+    "kde": {
+        "code": "kde",
+        "name": "maqondiy"
+    },
+    "mr": {
+        "code": "mr",
+        "name": "maratcha"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "markaziy atlas vaqt zonasi"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "masaycha"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "Meksika ispanchasi"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "merucha"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "mo‘g‘ulcha"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "moldovan rumincha"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "morisyencha"
+    },
     "mua": {
         "code": "mua",
         "name": "mundangcha"
-    },
-    "my": {
-        "code": "my",
-        "name": "birmancha"
     },
     "naq": {
         "code": "naq",
         "name": "namacha"
     },
-    "nb": {
-        "code": "nb",
-        "name": "norvegcha bokmal"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "shimoliy ndebelcha"
+    "de": {
+        "code": "de",
+        "name": "nemischa"
     },
     "ne": {
         "code": "ne",
         "name": "nepalcha"
     },
-    "nl": {
-        "code": "nl",
-        "name": "gollandcha"
+    "jgo": {
+        "code": "jgo",
+        "name": "ngombcha"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "flamandcha"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "kvaziycha"
+    "nb": {
+        "code": "nb",
+        "name": "norvegcha bokmal"
     },
     "nn": {
         "code": "nn",
@@ -515,9 +431,17 @@
         "code": "nyn",
         "name": "nyankolcha"
     },
+    "uz": {
+        "code": "uz",
+        "name": "oʻzbekcha"
+    },
     "or": {
         "code": "or",
         "name": "oriycha"
+    },
+    "az": {
+        "code": "az",
+        "name": "ozarbayjoncha"
     },
     "pa": {
         "code": "pa",
@@ -527,81 +451,113 @@
         "code": "pl",
         "name": "polyakcha"
     },
-    "ps": {
-        "code": "ps",
-        "name": "pushtu tili"
-    },
     "pt": {
         "code": "pt",
         "name": "portugalcha"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "Braziliya portugalchasi"
+    "ps": {
+        "code": "ps",
+        "name": "pushtu tili"
     },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "Yevropa portugalchasi"
+    "ky": {
+        "code": "ky",
+        "name": "qirgʻizcha"
     },
-    "qu": {
-        "code": "qu",
-        "name": "qvechuancha"
+    "kab": {
+        "code": "kab",
+        "name": "qobilcha"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "qoyra-chincha"
+    },
+    "kk": {
+        "code": "kk",
+        "name": "qozoqcha"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "quyi sorbcha"
     },
     "rm": {
         "code": "rm",
         "name": "romancha"
     },
-    "rn": {
-        "code": "rn",
-        "name": "rundcha"
-    },
-    "ro": {
-        "code": "ro",
-        "name": "rumincha"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "moldovan rumincha"
-    },
     "rof": {
         "code": "rof",
         "name": "rombacha"
-    },
-    "ru": {
-        "code": "ru",
-        "name": "ruscha"
     },
     "rwk": {
         "code": "rwk",
         "name": "ruandcha"
     },
+    "ro": {
+        "code": "ro",
+        "name": "rumincha"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "rundcha"
+    },
+    "ru": {
+        "code": "ru",
+        "name": "ruscha"
+    },
     "saq": {
         "code": "saq",
         "name": "samburcha"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "sanguancha"
-    },
-    "se": {
-        "code": "se",
-        "name": "shimoliy semiycha"
-    },
-    "seh": {
-        "code": "seh",
-        "name": "seniycha"
-    },
-    "ses": {
-        "code": "ses",
-        "name": "koryaboro senniycha"
     },
     "sg": {
         "code": "sg",
         "name": "sangoancha"
     },
-    "shi": {
-        "code": "shi",
-        "name": "tachilgitcha"
+    "sbp": {
+        "code": "sbp",
+        "name": "sanguancha"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "Scottish Gaelic"
+    },
+    "seh": {
+        "code": "seh",
+        "name": "seniycha"
+    },
+    "sr": {
+        "code": "sr",
+        "name": "serbcha"
+    },
+    "ksb": {
+        "code": "ksb",
+        "name": "shambalacha"
+    },
+    "nd": {
+        "code": "nd",
+        "name": "shimoliy ndebelcha"
+    },
+    "se": {
+        "code": "se",
+        "name": "shimoliy semiycha"
+    },
+    "sn": {
+        "code": "sn",
+        "name": "shoniycha"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "shvedcha"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "Shvesariya fransuzchasi"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "Shvesariya olmonchasi"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "shveysariya nemischasi"
     },
     "si": {
         "code": "si",
@@ -615,41 +571,41 @@
         "code": "sl",
         "name": "slovencha"
     },
-    "smn": {
-        "code": "smn",
-        "name": "inari semiycha"
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "soddalashtirilgan xitoycha"
     },
-    "sn": {
-        "code": "sn",
-        "name": "shoniycha"
+    "xog": {
+        "code": "xog",
+        "name": "sogancha"
     },
     "so": {
         "code": "so",
         "name": "somalicha"
     },
-    "sq": {
-        "code": "sq",
-        "name": "albancha"
-    },
-    "sr": {
-        "code": "sr",
-        "name": "serbcha"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "shvedcha"
+    "zgh": {
+        "code": "zgh",
+        "name": "standart marokash tamazit"
     },
     "sw": {
         "code": "sw",
         "name": "svahilcha"
     },
-    "swc": {
-        "code": "swc",
-        "name": "kongo svahiliycha"
+    "shi": {
+        "code": "shi",
+        "name": "tachilgitcha"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "taitcha"
     },
     "ta": {
         "code": "ta",
         "name": "tamilcha"
+    },
+    "th": {
+        "code": "th",
+        "name": "taycha"
     },
     "te": {
         "code": "te",
@@ -659,9 +615,9 @@
         "code": "teo",
         "name": "tesoancha"
     },
-    "th": {
-        "code": "th",
-        "name": "taycha"
+    "bo": {
+        "code": "bo",
+        "name": "tibetcha"
     },
     "ti": {
         "code": "ti",
@@ -671,21 +627,17 @@
         "code": "to",
         "name": "tongocha"
     },
-    "tr": {
-        "code": "tr",
-        "name": "turkcha"
-    },
     "twq": {
         "code": "twq",
         "name": "tosovoqcha"
     },
-    "tzm": {
-        "code": "tzm",
-        "name": "markaziy atlas vaqt zonasi"
+    "tr": {
+        "code": "tr",
+        "name": "turkcha"
     },
-    "ug": {
-        "code": "ug",
-        "name": "uygʻurcha"
+    "cy": {
+        "code": "cy",
+        "name": "uelscha"
     },
     "uk": {
         "code": "uk",
@@ -695,57 +647,89 @@
         "code": "ur",
         "name": "urducha"
     },
-    "uz": {
-        "code": "uz",
-        "name": "oʻzbekcha"
+    "ug": {
+        "code": "ug",
+        "name": "uygʻurcha"
     },
     "vai": {
         "code": "vai",
         "name": "vayancha"
     },
-    "vi": {
-        "code": "vi",
-        "name": "vyetnamcha"
+    "hu": {
+        "code": "hu",
+        "name": "vengrcha"
     },
     "vun": {
         "code": "vun",
         "name": "vunjoancha"
     },
+    "vi": {
+        "code": "vi",
+        "name": "vyetnamcha"
+    },
     "wae": {
         "code": "wae",
         "name": "Walser"
     },
-    "xog": {
-        "code": "xog",
-        "name": "sogancha"
-    },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
-    },
-    "yi": {
-        "code": "yi",
-        "name": "Yiddish"
-    },
-    "yo": {
-        "code": "yo",
-        "name": "yorubcha"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "standart marokash tamazit"
+    "ha": {
+        "code": "ha",
+        "name": "xauscha"
     },
     "zh": {
         "code": "zh",
         "name": "xitoycha"
     },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "soddalashtirilgan xitoycha"
+    "km": {
+        "code": "km",
+        "name": "xmercha"
     },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "anʼanaviy xitoycha"
+    "hr": {
+        "code": "hr",
+        "name": "xorvatcha"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
+    },
+    "ja": {
+        "code": "ja",
+        "name": "yaponcha"
+    },
+    "es-ES": {
+        "code": "es-ES",
+        "name": "Yevropa ispanchasi"
+    },
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "Yevropa portugalchasi"
+    },
+    "dyo": {
+        "code": "dyo",
+        "name": "yola-fonyicha"
+    },
+    "yo": {
+        "code": "yo",
+        "name": "yorubcha"
+    },
+    "dz": {
+        "code": "dz",
+        "name": "yovoncha"
+    },
+    "el": {
+        "code": "el",
+        "name": "yunoncha"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "yuqori sorbcha"
+    },
+    "ar-001": {
+        "code": "ar-001",
+        "name": "zamonavij standart arabcha"
+    },
+    "dje": {
+        "code": "dje",
+        "name": "zarmacha"
     },
     "zu": {
         "code": "zu",

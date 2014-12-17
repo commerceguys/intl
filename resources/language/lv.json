@@ -11,61 +11,85 @@
         "code": "ak",
         "name": "akanu"
     },
+    "sq": {
+        "code": "sq",
+        "name": "albāņu"
+    },
     "am": {
         "code": "am",
         "name": "amharu"
+    },
+    "en": {
+        "code": "en",
+        "name": "angļu"
     },
     "ar": {
         "code": "ar",
         "name": "arābu"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "mūsdienu standarta arābu"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "asu"
+    "hy": {
+        "code": "hy",
+        "name": "armēņu"
     },
     "ast": {
         "code": "ast",
         "name": "astūriešu"
     },
+    "asa": {
+        "code": "asa",
+        "name": "asu"
+    },
+    "en-US": {
+        "code": "en-US",
+        "name": "ASV angļu"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "augšsorbu"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "Austrālijas angļu"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "Austrijas vācu"
+    },
     "az": {
         "code": "az",
         "name": "azerbaidžāņu"
     },
-    "bas": {
-        "code": "bas",
-        "name": "basu"
+    "ksf": {
+        "code": "ksf",
+        "name": "bafiju"
     },
     "be": {
         "code": "be",
         "name": "baltkrievu"
     },
-    "bez": {
-        "code": "bez",
-        "name": "bena"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "bulgāru"
-    },
     "bm": {
         "code": "bm",
         "name": "bambaru"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "basku"
+    },
+    "bas": {
+        "code": "bas",
+        "name": "basu"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "bena"
     },
     "bn": {
         "code": "bn",
         "name": "bengāļu"
     },
-    "bo": {
-        "code": "bo",
-        "name": "tibetiešu"
-    },
-    "br": {
-        "code": "br",
-        "name": "bretoņu"
+    "my": {
+        "code": "my",
+        "name": "birmiešu"
     },
     "brx": {
         "code": "brx",
@@ -75,53 +99,33 @@
         "code": "bs",
         "name": "bosniešu"
     },
-    "ca": {
-        "code": "ca",
-        "name": "katalāņu"
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "Brazīlijas portugāļu"
     },
-    "cgg": {
-        "code": "cgg",
-        "name": "kiga"
+    "br": {
+        "code": "br",
+        "name": "bretoņu"
     },
-    "chr": {
-        "code": "chr",
-        "name": "čiroku"
+    "bg": {
+        "code": "bg",
+        "name": "bulgāru"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "Centrālmarokas tamazīts"
     },
     "cs": {
         "code": "cs",
         "name": "čehu"
     },
-    "cy": {
-        "code": "cy",
-        "name": "velsiešu"
+    "chr": {
+        "code": "chr",
+        "name": "čiroku"
     },
     "da": {
         "code": "da",
         "name": "dāņu"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "taitu"
-    },
-    "de": {
-        "code": "de",
-        "name": "vācu"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "Austrijas vācu"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "Šveices augšvācu"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "zarmu"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "lejassorbu"
     },
     "dyo": {
         "code": "dyo",
@@ -131,125 +135,73 @@
         "code": "dz",
         "name": "dzongke"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "kjembu"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "evu"
-    },
-    "el": {
-        "code": "el",
-        "name": "grieķu"
-    },
-    "en": {
-        "code": "en",
-        "name": "angļu"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Austrālijas angļu"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Kanādas angļu"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Lielbritānijas angļu"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "ASV angļu"
-    },
-    "eo": {
-        "code": "eo",
-        "name": "esperanto"
-    },
-    "es": {
-        "code": "es",
-        "name": "spāņu"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "Latīņamerikas spāņu"
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "Eiropas portugāļu"
     },
     "es-ES": {
         "code": "es-ES",
         "name": "Eiropas spāņu"
     },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "Meksikas spāņu"
-    },
-    "et": {
-        "code": "et",
-        "name": "igauņu"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "basku"
+    "eo": {
+        "code": "eo",
+        "name": "esperanto"
     },
     "ewo": {
         "code": "ewo",
         "name": "evondu"
     },
-    "fa": {
-        "code": "fa",
-        "name": "persiešu"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "fulu"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "somu"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "filipīniešu"
+    "ee": {
+        "code": "ee",
+        "name": "evu"
     },
     "fo": {
         "code": "fo",
         "name": "fēru"
     },
+    "fil": {
+        "code": "fil",
+        "name": "filipīniešu"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "flāmu"
+    },
     "fr": {
         "code": "fr",
         "name": "franču"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "Kanādas franču"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "Šveices franču"
     },
     "fur": {
         "code": "fur",
         "name": "friūlu"
     },
-    "fy": {
-        "code": "fy",
-        "name": "rietumfrīzu"
-    },
-    "ga": {
-        "code": "ga",
-        "name": "īru"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "gēlu"
+    "ff": {
+        "code": "ff",
+        "name": "fulu"
     },
     "gl": {
         "code": "gl",
         "name": "galisiešu"
     },
-    "gsw": {
-        "code": "gsw",
-        "name": "Šveices vācu"
+    "lg": {
+        "code": "lg",
+        "name": "gandu"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "gēlu"
+    },
+    "kl": {
+        "code": "kl",
+        "name": "grenlandiešu"
+    },
+    "el": {
+        "code": "el",
+        "name": "grieķu"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "gruzīnu"
     },
     "gu": {
         "code": "gu",
@@ -263,33 +215,29 @@
         "code": "ha",
         "name": "hausu"
     },
-    "he": {
-        "code": "he",
-        "name": "ivrits"
-    },
     "hi": {
         "code": "hi",
         "name": "hindi"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "holandiešu"
     },
     "hr": {
         "code": "hr",
         "name": "horvātu"
     },
-    "hsb": {
-        "code": "hsb",
-        "name": "augšsorbu"
-    },
-    "hu": {
-        "code": "hu",
-        "name": "ungāru"
-    },
-    "hy": {
-        "code": "hy",
-        "name": "armēņu"
+    "et": {
+        "code": "et",
+        "name": "igauņu"
     },
     "id": {
         "code": "id",
         "name": "indonēziešu"
+    },
+    "ga": {
+        "code": "ga",
+        "name": "īru"
     },
     "is": {
         "code": "is",
@@ -299,145 +247,177 @@
         "code": "it",
         "name": "itāļu"
     },
+    "he": {
+        "code": "he",
+        "name": "ivrits"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "janbaņu"
+    },
     "ja": {
         "code": "ja",
         "name": "japāņu"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
+    "nn": {
+        "code": "nn",
+        "name": "jaunnorvēģu"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "mačamu"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "gruzīnu"
+    "yo": {
+        "code": "yo",
+        "name": "jorubu"
     },
     "kab": {
         "code": "kab",
         "name": "kabilu"
     },
-    "kam": {
-        "code": "kam",
-        "name": "kambu"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "makonde"
-    },
     "kea": {
         "code": "kea",
         "name": "kaboverdiešu"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "koiračiinī"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "kikuju"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "kazahu"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "grenlandiešu"
     },
     "kln": {
         "code": "kln",
         "name": "kalendžīnu"
     },
-    "km": {
-        "code": "km",
-        "name": "khmeru"
+    "kam": {
+        "code": "kam",
+        "name": "kambu"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "Kanādas angļu"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "Kanādas franču"
     },
     "kn": {
         "code": "kn",
         "name": "kannadu"
     },
-    "ko": {
-        "code": "ko",
-        "name": "korejiešu"
-    },
     "ks": {
         "code": "ks",
         "name": "kašmiriešu"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "šambalu"
+    "ca": {
+        "code": "ca",
+        "name": "katalāņu"
     },
-    "ksf": {
-        "code": "ksf",
-        "name": "bafiju"
+    "kk": {
+        "code": "kk",
+        "name": "kazahu"
     },
-    "ksh": {
-        "code": "ksh",
-        "name": "Ķelnes vācu"
+    "km": {
+        "code": "km",
+        "name": "khmeru"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "kiga"
+    },
+    "ki": {
+        "code": "ki",
+        "name": "kikuju"
     },
     "ky": {
         "code": "ky",
         "name": "kirgīzu"
     },
+    "ebu": {
+        "code": "ebu",
+        "name": "kjembu"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "koiraboro senni"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "koiračiinī"
+    },
+    "swc": {
+        "code": "swc",
+        "name": "Kongo svahili"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "korejiešu"
+    },
+    "ru": {
+        "code": "ru",
+        "name": "krievu"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "kvasio"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Ķelnes vācu"
+    },
+    "zh": {
+        "code": "zh",
+        "name": "ķīniešu"
+    },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "ķīniešu tradicionālā"
+    },
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "ķīniešu vienkāršotā"
+    },
     "lag": {
         "code": "lag",
         "name": "langi"
-    },
-    "lb": {
-        "code": "lb",
-        "name": "luksemburgiešu"
-    },
-    "lg": {
-        "code": "lg",
-        "name": "gandu"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "lingala"
     },
     "lo": {
         "code": "lo",
         "name": "laosiešu"
     },
+    "lv": {
+        "code": "lv",
+        "name": "latviešu"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "lejassorbu"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "Lielbritānijas angļu"
+    },
     "lt": {
         "code": "lt",
         "name": "lietuviešu"
+    },
+    "ln": {
+        "code": "ln",
+        "name": "lingala"
     },
     "lu": {
         "code": "lu",
         "name": "lubakatanga"
     },
-    "luo": {
-        "code": "luo",
-        "name": "Luo"
-    },
     "luy": {
         "code": "luy",
         "name": "luhju"
     },
-    "lv": {
-        "code": "lv",
-        "name": "latviešu"
+    "lb": {
+        "code": "lb",
+        "name": "luksemburgiešu"
     },
-    "mas": {
-        "code": "mas",
-        "name": "masaju"
+    "luo": {
+        "code": "luo",
+        "name": "Luo"
     },
-    "mer": {
-        "code": "mer",
-        "name": "meru"
+    "jmc": {
+        "code": "jmc",
+        "name": "mačamu"
     },
-    "mfe": {
-        "code": "mfe",
-        "name": "Maurīcijas kreolu"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "malagasu"
+    "kde": {
+        "code": "kde",
+        "name": "makonde"
     },
     "mgh": {
         "code": "mgh",
@@ -447,17 +427,13 @@
         "code": "mk",
         "name": "maķedoniešu"
     },
+    "mg": {
+        "code": "mg",
+        "name": "malagasu"
+    },
     "ml": {
         "code": "ml",
         "name": "malajalu"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "mongoļu"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "maratu"
     },
     "ms": {
         "code": "ms",
@@ -467,45 +443,57 @@
         "code": "mt",
         "name": "maltiešu"
     },
+    "mr": {
+        "code": "mr",
+        "name": "maratu"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "masaju"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "Maurīcijas kreolu"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "Meksikas spāņu"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "meru"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "moldāvu"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "mongoļu"
+    },
     "mua": {
         "code": "mua",
         "name": "mundangu"
     },
-    "my": {
-        "code": "my",
-        "name": "birmiešu"
+    "ar-001": {
+        "code": "ar-001",
+        "name": "mūsdienu standarta arābu"
     },
     "naq": {
         "code": "naq",
         "name": "nama"
     },
-    "nb": {
-        "code": "nb",
-        "name": "norvēģu bukmols"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "ziemeļndebelu"
-    },
     "ne": {
         "code": "ne",
         "name": "nepāliešu"
     },
-    "nl": {
-        "code": "nl",
-        "name": "holandiešu"
+    "jgo": {
+        "code": "jgo",
+        "name": "Ngomba"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "flāmu"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "kvasio"
-    },
-    "nn": {
-        "code": "nn",
-        "name": "jaunnorvēģu"
+    "nb": {
+        "code": "nb",
+        "name": "norvēģu bukmols"
     },
     "nus": {
         "code": "nus",
@@ -523,85 +511,65 @@
         "code": "pa",
         "name": "pandžabu"
     },
+    "fa": {
+        "code": "fa",
+        "name": "persiešu"
+    },
     "pl": {
         "code": "pl",
         "name": "poļu"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "puštu"
     },
     "pt": {
         "code": "pt",
         "name": "portugāļu"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "Brazīlijas portugāļu"
-    },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "Eiropas portugāļu"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "kečvu"
+    "ps": {
+        "code": "ps",
+        "name": "puštu"
     },
     "rm": {
         "code": "rm",
         "name": "retoromāņu"
     },
-    "rn": {
-        "code": "rn",
-        "name": "rundu"
-    },
-    "ro": {
-        "code": "ro",
-        "name": "rumāņu"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "moldāvu"
+    "fy": {
+        "code": "fy",
+        "name": "rietumfrīzu"
     },
     "rof": {
         "code": "rof",
         "name": "rombo"
     },
-    "ru": {
-        "code": "ru",
-        "name": "krievu"
-    },
     "rwk": {
         "code": "rwk",
         "name": "ruanda"
+    },
+    "ro": {
+        "code": "ro",
+        "name": "rumāņu"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "rundu"
     },
     "saq": {
         "code": "saq",
         "name": "samburu"
     },
+    "sg": {
+        "code": "sg",
+        "name": "sango"
+    },
     "sbp": {
         "code": "sbp",
         "name": "sangu"
-    },
-    "se": {
-        "code": "se",
-        "name": "ziemeļsāmu"
     },
     "seh": {
         "code": "seh",
         "name": "senu"
     },
-    "ses": {
-        "code": "ses",
-        "name": "koiraboro senni"
-    },
-    "sg": {
-        "code": "sg",
-        "name": "sango"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "šilhu"
+    "sr": {
+        "code": "sr",
+        "name": "serbu"
     },
     "si": {
         "code": "si",
@@ -615,41 +583,69 @@
         "code": "sl",
         "name": "slovēņu"
     },
-    "smn": {
-        "code": "smn",
-        "name": "Inari sāmu"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "šonu"
+    "xog": {
+        "code": "xog",
+        "name": "sogu"
     },
     "so": {
         "code": "so",
         "name": "somāļu"
     },
-    "sq": {
-        "code": "sq",
-        "name": "albāņu"
+    "fi": {
+        "code": "fi",
+        "name": "somu"
     },
-    "sr": {
-        "code": "sr",
-        "name": "serbu"
+    "es": {
+        "code": "es",
+        "name": "spāņu"
     },
-    "sv": {
-        "code": "sv",
-        "name": "zviedru"
+    "zgh": {
+        "code": "zgh",
+        "name": "standarta marokāņu berberu"
     },
     "sw": {
         "code": "sw",
         "name": "svahili"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Kongo svahili"
+    "ksb": {
+        "code": "ksb",
+        "name": "šambalu"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "šilhu"
+    },
+    "sn": {
+        "code": "sn",
+        "name": "šonu"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "Šveices augšvācu"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "Šveices franču"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "Šveices vācu"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "taitu"
+    },
+    "th": {
+        "code": "th",
+        "name": "taju"
     },
     "ta": {
         "code": "ta",
         "name": "tamilu"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "tasavaku"
     },
     "te": {
         "code": "te",
@@ -659,9 +655,9 @@
         "code": "teo",
         "name": "teso"
     },
-    "th": {
-        "code": "th",
-        "name": "taju"
+    "bo": {
+        "code": "bo",
+        "name": "tibetiešu"
     },
     "ti": {
         "code": "ti",
@@ -675,14 +671,6 @@
         "code": "tr",
         "name": "turku"
     },
-    "twq": {
-        "code": "twq",
-        "name": "tasavaku"
-    },
-    "tzm": {
-        "code": "tzm",
-        "name": "Centrālmarokas tamazīts"
-    },
     "ug": {
         "code": "ug",
         "name": "uiguru"
@@ -690,6 +678,10 @@
     "uk": {
         "code": "uk",
         "name": "ukraiņu"
+    },
+    "hu": {
+        "code": "hu",
+        "name": "ungāru"
     },
     "ur": {
         "code": "ur",
@@ -699,9 +691,21 @@
         "code": "uz",
         "name": "uzbeku"
     },
+    "de": {
+        "code": "de",
+        "name": "vācu"
+    },
     "vai": {
         "code": "vai",
         "name": "vaju"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Vallisas vācu"
+    },
+    "cy": {
+        "code": "cy",
+        "name": "velsiešu"
     },
     "vi": {
         "code": "vi",
@@ -711,44 +715,24 @@
         "code": "vun",
         "name": "vundžo"
     },
-    "wae": {
-        "code": "wae",
-        "name": "Vallisas vācu"
+    "dje": {
+        "code": "dje",
+        "name": "zarmu"
     },
-    "xog": {
-        "code": "xog",
-        "name": "sogu"
+    "nd": {
+        "code": "nd",
+        "name": "ziemeļndebelu"
     },
-    "yav": {
-        "code": "yav",
-        "name": "janbaņu"
-    },
-    "yi": {
-        "code": "yi",
-        "name": "jidišs"
-    },
-    "yo": {
-        "code": "yo",
-        "name": "jorubu"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "standarta marokāņu berberu"
-    },
-    "zh": {
-        "code": "zh",
-        "name": "ķīniešu"
-    },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "ķīniešu vienkāršotā"
-    },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "ķīniešu tradicionālā"
+    "se": {
+        "code": "se",
+        "name": "ziemeļsāmu"
     },
     "zu": {
         "code": "zu",
         "name": "zulu"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "zviedru"
     }
 }

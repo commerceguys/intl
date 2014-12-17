@@ -1,291 +1,35 @@
 {
-    "AED": {
-        "name": "Ντιράμ Ηνωμένων Αραβικών Εμιράτων",
-        "symbol": "AED"
+    "MGA": {
+        "name": "Αριάρι Μαδαγασκάρης",
+        "symbol": "MGA"
     },
     "AFN": {
         "name": "Αφγάνι Αφγανιστάν",
         "symbol": "AFN"
     },
-    "ALL": {
-        "name": "Λεκ Αλβανίας",
-        "symbol": "ALL"
-    },
-    "AMD": {
-        "name": "Ντραμ Αρμενίας",
-        "symbol": "AMD"
-    },
-    "ANG": {
-        "name": "Γκίλντα Ολλανδικών Αντιλλών",
-        "symbol": "ANG"
-    },
-    "AOA": {
-        "name": "Κουάνζα Ανγκόλας",
-        "symbol": "AOA"
-    },
-    "ARS": {
-        "name": "Πέσο Αργεντινής",
-        "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "Δολάριο Αυστραλίας",
-        "symbol": "A$"
-    },
-    "AWG": {
-        "name": "Φλορίνι Αρούμπα",
-        "symbol": "AWG"
-    },
-    "AZN": {
-        "name": "Μανάτ Αζερμπαϊτζάν",
-        "symbol": "AZN"
-    },
-    "BAM": {
-        "name": "Μετατρέψιμο Μάρκο Βοσνίας-Ερζεγοβίνης",
-        "symbol": "BAM"
-    },
-    "BBD": {
-        "name": "Δολάριο Μπαρμπάντος",
-        "symbol": "BBD"
-    },
-    "BDT": {
-        "name": "Τάκα Μπαγκλαντές",
-        "symbol": "BDT"
-    },
-    "BGN": {
-        "name": "Λεβ Βουλγαρίας",
-        "symbol": "BGN"
-    },
-    "BHD": {
-        "name": "Δηνάριο Μπαχρέιν",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Φράγκο Μπουρούντι",
-        "symbol": "BIF"
-    },
-    "BMD": {
-        "name": "Δολάριο Βερμούδων",
-        "symbol": "BMD"
-    },
-    "BND": {
-        "name": "Δολάριο Μπρουνέι",
-        "symbol": "BND"
-    },
-    "BOB": {
-        "name": "Μπολιβιάνο Βολιβίας",
-        "symbol": "BOB"
-    },
-    "BRL": {
-        "name": "Ρεάλ Βραζιλίας",
-        "symbol": "R$"
-    },
-    "BSD": {
-        "name": "Δολάριο Μπαχάμες",
-        "symbol": "BSD"
-    },
-    "BTN": {
-        "name": "Νγκούλτρουμ Μπουτάν",
-        "symbol": "BTN"
-    },
-    "BWP": {
-        "name": "Πούλα Μποτσουάνας",
-        "symbol": "BWP"
-    },
-    "BYR": {
-        "name": "Ρούβλι Λευκορωσίας",
-        "symbol": "BYR"
-    },
-    "BZD": {
-        "name": "Δολάριο Μπελίζ",
-        "symbol": "BZD"
-    },
-    "CAD": {
-        "name": "Δολάριο Καναδά",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Φράγκο Κονγκό",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Φράγκο Ελβετίας",
-        "symbol": "CHF"
-    },
-    "CLP": {
-        "name": "Πέσο Χιλής",
-        "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Γουάν Κίνας",
-        "symbol": "CN¥"
-    },
-    "COP": {
-        "name": "Πέσο Κολομβίας",
-        "symbol": "COP"
-    },
-    "CRC": {
-        "name": "Κολόν Κόστα Ρίκα",
-        "symbol": "CRC"
-    },
-    "CUC": {
-        "name": "Μετατρέψιμο πέσο Κούβας",
-        "symbol": "CUC"
-    },
-    "CUP": {
-        "name": "Πέσο Κούβας",
-        "symbol": "CUP"
-    },
-    "CVE": {
-        "name": "Εσκούδο Πράσινου Ακρωτηρίου",
-        "symbol": "CVE"
-    },
-    "CZK": {
-        "name": "Κορόνα Τσεχίας",
-        "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "Φράγκο Τζιμπουτί",
-        "symbol": "DJF"
-    },
-    "DKK": {
-        "name": "Κορόνα Δανίας",
-        "symbol": "DKK"
-    },
-    "DOP": {
-        "name": "Πέσο Δομινικανής Δημοκρατίας",
-        "symbol": "DOP"
-    },
-    "DZD": {
-        "name": "Δηνάριο Αλγερίας",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "Λίρα Αιγύπτου",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "Νάκφα Ερυθραίας",
-        "symbol": "ERN"
-    },
-    "ETB": {
-        "name": "Μπιρ Αιθιοπίας",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "Ευρώ",
-        "symbol": "€"
-    },
-    "FJD": {
-        "name": "Δολάριο Φίτζι",
-        "symbol": "FJD"
-    },
-    "FKP": {
-        "name": "Λίρα Νησιών Φώκλαντ",
-        "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "Λίρα Στερλίνα Βρετανίας",
-        "symbol": "£"
-    },
-    "GEL": {
-        "name": "Λάρι Γεωργίας",
-        "symbol": "GEL"
-    },
-    "GHS": {
-        "name": "Σέντι Γκάνας",
-        "symbol": "GHS"
-    },
-    "GIP": {
-        "name": "Λίρα Γιβραλτάρ",
-        "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Νταλάσι Γκάμπιας",
-        "symbol": "GMD"
-    },
-    "GNF": {
-        "name": "Φράγκο Γουινέας",
-        "symbol": "GNF"
-    },
-    "GTQ": {
-        "name": "Κουετσάλ Γουατεμάλας",
-        "symbol": "GTQ"
-    },
-    "GYD": {
-        "name": "Δολάριο Γουιάνας",
-        "symbol": "GYD"
-    },
-    "HKD": {
-        "name": "Δολάριο Χονγκ Κονγκ",
-        "symbol": "HK$"
-    },
-    "HNL": {
-        "name": "Λεμπίρα Ονδούρας",
-        "symbol": "HNL"
-    },
-    "HRK": {
-        "name": "Κούνα Κροατίας",
-        "symbol": "HRK"
-    },
-    "HTG": {
-        "name": "Γκουρντ Αϊτής",
-        "symbol": "HTG"
-    },
-    "HUF": {
-        "name": "Φιορίνι Ουγγαρίας",
-        "symbol": "HUF"
-    },
-    "IDR": {
-        "name": "Ρουπία Ινδονησίας",
-        "symbol": "IDR"
-    },
-    "ILS": {
-        "name": "Νέο Σέκελ Ισραήλ",
-        "symbol": "₪"
-    },
-    "INR": {
-        "name": "Ρουπία Ινδίας",
-        "symbol": "₹"
-    },
-    "IQD": {
-        "name": "Δηνάριο Ιράκ",
-        "symbol": "IQD"
-    },
-    "IRR": {
-        "name": "Ριάλ Ιράν",
-        "symbol": "IRR"
-    },
-    "ISK": {
-        "name": "Κορόνα Ισλανδίας",
-        "symbol": "ISK"
-    },
-    "JMD": {
-        "name": "Δολάριο Τζαμάικας",
-        "symbol": "JMD"
-    },
-    "JOD": {
-        "name": "Δηνάριο Ιορδανίας",
-        "symbol": "JOD"
+    "VUV": {
+        "name": "Βατού Βανουάτου",
+        "symbol": "VUV"
     },
     "JPY": {
         "name": "Γιεν Ιαπωνίας",
         "symbol": "JP¥"
     },
-    "KES": {
-        "name": "Σελίνι Κένυας",
-        "symbol": "KES"
+    "ANG": {
+        "name": "Γκίλντα Ολλανδικών Αντιλλών",
+        "symbol": "ANG"
     },
-    "KGS": {
-        "name": "Σομ Κιργιζίας",
-        "symbol": "KGS"
+    "PYG": {
+        "name": "Γκουαρανί Παραγουάης",
+        "symbol": "PYG"
     },
-    "KHR": {
-        "name": "Ρίελ Καμπότζης",
-        "symbol": "KHR"
+    "HTG": {
+        "name": "Γκουρντ Αϊτής",
+        "symbol": "HTG"
     },
-    "KMF": {
-        "name": "Φράγκο Κομορών",
-        "symbol": "KMF"
+    "CNY": {
+        "name": "Γουάν Κίνας",
+        "symbol": "CN¥"
     },
     "KPW": {
         "name": "Γουόν Βόρειας Κορέας",
@@ -295,340 +39,596 @@
         "name": "Γουόν Νότιας Κορέας",
         "symbol": "₩"
     },
+    "UAH": {
+        "name": "Γρίβνα Ουκρανίας",
+        "symbol": "UAH"
+    },
+    "DZD": {
+        "name": "Δηνάριο Αλγερίας",
+        "symbol": "DZD"
+    },
+    "JOD": {
+        "name": "Δηνάριο Ιορδανίας",
+        "symbol": "JOD"
+    },
+    "IQD": {
+        "name": "Δηνάριο Ιράκ",
+        "symbol": "IQD"
+    },
     "KWD": {
         "name": "Δηνάριο Κουβέιτ",
         "symbol": "KWD"
-    },
-    "KYD": {
-        "name": "Δολάριο Νήσων Κάιμαν",
-        "symbol": "KYD"
-    },
-    "KZT": {
-        "name": "Τένγκε Καζακστάν",
-        "symbol": "KZT"
-    },
-    "LAK": {
-        "name": "Κιπ Λάος",
-        "symbol": "LAK"
-    },
-    "LBP": {
-        "name": "Λίρα Λιβάνου",
-        "symbol": "LBP"
-    },
-    "LKR": {
-        "name": "Ρουπία Σρι Λάνκα",
-        "symbol": "LKR"
-    },
-    "LRD": {
-        "name": "Δολάριο Λιβερίας",
-        "symbol": "LRD"
-    },
-    "LSL": {
-        "name": "Λότι Λεσότο",
-        "symbol": "LSL"
-    },
-    "LTL": {
-        "name": "Λίτα Λιθουανίας",
-        "symbol": "LTL"
     },
     "LYD": {
         "name": "Δηνάριο Λιβύης",
         "symbol": "LYD"
     },
-    "MAD": {
-        "name": "Ντιράμ Μαρόκου",
-        "symbol": "MAD"
-    },
-    "MDL": {
-        "name": "Λέου Μολδαβίας",
-        "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Αριάρι Μαδαγασκάρης",
-        "symbol": "MGA"
+    "BHD": {
+        "name": "Δηνάριο Μπαχρέιν",
+        "symbol": "BHD"
     },
     "MKD": {
         "name": "Δηνάριο Π.Γ.Δ.Μ.",
         "symbol": "MKD"
     },
-    "MMK": {
-        "name": "Κυάτ Μιανμάρ",
-        "symbol": "MMK"
-    },
-    "MNT": {
-        "name": "Τουγκρίκ Μογγολίας",
-        "symbol": "MNT"
-    },
-    "MOP": {
-        "name": "Πατάκα Μακάο",
-        "symbol": "MOP"
-    },
-    "MRO": {
-        "name": "Ουγκίγια Μαυριτανίας",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Ρουπία Μαυρικίου",
-        "symbol": "MUR"
-    },
-    "MVR": {
-        "name": "Ρουφίγια Μαλδίβων",
-        "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Κουάτσα Μαλάουι",
-        "symbol": "MWK"
-    },
-    "MXN": {
-        "name": "Πέσο Μεξικού",
-        "symbol": "MX$"
-    },
-    "MYR": {
-        "name": "Ρινγκίτ Μαλαισίας",
-        "symbol": "MYR"
-    },
-    "MZN": {
-        "name": "Μετικάλ Μοζαμβίκης",
-        "symbol": "MZN"
-    },
-    "NAD": {
-        "name": "Δολάριο Ναμίμπια",
-        "symbol": "NAD"
-    },
-    "NGN": {
-        "name": "Νάιρα Νιγηρίας",
-        "symbol": "NGN"
-    },
-    "NIO": {
-        "name": "Χρυσή Κόρδοβα Νικαράγουας",
-        "symbol": "NIO"
-    },
-    "NOK": {
-        "name": "Κορόνα Νορβηγίας",
-        "symbol": "NOK"
-    },
-    "NPR": {
-        "name": "Ρουπία Νεπάλ",
-        "symbol": "NPR"
-    },
-    "NZD": {
-        "name": "Δολάριο Νέας Ζηλανδίας",
-        "symbol": "NZ$"
-    },
-    "OMR": {
-        "name": "Ριάλ Ομάν",
-        "symbol": "OMR"
-    },
-    "PAB": {
-        "name": "Μπαλμπόα Παναμά",
-        "symbol": "PAB"
-    },
-    "PEN": {
-        "name": "Νέο Σολ Περού",
-        "symbol": "PEN"
-    },
-    "PGK": {
-        "name": "Κίνα Παπούα Νέα Γουινέα",
-        "symbol": "PGK"
-    },
-    "PHP": {
-        "name": "Πέσο Φιλιππίνων",
-        "symbol": "PHP"
-    },
-    "PKR": {
-        "name": "Ρουπία Πακιστάν",
-        "symbol": "PKR"
-    },
-    "PLN": {
-        "name": "Ζλότι Πολωνίας",
-        "symbol": "PLN"
-    },
-    "PYG": {
-        "name": "Γκουαρανί Παραγουάης",
-        "symbol": "PYG"
-    },
-    "QAR": {
-        "name": "Ριάλ Κατάρ",
-        "symbol": "QAR"
-    },
-    "RON": {
-        "name": "Λέου Ρουμανίας",
-        "symbol": "RON"
-    },
     "RSD": {
         "name": "Δηνάριο Σερβίας",
         "symbol": "RSD"
-    },
-    "RUB": {
-        "name": "Ρούβλι Ρωσίας",
-        "symbol": "RUB"
-    },
-    "RWF": {
-        "name": "Φράγκο Ρουάντας",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "Ριάλ Σαουδικής Αραβίας",
-        "symbol": "SAR"
-    },
-    "SBD": {
-        "name": "Δολάριο Νήσων Σολομώντος",
-        "symbol": "SBD"
-    },
-    "SCR": {
-        "name": "Ρουπία Σεϋχελλών",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "Λίρα Σουδάν",
-        "symbol": "SDG"
-    },
-    "SEK": {
-        "name": "Κορόνα Σουηδίας",
-        "symbol": "SEK"
-    },
-    "SGD": {
-        "name": "Δολάριο Σιγκαπούρης",
-        "symbol": "SGD"
-    },
-    "SHP": {
-        "name": "Λίρα Αγίας Ελένης",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "Λεόνε Σιέρα Λεόνε",
-        "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "Σελίνι Σομαλίας",
-        "symbol": "SOS"
-    },
-    "SRD": {
-        "name": "Δολάριο Σουρινάμ",
-        "symbol": "SRD"
-    },
-    "SSP": {
-        "name": "Λίρα Νότιου Σουδάν",
-        "symbol": "SSP"
-    },
-    "STD": {
-        "name": "Ντόμπρα Σάο Τομέ και Πρίνσιπε",
-        "symbol": "STD"
-    },
-    "SVC": {
-        "name": "Κολόν Ελ Σαλβαδόρ",
-        "symbol": "SVC"
-    },
-    "SYP": {
-        "name": "Λίρα Συρίας",
-        "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Λιλανγκένι Σουαζιλάνδης",
-        "symbol": "SZL"
-    },
-    "THB": {
-        "name": "Μπατ Ταϊλάνδης",
-        "symbol": "฿"
-    },
-    "TJS": {
-        "name": "Σομόνι Τατζικιστάν",
-        "symbol": "TJS"
-    },
-    "TMT": {
-        "name": "Μάνατ Τουρκμενιστάν",
-        "symbol": "TMT"
     },
     "TND": {
         "name": "Δηνάριο Τυνησίας",
         "symbol": "TND"
     },
-    "TOP": {
-        "name": "Παάγκα νήσων Τόγκα",
-        "symbol": "TOP"
+    "XCD": {
+        "name": "Δολάριο Ανατολικής Καραϊβικής",
+        "symbol": "EC$"
     },
-    "TRY": {
-        "name": "Τουρκική Λίρα",
-        "symbol": "TRY"
+    "AUD": {
+        "name": "Δολάριο Αυστραλίας",
+        "symbol": "A$"
     },
-    "TTD": {
-        "name": "Δολάριο Τρινιντάντ και Τομπάγκο",
-        "symbol": "TTD"
+    "BMD": {
+        "name": "Δολάριο Βερμούδων",
+        "symbol": "BMD"
     },
-    "TWD": {
-        "name": "Νέο δολάριο Ταϊβάν",
-        "symbol": "NT$"
+    "GYD": {
+        "name": "Δολάριο Γουιάνας",
+        "symbol": "GYD"
     },
-    "TZS": {
-        "name": "Σελίνι Τανζανίας",
-        "symbol": "TZS"
-    },
-    "UAH": {
-        "name": "Γρίβνα Ουκρανίας",
-        "symbol": "UAH"
-    },
-    "UGX": {
-        "name": "Σελίνι Ουγκάντας",
-        "symbol": "UGX"
+    "ZWL": {
+        "name": "Δολάριο Ζιμπάμπουε (2009)",
+        "symbol": "ZWL"
     },
     "USD": {
         "name": "Δολάριο ΗΠΑ",
         "symbol": "$"
     },
-    "UYU": {
-        "name": "Πέσο Ουρουγουάης",
-        "symbol": "UYU"
+    "CAD": {
+        "name": "Δολάριο Καναδά",
+        "symbol": "CA$"
     },
-    "UZS": {
-        "name": "Σομ Ουζμπεκιστάν",
-        "symbol": "UZS"
+    "LRD": {
+        "name": "Δολάριο Λιβερίας",
+        "symbol": "LRD"
     },
-    "VEF": {
-        "name": "Μπολιβάρ Βενεζουέλας",
-        "symbol": "VEF"
+    "BBD": {
+        "name": "Δολάριο Μπαρμπάντος",
+        "symbol": "BBD"
     },
-    "VND": {
-        "name": "Ντονγκ Βιετνάμ",
-        "symbol": "₫"
+    "BSD": {
+        "name": "Δολάριο Μπαχάμες",
+        "symbol": "BSD"
     },
-    "VUV": {
-        "name": "Βατού Βανουάτου",
-        "symbol": "VUV"
+    "BZD": {
+        "name": "Δολάριο Μπελίζ",
+        "symbol": "BZD"
     },
-    "WST": {
-        "name": "Τάλα Σαμόα",
-        "symbol": "WST"
+    "BND": {
+        "name": "Δολάριο Μπρουνέι",
+        "symbol": "BND"
     },
-    "XAF": {
-        "name": "Φράγκο CFA Κεντρικής Αφρικής (BEAC)",
-        "symbol": "FCFA"
+    "NAD": {
+        "name": "Δολάριο Ναμίμπια",
+        "symbol": "NAD"
     },
-    "XCD": {
-        "name": "Δολάριο Ανατολικής Καραϊβικής",
-        "symbol": "EC$"
+    "NZD": {
+        "name": "Δολάριο Νέας Ζηλανδίας",
+        "symbol": "NZ$"
     },
-    "XOF": {
-        "name": "Φράγκο CFA Δυτικής Αφρικής (BCEAO)",
-        "symbol": "CFA"
+    "KYD": {
+        "name": "Δολάριο Νήσων Κάιμαν",
+        "symbol": "KYD"
     },
-    "XPF": {
-        "name": "Φράγκο CFP",
-        "symbol": "CFPF"
+    "SBD": {
+        "name": "Δολάριο Νήσων Σολομώντος",
+        "symbol": "SBD"
     },
-    "YER": {
-        "name": "Ριάλ Υεμένης",
-        "symbol": "YER"
+    "SGD": {
+        "name": "Δολάριο Σιγκαπούρης",
+        "symbol": "SGD"
     },
-    "ZAR": {
-        "name": "Ραντ Νότιας Αφρικής",
-        "symbol": "ZAR"
+    "SRD": {
+        "name": "Δολάριο Σουρινάμ",
+        "symbol": "SRD"
+    },
+    "JMD": {
+        "name": "Δολάριο Τζαμάικας",
+        "symbol": "JMD"
+    },
+    "TTD": {
+        "name": "Δολάριο Τρινιντάντ και Τομπάγκο",
+        "symbol": "TTD"
+    },
+    "FJD": {
+        "name": "Δολάριο Φίτζι",
+        "symbol": "FJD"
+    },
+    "HKD": {
+        "name": "Δολάριο Χονγκ Κονγκ",
+        "symbol": "HK$"
+    },
+    "CVE": {
+        "name": "Εσκούδο Πράσινου Ακρωτηρίου",
+        "symbol": "CVE"
+    },
+    "EUR": {
+        "name": "Ευρώ",
+        "symbol": "€"
+    },
+    "PLN": {
+        "name": "Ζλότι Πολωνίας",
+        "symbol": "PLN"
+    },
+    "PGK": {
+        "name": "Κίνα Παπούα Νέα Γουινέα",
+        "symbol": "PGK"
+    },
+    "LAK": {
+        "name": "Κιπ Λάος",
+        "symbol": "LAK"
+    },
+    "SVC": {
+        "name": "Κολόν Ελ Σαλβαδόρ",
+        "symbol": "SVC"
+    },
+    "CRC": {
+        "name": "Κολόν Κόστα Ρίκα",
+        "symbol": "CRC"
+    },
+    "DKK": {
+        "name": "Κορόνα Δανίας",
+        "symbol": "DKK"
+    },
+    "ISK": {
+        "name": "Κορόνα Ισλανδίας",
+        "symbol": "ISK"
+    },
+    "NOK": {
+        "name": "Κορόνα Νορβηγίας",
+        "symbol": "NOK"
+    },
+    "SEK": {
+        "name": "Κορόνα Σουηδίας",
+        "symbol": "SEK"
+    },
+    "CZK": {
+        "name": "Κορόνα Τσεχίας",
+        "symbol": "CZK"
+    },
+    "AOA": {
+        "name": "Κουάνζα Ανγκόλας",
+        "symbol": "AOA"
     },
     "ZMW": {
         "name": "Κουάτσα Ζάμπιας",
         "symbol": "ZMW"
     },
-    "ZWL": {
-        "name": "Δολάριο Ζιμπάμπουε (2009)",
-        "symbol": "ZWL"
+    "MWK": {
+        "name": "Κουάτσα Μαλάουι",
+        "symbol": "MWK"
+    },
+    "GTQ": {
+        "name": "Κουετσάλ Γουατεμάλας",
+        "symbol": "GTQ"
+    },
+    "HRK": {
+        "name": "Κούνα Κροατίας",
+        "symbol": "HRK"
+    },
+    "MMK": {
+        "name": "Κυάτ Μιανμάρ",
+        "symbol": "MMK"
+    },
+    "GEL": {
+        "name": "Λάρι Γεωργίας",
+        "symbol": "GEL"
+    },
+    "BGN": {
+        "name": "Λεβ Βουλγαρίας",
+        "symbol": "BGN"
+    },
+    "ALL": {
+        "name": "Λεκ Αλβανίας",
+        "symbol": "ALL"
+    },
+    "HNL": {
+        "name": "Λεμπίρα Ονδούρας",
+        "symbol": "HNL"
+    },
+    "SLL": {
+        "name": "Λεόνε Σιέρα Λεόνε",
+        "symbol": "SLL"
+    },
+    "MDL": {
+        "name": "Λέου Μολδαβίας",
+        "symbol": "MDL"
+    },
+    "RON": {
+        "name": "Λέου Ρουμανίας",
+        "symbol": "RON"
+    },
+    "SZL": {
+        "name": "Λιλανγκένι Σουαζιλάνδης",
+        "symbol": "SZL"
+    },
+    "SHP": {
+        "name": "Λίρα Αγίας Ελένης",
+        "symbol": "SHP"
+    },
+    "EGP": {
+        "name": "Λίρα Αιγύπτου",
+        "symbol": "EGP"
+    },
+    "GIP": {
+        "name": "Λίρα Γιβραλτάρ",
+        "symbol": "GIP"
+    },
+    "LBP": {
+        "name": "Λίρα Λιβάνου",
+        "symbol": "LBP"
+    },
+    "FKP": {
+        "name": "Λίρα Νησιών Φώκλαντ",
+        "symbol": "FKP"
+    },
+    "SSP": {
+        "name": "Λίρα Νότιου Σουδάν",
+        "symbol": "SSP"
+    },
+    "SDG": {
+        "name": "Λίρα Σουδάν",
+        "symbol": "SDG"
+    },
+    "GBP": {
+        "name": "Λίρα Στερλίνα Βρετανίας",
+        "symbol": "£"
+    },
+    "SYP": {
+        "name": "Λίρα Συρίας",
+        "symbol": "SYP"
+    },
+    "LTL": {
+        "name": "Λίτα Λιθουανίας",
+        "symbol": "LTL"
+    },
+    "LSL": {
+        "name": "Λότι Λεσότο",
+        "symbol": "LSL"
+    },
+    "AZN": {
+        "name": "Μανάτ Αζερμπαϊτζάν",
+        "symbol": "AZN"
+    },
+    "TMT": {
+        "name": "Μάνατ Τουρκμενιστάν",
+        "symbol": "TMT"
+    },
+    "BAM": {
+        "name": "Μετατρέψιμο Μάρκο Βοσνίας-Ερζεγοβίνης",
+        "symbol": "BAM"
+    },
+    "CUC": {
+        "name": "Μετατρέψιμο πέσο Κούβας",
+        "symbol": "CUC"
+    },
+    "MZN": {
+        "name": "Μετικάλ Μοζαμβίκης",
+        "symbol": "MZN"
+    },
+    "PAB": {
+        "name": "Μπαλμπόα Παναμά",
+        "symbol": "PAB"
+    },
+    "THB": {
+        "name": "Μπατ Ταϊλάνδης",
+        "symbol": "฿"
+    },
+    "ETB": {
+        "name": "Μπιρ Αιθιοπίας",
+        "symbol": "ETB"
+    },
+    "VEF": {
+        "name": "Μπολιβάρ Βενεζουέλας",
+        "symbol": "VEF"
+    },
+    "BOB": {
+        "name": "Μπολιβιάνο Βολιβίας",
+        "symbol": "BOB"
+    },
+    "NGN": {
+        "name": "Νάιρα Νιγηρίας",
+        "symbol": "NGN"
+    },
+    "ERN": {
+        "name": "Νάκφα Ερυθραίας",
+        "symbol": "ERN"
+    },
+    "BTN": {
+        "name": "Νγκούλτρουμ Μπουτάν",
+        "symbol": "BTN"
+    },
+    "TWD": {
+        "name": "Νέο δολάριο Ταϊβάν",
+        "symbol": "NT$"
+    },
+    "ILS": {
+        "name": "Νέο Σέκελ Ισραήλ",
+        "symbol": "₪"
+    },
+    "PEN": {
+        "name": "Νέο Σολ Περού",
+        "symbol": "PEN"
+    },
+    "GMD": {
+        "name": "Νταλάσι Γκάμπιας",
+        "symbol": "GMD"
+    },
+    "AED": {
+        "name": "Ντιράμ Ηνωμένων Αραβικών Εμιράτων",
+        "symbol": "AED"
+    },
+    "MAD": {
+        "name": "Ντιράμ Μαρόκου",
+        "symbol": "MAD"
+    },
+    "STD": {
+        "name": "Ντόμπρα Σάο Τομέ και Πρίνσιπε",
+        "symbol": "STD"
+    },
+    "VND": {
+        "name": "Ντονγκ Βιετνάμ",
+        "symbol": "₫"
+    },
+    "AMD": {
+        "name": "Ντραμ Αρμενίας",
+        "symbol": "AMD"
+    },
+    "MRO": {
+        "name": "Ουγκίγια Μαυριτανίας",
+        "symbol": "MRO"
+    },
+    "TOP": {
+        "name": "Παάγκα νήσων Τόγκα",
+        "symbol": "TOP"
+    },
+    "MOP": {
+        "name": "Πατάκα Μακάο",
+        "symbol": "MOP"
+    },
+    "ARS": {
+        "name": "Πέσο Αργεντινής",
+        "symbol": "ARS"
+    },
+    "DOP": {
+        "name": "Πέσο Δομινικανής Δημοκρατίας",
+        "symbol": "DOP"
+    },
+    "COP": {
+        "name": "Πέσο Κολομβίας",
+        "symbol": "COP"
+    },
+    "CUP": {
+        "name": "Πέσο Κούβας",
+        "symbol": "CUP"
+    },
+    "MXN": {
+        "name": "Πέσο Μεξικού",
+        "symbol": "MX$"
+    },
+    "UYU": {
+        "name": "Πέσο Ουρουγουάης",
+        "symbol": "UYU"
+    },
+    "PHP": {
+        "name": "Πέσο Φιλιππίνων",
+        "symbol": "PHP"
+    },
+    "CLP": {
+        "name": "Πέσο Χιλής",
+        "symbol": "CLP"
+    },
+    "BWP": {
+        "name": "Πούλα Μποτσουάνας",
+        "symbol": "BWP"
+    },
+    "ZAR": {
+        "name": "Ραντ Νότιας Αφρικής",
+        "symbol": "ZAR"
+    },
+    "BRL": {
+        "name": "Ρεάλ Βραζιλίας",
+        "symbol": "R$"
+    },
+    "IRR": {
+        "name": "Ριάλ Ιράν",
+        "symbol": "IRR"
+    },
+    "QAR": {
+        "name": "Ριάλ Κατάρ",
+        "symbol": "QAR"
+    },
+    "OMR": {
+        "name": "Ριάλ Ομάν",
+        "symbol": "OMR"
+    },
+    "SAR": {
+        "name": "Ριάλ Σαουδικής Αραβίας",
+        "symbol": "SAR"
+    },
+    "YER": {
+        "name": "Ριάλ Υεμένης",
+        "symbol": "YER"
+    },
+    "KHR": {
+        "name": "Ρίελ Καμπότζης",
+        "symbol": "KHR"
+    },
+    "MYR": {
+        "name": "Ρινγκίτ Μαλαισίας",
+        "symbol": "MYR"
+    },
+    "BYR": {
+        "name": "Ρούβλι Λευκορωσίας",
+        "symbol": "BYR"
+    },
+    "RUB": {
+        "name": "Ρούβλι Ρωσίας",
+        "symbol": "RUB"
+    },
+    "INR": {
+        "name": "Ρουπία Ινδίας",
+        "symbol": "₹"
+    },
+    "IDR": {
+        "name": "Ρουπία Ινδονησίας",
+        "symbol": "IDR"
+    },
+    "MUR": {
+        "name": "Ρουπία Μαυρικίου",
+        "symbol": "MUR"
+    },
+    "NPR": {
+        "name": "Ρουπία Νεπάλ",
+        "symbol": "NPR"
+    },
+    "PKR": {
+        "name": "Ρουπία Πακιστάν",
+        "symbol": "PKR"
+    },
+    "SCR": {
+        "name": "Ρουπία Σεϋχελλών",
+        "symbol": "SCR"
+    },
+    "LKR": {
+        "name": "Ρουπία Σρι Λάνκα",
+        "symbol": "LKR"
+    },
+    "MVR": {
+        "name": "Ρουφίγια Μαλδίβων",
+        "symbol": "MVR"
+    },
+    "KES": {
+        "name": "Σελίνι Κένυας",
+        "symbol": "KES"
+    },
+    "UGX": {
+        "name": "Σελίνι Ουγκάντας",
+        "symbol": "UGX"
+    },
+    "SOS": {
+        "name": "Σελίνι Σομαλίας",
+        "symbol": "SOS"
+    },
+    "TZS": {
+        "name": "Σελίνι Τανζανίας",
+        "symbol": "TZS"
+    },
+    "GHS": {
+        "name": "Σέντι Γκάνας",
+        "symbol": "GHS"
+    },
+    "KGS": {
+        "name": "Σομ Κιργιζίας",
+        "symbol": "KGS"
+    },
+    "UZS": {
+        "name": "Σομ Ουζμπεκιστάν",
+        "symbol": "UZS"
+    },
+    "TJS": {
+        "name": "Σομόνι Τατζικιστάν",
+        "symbol": "TJS"
+    },
+    "BDT": {
+        "name": "Τάκα Μπαγκλαντές",
+        "symbol": "BDT"
+    },
+    "WST": {
+        "name": "Τάλα Σαμόα",
+        "symbol": "WST"
+    },
+    "KZT": {
+        "name": "Τένγκε Καζακστάν",
+        "symbol": "KZT"
+    },
+    "MNT": {
+        "name": "Τουγκρίκ Μογγολίας",
+        "symbol": "MNT"
+    },
+    "TRY": {
+        "name": "Τουρκική Λίρα",
+        "symbol": "TRY"
+    },
+    "HUF": {
+        "name": "Φιορίνι Ουγγαρίας",
+        "symbol": "HUF"
+    },
+    "AWG": {
+        "name": "Φλορίνι Αρούμπα",
+        "symbol": "AWG"
+    },
+    "XOF": {
+        "name": "Φράγκο CFA Δυτικής Αφρικής (BCEAO)",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Φράγκο CFA Κεντρικής Αφρικής (BEAC)",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "Φράγκο CFP",
+        "symbol": "CFPF"
+    },
+    "GNF": {
+        "name": "Φράγκο Γουινέας",
+        "symbol": "GNF"
+    },
+    "CHF": {
+        "name": "Φράγκο Ελβετίας",
+        "symbol": "CHF"
+    },
+    "KMF": {
+        "name": "Φράγκο Κομορών",
+        "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Φράγκο Κονγκό",
+        "symbol": "CDF"
+    },
+    "BIF": {
+        "name": "Φράγκο Μπουρούντι",
+        "symbol": "BIF"
+    },
+    "RWF": {
+        "name": "Φράγκο Ρουάντας",
+        "symbol": "RWF"
+    },
+    "DJF": {
+        "name": "Φράγκο Τζιμπουτί",
+        "symbol": "DJF"
+    },
+    "NIO": {
+        "name": "Χρυσή Κόρδοβα Νικαράγουας",
+        "symbol": "NIO"
     }
 }

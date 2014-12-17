@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "Derhem Uymarati",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -19,17 +15,13 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "Kwanza Unguli",
-        "symbol": "AOA"
-    },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
     },
-    "AUD": {
-        "name": "Ḍular Usṭrali",
-        "symbol": "A$"
+    "MGA": {
+        "name": "Aryari Umalɣaci",
+        "symbol": "MGA"
     },
     "AWG": {
         "name": "AWG",
@@ -55,13 +47,9 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "Ḍinar Ubaḥrayni",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Frank Uburundi",
-        "symbol": "BIF"
+    "ETB": {
+        "name": "Birr Uyityuppi",
+        "symbol": "ETB"
     },
     "BMD": {
         "name": "BMD",
@@ -87,10 +75,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Pula Ubutswani",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +83,25 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Ḍular Ukanadi",
-        "symbol": "CA$"
+    "UGX": {
+        "name": "Cilin Uɣandi (1966–1987)",
+        "symbol": "UGX"
     },
-    "CDF": {
-        "name": "Frank Ukunguli",
-        "symbol": "CDF"
+    "SOS": {
+        "name": "Cilin Uṣumali",
+        "symbol": "SOS"
     },
-    "CHF": {
-        "name": "Frank Uswisri",
-        "symbol": "CHF"
+    "TZS": {
+        "name": "Cilin Uṭanzani",
+        "symbol": "TZS"
+    },
+    "KES": {
+        "name": "Cillin Ukini",
+        "symbol": "KES"
     },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Ywan Renminbi Ucinwi",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,17 +119,37 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Iskudu Ukabuvirdyani",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
     },
-    "DJF": {
-        "name": "Frank Uğibuti",
-        "symbol": "DJF"
+    "GMD": {
+        "name": "Dalasi Agambi",
+        "symbol": "GMD"
+    },
+    "MAD": {
+        "name": "Derhem Umeṛṛuki",
+        "symbol": "MAD"
+    },
+    "AED": {
+        "name": "Derhem Uymarati",
+        "symbol": "AED"
+    },
+    "BHD": {
+        "name": "Ḍinar Ubaḥrayni",
+        "symbol": "BHD"
+    },
+    "DZD": {
+        "name": "Ḍinar Udzayri",
+        "symbol": "DZD"
+    },
+    "LYD": {
+        "name": "Ḍinar Ulibi",
+        "symbol": "LYD"
+    },
+    "TND": {
+        "name": "Ḍinar Utunsi",
+        "symbol": "TND"
     },
     "DKK": {
         "name": "DKK",
@@ -155,25 +159,29 @@
         "name": "DOP",
         "symbol": "DOP"
     },
-    "DZD": {
-        "name": "Ḍinar Udzayri",
-        "symbol": "DZD"
+    "STD": {
+        "name": "Dubra Usawṭumi",
+        "symbol": "STD"
     },
-    "EGP": {
-        "name": "Junih Umiṣṛi",
-        "symbol": "EGP"
+    "CAD": {
+        "name": "Ḍular Ukanadi",
+        "symbol": "CA$"
     },
-    "ERN": {
-        "name": "Nakfa Uyritri",
-        "symbol": "ERN"
+    "LRD": {
+        "name": "Ḍular Ulibiri",
+        "symbol": "LRD"
     },
-    "ETB": {
-        "name": "Birr Uyityuppi",
-        "symbol": "ETB"
+    "USD": {
+        "name": "Ḍular Umirikani",
+        "symbol": "US$"
     },
-    "EUR": {
-        "name": "Uṛu",
-        "symbol": "€"
+    "NAD": {
+        "name": "Ḍular Unamibi",
+        "symbol": "NAD"
+    },
+    "AUD": {
+        "name": "Ḍular Usṭrali",
+        "symbol": "A$"
     },
     "FJD": {
         "name": "FJD",
@@ -183,9 +191,37 @@
         "name": "FKP",
         "symbol": "FKP"
     },
-    "GBP": {
-        "name": "Junih Usterlini Ubriṭani",
-        "symbol": "£"
+    "XOF": {
+        "name": "Frank CFA (BCEAO)",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Frank CFA (BEAC)",
+        "symbol": "FCFA"
+    },
+    "BIF": {
+        "name": "Frank Uburundi",
+        "symbol": "BIF"
+    },
+    "DJF": {
+        "name": "Frank Uğibuti",
+        "symbol": "DJF"
+    },
+    "CDF": {
+        "name": "Frank Ukunguli",
+        "symbol": "CDF"
+    },
+    "KMF": {
+        "name": "Frank Uqumuri",
+        "symbol": "KMF"
+    },
+    "RWF": {
+        "name": "Frank Urwandi",
+        "symbol": "RWF"
+    },
+    "CHF": {
+        "name": "Frank Uswisri",
+        "symbol": "CHF"
     },
     "GEL": {
         "name": "GEL",
@@ -198,10 +234,6 @@
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Dalasi Agambi",
-        "symbol": "GMD"
     },
     "GNF": {
         "name": "GNF",
@@ -243,10 +275,6 @@
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "Rupi Uḥindi",
-        "symbol": "₹"
-    },
     "IQD": {
         "name": "IQD",
         "symbol": "IQD"
@@ -259,6 +287,10 @@
         "name": "ISK",
         "symbol": "ISK"
     },
+    "CVE": {
+        "name": "Iskudu Ukabuvirdyani",
+        "symbol": "CVE"
+    },
     "JMD": {
         "name": "JMD",
         "symbol": "JMD"
@@ -267,13 +299,21 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Yann Ujappuni",
-        "symbol": "JP¥"
+    "EGP": {
+        "name": "Junih Umiṣṛi",
+        "symbol": "EGP"
     },
-    "KES": {
-        "name": "Cillin Ukini",
-        "symbol": "KES"
+    "SHP": {
+        "name": "Junih Usantehilini",
+        "symbol": "SHP"
+    },
+    "GBP": {
+        "name": "Junih Usterlini Ubriṭani",
+        "symbol": "£"
+    },
+    "SDG": {
+        "name": "Junih Usudani",
+        "symbol": "SDG"
     },
     "KGS": {
         "name": "KGS",
@@ -283,10 +323,6 @@
         "name": "KHR",
         "symbol": "KHR"
     },
-    "KMF": {
-        "name": "Frank Uqumuri",
-        "symbol": "KMF"
-    },
     "KPW": {
         "name": "KPW",
         "symbol": "KPW"
@@ -294,6 +330,18 @@
     "KRW": {
         "name": "KRW",
         "symbol": "₩"
+    },
+    "MWK": {
+        "name": "Kwača Umalawi",
+        "symbol": "MWK"
+    },
+    "ZMW": {
+        "name": "Kwača Uzambi",
+        "symbol": "ZMW"
+    },
+    "AOA": {
+        "name": "Kwanza Unguli",
+        "symbol": "AOA"
     },
     "KWD": {
         "name": "KWD",
@@ -315,37 +363,29 @@
         "name": "LBP",
         "symbol": "LBP"
     },
+    "SZL": {
+        "name": "Lilanjini Uswazi",
+        "symbol": "SZL"
+    },
     "LKR": {
         "name": "LKR",
         "symbol": "LKR"
-    },
-    "LRD": {
-        "name": "Ḍular Ulibiri",
-        "symbol": "LRD"
-    },
-    "LSL": {
-        "name": "Luti Ulusuṭi",
-        "symbol": "LSL"
     },
     "LTL": {
         "name": "LTL",
         "symbol": "LTL"
     },
-    "LYD": {
-        "name": "Ḍinar Ulibi",
-        "symbol": "LYD"
+    "LSL": {
+        "name": "Luti Ulusuṭi",
+        "symbol": "LSL"
     },
-    "MAD": {
-        "name": "Derhem Umeṛṛuki",
-        "symbol": "MAD"
+    "SLL": {
+        "name": "Lyun Usirralyuni",
+        "symbol": "SLL"
     },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Aryari Umalɣaci",
-        "symbol": "MGA"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +403,9 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "Uqiyya Umuritani",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Rupi Umurisi",
-        "symbol": "MUR"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Kwača Umalawi",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -391,9 +419,9 @@
         "name": "MZN",
         "symbol": "MZN"
     },
-    "NAD": {
-        "name": "Ḍular Unamibi",
-        "symbol": "NAD"
+    "ERN": {
+        "name": "Nakfa Uyritri",
+        "symbol": "ERN"
     },
     "NGN": {
         "name": "Nayra Unijiri",
@@ -443,6 +471,10 @@
         "name": "PLN",
         "symbol": "PLN"
     },
+    "BWP": {
+        "name": "Pula Ubutswani",
+        "symbol": "BWP"
+    },
     "PYG": {
         "name": "PYG",
         "symbol": "PYG"
@@ -450,6 +482,10 @@
     "QAR": {
         "name": "QAR",
         "symbol": "QAR"
+    },
+    "ZAR": {
+        "name": "Rand Ufriki Unzul",
+        "symbol": "ZAR"
     },
     "RON": {
         "name": "RON",
@@ -463,9 +499,17 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "Frank Urwandi",
-        "symbol": "RWF"
+    "INR": {
+        "name": "Rupi Uḥindi",
+        "symbol": "₹"
+    },
+    "MUR": {
+        "name": "Rupi Umurisi",
+        "symbol": "MUR"
+    },
+    "SCR": {
+        "name": "Rupi Usicili",
+        "symbol": "SCR"
     },
     "SAR": {
         "name": "Ryal Usaεudi",
@@ -475,14 +519,6 @@
         "name": "SBD",
         "symbol": "SBD"
     },
-    "SCR": {
-        "name": "Rupi Usicili",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "Junih Usudani",
-        "symbol": "SDG"
-    },
     "SEK": {
         "name": "SEK",
         "symbol": "SEK"
@@ -490,18 +526,6 @@
     "SGD": {
         "name": "SGD",
         "symbol": "SGD"
-    },
-    "SHP": {
-        "name": "Junih Usantehilini",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "Lyun Usirralyuni",
-        "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "Cilin Uṣumali",
-        "symbol": "SOS"
     },
     "SRD": {
         "name": "SRD",
@@ -511,10 +535,6 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Dubra Usawṭumi",
-        "symbol": "STD"
-    },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
@@ -522,10 +542,6 @@
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Lilanjini Uswazi",
-        "symbol": "SZL"
     },
     "THB": {
         "name": "THB",
@@ -538,10 +554,6 @@
     "TMT": {
         "name": "TMT",
         "symbol": "TMT"
-    },
-    "TND": {
-        "name": "Ḍinar Utunsi",
-        "symbol": "TND"
     },
     "TOP": {
         "name": "TOP",
@@ -559,21 +571,17 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Cilin Uṭanzani",
-        "symbol": "TZS"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
     },
-    "UGX": {
-        "name": "Cilin Uɣandi (1966–1987)",
-        "symbol": "UGX"
+    "MRO": {
+        "name": "Uqiyya Umuritani",
+        "symbol": "MRO"
     },
-    "USD": {
-        "name": "Ḍular Umirikani",
-        "symbol": "US$"
+    "EUR": {
+        "name": "Uṛu",
+        "symbol": "€"
     },
     "UYU": {
         "name": "UYU",
@@ -599,33 +607,25 @@
         "name": "WST",
         "symbol": "WST"
     },
-    "XAF": {
-        "name": "Frank CFA (BEAC)",
-        "symbol": "FCFA"
-    },
     "XCD": {
         "name": "XCD",
         "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "Frank CFA (BCEAO)",
-        "symbol": "CFA"
     },
     "XPF": {
         "name": "XPF",
         "symbol": "CFPF"
     },
+    "JPY": {
+        "name": "Yann Ujappuni",
+        "symbol": "JP¥"
+    },
     "YER": {
         "name": "YER",
         "symbol": "YER"
     },
-    "ZAR": {
-        "name": "Rand Ufriki Unzul",
-        "symbol": "ZAR"
-    },
-    "ZMW": {
-        "name": "Kwača Uzambi",
-        "symbol": "ZMW"
+    "CNY": {
+        "name": "Ywan Renminbi Ucinwi",
+        "symbol": "CN¥"
     },
     "ZWL": {
         "name": "ZWL",

@@ -1,8 +1,4 @@
 {
-    "AED": {
-        "name": "Idiramu ryo muri Leta Zunze Ubumwe z’Abarabu",
-        "symbol": "AED"
-    },
     "AFN": {
         "name": "AFN",
         "symbol": "AFN"
@@ -19,17 +15,9 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "Ikwanza ryo muri Angola",
-        "symbol": "AOA"
-    },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "Idolari ryo muri Ositaraliya",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -55,14 +43,6 @@
         "name": "BGN",
         "symbol": "BGN"
     },
-    "BHD": {
-        "name": "Idinari ry’iribahireyini",
-        "symbol": "BHD"
-    },
-    "BIF": {
-        "name": "Ifaranga ry’Uburundi",
-        "symbol": "FBu"
-    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -87,10 +67,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "Ipula ryo muri Botswana",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -99,25 +75,9 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "CAD": {
-        "name": "Idolari rya Kanada",
-        "symbol": "CA$"
-    },
-    "CDF": {
-        "name": "Ifaranga rya Kongo",
-        "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "Ifaranga ry’Ubusuwisi",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "Iyuwani ryo mu Bushinwa",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -135,17 +95,9 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "Irikaboveridiyano ryo muri Esikudo",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
-    },
-    "DJF": {
-        "name": "Ifaranga ryo muri Jibuti",
-        "symbol": "DJF"
     },
     "DKK": {
         "name": "DKK",
@@ -155,26 +107,6 @@
         "name": "DOP",
         "symbol": "DOP"
     },
-    "DZD": {
-        "name": "Idinari ryo muri Alijeriya",
-        "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "Ipawundi rya Misiri",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "Irinakufa ryo muri Eritereya",
-        "symbol": "ERN"
-    },
-    "ETB": {
-        "name": "Ibiri ryo muri Etiyopiya",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "Iyero",
-        "symbol": "€"
-    },
     "FJD": {
         "name": "FJD",
         "symbol": "FJD"
@@ -182,10 +114,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "Ipawundi ryo mu Bwongereza",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -198,10 +126,6 @@
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
-    },
-    "GMD": {
-        "name": "Idalasi ryo muri Gambiya",
-        "symbol": "GMD"
     },
     "GNF": {
         "name": "GNF",
@@ -235,29 +159,213 @@
         "name": "HUF",
         "symbol": "HUF"
     },
+    "ETB": {
+        "name": "Ibiri ryo muri Etiyopiya",
+        "symbol": "ETB"
+    },
+    "GMD": {
+        "name": "Idalasi ryo muri Gambiya",
+        "symbol": "GMD"
+    },
+    "BHD": {
+        "name": "Idinari ry’iribahireyini",
+        "symbol": "BHD"
+    },
+    "LYD": {
+        "name": "Idinari rya Libiya",
+        "symbol": "LYD"
+    },
+    "DZD": {
+        "name": "Idinari ryo muri Alijeriya",
+        "symbol": "DZD"
+    },
+    "TND": {
+        "name": "Idinari ryo muri Tuniziya",
+        "symbol": "TND"
+    },
+    "AED": {
+        "name": "Idiramu ryo muri Leta Zunze Ubumwe z’Abarabu",
+        "symbol": "AED"
+    },
+    "MAD": {
+        "name": "Idiramu ryo muri Maroke",
+        "symbol": "MAD"
+    },
+    "STD": {
+        "name": "Idobura ryo muri Sawotome na Perensipe",
+        "symbol": "STD"
+    },
+    "USD": {
+        "name": "Idolari ry’abanyamerika",
+        "symbol": "US$"
+    },
+    "CAD": {
+        "name": "Idolari rya Kanada",
+        "symbol": "CA$"
+    },
+    "LRD": {
+        "name": "Idolari rya Liberiya",
+        "symbol": "LRD"
+    },
+    "NAD": {
+        "name": "Idolari rya Namibiya",
+        "symbol": "NAD"
+    },
+    "AUD": {
+        "name": "Idolari ryo muri Ositaraliya",
+        "symbol": "A$"
+    },
     "IDR": {
         "name": "IDR",
         "symbol": "IDR"
+    },
+    "RWF": {
+        "name": "Ifaranga ry’u Rwanda",
+        "symbol": "RWF"
+    },
+    "BIF": {
+        "name": "Ifaranga ry’Uburundi",
+        "symbol": "FBu"
+    },
+    "CHF": {
+        "name": "Ifaranga ry’Ubusuwisi",
+        "symbol": "CHF"
+    },
+    "KMF": {
+        "name": "Ifaranga rya Komore",
+        "symbol": "KMF"
+    },
+    "CDF": {
+        "name": "Ifaranga rya Kongo",
+        "symbol": "CDF"
+    },
+    "DJF": {
+        "name": "Ifaranga ryo muri Jibuti",
+        "symbol": "DJF"
+    },
+    "MWK": {
+        "name": "Ikwaca ryo muri Malawi",
+        "symbol": "MWK"
+    },
+    "ZMW": {
+        "name": "Ikwaca ryo muri Zambiya",
+        "symbol": "ZMW"
+    },
+    "AOA": {
+        "name": "Ikwanza ryo muri Angola",
+        "symbol": "AOA"
+    },
+    "SLL": {
+        "name": "Ilewone",
+        "symbol": "SLL"
+    },
+    "SZL": {
+        "name": "Ililangeni",
+        "symbol": "SZL"
+    },
+    "LSL": {
+        "name": "Iloti ryo muro Lesoto",
+        "symbol": "LSL"
     },
     "ILS": {
         "name": "ILS",
         "symbol": "₪"
     },
-    "INR": {
-        "name": "Irupiya ryo mu Buhindi",
-        "symbol": "₹"
+    "NGN": {
+        "name": "Inayira ryo muri Nijeriya",
+        "symbol": "NGN"
+    },
+    "EGP": {
+        "name": "Ipawundi rya Misiri",
+        "symbol": "EGP"
+    },
+    "SHP": {
+        "name": "Ipawundi rya Sente Helena",
+        "symbol": "SHP"
+    },
+    "SDG": {
+        "name": "Ipawundi rya Sudani",
+        "symbol": "SDG"
+    },
+    "GBP": {
+        "name": "Ipawundi ryo mu Bwongereza",
+        "symbol": "£"
+    },
+    "BWP": {
+        "name": "Ipula ryo muri Botswana",
+        "symbol": "BWP"
     },
     "IQD": {
         "name": "IQD",
         "symbol": "IQD"
     },
+    "ZAR": {
+        "name": "Irandi ryo muri Afurika y’Epfo",
+        "symbol": "ZAR"
+    },
+    "CVE": {
+        "name": "Irikaboveridiyano ryo muri Esikudo",
+        "symbol": "CVE"
+    },
+    "ERN": {
+        "name": "Irinakufa ryo muri Eritereya",
+        "symbol": "ERN"
+    },
+    "SAR": {
+        "name": "Iriyari ryo muri Arabiya Sawudite",
+        "symbol": "SAR"
+    },
+    "MGA": {
+        "name": "Iriyari ryo muri Madagasikari",
+        "symbol": "MGA"
+    },
     "IRR": {
         "name": "IRR",
         "symbol": "IRR"
     },
+    "MUR": {
+        "name": "Irupiya ryo mu birwa bya Morise",
+        "symbol": "MUR"
+    },
+    "SCR": {
+        "name": "Irupiya ryo mu birwa bya Sayisheli",
+        "symbol": "SCR"
+    },
+    "INR": {
+        "name": "Irupiya ryo mu Buhindi",
+        "symbol": "₹"
+    },
+    "UGX": {
+        "name": "Ishilingi ry’Ubugande",
+        "symbol": "UGX"
+    },
+    "KES": {
+        "name": "Ishilingi rya Kenya",
+        "symbol": "KES"
+    },
+    "TZS": {
+        "name": "Ishilingi rya Tanzaniya",
+        "symbol": "TZS"
+    },
+    "SOS": {
+        "name": "Ishilingi ryo muri Somaliya",
+        "symbol": "SOS"
+    },
     "ISK": {
         "name": "ISK",
         "symbol": "ISK"
+    },
+    "JPY": {
+        "name": "Iyeni ry’Ubuyapani",
+        "symbol": "JP¥"
+    },
+    "EUR": {
+        "name": "Iyero",
+        "symbol": "€"
+    },
+    "CNY": {
+        "name": "Iyuwani ryo mu Bushinwa",
+        "symbol": "CN¥"
     },
     "JMD": {
         "name": "JMD",
@@ -267,14 +375,6 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "Iyeni ry’Ubuyapani",
-        "symbol": "JP¥"
-    },
-    "KES": {
-        "name": "Ishilingi rya Kenya",
-        "symbol": "KES"
-    },
     "KGS": {
         "name": "KGS",
         "symbol": "KGS"
@@ -282,10 +382,6 @@
     "KHR": {
         "name": "KHR",
         "symbol": "KHR"
-    },
-    "KMF": {
-        "name": "Ifaranga rya Komore",
-        "symbol": "KMF"
     },
     "KPW": {
         "name": "KPW",
@@ -319,33 +415,13 @@
         "name": "LKR",
         "symbol": "LKR"
     },
-    "LRD": {
-        "name": "Idolari rya Liberiya",
-        "symbol": "LRD"
-    },
-    "LSL": {
-        "name": "Iloti ryo muro Lesoto",
-        "symbol": "LSL"
-    },
     "LTL": {
         "name": "LTL",
         "symbol": "LTL"
     },
-    "LYD": {
-        "name": "Idinari rya Libiya",
-        "symbol": "LYD"
-    },
-    "MAD": {
-        "name": "Idiramu ryo muri Maroke",
-        "symbol": "MAD"
-    },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
-    },
-    "MGA": {
-        "name": "Iriyari ryo muri Madagasikari",
-        "symbol": "MGA"
     },
     "MKD": {
         "name": "MKD",
@@ -363,21 +439,9 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "MRO": {
-        "name": "Ugwiya ryo muri Moritaniya",
-        "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "Irupiya ryo mu birwa bya Morise",
-        "symbol": "MUR"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
-    },
-    "MWK": {
-        "name": "Ikwaca ryo muri Malawi",
-        "symbol": "MWK"
     },
     "MXN": {
         "name": "MXN",
@@ -390,14 +454,6 @@
     "MZN": {
         "name": "MZN",
         "symbol": "MZN"
-    },
-    "NAD": {
-        "name": "Idolari rya Namibiya",
-        "symbol": "NAD"
-    },
-    "NGN": {
-        "name": "Inayira ryo muri Nijeriya",
-        "symbol": "NGN"
     },
     "NIO": {
         "name": "NIO",
@@ -463,25 +519,9 @@
         "name": "RUB",
         "symbol": "RUB"
     },
-    "RWF": {
-        "name": "Ifaranga ry’u Rwanda",
-        "symbol": "RWF"
-    },
-    "SAR": {
-        "name": "Iriyari ryo muri Arabiya Sawudite",
-        "symbol": "SAR"
-    },
     "SBD": {
         "name": "SBD",
         "symbol": "SBD"
-    },
-    "SCR": {
-        "name": "Irupiya ryo mu birwa bya Sayisheli",
-        "symbol": "SCR"
-    },
-    "SDG": {
-        "name": "Ipawundi rya Sudani",
-        "symbol": "SDG"
     },
     "SEK": {
         "name": "SEK",
@@ -491,18 +531,6 @@
         "name": "SGD",
         "symbol": "SGD"
     },
-    "SHP": {
-        "name": "Ipawundi rya Sente Helena",
-        "symbol": "SHP"
-    },
-    "SLL": {
-        "name": "Ilewone",
-        "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "Ishilingi ryo muri Somaliya",
-        "symbol": "SOS"
-    },
     "SRD": {
         "name": "SRD",
         "symbol": "SRD"
@@ -511,10 +539,6 @@
         "name": "SSP",
         "symbol": "SSP"
     },
-    "STD": {
-        "name": "Idobura ryo muri Sawotome na Perensipe",
-        "symbol": "STD"
-    },
     "SVC": {
         "name": "SVC",
         "symbol": "SVC"
@@ -522,10 +546,6 @@
     "SYP": {
         "name": "SYP",
         "symbol": "SYP"
-    },
-    "SZL": {
-        "name": "Ililangeni",
-        "symbol": "SZL"
     },
     "THB": {
         "name": "THB",
@@ -538,10 +558,6 @@
     "TMT": {
         "name": "TMT",
         "symbol": "TMT"
-    },
-    "TND": {
-        "name": "Idinari ryo muri Tuniziya",
-        "symbol": "TND"
     },
     "TOP": {
         "name": "TOP",
@@ -559,21 +575,13 @@
         "name": "TWD",
         "symbol": "NT$"
     },
-    "TZS": {
-        "name": "Ishilingi rya Tanzaniya",
-        "symbol": "TZS"
-    },
     "UAH": {
         "name": "UAH",
         "symbol": "UAH"
     },
-    "UGX": {
-        "name": "Ishilingi ry’Ubugande",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "Idolari ry’abanyamerika",
-        "symbol": "US$"
+    "MRO": {
+        "name": "Ugwiya ryo muri Moritaniya",
+        "symbol": "MRO"
     },
     "UYU": {
         "name": "UYU",
@@ -618,14 +626,6 @@
     "YER": {
         "name": "YER",
         "symbol": "YER"
-    },
-    "ZAR": {
-        "name": "Irandi ryo muri Afurika y’Epfo",
-        "symbol": "ZAR"
-    },
-    "ZMW": {
-        "name": "Ikwaca ryo muri Zambiya",
-        "symbol": "ZMW"
     },
     "ZWL": {
         "name": "ZWL",

@@ -11,6 +11,14 @@
         "code": "ak",
         "name": "Akan"
     },
+    "sq": {
+        "code": "sq",
+        "name": "Albanisch"
+    },
+    "en-US": {
+        "code": "en-US",
+        "name": "Amerikanisches Englisch"
+    },
     "am": {
         "code": "am",
         "name": "Amharisch"
@@ -19,53 +27,53 @@
         "code": "ar",
         "name": "Arabisch"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "Modernes Hocharabisch"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "Pare"
-    },
-    "ast": {
-        "code": "ast",
-        "name": "Asturianisch"
+    "hy": {
+        "code": "hy",
+        "name": "Armenisch"
     },
     "az": {
         "code": "az",
         "name": "Aserbaidschanisch"
     },
-    "bas": {
-        "code": "bas",
-        "name": "Basaa-Sprache"
+    "ast": {
+        "code": "ast",
+        "name": "Asturianisch"
     },
-    "be": {
-        "code": "be",
-        "name": "Weissrussisch"
+    "en-AU": {
+        "code": "en-AU",
+        "name": "Australisches Englisch"
     },
-    "bez": {
-        "code": "bez",
-        "name": "Bena"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "Bulgarisch"
+    "ksf": {
+        "code": "ksf",
+        "name": "Bafia"
     },
     "bm": {
         "code": "bm",
         "name": "Bambara-Sprache"
     },
+    "bas": {
+        "code": "bas",
+        "name": "Basaa-Sprache"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "Baskisch"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "Bena"
+    },
     "bn": {
         "code": "bn",
         "name": "Bengalisch"
     },
-    "bo": {
-        "code": "bo",
-        "name": "Tibetisch"
+    "dz": {
+        "code": "dz",
+        "name": "Bhutanisch"
     },
-    "br": {
-        "code": "br",
-        "name": "Bretonisch"
+    "my": {
+        "code": "my",
+        "name": "Birmanisch"
     },
     "brx": {
         "code": "brx",
@@ -75,181 +83,129 @@
         "code": "bs",
         "name": "Bosnisch"
     },
-    "ca": {
-        "code": "ca",
-        "name": "Katalanisch"
+    "pt-BR": {
+        "code": "pt-BR",
+        "name": "Brasilianisches Portugiesisch"
     },
-    "cgg": {
-        "code": "cgg",
-        "name": "Rukiga"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "Cherokee"
-    },
-    "cs": {
-        "code": "cs",
-        "name": "Tschechisch"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "Walisisch"
-    },
-    "da": {
-        "code": "da",
-        "name": "Dänisch"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
-    },
-    "de": {
-        "code": "de",
-        "name": "Deutsch"
-    },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "Österreichisches Deutsch"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "Schweizer Hochdeutsch"
-    },
-    "dje": {
-        "code": "dje",
-        "name": "Zarma"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "Niedersorbisch"
-    },
-    "dyo": {
-        "code": "dyo",
-        "name": "Diola"
-    },
-    "dz": {
-        "code": "dz",
-        "name": "Bhutanisch"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embu"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "Ewe"
-    },
-    "el": {
-        "code": "el",
-        "name": "Griechisch"
-    },
-    "en": {
-        "code": "en",
-        "name": "Englisch"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Australisches Englisch"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Kanadisches Englisch"
+    "br": {
+        "code": "br",
+        "name": "Bretonisch"
     },
     "en-GB": {
         "code": "en-GB",
         "name": "Britisches Englisch"
     },
-    "en-US": {
-        "code": "en-US",
-        "name": "Amerikanisches Englisch"
+    "bg": {
+        "code": "bg",
+        "name": "Bulgarisch"
+    },
+    "chr": {
+        "code": "chr",
+        "name": "Cherokee"
+    },
+    "zh": {
+        "code": "zh",
+        "name": "Chinesisch"
+    },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "Chinesisch (traditionell)"
+    },
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "Chinesisch (vereinfacht)"
+    },
+    "da": {
+        "code": "da",
+        "name": "Dänisch"
+    },
+    "de": {
+        "code": "de",
+        "name": "Deutsch"
+    },
+    "dyo": {
+        "code": "dyo",
+        "name": "Diola"
+    },
+    "ebu": {
+        "code": "ebu",
+        "name": "Embu"
+    },
+    "en": {
+        "code": "en",
+        "name": "Englisch"
     },
     "eo": {
         "code": "eo",
         "name": "Esperanto"
     },
-    "es": {
-        "code": "es",
-        "name": "Spanisch"
+    "et": {
+        "code": "et",
+        "name": "Estnisch"
     },
-    "es-419": {
-        "code": "es-419",
-        "name": "Lateinamerikanisches Spanisch"
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "Europäisches Portugiesisch"
     },
     "es-ES": {
         "code": "es-ES",
         "name": "Europäisches Spanisch"
     },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "Mexikanisches Spanisch"
-    },
-    "et": {
-        "code": "et",
-        "name": "Estnisch"
-    },
-    "eu": {
-        "code": "eu",
-        "name": "Baskisch"
+    "ee": {
+        "code": "ee",
+        "name": "Ewe"
     },
     "ewo": {
         "code": "ewo",
         "name": "Ewondo"
     },
-    "fa": {
-        "code": "fa",
-        "name": "Persisch"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "Ful"
-    },
-    "fi": {
-        "code": "fi",
-        "name": "Finnisch"
+    "fo": {
+        "code": "fo",
+        "name": "Färöisch"
     },
     "fil": {
         "code": "fil",
         "name": "Filipino"
     },
-    "fo": {
-        "code": "fo",
-        "name": "Färöisch"
+    "fi": {
+        "code": "fi",
+        "name": "Finnisch"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "Flämisch"
     },
     "fr": {
         "code": "fr",
         "name": "Französisch"
     },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "Kanadisches Französisch"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "Schweizer Französisch"
-    },
     "fur": {
         "code": "fur",
         "name": "Friulisch"
     },
-    "fy": {
-        "code": "fy",
-        "name": "Westfriesisch"
-    },
-    "ga": {
-        "code": "ga",
-        "name": "Irisch"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "Schottisches Gälisch"
+    "ff": {
+        "code": "ff",
+        "name": "Ful"
     },
     "gl": {
         "code": "gl",
         "name": "Galizisch"
     },
-    "gsw": {
-        "code": "gsw",
-        "name": "Schweizerdeutsch"
+    "lg": {
+        "code": "lg",
+        "name": "Ganda"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "Georgisch"
+    },
+    "el": {
+        "code": "el",
+        "name": "Griechisch"
+    },
+    "kl": {
+        "code": "kl",
+        "name": "Grönländisch"
     },
     "gu": {
         "code": "gu",
@@ -271,25 +227,13 @@
         "code": "hi",
         "name": "Hindi"
     },
-    "hr": {
-        "code": "hr",
-        "name": "Kroatisch"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "Obersorbisch"
-    },
-    "hu": {
-        "code": "hu",
-        "name": "Ungarisch"
-    },
-    "hy": {
-        "code": "hy",
-        "name": "Armenisch"
-    },
     "id": {
         "code": "id",
         "name": "Indonesisch"
+    },
+    "ga": {
+        "code": "ga",
+        "name": "Irisch"
     },
     "is": {
         "code": "is",
@@ -303,105 +247,101 @@
         "code": "ja",
         "name": "Japanisch"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "Georgisch"
+    "kea": {
+        "code": "kea",
+        "name": "Kabuverdianu"
     },
     "kab": {
         "code": "kab",
         "name": "Kabylisch"
     },
-    "kam": {
-        "code": "kam",
-        "name": "Kamba"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
-    },
-    "kea": {
-        "code": "kea",
-        "name": "Kabuverdianu"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "Koyra Chiini"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "Kasachisch"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "Grönländisch"
-    },
     "kln": {
         "code": "kln",
         "name": "Kalenjin"
+    },
+    "kam": {
+        "code": "kam",
+        "name": "Kamba"
     },
     "km": {
         "code": "km",
         "name": "Kambodschanisch"
     },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "Kanadisches Englisch"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "Kanadisches Französisch"
+    },
     "kn": {
         "code": "kn",
         "name": "Kannada"
     },
-    "ko": {
-        "code": "ko",
-        "name": "Koreanisch"
+    "kk": {
+        "code": "kk",
+        "name": "Kasachisch"
     },
     "ks": {
         "code": "ks",
         "name": "Kaschmirisch"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
+    "ca": {
+        "code": "ca",
+        "name": "Katalanisch"
     },
-    "ksf": {
-        "code": "ksf",
-        "name": "Bafia"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Kölsch"
+    "ki": {
+        "code": "ki",
+        "name": "Kikuyu"
     },
     "ky": {
         "code": "ky",
         "name": "Kirgisisch"
     },
+    "ksh": {
+        "code": "ksh",
+        "name": "Kölsch"
+    },
+    "swc": {
+        "code": "swc",
+        "name": "Kongo-Suaheli"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "Koreanisch"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "Koyra Chiini"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "Koyra Senni"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "Kroatisch"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "Kwasio"
+    },
     "lag": {
         "code": "lag",
         "name": "Langi"
     },
-    "lb": {
-        "code": "lb",
-        "name": "Luxemburgisch"
+    "lo": {
+        "code": "lo",
+        "name": "Laotisch"
     },
-    "lg": {
-        "code": "lg",
-        "name": "Ganda"
+    "lv": {
+        "code": "lv",
+        "name": "Lettisch"
     },
     "ln": {
         "code": "ln",
         "name": "Lingala"
-    },
-    "lo": {
-        "code": "lo",
-        "name": "Laotisch"
     },
     "lt": {
         "code": "lt",
@@ -411,29 +351,21 @@
         "code": "lu",
         "name": "Luba-Katanga"
     },
-    "luo": {
-        "code": "luo",
-        "name": "Luo-Sprache"
-    },
     "luy": {
         "code": "luy",
         "name": "Luhya"
     },
-    "lv": {
-        "code": "lv",
-        "name": "Lettisch"
+    "luo": {
+        "code": "luo",
+        "name": "Luo-Sprache"
     },
-    "mas": {
-        "code": "mas",
-        "name": "Massai-Sprache"
+    "lb": {
+        "code": "lb",
+        "name": "Luxemburgisch"
     },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "Morisyen"
+    "jmc": {
+        "code": "jmc",
+        "name": "Machame"
     },
     "mg": {
         "code": "mg",
@@ -443,65 +375,93 @@
         "code": "mgh",
         "name": "Makhuwa-Meetto"
     },
-    "mk": {
-        "code": "mk",
-        "name": "Mazedonisch"
-    },
-    "ml": {
-        "code": "ml",
-        "name": "Malayalam"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "Mongolisch"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "Marathi"
+    "kde": {
+        "code": "kde",
+        "name": "Makonde"
     },
     "ms": {
         "code": "ms",
         "name": "Malaiisch"
     },
+    "ml": {
+        "code": "ml",
+        "name": "Malayalam"
+    },
     "mt": {
         "code": "mt",
         "name": "Maltesisch"
+    },
+    "mr": {
+        "code": "mr",
+        "name": "Marathi"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "Massai-Sprache"
+    },
+    "mk": {
+        "code": "mk",
+        "name": "Mazedonisch"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "Meru"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "Mexikanisches Spanisch"
+    },
+    "ar-001": {
+        "code": "ar-001",
+        "name": "Modernes Hocharabisch"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "Moldauisch"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "Mongolisch"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "Morisyen"
     },
     "mua": {
         "code": "mua",
         "name": "Mundang"
     },
-    "my": {
-        "code": "my",
-        "name": "Birmanisch"
-    },
     "naq": {
         "code": "naq",
         "name": "Nama"
-    },
-    "nb": {
-        "code": "nb",
-        "name": "Norwegisch Bokmål"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "Nord-Ndebele-Sprache"
     },
     "ne": {
         "code": "ne",
         "name": "Nepalesisch"
     },
+    "jgo": {
+        "code": "jgo",
+        "name": "Ngomba"
+    },
     "nl": {
         "code": "nl",
         "name": "Niederländisch"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "Flämisch"
+    "dsb": {
+        "code": "dsb",
+        "name": "Niedersorbisch"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
+    "nd": {
+        "code": "nd",
+        "name": "Nord-Ndebele-Sprache"
+    },
+    "se": {
+        "code": "se",
+        "name": "Nord-Samisch"
+    },
+    "nb": {
+        "code": "nb",
+        "name": "Norwegisch Bokmål"
     },
     "nn": {
         "code": "nn",
@@ -515,57 +475,61 @@
         "code": "nyn",
         "name": "Nyankole"
     },
+    "hsb": {
+        "code": "hsb",
+        "name": "Obersorbisch"
+    },
     "or": {
         "code": "or",
         "name": "Oriya"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "Österreichisches Deutsch"
     },
     "pa": {
         "code": "pa",
         "name": "Panjabi"
     },
-    "pl": {
-        "code": "pl",
-        "name": "Polnisch"
+    "asa": {
+        "code": "asa",
+        "name": "Pare"
     },
     "ps": {
         "code": "ps",
         "name": "Paschtu"
     },
+    "fa": {
+        "code": "fa",
+        "name": "Persisch"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "Polnisch"
+    },
     "pt": {
         "code": "pt",
         "name": "Portugiesisch"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "Brasilianisches Portugiesisch"
-    },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "Europäisches Portugiesisch"
-    },
-    "qu": {
-        "code": "qu",
-        "name": "Quechua"
     },
     "rm": {
         "code": "rm",
         "name": "Rätoromanisch"
     },
-    "rn": {
-        "code": "rn",
-        "name": "Rundi-Sprache"
+    "rof": {
+        "code": "rof",
+        "name": "Rombo"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "Rukiga"
     },
     "ro": {
         "code": "ro",
         "name": "Rumänisch"
     },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "Moldauisch"
-    },
-    "rof": {
-        "code": "rof",
-        "name": "Rombo"
+    "rn": {
+        "code": "rn",
+        "name": "Rundi-Sprache"
     },
     "ru": {
         "code": "ru",
@@ -579,29 +543,49 @@
         "code": "saq",
         "name": "Samburu"
     },
+    "sg": {
+        "code": "sg",
+        "name": "Sango"
+    },
     "sbp": {
         "code": "sbp",
         "name": "Sangu"
     },
-    "se": {
-        "code": "se",
-        "name": "Nord-Samisch"
+    "gd": {
+        "code": "gd",
+        "name": "Schottisches Gälisch"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "Schwedisch"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "Schweizer Französisch"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "Schweizer Hochdeutsch"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "Schweizerdeutsch"
     },
     "seh": {
         "code": "seh",
         "name": "Sena"
     },
-    "ses": {
-        "code": "ses",
-        "name": "Koyra Senni"
+    "sr": {
+        "code": "sr",
+        "name": "Serbisch"
     },
-    "sg": {
-        "code": "sg",
-        "name": "Sango"
+    "ksb": {
+        "code": "ksb",
+        "name": "Shambala"
     },
-    "shi": {
-        "code": "shi",
-        "name": "Taschelhit"
+    "sn": {
+        "code": "sn",
+        "name": "Shona"
     },
     "si": {
         "code": "si",
@@ -615,41 +599,41 @@
         "code": "sl",
         "name": "Slowenisch"
     },
-    "smn": {
-        "code": "smn",
-        "name": "Inari-Lappisch"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "Shona"
+    "xog": {
+        "code": "xog",
+        "name": "Soga"
     },
     "so": {
         "code": "so",
         "name": "Somali"
     },
-    "sq": {
-        "code": "sq",
-        "name": "Albanisch"
-    },
-    "sr": {
-        "code": "sr",
-        "name": "Serbisch"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "Schwedisch"
+    "es": {
+        "code": "es",
+        "name": "Spanisch"
     },
     "sw": {
         "code": "sw",
         "name": "Suaheli"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Kongo-Suaheli"
+    "dav": {
+        "code": "dav",
+        "name": "Taita"
+    },
+    "zgh": {
+        "code": "zgh",
+        "name": "Tamazight"
     },
     "ta": {
         "code": "ta",
         "name": "Tamilisch"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "Tasawaq"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "Taschelhit"
     },
     "te": {
         "code": "te",
@@ -663,6 +647,10 @@
         "code": "th",
         "name": "Thailändisch"
     },
+    "bo": {
+        "code": "bo",
+        "name": "Tibetisch"
+    },
     "ti": {
         "code": "ti",
         "name": "Tigrinja"
@@ -671,17 +659,13 @@
         "code": "to",
         "name": "Tongaisch"
     },
+    "cs": {
+        "code": "cs",
+        "name": "Tschechisch"
+    },
     "tr": {
         "code": "tr",
         "name": "Türkisch"
-    },
-    "twq": {
-        "code": "twq",
-        "name": "Tasawaq"
-    },
-    "tzm": {
-        "code": "tzm",
-        "name": "Zentralatlas-Tamazight"
     },
     "ug": {
         "code": "ug",
@@ -690,6 +674,10 @@
     "uk": {
         "code": "uk",
         "name": "Ukrainisch"
+    },
+    "hu": {
+        "code": "hu",
+        "name": "Ungarisch"
     },
     "ur": {
         "code": "ur",
@@ -711,41 +699,37 @@
         "code": "vun",
         "name": "Vunjo"
     },
+    "cy": {
+        "code": "cy",
+        "name": "Walisisch"
+    },
     "wae": {
         "code": "wae",
         "name": "Walser-Dialekte"
     },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
+    "be": {
+        "code": "be",
+        "name": "Weissrussisch"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "Westfriesisch"
     },
     "yav": {
         "code": "yav",
         "name": "Yangben"
     },
-    "yi": {
-        "code": "yi",
-        "name": "Jiddisch"
-    },
     "yo": {
         "code": "yo",
         "name": "Yoruba"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "Tamazight"
+    "dje": {
+        "code": "dje",
+        "name": "Zarma"
     },
-    "zh": {
-        "code": "zh",
-        "name": "Chinesisch"
-    },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "Chinesisch (vereinfacht)"
-    },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "Chinesisch (traditionell)"
+    "tzm": {
+        "code": "tzm",
+        "name": "Zentralatlas-Tamazight"
     },
     "zu": {
         "code": "zu",

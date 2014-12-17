@@ -1,4 +1,8 @@
 {
+    "ak": {
+        "code": "ak",
+        "name": "Acaneg"
+    },
     "af": {
         "code": "af",
         "name": "Affricâneg"
@@ -7,101 +11,9 @@
         "code": "agq",
         "name": "Aghemeg"
     },
-    "ak": {
-        "code": "ak",
-        "name": "Acaneg"
-    },
-    "am": {
-        "code": "am",
-        "name": "Amhareg"
-    },
-    "ar": {
-        "code": "ar",
-        "name": "Arabeg"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "Arabeg Modern Safonol"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
-    },
-    "ast": {
-        "code": "ast",
-        "name": "Asturian"
-    },
-    "az": {
-        "code": "az",
-        "name": "Aserbaijaneg"
-    },
-    "bas": {
-        "code": "bas",
-        "name": "Basâeg"
-    },
-    "be": {
-        "code": "be",
-        "name": "Belarwseg"
-    },
-    "bez": {
-        "code": "bez",
-        "name": "Bena"
-    },
-    "bg": {
-        "code": "bg",
-        "name": "Bwlgareg"
-    },
-    "bm": {
-        "code": "bm",
-        "name": "Bambareg"
-    },
-    "bn": {
-        "code": "bn",
-        "name": "Bengaleg"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "Tibeteg"
-    },
-    "br": {
-        "code": "br",
-        "name": "Llydaweg"
-    },
-    "brx": {
-        "code": "brx",
-        "name": "Bodo"
-    },
-    "bs": {
-        "code": "bs",
-        "name": "Bosnieg"
-    },
-    "ca": {
-        "code": "ca",
-        "name": "Catalaneg"
-    },
-    "cgg": {
-        "code": "cgg",
-        "name": "Chiga"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "Tsierocî"
-    },
-    "cs": {
-        "code": "cs",
-        "name": "Tsieceg"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "Cymraeg"
-    },
-    "da": {
-        "code": "da",
-        "name": "Daneg"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
+    "sq": {
+        "code": "sq",
+        "name": "Albaneg"
     },
     "de": {
         "code": "de",
@@ -115,105 +27,193 @@
         "code": "de-CH",
         "name": "Almaeneg Safonol y Swistir"
     },
-    "dje": {
-        "code": "dje",
-        "name": "Zarmaeg"
+    "gsw": {
+        "code": "gsw",
+        "name": "Almaeneg y Swistir"
     },
-    "dsb": {
-        "code": "dsb",
-        "name": "Sorbeg Isaf"
+    "am": {
+        "code": "am",
+        "name": "Amhareg"
     },
-    "dyo": {
-        "code": "dyo",
-        "name": "Jola-Fonyi"
+    "ar": {
+        "code": "ar",
+        "name": "Arabeg"
     },
-    "dz": {
-        "code": "dz",
-        "name": "Dzongkha"
+    "ar-001": {
+        "code": "ar-001",
+        "name": "Arabeg Modern Safonol"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embw"
+    "hy": {
+        "code": "hy",
+        "name": "Armeneg"
     },
-    "ee": {
-        "code": "ee",
-        "name": "Ewe"
+    "az": {
+        "code": "az",
+        "name": "Aserbaijaneg"
     },
-    "el": {
-        "code": "el",
-        "name": "Groeg"
+    "ast": {
+        "code": "ast",
+        "name": "Asturian"
     },
-    "en": {
-        "code": "en",
-        "name": "Saesneg"
+    "asa": {
+        "code": "asa",
+        "name": "Asu"
     },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Saesneg Awstralia"
+    "ksf": {
+        "code": "ksf",
+        "name": "Baffia"
     },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Saesneg Canada"
+    "bm": {
+        "code": "bm",
+        "name": "Bambareg"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Saesneg Prydain"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "Saesneg America"
-    },
-    "eo": {
-        "code": "eo",
-        "name": "Esperanto"
-    },
-    "es": {
-        "code": "es",
-        "name": "Sbaeneg"
-    },
-    "es-419": {
-        "code": "es-419",
-        "name": "Sbaeneg America Ladin"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "Sbaeneg Ewrop"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "Sbaeneg Mecsico"
-    },
-    "et": {
-        "code": "et",
-        "name": "Estoneg"
+    "bas": {
+        "code": "bas",
+        "name": "Basâeg"
     },
     "eu": {
         "code": "eu",
         "name": "Basgeg"
     },
+    "bn": {
+        "code": "bn",
+        "name": "Bengaleg"
+    },
+    "be": {
+        "code": "be",
+        "name": "Belarwseg"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "Bena"
+    },
+    "brx": {
+        "code": "brx",
+        "name": "Bodo"
+    },
+    "bs": {
+        "code": "bs",
+        "name": "Bosnieg"
+    },
+    "bg": {
+        "code": "bg",
+        "name": "Bwlgareg"
+    },
+    "my": {
+        "code": "my",
+        "name": "Byrmaneg"
+    },
+    "kab": {
+        "code": "kab",
+        "name": "Cabileg"
+    },
+    "kea": {
+        "code": "kea",
+        "name": "Caboferdianeg"
+    },
+    "kam": {
+        "code": "kam",
+        "name": "Camba"
+    },
+    "kk": {
+        "code": "kk",
+        "name": "Casacheg"
+    },
+    "ks": {
+        "code": "ks",
+        "name": "Cashmireg"
+    },
+    "ca": {
+        "code": "ca",
+        "name": "Catalaneg"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "Central Atlas Tamazight"
+    },
+    "ky": {
+        "code": "ky",
+        "name": "Cirgiseg"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "Coreeg"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "Croateg"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Cwleneg"
+    },
+    "cy": {
+        "code": "cy",
+        "name": "Cymraeg"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "Chiga"
+    },
+    "km": {
+        "code": "km",
+        "name": "Chmereg"
+    },
+    "da": {
+        "code": "da",
+        "name": "Daneg"
+    },
+    "dz": {
+        "code": "dz",
+        "name": "Dzongkha"
+    },
+    "it": {
+        "code": "it",
+        "name": "Eidaleg"
+    },
+    "ebu": {
+        "code": "ebu",
+        "name": "Embw"
+    },
+    "eo": {
+        "code": "eo",
+        "name": "Esperanto"
+    },
+    "et": {
+        "code": "et",
+        "name": "Estoneg"
+    },
+    "ee": {
+        "code": "ee",
+        "name": "Ewe"
+    },
     "ewo": {
         "code": "ewo",
         "name": "Ewondo"
     },
-    "fa": {
-        "code": "fa",
-        "name": "Perseg"
+    "vai": {
+        "code": "vai",
+        "name": "Faieg"
     },
-    "ff": {
-        "code": "ff",
-        "name": "Ffwla"
+    "vi": {
+        "code": "vi",
+        "name": "Fietnameg"
     },
-    "fi": {
-        "code": "fi",
-        "name": "Ffinneg"
+    "fo": {
+        "code": "fo",
+        "name": "Ffaröeg"
     },
     "fil": {
         "code": "fil",
         "name": "Ffilipineg"
     },
-    "fo": {
-        "code": "fo",
-        "name": "Ffaröeg"
+    "fi": {
+        "code": "fi",
+        "name": "Ffinneg"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "Fflemeg"
     },
     "fr": {
         "code": "fr",
@@ -227,17 +227,17 @@
         "code": "fr-CH",
         "name": "Ffrangeg y Swistir"
     },
-    "fur": {
-        "code": "fur",
-        "name": "Ffriwleg"
-    },
     "fy": {
         "code": "fy",
         "name": "Ffriseg y Gorllewin"
     },
-    "ga": {
-        "code": "ga",
-        "name": "Gwyddeleg"
+    "fur": {
+        "code": "fur",
+        "name": "Ffriwleg"
+    },
+    "ff": {
+        "code": "ff",
+        "name": "Ffwla"
     },
     "gd": {
         "code": "gd",
@@ -247,17 +247,33 @@
         "code": "gl",
         "name": "Galisieg"
     },
-    "gsw": {
-        "code": "gsw",
-        "name": "Almaeneg y Swistir"
+    "lg": {
+        "code": "lg",
+        "name": "Ganda"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "Georgeg"
+    },
+    "el": {
+        "code": "el",
+        "name": "Groeg"
+    },
+    "guz": {
+        "code": "guz",
+        "name": "Gusii"
     },
     "gu": {
         "code": "gu",
         "name": "Gwjarati"
     },
-    "guz": {
-        "code": "guz",
-        "name": "Gusii"
+    "ga": {
+        "code": "ga",
+        "name": "Gwyddeleg"
+    },
+    "jgo": {
+        "code": "jgo",
+        "name": "Ngomba"
     },
     "ha": {
         "code": "ha",
@@ -271,77 +287,33 @@
         "code": "hi",
         "name": "Hindi"
     },
-    "hr": {
-        "code": "hr",
-        "name": "Croateg"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "Sorbeg Uchaf"
-    },
     "hu": {
         "code": "hu",
         "name": "Hwngareg"
-    },
-    "hy": {
-        "code": "hy",
-        "name": "Armeneg"
     },
     "id": {
         "code": "id",
         "name": "Indoneseg"
     },
+    "yo": {
+        "code": "yo",
+        "name": "Iorwba"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "Iseldireg"
+    },
     "is": {
         "code": "is",
         "name": "Islandeg"
-    },
-    "it": {
-        "code": "it",
-        "name": "Eidaleg"
     },
     "ja": {
         "code": "ja",
         "name": "Japaneeg"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "Matsiame"
-    },
-    "ka": {
-        "code": "ka",
-        "name": "Georgeg"
-    },
-    "kab": {
-        "code": "kab",
-        "name": "Cabileg"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "Camba"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Macondeg"
-    },
-    "kea": {
-        "code": "kea",
-        "name": "Caboferdianeg"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "Koyra Chiini"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
-    },
-    "kk": {
-        "code": "kk",
-        "name": "Casacheg"
+    "dyo": {
+        "code": "dyo",
+        "name": "Jola-Fonyi"
     },
     "kl": {
         "code": "kl",
@@ -351,57 +323,41 @@
         "code": "kln",
         "name": "Kalenjin"
     },
-    "km": {
-        "code": "km",
-        "name": "Chmereg"
-    },
     "kn": {
         "code": "kn",
         "name": "Kannada"
     },
-    "ko": {
-        "code": "ko",
-        "name": "Coreeg"
+    "ki": {
+        "code": "ki",
+        "name": "Kikuyu"
     },
-    "ks": {
-        "code": "ks",
-        "name": "Cashmireg"
+    "khq": {
+        "code": "khq",
+        "name": "Koyra Chiini"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
+    "ses": {
+        "code": "ses",
+        "name": "Koyraboro Senni"
     },
-    "ksf": {
-        "code": "ksf",
-        "name": "Baffia"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Cwleneg"
-    },
-    "ky": {
-        "code": "ky",
-        "name": "Cirgiseg"
+    "nmg": {
+        "code": "nmg",
+        "name": "Kwasio"
     },
     "lag": {
         "code": "lag",
         "name": "Langi"
     },
-    "lb": {
-        "code": "lb",
-        "name": "Lwcsembwrgeg"
+    "lo": {
+        "code": "lo",
+        "name": "Laoeg"
     },
-    "lg": {
-        "code": "lg",
-        "name": "Ganda"
+    "lv": {
+        "code": "lv",
+        "name": "Latfieg"
     },
     "ln": {
         "code": "ln",
         "name": "Lingala"
-    },
-    "lo": {
-        "code": "lo",
-        "name": "Laoeg"
     },
     "lt": {
         "code": "lt",
@@ -411,6 +367,10 @@
         "code": "lu",
         "name": "Luba-Katanga"
     },
+    "lb": {
+        "code": "lb",
+        "name": "Lwcsembwrgeg"
+    },
     "luo": {
         "code": "luo",
         "name": "Lŵo"
@@ -419,45 +379,29 @@
         "code": "luy",
         "name": "Lwyia"
     },
-    "lv": {
-        "code": "lv",
-        "name": "Latfieg"
-    },
-    "mas": {
-        "code": "mas",
-        "name": "Masai"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "Mêrw"
-    },
-    "mfe": {
-        "code": "mfe",
-        "name": "Morisyen"
-    },
-    "mg": {
-        "code": "mg",
-        "name": "Malagaseg"
-    },
-    "mgh": {
-        "code": "mgh",
-        "name": "Makhuwa-Meetto"
+    "br": {
+        "code": "br",
+        "name": "Llydaweg"
     },
     "mk": {
         "code": "mk",
         "name": "Macedoneg"
     },
+    "kde": {
+        "code": "kde",
+        "name": "Macondeg"
+    },
+    "mgh": {
+        "code": "mgh",
+        "name": "Makhuwa-Meetto"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "Malagaseg"
+    },
     "ml": {
         "code": "ml",
         "name": "Malayalam"
-    },
-    "mn": {
-        "code": "mn",
-        "name": "Mongoleg"
-    },
-    "mr": {
-        "code": "mr",
-        "name": "Marathi"
     },
     "ms": {
         "code": "ms",
@@ -467,21 +411,41 @@
         "code": "mt",
         "name": "Malteg"
     },
+    "mr": {
+        "code": "mr",
+        "name": "Marathi"
+    },
     "mua": {
         "code": "mua",
         "name": "Mas"
     },
-    "my": {
-        "code": "my",
-        "name": "Byrmaneg"
+    "mas": {
+        "code": "mas",
+        "name": "Masai"
+    },
+    "jmc": {
+        "code": "jmc",
+        "name": "Matsiame"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "Mêrw"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "Mongoleg"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "Moldofeg"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "Morisyen"
     },
     "naq": {
         "code": "naq",
         "name": "Nama"
-    },
-    "nb": {
-        "code": "nb",
-        "name": "Norwyeg Bokmål"
     },
     "nd": {
         "code": "nd",
@@ -491,17 +455,13 @@
         "code": "ne",
         "name": "Nepaleg"
     },
-    "nl": {
-        "code": "nl",
-        "name": "Iseldireg"
+    "nyn": {
+        "code": "nyn",
+        "name": "Niancole"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "Fflemeg"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
+    "nb": {
+        "code": "nb",
+        "name": "Norwyeg Bokmål"
     },
     "nn": {
         "code": "nn",
@@ -511,25 +471,17 @@
         "code": "nus",
         "name": "Nŵereg"
     },
-    "nyn": {
-        "code": "nyn",
-        "name": "Niancole"
-    },
     "or": {
         "code": "or",
         "name": "Oriya"
     },
-    "pa": {
-        "code": "pa",
-        "name": "Pwnjabeg"
-    },
-    "pl": {
-        "code": "pl",
-        "name": "Pwyleg"
-    },
     "ps": {
         "code": "ps",
         "name": "Pashto"
+    },
+    "fa": {
+        "code": "fa",
+        "name": "Perseg"
     },
     "pt": {
         "code": "pt",
@@ -543,65 +495,101 @@
         "code": "pt-PT",
         "name": "Portiwgeeg Ewrop"
     },
-    "qu": {
-        "code": "qu",
-        "name": "Quechua"
+    "pa": {
+        "code": "pa",
+        "name": "Pwnjabeg"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "Pwyleg"
     },
     "rm": {
         "code": "rm",
         "name": "Romaunsch"
     },
-    "rn": {
-        "code": "rn",
-        "name": "Rwndi"
-    },
-    "ro": {
-        "code": "ro",
-        "name": "Rwmaneg"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "Moldofeg"
-    },
     "rof": {
         "code": "rof",
         "name": "Rombo"
-    },
-    "ru": {
-        "code": "ru",
-        "name": "Rwseg"
     },
     "rwk": {
         "code": "rwk",
         "name": "Rwa"
     },
-    "saq": {
-        "code": "saq",
-        "name": "Sambŵrw"
+    "ro": {
+        "code": "ro",
+        "name": "Rwmaneg"
     },
-    "sbp": {
-        "code": "sbp",
-        "name": "Sangw"
+    "rn": {
+        "code": "rn",
+        "name": "Rwndi"
     },
-    "se": {
-        "code": "se",
-        "name": "Sami Gogleddol"
+    "ru": {
+        "code": "ru",
+        "name": "Rwseg"
     },
-    "seh": {
-        "code": "seh",
-        "name": "Sena"
+    "en": {
+        "code": "en",
+        "name": "Saesneg"
     },
-    "ses": {
-        "code": "ses",
-        "name": "Koyraboro Senni"
+    "en-US": {
+        "code": "en-US",
+        "name": "Saesneg America"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "Saesneg Awstralia"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "Saesneg Canada"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "Saesneg Prydain"
     },
     "sg": {
         "code": "sg",
         "name": "Sango"
     },
-    "shi": {
-        "code": "shi",
-        "name": "Tachelhit"
+    "sbp": {
+        "code": "sbp",
+        "name": "Sangw"
+    },
+    "saq": {
+        "code": "saq",
+        "name": "Sambŵrw"
+    },
+    "se": {
+        "code": "se",
+        "name": "Sami Gogleddol"
+    },
+    "es": {
+        "code": "es",
+        "name": "Sbaeneg"
+    },
+    "es-ES": {
+        "code": "es-ES",
+        "name": "Sbaeneg Ewrop"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "Sbaeneg Mecsico"
+    },
+    "seh": {
+        "code": "seh",
+        "name": "Sena"
+    },
+    "sr": {
+        "code": "sr",
+        "name": "Serbeg"
+    },
+    "ksb": {
+        "code": "ksb",
+        "name": "Shambala"
+    },
+    "sn": {
+        "code": "sn",
+        "name": "Shona"
     },
     "si": {
         "code": "si",
@@ -615,29 +603,21 @@
         "code": "sl",
         "name": "Slofeneg"
     },
-    "smn": {
-        "code": "smn",
-        "name": "Sami Inari"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "Shona"
+    "xog": {
+        "code": "xog",
+        "name": "Soga"
     },
     "so": {
         "code": "so",
         "name": "Somaleg"
     },
-    "sq": {
-        "code": "sq",
-        "name": "Albaneg"
+    "dsb": {
+        "code": "dsb",
+        "name": "Sorbeg Isaf"
     },
-    "sr": {
-        "code": "sr",
-        "name": "Serbeg"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "Swedeg"
+    "hsb": {
+        "code": "hsb",
+        "name": "Sorbeg Uchaf"
     },
     "sw": {
         "code": "sw",
@@ -647,9 +627,33 @@
         "code": "swc",
         "name": "Swahili’r Congo"
     },
+    "sv": {
+        "code": "sv",
+        "name": "Swedeg"
+    },
+    "zu": {
+        "code": "zu",
+        "name": "Swlw"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "Tachelhit"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "Taita"
+    },
+    "zgh": {
+        "code": "zgh",
+        "name": "Tamazight Safonol Moroco"
+    },
     "ta": {
         "code": "ta",
         "name": "Tamileg"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "Tasawaq"
     },
     "te": {
         "code": "te",
@@ -659,9 +663,9 @@
         "code": "teo",
         "name": "Teso"
     },
-    "th": {
-        "code": "th",
-        "name": "Thai"
+    "bo": {
+        "code": "bo",
+        "name": "Tibeteg"
     },
     "ti": {
         "code": "ti",
@@ -671,69 +675,9 @@
         "code": "to",
         "name": "Tongeg"
     },
-    "tr": {
-        "code": "tr",
-        "name": "Tyrceg"
-    },
-    "twq": {
-        "code": "twq",
-        "name": "Tasawaq"
-    },
-    "tzm": {
-        "code": "tzm",
-        "name": "Central Atlas Tamazight"
-    },
-    "ug": {
-        "code": "ug",
-        "name": "Uighur"
-    },
-    "uk": {
-        "code": "uk",
-        "name": "Wcreineg"
-    },
-    "ur": {
-        "code": "ur",
-        "name": "Wrdw"
-    },
-    "uz": {
-        "code": "uz",
-        "name": "Wsbeceg"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "Faieg"
-    },
-    "vi": {
-        "code": "vi",
-        "name": "Fietnameg"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Vunjo"
-    },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
-    },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
-    },
-    "yi": {
-        "code": "yi",
-        "name": "Iddew-Almaeneg"
-    },
-    "yo": {
-        "code": "yo",
-        "name": "Iorwba"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "Tamazight Safonol Moroco"
+    "cs": {
+        "code": "cs",
+        "name": "Tsieceg"
     },
     "zh": {
         "code": "zh",
@@ -747,8 +691,48 @@
         "code": "zh-Hant",
         "name": "Tsieineeg Traddodiadol"
     },
-    "zu": {
-        "code": "zu",
-        "name": "Swlw"
+    "chr": {
+        "code": "chr",
+        "name": "Tsierocî"
+    },
+    "tr": {
+        "code": "tr",
+        "name": "Tyrceg"
+    },
+    "th": {
+        "code": "th",
+        "name": "Thai"
+    },
+    "ug": {
+        "code": "ug",
+        "name": "Uighur"
+    },
+    "vun": {
+        "code": "vun",
+        "name": "Vunjo"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "uk": {
+        "code": "uk",
+        "name": "Wcreineg"
+    },
+    "ur": {
+        "code": "ur",
+        "name": "Wrdw"
+    },
+    "uz": {
+        "code": "uz",
+        "name": "Wsbeceg"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
+    },
+    "dje": {
+        "code": "dje",
+        "name": "Zarmaeg"
     }
 }
