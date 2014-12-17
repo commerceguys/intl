@@ -35,7 +35,7 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('bs-Cyrl', $locale);
         $locale = $this->repository->runResolveLocale('bs-Latn-BA');
         $this->assertEquals('bs', $locale);
-        $locale = $this->repository->runResolveLocale('de', 'en-US');
+        $locale = $this->repository->runResolveLocale('de', 'en');
         $this->assertEquals('en', $locale);
     }
 

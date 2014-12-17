@@ -14,13 +14,12 @@ trait LocaleResolverTrait
     /**
      * Determines which locale should be used for loading definitions.
      *
-     * If the "bs-Cyrl-BA" locale is requested, with an "en-US" fallback,
+     * If the "bs-Cyrl-BA" locale is requested, with an "en" fallback,
      * the system will try to find the definitions for:
      * 1) bs-Cyrl-BA
      * 2) bs-Cyrl
      * 3) bs
-     * 4) en-US
-     * 5) en
+     * 4) en
      * The first locale for which a definition file is found, wins.
      * Otherwise, an exception is thrown.
      *
@@ -39,8 +38,7 @@ trait LocaleResolverTrait
         $localeVariants = $this->getLocaleVariants($locale);
         // A fallback locale was provided, add it to the end of the chain.
         if (isset($fallbackLocale)) {
-            $fallbackLocaleVariants = $this->getLocaleVariants($fallbackLocale);
-            $localeVariants = array_merge($localeVariants, $fallbackLocaleVariants);
+            $localeVariants[] = $fallbackLocale;
         }
 
         // Try to resolve a locale by finding a matching definition file.
