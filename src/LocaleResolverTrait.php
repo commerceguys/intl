@@ -30,8 +30,13 @@ trait LocaleResolverTrait
      *
      * @throws UnknownLocaleException
      */
-    protected function resolveLocale($locale, $fallbackLocale = null)
+    protected function resolveLocale($locale = null, $fallbackLocale = null)
     {
+        if (is_null($locale)) {
+            // Use the default locale if none was provided.
+            // @todo Provide a way to override this.
+            $locale = 'en';
+        }
         // Normalize the locale. Allows en_US to work the same as en-US, etc.
         $locale = str_replace('_', '-', $locale);
         // List all possible variants (i.e. en-US gives "en-US" and "en").

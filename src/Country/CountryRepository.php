@@ -43,7 +43,7 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get($countryCode, $locale = 'en', $fallbackLocale = null)
+    public function get($countryCode, $locale = null, $fallbackLocale = null)
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
@@ -57,7 +57,7 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll($locale = 'en', $fallbackLocale = null)
+    public function getAll($locale = null, $fallbackLocale = null)
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);

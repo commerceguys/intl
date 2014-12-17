@@ -16,7 +16,7 @@ interface CountryRepositoryInterface
      *
      * @return CountryInterface
      */
-    public function get($countryCode, $locale = 'en', $fallbackLocale = null);
+    public function get($countryCode, $locale = null, $fallbackLocale = null);
 
     /**
      * Returns all available country instances.
@@ -27,5 +27,5 @@ interface CountryRepositoryInterface
      * @return array An array of countries implementing the CountryInterface,
      *               keyed by country code.
      */
-    public function getAll($locale = 'en', $fallbackLocale = null);
+    public function getAll($locale = null, $fallbackLocale = null);
 }

@@ -16,7 +16,7 @@ interface CurrencyRepositoryInterface
      *
      * @return CurrencyInterface
      */
-    public function get($currencyCode, $locale = 'en', $fallbackLocale = null);
+    public function get($currencyCode, $locale = null, $fallbackLocale = null);
 
     /**
      * Returns all available currency instances.
@@ -27,5 +27,5 @@ interface CurrencyRepositoryInterface
      * @return array An array of currencies implementing the CurrencyInterface,
      *               keyed by currency code.
      */
-    public function getAll($locale = 'en', $fallbackLocale = null);
+    public function getAll($locale = null, $fallbackLocale = null);
 }

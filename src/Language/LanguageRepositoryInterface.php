@@ -16,7 +16,7 @@ interface LanguageRepositoryInterface
      *
      * @return LanguageInterface
      */
-    public function get($languageCode, $locale = 'en', $fallbackLocale = null);
+    public function get($languageCode, $locale = null, $fallbackLocale = null);
 
     /**
      * Returns all available language instances.
@@ -27,5 +27,5 @@ interface LanguageRepositoryInterface
      * @return array An array of language implementing the LanguageInterface,
      *               keyed by language code.
      */
-    public function getAll($locale = 'en', $fallbackLocale = null);
+    public function getAll($locale = null, $fallbackLocale = null);
 }

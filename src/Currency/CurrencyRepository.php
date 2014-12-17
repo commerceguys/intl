@@ -43,7 +43,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get($currencyCode, $locale = 'en', $fallbackLocale = null)
+    public function get($currencyCode, $locale = null, $fallbackLocale = null)
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
@@ -57,7 +57,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll($locale = 'en', $fallbackLocale = null)
+    public function getAll($locale = null, $fallbackLocale = null)
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);

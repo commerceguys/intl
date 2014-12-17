@@ -33,7 +33,7 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get($languageCode, $locale = 'en', $fallbackLocale = null)
+    public function get($languageCode, $locale = null, $fallbackLocale = null)
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
@@ -47,7 +47,7 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll($locale = 'en', $fallbackLocale = null)
+    public function getAll($locale = null, $fallbackLocale = null)
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
