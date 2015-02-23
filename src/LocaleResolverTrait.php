@@ -77,7 +77,7 @@ trait LocaleResolverTrait
      */
     protected function getLocaleVariants($locale)
     {
-        $localeVariants = array();
+        $localeVariants = [];
         $localeParts = explode('-', $locale);
         while (!empty($localeParts)) {
             $localeVariants[] = implode('-', $localeParts);

@@ -14,40 +14,40 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     /**
      * Prepare two number formats.
      */
-    protected $numberFormats = array(
-        'latn' => array(
+    protected $numberFormats = [
+        'latn' => [
             'numbering_system' => 'latn',
             'decimal_pattern' => '#,##0.###',
             'percent_pattern' => '#,##0%',
             'currency_pattern' => '¤#,##0.00',
             'accounting_currency_pattern' => '¤#,##0.00;(¤#,##0.00)',
-        ),
-        'beng' => array(
+        ],
+        'beng' => [
             'numbering_system' => 'beng',
             'decimal_pattern' => '#,##,##0.###',
             'percent_pattern' => '#,##,##0%',
             'currency_pattern' => '#,##,##0.00¤',
             'accounting_currency_pattern' => '#,##,##0.00¤;(#,##,##0.00¤)',
-        ),
-    );
+        ],
+    ];
 
     /**
      * Prepare two currency formats.
      */
-    protected $currencies = array(
-        'USD' => array(
+    protected $currencies = [
+        'USD' => [
             'code' => 'USD',
             'name' => 'US Dollar',
             'numeric_code' => '840',
             'symbol' => '$',
-        ),
-        'BND' => array(
+        ],
+        'BND' => [
             'code' => 'BND',
             'name' => 'dollar Brunei',
             'numeric_code' => '096',
             'symbol' => 'BND',
-        ),
-    );
+        ],
+    ];
 
     /**
      * @covers ::__construct
@@ -287,14 +287,14 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function numberValueProvider()
     {
-        return array(
-            array($this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '-50.5', '-50.5'),
-            array($this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::PERCENT, '50.5', '50.5%'),
-            array($this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '5000000.5', '5,000,000.5'),
-            array($this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::DECIMAL, '-50.5', '-৫০.৫'),
-            array($this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::PERCENT, '50.5', '৫০.৫%'),
-            array($this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::DECIMAL, '5000000.5', '৫০,০০,০০০.৫')
-        );
+        return [
+            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '-50.5', '-50.5'],
+            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::PERCENT, '50.5', '50.5%'],
+            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '5000000.5', '5,000,000.5'],
+            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::DECIMAL, '-50.5', '-৫০.৫'],
+            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::PERCENT, '50.5', '৫০.৫%'],
+            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::DECIMAL, '5000000.5', '৫০,০০,০০০.৫'],
+        ];
     }
 
     /**
@@ -302,14 +302,14 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function currencyValueProvider()
     {
-        return array(
-            array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '-5.05', '-$5.05'),
-            array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '-5.05', '($5.05)'),
-            array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '500100.05', '$500,100.05'),
-            array($this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '-50.5', '-৫০.৫০BND'),
-            array($this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY_ACCOUNTING, '-50.5', '(৫০.৫০BND)'),
-            array($this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '500100.05', '৫,০০,১০০.০৫BND'),
-        );
+        return [
+            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '-5.05', '-$5.05'],
+            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '-5.05', '($5.05)'],
+            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '500100.05', '$500,100.05'],
+            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '-50.5', '-৫০.৫০BND'],
+            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
+            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '500100.05', '৫,০০,১০০.০৫BND'],
+        ];
     }
 
     /**
@@ -317,12 +317,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function formattedCurrencyProvider()
     {
-        return array(
-            array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '$500,100.05', '500100.05'),
-            array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '-$1,059.59', '-1059.59'),
-            array($this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '($1,059.59)', '-1059.59'),
-            array($this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '৫,০০,১০০.০৫BND', '500100.05'),
-        );
+        return [
+            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '$500,100.05', '500100.05'],
+            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '-$1,059.59', '-1059.59'],
+            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '($1,059.59)', '-1059.59'],
+            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '৫,০০,১০০.০৫BND', '500100.05'],
+        ];
     }
 
     /**
@@ -330,13 +330,13 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     protected function createNumberFormat(array $definition, $locale = 'en')
     {
-        $default = array(
+        $default = [
             'decimal_separator' => '.',
             'grouping_separator' => ',',
             'plus_sign' => '+',
             'minus_sign' => '-',
             'percent_sign' => '%'
-        );
+        ];
         $format = array_merge($default, $definition);
 
         $numberFormat = new NumberFormat();
@@ -360,9 +360,9 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     protected function createCurrency(array $definition, $locale = 'en')
     {
-        $default = array(
+        $default = [
             'fraction_digits' => 2
-        );
+        ];
         $format = array_merge($default, $definition);
 
         $currency = new Currency();

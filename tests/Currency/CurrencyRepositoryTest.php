@@ -15,33 +15,33 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      *
      * @var array
      */
-    protected $baseDefinitions = array(
-        'USD' => array(
+    protected $baseDefinitions = [
+        'USD' => [
             'code' => 'USD',
             'numeric_code' => '840',
-        ),
-        'EUR' => array(
+        ],
+        'EUR' => [
             'code' => 'EUR',
             'numeric_code' => '840',
             'fraction_digits' => '2',
-        ),
-    );
+        ],
+    ];
 
     /**
      * English currency definitions.
      *
      * @var array
      */
-    protected $englishDefinitions = array(
-        'USD' => array(
+    protected $englishDefinitions = [
+        'USD' => [
             'name' => 'US Dollar',
             'symbol' => '$',
-        ),
-        'EUR' => array(
+        ],
+        'EUR' => [
             'name' => 'Euro',
             'symbol' => '€',
-        ),
-    );
+        ],
+    ];
 
     /**
      * @covers ::__construct

@@ -15,34 +15,34 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      *
      * @var array
      */
-    protected $baseDefinitions = array(
-        'FR' => array(
+    protected $baseDefinitions = [
+        'FR' => [
             'code' => 'FR',
             'three_letter_code' => 'FRA',
             'numeric_code' => '250',
             'telephone_code' => '33',
-        ),
-        'US' => array(
+        ],
+        'US' => [
             'code' => 'US',
             'three_letter_code' => 'USA',
             'numeric_code' => '840',
             'telephone_code' => '1',
-        ),
-    );
+        ],
+    ];
 
     /**
      * English country definitions.
      *
      * @var array
      */
-    protected $englishDefinitions = array(
-        'FR' => array(
+    protected $englishDefinitions = [
+        'FR' => [
             'name' => 'France',
-        ),
-        'US' => array(
+        ],
+        'US' => [
             'name' => 'United States',
-        ),
-    );
+        ],
+    ];
 
     /**
      * @covers ::__construct

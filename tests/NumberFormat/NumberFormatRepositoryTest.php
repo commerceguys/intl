@@ -15,13 +15,13 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
      *
      * @var array
      */
-    protected $englishDefinition = array(
+    protected $englishDefinition = [
         'numbering_system' => 'latn',
         'decimal_pattern' => '#,##0.###',
         'percent_pattern' => '#,##0%',
         'currency_pattern' => '¤#,##0.00',
         'accounting_currency_pattern' => '¤#,##0.00;(¤#,##0.00)',
-    );
+    ];
 
     /**
      * @covers ::__construct

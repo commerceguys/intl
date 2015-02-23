@@ -79,24 +79,24 @@ class NumberFormatter implements NumberFormatterInterface
      *
      * @var array
      */
-    protected $digits = array(
-        NumberFormatInterface::NUMBERING_SYSTEM_ARABIC => array(
+    protected $digits = [
+        NumberFormatInterface::NUMBERING_SYSTEM_ARABIC => [
             0 => '٠', 1 => '١', 2 => '٢', 3 => '٣', 4 => '٤',
             5 => '٥', 6 => '٦', 7 => '٧', 8 => '٨', 9 => '٩',
-        ),
-        NumberFormatInterface::NUMBERING_SYSTEM_ARABIC_EXTENDED => array(
+        ],
+        NumberFormatInterface::NUMBERING_SYSTEM_ARABIC_EXTENDED => [
             0 => '۰', 1 => '۱', 2 => '۲', 3 => '۳', 4 => '۴',
             5 => '۵', 6 => '۶', 7 => '۷', 8 => '۸', 9 => '۹',
-        ),
-        NumberFormatInterface::NUMBERING_SYSTEM_BENGALI => array(
+        ],
+        NumberFormatInterface::NUMBERING_SYSTEM_BENGALI => [
             0 => '০', 1 => '১', 2 => '২', 3 => '৩', 4 => '৪',
             5 => '৫', 6 => '৬', 7 => '৭', 8 => '৮', 9 => '৯',
-        ),
-        NumberFormatInterface::NUMBERING_SYSTEM_DEVANAGARI => array(
+        ],
+        NumberFormatInterface::NUMBERING_SYSTEM_DEVANAGARI => [
             0 => '०', 1 => '१', 2 => '२', 3 => '३', 4 => '४',
             5 => '५', 6 => '६', 7 => '७', 8 => '८', 9 => '९',
-        ),
-    );
+        ],
+    ];
 
     /**
      * Creaes a NumberFormatter instance.
@@ -108,12 +108,12 @@ class NumberFormatter implements NumberFormatterInterface
      */
     public function __construct(NumberFormatInterface $numberFormat, $style = self::DECIMAL)
     {
-        $availablePatterns = array(
+        $availablePatterns = [
             self::DECIMAL => $numberFormat->getDecimalPattern(),
             self::PERCENT => $numberFormat->getPercentPattern(),
             self::CURRENCY => $numberFormat->getCurrencyPattern(),
             self::CURRENCY_ACCOUNTING => $numberFormat->getAccountingCurrencyPattern(),
-        );
+        ];
         if (!array_key_exists($style, $availablePatterns)) {
             // Unknown type.
             throw new InvalidArgumentException('Unknown format style provided to NumberFormatter::__construct().');
@@ -143,7 +143,7 @@ class NumberFormatter implements NumberFormatterInterface
 
         // Initialize the fraction digit settings for decimal and percent
         // styles only. The currency ones will default to the currency values.
-        if (in_array($style, array(self::DECIMAL, self::PERCENT))) {
+        if (in_array($style, [self::DECIMAL, self::PERCENT])) {
             $this->minimumFractionDigits = 0;
             $this->maximumFractionDigits = 3;
         }
@@ -175,7 +175,7 @@ class NumberFormatter implements NumberFormatterInterface
             // Reverse the major digits, since they are grouped from the right.
             $majorDigits = array_reverse(str_split($majorDigits));
             // Group the major digits.
-            $groups = array();
+            $groups = [];
             $groups[] = array_splice($majorDigits, 0, $this->primaryGroupSize);
             while (!empty($majorDigits)) {
                 $groups[] = array_splice($majorDigits, 0, $this->secondaryGroupSize);
@@ -255,7 +255,7 @@ class NumberFormatter implements NumberFormatterInterface
      */
     public function parseCurrency($value, CurrencyInterface $currency)
     {
-        $replacements = array(
+        $replacements = [
             // Convert the localized symbols back to their original form.
             $this->numberFormat->getDecimalSeparator() => '.',
             $this->numberFormat->getPlusSign() => '+',
@@ -269,7 +269,7 @@ class NumberFormatter implements NumberFormatterInterface
             // Strip whitespace (spaces and non-breaking spaces).
             ' ' => '',
             chr(0xC2) . chr(0xA0) => '',
-        );
+        ];
         $numberingSystem = $this->numberFormat->getNumberingSystem();
         if (isset($this->digits[$numberingSystem])) {
             // Convert the localized digits back to latin.
@@ -279,7 +279,7 @@ class NumberFormatter implements NumberFormatterInterface
         $value = strtr($value, $replacements);
         if (substr($value, 0, 1) == '(' && substr($value, -1, 1) == ')') {
             // This is an accounting formatted negative number.
-            $value = '-' . str_replace(array('(', ')'), '', $value);
+            $value = '-' . str_replace(['(', ')'], '', $value);
         }
 
         return is_numeric($value) ? $value : false;
@@ -313,13 +313,13 @@ class NumberFormatter implements NumberFormatterInterface
      */
     protected function replaceSymbols($value)
     {
-        $replacements = array(
+        $replacements = [
             '.' => $this->numberFormat->getDecimalSeparator(),
             ',' => $this->numberFormat->getGroupingSeparator(),
             '+' => $this->numberFormat->getPlusSign(),
             '-' => $this->numberFormat->getMinusSign(),
             '%' => $this->numberFormat->getPercentSign(),
-        );
+        ];
 
         return strtr($value, $replacements);
     }

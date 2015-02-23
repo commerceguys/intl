@@ -20,14 +20,14 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      *
      * @var array
      */
-    protected $baseDefinitions = array();
+    protected $baseDefinitions = [];
 
     /**
      * Per-locale currency definitions.
      *
      * @var array
      */
-    protected $definitions = array();
+    protected $definitions = [];
 
     /**
      * Creates a CurrencyRepository instance.
@@ -61,7 +61,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
-        $currencies = array();
+        $currencies = [];
         foreach ($definitions as $currencyCode => $definition) {
             $currencies[$currencyCode] = $this->createCurrencyFromDefinition($definition, $locale);
         }

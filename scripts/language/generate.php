@@ -23,7 +23,7 @@ if (!function_exists('collator_create')) {
 
 // Locales listed without a "-" match all variants.
 // Locales listed with a "-" match only those exact ones.
-$ignoredLocales = array(
+$ignoredLocales = [
     // Interlingua is a made up language.
     'ia',
     // Valencian differs from its parent only by a single character (è/é).
@@ -35,24 +35,24 @@ $ignoredLocales = array(
     'uz-Arab', 'uz-Arab-AF', 've', 'vo', 'xh', 'yi',
     // Special "grouping" locales.
     'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
-);
+];
 
-$languages = array();
+$languages = [];
 // Load the "en" data first so that it can be used as a fallback for
 // untranslated language names in other locales.
 $languageData = json_decode(file_get_contents($enLanguages), true);
 $languageData = $languageData['main']['en']['localeDisplayNames']['languages'];
 foreach ($languageData as $languageCode => $languageName) {
     if (strpos($languageCode, '-alt-') === FALSE) {
-        $languages['en'][$languageCode] = array(
+        $languages['en'][$languageCode] = [
             'code' => $languageCode,
             'name' => $languageName,
-        );
+        ];
     }
 }
 
 // Gather available locales.
-$locales = array();
+$locales = [];
 if ($handle = opendir('../json-full/main')) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
@@ -84,17 +84,17 @@ foreach ($locales as $locale) {
                 $languageName = $languages['en'][$languageCode]['name'];
             }
 
-            $languages[$locale][$languageCode] = array(
+            $languages[$locale][$languageCode] = [
                 'code' => $languageCode,
                 'name' => $languageName,
-            );
+            ];
         }
     }
 }
 
 // Identify localizations that are the same as the ones for the parent locale.
 // For example, "fr-FR" if "fr" has the same data.
-$duplicates = array();
+$duplicates = [];
 foreach ($languages as $locale => $localizedLanguages) {
     if (strpos($locale, '-') !== FALSE) {
         $localeParts = explode('-', $locale);

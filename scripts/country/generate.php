@@ -25,16 +25,16 @@ if (!function_exists('collator_create')) {
     die('The intl extension was not found.');
 }
 
-$ignoredCountries = array(
+$ignoredCountries = [
     'AN', // Netherlands Antilles, no longer exists.
     'BV', 'HM', 'CP', // Uninhabited islands.
     'EU', 'QO', // European Union, Outlying Oceania. Not countries.
     'ZZ', // Unknown region
-);
+];
 
 // Locales listed without a "-" match all variants.
 // Locales listed with a "-" match only those exact ones.
-$ignoredLocales = array(
+$ignoredLocales = [
     // Interlingua is a made up language.
     'ia',
     // Valencian differs from its parent only by a single character (è/é).
@@ -46,7 +46,7 @@ $ignoredLocales = array(
     'uz-Arab', 'uz-Arab-AF', 've', 'vo', 'xh', 'yi',
     // Special "grouping" locales.
     'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
-);
+];
 
 // Assemble the base data. Use the "en" data to get a list of countries.
 $telephoneCodeData = json_decode(file_get_contents($telephoneCodeData), true);
@@ -55,7 +55,7 @@ $codeMappings = json_decode(file_get_contents($codeMappings), true);
 $codeMappings = $codeMappings['supplemental']['codeMappings'];
 $countryData = json_decode(file_get_contents($enCountries), true);
 $countryData = $countryData['main']['en']['localeDisplayNames']['territories'];
-$baseData = array();
+$baseData = [];
 foreach ($countryData as $countryCode => $countryName) {
     if (is_numeric($countryCode) || in_array($countryCode, $ignoredCountries)) {
         // Ignore continents, regions, uninhabited islands.
@@ -93,7 +93,7 @@ $json = json_encode($baseData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 file_put_contents('base.json', $json);
 
 // Gather available locales.
-$locales = array();
+$locales = [];
 if ($handle = opendir('../json-full/main')) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
@@ -107,7 +107,7 @@ if ($handle = opendir('../json-full/main')) {
 }
 
 // Create the localizations.
-$countries = array();
+$countries = [];
 foreach ($locales as $locale) {
     $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/territories.json'), true);
     $data = $data['main'][$locale]['localeDisplayNames']['territories'];
@@ -118,16 +118,16 @@ foreach ($locales as $locale) {
                 $countryName = $countryData[$countryCode];
             }
 
-            $countries[$locale][$countryCode] = array(
+            $countries[$locale][$countryCode] = [
                 'name' => $countryName,
-            );
+            ];
         }
     }
 }
 
 // Identify localizations that are the same as the ones for the parent locale.
 // For example, "fr-FR" if "fr" has the same data.
-$duplicates = array();
+$duplicates = [];
 foreach ($countries as $locale => $localizedCountries) {
     if (strpos($locale, '-') !== FALSE) {
         $localeParts = explode('-', $locale);

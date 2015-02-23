@@ -17,7 +17,7 @@ class LanguageRepository implements LanguageRepositoryInterface
      *
      * @var array
      */
-    protected $definitions = array();
+    protected $definitions = [];
 
     /**
      * Creates a LanguageRepository instance.
@@ -51,7 +51,7 @@ class LanguageRepository implements LanguageRepositoryInterface
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
-        $languages = array();
+        $languages = [];
         foreach ($definitions as $languageCode => $definition) {
             $languages[$languageCode] = $this->createLanguageFromDefinition($definition, $locale);
         }

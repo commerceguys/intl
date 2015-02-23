@@ -20,14 +20,14 @@ class CountryRepository implements CountryRepositoryInterface
      *
      * @var array
      */
-    protected $baseDefinitions = array();
+    protected $baseDefinitions = [];
 
     /**
      * Per-locale country definitions.
      *
      * @var array
      */
-    protected $definitions = array();
+    protected $definitions = [];
 
     /**
      * Creates a CountryRepository instance.
@@ -61,7 +61,7 @@ class CountryRepository implements CountryRepositoryInterface
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
-        $countries = array();
+        $countries = [];
         foreach ($definitions as $countryCode => $definition) {
             $countries[$countryCode] = $this->createCountryFromDefinition($definition, $locale);
         }

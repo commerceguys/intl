@@ -16,42 +16,42 @@ class NumberFormat implements NumberFormatInterface
      *
      * @var string
      */
-    protected $numberingSystem = array();
+    protected $numberingSystem = [];
 
     /**
      * The decimal separator.
      *
      * @var string
      */
-    protected $decimalSeparator = array();
+    protected $decimalSeparator = [];
 
     /**
      * The grouping separator.
      *
      * @var string
      */
-    protected $groupingSeparator = array();
+    protected $groupingSeparator = [];
 
     /**
      * The plus sign.
      *
      * @var string
      */
-    protected $plusSign = array();
+    protected $plusSign = [];
 
     /**
      * The number symbols.
      *
      * @var string
      */
-    protected $minusSign = array();
+    protected $minusSign = [];
 
     /**
      * The percent sign.
      *
      * @var string
      */
-    protected $percentSign = array();
+    protected $percentSign = [];
 
     /**
      * The number pattern used to format decimal numbers.

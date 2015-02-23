@@ -15,16 +15,16 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      *
      * @var array
      */
-    protected $englishDefinitions = array(
-        'en' => array(
+    protected $englishDefinitions = [
+        'en' => [
             'code' => 'en',
             'name' => 'English',
-        ),
-        'fr' => array(
+        ],
+        'fr' => [
             'code' => 'fr',
             'name' => 'French',
-        ),
-    );
+        ],
+    ];
 
     /**
      * @covers ::__construct

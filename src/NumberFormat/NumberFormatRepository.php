@@ -16,7 +16,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
      *
      * @var array
      */
-    protected $definitions = array();
+    protected $definitions = [];
 
     /**
      * Creates a NumberFormatRepository instance.

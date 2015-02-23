@@ -31,7 +31,7 @@ if (!function_exists('collator_create')) {
 
 // Locales listed without a "-" match all variants.
 // Locales listed with a "-" match only those exact ones.
-$ignoredLocales = array(
+$ignoredLocales = [
     // Interlingua is a made up language.
     'ia',
     // Valencian differs from its parent only by a single character (è/é).
@@ -43,10 +43,10 @@ $ignoredLocales = array(
     'uz-Arab', 'uz-Arab-AF', 've', 'vo', 'xh', 'yi',
     // Special "grouping" locales.
     'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
-);
+];
 
 // Assemble the base data.
-$baseData = array();
+$baseData = [];
 $currencyData = json_decode(file_get_contents($currencyData), true);
 $currencyData = $currencyData['supplemental']['currencyData']['fractions'];
 $isoData = simplexml_load_file($isoCurrencies);
@@ -61,16 +61,16 @@ foreach ($isoData->CcyTbl->CcyNtry as $currency) {
         // Ignore placeholders like "Antarctica".
         continue;
     }
-    if (substr($currency['CtryNm'], 0, 2) == 'ZZ' || in_array($currency['Ccy'], array('XUA', 'XSU', 'XDR'))) {
+    if (substr($currency['CtryNm'], 0, 2) == 'ZZ' || in_array($currency['Ccy'], ['XUA', 'XSU', 'XDR'])) {
         // Ignore special currencies.
         continue;
     }
 
     $currencyCode = $currency['Ccy'];
-    $baseData[$currencyCode] = array(
+    $baseData[$currencyCode] = [
         'code' => $currencyCode,
         'numeric_code' => $currency['CcyNbr'],
-    );
+    ];
     // Take the fraction digits from CLDR, not ISO, because it reflects real
     // life usage more closely. If the digits aren't set, that means that the
     // default value (2) should be used.
@@ -88,7 +88,7 @@ $json = json_encode($baseData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 file_put_contents('base.json', $json);
 
 // Gather available locales.
-$locales = array();
+$locales = [];
 if ($handle = opendir('../json-full/main')) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
@@ -102,23 +102,23 @@ if ($handle = opendir('../json-full/main')) {
 }
 
 // Create the localizations.
-$currencies = array();
+$currencies = [];
 foreach ($locales as $locale) {
     $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/currencies.json'), true);
     $data = $data['main'][$locale]['numbers']['currencies'];
     foreach ($data as $currencyCode => $currency) {
         if (isset($baseData[$currencyCode])) {
-            $currencies[$locale][$currencyCode] = array(
+            $currencies[$locale][$currencyCode] = [
                 'name' => $currency['displayName'],
                 'symbol' => $currency['symbol'],
-            );
+            ];
         }
     }
 }
 
 // Identify localizations that are the same as the ones for the parent locale.
 // For example, "fr-FR" if "fr" has the same data.
-$duplicates = array();
+$duplicates = [];
 foreach ($currencies as $locale => $localizedCurrencies) {
     if (strpos($locale, '-') !== FALSE) {
         $localeParts = explode('-', $locale);

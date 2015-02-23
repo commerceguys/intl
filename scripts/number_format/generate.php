@@ -13,15 +13,15 @@ if (!is_dir('../json-full/main')) {
 
 // Locales listed without a "-" match all variants.
 // Locales listed with a "-" match only those exact ones.
-$ignoredLocales = array(
+$ignoredLocales = [
     // Interlingua is a made up language.
     'ia',
     // Special "grouping" locales.
     'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
-);
+];
 
 // Gather available locales.
-$locales = array();
+$locales = [];
 if ($handle = opendir('../json-full/main')) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
@@ -35,24 +35,24 @@ if ($handle = opendir('../json-full/main')) {
 }
 
 // Load the data.
-$numberFormats = array();
+$numberFormats = [];
 foreach ($locales as $locale) {
     $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/numbers.json'), true);
     $data = $data['main'][$locale]['numbers'];
     // Use the default numbering system, if it's supported.
-    if (in_array($data['defaultNumberingSystem'], array('arab', 'arabext', 'beng', 'deva', 'latn'))) {
+    if (in_array($data['defaultNumberingSystem'], ['arab', 'arabext', 'beng', 'deva', 'latn'])) {
         $numberingSystem = $data['defaultNumberingSystem'];
     } else {
         $numberingSystem = 'latn';
     }
 
-    $numberFormats[$locale] = array(
+    $numberFormats[$locale] = [
         'numbering_system' => $numberingSystem,
         'decimal_pattern' => $data['decimalFormats-numberSystem-' . $numberingSystem]['standard'],
         'percent_pattern' => $data['percentFormats-numberSystem-' . $numberingSystem]['standard'],
         'currency_pattern' => $data['currencyFormats-numberSystem-' . $numberingSystem]['standard'],
         'accounting_currency_pattern' => $data['currencyFormats-numberSystem-' . $numberingSystem]['accounting'],
-    );
+    ];
 
     // Add the symbols only if they're different from the default data.
     $decimalSeparator = $data['symbols-numberSystem-' . $numberingSystem]['decimal'];
@@ -79,7 +79,7 @@ foreach ($locales as $locale) {
 
 // Identify localizations that are the same as the ones for the parent locale.
 // For example, "fr-FR" if "fr" has the same data.
-$duplicates = array();
+$duplicates = [];
 foreach ($numberFormats as $locale => $formatData) {
     if (strpos($locale, '-') !== FALSE) {
         $localeParts = explode('-', $locale);
