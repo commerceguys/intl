@@ -279,6 +279,10 @@
         "name": "Λίρα Αιγύπτου",
         "symbol": "EGP"
     },
+    "GBP": {
+        "name": "Λίρα Βρετανίας",
+        "symbol": "£"
+    },
     "GIP": {
         "name": "Λίρα Γιβραλτάρ",
         "symbol": "GIP"
@@ -299,17 +303,9 @@
         "name": "Λίρα Σουδάν",
         "symbol": "SDG"
     },
-    "GBP": {
-        "name": "Λίρα Στερλίνα Βρετανίας",
-        "symbol": "£"
-    },
     "SYP": {
         "name": "Λίρα Συρίας",
         "symbol": "SYP"
-    },
-    "LTL": {
-        "name": "Λίτα Λιθουανίας",
-        "symbol": "LTL"
     },
     "LSL": {
         "name": "Λότι Λεσότο",
@@ -587,18 +583,6 @@
         "name": "Φλορίνι Αρούμπα",
         "symbol": "AWG"
     },
-    "XOF": {
-        "name": "Φράγκο CFA Δυτικής Αφρικής (BCEAO)",
-        "symbol": "CFA"
-    },
-    "XAF": {
-        "name": "Φράγκο CFA Κεντρικής Αφρικής (BEAC)",
-        "symbol": "FCFA"
-    },
-    "XPF": {
-        "name": "Φράγκο CFP",
-        "symbol": "CFPF"
-    },
     "GNF": {
         "name": "Φράγκο Γουινέας",
         "symbol": "GNF"
@@ -626,6 +610,18 @@
     "DJF": {
         "name": "Φράγκο Τζιμπουτί",
         "symbol": "DJF"
+    },
+    "XOF": {
+        "name": "Φράγκο CFA Δυτικής Αφρικής (BCEAO)",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "Φράγκο CFA Κεντρικής Αφρικής (BEAC)",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "Φράγκο CFP",
+        "symbol": "CFPF"
     },
     "NIO": {
         "name": "Χρυσή Κόρδοβα Νικαράγουας",

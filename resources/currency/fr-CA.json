@@ -175,10 +175,6 @@
         "name": "dollar du Guyana",
         "symbol": "GYD"
     },
-    "SRD": {
-        "name": "dollar du Suriname",
-        "symbol": "SRD"
-    },
     "FJD": {
         "name": "dollar fidjien",
         "symbol": "FJD"
@@ -199,6 +195,10 @@
         "name": "dollar néo-zélandais",
         "symbol": "$ NZ"
     },
+    "SRD": {
+        "name": "dollar surinamais",
+        "symbol": "$SR"
+    },
     "ZWL": {
         "name": "dollar zimbabwéen (2009)",
         "symbol": "ZWL"
@@ -212,7 +212,7 @@
         "symbol": "AMD"
     },
     "CVE": {
-        "name": "escudo du Cap-Vert",
+        "name": "escudo capverdien",
         "symbol": "CVE"
     },
     "EUR": {
@@ -284,11 +284,11 @@
         "symbol": "UAH"
     },
     "PGK": {
-        "name": "kina papou-néo-guinéen",
+        "name": "kina papouan-néo-guinéen",
         "symbol": "PGK"
     },
     "LAK": {
-        "name": "kip laotien",
+        "name": "kip loatien",
         "symbol": "LAK"
     },
     "HRK": {
@@ -343,10 +343,6 @@
         "name": "lilangeni swazi",
         "symbol": "SZL"
     },
-    "LTL": {
-        "name": "litas lituanien",
-        "symbol": "LTL"
-    },
     "GIP": {
         "name": "livre de Gibraltar",
         "symbol": "GIP"
@@ -389,10 +385,10 @@
     },
     "LSL": {
         "name": "loti lesothan",
-        "symbol": "lLS"
+        "symbol": "LSL"
     },
     "AZN": {
-        "name": "manat azerbaïdjanais",
+        "name": "manat azéri",
         "symbol": "AZN"
     },
     "BAM": {
@@ -436,7 +432,7 @@
         "symbol": "MRO"
     },
     "TOP": {
-        "name": "pa’anga",
+        "name": "pa’anga tongan",
         "symbol": "TOP"
     },
     "MOP": {
@@ -503,6 +499,10 @@
         "name": "rial omanais",
         "symbol": "OMR"
     },
+    "QAR": {
+        "name": "rial qatari",
+        "symbol": "QAR"
+    },
     "SAR": {
         "name": "rial saoudien",
         "symbol": "SAR"
@@ -518,10 +518,6 @@
     "MYR": {
         "name": "ringgit malais",
         "symbol": "MYR"
-    },
-    "QAR": {
-        "name": "riyal du Qatar",
-        "symbol": "QAR"
     },
     "BYR": {
         "name": "rouble biélorusse",
@@ -596,8 +592,8 @@
         "symbol": "BDT"
     },
     "WST": {
-        "name": "tala",
-        "symbol": "WST"
+        "name": "tala samoan",
+        "symbol": "WS$"
     },
     "KZT": {
         "name": "tenge kazakh",
@@ -608,7 +604,7 @@
         "symbol": "MNT"
     },
     "VUV": {
-        "name": "vatu",
+        "name": "vatu vanuatuan",
         "symbol": "VUV"
     },
     "KPW": {

@@ -5,6 +5,9 @@
     "AF": {
         "name": "Afganistán"
     },
+    "AX": {
+        "name": "Åland"
+    },
     "AL": {
         "name": "Albania"
     },
@@ -116,6 +119,9 @@
     "BQ": {
         "name": "Caribe neerlandés"
     },
+    "KZ": {
+        "name": "Casaquistán"
+    },
     "EA": {
         "name": "Ceuta e Melilla"
     },
@@ -173,14 +179,14 @@
     "DK": {
         "name": "Dinamarca"
     },
+    "DJ": {
+        "name": "Djibuti"
+    },
     "DM": {
         "name": "Dominica"
     },
     "EC": {
         "name": "Ecuador"
-    },
-    "SV": {
-        "name": "El Salvador"
     },
     "AE": {
         "name": "Emiratos Árabes Unidos"
@@ -209,14 +215,14 @@
     "EG": {
         "name": "Exipto"
     },
+    "FJ": {
+        "name": "Fidxi"
+    },
     "PH": {
         "name": "Filipinas"
     },
     "FI": {
         "name": "Finlandia"
-    },
-    "FJ": {
-        "name": "Fixi"
     },
     "FR": {
         "name": "Francia"
@@ -264,7 +270,7 @@
         "name": "Guinea Ecuatorial"
     },
     "GW": {
-        "name": "Guinea-Bissau"
+        "name": "Guinea-Bisau"
     },
     "HT": {
         "name": "Haití"
@@ -287,14 +293,17 @@
     "AC": {
         "name": "Illa de Ascensión"
     },
+    "JE": {
+        "name": "Illa de Jersey"
+    },
     "IM": {
         "name": "Illa de Man"
     },
+    "MS": {
+        "name": "Illa Montserrat"
+    },
     "NF": {
         "name": "Illa Norfolk"
-    },
-    "AX": {
-        "name": "Illas Aland"
     },
     "KY": {
         "name": "Illas Caimán"
@@ -303,7 +312,7 @@
         "name": "Illas Canarias"
     },
     "CC": {
-        "name": "Illas Cocos (Keeling)"
+        "name": "Illas Cocos"
     },
     "CK": {
         "name": "Illas Cook"
@@ -362,11 +371,8 @@
     "IT": {
         "name": "Italia"
     },
-    "JE": {
-        "name": "Jersey"
-    },
-    "KZ": {
-        "name": "Kazakhstan"
+    "KE": {
+        "name": "Kenya"
     },
     "KI": {
         "name": "Kiribati"
@@ -381,7 +387,7 @@
         "name": "Laos"
     },
     "LS": {
-        "name": "Lesotho"
+        "name": "Lesoto"
     },
     "LV": {
         "name": "Letonia"
@@ -407,9 +413,6 @@
     "MO": {
         "name": "Macau RAE de China"
     },
-    "MK": {
-        "name": "Macedonia"
-    },
     "MG": {
         "name": "Madagascar"
     },
@@ -423,7 +426,7 @@
         "name": "Maldivas"
     },
     "ML": {
-        "name": "Mali"
+        "name": "Malí"
     },
     "MT": {
         "name": "Malta"
@@ -450,7 +453,7 @@
         "name": "Micronesia"
     },
     "MD": {
-        "name": "Moldova"
+        "name": "Moldavia"
     },
     "MC": {
         "name": "Mónaco"
@@ -460,9 +463,6 @@
     },
     "ME": {
         "name": "Montenegro"
-    },
-    "MS": {
-        "name": "Montserrat"
     },
     "MZ": {
         "name": "Mozambique"
@@ -498,16 +498,16 @@
         "name": "Nova Caledonia"
     },
     "NZ": {
-        "name": "Nova Celandia"
+        "name": "Nova Zelandia"
+    },
+    "SV": {
+        "name": "O Salvador"
     },
     "OM": {
         "name": "Omán"
     },
     "NL": {
         "name": "Países Baixos"
-    },
-    "PW": {
-        "name": "Palau"
     },
     "PA": {
         "name": "Panamá"
@@ -539,20 +539,23 @@
     "QA": {
         "name": "Qatar"
     },
-    "KE": {
-        "name": "Quenia"
-    },
     "KG": {
         "name": "Quirguicistán"
     },
     "GB": {
         "name": "Reino Unido"
     },
+    "PW": {
+        "name": "Rep. das Palaus"
+    },
     "CF": {
-        "name": "República Africana Central"
+        "name": "República Centroafricana"
     },
     "CZ": {
         "name": "República Checa"
+    },
+    "MK": {
+        "name": "República de Macedonia"
     },
     "CD": {
         "name": "República Democrática do Congo"
@@ -573,7 +576,10 @@
         "name": "Rusia"
     },
     "EH": {
-        "name": "Sahara Occidental"
+        "name": "Sáhara Occidental"
+    },
+    "KN": {
+        "name": "Saint Kitts e Nevis"
     },
     "WS": {
         "name": "Samoa"
@@ -583,9 +589,6 @@
     },
     "BL": {
         "name": "San Bartolomé"
-    },
-    "KN": {
-        "name": "San Cristovo e Nevis"
     },
     "SM": {
         "name": "San Marino"
@@ -686,11 +689,11 @@
     "TG": {
         "name": "Togo"
     },
-    "TK": {
-        "name": "Tokelau"
-    },
     "TO": {
         "name": "Tonga"
+    },
+    "TK": {
+        "name": "Toquelau"
     },
     "TT": {
         "name": "Trindade e Tobago"
@@ -702,7 +705,7 @@
         "name": "Tunisia"
     },
     "TM": {
-        "name": "Turkmenistán"
+        "name": "Turcomenistán"
     },
     "TR": {
         "name": "Turquía"
@@ -748,9 +751,6 @@
     },
     "GI": {
         "name": "Xibraltar"
-    },
-    "DJ": {
-        "name": "Xibuti"
     },
     "JO": {
         "name": "Xordania"

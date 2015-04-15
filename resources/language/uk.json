@@ -1,44 +1,4 @@
 {
-    "de-AT": {
-        "code": "de-AT",
-        "name": "de_AT"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "en_CA"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "en_US"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "es_MX"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "fr_CH"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "pt_BR"
-    },
-    "zh-Hans": {
-        "code": "zh-Hans",
-        "name": "zh_Hans"
-    },
-    "zh-Hant": {
-        "code": "zh-Hant",
-        "name": "zh_Hant"
-    },
     "agq": {
         "code": "agq",
         "name": "агем"
@@ -135,10 +95,6 @@
         "code": "nb",
         "name": "букмол (Норвегія)"
     },
-    "vi": {
-        "code": "vi",
-        "name": "вʼєтнамська"
-    },
     "vai": {
         "code": "vai",
         "name": "ваї"
@@ -166,6 +122,10 @@
     "vun": {
         "code": "vun",
         "name": "вуньо"
+    },
+    "vi": {
+        "code": "vi",
+        "name": "вʼєтнамська"
     },
     "gd": {
         "code": "gd",
@@ -267,10 +227,6 @@
         "code": "es",
         "name": "іспанська"
     },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "іспанська (Європа)"
-    },
     "it": {
         "code": "it",
         "name": "італійська"
@@ -346,10 +302,6 @@
     "ksh": {
         "code": "ksh",
         "name": "колоніан"
-    },
-    "swc": {
-        "code": "swc",
-        "name": "конгійське суахілі"
     },
     "ko": {
         "code": "ko",
@@ -487,13 +439,13 @@
         "code": "nus",
         "name": "нуер"
     },
-    "nn": {
-        "code": "nn",
-        "name": "нюношк (Норвегія)"
-    },
     "nyn": {
         "code": "nyn",
         "name": "ньянколе"
+    },
+    "nn": {
+        "code": "nn",
+        "name": "нюношк (Норвегія)"
     },
     "or": {
         "code": "or",
@@ -598,10 +550,6 @@
     "sw": {
         "code": "sw",
         "name": "суахілі"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "сучасна стандартна арабська"
     },
     "dav": {
         "code": "dav",
@@ -734,5 +682,37 @@
     "ja": {
         "code": "ja",
         "name": "японська"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "de_AT"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "en_AU"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "en_CA"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "es_MX"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "fr_CA"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "fr_CH"
+    },
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "zh_Hans"
+    },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "zh_Hant"
     }
 }

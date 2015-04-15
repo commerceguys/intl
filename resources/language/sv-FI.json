@@ -1,4 +1,8 @@
 {
+    "ps": {
+        "code": "ps",
+        "name": "afghanska"
+    },
     "af": {
         "code": "af",
         "name": "afrikaans"
@@ -14,10 +18,6 @@
     "sq": {
         "code": "sq",
         "name": "albanska"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "amerikansk engelska"
     },
     "am": {
         "code": "am",
@@ -79,17 +79,9 @@
         "code": "brx",
         "name": "bodo"
     },
-    "nb": {
-        "code": "nb",
-        "name": "bokmål"
-    },
     "bs": {
         "code": "bs",
         "name": "bosniska"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "brasiliansk portugisiska"
     },
     "br": {
         "code": "br",
@@ -142,10 +134,6 @@
     "pt-PT": {
         "code": "pt-PT",
         "name": "europeisk portugisiska"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "europeisk spanska"
     },
     "ee": {
         "code": "ee",
@@ -227,10 +215,6 @@
         "code": "hi",
         "name": "hindi"
     },
-    "gd": {
-        "code": "gd",
-        "name": "höglandsskotska"
-    },
     "hsb": {
         "code": "hsb",
         "name": "högsorbiska"
@@ -271,6 +255,10 @@
         "code": "kam",
         "name": "kamba"
     },
+    "km": {
+        "code": "km",
+        "name": "kambodjanska"
+    },
     "en-CA": {
         "code": "en-CA",
         "name": "kanadensisk engelska"
@@ -289,7 +277,7 @@
     },
     "ks": {
         "code": "ks",
-        "name": "kashmiri"
+        "name": "kashmiriska"
     },
     "ca": {
         "code": "ca",
@@ -298,10 +286,6 @@
     "kk": {
         "code": "kk",
         "name": "kazakiska"
-    },
-    "km": {
-        "code": "km",
-        "name": "khmer"
     },
     "ki": {
         "code": "ki",
@@ -322,10 +306,6 @@
     "ksb": {
         "code": "ksb",
         "name": "kisambaa"
-    },
-    "swc": {
-        "code": "swc",
-        "name": "Kongo-swahili"
     },
     "ko": {
         "code": "ko",
@@ -349,7 +329,7 @@
     },
     "lo": {
         "code": "lo",
-        "name": "lao"
+        "name": "laotiska"
     },
     "lv": {
         "code": "lv",
@@ -443,10 +423,6 @@
         "code": "es-MX",
         "name": "mexikansk spanska"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "modern standardarabiska"
-    },
     "ro-MD": {
         "code": "ro-MD",
         "name": "moldaviska"
@@ -483,6 +459,10 @@
         "code": "se",
         "name": "nordsamiska"
     },
+    "nb": {
+        "code": "nb",
+        "name": "norskt bokmål"
+    },
     "nus": {
         "code": "nus",
         "name": "nuer"
@@ -499,14 +479,6 @@
         "code": "or",
         "name": "oriya"
     },
-    "pa": {
-        "code": "pa",
-        "name": "panjabi"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "pashto"
-    },
     "fa": {
         "code": "fa",
         "name": "persiska"
@@ -518,6 +490,10 @@
     "pt": {
         "code": "pt",
         "name": "portugisiska"
+    },
+    "pa": {
+        "code": "pa",
+        "name": "punjabi"
     },
     "rof": {
         "code": "rof",
@@ -583,6 +559,10 @@
         "code": "si",
         "name": "singalesiska"
     },
+    "gd": {
+        "code": "gd",
+        "name": "skotsk gäliska"
+    },
     "sk": {
         "code": "sk",
         "name": "slovakiska"
@@ -625,7 +605,7 @@
     },
     "te": {
         "code": "te",
-        "name": "telugu"
+        "name": "telugiska"
     },
     "teo": {
         "code": "teo",
@@ -633,7 +613,7 @@
     },
     "th": {
         "code": "th",
-        "name": "thai"
+        "name": "thailändska"
     },
     "bo": {
         "code": "bo",
@@ -641,7 +621,7 @@
     },
     "ti": {
         "code": "ti",
-        "name": "tigrinska"
+        "name": "tigrinja"
     },
     "khq": {
         "code": "khq",

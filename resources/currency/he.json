@@ -1,8 +1,4 @@
 {
-    "ZWL": {
-        "name": "ZWL",
-        "symbol": "ZWL"
-    },
     "MRO": {
         "name": "אוגוויה מאוריטני",
         "symbol": "MRO"
@@ -279,10 +275,6 @@
         "name": "ליאון סיירה לאוני",
         "symbol": "SLL"
     },
-    "LTL": {
-        "name": "ליטא ליטאי",
-        "symbol": "LTL"
-    },
     "SZL": {
         "name": "לילנגני סווזי",
         "symbol": "SZL"
@@ -443,14 +435,6 @@
         "name": "פסו קולומביאני",
         "symbol": "COP"
     },
-    "XOF": {
-        "name": "פרנק CFA BCEAO",
-        "symbol": "CFA"
-    },
-    "XAF": {
-        "name": "פרנק CFA BEAC",
-        "symbol": "FCFA"
-    },
     "BIF": {
         "name": "פרנק בורונדי",
         "symbol": "BIF"
@@ -482,6 +466,14 @@
     "CHF": {
         "name": "פרנק שוויצרי",
         "symbol": "CHF"
+    },
+    "XOF": {
+        "name": "פרנק CFA BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "פרנק CFA BEAC",
+        "symbol": "FCFA"
     },
     "AOA": {
         "name": "קואנזה אנגולי",
@@ -630,5 +622,9 @@
     "KES": {
         "name": "שילינג קנייאתי",
         "symbol": "KES"
+    },
+    "ZWL": {
+        "name": "ZWL",
+        "symbol": "ZWL"
     }
 }

@@ -1,20 +1,4 @@
 {
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
-    },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
-    },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
-    },
-    "ast": {
-        "code": "ast",
-        "name": "آستوری"
-    },
     "asa": {
         "code": "asa",
         "name": "آسو"
@@ -79,10 +63,6 @@
         "code": "uz",
         "name": "ازبکی"
     },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "اسپانیایی اروپا"
-    },
     "es-MX": {
         "code": "es-MX",
         "name": "اسپانیایی مکزیک"
@@ -126,10 +106,6 @@
     "en-AU": {
         "code": "en-AU",
         "name": "انگلیسی استرالیا"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "انگلیسی امریکا"
     },
     "en-GB": {
         "code": "en-GB",
@@ -218,10 +194,6 @@
     "pt-PT": {
         "code": "pt-PT",
         "name": "پرتغالی اروپا"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "پرتغالی برزیل"
     },
     "pt": {
         "code": "pt",
@@ -327,10 +299,6 @@
         "code": "da",
         "name": "دانمارکی"
     },
-    "fa": {
-        "code": "fa",
-        "name": "دری"
-    },
     "dyo": {
         "code": "dyo",
         "name": "دیولا فونی"
@@ -391,10 +359,6 @@
         "code": "sw",
         "name": "سواحلی"
     },
-    "swc": {
-        "code": "swc",
-        "name": "سواحلی کنگویی"
-    },
     "xog": {
         "code": "xog",
         "name": "سوگایی"
@@ -439,9 +403,9 @@
         "code": "ar",
         "name": "عربی"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "عربی رسمی"
+    "fa": {
+        "code": "fa",
+        "name": "فارسی"
     },
     "fo": {
         "code": "fo",
@@ -734,5 +698,21 @@
     "el": {
         "code": "el",
         "name": "یونانی"
+    },
+    "ast": {
+        "code": "ast",
+        "name": "Asturian"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
     }
 }

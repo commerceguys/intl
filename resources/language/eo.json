@@ -9,7 +9,7 @@
     },
     "ak": {
         "code": "ak",
-        "name": "akana"
+        "name": "Akan"
     },
     "sq": {
         "code": "sq",
@@ -39,14 +39,6 @@
         "code": "asa",
         "name": "Asu"
     },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "aŭstra germana"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "aŭstralia angla"
-    },
     "az": {
         "code": "az",
         "name": "azerbajĝana"
@@ -57,7 +49,7 @@
     },
     "bm": {
         "code": "bm",
-        "name": "bambara"
+        "name": "Bambara"
     },
     "bas": {
         "code": "bas",
@@ -81,23 +73,15 @@
     },
     "brx": {
         "code": "brx",
-        "name": "bodoa"
+        "name": "Bodo"
     },
     "bs": {
         "code": "bs",
         "name": "bosnia"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "brazilportugala"
-    },
     "br": {
         "code": "br",
         "name": "bretona"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "brita angla"
     },
     "bg": {
         "code": "bg",
@@ -111,6 +95,10 @@
         "code": "tzm",
         "name": "Central Atlas Tamazight"
     },
+    "chr": {
+        "code": "chr",
+        "name": "Cherokee"
+    },
     "cgg": {
         "code": "cgg",
         "name": "Chiga"
@@ -119,17 +107,9 @@
         "code": "ksh",
         "name": "Colognian"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Congo Swahili"
-    },
     "cs": {
         "code": "cs",
         "name": "ĉeĥa"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "ĉeroka"
     },
     "zh": {
         "code": "zh",
@@ -151,6 +131,14 @@
         "code": "nb",
         "name": "dannorvega"
     },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "de_AT"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "de_CH"
+    },
     "dz": {
         "code": "dz",
         "name": "dzonko"
@@ -159,6 +147,22 @@
         "code": "ebu",
         "name": "Embu"
     },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "en_AU"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "en_CA"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "en_GB"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "es_MX"
+    },
     "eo": {
         "code": "eo",
         "name": "esperanto"
@@ -166,10 +170,6 @@
     "et": {
         "code": "et",
         "name": "estona"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "eŭropa hispana"
     },
     "pt-PT": {
         "code": "pt-PT",
@@ -199,9 +199,13 @@
         "code": "fi",
         "name": "finna"
     },
-    "nl-BE": {
-        "code": "nl-BE",
-        "name": "flandra"
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "fr_CA"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "fr_CH"
     },
     "fr": {
         "code": "fr",
@@ -315,14 +319,6 @@
         "code": "kam",
         "name": "Kamba"
     },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "kanada angla"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "kanada franca"
-    },
     "kn": {
         "code": "kn",
         "name": "kanara"
@@ -399,6 +395,10 @@
         "code": "lt",
         "name": "litova"
     },
+    "dsb": {
+        "code": "dsb",
+        "name": "Lower Sorbian"
+    },
     "lu": {
         "code": "lu",
         "name": "Luba-Katanga"
@@ -443,10 +443,6 @@
         "code": "ml",
         "name": "malajalama"
     },
-    "dsb": {
-        "code": "dsb",
-        "name": "malsuprasoraba"
-    },
     "mt": {
         "code": "mt",
         "name": "malta"
@@ -459,17 +455,9 @@
         "code": "mas",
         "name": "Masai"
     },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "meksika hispana"
-    },
     "mer": {
         "code": "mer",
         "name": "Meru"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "moderna norma araba"
     },
     "mn": {
         "code": "mn",
@@ -498,6 +486,10 @@
     "jgo": {
         "code": "jgo",
         "name": "Ngomba"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "nl_BE"
     },
     "nd": {
         "code": "nd",
@@ -623,14 +615,6 @@
         "code": "sv",
         "name": "sveda"
     },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "svisa franca"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "svisa germana"
-    },
     "gsw": {
         "code": "gsw",
         "name": "Swiss German"
@@ -698,10 +682,6 @@
     "ur": {
         "code": "ur",
         "name": "urduo"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "usona angla"
     },
     "uz": {
         "code": "uz",

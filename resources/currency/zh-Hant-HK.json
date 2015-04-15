@@ -3,10 +3,6 @@
         "name": "人民幣",
         "symbol": "CN¥"
     },
-    "YER": {
-        "name": "也門里雅",
-        "symbol": "YER"
-    },
     "TTD": {
         "name": "千里達及托巴哥元",
         "symbol": "TTD"
@@ -35,17 +31,17 @@
         "name": "太平洋法郎",
         "symbol": "CFPF"
     },
-    "BBD": {
-        "name": "巴巴多斯元",
-        "symbol": "BBD"
-    },
     "PGK": {
-        "name": "巴布亞新畿內亞基那",
+        "name": "巴布亞紐幾內亞基那",
         "symbol": "PGK"
     },
     "BRL": {
         "name": "巴西里拉",
         "symbol": "R$"
+    },
+    "BBD": {
+        "name": "巴貝多元",
+        "symbol": "BBD"
     },
     "PYG": {
         "name": "巴拉圭瓜拉尼",
@@ -72,12 +68,8 @@
         "symbol": "¥"
     },
     "MUR": {
-        "name": "毛里求斯盧布",
+        "name": "毛里裘斯盧布",
         "symbol": "MUR"
-    },
-    "MRO": {
-        "name": "毛里塔尼亞烏吉亞",
-        "symbol": "MRO"
     },
     "JMD": {
         "name": "牙買加元",
@@ -88,12 +80,8 @@
         "symbol": "₪"
     },
     "CAD": {
-        "name": "加元",
+        "name": "加幣",
         "symbol": "CA$"
-    },
-    "GHS": {
-        "name": "加納塞地",
-        "symbol": "GHS"
     },
     "KPW": {
         "name": "北韓圓",
@@ -104,7 +92,7 @@
         "symbol": "KZT"
     },
     "QAR": {
-        "name": "卡塔爾里亞爾",
+        "name": "卡達里亞爾",
         "symbol": "QAR"
     },
     "CUC": {
@@ -131,21 +119,17 @@
         "name": "尼泊爾盧比",
         "symbol": "NPR"
     },
-    "BIF": {
-        "name": "布隆迪法郎",
-        "symbol": "BIF"
+    "GTQ": {
+        "name": "瓜地馬拉格查爾",
+        "symbol": "GTQ"
     },
-    "VUV": {
-        "name": "瓦努阿圖瓦圖",
-        "symbol": "VUV"
+    "GMD": {
+        "name": "甘比亞達拉西",
+        "symbol": "GMD"
     },
     "BYR": {
         "name": "白俄羅斯盧布",
         "symbol": "BYR"
-    },
-    "LTL": {
-        "name": "立陶宛立特",
-        "symbol": "LTL"
     },
     "IQD": {
         "name": "伊拉克第納爾",
@@ -171,10 +155,6 @@
         "name": "印度盧比",
         "symbol": "₹"
     },
-    "GTQ": {
-        "name": "危地馬拉格查爾",
-        "symbol": "GTQ"
-    },
     "DJF": {
         "name": "吉布地法郎",
         "symbol": "DJF"
@@ -182,10 +162,6 @@
     "KGS": {
         "name": "吉爾吉斯索姆",
         "symbol": "KGS"
-    },
-    "GYD": {
-        "name": "圭亞那元",
-        "symbol": "GYD"
     },
     "DOP": {
         "name": "多明尼加披索",
@@ -207,16 +183,8 @@
         "name": "西薩摩亞塔拉",
         "symbol": "WST"
     },
-    "BZD": {
-        "name": "伯利茲元",
-        "symbol": "BZD"
-    },
-    "CVE": {
-        "name": "佛得角埃斯庫多",
-        "symbol": "CVE"
-    },
     "HRK": {
-        "name": "克羅地亞庫納",
+        "name": "克羅埃西亞庫納",
         "symbol": "HRK"
     },
     "LRD": {
@@ -234,6 +202,10 @@
     "SAR": {
         "name": "沙特阿拉伯里亞爾",
         "symbol": "SAR"
+    },
+    "BZD": {
+        "name": "貝里斯元",
+        "symbol": "BZD"
     },
     "ZWL": {
         "name": "辛巴威元 (2009)",
@@ -263,24 +235,16 @@
         "name": "尚比亞克瓦查",
         "symbol": "ZMW"
     },
-    "GMD": {
-        "name": "岡比亞達拉西",
-        "symbol": "GMD"
-    },
-    "SBD": {
-        "name": "所羅門群島元",
-        "symbol": "SBD"
-    },
-    "XCD": {
-        "name": "東加勒比元",
-        "symbol": "EC$"
-    },
     "TOP": {
         "name": "東加潘加",
         "symbol": "TOP"
     },
+    "BWP": {
+        "name": "波札那普拉",
+        "symbol": "BWP"
+    },
     "BAM": {
-        "name": "波士尼亞與赫塞哥維納可轉換馬克",
+        "name": "波斯尼亞-赫塞哥維納可轉換馬克",
         "symbol": "BAM"
     },
     "PLN": {
@@ -304,7 +268,7 @@
         "symbol": "ARS"
     },
     "OMR": {
-        "name": "阿曼里奧",
+        "name": "阿曼里亞爾",
         "symbol": "OMR"
     },
     "AFN": {
@@ -375,6 +339,14 @@
         "name": "英鎊",
         "symbol": "£"
     },
+    "MRO": {
+        "name": "茅利塔尼亞烏吉亞",
+        "symbol": "MRO"
+    },
+    "GHS": {
+        "name": "迦納塞地",
+        "symbol": "GHS"
+    },
     "CDF": {
         "name": "剛果法郎",
         "symbol": "CDF"
@@ -398,6 +370,10 @@
     "NOK": {
         "name": "挪威克朗",
         "symbol": "NOK"
+    },
+    "XCD": {
+        "name": "格瑞那達元",
+        "symbol": "EC$"
     },
     "GEL": {
         "name": "格魯吉亞拉里",
@@ -436,12 +412,16 @@
         "symbol": "NAD"
     },
     "NZD": {
-        "name": "紐西蘭元",
+        "name": "紐西蘭幣",
         "symbol": "NZ$"
     },
     "SOS": {
         "name": "索馬利亞先令",
         "symbol": "SOS"
+    },
+    "SBD": {
+        "name": "索羅門群島元",
+        "symbol": "SBD"
     },
     "MYR": {
         "name": "馬來西亞令吉",
@@ -456,11 +436,11 @@
         "symbol": "MWK"
     },
     "MGA": {
-        "name": "馬達加斯加艾瑞爾",
+        "name": "馬達加斯加阿里亞里",
         "symbol": "MGA"
     },
     "MVR": {
-        "name": "馬爾代夫盧非亞",
+        "name": "馬爾地夫盧非亞",
         "symbol": "MVR"
     },
     "CZK": {
@@ -476,12 +456,8 @@
         "symbol": "ANG"
     },
     "MZN": {
-        "name": "莫桑比克美提卡",
+        "name": "莫桑比克梅蒂卡爾",
         "symbol": "MZN"
-    },
-    "BWP": {
-        "name": "博茨瓦納普拉",
-        "symbol": "BWP"
     },
     "GNF": {
         "name": "幾內亞法郎",
@@ -519,16 +495,12 @@
         "name": "塔吉克索莫尼",
         "symbol": "TJS"
     },
-    "SLL": {
-        "name": "塞拉利昂利昂",
-        "symbol": "SLL"
-    },
     "SCR": {
         "name": "塞席爾盧比",
         "symbol": "SCR"
     },
     "RSD": {
-        "name": "塞爾維亞第納爾",
+        "name": "塞爾維亞戴納",
         "symbol": "RSD"
     },
     "TRY": {
@@ -536,12 +508,16 @@
         "symbol": "TRY"
     },
     "SGD": {
-        "name": "新加坡元",
+        "name": "新加坡幣",
         "symbol": "SGD"
     },
     "TWD": {
-        "name": "新台幣",
+        "name": "新臺幣",
         "symbol": "NT$"
+    },
+    "SLL": {
+        "name": "獅子山利昂",
+        "symbol": "SLL"
     },
     "CHF": {
         "name": "瑞士法郎",
@@ -551,21 +527,41 @@
         "name": "瑞典克朗",
         "symbol": "SEK"
     },
+    "VUV": {
+        "name": "萬那杜瓦圖",
+        "symbol": "VUV"
+    },
     "STD": {
-        "name": "聖多美和普林西比多布拉",
+        "name": "聖多美島和普林西比島多布拉",
         "symbol": "STD"
     },
     "SHP": {
         "name": "聖赫勒拿鎊",
         "symbol": "SHP"
     },
+    "YER": {
+        "name": "葉門里亞爾",
+        "symbol": "YER"
+    },
     "FKP": {
         "name": "福克蘭群島鎊",
         "symbol": "FKP"
     },
+    "CVE": {
+        "name": "維德角埃斯庫多",
+        "symbol": "CVE"
+    },
     "MNT": {
         "name": "蒙古圖格里克",
         "symbol": "MNT"
+    },
+    "BIF": {
+        "name": "蒲隆地法郎",
+        "symbol": "BIF"
+    },
+    "GYD": {
+        "name": "蓋亞那元",
+        "symbol": "GYD"
     },
     "LAK": {
         "name": "寮國基普",
@@ -595,13 +591,13 @@
         "name": "墨西哥披索",
         "symbol": "MX$"
     },
-    "AUD": {
-        "name": "澳元",
-        "symbol": "AU$"
-    },
     "MOP": {
         "name": "澳門元",
         "symbol": "MOP"
+    },
+    "AUD": {
+        "name": "澳幣",
+        "symbol": "AU$"
     },
     "RWF": {
         "name": "盧旺達法郎",

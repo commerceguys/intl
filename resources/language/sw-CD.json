@@ -1,0 +1,718 @@
+{
+    "ast": {
+        "code": "ast",
+        "name": "Asturian"
+    },
+    "bas": {
+        "code": "bas",
+        "name": "Basaa"
+    },
+    "brx": {
+        "code": "brx",
+        "name": "Bodo"
+    },
+    "tzm": {
+        "code": "tzm",
+        "name": "Central Atlas Tamazight"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "de_AT"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "de_CH"
+    },
+    "en-AU": {
+        "code": "en-AU",
+        "name": "en_AU"
+    },
+    "en-CA": {
+        "code": "en-CA",
+        "name": "en_CA"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "en_GB"
+    },
+    "es-MX": {
+        "code": "es-MX",
+        "name": "es_MX"
+    },
+    "ewo": {
+        "code": "ewo",
+        "name": "Ewondo"
+    },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "fr_CA"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "fr_CH"
+    },
+    "fur": {
+        "code": "fur",
+        "name": "Friulian"
+    },
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
+    },
+    "af": {
+        "code": "af",
+        "name": "Kiafrikana"
+    },
+    "agq": {
+        "code": "agq",
+        "name": "Kiaghem"
+    },
+    "is": {
+        "code": "is",
+        "name": "Kiaisilandi"
+    },
+    "fa": {
+        "code": "fa",
+        "name": "Kiajemi"
+    },
+    "ak": {
+        "code": "ak",
+        "name": "Kiakan"
+    },
+    "sq": {
+        "code": "sq",
+        "name": "Kialbania"
+    },
+    "am": {
+        "code": "am",
+        "name": "Kiamhari"
+    },
+    "ar": {
+        "code": "ar",
+        "name": "Kiarabu"
+    },
+    "hy": {
+        "code": "hy",
+        "name": "Kiarmenia"
+    },
+    "asa": {
+        "code": "asa",
+        "name": "Kiasu"
+    },
+    "ga": {
+        "code": "ga",
+        "name": "Kiayalandi"
+    },
+    "az": {
+        "code": "az",
+        "name": "Kiazabajani"
+    },
+    "ksf": {
+        "code": "ksf",
+        "name": "Kibafia"
+    },
+    "bm": {
+        "code": "bm",
+        "name": "Kibambara"
+    },
+    "bn": {
+        "code": "bn",
+        "name": "Kibangla"
+    },
+    "eu": {
+        "code": "eu",
+        "name": "Kibasque"
+    },
+    "be": {
+        "code": "be",
+        "name": "Kibelarusi"
+    },
+    "bez": {
+        "code": "bez",
+        "name": "Kibena"
+    },
+    "nb": {
+        "code": "nb",
+        "name": "Kibokmal cha Norwe"
+    },
+    "bs": {
+        "code": "bs",
+        "name": "Kibosnia"
+    },
+    "br": {
+        "code": "br",
+        "name": "Kibretoni"
+    },
+    "bg": {
+        "code": "bg",
+        "name": "Kibulgaria"
+    },
+    "my": {
+        "code": "my",
+        "name": "Kiburma"
+    },
+    "cs": {
+        "code": "cs",
+        "name": "Kichecki"
+    },
+    "chr": {
+        "code": "chr",
+        "name": "Kicherokee"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "Kichiga"
+    },
+    "zh": {
+        "code": "zh",
+        "name": "Kichina"
+    },
+    "zh-Hant": {
+        "code": "zh-Hant",
+        "name": "Kichina cha Jadi"
+    },
+    "da": {
+        "code": "da",
+        "name": "Kidenmaki"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "Kidolnoserbski"
+    },
+    "he": {
+        "code": "he",
+        "name": "Kiebrania"
+    },
+    "ebu": {
+        "code": "ebu",
+        "name": "Kiembu"
+    },
+    "eo": {
+        "code": "eo",
+        "name": "Kiesperanto"
+    },
+    "et": {
+        "code": "et",
+        "name": "Kiestonia"
+    },
+    "ee": {
+        "code": "ee",
+        "name": "Kiewe"
+    },
+    "fr": {
+        "code": "fr",
+        "name": "Kifaransa"
+    },
+    "fo": {
+        "code": "fo",
+        "name": "Kifaroe"
+    },
+    "fil": {
+        "code": "fil",
+        "name": "Kifilipino"
+    },
+    "fi": {
+        "code": "fi",
+        "name": "Kifinlandi"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "Kifrisia cha Magharibi"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "Kigaeli cha Uskoti"
+    },
+    "gl": {
+        "code": "gl",
+        "name": "Kigalisi"
+    },
+    "lg": {
+        "code": "lg",
+        "name": "Kiganda"
+    },
+    "el": {
+        "code": "el",
+        "name": "Kigiriki"
+    },
+    "gu": {
+        "code": "gu",
+        "name": "Kigujarati"
+    },
+    "ha": {
+        "code": "ha",
+        "name": "Kihausa"
+    },
+    "hi": {
+        "code": "hi",
+        "name": "Kihindi"
+    },
+    "es": {
+        "code": "es",
+        "name": "Kihispania"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "Kiholanzi"
+    },
+    "hu": {
+        "code": "hu",
+        "name": "Kihungari"
+    },
+    "id": {
+        "code": "id",
+        "name": "Kiindonesia"
+    },
+    "it": {
+        "code": "it",
+        "name": "Kiitaliano"
+    },
+    "luo": {
+        "code": "luo",
+        "name": "Kijaluo"
+    },
+    "ja": {
+        "code": "ja",
+        "name": "Kijapani"
+    },
+    "de": {
+        "code": "de",
+        "name": "Kijerumani"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "Kijerumani cha Uswisi"
+    },
+    "ka": {
+        "code": "ka",
+        "name": "Kijojia"
+    },
+    "dyo": {
+        "code": "dyo",
+        "name": "Kijola-Fonyi"
+    },
+    "kea": {
+        "code": "kea",
+        "name": "Kikabuverdianu"
+    },
+    "kab": {
+        "code": "kab",
+        "name": "Kikabylia"
+    },
+    "kl": {
+        "code": "kl",
+        "name": "Kikalaallisut"
+    },
+    "kln": {
+        "code": "kln",
+        "name": "Kikalenjin"
+    },
+    "kam": {
+        "code": "kam",
+        "name": "Kikamba"
+    },
+    "km": {
+        "code": "km",
+        "name": "Kikambodia"
+    },
+    "kn": {
+        "code": "kn",
+        "name": "Kikannada"
+    },
+    "ks": {
+        "code": "ks",
+        "name": "Kikashmiri"
+    },
+    "ca": {
+        "code": "ca",
+        "name": "Kikatalani"
+    },
+    "kk": {
+        "code": "kk",
+        "name": "Kikazaki"
+    },
+    "ki": {
+        "code": "ki",
+        "name": "Kikikuyu"
+    },
+    "ky": {
+        "code": "ky",
+        "name": "Kikirigizi"
+    },
+    "guz": {
+        "code": "guz",
+        "name": "Kikisii"
+    },
+    "ko": {
+        "code": "ko",
+        "name": "Kikorea"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "Kikoyra Chiini"
+    },
+    "nmg": {
+        "code": "nmg",
+        "name": "Kikwasio"
+    },
+    "lo": {
+        "code": "lo",
+        "name": "Kilaosi"
+    },
+    "lb": {
+        "code": "lb",
+        "name": "Kilasembagi"
+    },
+    "lv": {
+        "code": "lv",
+        "name": "Kilatvia"
+    },
+    "ln": {
+        "code": "ln",
+        "name": "Kilingala"
+    },
+    "lt": {
+        "code": "lt",
+        "name": "Kilithuania"
+    },
+    "lu": {
+        "code": "lu",
+        "name": "Kiluba-Katanga"
+    },
+    "luy": {
+        "code": "luy",
+        "name": "Kiluhya"
+    },
+    "mas": {
+        "code": "mas",
+        "name": "Kimaasai"
+    },
+    "jmc": {
+        "code": "jmc",
+        "name": "Kimachame"
+    },
+    "mgh": {
+        "code": "mgh",
+        "name": "Kimakhuwa-Meetto"
+    },
+    "kde": {
+        "code": "kde",
+        "name": "Kimakonde"
+    },
+    "ml": {
+        "code": "ml",
+        "name": "Kimalayalam"
+    },
+    "ms": {
+        "code": "ms",
+        "name": "Kimalesia"
+    },
+    "mt": {
+        "code": "mt",
+        "name": "Kimalta"
+    },
+    "mr": {
+        "code": "mr",
+        "name": "Kimarathi"
+    },
+    "mk": {
+        "code": "mk",
+        "name": "Kimasedonia"
+    },
+    "mer": {
+        "code": "mer",
+        "name": "Kimeru"
+    },
+    "mn": {
+        "code": "mn",
+        "name": "Kimongolia"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "Kimoriseni"
+    },
+    "mua": {
+        "code": "mua",
+        "name": "Kimundang"
+    },
+    "naq": {
+        "code": "naq",
+        "name": "Kinama"
+    },
+    "nd": {
+        "code": "nd",
+        "name": "Kindebele cha Kaskazini"
+    },
+    "ne": {
+        "code": "ne",
+        "name": "Kinepali"
+    },
+    "en": {
+        "code": "en",
+        "name": "Kingereza"
+    },
+    "jgo": {
+        "code": "jgo",
+        "name": "Kingomba"
+    },
+    "nn": {
+        "code": "nn",
+        "name": "Kinorwe Kipya"
+    },
+    "nus": {
+        "code": "nus",
+        "name": "Kinuer"
+    },
+    "nyn": {
+        "code": "nyn",
+        "name": "Kinyankole"
+    },
+    "or": {
+        "code": "or",
+        "name": "Kioriya"
+    },
+    "ps": {
+        "code": "ps",
+        "name": "Kipashto"
+    },
+    "pl": {
+        "code": "pl",
+        "name": "Kipolandi"
+    },
+    "pa": {
+        "code": "pa",
+        "name": "Kipunjabi"
+    },
+    "lag": {
+        "code": "lag",
+        "name": "Kirangi"
+    },
+    "pt": {
+        "code": "pt",
+        "name": "Kireno"
+    },
+    "ro": {
+        "code": "ro",
+        "name": "Kiromania"
+    },
+    "rm": {
+        "code": "rm",
+        "name": "Kiromanshi"
+    },
+    "rof": {
+        "code": "rof",
+        "name": "Kirombo"
+    },
+    "rn": {
+        "code": "rn",
+        "name": "Kirundi"
+    },
+    "ru": {
+        "code": "ru",
+        "name": "Kirusi"
+    },
+    "rwk": {
+        "code": "rwk",
+        "name": "Kirwo"
+    },
+    "ksb": {
+        "code": "ksb",
+        "name": "Kisambaa"
+    },
+    "saq": {
+        "code": "saq",
+        "name": "Kisamburu"
+    },
+    "se": {
+        "code": "se",
+        "name": "Kisami cha Kaskazini"
+    },
+    "sg": {
+        "code": "sg",
+        "name": "Kisango"
+    },
+    "sbp": {
+        "code": "sbp",
+        "name": "Kisangu"
+    },
+    "seh": {
+        "code": "seh",
+        "name": "Kisena"
+    },
+    "sr": {
+        "code": "sr",
+        "name": "Kiserbia"
+    },
+    "sn": {
+        "code": "sn",
+        "name": "Kishona"
+    },
+    "si": {
+        "code": "si",
+        "name": "Kisinhala"
+    },
+    "sk": {
+        "code": "sk",
+        "name": "Kislovakia"
+    },
+    "sl": {
+        "code": "sl",
+        "name": "Kislovenia"
+    },
+    "xog": {
+        "code": "xog",
+        "name": "Kisoga"
+    },
+    "so": {
+        "code": "so",
+        "name": "Kisomali"
+    },
+    "sw": {
+        "code": "sw",
+        "name": "Kiswahili"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "Kiswidi"
+    },
+    "th": {
+        "code": "th",
+        "name": "Kitailandi"
+    },
+    "dav": {
+        "code": "dav",
+        "name": "Kitaita"
+    },
+    "ta": {
+        "code": "ta",
+        "name": "Kitamil"
+    },
+    "twq": {
+        "code": "twq",
+        "name": "Kitasawaq"
+    },
+    "te": {
+        "code": "te",
+        "name": "Kitelugu"
+    },
+    "teo": {
+        "code": "teo",
+        "name": "Kiteso"
+    },
+    "bo": {
+        "code": "bo",
+        "name": "Kitibeti"
+    },
+    "ti": {
+        "code": "ti",
+        "name": "Kitigrinya"
+    },
+    "to": {
+        "code": "to",
+        "name": "Kitonga"
+    },
+    "tr": {
+        "code": "tr",
+        "name": "Kituruki"
+    },
+    "ug": {
+        "code": "ug",
+        "name": "Kiuiguri"
+    },
+    "uk": {
+        "code": "uk",
+        "name": "Kiukrania"
+    },
+    "ur": {
+        "code": "ur",
+        "name": "Kiurdu"
+    },
+    "uz": {
+        "code": "uz",
+        "name": "Kiuzbeki"
+    },
+    "vai": {
+        "code": "vai",
+        "name": "Kivai"
+    },
+    "vi": {
+        "code": "vi",
+        "name": "Kivietinamu"
+    },
+    "vun": {
+        "code": "vun",
+        "name": "Kivunjo"
+    },
+    "cy": {
+        "code": "cy",
+        "name": "Kiwelisi"
+    },
+    "yo": {
+        "code": "yo",
+        "name": "Kiyoruba"
+    },
+    "dje": {
+        "code": "dje",
+        "name": "Kizarma"
+    },
+    "dz": {
+        "code": "dz",
+        "name": "Kizongkha"
+    },
+    "zu": {
+        "code": "zu",
+        "name": "Kizulu"
+    },
+    "ses": {
+        "code": "ses",
+        "name": "Koyraboro Senni"
+    },
+    "hr": {
+        "code": "hr",
+        "name": "Kroeshia"
+    },
+    "mg": {
+        "code": "mg",
+        "name": "Malagasi"
+    },
+    "nl-BE": {
+        "code": "nl-BE",
+        "name": "nl_BE"
+    },
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "pt_PT"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "ro_MD"
+    },
+    "shi": {
+        "code": "shi",
+        "name": "Tachelhit"
+    },
+    "zgh": {
+        "code": "zgh",
+        "name": "Tamaziti Msingi ya Kimoroko"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "Upper Sorbian"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
+    },
+    "zh-Hans": {
+        "code": "zh-Hans",
+        "name": "zh_Hans"
+    }
+}

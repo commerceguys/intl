@@ -1,8 +1,4 @@
 {
-    "SVC": {
-        "name": "SVC",
-        "symbol": "SVC"
-    },
     "MGA": {
         "name": "آریاری مالاگاسی",
         "symbol": "MGA"
@@ -395,18 +391,6 @@
         "name": "شیلینگ کنیا",
         "symbol": "KES"
     },
-    "XOF": {
-        "name": "فرانک CFA غرب آفریقا",
-        "symbol": "CFA"
-    },
-    "XAF": {
-        "name": "فرانک CFA مرکز آفریقا",
-        "symbol": "FCFA"
-    },
-    "XPF": {
-        "name": "فرانک CFP",
-        "symbol": "CFPF"
-    },
     "BIF": {
         "name": "فرانک بوروندی",
         "symbol": "BIF"
@@ -434,6 +418,18 @@
     "GNF": {
         "name": "فرانک گینه",
         "symbol": "GNF"
+    },
+    "XOF": {
+        "name": "فرانک CFA غرب افریقا",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "فرانک CFA مرکز افریقا",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "فرانک CFP",
+        "symbol": "CFPF"
     },
     "AWG": {
         "name": "فلورین آروبا",
@@ -535,10 +531,6 @@
         "name": "لوتی لسوتو",
         "symbol": "LSL"
     },
-    "LTL": {
-        "name": "لیتاس لیتوانی",
-        "symbol": "LTL"
-    },
     "TRY": {
         "name": "لیرهٔ ترکیه",
         "symbol": "TRY"
@@ -630,5 +622,9 @@
     "EUR": {
         "name": "یورو",
         "symbol": "€"
+    },
+    "SVC": {
+        "name": "SVC",
+        "symbol": "SVC"
     }
 }

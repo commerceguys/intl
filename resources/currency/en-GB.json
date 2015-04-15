@@ -52,7 +52,7 @@
         "symbol": "BBD"
     },
     "BYR": {
-        "name": "Belarusian Ruble",
+        "name": "Belarusian Rouble",
         "symbol": "BYR"
     },
     "BZD": {
@@ -84,7 +84,7 @@
         "symbol": "R$"
     },
     "GBP": {
-        "name": "British Pound Sterling",
+        "name": "British Pound",
         "symbol": "£"
     },
     "BND": {
@@ -115,12 +115,8 @@
         "name": "Cayman Islands Dollar",
         "symbol": "KYD"
     },
-    "XOF": {
-        "name": "CFA Franc BCEAO",
-        "symbol": "CFA"
-    },
     "XAF": {
-        "name": "CFA Franc BEAC",
+        "name": "Central African CFA Franc",
         "symbol": "FCFA"
     },
     "XPF": {
@@ -281,7 +277,7 @@
     },
     "JPY": {
         "name": "Japanese Yen",
-        "symbol": "¥"
+        "symbol": "JP¥"
     },
     "JOD": {
         "name": "Jordanian Dinar",
@@ -322,10 +318,6 @@
     "LYD": {
         "name": "Libyan Dinar",
         "symbol": "LYD"
-    },
-    "LTL": {
-        "name": "Lithuanian Litas",
-        "symbol": "LTL"
     },
     "MOP": {
         "name": "Macanese Pataca",
@@ -460,16 +452,12 @@
         "symbol": "RON"
     },
     "RUB": {
-        "name": "Russian Ruble",
+        "name": "Russian Rouble",
         "symbol": "RUB"
     },
     "RWF": {
         "name": "Rwandan Franc",
         "symbol": "RWF"
-    },
-    "SHP": {
-        "name": "Saint Helena Pound",
-        "symbol": "SHP"
     },
     "SVC": {
         "name": "Salvadoran Colón",
@@ -480,7 +468,7 @@
         "symbol": "WST"
     },
     "STD": {
-        "name": "São Tomé and Príncipe Dobra",
+        "name": "São Tomé & Príncipe Dobra",
         "symbol": "STD"
     },
     "SAR": {
@@ -527,6 +515,10 @@
         "name": "Sri Lankan Rupee",
         "symbol": "LKR"
     },
+    "SHP": {
+        "name": "St. Helena Pound",
+        "symbol": "SHP"
+    },
     "SDG": {
         "name": "Sudanese Pound",
         "symbol": "SDG"
@@ -561,14 +553,14 @@
     },
     "THB": {
         "name": "Thai Baht",
-        "symbol": "฿"
+        "symbol": "THB"
     },
     "TOP": {
         "name": "Tongan Paʻanga",
         "symbol": "TOP"
     },
     "TTD": {
-        "name": "Trinidad and Tobago Dollar",
+        "name": "Trinidad & Tobago Dollar",
         "symbol": "TTD"
     },
     "TND": {
@@ -604,7 +596,7 @@
         "symbol": "US$"
     },
     "UZS": {
-        "name": "Uzbekistan Som",
+        "name": "Uzbekistani Som",
         "symbol": "UZS"
     },
     "VUV": {
@@ -618,6 +610,10 @@
     "VND": {
         "name": "Vietnamese Dong",
         "symbol": "₫"
+    },
+    "XOF": {
+        "name": "West African CFA Franc",
+        "symbol": "CFA"
     },
     "YER": {
         "name": "Yemeni Rial",

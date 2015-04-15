@@ -19,21 +19,13 @@
         "code": "am",
         "name": "Amharic"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "ar_001"
-    },
     "ar": {
         "code": "ar",
-        "name": "arabiamiusut"
+        "name": "Arabic"
     },
     "hy": {
         "code": "hy",
         "name": "Armenian"
-    },
-    "az": {
-        "code": "az",
-        "name": "aserbajdsjaniskisut"
     },
     "ast": {
         "code": "ast",
@@ -42,6 +34,10 @@
     "asa": {
         "code": "asa",
         "name": "Asu"
+    },
+    "az": {
+        "code": "az",
+        "name": "Azerbaijani"
     },
     "ksf": {
         "code": "ksf",
@@ -69,7 +65,7 @@
     },
     "bn": {
         "code": "bn",
-        "name": "bengalimiutut"
+        "name": "Bengali"
     },
     "brx": {
         "code": "brx",
@@ -107,17 +103,25 @@
         "code": "cgg",
         "name": "Chiga"
     },
+    "zh": {
+        "code": "zh",
+        "name": "Chinese"
+    },
     "ksh": {
         "code": "ksh",
         "name": "Colognian"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Congo Swahili"
-    },
     "hr": {
         "code": "hr",
         "name": "Croatian"
+    },
+    "cs": {
+        "code": "cs",
+        "name": "Czech"
+    },
+    "da": {
+        "code": "da",
+        "name": "Danish"
     },
     "de-AT": {
         "code": "de-AT",
@@ -126,6 +130,10 @@
     "de-CH": {
         "code": "de-CH",
         "name": "de_CH"
+    },
+    "nl": {
+        "code": "nl",
+        "name": "Dutch"
     },
     "dz": {
         "code": "dz",
@@ -147,13 +155,9 @@
         "code": "en-GB",
         "name": "en_GB"
     },
-    "en-US": {
-        "code": "en-US",
-        "name": "en_US"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "es_ES"
+    "en": {
+        "code": "en",
+        "name": "English"
     },
     "es-MX": {
         "code": "es-MX",
@@ -161,11 +165,11 @@
     },
     "eo": {
         "code": "eo",
-        "name": "esperanto"
+        "name": "Esperanto"
     },
     "et": {
         "code": "et",
-        "name": "estlandimiutut"
+        "name": "Estonian"
     },
     "ee": {
         "code": "ee",
@@ -175,13 +179,17 @@
         "code": "ewo",
         "name": "Ewondo"
     },
+    "fo": {
+        "code": "fo",
+        "name": "Faroese"
+    },
     "fil": {
         "code": "fil",
         "name": "Filipino"
     },
     "fi": {
         "code": "fi",
-        "name": "finlandimiutut"
+        "name": "Finnish"
     },
     "fr-CA": {
         "code": "fr-CA",
@@ -193,7 +201,7 @@
     },
     "fr": {
         "code": "fr",
-        "name": "franskisut"
+        "name": "French"
     },
     "fur": {
         "code": "fur",
@@ -215,6 +223,10 @@
         "code": "ka",
         "name": "Georgian"
     },
+    "de": {
+        "code": "de",
+        "name": "German"
+    },
     "el": {
         "code": "el",
         "name": "Greek"
@@ -233,39 +245,35 @@
     },
     "he": {
         "code": "he",
-        "name": "hebraimiutut"
+        "name": "Hebrew"
     },
     "hi": {
         "code": "hi",
-        "name": "hindimiutut"
-    },
-    "nl": {
-        "code": "nl",
-        "name": "hollandimiutut"
+        "name": "Hindi"
     },
     "hu": {
         "code": "hu",
         "name": "Hungarian"
     },
+    "is": {
+        "code": "is",
+        "name": "Icelandic"
+    },
     "id": {
         "code": "id",
-        "name": "indonesiamiutut"
+        "name": "Indonesian"
     },
     "ga": {
         "code": "ga",
-        "name": "irlandimiutut"
-    },
-    "is": {
-        "code": "is",
-        "name": "islandimiusut"
+        "name": "Irish"
     },
     "it": {
         "code": "it",
-        "name": "italiamiutut"
+        "name": "Italian"
     },
     "ja": {
         "code": "ja",
-        "name": "japanimiusut"
+        "name": "Japanese"
     },
     "dyo": {
         "code": "dyo",
@@ -311,13 +319,9 @@
         "code": "ki",
         "name": "Kikuyu"
     },
-    "zh": {
-        "code": "zh",
-        "name": "kineserisut"
-    },
     "ko": {
         "code": "ko",
-        "name": "koreamiusut"
+        "name": "Korean"
     },
     "khq": {
         "code": "khq",
@@ -345,7 +349,7 @@
     },
     "lv": {
         "code": "lv",
-        "name": "letlandimiutut"
+        "name": "Latvian"
     },
     "ln": {
         "code": "ln",
@@ -353,7 +357,7 @@
     },
     "lt": {
         "code": "lt",
-        "name": "litauenimiutut"
+        "name": "Lithuanian"
     },
     "dsb": {
         "code": "dsb",
@@ -393,7 +397,7 @@
     },
     "mg": {
         "code": "mg",
-        "name": "malagassiskisut"
+        "name": "Malagasy"
     },
     "ms": {
         "code": "ms",
@@ -477,23 +481,19 @@
     },
     "ps": {
         "code": "ps",
-        "name": "pashtomiutut"
+        "name": "Pashto"
     },
     "fa": {
         "code": "fa",
-        "name": "persiskisut"
+        "name": "Persian"
     },
     "pl": {
         "code": "pl",
-        "name": "polenimiutut"
+        "name": "Polish"
     },
     "pt": {
         "code": "pt",
-        "name": "portugalimiutut"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "pt_BR"
+        "name": "Portuguese"
     },
     "pt-PT": {
         "code": "pt-PT",
@@ -503,13 +503,13 @@
         "code": "pa",
         "name": "Punjabi"
     },
-    "da": {
-        "code": "da",
-        "name": "qallunaatut"
-    },
     "ro-MD": {
         "code": "ro-MD",
         "name": "ro_MD"
+    },
+    "ro": {
+        "code": "ro",
+        "name": "Romanian"
     },
     "rm": {
         "code": "rm",
@@ -519,17 +519,13 @@
         "code": "rof",
         "name": "Rombo"
     },
-    "ro": {
-        "code": "ro",
-        "name": "rumænimiutut"
-    },
     "rn": {
         "code": "rn",
         "name": "Rundi"
     },
     "ru": {
         "code": "ru",
-        "name": "russisut"
+        "name": "Russian"
     },
     "rwk": {
         "code": "rwk",
@@ -546,10 +542,6 @@
     "sbp": {
         "code": "sbp",
         "name": "Sangu"
-    },
-    "fo": {
-        "code": "fo",
-        "name": "savalimmiutut"
     },
     "gd": {
         "code": "gd",
@@ -577,7 +569,7 @@
     },
     "sk": {
         "code": "sk",
-        "name": "slovakimiusut"
+        "name": "Slovak"
     },
     "sl": {
         "code": "sl",
@@ -593,19 +585,19 @@
     },
     "es": {
         "code": "es",
-        "name": "spanskisut"
+        "name": "Spanish"
     },
     "zgh": {
         "code": "zgh",
         "name": "Standard Moroccan Tamazight"
     },
-    "sv": {
-        "code": "sv",
-        "name": "svenskisut"
-    },
     "sw": {
         "code": "sw",
-        "name": "swahilimiutut"
+        "name": "Swahili"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "Swedish"
     },
     "gsw": {
         "code": "gsw",
@@ -637,7 +629,7 @@
     },
     "th": {
         "code": "th",
-        "name": "thailandimiutut"
+        "name": "Thai"
     },
     "bo": {
         "code": "bo",
@@ -647,29 +639,17 @@
         "code": "ti",
         "name": "Tigrinya"
     },
-    "cs": {
-        "code": "cs",
-        "name": "tjekkiamut"
-    },
     "to": {
         "code": "to",
         "name": "Tongan"
     },
-    "en": {
-        "code": "en",
-        "name": "tuluttut"
-    },
     "tr": {
         "code": "tr",
-        "name": "tyrkiskisut"
-    },
-    "de": {
-        "code": "de",
-        "name": "tyskisut"
+        "name": "Turkish"
     },
     "uk": {
         "code": "uk",
-        "name": "ukrainimiusut"
+        "name": "Ukrainian"
     },
     "hsb": {
         "code": "hsb",
@@ -677,7 +657,7 @@
     },
     "ur": {
         "code": "ur",
-        "name": "urdumiutut"
+        "name": "Urdu"
     },
     "ug": {
         "code": "ug",
@@ -693,7 +673,7 @@
     },
     "vi": {
         "code": "vi",
-        "name": "vietnamimiusut"
+        "name": "Vietnamese"
     },
     "vun": {
         "code": "vun",

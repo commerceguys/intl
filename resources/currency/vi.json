@@ -75,6 +75,10 @@
         "name": "Colón Costa Rica",
         "symbol": "CRC"
     },
+    "SVC": {
+        "name": "Colón El Salvador",
+        "symbol": "SVC"
+    },
     "NIO": {
         "name": "Córdoba Nicaragua",
         "symbol": "NIO"
@@ -223,17 +227,9 @@
         "name": "Đô la Trinidad và Tobago",
         "symbol": "TTD"
     },
-    "SVC": {
-        "name": "Đồng Colón Salvador",
-        "symbol": "SVC"
-    },
     "ZWL": {
         "name": "Đồng Đô la Zimbabwe (2009)",
         "symbol": "ZWL"
-    },
-    "LSL": {
-        "name": "Đồng loti của Lesotho",
-        "symbol": "LSL"
     },
     "VND": {
         "name": "Đồng Việt Nam",
@@ -306,6 +302,10 @@
     "UAH": {
         "name": "Hryvnia Ucraina",
         "symbol": "UAH"
+    },
+    "LSL": {
+        "name": "Ioti Lesotho",
+        "symbol": "LSL"
     },
     "PGK": {
         "name": "Kina Papua New Guinean",
@@ -390,10 +390,6 @@
     "SZL": {
         "name": "Lilangeni Swaziland",
         "symbol": "SZL"
-    },
-    "LTL": {
-        "name": "Litas Lít-va",
-        "symbol": "LTL"
     },
     "AZN": {
         "name": "Manat Azerbaijan",
