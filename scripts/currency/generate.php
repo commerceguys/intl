@@ -10,10 +10,14 @@
 set_time_limit(0);
 
 // Downloaded from http://www.currency-iso.org/en/home/tables/table-a1.html
-$isoCurrencies = '../c2.xml';
-// Downloaded from http://unicode.org/Public/cldr/26/json-full.zip
-$cldrCurrencies = '../json-full/main/en-US/currencies.json';
-$currencyData = '../json-full/supplemental/currencyData.json';
+$isoCurrencies = '../assets/c2.xml';
+// Downloaded from https://github.com/unicode-cldr/cldr-numbers-full.git
+$numbersDirectory = '../assets/cldr-numbers-full/main/';
+$cldrCurrencies = $numbersDirectory . 'en/currencies.json';
+// Downloaded from https://github.com/unicode-cldr/cldr-core.git
+$currencyData = '../assets/cldr-core/supplemental/currencyData.json';
+// Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
+$localeDirectory = '../assets/cldr-localenames-full/main/';
 if (!file_exists($isoCurrencies)) {
     die("The $isoCurrencies file was not found");
 }
@@ -27,6 +31,12 @@ if (!function_exists('collator_create')) {
     // Reimplementing intl's collator would be a huge undertaking, so we
     // use it instead to presort the generated locale specific data.
     die('The intl extension was not found.');
+}
+if (!is_dir($localeDirectory)) {
+  die("The $localeDirectory directory was not found");
+}
+if (!is_dir($numbersDirectory)) {
+  die("The $numbersDirectory directory was not found");
 }
 
 // Locales listed without a "-" match all variants.
@@ -89,7 +99,7 @@ file_put_contents('base.json', $json);
 
 // Gather available locales.
 $locales = [];
-if ($handle = opendir('../json-full/main')) {
+if ($handle = opendir($localeDirectory)) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
             $entryParts = explode('-', $entry);
@@ -104,7 +114,7 @@ if ($handle = opendir('../json-full/main')) {
 // Create the localizations.
 $currencies = [];
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/currencies.json'), true);
+    $data = json_decode(file_get_contents($numbersDirectory . $locale . '/currencies.json'), true);
     $data = $data['main'][$locale]['numbers']['currencies'];
     foreach ($data as $currencyCode => $currency) {
         if (isset($baseData[$currencyCode])) {

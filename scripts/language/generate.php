@@ -10,8 +10,13 @@
 
 set_time_limit(0);
 
-// Downloaded from http://unicode.org/Public/cldr/26/json-full.zip
-$enLanguages = '../json-full/main/en/languages.json';
+// Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
+$localeDirectory = '../assets/cldr-localenames-full/main/';
+$enLanguages = $localeDirectory . 'en/languages.json';
+
+if (!is_dir($localeDirectory)) {
+  die("The $localeDirectory directory was not found");
+}
 if (!file_exists($enLanguages)) {
     die("The $enLanguages file was not found");
 }
@@ -53,7 +58,7 @@ foreach ($languageData as $languageCode => $languageName) {
 
 // Gather available locales.
 $locales = [];
-if ($handle = opendir('../json-full/main')) {
+if ($handle = opendir($localeDirectory)) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
             $entryParts = explode('-', $entry);
@@ -75,7 +80,7 @@ foreach ($languages['en'] as $languageCode => $languageData) {
 
 // Load the localizations.
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/languages.json'), true);
+    $data = json_decode(file_get_contents($localeDirectory . $locale . '/languages.json'), true);
     $data = $data['main'][$locale]['localeDisplayNames']['languages'];
     foreach ($data as $languageCode => $languageName) {
         if (isset($languages['en'][$languageCode])) {
