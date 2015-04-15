@@ -6,10 +6,12 @@
 
 set_time_limit(0);
 
-// Downloaded from http://unicode.org/Public/cldr/26/json-full.zip
-$enCountries = '../json-full/main/en/territories.json';
-$codeMappings = '../json-full/supplemental/codeMappings.json';
-$telephoneCodeData = '../json-full/supplemental/telephoneCodeData.json';
+// Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
+$localeDirectory = '../assets/cldr-localenames-full/main/';
+$enCountries = $localeDirectory . 'en/territories.json';
+// Downloaded from https://github.com/unicode-cldr/cldr-core.git
+$codeMappings = '../assets/cldr-core/supplemental/codeMappings.json';
+$telephoneCodeData = '../assets/cldr-core/supplemental/telephoneCodeData.json';
 if (!file_exists($enCountries)) {
     die("The $enCountries file was not found");
 }
@@ -23,6 +25,9 @@ if (!function_exists('collator_create')) {
     // Reimplementing intl's collator would be a huge undertaking, so we
     // use it instead to presort the generated locale specific data.
     die('The intl extension was not found.');
+}
+if (!is_dir($localeDirectory)) {
+  die("The $localeDirectory directory was not found");
 }
 
 $ignoredCountries = [
@@ -94,7 +99,7 @@ file_put_contents('base.json', $json);
 
 // Gather available locales.
 $locales = [];
-if ($handle = opendir('../json-full/main')) {
+if ($handle = opendir($localeDirectory)) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
             $entryParts = explode('-', $entry);
@@ -109,7 +114,7 @@ if ($handle = opendir('../json-full/main')) {
 // Create the localizations.
 $countries = [];
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/territories.json'), true);
+    $data = json_decode(file_get_contents($localeDirectory . $locale . '/territories.json'), true);
     $data = $data['main'][$locale]['localeDisplayNames']['territories'];
     foreach ($data as $countryCode => $countryName) {
         if (isset($baseData[$countryCode])) {

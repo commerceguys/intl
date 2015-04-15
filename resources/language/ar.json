@@ -1,23 +1,11 @@
 {
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
-    },
-    "es-MX": {
-        "code": "es-MX",
-        "name": "es_MX"
-    },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "آسو"
-    },
     "ebu": {
         "code": "ebu",
         "name": "إمبو"
+    },
+    "asa": {
+        "code": "asa",
+        "name": "الآسو"
     },
     "az": {
         "code": "az",
@@ -85,7 +73,7 @@
     },
     "uz": {
         "code": "uz",
-        "name": "الأوزباكية"
+        "name": "الأوزبكية"
     },
     "uk": {
         "code": "uk",
@@ -103,9 +91,9 @@
         "code": "es",
         "name": "الإسبانية"
     },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "الإسبانية الأوروبية"
+    "es-MX": {
+        "code": "es-MX",
+        "name": "الإسبانية المكسيكية"
     },
     "eo": {
         "code": "eo",
@@ -130,10 +118,6 @@
     "en-CA": {
         "code": "en-CA",
         "name": "الإنجليزية الكندية"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "الإنجليزية الولايات المتحدة"
     },
     "id": {
         "code": "id",
@@ -166,10 +150,6 @@
     "pt-PT": {
         "code": "pt-PT",
         "name": "البرتغالية الأوروبية"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "البرتغالية البرازيلية"
     },
     "br": {
         "code": "br",
@@ -213,7 +193,7 @@
     },
     "be": {
         "code": "be",
-        "name": "البيلوروسية"
+        "name": "البيلاروسية"
     },
     "ta": {
         "code": "ta",
@@ -235,6 +215,10 @@
         "code": "cs",
         "name": "التشيكية"
     },
+    "ti": {
+        "code": "ti",
+        "name": "التغرينية"
+    },
     "zgh": {
         "code": "zgh",
         "name": "التمازيغية المغربية القياسية"
@@ -242,10 +226,6 @@
     "to": {
         "code": "to",
         "name": "التونغية"
-    },
-    "ti": {
-        "code": "ti",
-        "name": "التيجرينيا"
     },
     "te": {
         "code": "te",
@@ -275,6 +255,10 @@
         "code": "rn",
         "name": "الرندي"
     },
+    "rwk": {
+        "code": "rwk",
+        "name": "الروا"
+    },
     "ru": {
         "code": "ru",
         "name": "الروسية"
@@ -286,6 +270,10 @@
     "ro": {
         "code": "ro",
         "name": "الرومانية"
+    },
+    "rof": {
+        "code": "rof",
+        "name": "الرومبو"
     },
     "dje": {
         "code": "dje",
@@ -322,6 +310,10 @@
     "sw": {
         "code": "sw",
         "name": "السواحلية"
+    },
+    "xog": {
+        "code": "xog",
+        "name": "السوغا"
     },
     "sv": {
         "code": "sv",
@@ -370,10 +362,6 @@
     "ar": {
         "code": "ar",
         "name": "العربية"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "العربية الرسمية الحديثة"
     },
     "gu": {
         "code": "gu",
@@ -429,11 +417,15 @@
     },
     "nl-BE": {
         "code": "nl-BE",
-        "name": "الفلمنك"
+        "name": "الفلمنكية"
     },
     "fi": {
         "code": "fi",
         "name": "الفنلندية"
+    },
+    "vun": {
+        "code": "vun",
+        "name": "الفونجو"
     },
     "vi": {
         "code": "vi",
@@ -479,10 +471,6 @@
         "code": "ko",
         "name": "الكورية"
     },
-    "swc": {
-        "code": "swc",
-        "name": "الكونغو السواحلية"
-    },
     "ki": {
         "code": "ki",
         "name": "الكيكيو"
@@ -514,6 +502,10 @@
     "ln": {
         "code": "ln",
         "name": "اللينجالا"
+    },
+    "jmc": {
+        "code": "jmc",
+        "name": "الماتشامية"
     },
     "mr": {
         "code": "mr",
@@ -551,6 +543,10 @@
         "code": "ro-MD",
         "name": "المولدوفية"
     },
+    "mer": {
+        "code": "mer",
+        "name": "الميرو"
+    },
     "nd": {
         "code": "nd",
         "name": "النديبيل الشمالي"
@@ -587,6 +583,10 @@
         "code": "nl",
         "name": "الهولندية"
     },
+    "wae": {
+        "code": "wae",
+        "name": "الوالسر"
+    },
     "cy": {
         "code": "cy",
         "name": "الولزية"
@@ -602,10 +602,6 @@
     "el": {
         "code": "el",
         "name": "اليونانية"
-    },
-    "ksf": {
-        "code": "ksf",
-        "name": "بافيا"
     },
     "bez": {
         "code": "bez",
@@ -635,14 +631,6 @@
         "code": "dyo",
         "name": "جولا فونيا"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "روا"
-    },
-    "rof": {
-        "code": "rof",
-        "name": "رومبو"
-    },
     "saq": {
         "code": "saq",
         "name": "سامبورو"
@@ -651,10 +639,6 @@
         "code": "sbp",
         "name": "سانغو"
     },
-    "xog": {
-        "code": "xog",
-        "name": "سوجا"
-    },
     "seh": {
         "code": "seh",
         "name": "سينا"
@@ -662,10 +646,6 @@
     "ksb": {
         "code": "ksb",
         "name": "شامبالا"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "فونجو"
     },
     "kea": {
         "code": "kea",
@@ -695,17 +675,25 @@
         "code": "eu",
         "name": "لغة الباسك"
     },
+    "ksf": {
+        "code": "ksf",
+        "name": "لغة البافيا"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "لغة الكولونيان"
+    },
+    "luy": {
+        "code": "luy",
+        "name": "لغة اللويا"
+    },
     "ms": {
         "code": "ms",
         "name": "لغة الملايو"
     },
-    "luy": {
-        "code": "luy",
-        "name": "لويا"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "ماتشيم"
+    "naq": {
+        "code": "naq",
+        "name": "لغة الناما"
     },
     "mgh": {
         "code": "mgh",
@@ -718,14 +706,6 @@
     "mua": {
         "code": "mua",
         "name": "مندنج"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "ميرو"
-    },
-    "naq": {
-        "code": "naq",
-        "name": "ناما"
     },
     "jgo": {
         "code": "jgo",

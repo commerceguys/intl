@@ -135,6 +135,18 @@
         "name": "dólar australiano",
         "symbol": "AUD"
     },
+    "BSD": {
+        "name": "dólar bahameño",
+        "symbol": "BSD"
+    },
+    "BBD": {
+        "name": "dólar barbadense",
+        "symbol": "BBD"
+    },
+    "BZD": {
+        "name": "dólar beliceño",
+        "symbol": "BZD"
+    },
     "BND": {
         "name": "dólar bruneano",
         "symbol": "BND"
@@ -143,29 +155,9 @@
         "name": "dólar canadiense",
         "symbol": "CA$"
     },
-    "BBD": {
-        "name": "dólar de Barbados",
-        "symbol": "BBD"
-    },
-    "BZD": {
-        "name": "dólar de Belice",
-        "symbol": "BZD"
-    },
     "BMD": {
         "name": "dólar de Bermudas",
         "symbol": "BMD"
-    },
-    "HKD": {
-        "name": "dólar de Hong Kong",
-        "symbol": "HKD"
-    },
-    "JMD": {
-        "name": "dólar de Jamaica",
-        "symbol": "JMD"
-    },
-    "BSD": {
-        "name": "dólar de las Bahamas",
-        "symbol": "BSD"
     },
     "KYD": {
         "name": "dólar de las Islas Caimán",
@@ -190,6 +182,14 @@
     "GYD": {
         "name": "dólar guyanés",
         "symbol": "GYD"
+    },
+    "HKD": {
+        "name": "dólar hongkonés",
+        "symbol": "HKD"
+    },
+    "JMD": {
+        "name": "dólar jamaicano",
+        "symbol": "JMD"
     },
     "LRD": {
         "name": "dólar liberiano",
@@ -240,7 +240,7 @@
         "symbol": "€"
     },
     "AWG": {
-        "name": "florín de Aruba",
+        "name": "florín arubeño",
         "symbol": "AWG"
     },
     "ANG": {
@@ -248,7 +248,7 @@
         "symbol": "ANG"
     },
     "HUF": {
-        "name": "forinto",
+        "name": "forinto húngaro",
         "symbol": "HUF"
     },
     "BIF": {
@@ -319,10 +319,6 @@
         "name": "kip",
         "symbol": "LAK"
     },
-    "MWK": {
-        "name": "kuacha malauí",
-        "symbol": "MWK"
-    },
     "ZMW": {
         "name": "kuacha zambiano",
         "symbol": "ZMW"
@@ -334,6 +330,10 @@
     "HRK": {
         "name": "kuna",
         "symbol": "HRK"
+    },
+    "MWK": {
+        "name": "kwacha malauí",
+        "symbol": "MWK"
     },
     "GEL": {
         "name": "lari",
@@ -360,12 +360,12 @@
         "symbol": "RON"
     },
     "BGN": {
-        "name": "leva",
+        "name": "lev búlgaro",
         "symbol": "BGN"
     },
-    "FKP": {
-        "name": "libra de las Islas Malvinas",
-        "symbol": "FKP"
+    "GBP": {
+        "name": "libra británica",
+        "symbol": "GBP"
     },
     "SHP": {
         "name": "libra de Santa Elena",
@@ -375,10 +375,6 @@
         "name": "libra egipcia",
         "symbol": "EGP"
     },
-    "GBP": {
-        "name": "libra esterlina",
-        "symbol": "GBP"
-    },
     "GIP": {
         "name": "libra gibraltareña",
         "symbol": "GIP"
@@ -386,6 +382,10 @@
     "LBP": {
         "name": "libra libanesa",
         "symbol": "LBP"
+    },
+    "FKP": {
+        "name": "libra malvinense",
+        "symbol": "FKP"
     },
     "SYP": {
         "name": "libra siria",
@@ -406,10 +406,6 @@
     "TRY": {
         "name": "lira turca",
         "symbol": "TRY"
-    },
-    "LTL": {
-        "name": "litas",
-        "symbol": "LTL"
     },
     "LSL": {
         "name": "loti lesothense",
@@ -552,7 +548,7 @@
         "symbol": "MVR"
     },
     "LKR": {
-        "name": "rupia de Sri Lanka",
+        "name": "rupia esrilanquesa",
         "symbol": "LKR"
     },
     "INR": {
@@ -600,7 +596,7 @@
         "symbol": "WST"
     },
     "KZT": {
-        "name": "tengue",
+        "name": "tenge kazako",
         "symbol": "KZT"
     },
     "MNT": {

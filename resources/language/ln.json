@@ -1,7 +1,7 @@
 {
     "af": {
         "code": "af",
-        "name": "afrikansi"
+        "name": "Afrikaans"
     },
     "agq": {
         "code": "agq",
@@ -14,10 +14,6 @@
     "sq": {
         "code": "sq",
         "name": "Albanian"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "ar_001"
     },
     "hy": {
         "code": "hy",
@@ -87,10 +83,6 @@
         "code": "ksh",
         "name": "Colognian"
     },
-    "swc": {
-        "code": "swc",
-        "name": "Congo Swahili"
-    },
     "hr": {
         "code": "hr",
         "name": "Croatian"
@@ -98,6 +90,14 @@
     "da": {
         "code": "da",
         "name": "Danish"
+    },
+    "de-AT": {
+        "code": "de-AT",
+        "name": "de_AT"
+    },
+    "de-CH": {
+        "code": "de-CH",
+        "name": "de_CH"
     },
     "dz": {
         "code": "dz",
@@ -111,9 +111,13 @@
         "code": "en-AU",
         "name": "en_AU"
     },
-    "en-US": {
-        "code": "en-US",
-        "name": "en_US"
+    "en-CA": {
+        "code": "en-CA",
+        "name": "en_CA"
+    },
+    "en-GB": {
+        "code": "en-GB",
+        "name": "en_GB"
     },
     "es-MX": {
         "code": "es-MX",
@@ -147,6 +151,14 @@
         "code": "fi",
         "name": "Finnish"
     },
+    "fr-CA": {
+        "code": "fr-CA",
+        "name": "fr_CA"
+    },
+    "fr-CH": {
+        "code": "fr-CH",
+        "name": "fr_CH"
+    },
     "fur": {
         "code": "fur",
         "name": "Friulian"
@@ -178,6 +190,10 @@
     "ha": {
         "code": "ha",
         "name": "hausa"
+    },
+    "he": {
+        "code": "he",
+        "name": "Hebrew"
     },
     "is": {
         "code": "is",
@@ -227,14 +243,6 @@
         "code": "ki",
         "name": "Kikuyu"
     },
-    "lu": {
-        "code": "lu",
-        "name": "kiluba"
-    },
-    "sw": {
-        "code": "sw",
-        "name": "kiswahíli"
-    },
     "khq": {
         "code": "khq",
         "name": "Koyra Chiini"
@@ -271,18 +279,6 @@
         "code": "de",
         "name": "lialemá"
     },
-    "de-AT": {
-        "code": "de-AT",
-        "name": "lialémani ya Otrish"
-    },
-    "de-CH": {
-        "code": "de-CH",
-        "name": "lialémani ya Swisi"
-    },
-    "gsw": {
-        "code": "gsw",
-        "name": "lialemaniki"
-    },
     "am": {
         "code": "am",
         "name": "liamariki"
@@ -303,10 +299,6 @@
         "code": "be",
         "name": "libyelorisí"
     },
-    "he": {
-        "code": "he",
-        "name": "liébeleo"
-    },
     "nl": {
         "code": "nl",
         "name": "lifalamá"
@@ -314,14 +306,6 @@
     "fr": {
         "code": "fr",
         "name": "lifalansɛ́"
-    },
-    "fr-CA": {
-        "code": "fr-CA",
-        "name": "lifalansɛ́ ya Kanadá"
-    },
-    "fr-CH": {
-        "code": "fr-CH",
-        "name": "lifalansɛ́ ya Swisi"
     },
     "el": {
         "code": "el",
@@ -363,14 +347,6 @@
         "code": "en",
         "name": "lingɛlɛ́sa"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "lingɛlɛ́sa ya Ingɛlɛ́tɛlɛ"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "lingɛlɛ́sa ya Kanadá"
-    },
     "hu": {
         "code": "hu",
         "name": "liongili"
@@ -391,14 +367,6 @@
         "code": "pt",
         "name": "lipulutugɛ́si"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "lipulutugɛ́si ya Brazil"
-    },
-    "pt-PT": {
-        "code": "pt-PT",
-        "name": "lipulutugɛ́si ya Erópa"
-    },
     "ru": {
         "code": "ru",
         "name": "lirisí"
@@ -406,10 +374,6 @@
     "ro": {
         "code": "ro",
         "name": "liromani"
-    },
-    "rm": {
-        "code": "rm",
-        "name": "liromansh"
     },
     "zh": {
         "code": "zh",
@@ -422,10 +386,6 @@
     "so": {
         "code": "so",
         "name": "lisomali"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "lispanyoli ya Erópa"
     },
     "sv": {
         "code": "sv",
@@ -470,6 +430,10 @@
     "dsb": {
         "code": "dsb",
         "name": "Lower Sorbian"
+    },
+    "lu": {
+        "code": "lu",
+        "name": "Luba-Katanga"
     },
     "luo": {
         "code": "luo",
@@ -579,9 +543,17 @@
         "code": "ps",
         "name": "Pashto"
     },
+    "pt-PT": {
+        "code": "pt-PT",
+        "name": "pt_PT"
+    },
     "ro-MD": {
         "code": "ro-MD",
         "name": "ro_MD"
+    },
+    "rm": {
+        "code": "rm",
+        "name": "Romansh"
     },
     "rof": {
         "code": "rof",
@@ -646,6 +618,14 @@
     "zgh": {
         "code": "zgh",
         "name": "Standard Moroccan Tamazight"
+    },
+    "sw": {
+        "code": "sw",
+        "name": "Swahili"
+    },
+    "gsw": {
+        "code": "gsw",
+        "name": "Swiss German"
     },
     "shi": {
         "code": "shi",

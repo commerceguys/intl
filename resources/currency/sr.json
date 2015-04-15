@@ -1,24 +1,4 @@
 {
-    "XAF": {
-        "name": "CFA франак BEAC",
-        "symbol": "FCFA"
-    },
-    "XPF": {
-        "name": "CFP франак",
-        "symbol": "CFPF"
-    },
-    "ERN": {
-        "name": "Eритрејска накфa",
-        "symbol": "ERN"
-    },
-    "KHR": {
-        "name": "Kамбоџански ријел",
-        "symbol": "KHR"
-    },
-    "TJS": {
-        "name": "Tаџихистански сомон",
-        "symbol": "TJS"
-    },
     "AFN": {
         "name": "Авганистански авгани",
         "symbol": "AFN"
@@ -100,7 +80,7 @@
         "symbol": "R$"
     },
     "GBP": {
-        "name": "Британска фунта стерлинга",
+        "name": "Британска фунта",
         "symbol": "£"
     },
     "BND": {
@@ -326,10 +306,6 @@
     "LYD": {
         "name": "Либијски динар",
         "symbol": "LYD"
-    },
-    "LTL": {
-        "name": "Литвански литас",
-        "symbol": "LTL"
     },
     "HUF": {
         "name": "Мађарска форинта",
@@ -630,5 +606,25 @@
     "LKR": {
         "name": "Шриланканскa рупиja",
         "symbol": "LKR"
+    },
+    "XAF": {
+        "name": "CFA франак BEAC",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "CFP франак",
+        "symbol": "CFPF"
+    },
+    "ERN": {
+        "name": "Eритрејска накфa",
+        "symbol": "ERN"
+    },
+    "KHR": {
+        "name": "Kамбоџански ријел",
+        "symbol": "KHR"
+    },
+    "TJS": {
+        "name": "Tаџихистански сомон",
+        "symbol": "TJS"
     }
 }

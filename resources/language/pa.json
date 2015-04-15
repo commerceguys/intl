@@ -1,40 +1,4 @@
 {
-    "ast": {
-        "code": "ast",
-        "name": "Asturian"
-    },
-    "bas": {
-        "code": "bas",
-        "name": "Basaa"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
-    "fur": {
-        "code": "fur",
-        "name": "Friulian"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "Fulah"
-    },
-    "gd": {
-        "code": "gd",
-        "name": "Scottish Gaelic"
-    },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
-    },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
-    },
     "ug": {
         "code": "ug",
         "name": "ਉਇਗੁਰ"
@@ -91,10 +55,6 @@
         "code": "am",
         "name": "ਅਮਹਾਰਿਕ"
     },
-    "en-US": {
-        "code": "en-US",
-        "name": "ਅਮਰੀਕੀ ਅੰਗਰੇਜ਼ੀ"
-    },
     "ar": {
         "code": "ar",
         "name": "ਅਰਬੀ"
@@ -122,10 +82,6 @@
     "en-AU": {
         "code": "en-AU",
         "name": "ਆਸਟ੍ਰੇਲੀਆਈ ਅੰਗਰੇਜ਼ੀ"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "ਆਧੁਨਿਕ ਮਿਆਰੀ ਅਰਬੀ"
     },
     "et": {
         "code": "et",
@@ -278,10 +234,6 @@
     "hr": {
         "code": "hr",
         "name": "ਕ੍ਰੋਏਸ਼ਿਆਈ"
-    },
-    "swc": {
-        "code": "swc",
-        "name": "ਕਾਂਗੋ ਸਵਾਹਿਲੀ"
     },
     "kea": {
         "code": "kea",
@@ -531,10 +483,6 @@
         "code": "br",
         "name": "ਬਰੇਟਨ"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "ਬ੍ਰਾਜ਼ੀਲੀਆਈ ਪੁਰਤਗਾਲੀ"
-    },
     "eu": {
         "code": "eu",
         "name": "ਬਾਸਕ"
@@ -639,10 +587,6 @@
         "code": "el",
         "name": "ਯੂਨਾਨੀ"
     },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "ਯੂਰਪੀ ਸਪੇਨੀ"
-    },
     "pt-PT": {
         "code": "pt-PT",
         "name": "ਯੂਰਪੀ ਪੁਰਤਗਾਲੀ"
@@ -734,5 +678,41 @@
     "cy": {
         "code": "cy",
         "name": "ਵੈਲਜ਼"
+    },
+    "ast": {
+        "code": "ast",
+        "name": "Asturian"
+    },
+    "bas": {
+        "code": "bas",
+        "name": "Basaa"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
+    },
+    "ewo": {
+        "code": "ewo",
+        "name": "Ewondo"
+    },
+    "fur": {
+        "code": "fur",
+        "name": "Friulian"
+    },
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "Scottish Gaelic"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
     }
 }

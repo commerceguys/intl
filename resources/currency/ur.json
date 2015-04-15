@@ -1,24 +1,4 @@
 {
-    "XOF": {
-        "name": "CFA فرانک BCEAO",
-        "symbol": "CFA"
-    },
-    "XAF": {
-        "name": "CFA فرانک BEAC",
-        "symbol": "FCFA"
-    },
-    "XPF": {
-        "name": "CFP فرانک",
-        "symbol": "CFPF"
-    },
-    "SVC": {
-        "name": "SVC",
-        "symbol": "SVC"
-    },
-    "ZWL": {
-        "name": "ZWL",
-        "symbol": "ZWL"
-    },
     "ARS": {
         "name": "ارجنٹائن پیسہ",
         "symbol": "ARS"
@@ -260,7 +240,7 @@
         "symbol": "CN¥"
     },
     "DKK": {
-        "name": "ڈنمارک کرونر",
+        "name": "ڈنمارک کرون",
         "symbol": "DKK"
     },
     "DOP": {
@@ -475,10 +455,6 @@
         "name": "لیبیائی دینار",
         "symbol": "LYD"
     },
-    "LTL": {
-        "name": "لیتھوینیائی لیٹاس",
-        "symbol": "LTL"
-    },
     "LSL": {
         "name": "لیسوتھو لوٹی",
         "symbol": "LSL"
@@ -552,7 +528,7 @@
         "symbol": "MX$"
     },
     "NOK": {
-        "name": "ناروے کرونر",
+        "name": "ناروے کرون",
         "symbol": "NOK"
     },
     "NAD": {
@@ -630,5 +606,25 @@
     "UGX": {
         "name": "یوگانڈا شلنگ",
         "symbol": "UGX"
+    },
+    "XOF": {
+        "name": "CFA فرانک BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "CFA فرانک BEAC",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "CFP فرانک",
+        "symbol": "CFPF"
+    },
+    "SVC": {
+        "name": "SVC",
+        "symbol": "SVC"
+    },
+    "ZWL": {
+        "name": "ZWL",
+        "symbol": "ZWL"
     }
 }

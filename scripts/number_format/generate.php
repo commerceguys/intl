@@ -6,9 +6,20 @@
 
 set_time_limit(0);
 
-// Downloaded from http://unicode.org/Public/cldr/26/json-full.zip
-if (!is_dir('../json-full/main')) {
-    die("The '../json-full/main' directory was not found");
+// Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
+$localeDirectory = '../assets/cldr-localenames-full/main/';
+$enLanguages = $localeDirectory . 'en/languages.json';
+// Downloaded from https://github.com/unicode-cldr/cldr-numbers-full.git
+$numbersDirectory = '../assets/cldr-numbers-full/main/';
+
+if (!is_dir($localeDirectory)) {
+    die("The $localeDirectory directory was not found");
+}
+if (!is_dir($numbersDirectory)) {
+    die("The $numbersDirectory directory was not found");
+}
+if (!file_exists($enLanguages)) {
+  die("The $enLanguages file was not found");
 }
 
 // Locales listed without a "-" match all variants.
@@ -22,7 +33,7 @@ $ignoredLocales = [
 
 // Gather available locales.
 $locales = [];
-if ($handle = opendir('../json-full/main')) {
+if ($handle = opendir($localeDirectory)) {
     while (false !== ($entry = readdir($handle))) {
         if (substr($entry, 0, 1) != '.') {
             $entryParts = explode('-', $entry);
@@ -37,7 +48,7 @@ if ($handle = opendir('../json-full/main')) {
 // Load the data.
 $numberFormats = [];
 foreach ($locales as $locale) {
-    $data = json_decode(file_get_contents('../json-full/main/' . $locale . '/numbers.json'), true);
+    $data = json_decode(file_get_contents($numbersDirectory . $locale . '/numbers.json'), true);
     $data = $data['main'][$locale]['numbers'];
     // Use the default numbering system, if it's supported.
     if (in_array($data['defaultNumberingSystem'], ['arab', 'arabext', 'beng', 'deva', 'latn'])) {

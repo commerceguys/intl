@@ -29,7 +29,11 @@
     },
     "de-CH": {
         "code": "de-CH",
-        "name": "alto alemán de Suiza"
+        "name": "alto alemán suizo"
+    },
+    "hsb": {
+        "code": "hsb",
+        "name": "alto sorbio"
     },
     "am": {
         "code": "am",
@@ -38,10 +42,6 @@
     "ar": {
         "code": "ar",
         "name": "árabe"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "árabe estándar moderno"
     },
     "hy": {
         "code": "hy",
@@ -57,11 +57,15 @@
     },
     "az": {
         "code": "az",
-        "name": "azerí"
+        "name": "azerbaiyano"
     },
     "ksf": {
         "code": "ksf",
         "name": "bafia"
+    },
+    "dsb": {
+        "code": "dsb",
+        "name": "bajo sorbio"
     },
     "bm": {
         "code": "bm",
@@ -190,10 +194,6 @@
     "es": {
         "code": "es",
         "name": "español"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "español de España"
     },
     "es-MX": {
         "code": "es-MX",
@@ -331,10 +331,6 @@
         "code": "en-CA",
         "name": "inglés canadiense"
     },
-    "en-US": {
-        "code": "en-US",
-        "name": "inglés estadounidense"
-    },
     "ga": {
         "code": "ga",
         "name": "irlandés"
@@ -382,10 +378,6 @@
     "rn": {
         "code": "rn",
         "name": "kiroundi"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "kivunjo"
     },
     "ksh": {
         "code": "ksh",
@@ -473,7 +465,7 @@
     },
     "mr": {
         "code": "mr",
-        "name": "marathi"
+        "name": "maratí"
     },
     "mas": {
         "code": "mas",
@@ -531,6 +523,10 @@
         "code": "or",
         "name": "oriya"
     },
+    "pa": {
+        "code": "pa",
+        "name": "panyabí"
+    },
     "ps": {
         "code": "ps",
         "name": "pastún"
@@ -547,17 +543,9 @@
         "code": "pt",
         "name": "portugués"
     },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "portugués de Brasil"
-    },
     "pt-PT": {
         "code": "pt-PT",
         "name": "portugués de Portugal"
-    },
-    "pa": {
-        "code": "pa",
-        "name": "punjabí"
     },
     "rm": {
         "code": "rm",
@@ -619,14 +607,6 @@
         "code": "so",
         "name": "somalí"
     },
-    "dsb": {
-        "code": "dsb",
-        "name": "sorbio inferior"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "sorbio superior"
-    },
     "sv": {
         "code": "sv",
         "name": "sueco"
@@ -634,10 +614,6 @@
     "sw": {
         "code": "sw",
         "name": "swahili"
-    },
-    "swc": {
-        "code": "swc",
-        "name": "swahili del Congo"
     },
     "th": {
         "code": "th",
@@ -647,13 +623,13 @@
         "code": "dav",
         "name": "taita"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "tamazight"
-    },
     "tzm": {
         "code": "tzm",
         "name": "tamazight del Marruecos Central"
+    },
+    "zgh": {
+        "code": "zgh",
+        "name": "tamazight estándar marroquí"
     },
     "ta": {
         "code": "ta",
@@ -714,6 +690,10 @@
     "vi": {
         "code": "vi",
         "name": "vietnamita"
+    },
+    "vun": {
+        "code": "vun",
+        "name": "vunjo"
     },
     "wae": {
         "code": "wae",

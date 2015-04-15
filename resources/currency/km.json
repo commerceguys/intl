@@ -1,16 +1,4 @@
 {
-    "LSL": {
-        "name": "LSL",
-        "symbol": "LSL"
-    },
-    "SVC": {
-        "name": "SVC",
-        "symbol": "SVC"
-    },
-    "ZWL": {
-        "name": "ZWL",
-        "symbol": "ZWL"
-    },
     "CZK": {
         "name": "កូរុណា​សាធារណៈ​ឆេក",
         "symbol": "CZK"
@@ -463,10 +451,6 @@
         "name": "លិមពីរ៉ា​ហុងឌូរ៉ាស",
         "symbol": "HNL"
     },
-    "LTL": {
-        "name": "លីតា​លីទុយអានី",
-        "symbol": "LTL"
-    },
     "TRY": {
         "name": "លីរ៉ា​ទួគី",
         "symbol": "TRY"
@@ -559,6 +543,10 @@
         "name": "ហ្វូរីន​ហុងគ្រី",
         "symbol": "HUF"
     },
+    "CHF": {
+        "name": "ហ្វ្រង់ ស្វីស",
+        "symbol": "CHF"
+    },
     "XOF": {
         "name": "ហ្វ្រង់ BCEAO CFA",
         "symbol": "CFA"
@@ -570,10 +558,6 @@
     "XPF": {
         "name": "ហ្វ្រង់ CFP",
         "symbol": "CFPF"
-    },
-    "CHF": {
-        "name": "ហ្វ្រង់ ស្វីស",
-        "symbol": "CHF"
     },
     "CDF": {
         "name": "ហ្វ្រង់​កុងហ្គោ",
@@ -630,5 +614,17 @@
     "MRO": {
         "name": "អ៊ូហ្គីយ៉ា​ម៉ូរីតានី",
         "symbol": "MRO"
+    },
+    "LSL": {
+        "name": "LSL",
+        "symbol": "LSL"
+    },
+    "SVC": {
+        "name": "SVC",
+        "symbol": "SVC"
+    },
+    "ZWL": {
+        "name": "ZWL",
+        "symbol": "ZWL"
     }
 }

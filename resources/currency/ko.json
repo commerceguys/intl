@@ -1,16 +1,4 @@
 {
-    "XOF": {
-        "name": "CFA 프랑 BCEAO",
-        "symbol": "CFA"
-    },
-    "XAF": {
-        "name": "CFA 프랑 BEAC",
-        "symbol": "FCFA"
-    },
-    "XPF": {
-        "name": "CFP 프랑",
-        "symbol": "CFPF"
-    },
     "GHS": {
         "name": "가나 시디",
         "symbol": "GHS"
@@ -114,10 +102,6 @@
     "LYD": {
         "name": "리비아 디나르",
         "symbol": "LYD"
-    },
-    "LTL": {
-        "name": "리투아니아 리타",
-        "symbol": "LTL"
     },
     "MGA": {
         "name": "마다가스카르 아리아리",
@@ -630,5 +614,17 @@
     "HKD": {
         "name": "홍콩 달러",
         "symbol": "HK$"
+    },
+    "XOF": {
+        "name": "CFA 프랑 BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "CFA 프랑 BEAC",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "CFP 프랑",
+        "symbol": "CFPF"
     }
 }

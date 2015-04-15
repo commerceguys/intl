@@ -1,36 +1,4 @@
 {
-    "ast": {
-        "code": "ast",
-        "name": "Asturian"
-    },
-    "bas": {
-        "code": "bas",
-        "name": "Basaa"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
-    "fur": {
-        "code": "fur",
-        "name": "Friulian"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "Fulah"
-    },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
-    },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
-    },
     "en-AU": {
         "code": "en-AU",
         "name": "австралиялық ағылшын тілі"
@@ -54,10 +22,6 @@
     "sq": {
         "code": "sq",
         "name": "албан"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "американдық ағылшын тілі"
     },
     "am": {
         "code": "am",
@@ -126,10 +90,6 @@
     "bs": {
         "code": "bs",
         "name": "босния тілі"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "бразилиялық португал тілі"
     },
     "br": {
         "code": "br",
@@ -227,10 +187,6 @@
         "code": "zu",
         "name": "зулу"
     },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "ибериялық испан тілі"
-    },
     "he": {
         "code": "he",
         "name": "иврит"
@@ -323,10 +279,6 @@
         "code": "ses",
         "name": "койраборо сенни"
     },
-    "swc": {
-        "code": "swc",
-        "name": "конго суахили тілі"
-    },
     "km": {
         "code": "km",
         "name": "кхмер"
@@ -334,10 +286,6 @@
     "kk": {
         "code": "kk",
         "name": "қазақ тілі"
-    },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "қазіргі стандартты араб тілі"
     },
     "ky": {
         "code": "ky",
@@ -591,10 +539,6 @@
         "code": "se",
         "name": "солтүстік сами"
     },
-    "gd": {
-        "code": "gd",
-        "name": "Солтүстік Шотландия"
-    },
     "so": {
         "code": "so",
         "name": "сомали"
@@ -734,5 +678,41 @@
     "et": {
         "code": "et",
         "name": "эстон тілі"
+    },
+    "ast": {
+        "code": "ast",
+        "name": "Asturian"
+    },
+    "bas": {
+        "code": "bas",
+        "name": "Basaa"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
+    },
+    "ewo": {
+        "code": "ewo",
+        "name": "Ewondo"
+    },
+    "fur": {
+        "code": "fur",
+        "name": "Friulian"
+    },
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
+    },
+    "gd": {
+        "code": "gd",
+        "name": "Scottish Gaelic"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
     }
 }

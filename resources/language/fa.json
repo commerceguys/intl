@@ -1,20 +1,4 @@
 {
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
-    },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
-    },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
-    },
-    "ast": {
-        "code": "ast",
-        "name": "آستوری"
-    },
     "asa": {
         "code": "asa",
         "name": "آسو"
@@ -59,6 +43,26 @@
         "code": "zgh",
         "name": "آمازیغی معیار مراکش"
     },
+    "ewo": {
+        "code": "ewo",
+        "name": "اواندو"
+    },
+    "or": {
+        "code": "or",
+        "name": "اوریه‌ای"
+    },
+    "uk": {
+        "code": "uk",
+        "name": "اوکراینی"
+    },
+    "ee": {
+        "code": "ee",
+        "name": "اوه‌ای"
+    },
+    "ug": {
+        "code": "ug",
+        "name": "اویغوری"
+    },
     "ur": {
         "code": "ur",
         "name": "اردو"
@@ -74,10 +78,6 @@
     "es": {
         "code": "es",
         "name": "اسپانیایی"
-    },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "اسپانیایی اروپا"
     },
     "es-MX": {
         "code": "es-MX",
@@ -107,6 +107,10 @@
         "code": "am",
         "name": "امهری"
     },
+    "vun": {
+        "code": "vun",
+        "name": "ونجو"
+    },
     "id": {
         "code": "id",
         "name": "اندونزیایی"
@@ -123,10 +127,6 @@
         "code": "en-AU",
         "name": "انگلیسی استرالیا"
     },
-    "en-US": {
-        "code": "en-US",
-        "name": "انگلیسی امریکا"
-    },
     "en-GB": {
         "code": "en-GB",
         "name": "انگلیسی بریتانیا"
@@ -135,29 +135,17 @@
         "code": "en-CA",
         "name": "انگلیسی کانادا"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "اواندو"
-    },
-    "or": {
-        "code": "or",
-        "name": "اوریه‌ای"
-    },
-    "uk": {
-        "code": "uk",
-        "name": "اوکراینی"
-    },
-    "ee": {
-        "code": "ee",
-        "name": "اوه‌ای"
-    },
-    "ug": {
-        "code": "ug",
-        "name": "اویغوری"
+    "vai": {
+        "code": "vai",
+        "name": "ویایی"
     },
     "it": {
         "code": "it",
         "name": "ایتالیایی"
+    },
+    "vi": {
+        "code": "vi",
+        "name": "ویتنامی"
     },
     "ga": {
         "code": "ga",
@@ -167,6 +155,14 @@
         "code": "is",
         "name": "ایسلندی"
     },
+    "cy": {
+        "code": "cy",
+        "name": "ویلزی"
+    },
+    "brx": {
+        "code": "brx",
+        "name": "بودویی"
+    },
     "bas": {
         "code": "bas",
         "name": "باسایی"
@@ -175,9 +171,17 @@
         "code": "eu",
         "name": "باسکی"
     },
+    "bs": {
+        "code": "bs",
+        "name": "بوسنیایی"
+    },
     "ksf": {
         "code": "ksf",
         "name": "بافیایی"
+    },
+    "nb": {
+        "code": "nb",
+        "name": "بوکسمال نروژی"
     },
     "bm": {
         "code": "bm",
@@ -191,13 +195,13 @@
         "code": "my",
         "name": "برمه‌ای"
     },
-    "bg": {
-        "code": "bg",
-        "name": "بلغاری"
-    },
     "be": {
         "code": "be",
         "name": "بلوروسی"
+    },
+    "bg": {
+        "code": "bg",
+        "name": "بلغاری"
     },
     "bez": {
         "code": "bez",
@@ -207,18 +211,6 @@
         "code": "bn",
         "name": "بنگالی"
     },
-    "brx": {
-        "code": "brx",
-        "name": "بودویی"
-    },
-    "bs": {
-        "code": "bs",
-        "name": "بوسنیایی"
-    },
-    "nb": {
-        "code": "nb",
-        "name": "بوکسمال نروژی"
-    },
     "pt": {
         "code": "pt",
         "name": "پرتغالی"
@@ -226,10 +218,6 @@
     "pt-PT": {
         "code": "pt-PT",
         "name": "پرتغالی اروپا"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "پرتغالی برزیل"
     },
     "ps": {
         "code": "ps",
@@ -246,6 +234,10 @@
     "ta": {
         "code": "ta",
         "name": "تامیلی"
+    },
+    "to": {
+        "code": "to",
+        "name": "تونگایی"
     },
     "dav": {
         "code": "dav",
@@ -278,10 +270,6 @@
     "te": {
         "code": "te",
         "name": "تلوگویی"
-    },
-    "to": {
-        "code": "to",
-        "name": "تونگایی"
     },
     "ti": {
         "code": "ti",
@@ -351,17 +339,33 @@
         "code": "rn",
         "name": "روندیایی"
     },
-    "dje": {
-        "code": "dje",
-        "name": "زرما"
-    },
     "zu": {
         "code": "zu",
         "name": "زولویی"
     },
+    "dje": {
+        "code": "dje",
+        "name": "زرما"
+    },
     "ja": {
         "code": "ja",
         "name": "ژاپنی"
+    },
+    "sw": {
+        "code": "sw",
+        "name": "سواحلی"
+    },
+    "sv": {
+        "code": "sv",
+        "name": "سوئدی"
+    },
+    "xog": {
+        "code": "xog",
+        "name": "سوگایی"
+    },
+    "so": {
+        "code": "so",
+        "name": "سومالیایی"
     },
     "saq": {
         "code": "saq",
@@ -382,26 +386,6 @@
     "seh": {
         "code": "seh",
         "name": "سنا"
-    },
-    "sw": {
-        "code": "sw",
-        "name": "سواحلی"
-    },
-    "swc": {
-        "code": "swc",
-        "name": "سواحلی کنگویی"
-    },
-    "sv": {
-        "code": "sv",
-        "name": "سوئدی"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "سوگایی"
-    },
-    "so": {
-        "code": "so",
-        "name": "سومالیایی"
     },
     "si": {
         "code": "si",
@@ -435,17 +419,17 @@
         "code": "ar",
         "name": "عربی"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "عربی رسمی"
+    "fo": {
+        "code": "fo",
+        "name": "فارویی"
     },
     "fa": {
         "code": "fa",
         "name": "فارسی"
     },
-    "fo": {
-        "code": "fo",
-        "name": "فارویی"
+    "ff": {
+        "code": "ff",
+        "name": "فولایی"
     },
     "fr": {
         "code": "fr",
@@ -459,13 +443,13 @@
         "code": "fr-CA",
         "name": "فرانسوی کانادا"
     },
-    "fy": {
-        "code": "fy",
-        "name": "فریزی غربی"
-    },
     "fur": {
         "code": "fur",
         "name": "فریولیایی"
+    },
+    "fy": {
+        "code": "fy",
+        "name": "فریزی غربی"
     },
     "nl-BE": {
         "code": "nl-BE",
@@ -474,10 +458,6 @@
     "fi": {
         "code": "fi",
         "name": "فنلاندی"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "فولایی"
     },
     "fil": {
         "code": "fil",
@@ -495,6 +475,10 @@
         "code": "kk",
         "name": "قزاقی"
     },
+    "nmg": {
+        "code": "nmg",
+        "name": "کوازیو"
+    },
     "kea": {
         "code": "kea",
         "name": "کابووردیانو"
@@ -502,6 +486,10 @@
     "ca": {
         "code": "ca",
         "name": "کاتالان"
+    },
+    "khq": {
+        "code": "khq",
+        "name": "کوجراچینی"
     },
     "kln": {
         "code": "kln",
@@ -515,6 +503,10 @@
         "code": "kn",
         "name": "کاناده‌ای"
     },
+    "ses": {
+        "code": "ses",
+        "name": "کویرابورا سنی"
+    },
     "hr": {
         "code": "hr",
         "name": "کروات"
@@ -527,21 +519,13 @@
         "code": "ks",
         "name": "کشمیری"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "کوازیو"
-    },
-    "khq": {
-        "code": "khq",
-        "name": "کوجراچینی"
-    },
-    "ses": {
-        "code": "ses",
-        "name": "کویرابورا سنی"
-    },
     "ki": {
         "code": "ki",
         "name": "کیکویویی"
+    },
+    "guz": {
+        "code": "guz",
+        "name": "گوسی"
     },
     "gl": {
         "code": "gl",
@@ -563,10 +547,6 @@
         "code": "kl",
         "name": "گرینلندی"
     },
-    "guz": {
-        "code": "guz",
-        "name": "گوسی"
-    },
     "gd": {
         "code": "gd",
         "name": "گیلی اسکاتلندی"
@@ -574,14 +554,6 @@
     "lo": {
         "code": "lo",
         "name": "لائوسی"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "لانگی"
-    },
-    "lv": {
-        "code": "lv",
-        "name": "لتونیایی"
     },
     "luo": {
         "code": "luo",
@@ -595,9 +567,17 @@
         "code": "lb",
         "name": "لوگزامبورگی"
     },
+    "lag": {
+        "code": "lag",
+        "name": "لانگی"
+    },
     "luy": {
         "code": "luy",
         "name": "لویا"
+    },
+    "lv": {
+        "code": "lv",
+        "name": "لتونیایی"
     },
     "pl": {
         "code": "pl",
@@ -614,6 +594,10 @@
     "jmc": {
         "code": "jmc",
         "name": "ماچامه‌ای"
+    },
+    "mfe": {
+        "code": "mfe",
+        "name": "موریسین"
     },
     "mas": {
         "code": "mas",
@@ -643,6 +627,10 @@
         "code": "mt",
         "name": "مالتی"
     },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "مولداویایی"
+    },
     "mua": {
         "code": "mua",
         "name": "ماندانگی"
@@ -667,17 +655,13 @@
         "code": "mk",
         "name": "مقدونی"
     },
-    "mfe": {
-        "code": "mfe",
-        "name": "موریسین"
-    },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "مولداویایی"
-    },
     "naq": {
         "code": "naq",
         "name": "نامایی"
+    },
+    "nus": {
+        "code": "nus",
+        "name": "نویر"
     },
     "ne": {
         "code": "ne",
@@ -691,29 +675,13 @@
         "code": "jgo",
         "name": "نگومبا"
     },
-    "nus": {
-        "code": "nus",
-        "name": "نویر"
-    },
     "nyn": {
         "code": "nyn",
         "name": "نیانکوله‌ای"
     },
-    "vun": {
-        "code": "vun",
-        "name": "ونجو"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "ویایی"
-    },
-    "vi": {
-        "code": "vi",
-        "name": "ویتنامی"
-    },
-    "cy": {
-        "code": "cy",
-        "name": "ویلزی"
+    "ha": {
+        "code": "ha",
+        "name": "هوسیایی"
     },
     "nl": {
         "code": "nl",
@@ -723,10 +691,6 @@
         "code": "hi",
         "name": "هندی"
     },
-    "ha": {
-        "code": "ha",
-        "name": "هوسیایی"
-    },
     "yo": {
         "code": "yo",
         "name": "یوروبایی"
@@ -734,5 +698,21 @@
     "el": {
         "code": "el",
         "name": "یونانی"
+    },
+    "ast": {
+        "code": "ast",
+        "name": "Asturian"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
     }
 }

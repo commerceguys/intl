@@ -1,35 +1,7 @@
 {
-    "ast": {
-        "code": "ast",
-        "name": "Asturian"
-    },
-    "bas": {
-        "code": "bas",
-        "name": "Basaa"
-    },
-    "ksh": {
-        "code": "ksh",
-        "name": "Colognian"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
-    "fur": {
-        "code": "fur",
-        "name": "Friulian"
-    },
-    "ff": {
-        "code": "ff",
-        "name": "Fulah"
-    },
-    "wae": {
-        "code": "wae",
-        "name": "Walser"
-    },
-    "yav": {
-        "code": "yav",
-        "name": "Yangben"
+    "hsb": {
+        "code": "hsb",
+        "name": "اپر سربیائی"
     },
     "ur": {
         "code": "ur",
@@ -45,11 +17,7 @@
     },
     "et": {
         "code": "et",
-        "name": "اسٹونی"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "اسٹینڈرڈ مراقشی تمازیقی"
+        "name": "اسٹونین"
     },
     "it": {
         "code": "it",
@@ -74,10 +42,6 @@
     "ebu": {
         "code": "ebu",
         "name": "امبو"
-    },
-    "en-US": {
-        "code": "en-US",
-        "name": "امریکی انگریزی"
     },
     "am": {
         "code": "am",
@@ -127,10 +91,6 @@
         "code": "is",
         "name": "آئس لینڈک"
     },
-    "ug": {
-        "code": "ug",
-        "name": "آئغور"
-    },
     "ga": {
         "code": "ga",
         "name": "آئیرِش"
@@ -142,18 +102,6 @@
     "ksf": {
         "code": "ksf",
         "name": "بافيا"
-    },
-    "hsb": {
-        "code": "hsb",
-        "name": "بالائی صوربی"
-    },
-    "bm": {
-        "code": "bm",
-        "name": "بامبرا"
-    },
-    "pt-BR": {
-        "code": "pt-BR",
-        "name": "برازیلی پرتگالی"
     },
     "en-GB": {
         "code": "en-GB",
@@ -170,6 +118,10 @@
     "bg": {
         "code": "bg",
         "name": "بلغاری"
+    },
+    "bm": {
+        "code": "bm",
+        "name": "بمبارا"
     },
     "bn": {
         "code": "bn",
@@ -211,6 +163,10 @@
         "code": "twq",
         "name": "تاساواق"
     },
+    "dav": {
+        "code": "dav",
+        "name": "تائتا"
+    },
     "bo": {
         "code": "bo",
         "name": "تبتی"
@@ -226,10 +182,6 @@
     "ta": {
         "code": "ta",
         "name": "تمل"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "تیتا"
     },
     "teo": {
         "code": "teo",
@@ -259,10 +211,6 @@
         "code": "ka",
         "name": "جارجی"
     },
-    "ar-001": {
-        "code": "ar-001",
-        "name": "جدید معیاری عربی"
-    },
     "de": {
         "code": "de",
         "name": "جرمن"
@@ -278,6 +226,10 @@
     "cs": {
         "code": "cs",
         "name": "چیک"
+    },
+    "cgg": {
+        "code": "cgg",
+        "name": "چیگا"
     },
     "zh": {
         "code": "zh",
@@ -295,6 +247,10 @@
         "code": "da",
         "name": "ڈینش"
     },
+    "dsb": {
+        "code": "dsb",
+        "name": "ذیلی سربیائی"
+    },
     "rwk": {
         "code": "rwk",
         "name": "روا"
@@ -311,13 +267,13 @@
         "code": "rm",
         "name": "رومانش"
     },
-    "ro": {
-        "code": "ro",
-        "name": "رومانوی"
-    },
     "rof": {
         "code": "rof",
         "name": "رومبو"
+    },
+    "ro": {
+        "code": "ro",
+        "name": "رومینین"
     },
     "rn": {
         "code": "rn",
@@ -391,6 +347,10 @@
         "code": "seh",
         "name": "سینا"
     },
+    "tzm": {
+        "code": "tzm",
+        "name": "سینٹرل ایٹلس ٹمازائٹ"
+    },
     "ksb": {
         "code": "ksb",
         "name": "شامبالا"
@@ -406,10 +366,6 @@
     "sn": {
         "code": "sn",
         "name": "شونا"
-    },
-    "cgg": {
-        "code": "cgg",
-        "name": "شیغا"
     },
     "sr": {
         "code": "sr",
@@ -431,10 +387,6 @@
         "code": "fa",
         "name": "فارسی"
     },
-    "fo": {
-        "code": "fo",
-        "name": "فارويز"
-    },
     "fr": {
         "code": "fr",
         "name": "فرانسیسی"
@@ -445,7 +397,11 @@
     },
     "nl-BE": {
         "code": "nl-BE",
-        "name": "فیلنڈری"
+        "name": "فلیمِش"
+    },
+    "fo": {
+        "code": "fo",
+        "name": "فیروئیز"
     },
     "fi": {
         "code": "fi",
@@ -462,14 +418,6 @@
     "kam": {
         "code": "kam",
         "name": "کامبا"
-    },
-    "swc": {
-        "code": "swc",
-        "name": "کانگو سواحلی"
-    },
-    "ca": {
-        "code": "ca",
-        "name": "کتالان"
     },
     "hr": {
         "code": "hr",
@@ -490,6 +438,10 @@
     "ko": {
         "code": "ko",
         "name": "کوریائی"
+    },
+    "ca": {
+        "code": "ca",
+        "name": "کیٹالان"
     },
     "ki": {
         "code": "ki",
@@ -541,7 +493,7 @@
     },
     "lb": {
         "code": "lb",
-        "name": "لکسمبرگی"
+        "name": "لگژمبرگش"
     },
     "ln": {
         "code": "ln",
@@ -554,10 +506,6 @@
     "luy": {
         "code": "luy",
         "name": "لویا"
-    },
-    "dsb": {
-        "code": "dsb",
-        "name": "لوئر صوربی"
     },
     "mgh": {
         "code": "mgh",
@@ -583,25 +531,21 @@
         "code": "mt",
         "name": "مالٹی"
     },
-    "ro-MD": {
-        "code": "ro-MD",
-        "name": "مالدووا"
-    },
     "kde": {
         "code": "kde",
         "name": "ماكونده"
-    },
-    "mua": {
-        "code": "mua",
-        "name": "مڈدانگ"
     },
     "mr": {
         "code": "mr",
         "name": "مراٹهی"
     },
+    "zgh": {
+        "code": "zgh",
+        "name": "معیاری مراقشی تمازیقی"
+    },
     "fy": {
         "code": "fy",
-        "name": "مغربی فریسیائی"
+        "name": "مغربی فریسیئن"
     },
     "mk": {
         "code": "mk",
@@ -610,6 +554,10 @@
     "mg": {
         "code": "mg",
         "name": "ملاگاسی"
+    },
+    "mua": {
+        "code": "mua",
+        "name": "منڈانگ"
     },
     "mn": {
         "code": "mn",
@@ -659,10 +607,6 @@
         "code": "vai",
         "name": "وائی"
     },
-    "tzm": {
-        "code": "tzm",
-        "name": "وسطی اٹلس تمازغت"
-    },
     "vun": {
         "code": "vun",
         "name": "ونجو"
@@ -695,10 +639,6 @@
         "code": "pt-PT",
         "name": "یورپی پرتگالی"
     },
-    "es-ES": {
-        "code": "es-ES",
-        "name": "یورپی ہسپانوی"
-    },
     "yo": {
         "code": "yo",
         "name": "یوروبا"
@@ -710,6 +650,10 @@
     "el": {
         "code": "el",
         "name": "یونانی"
+    },
+    "ug": {
+        "code": "ug",
+        "name": "یوئگہر"
     },
     "kea": {
         "code": "kea",
@@ -734,5 +678,41 @@
     "ses": {
         "code": "ses",
         "name": "كويرابورو سينی"
+    },
+    "ast": {
+        "code": "ast",
+        "name": "Asturian"
+    },
+    "bas": {
+        "code": "bas",
+        "name": "Basaa"
+    },
+    "ksh": {
+        "code": "ksh",
+        "name": "Colognian"
+    },
+    "ewo": {
+        "code": "ewo",
+        "name": "Ewondo"
+    },
+    "fur": {
+        "code": "fur",
+        "name": "Friulian"
+    },
+    "ff": {
+        "code": "ff",
+        "name": "Fulah"
+    },
+    "ro-MD": {
+        "code": "ro-MD",
+        "name": "ro_MD"
+    },
+    "wae": {
+        "code": "wae",
+        "name": "Walser"
+    },
+    "yav": {
+        "code": "yav",
+        "name": "Yangben"
     }
 }

@@ -27,10 +27,6 @@
         "name": "anyiehe koreaga won",
         "symbol": "₩"
     },
-    "SSP": {
-        "name": "anyiehe sudanga pound",
-        "symbol": "SSP"
-    },
     "ARS": {
         "name": "argentinaga peso",
         "symbol": "ARS"
@@ -45,7 +41,7 @@
     },
     "AUD": {
         "name": "australiaga dollar",
-        "symbol": "AU$"
+        "symbol": "A$"
     },
     "AZN": {
         "name": "azerbaidzanga manat",
@@ -100,7 +96,7 @@
         "symbol": "R$"
     },
     "GBP": {
-        "name": "britainga pound sterling",
+        "name": "britainga pound",
         "symbol": "£"
     },
     "BND": {
@@ -331,10 +327,6 @@
         "name": "libyaga dinar",
         "symbol": "LYD"
     },
-    "LTL": {
-        "name": "lithuaniaga litas",
-        "symbol": "LTL"
-    },
     "MOP": {
         "name": "makanesega pataca",
         "symbol": "MOP"
@@ -346,10 +338,6 @@
     "MGA": {
         "name": "malagasega ariary",
         "symbol": "MGA"
-    },
-    "MWK": {
-        "name": "malawiga kwacha",
-        "symbol": "MWK"
     },
     "MYR": {
         "name": "malaysiaga ringit",
@@ -375,10 +363,6 @@
         "name": "morokoga dirham",
         "symbol": "MAD"
     },
-    "MZN": {
-        "name": "mozambikga metikal",
-        "symbol": "MZN"
-    },
     "MRO": {
         "name": "mɔritaniaga ouguiya",
         "symbol": "MRO"
@@ -387,17 +371,25 @@
         "name": "mɔritiusga rupee",
         "symbol": "MUR"
     },
+    "MWK": {
+        "name": "MWK",
+        "symbol": "MWK"
+    },
     "MMK": {
         "name": "myanmaga kyat",
         "symbol": "MMK"
     },
+    "MZN": {
+        "name": "MZN",
+        "symbol": "MZN"
+    },
+    "NAD": {
+        "name": "NAD",
+        "symbol": "NAD"
+    },
     "NGN": {
         "name": "naidzeriaga naira",
         "symbol": "NGN"
-    },
-    "NAD": {
-        "name": "namibiaga dollar",
-        "symbol": "NAD"
     },
     "ANG": {
         "name": "nedalands antilleaga guilder",
@@ -507,6 +499,10 @@
         "name": "sri lankaga rupee",
         "symbol": "LKR"
     },
+    "SSP": {
+        "name": "SSP",
+        "symbol": "SSP"
+    },
     "SDG": {
         "name": "sudanga pound",
         "symbol": "SDG"
@@ -549,7 +545,7 @@
     },
     "THB": {
         "name": "thaiga baht",
-        "symbol": "฿"
+        "symbol": "THB"
     },
     "TOP": {
         "name": "tonagaga pa’anga",
@@ -558,6 +554,14 @@
     "TTD": {
         "name": "trinidad kple tobagoga dollar",
         "symbol": "TTD"
+    },
+    "TND": {
+        "name": "tunisiaga dinar",
+        "symbol": "TND"
+    },
+    "TMT": {
+        "name": "turkmenistanga manat",
+        "symbol": "TMT"
     },
     "CNY": {
         "name": "tsainaga yuan",
@@ -570,14 +574,6 @@
     "CLP": {
         "name": "tsilega peso",
         "symbol": "CLP"
-    },
-    "TND": {
-        "name": "tunisiaga dinar",
-        "symbol": "TND"
-    },
-    "TMT": {
-        "name": "turkmenistanga manat",
-        "symbol": "TMT"
     },
     "UGX": {
         "name": "ugandaga shilling",

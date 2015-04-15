@@ -1,20 +1,4 @@
 {
-    "XOF": {
-        "name": "CFA франак BCEAO",
-        "symbol": "CFA"
-    },
-    "XAF": {
-        "name": "CFA франак BEAC",
-        "symbol": "FCFA"
-    },
-    "XPF": {
-        "name": "CFP франак",
-        "symbol": "CFPF"
-    },
-    "SSP": {
-        "name": "SSP",
-        "symbol": "SSP"
-    },
     "AFN": {
         "name": "Авганистански авган",
         "symbol": "AFN"
@@ -92,7 +76,7 @@
         "symbol": "R$"
     },
     "GBP": {
-        "name": "Британска фунта стерлинга",
+        "name": "Британска фунта",
         "symbol": "£"
     },
     "BND": {
@@ -326,10 +310,6 @@
     "LYD": {
         "name": "Либијски динар",
         "symbol": "LYD"
-    },
-    "LTL": {
-        "name": "Литвански литас",
-        "symbol": "LTL"
     },
     "HUF": {
         "name": "Мађарска форинта",
@@ -630,5 +610,21 @@
     "LKR": {
         "name": "Шриланкански рупи",
         "symbol": "LKR"
+    },
+    "XOF": {
+        "name": "CFA франак BCEAO",
+        "symbol": "CFA"
+    },
+    "XAF": {
+        "name": "CFA франак BEAC",
+        "symbol": "FCFA"
+    },
+    "XPF": {
+        "name": "CFP франак",
+        "symbol": "CFPF"
+    },
+    "SSP": {
+        "name": "SSP",
+        "symbol": "SSP"
     }
 }

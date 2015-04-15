@@ -15,6 +15,10 @@
         "name": "ANG",
         "symbol": "ANG"
     },
+    "ARS": {
+        "name": "ARS",
+        "symbol": "ARS"
+    },
     "AWG": {
         "name": "AWG",
         "symbol": "AWG"
@@ -22,10 +26,6 @@
     "AZN": {
         "name": "AZN",
         "symbol": "AZN"
-    },
-    "PAB": {
-        "name": "Balboa",
-        "symbol": "PAB"
     },
     "BAM": {
         "name": "BAM",
@@ -56,8 +56,12 @@
         "symbol": "BND"
     },
     "BOB": {
-        "name": "Boliviano",
+        "name": "BOB",
         "symbol": "BOB"
+    },
+    "BRL": {
+        "name": "BRL",
+        "symbol": "R$"
     },
     "BSD": {
         "name": "BSD",
@@ -75,17 +79,29 @@
         "name": "BZD",
         "symbol": "BZD"
     },
-    "GHS": {
-        "name": "Cedi",
-        "symbol": "GHS"
+    "CLP": {
+        "name": "CLP",
+        "symbol": "CLP"
+    },
+    "COP": {
+        "name": "COP",
+        "symbol": "COP"
     },
     "CRC": {
-        "name": "Colon ya Kosta Rika",
+        "name": "CRC",
         "symbol": "CRC"
     },
     "CUC": {
         "name": "CUC",
         "symbol": "CUC"
+    },
+    "CUP": {
+        "name": "CUP",
+        "symbol": "CUP"
+    },
+    "CZK": {
+        "name": "CZK",
+        "symbol": "CZK"
     },
     "GMD": {
         "name": "Dalasi ya Gambi",
@@ -119,6 +135,10 @@
         "name": "Dirihamɛ ya Lémila alabo",
         "symbol": "AED"
     },
+    "DKK": {
+        "name": "DKK",
+        "symbol": "DKK"
+    },
     "STD": {
         "name": "Dobra ya Sao Tomé mpé Presipe",
         "symbol": "STD"
@@ -143,6 +163,10 @@
         "name": "Dolarɛ ya Ositali",
         "symbol": "A$"
     },
+    "DOP": {
+        "name": "DOP",
+        "symbol": "DOP"
+    },
     "CVE": {
         "name": "Esikudo ya Kapevɛrɛ",
         "symbol": "CVE"
@@ -166,10 +190,6 @@
     "DJF": {
         "name": "Falánga ya Dzibuti",
         "symbol": "DJF"
-    },
-    "GNF": {
-        "name": "Falánga ya Gine",
-        "symbol": "GNF"
     },
     "KMF": {
         "name": "Falánga ya Komoro",
@@ -203,21 +223,21 @@
         "name": "GEL",
         "symbol": "GEL"
     },
+    "GHS": {
+        "name": "GHS",
+        "symbol": "GHS"
+    },
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
     },
+    "GNF": {
+        "name": "GNF",
+        "symbol": "GNF"
+    },
     "GTQ": {
         "name": "GTQ",
         "symbol": "GTQ"
-    },
-    "PYG": {
-        "name": "Guarani",
-        "symbol": "PYG"
-    },
-    "HTG": {
-        "name": "Gurde",
-        "symbol": "HTG"
     },
     "GYD": {
         "name": "GYD",
@@ -234,6 +254,10 @@
     "HRK": {
         "name": "HRK",
         "symbol": "HRK"
+    },
+    "HTG": {
+        "name": "HTG",
+        "symbol": "HTG"
     },
     "HUF": {
         "name": "HUF",
@@ -254,6 +278,10 @@
     "IRR": {
         "name": "IRR",
         "symbol": "IRR"
+    },
+    "ISK": {
+        "name": "ISK",
+        "symbol": "ISK"
     },
     "JMD": {
         "name": "JMD",
@@ -319,10 +347,6 @@
         "name": "Lilangeni",
         "symbol": "SZL"
     },
-    "LTL": {
-        "name": "Litas ya Litwani",
-        "symbol": "LTL"
-    },
     "LKR": {
         "name": "LKR",
         "symbol": "LKR"
@@ -351,29 +375,13 @@
         "name": "MOP",
         "symbol": "MOP"
     },
-    "CZK": {
-        "name": "Motolé Sheki",
-        "symbol": "CZK"
-    },
-    "DKK": {
-        "name": "Motolé ya Danemark",
-        "symbol": "DKK"
-    },
-    "ISK": {
-        "name": "Motolé ya Islandi",
-        "symbol": "ISK"
-    },
-    "NOK": {
-        "name": "Motolé ya Norvej",
-        "symbol": "NOK"
-    },
-    "SEK": {
-        "name": "Motolé ya Swédi",
-        "symbol": "SEK"
-    },
     "MVR": {
         "name": "MVR",
         "symbol": "MVR"
+    },
+    "MXN": {
+        "name": "MXN",
+        "symbol": "MX$"
     },
     "MYR": {
         "name": "MYR",
@@ -395,6 +403,10 @@
         "name": "NIO",
         "symbol": "NIO"
     },
+    "NOK": {
+        "name": "NOK",
+        "symbol": "NOK"
+    },
     "NPR": {
         "name": "NPR",
         "symbol": "NPR"
@@ -406,6 +418,10 @@
     "OMR": {
         "name": "OMR",
         "symbol": "OMR"
+    },
+    "PAB": {
+        "name": "PAB",
+        "symbol": "PAB"
     },
     "GBP": {
         "name": "Paunɛ ya Angɛlɛtɛ́lɛ",
@@ -419,29 +435,9 @@
         "name": "Paunɛ ya Sántu elena",
         "symbol": "SHP"
     },
-    "DOP": {
-        "name": "Peso Dominikani",
-        "symbol": "DOP"
-    },
-    "ARS": {
-        "name": "Peso y’Argentina",
-        "symbol": "ARS"
-    },
-    "COP": {
-        "name": "Peso ya Kolombi",
-        "symbol": "COP"
-    },
-    "CUP": {
-        "name": "Peso ya Kuba",
-        "symbol": "CUP"
-    },
-    "MXN": {
-        "name": "Peso ya Mexiko",
-        "symbol": "MX$"
-    },
-    "CLP": {
-        "name": "Peso ya Shili",
-        "symbol": "CLP"
+    "PEN": {
+        "name": "PEN",
+        "symbol": "PEN"
     },
     "PGK": {
         "name": "PGK",
@@ -463,6 +459,10 @@
         "name": "Pula ya Botswana",
         "symbol": "BWP"
     },
+    "PYG": {
+        "name": "PYG",
+        "symbol": "PYG"
+    },
     "QAR": {
         "name": "QAR",
         "symbol": "QAR"
@@ -470,10 +470,6 @@
     "ZAR": {
         "name": "Randɛ ya Afríka Súdi",
         "symbol": "ZAR"
-    },
-    "BRL": {
-        "name": "Real ya Brazil",
-        "symbol": "R$"
     },
     "SAR": {
         "name": "Riyalɛ ya Alabi Sawuditɛ",
@@ -507,6 +503,10 @@
         "name": "SBD",
         "symbol": "SBD"
     },
+    "SEK": {
+        "name": "SEK",
+        "symbol": "SEK"
+    },
     "SGD": {
         "name": "SGD",
         "symbol": "SGD"
@@ -526,10 +526,6 @@
     "UGX": {
         "name": "Shilingɛ ya Uganda",
         "symbol": "UGX"
-    },
-    "PEN": {
-        "name": "Sol Sika",
-        "symbol": "PEN"
     },
     "SRD": {
         "name": "SRD",

@@ -29,7 +29,7 @@
     },
     "AUD": {
         "name": "Australian Dollar",
-        "symbol": "A$"
+        "symbol": "$"
     },
     "AZN": {
         "name": "Azerbaijani Manat",
@@ -268,7 +268,7 @@
         "symbol": "IQD"
     },
     "ILS": {
-        "name": "Israeli New Shekel",
+        "name": "Israeli New Sheqel",
         "symbol": "₪"
     },
     "JMD": {
@@ -277,7 +277,7 @@
     },
     "JPY": {
         "name": "Japanese Yen",
-        "symbol": "¥"
+        "symbol": "JP¥"
     },
     "JOD": {
         "name": "Jordanian Dinar",
@@ -318,10 +318,6 @@
     "LYD": {
         "name": "Libyan Dinar",
         "symbol": "LYD"
-    },
-    "LTL": {
-        "name": "Lithuanian Litas",
-        "symbol": "LTL"
     },
     "MOP": {
         "name": "Macanese Pataca",
@@ -463,10 +459,6 @@
         "name": "Rwandan Franc",
         "symbol": "RWF"
     },
-    "SHP": {
-        "name": "Saint Helena Pound",
-        "symbol": "SHP"
-    },
     "SVC": {
         "name": "Salvadoran Colón",
         "symbol": "SVC"
@@ -476,7 +468,7 @@
         "symbol": "WST"
     },
     "STD": {
-        "name": "São Tomé and Príncipe Dobra",
+        "name": "São Tomé & Príncipe Dobra",
         "symbol": "STD"
     },
     "SAR": {
@@ -523,6 +515,10 @@
         "name": "Sri Lankan Rupee",
         "symbol": "LKR"
     },
+    "SHP": {
+        "name": "St. Helena Pound",
+        "symbol": "SHP"
+    },
     "SDG": {
         "name": "Sudanese Pound",
         "symbol": "SDG"
@@ -557,14 +553,14 @@
     },
     "THB": {
         "name": "Thai Baht",
-        "symbol": "฿"
+        "symbol": "THB"
     },
     "TOP": {
         "name": "Tongan Paʻanga",
         "symbol": "TOP"
     },
     "TTD": {
-        "name": "Trinidad and Tobago Dollar",
+        "name": "Trinidad & Tobago Dollar",
         "symbol": "TTD"
     },
     "TND": {
