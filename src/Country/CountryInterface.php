@@ -98,10 +98,7 @@ interface CountryInterface
     public function setTelephoneCode($telephoneCode);
 
     /**
-     * Gets the country currency code.
-     *
-     * The currency code is the default currency code for a country.
-     * It is represented in the ISO 4217 format.
+     * Represents the default currency used in the country, if known.
      *
      * @return string|null
      */
