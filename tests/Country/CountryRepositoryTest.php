@@ -21,12 +21,14 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
             'three_letter_code' => 'FRA',
             'numeric_code' => '250',
             'telephone_code' => '33',
+            'currency_code' => 'EUR'
         ],
         'US' => [
             'code' => 'US',
             'three_letter_code' => 'USA',
             'numeric_code' => '840',
             'telephone_code' => '1',
+            'currency_code' => 'USD'
         ],
     ];
 
@@ -80,6 +82,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('FRA', $country->getThreeLetterCode());
         $this->assertEquals('250', $country->getNumericCode());
         $this->assertEquals('33', $country->getTelephoneCode());
+        $this->assertEquals('EUR', $country->getCurrencyCode());
         $this->assertEquals('en', $country->getLocale());
     }
 

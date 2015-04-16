@@ -118,6 +118,9 @@ class CountryRepository implements CountryRepositoryInterface
         if (isset($definition['telephone_code'])) {
             $country->setTelephoneCode($definition['telephone_code']);
         }
+        if (isset($definition['currency_code'])) {
+            $country->setCurrencyCode($definition['currency_code']);
+        }
 
         return $country;
     }
