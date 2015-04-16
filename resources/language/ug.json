@@ -1,4 +1,8 @@
 {
+    "lkt": {
+        "code": "lkt",
+        "name": "Lakota"
+    },
     "nl-BE": {
         "code": "nl-BE",
         "name": "nl_BE"
@@ -14,10 +18,6 @@
     "ast": {
         "code": "ast",
         "name": "ئاستۇرىيەچە"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "ئاسۇچە"
     },
     "af": {
         "code": "af",
@@ -39,10 +39,6 @@
         "code": "am",
         "name": "ئامخاراچە"
     },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "ئاۋسترالىيە ئىنگلىزچە"
-    },
     "de-AT": {
         "code": "de-AT",
         "name": "ئاۋستىرىيە گېرمانچە"
@@ -59,13 +55,13 @@
         "code": "az",
         "name": "ئەزەرىچە"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "ئەنگلىيە ئىنگلىزچە"
-    },
     "ur": {
         "code": "ur",
         "name": "ئوردوچە"
+    },
+    "om": {
+        "code": "om",
+        "name": "ئوروموچە"
     },
     "or": {
         "code": "or",
@@ -74,10 +70,6 @@
     "uz": {
         "code": "uz",
         "name": "ئۆزبېكچە"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "ئۆلچەملىك ماراكەش تامازىتچە"
     },
     "uk": {
         "code": "uk",
@@ -90,6 +82,10 @@
     "he": {
         "code": "he",
         "name": "ئىبرانىچە"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "ئىبوچە"
     },
     "it": {
         "code": "it",
@@ -107,21 +103,13 @@
         "code": "is",
         "name": "ئىسلاندچە"
     },
-    "en": {
-        "code": "en",
-        "name": "ئىنگلىزچە"
+    "smn": {
+        "code": "smn",
+        "name": "ئىنارى سامىچە"
     },
     "et": {
         "code": "et",
         "name": "ئېستونچە"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "ئېمبۇچە"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "ئېۋوندوچە"
     },
     "ee": {
         "code": "ee",
@@ -195,17 +183,9 @@
         "code": "pl",
         "name": "پولەكچە"
     },
-    "ps": {
-        "code": "ps",
-        "name": "پۇشتۇچە"
-    },
     "ta": {
         "code": "ta",
         "name": "تامىلچە"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "تايتاچە"
     },
     "th": {
         "code": "th",
@@ -223,17 +203,9 @@
         "code": "tr",
         "name": "تۈركچە"
     },
-    "bo": {
-        "code": "bo",
-        "name": "تىبەتچە"
-    },
     "ti": {
         "code": "ti",
         "name": "تىگرىنياچە"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "تېسوچە"
     },
     "te": {
         "code": "te",
@@ -250,10 +222,6 @@
     "cs": {
         "code": "cs",
         "name": "چېخچە"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "چېروكىچە"
     },
     "ha": {
         "code": "ha",
@@ -295,9 +263,9 @@
         "code": "rn",
         "name": "رۇندىچە"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "رىۋاچە"
+    "rw": {
+        "code": "rw",
+        "name": "رىۋانداچە"
     },
     "dje": {
         "code": "dje",
@@ -307,25 +275,13 @@
         "code": "zu",
         "name": "زۇلۇچە"
     },
-    "saq": {
-        "code": "saq",
-        "name": "سامبۇرۇچە"
-    },
     "sg": {
         "code": "sg",
         "name": "سانگوچە"
     },
-    "sbp": {
-        "code": "sbp",
-        "name": "سانگۇچە"
-    },
     "gd": {
         "code": "gd",
         "name": "سكوتچە"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "سوگاچە"
     },
     "so": {
         "code": "so",
@@ -355,33 +311,17 @@
         "code": "seh",
         "name": "سېناچە"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "شامبالاچە"
-    },
     "ses": {
         "code": "ses",
         "name": "شەرقىي سوڭخايچە"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "شوناچە"
     },
     "sv": {
         "code": "sv",
         "name": "شۋېدچە"
     },
-    "shi": {
-        "code": "shi",
-        "name": "شىلخاچە"
-    },
     "se": {
         "code": "se",
         "name": "شىمالى سامىچە"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "شىمالى ندەبەلەچە"
     },
     "twq": {
         "code": "twq",
@@ -415,10 +355,6 @@
         "code": "fur",
         "name": "فىرىئۇلىچە"
     },
-    "fil": {
-        "code": "fil",
-        "name": "فىلىپپىنچە"
-    },
     "fi": {
         "code": "fi",
         "name": "فىنچە"
@@ -443,18 +379,6 @@
         "code": "ca",
         "name": "كاتالانچە"
     },
-    "kln": {
-        "code": "kln",
-        "name": "كالېنجىنچە"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "كامباچە"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "كانادا ئىنگلىزچە"
-    },
     "fr-CA": {
         "code": "fr-CA",
         "name": "كانادا فىرانسۇزچە"
@@ -475,21 +399,21 @@
         "code": "ksh",
         "name": "كولىشچە"
     },
+    "kok": {
+        "code": "kok",
+        "name": "كونكانىچە"
+    },
     "khq": {
         "code": "khq",
         "name": "كويرا چىنىچە"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "كۋاسىيوچە"
     },
     "km": {
         "code": "km",
         "name": "كىخمېرچە"
     },
-    "ki": {
-        "code": "ki",
-        "name": "كىكۇيۇچە"
+    "qu": {
+        "code": "qu",
+        "name": "كېچياچە"
     },
     "gl": {
         "code": "gl",
@@ -507,10 +431,6 @@
         "code": "gu",
         "name": "گۇجاراتچە"
     },
-    "guz": {
-        "code": "guz",
-        "name": "گۇسىچە"
-    },
     "ka": {
         "code": "ka",
         "name": "گىرۇزىنچە"
@@ -518,10 +438,6 @@
     "el": {
         "code": "el",
         "name": "گىرېكچە"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "گىرېنلاندچە"
     },
     "de": {
         "code": "de",
@@ -539,10 +455,6 @@
         "code": "lv",
         "name": "لاتۋىيەچە"
     },
-    "lag": {
-        "code": "lag",
-        "name": "لانگىچە"
-    },
     "luo": {
         "code": "luo",
         "name": "لۇئوچە"
@@ -559,10 +471,6 @@
         "code": "lt",
         "name": "لىتۋاچە"
     },
-    "ln": {
-        "code": "ln",
-        "name": "لىنگالاچە"
-    },
     "lb": {
         "code": "lb",
         "name": "لىيۇكسېمبۇرگچە"
@@ -570,10 +478,6 @@
     "hu": {
         "code": "hu",
         "name": "ماجارچە"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "ماچامچە"
     },
     "mg": {
         "code": "mg",
@@ -586,10 +490,6 @@
     "mas": {
         "code": "mas",
         "name": "ماسايچە"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "ماكوندېچە"
     },
     "mgh": {
         "code": "mgh",
@@ -623,10 +523,6 @@
         "code": "mn",
         "name": "موڭغۇلچە"
     },
-    "nus": {
-        "code": "nus",
-        "name": "مۇئېرچە"
-    },
     "zh-Hant": {
         "code": "zh-Hant",
         "name": "مۇرەككەپ خەنچە"
@@ -635,10 +531,6 @@
         "code": "mua",
         "name": "مۇنداڭچە"
     },
-    "mer": {
-        "code": "mer",
-        "name": "مېرۇچە"
-    },
     "es-MX": {
         "code": "es-MX",
         "name": "مېكسىكا ئىسپانچە"
@@ -646,10 +538,6 @@
     "naq": {
         "code": "naq",
         "name": "ناماچە"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "نگومباچە"
     },
     "nb": {
         "code": "nb",
@@ -663,6 +551,10 @@
         "code": "ne",
         "name": "نېپالچە"
     },
+    "haw": {
+        "code": "haw",
+        "name": "ھاۋايچە"
+    },
     "id": {
         "code": "id",
         "name": "ھىندونېزىيەچە"
@@ -674,14 +566,6 @@
     "wae": {
         "code": "wae",
         "name": "ۋالسېرچە"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "ۋايچە"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "ۋۇنجوچە"
     },
     "vi": {
         "code": "vi",
@@ -710,6 +594,10 @@
     "hsb": {
         "code": "hsb",
         "name": "يۇقىرىقى سېربچە"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "يىددىشچە"
     },
     "nn": {
         "code": "nn",

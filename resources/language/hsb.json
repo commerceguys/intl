@@ -31,10 +31,6 @@
         "code": "ast",
         "name": "asturšćina"
     },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "awstralska jendźelšćina"
-    },
     "de-AT": {
         "code": "de-AT",
         "name": "awstriska němčina"
@@ -87,10 +83,6 @@
         "code": "br",
         "name": "bretonšćina"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "britiska jendźelšćina"
-    },
     "my": {
         "code": "my",
         "name": "burmašćina"
@@ -98,10 +90,6 @@
     "cs": {
         "code": "cs",
         "name": "čěšćina"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "cherokee"
     },
     "cgg": {
         "code": "cgg",
@@ -139,10 +127,6 @@
         "code": "dz",
         "name": "dzongkha"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "embu"
-    },
     "eo": {
         "code": "eo",
         "name": "esperanto"
@@ -159,17 +143,9 @@
         "code": "ee",
         "name": "ewe"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
     "fo": {
         "code": "fo",
         "name": "färöšćina"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "filipinšćina"
     },
     "fi": {
         "code": "fi",
@@ -211,21 +187,17 @@
         "code": "el",
         "name": "grjekšćina"
     },
-    "kl": {
-        "code": "kl",
-        "name": "gröndlandšćina"
-    },
     "gu": {
         "code": "gu",
         "name": "gujarati"
     },
-    "guz": {
-        "code": "guz",
-        "name": "gusii"
-    },
     "ha": {
         "code": "ha",
         "name": "hausa"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "hawaiišćina"
     },
     "he": {
         "code": "he",
@@ -238,6 +210,14 @@
     "hsb": {
         "code": "hsb",
         "name": "hornjoserbšćina"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "igbo"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "inari-samišćina"
     },
     "id": {
         "code": "id",
@@ -259,9 +239,9 @@
         "code": "ja",
         "name": "japanšćina"
     },
-    "en": {
-        "code": "en",
-        "name": "jendźelšćina"
+    "yi": {
+        "code": "yi",
+        "name": "jidišćina"
     },
     "dyo": {
         "code": "dyo",
@@ -275,21 +255,9 @@
         "code": "kab",
         "name": "kabylšćina"
     },
-    "kln": {
-        "code": "kln",
-        "name": "kalenjin"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "kamba"
-    },
     "fr-CA": {
         "code": "fr-CA",
         "name": "kanadiska francošćina"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "kanadiska jendźelšćina"
     },
     "kn": {
         "code": "kn",
@@ -311,13 +279,17 @@
         "code": "kk",
         "name": "kazachšćina"
     },
+    "qu": {
+        "code": "qu",
+        "name": "kečua"
+    },
     "km": {
         "code": "km",
         "name": "khmeršćina"
     },
-    "ki": {
-        "code": "ki",
-        "name": "kikuyu"
+    "rw": {
+        "code": "rw",
+        "name": "kinjarwanda"
     },
     "ky": {
         "code": "ky",
@@ -326,6 +298,10 @@
     "rn": {
         "code": "rn",
         "name": "kirundišćina"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "konkani"
     },
     "ko": {
         "code": "ko",
@@ -339,13 +315,9 @@
         "code": "ses",
         "name": "koyra senni"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "kwasio"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "lakota"
     },
     "lo": {
         "code": "lo",
@@ -354,10 +326,6 @@
     "lv": {
         "code": "lv",
         "name": "letišćina"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "lingala"
     },
     "lt": {
         "code": "lt",
@@ -379,10 +347,6 @@
         "code": "lb",
         "name": "luxemburgšćina"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "machame"
-    },
     "hu": {
         "code": "hu",
         "name": "madźaršćina"
@@ -394,10 +358,6 @@
     "mgh": {
         "code": "mgh",
         "name": "makhuwa-meetto"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "makonde"
     },
     "mg": {
         "code": "mg",
@@ -427,10 +387,6 @@
         "code": "mfe",
         "name": "mauriciska kreolšćina"
     },
-    "mer": {
-        "code": "mer",
-        "name": "meru"
-    },
     "es-MX": {
         "code": "es-MX",
         "name": "mexiska španišćina"
@@ -459,10 +415,6 @@
         "code": "ne",
         "name": "nepalšćina"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "ngomba"
-    },
     "nl": {
         "code": "nl",
         "name": "nižozemšćina"
@@ -475,10 +427,6 @@
         "code": "nn",
         "name": "norwegšćina (nynorsk)"
     },
-    "nus": {
-        "code": "nus",
-        "name": "nuer"
-    },
     "nyn": {
         "code": "nyn",
         "name": "nyankole"
@@ -487,17 +435,13 @@
         "code": "or",
         "name": "orijšćina"
     },
+    "om": {
+        "code": "om",
+        "name": "oromo"
+    },
     "pa": {
         "code": "pa",
         "name": "pandźabšćina"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "pare"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "paštunšćina"
     },
     "fa": {
         "code": "fa",
@@ -527,25 +471,9 @@
         "code": "ru",
         "name": "rušćina"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "rwa"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "šambala"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "samburu"
-    },
     "sg": {
         "code": "sg",
         "name": "sango"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "sangu"
     },
     "seh": {
         "code": "seh",
@@ -554,10 +482,6 @@
     "sr": {
         "code": "sr",
         "name": "serbišćina"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "sewjero-ndebele"
     },
     "se": {
         "code": "se",
@@ -575,17 +499,9 @@
         "code": "sl",
         "name": "słowjenšćina"
     },
-    "xog": {
-        "code": "xog",
-        "name": "soga"
-    },
     "so": {
         "code": "so",
         "name": "somališćina"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "šonašćina"
     },
     "gd": {
         "code": "gd",
@@ -615,14 +531,6 @@
         "code": "de-CH",
         "name": "šwicarska wysokoněmčina"
     },
-    "dav": {
-        "code": "dav",
-        "name": "taita"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "tamazight"
-    },
     "tzm": {
         "code": "tzm",
         "name": "tamazight (srjedźny Marokko)"
@@ -635,25 +543,13 @@
         "code": "twq",
         "name": "tasawaq"
     },
-    "shi": {
-        "code": "shi",
-        "name": "tašelhit"
-    },
     "te": {
         "code": "te",
         "name": "telugu"
     },
-    "teo": {
-        "code": "teo",
-        "name": "teso"
-    },
     "th": {
         "code": "th",
         "name": "thailandšćina"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "tibetšćina"
     },
     "ti": {
         "code": "ti",
@@ -683,17 +579,9 @@
         "code": "uz",
         "name": "uzbekšćina"
     },
-    "vai": {
-        "code": "vai",
-        "name": "Vai"
-    },
     "vi": {
         "code": "vi",
         "name": "vietnamšćina"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "vunjo"
     },
     "cy": {
         "code": "cy",

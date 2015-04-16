@@ -19,22 +19,6 @@
         "code": "am",
         "name": "Amhahresch"
     },
-    "en": {
-        "code": "en",
-        "name": "Änglesch"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Änglesch uß Außtraalije"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Änglesch uß Jruußbrettannije"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Änglesch uß Kanada"
-    },
     "ar": {
         "code": "ar",
         "name": "Arahbesch"
@@ -107,10 +91,6 @@
         "code": "tzm",
         "name": "Central Atlas Tamazight"
     },
-    "chr": {
-        "code": "chr",
-        "name": "Cherokee"
-    },
     "cgg": {
         "code": "cgg",
         "name": "Chiga"
@@ -131,10 +111,6 @@
         "code": "de-AT",
         "name": "Deutsch uß Ößterich"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embu"
-    },
     "eo": {
         "code": "eo",
         "name": "Esperanto"
@@ -147,17 +123,9 @@
         "code": "ee",
         "name": "Ewe"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
     "fo": {
         "code": "fo",
         "name": "Färröeresch"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "Filipino"
     },
     "fi": {
         "code": "fi",
@@ -191,13 +159,13 @@
         "code": "lg",
         "name": "Ganda"
     },
-    "guz": {
-        "code": "guz",
-        "name": "Gusii"
-    },
     "gu": {
         "code": "gu",
         "name": "Gutscharatesch"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "Hauajaanesch"
     },
     "ha": {
         "code": "ha",
@@ -218,6 +186,14 @@
     "ga": {
         "code": "ga",
         "name": "Ieresch"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "Igbo"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "Inari Sami"
     },
     "id": {
         "code": "id",
@@ -259,18 +235,6 @@
         "code": "kab",
         "name": "Kabyle"
     },
-    "kl": {
-        "code": "kl",
-        "name": "Kalaallisut"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "Kalenjin"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "Kamba"
-    },
     "kn": {
         "code": "kn",
         "name": "Kannada"
@@ -291,13 +255,17 @@
         "code": "ca",
         "name": "Kattalahnesch"
     },
+    "qu": {
+        "code": "qu",
+        "name": "Kättschowa"
+    },
     "km": {
         "code": "km",
         "name": "Khmer"
     },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
+    "rw": {
+        "code": "rw",
+        "name": "Kinja-Ruandesch"
     },
     "ky": {
         "code": "ky",
@@ -310,6 +278,10 @@
     "ksh": {
         "code": "ksh",
         "name": "Kölsch"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "Konkani"
     },
     "ko": {
         "code": "ko",
@@ -327,25 +299,17 @@
         "code": "hr",
         "name": "Krowatesch"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
-    },
     "lo": {
         "code": "lo",
         "name": "Lahootesch"
     },
-    "lag": {
-        "code": "lag",
-        "name": "Langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "Lakota"
     },
     "lv": {
         "code": "lv",
         "name": "Lättesch"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "Lingjalla"
     },
     "lt": {
         "code": "lt",
@@ -367,10 +331,6 @@
         "code": "luy",
         "name": "Luyjanesch"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
     "mg": {
         "code": "mg",
         "name": "Madajaßkesch"
@@ -378,10 +338,6 @@
     "mgh": {
         "code": "mgh",
         "name": "Makhuwa-Meetto"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
     },
     "ms": {
         "code": "ms",
@@ -407,10 +363,6 @@
         "code": "mk",
         "name": "Mazedoonesch"
     },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
-    },
     "mn": {
         "code": "mn",
         "name": "Mongjolesch"
@@ -435,10 +387,6 @@
         "code": "nn",
         "name": "Neu-Norrweejesch"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
     "dsb": {
         "code": "dsb",
         "name": "Niddersorbesch"
@@ -447,17 +395,9 @@
         "code": "se",
         "name": "Nood-Lappländesch"
     },
-    "nd": {
-        "code": "nd",
-        "name": "Nood-Ndebele"
-    },
     "nb": {
         "code": "nb",
         "name": "Norrweejesch Bokmål"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "Nuer"
     },
     "nyn": {
         "code": "nyn",
@@ -467,21 +407,17 @@
         "code": "or",
         "name": "Oriija"
     },
+    "om": {
+        "code": "om",
+        "name": "Oromo"
+    },
     "pa": {
         "code": "pa",
         "name": "Panschaabesch"
     },
-    "asa": {
-        "code": "asa",
-        "name": "Pare"
-    },
     "fa": {
         "code": "fa",
         "name": "Pärsesch"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "Paschtuunesch"
     },
     "pt": {
         "code": "pt",
@@ -511,29 +447,13 @@
         "code": "ru",
         "name": "Rußßesch"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "Rwa"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "Samburu"
-    },
     "sg": {
         "code": "sg",
         "name": "Sangjo"
     },
-    "sbp": {
-        "code": "sbp",
-        "name": "Sangu"
-    },
     "sr": {
         "code": "sr",
         "name": "Särbesch"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "Schi-Schona"
     },
     "zh": {
         "code": "zh",
@@ -571,17 +491,9 @@
         "code": "seh",
         "name": "Sena"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
-    },
     "si": {
         "code": "si",
         "name": "Singjaleesesch"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
     },
     "so": {
         "code": "so",
@@ -595,10 +507,6 @@
         "code": "sl",
         "name": "ẞloveenesch"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "Standard Moroccan Tamazight"
-    },
     "sw": {
         "code": "sw",
         "name": "Suaheelesch"
@@ -607,17 +515,9 @@
         "code": "zu",
         "name": "Suulu"
     },
-    "shi": {
-        "code": "shi",
-        "name": "Tachelhit"
-    },
     "th": {
         "code": "th",
         "name": "Tailändesch"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
     },
     "ta": {
         "code": "ta",
@@ -630,14 +530,6 @@
     "te": {
         "code": "te",
         "name": "Telluuju"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "Teso"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "Tibehtesch"
     },
     "ti": {
         "code": "ti",
@@ -679,17 +571,9 @@
         "code": "uz",
         "name": "Ußbeekesch"
     },
-    "vai": {
-        "code": "vai",
-        "name": "Vai"
-    },
     "vi": {
         "code": "vi",
         "name": "Vijätnammeesesch"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Vunjo"
     },
     "cy": {
         "code": "cy",
@@ -710,6 +594,10 @@
     "yav": {
         "code": "yav",
         "name": "Yangben"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "Yiddish"
     },
     "dje": {
         "code": "dje",

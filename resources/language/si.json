@@ -23,10 +23,6 @@
         "code": "az",
         "name": "අසර්බයිජාන්"
     },
-    "asa": {
-        "code": "asa",
-        "name": "අසු"
-    },
     "hy": {
         "code": "hy",
         "name": "ආර්මේනියානු"
@@ -43,13 +39,17 @@
         "code": "sq",
         "name": "ඇල්බේනියානු"
     },
-    "en": {
-        "code": "en",
-        "name": "ඉංග්‍රීසි"
+    "ig": {
+        "code": "ig",
+        "name": "ඉග්බෝ"
     },
     "it": {
         "code": "it",
         "name": "ඉතාලි"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "ඉනාරි සාමි"
     },
     "id": {
         "code": "id",
@@ -62,10 +62,6 @@
     "hsb": {
         "code": "hsb",
         "name": "ඉහළ සෝබියානු"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "උතුරු එන්ඩිබෙලෙ"
     },
     "se": {
         "code": "se",
@@ -83,10 +79,6 @@
         "code": "uz",
         "name": "උස්බෙක්"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "එම්බු"
-    },
     "et": {
         "code": "et",
         "name": "එස්තෝනියානු"
@@ -99,13 +91,13 @@
         "code": "or",
         "name": "ඔරියා"
     },
+    "om": {
+        "code": "om",
+        "name": "ඔරොමෝ"
+    },
     "de-AT": {
         "code": "de-AT",
         "name": "ඔස්ට්‍රියානු ජර්මන්"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "ඕස්ට්‍රේලියානු ඉංග්‍රීසි"
     },
     "kn": {
         "code": "kn",
@@ -119,14 +111,6 @@
         "code": "km",
         "name": "කමර්"
     },
-    "kl": {
-        "code": "kl",
-        "name": "කලාලිසට්"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "කලෙන්ජන්"
-    },
     "kk": {
         "code": "kk",
         "name": "කසාඛ්"
@@ -139,10 +123,6 @@
         "code": "ca",
         "name": "කැටලන්"
     },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "කැනේඩියානු ඉංග්‍රීසි"
-    },
     "fr-CA": {
         "code": "fr-CA",
         "name": "කැනේඩියානු ප්‍රංශ"
@@ -151,21 +131,17 @@
         "code": "kab",
         "name": "කැබලා"
     },
-    "kam": {
-        "code": "kam",
-        "name": "කැම්බා"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "කිකුයු"
+    "rw": {
+        "code": "rw",
+        "name": "කින්යර්වන්ඩා"
     },
     "ky": {
         "code": "ky",
         "name": "කිර්ගිස්"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "කුවාසිඔ"
+    "kok": {
+        "code": "kok",
+        "name": "කොන්කනි"
     },
     "khq": {
         "code": "khq",
@@ -183,6 +159,10 @@
         "code": "hr",
         "name": "ක්‍රෝයේශියානු"
     },
+    "qu": {
+        "code": "qu",
+        "name": "ක්වීචුවා"
+    },
     "lg": {
         "code": "lg",
         "name": "ගන්ඩා"
@@ -194,10 +174,6 @@
     "gu": {
         "code": "gu",
         "name": "ගුජරාටි"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "ගුසී"
     },
     "el": {
         "code": "el",
@@ -214,10 +190,6 @@
     "cs": {
         "code": "cs",
         "name": "චෙත්"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "චෙරොකී"
     },
     "pa": {
         "code": "pa",
@@ -239,14 +211,6 @@
         "code": "ka",
         "name": "ජෝර්ජියානු"
     },
-    "shi": {
-        "code": "shi",
-        "name": "ටචේල්හිට්"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "ටයිටා"
-    },
     "twq": {
         "code": "twq",
         "name": "ටසවාක්"
@@ -254,14 +218,6 @@
     "ti": {
         "code": "ti",
         "name": "ටිග්‍රින්යා"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "ටිබෙට්"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "ටෙසෝ"
     },
     "to": {
         "code": "to",
@@ -303,14 +259,6 @@
         "code": "ne",
         "name": "නේපාල"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "නොම්බා"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "නොයර්"
-    },
     "nn": {
         "code": "nn",
         "name": "නොවේර්ජියානු නයිනෝර්ස්ක්"
@@ -323,17 +271,9 @@
         "code": "fa",
         "name": "පර්සියානු"
     },
-    "ps": {
-        "code": "ps",
-        "name": "පෂ්ටො"
-    },
     "dsb": {
         "code": "dsb",
         "name": "පහළ සෝබියානු"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "පිලිපීන"
     },
     "pt": {
         "code": "pt",
@@ -391,10 +331,6 @@
         "code": "bs",
         "name": "බොස්නියානු"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "බ්‍රිතාන්‍ය ඉංග්‍රීසි"
-    },
     "br": {
         "code": "br",
         "name": "බ්‍රේටොන්"
@@ -423,14 +359,6 @@
         "code": "mas",
         "name": "මසායි"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "මැකාමී"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "මැකොන්ඩ්"
-    },
     "ms": {
         "code": "ms",
         "name": "මැලේ"
@@ -446,10 +374,6 @@
     "es-MX": {
         "code": "es-MX",
         "name": "මෙක්සිකානු ස්පාඤ්ඤ"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "මෙරු"
     },
     "mn": {
         "code": "mn",
@@ -495,13 +419,9 @@
         "code": "rof",
         "name": "රෝම්බෝ"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "ර්වා"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "ලංගි"
+    "lkt": {
+        "code": "lkt",
+        "name": "ලකොට"
     },
     "lb": {
         "code": "lb",
@@ -523,10 +443,6 @@
         "code": "lt",
         "name": "ලිතුවේනියානු"
     },
-    "ln": {
-        "code": "ln",
-        "name": "ලින්ගලා"
-    },
     "lu": {
         "code": "lu",
         "name": "ලු"
@@ -539,45 +455,17 @@
         "code": "luy",
         "name": "ලුයියා"
     },
-    "vai": {
-        "code": "vai",
-        "name": "වයි"
-    },
     "vi": {
         "code": "vi",
         "name": "වියට්නාම්"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "වුන්ජෝ"
     },
     "cy": {
         "code": "cy",
         "name": "වේල්ස්"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "ශාම්බලා"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "ශෝනා"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "සංගු"
-    },
     "sg": {
         "code": "sg",
         "name": "සන්ග්‍රෝ"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "සම්බුරු"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "සම්මත මොරොක්කෝ ටමසිග්ත්"
     },
     "sr": {
         "code": "sr",
@@ -602,10 +490,6 @@
     "seh": {
         "code": "seh",
         "name": "සෙනා"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "සොගා"
     },
     "so": {
         "code": "so",
@@ -647,6 +531,10 @@
         "code": "hu",
         "name": "හන්ගේරියානු"
     },
+    "haw": {
+        "code": "haw",
+        "name": "හවායි"
+    },
     "hi": {
         "code": "hi",
         "name": "හින්දි"
@@ -687,10 +575,6 @@
         "code": "ksh",
         "name": "Colognian"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
     "fur": {
         "code": "fur",
         "name": "Friulian"
@@ -714,5 +598,9 @@
     "yav": {
         "code": "yav",
         "name": "Yangben"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "Yiddish"
     }
 }

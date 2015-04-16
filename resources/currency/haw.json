@@ -1,11 +1,15 @@
 {
-    "INR": {
-        "name": "ଟଙକା",
-        "symbol": "₹"
-    },
     "AED": {
         "name": "AED",
         "symbol": "AED"
+    },
+    "AOA": {
+        "name": "AOA",
+        "symbol": "AOA"
+    },
+    "AUD": {
+        "name": "AUD",
+        "symbol": "A$"
     },
     "AFN": {
         "name": "AFN",
@@ -23,17 +27,9 @@
         "name": "ANG",
         "symbol": "ANG"
     },
-    "AOA": {
-        "name": "AOA",
-        "symbol": "AOA"
-    },
     "ARS": {
         "name": "ARS",
         "symbol": "ARS"
-    },
-    "AUD": {
-        "name": "AUD",
-        "symbol": "A$"
     },
     "AWG": {
         "name": "AWG",
@@ -43,9 +39,81 @@
         "name": "AZN",
         "symbol": "AZN"
     },
+    "EUR": {
+        "name": "EUR",
+        "symbol": "€"
+    },
+    "EGP": {
+        "name": "EGP",
+        "symbol": "EGP"
+    },
+    "ERN": {
+        "name": "ERN",
+        "symbol": "ERN"
+    },
+    "ETB": {
+        "name": "ETB",
+        "symbol": "ETB"
+    },
+    "IDR": {
+        "name": "IDR",
+        "symbol": "IDR"
+    },
+    "ILS": {
+        "name": "ILS",
+        "symbol": "₪"
+    },
+    "INR": {
+        "name": "INR",
+        "symbol": "₹"
+    },
+    "IQD": {
+        "name": "IQD",
+        "symbol": "IQD"
+    },
+    "IRR": {
+        "name": "IRR",
+        "symbol": "IRR"
+    },
+    "ISK": {
+        "name": "ISK",
+        "symbol": "ISK"
+    },
+    "OMR": {
+        "name": "OMR",
+        "symbol": "OMR"
+    },
+    "UAH": {
+        "name": "UAH",
+        "symbol": "UAH"
+    },
+    "UGX": {
+        "name": "UGX",
+        "symbol": "UGX"
+    },
+    "USD": {
+        "name": "USD",
+        "symbol": "$"
+    },
+    "UYU": {
+        "name": "UYU",
+        "symbol": "UYU"
+    },
+    "UZS": {
+        "name": "UZS",
+        "symbol": "UZS"
+    },
     "BAM": {
         "name": "BAM",
         "symbol": "BAM"
+    },
+    "BIF": {
+        "name": "BIF",
+        "symbol": "BIF"
+    },
+    "BOB": {
+        "name": "BOB",
+        "symbol": "BOB"
     },
     "BBD": {
         "name": "BBD",
@@ -63,10 +131,6 @@
         "name": "BHD",
         "symbol": "BHD"
     },
-    "BIF": {
-        "name": "BIF",
-        "symbol": "BIF"
-    },
     "BMD": {
         "name": "BMD",
         "symbol": "BMD"
@@ -74,10 +138,6 @@
     "BND": {
         "name": "BND",
         "symbol": "BND"
-    },
-    "BOB": {
-        "name": "BOB",
-        "symbol": "BOB"
     },
     "BRL": {
         "name": "BRL",
@@ -107,6 +167,18 @@
         "name": "CAD",
         "symbol": "CA$"
     },
+    "COP": {
+        "name": "COP",
+        "symbol": "COP"
+    },
+    "CUC": {
+        "name": "CUC",
+        "symbol": "CUC"
+    },
+    "CUP": {
+        "name": "CUP",
+        "symbol": "CUP"
+    },
     "CDF": {
         "name": "CDF",
         "symbol": "CDF"
@@ -123,21 +195,9 @@
         "name": "CNY",
         "symbol": "CN¥"
     },
-    "COP": {
-        "name": "COP",
-        "symbol": "COP"
-    },
     "CRC": {
         "name": "CRC",
         "symbol": "CRC"
-    },
-    "CUC": {
-        "name": "CUC",
-        "symbol": "CUC"
-    },
-    "CUP": {
-        "name": "CUP",
-        "symbol": "CUP"
     },
     "CVE": {
         "name": "CVE",
@@ -147,6 +207,10 @@
         "name": "CZK",
         "symbol": "CZK"
     },
+    "DOP": {
+        "name": "DOP",
+        "symbol": "DOP"
+    },
     "DJF": {
         "name": "DJF",
         "symbol": "DJF"
@@ -155,29 +219,9 @@
         "name": "DKK",
         "symbol": "DKK"
     },
-    "DOP": {
-        "name": "DOP",
-        "symbol": "DOP"
-    },
     "DZD": {
         "name": "DZD",
         "symbol": "DZD"
-    },
-    "EGP": {
-        "name": "EGP",
-        "symbol": "EGP"
-    },
-    "ERN": {
-        "name": "ERN",
-        "symbol": "ERN"
-    },
-    "ETB": {
-        "name": "ETB",
-        "symbol": "ETB"
-    },
-    "EUR": {
-        "name": "EUR",
-        "symbol": "€"
     },
     "FJD": {
         "name": "FJD",
@@ -187,21 +231,21 @@
         "name": "FKP",
         "symbol": "FKP"
     },
-    "GBP": {
-        "name": "GBP",
-        "symbol": "£"
-    },
     "GEL": {
         "name": "GEL",
         "symbol": "GEL"
     },
-    "GHS": {
-        "name": "GHS",
-        "symbol": "GHS"
-    },
     "GIP": {
         "name": "GIP",
         "symbol": "GIP"
+    },
+    "GBP": {
+        "name": "GBP",
+        "symbol": "£"
+    },
+    "GHS": {
+        "name": "GHS",
+        "symbol": "GHS"
     },
     "GMD": {
         "name": "GMD",
@@ -219,6 +263,10 @@
         "name": "GYD",
         "symbol": "GYD"
     },
+    "HUF": {
+        "name": "HUF",
+        "symbol": "HUF"
+    },
     "HKD": {
         "name": "HKD",
         "symbol": "HK$"
@@ -235,37 +283,13 @@
         "name": "HTG",
         "symbol": "HTG"
     },
-    "HUF": {
-        "name": "HUF",
-        "symbol": "HUF"
-    },
-    "IDR": {
-        "name": "IDR",
-        "symbol": "IDR"
-    },
-    "ILS": {
-        "name": "ILS",
-        "symbol": "₪"
-    },
-    "IQD": {
-        "name": "IQD",
-        "symbol": "IQD"
-    },
-    "IRR": {
-        "name": "IRR",
-        "symbol": "IRR"
-    },
-    "ISK": {
-        "name": "ISK",
-        "symbol": "ISK"
+    "JOD": {
+        "name": "JOD",
+        "symbol": "JOD"
     },
     "JMD": {
         "name": "JMD",
         "symbol": "JMD"
-    },
-    "JOD": {
-        "name": "JOD",
-        "symbol": "JOD"
     },
     "JPY": {
         "name": "JPY",
@@ -335,6 +359,14 @@
         "name": "MAD",
         "symbol": "MAD"
     },
+    "MOP": {
+        "name": "MOP",
+        "symbol": "MOP"
+    },
+    "MUR": {
+        "name": "MUR",
+        "symbol": "MUR"
+    },
     "MDL": {
         "name": "MDL",
         "symbol": "MDL"
@@ -355,17 +387,9 @@
         "name": "MNT",
         "symbol": "MNT"
     },
-    "MOP": {
-        "name": "MOP",
-        "symbol": "MOP"
-    },
     "MRO": {
         "name": "MRO",
         "symbol": "MRO"
-    },
-    "MUR": {
-        "name": "MUR",
-        "symbol": "MUR"
     },
     "MVR": {
         "name": "MVR",
@@ -391,10 +415,6 @@
         "name": "NAD",
         "symbol": "NAD"
     },
-    "NGN": {
-        "name": "NGN",
-        "symbol": "NGN"
-    },
     "NIO": {
         "name": "NIO",
         "symbol": "NIO"
@@ -403,6 +423,10 @@
         "name": "NOK",
         "symbol": "NOK"
     },
+    "NGN": {
+        "name": "NGN",
+        "symbol": "NGN"
+    },
     "NPR": {
         "name": "NPR",
         "symbol": "NPR"
@@ -410,10 +434,6 @@
     "NZD": {
         "name": "NZD",
         "symbol": "NZ$"
-    },
-    "OMR": {
-        "name": "OMR",
-        "symbol": "OMR"
     },
     "PAB": {
         "name": "PAB",
@@ -451,13 +471,13 @@
         "name": "RON",
         "symbol": "RON"
     },
-    "RSD": {
-        "name": "RSD",
-        "symbol": "RSD"
-    },
     "RUB": {
         "name": "RUB",
         "symbol": "RUB"
+    },
+    "RSD": {
+        "name": "RSD",
+        "symbol": "RSD"
     },
     "RWF": {
         "name": "RWF",
@@ -466,6 +486,14 @@
     "SAR": {
         "name": "SAR",
         "symbol": "SAR"
+    },
+    "SEK": {
+        "name": "SEK",
+        "symbol": "SEK"
+    },
+    "SOS": {
+        "name": "SOS",
+        "symbol": "SOS"
     },
     "SBD": {
         "name": "SBD",
@@ -479,10 +507,6 @@
         "name": "SDG",
         "symbol": "SDG"
     },
-    "SEK": {
-        "name": "SEK",
-        "symbol": "SEK"
-    },
     "SGD": {
         "name": "SGD",
         "symbol": "SGD"
@@ -494,10 +518,6 @@
     "SLL": {
         "name": "SLL",
         "symbol": "SLL"
-    },
-    "SOS": {
-        "name": "SOS",
-        "symbol": "SOS"
     },
     "SRD": {
         "name": "SRD",
@@ -523,6 +543,10 @@
         "name": "SZL",
         "symbol": "SZL"
     },
+    "TOP": {
+        "name": "TOP",
+        "symbol": "TOP"
+    },
     "THB": {
         "name": "THB",
         "symbol": "THB"
@@ -538,10 +562,6 @@
     "TND": {
         "name": "TND",
         "symbol": "TND"
-    },
-    "TOP": {
-        "name": "TOP",
-        "symbol": "TOP"
     },
     "TRY": {
         "name": "TRY",
@@ -559,37 +579,17 @@
         "name": "TZS",
         "symbol": "TZS"
     },
-    "UAH": {
-        "name": "UAH",
-        "symbol": "UAH"
-    },
-    "UGX": {
-        "name": "UGX",
-        "symbol": "UGX"
-    },
-    "USD": {
-        "name": "USD",
-        "symbol": "US$"
-    },
-    "UYU": {
-        "name": "UYU",
-        "symbol": "UYU"
-    },
-    "UZS": {
-        "name": "UZS",
-        "symbol": "UZS"
-    },
     "VEF": {
         "name": "VEF",
         "symbol": "VEF"
     },
-    "VND": {
-        "name": "VND",
-        "symbol": "₫"
-    },
     "VUV": {
         "name": "VUV",
         "symbol": "VUV"
+    },
+    "VND": {
+        "name": "VND",
+        "symbol": "₫"
     },
     "WST": {
         "name": "WST",
@@ -599,13 +599,13 @@
         "name": "XAF",
         "symbol": "FCFA"
     },
-    "XCD": {
-        "name": "XCD",
-        "symbol": "EC$"
-    },
     "XOF": {
         "name": "XOF",
         "symbol": "CFA"
+    },
+    "XCD": {
+        "name": "XCD",
+        "symbol": "EC$"
     },
     "XPF": {
         "name": "XPF",

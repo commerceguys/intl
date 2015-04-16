@@ -35,17 +35,17 @@
         "code": "af",
         "name": "ആഫ്രിക്കാൻസ്"
     },
-    "asa": {
-        "code": "asa",
-        "name": "ആസു"
+    "ig": {
+        "code": "ig",
+        "name": "ഇഗ്ബോ"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "ഇനാരി സാമി"
     },
     "id": {
         "code": "id",
         "name": "ഇൻഡോനേഷ്യൻ"
-    },
-    "en": {
-        "code": "en",
-        "name": "ഇംഗ്ലീഷ്"
     },
     "ee": {
         "code": "ee",
@@ -71,14 +71,6 @@
         "code": "ur",
         "name": "ഉറുദു"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "എംബു"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "എവോൻഡോ"
-    },
     "eo": {
         "code": "eo",
         "name": "എസ്‌പരാന്റോ"
@@ -99,6 +91,10 @@
         "code": "or",
         "name": "ഒഡിയ"
     },
+    "om": {
+        "code": "om",
+        "name": "ഒറോമോ"
+    },
     "ast": {
         "code": "ast",
         "name": "ഓസ്‌ട്രിയൻ"
@@ -106,14 +102,6 @@
     "de-AT": {
         "code": "de-AT",
         "name": "ഓസ്‌ട്രിയൻ ജർമൻ"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "ഓസ്‌ട്രേലിയൻ ഇംഗ്ലീഷ്"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "കനേഡിയൻ ഇംഗ്ലീഷ്"
     },
     "fr-CA": {
         "code": "fr-CA",
@@ -131,18 +119,6 @@
         "code": "kab",
         "name": "കബൈൽ"
     },
-    "kam": {
-        "code": "kam",
-        "name": "കംബ"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "കലാല്ലിസട്ട്"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "കലെഞ്ഞിൻ"
-    },
     "kk": {
         "code": "kk",
         "name": "കസാഖ്"
@@ -155,13 +131,17 @@
         "code": "ks",
         "name": "കാശ്‌മീരി"
     },
-    "ki": {
-        "code": "ki",
-        "name": "കികൂയു"
+    "rw": {
+        "code": "rw",
+        "name": "കിന്യാർവാണ്ട"
     },
     "ky": {
         "code": "ky",
         "name": "കിർഗിസ്"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "കൊങ്കണി"
     },
     "khq": {
         "code": "khq",
@@ -183,9 +163,9 @@
         "code": "hr",
         "name": "ക്രൊയേഷ്യൻ"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "ക്വാസിയോ"
+    "qu": {
+        "code": "qu",
+        "name": "ക്വെച്ചുവ"
     },
     "km": {
         "code": "km",
@@ -202,14 +182,6 @@
     "gu": {
         "code": "gu",
         "name": "ഗുജറാത്തി"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "ഗുസീ"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "ഗോമ്പ"
     },
     "el": {
         "code": "el",
@@ -255,14 +227,6 @@
         "code": "twq",
         "name": "ടസവാക്ക്"
     },
-    "bo": {
-        "code": "bo",
-        "name": "ടിബറ്റൻ"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "ടെസോ"
-    },
     "ti": {
         "code": "ti",
         "name": "ടൈഗ്രിന്യ"
@@ -283,10 +247,6 @@
         "code": "ta",
         "name": "തമിഴ്"
     },
-    "shi": {
-        "code": "shi",
-        "name": "താച്ചലിറ്റ്"
-    },
     "th": {
         "code": "th",
         "name": "തായ്"
@@ -295,25 +255,13 @@
         "code": "te",
         "name": "തെലുങ്ക്"
     },
-    "dav": {
-        "code": "dav",
-        "name": "തൈത"
-    },
     "naq": {
         "code": "naq",
         "name": "നാമ"
     },
-    "nus": {
-        "code": "nus",
-        "name": "നുവേർ"
-    },
     "ne": {
         "code": "ne",
         "name": "നേപ്പാളി"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "നോർത്ത് ഡെബിൾ"
     },
     "nn": {
         "code": "nn",
@@ -335,10 +283,6 @@
         "code": "fy",
         "name": "പശ്ചിമ ഫ്രിഷിയൻ"
     },
-    "ps": {
-        "code": "ps",
-        "name": "പഷ്തു"
-    },
     "fa": {
         "code": "fa",
         "name": "പേർഷ്യൻ"
@@ -358,10 +302,6 @@
     "fi": {
         "code": "fi",
         "name": "ഫിന്നിഷ്"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "ഫിലിപ്പിനോ"
     },
     "ff": {
         "code": "ff",
@@ -419,10 +359,6 @@
         "code": "bs",
         "name": "ബോസ്നിയൻ"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "ബ്രിട്ടീഷ് ഇംഗ്ലീഷ്"
-    },
     "br": {
         "code": "br",
         "name": "ബ്രെട്ടൺ"
@@ -430,14 +366,6 @@
     "ksf": {
         "code": "ksf",
         "name": "ഭാഫിയ"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "മക്കോണ്ടെ"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "മചേം"
     },
     "tzm": {
         "code": "tzm",
@@ -487,17 +415,9 @@
         "code": "es-MX",
         "name": "മെക്സിക്കൻ സ്പാനിഷ്"
     },
-    "mer": {
-        "code": "mer",
-        "name": "മേരു"
-    },
     "mfe": {
         "code": "mfe",
         "name": "മൊറിസിൻ"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "മൊറോക്കൻ സാധാരണ താമസൈറ്റ്"
     },
     "ro-MD": {
         "code": "ro-MD",
@@ -506,6 +426,10 @@
     "yav": {
         "code": "yav",
         "name": "യാംഗ്ബെൻ"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "യിദ്ദിഷ്"
     },
     "pt-PT": {
         "code": "pt-PT",
@@ -523,9 +447,9 @@
         "code": "lb",
         "name": "ലക്‌സംബർഗിഷ്"
     },
-    "lag": {
-        "code": "lag",
-        "name": "ലാംഗി"
+    "lkt": {
+        "code": "lkt",
+        "name": "ലഗോത്ത"
     },
     "lo": {
         "code": "lo",
@@ -538,10 +462,6 @@
     "lt": {
         "code": "lt",
         "name": "ലിത്വാനിയൻ"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "ലിംഗാല"
     },
     "lu": {
         "code": "lu",
@@ -571,37 +491,9 @@
         "code": "vi",
         "name": "വിയറ്റ്നാമീസ്"
     },
-    "vun": {
-        "code": "vun",
-        "name": "വുഞ്ജോ"
-    },
     "cy": {
         "code": "cy",
         "name": "വെൽഷ്"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "വൈ"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "ഷംഭാള"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "ഷെരോക്കി"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "ഷോണ"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "സംഗു"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "സംബുരു"
     },
     "sg": {
         "code": "sg",
@@ -626,10 +518,6 @@
     "seh": {
         "code": "seh",
         "name": "സേന"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "സോഗോ"
     },
     "dz": {
         "code": "dz",
@@ -679,6 +567,10 @@
         "code": "hu",
         "name": "ഹംഗേറിയൻ"
     },
+    "haw": {
+        "code": "haw",
+        "name": "ഹവായിയൻ"
+    },
     "hi": {
         "code": "hi",
         "name": "ഹിന്ദി"
@@ -698,10 +590,6 @@
     "rn": {
         "code": "rn",
         "name": "റുണ്ടി"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "റുവാ"
     },
     "rm": {
         "code": "rm",

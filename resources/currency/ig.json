@@ -99,6 +99,10 @@
         "name": "BZD",
         "symbol": "BZD"
     },
+    "CHF": {
+        "name": "CHF",
+        "symbol": "CHF"
+    },
     "CAD": {
         "name": "CAD",
         "symbol": "CA$"
@@ -106,10 +110,6 @@
     "CDF": {
         "name": "CDF",
         "symbol": "CDF"
-    },
-    "CHF": {
-        "name": "CHF",
-        "symbol": "CHF"
     },
     "CLP": {
         "name": "CLP",
@@ -135,10 +135,6 @@
         "name": "CUP",
         "symbol": "CUP"
     },
-    "CVE": {
-        "name": "CVE",
-        "symbol": "CVE"
-    },
     "CZK": {
         "name": "CZK",
         "symbol": "CZK"
@@ -149,7 +145,7 @@
     },
     "DKK": {
         "name": "DKK",
-        "symbol": "kr."
+        "symbol": "DKK"
     },
     "DOP": {
         "name": "DOP",
@@ -167,12 +163,16 @@
         "name": "ERN",
         "symbol": "ERN"
     },
+    "CVE": {
+        "name": "Escudo Caboverdiano",
+        "symbol": "CVE"
+    },
     "ETB": {
         "name": "ETB",
         "symbol": "ETB"
     },
     "EUR": {
-        "name": "euro",
+        "name": "EUR",
         "symbol": "€"
     },
     "FJD": {
@@ -183,17 +183,9 @@
         "name": "FKP",
         "symbol": "FKP"
     },
-    "GBP": {
-        "name": "GBP",
-        "symbol": "£"
-    },
     "GEL": {
         "name": "GEL",
         "symbol": "GEL"
-    },
-    "GHS": {
-        "name": "GHS",
-        "symbol": "GHS"
     },
     "GIP": {
         "name": "GIP",
@@ -214,6 +206,14 @@
     "GYD": {
         "name": "GYD",
         "symbol": "GYD"
+    },
+    "GBP": {
+        "name": "GBP",
+        "symbol": "£"
+    },
+    "GHS": {
+        "name": "GHS",
+        "symbol": "GHS"
     },
     "HKD": {
         "name": "HKD",
@@ -287,17 +287,9 @@
         "name": "KMF",
         "symbol": "KMF"
     },
-    "KPW": {
-        "name": "KPW",
-        "symbol": "KPW"
-    },
     "KRW": {
         "name": "KRW",
         "symbol": "₩"
-    },
-    "KWD": {
-        "name": "KWD",
-        "symbol": "KWD"
     },
     "KYD": {
         "name": "KYD",
@@ -306,6 +298,14 @@
     "KZT": {
         "name": "KZT",
         "symbol": "KZT"
+    },
+    "KPW": {
+        "name": "KPW",
+        "symbol": "KPW"
+    },
+    "KWD": {
+        "name": "KWD",
+        "symbol": "KWD"
     },
     "LAK": {
         "name": "LAK",
@@ -392,8 +392,8 @@
         "symbol": "NAD"
     },
     "NGN": {
-        "name": "NGN",
-        "symbol": "NGN"
+        "name": "Naịra",
+        "symbol": "₦"
     },
     "NIO": {
         "name": "NIO",
@@ -487,10 +487,6 @@
         "name": "SGD",
         "symbol": "SGD"
     },
-    "SHP": {
-        "name": "SHP",
-        "symbol": "SHP"
-    },
     "SLL": {
         "name": "SLL",
         "symbol": "SLL"
@@ -522,6 +518,10 @@
     "SZL": {
         "name": "SZL",
         "symbol": "SZL"
+    },
+    "SHP": {
+        "name": "SHP",
+        "symbol": "SHP"
     },
     "THB": {
         "name": "THB",

@@ -23,10 +23,6 @@
         "code": "ast",
         "name": "阿斯图里亚思特文"
     },
-    "asa": {
-        "code": "asa",
-        "name": "阿苏文"
-    },
     "ee": {
         "code": "ee",
         "name": "埃维文"
@@ -47,9 +43,9 @@
         "code": "or",
         "name": "奥里亚文"
     },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "澳大利亚英文"
+    "om": {
+        "code": "om",
+        "name": "奥洛莫文"
     },
     "ksf": {
         "code": "ksf",
@@ -75,10 +71,6 @@
         "code": "bg",
         "name": "保加利亚文"
     },
-    "nd": {
-        "code": "nd",
-        "name": "北恩德贝勒文"
-    },
     "se": {
         "code": "se",
         "name": "北萨米文"
@@ -90,10 +82,6 @@
     "bez": {
         "code": "bez",
         "name": "贝纳文"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "标准摩洛哥塔马塞特文"
     },
     "is": {
         "code": "is",
@@ -123,10 +111,6 @@
         "code": "br",
         "name": "布里多尼文"
     },
-    "chr": {
-        "code": "chr",
-        "name": "彻罗基文"
-    },
     "da": {
         "code": "da",
         "name": "丹麦文"
@@ -143,14 +127,6 @@
         "code": "ru",
         "name": "俄文"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "恩布文"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "恩艮巴"
-    },
     "fo": {
         "code": "fo",
         "name": "法罗文"
@@ -162,10 +138,6 @@
     "zh-Hant": {
         "code": "zh-Hant",
         "name": "繁体中文"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "菲律宾文"
     },
     "fi": {
         "code": "fi",
@@ -183,13 +155,17 @@
         "code": "ff",
         "name": "夫拉文"
     },
+    "qu": {
+        "code": "qu",
+        "name": "盖丘亚文"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "刚卡尼文"
+    },
     "km": {
         "code": "km",
         "name": "高棉文"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "格陵兰文"
     },
     "ka": {
         "code": "ka",
@@ -198,10 +174,6 @@
     "gu": {
         "code": "gu",
         "name": "古吉拉特文"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "古西文"
     },
     "kk": {
         "code": "kk",
@@ -227,10 +199,6 @@
         "code": "ky",
         "name": "吉尔吉斯文"
     },
-    "ki": {
-        "code": "ki",
-        "name": "吉库尤文"
-    },
     "gl": {
         "code": "gl",
         "name": "加利西亚文"
@@ -238,10 +206,6 @@
     "fr-CA": {
         "code": "fr-CA",
         "name": "加拿大法文"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "加拿大英文"
     },
     "ca": {
         "code": "ca",
@@ -263,14 +227,6 @@
         "code": "kea",
         "name": "卡布佛得鲁文"
     },
-    "kln": {
-        "code": "kln",
-        "name": "卡伦金文"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "卡姆巴文"
-    },
     "kn": {
         "code": "kn",
         "name": "卡纳达文"
@@ -287,9 +243,9 @@
         "code": "ks",
         "name": "克什米尔文"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "夸西奥文"
+    "lkt": {
+        "code": "lkt",
+        "name": "拉科塔文"
     },
     "lv": {
         "code": "lv",
@@ -299,10 +255,6 @@
         "code": "rof",
         "name": "兰博文"
     },
-    "lag": {
-        "code": "lag",
-        "name": "朗吉文"
-    },
     "lo": {
         "code": "lo",
         "name": "老挝文"
@@ -310,10 +262,6 @@
     "lt": {
         "code": "lt",
         "name": "立陶宛文"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "林加拉文"
     },
     "luo": {
         "code": "luo",
@@ -326,6 +274,10 @@
     "lb": {
         "code": "lb",
         "name": "卢森堡文"
+    },
+    "rw": {
+        "code": "rw",
+        "name": "卢旺达文"
     },
     "luy": {
         "code": "luy",
@@ -343,10 +295,6 @@
         "code": "rm",
         "name": "罗曼什文"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "罗瓦文"
-    },
     "mg": {
         "code": "mg",
         "name": "马尔加什文"
@@ -354,10 +302,6 @@
     "mt": {
         "code": "mt",
         "name": "马耳他文"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "马孔德文"
     },
     "mgh": {
         "code": "mgh",
@@ -379,17 +323,9 @@
         "code": "mk",
         "name": "马其顿文"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "马切姆文"
-    },
     "mfe": {
         "code": "mfe",
         "name": "毛里求斯克里奥尔文"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "梅鲁文"
     },
     "mua": {
         "code": "mua",
@@ -431,10 +367,6 @@
         "code": "ne",
         "name": "尼泊尔文"
     },
-    "nus": {
-        "code": "nus",
-        "name": "努埃尔文"
-    },
     "nb": {
         "code": "nb",
         "name": "挪威博克马尔文"
@@ -454,10 +386,6 @@
     "pt": {
         "code": "pt",
         "name": "葡萄牙文"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "普什图文"
     },
     "cgg": {
         "code": "cgg",
@@ -495,17 +423,9 @@
         "code": "seh",
         "name": "塞纳文"
     },
-    "saq": {
-        "code": "saq",
-        "name": "桑布鲁文"
-    },
     "sg": {
         "code": "sg",
         "name": "桑戈文"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "桑古文"
     },
     "si": {
         "code": "si",
@@ -514,10 +434,6 @@
     "hsb": {
         "code": "hsb",
         "name": "上索布文"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "绍纳文"
     },
     "eo": {
         "code": "eo",
@@ -539,10 +455,6 @@
         "code": "gd",
         "name": "苏格兰盖尔文"
     },
-    "xog": {
-        "code": "xog",
-        "name": "索加文"
-    },
     "so": {
         "code": "so",
         "name": "索马里文"
@@ -550,10 +462,6 @@
     "tzm": {
         "code": "tzm",
         "name": "塔马齐格特文"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "台塔文"
     },
     "te": {
         "code": "te",
@@ -571,10 +479,6 @@
         "code": "to",
         "name": "汤加文"
     },
-    "teo": {
-        "code": "teo",
-        "name": "特索文"
-    },
     "ti": {
         "code": "ti",
         "name": "提格里尼亚文"
@@ -587,14 +491,6 @@
         "code": "wae",
         "name": "瓦尔瑟文"
     },
-    "vai": {
-        "code": "vai",
-        "name": "瓦伊文"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "旺杜文"
-    },
     "cy": {
         "code": "cy",
         "name": "威尔士文"
@@ -602,10 +498,6 @@
     "ug": {
         "code": "ug",
         "name": "维吾尔文"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "温旧文"
     },
     "ur": {
         "code": "ur",
@@ -622,10 +514,6 @@
     "he": {
         "code": "he",
         "name": "希伯来文"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "希尔哈文"
     },
     "el": {
         "code": "el",
@@ -647,9 +535,9 @@
         "code": "dsb",
         "name": "下索布文"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "香巴拉文"
+    "haw": {
+        "code": "haw",
+        "name": "夏威夷文"
     },
     "hu": {
         "code": "hu",
@@ -667,6 +555,18 @@
         "code": "yav",
         "name": "洋卞文"
     },
+    "ig": {
+        "code": "ig",
+        "name": "伊布文"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "伊纳里萨米文"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "依地文"
+    },
     "it": {
         "code": "it",
         "name": "意大利文"
@@ -679,14 +579,6 @@
         "code": "id",
         "name": "印度尼西亚文"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "英式英文"
-    },
-    "en": {
-        "code": "en",
-        "name": "英文"
-    },
     "yo": {
         "code": "yo",
         "name": "约鲁巴文"
@@ -694,10 +586,6 @@
     "vi": {
         "code": "vi",
         "name": "越南文"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "藏文"
     },
     "dje": {
         "code": "dje",

@@ -51,10 +51,6 @@
         "code": "ast",
         "name": "asturiano"
     },
-    "asa": {
-        "code": "asa",
-        "name": "asu"
-    },
     "az": {
         "code": "az",
         "name": "azerbaijano"
@@ -135,10 +131,6 @@
         "code": "cs",
         "name": "checo"
     },
-    "chr": {
-        "code": "chr",
-        "name": "cherokee"
-    },
     "cgg": {
         "code": "cgg",
         "name": "chiga"
@@ -159,6 +151,10 @@
         "code": "si",
         "name": "cingalês"
     },
+    "kok": {
+        "code": "kok",
+        "name": "concani"
+    },
     "ko": {
         "code": "ko",
         "name": "coreano"
@@ -174,10 +170,6 @@
     "dz": {
         "code": "dz",
         "name": "dzonga"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "embu"
     },
     "sk": {
         "code": "sk",
@@ -207,17 +199,9 @@
         "code": "ee",
         "name": "ewe"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "ewondo"
-    },
     "fo": {
         "code": "fo",
         "name": "feroês"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "filipino"
     },
     "fi": {
         "code": "fi",
@@ -275,14 +259,6 @@
         "code": "el",
         "name": "grego"
     },
-    "kl": {
-        "code": "kl",
-        "name": "groenlandês"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "gusii"
-    },
     "gu": {
         "code": "gu",
         "name": "guzerate"
@@ -290,6 +266,10 @@
     "ha": {
         "code": "ha",
         "name": "haúça"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "havaiano"
     },
     "he": {
         "code": "he",
@@ -307,25 +287,21 @@
         "code": "hu",
         "name": "húngaro"
     },
+    "ig": {
+        "code": "ig",
+        "name": "igbo"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "iídiche"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "inari sami"
+    },
     "id": {
         "code": "id",
         "name": "indonésio"
-    },
-    "en": {
-        "code": "en",
-        "name": "inglês"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "inglês australiano"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "inglês britânico"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "inglês canadiano"
     },
     "yo": {
         "code": "yo",
@@ -355,17 +331,13 @@
         "code": "kab",
         "name": "kabyle"
     },
-    "kln": {
-        "code": "kln",
-        "name": "kalenjin"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "kamba"
-    },
     "km": {
         "code": "km",
         "name": "khmer"
+    },
+    "rw": {
+        "code": "rw",
+        "name": "kinyarwanda"
     },
     "ksh": {
         "code": "ksh",
@@ -379,13 +351,9 @@
         "code": "ses",
         "name": "koyraboro senni"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "kwasio"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "lacota"
     },
     "lo": {
         "code": "lo",
@@ -394,10 +362,6 @@
     "lv": {
         "code": "lv",
         "name": "letão"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "lingala"
     },
     "lt": {
         "code": "lt",
@@ -422,14 +386,6 @@
     "mk": {
         "code": "mk",
         "name": "macedónio"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "machame"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "maconde"
     },
     "mgh": {
         "code": "mgh",
@@ -459,10 +415,6 @@
         "code": "mas",
         "name": "massai"
     },
-    "mer": {
-        "code": "mer",
-        "name": "meru"
-    },
     "ro-MD": {
         "code": "ro-MD",
         "name": "moldávio"
@@ -483,17 +435,9 @@
         "code": "naq",
         "name": "nama"
     },
-    "nd": {
-        "code": "nd",
-        "name": "ndebele do norte"
-    },
     "ne": {
         "code": "ne",
         "name": "nepali"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "nguemba"
     },
     "nb": {
         "code": "nb",
@@ -503,10 +447,6 @@
         "code": "nn",
         "name": "norueguês nynorsk"
     },
-    "nus": {
-        "code": "nus",
-        "name": "nuer"
-    },
     "nyn": {
         "code": "nyn",
         "name": "nyankole"
@@ -515,13 +455,13 @@
         "code": "or",
         "name": "oriya"
     },
+    "om": {
+        "code": "om",
+        "name": "oromo"
+    },
     "pa": {
         "code": "pa",
         "name": "panjabi"
-    },
-    "ps": {
-        "code": "ps",
-        "name": "pastó"
     },
     "fa": {
         "code": "fa",
@@ -539,9 +479,9 @@
         "code": "pt-PT",
         "name": "português europeu"
     },
-    "ki": {
-        "code": "ki",
-        "name": "quicuio"
+    "qu": {
+        "code": "qu",
+        "name": "quíchua"
     },
     "ky": {
         "code": "ky",
@@ -567,14 +507,6 @@
         "code": "ru",
         "name": "russo"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "rwa"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "samburu"
-    },
     "se": {
         "code": "se",
         "name": "sami do norte"
@@ -583,10 +515,6 @@
         "code": "sg",
         "name": "sango"
     },
-    "sbp": {
-        "code": "sbp",
-        "name": "sangu"
-    },
     "seh": {
         "code": "seh",
         "name": "sena"
@@ -594,18 +522,6 @@
     "sr": {
         "code": "sr",
         "name": "sérvio"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "shambala"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "shona"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "soga"
     },
     "so": {
         "code": "so",
@@ -619,25 +535,13 @@
         "code": "sv",
         "name": "sueco"
     },
-    "shi": {
-        "code": "shi",
-        "name": "tachelhit"
-    },
     "th": {
         "code": "th",
         "name": "tailandês"
     },
-    "dav": {
-        "code": "dav",
-        "name": "taita"
-    },
     "tzm": {
         "code": "tzm",
         "name": "tamazight do Atlas Central"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "tamazight marroquino padrão"
     },
     "ta": {
         "code": "ta",
@@ -650,14 +554,6 @@
     "te": {
         "code": "te",
         "name": "telugu"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "teso"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "tibetano"
     },
     "ti": {
         "code": "ti",
@@ -687,17 +583,9 @@
         "code": "uz",
         "name": "usbeque"
     },
-    "vai": {
-        "code": "vai",
-        "name": "Vai"
-    },
     "vi": {
         "code": "vi",
         "name": "vietnamita"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "vunjo"
     },
     "wae": {
         "code": "wae",

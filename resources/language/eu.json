@@ -47,10 +47,6 @@
         "code": "ast",
         "name": "Asturian"
     },
-    "asa": {
-        "code": "asa",
-        "name": "asua"
-    },
     "az": {
         "code": "az",
         "name": "azerbaijanera"
@@ -131,22 +127,6 @@
         "code": "dz",
         "name": "dzongkha"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "embua"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "en_GB"
-    },
     "rm": {
         "code": "rm",
         "name": "erromantxera"
@@ -194,10 +174,6 @@
     "ee": {
         "code": "ee",
         "name": "eweera"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
     },
     "fo": {
         "code": "fo",
@@ -271,13 +247,13 @@
         "code": "gu",
         "name": "gujaratera"
     },
-    "guz": {
-        "code": "guz",
-        "name": "gusiiera"
-    },
     "ha": {
         "code": "ha",
         "name": "hausa"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "hawaiiera"
     },
     "he": {
         "code": "he",
@@ -291,17 +267,17 @@
         "code": "hu",
         "name": "hungariera"
     },
+    "ig": {
+        "code": "ig",
+        "name": "igboera"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "Inari samiera"
+    },
     "id": {
         "code": "id",
         "name": "indonesiera"
-    },
-    "en": {
-        "code": "en",
-        "name": "ingelesa"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "iparraldeko ndebeleera"
     },
     "se": {
         "code": "se",
@@ -319,21 +295,13 @@
         "code": "ja",
         "name": "japoniera"
     },
+    "yi": {
+        "code": "yi",
+        "name": "Jiddisha"
+    },
     "kab": {
         "code": "kab",
         "name": "kabilera"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "kalaallisutera"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "kalenjinera"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "kambera"
     },
     "kn": {
         "code": "kn",
@@ -355,13 +323,17 @@
         "code": "km",
         "name": "khemerera"
     },
-    "ki": {
-        "code": "ki",
-        "name": "kikuyuera"
+    "rw": {
+        "code": "rw",
+        "name": "kinyaruanda"
     },
     "ky": {
         "code": "ky",
         "name": "kirgizera"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "konkaniera"
     },
     "ko": {
         "code": "ko",
@@ -379,13 +351,9 @@
         "code": "hr",
         "name": "kroaziera"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "kwasiera"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "langiera"
+    "lkt": {
+        "code": "lkt",
+        "name": "lakotera"
     },
     "lo": {
         "code": "lo",
@@ -394,10 +362,6 @@
     "lv": {
         "code": "lv",
         "name": "letoniera"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "lingala"
     },
     "lt": {
         "code": "lt",
@@ -419,17 +383,9 @@
         "code": "lb",
         "name": "luxenburgera"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "machamera"
-    },
     "mgh": {
         "code": "mgh",
         "name": "makhuwa-meettoera"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "makondera"
     },
     "mg": {
         "code": "mg",
@@ -467,10 +423,6 @@
         "code": "mk",
         "name": "mazedoniera"
     },
-    "mer": {
-        "code": "mer",
-        "name": "meruera"
-    },
     "mn": {
         "code": "mn",
         "name": "mongoliera"
@@ -491,14 +443,6 @@
         "code": "ne",
         "name": "nepalera"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "ngomba"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "nuerera"
-    },
     "nn": {
         "code": "nn",
         "name": "nynorsk norvegiera"
@@ -507,9 +451,9 @@
         "code": "or",
         "name": "oriyera"
     },
-    "ps": {
-        "code": "ps",
-        "name": "paxtuera"
+    "om": {
+        "code": "om",
+        "name": "oromoera"
     },
     "fa": {
         "code": "fa",
@@ -531,6 +475,10 @@
         "code": "pa",
         "name": "punjabera"
     },
+    "qu": {
+        "code": "qu",
+        "name": "quechuera"
+    },
     "ro-MD": {
         "code": "ro-MD",
         "name": "ro_MD"
@@ -543,21 +491,9 @@
         "code": "rn",
         "name": "rundiera"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "rwaera"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "samburuera"
-    },
     "sg": {
         "code": "sg",
         "name": "sangoera"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "sanguera"
     },
     "seh": {
         "code": "seh",
@@ -567,21 +503,9 @@
         "code": "sr",
         "name": "serbiera"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "shambalera"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "shonera"
-    },
     "si": {
         "code": "si",
         "name": "sinhala"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "sogera"
     },
     "so": {
         "code": "so",
@@ -595,22 +519,6 @@
         "code": "sw",
         "name": "swahili"
     },
-    "shi": {
-        "code": "shi",
-        "name": "tachelhita"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "tagaloga"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "taitera"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "tamazight estandarra"
-    },
     "ta": {
         "code": "ta",
         "name": "tamilera"
@@ -623,17 +531,9 @@
         "code": "te",
         "name": "teluguera"
     },
-    "teo": {
-        "code": "teo",
-        "name": "tesoera"
-    },
     "th": {
         "code": "th",
         "name": "thailandiera"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "tibetera"
     },
     "ti": {
         "code": "ti",
@@ -650,10 +550,6 @@
     "cs": {
         "code": "cs",
         "name": "txekiera"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "txerokiera"
     },
     "zh": {
         "code": "zh",
@@ -683,17 +579,9 @@
         "code": "uz",
         "name": "uzbekera"
     },
-    "vai": {
-        "code": "vai",
-        "name": "vaiera"
-    },
     "vi": {
         "code": "vi",
         "name": "vietnamera"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "vunjoa"
     },
     "wae": {
         "code": "wae",

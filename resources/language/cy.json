@@ -51,10 +51,6 @@
         "code": "ast",
         "name": "Asturian"
     },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
-    },
     "ksf": {
         "code": "ksf",
         "name": "Baffia"
@@ -107,10 +103,6 @@
         "code": "kea",
         "name": "Caboferdianeg"
     },
-    "kam": {
-        "code": "kam",
-        "name": "Camba"
-    },
     "kk": {
         "code": "kk",
         "name": "Casacheg"
@@ -127,9 +119,17 @@
         "code": "tzm",
         "name": "Central Atlas Tamazight"
     },
+    "rw": {
+        "code": "rw",
+        "name": "Ciniarŵandeg"
+    },
     "ky": {
         "code": "ky",
         "name": "Cirgiseg"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "Concani"
     },
     "ko": {
         "code": "ko",
@@ -167,10 +167,6 @@
         "code": "it",
         "name": "Eidaleg"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embw"
-    },
     "eo": {
         "code": "eo",
         "name": "Esperanto"
@@ -183,14 +179,6 @@
         "code": "ee",
         "name": "Ewe"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "Faieg"
-    },
     "vi": {
         "code": "vi",
         "name": "Fietnameg"
@@ -198,10 +186,6 @@
     "fo": {
         "code": "fo",
         "name": "Ffaröeg"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "Ffilipineg"
     },
     "fi": {
         "code": "fi",
@@ -255,10 +239,6 @@
         "code": "el",
         "name": "Groeg"
     },
-    "guz": {
-        "code": "guz",
-        "name": "Gusii"
-    },
     "gu": {
         "code": "gu",
         "name": "Gwjarati"
@@ -267,9 +247,9 @@
         "code": "ga",
         "name": "Gwyddeleg"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
+    "haw": {
+        "code": "haw",
+        "name": "Hawäieg"
     },
     "ha": {
         "code": "ha",
@@ -286,6 +266,14 @@
     "hu": {
         "code": "hu",
         "name": "Hwngareg"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "Iddew-Almaeneg"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "Igbo"
     },
     "id": {
         "code": "id",
@@ -311,21 +299,9 @@
         "code": "dyo",
         "name": "Jola-Fonyi"
     },
-    "kl": {
-        "code": "kl",
-        "name": "Kalaallisut"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "Kalenjin"
-    },
     "kn": {
         "code": "kn",
         "name": "Kannada"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
     },
     "khq": {
         "code": "khq",
@@ -335,13 +311,9 @@
         "code": "ses",
         "name": "Koyraboro Senni"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "Langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "Lakota"
     },
     "lo": {
         "code": "lo",
@@ -350,10 +322,6 @@
     "lv": {
         "code": "lv",
         "name": "Latfieg"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "Lingala"
     },
     "lt": {
         "code": "lt",
@@ -382,10 +350,6 @@
     "mk": {
         "code": "mk",
         "name": "Macedoneg"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Macondeg"
     },
     "mgh": {
         "code": "mgh",
@@ -419,14 +383,6 @@
         "code": "mas",
         "name": "Masai"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "Matsiame"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "Mêrw"
-    },
     "mn": {
         "code": "mn",
         "name": "Mongoleg"
@@ -442,10 +398,6 @@
     "naq": {
         "code": "naq",
         "name": "Nama"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "Ndebele Gogleddol"
     },
     "ne": {
         "code": "ne",
@@ -463,17 +415,13 @@
         "code": "nn",
         "name": "Norwyeg Nynorsk"
     },
-    "nus": {
-        "code": "nus",
-        "name": "Nŵereg"
-    },
     "or": {
         "code": "or",
         "name": "Oriya"
     },
-    "ps": {
-        "code": "ps",
-        "name": "Pashto"
+    "om": {
+        "code": "om",
+        "name": "Oromo"
     },
     "fa": {
         "code": "fa",
@@ -495,6 +443,10 @@
         "code": "pl",
         "name": "Pwyleg"
     },
+    "qu": {
+        "code": "qu",
+        "name": "Quechua"
+    },
     "rm": {
         "code": "rm",
         "name": "Romaunsch"
@@ -502,10 +454,6 @@
     "rof": {
         "code": "rof",
         "name": "Rombo"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "Rwa"
     },
     "ro": {
         "code": "ro",
@@ -519,37 +467,17 @@
         "code": "ru",
         "name": "Rwseg"
     },
-    "en": {
-        "code": "en",
-        "name": "Saesneg"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Saesneg Awstralia"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Saesneg Canada"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Saesneg Prydain"
-    },
     "sg": {
         "code": "sg",
         "name": "Sango"
     },
-    "sbp": {
-        "code": "sbp",
-        "name": "Sangw"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "Sambŵrw"
-    },
     "se": {
         "code": "se",
         "name": "Sami Gogleddol"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "Sami Inari"
     },
     "es": {
         "code": "es",
@@ -567,14 +495,6 @@
         "code": "sr",
         "name": "Serbeg"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "Shona"
-    },
     "si": {
         "code": "si",
         "name": "Sinhaleg"
@@ -586,10 +506,6 @@
     "sl": {
         "code": "sl",
         "name": "Slofeneg"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
     },
     "so": {
         "code": "so",
@@ -615,18 +531,6 @@
         "code": "zu",
         "name": "Swlw"
     },
-    "shi": {
-        "code": "shi",
-        "name": "Tachelhit"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "Tamazight Safonol Moroco"
-    },
     "ta": {
         "code": "ta",
         "name": "Tamileg"
@@ -638,14 +542,6 @@
     "te": {
         "code": "te",
         "name": "Telugu"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "Teso"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "Tibeteg"
     },
     "ti": {
         "code": "ti",
@@ -671,10 +567,6 @@
         "code": "zh-Hant",
         "name": "Tsieineeg Traddodiadol"
     },
-    "chr": {
-        "code": "chr",
-        "name": "Tsierocî"
-    },
     "tr": {
         "code": "tr",
         "name": "Tyrceg"
@@ -686,10 +578,6 @@
     "ug": {
         "code": "ug",
         "name": "Uighur"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Vunjo"
     },
     "wae": {
         "code": "wae",

@@ -47,10 +47,9 @@ $ignoredLocales = [
     // Valencian differs from its parent only by a single character (è/é).
     'ca-ES-VALENCIA',
     // Those locales are 90% untranslated.
-    'aa', 'as', 'az-Cyrl', 'az-Cyrl-AZ', 'bem', 'dua', 'gv', 'haw', 'ig', 'ii',
-    'kkj', 'kok', 'kw', 'lkt', 'mgo', 'nnh', 'nr', 'nso', 'om', 'os', 'pa-Arab',
-    'pa-Arab-PK', 'qu', 'rw', 'sah', 'smn', 'ss', 'ssy', 'st', 'tg', 'tn', 'ts',
-    'uz-Arab', 'uz-Arab-AF', 've', 'vo', 'xh', 'yi',
+    'as', 'bem', 'bo', 'dua', 'eo', 'gv', 'ii', 'kkj', 'kl', 'kok', 'kw', 'lkt',
+    'mgh', 'mgo', 'mt', 'nnh', 'nus', 'or', 'pa-Arab', 'ps', 'qu', 'rw', 'sah',
+    'uz-Arab',
     // Special "grouping" locales.
     'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
 ];

@@ -75,10 +75,6 @@
         "name": "BOB",
         "symbol": "BOB"
     },
-    "BRL": {
-        "name": "BRL",
-        "symbol": "R$"
-    },
     "BSD": {
         "name": "BSD",
         "symbol": "BSD"
@@ -114,6 +110,10 @@
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
+    },
+    "CNY": {
+        "name": "CNY",
+        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -167,10 +167,6 @@
         "name": "ETB",
         "symbol": "ETB"
     },
-    "EUR": {
-        "name": "EUR",
-        "symbol": "€"
-    },
     "FJD": {
         "name": "FJD",
         "symbol": "FJD"
@@ -178,14 +174,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "GBP",
-        "symbol": "£"
-    },
-    "GEL": {
-        "name": "GEL",
-        "symbol": "GEL"
     },
     "GHS": {
         "name": "GHS",
@@ -238,6 +226,10 @@
     "ILS": {
         "name": "ILS",
         "symbol": "₪"
+    },
+    "INR": {
+        "name": "INR",
+        "symbol": "₹"
     },
     "IQD": {
         "name": "IQD",
@@ -447,10 +439,6 @@
         "name": "RSD",
         "symbol": "RSD"
     },
-    "RUB": {
-        "name": "RUB",
-        "symbol": "RUB"
-    },
     "RWF": {
         "name": "RWF",
         "symbol": "RWF"
@@ -559,10 +547,6 @@
         "name": "UGX",
         "symbol": "UGX"
     },
-    "USD": {
-        "name": "USD",
-        "symbol": "US$"
-    },
     "UYU": {
         "name": "UYU",
         "symbol": "UYU"
@@ -619,12 +603,28 @@
         "name": "ZWL",
         "symbol": "ZWL"
     },
-    "CNY": {
-        "name": "ཡུ་ཨན་",
-        "symbol": "¥"
+    "USD": {
+        "name": "АИШ-ы Доллар",
+        "symbol": "$"
     },
-    "INR": {
-        "name": "རྒྱ་གར་སྒོར་མོ་",
-        "symbol": "₹"
+    "BRL": {
+        "name": "Бразилиаг реал",
+        "symbol": "R$"
+    },
+    "GBP": {
+        "name": "Бритайнаг Фунт",
+        "symbol": "£"
+    },
+    "EUR": {
+        "name": "Евро",
+        "symbol": "€"
+    },
+    "GEL": {
+        "name": "Лар",
+        "symbol": "GEL"
+    },
+    "RUB": {
+        "name": "Сом",
+        "symbol": "RUB"
     }
 }

@@ -35,10 +35,6 @@
         "code": "ast",
         "name": "アストゥリアス語"
     },
-    "asa": {
-        "code": "asa",
-        "name": "アス語"
-    },
     "az": {
         "code": "az",
         "name": "アゼルバイジャン語"
@@ -63,21 +59,25 @@
         "code": "hy",
         "name": "アルメニア語"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "イギリス英語"
-    },
     "it": {
         "code": "it",
         "name": "イタリア語"
     },
+    "yi": {
+        "code": "yi",
+        "name": "イディッシュ語"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "イナリ・サーミ語"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "イボ語"
+    },
     "id": {
         "code": "id",
         "name": "インドネシア語"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "ヴァイ語"
     },
     "wae": {
         "code": "wae",
@@ -103,17 +103,9 @@
         "code": "ur",
         "name": "ウルドゥー語"
     },
-    "vun": {
-        "code": "vun",
-        "name": "ヴンジョ語"
-    },
     "ee": {
         "code": "ee",
         "name": "エウェ語"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "エウォンド語"
     },
     "et": {
         "code": "et",
@@ -123,14 +115,6 @@
         "code": "eo",
         "name": "エスペラント語"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "エンブ語"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "オーストラリア英語"
-    },
     "nl": {
         "code": "nl",
         "name": "オランダ語"
@@ -138,6 +122,10 @@
     "or": {
         "code": "or",
         "name": "オリヤー語"
+    },
+    "om": {
+        "code": "om",
+        "name": "オロモ語"
     },
     "kea": {
         "code": "kea",
@@ -155,10 +143,6 @@
         "code": "ca",
         "name": "カタロニア語"
     },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "カナダ英語"
-    },
     "kab": {
         "code": "kab",
         "name": "カビル語"
@@ -166,10 +150,6 @@
     "gl": {
         "code": "gl",
         "name": "ガリシア語"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "カレンジン語"
     },
     "lg": {
         "code": "lg",
@@ -179,14 +159,6 @@
         "code": "kn",
         "name": "カンナダ語"
     },
-    "kam": {
-        "code": "kam",
-        "name": "カンバ語"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "キクユ語"
-    },
     "el": {
         "code": "el",
         "name": "ギリシャ語"
@@ -194,10 +166,6 @@
     "ky": {
         "code": "ky",
         "name": "キルギス語"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "グシイ語"
     },
     "gu": {
         "code": "gu",
@@ -207,10 +175,6 @@
         "code": "km",
         "name": "クメール語"
     },
-    "kl": {
-        "code": "kl",
-        "name": "グリーンランド語"
-    },
     "ka": {
         "code": "ka",
         "name": "グルジア語"
@@ -219,9 +183,9 @@
         "code": "hr",
         "name": "クロアチア語"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "クワシオ語"
+    "qu": {
+        "code": "qu",
+        "name": "ケチュア語"
     },
     "ksh": {
         "code": "ksh",
@@ -235,29 +199,17 @@
         "code": "ses",
         "name": "コイラボロ・センニ語"
     },
+    "kok": {
+        "code": "kok",
+        "name": "コンカニ語"
+    },
     "dje": {
         "code": "dje",
         "name": "ザルマ語"
     },
-    "sbp": {
-        "code": "sbp",
-        "name": "サング語"
-    },
     "sg": {
         "code": "sg",
         "name": "サンゴ語"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "サンバー語"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "サンブル語"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "ショナ語"
     },
     "dyo": {
         "code": "dyo",
@@ -307,10 +259,6 @@
         "code": "sr",
         "name": "セルビア語"
     },
-    "xog": {
-        "code": "xog",
-        "name": "ソガ語"
-    },
     "so": {
         "code": "so",
         "name": "ソマリ語"
@@ -318,10 +266,6 @@
     "dz": {
         "code": "dz",
         "name": "ゾンカ語"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "タイタ語"
     },
     "th": {
         "code": "th",
@@ -331,14 +275,6 @@
         "code": "twq",
         "name": "タサワク語"
     },
-    "shi": {
-        "code": "shi",
-        "name": "タシルハイト語"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "タマージク語(モロッコ公用語)"
-    },
     "ta": {
         "code": "ta",
         "name": "タミル語"
@@ -347,25 +283,13 @@
         "code": "cs",
         "name": "チェコ語"
     },
-    "chr": {
-        "code": "chr",
-        "name": "チェロキー語"
-    },
     "cgg": {
         "code": "cgg",
         "name": "チガ語"
     },
-    "bo": {
-        "code": "bo",
-        "name": "チベット語"
-    },
     "ti": {
         "code": "ti",
         "name": "ティグリニア語"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "テソ語"
     },
     "te": {
         "code": "te",
@@ -395,10 +319,6 @@
         "code": "nyn",
         "name": "ニャンコレ語"
     },
-    "nus": {
-        "code": "nus",
-        "name": "ヌエル語"
-    },
     "ne": {
         "code": "ne",
         "name": "ネパール語"
@@ -419,10 +339,6 @@
         "code": "bas",
         "name": "バサ語"
     },
-    "ps": {
-        "code": "ps",
-        "name": "パシュトゥー語"
-    },
     "eu": {
         "code": "eu",
         "name": "バスク語"
@@ -430,6 +346,10 @@
     "ksf": {
         "code": "ksf",
         "name": "バフィア語"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "ハワイ語"
     },
     "hu": {
         "code": "hu",
@@ -450,10 +370,6 @@
     "hi": {
         "code": "hi",
         "name": "ヒンディー語"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "フィリピノ語"
     },
     "fi": {
         "code": "fi",
@@ -539,10 +455,6 @@
         "code": "mk",
         "name": "マケドニア語"
     },
-    "kde": {
-        "code": "kde",
-        "name": "マコンデ語"
-    },
     "mas": {
         "code": "mas",
         "name": "マサイ語"
@@ -550,10 +462,6 @@
     "mg": {
         "code": "mg",
         "name": "マダガスカル語"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "マチャメ語"
     },
     "mr": {
         "code": "mr",
@@ -574,10 +482,6 @@
     "mua": {
         "code": "mua",
         "name": "ムンダン語"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "メル語"
     },
     "mfe": {
         "code": "mfe",
@@ -603,21 +507,17 @@
         "code": "lo",
         "name": "ラオ語"
     },
+    "lkt": {
+        "code": "lkt",
+        "name": "ラコタ語"
+    },
     "lv": {
         "code": "lv",
         "name": "ラトビア語"
     },
-    "lag": {
-        "code": "lag",
-        "name": "ランギ語"
-    },
     "lt": {
         "code": "lt",
         "name": "リトアニア語"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "リンガラ語"
     },
     "ro": {
         "code": "ro",
@@ -639,9 +539,9 @@
         "code": "luy",
         "name": "ルヒヤ語"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "ルワ語"
+    "rw": {
+        "code": "rw",
+        "name": "ルワンダ語"
     },
     "rn": {
         "code": "rn",
@@ -658,14 +558,6 @@
     "rof": {
         "code": "rof",
         "name": "ロンボ語"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "ンゴンバ語"
-    },
-    "en": {
-        "code": "en",
-        "name": "英語"
     },
     "zh-Hans": {
         "code": "zh-Hans",
@@ -710,9 +602,5 @@
     "se": {
         "code": "se",
         "name": "北サーミ語"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "北ンデベレ語"
     }
 }
