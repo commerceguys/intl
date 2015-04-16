@@ -1,20 +1,4 @@
 {
-    "en": {
-        "code": "en",
-        "name": "Αγγλικά"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Αγγλικά Αυστραλίας"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Αγγλικά Ηνωμένου Βασιλείου"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Αγγλικά Καναδά"
-    },
     "agq": {
         "code": "agq",
         "name": "Αγκέμ"
@@ -47,10 +31,6 @@
         "code": "hy",
         "name": "Αρμενικά"
     },
-    "asa": {
-        "code": "asa",
-        "name": "Άσου"
-    },
     "ast": {
         "code": "ast",
         "name": "Αστουριανά"
@@ -58,10 +38,6 @@
     "af": {
         "code": "af",
         "name": "Αφρικάανς"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "Βάι"
     },
     "wae": {
         "code": "wae",
@@ -90,10 +66,6 @@
     "bg": {
         "code": "bg",
         "name": "Βουλγαρικά"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Βούντζο"
     },
     "br": {
         "code": "br",
@@ -139,6 +111,10 @@
         "code": "yav",
         "name": "Γιανγκμπέν"
     },
+    "yi": {
+        "code": "yi",
+        "name": "Γίντις"
+    },
     "yo": {
         "code": "yo",
         "name": "Γιορούμπα"
@@ -150,10 +126,6 @@
     "gu": {
         "code": "gu",
         "name": "Γκουγιαράτι"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "Γκούσι"
     },
     "hsb": {
         "code": "hsb",
@@ -179,10 +151,6 @@
         "code": "he",
         "name": "Εβραϊκά"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "Εγουόντο"
-    },
     "gsw": {
         "code": "gsw",
         "name": "Ελβετικά Γερμανικά"
@@ -190,10 +158,6 @@
     "el": {
         "code": "el",
         "name": "Ελληνικά"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "Έμπου"
     },
     "et": {
         "code": "et",
@@ -211,13 +175,17 @@
         "code": "zu",
         "name": "Ζουλού"
     },
-    "bo": {
-        "code": "bo",
-        "name": "Θιβετιανά"
-    },
     "ja": {
         "code": "ja",
         "name": "Ιαπωνικά"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "Ίγκμπο"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "Ινάρι Σάμι"
     },
     "id": {
         "code": "id",
@@ -247,18 +215,6 @@
         "code": "kk",
         "name": "Καζακικά"
     },
-    "kl": {
-        "code": "kl",
-        "name": "Καλαάλισουτ"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "Καλεντζίν"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "Κάμπα"
-    },
     "kab": {
         "code": "kab",
         "name": "Καμπίλε"
@@ -279,17 +235,17 @@
         "code": "ca",
         "name": "Καταλανικά"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Κβάσιο"
-    },
-    "ki": {
-        "code": "ki",
-        "name": "Κικούγιου"
+    "qu": {
+        "code": "qu",
+        "name": "Κετσούα"
     },
     "zh": {
         "code": "zh",
         "name": "Κινεζικά"
+    },
+    "rw": {
+        "code": "rw",
+        "name": "Κινιαρβάντα"
     },
     "khq": {
         "code": "khq",
@@ -303,6 +259,10 @@
         "code": "ksh",
         "name": "Κολωνικά"
     },
+    "kok": {
+        "code": "kok",
+        "name": "Κονκάνι"
+    },
     "ko": {
         "code": "ko",
         "name": "Κορεατικά"
@@ -315,9 +275,9 @@
         "code": "ky",
         "name": "Κυργιζικά"
     },
-    "lag": {
-        "code": "lag",
-        "name": "Λάνγκι"
+    "lkt": {
+        "code": "lkt",
+        "name": "Λακότα"
     },
     "lo": {
         "code": "lo",
@@ -335,10 +295,6 @@
         "code": "lt",
         "name": "Λιθουανικά"
     },
-    "ln": {
-        "code": "ln",
-        "name": "Λινγκάλα"
-    },
     "lu": {
         "code": "lu",
         "name": "Λούμπα-Κατάνγκα"
@@ -354,10 +310,6 @@
     "luy": {
         "code": "luy",
         "name": "Λουχία"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Μακόντε"
     },
     "mgh": {
         "code": "mgh",
@@ -386,14 +338,6 @@
     "mas": {
         "code": "mas",
         "name": "Μασάι"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "Μάχαμε"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "Μερού"
     },
     "mn": {
         "code": "mn",
@@ -439,10 +383,6 @@
         "code": "naq",
         "name": "Νάμα"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Νγκόμπα"
-    },
     "ne": {
         "code": "ne",
         "name": "Νεπάλι"
@@ -459,14 +399,6 @@
         "code": "nn",
         "name": "Νορβηγικά Νινόρσκ"
     },
-    "nus": {
-        "code": "nus",
-        "name": "Νουέρ"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "Ντεμπέλε Βορρά"
-    },
     "dz": {
         "code": "dz",
         "name": "Ντζόνγκχα"
@@ -478,6 +410,10 @@
     "or": {
         "code": "or",
         "name": "Ορίγια"
+    },
+    "om": {
+        "code": "om",
+        "name": "Ορόμο"
     },
     "cy": {
         "code": "cy",
@@ -511,10 +447,6 @@
         "code": "zh-Hant",
         "name": "Παραδοσιακά Κινεζικά"
     },
-    "ps": {
-        "code": "ps",
-        "name": "Πάστο"
-    },
     "fa": {
         "code": "fa",
         "name": "Περσικά"
@@ -539,10 +471,6 @@
         "code": "rof",
         "name": "Ρόμπο"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "Ρουά"
-    },
     "ro": {
         "code": "ro",
         "name": "Ρουμανικά"
@@ -555,21 +483,9 @@
         "code": "ru",
         "name": "Ρωσικά"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Σάμπαλα"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "Σαμπούρου"
-    },
     "sg": {
         "code": "sg",
         "name": "Σάνγκο"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "Σάνγκου"
     },
     "seh": {
         "code": "seh",
@@ -599,10 +515,6 @@
         "code": "sl",
         "name": "Σλοβενικά"
     },
-    "xog": {
-        "code": "xog",
-        "name": "Σόγκα"
-    },
     "so": {
         "code": "so",
         "name": "Σομάλι"
@@ -615,17 +527,9 @@
         "code": "sv",
         "name": "Σουηδικά"
     },
-    "sn": {
-        "code": "sn",
-        "name": "Σχόνα"
-    },
     "th": {
         "code": "th",
         "name": "Ταϊλανδικά"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Τάιτα"
     },
     "tzm": {
         "code": "tzm",
@@ -639,17 +543,9 @@
         "code": "twq",
         "name": "Τασαβάκ"
     },
-    "shi": {
-        "code": "shi",
-        "name": "Τασελχίτ"
-    },
     "te": {
         "code": "te",
         "name": "Τελούγκου"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "Τέσο"
     },
     "dyo": {
         "code": "dyo",
@@ -667,10 +563,6 @@
         "code": "tr",
         "name": "Τουρκικά"
     },
-    "chr": {
-        "code": "chr",
-        "name": "Τσερόκι"
-    },
     "cs": {
         "code": "cs",
         "name": "Τσεχικά"
@@ -679,17 +571,9 @@
         "code": "cgg",
         "name": "Τσίγκα"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "Τυπικά Ταμαζίγκτ Μαρόκου"
-    },
     "fo": {
         "code": "fo",
         "name": "Φαρόε"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "Φιλιππινεζικά"
     },
     "fi": {
         "code": "fi",
@@ -706,6 +590,10 @@
     "fur": {
         "code": "fur",
         "name": "Φριούλιαν"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "Χαβανεζικά"
     },
     "ha": {
         "code": "ha",

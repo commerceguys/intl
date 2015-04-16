@@ -31,10 +31,6 @@
         "code": "ast",
         "name": "Asturian"
     },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
-    },
     "az": {
         "code": "az",
         "name": "Azerbaijani"
@@ -75,10 +71,6 @@
         "code": "brx",
         "name": "Bodo"
     },
-    "en": {
-        "code": "en",
-        "name": "Borɔfo"
-    },
     "bs": {
         "code": "bs",
         "name": "Bosnian"
@@ -98,10 +90,6 @@
     "tzm": {
         "code": "tzm",
         "name": "Central Atlas Tamazight"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "Cherokee"
     },
     "cgg": {
         "code": "cgg",
@@ -135,22 +123,6 @@
         "code": "dz",
         "name": "Dzongkha"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embu"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "en_GB"
-    },
     "es-MX": {
         "code": "es-MX",
         "name": "es_MX"
@@ -167,17 +139,9 @@
         "code": "ee",
         "name": "Ewe"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
     "fo": {
         "code": "fo",
         "name": "Faroese"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "Filipino"
     },
     "fi": {
         "code": "fi",
@@ -223,10 +187,6 @@
         "code": "gu",
         "name": "Gujarati"
     },
-    "guz": {
-        "code": "guz",
-        "name": "Gusii"
-    },
     "de": {
         "code": "de",
         "name": "Gyaaman"
@@ -243,6 +203,10 @@
         "code": "ha",
         "name": "Hausa"
     },
+    "haw": {
+        "code": "haw",
+        "name": "Hawaiian"
+    },
     "he": {
         "code": "he",
         "name": "Hebrew"
@@ -254,6 +218,14 @@
     "is": {
         "code": "is",
         "name": "Icelandic"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "Igbo"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "Inari Sami"
     },
     "id": {
         "code": "id",
@@ -279,18 +251,6 @@
         "code": "kab",
         "name": "Kabyle"
     },
-    "kl": {
-        "code": "kl",
-        "name": "Kalaallisut"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "Kalenjin"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "Kamba"
-    },
     "km": {
         "code": "km",
         "name": "Kambodia kasa"
@@ -307,9 +267,9 @@
         "code": "kk",
         "name": "Kazakh"
     },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
+    "kok": {
+        "code": "kok",
+        "name": "Konkani"
     },
     "ko": {
         "code": "ko",
@@ -323,10 +283,6 @@
         "code": "ses",
         "name": "Koyraboro Senni"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
-    },
     "zh": {
         "code": "zh",
         "name": "Kyaena kasa"
@@ -339,9 +295,9 @@
         "code": "ky",
         "name": "Kyrgyz"
     },
-    "lag": {
-        "code": "lag",
-        "name": "Langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "Lakota"
     },
     "lo": {
         "code": "lo",
@@ -350,10 +306,6 @@
     "lv": {
         "code": "lv",
         "name": "Latvian"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "Lingala"
     },
     "lt": {
         "code": "lt",
@@ -383,17 +335,9 @@
         "code": "mk",
         "name": "Macedonian"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
     "mgh": {
         "code": "mgh",
         "name": "Makhuwa-Meetto"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
     },
     "mg": {
         "code": "mg",
@@ -419,10 +363,6 @@
         "code": "mas",
         "name": "Masai"
     },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
-    },
     "mn": {
         "code": "mn",
         "name": "Mongolian"
@@ -443,17 +383,9 @@
         "code": "ne",
         "name": "Nɛpal kasa"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
     "nl-BE": {
         "code": "nl-BE",
         "name": "nl_BE"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "North Ndebele"
     },
     "se": {
         "code": "se",
@@ -467,10 +399,6 @@
         "code": "nn",
         "name": "Norwegian Nynorsk"
     },
-    "nus": {
-        "code": "nus",
-        "name": "Nuer"
-    },
     "nyn": {
         "code": "nyn",
         "name": "Nyankole"
@@ -479,9 +407,9 @@
         "code": "or",
         "name": "Oriya"
     },
-    "ps": {
-        "code": "ps",
-        "name": "Pashto"
+    "om": {
+        "code": "om",
+        "name": "Oromo"
     },
     "fa": {
         "code": "fa",
@@ -503,9 +431,17 @@
         "code": "pa",
         "name": "Pungyabi kasa"
     },
+    "qu": {
+        "code": "qu",
+        "name": "Quechua"
+    },
     "ru": {
         "code": "ru",
         "name": "Rahyia kasa"
+    },
+    "rw": {
+        "code": "rw",
+        "name": "Rewanda kasa"
     },
     "ro-MD": {
         "code": "ro-MD",
@@ -527,21 +463,9 @@
         "code": "rn",
         "name": "Rundi"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "Rwa"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "Samburu"
-    },
     "sg": {
         "code": "sg",
         "name": "Sango"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "Sangu"
     },
     "gd": {
         "code": "gd",
@@ -555,14 +479,6 @@
         "code": "sr",
         "name": "Serbian"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "Shona"
-    },
     "si": {
         "code": "si",
         "name": "Sinhala"
@@ -575,10 +491,6 @@
         "code": "sl",
         "name": "Slovenian"
     },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
-    },
     "so": {
         "code": "so",
         "name": "Somalia kasa"
@@ -586,10 +498,6 @@
     "es": {
         "code": "es",
         "name": "Spain kasa"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "Standard Moroccan Tamazight"
     },
     "sw": {
         "code": "sw",
@@ -603,17 +511,9 @@
         "code": "gsw",
         "name": "Swiss German"
     },
-    "shi": {
-        "code": "shi",
-        "name": "Tachelhit"
-    },
     "th": {
         "code": "th",
         "name": "Taeland kasa"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
     },
     "ta": {
         "code": "ta",
@@ -627,17 +527,9 @@
         "code": "te",
         "name": "Telugu"
     },
-    "teo": {
-        "code": "teo",
-        "name": "Teso"
-    },
     "tr": {
         "code": "tr",
         "name": "Tɛɛki kasa"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "Tibetan"
     },
     "ti": {
         "code": "ti",
@@ -667,17 +559,9 @@
         "code": "uz",
         "name": "Uzbek"
     },
-    "vai": {
-        "code": "vai",
-        "name": "Vai"
-    },
     "vi": {
         "code": "vi",
         "name": "Viɛtnam kasa"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Vunjo"
     },
     "wae": {
         "code": "wae",
@@ -694,6 +578,10 @@
     "yav": {
         "code": "yav",
         "name": "Yangben"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "Yiddish"
     },
     "yo": {
         "code": "yo",

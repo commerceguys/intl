@@ -3,14 +3,6 @@
         "code": "de-AT",
         "name": "de_AT"
     },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "en_CA"
-    },
     "es-MX": {
         "code": "es-MX",
         "name": "es_MX"
@@ -51,14 +43,6 @@
         "code": "sq",
         "name": "Tiếng An-ba-ni"
     },
-    "en": {
-        "code": "en",
-        "name": "Tiếng Anh"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Tiếng Anh (Anh)"
-    },
     "hy": {
         "code": "hy",
         "name": "Tiếng Armenia"
@@ -66,10 +50,6 @@
     "ast": {
         "code": "ast",
         "name": "Tiếng Asturias"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "Tiếng Asu"
     },
     "az": {
         "code": "az",
@@ -131,10 +111,6 @@
         "code": "ca",
         "name": "Tiếng Catalan"
     },
-    "chr": {
-        "code": "chr",
-        "name": "Tiếng Cherokee"
-    },
     "cgg": {
         "code": "cgg",
         "name": "Tiếng Chiga"
@@ -167,10 +143,6 @@
         "code": "gsw",
         "name": "Tiếng Đức (Thụy Sĩ)"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "Tiếng Embu"
-    },
     "et": {
         "code": "et",
         "name": "Tiếng Estonia"
@@ -178,10 +150,6 @@
     "ee": {
         "code": "ee",
         "name": "Tiếng Ewe"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "Tiếng Ewondo"
     },
     "fo": {
         "code": "fo",
@@ -219,10 +187,6 @@
         "code": "gu",
         "name": "Tiếng Gujarati"
     },
-    "guz": {
-        "code": "guz",
-        "name": "Tiếng Gusii"
-    },
     "nl": {
         "code": "nl",
         "name": "Tiếng Hà Lan"
@@ -238,6 +202,10 @@
     "ha": {
         "code": "ha",
         "name": "Tiếng Hausa"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "Tiếng Hawaii"
     },
     "hi": {
         "code": "hi",
@@ -255,6 +223,14 @@
         "code": "is",
         "name": "Tiếng Iceland"
     },
+    "ig": {
+        "code": "ig",
+        "name": "Tiếng Igbo"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "Tiếng Inari Sami"
+    },
     "id": {
         "code": "id",
         "name": "Tiếng Indonesia"
@@ -270,18 +246,6 @@
     "kab": {
         "code": "kab",
         "name": "Tiếng Kabyle"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "Tiếng Kalaallisut"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "Tiếng Kalenjin"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "Tiếng Kamba"
     },
     "kn": {
         "code": "kn",
@@ -299,9 +263,13 @@
         "code": "km",
         "name": "Tiếng Khơ-me"
     },
-    "ki": {
-        "code": "ki",
-        "name": "Tiếng Kikuyu"
+    "rw": {
+        "code": "rw",
+        "name": "Tiếng Kinyarwanda"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "Tiếng Konkani"
     },
     "khq": {
         "code": "khq",
@@ -311,17 +279,13 @@
         "code": "ses",
         "name": "Tiếng Koyraboro Senni"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Tiếng Kwasio"
-    },
     "ky": {
         "code": "ky",
         "name": "Tiếng Kyrgyz"
     },
-    "lag": {
-        "code": "lag",
-        "name": "Tiếng Langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "Tiếng Lakota"
     },
     "lo": {
         "code": "lo",
@@ -330,10 +294,6 @@
     "lv": {
         "code": "lv",
         "name": "Tiếng Latvia"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "Tiếng Lingala"
     },
     "lt": {
         "code": "lt",
@@ -359,17 +319,9 @@
         "code": "mk",
         "name": "Tiếng Macedonia"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "Tiếng Machame"
-    },
     "mgh": {
         "code": "mgh",
         "name": "Tiếng Makhuwa-Meetto"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Tiếng Makonde"
     },
     "mg": {
         "code": "mg",
@@ -394,10 +346,6 @@
     "mas": {
         "code": "mas",
         "name": "Tiếng Masai"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "Tiếng Meru"
     },
     "my": {
         "code": "my",
@@ -439,10 +387,6 @@
         "code": "naq",
         "name": "Tiếng Nama"
     },
-    "nd": {
-        "code": "nd",
-        "name": "Tiếng Ndebele Miền Bắc"
-    },
     "ne": {
         "code": "ne",
         "name": "Tiếng Nepal"
@@ -451,17 +395,9 @@
         "code": "ru",
         "name": "Tiếng Nga"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Tiếng Ngomba"
-    },
     "ja": {
         "code": "ja",
         "name": "Tiếng Nhật"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "Tiếng Nuer"
     },
     "nyn": {
         "code": "nyn",
@@ -471,9 +407,9 @@
         "code": "or",
         "name": "Tiếng Oriya"
     },
-    "ps": {
-        "code": "ps",
-        "name": "Tiếng Pashto"
+    "om": {
+        "code": "om",
+        "name": "Tiếng Oromo"
     },
     "fr": {
         "code": "fr",
@@ -483,13 +419,13 @@
         "code": "fi",
         "name": "Tiếng Phần Lan"
     },
-    "fil": {
-        "code": "fil",
-        "name": "Tiếng Philipin"
-    },
     "pa": {
         "code": "pa",
         "name": "Tiếng Punjab"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "Tiếng Quechua"
     },
     "eo": {
         "code": "eo",
@@ -511,14 +447,6 @@
         "code": "rn",
         "name": "Tiếng Rundi"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "Tiếng Rwa"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "Tiếng Samburu"
-    },
     "se": {
         "code": "se",
         "name": "Tiếng Sami Miền Bắc"
@@ -526,10 +454,6 @@
     "sg": {
         "code": "sg",
         "name": "Tiếng Sango"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "Tiếng Sangu"
     },
     "cs": {
         "code": "cs",
@@ -543,14 +467,6 @@
         "code": "sr",
         "name": "Tiếng Serbia"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Tiếng Shambala"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "Tiếng Shona"
-    },
     "si": {
         "code": "si",
         "name": "Tiếng Sinhala"
@@ -563,10 +479,6 @@
         "code": "sl",
         "name": "Tiếng Slovenia"
     },
-    "xog": {
-        "code": "xog",
-        "name": "Tiếng Soga"
-    },
     "so": {
         "code": "so",
         "name": "Tiếng Somali"
@@ -574,18 +486,6 @@
     "sw": {
         "code": "sw",
         "name": "Tiếng Swahili"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "Tiếng Tachelhit"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Tiếng Taita"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "Tiếng Tamazight Chuẩn của Ma-rốc"
     },
     "tzm": {
         "code": "tzm",
@@ -603,17 +503,9 @@
         "code": "es",
         "name": "Tiếng Tây Ban Nha"
     },
-    "bo": {
-        "code": "bo",
-        "name": "Tiếng Tây Tạng"
-    },
     "te": {
         "code": "te",
         "name": "Tiếng Telugu"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "Tiếng Teso"
     },
     "th": {
         "code": "th",
@@ -663,17 +555,9 @@
         "code": "uz",
         "name": "Tiếng Uzbek"
     },
-    "vai": {
-        "code": "vai",
-        "name": "Tiếng Vai"
-    },
     "vi": {
         "code": "vi",
         "name": "Tiếng Việt"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Tiếng Vunjo"
     },
     "cy": {
         "code": "cy",
@@ -690,6 +574,10 @@
     "it": {
         "code": "it",
         "name": "Tiếng Ý"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "Tiếng Y-đit"
     },
     "yav": {
         "code": "yav",

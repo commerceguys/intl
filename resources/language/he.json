@@ -7,10 +7,6 @@
         "code": "ee",
         "name": "אווה"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "אוונדו"
-    },
     "uz": {
         "code": "uz",
         "name": "אוזבקית"
@@ -27,6 +23,10 @@
         "code": "ur",
         "name": "אורדו"
     },
+    "om": {
+        "code": "om",
+        "name": "אורומו"
+    },
     "or": {
         "code": "or",
         "name": "אוריה"
@@ -35,9 +35,17 @@
         "code": "az",
         "name": "אזרית"
     },
+    "ig": {
+        "code": "ig",
+        "name": "איגבו"
+    },
     "it": {
         "code": "it",
         "name": "איטלקית"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "אינארי סאמי"
     },
     "id": {
         "code": "id",
@@ -55,33 +63,9 @@
         "code": "sq",
         "name": "אלבנית"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "אמבו"
-    },
     "am": {
         "code": "am",
         "name": "אמהרית"
-    },
-    "en": {
-        "code": "en",
-        "name": "אנגלית"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "אנגלית אוסטרלית"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "אנגלית בריטית"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "אנגלית קנדית"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "אסו"
     },
     "et": {
         "code": "et",
@@ -171,10 +155,6 @@
         "code": "gu",
         "name": "גוג׳ראטית"
     },
-    "guz": {
-        "code": "guz",
-        "name": "גוסי"
-    },
     "gl": {
         "code": "gl",
         "name": "גליציאנית"
@@ -207,6 +187,10 @@
         "code": "ha",
         "name": "האוסה"
     },
+    "haw": {
+        "code": "haw",
+        "name": "הוואית"
+    },
     "dyo": {
         "code": "dyo",
         "name": "הולה-פוניי"
@@ -223,17 +207,9 @@
         "code": "hi",
         "name": "הינדי"
     },
-    "vai": {
-        "code": "vai",
-        "name": "ואי"
-    },
     "wae": {
         "code": "wae",
         "name": "וואלסר"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "וונג׳ו"
     },
     "vi": {
         "code": "vi",
@@ -251,10 +227,6 @@
         "code": "zu",
         "name": "זולו"
     },
-    "dav": {
-        "code": "dav",
-        "name": "טאיטה"
-    },
     "to": {
         "code": "to",
         "name": "טונגן"
@@ -262,10 +234,6 @@
     "tr": {
         "code": "tr",
         "name": "טורקית"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "טיבטית"
     },
     "ti": {
         "code": "ti",
@@ -283,17 +251,9 @@
         "code": "ta",
         "name": "טמילית"
     },
-    "teo": {
-        "code": "teo",
-        "name": "טסו"
-    },
     "twq": {
         "code": "twq",
         "name": "טסוואק"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "טצ׳להיט"
     },
     "yav": {
         "code": "yav",
@@ -307,6 +267,10 @@
         "code": "yo",
         "name": "יורובה"
     },
+    "yi": {
+        "code": "yi",
+        "name": "יידיש"
+    },
     "ja": {
         "code": "ja",
         "name": "יפנית"
@@ -314,10 +278,6 @@
     "lo": {
         "code": "lo",
         "name": "לאית"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "לאנגי"
     },
     "se": {
         "code": "se",
@@ -347,9 +307,9 @@
         "code": "lt",
         "name": "ליטאית"
     },
-    "ln": {
-        "code": "ln",
-        "name": "לינגלה"
+    "lkt": {
+        "code": "lkt",
+        "name": "לקוטה"
     },
     "mas": {
         "code": "mas",
@@ -387,10 +347,6 @@
         "code": "mt",
         "name": "מלטית"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "מצ׳אמה"
-    },
     "mk": {
         "code": "mk",
         "name": "מקדונית"
@@ -399,14 +355,6 @@
         "code": "mgh",
         "name": "מקואה-מיטו"
     },
-    "kde": {
-        "code": "kde",
-        "name": "מקונדה"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "מרו"
-    },
     "mr": {
         "code": "mr",
         "name": "מרטהי"
@@ -414,14 +362,6 @@
     "naq": {
         "code": "naq",
         "name": "נאמה"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "נגומה"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "נואר"
     },
     "nn": {
         "code": "nn",
@@ -438,14 +378,6 @@
     "ne": {
         "code": "ne",
         "name": "נפאלית"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "סאנגו"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "סוגה"
     },
     "sw": {
         "code": "sw",
@@ -487,10 +419,6 @@
         "code": "sk",
         "name": "סלובקית"
     },
-    "saq": {
-        "code": "saq",
-        "name": "סמבורו"
-    },
     "sg": {
         "code": "sg",
         "name": "סנגו"
@@ -523,10 +451,6 @@
         "code": "fo",
         "name": "פארואזית"
     },
-    "ps": {
-        "code": "ps",
-        "name": "פאשטו"
-    },
     "ff": {
         "code": "ff",
         "name": "פולה"
@@ -542,10 +466,6 @@
     "pt-PT": {
         "code": "pt-PT",
         "name": "פורטוגלית אירופאית"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "פיליפינית"
     },
     "fi": {
         "code": "fi",
@@ -579,14 +499,6 @@
         "code": "cs",
         "name": "צ׳כית"
     },
-    "chr": {
-        "code": "chr",
-        "name": "צ׳רוקי"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "צפון נדבלה"
-    },
     "fr": {
         "code": "fr",
         "name": "צרפתית"
@@ -603,21 +515,9 @@
         "code": "kea",
         "name": "קאבוורדיאנו"
     },
-    "kl": {
-        "code": "kl",
-        "name": "קאלאליסוטית"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "קאלנג׳ין"
-    },
     "kab": {
         "code": "kab",
         "name": "קבילה"
-    },
-    "nmg": {
-        "code": "nmg",
-        "name": "קוואסיו"
     },
     "ses": {
         "code": "ses",
@@ -631,6 +531,10 @@
         "code": "ksh",
         "name": "קולוניאן"
     },
+    "kok": {
+        "code": "kok",
+        "name": "קונקאני"
+    },
     "ko": {
         "code": "ko",
         "name": "קוריאנית"
@@ -643,9 +547,9 @@
         "code": "ca",
         "name": "קטלאנית"
     },
-    "ki": {
-        "code": "ki",
-        "name": "קיקויו"
+    "rw": {
+        "code": "rw",
+        "name": "קינירואנדה"
     },
     "ky": {
         "code": "ky",
@@ -655,10 +559,6 @@
         "code": "rn",
         "name": "קירונדי"
     },
-    "kam": {
-        "code": "kam",
-        "name": "קמבה"
-    },
     "km": {
         "code": "km",
         "name": "קמרית"
@@ -667,6 +567,10 @@
         "code": "kn",
         "name": "קנאדה"
     },
+    "qu": {
+        "code": "qu",
+        "name": "קצ׳ואה"
+    },
     "hr": {
         "code": "hr",
         "name": "קרואטית"
@@ -674,10 +578,6 @@
     "ks": {
         "code": "ks",
         "name": "קשמירית"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "רווא"
     },
     "rm": {
         "code": "rm",
@@ -699,20 +599,8 @@
         "code": "sv",
         "name": "שוודית"
     },
-    "sn": {
-        "code": "sn",
-        "name": "שונה"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "שמבאלה"
-    },
     "th": {
         "code": "th",
         "name": "תאית"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "תמזיע׳ת מרוקאית תקנית"
     }
 }

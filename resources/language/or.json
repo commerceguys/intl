@@ -7,10 +7,6 @@
         "code": "de-AT",
         "name": "ଅଷ୍ଟ୍ରିଆନ୍ ଜର୍ମାନ"
     },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "ଅଷ୍ଟ୍ରେଲିଆନ୍ ଇଁରାଜୀ"
-    },
     "is": {
         "code": "is",
         "name": "ଆଇସଲାଣ୍ଡିକ୍"
@@ -43,9 +39,9 @@
         "code": "ast",
         "name": "ଆଷ୍ଟୁରିଆନ୍"
     },
-    "en": {
-        "code": "en",
-        "name": "ଇଂରାଜୀ"
+    "ig": {
+        "code": "ig",
+        "name": "ଇଗ୍ବୋ"
     },
     "it": {
         "code": "it",
@@ -55,6 +51,10 @@
         "code": "id",
         "name": "ଇଣ୍ଡୋନେସିଆନ୍"
     },
+    "smn": {
+        "code": "smn",
+        "name": "ଇନାରୀ ସାମି"
+    },
     "ga": {
         "code": "ga",
         "name": "ଇରିସ୍"
@@ -63,17 +63,9 @@
         "code": "ee",
         "name": "ଇୱେ"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "ଇୱୋଣ୍ଡୋ"
-    },
     "uz": {
         "code": "uz",
         "name": "ଉଜବେକ୍"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "ଉତ୍ତର ନେଡବେଲେ"
     },
     "se": {
         "code": "se",
@@ -99,6 +91,10 @@
         "code": "or",
         "name": "ଓଡ଼ିଆ"
     },
+    "om": {
+        "code": "om",
+        "name": "ଓରୋମୋ"
+    },
     "kn": {
         "code": "kn",
         "name": "କନ୍ନଡ"
@@ -106,10 +102,6 @@
     "kab": {
         "code": "kab",
         "name": "କବାଇଲ୍"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "କମ୍ବା"
     },
     "kk": {
         "code": "kk",
@@ -123,10 +115,6 @@
         "code": "ca",
         "name": "କାଟାଲାନ୍"
     },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "କାନାଡିଆନ୍ ଇଁରାଜୀ"
-    },
     "fr-CA": {
         "code": "fr-CA",
         "name": "କାନାଡିଆନ୍ ଫ୍ରେଞ୍ଚ"
@@ -135,13 +123,17 @@
         "code": "ks",
         "name": "କାଶ୍ମିରୀ"
     },
+    "rw": {
+        "code": "rw",
+        "name": "କିନ୍ୟାରୱାଣ୍ଡା"
+    },
     "ky": {
         "code": "ky",
         "name": "କିରଗିଜ୍"
     },
-    "ki": {
-        "code": "ki",
-        "name": "କୀକୁୟୁ"
+    "kok": {
+        "code": "kok",
+        "name": "କୋନକାନୀ"
     },
     "ko": {
         "code": "ko",
@@ -150,6 +142,10 @@
     "hr": {
         "code": "hr",
         "name": "କ୍ରୋଆଟିଆନ୍"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "କ୍ୱେଚୁଆ"
     },
     "km": {
         "code": "km",
@@ -171,10 +167,6 @@
         "code": "el",
         "name": "ଗ୍ରୀକ୍"
     },
-    "kl": {
-        "code": "kl",
-        "name": "ଗ୍ରୀନଲାଣ୍ଡିକ୍"
-    },
     "zh": {
         "code": "zh",
         "name": "ଚାଇନୀଜ୍"
@@ -182,10 +174,6 @@
     "cs": {
         "code": "cs",
         "name": "ଚେକ୍"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "ଚେରୋକୀ"
     },
     "ka": {
         "code": "ka",
@@ -222,10 +210,6 @@
     "ta": {
         "code": "ta",
         "name": "ତାମିଲ୍"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "ତିବେତାନ୍"
     },
     "tr": {
         "code": "tr",
@@ -279,10 +263,6 @@
         "code": "zh-Hant",
         "name": "ପାରମ୍ପରିକ ଚାଇନୀଜ୍"
     },
-    "ps": {
-        "code": "ps",
-        "name": "ପାସ୍ତୋ"
-    },
     "pl": {
         "code": "pl",
         "name": "ପୋଲିଶ୍"
@@ -294,10 +274,6 @@
     "fi": {
         "code": "fi",
         "name": "ଫିନ୍ନିସ୍"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "ଫିଲିପିନୋ"
     },
     "ff": {
         "code": "ff",
@@ -343,17 +319,9 @@
         "code": "be",
         "name": "ବେଲାରୁଷିଆନ୍"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "ବ୍ରିଟିଶ୍ ଇଁରାଜୀ"
-    },
     "br": {
         "code": "br",
         "name": "ବ୍ରେଟନ୍"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "ଭାଇ"
     },
     "vi": {
         "code": "vi",
@@ -399,6 +367,10 @@
         "code": "ro-MD",
         "name": "ମୋଲଡୋଭିଆନ୍"
     },
+    "yi": {
+        "code": "yi",
+        "name": "ୟିଡିସ୍"
+    },
     "uk": {
         "code": "uk",
         "name": "ୟୁକ୍ରାନିଆନ୍"
@@ -439,10 +411,6 @@
         "code": "lv",
         "name": "ଲାଟଭିଆନ୍"
     },
-    "ln": {
-        "code": "ln",
-        "name": "ଲିଙ୍ଗାଲା"
-    },
     "lt": {
         "code": "lt",
         "name": "ଲିଥୁଆନିଆନ୍"
@@ -462,10 +430,6 @@
     "cy": {
         "code": "cy",
         "name": "ୱେଲ୍ସ"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "ଶୋନା"
     },
     "zh-Hans": {
         "code": "zh-Hans",
@@ -527,6 +491,10 @@
         "code": "hu",
         "name": "ହଙ୍ଗେରିଆନ୍"
     },
+    "haw": {
+        "code": "haw",
+        "name": "ହାୱାଇନ୍"
+    },
     "hi": {
         "code": "hi",
         "name": "ହିନ୍ଦୀ"
@@ -542,10 +510,6 @@
     "agq": {
         "code": "agq",
         "name": "Aghem"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
     },
     "ksf": {
         "code": "ksf",
@@ -571,17 +535,9 @@
         "code": "ksh",
         "name": "Colognian"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embu"
-    },
     "es-MX": {
         "code": "es-MX",
         "name": "es_MX"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "Gusii"
     },
     "dyo": {
         "code": "dyo",
@@ -591,10 +547,6 @@
         "code": "kea",
         "name": "Kabuverdianu"
     },
-    "kln": {
-        "code": "kln",
-        "name": "Kalenjin"
-    },
     "khq": {
         "code": "khq",
         "name": "Koyra Chiini"
@@ -603,33 +555,17 @@
         "code": "ses",
         "name": "Koyraboro Senni"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "Langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "Lakota"
     },
     "luy": {
         "code": "luy",
         "name": "Luyia"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
     "mgh": {
         "code": "mgh",
         "name": "Makhuwa-Meetto"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
     },
     "mfe": {
         "code": "mfe",
@@ -643,65 +579,17 @@
         "code": "naq",
         "name": "Nama"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "Nuer"
-    },
     "rof": {
         "code": "rof",
         "name": "Rombo"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "Rwa"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "Samburu"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "Sangu"
     },
     "seh": {
         "code": "seh",
         "name": "Sena"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "Standard Moroccan Tamazight"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "Tachelhit"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
-    },
     "twq": {
         "code": "twq",
         "name": "Tasawaq"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "Teso"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Vunjo"
     },
     "wae": {
         "code": "wae",

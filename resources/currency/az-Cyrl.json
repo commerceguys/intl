@@ -1,11 +1,11 @@
 {
-    "AFN": {
-        "name": "افغانۍ",
-        "symbol": "؋"
-    },
     "AED": {
         "name": "AED",
         "symbol": "AED"
+    },
+    "AFN": {
+        "name": "AFN",
+        "symbol": "AFN"
     },
     "ALL": {
         "name": "ALL",
@@ -31,13 +31,13 @@
         "name": "AUD",
         "symbol": "A$"
     },
+    "AZN": {
+        "name": "AZN",
+        "symbol": "ман."
+    },
     "AWG": {
         "name": "AWG",
         "symbol": "AWG"
-    },
-    "AZN": {
-        "name": "AZN",
-        "symbol": "AZN"
     },
     "BAM": {
         "name": "BAM",
@@ -87,10 +87,6 @@
         "name": "BTN",
         "symbol": "BTN"
     },
-    "BWP": {
-        "name": "BWP",
-        "symbol": "BWP"
-    },
     "BYR": {
         "name": "BYR",
         "symbol": "BYR"
@@ -98,6 +94,10 @@
     "BZD": {
         "name": "BZD",
         "symbol": "BZD"
+    },
+    "BWP": {
+        "name": "BWP",
+        "symbol": "BWP"
     },
     "CAD": {
         "name": "CAD",
@@ -235,9 +235,29 @@
         "name": "HUF",
         "symbol": "HUF"
     },
+    "XAF": {
+        "name": "XAF",
+        "symbol": "FCFA"
+    },
+    "XCD": {
+        "name": "XCD",
+        "symbol": "EC$"
+    },
+    "XOF": {
+        "name": "XOF",
+        "symbol": "CFA"
+    },
+    "XPF": {
+        "name": "XPF",
+        "symbol": "CFPF"
+    },
     "IDR": {
         "name": "IDR",
         "symbol": "IDR"
+    },
+    "IQD": {
+        "name": "IQD",
+        "symbol": "IQD"
     },
     "ILS": {
         "name": "ILS",
@@ -246,10 +266,6 @@
     "INR": {
         "name": "INR",
         "symbol": "₹"
-    },
-    "IQD": {
-        "name": "IQD",
-        "symbol": "IQD"
     },
     "IRR": {
         "name": "IRR",
@@ -295,10 +311,6 @@
         "name": "KRW",
         "symbol": "₩"
     },
-    "KWD": {
-        "name": "KWD",
-        "symbol": "KWD"
-    },
     "KYD": {
         "name": "KYD",
         "symbol": "KYD"
@@ -306,6 +318,14 @@
     "KZT": {
         "name": "KZT",
         "symbol": "KZT"
+    },
+    "KWD": {
+        "name": "KWD",
+        "symbol": "KWD"
+    },
+    "QAR": {
+        "name": "QAR",
+        "symbol": "QAR"
     },
     "LAK": {
         "name": "LAK",
@@ -343,6 +363,10 @@
         "name": "MGA",
         "symbol": "MGA"
     },
+    "MXN": {
+        "name": "MXN",
+        "symbol": "MX$"
+    },
     "MKD": {
         "name": "MKD",
         "symbol": "MKD"
@@ -371,14 +395,6 @@
         "name": "MVR",
         "symbol": "MVR"
     },
-    "MWK": {
-        "name": "MWK",
-        "symbol": "MWK"
-    },
-    "MXN": {
-        "name": "MXN",
-        "symbol": "MX$"
-    },
     "MYR": {
         "name": "MYR",
         "symbol": "MYR"
@@ -386,6 +402,10 @@
     "MZN": {
         "name": "MZN",
         "symbol": "MZN"
+    },
+    "MWK": {
+        "name": "MWK",
+        "symbol": "MWK"
     },
     "NAD": {
         "name": "NAD",
@@ -442,10 +462,6 @@
     "PYG": {
         "name": "PYG",
         "symbol": "PYG"
-    },
-    "QAR": {
-        "name": "QAR",
-        "symbol": "QAR"
     },
     "RON": {
         "name": "RON",
@@ -551,13 +567,13 @@
         "name": "TTD",
         "symbol": "TTD"
     },
-    "TWD": {
-        "name": "TWD",
-        "symbol": "NT$"
-    },
     "TZS": {
         "name": "TZS",
         "symbol": "TZS"
+    },
+    "TWD": {
+        "name": "TWD",
+        "symbol": "NT$"
     },
     "UAH": {
         "name": "UAH",
@@ -591,26 +607,6 @@
         "name": "VUV",
         "symbol": "VUV"
     },
-    "WST": {
-        "name": "WST",
-        "symbol": "WST"
-    },
-    "XAF": {
-        "name": "XAF",
-        "symbol": "FCFA"
-    },
-    "XCD": {
-        "name": "XCD",
-        "symbol": "EC$"
-    },
-    "XOF": {
-        "name": "XOF",
-        "symbol": "CFA"
-    },
-    "XPF": {
-        "name": "XPF",
-        "symbol": "CFPF"
-    },
     "YER": {
         "name": "YER",
         "symbol": "YER"
@@ -626,5 +622,9 @@
     "ZWL": {
         "name": "ZWL",
         "symbol": "ZWL"
+    },
+    "WST": {
+        "name": "WST",
+        "symbol": "WST"
     }
 }

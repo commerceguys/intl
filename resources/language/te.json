@@ -27,17 +27,9 @@
         "code": "sq",
         "name": "అల్బేనియన్"
     },
-    "asa": {
-        "code": "asa",
-        "name": "అసు"
-    },
     "ast": {
         "code": "ast",
         "name": "అస్టురియాన్"
-    },
-    "en": {
-        "code": "en",
-        "name": "ఆంగ్లం"
     },
     "af": {
         "code": "af",
@@ -47,10 +39,6 @@
         "code": "hy",
         "name": "ఆర్మేనియన్"
     },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "ఆస్ట్రేలియన్ ఇంగ్లీష్"
-    },
     "de-AT": {
         "code": "de-AT",
         "name": "ఆస్ట్రేలియన్ జర్మన్"
@@ -59,13 +47,21 @@
         "code": "id",
         "name": "ఇండోనేషియన్"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "ఇంబు"
+    "ig": {
+        "code": "ig",
+        "name": "ఇగ్బో"
     },
     "it": {
         "code": "it",
         "name": "ఇటాలియన్"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "ఇడ్డిష్"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "ఇనారి సామి"
     },
     "ee": {
         "code": "ee",
@@ -83,10 +79,6 @@
         "code": "uz",
         "name": "ఉజ్బెక్"
     },
-    "nd": {
-        "code": "nd",
-        "name": "ఉత్తర దెబెలె"
-    },
     "se": {
         "code": "se",
         "name": "ఉత్తర సామి"
@@ -98,10 +90,6 @@
     "ur": {
         "code": "ur",
         "name": "ఉర్దూ"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "ఎవోండొ"
     },
     "eo": {
         "code": "eo",
@@ -119,9 +107,9 @@
         "code": "or",
         "name": "ఒరియా"
     },
-    "kam": {
-        "code": "kam",
-        "name": "కంబా"
+    "om": {
+        "code": "om",
+        "name": "ఒరోమో"
     },
     "kk": {
         "code": "kk",
@@ -130,14 +118,6 @@
     "kn": {
         "code": "kn",
         "name": "కన్నడ"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "కలాల్లిసూట్"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "కలెంజిన్"
     },
     "kab": {
         "code": "kab",
@@ -151,9 +131,9 @@
         "code": "ks",
         "name": "కాశ్మీరి"
     },
-    "ki": {
-        "code": "ki",
-        "name": "కికుయు"
+    "rw": {
+        "code": "rw",
+        "name": "కిన్యర్వాండా"
     },
     "ky": {
         "code": "ky",
@@ -163,13 +143,17 @@
         "code": "ca",
         "name": "కెటలాన్"
     },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "కెనడియన్ ఇంగ్లీష్"
-    },
     "fr-CA": {
         "code": "fr-CA",
         "name": "కెనడియెన్ ఫ్రెంచ్"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "కెషుయా"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "కొంకణి"
     },
     "khq": {
         "code": "khq",
@@ -187,10 +171,6 @@
         "code": "hr",
         "name": "క్రొయెషియన్"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "క్వాసియె"
-    },
     "km": {
         "code": "km",
         "name": "ఖ్మేర్"
@@ -203,17 +183,9 @@
         "code": "gu",
         "name": "గుజరాతి"
     },
-    "guz": {
-        "code": "guz",
-        "name": "గుస్సీ"
-    },
     "gl": {
         "code": "gl",
         "name": "గెలిషియన్"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "గోంబా"
     },
     "el": {
         "code": "el",
@@ -222,10 +194,6 @@
     "cs": {
         "code": "cs",
         "name": "చెక్"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "చెరోకీ"
     },
     "zh": {
         "code": "zh",
@@ -275,22 +243,6 @@
         "code": "to",
         "name": "టాంగాన్"
     },
-    "shi": {
-        "code": "shi",
-        "name": "టాచెల్‌హిట్"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "టిబెటన్"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "టెసో"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "టైటా"
-    },
     "nl": {
         "code": "nl",
         "name": "డచ్"
@@ -335,10 +287,6 @@
         "code": "nyn",
         "name": "న్యాన్కోలె"
     },
-    "nus": {
-        "code": "nus",
-        "name": "న్యుర్"
-    },
     "pa": {
         "code": "pa",
         "name": "పంజాబీ"
@@ -351,10 +299,6 @@
         "code": "fy",
         "name": "పశ్చిమ ఫ్రిసియన్"
     },
-    "ps": {
-        "code": "ps",
-        "name": "పాష్టో"
-    },
     "pt": {
         "code": "pt",
         "name": "పోర్చుగీస్"
@@ -363,10 +307,6 @@
         "code": "pl",
         "name": "పోలిష్"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "ప్రామాణిక మొరొకన్ తమజియట్"
-    },
     "fo": {
         "code": "fo",
         "name": "ఫారోయీజ్"
@@ -374,10 +314,6 @@
     "fi": {
         "code": "fi",
         "name": "ఫిన్నిష్"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "ఫిలిపినో"
     },
     "ff": {
         "code": "ff",
@@ -439,10 +375,6 @@
         "code": "bs",
         "name": "బోస్నియన్"
     },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "బ్రిటిష్ ఇంగ్లీష్"
-    },
     "br": {
         "code": "br",
         "name": "బ్రెటన్"
@@ -450,14 +382,6 @@
     "mn": {
         "code": "mn",
         "name": "మంగోలియన్"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "మకొండే"
-    },
-    "jmc": {
-        "code": "jmc",
-        "name": "మకొమ్"
     },
     "mgh": {
         "code": "mgh",
@@ -499,10 +423,6 @@
         "code": "es-MX",
         "name": "మెక్సికన్ స్పానిష్"
     },
-    "mer": {
-        "code": "mer",
-        "name": "మెరు"
-    },
     "mfe": {
         "code": "mfe",
         "name": "మొరిస్యేన్"
@@ -539,13 +459,9 @@
         "code": "ro",
         "name": "రోమానియన్"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "ర్వా"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "లాంగీ"
+    "lkt": {
+        "code": "lkt",
+        "name": "లకొటా"
     },
     "lv": {
         "code": "lv",
@@ -554,10 +470,6 @@
     "lo": {
         "code": "lo",
         "name": "లావో"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "లింగాల"
     },
     "lt": {
         "code": "lt",
@@ -583,41 +495,17 @@
         "code": "dsb",
         "name": "లోవర్ సోర్బియన్"
     },
-    "vai": {
-        "code": "vai",
-        "name": "వాయి"
-    },
     "vi": {
         "code": "vi",
         "name": "వియత్నామీస్"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "వుంజొ"
     },
     "cy": {
         "code": "cy",
         "name": "వెల్ష్"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "శంబాలా"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "షోన"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "సంబురు"
-    },
     "zh-Hans": {
         "code": "zh-Hans",
         "name": "సరళీకృత చైనీస్"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "సాంగు"
     },
     "sg": {
         "code": "sg",
@@ -642,10 +530,6 @@
     "sr": {
         "code": "sr",
         "name": "సెర్బియన్"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "సొగా"
     },
     "so": {
         "code": "so",
@@ -690,6 +574,10 @@
     "hu": {
         "code": "hu",
         "name": "హన్గేరియన్"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "హవాయియన్"
     },
     "hi": {
         "code": "hi",

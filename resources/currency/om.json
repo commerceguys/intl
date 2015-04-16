@@ -76,8 +76,12 @@
         "symbol": "BOB"
     },
     "BRL": {
-        "name": "BRL",
+        "name": "Brazilian Real",
         "symbol": "R$"
+    },
+    "GBP": {
+        "name": "British Pound",
+        "symbol": "£"
     },
     "BSD": {
         "name": "BSD",
@@ -107,17 +111,9 @@
         "name": "CDF",
         "symbol": "CDF"
     },
-    "CHF": {
-        "name": "CHF",
-        "symbol": "CHF"
-    },
     "CLP": {
         "name": "CLP",
         "symbol": "CLP"
-    },
-    "CNY": {
-        "name": "CNY",
-        "symbol": "CN¥"
     },
     "COP": {
         "name": "COP",
@@ -167,12 +163,8 @@
         "name": "ERN",
         "symbol": "ERN"
     },
-    "ETB": {
-        "name": "ETB",
-        "symbol": "ETB"
-    },
     "EUR": {
-        "name": "EUR",
+        "name": "Euro",
         "symbol": "€"
     },
     "FJD": {
@@ -182,10 +174,6 @@
     "FKP": {
         "name": "FKP",
         "symbol": "FKP"
-    },
-    "GBP": {
-        "name": "GBP",
-        "symbol": "£"
     },
     "GEL": {
         "name": "GEL",
@@ -244,7 +232,7 @@
         "symbol": "₪"
     },
     "INR": {
-        "name": "INR",
+        "name": "Indian Rupee",
         "symbol": "₹"
     },
     "IQD": {
@@ -259,6 +247,14 @@
         "name": "ISK",
         "symbol": "ISK"
     },
+    "ETB": {
+        "name": "Itoophiyaa Birrii",
+        "symbol": "Br"
+    },
+    "JPY": {
+        "name": "Japanese Yen",
+        "symbol": "JP¥"
+    },
     "JMD": {
         "name": "JMD",
         "symbol": "JMD"
@@ -267,10 +263,6 @@
         "name": "JOD",
         "symbol": "JOD"
     },
-    "JPY": {
-        "name": "JPY",
-        "symbol": "JP¥"
-    },
     "KES": {
         "name": "KES",
         "symbol": "KES"
@@ -278,10 +270,6 @@
     "KGS": {
         "name": "KGS",
         "symbol": "KGS"
-    },
-    "KHR": {
-        "name": "KHR",
-        "symbol": "KHR"
     },
     "KMF": {
         "name": "KMF",
@@ -385,7 +373,7 @@
     },
     "MZN": {
         "name": "MZN",
-        "symbol": "MTn"
+        "symbol": "MZN"
     },
     "NAD": {
         "name": "NAD",
@@ -427,10 +415,6 @@
         "name": "PGK",
         "symbol": "PGK"
     },
-    "PHP": {
-        "name": "PHP",
-        "symbol": "PHP"
-    },
     "PKR": {
         "name": "PKR",
         "symbol": "PKR"
@@ -456,7 +440,7 @@
         "symbol": "RSD"
     },
     "RUB": {
-        "name": "RUB",
+        "name": "Russian Ruble",
         "symbol": "RUB"
     },
     "RWF": {
@@ -568,7 +552,7 @@
         "symbol": "UGX"
     },
     "USD": {
-        "name": "USD",
+        "name": "US Dollar",
         "symbol": "US$"
     },
     "UYU": {
@@ -626,5 +610,21 @@
     "ZWL": {
         "name": "ZWL",
         "symbol": "ZWL"
+    },
+    "CHF": {
+        "name": "CHF",
+        "symbol": "CHF"
+    },
+    "CNY": {
+        "name": "Chinese Yuan Renminbi",
+        "symbol": "CN¥"
+    },
+    "KHR": {
+        "name": "KHR",
+        "symbol": "KHR"
+    },
+    "PHP": {
+        "name": "PHP",
+        "symbol": "PHP"
     }
 }

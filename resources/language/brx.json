@@ -7,10 +7,6 @@
         "code": "ast",
         "name": "Asturian"
     },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
-    },
     "ksf": {
         "code": "ksf",
         "name": "Bafia"
@@ -31,17 +27,9 @@
         "code": "ksh",
         "name": "Colognian"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embu"
-    },
     "es-MX": {
         "code": "es-MX",
         "name": "es_MX"
-    },
-    "guz": {
-        "code": "guz",
-        "name": "Gusii"
     },
     "dyo": {
         "code": "dyo",
@@ -51,10 +39,6 @@
         "code": "kea",
         "name": "Kabuverdianu"
     },
-    "kln": {
-        "code": "kln",
-        "name": "Kalenjin"
-    },
     "khq": {
         "code": "khq",
         "name": "Koyra Chiini"
@@ -63,33 +47,17 @@
         "code": "ses",
         "name": "Koyraboro Senni"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
-    },
-    "lag": {
-        "code": "lag",
-        "name": "Langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "Lakota"
     },
     "luy": {
         "code": "luy",
         "name": "Luyia"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
     "mgh": {
         "code": "mgh",
         "name": "Makhuwa-Meetto"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
     },
     "mfe": {
         "code": "mfe",
@@ -103,14 +71,6 @@
         "code": "naq",
         "name": "Nama"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "Nuer"
-    },
     "pt-PT": {
         "code": "pt-PT",
         "name": "pt_PT"
@@ -119,53 +79,13 @@
         "code": "rof",
         "name": "Rombo"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "Rwa"
-    },
-    "saq": {
-        "code": "saq",
-        "name": "Samburu"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "Sangu"
-    },
     "seh": {
         "code": "seh",
         "name": "Sena"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "Standard Moroccan Tamazight"
-    },
-    "shi": {
-        "code": "shi",
-        "name": "Tachelhit"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
-    },
     "twq": {
         "code": "twq",
         "name": "Tasawaq"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "Teso"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Vunjo"
     },
     "wae": {
         "code": "wae",
@@ -182,22 +102,6 @@
     "ak": {
         "code": "ak",
         "name": "अकन"
-    },
-    "en": {
-        "code": "en",
-        "name": "अंग्रेज़ी"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "अंग्रेज़ी (ऑस्ट्रेलिया का)"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "अंग्रेज़ी (कनाडाई)"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "अंग्रेजी (ब्रिटिश)"
     },
     "az": {
         "code": "az",
@@ -235,9 +139,17 @@
         "code": "id",
         "name": "इन्डोनेशियन्"
     },
+    "ig": {
+        "code": "ig",
+        "name": "ईग्बो"
+    },
     "it": {
         "code": "it",
         "name": "ईटालियन्"
+    },
+    "smn": {
+        "code": "smn",
+        "name": "ईनारी सामी"
     },
     "ug": {
         "code": "ug",
@@ -255,10 +167,6 @@
         "code": "or",
         "name": "उड़िया"
     },
-    "nd": {
-        "code": "nd",
-        "name": "उत्तर न्दबेले"
-    },
     "se": {
         "code": "se",
         "name": "उत्तरी सामी"
@@ -275,10 +183,6 @@
         "code": "ee",
         "name": "एवे"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "एवौंडो"
-    },
     "eo": {
         "code": "eo",
         "name": "एस्पेरान्तो"
@@ -287,6 +191,10 @@
         "code": "et",
         "name": "ऐस्टोनियन्"
     },
+    "om": {
+        "code": "om",
+        "name": "ओरोमो (अफ़ान)"
+    },
     "kk": {
         "code": "kk",
         "name": "क़ज़ाख़्"
@@ -294,14 +202,6 @@
     "kn": {
         "code": "kn",
         "name": "कन्नड्"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "कंबा"
-    },
-    "kl": {
-        "code": "kl",
-        "name": "कलालीसुत"
     },
     "ks": {
         "code": "ks",
@@ -315,9 +215,9 @@
         "code": "kab",
         "name": "काबील्"
     },
-    "ki": {
-        "code": "ki",
-        "name": "किकुयु"
+    "rw": {
+        "code": "rw",
+        "name": "किन्यारुआण्डा"
     },
     "ky": {
         "code": "ky",
@@ -327,6 +227,10 @@
         "code": "rn",
         "name": "किरून्दी"
     },
+    "kok": {
+        "code": "kok",
+        "name": "कोंकणी"
+    },
     "ko": {
         "code": "ko",
         "name": "कोरीयन्"
@@ -334,6 +238,10 @@
     "hr": {
         "code": "hr",
         "name": "क्रोएशन्"
+    },
+    "qu": {
+        "code": "qu",
+        "name": "क्वेचुआ"
     },
     "km": {
         "code": "km",
@@ -366,10 +274,6 @@
     "zh-Hans": {
         "code": "zh-Hans",
         "name": "चीनी (सरलीकृत)"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "चीरोकी"
     },
     "cs": {
         "code": "cs",
@@ -415,10 +319,6 @@
         "code": "ti",
         "name": "तिग्रीन्या"
     },
-    "bo": {
-        "code": "bo",
-        "name": "तिब्बती"
-    },
     "tr": {
         "code": "tr",
         "name": "तुर्की"
@@ -447,10 +347,6 @@
         "code": "nyn",
         "name": "न्यानकोले"
     },
-    "ps": {
-        "code": "ps",
-        "name": "पख़्तु"
-    },
     "pa": {
         "code": "pa",
         "name": "पंजाबी"
@@ -478,10 +374,6 @@
     "fo": {
         "code": "fo",
         "name": "फिरोज़ी"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "फिलिपिनो"
     },
     "ff": {
         "code": "ff",
@@ -587,6 +479,10 @@
         "code": "ro-MD",
         "name": "मोल्डेवियन्"
     },
+    "yi": {
+        "code": "yi",
+        "name": "यीद्दीश"
+    },
     "uk": {
         "code": "uk",
         "name": "यूक्रेनियन्"
@@ -615,10 +511,6 @@
         "code": "lv",
         "name": "लाटवियन् (लैट्टीश)"
     },
-    "ln": {
-        "code": "ln",
-        "name": "लिंगाला"
-    },
     "lt": {
         "code": "lt",
         "name": "लिथुआनियन्"
@@ -635,10 +527,6 @@
         "code": "lu",
         "name": "लुबा कटांगा"
     },
-    "vai": {
-        "code": "vai",
-        "name": "वाई"
-    },
     "vi": {
         "code": "vi",
         "name": "वियेतनामी"
@@ -646,10 +534,6 @@
     "cy": {
         "code": "cy",
         "name": "वैल्श्"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "शोना"
     },
     "sr": {
         "code": "sr",
@@ -706,6 +590,10 @@
     "hu": {
         "code": "hu",
         "name": "हंगैरीयन्"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "हवाईअन"
     },
     "hi": {
         "code": "hi",

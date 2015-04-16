@@ -39,10 +39,6 @@
         "code": "ast",
         "name": "Astùrais"
     },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
-    },
     "ksf": {
         "code": "ksf",
         "name": "Bafia"
@@ -70,22 +66,6 @@
     "bez": {
         "code": "bez",
         "name": "Bena"
-    },
-    "en": {
-        "code": "en",
-        "name": "Beurla"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "Beurla Astràilia"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "Beurla Bhreatainn"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "Beurla Chanada"
     },
     "vi": {
         "code": "vi",
@@ -123,6 +103,10 @@
         "code": "ks",
         "name": "Caismiris"
     },
+    "haw": {
+        "code": "haw",
+        "name": "Cànan Hawai’i"
+    },
     "kk": {
         "code": "kk",
         "name": "Casachais"
@@ -131,9 +115,9 @@
         "code": "ca",
         "name": "Catalanais"
     },
-    "chr": {
-        "code": "chr",
-        "name": "Cherokee"
+    "qu": {
+        "code": "qu",
+        "name": "Ceatsua"
     },
     "cgg": {
         "code": "cgg",
@@ -187,10 +171,6 @@
         "code": "et",
         "name": "Eastoinis"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "Embu"
-    },
     "eo": {
         "code": "eo",
         "name": "Esperanto"
@@ -199,10 +179,6 @@
         "code": "ee",
         "name": "Ewe"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "Ewondo"
-    },
     "fo": {
         "code": "fo",
         "name": "Fàrothais"
@@ -210,10 +186,6 @@
     "fa": {
         "code": "fa",
         "name": "Farsaidh"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "Filipinis"
     },
     "fi": {
         "code": "fi",
@@ -283,10 +255,6 @@
         "code": "gu",
         "name": "Gujarati"
     },
-    "guz": {
-        "code": "guz",
-        "name": "Gusii"
-    },
     "ha": {
         "code": "ha",
         "name": "Hausa"
@@ -294,6 +262,10 @@
     "hi": {
         "code": "hi",
         "name": "Hindis"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "Igbo"
     },
     "id": {
         "code": "id",
@@ -307,6 +279,10 @@
         "code": "yo",
         "name": "Ioruba"
     },
+    "yi": {
+        "code": "yi",
+        "name": "Iùdhais"
+    },
     "dyo": {
         "code": "dyo",
         "name": "Jola-Fonyi"
@@ -319,25 +295,13 @@
         "code": "kab",
         "name": "Kabyle"
     },
-    "kl": {
-        "code": "kl",
-        "name": "Kalaallisut"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "Kalenjin"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "Kamba"
-    },
     "kn": {
         "code": "kn",
         "name": "Kannada"
     },
-    "ki": {
-        "code": "ki",
-        "name": "Kikuyu"
+    "rw": {
+        "code": "rw",
+        "name": "Kinyarwanda"
     },
     "rn": {
         "code": "rn",
@@ -347,6 +311,10 @@
         "code": "sw",
         "name": "Kiswahili"
     },
+    "kok": {
+        "code": "kok",
+        "name": "Konkani"
+    },
     "khq": {
         "code": "khq",
         "name": "Koyra Chiini"
@@ -355,25 +323,17 @@
         "code": "ses",
         "name": "Koyraboro Senni"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "Kwasio"
-    },
     "lv": {
         "code": "lv",
         "name": "Laitbheis"
     },
-    "lag": {
-        "code": "lag",
-        "name": "Langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "Lakhóta"
     },
     "lo": {
         "code": "lo",
         "name": "Làtho"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "Lingala"
     },
     "lt": {
         "code": "lt",
@@ -399,17 +359,9 @@
         "code": "mas",
         "name": "Maasai"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "Machame"
-    },
     "mgh": {
         "code": "mgh",
         "name": "Makhuwa-Meetto"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "Makonde"
     },
     "mg": {
         "code": "mg",
@@ -435,10 +387,6 @@
         "code": "mk",
         "name": "Masadonais"
     },
-    "mer": {
-        "code": "mer",
-        "name": "Meru"
-    },
     "ro-MD": {
         "code": "ro-MD",
         "name": "Moldobhais"
@@ -459,21 +407,9 @@
         "code": "naq",
         "name": "Nama"
     },
-    "nd": {
-        "code": "nd",
-        "name": "Ndebele Thuathach"
-    },
     "ne": {
         "code": "ne",
         "name": "Neapàilis"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "Ngomba"
-    },
-    "nus": {
-        "code": "nus",
-        "name": "Nuer"
     },
     "nyn": {
         "code": "nyn",
@@ -487,9 +423,9 @@
         "code": "or",
         "name": "Oriya"
     },
-    "ps": {
-        "code": "ps",
-        "name": "Pachtu"
+    "om": {
+        "code": "om",
+        "name": "Oromo"
     },
     "pa": {
         "code": "pa",
@@ -523,25 +459,17 @@
         "code": "rm",
         "name": "Rumains"
     },
-    "rwk": {
-        "code": "rwk",
-        "name": "Rwa"
+    "smn": {
+        "code": "smn",
+        "name": "Sàmais Inari"
     },
     "se": {
         "code": "se",
         "name": "Sàmais Thuathach"
     },
-    "saq": {
-        "code": "saq",
-        "name": "Samburu"
-    },
     "sg": {
         "code": "sg",
         "name": "Sango"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "Sangu"
     },
     "cs": {
         "code": "cs",
@@ -558,14 +486,6 @@
     "seh": {
         "code": "seh",
         "name": "Sena"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "Shambala"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "Shona"
     },
     "si": {
         "code": "si",
@@ -591,10 +511,6 @@
         "code": "sl",
         "name": "Slòbhainis"
     },
-    "xog": {
-        "code": "xog",
-        "name": "Soga"
-    },
     "so": {
         "code": "so",
         "name": "Somàilis"
@@ -619,10 +535,6 @@
         "code": "sv",
         "name": "Suainis"
     },
-    "shi": {
-        "code": "shi",
-        "name": "Tachelhit"
-    },
     "th": {
         "code": "th",
         "name": "Tàidh"
@@ -631,17 +543,9 @@
         "code": "ta",
         "name": "Taimilis"
     },
-    "dav": {
-        "code": "dav",
-        "name": "Taita"
-    },
     "tzm": {
         "code": "tzm",
         "name": "Tamazight Meadhan na h-Atlas"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "Tamazight Stannardach Moroco"
     },
     "twq": {
         "code": "twq",
@@ -650,14 +554,6 @@
     "te": {
         "code": "te",
         "name": "Telugu"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "Teso"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "Tibeitis"
     },
     "ti": {
         "code": "ti",
@@ -690,14 +586,6 @@
     "uz": {
         "code": "uz",
         "name": "Usbagais"
-    },
-    "vai": {
-        "code": "vai",
-        "name": "Vai"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "Vunjo"
     },
     "wae": {
         "code": "wae",

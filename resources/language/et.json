@@ -39,10 +39,6 @@
         "code": "ast",
         "name": "astuuria"
     },
-    "asa": {
-        "code": "asa",
-        "name": "Asu"
-    },
     "ksf": {
         "code": "ksf",
         "name": "bafia"
@@ -107,18 +103,6 @@
         "code": "et",
         "name": "eesti"
     },
-    "ebu": {
-        "code": "ebu",
-        "name": "embu"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "en_CA"
-    },
     "es-MX": {
         "code": "es-MX",
         "name": "es_MX"
@@ -130,14 +114,6 @@
     "ee": {
         "code": "ee",
         "name": "eve"
-    },
-    "ewo": {
-        "code": "ewo",
-        "name": "evondo"
-    },
-    "fil": {
-        "code": "fil",
-        "name": "filipino"
     },
     "nl-BE": {
         "code": "nl-BE",
@@ -179,21 +155,17 @@
         "code": "ka",
         "name": "gruusia"
     },
-    "kl": {
-        "code": "kl",
-        "name": "grööni"
-    },
     "gu": {
         "code": "gu",
         "name": "gudžarati"
     },
-    "guz": {
-        "code": "guz",
-        "name": "gusii"
-    },
     "ha": {
         "code": "ha",
         "name": "hausa"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "havai"
     },
     "he": {
         "code": "he",
@@ -227,21 +199,21 @@
         "code": "hr",
         "name": "horvaadi"
     },
+    "ig": {
+        "code": "ig",
+        "name": "ibo"
+    },
     "ga": {
         "code": "ga",
         "name": "iiri"
     },
+    "smn": {
+        "code": "smn",
+        "name": "inari saami"
+    },
     "id": {
         "code": "id",
         "name": "indoneesia"
-    },
-    "en": {
-        "code": "en",
-        "name": "inglise"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "inglise (Briti)"
     },
     "is": {
         "code": "is",
@@ -254,6 +226,10 @@
     "ja": {
         "code": "ja",
         "name": "jaapani"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "jidiši"
     },
     "dyo": {
         "code": "dyo",
@@ -270,14 +246,6 @@
     "kea": {
         "code": "kea",
         "name": "kabuverdianu"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "kaljenjin"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "kamba"
     },
     "kn": {
         "code": "kn",
@@ -299,17 +267,21 @@
         "code": "tzm",
         "name": "Kesk-Maroko tamazighti"
     },
+    "qu": {
+        "code": "qu",
+        "name": "ketšua"
+    },
     "km": {
         "code": "km",
         "name": "khmeeri"
     },
-    "ki": {
-        "code": "ki",
-        "name": "kikuju"
-    },
     "ky": {
         "code": "ky",
         "name": "kirgiisi"
+    },
+    "kok": {
+        "code": "kok",
+        "name": "konkani"
     },
     "ko": {
         "code": "ko",
@@ -327,17 +299,13 @@
         "code": "el",
         "name": "kreeka"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "kwasio"
-    },
     "cy": {
         "code": "cy",
         "name": "kõmri"
     },
-    "lag": {
-        "code": "lag",
-        "name": "langi"
+    "lkt": {
+        "code": "lkt",
+        "name": "lakota"
     },
     "lo": {
         "code": "lo",
@@ -350,10 +318,6 @@
     "lb": {
         "code": "lb",
         "name": "letseburgi"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "lingala"
     },
     "lu": {
         "code": "lu",
@@ -375,10 +339,6 @@
         "code": "fy",
         "name": "läänefriisi"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "machame"
-    },
     "mk": {
         "code": "mk",
         "name": "makedoonia"
@@ -386,10 +346,6 @@
     "mgh": {
         "code": "mgh",
         "name": "makhuwa-meetto"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "makonde"
     },
     "mg": {
         "code": "mg",
@@ -419,10 +375,6 @@
         "code": "mfe",
         "name": "Mauritiuse kreoolkeel"
     },
-    "mer": {
-        "code": "mer",
-        "name": "meru"
-    },
     "ro-MD": {
         "code": "ro-MD",
         "name": "moldova"
@@ -443,10 +395,6 @@
         "code": "ne",
         "name": "nepali"
     },
-    "jgo": {
-        "code": "jgo",
-        "name": "ngomba"
-    },
     "nyn": {
         "code": "nyn",
         "name": "nkole"
@@ -459,13 +407,13 @@
         "code": "nn",
         "name": "norra nynorsk"
     },
-    "nus": {
-        "code": "nus",
-        "name": "nueri"
-    },
     "or": {
         "code": "or",
         "name": "oria"
+    },
+    "om": {
+        "code": "om",
+        "name": "oromo"
     },
     "pa": {
         "code": "pa",
@@ -487,14 +435,6 @@
         "code": "fr",
         "name": "prantsuse"
     },
-    "ps": {
-        "code": "ps",
-        "name": "puštu"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "põhjandebele"
-    },
     "se": {
         "code": "se",
         "name": "põhjasaami"
@@ -515,6 +455,10 @@
         "code": "sv",
         "name": "rootsi"
     },
+    "rw": {
+        "code": "rw",
+        "name": "ruanda"
+    },
     "ro": {
         "code": "ro",
         "name": "rumeenia"
@@ -522,10 +466,6 @@
     "rn": {
         "code": "rn",
         "name": "rundi"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "rwa"
     },
     "de": {
         "code": "de",
@@ -535,17 +475,9 @@
         "code": "de-CH",
         "name": "saksa (kõrgsaksa)"
     },
-    "saq": {
-        "code": "saq",
-        "name": "samburu"
-    },
     "sg": {
         "code": "sg",
         "name": "sango"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "sangu"
     },
     "seh": {
         "code": "seh",
@@ -554,10 +486,6 @@
     "sr": {
         "code": "sr",
         "name": "serbia"
-    },
-    "ksb": {
-        "code": "ksb",
-        "name": "shambala"
     },
     "si": {
         "code": "si",
@@ -570,10 +498,6 @@
     "sl": {
         "code": "sl",
         "name": "sloveeni"
-    },
-    "xog": {
-        "code": "xog",
-        "name": "soga"
     },
     "so": {
         "code": "so",
@@ -591,10 +515,6 @@
         "code": "zu",
         "name": "suulu"
     },
-    "sn": {
-        "code": "sn",
-        "name": "šona"
-    },
     "gsw": {
         "code": "gsw",
         "name": "šveitsisaksa"
@@ -607,21 +527,9 @@
         "code": "da",
         "name": "taani"
     },
-    "shi": {
-        "code": "shi",
-        "name": "tachelhiti"
-    },
     "th": {
         "code": "th",
         "name": "tai"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "taita"
-    },
-    "zgh": {
-        "code": "zgh",
-        "name": "tamasikti (Maroko)"
     },
     "ta": {
         "code": "ta",
@@ -635,17 +543,9 @@
         "code": "te",
         "name": "telugu"
     },
-    "teo": {
-        "code": "teo",
-        "name": "teso"
-    },
     "ti": {
         "code": "ti",
         "name": "tigrinja"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "tiibeti"
     },
     "to": {
         "code": "to",
@@ -654,10 +554,6 @@
     "cs": {
         "code": "cs",
         "name": "tšehhi"
-    },
-    "chr": {
-        "code": "chr",
-        "name": "tšerokii"
     },
     "tr": {
         "code": "tr",
@@ -683,10 +579,6 @@
         "code": "uz",
         "name": "usbeki"
     },
-    "vai": {
-        "code": "vai",
-        "name": "Vai"
-    },
     "be": {
         "code": "be",
         "name": "valgevene"
@@ -702,10 +594,6 @@
     "vi": {
         "code": "vi",
         "name": "vietnami"
-    },
-    "vun": {
-        "code": "vun",
-        "name": "vunjo"
     },
     "hsb": {
         "code": "hsb",

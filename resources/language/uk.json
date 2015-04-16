@@ -19,14 +19,6 @@
         "code": "am",
         "name": "амхарська"
     },
-    "en": {
-        "code": "en",
-        "name": "англійська"
-    },
-    "en-GB": {
-        "code": "en-GB",
-        "name": "англійська британська"
-    },
     "ar": {
         "code": "ar",
         "name": "арабська"
@@ -34,10 +26,6 @@
     "ast": {
         "code": "ast",
         "name": "астурська"
-    },
-    "asa": {
-        "code": "asa",
-        "name": "асу"
     },
     "af": {
         "code": "af",
@@ -95,10 +83,6 @@
         "code": "nb",
         "name": "букмол (Норвегія)"
     },
-    "vai": {
-        "code": "vai",
-        "name": "ваї"
-    },
     "wae": {
         "code": "wae",
         "name": "Валзерська"
@@ -119,13 +103,13 @@
         "code": "hy",
         "name": "вірменська"
     },
-    "vun": {
-        "code": "vun",
-        "name": "вуньо"
-    },
     "vi": {
         "code": "vi",
         "name": "вʼєтнамська"
+    },
+    "haw": {
+        "code": "haw",
+        "name": "гавайська"
     },
     "gd": {
         "code": "gd",
@@ -159,10 +143,6 @@
         "code": "gu",
         "name": "гуджараті"
     },
-    "guz": {
-        "code": "guz",
-        "name": "гусії"
-    },
     "da": {
         "code": "da",
         "name": "данська"
@@ -183,14 +163,6 @@
         "code": "ee",
         "name": "еве"
     },
-    "ewo": {
-        "code": "ewo",
-        "name": "евондо"
-    },
-    "ebu": {
-        "code": "ebu",
-        "name": "ембу"
-    },
     "eo": {
         "code": "eo",
         "name": "есперанто"
@@ -210,6 +182,14 @@
     "he": {
         "code": "he",
         "name": "іврит"
+    },
+    "ig": {
+        "code": "ig",
+        "name": "ігбо"
+    },
+    "yi": {
+        "code": "yi",
+        "name": "ідиш"
     },
     "id": {
         "code": "id",
@@ -247,18 +227,6 @@
         "code": "kk",
         "name": "казахська"
     },
-    "kl": {
-        "code": "kl",
-        "name": "калааллісут"
-    },
-    "kln": {
-        "code": "kln",
-        "name": "календжин"
-    },
-    "kam": {
-        "code": "kam",
-        "name": "камба"
-    },
     "kn": {
         "code": "kn",
         "name": "каннада"
@@ -271,9 +239,9 @@
         "code": "ks",
         "name": "кашмірська"
     },
-    "nmg": {
-        "code": "nmg",
-        "name": "квазіо"
+    "qu": {
+        "code": "qu",
+        "name": "кечуа"
     },
     "ky": {
         "code": "ky",
@@ -287,9 +255,9 @@
         "code": "cgg",
         "name": "кіга"
     },
-    "ki": {
-        "code": "ki",
-        "name": "кікуйю"
+    "rw": {
+        "code": "rw",
+        "name": "кіньяруанда"
     },
     "khq": {
         "code": "khq",
@@ -303,6 +271,10 @@
         "code": "ksh",
         "name": "колоніан"
     },
+    "kok": {
+        "code": "kok",
+        "name": "конкані"
+    },
     "ko": {
         "code": "ko",
         "name": "корейська"
@@ -311,9 +283,9 @@
         "code": "km",
         "name": "кхмерська"
     },
-    "lag": {
-        "code": "lag",
-        "name": "лангі"
+    "lkt": {
+        "code": "lkt",
+        "name": "лакота"
     },
     "lo": {
         "code": "lo",
@@ -326,10 +298,6 @@
     "lt": {
         "code": "lt",
         "name": "литовська"
-    },
-    "ln": {
-        "code": "ln",
-        "name": "лінгала"
     },
     "lu": {
         "code": "lu",
@@ -354,10 +322,6 @@
     "mk": {
         "code": "mk",
         "name": "македонська"
-    },
-    "kde": {
-        "code": "kde",
-        "name": "маконде"
     },
     "mgh": {
         "code": "mgh",
@@ -387,14 +351,6 @@
         "code": "mas",
         "name": "масаї"
     },
-    "jmc": {
-        "code": "jmc",
-        "name": "мачаме"
-    },
-    "mer": {
-        "code": "mer",
-        "name": "меру"
-    },
     "ro-MD": {
         "code": "ro-MD",
         "name": "молдавська"
@@ -410,14 +366,6 @@
     "naq": {
         "code": "naq",
         "name": "нама"
-    },
-    "jgo": {
-        "code": "jgo",
-        "name": "нгомба"
-    },
-    "nd": {
-        "code": "nd",
-        "name": "ндебелє північна"
     },
     "ne": {
         "code": "ne",
@@ -435,10 +383,6 @@
         "code": "gsw",
         "name": "німецька швейцарська"
     },
-    "nus": {
-        "code": "nus",
-        "name": "нуер"
-    },
     "nyn": {
         "code": "nyn",
         "name": "ньянколе"
@@ -450,6 +394,10 @@
     "or": {
         "code": "or",
         "name": "орія"
+    },
+    "om": {
+        "code": "om",
+        "name": "оромо"
     },
     "pa": {
         "code": "pa",
@@ -471,14 +419,6 @@
         "code": "pt-PT",
         "name": "португальська (Європа)"
     },
-    "ps": {
-        "code": "ps",
-        "name": "пушту"
-    },
-    "rwk": {
-        "code": "rwk",
-        "name": "Рва"
-    },
     "rm": {
         "code": "rm",
         "name": "ретороманська"
@@ -499,21 +439,17 @@
         "code": "rn",
         "name": "рунді"
     },
+    "smn": {
+        "code": "smn",
+        "name": "саамська інарі"
+    },
     "se": {
         "code": "se",
         "name": "саамська північна"
     },
-    "saq": {
-        "code": "saq",
-        "name": "самбуру"
-    },
     "sg": {
         "code": "sg",
         "name": "санго"
-    },
-    "sbp": {
-        "code": "sbp",
-        "name": "сангу"
     },
     "seh": {
         "code": "seh",
@@ -535,25 +471,13 @@
         "code": "sl",
         "name": "словенська"
     },
-    "xog": {
-        "code": "xog",
-        "name": "сога"
-    },
     "so": {
         "code": "so",
         "name": "сомалі"
     },
-    "zgh": {
-        "code": "zgh",
-        "name": "стандартна марокканська берберська"
-    },
     "sw": {
         "code": "sw",
         "name": "суахілі"
-    },
-    "dav": {
-        "code": "dav",
-        "name": "таіта"
     },
     "th": {
         "code": "th",
@@ -567,21 +491,9 @@
         "code": "twq",
         "name": "тасавак"
     },
-    "shi": {
-        "code": "shi",
-        "name": "тачеліт"
-    },
     "te": {
         "code": "te",
         "name": "телугу"
-    },
-    "teo": {
-        "code": "teo",
-        "name": "тесо"
-    },
-    "bo": {
-        "code": "bo",
-        "name": "тибетська"
     },
     "ti": {
         "code": "ti",
@@ -619,10 +531,6 @@
         "code": "fo",
         "name": "фарерська"
     },
-    "fil": {
-        "code": "fil",
-        "name": "філіппінська"
-    },
     "fi": {
         "code": "fi",
         "name": "фінська"
@@ -655,25 +563,13 @@
         "code": "tzm",
         "name": "центральномароканська тамазіт"
     },
-    "chr": {
-        "code": "chr",
-        "name": "черокі"
-    },
     "cs": {
         "code": "cs",
         "name": "чеська"
     },
-    "ksb": {
-        "code": "ksb",
-        "name": "шамбала"
-    },
     "sv": {
         "code": "sv",
         "name": "шведська"
-    },
-    "sn": {
-        "code": "sn",
-        "name": "шона"
     },
     "yav": {
         "code": "yav",
@@ -686,14 +582,6 @@
     "de-AT": {
         "code": "de-AT",
         "name": "de_AT"
-    },
-    "en-AU": {
-        "code": "en-AU",
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "code": "en-CA",
-        "name": "en_CA"
     },
     "es-MX": {
         "code": "es-MX",
