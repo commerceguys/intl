@@ -12,6 +12,7 @@ $enCountries = $localeDirectory . 'en/territories.json';
 // Downloaded from https://github.com/unicode-cldr/cldr-core.git
 $codeMappings = '../assets/cldr-core/supplemental/codeMappings.json';
 $telephoneCodeData = '../assets/cldr-core/supplemental/telephoneCodeData.json';
+$currencyData = '../assets/cldr-core/supplemental/currencyData.json';
 if (!file_exists($enCountries)) {
     die("The $enCountries file was not found");
 }
@@ -20,6 +21,9 @@ if (!file_exists($codeMappings)) {
 }
 if (!file_exists($telephoneCodeData)) {
     die("The $telephoneCodeData file was not found");
+}
+if (!file_exists($currencyData)) {
+    die("The $currencyData file was not found");
 }
 if (!function_exists('collator_create')) {
     // Reimplementing intl's collator would be a huge undertaking, so we
@@ -58,6 +62,8 @@ $telephoneCodeData = json_decode(file_get_contents($telephoneCodeData), true);
 $telephoneCodeData = $telephoneCodeData['supplemental']['telephoneCodeData'];
 $codeMappings = json_decode(file_get_contents($codeMappings), true);
 $codeMappings = $codeMappings['supplemental']['codeMappings'];
+$currencyData = json_decode(file_get_contents($currencyData), true);
+$currencyData = $currencyData['supplemental']['currencyData'];
 $countryData = json_decode(file_get_contents($enCountries), true);
 $countryData = $countryData['main']['en']['localeDisplayNames']['territories'];
 $baseData = [];
@@ -89,6 +95,12 @@ foreach ($countryData as $countryCode => $countryName) {
         $baseData[$countryCode]['telephone_code'] = $telephoneCodeData['RS'][0]['telephoneCountryCode'];
     } elseif (isset($telephoneCodeData[$countryCode])) {
         $baseData[$countryCode]['telephone_code'] = $telephoneCodeData[$countryCode][0]['telephoneCountryCode'];
+    }
+
+    // Determine the current currency for this country.
+    if (isset($currencyData['region'][$countryCode])) {
+        $currentCurrency = key(end($currencyData['region'][$countryCode]));
+        $baseData[$countryCode]['currency'] = $currentCurrency;
     }
 }
 
