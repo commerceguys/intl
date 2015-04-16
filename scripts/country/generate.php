@@ -100,7 +100,7 @@ foreach ($countryData as $countryCode => $countryName) {
     // Determine the current currency for this country.
     if (isset($currencyData['region'][$countryCode])) {
         $currentCurrency = key(end($currencyData['region'][$countryCode]));
-        $baseData[$countryCode]['currency'] = $currentCurrency;
+        $baseData[$countryCode]['currency_code'] = $currentCurrency;
     }
 }
 
