@@ -40,6 +40,13 @@ class Country implements CountryInterface
     protected $telephoneCode;
 
     /**
+     * The country currency code.
+     *
+     * @var string
+     */
+    protected $currencyCode;
+
+    /**
      * The country locale (i.e. "en_US").
      *
      * The country name is locale specific.
@@ -144,6 +151,24 @@ class Country implements CountryInterface
     public function setTelephoneCode($telephoneCode)
     {
         $this->telephoneCode = $telephoneCode;
+
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getCurrencyCode()
+    {
+        return $this->currencyCode;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setCurrencyCode($currencyCode)
+    {
+        $this->currencyCode = $currencyCode;
 
         return $this;
     }

@@ -72,6 +72,16 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers ::getCurrencyCode
+     * @covers ::setCurrencyCode
+     */
+    public function testCurrencyCode()
+    {
+        $this->country->setCurrencyCode('USD');
+        $this->assertEquals('USD', $this->country->getCurrencyCode());
+    }
+
+    /**
      * @covers ::getLocale
      * @covers ::setLocale
      */

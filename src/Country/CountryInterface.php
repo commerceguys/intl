@@ -96,4 +96,21 @@ interface CountryInterface
      * @param string $telephoneCode The telephone code.
      */
     public function setTelephoneCode($telephoneCode);
+
+    /**
+     * Gets the country currency code.
+     *
+     * The currency code is the default currency code for a country.
+     * It is represented in the ISO 4217 format.
+     *
+     * @return string|null
+     */
+    public function getCurrencyCode();
+
+    /**
+     * Sets the country currency code.
+     *
+     * @param string $currencyCode The currency code.
+     */
+    public function setCurrencyCode($currencyCode);
 }
