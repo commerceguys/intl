@@ -60,6 +60,21 @@ class LanguageRepository implements LanguageRepositoryInterface
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function getList($locale = null, $fallbackLocale = null)
+    {
+        $locale = $this->resolveLocale($locale, $fallbackLocale);
+        $definitions = $this->loadDefinitions($locale);
+        $list = [];
+        foreach ($definitions as $languageCode => $definition) {
+            $list[$languageCode] = $definition['name'];
+        }
+
+        return $list;
+    }
+
+    /**
      * Loads the language definitions for the provided locale.
      *
      * @param string $locale The desired locale.

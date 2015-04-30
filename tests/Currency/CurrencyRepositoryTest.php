@@ -110,4 +110,17 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('USD', $currencies['USD']->getCurrencyCode());
         $this->assertEquals('EUR', $currencies['EUR']->getCurrencyCode());
     }
+
+    /**
+     * @covers ::getList
+     * @covers ::loadDefinitions
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @depends testConstructor
+     */
+    public function testGetList($currencyRepository)
+    {
+        $list = $currencyRepository->getList();
+        $expectedList = ['EUR' => 'Euro', 'USD' => 'US Dollar'];
+        $this->assertEquals($expectedList, $list);
+    }
 }

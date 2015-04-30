@@ -114,4 +114,17 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('FR', $countries['FR']->getCountryCode());
         $this->assertEquals('US', $countries['US']->getCountryCode());
     }
+
+    /**
+     * @covers ::getList
+     * @covers ::loadDefinitions
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @depends testConstructor
+     */
+    public function testGetList($countryRepository)
+    {
+        $list = $countryRepository->getList();
+        $expectedList = ['FR' => 'France', 'US' => 'United States'];
+        $this->assertEquals($expectedList, $list);
+    }
 }

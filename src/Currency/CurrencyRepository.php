@@ -70,6 +70,21 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function getList($locale = null, $fallbackLocale = null)
+    {
+        $locale = $this->resolveLocale($locale, $fallbackLocale);
+        $definitions = $this->loadDefinitions($locale);
+        $list = [];
+        foreach ($definitions as $currencyCode => $definition) {
+            $list[$currencyCode] = $definition['name'];
+        }
+
+        return $list;
+    }
+
+    /**
      * Loads the currency definitions for the provided locale.
      *
      * @param string $locale The desired locale.

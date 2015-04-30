@@ -70,6 +70,21 @@ class CountryRepository implements CountryRepositoryInterface
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function getList($locale = null, $fallbackLocale = null)
+    {
+        $locale = $this->resolveLocale($locale, $fallbackLocale);
+        $definitions = $this->loadDefinitions($locale);
+        $list = [];
+        foreach ($definitions as $countryCode => $definition) {
+            $list[$countryCode] = $definition['name'];
+        }
+
+        return $list;
+    }
+
+    /**
      * Loads the country definitions for the provided locale.
      *
      * @param string $locale The desired locale.

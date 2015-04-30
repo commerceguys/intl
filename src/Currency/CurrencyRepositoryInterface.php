@@ -19,7 +19,7 @@ interface CurrencyRepositoryInterface
     public function get($currencyCode, $locale = null, $fallbackLocale = null);
 
     /**
-     * Returns all available currency instances.
+     * Returns all currency instances.
      *
      * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
@@ -28,4 +28,14 @@ interface CurrencyRepositoryInterface
      *               keyed by currency code.
      */
     public function getAll($locale = null, $fallbackLocale = null);
+
+    /**
+     * Returns a list of currencies.
+     *
+     * @param string $locale         The locale (i.e. fr-FR).
+     * @param string $fallbackLocale A fallback locale (i.e "en").
+     *
+     * @return array An array of currency names, keyed by currency code.
+     */
+    public function getList($locale = null, $fallbackLocale = null);
 }

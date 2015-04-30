@@ -89,4 +89,17 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('en', $languages['en']->getLanguageCode());
         $this->assertEquals('fr', $languages['fr']->getLanguageCode());
     }
+
+    /**
+     * @covers ::getList
+     * @covers ::loadDefinitions
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @depends testConstructor
+     */
+    public function testGetList($languageRepository)
+    {
+        $list = $languageRepository->getList();
+        $expectedList = ['en' => 'English', 'fr' => 'French'];
+        $this->assertEquals($expectedList, $list);
+    }
 }

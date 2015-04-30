@@ -19,7 +19,7 @@ interface CountryRepositoryInterface
     public function get($countryCode, $locale = null, $fallbackLocale = null);
 
     /**
-     * Returns all available country instances.
+     * Returns all country instances.
      *
      * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
@@ -28,4 +28,14 @@ interface CountryRepositoryInterface
      *               keyed by country code.
      */
     public function getAll($locale = null, $fallbackLocale = null);
+
+    /**
+     * Returns a list of countries.
+     *
+     * @param string $locale         The locale (i.e. fr-FR).
+     * @param string $fallbackLocale A fallback locale (i.e "en").
+     *
+     * @return array An array of country names, keyed by country code.
+     */
+    public function getList($locale = null, $fallbackLocale = null);
 }
