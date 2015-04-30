@@ -102,9 +102,12 @@ class LanguageRepository implements LanguageRepositoryInterface
     protected function createLanguageFromDefinition(array $definition, $locale)
     {
         $language = new Language();
-        $language->setLanguageCode($definition['code']);
-        $language->setName($definition['name']);
-        $language->setLocale($locale);
+        $setValues = \Closure::bind(function ($definition, $locale) {
+            $this->languageCode = $definition['code'];
+            $this->name = $definition['name'];
+            $this->locale = $locale;
+        }, $language, '\CommerceGuys\Intl\Language\Language');
+        $setValues($definition, $locale);
 
         return $language;
     }

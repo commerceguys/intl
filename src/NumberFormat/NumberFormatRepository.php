@@ -70,17 +70,20 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
         }
 
         $numberFormat = new NumberFormat();
-        $numberFormat->setLocale($locale);
-        $numberFormat->setNumberingSystem($definition['numbering_system']);
-        $numberFormat->setDecimalSeparator($definition['decimal_separator']);
-        $numberFormat->setGroupingSeparator($definition['grouping_separator']);
-        $numberFormat->setPlusSign($definition['plus_sign']);
-        $numberFormat->setMinusSign($definition['minus_sign']);
-        $numberFormat->setPercentSign($definition['percent_sign']);
-        $numberFormat->setDecimalPattern($definition['decimal_pattern']);
-        $numberFormat->setPercentPattern($definition['percent_pattern']);
-        $numberFormat->setCurrencyPattern($definition['currency_pattern']);
-        $numberFormat->setAccountingCurrencyPattern($definition['accounting_currency_pattern']);
+        $setValues = \Closure::bind(function ($definition, $locale) {
+            $this->locale = $locale;
+            $this->numberingSystem = $definition['numbering_system'];
+            $this->decimalSeparator = $definition['decimal_separator'];
+            $this->groupingSeparator = $definition['grouping_separator'];
+            $this->plusSign = $definition['plus_sign'];
+            $this->minusSign = $definition['minus_sign'];
+            $this->percentSign = $definition['percent_sign'];
+            $this->decimalPattern = $definition['decimal_pattern'];
+            $this->percentPattern = $definition['percent_pattern'];
+            $this->currencyPattern = $definition['currency_pattern'];
+            $this->accountingCurrencyPattern = $definition['accounting_currency_pattern'];
+        }, $numberFormat, '\CommerceGuys\Intl\NumberFormat\NumberFormat');
+        $setValues($definition, $locale);
 
         return $numberFormat;
     }

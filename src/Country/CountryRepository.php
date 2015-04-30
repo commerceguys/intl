@@ -121,21 +121,24 @@ class CountryRepository implements CountryRepositoryInterface
     protected function createCountryFromDefinition(array $definition, $locale)
     {
         $country = new Country();
-        $country->setCountryCode($definition['code']);
-        $country->setName($definition['name']);
-        $country->setLocale($locale);
-        if (isset($definition['three_letter_code'])) {
-            $country->setThreeLetterCode($definition['three_letter_code']);
-        }
-        if (isset($definition['numeric_code'])) {
-            $country->setNumericCode($definition['numeric_code']);
-        }
-        if (isset($definition['telephone_code'])) {
-            $country->setTelephoneCode($definition['telephone_code']);
-        }
-        if (isset($definition['currency_code'])) {
-            $country->setCurrencyCode($definition['currency_code']);
-        }
+        $setValues = \Closure::bind(function ($definition, $locale) {
+            $this->countryCode = $definition['code'];
+            $this->name = $definition['name'];
+            $this->locale = $locale;
+            if (isset($definition['three_letter_code'])) {
+                $this->threeLetterCode = $definition['three_letter_code'];
+            }
+            if (isset($definition['numeric_code'])) {
+                $this->numericCode = $definition['numeric_code'];
+            }
+            if (isset($definition['telephone_code'])) {
+                $this->telephoneCode = $definition['telephone_code'];
+            }
+            if (isset($definition['currency_code'])) {
+                $this->currencyCode = $definition['currency_code'];
+            }
+        }, $country, '\CommerceGuys\Intl\Country\Country');
+        $setValues($definition, $locale);
 
         return $country;
     }

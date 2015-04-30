@@ -125,12 +125,15 @@ class CurrencyRepository implements CurrencyRepositoryInterface
         }
 
         $currency = new Currency();
-        $currency->setCurrencyCode($definition['code']);
-        $currency->setName($definition['name']);
-        $currency->setNumericCode($definition['numeric_code']);
-        $currency->setFractionDigits($definition['fraction_digits']);
-        $currency->setSymbol($definition['symbol']);
-        $currency->setLocale($locale);
+        $setValues = \Closure::bind(function ($definition, $locale) {
+            $this->currencyCode = $definition['code'];
+            $this->name = $definition['name'];
+            $this->numericCode = $definition['numeric_code'];
+            $this->symbol = $definition['symbol'];
+            $this->fractionDigits = $definition['fraction_digits'];
+            $this->locale = $locale;
+        }, $currency, '\CommerceGuys\Intl\Currency\Currency');
+        $setValues($definition, $locale);
 
         return $currency;
     }
