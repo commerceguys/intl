@@ -32,11 +32,8 @@ trait LocaleResolverTrait
      */
     protected function resolveLocale($locale = null, $fallbackLocale = null)
     {
-        if (is_null($locale)) {
-            // Use the default locale if none was provided.
-            // @todo Provide a way to override this.
-            $locale = 'en';
-        }
+        // Use the default locale if none was provided.
+        $locale = $locale ?: $this->getDefaultLocale();
         // Normalize the locale. Allows en_US to work the same as en-US, etc.
         $locale = str_replace('_', '-', $locale);
         // List all possible variants (i.e. en-US gives "en-US" and "en").
@@ -64,7 +61,17 @@ trait LocaleResolverTrait
     }
 
     /**
-     * Returns all variants of a locale.
+     * Gets the default locale.
+     *
+     * @return string The default locale.
+     */
+    protected function getDefaultLocale()
+    {
+        return 'en';
+    }
+
+    /**
+     * Gets all variants of a locale.
      *
      * For example, "bs-Cyrl-BA" has the following variants:
      * 1) bs-Cyrl-BA

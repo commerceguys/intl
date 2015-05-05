@@ -16,7 +16,7 @@ class DummyRepository
         $this->definitionPath = 'vfs://resources/dummy/';
     }
 
-    public function runResolveLocale($locale, $fallbackLocale = null)
+    public function runResolveLocale($locale = null, $fallbackLocale = null)
     {
         return $this->resolveLocale($locale, $fallbackLocale);
     }

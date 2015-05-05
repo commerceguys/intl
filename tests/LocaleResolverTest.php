@@ -27,6 +27,7 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::resolveLocale
+     * @covers ::getDefaultLocale
      * @covers ::getLocaleVariants
      */
     public function testLocaleFallback()
@@ -36,6 +37,8 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
         $locale = $this->repository->runResolveLocale('bs-Latn-BA');
         $this->assertEquals('bs', $locale);
         $locale = $this->repository->runResolveLocale('de', 'en');
+        $this->assertEquals('en', $locale);
+        $locale = $this->repository->runResolveLocale();
         $this->assertEquals('en', $locale);
     }
 
