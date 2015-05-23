@@ -3,7 +3,6 @@
 /**
  * Generates the json files stored in resources/country.
  */
-
 set_time_limit(0);
 
 // Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
@@ -31,7 +30,7 @@ if (!function_exists('collator_create')) {
     die('The intl extension was not found.');
 }
 if (!is_dir($localeDirectory)) {
-  die("The $localeDirectory directory was not found");
+    die("The $localeDirectory directory was not found");
 }
 
 $ignoredCountries = [
@@ -71,7 +70,7 @@ foreach ($countryData as $countryCode => $countryName) {
         // Ignore continents, regions, uninhabited islands.
         continue;
     }
-    if (strpos($countryCode, '-alt-') !== FALSE) {
+    if (strpos($countryCode, '-alt-') !== false) {
         // Ignore alternative names.
         continue;
     }
@@ -145,7 +144,7 @@ foreach ($locales as $locale) {
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
 foreach ($countries as $locale => $localizedCountries) {
-    if (strpos($locale, '-') !== FALSE) {
+    if (strpos($locale, '-') !== false) {
         $localeParts = explode('-', $locale);
         array_pop($localeParts);
         $parentLocale = implode('-', $localeParts);
@@ -169,7 +168,7 @@ foreach ($duplicates as $locale) {
 // Write out the localizations.
 foreach ($countries as $locale => $localizedCountries) {
     $collator = collator_create($locale);
-    uasort($localizedCountries, function($a, $b) use ($collator) {
+    uasort($localizedCountries, function ($a, $b) use ($collator) {
         return collator_compare($collator, $a['name'], $b['name']);
     });
 

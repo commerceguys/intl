@@ -7,7 +7,6 @@
  * In order to decrease the list to a reasonable size, only the languages
  * for which CLDR itself has translations are listed.
  */
-
 set_time_limit(0);
 
 // Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
@@ -15,7 +14,7 @@ $localeDirectory = '../assets/cldr-localenames-full/main/';
 $enLanguages = $localeDirectory . 'en/languages.json';
 
 if (!is_dir($localeDirectory)) {
-  die("The $localeDirectory directory was not found");
+    die("The $localeDirectory directory was not found");
 }
 if (!file_exists($enLanguages)) {
     die("The $enLanguages file was not found");
@@ -49,7 +48,7 @@ $languages = [];
 $languageData = json_decode(file_get_contents($enLanguages), true);
 $languageData = $languageData['main']['en']['localeDisplayNames']['languages'];
 foreach ($languageData as $languageCode => $languageName) {
-    if (strpos($languageCode, '-alt-') === FALSE) {
+    if (strpos($languageCode, '-alt-') === false) {
         $languages['en'][$languageCode] = [
             'code' => $languageCode,
             'name' => $languageName,
@@ -102,7 +101,7 @@ foreach ($locales as $locale) {
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
 foreach ($languages as $locale => $localizedLanguages) {
-    if (strpos($locale, '-') !== FALSE) {
+    if (strpos($locale, '-') !== false) {
         $localeParts = explode('-', $locale);
         array_pop($localeParts);
         $parentLocale = implode('-', $localeParts);
@@ -126,7 +125,7 @@ foreach ($duplicates as $locale) {
 // Write out the localizations.
 foreach ($languages as $locale => $localizedLanguages) {
     $collator = collator_create($locale);
-    uasort($localizedLanguages, function($a, $b) use ($collator) {
+    uasort($localizedLanguages, function ($a, $b) use ($collator) {
         return collator_compare($collator, $a['name'], $b['name']);
     });
 

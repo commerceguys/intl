@@ -51,6 +51,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::__construct
+     *
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::getNumberFormat
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      */
@@ -63,6 +64,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::__construct
+     *
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      *
      * @expectedException         \CommerceGuys\Intl\Exception\InvalidArgumentException
@@ -78,6 +80,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      * @covers ::format
      * @covers ::replaceDigits
      * @covers ::replaceSymbols
+     *
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      *
@@ -95,6 +98,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      * @covers ::SetMinimumFractionDigits
      * @covers ::SetMaximumFractionDigits
      * @covers ::format
+     *
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::replaceDigits
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::replaceSymbols
@@ -123,6 +127,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::format
+     *
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::format
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
@@ -139,6 +144,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::formatCurrency
      * @covers ::replaceSymbols
+     *
      * @uses \CommerceGuys\Intl\Currency\Currency
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::format
@@ -157,6 +163,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::parseCurrency
+     *
      * @uses \CommerceGuys\Intl\Currency\Currency
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
@@ -173,6 +180,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::getNumberFormat
+     *
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      */
@@ -185,6 +193,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::getMinimumFractionDigits
+     *
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      */
@@ -207,6 +216,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::getMaximumFractionDigits
+     *
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      */
@@ -230,6 +240,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::isGroupingUsed
      * @covers ::setGroupingUsed
+     *
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::format
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::replaceDigits
@@ -256,6 +267,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      * @covers ::getCurrencyDisplay
      * @covers ::setCurrencyDisplay
      * @covers ::formatCurrency
+     *
      * @uses \CommerceGuys\Intl\Currency\Currency
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
      * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::format
@@ -335,7 +347,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
             'grouping_separator' => ',',
             'plus_sign' => '+',
             'minus_sign' => '-',
-            'percent_sign' => '%'
+            'percent_sign' => '%',
         ];
         $format = array_merge($default, $definition);
 
@@ -361,7 +373,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     protected function createCurrency(array $definition, $locale = 'en')
     {
         $default = [
-            'fraction_digits' => 2
+            'fraction_digits' => 2,
         ];
         $format = array_merge($default, $definition);
 

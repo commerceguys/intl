@@ -44,6 +44,7 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::createNumberFormatFromDefinition
+     *
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor

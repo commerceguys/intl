@@ -66,6 +66,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCurrencyFromDefinition
+     *
      * @uses \CommerceGuys\Intl\Currency\Currency
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
@@ -85,6 +86,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
+     *
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @expectedException \CommerceGuys\Intl\Exception\UnknownCurrencyException
      * @depends testConstructor
@@ -98,6 +100,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createCurrencyFromDefinition
+     *
      * @uses \CommerceGuys\Intl\Currency\Currency
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
@@ -114,6 +117,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::getList
      * @covers ::loadDefinitions
+     *
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */

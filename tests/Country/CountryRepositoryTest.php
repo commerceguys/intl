@@ -21,14 +21,14 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
             'three_letter_code' => 'FRA',
             'numeric_code' => '250',
             'telephone_code' => '33',
-            'currency_code' => 'EUR'
+            'currency_code' => 'EUR',
         ],
         'US' => [
             'code' => 'US',
             'three_letter_code' => 'USA',
             'numeric_code' => '840',
             'telephone_code' => '1',
-            'currency_code' => 'USD'
+            'currency_code' => 'USD',
         ],
     ];
 
@@ -69,6 +69,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCountryFromDefinition
+     *
      * @uses \CommerceGuys\Intl\Country\Country
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
@@ -89,19 +90,21 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
+     *
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @expectedException \CommerceGuys\Intl\Exception\UnknownCountryException
      * @depends testConstructor
      */
     public function testGetInvalidCountry($countryRepository)
     {
-      $countryRepository->get('DE');
+        $countryRepository->get('DE');
     }
 
     /**
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createCountryFromDefinition
+     *
      * @uses \CommerceGuys\Intl\Country\Country
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
@@ -118,6 +121,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::getList
      * @covers ::loadDefinitions
+     *
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */

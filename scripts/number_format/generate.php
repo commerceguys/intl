@@ -3,7 +3,6 @@
 /**
  * Generates the json files stored in resources/number_format.
  */
-
 set_time_limit(0);
 
 // Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
@@ -19,7 +18,7 @@ if (!is_dir($numbersDirectory)) {
     die("The $numbersDirectory directory was not found");
 }
 if (!file_exists($enLanguages)) {
-  die("The $enLanguages file was not found");
+    die("The $enLanguages file was not found");
 }
 
 // Locales listed without a "-" match all variants.
@@ -92,7 +91,7 @@ foreach ($locales as $locale) {
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
 foreach ($numberFormats as $locale => $formatData) {
-    if (strpos($locale, '-') !== FALSE) {
+    if (strpos($locale, '-') !== false) {
         $localeParts = explode('-', $locale);
         array_pop($localeParts);
         $parentLocale = implode('-', $localeParts);

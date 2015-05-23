@@ -48,6 +48,7 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createLanguageFromDefinition
+     *
      * @uses \CommerceGuys\Intl\Language\Language
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
@@ -64,19 +65,21 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
+     *
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @expectedException \CommerceGuys\Intl\Exception\UnknownLanguageException
      * @depends testConstructor
      */
     public function testGetInvalidLanguage($languageRepository)
     {
-      $languageRepository->get('de');
+        $languageRepository->get('de');
     }
 
     /**
      * @covers ::getAll
      * @covers ::loadDefinitions
      * @covers ::createLanguageFromDefinition
+     *
      * @uses \CommerceGuys\Intl\Language\Language
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
@@ -93,6 +96,7 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::getList
      * @covers ::loadDefinitions
+     *
      * @uses \CommerceGuys\Intl\LocaleResolverTrait
      * @depends testConstructor
      */

@@ -6,7 +6,6 @@
  * The ISO currency list is used as a base, since it doesn't contain
  * deprecated currencies, unlike CLDR (v25 has 139 deprecated entries).
  */
-
 set_time_limit(0);
 
 // Downloaded from http://www.currency-iso.org/en/home/tables/table-a1.html
@@ -33,10 +32,10 @@ if (!function_exists('collator_create')) {
     die('The intl extension was not found.');
 }
 if (!is_dir($localeDirectory)) {
-  die("The $localeDirectory directory was not found");
+    die("The $localeDirectory directory was not found");
 }
 if (!is_dir($numbersDirectory)) {
-  die("The $numbersDirectory directory was not found");
+    die("The $numbersDirectory directory was not found");
 }
 
 // Locales listed without a "-" match all variants.
@@ -129,7 +128,7 @@ foreach ($locales as $locale) {
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
 foreach ($currencies as $locale => $localizedCurrencies) {
-    if (strpos($locale, '-') !== FALSE) {
+    if (strpos($locale, '-') !== false) {
         $localeParts = explode('-', $locale);
         array_pop($localeParts);
         $parentLocale = implode('-', $localeParts);
@@ -153,7 +152,7 @@ foreach ($duplicates as $locale) {
 // Write out the localizations.
 foreach ($currencies as $locale => $localizedCurrencies) {
     $collator = collator_create($locale);
-    uasort($localizedCurrencies, function($a, $b) use ($collator) {
+    uasort($localizedCurrencies, function ($a, $b) use ($collator) {
         return collator_compare($collator, $a['name'], $b['name']);
     });
 

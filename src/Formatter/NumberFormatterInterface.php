@@ -108,7 +108,7 @@ interface NumberFormatterInterface
     public function isGroupingUsed();
 
     /**
-     * Sets whether or not major digits should be grouped
+     * Sets whether or not major digits should be grouped.
      *
      * @param bool $groupingUsed
      */

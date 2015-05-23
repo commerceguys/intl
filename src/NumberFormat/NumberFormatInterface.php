@@ -55,7 +55,7 @@ interface NumberFormatInterface
     /**
      * Sets the decimal separator.
      *
-     * @var string $decimalSeparator
+     * @param string $decimalSeparator
      */
     public function setDecimalSeparator($decimalSeparator);
 
@@ -69,7 +69,7 @@ interface NumberFormatInterface
     /**
      * Sets the grouping separator.
      *
-     * @var string $groupingSeparator
+     * @param string $groupingSeparator
      */
     public function setGroupingSeparator($groupingSeparator);
 
@@ -83,7 +83,7 @@ interface NumberFormatInterface
     /**
      * Sets the plus sign.
      *
-     * @var string $plusSign
+     * @param string $plusSign
      */
     public function setPlusSign($plusSign);
 
@@ -97,7 +97,7 @@ interface NumberFormatInterface
     /**
      * Sets the minus sign.
      *
-     * @var string $minusSign
+     * @param string $minusSign
      */
     public function setMinusSign($minusSign);
 
@@ -111,7 +111,7 @@ interface NumberFormatInterface
     /**
      * Sets the percent sign.
      *
-     * @var string $percentSign
+     * @param string $percentSign
      */
     public function setPercentSign($percentSign);
 
