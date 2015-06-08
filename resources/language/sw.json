@@ -2,11 +2,26 @@
     "ast": {
         "name": "Asturian"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "bas": {
         "name": "Basaa"
     },
     "brx": {
         "name": "Bodo"
+    },
+    "en-GB": {
+        "name": "British English"
+    },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
     },
     "tzm": {
         "name": "Central Atlas Tamazight"
@@ -14,29 +29,11 @@
     "ksh": {
         "name": "Colognian"
     },
-    "de-AT": {
-        "name": "de_AT"
+    "pt-PT": {
+        "name": "European Portuguese"
     },
-    "de-CH": {
-        "name": "de_CH"
-    },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
-    "es-MX": {
-        "name": "es_MX"
-    },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
+    "nl-BE": {
+        "name": "Flemish"
     },
     "fur": {
         "name": "Friulian"
@@ -443,14 +440,20 @@
     "mg": {
         "name": "Malagasi"
     },
-    "nl-BE": {
-        "name": "nl_BE"
-    },
-    "pt-PT": {
-        "name": "pt_PT"
+    "es-MX": {
+        "name": "Mexican Spanish"
     },
     "ro-MD": {
-        "name": "ro_MD"
+        "name": "Moldavian"
+    },
+    "zh-Hans": {
+        "name": "Simplified Chinese"
+    },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
+    "de-CH": {
+        "name": "Swiss High German"
     },
     "hsb": {
         "name": "Upper Sorbian"
@@ -460,8 +463,5 @@
     },
     "yav": {
         "name": "Yangben"
-    },
-    "zh-Hans": {
-        "name": "zh_Hans"
     }
 }

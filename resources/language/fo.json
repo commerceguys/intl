@@ -23,6 +23,12 @@
     "ast": {
         "name": "Asturian"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "az": {
         "name": "azerbaijaniskt"
     },
@@ -53,11 +59,20 @@
     "br": {
         "name": "bretonskt"
     },
+    "en-GB": {
+        "name": "British English"
+    },
     "bg": {
         "name": "bulgarskt"
     },
     "my": {
         "name": "burmesiskt"
+    },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
     },
     "tzm": {
         "name": "Central Atlas Tamazight"
@@ -71,29 +86,11 @@
     "da": {
         "name": "danskt"
     },
-    "de-AT": {
-        "name": "de_AT"
-    },
-    "de-CH": {
-        "name": "de_CH"
-    },
     "dz": {
         "name": "dzongkha"
     },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
     "en": {
         "name": "enskt"
-    },
-    "es-MX": {
-        "name": "es_MX"
     },
     "eo": {
         "name": "esperanto"
@@ -101,17 +98,17 @@
     "et": {
         "name": "estlendskt"
     },
+    "pt-PT": {
+        "name": "European Portuguese"
+    },
     "ee": {
         "name": "Ewe"
     },
     "fi": {
         "name": "finskt"
     },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
+    "nl-BE": {
+        "name": "Flemish"
     },
     "fr": {
         "name": "franskt"
@@ -278,6 +275,12 @@
     "mas": {
         "name": "Masai"
     },
+    "es-MX": {
+        "name": "Mexican Spanish"
+    },
+    "ro-MD": {
+        "name": "Moldavian"
+    },
     "mn": {
         "name": "mongoliskt"
     },
@@ -292,9 +295,6 @@
     },
     "ne": {
         "name": "nepalskt"
-    },
-    "nl-BE": {
-        "name": "nl_BE"
     },
     "nb": {
         "name": "norskt bokmál"
@@ -326,17 +326,11 @@
     "pt": {
         "name": "portugisiskt"
     },
-    "pt-PT": {
-        "name": "pt_PT"
-    },
     "pa": {
         "name": "punjabiskt"
     },
     "qu": {
         "name": "quechua"
-    },
-    "ro-MD": {
-        "name": "ro_MD"
     },
     "rm": {
         "name": "romansh"
@@ -365,6 +359,9 @@
     "sr": {
         "name": "serbiskt"
     },
+    "zh-Hans": {
+        "name": "Simplified Chinese"
+    },
     "si": {
         "name": "sinhalesiskt"
     },
@@ -392,8 +389,14 @@
     "sw": {
         "name": "swahili"
     },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
     "gsw": {
         "name": "Swiss German"
+    },
+    "de-CH": {
+        "name": "Swiss High German"
     },
     "ta": {
         "name": "tamilskt"
@@ -412,6 +415,9 @@
     },
     "to": {
         "name": "tonganskt"
+    },
+    "zh-Hant": {
+        "name": "Traditional Chinese"
     },
     "tr": {
         "name": "turkiskt"
@@ -457,11 +463,5 @@
     },
     "dje": {
         "name": "Zarma"
-    },
-    "zh-Hans": {
-        "name": "zh_Hans"
-    },
-    "zh-Hant": {
-        "name": "zh_Hant"
     }
 }

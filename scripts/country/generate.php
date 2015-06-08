@@ -128,7 +128,7 @@ foreach ($locales as $locale) {
     foreach ($data as $countryCode => $countryName) {
         if (isset($baseData[$countryCode])) {
             // This country name is untranslated, use the english version.
-            if ($countryCode == $countryName) {
+            if ($countryCode == str_replace('_', '-', $countryName)) {
                 $countryName = $countryData[$countryCode];
             }
 

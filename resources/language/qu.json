@@ -32,6 +32,12 @@
     "ast": {
         "name": "Asturian"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "az": {
         "name": "Azerbaiyano Simi"
     },
@@ -65,11 +71,20 @@
     "br": {
         "name": "Breton Simi"
     },
+    "en-GB": {
+        "name": "British English"
+    },
     "bg": {
         "name": "Bulgaro Simi"
     },
     "my": {
         "name": "Burmese"
+    },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
     },
     "ca": {
         "name": "Catalan Simi"
@@ -104,26 +119,8 @@
     "da": {
         "name": "Danes Simi"
     },
-    "de-AT": {
-        "name": "de_AT"
-    },
-    "de-CH": {
-        "name": "de_CH"
-    },
     "dz": {
         "name": "Dzongkha"
-    },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
-    "es-MX": {
-        "name": "es_MX"
     },
     "sk": {
         "name": "Eslovaco Simi"
@@ -140,6 +137,9 @@
     "et": {
         "name": "Estonio Simi"
     },
+    "pt-PT": {
+        "name": "European Portuguese"
+    },
     "eu": {
         "name": "Euskera Simi"
     },
@@ -152,11 +152,8 @@
     "fi": {
         "name": "Fines Simi"
     },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
+    "nl-BE": {
+        "name": "Flemish"
     },
     "fr": {
         "name": "Frances Simi"
@@ -314,6 +311,12 @@
     "mas": {
         "name": "Masai"
     },
+    "es-MX": {
+        "name": "Mexican Spanish"
+    },
+    "ro-MD": {
+        "name": "Moldavian"
+    },
     "mn": {
         "name": "Mongol Simi"
     },
@@ -331,9 +334,6 @@
     },
     "ne": {
         "name": "Nepali Simi"
-    },
-    "nl-BE": {
-        "name": "nl_BE"
     },
     "nb": {
         "name": "Norwegian Bokmål"
@@ -359,14 +359,8 @@
     "pt": {
         "name": "Portugues Simi"
     },
-    "pt-PT": {
-        "name": "pt_PT"
-    },
     "pa": {
         "name": "Punyabi Simi"
-    },
-    "ro-MD": {
-        "name": "ro_MD"
     },
     "rm": {
         "name": "Romanche Simi"
@@ -398,6 +392,9 @@
     "sr": {
         "name": "Serbio Simi"
     },
+    "zh-Hans": {
+        "name": "Simplified Chinese"
+    },
     "so": {
         "name": "Somali"
     },
@@ -406,6 +403,12 @@
     },
     "sv": {
         "name": "Sueco Simi"
+    },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
+    "de-CH": {
+        "name": "Swiss High German"
     },
     "th": {
         "name": "Tailandes Simi"
@@ -424,6 +427,9 @@
     },
     "to": {
         "name": "Tongan"
+    },
+    "zh-Hant": {
+        "name": "Traditional Chinese"
     },
     "tr": {
         "name": "Turco Simi"
@@ -457,11 +463,5 @@
     },
     "dje": {
         "name": "Zarma"
-    },
-    "zh-Hans": {
-        "name": "zh_Hans"
-    },
-    "zh-Hant": {
-        "name": "zh_Hant"
     }
 }

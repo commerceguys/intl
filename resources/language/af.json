@@ -23,6 +23,12 @@
     "ast": {
         "name": "Asturian"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "az": {
         "name": "Azerbeidjans"
     },
@@ -56,14 +62,20 @@
     "br": {
         "name": "Bretons"
     },
+    "en-GB": {
+        "name": "British English"
+    },
     "bg": {
         "name": "Bulgaars"
     },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
+    },
     "ksh": {
         "name": "Colognian"
-    },
-    "de-AT": {
-        "name": "de_AT"
     },
     "da": {
         "name": "Deens"
@@ -74,26 +86,17 @@
     "dz": {
         "name": "Dzongkha"
     },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
     "en": {
         "name": "Engels"
-    },
-    "es-MX": {
-        "name": "es_MX"
     },
     "eo": {
         "name": "Esperanto"
     },
     "et": {
         "name": "Estnies"
+    },
+    "pt-PT": {
+        "name": "European Portuguese"
     },
     "ee": {
         "name": "Ewe"
@@ -103,12 +106,6 @@
     },
     "fi": {
         "name": "Fins"
-    },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
     },
     "fr": {
         "name": "Frans"
@@ -266,6 +263,9 @@
     "mk": {
         "name": "Masedonies"
     },
+    "es-MX": {
+        "name": "Mexican Spanish"
+    },
     "ro-MD": {
         "name": "Moldawies"
     },
@@ -326,9 +326,6 @@
     "pt": {
         "name": "Portugees"
     },
-    "pt-PT": {
-        "name": "pt_PT"
-    },
     "qu": {
         "name": "Quechua"
     },
@@ -362,6 +359,9 @@
     "sr": {
         "name": "Serwies"
     },
+    "zh-Hans": {
+        "name": "Simplified Chinese"
+    },
     "si": {
         "name": "Sinhala"
     },
@@ -392,6 +392,9 @@
     "sv": {
         "name": "Sweeds"
     },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
     "gsw": {
         "name": "Switserse Duits"
     },
@@ -415,6 +418,9 @@
     },
     "to": {
         "name": "Tongaans"
+    },
+    "zh-Hant": {
+        "name": "Traditional Chinese"
     },
     "cs": {
         "name": "Tsjeggies"
@@ -454,12 +460,6 @@
     },
     "dje": {
         "name": "Zarma"
-    },
-    "zh-Hans": {
-        "name": "zh_Hans"
-    },
-    "zh-Hant": {
-        "name": "zh_Hant"
     },
     "zu": {
         "name": "Zoeloe"

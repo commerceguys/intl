@@ -26,6 +26,12 @@
     "ast": {
         "name": "Asturian"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "az": {
         "name": "azerbajĝana"
     },
@@ -59,11 +65,20 @@
     "br": {
         "name": "bretona"
     },
+    "en-GB": {
+        "name": "British English"
+    },
     "bg": {
         "name": "bulgara"
     },
     "rn": {
         "name": "burunda"
+    },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
     },
     "tzm": {
         "name": "Central Atlas Tamazight"
@@ -92,26 +107,8 @@
     "nb": {
         "name": "dannorvega"
     },
-    "de-AT": {
-        "name": "de_AT"
-    },
-    "de-CH": {
-        "name": "de_CH"
-    },
     "dz": {
         "name": "dzonko"
-    },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
-    "es-MX": {
-        "name": "es_MX"
     },
     "eo": {
         "name": "esperanto"
@@ -134,11 +131,8 @@
     "fi": {
         "name": "finna"
     },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
+    "nl-BE": {
+        "name": "Flemish"
     },
     "fr": {
         "name": "franca"
@@ -317,6 +311,12 @@
     "mas": {
         "name": "Masai"
     },
+    "es-MX": {
+        "name": "Mexican Spanish"
+    },
+    "ro-MD": {
+        "name": "Moldavian"
+    },
     "mn": {
         "name": "mongola"
     },
@@ -334,9 +334,6 @@
     },
     "ne": {
         "name": "nepala"
-    },
-    "nl-BE": {
-        "name": "nl_BE"
     },
     "se": {
         "name": "Northern Sami"
@@ -364,9 +361,6 @@
     },
     "pt": {
         "name": "portugala"
-    },
-    "ro-MD": {
-        "name": "ro_MD"
     },
     "rm": {
         "name": "romanĉa"
@@ -410,8 +404,14 @@
     "sv": {
         "name": "sveda"
     },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
     "gsw": {
         "name": "Swiss German"
+    },
+    "de-CH": {
+        "name": "Swiss High German"
     },
     "th": {
         "name": "taja"

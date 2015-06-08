@@ -32,6 +32,12 @@
     "ast": {
         "name": "asturiagiella"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "az": {
         "name": "Azerbaijani"
     },
@@ -62,11 +68,20 @@
     "br": {
         "name": "bretonagiella"
     },
+    "en-GB": {
+        "name": "British English"
+    },
     "bg": {
         "name": "bulgáriagiella"
     },
     "my": {
         "name": "burmagiella"
+    },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
     },
     "cs": {
         "name": "čeahkagiella"
@@ -86,12 +101,6 @@
     "se": {
         "name": "davvisámegiella"
     },
-    "de-AT": {
-        "name": "de_AT"
-    },
-    "de-CH": {
-        "name": "de_CH"
-    },
     "de": {
         "name": "duiskkagiella"
     },
@@ -104,23 +113,14 @@
     "en": {
         "name": "eaŋgalsgiella"
     },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
-    "es-MX": {
-        "name": "es_MX"
-    },
     "eo": {
         "name": "Esperanto"
     },
     "et": {
         "name": "esttegiella"
+    },
+    "pt-PT": {
+        "name": "European Portuguese"
     },
     "ee": {
         "name": "Ewe"
@@ -128,11 +128,8 @@
     "fo": {
         "name": "fearagiella"
     },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
+    "nl-BE": {
+        "name": "Flemish"
     },
     "fr": {
         "name": "fránskkagiella"
@@ -296,6 +293,12 @@
     "mas": {
         "name": "Masai"
     },
+    "es-MX": {
+        "name": "Mexican Spanish"
+    },
+    "ro-MD": {
+        "name": "Moldavian"
+    },
     "mn": {
         "name": "mongoliagiella"
     },
@@ -310,9 +313,6 @@
     },
     "ne": {
         "name": "nepaligiella"
-    },
-    "nl-BE": {
-        "name": "nl_BE"
     },
     "nyn": {
         "name": "Nyankole"
@@ -341,14 +341,8 @@
     "pt": {
         "name": "portugálagiella"
     },
-    "pt-PT": {
-        "name": "pt_PT"
-    },
     "qu": {
         "name": "Quechua"
-    },
-    "ro-MD": {
-        "name": "ro_MD"
     },
     "ro": {
         "name": "romániagiella"
@@ -401,8 +395,14 @@
     "sw": {
         "name": "Swahili"
     },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
     "gsw": {
         "name": "Swiss German"
+    },
+    "de-CH": {
+        "name": "Swiss High German"
     },
     "ta": {
         "name": "Tamil"

@@ -84,7 +84,7 @@ foreach ($locales as $locale) {
     foreach ($data as $languageCode => $languageName) {
         if (isset($languages['en'][$languageCode])) {
             // This language name is untranslated, use to the english version.
-            if ($languageCode == $languageName) {
+            if ($languageCode == str_replace('_', '-', $languageName)) {
                 $languageName = $languages['en'][$languageCode]['name'];
             }
 

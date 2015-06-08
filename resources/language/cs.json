@@ -26,6 +26,12 @@
     "ast": {
         "name": "asturština"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "az": {
         "name": "ázerbájdžánština"
     },
@@ -62,8 +68,17 @@
     "br": {
         "name": "bretonština"
     },
+    "en-GB": {
+        "name": "British English"
+    },
     "bg": {
         "name": "bulharština"
+    },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
     },
     "cs": {
         "name": "čeština"
@@ -77,26 +92,11 @@
     "da": {
         "name": "dánština"
     },
-    "de-AT": {
-        "name": "de_AT"
-    },
     "dsb": {
         "name": "dolnolužická srbština"
     },
     "dz": {
         "name": "dzongkä"
-    },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
-    "es-MX": {
-        "name": "es_MX"
     },
     "eo": {
         "name": "esperanto"
@@ -112,12 +112,6 @@
     },
     "fi": {
         "name": "finština"
-    },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
     },
     "fr": {
         "name": "francouzština"
@@ -296,6 +290,9 @@
     "mfe": {
         "name": "mauricijská kreolština"
     },
+    "es-MX": {
+        "name": "Mexican Spanish"
+    },
     "ro-MD": {
         "name": "moldavština"
     },
@@ -401,6 +398,9 @@
     "sw": {
         "name": "svahilština"
     },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
     "es": {
         "name": "španělština"
     },
@@ -427,6 +427,9 @@
     },
     "to": {
         "name": "tongánština"
+    },
+    "zh-Hant": {
+        "name": "Traditional Chinese"
     },
     "tr": {
         "name": "turečtina"
@@ -457,9 +460,6 @@
     },
     "dje": {
         "name": "zarmština"
-    },
-    "zh-Hant": {
-        "name": "zh_Hant"
     },
     "zu": {
         "name": "zuluština"

@@ -17,6 +17,12 @@
     "ast": {
         "name": "Asturian"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "am": {
         "name": "Axmaari"
     },
@@ -59,6 +65,9 @@
     "br": {
         "name": "Breton"
     },
+    "en-GB": {
+        "name": "British English"
+    },
     "bg": {
         "name": "Bulgeeriyaan"
     },
@@ -67,6 +76,12 @@
     },
     "my": {
         "name": "Burmese"
+    },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
     },
     "ar": {
         "name": "Carabi"
@@ -89,32 +104,17 @@
     "da": {
         "name": "Danish"
     },
-    "de-AT": {
-        "name": "de_AT"
-    },
-    "de-CH": {
-        "name": "de_CH"
-    },
     "dz": {
         "name": "Dzongkha"
-    },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
-    "es-MX": {
-        "name": "es_MX"
     },
     "eo": {
         "name": "Esperanto"
     },
     "et": {
         "name": "Estonian"
+    },
+    "pt-PT": {
+        "name": "European Portuguese"
     },
     "ee": {
         "name": "Ewe"
@@ -137,11 +137,8 @@
     "fy": {
         "name": "Firiisiyan Galbeed"
     },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
+    "nl-BE": {
+        "name": "Flemish"
     },
     "fur": {
         "name": "Friulian"
@@ -302,6 +299,12 @@
     "mas": {
         "name": "Masai"
     },
+    "es-MX": {
+        "name": "Mexican Spanish"
+    },
+    "ro-MD": {
+        "name": "Moldavian"
+    },
     "mn": {
         "name": "Mongolian"
     },
@@ -316,9 +319,6 @@
     },
     "ne": {
         "name": "Nebaali"
-    },
-    "nl-BE": {
-        "name": "nl_BE"
     },
     "se": {
         "name": "Northern Sami"
@@ -338,14 +338,8 @@
     "om": {
         "name": "Oromo"
     },
-    "pt-PT": {
-        "name": "pt_PT"
-    },
     "qu": {
         "name": "Quechua"
-    },
-    "ro-MD": {
-        "name": "ro_MD"
     },
     "ro": {
         "name": "Romanka"
@@ -377,6 +371,9 @@
     "sr": {
         "name": "Serbian"
     },
+    "zh-Hans": {
+        "name": "Simplified Chinese"
+    },
     "si": {
         "name": "Sinhala"
     },
@@ -395,8 +392,14 @@
     "sv": {
         "name": "Swiidhis"
     },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
     "gsw": {
         "name": "Swiss German"
+    },
+    "de-CH": {
+        "name": "Swiss High German"
     },
     "th": {
         "name": "Taaylandays"
@@ -418,6 +421,9 @@
     },
     "to": {
         "name": "Tongan"
+    },
+    "zh-Hant": {
+        "name": "Traditional Chinese"
     },
     "tr": {
         "name": "Turkish"
@@ -454,12 +460,6 @@
     },
     "dje": {
         "name": "Zarma"
-    },
-    "zh-Hans": {
-        "name": "zh_Hans"
-    },
-    "zh-Hant": {
-        "name": "zh_Hant"
     },
     "zu": {
         "name": "Zuulu"

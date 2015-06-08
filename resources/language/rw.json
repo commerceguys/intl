@@ -8,6 +8,12 @@
     "ast": {
         "name": "Asturian"
     },
+    "en-AU": {
+        "name": "Australian English"
+    },
+    "de-AT": {
+        "name": "Austrian German"
+    },
     "ksf": {
         "name": "Bafia"
     },
@@ -23,8 +29,17 @@
     "brx": {
         "name": "Bodo"
     },
+    "en-GB": {
+        "name": "British English"
+    },
     "my": {
         "name": "Burmese"
+    },
+    "en-CA": {
+        "name": "Canadian English"
+    },
+    "fr-CA": {
+        "name": "Canadian French"
     },
     "tzm": {
         "name": "Central Atlas Tamazight"
@@ -38,35 +53,14 @@
     "ksh": {
         "name": "Colognian"
     },
-    "de-AT": {
-        "name": "de_AT"
-    },
-    "de-CH": {
-        "name": "de_CH"
-    },
     "dz": {
         "name": "Dzongkha"
-    },
-    "en-AU": {
-        "name": "en_AU"
-    },
-    "en-CA": {
-        "name": "en_CA"
-    },
-    "en-GB": {
-        "name": "en_GB"
-    },
-    "es-MX": {
-        "name": "es_MX"
     },
     "ee": {
         "name": "Ewe"
     },
-    "fr-CA": {
-        "name": "fr_CA"
-    },
-    "fr-CH": {
-        "name": "fr_CH"
+    "nl-BE": {
+        "name": "Flemish"
     },
     "fur": {
         "name": "Friulian"
@@ -386,6 +380,12 @@
     "mas": {
         "name": "Masai"
     },
+    "es-MX": {
+        "name": "Mexican Spanish"
+    },
+    "ro-MD": {
+        "name": "Moldavian"
+    },
     "mfe": {
         "name": "Morisyen"
     },
@@ -394,9 +394,6 @@
     },
     "naq": {
         "name": "Nama"
-    },
-    "nl-BE": {
-        "name": "nl_BE"
     },
     "se": {
         "name": "Northern Sami"
@@ -413,9 +410,6 @@
     "qu": {
         "name": "Quechua"
     },
-    "ro-MD": {
-        "name": "ro_MD"
-    },
     "rm": {
         "name": "Romansh"
     },
@@ -431,14 +425,26 @@
     "seh": {
         "name": "Sena"
     },
+    "zh-Hans": {
+        "name": "Simplified Chinese"
+    },
+    "fr-CH": {
+        "name": "Swiss French"
+    },
     "gsw": {
         "name": "Swiss German"
+    },
+    "de-CH": {
+        "name": "Swiss High German"
     },
     "twq": {
         "name": "Tasawaq"
     },
     "to": {
         "name": "Tongan"
+    },
+    "zh-Hant": {
+        "name": "Traditional Chinese"
     },
     "hsb": {
         "name": "Upper Sorbian"
@@ -457,11 +463,5 @@
     },
     "dje": {
         "name": "Zarma"
-    },
-    "zh-Hans": {
-        "name": "zh_Hans"
-    },
-    "zh-Hant": {
-        "name": "zh_Hant"
     }
 }
