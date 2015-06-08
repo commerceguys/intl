@@ -121,6 +121,9 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      */
     protected function createCurrencyFromDefinition($currencyCode, array $definition, $locale)
     {
+        if (!isset($definition['symbol'])) {
+            $definition['symbol'] = $currencyCode;
+        }
         if (!isset($definition['fraction_digits'])) {
             $definition['fraction_digits'] = 2;
         }

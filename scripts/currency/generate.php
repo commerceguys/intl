@@ -128,8 +128,12 @@ foreach ($locales as $locale) {
 
             $currencies[$locale][$currencyCode] = [
                 'name' => $currencyName,
-                'symbol' => $currency['symbol'],
             ];
+            // Decrease the dataset size by exporting the symbol only if it's
+            // different from the currency code.
+            if ($currency['symbol'] != $currencyCode) {
+                $currencies[$locale][$currencyCode]['symbol'] = $currency['symbol'];
+            }
         }
     }
 }
