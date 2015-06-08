@@ -41,7 +41,7 @@ class LanguageRepository implements LanguageRepositoryInterface
             throw new UnknownLanguageException($languageCode);
         }
 
-        return $this->createLanguageFromDefinition($definitions[$languageCode], $locale);
+        return $this->createLanguageFromDefinition($languageCode, $definitions[$languageCode], $locale);
     }
 
     /**
@@ -53,7 +53,7 @@ class LanguageRepository implements LanguageRepositoryInterface
         $definitions = $this->loadDefinitions($locale);
         $languages = [];
         foreach ($definitions as $languageCode => $definition) {
-            $languages[$languageCode] = $this->createLanguageFromDefinition($definition, $locale);
+            $languages[$languageCode] = $this->createLanguageFromDefinition($languageCode, $definition, $locale);
         }
 
         return $languages;
@@ -94,20 +94,21 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * Creates a language object from the provided definition.
      *
-     * @param array  $definition The language definition.
-     * @param string $locale     The locale of the language definition.
+     * @param string $languageCode The language code.
+     * @param array  $definition   The language definition.
+     * @param string $locale       The locale of the language definition.
      *
      * @return Language
      */
-    protected function createLanguageFromDefinition(array $definition, $locale)
+    protected function createLanguageFromDefinition($languageCode, array $definition, $locale)
     {
         $language = new Language();
-        $setValues = \Closure::bind(function ($definition, $locale) {
-            $this->languageCode = $definition['code'];
+        $setValues = \Closure::bind(function ($languageCode, $definition, $locale) {
+            $this->languageCode = $languageCode;
             $this->name = $definition['name'];
             $this->locale = $locale;
         }, $language, '\CommerceGuys\Intl\Language\Language');
-        $setValues($definition, $locale);
+        $setValues($languageCode, $definition, $locale);
 
         return $language;
     }

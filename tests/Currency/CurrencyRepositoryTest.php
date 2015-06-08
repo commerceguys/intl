@@ -17,11 +17,9 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     protected $baseDefinitions = [
         'USD' => [
-            'code' => 'USD',
             'numeric_code' => '840',
         ],
         'EUR' => [
-            'code' => 'EUR',
             'numeric_code' => '840',
             'fraction_digits' => '2',
         ],

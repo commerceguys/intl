@@ -1,606 +1,467 @@
 {
     "af": {
-        "code": "af",
         "name": "afrikaans"
     },
     "agq": {
-        "code": "agq",
         "name": "aghem"
     },
     "ak": {
-        "code": "ak",
         "name": "akan"
     },
     "sq": {
-        "code": "sq",
         "name": "albański"
     },
     "am": {
-        "code": "am",
         "name": "amharski"
     },
+    "en": {
+        "name": "angielski"
+    },
     "ar": {
-        "code": "ar",
         "name": "arabski"
     },
     "ast": {
-        "code": "ast",
         "name": "asturyjski"
     },
+    "en-AU": {
+        "name": "australijski angielski"
+    },
     "de-AT": {
-        "code": "de-AT",
         "name": "austriacki niemiecki"
     },
     "az": {
-        "code": "az",
         "name": "azerski"
     },
     "ksf": {
-        "code": "ksf",
         "name": "bafia"
     },
     "bm": {
-        "code": "bm",
         "name": "bambara"
     },
     "bas": {
-        "code": "bas",
         "name": "basa"
     },
     "eu": {
-        "code": "eu",
         "name": "baskijski"
     },
     "bez": {
-        "code": "bez",
         "name": "bena"
     },
     "bn": {
-        "code": "bn",
         "name": "bengalski"
     },
     "be": {
-        "code": "be",
         "name": "białoruski"
     },
     "my": {
-        "code": "my",
         "name": "birmański"
     },
     "brx": {
-        "code": "brx",
         "name": "bodo"
     },
     "bs": {
-        "code": "bs",
         "name": "bośniacki"
     },
     "br": {
-        "code": "br",
         "name": "bretoński"
     },
+    "en-GB": {
+        "name": "brytyjski angielski"
+    },
     "bg": {
-        "code": "bg",
         "name": "bułgarski"
     },
     "tzm": {
-        "code": "tzm",
         "name": "centralnomarokański tamazight"
     },
     "cgg": {
-        "code": "cgg",
         "name": "chiga"
     },
     "zh": {
-        "code": "zh",
         "name": "chiński"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "chiński (tradycyjny)"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "chiński (uproszczony)"
     },
     "hr": {
-        "code": "hr",
         "name": "chorwacki"
     },
     "cs": {
-        "code": "cs",
         "name": "czeski"
     },
     "dyo": {
-        "code": "dyo",
         "name": "diola"
     },
     "dsb": {
-        "code": "dsb",
         "name": "dolnołużycki"
     },
     "da": {
-        "code": "da",
         "name": "duński"
     },
     "dz": {
-        "code": "dz",
         "name": "dzongkha"
     },
     "dje": {
-        "code": "dje",
         "name": "dżerma"
     },
     "eo": {
-        "code": "eo",
         "name": "esperanto"
     },
     "et": {
-        "code": "et",
         "name": "estoński"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "europejski portugalski"
     },
     "ee": {
-        "code": "ee",
         "name": "ewe"
     },
     "fo": {
-        "code": "fo",
         "name": "farerski"
     },
     "fi": {
-        "code": "fi",
         "name": "fiński"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "flamandzki (Belgia)"
     },
     "fr": {
-        "code": "fr",
         "name": "francuski"
     },
     "fur": {
-        "code": "fur",
         "name": "friulijski"
     },
     "ff": {
-        "code": "ff",
         "name": "fulani"
     },
     "gl": {
-        "code": "gl",
         "name": "galicyjski"
     },
     "lg": {
-        "code": "lg",
         "name": "ganda"
     },
     "hsb": {
-        "code": "hsb",
         "name": "górnołużycki"
     },
     "el": {
-        "code": "el",
         "name": "grecki"
     },
     "ka": {
-        "code": "ka",
         "name": "gruziński"
     },
     "gu": {
-        "code": "gu",
         "name": "gudźaracki"
     },
     "ksh": {
-        "code": "ksh",
         "name": "gwara kolońska"
     },
     "ha": {
-        "code": "ha",
         "name": "hausa"
     },
     "haw": {
-        "code": "haw",
         "name": "hawajski"
     },
     "he": {
-        "code": "he",
         "name": "hebrajski"
     },
     "hi": {
-        "code": "hi",
         "name": "hindi"
     },
     "es": {
-        "code": "es",
         "name": "hiszpański"
     },
     "ig": {
-        "code": "ig",
         "name": "igbo"
     },
     "id": {
-        "code": "id",
         "name": "indonezyjski"
     },
     "ga": {
-        "code": "ga",
         "name": "irlandzki"
     },
     "is": {
-        "code": "is",
         "name": "islandzki"
     },
     "ja": {
-        "code": "ja",
         "name": "japoński"
     },
     "yi": {
-        "code": "yi",
         "name": "jidysz"
     },
     "yo": {
-        "code": "yo",
         "name": "joruba"
     },
     "kab": {
-        "code": "kab",
         "name": "kabylski"
     },
+    "en-CA": {
+        "name": "kanadyjski angielski"
+    },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "kanadyjski francuski"
     },
     "kn": {
-        "code": "kn",
         "name": "kannada"
     },
     "ks": {
-        "code": "ks",
         "name": "kaszmirski"
     },
     "ca": {
-        "code": "ca",
         "name": "kataloński"
     },
     "kk": {
-        "code": "kk",
         "name": "kazachski"
     },
     "qu": {
-        "code": "qu",
         "name": "keczua"
     },
     "km": {
-        "code": "km",
         "name": "khmerski"
     },
     "rw": {
-        "code": "rw",
         "name": "kinya-ruanda"
     },
     "ky": {
-        "code": "ky",
         "name": "kirgiski"
     },
     "kok": {
-        "code": "kok",
         "name": "konkani"
     },
     "ko": {
-        "code": "ko",
         "name": "koreański"
     },
     "khq": {
-        "code": "khq",
         "name": "koyra chini"
     },
     "ses": {
-        "code": "ses",
         "name": "koyraboro senni"
     },
     "mfe": {
-        "code": "mfe",
         "name": "kreolski Mauritiusa"
     },
     "kea": {
-        "code": "kea",
         "name": "kreolski Wysp Zielonego Przylądka"
     },
     "lkt": {
-        "code": "lkt",
         "name": "lakota"
     },
     "lo": {
-        "code": "lo",
         "name": "laotański"
     },
     "smn": {
-        "code": "smn",
         "name": "lapoński Inari"
     },
     "se": {
-        "code": "se",
         "name": "lapoński północny"
     },
     "lt": {
-        "code": "lt",
         "name": "litewski"
     },
     "lu": {
-        "code": "lu",
         "name": "luba-katanga"
     },
     "luy": {
-        "code": "luy",
         "name": "luhya"
     },
     "lb": {
-        "code": "lb",
         "name": "luksemburski"
     },
     "luo": {
-        "code": "luo",
         "name": "Luo"
     },
     "lv": {
-        "code": "lv",
         "name": "łotewski"
     },
     "mk": {
-        "code": "mk",
         "name": "macedoński"
     },
     "mgh": {
-        "code": "mgh",
         "name": "makua"
     },
     "ml": {
-        "code": "ml",
         "name": "malajalam"
     },
     "ms": {
-        "code": "ms",
         "name": "malajski"
     },
     "mg": {
-        "code": "mg",
         "name": "malgaski"
     },
     "mt": {
-        "code": "mt",
         "name": "maltański"
     },
     "mr": {
-        "code": "mr",
         "name": "marathi"
     },
     "mas": {
-        "code": "mas",
         "name": "masajski"
     },
     "es-MX": {
-        "code": "es-MX",
         "name": "meksykański hiszpański"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "mołdawski"
     },
     "mn": {
-        "code": "mn",
         "name": "mongolski"
     },
     "mua": {
-        "code": "mua",
         "name": "mundang"
     },
     "naq": {
-        "code": "naq",
         "name": "nama"
     },
     "ne": {
-        "code": "ne",
         "name": "nepalski"
     },
     "nl": {
-        "code": "nl",
         "name": "niderlandzki"
     },
     "de": {
-        "code": "de",
         "name": "niemiecki"
     },
     "nb": {
-        "code": "nb",
         "name": "norweski (bokmål)"
     },
     "nn": {
-        "code": "nn",
         "name": "norweski (nynorsk)"
     },
     "nyn": {
-        "code": "nyn",
         "name": "nyankole"
     },
     "or": {
-        "code": "or",
         "name": "orija"
     },
     "hy": {
-        "code": "hy",
         "name": "ormiański"
     },
     "om": {
-        "code": "om",
         "name": "oromski"
     },
     "pa": {
-        "code": "pa",
         "name": "pendżabski"
     },
     "fa": {
-        "code": "fa",
         "name": "perski"
     },
     "pl": {
-        "code": "pl",
         "name": "polski"
     },
     "pt": {
-        "code": "pt",
         "name": "portugalski"
     },
     "rm": {
-        "code": "rm",
         "name": "retoromański"
     },
     "rof": {
-        "code": "rof",
         "name": "rombo"
     },
     "ru": {
-        "code": "ru",
         "name": "rosyjski"
     },
     "ro": {
-        "code": "ro",
         "name": "rumuński"
     },
     "rn": {
-        "code": "rn",
         "name": "rundi"
     },
     "sg": {
-        "code": "sg",
         "name": "sango"
     },
     "seh": {
-        "code": "seh",
         "name": "sena"
     },
     "sr": {
-        "code": "sr",
         "name": "serbski"
     },
     "sk": {
-        "code": "sk",
         "name": "słowacki"
     },
     "sl": {
-        "code": "sl",
         "name": "słoweński"
     },
     "so": {
-        "code": "so",
         "name": "somalijski"
     },
     "sw": {
-        "code": "sw",
         "name": "suahili"
     },
     "si": {
-        "code": "si",
         "name": "syngaleski"
     },
     "gd": {
-        "code": "gd",
         "name": "szkocki gaelicki"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "szwajcarski francuski"
     },
     "gsw": {
-        "code": "gsw",
         "name": "szwajcarski niemiecki"
     },
     "sv": {
-        "code": "sv",
         "name": "szwedzki"
     },
     "th": {
-        "code": "th",
         "name": "tajski"
     },
     "ta": {
-        "code": "ta",
         "name": "tamilski"
     },
     "twq": {
-        "code": "twq",
         "name": "tasawaq"
     },
     "te": {
-        "code": "te",
         "name": "telugu"
     },
     "ti": {
-        "code": "ti",
         "name": "tigrinia"
     },
     "to": {
-        "code": "to",
         "name": "tonga"
     },
     "tr": {
-        "code": "tr",
         "name": "turecki"
     },
     "ug": {
-        "code": "ug",
         "name": "ujgurski"
     },
     "uk": {
-        "code": "uk",
         "name": "ukraiński"
     },
     "ur": {
-        "code": "ur",
         "name": "urdu"
     },
     "uz": {
-        "code": "uz",
         "name": "uzbecki"
     },
     "cy": {
-        "code": "cy",
         "name": "walijski"
     },
     "wae": {
-        "code": "wae",
         "name": "walser"
     },
     "hu": {
-        "code": "hu",
         "name": "węgierski"
     },
     "vi": {
-        "code": "vi",
         "name": "wietnamski"
     },
     "it": {
-        "code": "it",
         "name": "włoski"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "wysokoniemiecki (Szwajcaria)"
     },
     "yav": {
-        "code": "yav",
         "name": "yangben"
     },
     "fy": {
-        "code": "fy",
         "name": "zachodniofryzyjski"
     },
     "zu": {
-        "code": "zu",
         "name": "zulu"
     }
 }

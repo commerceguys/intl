@@ -1,606 +1,467 @@
 {
     "agq": {
-        "code": "agq",
         "name": "Aghem"
     },
     "ak": {
-        "code": "ak",
         "name": "Akan"
     },
     "ast": {
-        "code": "ast",
         "name": "Asturian"
     },
     "ksf": {
-        "code": "ksf",
         "name": "Bafia"
     },
     "bm": {
-        "code": "bm",
         "name": "Bambara"
     },
     "bas": {
-        "code": "bas",
         "name": "Basaa"
     },
     "bez": {
-        "code": "bez",
         "name": "Bena"
     },
     "brx": {
-        "code": "brx",
         "name": "Bodo"
     },
     "my": {
-        "code": "my",
         "name": "Burmese"
     },
     "tzm": {
-        "code": "tzm",
         "name": "Central Atlas Tamazight"
     },
     "cgg": {
-        "code": "cgg",
         "name": "Chiga"
     },
     "zh": {
-        "code": "zh",
         "name": "Chinese"
     },
     "ksh": {
-        "code": "ksh",
         "name": "Colognian"
     },
     "de-AT": {
-        "code": "de-AT",
         "name": "de_AT"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "de_CH"
     },
     "dz": {
-        "code": "dz",
         "name": "Dzongkha"
     },
+    "en-AU": {
+        "name": "en_AU"
+    },
+    "en-CA": {
+        "name": "en_CA"
+    },
+    "en-GB": {
+        "name": "en_GB"
+    },
     "es-MX": {
-        "code": "es-MX",
         "name": "es_MX"
     },
     "ee": {
-        "code": "ee",
         "name": "Ewe"
     },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "fr_CA"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "fr_CH"
     },
     "fur": {
-        "code": "fur",
         "name": "Friulian"
     },
     "ff": {
-        "code": "ff",
         "name": "Fulah"
     },
     "lg": {
-        "code": "lg",
         "name": "Ganda"
     },
     "ha": {
-        "code": "ha",
         "name": "Hausa"
     },
     "haw": {
-        "code": "haw",
         "name": "Hawaiian"
     },
     "sq": {
-        "code": "sq",
         "name": "Icyalubaniya"
     },
     "ar": {
-        "code": "ar",
         "name": "Icyarabu"
     },
     "es": {
-        "code": "es",
         "name": "Icyesipanyolo"
     },
     "eo": {
-        "code": "eo",
         "name": "Icyesiperanto"
     },
     "et": {
-        "code": "et",
         "name": "Icyesitoniya"
     },
+    "en": {
+        "name": "Icyongereza"
+    },
     "ig": {
-        "code": "ig",
         "name": "Igbo"
     },
     "cs": {
-        "code": "cs",
         "name": "Igiceke"
     },
     "fr": {
-        "code": "fr",
         "name": "Igifaransa"
     },
     "fi": {
-        "code": "fi",
         "name": "Igifinilande"
     },
     "fy": {
-        "code": "fy",
         "name": "Igifiriziyani"
     },
     "he": {
-        "code": "he",
         "name": "Igiheburayo"
     },
     "hi": {
-        "code": "hi",
         "name": "Igihindi"
     },
     "hu": {
-        "code": "hu",
         "name": "Igihongiriya"
     },
     "km": {
-        "code": "km",
         "name": "Igikambodiya"
     },
     "kn": {
-        "code": "kn",
         "name": "Igikanada"
     },
     "ca": {
-        "code": "ca",
         "name": "Igikatalani"
     },
     "ko": {
-        "code": "ko",
         "name": "Igikoreya"
     },
     "hr": {
-        "code": "hr",
         "name": "Igikorowasiya"
     },
     "pl": {
-        "code": "pl",
         "name": "Igipolone"
     },
     "pt": {
-        "code": "pt",
         "name": "Igiporutugali"
     },
     "pa": {
-        "code": "pa",
         "name": "Igipunjabi"
     },
     "sr": {
-        "code": "sr",
         "name": "Igiseribe"
     },
     "is": {
-        "code": "is",
         "name": "Igisilande"
     },
     "sk": {
-        "code": "sk",
         "name": "Igisilovaki"
     },
     "so": {
-        "code": "so",
         "name": "Igisomali"
     },
     "sv": {
-        "code": "sv",
         "name": "Igisuweduwa"
     },
     "sw": {
-        "code": "sw",
         "name": "Igiswahili"
     },
     "it": {
-        "code": "it",
         "name": "Igitaliyani"
     },
     "ta": {
-        "code": "ta",
         "name": "Igitamili"
     },
     "th": {
-        "code": "th",
         "name": "Igitayi"
     },
     "te": {
-        "code": "te",
         "name": "Igitelugu"
     },
     "tr": {
-        "code": "tr",
         "name": "Igiturukiya"
     },
     "eu": {
-        "code": "eu",
         "name": "Ikibasiki"
     },
     "be": {
-        "code": "be",
         "name": "Ikibelarusiya"
     },
     "bn": {
-        "code": "bn",
         "name": "Ikibengali"
     },
     "de": {
-        "code": "de",
         "name": "Ikidage"
     },
     "da": {
-        "code": "da",
         "name": "Ikidaninwa"
     },
     "gl": {
-        "code": "gl",
         "name": "Ikigalisiya"
     },
     "cy": {
-        "code": "cy",
         "name": "Ikigaluwa"
     },
     "gd": {
-        "code": "gd",
         "name": "Ikigaluwa cy’Igisweduwa"
     },
     "el": {
-        "code": "el",
         "name": "Ikigereki"
     },
     "lo": {
-        "code": "lo",
         "name": "Ikilawotiyani"
     },
     "lt": {
-        "code": "lt",
         "name": "Ikilituwaniya"
     },
     "ml": {
-        "code": "ml",
         "name": "Ikimalayalami"
     },
     "ms": {
-        "code": "ms",
         "name": "Ikimalayi"
     },
     "mt": {
-        "code": "mt",
         "name": "Ikimaliteze"
     },
     "mr": {
-        "code": "mr",
         "name": "Ikimarati"
     },
     "mk": {
-        "code": "mk",
         "name": "Ikimasedoniyani"
     },
     "mn": {
-        "code": "mn",
         "name": "Ikimongoli"
     },
     "ne": {
-        "code": "ne",
         "name": "Ikinepali"
     },
     "nl": {
-        "code": "nl",
         "name": "Ikinerilande"
     },
     "af": {
-        "code": "af",
         "name": "Ikinyafurikaneri"
     },
     "lv": {
-        "code": "lv",
         "name": "Ikinyaletoviyani"
     },
     "ro": {
-        "code": "ro",
         "name": "Ikinyarumaniya"
     },
     "hy": {
-        "code": "hy",
         "name": "Ikinyarumeniya"
     },
     "sl": {
-        "code": "sl",
         "name": "Ikinyasiloveniya"
     },
     "vi": {
-        "code": "vi",
         "name": "Ikinyaviyetinamu"
     },
     "uk": {
-        "code": "uk",
         "name": "Ikinyayukereni"
     },
     "id": {
-        "code": "id",
         "name": "Ikinyendoziya"
     },
     "ga": {
-        "code": "ga",
         "name": "Ikirilandi"
     },
     "ru": {
-        "code": "ru",
         "name": "Ikirusiya"
     },
     "ug": {
-        "code": "ug",
         "name": "Ikiwiguri"
     },
     "ja": {
-        "code": "ja",
         "name": "Ikiyapani"
     },
     "smn": {
-        "code": "smn",
         "name": "Inari Sami"
     },
     "ky": {
-        "code": "ky",
         "name": "Inkerigizi"
     },
     "am": {
-        "code": "am",
         "name": "Inyamuhariki"
     },
     "ti": {
-        "code": "ti",
         "name": "Inyatigirinya"
     },
     "az": {
-        "code": "az",
         "name": "Inyazeribayijani"
     },
     "br": {
-        "code": "br",
         "name": "Inyebiritoni"
     },
     "bs": {
-        "code": "bs",
         "name": "Inyebosiniya"
     },
     "fo": {
-        "code": "fo",
         "name": "Inyefaroyizi"
     },
     "gu": {
-        "code": "gu",
         "name": "Inyegujarati"
     },
     "ka": {
-        "code": "ka",
         "name": "Inyejeworujiya"
     },
     "nn": {
-        "code": "nn",
         "name": "Inyenoruveji (Nyonorusiki)"
     },
     "fa": {
-        "code": "fa",
         "name": "Inyeperisi"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "Inyeporutigali (Igiporutigali)"
     },
     "si": {
-        "code": "si",
         "name": "Inyesimpaleze"
     },
     "yi": {
-        "code": "yi",
         "name": "Inyeyidishi"
     },
     "ur": {
-        "code": "ur",
         "name": "Inyeyurudu"
     },
     "uz": {
-        "code": "uz",
         "name": "Inyeyuzubeki"
     },
     "zu": {
-        "code": "zu",
         "name": "Inyezulu"
     },
     "or": {
-        "code": "or",
         "name": "Inyoriya"
     },
     "dyo": {
-        "code": "dyo",
         "name": "Jola-Fonyi"
     },
     "kea": {
-        "code": "kea",
         "name": "Kabuverdianu"
     },
     "kab": {
-        "code": "kab",
         "name": "Kabyle"
     },
     "ks": {
-        "code": "ks",
         "name": "Kashmiri"
     },
     "kk": {
-        "code": "kk",
         "name": "Kazakh"
     },
     "rw": {
-        "code": "rw",
         "name": "Kinyarwanda"
     },
     "kok": {
-        "code": "kok",
         "name": "Konkani"
     },
     "khq": {
-        "code": "khq",
         "name": "Koyra Chiini"
     },
     "ses": {
-        "code": "ses",
         "name": "Koyraboro Senni"
     },
     "lkt": {
-        "code": "lkt",
         "name": "Lakota"
     },
     "dsb": {
-        "code": "dsb",
         "name": "Lower Sorbian"
     },
     "lu": {
-        "code": "lu",
         "name": "Luba-Katanga"
     },
     "luo": {
-        "code": "luo",
         "name": "Luo"
     },
     "lb": {
-        "code": "lb",
         "name": "Luxembourgish"
     },
     "luy": {
-        "code": "luy",
         "name": "Luyia"
     },
     "mgh": {
-        "code": "mgh",
         "name": "Makhuwa-Meetto"
     },
     "mg": {
-        "code": "mg",
         "name": "Malagasy"
     },
     "mas": {
-        "code": "mas",
         "name": "Masai"
     },
     "mfe": {
-        "code": "mfe",
         "name": "Morisyen"
     },
     "mua": {
-        "code": "mua",
         "name": "Mundang"
     },
     "naq": {
-        "code": "naq",
         "name": "Nama"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "nl_BE"
     },
     "se": {
-        "code": "se",
         "name": "Northern Sami"
     },
     "nb": {
-        "code": "nb",
         "name": "Norwegian Bokmål"
     },
     "nyn": {
-        "code": "nyn",
         "name": "Nyankole"
     },
     "om": {
-        "code": "om",
         "name": "Oromo"
     },
     "qu": {
-        "code": "qu",
         "name": "Quechua"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "ro_MD"
     },
     "rm": {
-        "code": "rm",
         "name": "Romansh"
     },
     "rof": {
-        "code": "rof",
         "name": "Rombo"
     },
     "rn": {
-        "code": "rn",
         "name": "Rundi"
     },
     "sg": {
-        "code": "sg",
         "name": "Sango"
     },
     "seh": {
-        "code": "seh",
         "name": "Sena"
     },
     "gsw": {
-        "code": "gsw",
         "name": "Swiss German"
     },
     "twq": {
-        "code": "twq",
         "name": "Tasawaq"
     },
     "to": {
-        "code": "to",
         "name": "Tongan"
     },
     "hsb": {
-        "code": "hsb",
         "name": "Upper Sorbian"
     },
     "bg": {
-        "code": "bg",
         "name": "Urunyabuligariya"
     },
     "wae": {
-        "code": "wae",
         "name": "Walser"
     },
     "yav": {
-        "code": "yav",
         "name": "Yangben"
     },
     "yo": {
-        "code": "yo",
         "name": "Yoruba"
     },
     "dje": {
-        "code": "dje",
         "name": "Zarma"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "zh_Hans"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "zh_Hant"
     }
 }

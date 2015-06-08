@@ -1,606 +1,467 @@
 {
     "af": {
-        "code": "af",
         "name": "Afraganais"
     },
     "agq": {
-        "code": "agq",
         "name": "Aghem"
     },
     "hy": {
-        "code": "hy",
         "name": "Airmeinis"
     },
     "ak": {
-        "code": "ak",
         "name": "Akan"
     },
     "sq": {
-        "code": "sq",
         "name": "Albàinis"
     },
     "am": {
-        "code": "am",
         "name": "Amtharais"
     },
     "ar": {
-        "code": "ar",
         "name": "Arabais"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "Àrd-Ghearmailtis na h-Eilbheise"
     },
     "az": {
-        "code": "az",
         "name": "Asarbaideànais"
     },
     "ast": {
-        "code": "ast",
         "name": "Astùrais"
     },
     "ksf": {
-        "code": "ksf",
         "name": "Bafia"
     },
     "bm": {
-        "code": "bm",
         "name": "Bambara"
     },
     "bas": {
-        "code": "bas",
         "name": "Basaa"
     },
     "eu": {
-        "code": "eu",
         "name": "Basgais"
     },
     "be": {
-        "code": "be",
         "name": "Bealaruisis"
     },
     "bn": {
-        "code": "bn",
         "name": "Beangailis"
     },
     "bez": {
-        "code": "bez",
         "name": "Bena"
     },
+    "en": {
+        "name": "Beurla"
+    },
+    "en-AU": {
+        "name": "Beurla Astràilia"
+    },
+    "en-GB": {
+        "name": "Beurla Bhreatainn"
+    },
+    "en-CA": {
+        "name": "Beurla Chanada"
+    },
     "vi": {
-        "code": "vi",
         "name": "Bhiet-Namais"
     },
     "brx": {
-        "code": "brx",
         "name": "Bodo"
     },
     "nb": {
-        "code": "nb",
         "name": "Bokmål na Nirribhidh"
     },
     "bs": {
-        "code": "bs",
         "name": "Bosnais"
     },
     "br": {
-        "code": "br",
         "name": "Breatnais"
     },
     "bg": {
-        "code": "bg",
         "name": "Bulgarais"
     },
     "my": {
-        "code": "my",
         "name": "Burmais"
     },
     "ka": {
-        "code": "ka",
         "name": "Cairtbheilis"
     },
     "ks": {
-        "code": "ks",
         "name": "Caismiris"
     },
     "haw": {
-        "code": "haw",
         "name": "Cànan Hawai’i"
     },
     "kk": {
-        "code": "kk",
         "name": "Casachais"
     },
     "ca": {
-        "code": "ca",
         "name": "Catalanais"
     },
     "qu": {
-        "code": "qu",
         "name": "Ceatsua"
     },
     "cgg": {
-        "code": "cgg",
         "name": "Chiga"
     },
     "ky": {
-        "code": "ky",
         "name": "Cìorgasais"
     },
     "km": {
-        "code": "km",
         "name": "Cmèar"
     },
     "ko": {
-        "code": "ko",
         "name": "Coirèanais"
     },
     "ksh": {
-        "code": "ksh",
         "name": "Colognian"
     },
     "hr": {
-        "code": "hr",
         "name": "Cròthaisis"
     },
     "cy": {
-        "code": "cy",
         "name": "Cuimris"
     },
     "da": {
-        "code": "da",
         "name": "Danmhairgis"
     },
     "nl": {
-        "code": "nl",
         "name": "Duitsis"
     },
     "dz": {
-        "code": "dz",
         "name": "Dzongkha"
     },
     "he": {
-        "code": "he",
         "name": "Eabhra"
     },
     "it": {
-        "code": "it",
         "name": "Eadailtis"
     },
     "et": {
-        "code": "et",
         "name": "Eastoinis"
     },
     "eo": {
-        "code": "eo",
         "name": "Esperanto"
     },
     "ee": {
-        "code": "ee",
         "name": "Ewe"
     },
     "fo": {
-        "code": "fo",
         "name": "Fàrothais"
     },
     "fa": {
-        "code": "fa",
         "name": "Farsaidh"
     },
     "fi": {
-        "code": "fi",
         "name": "Fionnlannais"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "Flannrais"
     },
     "fr": {
-        "code": "fr",
         "name": "Fraingis"
     },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "Fraingis Chanada"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "Fraingis Eilbheiseach"
     },
     "fy": {
-        "code": "fy",
         "name": "Frìoslannais Siarach"
     },
     "fur": {
-        "code": "fur",
         "name": "Friùilis"
     },
     "ff": {
-        "code": "ff",
         "name": "Fulah"
     },
     "ga": {
-        "code": "ga",
         "name": "Gaeilge"
     },
     "gd": {
-        "code": "gd",
         "name": "Gàidhlig"
     },
     "gl": {
-        "code": "gl",
         "name": "Gailìsis"
     },
     "lg": {
-        "code": "lg",
         "name": "Ganda"
     },
     "de": {
-        "code": "de",
         "name": "Gearmailtis"
     },
     "gsw": {
-        "code": "gsw",
         "name": "Gearmailtis Eilbheiseach"
     },
     "de-AT": {
-        "code": "de-AT",
         "name": "Gearmailtis na h-Ostaire"
     },
     "el": {
-        "code": "el",
         "name": "Greugais"
     },
     "gu": {
-        "code": "gu",
         "name": "Gujarati"
     },
     "ha": {
-        "code": "ha",
         "name": "Hausa"
     },
     "hi": {
-        "code": "hi",
         "name": "Hindis"
     },
     "ig": {
-        "code": "ig",
         "name": "Igbo"
     },
     "id": {
-        "code": "id",
         "name": "Innd-Innsis"
     },
     "is": {
-        "code": "is",
         "name": "Innis Tìlis"
     },
     "yo": {
-        "code": "yo",
         "name": "Ioruba"
     },
     "yi": {
-        "code": "yi",
         "name": "Iùdhais"
     },
     "dyo": {
-        "code": "dyo",
         "name": "Jola-Fonyi"
     },
     "kea": {
-        "code": "kea",
         "name": "Kabuverdianu"
     },
     "kab": {
-        "code": "kab",
         "name": "Kabyle"
     },
     "kn": {
-        "code": "kn",
         "name": "Kannada"
     },
     "rw": {
-        "code": "rw",
         "name": "Kinyarwanda"
     },
     "rn": {
-        "code": "rn",
         "name": "Kirundi"
     },
     "sw": {
-        "code": "sw",
         "name": "Kiswahili"
     },
     "kok": {
-        "code": "kok",
         "name": "Konkani"
     },
     "khq": {
-        "code": "khq",
         "name": "Koyra Chiini"
     },
     "ses": {
-        "code": "ses",
         "name": "Koyraboro Senni"
     },
     "lv": {
-        "code": "lv",
         "name": "Laitbheis"
     },
     "lkt": {
-        "code": "lkt",
         "name": "Lakhóta"
     },
     "lo": {
-        "code": "lo",
         "name": "Làtho"
     },
     "lt": {
-        "code": "lt",
         "name": "Liotuainis"
     },
     "lu": {
-        "code": "lu",
         "name": "Luba-Katanga"
     },
     "lb": {
-        "code": "lb",
         "name": "Lugsamburgais"
     },
     "luo": {
-        "code": "luo",
         "name": "Luo"
     },
     "luy": {
-        "code": "luy",
         "name": "Luyia"
     },
     "mas": {
-        "code": "mas",
         "name": "Maasai"
     },
     "mgh": {
-        "code": "mgh",
         "name": "Makhuwa-Meetto"
     },
     "mg": {
-        "code": "mg",
         "name": "Malagasais"
     },
     "ms": {
-        "code": "ms",
         "name": "Malaidhis"
     },
     "ml": {
-        "code": "ml",
         "name": "Malayalam"
     },
     "mt": {
-        "code": "mt",
         "name": "Maltais"
     },
     "mr": {
-        "code": "mr",
         "name": "Marathi"
     },
     "mk": {
-        "code": "mk",
         "name": "Masadonais"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "Moldobhais"
     },
     "mn": {
-        "code": "mn",
         "name": "Mongolais"
     },
     "mfe": {
-        "code": "mfe",
         "name": "Morisyen"
     },
     "mua": {
-        "code": "mua",
         "name": "Mundang"
     },
     "naq": {
-        "code": "naq",
         "name": "Nama"
     },
     "ne": {
-        "code": "ne",
         "name": "Neapàilis"
     },
     "nyn": {
-        "code": "nyn",
         "name": "Nyankole"
     },
     "nn": {
-        "code": "nn",
         "name": "Nynorsk na Nirribhidh"
     },
     "or": {
-        "code": "or",
         "name": "Oriya"
     },
     "om": {
-        "code": "om",
         "name": "Oromo"
     },
     "pa": {
-        "code": "pa",
         "name": "Panjabi"
     },
     "pl": {
-        "code": "pl",
         "name": "Pòlainnis"
     },
     "pt": {
-        "code": "pt",
         "name": "Portagailis"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "Portagailis Eòrpach"
     },
     "ro": {
-        "code": "ro",
         "name": "Romàinis"
     },
     "rof": {
-        "code": "rof",
         "name": "Rombo"
     },
     "ru": {
-        "code": "ru",
         "name": "Ruisis"
     },
     "rm": {
-        "code": "rm",
         "name": "Rumains"
     },
     "smn": {
-        "code": "smn",
         "name": "Sàmais Inari"
     },
     "se": {
-        "code": "se",
         "name": "Sàmais Thuathach"
     },
     "sg": {
-        "code": "sg",
         "name": "Sango"
     },
     "cs": {
-        "code": "cs",
         "name": "Seacais"
     },
     "ja": {
-        "code": "ja",
         "name": "Seapanais"
     },
     "sr": {
-        "code": "sr",
         "name": "Sèirbis"
     },
     "seh": {
-        "code": "seh",
         "name": "Sena"
     },
     "si": {
-        "code": "si",
         "name": "Sinhala"
     },
     "zh": {
-        "code": "zh",
         "name": "Sìnis"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "Sìnis Shimplichte"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "Sìnis Thradaiseanta"
     },
     "sk": {
-        "code": "sk",
         "name": "Slòbhacais"
     },
     "sl": {
-        "code": "sl",
         "name": "Slòbhainis"
     },
     "so": {
-        "code": "so",
         "name": "Somàilis"
     },
     "dsb": {
-        "code": "dsb",
         "name": "Sòrbais Ìochdarach"
     },
     "hsb": {
-        "code": "hsb",
         "name": "Sòrbais Uachdarach"
     },
     "es": {
-        "code": "es",
         "name": "Spàinntis"
     },
     "es-MX": {
-        "code": "es-MX",
         "name": "Spàinntis Mheagsagach"
     },
     "sv": {
-        "code": "sv",
         "name": "Suainis"
     },
     "th": {
-        "code": "th",
         "name": "Tàidh"
     },
     "ta": {
-        "code": "ta",
         "name": "Taimilis"
     },
     "tzm": {
-        "code": "tzm",
         "name": "Tamazight Meadhan na h-Atlas"
     },
     "twq": {
-        "code": "twq",
         "name": "Tasawaq"
     },
     "te": {
-        "code": "te",
         "name": "Telugu"
     },
     "ti": {
-        "code": "ti",
         "name": "Tigrinya"
     },
     "to": {
-        "code": "to",
         "name": "Tongais"
     },
     "tr": {
-        "code": "tr",
         "name": "Turcais"
     },
     "uk": {
-        "code": "uk",
         "name": "Ucràinis"
     },
     "ug": {
-        "code": "ug",
         "name": "Ùigiurais"
     },
     "hu": {
-        "code": "hu",
         "name": "Ungairis"
     },
     "ur": {
-        "code": "ur",
         "name": "Ùrdu"
     },
     "uz": {
-        "code": "uz",
         "name": "Usbagais"
     },
     "wae": {
-        "code": "wae",
         "name": "Walser"
     },
     "yav": {
-        "code": "yav",
         "name": "Yangben"
     },
     "dje": {
-        "code": "dje",
         "name": "Zarma"
     },
     "zu": {
-        "code": "zu",
         "name": "Zulu"
     }
 }

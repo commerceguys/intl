@@ -1,606 +1,467 @@
 {
     "af": {
-        "code": "af",
         "name": "Afrikaans"
     },
     "agq": {
-        "code": "agq",
         "name": "Aghem"
     },
     "sq": {
-        "code": "sq",
         "name": "Albanian"
     },
     "hy": {
-        "code": "hy",
         "name": "Armenian"
     },
     "ast": {
-        "code": "ast",
         "name": "Asturian"
     },
     "az": {
-        "code": "az",
         "name": "Azerbaijani"
     },
     "ksf": {
-        "code": "ksf",
         "name": "Bafia"
     },
     "bm": {
-        "code": "bm",
         "name": "Bambara"
     },
     "bas": {
-        "code": "bas",
         "name": "Basaa"
     },
     "eu": {
-        "code": "eu",
         "name": "Basque"
     },
     "bez": {
-        "code": "bez",
         "name": "Bena"
     },
     "brx": {
-        "code": "brx",
         "name": "Bodo"
     },
     "bs": {
-        "code": "bs",
         "name": "Bosnian"
     },
     "br": {
-        "code": "br",
         "name": "Breton"
     },
     "ca": {
-        "code": "ca",
         "name": "Catalan"
     },
     "cgg": {
-        "code": "cgg",
         "name": "Chiga"
     },
     "ksh": {
-        "code": "ksh",
         "name": "Colognian"
     },
     "hr": {
-        "code": "hr",
         "name": "Croatian"
     },
     "da": {
-        "code": "da",
         "name": "Danish"
     },
     "de-AT": {
-        "code": "de-AT",
         "name": "de_AT"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "de_CH"
     },
     "dz": {
-        "code": "dz",
         "name": "Dzongkha"
     },
+    "en-AU": {
+        "name": "en_AU"
+    },
+    "en-CA": {
+        "name": "en_CA"
+    },
+    "en-GB": {
+        "name": "en_GB"
+    },
     "es-MX": {
-        "code": "es-MX",
         "name": "es_MX"
     },
     "eo": {
-        "code": "eo",
         "name": "Esperanto"
     },
     "et": {
-        "code": "et",
         "name": "Estonian"
     },
     "ee": {
-        "code": "ee",
         "name": "Ewe"
     },
     "fo": {
-        "code": "fo",
         "name": "Faroese"
     },
     "fi": {
-        "code": "fi",
         "name": "Finnish"
     },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "fr_CA"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "fr_CH"
     },
     "fur": {
-        "code": "fur",
         "name": "Friulian"
     },
     "ff": {
-        "code": "ff",
         "name": "Fulah"
     },
     "gl": {
-        "code": "gl",
         "name": "Galician"
     },
     "lg": {
-        "code": "lg",
         "name": "Ganda"
     },
     "ka": {
-        "code": "ka",
         "name": "Georgian"
     },
     "gu": {
-        "code": "gu",
         "name": "Gujarati"
     },
     "haw": {
-        "code": "haw",
         "name": "Hawaiian"
     },
     "he": {
-        "code": "he",
         "name": "Hebrew"
     },
     "is": {
-        "code": "is",
         "name": "Icelandic"
     },
     "smn": {
-        "code": "smn",
         "name": "Inari Sami"
     },
     "ga": {
-        "code": "ga",
         "name": "Irish"
     },
     "dyo": {
-        "code": "dyo",
         "name": "Jola-Fonyi"
     },
     "kea": {
-        "code": "kea",
         "name": "Kabuverdianu"
     },
     "kab": {
-        "code": "kab",
         "name": "Kabyle"
     },
     "kn": {
-        "code": "kn",
         "name": "Kannada"
     },
     "ks": {
-        "code": "ks",
         "name": "Kashmiri"
     },
     "kk": {
-        "code": "kk",
         "name": "Kazakh"
     },
     "kok": {
-        "code": "kok",
         "name": "Konkani"
     },
     "khq": {
-        "code": "khq",
         "name": "Koyra Chiini"
     },
     "ses": {
-        "code": "ses",
         "name": "Koyraboro Senni"
     },
     "ky": {
-        "code": "ky",
         "name": "Kyrgyz"
     },
     "lkt": {
-        "code": "lkt",
         "name": "Lakota"
     },
     "lo": {
-        "code": "lo",
         "name": "Lao"
     },
     "lv": {
-        "code": "lv",
         "name": "Latvian"
     },
     "lt": {
-        "code": "lt",
         "name": "Lithuanian"
     },
     "dsb": {
-        "code": "dsb",
         "name": "Lower Sorbian"
     },
     "lu": {
-        "code": "lu",
         "name": "Luba-Katanga"
     },
     "luo": {
-        "code": "luo",
         "name": "Luo"
     },
     "lb": {
-        "code": "lb",
         "name": "Luxembourgish"
     },
     "luy": {
-        "code": "luy",
         "name": "Luyia"
     },
     "mk": {
-        "code": "mk",
         "name": "Macedonian"
     },
     "mgh": {
-        "code": "mgh",
         "name": "Makhuwa-Meetto"
     },
     "mg": {
-        "code": "mg",
         "name": "Malagasy"
     },
     "ml": {
-        "code": "ml",
         "name": "Malayalam"
     },
     "mt": {
-        "code": "mt",
         "name": "Maltese"
     },
     "mr": {
-        "code": "mr",
         "name": "Marathi"
     },
     "mas": {
-        "code": "mas",
         "name": "Masai"
     },
     "mn": {
-        "code": "mn",
         "name": "Mongolian"
     },
     "mfe": {
-        "code": "mfe",
         "name": "Morisyen"
     },
     "mua": {
-        "code": "mua",
         "name": "Mundang"
     },
     "naq": {
-        "code": "naq",
         "name": "Nama"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "nl_BE"
     },
     "se": {
-        "code": "se",
         "name": "Northern Sami"
     },
     "nb": {
-        "code": "nb",
         "name": "Norwegian Bokmål"
     },
     "nn": {
-        "code": "nn",
         "name": "Norwegian Nynorsk"
     },
     "nyn": {
-        "code": "nyn",
         "name": "Nyankole"
     },
     "or": {
-        "code": "or",
         "name": "Oriya"
     },
     "om": {
-        "code": "om",
         "name": "Oromo"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "pt_PT"
     },
     "qu": {
-        "code": "qu",
         "name": "Quechua"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "ro_MD"
     },
     "rm": {
-        "code": "rm",
         "name": "Romansh"
     },
     "rof": {
-        "code": "rof",
         "name": "Rombo"
     },
     "rn": {
-        "code": "rn",
         "name": "Rundi"
     },
     "sg": {
-        "code": "sg",
         "name": "Sango"
     },
     "gd": {
-        "code": "gd",
         "name": "Scottish Gaelic"
     },
     "seh": {
-        "code": "seh",
         "name": "Sena"
     },
     "sr": {
-        "code": "sr",
         "name": "Serbian"
     },
     "si": {
-        "code": "si",
         "name": "Sinhala"
     },
     "sk": {
-        "code": "sk",
         "name": "Slovak"
     },
     "sl": {
-        "code": "sl",
         "name": "Slovenian"
     },
     "sw": {
-        "code": "sw",
         "name": "Swahili"
     },
     "gsw": {
-        "code": "gsw",
         "name": "Swiss German"
     },
     "bg": {
-        "code": "bg",
         "name": "Tabelɣarit"
     },
     "pa": {
-        "code": "pa",
         "name": "Tabenjabit"
     },
     "be": {
-        "code": "be",
         "name": "Tabilarusit"
     },
     "bn": {
-        "code": "bn",
         "name": "Tabinɣalit"
     },
     "my": {
-        "code": "my",
         "name": "Taburmanit"
     },
     "pt": {
-        "code": "pt",
         "name": "Taburtuɣalit"
     },
     "cs": {
-        "code": "cs",
         "name": "Tačikt"
     },
     "zh": {
-        "code": "zh",
         "name": "Tacinwit,Mandarin"
     },
     "fa": {
-        "code": "fa",
         "name": "Tafarisit"
     },
     "fr": {
-        "code": "fr",
         "name": "Tafṛansist"
     },
     "ha": {
-        "code": "ha",
         "name": "Tahawsat"
     },
     "hu": {
-        "code": "hu",
         "name": "Tahenɣarit"
     },
     "hi": {
-        "code": "hi",
         "name": "Tahindit"
     },
     "nl": {
-        "code": "nl",
         "name": "Tahulanḍit"
     },
     "ja": {
-        "code": "ja",
         "name": "Tajappunit"
     },
     "ak": {
-        "code": "ak",
         "name": "Takanit"
     },
     "ko": {
-        "code": "ko",
         "name": "Takurit"
     },
     "de": {
-        "code": "de",
         "name": "Talmanit"
     },
     "ms": {
-        "code": "ms",
         "name": "Tamalizit"
     },
     "tzm": {
-        "code": "tzm",
         "name": "Tamaziɣt"
     },
     "am": {
-        "code": "am",
         "name": "Tamharit"
     },
+    "en": {
+        "name": "Tanglizt"
+    },
     "ne": {
-        "code": "ne",
         "name": "Tanippalit"
     },
     "pl": {
-        "code": "pl",
         "name": "Tappulunit"
     },
     "ro": {
-        "code": "ro",
         "name": "Taṛumanit"
     },
     "ru": {
-        "code": "ru",
         "name": "Tarusit"
     },
     "rw": {
-        "code": "rw",
         "name": "Tarwandit"
     },
     "twq": {
-        "code": "twq",
         "name": "Tasawaq"
     },
     "es": {
-        "code": "es",
         "name": "tasbelyunit"
     },
     "so": {
-        "code": "so",
         "name": "Taṣumalit"
     },
     "sv": {
-        "code": "sv",
         "name": "Taswidit"
     },
     "it": {
-        "code": "it",
         "name": "Taṭalyant"
     },
     "ta": {
-        "code": "ta",
         "name": "Tatamilt"
     },
     "th": {
-        "code": "th",
         "name": "Taṭayt"
     },
     "tr": {
-        "code": "tr",
         "name": "Taturkit"
     },
     "vi": {
-        "code": "vi",
         "name": "Taviṭnamit"
     },
     "km": {
-        "code": "km",
         "name": "Taxmert ,Talammast"
     },
     "el": {
-        "code": "el",
         "name": "Tayunanit"
     },
     "yo": {
-        "code": "yo",
         "name": "Tayurubat"
     },
     "zu": {
-        "code": "zu",
         "name": "tazulut"
     },
     "ar": {
-        "code": "ar",
         "name": "Taεrabt"
     },
     "te": {
-        "code": "te",
         "name": "Telugu"
     },
     "ig": {
-        "code": "ig",
         "name": "Tigbut"
     },
     "ti": {
-        "code": "ti",
         "name": "Tigrinya"
     },
     "id": {
-        "code": "id",
         "name": "Tindunisit"
     },
     "to": {
-        "code": "to",
         "name": "Tongan"
     },
     "uk": {
-        "code": "uk",
         "name": "Tukranit"
     },
     "ur": {
-        "code": "ur",
         "name": "Turdut"
     },
     "hsb": {
-        "code": "hsb",
         "name": "Upper Sorbian"
     },
     "ug": {
-        "code": "ug",
         "name": "Uyghur"
     },
     "uz": {
-        "code": "uz",
         "name": "Uzbek"
     },
     "wae": {
-        "code": "wae",
         "name": "Walser"
     },
     "cy": {
-        "code": "cy",
         "name": "Welsh"
     },
     "fy": {
-        "code": "fy",
         "name": "Western Frisian"
     },
     "yav": {
-        "code": "yav",
         "name": "Yangben"
     },
     "yi": {
-        "code": "yi",
         "name": "Yiddish"
     },
     "dje": {
-        "code": "dje",
         "name": "Zarma"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "zh_Hans"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "zh_Hant"
     }
 }

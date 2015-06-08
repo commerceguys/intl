@@ -1,606 +1,467 @@
 {
     "agq": {
-        "code": "agq",
         "name": "агем"
     },
     "az": {
-        "code": "az",
         "name": "азербејџански"
     },
     "ak": {
-        "code": "ak",
         "name": "акан"
     },
     "sq": {
-        "code": "sq",
         "name": "албански"
     },
     "am": {
-        "code": "am",
         "name": "амхарски"
     },
     "ar": {
-        "code": "ar",
         "name": "арапски"
     },
     "ast": {
-        "code": "ast",
         "name": "Астуријски"
     },
     "af": {
-        "code": "af",
         "name": "африканс"
     },
     "bm": {
-        "code": "bm",
         "name": "бамбара"
     },
     "bas": {
-        "code": "bas",
         "name": "Баса"
     },
     "eu": {
-        "code": "eu",
         "name": "баскијски"
     },
     "ksf": {
-        "code": "ksf",
         "name": "бафија"
     },
     "be": {
-        "code": "be",
         "name": "белоруски"
     },
     "bez": {
-        "code": "bez",
         "name": "бена"
     },
     "bn": {
-        "code": "bn",
         "name": "бенгалски"
     },
     "brx": {
-        "code": "brx",
         "name": "бодо"
     },
     "bs": {
-        "code": "bs",
         "name": "босански"
     },
     "br": {
-        "code": "br",
         "name": "бретонски"
     },
     "bg": {
-        "code": "bg",
         "name": "бугарски"
     },
     "my": {
-        "code": "my",
         "name": "бурмански"
     },
     "cy": {
-        "code": "cy",
         "name": "велшки"
     },
     "vi": {
-        "code": "vi",
         "name": "вијетнамски"
     },
     "gl": {
-        "code": "gl",
         "name": "галицијски"
     },
     "lg": {
-        "code": "lg",
         "name": "ганда"
     },
     "hsb": {
-        "code": "hsb",
         "name": "горњи лужичкосрпски"
     },
     "ka": {
-        "code": "ka",
         "name": "грузијски"
     },
     "el": {
-        "code": "el",
         "name": "грчки"
     },
     "gu": {
-        "code": "gu",
         "name": "гуџарати"
     },
     "da": {
-        "code": "da",
         "name": "дански"
     },
     "dsb": {
-        "code": "dsb",
         "name": "доњи лужичкосрпски"
     },
     "ee": {
-        "code": "ee",
         "name": "еве"
     },
+    "en": {
+        "name": "енглески"
+    },
     "eo": {
-        "code": "eo",
         "name": "есперанто"
     },
     "et": {
-        "code": "et",
         "name": "естонски"
     },
     "fy": {
-        "code": "fy",
         "name": "западни фризијски"
     },
     "dje": {
-        "code": "dje",
         "name": "зарма"
     },
     "kea": {
-        "code": "kea",
         "name": "зеленортски креолски"
     },
     "zu": {
-        "code": "zu",
         "name": "зулу"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "Иберијски португалски"
     },
     "ig": {
-        "code": "ig",
         "name": "игбо"
     },
     "smn": {
-        "code": "smn",
         "name": "инари сами"
     },
     "id": {
-        "code": "id",
         "name": "индонежански"
     },
     "ga": {
-        "code": "ga",
         "name": "ирски"
     },
     "is": {
-        "code": "is",
         "name": "исландски"
     },
     "it": {
-        "code": "it",
         "name": "италијански"
     },
     "ja": {
-        "code": "ja",
         "name": "јапански"
     },
     "hy": {
-        "code": "hy",
         "name": "јерменски"
     },
     "yi": {
-        "code": "yi",
         "name": "Јидиш"
     },
     "yo": {
-        "code": "yo",
         "name": "јоруба"
     },
     "kab": {
-        "code": "kab",
         "name": "кабиле"
     },
     "kk": {
-        "code": "kk",
         "name": "казашки"
     },
     "kn": {
-        "code": "kn",
         "name": "канада"
     },
     "ca": {
-        "code": "ca",
         "name": "каталонски"
     },
     "ks": {
-        "code": "ks",
         "name": "кашмирски"
     },
     "qu": {
-        "code": "qu",
         "name": "кечуа"
     },
     "zh": {
-        "code": "zh",
         "name": "кинески"
     },
     "rw": {
-        "code": "rw",
         "name": "кинјаруанда"
     },
     "ky": {
-        "code": "ky",
         "name": "киргиски"
     },
     "km": {
-        "code": "km",
         "name": "кмерски"
     },
     "khq": {
-        "code": "khq",
         "name": "којра чиини"
     },
     "ses": {
-        "code": "ses",
         "name": "којраборо сени"
     },
     "kok": {
-        "code": "kok",
         "name": "конкани"
     },
     "ko": {
-        "code": "ko",
         "name": "корејски"
     },
     "lkt": {
-        "code": "lkt",
         "name": "лакота"
     },
     "lo": {
-        "code": "lo",
         "name": "лаошки"
     },
     "lv": {
-        "code": "lv",
         "name": "летонски"
     },
     "lt": {
-        "code": "lt",
         "name": "литвански"
     },
     "lu": {
-        "code": "lu",
         "name": "луба-катанга"
     },
     "luy": {
-        "code": "luy",
         "name": "лујиа"
     },
     "lb": {
-        "code": "lb",
         "name": "луксембуршки"
     },
     "luo": {
-        "code": "luo",
         "name": "луо"
     },
     "hu": {
-        "code": "hu",
         "name": "мађарски"
     },
     "mk": {
-        "code": "mk",
         "name": "македонски"
     },
     "mgh": {
-        "code": "mgh",
         "name": "макува-меето"
     },
     "ml": {
-        "code": "ml",
         "name": "малајалам"
     },
     "ms": {
-        "code": "ms",
         "name": "малајски"
     },
     "mg": {
-        "code": "mg",
         "name": "малгашки"
     },
     "mt": {
-        "code": "mt",
         "name": "малтешки"
     },
     "mr": {
-        "code": "mr",
         "name": "марати"
     },
     "mas": {
-        "code": "mas",
         "name": "масаи"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "молдавски"
     },
     "mn": {
-        "code": "mn",
         "name": "монголски"
     },
     "mfe": {
-        "code": "mfe",
         "name": "морисјен"
     },
     "mua": {
-        "code": "mua",
         "name": "мунданг"
     },
     "naq": {
-        "code": "naq",
         "name": "нама"
     },
     "de": {
-        "code": "de",
         "name": "немачки"
     },
     "ne": {
-        "code": "ne",
         "name": "непалски"
     },
     "nyn": {
-        "code": "nyn",
         "name": "нјанколе"
     },
     "nb": {
-        "code": "nb",
         "name": "норвешки бокмал"
     },
     "nn": {
-        "code": "nn",
         "name": "норвешки нинорск"
     },
     "or": {
-        "code": "or",
         "name": "орија"
     },
     "om": {
-        "code": "om",
         "name": "оромо"
     },
     "pa": {
-        "code": "pa",
         "name": "панџаби"
     },
     "fa": {
-        "code": "fa",
         "name": "персијски"
     },
     "pl": {
-        "code": "pl",
         "name": "пољски"
     },
     "pt": {
-        "code": "pt",
         "name": "португалски"
     },
     "rm": {
-        "code": "rm",
         "name": "рето-романски"
     },
     "rof": {
-        "code": "rof",
         "name": "ромбо"
     },
     "ro": {
-        "code": "ro",
         "name": "румунски"
     },
     "rn": {
-        "code": "rn",
         "name": "рунди"
     },
     "ru": {
-        "code": "ru",
         "name": "руски"
     },
     "sg": {
-        "code": "sg",
         "name": "санго"
     },
     "sw": {
-        "code": "sw",
         "name": "свахили"
     },
     "se": {
-        "code": "se",
         "name": "северни сами"
     },
     "seh": {
-        "code": "seh",
         "name": "сена"
     },
     "si": {
-        "code": "si",
         "name": "синхалски"
     },
     "sk": {
-        "code": "sk",
         "name": "словачки"
     },
     "sl": {
-        "code": "sl",
         "name": "словеначки"
     },
     "so": {
-        "code": "so",
         "name": "сомалски"
     },
     "sr": {
-        "code": "sr",
         "name": "српски"
     },
     "th": {
-        "code": "th",
         "name": "тајландски"
     },
     "ta": {
-        "code": "ta",
         "name": "тамилски"
     },
     "twq": {
-        "code": "twq",
         "name": "тасавак"
     },
     "te": {
-        "code": "te",
         "name": "телугу"
     },
     "ti": {
-        "code": "ti",
         "name": "тигриња"
     },
     "to": {
-        "code": "to",
         "name": "тонга"
     },
     "tr": {
-        "code": "tr",
         "name": "турски"
     },
     "uz": {
-        "code": "uz",
         "name": "узбечки"
     },
     "ug": {
-        "code": "ug",
         "name": "ујгурски"
     },
     "uk": {
-        "code": "uk",
         "name": "украјински"
     },
     "ur": {
-        "code": "ur",
         "name": "урду"
     },
     "fo": {
-        "code": "fo",
         "name": "фарски"
     },
     "fi": {
-        "code": "fi",
         "name": "фински"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "фламански"
     },
     "fr": {
-        "code": "fr",
         "name": "француски"
     },
     "fur": {
-        "code": "fur",
         "name": "Фриулијски"
     },
     "ff": {
-        "code": "ff",
         "name": "Фулах"
     },
     "haw": {
-        "code": "haw",
         "name": "хавајски"
     },
     "ha": {
-        "code": "ha",
         "name": "хауса"
     },
     "he": {
-        "code": "he",
         "name": "хебрејски"
     },
     "hi": {
-        "code": "hi",
         "name": "хинди"
     },
     "nl": {
-        "code": "nl",
         "name": "холандски"
     },
     "hr": {
-        "code": "hr",
         "name": "хрватски"
     },
     "tzm": {
-        "code": "tzm",
         "name": "централноатласки тамазигт"
     },
     "cs": {
-        "code": "cs",
         "name": "чешки"
     },
     "cgg": {
-        "code": "cgg",
         "name": "чига"
     },
     "dyo": {
-        "code": "dyo",
         "name": "џола фоњи"
     },
     "dz": {
-        "code": "dz",
         "name": "џонга"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "швајцарски високи немачки"
     },
     "gsw": {
-        "code": "gsw",
         "name": "Швајцарски немачки"
     },
     "sv": {
-        "code": "sv",
         "name": "шведски"
     },
     "gd": {
-        "code": "gd",
         "name": "Шкотски Галски"
     },
     "es": {
-        "code": "es",
         "name": "шпански"
     },
     "ksh": {
-        "code": "ksh",
         "name": "Colognian"
     },
     "de-AT": {
-        "code": "de-AT",
         "name": "de_AT"
     },
+    "en-AU": {
+        "name": "en_AU"
+    },
+    "en-CA": {
+        "name": "en_CA"
+    },
+    "en-GB": {
+        "name": "en_GB"
+    },
     "es-MX": {
-        "code": "es-MX",
         "name": "es_MX"
     },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "fr_CA"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "fr_CH"
     },
     "wae": {
-        "code": "wae",
         "name": "Walser"
     },
     "yav": {
-        "code": "yav",
         "name": "Yangben"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "zh_Hans"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "zh_Hant"
     }
 }

@@ -1,606 +1,467 @@
 {
     "agq": {
-        "code": "agq",
         "name": "Aghem"
     },
     "ak": {
-        "code": "ak",
         "name": "Akan"
     },
     "ast": {
-        "code": "ast",
         "name": "Asturian"
     },
     "ksf": {
-        "code": "ksf",
         "name": "Bafia"
     },
     "bm": {
-        "code": "bm",
         "name": "Bambara"
     },
     "bas": {
-        "code": "bas",
         "name": "Basaa"
     },
     "bez": {
-        "code": "bez",
         "name": "Bena"
     },
     "brx": {
-        "code": "brx",
         "name": "Bodo"
     },
     "br": {
-        "code": "br",
         "name": "Breton"
     },
     "tzm": {
-        "code": "tzm",
         "name": "Central Atlas Tamazight"
     },
     "cgg": {
-        "code": "cgg",
         "name": "Chiga"
     },
     "ksh": {
-        "code": "ksh",
         "name": "Colognian"
     },
     "de-AT": {
-        "code": "de-AT",
         "name": "de_AT"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "de_CH"
     },
     "dz": {
-        "code": "dz",
         "name": "Dzongkha"
     },
+    "en-AU": {
+        "name": "en_AU"
+    },
+    "en-CA": {
+        "name": "en_CA"
+    },
+    "en-GB": {
+        "name": "en_GB"
+    },
     "es-MX": {
-        "code": "es-MX",
         "name": "es_MX"
     },
     "ee": {
-        "code": "ee",
         "name": "Ewe"
     },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "fr_CA"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "fr_CH"
     },
     "fur": {
-        "code": "fur",
         "name": "Friulian"
     },
     "ff": {
-        "code": "ff",
         "name": "Fulah"
     },
     "lg": {
-        "code": "lg",
         "name": "Ganda"
     },
     "smn": {
-        "code": "smn",
         "name": "Inari Sami"
     },
     "dyo": {
-        "code": "dyo",
         "name": "Jola-Fonyi"
     },
     "kea": {
-        "code": "kea",
         "name": "Kabuverdianu"
     },
     "kab": {
-        "code": "kab",
         "name": "Kabyle"
     },
     "rw": {
-        "code": "rw",
         "name": "Kinyarwanda"
     },
     "kok": {
-        "code": "kok",
         "name": "Konkani"
     },
     "khq": {
-        "code": "khq",
         "name": "Koyra Chiini"
     },
     "ses": {
-        "code": "ses",
         "name": "Koyraboro Senni"
     },
     "lkt": {
-        "code": "lkt",
         "name": "Lakota"
     },
     "dsb": {
-        "code": "dsb",
         "name": "Lower Sorbian"
     },
     "lu": {
-        "code": "lu",
         "name": "Luba-Katanga"
     },
     "luo": {
-        "code": "luo",
         "name": "Luo"
     },
     "luy": {
-        "code": "luy",
         "name": "Luyia"
     },
     "mgh": {
-        "code": "mgh",
         "name": "Makhuwa-Meetto"
     },
     "mas": {
-        "code": "mas",
         "name": "Masai"
     },
     "mn": {
-        "code": "mn",
         "name": "Mongolian"
     },
     "mfe": {
-        "code": "mfe",
         "name": "Morisyen"
     },
     "mua": {
-        "code": "mua",
         "name": "Mundang"
     },
     "naq": {
-        "code": "naq",
         "name": "Nama"
     },
     "se": {
-        "code": "se",
         "name": "Northern Sami"
     },
     "nyn": {
-        "code": "nyn",
         "name": "Nyankole"
     },
     "om": {
-        "code": "om",
         "name": "Oromo"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "pt_PT"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "ro_MD"
     },
     "rof": {
-        "code": "rof",
         "name": "Rombo"
     },
     "rn": {
-        "code": "rn",
         "name": "Rundi"
     },
     "sg": {
-        "code": "sg",
         "name": "Sango"
     },
     "gd": {
-        "code": "gd",
         "name": "Scottish Gaelic"
     },
     "seh": {
-        "code": "seh",
         "name": "Sena"
     },
     "twq": {
-        "code": "twq",
         "name": "Tasawaq"
     },
     "hsb": {
-        "code": "hsb",
         "name": "Upper Sorbian"
     },
     "wae": {
-        "code": "wae",
         "name": "Walser"
     },
     "yav": {
-        "code": "yav",
         "name": "Yangben"
     },
     "yi": {
-        "code": "yi",
         "name": "Yiddish"
     },
     "dje": {
-        "code": "dje",
         "name": "Zarma"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "zh_Hans"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "zh_Hant"
     },
     "sq": {
-        "code": "sq",
         "name": "Албанча"
     },
     "am": {
-        "code": "am",
         "name": "Амхарча"
     },
     "ar": {
-        "code": "ar",
         "name": "Арабча"
     },
     "hy": {
-        "code": "hy",
         "name": "Арманча"
     },
     "af": {
-        "code": "af",
         "name": "Африканча"
     },
     "eu": {
-        "code": "eu",
         "name": "Баскча"
     },
     "be": {
-        "code": "be",
         "name": "Беларусча"
     },
     "bn": {
-        "code": "bn",
         "name": "Бенгалча"
     },
     "my": {
-        "code": "my",
         "name": "Бирманча"
     },
     "bg": {
-        "code": "bg",
         "name": "Болгарча"
     },
     "bs": {
-        "code": "bs",
         "name": "Боснияча"
     },
     "hu": {
-        "code": "hu",
         "name": "Венгрча"
     },
     "vi": {
-        "code": "vi",
         "name": "Вьетнамча"
     },
     "haw": {
-        "code": "haw",
         "name": "Гавайча"
     },
     "gl": {
-        "code": "gl",
         "name": "Галицийча"
     },
     "nl": {
-        "code": "nl",
         "name": "Голландча"
     },
     "el": {
-        "code": "el",
         "name": "Грекча"
     },
     "ka": {
-        "code": "ka",
         "name": "Грузинча"
     },
     "gu": {
-        "code": "gu",
         "name": "Гужарати"
     },
     "fy": {
-        "code": "fy",
         "name": "Ғарбий фризианча"
     },
     "da": {
-        "code": "da",
         "name": "Данияча"
     },
     "zu": {
-        "code": "zu",
         "name": "Зулу"
     },
     "he": {
-        "code": "he",
         "name": "Иброний"
     },
     "ig": {
-        "code": "ig",
         "name": "Игбо"
     },
+    "en": {
+        "name": "Инглизча"
+    },
     "id": {
-        "code": "id",
         "name": "Индонезияча"
     },
     "ga": {
-        "code": "ga",
         "name": "Ирландча"
     },
     "is": {
-        "code": "is",
         "name": "Исландча"
     },
     "es": {
-        "code": "es",
         "name": "Испанча"
     },
     "it": {
-        "code": "it",
         "name": "Италянча"
     },
     "yo": {
-        "code": "yo",
         "name": "Йоруба"
     },
     "kn": {
-        "code": "kn",
         "name": "Каннада"
     },
     "ca": {
-        "code": "ca",
         "name": "Каталанча"
     },
     "ks": {
-        "code": "ks",
         "name": "Кашмирча"
     },
     "qu": {
-        "code": "qu",
         "name": "Квечуа"
     },
     "ko": {
-        "code": "ko",
         "name": "Корейсча"
     },
     "ky": {
-        "code": "ky",
         "name": "Қирғизча"
     },
     "kk": {
-        "code": "kk",
         "name": "Қозоқча"
     },
     "lo": {
-        "code": "lo",
         "name": "Лао"
     },
     "lv": {
-        "code": "lv",
         "name": "Латишча"
     },
     "lt": {
-        "code": "lt",
         "name": "Литвача"
     },
     "lb": {
-        "code": "lb",
         "name": "Люксембургча"
     },
     "mk": {
-        "code": "mk",
         "name": "Македонча"
     },
     "mg": {
-        "code": "mg",
         "name": "Малагаси"
     },
     "ml": {
-        "code": "ml",
         "name": "Малайалам"
     },
     "ms": {
-        "code": "ms",
         "name": "Малайча"
     },
     "mt": {
-        "code": "mt",
         "name": "Мальтача"
     },
     "mr": {
-        "code": "mr",
         "name": "Марати"
     },
     "ne": {
-        "code": "ne",
         "name": "Непалча"
     },
     "nb": {
-        "code": "nb",
         "name": "Норвегча Бокмал"
     },
     "nn": {
-        "code": "nn",
         "name": "Норвегча Нинорск"
     },
     "az": {
-        "code": "az",
         "name": "Озарбайжонча"
     },
     "de": {
-        "code": "de",
         "name": "Олмонча"
     },
     "or": {
-        "code": "or",
         "name": "Ория"
     },
     "pa": {
-        "code": "pa",
         "name": "Панжобча"
     },
     "pl": {
-        "code": "pl",
         "name": "Полякча"
     },
     "pt": {
-        "code": "pt",
         "name": "Португалча"
     },
     "rm": {
-        "code": "rm",
         "name": "Романча"
     },
     "ro": {
-        "code": "ro",
         "name": "Руминча"
     },
     "ru": {
-        "code": "ru",
         "name": "Русча"
     },
     "sr": {
-        "code": "sr",
         "name": "Сербча"
     },
     "si": {
-        "code": "si",
         "name": "Синхала"
     },
     "sk": {
-        "code": "sk",
         "name": "Словакча"
     },
     "sl": {
-        "code": "sl",
         "name": "Словенча"
     },
     "so": {
-        "code": "so",
         "name": "Сомалича"
     },
     "sw": {
-        "code": "sw",
         "name": "Суахили"
     },
     "th": {
-        "code": "th",
         "name": "Тайча"
     },
     "ta": {
-        "code": "ta",
         "name": "Тамилча"
     },
     "te": {
-        "code": "te",
         "name": "Телугу"
     },
     "ti": {
-        "code": "ti",
         "name": "Тигринья"
     },
     "to": {
-        "code": "to",
         "name": "Тонгоча"
     },
     "tr": {
-        "code": "tr",
         "name": "Туркча"
     },
     "ug": {
-        "code": "ug",
         "name": "Уйғурча"
     },
     "uk": {
-        "code": "uk",
         "name": "Украинча"
     },
     "ur": {
-        "code": "ur",
         "name": "Урду"
     },
     "cy": {
-        "code": "cy",
         "name": "Уэлсча"
     },
     "uz": {
-        "code": "uz",
         "name": "Ўзбек"
     },
     "fo": {
-        "code": "fo",
         "name": "Фарэрча"
     },
     "fi": {
-        "code": "fi",
         "name": "Финча"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "Фламандча"
     },
     "fa": {
-        "code": "fa",
         "name": "Форсча"
     },
     "fr": {
-        "code": "fr",
         "name": "Французча"
     },
     "ha": {
-        "code": "ha",
         "name": "Хауса"
     },
     "zh": {
-        "code": "zh",
         "name": "Хитойча"
     },
     "km": {
-        "code": "km",
         "name": "Хмерча"
     },
     "hr": {
-        "code": "hr",
         "name": "Хорватча"
     },
     "hi": {
-        "code": "hi",
         "name": "Ҳиндча"
     },
     "cs": {
-        "code": "cs",
         "name": "Чехча"
     },
     "sv": {
-        "code": "sv",
         "name": "Шведча"
     },
     "gsw": {
-        "code": "gsw",
         "name": "Швейцария немисчаси"
     },
     "eo": {
-        "code": "eo",
         "name": "Эсперанто"
     },
     "et": {
-        "code": "et",
         "name": "Эстонча"
     },
     "ja": {
-        "code": "ja",
         "name": "Японча"
     }
 }

@@ -1,606 +1,467 @@
 {
     "ast": {
-        "code": "ast",
         "name": "Asturian"
     },
     "bas": {
-        "code": "bas",
         "name": "Basaa"
     },
     "ksh": {
-        "code": "ksh",
         "name": "Colognian"
     },
     "fur": {
-        "code": "fur",
         "name": "Friulian"
     },
     "ff": {
-        "code": "ff",
         "name": "Fulah"
     },
+    "en-GB": {
+        "name": "i-British English"
+    },
+    "en-CA": {
+        "name": "i-Canadian English"
+    },
+    "en": {
+        "name": "i-English"
+    },
     "lo": {
-        "code": "lo",
         "name": "i-Lao"
     },
     "nn": {
-        "code": "nn",
         "name": "i-Norwegian Nynorsk"
     },
     "gd": {
-        "code": "gd",
         "name": "i-Scottish Gaelic"
     },
     "si": {
-        "code": "si",
         "name": "i-Sinhala"
     },
     "af": {
-        "code": "af",
         "name": "isi-Afrikaans"
     },
     "agq": {
-        "code": "agq",
         "name": "isi-Aghem"
     },
     "ak": {
-        "code": "ak",
         "name": "isi-Akan"
     },
     "sq": {
-        "code": "sq",
         "name": "isi-Albania"
     },
     "am": {
-        "code": "am",
         "name": "isi-Amharic"
     },
     "ar": {
-        "code": "ar",
         "name": "isi-Arabic"
     },
     "hy": {
-        "code": "hy",
         "name": "isi-Armenia"
     },
     "de-AT": {
-        "code": "de-AT",
         "name": "isi-Austrian German"
     },
+    "en-AU": {
+        "name": "isi-Austrillian English"
+    },
     "az": {
-        "code": "az",
         "name": "isi-Azerbaijani"
     },
     "ksf": {
-        "code": "ksf",
         "name": "isi-Bafia"
     },
     "bm": {
-        "code": "bm",
         "name": "isi-Bambara"
     },
     "eu": {
-        "code": "eu",
         "name": "isi-Basque"
     },
     "be": {
-        "code": "be",
         "name": "isi-Belarusian"
     },
     "bez": {
-        "code": "bez",
         "name": "isi-Bena"
     },
     "bn": {
-        "code": "bn",
         "name": "isi-Bengali"
     },
     "brx": {
-        "code": "brx",
         "name": "isi-Bodo"
     },
     "bs": {
-        "code": "bs",
         "name": "isi-Bosnian"
     },
     "br": {
-        "code": "br",
         "name": "Isi-Breton"
     },
     "bg": {
-        "code": "bg",
         "name": "isi-Bulgari"
     },
     "my": {
-        "code": "my",
         "name": "isi-Burmese"
     },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "isi-Canadian French"
     },
     "ca": {
-        "code": "ca",
         "name": "isi-Catalan"
     },
     "tzm": {
-        "code": "tzm",
         "name": "isi-Central Atlas Tamazight"
     },
     "cgg": {
-        "code": "cgg",
         "name": "isi-Chiga"
     },
     "zh": {
-        "code": "zh",
         "name": "isi-Chinese"
     },
     "hr": {
-        "code": "hr",
         "name": "isi-Croatian"
     },
     "cs": {
-        "code": "cs",
         "name": "isi-Czech"
     },
     "da": {
-        "code": "da",
         "name": "isi-Danish"
     },
     "nl": {
-        "code": "nl",
         "name": "isi-Dutch"
     },
     "dz": {
-        "code": "dz",
         "name": "isi-Dzongkha"
     },
     "eo": {
-        "code": "eo",
         "name": "isi-Esperanto"
     },
     "et": {
-        "code": "et",
         "name": "isi-Estonia"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "isi-European Portuguese"
     },
     "ee": {
-        "code": "ee",
         "name": "Isi-Ewe"
     },
     "fo": {
-        "code": "fo",
         "name": "isi-Faroese"
     },
     "fi": {
-        "code": "fi",
         "name": "isi-Finnish"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "isi-Flemish"
     },
     "fr": {
-        "code": "fr",
         "name": "isi-French"
     },
     "gl": {
-        "code": "gl",
         "name": "isi-Galicia"
     },
     "lg": {
-        "code": "lg",
         "name": "Isi-Ganda"
     },
     "ka": {
-        "code": "ka",
         "name": "isi-Georgian"
     },
     "de": {
-        "code": "de",
         "name": "isi-German"
     },
     "el": {
-        "code": "el",
         "name": "isi-Greek"
     },
     "gu": {
-        "code": "gu",
         "name": "isi-Gujarati"
     },
     "ha": {
-        "code": "ha",
         "name": "isi-Hausa"
     },
     "haw": {
-        "code": "haw",
         "name": "isi-Hawaiian"
     },
     "he": {
-        "code": "he",
         "name": "isi-Hebrew"
     },
     "hi": {
-        "code": "hi",
         "name": "isi-Hindi"
     },
     "hu": {
-        "code": "hu",
         "name": "isi-Hungarian"
     },
     "is": {
-        "code": "is",
         "name": "isi-Icelandic"
     },
     "ig": {
-        "code": "ig",
         "name": "isi-Igbo"
     },
     "smn": {
-        "code": "smn",
         "name": "isi-Inari Sami"
     },
     "id": {
-        "code": "id",
         "name": "isi-Indonesian"
     },
     "ga": {
-        "code": "ga",
         "name": "isi-Irish"
     },
     "it": {
-        "code": "it",
         "name": "isi-Italian"
     },
     "ja": {
-        "code": "ja",
         "name": "isi-Japanese"
     },
     "dyo": {
-        "code": "dyo",
         "name": "isi-Jola-Fonyl"
     },
     "kea": {
-        "code": "kea",
         "name": "isi-Kabuverdianu"
     },
     "kab": {
-        "code": "kab",
         "name": "isi-Kabyle"
     },
     "kn": {
-        "code": "kn",
         "name": "isi-Kannada"
     },
     "ks": {
-        "code": "ks",
         "name": "isi-Kashmiri"
     },
     "kk": {
-        "code": "kk",
         "name": "isi-Kazakh"
     },
     "km": {
-        "code": "km",
         "name": "isi-Khmer"
     },
     "rw": {
-        "code": "rw",
         "name": "isi-Kinyarwanda"
     },
     "kok": {
-        "code": "kok",
         "name": "isi-Konkani"
     },
     "ko": {
-        "code": "ko",
         "name": "isi-Korean"
     },
     "khq": {
-        "code": "khq",
         "name": "isi-Koyra Chiini"
     },
     "ses": {
-        "code": "ses",
         "name": "isi-Koyraboro Senni"
     },
     "ky": {
-        "code": "ky",
         "name": "isi-Kyrgyz"
     },
     "lkt": {
-        "code": "lkt",
         "name": "isi-Lakota"
     },
     "lv": {
-        "code": "lv",
         "name": "isi-Latvian"
     },
     "lt": {
-        "code": "lt",
         "name": "isi-Lithuanian"
     },
     "dsb": {
-        "code": "dsb",
         "name": "isi-Lower Sorbian"
     },
     "lu": {
-        "code": "lu",
         "name": "isi-Luba-Katanga"
     },
     "luo": {
-        "code": "luo",
         "name": "isi-Luo"
     },
     "lb": {
-        "code": "lb",
         "name": "isi-Luxembourgish"
     },
     "luy": {
-        "code": "luy",
         "name": "isi-Luyia"
     },
     "mk": {
-        "code": "mk",
         "name": "isi-Macedonian"
     },
     "mgh": {
-        "code": "mgh",
         "name": "isi-Makhuwa-Meetto"
     },
     "mg": {
-        "code": "mg",
         "name": "isi-Malagasy"
     },
     "ms": {
-        "code": "ms",
         "name": "isi-Malay"
     },
     "ml": {
-        "code": "ml",
         "name": "isi-Malayalam"
     },
     "mt": {
-        "code": "mt",
         "name": "isi-Maltese"
     },
     "mr": {
-        "code": "mr",
         "name": "isi-Marathi"
     },
     "mas": {
-        "code": "mas",
         "name": "isi-Masai"
     },
     "es-MX": {
-        "code": "es-MX",
         "name": "isi-Mexican Spanish"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "isi-Moldavian"
     },
     "mn": {
-        "code": "mn",
         "name": "isi-Mongolian"
     },
     "mfe": {
-        "code": "mfe",
         "name": "Isi-Morisyen"
     },
     "mua": {
-        "code": "mua",
         "name": "isi-Mundang"
     },
     "naq": {
-        "code": "naq",
         "name": "isi-Nama"
     },
     "ne": {
-        "code": "ne",
         "name": "isi-Nepali"
     },
     "se": {
-        "code": "se",
         "name": "isi-Northern Sami"
     },
     "nb": {
-        "code": "nb",
         "name": "isi-Norwegian Bokmål"
     },
     "nyn": {
-        "code": "nyn",
         "name": "Isi-Nyankole"
     },
     "or": {
-        "code": "or",
         "name": "isi-Oriya"
     },
     "om": {
-        "code": "om",
         "name": "Isi-Oromo"
     },
     "fa": {
-        "code": "fa",
         "name": "isi-Persian"
     },
     "pl": {
-        "code": "pl",
         "name": "isi-Polish"
     },
     "pt": {
-        "code": "pt",
         "name": "isi-Portuguese"
     },
     "pa": {
-        "code": "pa",
         "name": "isi-Punjabi"
     },
     "qu": {
-        "code": "qu",
         "name": "isi-Quechua"
     },
     "ro": {
-        "code": "ro",
         "name": "isi-Romanian"
     },
     "rm": {
-        "code": "rm",
         "name": "isi-Romansh"
     },
     "rof": {
-        "code": "rof",
         "name": "isi-Rombo"
     },
     "rn": {
-        "code": "rn",
         "name": "isi-Rundi"
     },
     "ru": {
-        "code": "ru",
         "name": "isi-Russian"
     },
     "sg": {
-        "code": "sg",
         "name": "isi-Sango"
     },
     "seh": {
-        "code": "seh",
         "name": "isi-Sena"
     },
     "sr": {
-        "code": "sr",
         "name": "isi-Serbian"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "isi-Sipmlified Chinese"
     },
     "sk": {
-        "code": "sk",
         "name": "isi-Slovak"
     },
     "sl": {
-        "code": "sl",
         "name": "isi-Slovenian"
     },
     "so": {
-        "code": "so",
         "name": "isi-Somali"
     },
     "es": {
-        "code": "es",
         "name": "isi-Spanish"
     },
     "sw": {
-        "code": "sw",
         "name": "isi-Swahili"
     },
     "sv": {
-        "code": "sv",
         "name": "isi-Swedish"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "isi-Swiss French"
     },
     "gsw": {
-        "code": "gsw",
         "name": "isi-Swiss German"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "isi-Swiss High German"
     },
     "ta": {
-        "code": "ta",
         "name": "isi-Tamil"
     },
     "twq": {
-        "code": "twq",
         "name": "isi-Tasawaq"
     },
     "te": {
-        "code": "te",
         "name": "isi-Telugu"
     },
     "th": {
-        "code": "th",
         "name": "isi-Thai"
     },
     "ti": {
-        "code": "ti",
         "name": "isi-Tigrinya"
     },
     "to": {
-        "code": "to",
         "name": "Isi-Tongan"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "isi-Traditional Chinese"
     },
     "tr": {
-        "code": "tr",
         "name": "isi-Turkish"
     },
     "ug": {
-        "code": "ug",
         "name": "isi-Uighur"
     },
     "uk": {
-        "code": "uk",
         "name": "isi-Ukrainian"
     },
     "hsb": {
-        "code": "hsb",
         "name": "isi-Upper Sorbian"
     },
     "ur": {
-        "code": "ur",
         "name": "isi-Urdu"
     },
     "uz": {
-        "code": "uz",
         "name": "isi-Uzbek"
     },
     "vi": {
-        "code": "vi",
         "name": "isi-Vietnamese"
     },
     "cy": {
-        "code": "cy",
         "name": "isi-Welsh"
     },
     "fy": {
-        "code": "fy",
         "name": "isi-Western Frisian"
     },
     "yi": {
-        "code": "yi",
         "name": "Isi-Yidish"
     },
     "yo": {
-        "code": "yo",
         "name": "isi-Yoruba"
     },
     "dje": {
-        "code": "dje",
         "name": "isi-Zarma"
     },
     "zu": {
-        "code": "zu",
         "name": "isiZulu"
     },
     "wae": {
-        "code": "wae",
         "name": "Walser"
     },
     "yav": {
-        "code": "yav",
         "name": "Yangben"
     }
 }

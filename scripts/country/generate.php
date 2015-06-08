@@ -75,7 +75,6 @@ foreach ($countryData as $countryCode => $countryName) {
         continue;
     }
 
-    $baseData[$countryCode]['code'] = $countryCode;
     // Countries are not guaranteed to have an alpha3 and/or numeric code.
     if (isset($codeMappings[$countryCode]['_alpha3'])) {
         $baseData[$countryCode]['three_letter_code'] = $codeMappings[$countryCode]['_alpha3'];

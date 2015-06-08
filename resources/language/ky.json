@@ -1,606 +1,467 @@
 {
     "ast": {
-        "code": "ast",
         "name": "Asturian"
     },
     "bas": {
-        "code": "bas",
         "name": "Basaa"
     },
     "ksh": {
-        "code": "ksh",
         "name": "Colognian"
     },
     "de-AT": {
-        "code": "de-AT",
         "name": "de_AT"
     },
+    "en-AU": {
+        "name": "en_AU"
+    },
+    "en-CA": {
+        "name": "en_CA"
+    },
+    "en-GB": {
+        "name": "en_GB"
+    },
     "es-MX": {
-        "code": "es-MX",
         "name": "es_MX"
     },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "fr_CA"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "fr_CH"
     },
     "fur": {
-        "code": "fur",
         "name": "Friulian"
     },
     "ff": {
-        "code": "ff",
         "name": "Fulah"
     },
     "gd": {
-        "code": "gd",
         "name": "Scottish Gaelic"
     },
     "wae": {
-        "code": "wae",
         "name": "Walser"
     },
     "yav": {
-        "code": "yav",
         "name": "Yangben"
     },
     "agq": {
-        "code": "agq",
         "name": "агемче"
     },
     "az": {
-        "code": "az",
         "name": "азербайжанча"
     },
     "ak": {
-        "code": "ak",
         "name": "аканча"
     },
     "sq": {
-        "code": "sq",
         "name": "албанча"
     },
     "am": {
-        "code": "am",
         "name": "амхарча"
     },
+    "en": {
+        "name": "англисче"
+    },
     "ar": {
-        "code": "ar",
         "name": "арабча"
     },
     "hy": {
-        "code": "hy",
         "name": "армянча"
     },
     "af": {
-        "code": "af",
         "name": "африкаанча"
     },
     "bm": {
-        "code": "bm",
         "name": "бамбарада"
     },
     "bn": {
-        "code": "bn",
         "name": "бангладешче"
     },
     "eu": {
-        "code": "eu",
         "name": "баскча"
     },
     "fy": {
-        "code": "fy",
         "name": "батыш фризче"
     },
     "ksf": {
-        "code": "ksf",
         "name": "бафияча"
     },
     "be": {
-        "code": "be",
         "name": "беларусча"
     },
     "bez": {
-        "code": "bez",
         "name": "бенача"
     },
     "brx": {
-        "code": "brx",
         "name": "бододо"
     },
     "bg": {
-        "code": "bg",
         "name": "болгарча"
     },
     "tzm": {
-        "code": "tzm",
         "name": "борбордук Атлас тамазитче"
     },
     "bs": {
-        "code": "bs",
         "name": "боснийче"
     },
     "br": {
-        "code": "br",
         "name": "бретончо"
     },
     "my": {
-        "code": "my",
         "name": "бурмача"
     },
     "vi": {
-        "code": "vi",
         "name": "вьетнамча"
     },
     "haw": {
-        "code": "haw",
         "name": "гавайча"
     },
     "gl": {
-        "code": "gl",
         "name": "галисияча"
     },
     "lg": {
-        "code": "lg",
         "name": "гандача"
     },
     "nl": {
-        "code": "nl",
         "name": "голландча"
     },
     "el": {
-        "code": "el",
         "name": "грекче"
     },
     "ka": {
-        "code": "ka",
         "name": "грузинче"
     },
     "gu": {
-        "code": "gu",
         "name": "гужаратча"
     },
     "da": {
-        "code": "da",
         "name": "датча"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "жогорку немисче (Швейцария)"
     },
     "hsb": {
-        "code": "hsb",
         "name": "жогорку сорбианча"
     },
     "dyo": {
-        "code": "dyo",
         "name": "жола-фониче"
     },
     "dz": {
-        "code": "dz",
         "name": "жонгуча"
     },
     "dje": {
-        "code": "dje",
         "name": "замрача"
     },
     "zu": {
-        "code": "zu",
         "name": "зулуча"
     },
     "he": {
-        "code": "he",
         "name": "ивритте"
     },
     "ig": {
-        "code": "ig",
         "name": "игбочо"
     },
     "yi": {
-        "code": "yi",
         "name": "идишче"
     },
     "smn": {
-        "code": "smn",
         "name": "инари саамиче"
     },
     "id": {
-        "code": "id",
         "name": "индонезче"
     },
     "ga": {
-        "code": "ga",
         "name": "ирландча"
     },
     "is": {
-        "code": "is",
         "name": "исландча"
     },
     "es": {
-        "code": "es",
         "name": "испанча"
     },
     "it": {
-        "code": "it",
         "name": "италиянча"
     },
     "yo": {
-        "code": "yo",
         "name": "йорубача"
     },
     "kea": {
-        "code": "kea",
         "name": "кабувердиче"
     },
     "kab": {
-        "code": "kab",
         "name": "кабылча"
     },
     "kk": {
-        "code": "kk",
         "name": "казакча"
     },
     "kn": {
-        "code": "kn",
         "name": "каннадача"
     },
     "ca": {
-        "code": "ca",
         "name": "каталанча"
     },
     "ks": {
-        "code": "ks",
         "name": "кашмирче"
     },
     "qu": {
-        "code": "qu",
         "name": "кечуача"
     },
     "km": {
-        "code": "km",
         "name": "кмерче"
     },
     "khq": {
-        "code": "khq",
         "name": "койра чиниче"
     },
     "ses": {
-        "code": "ses",
         "name": "койраборо сенниче"
     },
     "kok": {
-        "code": "kok",
         "name": "конканиче"
     },
     "ko": {
-        "code": "ko",
         "name": "корейче"
     },
     "ky": {
-        "code": "ky",
         "name": "кыргызча"
     },
     "zh": {
-        "code": "zh",
         "name": "кытайча"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "кытайча (жөнөкөйлөштүрүлгөн)"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "кытайча (салттуу)"
     },
     "lkt": {
-        "code": "lkt",
         "name": "лакотача"
     },
     "lo": {
-        "code": "lo",
         "name": "лаочо"
     },
     "lv": {
-        "code": "lv",
         "name": "латышча"
     },
     "lt": {
-        "code": "lt",
         "name": "литовчо"
     },
     "lu": {
-        "code": "lu",
         "name": "луба-катангача"
     },
     "luo": {
-        "code": "luo",
         "name": "луочо"
     },
     "luy": {
-        "code": "luy",
         "name": "лухияча"
     },
     "lb": {
-        "code": "lb",
         "name": "люксембургча"
     },
     "hu": {
-        "code": "hu",
         "name": "мажарча"
     },
     "mk": {
-        "code": "mk",
         "name": "македончо"
     },
     "mgh": {
-        "code": "mgh",
         "name": "макуача"
     },
     "mg": {
-        "code": "mg",
         "name": "малагасча"
     },
     "ml": {
-        "code": "ml",
         "name": "малайаламча"
     },
     "ms": {
-        "code": "ms",
         "name": "малайча"
     },
     "mt": {
-        "code": "mt",
         "name": "малтизче"
     },
     "mr": {
-        "code": "mr",
         "name": "маратиче"
     },
     "mas": {
-        "code": "mas",
         "name": "масайча"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "молдованча"
     },
     "mn": {
-        "code": "mn",
         "name": "моңголчо"
     },
     "mfe": {
-        "code": "mfe",
         "name": "морисианча"
     },
     "mua": {
-        "code": "mua",
         "name": "мундангча"
     },
     "naq": {
-        "code": "naq",
         "name": "намача"
     },
     "de": {
-        "code": "de",
         "name": "немисче"
     },
     "gsw": {
-        "code": "gsw",
         "name": "немисче (Швейцария)"
     },
     "ne": {
-        "code": "ne",
         "name": "непалча"
     },
     "nb": {
-        "code": "nb",
         "name": "норвежче (Букмал)"
     },
     "nn": {
-        "code": "nn",
         "name": "норвежче (Нинорск)"
     },
     "nyn": {
-        "code": "nyn",
         "name": "ныйанколчо"
     },
     "or": {
-        "code": "or",
         "name": "орияча"
     },
     "om": {
-        "code": "om",
         "name": "оромочо"
     },
     "ru": {
-        "code": "ru",
         "name": "орусча"
     },
     "uz": {
-        "code": "uz",
         "name": "өзбекче"
     },
     "pl": {
-        "code": "pl",
         "name": "полякча"
     },
     "pt": {
-        "code": "pt",
         "name": "португалча"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "португалча (Европа)"
     },
     "pa": {
-        "code": "pa",
         "name": "пунжабиче"
     },
     "rm": {
-        "code": "rm",
         "name": "романшча"
     },
     "rof": {
-        "code": "rof",
         "name": "ромбочо"
     },
     "rw": {
-        "code": "rw",
         "name": "руандача"
     },
     "ro": {
-        "code": "ro",
         "name": "румынча"
     },
     "rn": {
-        "code": "rn",
         "name": "рундиче"
     },
     "sg": {
-        "code": "sg",
         "name": "сангочо"
     },
     "seh": {
-        "code": "seh",
         "name": "сенача"
     },
     "sr": {
-        "code": "sr",
         "name": "сербче"
     },
     "si": {
-        "code": "si",
         "name": "сингалача"
     },
     "sk": {
-        "code": "sk",
         "name": "словакча"
     },
     "sl": {
-        "code": "sl",
         "name": "словенче"
     },
     "so": {
-        "code": "so",
         "name": "сомаличе"
     },
     "sw": {
-        "code": "sw",
         "name": "суахиличе"
     },
     "th": {
-        "code": "th",
         "name": "тайча"
     },
     "ta": {
-        "code": "ta",
         "name": "тамилче"
     },
     "twq": {
-        "code": "twq",
         "name": "тасабакча"
     },
     "te": {
-        "code": "te",
         "name": "телугуча"
     },
     "ti": {
-        "code": "ti",
         "name": "тигриниача"
     },
     "to": {
-        "code": "to",
         "name": "тонгача"
     },
     "dsb": {
-        "code": "dsb",
         "name": "төмөнкү сорбианча"
     },
     "se": {
-        "code": "se",
         "name": "түндүк самиче"
     },
     "tr": {
-        "code": "tr",
         "name": "түркчө"
     },
     "cy": {
-        "code": "cy",
         "name": "уелшче"
     },
     "ug": {
-        "code": "ug",
         "name": "уйгурча"
     },
     "uk": {
-        "code": "uk",
         "name": "украинче"
     },
     "ur": {
-        "code": "ur",
         "name": "урдуча"
     },
     "fo": {
-        "code": "fo",
         "name": "фароэче"
     },
     "fa": {
-        "code": "fa",
         "name": "фарсыча"
     },
     "fi": {
-        "code": "fi",
         "name": "финче"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "фламандча"
     },
     "fr": {
-        "code": "fr",
         "name": "французча"
     },
     "ha": {
-        "code": "ha",
         "name": "хаусача"
     },
     "hi": {
-        "code": "hi",
         "name": "хиндиче"
     },
     "hr": {
-        "code": "hr",
         "name": "хорватча"
     },
     "cs": {
-        "code": "cs",
         "name": "чехче"
     },
     "cgg": {
-        "code": "cgg",
         "name": "чигача"
     },
     "sv": {
-        "code": "sv",
         "name": "шведче"
     },
     "ee": {
-        "code": "ee",
         "name": "эбече"
     },
     "eo": {
-        "code": "eo",
         "name": "эсперанто"
     },
     "et": {
-        "code": "et",
         "name": "эстончо"
     },
     "ja": {
-        "code": "ja",
         "name": "япончо"
     }
 }

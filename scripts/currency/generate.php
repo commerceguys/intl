@@ -76,7 +76,6 @@ foreach ($isoData->CcyTbl->CcyNtry as $currency) {
 
     $currencyCode = $currency['Ccy'];
     $baseData[$currencyCode] = [
-        'code' => $currencyCode,
         'numeric_code' => $currency['CcyNbr'],
     ];
     // Take the fraction digits from CLDR, not ISO, because it reflects real

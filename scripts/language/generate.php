@@ -50,7 +50,6 @@ $languageData = $languageData['main']['en']['localeDisplayNames']['languages'];
 foreach ($languageData as $languageCode => $languageName) {
     if (strpos($languageCode, '-alt-') === false) {
         $languages['en'][$languageCode] = [
-            'code' => $languageCode,
             'name' => $languageName,
         ];
     }
@@ -90,7 +89,6 @@ foreach ($locales as $locale) {
             }
 
             $languages[$locale][$languageCode] = [
-                'code' => $languageCode,
                 'name' => $languageName,
             ];
         }

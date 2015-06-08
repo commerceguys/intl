@@ -1,606 +1,467 @@
 {
     "agq": {
-        "code": "agq",
         "name": "Aghem"
     },
     "ast": {
-        "code": "ast",
         "name": "Asturian"
     },
     "ksf": {
-        "code": "ksf",
         "name": "Bafia"
     },
     "bez": {
-        "code": "bez",
         "name": "Bena"
     },
     "tzm": {
-        "code": "tzm",
         "name": "Central Atlas Tamazight"
     },
     "cgg": {
-        "code": "cgg",
         "name": "Chiga"
     },
     "ksh": {
-        "code": "ksh",
         "name": "Colognian"
     },
     "es-MX": {
-        "code": "es-MX",
         "name": "es_MX"
     },
     "dyo": {
-        "code": "dyo",
         "name": "Jola-Fonyi"
     },
     "kea": {
-        "code": "kea",
         "name": "Kabuverdianu"
     },
     "khq": {
-        "code": "khq",
         "name": "Koyra Chiini"
     },
     "ses": {
-        "code": "ses",
         "name": "Koyraboro Senni"
     },
     "lkt": {
-        "code": "lkt",
         "name": "Lakota"
     },
     "luy": {
-        "code": "luy",
         "name": "Luyia"
     },
     "mgh": {
-        "code": "mgh",
         "name": "Makhuwa-Meetto"
     },
     "mfe": {
-        "code": "mfe",
         "name": "Morisyen"
     },
     "mua": {
-        "code": "mua",
         "name": "Mundang"
     },
     "naq": {
-        "code": "naq",
         "name": "Nama"
     },
     "pt-PT": {
-        "code": "pt-PT",
         "name": "pt_PT"
     },
     "rof": {
-        "code": "rof",
         "name": "Rombo"
     },
     "seh": {
-        "code": "seh",
         "name": "Sena"
     },
     "twq": {
-        "code": "twq",
         "name": "Tasawaq"
     },
     "wae": {
-        "code": "wae",
         "name": "Walser"
     },
     "yav": {
-        "code": "yav",
         "name": "Yangben"
     },
     "dje": {
-        "code": "dje",
         "name": "Zarma"
     },
     "ak": {
-        "code": "ak",
         "name": "अकन"
     },
+    "en": {
+        "name": "अंग्रेज़ी"
+    },
+    "en-AU": {
+        "name": "अंग्रेज़ी (ऑस्ट्रेलिया का)"
+    },
+    "en-CA": {
+        "name": "अंग्रेज़ी (कनाडाई)"
+    },
+    "en-GB": {
+        "name": "अंग्रेजी (ब्रिटिश)"
+    },
     "az": {
-        "code": "az",
         "name": "अज़रबैजानी"
     },
     "af": {
-        "code": "af",
         "name": "अफ्रीकी"
     },
     "am": {
-        "code": "am",
         "name": "अम्हारिक्"
     },
     "ar": {
-        "code": "ar",
         "name": "अरबी"
     },
     "hy": {
-        "code": "hy",
         "name": "अरमेनियन्"
     },
     "ga": {
-        "code": "ga",
         "name": "आईरिश"
     },
     "is": {
-        "code": "is",
         "name": "आईस्लैंडिक्"
     },
     "sq": {
-        "code": "sq",
         "name": "आल्बेनियन्"
     },
     "id": {
-        "code": "id",
         "name": "इन्डोनेशियन्"
     },
     "ig": {
-        "code": "ig",
         "name": "ईग्बो"
     },
     "it": {
-        "code": "it",
         "name": "ईटालियन्"
     },
     "smn": {
-        "code": "smn",
         "name": "ईनारी सामी"
     },
     "ug": {
-        "code": "ug",
         "name": "उईग़ुर"
     },
     "de-CH": {
-        "code": "de-CH",
         "name": "उच्च स्तरिय स्वीस जर्मन"
     },
     "uz": {
-        "code": "uz",
         "name": "उज़बेक्"
     },
     "or": {
-        "code": "or",
         "name": "उड़िया"
     },
     "se": {
-        "code": "se",
         "name": "उत्तरी सामी"
     },
     "hsb": {
-        "code": "hsb",
         "name": "ऊपरी सौर्बियन"
     },
     "ur": {
-        "code": "ur",
         "name": "ऊर्दु"
     },
     "ee": {
-        "code": "ee",
         "name": "एवे"
     },
     "eo": {
-        "code": "eo",
         "name": "एस्पेरान्तो"
     },
     "et": {
-        "code": "et",
         "name": "ऐस्टोनियन्"
     },
     "om": {
-        "code": "om",
         "name": "ओरोमो (अफ़ान)"
     },
     "kk": {
-        "code": "kk",
         "name": "क़ज़ाख़्"
     },
     "kn": {
-        "code": "kn",
         "name": "कन्नड्"
     },
     "ks": {
-        "code": "ks",
         "name": "कश्मिरी"
     },
     "ca": {
-        "code": "ca",
         "name": "कातालान्"
     },
     "kab": {
-        "code": "kab",
         "name": "काबील्"
     },
     "rw": {
-        "code": "rw",
         "name": "किन्यारुआण्डा"
     },
     "ky": {
-        "code": "ky",
         "name": "किरग़ीज़्"
     },
     "rn": {
-        "code": "rn",
         "name": "किरून्दी"
     },
     "kok": {
-        "code": "kok",
         "name": "कोंकणी"
     },
     "ko": {
-        "code": "ko",
         "name": "कोरीयन्"
     },
     "hr": {
-        "code": "hr",
         "name": "क्रोएशन्"
     },
     "qu": {
-        "code": "qu",
         "name": "क्वेचुआ"
     },
     "km": {
-        "code": "km",
         "name": "ख्मेर"
     },
     "lg": {
-        "code": "lg",
         "name": "गांडा"
     },
     "gu": {
-        "code": "gu",
         "name": "गुजराती"
     },
     "gl": {
-        "code": "gl",
         "name": "गैलिशियन्"
     },
     "el": {
-        "code": "el",
         "name": "ग्रीक"
     },
     "zh": {
-        "code": "zh",
         "name": "चीनी"
     },
     "zh-Hant": {
-        "code": "zh-Hant",
         "name": "चीनी (पारम्परिक)"
     },
     "zh-Hans": {
-        "code": "zh-Hans",
         "name": "चीनी (सरलीकृत)"
     },
     "cs": {
-        "code": "cs",
         "name": "चेक्"
     },
     "de": {
-        "code": "de",
         "name": "ज़र्मन"
     },
     "de-AT": {
-        "code": "de-AT",
         "name": "जर्मन (ऑस्ट्रिया)"
     },
     "ja": {
-        "code": "ja",
         "name": "जापानी"
     },
     "zu": {
-        "code": "zu",
         "name": "ज़ुलू"
     },
     "ka": {
-        "code": "ka",
         "name": "जॉर्जियन्"
     },
     "to": {
-        "code": "to",
         "name": "टॉंगा"
     },
     "nl": {
-        "code": "nl",
         "name": "डच्"
     },
     "da": {
-        "code": "da",
         "name": "डैनीश्"
     },
     "ta": {
-        "code": "ta",
         "name": "तमिळ"
     },
     "ti": {
-        "code": "ti",
         "name": "तिग्रीन्या"
     },
     "tr": {
-        "code": "tr",
         "name": "तुर्की"
     },
     "te": {
-        "code": "te",
         "name": "तेलुगु"
     },
     "th": {
-        "code": "th",
         "name": "थाई"
     },
     "ne": {
-        "code": "ne",
         "name": "नेपाली"
     },
     "nn": {
-        "code": "nn",
         "name": "नॉर्वेजियन् नीनॉर्स्क्"
     },
     "nb": {
-        "code": "nb",
         "name": "नोर्वेगी बोकमाल"
     },
     "nyn": {
-        "code": "nyn",
         "name": "न्यानकोले"
     },
     "pa": {
-        "code": "pa",
         "name": "पंजाबी"
     },
     "fy": {
-        "code": "fy",
         "name": "पश्चीमी फ्रीज़ियन्"
     },
     "pt": {
-        "code": "pt",
         "name": "पुर्तगाली"
     },
     "pl": {
-        "code": "pl",
         "name": "पोलिश"
     },
     "fa": {
-        "code": "fa",
         "name": "फार्सी"
     },
     "fi": {
-        "code": "fi",
         "name": "फिनिश्"
     },
     "fo": {
-        "code": "fo",
         "name": "फिरोज़ी"
     },
     "ff": {
-        "code": "ff",
         "name": "फुलाह्"
     },
     "fr": {
-        "code": "fr",
         "name": "फ्रांसीसी"
     },
     "fr-CA": {
-        "code": "fr-CA",
         "name": "फ्रांसीसी (कनाडाई)"
     },
     "fr-CH": {
-        "code": "fr-CH",
         "name": "फ्रांसीसी (स्वीस)"
     },
     "fur": {
-        "code": "fur",
         "name": "फ्रीउलीअन्"
     },
     "nl-BE": {
-        "code": "nl-BE",
         "name": "फ्लेमी"
     },
     "bn": {
-        "code": "bn",
         "name": "बंगला"
     },
     "brx": {
-        "code": "brx",
         "name": "बड़ो"
     },
     "my": {
-        "code": "my",
         "name": "बर्मी"
     },
     "bg": {
-        "code": "bg",
         "name": "बल्गैरियन्"
     },
     "bm": {
-        "code": "bm",
         "name": "बांबारा"
     },
     "eu": {
-        "code": "eu",
         "name": "बास्क्"
     },
     "bas": {
-        "code": "bas",
         "name": "बास्क़्"
     },
     "be": {
-        "code": "be",
         "name": "बैलोरूसियन्"
     },
     "bs": {
-        "code": "bs",
         "name": "बोस्नियाई"
     },
     "br": {
-        "code": "br",
         "name": "ब्रटों"
     },
     "dz": {
-        "code": "dz",
         "name": "भुटानी"
     },
     "mr": {
-        "code": "mr",
         "name": "मराठी"
     },
     "ml": {
-        "code": "ml",
         "name": "मलयालम"
     },
     "ms": {
-        "code": "ms",
         "name": "मलाय"
     },
     "mas": {
-        "code": "mas",
         "name": "मसाई"
     },
     "mt": {
-        "code": "mt",
         "name": "मालटीज़्"
     },
     "mg": {
-        "code": "mg",
         "name": "मालागासी"
     },
     "mk": {
-        "code": "mk",
         "name": "मैसेडोनियन्"
     },
     "mn": {
-        "code": "mn",
         "name": "मोंगोलियन"
     },
     "ro-MD": {
-        "code": "ro-MD",
         "name": "मोल्डेवियन्"
     },
     "yi": {
-        "code": "yi",
         "name": "यीद्दीश"
     },
     "uk": {
-        "code": "uk",
         "name": "यूक्रेनियन्"
     },
     "yo": {
-        "code": "yo",
         "name": "योरूबा"
     },
     "ru": {
-        "code": "ru",
         "name": "रुसी"
     },
     "ro": {
-        "code": "ro",
         "name": "रूमानीयन्"
     },
     "rm": {
-        "code": "rm",
         "name": "रेह्टो-रोमान्स"
     },
     "lo": {
-        "code": "lo",
         "name": "लाओसीयन्"
     },
     "lv": {
-        "code": "lv",
         "name": "लाटवियन् (लैट्टीश)"
     },
     "lt": {
-        "code": "lt",
         "name": "लिथुआनियन्"
     },
     "luo": {
-        "code": "luo",
         "name": "लुओ"
     },
     "lb": {
-        "code": "lb",
         "name": "लुक्समबुर्गी"
     },
     "lu": {
-        "code": "lu",
         "name": "लुबा कटांगा"
     },
     "vi": {
-        "code": "vi",
         "name": "वियेतनामी"
     },
     "cy": {
-        "code": "cy",
         "name": "वैल्श्"
     },
     "sr": {
-        "code": "sr",
         "name": "सर्बियन्"
     },
     "sg": {
-        "code": "sg",
         "name": "सांग्रो"
     },
     "si": {
-        "code": "si",
         "name": "सींहाला"
     },
     "so": {
-        "code": "so",
         "name": "सोमाली"
     },
     "dsb": {
-        "code": "dsb",
         "name": "सोर्बियन्"
     },
     "gd": {
-        "code": "gd",
         "name": "स्कॉट्स् गैलिक्"
     },
     "es": {
-        "code": "es",
         "name": "स्पैनिश"
     },
     "sk": {
-        "code": "sk",
         "name": "स्लोवाक्"
     },
     "sl": {
-        "code": "sl",
         "name": "स्लोवेनियन्"
     },
     "sw": {
-        "code": "sw",
         "name": "स्वाहिली"
     },
     "sv": {
-        "code": "sv",
         "name": "स्वीडिश"
     },
     "gsw": {
-        "code": "gsw",
         "name": "स्वीस जर्मन"
     },
     "ha": {
-        "code": "ha",
         "name": "हउसा"
     },
     "hu": {
-        "code": "hu",
         "name": "हंगैरीयन्"
     },
     "haw": {
-        "code": "haw",
         "name": "हवाईअन"
     },
     "hi": {
-        "code": "hi",
         "name": "हिंदी"
     },
     "he": {
-        "code": "he",
         "name": "हिब्रु"
     }
 }

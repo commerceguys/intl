@@ -51,7 +51,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             throw new UnknownCurrencyException($currencyCode);
         }
 
-        return $this->createCurrencyFromDefinition($definitions[$currencyCode], $locale);
+        return $this->createCurrencyFromDefinition($currencyCode, $definitions[$currencyCode], $locale);
     }
 
     /**
@@ -63,7 +63,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
         $definitions = $this->loadDefinitions($locale);
         $currencies = [];
         foreach ($definitions as $currencyCode => $definition) {
-            $currencies[$currencyCode] = $this->createCurrencyFromDefinition($definition, $locale);
+            $currencies[$currencyCode] = $this->createCurrencyFromDefinition($currencyCode, $definition, $locale);
         }
 
         return $currencies;
@@ -113,27 +113,28 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * Creates a currency object from the provided definition.
      *
-     * @param array  $definition The currency definition.
-     * @param string $locale     The locale of the currency definition.
+     * @param string $currencyCode The currency code.
+     * @param array  $definition   The currency definition.
+     * @param string $locale       The locale of the currency definition.
      *
      * @return Currency
      */
-    protected function createCurrencyFromDefinition(array $definition, $locale)
+    protected function createCurrencyFromDefinition($currencyCode, array $definition, $locale)
     {
         if (!isset($definition['fraction_digits'])) {
             $definition['fraction_digits'] = 2;
         }
 
         $currency = new Currency();
-        $setValues = \Closure::bind(function ($definition, $locale) {
-            $this->currencyCode = $definition['code'];
+        $setValues = \Closure::bind(function ($currencyCode, $definition, $locale) {
+            $this->currencyCode = $currencyCode;
             $this->name = $definition['name'];
             $this->numericCode = $definition['numeric_code'];
             $this->symbol = $definition['symbol'];
             $this->fractionDigits = $definition['fraction_digits'];
             $this->locale = $locale;
         }, $currency, '\CommerceGuys\Intl\Currency\Currency');
-        $setValues($definition, $locale);
+        $setValues($currencyCode, $definition, $locale);
 
         return $currency;
     }

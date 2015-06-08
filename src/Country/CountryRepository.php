@@ -51,7 +51,7 @@ class CountryRepository implements CountryRepositoryInterface
             throw new UnknownCountryException($countryCode);
         }
 
-        return $this->createCountryFromDefinition($definitions[$countryCode], $locale);
+        return $this->createCountryFromDefinition($countryCode, $definitions[$countryCode], $locale);
     }
 
     /**
@@ -63,7 +63,7 @@ class CountryRepository implements CountryRepositoryInterface
         $definitions = $this->loadDefinitions($locale);
         $countries = [];
         foreach ($definitions as $countryCode => $definition) {
-            $countries[$countryCode] = $this->createCountryFromDefinition($definition, $locale);
+            $countries[$countryCode] = $this->createCountryFromDefinition($countryCode, $definition, $locale);
         }
 
         return $countries;
@@ -113,16 +113,17 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * Creates a country object from the provided definition.
      *
-     * @param array  $definition The country definition.
-     * @param string $locale     The locale of the country definition.
+     * @param string $countryCode The country code.
+     * @param array  $definition  The country definition.
+     * @param string $locale      The locale of the country definition.
      *
      * @return Country
      */
-    protected function createCountryFromDefinition(array $definition, $locale)
+    protected function createCountryFromDefinition($countryCode, array $definition, $locale)
     {
         $country = new Country();
-        $setValues = \Closure::bind(function ($definition, $locale) {
-            $this->countryCode = $definition['code'];
+        $setValues = \Closure::bind(function ($countryCode, $definition, $locale) {
+            $this->countryCode = $countryCode;
             $this->name = $definition['name'];
             $this->locale = $locale;
             if (isset($definition['three_letter_code'])) {
@@ -138,7 +139,7 @@ class CountryRepository implements CountryRepositoryInterface
                 $this->currencyCode = $definition['currency_code'];
             }
         }, $country, '\CommerceGuys\Intl\Country\Country');
-        $setValues($definition, $locale);
+        $setValues($countryCode, $definition, $locale);
 
         return $country;
     }

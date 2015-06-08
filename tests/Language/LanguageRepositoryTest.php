@@ -17,11 +17,9 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     protected $englishDefinitions = [
         'en' => [
-            'code' => 'en',
             'name' => 'English',
         ],
         'fr' => [
-            'code' => 'fr',
             'name' => 'French',
         ],
     ];
