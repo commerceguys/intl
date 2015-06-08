@@ -188,7 +188,7 @@
         "symbol": "AMD"
     },
     "ERN": {
-        "name": "ERN",
+        "name": "Eritrean Nakfa",
         "symbol": "ERN"
     },
     "CVE": {
@@ -539,6 +539,10 @@
         "name": "Rupiah Indonesia",
         "symbol": "IDR"
     },
+    "SVC": {
+        "name": "Salvadoran Colón",
+        "symbol": "SVC"
+    },
     "ILS": {
         "name": "Sheqel Baru Israel",
         "symbol": "₪"
@@ -554,10 +558,6 @@
     "TJS": {
         "name": "Somoni Tajikistan",
         "symbol": "TJS"
-    },
-    "SVC": {
-        "name": "SVC",
-        "symbol": "SVC"
     },
     "KES": {
         "name": "Syiling Kenya",
@@ -596,7 +596,7 @@
         "symbol": "MNT"
     },
     "UYU": {
-        "name": "UYU",
+        "name": "Uruguayan Peso",
         "symbol": "UYU"
     },
     "VUV": {
@@ -619,12 +619,12 @@
         "name": "Yuan Cina",
         "symbol": "CN¥"
     },
+    "ZWL": {
+        "name": "Zimbabwean Dollar (2009)",
+        "symbol": "ZWL"
+    },
     "PLN": {
         "name": "Zloty Poland",
         "symbol": "PLN"
-    },
-    "ZWL": {
-        "name": "ZWL",
-        "symbol": "ZWL"
     }
 }

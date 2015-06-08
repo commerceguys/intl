@@ -4,12 +4,16 @@
         "symbol": "AFN"
     },
     "ALL": {
-        "name": "ALL",
+        "name": "Albanian Lek",
         "symbol": "ALL"
     },
     "AZN": {
-        "name": "AZN",
+        "name": "Azerbaijani Manat",
         "symbol": "AZN"
+    },
+    "BHD": {
+        "name": "Bahraini Dinar",
+        "symbol": "BHD"
     },
     "THB": {
         "name": "baht tailandés",
@@ -19,25 +23,21 @@
         "name": "balboa panamiegu",
         "symbol": "PAB"
     },
-    "BGN": {
-        "name": "BGN",
-        "symbol": "BGN"
-    },
-    "BHD": {
-        "name": "BHD",
-        "symbol": "BHD"
-    },
     "ETB": {
         "name": "birr etíope",
         "symbol": "ETB"
     },
-    "BOB": {
-        "name": "BOB",
-        "symbol": "BOB"
-    },
     "VEF": {
         "name": "bolívar venezolanu",
         "symbol": "VEF"
+    },
+    "BOB": {
+        "name": "Bolivian Boliviano",
+        "symbol": "BOB"
+    },
+    "BGN": {
+        "name": "Bulgarian Lev",
+        "symbol": "BGN"
     },
     "GHS": {
         "name": "cedi ghanianu",
@@ -70,6 +70,10 @@
     "SEK": {
         "name": "corona sueca",
         "symbol": "SEK"
+    },
+    "HRK": {
+        "name": "Croatian Kuna",
+        "symbol": "HRK"
     },
     "GMD": {
         "name": "dalasi gambianu",
@@ -112,7 +116,7 @@
         "symbol": "MAD"
     },
     "DJF": {
-        "name": "DJF",
+        "name": "Djiboutian Franc",
         "symbol": "DJF"
     },
     "STD": {
@@ -216,7 +220,7 @@
         "symbol": "€"
     },
     "FJD": {
-        "name": "FJD",
+        "name": "Fijian Dollar",
         "symbol": "FJD"
     },
     "AWG": {
@@ -271,16 +275,12 @@
         "name": "guilder de les Antilles Neerlandeses",
         "symbol": "ANG"
     },
-    "HRK": {
-        "name": "HRK",
-        "symbol": "HRK"
-    },
     "HUF": {
-        "name": "HUF",
+        "name": "Hungarian Forint",
         "symbol": "HUF"
     },
     "ILS": {
-        "name": "ILS",
+        "name": "Israeli New Sheqel",
         "symbol": "₪"
     },
     "LAK": {
@@ -310,6 +310,10 @@
     "SLL": {
         "name": "leone sierralleonés",
         "symbol": "SLL"
+    },
+    "LSL": {
+        "name": "Lesotho Loti",
+        "symbol": "LSL"
     },
     "MDL": {
         "name": "leu moldavu",
@@ -355,9 +359,17 @@
         "name": "llibra sursudanesa",
         "symbol": "SSP"
     },
-    "LSL": {
-        "name": "LSL",
-        "symbol": "LSL"
+    "MKD": {
+        "name": "Macedonian Denar",
+        "symbol": "MKD"
+    },
+    "MGA": {
+        "name": "Malagasy Ariary",
+        "symbol": "MGA"
+    },
+    "MWK": {
+        "name": "Malawian Kwacha",
+        "symbol": "MWK"
     },
     "BAM": {
         "name": "marcu convertible de Bosnia-Herzegovina",
@@ -366,18 +378,6 @@
     "MZN": {
         "name": "metical mozambicanu",
         "symbol": "MZN"
-    },
-    "MGA": {
-        "name": "MGA",
-        "symbol": "MGA"
-    },
-    "MKD": {
-        "name": "MKD",
-        "symbol": "MKD"
-    },
-    "MWK": {
-        "name": "MWK",
-        "symbol": "MWK"
     },
     "NGN": {
         "name": "naira nixeriana",
@@ -398,6 +398,10 @@
     "TOP": {
         "name": "paʻanga tonganu",
         "symbol": "TOP"
+    },
+    "PGK": {
+        "name": "Papua New Guinean Kina",
+        "symbol": "PGK"
     },
     "MOP": {
         "name": "pataca de Macáu",
@@ -439,12 +443,8 @@
         "name": "pesu uruguayu",
         "symbol": "UYU"
     },
-    "PGK": {
-        "name": "PGK",
-        "symbol": "PGK"
-    },
     "PLN": {
-        "name": "PLN",
+        "name": "Polish Zloty",
         "symbol": "PLN"
     },
     "BWP": {
@@ -527,8 +527,12 @@
         "name": "rupiah indonesia",
         "symbol": "IDR"
     },
+    "SVC": {
+        "name": "Salvadoran Colón",
+        "symbol": "SVC"
+    },
     "SCR": {
-        "name": "SCR",
+        "name": "Seychellois Rupee",
         "symbol": "SCR"
     },
     "KES": {
@@ -547,10 +551,6 @@
         "name": "shilling ugandés",
         "symbol": "UGX"
     },
-    "SHP": {
-        "name": "SHP",
-        "symbol": "SHP"
-    },
     "PEN": {
         "name": "sol nuevu peruanu",
         "symbol": "PEN"
@@ -563,9 +563,13 @@
         "name": "som uzbequistanín",
         "symbol": "UZS"
     },
-    "SVC": {
-        "name": "SVC",
-        "symbol": "SVC"
+    "SHP": {
+        "name": "St. Helena Pound",
+        "symbol": "SHP"
+    },
+    "TJS": {
+        "name": "Tajikistani Somoni",
+        "symbol": "TJS"
     },
     "BDT": {
         "name": "taka bangladexí",
@@ -579,28 +583,24 @@
         "name": "tenge kazaquistanín",
         "symbol": "KZT"
     },
-    "TJS": {
-        "name": "TJS",
-        "symbol": "TJS"
-    },
-    "TMT": {
-        "name": "TMT",
-        "symbol": "TMT"
-    },
-    "TRY": {
-        "name": "TRY",
-        "symbol": "TRY"
-    },
     "TTD": {
-        "name": "TTD",
+        "name": "Trinidad & Tobago Dollar",
         "symbol": "TTD"
     },
     "MNT": {
         "name": "tugrik mongol",
         "symbol": "MNT"
     },
+    "TRY": {
+        "name": "Turkish Lira",
+        "symbol": "TRY"
+    },
+    "TMT": {
+        "name": "Turkmenistani Manat",
+        "symbol": "TMT"
+    },
     "UAH": {
-        "name": "UAH",
+        "name": "Ukrainian Hryvnia",
         "symbol": "UAH"
     },
     "VUV": {
@@ -624,7 +624,7 @@
         "symbol": "CN¥"
     },
     "ZWL": {
-        "name": "ZWL",
+        "name": "Zimbabwean Dollar (2009)",
         "symbol": "ZWL"
     }
 }

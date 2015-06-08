@@ -108,6 +108,11 @@ if ($handle = opendir($localeDirectory)) {
     closedir($handle);
 }
 
+// Make sure 'en' is processed first so that it can be used as a fallback.
+$index = array_search('en', $locales);
+unset($locales[$index]);
+array_unshift($locales, 'en');
+
 // Create the localizations.
 $currencies = [];
 foreach ($locales as $locale) {
@@ -115,8 +120,14 @@ foreach ($locales as $locale) {
     $data = $data['main'][$locale]['numbers']['currencies'];
     foreach ($data as $currencyCode => $currency) {
         if (isset($baseData[$currencyCode])) {
+            $currencyName = $currency['displayName'];
+            // This currency name is untranslated, use the english version.
+            if ($currencyCode == $currencyName) {
+                $currencyName = $currencies['en'][$currencyCode]['name'];
+            }
+
             $currencies[$locale][$currencyCode] = [
-                'name' => $currency['displayName'],
+                'name' => $currencyName,
                 'symbol' => $currency['symbol'],
             ];
         }
