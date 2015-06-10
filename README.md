@@ -111,7 +111,6 @@ $countryRepository = new CountryRepository;
 // Get the US country using the default locale (en).
 $country = $countryRepository->get('US');
 echo $country->getCountryCode(); // US
-echo $country->getTelephoneCode(); // 1
 echo $country->getName(); // United States
 
 // Get the US country using the fr-FR locale.
