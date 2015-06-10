@@ -62,16 +62,6 @@ class CountryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ::getTelephoneCode
-     * @covers ::setTelephoneCode
-     */
-    public function testTelephoneCode()
-    {
-        $this->country->setTelephoneCode('1');
-        $this->assertEquals('1', $this->country->getTelephoneCode());
-    }
-
-    /**
      * @covers ::getCurrencyCode
      * @covers ::setCurrencyCode
      */

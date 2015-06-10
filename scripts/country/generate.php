@@ -10,16 +10,12 @@ $localeDirectory = '../assets/cldr-localenames-full/main/';
 $enCountries = $localeDirectory . 'en/territories.json';
 // Downloaded from https://github.com/unicode-cldr/cldr-core.git
 $codeMappings = '../assets/cldr-core/supplemental/codeMappings.json';
-$telephoneCodeData = '../assets/cldr-core/supplemental/telephoneCodeData.json';
 $currencyData = '../assets/cldr-core/supplemental/currencyData.json';
 if (!file_exists($enCountries)) {
     die("The $enCountries file was not found");
 }
 if (!file_exists($codeMappings)) {
     die("The $codeMappings file was not found");
-}
-if (!file_exists($telephoneCodeData)) {
-    die("The $telephoneCodeData file was not found");
 }
 if (!file_exists($currencyData)) {
     die("The $currencyData file was not found");
@@ -56,8 +52,6 @@ $ignoredLocales = [
 ];
 
 // Assemble the base data. Use the "en" data to get a list of countries.
-$telephoneCodeData = json_decode(file_get_contents($telephoneCodeData), true);
-$telephoneCodeData = $telephoneCodeData['supplemental']['telephoneCodeData'];
 $codeMappings = json_decode(file_get_contents($codeMappings), true);
 $codeMappings = $codeMappings['supplemental']['codeMappings'];
 $currencyData = json_decode(file_get_contents($currencyData), true);
@@ -81,17 +75,6 @@ foreach ($countryData as $countryCode => $countryName) {
     }
     if (isset($codeMappings[$countryCode]['_numeric'])) {
         $baseData[$countryCode]['numeric_code'] = $codeMappings[$countryCode]['_numeric'];
-    }
-
-    // Determine the telephone code for this country.
-    if (in_array($countryCode, array('IC', 'EA'))) {
-        // "Canary Islands" and "Ceuta and Melilla" use Spain's.
-        $baseData[$countryCode]['telephone_code'] = $telephoneCodeData['ES'][0]['telephoneCountryCode'];
-    } elseif ($countryCode == 'XK') {
-        // Kosovo uses three telephone codes. Use Serbia's until that gets resolved.
-        $baseData[$countryCode]['telephone_code'] = $telephoneCodeData['RS'][0]['telephoneCountryCode'];
-    } elseif (isset($telephoneCodeData[$countryCode])) {
-        $baseData[$countryCode]['telephone_code'] = $telephoneCodeData[$countryCode][0]['telephoneCountryCode'];
     }
 
     // Determine the current currency for this country.

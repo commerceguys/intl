@@ -79,25 +79,6 @@ interface CountryInterface
     public function setNumericCode($numericCode);
 
     /**
-     * Gets the country telephone code.
-     *
-     * Also known as the calling code.
-     *
-     * Note that not every country has a telephone code.
-     * Right now Tristan da Cunha (TI) is the only such example.
-     *
-     * @return string|null
-     */
-    public function getTelephoneCode();
-
-    /**
-     * Sets the country telephone code.
-     *
-     * @param string $telephoneCode The telephone code.
-     */
-    public function setTelephoneCode($telephoneCode);
-
-    /**
      * Gets the country currency code.
      *
      * Represents the default currency used in the country, if known.

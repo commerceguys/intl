@@ -16,7 +16,7 @@ class CountryRepository implements CountryRepositoryInterface
      * Base country definitions.
      *
      * Contains data common to all locales, such as the country numeric,
-     * three-letter, telephone codes.
+     * three-letter, currency codes.
      *
      * @var array
      */
@@ -131,9 +131,6 @@ class CountryRepository implements CountryRepositoryInterface
             }
             if (isset($definition['numeric_code'])) {
                 $this->numericCode = $definition['numeric_code'];
-            }
-            if (isset($definition['telephone_code'])) {
-                $this->telephoneCode = $definition['telephone_code'];
             }
             if (isset($definition['currency_code'])) {
                 $this->currencyCode = $definition['currency_code'];
