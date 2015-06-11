@@ -12,11 +12,11 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
     use LocaleResolverTrait;
 
     /**
-     * Number format definitions.
+     * Number formats.
      *
      * @var array
      */
-    protected $definitions = [];
+    protected $numberFormats = [];
 
     /**
      * Creates a NumberFormatRepository instance.
@@ -35,12 +35,13 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
     public function get($locale, $fallbackLocale = null)
     {
         $locale = $this->resolveLocale($locale, $fallbackLocale);
-        if (!isset($this->definitions[$locale])) {
+        if (!isset($this->numberFormats[$locale])) {
             $filename = $this->definitionPath . $locale . '.json';
-            $this->definitions[$locale] = json_decode(file_get_contents($filename), true);
+            $definition = json_decode(file_get_contents($filename), true);
+            $this->numberFormats[$locale] = $this->createNumberFormatFromDefinition($definition, $locale);
         }
 
-        return $this->createNumberFormatFromDefinition($this->definitions[$locale], $locale);
+        return $this->numberFormats[$locale];
     }
 
     /**
