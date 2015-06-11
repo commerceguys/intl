@@ -29,6 +29,8 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
      * @covers ::resolveLocale
      * @covers ::getDefaultLocale
      * @covers ::getLocaleVariants
+     *
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::canonicalizeLocale
      */
     public function testLocaleFallback()
     {
@@ -43,9 +45,22 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers ::canonicalizeLocale
+     */
+    public function testCanonicalizeLocale()
+    {
+        $locale = $this->repository->runCanonicalizeLocale('BS_cyrl-ba');
+        $this->assertEquals('bs-Cyrl-BA', $locale);
+        $locale = $this->repository->runCanonicalizeLocale(null);
+        $this->assertEquals(null, $locale);
+    }
+
+    /**
      * @covers ::resolveLocale
      * @covers ::getLocaleVariants
      * @expectedException \CommerceGuys\Intl\Exception\UnknownLocaleException
+     *
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::canonicalizeLocale
      */
     public function testInvalidLocale()
     {
