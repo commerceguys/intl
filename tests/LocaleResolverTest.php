@@ -30,6 +30,7 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
      * @covers ::getDefaultLocale
      * @covers ::getLocaleVariants
      *
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocaleAlias
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::canonicalizeLocale
      */
     public function testLocaleFallback()
@@ -42,6 +43,17 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('en', $locale);
         $locale = $this->repository->runResolveLocale();
         $this->assertEquals('en', $locale);
+    }
+
+    /**
+     * @covers ::resolveLocaleAlias
+     */
+    public function testResolveLocaleAlias()
+    {
+        $locale = $this->repository->runResolveLocaleAlias('zh-CN');
+        $this->assertEquals('zh-Hans-CN', $locale);
+        $locale = $this->repository->runResolveLocaleAlias(null);
+        $this->assertEquals(null, $locale);
     }
 
     /**
@@ -60,6 +72,7 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
      * @covers ::getLocaleVariants
      * @expectedException \CommerceGuys\Intl\Exception\UnknownLocaleException
      *
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocaleAlias
      * @uses \CommerceGuys\Intl\LocaleResolverTrait::canonicalizeLocale
      */
     public function testInvalidLocale()
