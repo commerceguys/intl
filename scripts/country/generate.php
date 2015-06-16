@@ -86,8 +86,7 @@ foreach ($countryData as $countryCode => $countryName) {
 
 // Write out base.json.
 ksort($baseData);
-$json = json_encode($baseData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-file_put_contents('base.json', $json);
+file_put_json('base.json', $baseData);
 
 // Gather available locales.
 $locales = [];
@@ -153,7 +152,16 @@ foreach ($countries as $locale => $localizedCountries) {
     uasort($localizedCountries, function ($a, $b) use ($collator) {
         return collator_compare($collator, $a['name'], $b['name']);
     });
+    file_put_json($locale . '.json', $localizedCountries);
+}
 
-    $json = json_encode($localizedCountries, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-    file_put_contents($locale . '.json', $json);
+/**
+ * Converts the provided data into json and writes it to the disk.
+ */
+function file_put_json($filename, $data)
+{
+    $data = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    // Indenting with tabs instead of 4 spaces gives us 20% smaller files.
+    $data = str_replace('    ', "\t", $data);
+    file_put_contents($filename, $data);
 }

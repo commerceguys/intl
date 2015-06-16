@@ -117,6 +117,16 @@ foreach ($duplicates as $locale) {
 
 // Write out the data.
 foreach ($numberFormats as $locale => $numberFormat) {
-    $json = json_encode($numberFormat, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-    file_put_contents($locale . '.json', $json);
+    file_put_json($locale . '.json', $numberFormat);
+}
+
+/**
+ * Converts the provided data into json and writes it to the disk.
+ */
+function file_put_json($filename, $data)
+{
+    $data = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    // Indenting with tabs instead of 4 spaces gives us 20% smaller files.
+    $data = str_replace('    ', "\t", $data);
+    file_put_contents($filename, $data);
 }

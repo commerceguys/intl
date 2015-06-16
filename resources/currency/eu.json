@@ -1,494 +1,494 @@
 {
-    "USD": {
-        "name": "AEBetako dolarra",
-        "symbol": "US$"
-    },
-    "AFN": {
-        "name": "Afganistango afghania"
-    },
-    "XOF": {
-        "name": "Afrika ekialdeko frankoa BCEAO",
-        "symbol": "CFA"
-    },
-    "XAF": {
-        "name": "Afrika erdialdeko frankoa BEAC",
-        "symbol": "FCFA"
-    },
-    "ALL": {
-        "name": "Albaniako leka"
-    },
-    "DZD": {
-        "name": "Algeriako dinarra"
-    },
-    "AOA": {
-        "name": "Angolako kwanza"
-    },
-    "AED": {
-        "name": "Arabiar Emirerri Batuetako dirhama"
-    },
-    "ARS": {
-        "name": "Argentinako pesoa"
-    },
-    "AMD": {
-        "name": "Armeniako drama"
-    },
-    "AWG": {
-        "name": "Arubeko florina"
-    },
-    "AUD": {
-        "name": "Australiako dolarra",
-        "symbol": "A$"
-    },
-    "AZN": {
-        "name": "Azerbaijango manata"
-    },
-    "BSD": {
-        "name": "Bahametako dolarra"
-    },
-    "BHD": {
-        "name": "Bahraingo dinarra"
-    },
-    "BDT": {
-        "name": "Bangladesheko taka"
-    },
-    "BBD": {
-        "name": "Barbadosetako dolarra"
-    },
-    "BZD": {
-        "name": "Belizeko dolarra"
-    },
-    "BMD": {
-        "name": "Bermudetako dolarra"
-    },
-    "BTN": {
-        "name": "Bhutango ngultruma"
-    },
-    "BYR": {
-        "name": "Bielorrusiako errubloa"
-    },
-    "BOB": {
-        "name": "Boliviako bolivianoa"
-    },
-    "BAM": {
-        "name": "Bosnia-Herzegovinako marko trukakorra"
-    },
-    "BWP": {
-        "name": "Bosniako pula"
-    },
-    "BRL": {
-        "name": "Brasilgo erreala",
-        "symbol": "R$"
-    },
-    "BND": {
-        "name": "Bruneiko dolarra"
-    },
-    "BGN": {
-        "name": "Bulgariako leva"
-    },
-    "BIF": {
-        "name": "Burundiko frankoa"
-    },
-    "CVE": {
-        "name": "Cabo Verdeko ezkutua"
-    },
-    "XPF": {
-        "name": "CFP frankoa",
-        "symbol": "CFPF"
-    },
-    "CRC": {
-        "name": "Costa Ricako colona"
-    },
-    "DKK": {
-        "name": "Danimarkako koroa"
-    },
-    "DJF": {
-        "name": "Djibouteko frankoa"
-    },
-    "DOP": {
-        "name": "Dominikar Errepublikako pesoa"
-    },
-    "EGP": {
-        "name": "Egiptoko libera"
-    },
-    "ERN": {
-        "name": "Eritreako nakfa"
-    },
-    "RON": {
-        "name": "Errumaniako leua"
-    },
-    "RUB": {
-        "name": "Errusiako errubloa"
-    },
-    "ETB": {
-        "name": "Etiopiako birra"
-    },
-    "EUR": {
-        "name": "Euroa",
-        "symbol": "€"
-    },
-    "FKP": {
-        "name": "Falkland uharteetako libera"
-    },
-    "FJD": {
-        "name": "Fijiko dolarra"
-    },
-    "PHP": {
-        "name": "Filipinetako pesoa"
-    },
-    "GMD": {
-        "name": "Ganbiako dalasia"
-    },
-    "GEL": {
-        "name": "Georgiako laria"
-    },
-    "GHS": {
-        "name": "Ghanako cedia"
-    },
-    "GIP": {
-        "name": "Gibraltarreko libera"
-    },
-    "GNF": {
-        "name": "Gineako frankoa"
-    },
-    "GTQ": {
-        "name": "Guatemalako quetzala"
-    },
-    "GYD": {
-        "name": "Guyanako dolarra"
-    },
-    "HTG": {
-        "name": "Haitiko gourdea"
-    },
-    "KRW": {
-        "name": "Hego Koreako wona",
-        "symbol": "₩"
-    },
-    "SSP": {
-        "name": "Hego Sudango libera"
-    },
-    "ZAR": {
-        "name": "Hegoafrikako randa"
-    },
-    "ANG": {
-        "name": "Holandarren Antilletako guilderra"
-    },
-    "HNL": {
-        "name": "Hondurasko lempira"
-    },
-    "HKD": {
-        "name": "Hong Kongeko dolarra",
-        "symbol": "HK$"
-    },
-    "HUF": {
-        "name": "Hungariako florina"
-    },
-    "INR": {
-        "name": "Indiako errupia",
-        "symbol": "₹"
-    },
-    "IDR": {
-        "name": "Indonesiako errupia"
-    },
-    "KPW": {
-        "name": "Ipar Koreako wona"
-    },
-    "IQD": {
-        "name": "Irakeko dinarra"
-    },
-    "IRR": {
-        "name": "Irango riala"
-    },
-    "ISK": {
-        "name": "Islandiako koroa"
-    },
-    "ILS": {
-        "name": "Israeleko sheqel berria",
-        "symbol": "₪"
-    },
-    "JMD": {
-        "name": "Jamaikako dolarra"
-    },
-    "JPY": {
-        "name": "Japoniako yena",
-        "symbol": "JP¥"
-    },
-    "JOD": {
-        "name": "Jordaniako dinarra"
-    },
-    "KYD": {
-        "name": "Kaiman uharteetako dolarra"
-    },
-    "CAD": {
-        "name": "Kanadako dolarra",
-        "symbol": "CA$"
-    },
-    "KHR": {
-        "name": "Kanbodiako riela"
-    },
-    "XCD": {
-        "name": "Karibe ekialdeko dolarra",
-        "symbol": "EC$"
-    },
-    "KZT": {
-        "name": "Kazakhstango tengea"
-    },
-    "KES": {
-        "name": "Kenyako txelina"
-    },
-    "KGS": {
-        "name": "Kirgizistango soma"
-    },
-    "COP": {
-        "name": "Kolonbiako pesoa"
-    },
-    "KMF": {
-        "name": "Komoreetako frankoa"
-    },
-    "CDF": {
-        "name": "Kongoko frankoa"
-    },
-    "HRK": {
-        "name": "Kroaziako kuna"
-    },
-    "CUC": {
-        "name": "Kubako peso trukakorra"
-    },
-    "CUP": {
-        "name": "Kubako pesoa"
-    },
-    "KWD": {
-        "name": "Kuwaiteko dinarra"
-    },
-    "LAK": {
-        "name": "Laoseko kipa"
-    },
-    "LSL": {
-        "name": "Lesothoko lotia"
-    },
-    "LBP": {
-        "name": "Libanoko libera"
-    },
-    "GBP": {
-        "name": "Libera esterlina",
-        "symbol": "£"
-    },
-    "LRD": {
-        "name": "Liberiako dolarra"
-    },
-    "LYD": {
-        "name": "Libiako dinarra"
-    },
-    "MOP": {
-        "name": "Macanako pataca"
-    },
-    "MGA": {
-        "name": "Madagaskarreko ariarya"
-    },
-    "MWK": {
-        "name": "Malawiko kwacha"
-    },
-    "MYR": {
-        "name": "Malaysiako ringgita"
-    },
-    "MVR": {
-        "name": "Maldivetako rufiyaa"
-    },
-    "MAD": {
-        "name": "Marokoko dirhama"
-    },
-    "MRO": {
-        "name": "Mauritaniako ouguiya"
-    },
-    "MUR": {
-        "name": "Maurizio uharteetako errupia"
-    },
-    "MKD": {
-        "name": "Mazedoniako denara"
-    },
-    "MXN": {
-        "name": "Mexikoko pesoa",
-        "symbol": "MX$"
-    },
-    "MDL": {
-        "name": "Moldaviako leua"
-    },
-    "MNT": {
-        "name": "Mongoliako tugrika"
-    },
-    "MZN": {
-        "name": "Mozambikeko metikala"
-    },
-    "MMK": {
-        "name": "Myanmarreko kyata"
-    },
-    "NAD": {
-        "name": "Namibiako dolarra"
-    },
-    "NPR": {
-        "name": "Nepalgo errupia"
-    },
-    "NGN": {
-        "name": "Nigeriako naira"
-    },
-    "NIO": {
-        "name": "Nikaraguako cordoba"
-    },
-    "NOK": {
-        "name": "Norvegiako koroa"
-    },
-    "OMR": {
-        "name": "Omango riala"
-    },
-    "PKR": {
-        "name": "Pakistango errupia"
-    },
-    "PAB": {
-        "name": "Panamako balboa"
-    },
-    "PGK": {
-        "name": "Papua Ginea Berriko kina"
-    },
-    "PYG": {
-        "name": "Paraguaiko guarania"
-    },
-    "PEN": {
-        "name": "Peruko sol berria"
-    },
-    "PLN": {
-        "name": "Poloniako zlotya"
-    },
-    "QAR": {
-        "name": "Qatarreko riala"
-    },
-    "RWF": {
-        "name": "Ruandako frankoa"
-    },
-    "SBD": {
-        "name": "Salomon uharteetako dolarra"
-    },
-    "SVC": {
-        "name": "Salvadoran Colón"
-    },
-    "WST": {
-        "name": "Samoko tala"
-    },
-    "SHP": {
-        "name": "Santa Helenako libera"
-    },
-    "STD": {
-        "name": "Sao Tomeko eta Principeko dobra"
-    },
-    "SAR": {
-        "name": "Saudiko riala"
-    },
-    "RSD": {
-        "name": "Serbiako dinarra"
-    },
-    "SCR": {
-        "name": "Seychelleetako errupia"
-    },
-    "SLL": {
-        "name": "Sierra Leonako leona"
-    },
-    "SGD": {
-        "name": "Singapurreko dolarra"
-    },
-    "SYP": {
-        "name": "Siriako libera"
-    },
-    "SOS": {
-        "name": "Somaliako txelina"
-    },
-    "LKR": {
-        "name": "Sri Lankako errupia"
-    },
-    "SDG": {
-        "name": "Sudango libera"
-    },
-    "SEK": {
-        "name": "Suediako koroa"
-    },
-    "CHF": {
-        "name": "Suitzako frankoa"
-    },
-    "SRD": {
-        "name": "Surinameko dolarra"
-    },
-    "SZL": {
-        "name": "Swaziko lilangenia"
-    },
-    "TWD": {
-        "name": "Taiwango dolar berria",
-        "symbol": "NT$"
-    },
-    "TJS": {
-        "name": "Tajikistango somonia"
-    },
-    "TZS": {
-        "name": "Tanzaniako txelina"
-    },
-    "THB": {
-        "name": "Thailandiako bahta",
-        "symbol": "฿"
-    },
-    "TOP": {
-        "name": "Tongako Paʻanga"
-    },
-    "TTD": {
-        "name": "Trinidadeko eta Tobagoko dolarra"
-    },
-    "TND": {
-        "name": "Tunisiako dinarra"
-    },
-    "TRY": {
-        "name": "Turkiako lira"
-    },
-    "TMT": {
-        "name": "Turkmenistango manata"
-    },
-    "CZK": {
-        "name": "Txekiar Errepublikako koroa"
-    },
-    "CLP": {
-        "name": "Txileko pesoa"
-    },
-    "CNY": {
-        "name": "Txinako yuana",
-        "symbol": "CN¥"
-    },
-    "UGX": {
-        "name": "Ugandako txelina"
-    },
-    "UAH": {
-        "name": "Ukrainako hryvnia"
-    },
-    "UYU": {
-        "name": "Uruguaiko pesoa"
-    },
-    "UZS": {
-        "name": "Uzbekistango soma"
-    },
-    "VUV": {
-        "name": "Vanuatuko vatua"
-    },
-    "VEF": {
-        "name": "Venezuelako bolivarra"
-    },
-    "VND": {
-        "name": "Vietnameko donga",
-        "symbol": "₫"
-    },
-    "YER": {
-        "name": "Yemengo riala"
-    },
-    "ZMW": {
-        "name": "Zambiako kwacha"
-    },
-    "NZD": {
-        "name": "Zeelanda Berriko dolarra",
-        "symbol": "NZ$"
-    },
-    "ZWL": {
-        "name": "Zimbabwean Dollar (2009)"
-    }
+	"USD": {
+		"name": "AEBetako dolarra",
+		"symbol": "US$"
+	},
+	"AFN": {
+		"name": "Afganistango afghania"
+	},
+	"XOF": {
+		"name": "Afrika ekialdeko frankoa BCEAO",
+		"symbol": "CFA"
+	},
+	"XAF": {
+		"name": "Afrika erdialdeko frankoa BEAC",
+		"symbol": "FCFA"
+	},
+	"ALL": {
+		"name": "Albaniako leka"
+	},
+	"DZD": {
+		"name": "Algeriako dinarra"
+	},
+	"AOA": {
+		"name": "Angolako kwanza"
+	},
+	"AED": {
+		"name": "Arabiar Emirerri Batuetako dirhama"
+	},
+	"ARS": {
+		"name": "Argentinako pesoa"
+	},
+	"AMD": {
+		"name": "Armeniako drama"
+	},
+	"AWG": {
+		"name": "Arubeko florina"
+	},
+	"AUD": {
+		"name": "Australiako dolarra",
+		"symbol": "A$"
+	},
+	"AZN": {
+		"name": "Azerbaijango manata"
+	},
+	"BSD": {
+		"name": "Bahametako dolarra"
+	},
+	"BHD": {
+		"name": "Bahraingo dinarra"
+	},
+	"BDT": {
+		"name": "Bangladesheko taka"
+	},
+	"BBD": {
+		"name": "Barbadosetako dolarra"
+	},
+	"BZD": {
+		"name": "Belizeko dolarra"
+	},
+	"BMD": {
+		"name": "Bermudetako dolarra"
+	},
+	"BTN": {
+		"name": "Bhutango ngultruma"
+	},
+	"BYR": {
+		"name": "Bielorrusiako errubloa"
+	},
+	"BOB": {
+		"name": "Boliviako bolivianoa"
+	},
+	"BAM": {
+		"name": "Bosnia-Herzegovinako marko trukakorra"
+	},
+	"BWP": {
+		"name": "Bosniako pula"
+	},
+	"BRL": {
+		"name": "Brasilgo erreala",
+		"symbol": "R$"
+	},
+	"BND": {
+		"name": "Bruneiko dolarra"
+	},
+	"BGN": {
+		"name": "Bulgariako leva"
+	},
+	"BIF": {
+		"name": "Burundiko frankoa"
+	},
+	"CVE": {
+		"name": "Cabo Verdeko ezkutua"
+	},
+	"XPF": {
+		"name": "CFP frankoa",
+		"symbol": "CFPF"
+	},
+	"CRC": {
+		"name": "Costa Ricako colona"
+	},
+	"DKK": {
+		"name": "Danimarkako koroa"
+	},
+	"DJF": {
+		"name": "Djibouteko frankoa"
+	},
+	"DOP": {
+		"name": "Dominikar Errepublikako pesoa"
+	},
+	"EGP": {
+		"name": "Egiptoko libera"
+	},
+	"ERN": {
+		"name": "Eritreako nakfa"
+	},
+	"RON": {
+		"name": "Errumaniako leua"
+	},
+	"RUB": {
+		"name": "Errusiako errubloa"
+	},
+	"ETB": {
+		"name": "Etiopiako birra"
+	},
+	"EUR": {
+		"name": "Euroa",
+		"symbol": "€"
+	},
+	"FKP": {
+		"name": "Falkland uharteetako libera"
+	},
+	"FJD": {
+		"name": "Fijiko dolarra"
+	},
+	"PHP": {
+		"name": "Filipinetako pesoa"
+	},
+	"GMD": {
+		"name": "Ganbiako dalasia"
+	},
+	"GEL": {
+		"name": "Georgiako laria"
+	},
+	"GHS": {
+		"name": "Ghanako cedia"
+	},
+	"GIP": {
+		"name": "Gibraltarreko libera"
+	},
+	"GNF": {
+		"name": "Gineako frankoa"
+	},
+	"GTQ": {
+		"name": "Guatemalako quetzala"
+	},
+	"GYD": {
+		"name": "Guyanako dolarra"
+	},
+	"HTG": {
+		"name": "Haitiko gourdea"
+	},
+	"KRW": {
+		"name": "Hego Koreako wona",
+		"symbol": "₩"
+	},
+	"SSP": {
+		"name": "Hego Sudango libera"
+	},
+	"ZAR": {
+		"name": "Hegoafrikako randa"
+	},
+	"ANG": {
+		"name": "Holandarren Antilletako guilderra"
+	},
+	"HNL": {
+		"name": "Hondurasko lempira"
+	},
+	"HKD": {
+		"name": "Hong Kongeko dolarra",
+		"symbol": "HK$"
+	},
+	"HUF": {
+		"name": "Hungariako florina"
+	},
+	"INR": {
+		"name": "Indiako errupia",
+		"symbol": "₹"
+	},
+	"IDR": {
+		"name": "Indonesiako errupia"
+	},
+	"KPW": {
+		"name": "Ipar Koreako wona"
+	},
+	"IQD": {
+		"name": "Irakeko dinarra"
+	},
+	"IRR": {
+		"name": "Irango riala"
+	},
+	"ISK": {
+		"name": "Islandiako koroa"
+	},
+	"ILS": {
+		"name": "Israeleko sheqel berria",
+		"symbol": "₪"
+	},
+	"JMD": {
+		"name": "Jamaikako dolarra"
+	},
+	"JPY": {
+		"name": "Japoniako yena",
+		"symbol": "JP¥"
+	},
+	"JOD": {
+		"name": "Jordaniako dinarra"
+	},
+	"KYD": {
+		"name": "Kaiman uharteetako dolarra"
+	},
+	"CAD": {
+		"name": "Kanadako dolarra",
+		"symbol": "CA$"
+	},
+	"KHR": {
+		"name": "Kanbodiako riela"
+	},
+	"XCD": {
+		"name": "Karibe ekialdeko dolarra",
+		"symbol": "EC$"
+	},
+	"KZT": {
+		"name": "Kazakhstango tengea"
+	},
+	"KES": {
+		"name": "Kenyako txelina"
+	},
+	"KGS": {
+		"name": "Kirgizistango soma"
+	},
+	"COP": {
+		"name": "Kolonbiako pesoa"
+	},
+	"KMF": {
+		"name": "Komoreetako frankoa"
+	},
+	"CDF": {
+		"name": "Kongoko frankoa"
+	},
+	"HRK": {
+		"name": "Kroaziako kuna"
+	},
+	"CUC": {
+		"name": "Kubako peso trukakorra"
+	},
+	"CUP": {
+		"name": "Kubako pesoa"
+	},
+	"KWD": {
+		"name": "Kuwaiteko dinarra"
+	},
+	"LAK": {
+		"name": "Laoseko kipa"
+	},
+	"LSL": {
+		"name": "Lesothoko lotia"
+	},
+	"LBP": {
+		"name": "Libanoko libera"
+	},
+	"GBP": {
+		"name": "Libera esterlina",
+		"symbol": "£"
+	},
+	"LRD": {
+		"name": "Liberiako dolarra"
+	},
+	"LYD": {
+		"name": "Libiako dinarra"
+	},
+	"MOP": {
+		"name": "Macanako pataca"
+	},
+	"MGA": {
+		"name": "Madagaskarreko ariarya"
+	},
+	"MWK": {
+		"name": "Malawiko kwacha"
+	},
+	"MYR": {
+		"name": "Malaysiako ringgita"
+	},
+	"MVR": {
+		"name": "Maldivetako rufiyaa"
+	},
+	"MAD": {
+		"name": "Marokoko dirhama"
+	},
+	"MRO": {
+		"name": "Mauritaniako ouguiya"
+	},
+	"MUR": {
+		"name": "Maurizio uharteetako errupia"
+	},
+	"MKD": {
+		"name": "Mazedoniako denara"
+	},
+	"MXN": {
+		"name": "Mexikoko pesoa",
+		"symbol": "MX$"
+	},
+	"MDL": {
+		"name": "Moldaviako leua"
+	},
+	"MNT": {
+		"name": "Mongoliako tugrika"
+	},
+	"MZN": {
+		"name": "Mozambikeko metikala"
+	},
+	"MMK": {
+		"name": "Myanmarreko kyata"
+	},
+	"NAD": {
+		"name": "Namibiako dolarra"
+	},
+	"NPR": {
+		"name": "Nepalgo errupia"
+	},
+	"NGN": {
+		"name": "Nigeriako naira"
+	},
+	"NIO": {
+		"name": "Nikaraguako cordoba"
+	},
+	"NOK": {
+		"name": "Norvegiako koroa"
+	},
+	"OMR": {
+		"name": "Omango riala"
+	},
+	"PKR": {
+		"name": "Pakistango errupia"
+	},
+	"PAB": {
+		"name": "Panamako balboa"
+	},
+	"PGK": {
+		"name": "Papua Ginea Berriko kina"
+	},
+	"PYG": {
+		"name": "Paraguaiko guarania"
+	},
+	"PEN": {
+		"name": "Peruko sol berria"
+	},
+	"PLN": {
+		"name": "Poloniako zlotya"
+	},
+	"QAR": {
+		"name": "Qatarreko riala"
+	},
+	"RWF": {
+		"name": "Ruandako frankoa"
+	},
+	"SBD": {
+		"name": "Salomon uharteetako dolarra"
+	},
+	"SVC": {
+		"name": "Salvadoran Colón"
+	},
+	"WST": {
+		"name": "Samoko tala"
+	},
+	"SHP": {
+		"name": "Santa Helenako libera"
+	},
+	"STD": {
+		"name": "Sao Tomeko eta Principeko dobra"
+	},
+	"SAR": {
+		"name": "Saudiko riala"
+	},
+	"RSD": {
+		"name": "Serbiako dinarra"
+	},
+	"SCR": {
+		"name": "Seychelleetako errupia"
+	},
+	"SLL": {
+		"name": "Sierra Leonako leona"
+	},
+	"SGD": {
+		"name": "Singapurreko dolarra"
+	},
+	"SYP": {
+		"name": "Siriako libera"
+	},
+	"SOS": {
+		"name": "Somaliako txelina"
+	},
+	"LKR": {
+		"name": "Sri Lankako errupia"
+	},
+	"SDG": {
+		"name": "Sudango libera"
+	},
+	"SEK": {
+		"name": "Suediako koroa"
+	},
+	"CHF": {
+		"name": "Suitzako frankoa"
+	},
+	"SRD": {
+		"name": "Surinameko dolarra"
+	},
+	"SZL": {
+		"name": "Swaziko lilangenia"
+	},
+	"TWD": {
+		"name": "Taiwango dolar berria",
+		"symbol": "NT$"
+	},
+	"TJS": {
+		"name": "Tajikistango somonia"
+	},
+	"TZS": {
+		"name": "Tanzaniako txelina"
+	},
+	"THB": {
+		"name": "Thailandiako bahta",
+		"symbol": "฿"
+	},
+	"TOP": {
+		"name": "Tongako Paʻanga"
+	},
+	"TTD": {
+		"name": "Trinidadeko eta Tobagoko dolarra"
+	},
+	"TND": {
+		"name": "Tunisiako dinarra"
+	},
+	"TRY": {
+		"name": "Turkiako lira"
+	},
+	"TMT": {
+		"name": "Turkmenistango manata"
+	},
+	"CZK": {
+		"name": "Txekiar Errepublikako koroa"
+	},
+	"CLP": {
+		"name": "Txileko pesoa"
+	},
+	"CNY": {
+		"name": "Txinako yuana",
+		"symbol": "CN¥"
+	},
+	"UGX": {
+		"name": "Ugandako txelina"
+	},
+	"UAH": {
+		"name": "Ukrainako hryvnia"
+	},
+	"UYU": {
+		"name": "Uruguaiko pesoa"
+	},
+	"UZS": {
+		"name": "Uzbekistango soma"
+	},
+	"VUV": {
+		"name": "Vanuatuko vatua"
+	},
+	"VEF": {
+		"name": "Venezuelako bolivarra"
+	},
+	"VND": {
+		"name": "Vietnameko donga",
+		"symbol": "₫"
+	},
+	"YER": {
+		"name": "Yemengo riala"
+	},
+	"ZMW": {
+		"name": "Zambiako kwacha"
+	},
+	"NZD": {
+		"name": "Zeelanda Berriko dolarra",
+		"symbol": "NZ$"
+	},
+	"ZWL": {
+		"name": "Zimbabwean Dollar (2009)"
+	}
 }
