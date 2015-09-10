@@ -2,7 +2,7 @@
 
 namespace CommerceGuys\Intl\Country;
 
-class Country implements CountryInterface
+class Country implements CountryEntityInterface
 {
     /**
      * The two-letter country code.

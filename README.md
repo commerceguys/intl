@@ -142,11 +142,11 @@ $allLanguages = $languageRepository->getAll();
 
 Implementing the library
 ------------------------
-While the library can be used as-is, most applications will want to store the
-relevant definitions (currencies, countries, etc) in the database.
-This allows for better performance while giving users the ability to modify and
-expand the data.
+The base interfaces don't impose setters.
+Extended interfaces (with setters) are provided for (Doctrine, Drupal) entities.
 
+While the library can be used as-is, many applications will want to store parts of the dataset in a database.
+This allows for better performance while giving users the ability to modify and expand the data.
 Taking currencies as an example, a merchant frequently wants to be able to:
 
 - Define custom currencies.
@@ -155,7 +155,7 @@ Taking currencies as an example, a merchant frequently wants to be able to:
 
 This would be accomplished by using the CurrencyRepository to get all default currencies and
 insert them into the database. The doctrine entity (or any similar data object) would then implement
-the CurrencyInterface so that the NumberFormatter can continue to work.
+the CurrencyEntityInterface so that the NumberFormatter can continue to work.
 
 Related projects
 ----------------

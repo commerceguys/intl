@@ -2,7 +2,7 @@
 
 namespace CommerceGuys\Intl\Currency;
 
-class Currency implements CurrencyInterface
+class Currency implements CurrencyEntityInterface
 {
     /**
      * The alphanumeric currency code.

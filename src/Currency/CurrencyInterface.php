@@ -12,25 +12,11 @@ interface CurrencyInterface
     public function getCurrencyCode();
 
     /**
-     * Sets the alphabetic currency code.
-     *
-     * @param string $currencyCode The alphabetic currency code.
-     */
-    public function setCurrencyCode($currencyCode);
-
-    /**
      * Gets the currency name.
      *
      * @return string
      */
     public function getName();
-
-    /**
-     * Sets the currency name.
-     *
-     * @param string $name The currency name.
-     */
-    public function setName($name);
 
     /**
      * Gets the numeric currency code.
@@ -43,25 +29,11 @@ interface CurrencyInterface
     public function getNumericCode();
 
     /**
-     * Sets the numeric currency code.
-     *
-     * @param string $numericCode The numeric currency code.
-     */
-    public function setNumericCode($numericCode);
-
-    /**
      * Gets the currency symbol.
      *
      * @return string
      */
     public function getSymbol();
-
-    /**
-     * Sets the currency symbol.
-     *
-     * @param string $symbol The currency symbol.
-     */
-    public function setSymbol($symbol);
 
     /**
      * Gets the number of fraction digits.
@@ -72,11 +44,4 @@ interface CurrencyInterface
      * @return int
      */
     public function getFractionDigits();
-
-    /**
-     * Sets the number of fraction digits.
-     *
-     * @param int $fractionDigits The number of fraction digits.
-     */
-    public function setFractionDigits($fractionDigits);
 }

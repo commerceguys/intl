@@ -12,13 +12,6 @@ interface CountryInterface
     public function getCountryCode();
 
     /**
-     * Sets the two-letter country code.
-     *
-     * @param string $countryCode The two-letter country code.
-     */
-    public function setCountryCode($countryCode);
-
-    /**
      * Gets the country name.
      *
      * Note that certain locales have incomplete translations, in which
@@ -27,13 +20,6 @@ interface CountryInterface
      * @return string
      */
     public function getName();
-
-    /**
-     * Sets the country name.
-     *
-     * @param string $name The country name.
-     */
-    public function setName($name);
 
     /**
      * Gets the three-letter country code.
@@ -46,13 +32,6 @@ interface CountryInterface
      * @return string|null
      */
     public function getThreeLetterCode();
-
-    /**
-     * Sets the three-letter country code.
-     *
-     * @param string $threeLetterCode The three-letter country code.
-     */
-    public function setThreeLetterCode($threeLetterCode);
 
     /**
      * Gets the numeric country code.
@@ -72,13 +51,6 @@ interface CountryInterface
     public function getNumericCode();
 
     /**
-     * Sets the numeric country code.
-     *
-     * @param string $numericCode The numeric country code.
-     */
-    public function setNumericCode($numericCode);
-
-    /**
      * Gets the country currency code.
      *
      * Represents the default currency used in the country, if known.
@@ -86,11 +58,4 @@ interface CountryInterface
      * @return string|null
      */
     public function getCurrencyCode();
-
-    /**
-     * Sets the country currency code.
-     *
-     * @param string $currencyCode The currency code.
-     */
-    public function setCurrencyCode($currencyCode);
 }

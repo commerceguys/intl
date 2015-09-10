@@ -2,7 +2,7 @@
 
 namespace CommerceGuys\Intl\NumberFormat;
 
-class NumberFormat implements NumberFormatInterface
+class NumberFormat implements NumberFormatEntityInterface
 {
     /**
      * The locale (i.e. "en_US").

@@ -2,7 +2,7 @@
 
 namespace CommerceGuys\Intl\Language;
 
-class Language implements LanguageInterface
+class Language implements LanguageEntityInterface
 {
     /**
      * The two-letter language code.
