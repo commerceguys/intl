@@ -20,12 +20,6 @@
 	"ast": {
 		"name": "Asturijski"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "azerbejdžanski"
 	},
@@ -59,26 +53,20 @@
 	"br": {
 		"name": "bretonski"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "bugarski"
 	},
 	"my": {
 		"name": "burmanski"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"tzm": {
 		"name": "centralnoatlaski tamazigt"
 	},
 	"ksh": {
 		"name": "Colognian"
+	},
+	"ce": {
+		"name": "Čečenski"
 	},
 	"cs": {
 		"name": "češki"
@@ -101,6 +89,15 @@
 	"en": {
 		"name": "engleski"
 	},
+	"en-AU": {
+		"name": "engleski (Australija)"
+	},
+	"en-CA": {
+		"name": "engleski (Kanada)"
+	},
+	"en-GB": {
+		"name": "engleski (Velika Britanija)"
+	},
 	"eo": {
 		"name": "esperanto"
 	},
@@ -121,6 +118,12 @@
 	},
 	"fr": {
 		"name": "francuski"
+	},
+	"fr-CA": {
+		"name": "francuski (Kanada)"
+	},
+	"fr-CH": {
+		"name": "francuski (Švajcarska)"
 	},
 	"fur": {
 		"name": "Friulijski"
@@ -218,6 +221,12 @@
 	"zh": {
 		"name": "kineski"
 	},
+	"zh-Hans": {
+		"name": "kineski (pojednostavljeno kinesko pismo)"
+	},
+	"zh-Hant": {
+		"name": "kineski (tradicionalno kinesko pismo)"
+	},
 	"rw": {
 		"name": "kinjaruanda"
 	},
@@ -290,8 +299,8 @@
 	"mas": {
 		"name": "masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
+	"mzn": {
+		"name": "mazanderanski"
 	},
 	"ro-MD": {
 		"name": "moldavski"
@@ -310,6 +319,9 @@
 	},
 	"de": {
 		"name": "nemački"
+	},
+	"de-AT": {
+		"name": "nemački (Austrija)"
 	},
 	"ne": {
 		"name": "nepalski"
@@ -341,6 +353,9 @@
 	"pt": {
 		"name": "portugalski"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"rm": {
 		"name": "reto-romanski"
 	},
@@ -362,11 +377,11 @@
 	"seh": {
 		"name": "sena"
 	},
+	"lrc": {
+		"name": "severni luri"
+	},
 	"se": {
 		"name": "severni sami"
-	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
 	},
 	"si": {
 		"name": "sinhalski"
@@ -380,20 +395,26 @@
 	"so": {
 		"name": "somalski"
 	},
+	"ckb": {
+		"name": "sorani kurdski"
+	},
 	"sr": {
 		"name": "srpski"
 	},
+	"cu": {
+		"name": "Staroslovenski"
+	},
 	"sw": {
 		"name": "svahili"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
 	},
 	"gd": {
 		"name": "Škotski Galski"
 	},
 	"es": {
 		"name": "španski"
+	},
+	"es-MX": {
+		"name": "španski (Meksiko)"
 	},
 	"gsw": {
 		"name": "Švajcarski nemački"
@@ -422,8 +443,8 @@
 	"to": {
 		"name": "tonga"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "turkmenski"
 	},
 	"tr": {
 		"name": "turski"
@@ -445,6 +466,9 @@
 	},
 	"vi": {
 		"name": "vijetnamski"
+	},
+	"vo": {
+		"name": "Volapuk"
 	},
 	"wae": {
 		"name": "Walser"

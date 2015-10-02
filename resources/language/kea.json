@@ -45,7 +45,7 @@
 		"name": "azerbaijanu"
 	},
 	"ksf": {
-		"name": "Bafia"
+		"name": "bafia"
 	},
 	"bm": {
 		"name": "bambara"
@@ -78,10 +78,10 @@
 		"name": "bretãu"
 	},
 	"bg": {
-		"name": "bulgaru"
+		"name": "búlgaru"
 	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -131,9 +131,6 @@
 	"cy": {
 		"name": "gales"
 	},
-	"lg": {
-		"name": "Ganda"
-	},
 	"el": {
 		"name": "gregu"
 	},
@@ -144,13 +141,13 @@
 		"name": "ibo"
 	},
 	"smn": {
-		"name": "Inari Sami"
+		"name": "inari sami"
 	},
 	"hi": {
 		"name": "indi"
 	},
 	"id": {
-		"name": "indoneziu"
+		"name": "indonéziu"
 	},
 	"en": {
 		"name": "ingles"
@@ -159,7 +156,7 @@
 		"name": "ingles australianu"
 	},
 	"en-GB": {
-		"name": "ingles britanuku"
+		"name": "ingles britaniku"
 	},
 	"en-CA": {
 		"name": "ingles kanadianu"
@@ -185,11 +182,11 @@
 	"ka": {
 		"name": "jorjianu"
 	},
+	"kab": {
+		"name": "kabila"
+	},
 	"kea": {
 		"name": "kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
 	},
 	"kn": {
 		"name": "kanares"
@@ -215,20 +212,23 @@
 	"km": {
 		"name": "kmer"
 	},
-	"kok": {
-		"name": "Konkani"
-	},
 	"khq": {
-		"name": "Koyra Chiini"
+		"name": "koira txiini"
 	},
 	"ses": {
-		"name": "Koyraboro Senni"
+		"name": "koiraboro seni"
+	},
+	"kok": {
+		"name": "konkani"
+	},
+	"ko": {
+		"name": "korianu"
 	},
 	"hr": {
 		"name": "kroata"
 	},
-	"ko": {
-		"name": "kureanu"
+	"ckb": {
+		"name": "kurdu sentral"
 	},
 	"lkt": {
 		"name": "Lakota"
@@ -244,6 +244,9 @@
 	},
 	"lu": {
 		"name": "Luba-Katanga"
+	},
+	"lg": {
+		"name": "luganda"
 	},
 	"luo": {
 		"name": "Luo"
@@ -278,8 +281,8 @@
 	"mk": {
 		"name": "masedoniu"
 	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -295,6 +298,9 @@
 	},
 	"ne": {
 		"name": "nepales"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -323,6 +329,9 @@
 	"fa": {
 		"name": "persa"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"pl": {
 		"name": "pulaku"
 	},
@@ -340,6 +349,9 @@
 	},
 	"ro": {
 		"name": "rumenu"
+	},
+	"ro-MD": {
+		"name": "rumenu (Moldavia)"
 	},
 	"rn": {
 		"name": "Rundi"
@@ -398,6 +410,9 @@
 	"th": {
 		"name": "tailandes"
 	},
+	"tzm": {
+		"name": "tamazait di Atlas Sentral"
+	},
 	"ta": {
 		"name": "tamil"
 	},
@@ -413,11 +428,17 @@
 	"to": {
 		"name": "tonganes"
 	},
+	"tk": {
+		"name": "turkmenu"
+	},
 	"tr": {
 		"name": "turku"
 	},
 	"cs": {
 		"name": "txeku"
+	},
+	"ce": {
+		"name": "txetxenu"
 	},
 	"ug": {
 		"name": "uigur"
@@ -436,6 +457,9 @@
 	},
 	"vi": {
 		"name": "vietnamita"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

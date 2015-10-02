@@ -14,6 +14,12 @@
 	"de": {
 		"name": "Almaŋ senni"
 	},
+	"de-AT": {
+		"name": "Almaŋ senni (Otriši)"
+	},
+	"de-CH": {
+		"name": "Almaŋ senni (Swisu)"
+	},
 	"am": {
 		"name": "Amhaarik senni"
 	},
@@ -22,12 +28,6 @@
 	},
 	"ast": {
 		"name": "Asturian"
-	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
 	},
 	"az": {
 		"name": "Azerbaijani"
@@ -62,20 +62,11 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "Bulagaari senni"
 	},
 	"my": {
 		"name": "Burme senni"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"ca": {
 		"name": "Catalan"
@@ -86,8 +77,17 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -104,14 +104,14 @@
 	"es": {
 		"name": "Espaaɲe senni"
 	},
+	"es-MX": {
+		"name": "Espaaɲe senni (Mexiki)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "Estonian"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -125,11 +125,14 @@
 	"fi": {
 		"name": "Finnish"
 	},
-	"nl-BE": {
-		"name": "Flemish"
-	},
 	"fr": {
 		"name": "Fransee senni"
+	},
+	"fr-CA": {
+		"name": "Fransee senni (Kanaada)"
+	},
+	"fr-CH": {
+		"name": "Fransee senni (Swisu)"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -164,6 +167,9 @@
 	"nl": {
 		"name": "Holandee senni"
 	},
+	"nl-BE": {
+		"name": "Holandee senni (Belgiiki)"
+	},
 	"hu": {
 		"name": "Hungaari senni"
 	},
@@ -184,6 +190,15 @@
 	},
 	"en": {
 		"name": "Inglisi senni"
+	},
+	"en-GB": {
+		"name": "Inglisi senni (Albaasalaama Marganta)"
+	},
+	"en-CA": {
+		"name": "Inglisi senni (Kanaada)"
+	},
+	"en-AU": {
+		"name": "Inglisi senni (Ostraali)"
 	},
 	"ga": {
 		"name": "Irish"
@@ -284,11 +299,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -304,6 +316,9 @@
 	},
 	"ne": {
 		"name": "Neepal senni"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -329,6 +344,12 @@
 	"pt": {
 		"name": "Portugee senni"
 	},
+	"pt-PT": {
+		"name": "Portugee senni (Portugaal)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"pa": {
 		"name": "Punjaabi sennii"
 	},
@@ -343,6 +364,9 @@
 	},
 	"ro": {
 		"name": "Rumaani senni"
+	},
+	"ro-MD": {
+		"name": "Rumaani senni (Moldovi)"
 	},
 	"rn": {
 		"name": "Rundi"
@@ -365,14 +389,17 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
 	"zh": {
 		"name": "Sinuwa senni"
+	},
+	"zh-Hans": {
+		"name": "Sinuwa senni (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Sinuwa senni (Hant)"
 	},
 	"sk": {
 		"name": "Slovak"
@@ -389,14 +416,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"th": {
 		"name": "Taailandu senni"
@@ -416,8 +437,8 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "Turkmen"
 	},
 	"tr": {
 		"name": "Turku senni"
@@ -439,6 +460,9 @@
 	},
 	"vi": {
 		"name": "Vietnaam senni"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

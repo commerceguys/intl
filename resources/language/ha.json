@@ -20,12 +20,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -59,20 +53,11 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "Bulgaranci"
 	},
 	"my": {
 		"name": "Burmanci"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"ca": {
 		"name": "Catalan"
@@ -80,8 +65,17 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -101,23 +95,23 @@
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
 	"fr": {
 		"name": "Faransanci"
 	},
+	"fr-CA": {
+		"name": "Faransanci (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Faransanci (Suwizalan)"
+	},
 	"fo": {
 		"name": "Faroese"
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -170,8 +164,17 @@
 	"pt": {
 		"name": "Harshen Portugal"
 	},
+	"pt-PT": {
+		"name": "Harshen Portugal (Portugal)"
+	},
 	"zh": {
 		"name": "Harshen Sin"
+	},
+	"zh-Hans": {
+		"name": "Harshen Sin (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Harshen Sin (Hant)"
 	},
 	"sv": {
 		"name": "Harshen Suwedan"
@@ -200,6 +203,9 @@
 	"nl": {
 		"name": "Holanci"
 	},
+	"nl-BE": {
+		"name": "Holanci (Belgiyom)"
+	},
 	"is": {
 		"name": "Icelandic"
 	},
@@ -215,11 +221,20 @@
 	"es": {
 		"name": "Ispaniyanci"
 	},
+	"es-MX": {
+		"name": "Ispaniyanci (Makasiko)"
+	},
 	"it": {
 		"name": "Italiyanci"
 	},
 	"de": {
 		"name": "Jamusanci"
+	},
+	"de-AT": {
+		"name": "Jamusanci (Ostiriya)"
+	},
+	"de-CH": {
+		"name": "Jamusanci (Suwizalan)"
 	},
 	"ja": {
 		"name": "Japananci"
@@ -308,11 +323,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -328,6 +340,9 @@
 	},
 	"ne": {
 		"name": "Nepali"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -350,6 +365,9 @@
 	"fa": {
 		"name": "Parisanci"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"pa": {
 		"name": "Punjabi"
 	},
@@ -361,6 +379,9 @@
 	},
 	"ro": {
 		"name": "Romaniyanci"
+	},
+	"ro-MD": {
+		"name": "Romaniyanci (Maldoba)"
 	},
 	"rm": {
 		"name": "Romansh"
@@ -383,9 +404,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -401,14 +419,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"ta": {
 		"name": "Tamil"
@@ -428,11 +440,20 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"en": {
 		"name": "Turanci"
+	},
+	"en-GB": {
+		"name": "Turanci (Birtaniya)"
+	},
+	"en-CA": {
+		"name": "Turanci (Kanada)"
+	},
+	"en-AU": {
+		"name": "Turanci (Ostareliya)"
+	},
+	"tk": {
+		"name": "Turkmen"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"
@@ -442,6 +463,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

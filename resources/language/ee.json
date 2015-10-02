@@ -3,7 +3,7 @@
 		"name": "afrikaangbe"
 	},
 	"agq": {
-		"name": "Aghem"
+		"name": "aghemgbe"
 	},
 	"sq": {
 		"name": "albaniagbe"
@@ -12,19 +12,13 @@
 		"name": "amhariagbe"
 	},
 	"ar": {
-		"name": "arabiagbe"
+		"name": "Arabiagbe"
 	},
 	"hy": {
 		"name": "armeniagbe"
 	},
 	"ast": {
 		"name": "Asturian"
-	},
-	"en-AU": {
-		"name": "australiatɔwo ƒe yevugbe"
-	},
-	"de-AT": {
-		"name": "austriatɔwo ƒe germaniagbe"
 	},
 	"az": {
 		"name": "azerbaijangbe"
@@ -48,7 +42,7 @@
 		"name": "benagbe"
 	},
 	"bn": {
-		"name": "bengalgbe"
+		"name": "Bengaligbe"
 	},
 	"zh-Hant": {
 		"name": "blema tsainagbe"
@@ -65,9 +59,6 @@
 	"br": {
 		"name": "bretongbe"
 	},
-	"en-GB": {
-		"name": "britaintɔwo ƒe yevugbe"
-	},
 	"bg": {
 		"name": "bulgariagbe"
 	},
@@ -80,17 +71,26 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"zh": {
+		"name": "Chinagbe"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
 	},
 	"da": {
 		"name": "denmarkgbe"
-	},
-	"ja": {
-		"name": "dzapangbe"
 	},
 	"se": {
 		"name": "dziehe samigbe"
@@ -105,7 +105,7 @@
 		"name": "estoniagbe"
 	},
 	"ee": {
-		"name": "eʋegbe"
+		"name": "Eʋegbe"
 	},
 	"fo": {
 		"name": "Faroese"
@@ -114,10 +114,16 @@
 		"name": "finlanɖgbe"
 	},
 	"nl-BE": {
-		"name": "flemiagbe"
+		"name": "Flemishgbe"
 	},
 	"fr": {
-		"name": "fransegbe"
+		"name": "Fransegbe"
+	},
+	"fr-CA": {
+		"name": "Fransegbe (Canada)"
+	},
+	"fr-CH": {
+		"name": "Fransegbe (Switzerland)"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -132,7 +138,13 @@
 		"name": "Ganda"
 	},
 	"de": {
-		"name": "germaniagbe"
+		"name": "Germaniagbe"
+	},
+	"de-AT": {
+		"name": "Germaniagbe (Austria)"
+	},
+	"de-CH": {
+		"name": "Germaniagbe (Switzerland)"
 	},
 	"ka": {
 		"name": "gɔgiagbe"
@@ -153,16 +165,13 @@
 		"name": "hebrigbe"
 	},
 	"hi": {
-		"name": "hindigbe"
+		"name": "Hindigbe"
 	},
 	"nl": {
-		"name": "hɔlandgbe"
+		"name": "Hollandgbe"
 	},
 	"hu": {
 		"name": "hungarigbe"
-	},
-	"pt-PT": {
-		"name": "iberiatɔwo ƒe portugalgbe"
 	},
 	"is": {
 		"name": "icelanɖgbe"
@@ -174,25 +183,22 @@
 		"name": "Inari Sami"
 	},
 	"id": {
-		"name": "indonesiagbe"
+		"name": "Indonesiagbe"
 	},
 	"ga": {
 		"name": "irelanɖgbe"
 	},
 	"it": {
-		"name": "italiagbe"
+		"name": "Italiagbe"
+	},
+	"ja": {
+		"name": "Japangbe"
 	},
 	"dyo": {
 		"name": "Jola-Fonyi"
 	},
 	"kab": {
 		"name": "Kabyle"
-	},
-	"fr-CA": {
-		"name": "kanadatɔwo ƒe fransegbe"
-	},
-	"en-CA": {
-		"name": "kanadatɔwo ƒe yevugbe"
 	},
 	"kn": {
 		"name": "kannadagbe"
@@ -209,9 +215,6 @@
 	"km": {
 		"name": "khmergbe"
 	},
-	"zh": {
-		"name": "kinagbe"
-	},
 	"ky": {
 		"name": "kirghistangbe"
 	},
@@ -219,7 +222,7 @@
 		"name": "Konkani"
 	},
 	"ko": {
-		"name": "koreagbe"
+		"name": "Koreagbe"
 	},
 	"khq": {
 		"name": "Koyra Chiini"
@@ -284,11 +287,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "mongoliagbe"
@@ -304,6 +304,9 @@
 	},
 	"ne": {
 		"name": "nepalgbe"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"nb": {
 		"name": "nɔweigbe bokmål"
@@ -324,10 +327,16 @@
 		"name": "persiagbe"
 	},
 	"pl": {
-		"name": "polandgbe"
+		"name": "Polishgbe"
 	},
 	"pt": {
-		"name": "pɔtugalgbe"
+		"name": "Portuguesegbe"
+	},
+	"pt-PT": {
+		"name": "Portuguesegbe (Europe)"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"pa": {
 		"name": "pundzabgbe"
@@ -335,17 +344,20 @@
 	"ro": {
 		"name": "romaniagbe"
 	},
+	"ro-MD": {
+		"name": "romaniagbe (Moldova nutome)"
+	},
 	"rm": {
 		"name": "romanshgbe"
 	},
 	"rof": {
 		"name": "rombogbe"
 	},
-	"ru": {
-		"name": "rɔtsiagbe"
-	},
 	"rn": {
 		"name": "rundigbe"
+	},
+	"ru": {
+		"name": "Russiagbe"
 	},
 	"rw": {
 		"name": "ruwandagbe"
@@ -375,7 +387,10 @@
 		"name": "somaliagbe"
 	},
 	"es": {
-		"name": "spaniagbe"
+		"name": "Spanishgbe"
+	},
+	"es-MX": {
+		"name": "Spanishgbe (Mexico)"
 	},
 	"sw": {
 		"name": "swahili"
@@ -383,17 +398,8 @@
 	"sv": {
 		"name": "swedengbe"
 	},
-	"de-CH": {
-		"name": "swizerlanɖ germaniagbe kɔkɔtɔ"
-	},
-	"fr-CH": {
-		"name": "swizerlanɖtɔwo ƒe fransegbe"
-	},
 	"gsw": {
 		"name": "swizerlanɖtɔwo ƒe germaniagbe"
-	},
-	"th": {
-		"name": "tailandgbe"
 	},
 	"ta": {
 		"name": "tamilgbe"
@@ -404,14 +410,20 @@
 	"te": {
 		"name": "telegugbe"
 	},
-	"tr": {
-		"name": "tɛkigbe"
+	"tk": {
+		"name": "tɛkmengbe"
+	},
+	"th": {
+		"name": "Thailandgbe"
 	},
 	"ti": {
 		"name": "tigrinyagbe"
 	},
 	"to": {
 		"name": "tongagbe"
+	},
+	"tr": {
+		"name": "Turkishgbe"
 	},
 	"zh-Hans": {
 		"name": "tsainagbe"
@@ -437,6 +449,9 @@
 	"vi": {
 		"name": "vietnamgbe"
 	},
+	"vo": {
+		"name": "Volapük"
+	},
 	"cy": {
 		"name": "walesgbe"
 	},
@@ -450,7 +465,16 @@
 		"name": "Yangben"
 	},
 	"en": {
-		"name": "yevugbe"
+		"name": "Yevugbe"
+	},
+	"en-AU": {
+		"name": "Yevugbe (Australia)"
+	},
+	"en-GB": {
+		"name": "Yevugbe (Britain)"
+	},
+	"en-CA": {
+		"name": "Yevugbe (Canada)"
 	},
 	"yi": {
 		"name": "Yiddish"

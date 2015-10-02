@@ -8,12 +8,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"ksf": {
 		"name": "Bafia"
 	},
@@ -29,17 +23,14 @@
 	"brx": {
 		"name": "Bodo"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
+	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
 	},
 	"cgg": {
 		"name": "Chiga"
@@ -49,9 +40,6 @@
 	},
 	"dz": {
 		"name": "Dzongkha"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -125,11 +113,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mfe": {
 		"name": "Morisyen"
@@ -139,6 +124,9 @@
 	},
 	"naq": {
 		"name": "Nama"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"nb": {
 		"name": "Norwegian Bokmål"
@@ -173,17 +161,8 @@
 	"seh": {
 		"name": "Sena"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"twq": {
 		"name": "Tasawaq"
@@ -199,9 +178,6 @@
 	},
 	"to": {
 		"name": "Tongan"
-	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
 	},
 	"tr": {
 		"name": "Turkish"
@@ -302,6 +278,12 @@
 	"de": {
 		"name": "דײַטש"
 	},
+	"de-AT": {
+		"name": "דײַטש (עסטרייך)"
+	},
+	"de-CH": {
+		"name": "דײַטש (שווייץ)"
+	},
 	"da": {
 		"name": "דעניש"
 	},
@@ -316,6 +298,9 @@
 	},
 	"he": {
 		"name": "העברעאיש"
+	},
+	"vo": {
+		"name": "וואלאַפּוק"
 	},
 	"vi": {
 		"name": "וויעטנאַמעזיש"
@@ -332,6 +317,9 @@
 	"ta": {
 		"name": "טאַמיל"
 	},
+	"tk": {
+		"name": "טורקמעניש"
+	},
 	"cs": {
 		"name": "טשעכיש"
 	},
@@ -343,6 +331,12 @@
 	},
 	"zh": {
 		"name": "כינעזיש"
+	},
+	"zh-Hans": {
+		"name": "כינעזיש (Hans)"
+	},
+	"zh-Hant": {
+		"name": "כינעזיש (Hant)"
 	},
 	"km": {
 		"name": "כמער"
@@ -407,6 +401,15 @@
 	"en": {
 		"name": "ענגליש"
 	},
+	"en-AU": {
+		"name": "ענגליש (אויסטראַליע)"
+	},
+	"en-GB": {
+		"name": "ענגליש (פֿאַראייניגטע קעניגרייך)"
+	},
+	"en-CA": {
+		"name": "ענגליש (קאַנאַדע)"
+	},
 	"et": {
 		"name": "עסטיש"
 	},
@@ -418,6 +421,9 @@
 	},
 	"pt": {
 		"name": "פּארטוגעזיש"
+	},
+	"pt-PT": {
+		"name": "פּארטוגעזיש (פּארטוגאַל)"
 	},
 	"pl": {
 		"name": "פּויליש"
@@ -434,6 +440,15 @@
 	"fr": {
 		"name": "פֿראַנצויזיש"
 	},
+	"fr-CA": {
+		"name": "פֿראַנצויזיש (קאַנאַדע)"
+	},
+	"fr-CH": {
+		"name": "פֿראַנצויזיש (שווייץ)"
+	},
+	"prg": {
+		"name": "פּרייסיש"
+	},
 	"kk": {
 		"name": "קאַזאַכיש"
 	},
@@ -449,11 +464,17 @@
 	"ky": {
 		"name": "קירגיזיש"
 	},
+	"cu": {
+		"name": "קלויסטער־סלאַוויש"
+	},
 	"hr": {
 		"name": "קראאַטיש"
 	},
 	"ro": {
 		"name": "רומעניש"
+	},
+	"ro-MD": {
+		"name": "רומעניש (מאלדאווע)"
 	},
 	"ru": {
 		"name": "רוסיש"
@@ -463,5 +484,8 @@
 	},
 	"es": {
 		"name": "שפּאַניש"
+	},
+	"es-MX": {
+		"name": "שפּאַניש (מעקסיקע)"
 	}
 }

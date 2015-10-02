@@ -23,12 +23,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"ha": {
 		"name": "Awụsa"
 	},
@@ -68,8 +62,8 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
+	"ce": {
+		"name": "Chechen"
 	},
 	"cs": {
 		"name": "Cheekị"
@@ -77,17 +71,17 @@
 	"cgg": {
 		"name": "Chiga"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ca": {
 		"name": "Catalan"
 	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
+	},
+	"ckb": {
+		"name": "Central Kurdish"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -101,6 +95,9 @@
 	"nl": {
 		"name": "Dọọch"
 	},
+	"nl-BE": {
+		"name": "Dọọch (BE)"
+	},
 	"dz": {
 		"name": "Dzongkha"
 	},
@@ -109,9 +106,6 @@
 	},
 	"et": {
 		"name": "Estonian"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -122,9 +116,6 @@
 	"fi": {
 		"name": "Finnish"
 	},
-	"nl-BE": {
-		"name": "Flemish"
-	},
 	"fur": {
 		"name": "Friulian"
 	},
@@ -133,6 +124,12 @@
 	},
 	"fr": {
 		"name": "Fụrench"
+	},
+	"fr-CH": {
+		"name": "Fụrench (CH)"
+	},
+	"fr-CA": {
+		"name": "Fụrench (CA)"
 	},
 	"gl": {
 		"name": "Galician"
@@ -178,6 +175,12 @@
 	},
 	"de": {
 		"name": "Jamaan"
+	},
+	"de-AT": {
+		"name": "Jamaan (AT)"
+	},
+	"de-CH": {
+		"name": "Jamaan (CH)"
 	},
 	"ja": {
 		"name": "Japanese"
@@ -269,20 +272,23 @@
 	"zh": {
 		"name": "Mandarịịnị"
 	},
+	"zh-Hans": {
+		"name": "Mandarịịnị (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Mandarịịnị (Hant)"
+	},
 	"mr": {
 		"name": "Marathi"
 	},
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"my": {
 		"name": "Mịanma"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -298,6 +304,9 @@
 	},
 	"ne": {
 		"name": "Nepali"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -320,8 +329,20 @@
 	"en": {
 		"name": "Oyibo"
 	},
+	"en-AU": {
+		"name": "Oyibo (AU)"
+	},
+	"en-CA": {
+		"name": "Oyibo (CA)"
+	},
+	"en-GB": {
+		"name": "Oyibo (GB)"
+	},
 	"es": {
 		"name": "Panya"
+	},
+	"es-MX": {
+		"name": "Panya (MX)"
 	},
 	"fa": {
 		"name": "Peshan"
@@ -331,6 +352,12 @@
 	},
 	"pt": {
 		"name": "Potoki"
+	},
+	"pt-PT": {
+		"name": "Potoki (PT)"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"pa": {
 		"name": "Punjabi"
@@ -350,6 +377,9 @@
 	"ro": {
 		"name": "Rumenia"
 	},
+	"ro-MD": {
+		"name": "Rumenia (MD)"
+	},
 	"rn": {
 		"name": "Rundi"
 	},
@@ -367,9 +397,6 @@
 	},
 	"sr": {
 		"name": "Serbian"
-	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
 	},
 	"si": {
 		"name": "Sinhala"
@@ -389,14 +416,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"th": {
 		"name": "Taị"
@@ -419,8 +440,8 @@
 	"tr": {
 		"name": "Tọkiishi"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "Turkmen"
 	},
 	"uk": {
 		"name": "Ukureenị"
@@ -439,6 +460,9 @@
 	},
 	"vi": {
 		"name": "Viyetịnaamụ"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

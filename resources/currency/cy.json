@@ -27,8 +27,11 @@
 	"CRC": {
 		"name": "Colón Costa Rica"
 	},
+	"SVC": {
+		"name": "Colón El Salvador"
+	},
 	"NIO": {
-		"name": "Córdoba Nicaragua"
+		"name": "Cordoba Nicaragwa"
 	},
 	"GMD": {
 		"name": "Dalasi Gambia"
@@ -146,6 +149,9 @@
 	"SBD": {
 		"name": "Doler Ynysoedd Solomon"
 	},
+	"ZWL": {
+		"name": "Doler Zimbabwe (2009)"
+	},
 	"AMD": {
 		"name": "Dram Armenia"
 	},
@@ -165,23 +171,23 @@
 	"BIF": {
 		"name": "Ffranc Burundi"
 	},
+	"XAF": {
+		"name": "Ffranc CFA Canol Affrica",
+		"symbol": "FCFA"
+	},
 	"XOF": {
-		"name": "Ffranc CFA y BCEAO",
+		"name": "Ffranc CFA Gorllewin Affrica",
 		"symbol": "CFA"
 	},
-	"XAF": {
-		"name": "Ffranc CFA y BEAC",
-		"symbol": "FCFA"
+	"XPF": {
+		"name": "Ffranc CFP",
+		"symbol": "CFPF"
 	},
 	"CDF": {
 		"name": "Ffranc Congo"
 	},
 	"KMF": {
 		"name": "Ffranc Comoros"
-	},
-	"XPF": {
-		"name": "Ffranc CPF",
-		"symbol": "CFPF"
 	},
 	"DJF": {
 		"name": "Ffranc Djibouti"
@@ -258,9 +264,6 @@
 	"SLL": {
 		"name": "Leone Sierra Leone"
 	},
-	"LSL": {
-		"name": "Lesotho Loti"
-	},
 	"MDL": {
 		"name": "Leu Moldofa"
 	},
@@ -275,6 +278,9 @@
 	},
 	"TRY": {
 		"name": "Lira Twrci"
+	},
+	"LSL": {
+		"name": "Loti Lesotho"
 	},
 	"AZN": {
 		"name": "Manat Azerbaijan"
@@ -306,11 +312,11 @@
 	"MOP": {
 		"name": "Pataca Macau"
 	},
+	"CUP": {
+		"name": "Peso Ciwba"
+	},
 	"COP": {
 		"name": "Peso Colombia"
-	},
-	"CUP": {
-		"name": "Peso Cuba"
 	},
 	"CLP": {
 		"name": "Peso Chile"
@@ -319,20 +325,20 @@
 		"name": "Peso Gweriniaeth Dominica"
 	},
 	"MXN": {
-		"name": "Peso México",
+		"name": "Peso Mecsico",
 		"symbol": "MX$"
 	},
-	"PHP": {
-		"name": "Peso Pilipinas"
-	},
 	"CUC": {
-		"name": "Peso Trosadwy Cuba"
+		"name": "Peso Trosadwy Ciwba"
 	},
 	"UYU": {
 		"name": "Peso Uruguay"
 	},
 	"ARS": {
 		"name": "Peso yr Ariannin"
+	},
+	"PHP": {
+		"name": "Peso’r Philipinau"
 	},
 	"BWP": {
 		"name": "Pula Botswana"
@@ -427,9 +433,6 @@
 	"LKR": {
 		"name": "Rwpî Sri Lanka"
 	},
-	"SVC": {
-		"name": "Salvadoran Colón"
-	},
 	"ILS": {
 		"name": "Shegel Newydd Israel",
 		"symbol": "₪"
@@ -471,8 +474,7 @@
 		"name": "Vatu Vanuatu"
 	},
 	"KRW": {
-		"name": "Won De Korea",
-		"symbol": "₩"
+		"name": "Won De Corea"
 	},
 	"KPW": {
 		"name": "Won Gogledd Corea"
@@ -484,9 +486,6 @@
 	"CNY": {
 		"name": "Yuan Tsieina",
 		"symbol": "CN¥"
-	},
-	"ZWL": {
-		"name": "Zimbabwean Dollar (2009)"
 	},
 	"PLN": {
 		"name": "Zloty Gwlad Pwyl"

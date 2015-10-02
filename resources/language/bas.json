@@ -14,12 +14,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -44,17 +38,8 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bas": {
 		"name": "Ɓàsàa"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"ca": {
 		"name": "Catalan"
@@ -62,8 +47,17 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -83,9 +77,6 @@
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
@@ -94,9 +85,6 @@
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -170,8 +158,20 @@
 	"de": {
 		"name": "Hɔp u jamân"
 	},
+	"de-AT": {
+		"name": "Hɔp u jamân (Òstrǐk)"
+	},
+	"de-CH": {
+		"name": "Hɔp u jamân (Sùwîs)"
+	},
 	"zh": {
 		"name": "Hɔp u kinà"
+	},
+	"zh-Hans": {
+		"name": "Hɔp u kinà (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Hɔp u kinà (Hant)"
 	},
 	"km": {
 		"name": "Hɔp u kmɛ̂r"
@@ -188,11 +188,26 @@
 	"nl": {
 		"name": "Hɔp u nlɛ̀ndi"
 	},
+	"nl-BE": {
+		"name": "Hɔp u nlɛ̀ndi (Bɛlgyùm)"
+	},
 	"en": {
 		"name": "Hɔp u ŋgisì"
 	},
+	"en-GB": {
+		"name": "Hɔp u ŋgisì (Àdnà i Lɔ̂ŋ)"
+	},
+	"en-CA": {
+		"name": "Hɔp u ŋgisì (Kànadà)"
+	},
+	"en-AU": {
+		"name": "Hɔp u ŋgisì (Òstralìà)"
+	},
 	"es": {
 		"name": "Hɔp u panyā"
+	},
+	"es-MX": {
+		"name": "Hɔp u panyā (Mɛ̀gsîk)"
 	},
 	"pa": {
 		"name": "Hɔp u pɛnjàbi"
@@ -206,14 +221,26 @@
 	"pt": {
 		"name": "Hɔp u pɔtɔ̄kì"
 	},
+	"pt-PT": {
+		"name": "Hɔp u pɔtɔ̄kì (Pɔ̀tɔkì)"
+	},
 	"fr": {
 		"name": "Hɔp u pulàsi"
+	},
+	"fr-CA": {
+		"name": "Hɔp u pulàsi (Kànadà)"
+	},
+	"fr-CH": {
+		"name": "Hɔp u pulàsi (Sùwîs)"
 	},
 	"rw": {
 		"name": "Hɔp u ruāndà"
 	},
 	"ro": {
 		"name": "Hɔp u rùmanìà"
+	},
+	"ro-MD": {
+		"name": "Hɔp u rùmanìà (Moldavìà)"
 	},
 	"ru": {
 		"name": "Hɔp u ruslànd"
@@ -338,11 +365,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -355,6 +379,9 @@
 	},
 	"naq": {
 		"name": "Nama"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -373,6 +400,9 @@
 	},
 	"om": {
 		"name": "Oromo"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"qu": {
 		"name": "Quechua"
@@ -398,9 +428,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -413,14 +440,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"twq": {
 		"name": "Tasawaq"
@@ -434,8 +455,8 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "Turkmen"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"
@@ -445,6 +466,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

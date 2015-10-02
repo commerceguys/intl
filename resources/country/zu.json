@@ -86,9 +86,6 @@
 	"BA": {
 		"name": "i-Bosnia ne-Herzegovina"
 	},
-	"BW": {
-		"name": "i-Botswana"
-	},
 	"BR": {
 		"name": "i-Brazil"
 	},
@@ -239,6 +236,9 @@
 	"FR": {
 		"name": "i-France"
 	},
+	"GF": {
+		"name": "i-French Guiana"
+	},
 	"PF": {
 		"name": "i-French Polynesia"
 	},
@@ -326,9 +326,6 @@
 	"IM": {
 		"name": "i-Isle of Man"
 	},
-	"IL": {
-		"name": "i-Israel"
-	},
 	"IT": {
 		"name": "i-Italy"
 	},
@@ -371,9 +368,6 @@
 	"LB": {
 		"name": "i-Lebanon"
 	},
-	"LS": {
-		"name": "i-Lesotho"
-	},
 	"LR": {
 		"name": "i-Liberia"
 	},
@@ -398,17 +392,11 @@
 	"MG": {
 		"name": "i-Madagascar"
 	},
-	"MW": {
-		"name": "i-Malawi"
-	},
 	"MY": {
 		"name": "i-Malaysia"
 	},
 	"MV": {
 		"name": "i-Maldives"
-	},
-	"ML": {
-		"name": "i-Mali"
 	},
 	"MT": {
 		"name": "i-Malta"
@@ -603,7 +591,7 @@
 		"name": "i-Singapore"
 	},
 	"SX": {
-		"name": "I-Sint Maarten"
+		"name": "i-Sint Maarten"
 	},
 	"SK": {
 		"name": "i-Slovakia"
@@ -752,10 +740,22 @@
 	"ZM": {
 		"name": "i-Zambia"
 	},
-	"ZW": {
-		"name": "i-Zimbabwe"
+	"BW": {
+		"name": "iBotswana"
 	},
-	"GF": {
-		"name": "isi-French Guiana"
+	"LS": {
+		"name": "iLesotho"
+	},
+	"MW": {
+		"name": "iMalawi"
+	},
+	"ML": {
+		"name": "iMali"
+	},
+	"ZW": {
+		"name": "iZimbabwe"
+	},
+	"IL": {
+		"name": "kwa-Israel"
 	}
 }

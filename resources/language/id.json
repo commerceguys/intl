@@ -29,8 +29,8 @@
 	"ksf": {
 		"name": "Bafia"
 	},
-	"id": {
-		"name": "Bahasa Indonesia"
+	"cu": {
+		"name": "Bahasa Gereja Slavonia"
 	},
 	"bm": {
 		"name": "Bambara"
@@ -43,6 +43,9 @@
 	},
 	"nl": {
 		"name": "Belanda"
+	},
+	"nl-BE": {
+		"name": "Belanda (Belgia)"
 	},
 	"be": {
 		"name": "Belarusia"
@@ -66,10 +69,10 @@
 		"name": "Breton"
 	},
 	"bg": {
-		"name": "Bulgar"
+		"name": "Bulgaria"
 	},
-	"my": {
-		"name": "Burma"
+	"ce": {
+		"name": "Chechen"
 	},
 	"cs": {
 		"name": "Cheska"
@@ -103,9 +106,6 @@
 	},
 	"fo": {
 		"name": "Faro"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fy": {
 		"name": "Frisia Barat"
@@ -152,17 +152,20 @@
 	"smn": {
 		"name": "Inari Sami"
 	},
+	"id": {
+		"name": "Indonesia"
+	},
 	"en": {
 		"name": "Inggris"
 	},
 	"en-AU": {
-		"name": "Inggris Australia"
+		"name": "Inggris (Australia)"
 	},
 	"en-GB": {
-		"name": "Inggris Inggris"
+		"name": "Inggris (Inggris)"
 	},
 	"en-CA": {
-		"name": "Inggris Kanada"
+		"name": "Inggris (Kanada)"
 	},
 	"ga": {
 		"name": "Irlandia"
@@ -180,13 +183,13 @@
 		"name": "Jerman"
 	},
 	"de-AT": {
-		"name": "Jerman Austria"
+		"name": "Jerman (Austria)"
 	},
 	"gsw": {
-		"name": "Jerman Swiss"
+		"name": "Jerman (Swiss)"
 	},
 	"de-CH": {
-		"name": "Jerman Tinggi Swiss"
+		"name": "Jerman Tinggi (Swiss)"
 	},
 	"dyo": {
 		"name": "Jola-Fonyi"
@@ -236,6 +239,9 @@
 	"hr": {
 		"name": "Kroasia"
 	},
+	"ckb": {
+		"name": "Kurdi Sorani"
+	},
 	"lkt": {
 		"name": "Lakota"
 	},
@@ -256,6 +262,9 @@
 	},
 	"luo": {
 		"name": "Luo"
+	},
+	"lrc": {
+		"name": "Luri Utara"
 	},
 	"luy": {
 		"name": "Luyia"
@@ -281,6 +290,9 @@
 	"mas": {
 		"name": "Masai"
 	},
+	"mzn": {
+		"name": "Mazanderani"
+	},
 	"ms": {
 		"name": "Melayu"
 	},
@@ -295,6 +307,9 @@
 	},
 	"mua": {
 		"name": "Mundang"
+	},
+	"my": {
+		"name": "Myanmar"
 	},
 	"naq": {
 		"name": "Nama"
@@ -324,16 +339,19 @@
 		"name": "Portugis"
 	},
 	"pt-PT": {
-		"name": "Portugis Eropa"
+		"name": "Portugis (Eropa)"
 	},
 	"fr": {
 		"name": "Prancis"
 	},
 	"fr-CA": {
-		"name": "Prancis Kanada"
+		"name": "Prancis (Kanada)"
 	},
 	"fr-CH": {
-		"name": "Prancis Swiss"
+		"name": "Prancis (Swiss)"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"pa": {
 		"name": "Punjabi"
@@ -425,6 +443,9 @@
 	"tr": {
 		"name": "Turki"
 	},
+	"tk": {
+		"name": "Turkmen"
+	},
 	"uk": {
 		"name": "Ukraina"
 	},
@@ -439,6 +460,9 @@
 	},
 	"vi": {
 		"name": "Vietnam"
+	},
+	"vo": {
+		"name": "Volapuk"
 	},
 	"wae": {
 		"name": "Walser"

@@ -8,6 +8,9 @@
 	"DZ": {
 		"name": "Algeria"
 	},
+	"UM": {
+		"name": "Altre isole americane del Pacifico"
+	},
 	"AD": {
 		"name": "Andorra"
 	},
@@ -78,7 +81,7 @@
 		"name": "Bolivia"
 	},
 	"BA": {
-		"name": "Bosnia-Erzegovina"
+		"name": "Bosnia ed Erzegovina"
 	},
 	"BW": {
 		"name": "Botswana"
@@ -194,9 +197,6 @@
 	"ET": {
 		"name": "Etiopia"
 	},
-	"RU": {
-		"name": "Federazione Russa"
-	},
 	"FJ": {
 		"name": "Figi"
 	},
@@ -219,7 +219,7 @@
 		"name": "Georgia"
 	},
 	"GS": {
-		"name": "Georgia del Sud e isole Sandwich meridionali"
+		"name": "Georgia del Sud e isole Sandwich australi"
 	},
 	"DE": {
 		"name": "Germania"
@@ -263,9 +263,6 @@
 	"GG": {
 		"name": "Guernsey"
 	},
-	"GF": {
-		"name": "Guiana Francese"
-	},
 	"GN": {
 		"name": "Guinea"
 	},
@@ -277,6 +274,9 @@
 	},
 	"GY": {
 		"name": "Guyana"
+	},
+	"GF": {
+		"name": "Guyana francese"
 	},
 	"HT": {
 		"name": "Haiti"
@@ -303,10 +303,10 @@
 		"name": "Islanda"
 	},
 	"AC": {
-		"name": "Isola di Ascensione"
+		"name": "Isola Ascensione"
 	},
 	"CX": {
-		"name": "Isola di Christmas"
+		"name": "Isola Christmas"
 	},
 	"IM": {
 		"name": "Isola di Man"
@@ -315,7 +315,7 @@
 		"name": "Isola Norfolk"
 	},
 	"AX": {
-		"name": "Isole Aland"
+		"name": "Isole Åland"
 	},
 	"IC": {
 		"name": "Isole Canarie"
@@ -324,31 +324,28 @@
 		"name": "Isole Cayman"
 	},
 	"CC": {
-		"name": "Isole Cocos"
+		"name": "Isole Cocos (Keeling)"
 	},
 	"CK": {
 		"name": "Isole Cook"
 	},
+	"FO": {
+		"name": "Isole Fær Øer"
+	},
 	"FK": {
 		"name": "Isole Falkland"
 	},
-	"FO": {
-		"name": "Isole Faroe"
-	},
 	"MP": {
-		"name": "Isole Marianne Settentrionali"
+		"name": "Isole Marianne settentrionali"
 	},
 	"MH": {
 		"name": "Isole Marshall"
-	},
-	"UM": {
-		"name": "Isole minori lontane dagli USA"
 	},
 	"PN": {
 		"name": "Isole Pitcairn"
 	},
 	"SB": {
-		"name": "Isole Solomon"
+		"name": "Isole Salomone"
 	},
 	"TC": {
 		"name": "Isole Turks e Caicos"
@@ -419,11 +416,11 @@
 	"MW": {
 		"name": "Malawi"
 	},
+	"MY": {
+		"name": "Malaysia"
+	},
 	"MV": {
 		"name": "Maldive"
-	},
-	"MY": {
-		"name": "Malesia"
 	},
 	"ML": {
 		"name": "Mali"
@@ -528,7 +525,7 @@
 		"name": "Perù"
 	},
 	"PF": {
-		"name": "Polinesia Francese"
+		"name": "Polinesia francese"
 	},
 	"PL": {
 		"name": "Polonia"
@@ -564,7 +561,7 @@
 		"name": "Repubblica Dominicana"
 	},
 	"RE": {
-		"name": "Réunion"
+		"name": "Riunione"
 	},
 	"RO": {
 		"name": "Romania"
@@ -572,8 +569,11 @@
 	"RW": {
 		"name": "Ruanda"
 	},
+	"RU": {
+		"name": "Russia"
+	},
 	"EH": {
-		"name": "Sahara Occidentale"
+		"name": "Sahara occidentale"
 	},
 	"KN": {
 		"name": "Saint Kitts e Nevis"
@@ -597,7 +597,7 @@
 		"name": "Samoa"
 	},
 	"AS": {
-		"name": "Samoa Americane"
+		"name": "Samoa americane"
 	},
 	"SM": {
 		"name": "San Marino"
@@ -647,14 +647,14 @@
 	"US": {
 		"name": "Stati Uniti"
 	},
+	"SS": {
+		"name": "Sud Sudan"
+	},
 	"ZA": {
 		"name": "Sudafrica"
 	},
 	"SD": {
 		"name": "Sudan"
-	},
-	"SS": {
-		"name": "Sudan del Sud"
 	},
 	"SR": {
 		"name": "Suriname"
@@ -674,9 +674,6 @@
 	"TJ": {
 		"name": "Tagikistan"
 	},
-	"TH": {
-		"name": "Tailandia"
-	},
 	"TW": {
 		"name": "Taiwan"
 	},
@@ -684,16 +681,19 @@
 		"name": "Tanzania"
 	},
 	"TF": {
-		"name": "Territori australi francesi"
+		"name": "Terre australi francesi"
 	},
 	"PS": {
 		"name": "Territori palestinesi"
 	},
 	"IO": {
-		"name": "Territorio Britannico dell’Oceano Indiano"
+		"name": "Territorio britannico dell’Oceano Indiano"
+	},
+	"TH": {
+		"name": "Thailandia"
 	},
 	"TL": {
-		"name": "Timor Est"
+		"name": "Timor Leste"
 	},
 	"TG": {
 		"name": "Togo"

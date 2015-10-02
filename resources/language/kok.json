@@ -14,6 +14,15 @@
 	"en": {
 		"name": "आंग्ल"
 	},
+	"en-AU": {
+		"name": "आंग्ल (AU)"
+	},
+	"en-CA": {
+		"name": "आंग्ल (CA)"
+	},
+	"en-GB": {
+		"name": "आंग्ल (GB)"
+	},
 	"is": {
 		"name": "आईस्लान्डिक"
 	},
@@ -55,6 +64,9 @@
 	},
 	"om": {
 		"name": "ओरोमो (अफान)"
+	},
+	"vo": {
+		"name": "ओलापुक"
 	},
 	"km": {
 		"name": "कंबोडियन"
@@ -104,8 +116,20 @@
 	"zh": {
 		"name": "चीनीस्"
 	},
+	"zh-Hans": {
+		"name": "चीनीस् (Hans)"
+	},
+	"zh-Hant": {
+		"name": "चीनीस् (Hant)"
+	},
 	"de": {
 		"name": "जर्मन"
+	},
+	"de-AT": {
+		"name": "जर्मन (AT)"
+	},
+	"de-CH": {
+		"name": "जर्मन (CH)"
 	},
 	"ja": {
 		"name": "जापनीस्"
@@ -122,6 +146,9 @@
 	"nl": {
 		"name": "डच्"
 	},
+	"nl-BE": {
+		"name": "डच् (BE)"
+	},
 	"da": {
 		"name": "डानिष"
 	},
@@ -130,6 +157,9 @@
 	},
 	"ti": {
 		"name": "तिग्रिन्या"
+	},
+	"tk": {
+		"name": "तुर्कमन"
 	},
 	"tr": {
 		"name": "तुर्किष"
@@ -155,6 +185,9 @@
 	"pt": {
 		"name": "पोर्चुगीज़्"
 	},
+	"pt-PT": {
+		"name": "पोर्चुगीज़् (PT)"
+	},
 	"pl": {
 		"name": "पोलिष"
 	},
@@ -169,6 +202,12 @@
 	},
 	"fr": {
 		"name": "फ्रेन्च"
+	},
+	"fr-CA": {
+		"name": "फ्रेन्च (CA)"
+	},
+	"fr-CH": {
+		"name": "फ्रेन्च (CH)"
 	},
 	"bn": {
 		"name": "बंगाली"
@@ -263,6 +302,9 @@
 	"es": {
 		"name": "स्पानिष"
 	},
+	"es-MX": {
+		"name": "स्पानिष (MX)"
+	},
 	"sk": {
 		"name": "स्लोवाक"
 	},
@@ -296,12 +338,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"ksf": {
 		"name": "Bafia"
 	},
@@ -320,32 +356,26 @@
 	"bs": {
 		"name": "Bosnian"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
+	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
 	},
 	"cgg": {
 		"name": "Chiga"
 	},
+	"cu": {
+		"name": "Church Slavic"
+	},
 	"ksh": {
 		"name": "Colognian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -404,8 +434,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mfe": {
 		"name": "Morisyen"
@@ -415,6 +445,9 @@
 	},
 	"naq": {
 		"name": "Nama"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -428,29 +461,20 @@
 	"nyn": {
 		"name": "Nyankole"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"rof": {
 		"name": "Rombo"
 	},
 	"seh": {
 		"name": "Sena"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
 	},
-	"de-CH": {
-		"name": "Swiss High German"
-	},
 	"twq": {
 		"name": "Tasawaq"
-	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"

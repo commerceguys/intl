@@ -17,6 +17,15 @@
 	"en": {
 		"name": "angla"
 	},
+	"en-AU": {
+		"name": "angla (Aŭstralio)"
+	},
+	"en-CA": {
+		"name": "angla (Kanado)"
+	},
+	"en-GB": {
+		"name": "angla (Unuiĝinta Reĝlando)"
+	},
 	"ar": {
 		"name": "araba"
 	},
@@ -25,12 +34,6 @@
 	},
 	"ast": {
 		"name": "Asturian"
-	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
 	},
 	"az": {
 		"name": "azerbajĝana"
@@ -65,26 +68,26 @@
 	"br": {
 		"name": "bretona"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "bulgara"
 	},
 	"rn": {
 		"name": "burunda"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -131,11 +134,14 @@
 	"fi": {
 		"name": "finna"
 	},
-	"nl-BE": {
-		"name": "Flemish"
-	},
 	"fr": {
 		"name": "franca"
+	},
+	"fr-CA": {
+		"name": "franca (Kanado)"
+	},
+	"fr-CH": {
+		"name": "franca (Svisujo)"
 	},
 	"fy": {
 		"name": "frisa"
@@ -158,6 +164,12 @@
 	"de": {
 		"name": "germana"
 	},
+	"de-AT": {
+		"name": "germana (Aŭstrujo)"
+	},
+	"de-CH": {
+		"name": "germana (Svisujo)"
+	},
 	"el": {
 		"name": "greka"
 	},
@@ -178,6 +190,9 @@
 	},
 	"es": {
 		"name": "hispana"
+	},
+	"es-MX": {
+		"name": "hispana (Meksiko)"
 	},
 	"hu": {
 		"name": "hungara"
@@ -311,11 +326,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "mongola"
@@ -332,8 +344,14 @@
 	"nl": {
 		"name": "nederlanda"
 	},
+	"nl-BE": {
+		"name": "nederlanda (Belgujo)"
+	},
 	"ne": {
 		"name": "nepala"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -362,6 +380,9 @@
 	"pt": {
 		"name": "portugala"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"rm": {
 		"name": "romanĉa"
 	},
@@ -373,6 +394,9 @@
 	},
 	"ro": {
 		"name": "rumana"
+	},
+	"ro-MD": {
+		"name": "rumana (Moldavujo)"
 	},
 	"ru": {
 		"name": "rusa"
@@ -404,14 +428,8 @@
 	"sv": {
 		"name": "sveda"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"th": {
 		"name": "taja"
@@ -434,6 +452,9 @@
 	"tr": {
 		"name": "turka"
 	},
+	"tk": {
+		"name": "turkmena"
+	},
 	"ug": {
 		"name": "ujgura"
 	},
@@ -451,6 +472,9 @@
 	},
 	"vi": {
 		"name": "vjetnama"
+	},
+	"vo": {
+		"name": "volapuko"
 	},
 	"wae": {
 		"name": "Walser"

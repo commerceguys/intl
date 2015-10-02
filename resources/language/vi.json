@@ -1,27 +1,6 @@
 {
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
+	"prg": {
+		"name": "Prussian"
 	},
 	"ar": {
 		"name": "Tiếng Ả Rập"
@@ -46,6 +25,12 @@
 	},
 	"en-GB": {
 		"name": "Tiếng Anh (Anh)"
+	},
+	"en-CA": {
+		"name": "Tiếng Anh (Canada)"
+	},
+	"en-AU": {
+		"name": "Tiếng Anh (Úc)"
 	},
 	"hy": {
 		"name": "Tiếng Armenia"
@@ -74,6 +59,9 @@
 	"eu": {
 		"name": "Tiếng Basque"
 	},
+	"lrc": {
+		"name": "Tiếng Bắc Luri"
+	},
 	"be": {
 		"name": "Tiếng Belarus"
 	},
@@ -89,6 +77,9 @@
 	"pt": {
 		"name": "Tiếng Bồ Đào Nha"
 	},
+	"pt-PT": {
+		"name": "Tiếng Bồ Đào Nha (Châu Âu)"
+	},
 	"br": {
 		"name": "Tiếng Breton"
 	},
@@ -97,6 +88,9 @@
 	},
 	"ca": {
 		"name": "Tiếng Catalan"
+	},
+	"ce": {
+		"name": "Tiếng Chechen"
 	},
 	"cgg": {
 		"name": "Tiếng Chiga"
@@ -118,6 +112,9 @@
 	},
 	"de": {
 		"name": "Tiếng Đức"
+	},
+	"de-AT": {
+		"name": "Tiếng Đức (Áo)"
 	},
 	"gsw": {
 		"name": "Tiếng Đức (Thụy Sĩ)"
@@ -224,6 +221,9 @@
 	"ses": {
 		"name": "Tiếng Koyraboro Senni"
 	},
+	"ckb": {
+		"name": "Tiếng Kurd Miền Trung"
+	},
 	"ky": {
 		"name": "Tiếng Kyrgyz"
 	},
@@ -274,6 +274,9 @@
 	},
 	"mas": {
 		"name": "Tiếng Masai"
+	},
+	"mzn": {
+		"name": "Tiếng Mazanderani"
 	},
 	"my": {
 		"name": "Tiếng Miến Điện"
@@ -326,6 +329,12 @@
 	"fr": {
 		"name": "Tiếng Pháp"
 	},
+	"fr-CA": {
+		"name": "Tiếng Pháp (Canada)"
+	},
+	"fr-CH": {
+		"name": "Tiếng Pháp (Thụy Sĩ)"
+	},
 	"fi": {
 		"name": "Tiếng Phần Lan"
 	},
@@ -368,6 +377,9 @@
 	"si": {
 		"name": "Tiếng Sinhala"
 	},
+	"cu": {
+		"name": "Tiếng Slavơ Nhà thờ"
+	},
 	"sk": {
 		"name": "Tiếng Slovak"
 	},
@@ -391,6 +403,9 @@
 	},
 	"es": {
 		"name": "Tiếng Tây Ban Nha"
+	},
+	"es-MX": {
+		"name": "Tiếng Tây Ban Nha (Mexico)"
 	},
 	"te": {
 		"name": "Tiếng Telugu"
@@ -419,6 +434,15 @@
 	"zh": {
 		"name": "Tiếng Trung"
 	},
+	"zh-Hans": {
+		"name": "Tiếng Trung (Giản thể)"
+	},
+	"zh-Hant": {
+		"name": "Tiếng Trung (Phồn thể)"
+	},
+	"tk": {
+		"name": "Tiếng Turk"
+	},
 	"uk": {
 		"name": "Tiếng Ucraina"
 	},
@@ -433,6 +457,9 @@
 	},
 	"vi": {
 		"name": "Tiếng Việt"
+	},
+	"vo": {
+		"name": "Tiếng Volapük"
 	},
 	"cy": {
 		"name": "Tiếng Wales"
@@ -460,8 +487,5 @@
 	},
 	"zu": {
 		"name": "Tiếng Zulu"
-	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
 	}
 }

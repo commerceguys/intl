@@ -23,12 +23,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbeidjans"
 	},
@@ -43,6 +37,9 @@
 	},
 	"eu": {
 		"name": "Baskies"
+	},
+	"be": {
+		"name": "Belo-Russies"
 	},
 	"bez": {
 		"name": "Bena"
@@ -62,17 +59,11 @@
 	"br": {
 		"name": "Bretons"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "Bulgaars"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -83,20 +74,29 @@
 	"de": {
 		"name": "Duits"
 	},
+	"de-AT": {
+		"name": "Duits (Oostenryk)"
+	},
 	"dz": {
 		"name": "Dzongkha"
 	},
 	"en": {
 		"name": "Engels"
 	},
+	"en-AU": {
+		"name": "Engels (Australië)"
+	},
+	"en-CA": {
+		"name": "Engels (Kanada)"
+	},
+	"en-GB": {
+		"name": "Engels (Verenigde Koninkryk)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "Estnies"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -109,6 +109,12 @@
 	},
 	"fr": {
 		"name": "Frans"
+	},
+	"fr-CA": {
+		"name": "Frans (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Frans (Switserland)"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -260,11 +266,11 @@
 	"mas": {
 		"name": "Masai"
 	},
+	"mzn": {
+		"name": "Masanderani"
+	},
 	"mk": {
 		"name": "Masedonies"
-	},
-	"es-MX": {
-		"name": "Mexican Spanish"
 	},
 	"ro-MD": {
 		"name": "Moldawies"
@@ -287,8 +293,11 @@
 	"ne": {
 		"name": "Nepalees"
 	},
+	"lrc": {
+		"name": "Noord-Luri"
+	},
 	"se": {
-		"name": "Noordelike Sami"
+		"name": "Noord-Sami"
 	},
 	"nb": {
 		"name": "Noorse Bokmål"
@@ -326,6 +335,12 @@
 	"pt": {
 		"name": "Portugees"
 	},
+	"pt-PT": {
+		"name": "Portugees (Portugal)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"qu": {
 		"name": "Quechua"
 	},
@@ -359,9 +374,6 @@
 	"sr": {
 		"name": "Serwies"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -370,6 +382,12 @@
 	},
 	"zh": {
 		"name": "Sjinees"
+	},
+	"zh-Hant": {
+		"name": "Sjinees (Tradisioneel)"
+	},
+	"zh-Hans": {
+		"name": "Sjinees (Vereenvoudig)"
 	},
 	"gd": {
 		"name": "Skotse Gallies"
@@ -383,17 +401,20 @@
 	"so": {
 		"name": "Somalies"
 	},
+	"ckb": {
+		"name": "Sorani Koerdies"
+	},
 	"es": {
 		"name": "Spaans"
+	},
+	"es-MX": {
+		"name": "Spaans (Meksiko)"
 	},
 	"sw": {
 		"name": "Swahili"
 	},
 	"sv": {
 		"name": "Sweeds"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
 	},
 	"gsw": {
 		"name": "Switserse Duits"
@@ -408,7 +429,7 @@
 		"name": "Tasawaq"
 	},
 	"te": {
-		"name": "Telugu"
+		"name": "Teloegoe"
 	},
 	"th": {
 		"name": "Thai"
@@ -419,11 +440,14 @@
 	"to": {
 		"name": "Tongaans"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"cs": {
 		"name": "Tsjeggies"
+	},
+	"ce": {
+		"name": "Tsjetsjen"
+	},
+	"tk": {
+		"name": "Turkmeens"
 	},
 	"tr": {
 		"name": "Turks"
@@ -437,6 +461,9 @@
 	"nl-BE": {
 		"name": "Vlaams"
 	},
+	"vo": {
+		"name": "Volapük"
+	},
 	"cy": {
 		"name": "Wallies"
 	},
@@ -445,9 +472,6 @@
 	},
 	"fy": {
 		"name": "Wes-Fries"
-	},
-	"be": {
-		"name": "Wit-Russies"
 	},
 	"yav": {
 		"name": "Yangben"

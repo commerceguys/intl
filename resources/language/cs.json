@@ -17,6 +17,15 @@
 	"en": {
 		"name": "angličtina"
 	},
+	"en-AU": {
+		"name": "angličtina (Austrálie)"
+	},
+	"en-CA": {
+		"name": "angličtina (Kanada)"
+	},
+	"en-GB": {
+		"name": "angličtina (Velká Británie)"
+	},
 	"ar": {
 		"name": "arabština"
 	},
@@ -25,12 +34,6 @@
 	},
 	"ast": {
 		"name": "asturština"
-	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
 	},
 	"az": {
 		"name": "ázerbájdžánština"
@@ -68,23 +71,20 @@
 	"br": {
 		"name": "bretonština"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "bulharština"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
+	"ce": {
+		"name": "čečenština"
 	},
 	"cs": {
 		"name": "čeština"
 	},
 	"zh": {
 		"name": "čínština"
+	},
+	"zh-Hant": {
+		"name": "čínština (tradiční)"
 	},
 	"zh-Hans": {
 		"name": "čínština (zjednodušená)"
@@ -115,6 +115,12 @@
 	},
 	"fr": {
 		"name": "francouzština"
+	},
+	"fr-CA": {
+		"name": "francouzština (Kanada)"
+	},
+	"fr-CH": {
+		"name": "francouzština (Švýcarsko)"
 	},
 	"fy": {
 		"name": "fríština"
@@ -233,6 +239,9 @@
 	"ses": {
 		"name": "koyraboro senni"
 	},
+	"ckb": {
+		"name": "kurdština (sorání)"
+	},
 	"ky": {
 		"name": "kyrgyzština"
 	},
@@ -259,6 +268,9 @@
 	},
 	"luo": {
 		"name": "luoština"
+	},
+	"lrc": {
+		"name": "lúrština (severní)"
 	},
 	"hu": {
 		"name": "maďarština"
@@ -290,8 +302,8 @@
 	"mfe": {
 		"name": "mauricijská kreolština"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
+	"mzn": {
+		"name": "mázandaránština"
 	},
 	"ro-MD": {
 		"name": "moldavština"
@@ -310,6 +322,9 @@
 	},
 	"de": {
 		"name": "němčina"
+	},
+	"de-AT": {
+		"name": "němčina (Rakousko)"
 	},
 	"gsw": {
 		"name": "němčina (Švýcarsko)"
@@ -349,6 +364,9 @@
 	},
 	"pt-PT": {
 		"name": "portugalština (Evropa)"
+	},
+	"prg": {
+		"name": "pruština"
 	},
 	"rm": {
 		"name": "rétorománština"
@@ -395,14 +413,17 @@
 	"sr": {
 		"name": "srbština"
 	},
+	"cu": {
+		"name": "staroslověnština"
+	},
 	"sw": {
 		"name": "svahilština"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"es": {
 		"name": "španělština"
+	},
+	"es-MX": {
+		"name": "španělština (Mexiko)"
 	},
 	"sv": {
 		"name": "švédština"
@@ -428,11 +449,11 @@
 	"to": {
 		"name": "tongánština"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"tr": {
 		"name": "turečtina"
+	},
+	"tk": {
+		"name": "turkmenština"
 	},
 	"ug": {
 		"name": "ujgurština"
@@ -457,6 +478,9 @@
 	},
 	"nl-BE": {
 		"name": "vlámština"
+	},
+	"vo": {
+		"name": "volapük"
 	},
 	"dje": {
 		"name": "zarmština"

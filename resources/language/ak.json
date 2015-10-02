@@ -23,12 +23,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -62,6 +56,15 @@
 	"en": {
 		"name": "Borɔfo"
 	},
+	"en-GB": {
+		"name": "Borɔfo (Ahendiman Nkabom)"
+	},
+	"en-CA": {
+		"name": "Borɔfo (Kanada)"
+	},
+	"en-AU": {
+		"name": "Borɔfo (Ɔstrelia)"
+	},
 	"bs": {
 		"name": "Bosnian"
 	},
@@ -71,23 +74,23 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"ca": {
 		"name": "Catalan"
 	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -101,6 +104,9 @@
 	"nl": {
 		"name": "Dɛɛkye"
 	},
+	"nl-BE": {
+		"name": "Dɛɛkye (Bɛlgyium)"
+	},
 	"dz": {
 		"name": "Dzongkha"
 	},
@@ -109,9 +115,6 @@
 	},
 	"et": {
 		"name": "Estonian"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -122,11 +125,14 @@
 	"fi": {
 		"name": "Finnish"
 	},
-	"nl-BE": {
-		"name": "Flemish"
-	},
 	"fr": {
 		"name": "Frɛnkye"
+	},
+	"fr-CA": {
+		"name": "Frɛnkye (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Frɛnkye (Swetzaland)"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -151,6 +157,12 @@
 	},
 	"de": {
 		"name": "Gyaaman"
+	},
+	"de-AT": {
+		"name": "Gyaaman (Ɔstria)"
+	},
+	"de-CH": {
+		"name": "Gyaaman (Swetzaland)"
 	},
 	"ja": {
 		"name": "Gyapan kasa"
@@ -224,6 +236,12 @@
 	"zh": {
 		"name": "Kyaena kasa"
 	},
+	"zh-Hans": {
+		"name": "Kyaena kasa (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Kyaena kasa (Hant)"
+	},
 	"cs": {
 		"name": "Kyɛk kasa"
 	},
@@ -281,11 +299,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -301,6 +316,9 @@
 	},
 	"ne": {
 		"name": "Nɛpal kasa"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -329,6 +347,12 @@
 	"pt": {
 		"name": "Pɔɔtugal kasa"
 	},
+	"pt-PT": {
+		"name": "Pɔɔtugal kasa (Pɔtugal)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"pa": {
 		"name": "Pungyabi kasa"
 	},
@@ -350,6 +374,9 @@
 	"ro": {
 		"name": "Romenia kasa"
 	},
+	"ro-MD": {
+		"name": "Romenia kasa (Mɔldova)"
+	},
 	"rn": {
 		"name": "Rundi"
 	},
@@ -364,9 +391,6 @@
 	},
 	"sr": {
 		"name": "Serbian"
-	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
 	},
 	"si": {
 		"name": "Sinhala"
@@ -383,20 +407,17 @@
 	"es": {
 		"name": "Spain kasa"
 	},
+	"es-MX": {
+		"name": "Spain kasa (Mɛksiko)"
+	},
 	"sw": {
 		"name": "Swahili"
 	},
 	"sv": {
 		"name": "Sweden kasa"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"th": {
 		"name": "Taeland kasa"
@@ -419,8 +440,8 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "Turkmen"
 	},
 	"uk": {
 		"name": "Ukren kasa"
@@ -439,6 +460,9 @@
 	},
 	"vi": {
 		"name": "Viɛtnam kasa"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

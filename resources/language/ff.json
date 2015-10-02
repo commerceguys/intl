@@ -23,12 +23,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -62,20 +56,11 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "Bulgariire"
 	},
 	"my": {
 		"name": "Burmeese"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"ca": {
 		"name": "Catalan"
@@ -86,8 +71,17 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -98,11 +92,20 @@
 	"nl": {
 		"name": "Dacceere"
 	},
+	"nl-BE": {
+		"name": "Dacceere (Beljik)"
+	},
 	"da": {
 		"name": "Danish"
 	},
 	"de": {
 		"name": "Docceere"
+	},
+	"de-AT": {
+		"name": "Docceere (Otiriis)"
+	},
+	"de-CH": {
+		"name": "Docceere (Suwiis)"
 	},
 	"dz": {
 		"name": "Dzongkha"
@@ -113,8 +116,20 @@
 	"en": {
 		"name": "Engeleere"
 	},
+	"en-CA": {
+		"name": "Engeleere (Kanadaa)"
+	},
+	"en-GB": {
+		"name": "Engeleere (Laamateeri Rentundi)"
+	},
+	"en-AU": {
+		"name": "Engeleere (Ostaraalii)"
+	},
 	"es": {
 		"name": "Español"
+	},
+	"es-MX": {
+		"name": "Español (Meksik)"
 	},
 	"eo": {
 		"name": "Esperanto"
@@ -122,23 +137,23 @@
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
 	"fr": {
 		"name": "Farayseere"
 	},
+	"fr-CA": {
+		"name": "Farayseere (Kanadaa)"
+	},
+	"fr-CH": {
+		"name": "Farayseere (Suwiis)"
+	},
 	"fo": {
 		"name": "Faroese"
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -275,11 +290,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -295,6 +307,9 @@
 	},
 	"ne": {
 		"name": "Nepaaleere"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -320,6 +335,9 @@
 	"pl": {
 		"name": "Poloneere"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"ff": {
 		"name": "Pulaar"
 	},
@@ -329,6 +347,9 @@
 	"pt": {
 		"name": "Purtugeere"
 	},
+	"pt-PT": {
+		"name": "Purtugeere (Purtugaal)"
+	},
 	"qu": {
 		"name": "Quechua"
 	},
@@ -337,6 +358,9 @@
 	},
 	"ro": {
 		"name": "Romaneere"
+	},
+	"ro-MD": {
+		"name": "Romaneere (Moldawii)"
 	},
 	"rm": {
 		"name": "Romansh"
@@ -365,14 +389,17 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
 	"zh": {
 		"name": "Sinuwaare"
+	},
+	"zh-Hans": {
+		"name": "Sinuwaare (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Sinuwaare (Hant)"
 	},
 	"sk": {
 		"name": "Slovak"
@@ -392,14 +419,8 @@
 	"sv": {
 		"name": "Sweedeere"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"th": {
 		"name": "Taay"
@@ -419,11 +440,11 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"tr": {
 		"name": "Turkeere"
+	},
+	"tk": {
+		"name": "Turkmen"
 	},
 	"uk": {
 		"name": "Ukereneere"
@@ -439,6 +460,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

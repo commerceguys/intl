@@ -23,12 +23,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -62,20 +56,11 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "Bulgariaǁî gowab"
 	},
 	"my": {
 		"name": "Burmesǁî gowab"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"ca": {
 		"name": "Catalan"
@@ -83,11 +68,26 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
 	},
 	"zh": {
 		"name": "Chineesǁî gowab, Mandarinni"
+	},
+	"zh-Hans": {
+		"name": "Chineesǁî gowab, Mandarinni (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Chineesǁî gowab, Mandarinni (Hant)"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -104,20 +104,32 @@
 	"de": {
 		"name": "Duits"
 	},
+	"de-AT": {
+		"name": "Duits (Austriab)"
+	},
+	"de-CH": {
+		"name": "Duits (Switzerlandi)"
+	},
 	"dz": {
 		"name": "Dzongkha"
 	},
 	"en": {
 		"name": "Engels"
 	},
+	"en-AU": {
+		"name": "Engels (Australieb)"
+	},
+	"en-CA": {
+		"name": "Engels (Kanadab)"
+	},
+	"en-GB": {
+		"name": "Engels (United Kingdom)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "Estonian"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -128,11 +140,14 @@
 	"fi": {
 		"name": "Finnish"
 	},
-	"nl-BE": {
-		"name": "Flemish"
-	},
 	"fr": {
 		"name": "Frans"
+	},
+	"fr-CA": {
+		"name": "Frans (Kanadab)"
+	},
+	"fr-CH": {
+		"name": "Frans (Switzerlandi)"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -166,6 +181,9 @@
 	},
 	"nl": {
 		"name": "Hollands"
+	},
+	"nl-BE": {
+		"name": "Hollands (Belgiummi)"
 	},
 	"hu": {
 		"name": "Hungariaǁî gowab"
@@ -281,11 +299,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -298,6 +313,9 @@
 	},
 	"ne": {
 		"name": "Nepalǁî gowab"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -326,6 +344,12 @@
 	"pt": {
 		"name": "Portugees"
 	},
+	"pt-PT": {
+		"name": "Portugees (Portugali)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"pa": {
 		"name": "Punjabigowab"
 	},
@@ -334,6 +358,9 @@
 	},
 	"ro": {
 		"name": "Romaniaǁî gowab"
+	},
+	"ro-MD": {
+		"name": "Romaniaǁî gowab (Moldova)"
 	},
 	"rm": {
 		"name": "Romansh"
@@ -362,9 +389,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -380,20 +404,17 @@
 	"es": {
 		"name": "Spaans"
 	},
+	"es-MX": {
+		"name": "Spaans (Mexicob)"
+	},
 	"sw": {
 		"name": "Swahili"
 	},
 	"sv": {
 		"name": "Swedeǁî gowab"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"ta": {
 		"name": "Tamilǁî gowab"
@@ -413,11 +434,11 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"tr": {
 		"name": "Turkeǁî gowab"
+	},
+	"tk": {
+		"name": "Turkmen"
 	},
 	"uk": {
 		"name": "Ukrainiaǁî gowab"
@@ -436,6 +457,9 @@
 	},
 	"vi": {
 		"name": "Vietnamǁî gowab"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

@@ -1,8 +1,4 @@
 {
-	"XOF": {
-		"name": "Aafrika ühisfrank BCEAO",
-		"symbol": "CFA"
-	},
 	"AFN": {
 		"name": "Afganistani afgaani"
 	},
@@ -25,7 +21,7 @@
 		"name": "Armeenia dramm"
 	},
 	"AWG": {
-		"name": "Aruba guilder"
+		"name": "Aruba kulden"
 	},
 	"AZN": {
 		"name": "Aserbaidžaani manat"
@@ -47,7 +43,7 @@
 		"name": "Barbadose dollar"
 	},
 	"BZD": {
-		"name": "Belize dollar"
+		"name": "Belize’i dollar"
 	},
 	"BMD": {
 		"name": "Bermuda dollar"
@@ -56,10 +52,10 @@
 		"name": "Bhutani ngultrum"
 	},
 	"BOB": {
-		"name": "Bolivia boliviaano"
+		"name": "Boliivia boliviaano"
 	},
 	"BAM": {
-		"name": "Bosnia-Hertsegoviina mark"
+		"name": "Bosnia ja Hertsegoviina konverteeritav mark"
 	},
 	"BWP": {
 		"name": "Botswana pula"
@@ -77,15 +73,18 @@
 	"BIF": {
 		"name": "Burundi frank"
 	},
-	"KYD": {
-		"name": "Caymani saarte dollar"
+	"CVE": {
+		"name": "Cabo Verde eskuudo"
 	},
-	"XAF": {
-		"name": "CFA frank BEAC",
-		"symbol": "FCFA"
+	"XPF": {
+		"name": "CFP frank",
+		"symbol": "CFPF"
+	},
+	"COP": {
+		"name": "Colombia peeso"
 	},
 	"CRC": {
-		"name": "Costa Rica colón"
+		"name": "Costa Rica koloon"
 	},
 	"DJF": {
 		"name": "Djibouti frank"
@@ -95,6 +94,9 @@
 	},
 	"EGP": {
 		"name": "Egiptuse nael"
+	},
+	"SVC": {
+		"name": "El Salvadori koloon"
 	},
 	"ERN": {
 		"name": "Eritrea nakfa"
@@ -113,13 +115,13 @@
 		"name": "Fidži dollar"
 	},
 	"PHP": {
-		"name": "Filipiinide peeso"
+		"name": "Filipiini peeso"
 	},
 	"GMD": {
 		"name": "Gambia dalasi"
 	},
 	"GHS": {
-		"name": "Ghana cedi"
+		"name": "Ghana sedi"
 	},
 	"GIP": {
 		"name": "Gibraltari nael"
@@ -128,7 +130,7 @@
 		"name": "Gruusia lari"
 	},
 	"GTQ": {
-		"name": "Guatemala ketsal"
+		"name": "Guatemala ketsaal"
 	},
 	"GNF": {
 		"name": "Guinea frank"
@@ -193,6 +195,9 @@
 	"JOD": {
 		"name": "Jordaania dinaar"
 	},
+	"KYD": {
+		"name": "Kaimanisaarte dollar"
+	},
 	"KHR": {
 		"name": "Kambodža riaal"
 	},
@@ -203,14 +208,18 @@
 	"KZT": {
 		"name": "Kasahstani tenge"
 	},
-	"KES": {
-		"name": "Kenya šilling"
+	"QAR": {
+		"name": "Katari riaal"
 	},
-	"COP": {
-		"name": "Kolumbia peeso"
+	"KES": {
+		"name": "Keenia šilling"
+	},
+	"XAF": {
+		"name": "Kesk-Aafrika CFA frank",
+		"symbol": "FCFA"
 	},
 	"KMF": {
-		"name": "Komooride frank"
+		"name": "Komoori frank"
 	},
 	"CDF": {
 		"name": "Kongo frank"
@@ -252,17 +261,18 @@
 	"SSP": {
 		"name": "Lõuna-Sudaani nael"
 	},
-	"WST": {
-		"name": "Lääne-Samoa tala"
+	"XOF": {
+		"name": "Lääne-Aafrika CFA frank",
+		"symbol": "CFA"
 	},
 	"MOP": {
-		"name": "Macao pataka"
+		"name": "Macau pataaka"
 	},
 	"MGA": {
-		"name": "Madagaskari ariary"
+		"name": "Madagaskari ariari"
 	},
 	"MKD": {
-		"name": "Makedoonia denaar"
+		"name": "Makedoonia dinaar"
 	},
 	"MYR": {
 		"name": "Malaisia ringgit"
@@ -271,7 +281,7 @@
 		"name": "Malawi kvatša"
 	},
 	"MVR": {
-		"name": "Maldiivide ruupia"
+		"name": "Maldiivi ruupia"
 	},
 	"MAD": {
 		"name": "Maroko dirhem"
@@ -305,7 +315,7 @@
 		"name": "Nepali ruupia"
 	},
 	"NIO": {
-		"name": "Nicaragua kuldkordoba"
+		"name": "Nicaragua kordoba"
 	},
 	"NGN": {
 		"name": "Nigeeria naira"
@@ -326,7 +336,7 @@
 		"name": "Panama balboa"
 	},
 	"PYG": {
-		"name": "Paraguai guaranii"
+		"name": "Paraguay guaranii"
 	},
 	"PEN": {
 		"name": "Peruu uus soll"
@@ -334,48 +344,38 @@
 	"PLN": {
 		"name": "Poola zlott"
 	},
-	"XPF": {
-		"name": "Prantsuse Vaikse-Ookeani frank",
-		"symbol": "CFPF"
-	},
 	"KPW": {
 		"name": "Põhja-Korea vonn"
-	},
-	"QAR": {
-		"name": "Quatari riaal"
-	},
-	"CVE": {
-		"name": "Roheneemesaarte eskuudo"
 	},
 	"SEK": {
 		"name": "Rootsi kroon"
 	},
 	"RON": {
-		"name": "Rumeenia lei"
+		"name": "Rumeenia leu"
 	},
 	"RWF": {
 		"name": "Rwanda frank"
 	},
 	"SBD": {
-		"name": "Saalomoni saarte dollar"
+		"name": "Saalomoni Saarte dollar"
 	},
 	"SHP": {
 		"name": "Saint Helena nael"
 	},
-	"SVC": {
-		"name": "Salvadori koloon"
-	},
 	"ZMW": {
 		"name": "Sambia kvatša"
+	},
+	"WST": {
+		"name": "Samoa taala"
 	},
 	"STD": {
 		"name": "São Tomé ja Príncipe dobra"
 	},
 	"SAR": {
-		"name": "Saudi-Araabia riaal"
+		"name": "Saudi Araabia riaal"
 	},
 	"SCR": {
-		"name": "Seišelli saarte ruupia"
+		"name": "Seišelli ruupia"
 	},
 	"RSD": {
 		"name": "Serbia dinaar"
@@ -396,7 +396,7 @@
 		"name": "Sudaani nael"
 	},
 	"SRD": {
-		"name": "Surinami dollar"
+		"name": "Suriname dollar"
 	},
 	"GBP": {
 		"name": "Suurbritannia naelsterling",
@@ -412,7 +412,7 @@
 		"name": "Šveitsi frank"
 	},
 	"ZWL": {
-		"name": "Zimbabwean Dollar (2009)"
+		"name": "Zimbabwe dollar (2009)"
 	},
 	"DKK": {
 		"name": "Taani kroon"
@@ -447,7 +447,7 @@
 		"name": "Tuneesia dinaar"
 	},
 	"TRY": {
-		"name": "Türgi uus liir"
+		"name": "Türgi liir"
 	},
 	"TMT": {
 		"name": "Türkmenistani manat"
@@ -462,7 +462,7 @@
 		"name": "Ungari forint"
 	},
 	"UYU": {
-		"name": "Uruguai peeso"
+		"name": "Uruguay peeso"
 	},
 	"USD": {
 		"name": "USA dollar",
@@ -485,7 +485,7 @@
 		"name": "Venemaa rubla"
 	},
 	"VEF": {
-		"name": "Venezuela bolívar"
+		"name": "Venezuela boliivar"
 	},
 	"VND": {
 		"name": "Vietnami dong",

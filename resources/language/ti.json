@@ -11,12 +11,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"ksf": {
 		"name": "Bafia"
 	},
@@ -32,26 +26,26 @@
 	"brx": {
 		"name": "Bodo"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"my": {
 		"name": "Burmese"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
+	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
 	},
 	"cgg": {
 		"name": "Chiga"
 	},
 	"zh": {
 		"name": "Chinese"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -61,9 +55,6 @@
 	},
 	"ee": {
 		"name": "Ewe"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -146,11 +137,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -164,6 +152,9 @@
 	"naq": {
 		"name": "Nama"
 	},
+	"lrc": {
+		"name": "Northern Luri"
+	},
 	"se": {
 		"name": "Northern Sami"
 	},
@@ -175,6 +166,9 @@
 	},
 	"om": {
 		"name": "Oromo"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"qu": {
 		"name": "Quechua"
@@ -194,20 +188,11 @@
 	"seh": {
 		"name": "Sena"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"so": {
 		"name": "Somali"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"twq": {
 		"name": "Tasawaq"
@@ -215,14 +200,14 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"hsb": {
 		"name": "Upper Sorbian"
 	},
 	"ug": {
 		"name": "Uyghur"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"
@@ -235,6 +220,12 @@
 	},
 	"dje": {
 		"name": "Zarma"
+	},
+	"zh-Hans": {
+		"name": "zh (Hans)"
+	},
+	"zh-Hant": {
+		"name": "zh (Hant)"
 	},
 	"hu": {
 		"name": "ሀንጋሪኛ"
@@ -269,6 +260,9 @@
 	"ro": {
 		"name": "ሮማኒያን"
 	},
+	"ro-MD": {
+		"name": "ሮማኒያን (MD)"
+	},
 	"sr": {
 		"name": "ሰርቢኛ"
 	},
@@ -289,6 +283,9 @@
 	},
 	"es": {
 		"name": "ስፓኒሽ"
+	},
+	"es-MX": {
+		"name": "ስፓኒሽ (MX)"
 	},
 	"bn": {
 		"name": "በንጋሊኛ"
@@ -328,6 +325,9 @@
 	},
 	"cs": {
 		"name": "ቼክኛ"
+	},
+	"tk": {
+		"name": "ናይ ቱርኪ ሰብዓይ (ቱርካዊ)"
 	},
 	"ne": {
 		"name": "ኔፖሊኛ"
@@ -374,6 +374,15 @@
 	"en": {
 		"name": "እንግሊዝኛ"
 	},
+	"en-AU": {
+		"name": "እንግሊዝኛ (AU)"
+	},
+	"en-CA": {
+		"name": "እንግሊዝኛ (CA)"
+	},
+	"en-GB": {
+		"name": "እንግሊዝኛ (GB)"
+	},
 	"or": {
 		"name": "ኦሪያ"
 	},
@@ -413,11 +422,20 @@
 	"nl": {
 		"name": "ደች"
 	},
+	"nl-BE": {
+		"name": "ደች (BE)"
+	},
 	"da": {
 		"name": "ዴኒሽ"
 	},
 	"de": {
 		"name": "ጀርመን"
+	},
+	"de-AT": {
+		"name": "ጀርመን (AT)"
+	},
+	"de-CH": {
+		"name": "ጀርመን (CH)"
 	},
 	"ja": {
 		"name": "ጃፓንኛ"
@@ -439,6 +457,12 @@
 	},
 	"fr": {
 		"name": "ፈረንሳይኛ"
+	},
+	"fr-CA": {
+		"name": "ፈረንሳይኛ (CA)"
+	},
+	"fr-CH": {
+		"name": "ፈረንሳይኛ (CH)"
 	},
 	"fi": {
 		"name": "ፊኒሽ"

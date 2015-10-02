@@ -1,12 +1,16 @@
 {
 	"AFN": {
-		"name": "Afghan Afghani"
+		"name": "Afg‘oniston afg‘oni"
 	},
 	"ALL": {
-		"name": "Alban leki"
+		"name": "Albaniya leki"
+	},
+	"GBP": {
+		"name": "Angliya funt sterlingi",
+		"symbol": "£"
 	},
 	"AOA": {
-		"name": "Angolan Kwanza"
+		"name": "Angola kvanzasi"
 	},
 	"USD": {
 		"name": "AQSH dollari",
@@ -16,7 +20,7 @@
 		"name": "Argentina pesosi"
 	},
 	"AMD": {
-		"name": "Armenian Dram"
+		"name": "Armaniston drami"
 	},
 	"AWG": {
 		"name": "Aruba florini"
@@ -25,17 +29,14 @@
 		"name": "Avstraliya dollari",
 		"symbol": "A$"
 	},
-	"AZN": {
-		"name": "Azerbaijani Manat"
-	},
 	"BSD": {
 		"name": "Bagama dollari"
 	},
 	"BHD": {
-		"name": "Bahraini Dinar"
+		"name": "Bahrayn dinori"
 	},
 	"BDT": {
-		"name": "Bangladeshi Taka"
+		"name": "Bangladesh takasi"
 	},
 	"BBD": {
 		"name": "Barbados dollari"
@@ -49,98 +50,86 @@
 	"BMD": {
 		"name": "Bermuda dollari"
 	},
-	"BTN": {
-		"name": "Bhutanese Ngultrum"
+	"AED": {
+		"name": "Birlashgan Arab Amirliklari dirhami"
 	},
 	"BGN": {
 		"name": "Bolgariya levi"
 	},
 	"BOB": {
-		"name": "Boliviya bolivyani"
+		"name": "Boliviya bolivianosi"
 	},
 	"BAM": {
-		"name": "Bosniya va Gertsogovina ayriboshlash markasi"
+		"name": "Bosniya va Gertsegovina ayirboshlash markasi"
 	},
 	"BWP": {
-		"name": "Botswanan Pula"
+		"name": "Botsvana pulasi"
 	},
 	"BRL": {
-		"name": "Brazil reali",
+		"name": "Braziliya reali",
 		"symbol": "R$"
 	},
 	"BND": {
-		"name": "Brunei Dollar"
+		"name": "Bruney dollari"
 	},
 	"BIF": {
-		"name": "Burundian Franc"
+		"name": "Burundi franki"
 	},
-	"KHR": {
-		"name": "Cambodian Riel"
-	},
-	"CVE": {
-		"name": "Cape Verdean Escudo"
-	},
-	"XAF": {
-		"name": "Central African CFA Franc",
-		"symbol": "FCFA"
-	},
-	"XPF": {
-		"name": "CFP Franc",
-		"symbol": "CFPF"
+	"BTN": {
+		"name": "Butan ngultrumi"
 	},
 	"CZK": {
-		"name": "Chex kronasi"
+		"name": "Chexiya kronasi"
 	},
 	"CLP": {
 		"name": "Chili pesosi"
 	},
-	"KMF": {
-		"name": "Comorian Franc"
-	},
-	"CDF": {
-		"name": "Congolese Franc"
-	},
 	"DKK": {
 		"name": "Daniya kronasi"
-	},
-	"DJF": {
-		"name": "Djiboutian Franc"
 	},
 	"DOP": {
 		"name": "Dominikan pesosi"
 	},
-	"ERN": {
-		"name": "Eritrean Nakfa"
-	},
 	"ETB": {
-		"name": "Ethiopian Birr"
+		"name": "Efiopiya biri"
+	},
+	"ERN": {
+		"name": "Eritreya nakfasi"
+	},
+	"IRR": {
+		"name": "Eron riali"
 	},
 	"FJD": {
-		"name": "Fijian Dollar"
+		"name": "Fiji dollari"
+	},
+	"PHP": {
+		"name": "Filippin pesosi"
 	},
 	"FKP": {
-		"name": "Folklend oroli funti"
+		"name": "Folklend orollari funti"
+	},
+	"XPF": {
+		"name": "Fransuz Polineziyasi franki",
+		"symbol": "CFPF"
+	},
+	"XOF": {
+		"name": "G‘arbiy Afrika CFA franki",
+		"symbol": "CFA"
 	},
 	"HTG": {
 		"name": "Gaiti gurdasi"
 	},
 	"GMD": {
-		"name": "Gambian Dalasi"
+		"name": "Gambiya dalasisi"
+	},
+	"GHS": {
+		"name": "Gana sedisi"
 	},
 	"GYD": {
 		"name": "Gayana dollari"
 	},
-	"GEL": {
-		"name": "Georgian Lari"
-	},
-	"GHS": {
-		"name": "Ghanaian Cedi"
-	},
 	"GIP": {
 		"name": "Gibraltar funti"
-	},
-	"ANG": {
-		"name": "Golland Antil guldeni"
 	},
 	"HNL": {
 		"name": "Gonduras lempirasi"
@@ -149,41 +138,37 @@
 		"name": "Gonkong dollari",
 		"symbol": "HK$"
 	},
-	"GNF": {
-		"name": "Guinean Franc"
+	"GEL": {
+		"name": "Gruziya larisi"
 	},
 	"GTQ": {
-		"name": "Gvatemala kvetzali"
+		"name": "Gvatemala ketsali"
+	},
+	"GNF": {
+		"name": "Gvineya franki"
 	},
 	"INR": {
-		"name": "Hind rupiyasi",
+		"name": "Hindiston rupiyasi",
 		"symbol": "₹"
-	},
-	"HRK": {
-		"name": "Horvat kunasi"
 	},
 	"IDR": {
 		"name": "Indoneziya rupiyasi"
 	},
-	"GBP": {
-		"name": "Ingliz funt",
-		"symbol": "£"
-	},
-	"IRR": {
-		"name": "Iranian Rial"
+	"JOD": {
+		"name": "Iordaniya dinori"
 	},
 	"IQD": {
-		"name": "Iraqi Dinar"
+		"name": "Iroq dinori"
 	},
 	"ISK": {
 		"name": "Islandiya kronasi"
 	},
 	"ILS": {
-		"name": "Israeli New Sheqel",
+		"name": "Isroil yangi shekeli",
 		"symbol": "₪"
 	},
 	"ZAR": {
-		"name": "Janubiy Afrika randi"
+		"name": "Janubiy Afrika rendi"
 	},
 	"KRW": {
 		"name": "Janubiy Koreya voni",
@@ -195,81 +180,88 @@
 	"DZD": {
 		"name": "Jazoir dinori"
 	},
-	"JOD": {
-		"name": "Jordanian Dinar"
+	"DJF": {
+		"name": "Jibuti franki"
+	},
+	"CVE": {
+		"name": "Kabo-Verde eskudosi"
+	},
+	"KHR": {
+		"name": "Kamboja rieli"
 	},
 	"CAD": {
 		"name": "Kanada dollari",
 		"symbol": "CA$"
 	},
 	"KYD": {
-		"name": "Kayman Orollari Dollari"
-	},
-	"KZT": {
-		"name": "Kazakhstani Tenge"
+		"name": "Kayman orollari dollari"
 	},
 	"KES": {
-		"name": "Kenyan Shilling"
+		"name": "Keniya shillingi"
 	},
 	"COP": {
 		"name": "Kolumbiya pesosi"
+	},
+	"KMF": {
+		"name": "Komor orollari franki"
+	},
+	"CDF": {
+		"name": "Kongo franki"
 	},
 	"CRC": {
 		"name": "Kosta-Rika koloni"
 	},
 	"CUC": {
-		"name": "Kuba Ayirboshlash pesosi"
+		"name": "Kuba ayirboshlash pesosi"
 	},
 	"CUP": {
 		"name": "Kuba pesosi"
 	},
-	"KWD": {
-		"name": "Kuwaiti Dinar"
-	},
-	"KGS": {
-		"name": "Kyrgystani Som"
-	},
 	"LAK": {
-		"name": "Laotian Kip"
-	},
-	"LBP": {
-		"name": "Lebanese Pound"
+		"name": "Laos kipi"
 	},
 	"LSL": {
 		"name": "Lesotho Loti"
 	},
 	"LRD": {
-		"name": "Liberian Dollar"
+		"name": "Liberiya dollari"
+	},
+	"LBP": {
+		"name": "Livan funti"
 	},
 	"LYD": {
 		"name": "Liviya dinori"
 	},
 	"MOP": {
-		"name": "Macanese Pataca"
+		"name": "Makao patakasi"
 	},
 	"MKD": {
 		"name": "Makedoniya dinori"
 	},
 	"MGA": {
-		"name": "Malagasy Ariary"
+		"name": "Malagasi ariarisi"
 	},
 	"MWK": {
-		"name": "Malawian Kwacha"
+		"name": "Malavi kvachasi"
 	},
 	"MYR": {
-		"name": "Malaysian Ringgit"
+		"name": "Malayziya ringgiti"
 	},
 	"MVR": {
-		"name": "Maldivian Rufiyaa"
+		"name": "Maldiv rupiyasi"
+	},
+	"XAF": {
+		"name": "Markaziy Afrika CFA franki",
+		"symbol": "FCFA"
 	},
 	"MAD": {
 		"name": "Marokash dirhami"
 	},
-	"MRO": {
-		"name": "Mauritanian Ouguiya"
-	},
 	"MUR": {
-		"name": "Mauritian Rupee"
+		"name": "Mavritaniya rupiyasi"
+	},
+	"MRO": {
+		"name": "Mavritaniya ugiyasi"
 	},
 	"MXN": {
 		"name": "Meksika pesosi",
@@ -279,87 +271,92 @@
 		"name": "Misr funti"
 	},
 	"MDL": {
-		"name": "Moldova leusi"
+		"name": "Moldova leyi"
 	},
 	"MNT": {
-		"name": "Mongolian Tugrik"
+		"name": "Mongoliya tugriki"
 	},
 	"MZN": {
-		"name": "Mozambican Metical"
+		"name": "Mozambik metikali"
+	},
+	"SHP": {
+		"name": "Muqaddas Yelena oroli funti"
 	},
 	"MMK": {
-		"name": "Myanmar Kyat"
+		"name": "Myanma kyati"
 	},
 	"NAD": {
-		"name": "Namibian Dollar"
+		"name": "Nambiya dollari"
 	},
 	"NPR": {
-		"name": "Nepalese Rupee"
+		"name": "Nepal rupiyasi"
 	},
-	"NZD": {
-		"name": "New Zealand Dollar",
-		"symbol": "NZ$"
+	"ANG": {
+		"name": "Niderland antil guldeni"
 	},
 	"NGN": {
-		"name": "Nigerian Naira"
+		"name": "Nigeriya nayrasi"
 	},
 	"NIO": {
 		"name": "Nikaragua kordobasi"
-	},
-	"KPW": {
-		"name": "North Korean Won"
 	},
 	"NOK": {
 		"name": "Norvegiya kronasi"
 	},
 	"UZS": {
-		"name": "Oʻzbekiston soʻm",
+		"name": "Oʻzbekiston soʻmi",
 		"symbol": "soʻm"
 	},
-	"OMR": {
-		"name": "Omani Rial"
-	},
-	"PKR": {
-		"name": "Pakistani Rupee"
+	"AZN": {
+		"name": "Ozarbayjon manati"
 	},
 	"PAB": {
 		"name": "Panama balboasi"
 	},
 	"PGK": {
-		"name": "Papua New Guinean Kina"
+		"name": "Papua – Yangi Gvineya kinasi"
 	},
 	"PYG": {
-		"name": "Paragvay guarani"
+		"name": "Paragvay guaranisi"
 	},
 	"PEN": {
-		"name": "Peru noyvo soli"
+		"name": "Peru yangi soli"
 	},
-	"PHP": {
-		"name": "Philippine Peso"
+	"PKR": {
+		"name": "Pokiston rupiyasi"
 	},
 	"PLN": {
 		"name": "Polsha zlotiyi"
 	},
 	"QAR": {
-		"name": "Qatari Rial"
+		"name": "Qatar riali"
 	},
-	"RON": {
-		"name": "Rumin leusi"
+	"KGS": {
+		"name": "Qirg‘iziston so‘mi"
+	},
+	"KZT": {
+		"name": "Qozog‘iston tengesi"
+	},
+	"KWD": {
+		"name": "Quvayt dinori"
 	},
 	"RUB": {
-		"name": "Rus rubli"
+		"name": "Rossiya rubli"
 	},
 	"RWF": {
-		"name": "Rwandan Franc"
+		"name": "Ruanda franki"
+	},
+	"RON": {
+		"name": "Ruminiya leyi"
 	},
 	"SVC": {
 		"name": "Salvadoran Colón"
 	},
 	"WST": {
-		"name": "Samoan Tala"
+		"name": "Samoa talasi"
 	},
 	"STD": {
-		"name": "São Tomé & Príncipe Dobra"
+		"name": "San-Tome va Prinsipi dobrasi"
 	},
 	"SAR": {
 		"name": "Saudiya Arabistoni riyoli"
@@ -368,35 +365,32 @@
 		"name": "Serbiya dinori"
 	},
 	"SCR": {
-		"name": "Seychellois Rupee"
+		"name": "Seyshel rupiyasi"
 	},
 	"XCD": {
 		"name": "Sharqiy Karib dollari",
 		"symbol": "EC$"
 	},
-	"CHF": {
-		"name": "Shvetsariya franki"
+	"KPW": {
+		"name": "Shimoliy Koreya voni"
+	},
+	"LKR": {
+		"name": "Shri-Lanka rupiyasi"
 	},
 	"SEK": {
 		"name": "Shvetsiya kronasi"
 	},
-	"SLL": {
-		"name": "Sierra Leonean Leone"
+	"CHF": {
+		"name": "Shveytsariya franki"
 	},
 	"SGD": {
-		"name": "Singapore Dollar"
+		"name": "Singapur dollari"
 	},
 	"SBD": {
-		"name": "Solomon Islands Dollar"
+		"name": "Solomon orollari dollari"
 	},
 	"SOS": {
-		"name": "Somali Shilling"
-	},
-	"LKR": {
-		"name": "Sri Lankan Rupee"
-	},
-	"SHP": {
-		"name": "St. Helena Pound"
+		"name": "Somali shillingi"
 	},
 	"SDG": {
 		"name": "Sudan funti"
@@ -404,24 +398,26 @@
 	"SRD": {
 		"name": "Surinam dollari"
 	},
-	"SZL": {
-		"name": "Swazi Lilangeni"
-	},
 	"SYP": {
-		"name": "Syrian Pound"
+		"name": "Suriya funti"
 	},
-	"TJS": {
-		"name": "Tajikistani Somoni"
+	"SZL": {
+		"name": "Svazilend lilangenisi"
 	},
-	"TZS": {
-		"name": "Tanzanian Shilling"
+	"SLL": {
+		"name": "Syerra-Leone leonesi"
 	},
 	"THB": {
-		"name": "Tayland bahti",
-		"symbol": "฿"
+		"name": "Tailand bati"
+	},
+	"TZS": {
+		"name": "Tanzaniya shillingi"
+	},
+	"TJS": {
+		"name": "Tojikiston somoniysi"
 	},
 	"TOP": {
-		"name": "Tongan Paʻanga"
+		"name": "Tonga pangasi"
 	},
 	"TTD": {
 		"name": "Trinidad va Tobago dollari"
@@ -433,22 +429,22 @@
 		"name": "Turk lirasi"
 	},
 	"TMT": {
-		"name": "Turkmenistani Manat"
+		"name": "Turkmaniston manati"
 	},
 	"UGX": {
-		"name": "Ugandan Shilling"
+		"name": "Uganda shillingi"
 	},
 	"UAH": {
-		"name": "Ukrain grivnasi"
+		"name": "Ukraina grivnasi"
 	},
-	"AED": {
-		"name": "United Arab Emirates Dirham"
+	"OMR": {
+		"name": "Ummon riali"
 	},
 	"UYU": {
 		"name": "Urugvay pesosi"
 	},
 	"VUV": {
-		"name": "Vanuatu Vatu"
+		"name": "Vanuatu vatusi"
 	},
 	"VEF": {
 		"name": "Venesuela bolivari"
@@ -457,16 +453,18 @@
 		"name": "Vengriya forinti"
 	},
 	"VND": {
-		"name": "Vietnamese Dong",
+		"name": "Vyetnam dongi",
 		"symbol": "₫"
-	},
-	"XOF": {
-		"name": "West African CFA Franc",
-		"symbol": "CFA"
 	},
 	"CNY": {
 		"name": "Xitoy yuani",
 		"symbol": "CN¥"
+	},
+	"HRK": {
+		"name": "Xorvatiya kunasi"
+	},
+	"YER": {
+		"name": "Yaman riali"
 	},
 	"JMD": {
 		"name": "Yamayka dollari"
@@ -475,19 +473,20 @@
 		"name": "Yangi Tayvan dollari",
 		"symbol": "NT$"
 	},
-	"JPY": {
-		"name": "Yapon yenasi",
-		"symbol": "JP¥"
+	"NZD": {
+		"name": "Yangi Zelandiya dollari",
+		"symbol": "NZ$"
 	},
-	"YER": {
-		"name": "Yemeni Rial"
+	"JPY": {
+		"name": "Yaponiya iyenasi",
+		"symbol": "JP¥"
 	},
 	"EUR": {
 		"name": "Yevro",
 		"symbol": "€"
 	},
 	"ZMW": {
-		"name": "Zambian Kwacha"
+		"name": "Zambiya kvachasi"
 	},
 	"ZWL": {
 		"name": "Zimbabwean Dollar (2009)"

@@ -1,7 +1,4 @@
 {
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"af": {
 		"name": "Afrikaans"
 	},
@@ -25,9 +22,6 @@
 	},
 	"az": {
 		"name": "Azerbaijani"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"eo": {
 		"name": "Esperanto"
@@ -113,11 +107,20 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
 	"ksh": {
 		"name": "Colognian"
 	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"hr": {
 		"name": "Croatian"
@@ -136,9 +139,6 @@
 	},
 	"ff": {
 		"name": "Fulah"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -170,6 +170,9 @@
 	"nl": {
 		"name": "Hōlani"
 	},
+	"nl-BE": {
+		"name": "Hōlani (BE)"
+	},
 	"hu": {
 		"name": "Hungarian"
 	},
@@ -193,6 +196,12 @@
 	},
 	"de": {
 		"name": "Kelemānia"
+	},
+	"de-AT": {
+		"name": "Kelemānia (AT)"
+	},
+	"de-CH": {
+		"name": "Kelemānia (CH)"
 	},
 	"da": {
 		"name": "Kenemaka"
@@ -284,11 +293,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -304,6 +310,9 @@
 	},
 	"ne": {
 		"name": "Nepali"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -335,6 +344,9 @@
 	"es": {
 		"name": "Paniolo"
 	},
+	"es-MX": {
+		"name": "Paniolo (Mekiko)"
+	},
 	"en-CA": {
 		"name": "Pelekāne Kanakā"
 	},
@@ -356,11 +368,20 @@
 	"pt": {
 		"name": "Pukikī"
 	},
+	"pt-PT": {
+		"name": "Pukikī (PT)"
+	},
 	"pa": {
 		"name": "Punjabi"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"qu": {
 		"name": "Quechua"
+	},
+	"ro-MD": {
+		"name": "ro (MD)"
 	},
 	"ro": {
 		"name": "Romanian"
@@ -401,9 +422,6 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"de-CH": {
-		"name": "Swiss High German"
-	},
 	"ta": {
 		"name": "Tamil"
 	},
@@ -422,8 +440,14 @@
 	"tr": {
 		"name": "Turkish"
 	},
+	"tk": {
+		"name": "Turkmen"
+	},
 	"th": {
 		"name": "Thai"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"cy": {
 		"name": "Wale"

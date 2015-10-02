@@ -23,12 +23,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani Iyápi"
 	},
@@ -68,20 +62,23 @@
 	"my": {
 		"name": "Burmese Iyápi"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"ca": {
 		"name": "Catalan Iyápi"
 	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen Iyápi"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -106,9 +103,6 @@
 	},
 	"et": {
 		"name": "Estonia Iyápi"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -178,6 +172,12 @@
 	},
 	"de": {
 		"name": "Iyášiča Iyápi"
+	},
+	"de-AT": {
+		"name": "Iyášiča Iyápi (AT)"
+	},
+	"de-CH": {
+		"name": "Iyášiča Iyápi (CH)"
 	},
 	"dyo": {
 		"name": "Jola-Fonyi"
@@ -272,11 +272,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -292,6 +289,9 @@
 	},
 	"ne": {
 		"name": "Nepal Iyápi"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -329,6 +329,12 @@
 	"pt": {
 		"name": "Portuguese Iyápi"
 	},
+	"pt-PT": {
+		"name": "Portuguese Iyápi (PT)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"pa": {
 		"name": "Punjabi Iyápi"
 	},
@@ -337,6 +343,9 @@
 	},
 	"ro": {
 		"name": "Romanian Iyápi"
+	},
+	"ro-MD": {
+		"name": "Romanian Iyápi (MD)"
 	},
 	"rm": {
 		"name": "Romansh Iyápi"
@@ -380,20 +389,17 @@
 	"es": {
 		"name": "Spayóla Iyápi"
 	},
+	"es-MX": {
+		"name": "Spayóla Iyápi (Spayóla Makȟóčhe)"
+	},
 	"sw": {
 		"name": "Swahili Iyápi"
 	},
 	"sv": {
 		"name": "Swedish Iyápi"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"ta": {
 		"name": "Tamil Iyápi"
@@ -416,6 +422,9 @@
 	"tr": {
 		"name": "Turkish Iyápi"
 	},
+	"tk": {
+		"name": "Turkmen Iyápi"
+	},
 	"uk": {
 		"name": "Ukrain Iyápi"
 	},
@@ -434,6 +443,9 @@
 	"vi": {
 		"name": "Vietnamese Iyápi"
 	},
+	"vo": {
+		"name": "Volapük"
+	},
 	"cy": {
 		"name": "Wales Iyápi"
 	},
@@ -443,8 +455,20 @@
 	"fr": {
 		"name": "Wašíču Ikčéka Iyápi"
 	},
+	"fr-CH": {
+		"name": "Wašíču Ikčéka Iyápi (CH)"
+	},
+	"fr-CA": {
+		"name": "Wašíču Ikčéka Iyápi (Uŋčíyapi Makȟóčhe)"
+	},
 	"en": {
 		"name": "Wašíčuiyapi"
+	},
+	"en-AU": {
+		"name": "Wašíčuiyapi (AU)"
+	},
+	"en-CA": {
+		"name": "Wašíčuiyapi (Uŋčíyapi Makȟóčhe)"
 	},
 	"fy": {
 		"name": "Western Frisian"

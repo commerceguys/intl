@@ -345,7 +345,7 @@
 		"name": "Kiribati"
 	},
 	"CC": {
-		"name": "Kokos (Keling) Ostrva"
+		"name": "Kokosova (Kilingova) ostrva"
 	},
 	"CO": {
 		"name": "Kolumbija"
@@ -431,9 +431,6 @@
 	"MT": {
 		"name": "Malta"
 	},
-	"UM": {
-		"name": "Manja Udaljena Ostrva SAD"
-	},
 	"MA": {
 		"name": "Maroko"
 	},
@@ -515,6 +512,9 @@
 	"OM": {
 		"name": "Oman"
 	},
+	"TC": {
+		"name": "Ostrva Turks i Caicos"
+	},
 	"AC": {
 		"name": "Ostrvo Asension"
 	},
@@ -584,20 +584,11 @@
 	"SC": {
 		"name": "Sejšeli"
 	},
-	"PM": {
-		"name": "Sen Pjer i Mikelon"
-	},
 	"SN": {
 		"name": "Senegal"
 	},
 	"KN": {
 		"name": "Sent Kits i Nevis"
-	},
-	"LC": {
-		"name": "Sent Lucija"
-	},
-	"VC": {
-		"name": "Sent Vinsent i Grenadini"
 	},
 	"EA": {
 		"name": "Seuta i Melilja"
@@ -644,20 +635,29 @@
 	"SR": {
 		"name": "Surinam"
 	},
-	"BL": {
-		"name": "Sv. Bartolomej"
-	},
 	"MF": {
 		"name": "Sv. Martin"
 	},
 	"SJ": {
-		"name": "Svalbard i Janmajen Ostrva"
+		"name": "Svalbard i Jan Majen"
 	},
 	"SZ": {
 		"name": "Svazilend"
 	},
 	"SH": {
 		"name": "Sveta Helena"
+	},
+	"LC": {
+		"name": "Sveta Lucija"
+	},
+	"BL": {
+		"name": "Sveti Bartolomej"
+	},
+	"PM": {
+		"name": "Sveti Petar i Mikelon"
+	},
+	"VC": {
+		"name": "Sveti Vincent i Grenadini"
 	},
 	"ES": {
 		"name": "Španija"
@@ -707,14 +707,14 @@
 	"TM": {
 		"name": "Turkmenistan"
 	},
-	"TC": {
-		"name": "Turks i Kajkos Ostrva"
-	},
 	"TR": {
 		"name": "Turska"
 	},
 	"TV": {
 		"name": "Tuvalu"
+	},
+	"UM": {
+		"name": "Udaljena ostrva SAD"
 	},
 	"UG": {
 		"name": "Uganda"
@@ -731,9 +731,6 @@
 	"UZ": {
 		"name": "Uzbekistan"
 	},
-	"WF": {
-		"name": "Valis i Futuna Ostrva"
-	},
 	"VU": {
 		"name": "Vanuatu"
 	},
@@ -748,6 +745,9 @@
 	},
 	"VN": {
 		"name": "Vijetnam"
+	},
+	"WF": {
+		"name": "Wallis i Futuna"
 	},
 	"ZM": {
 		"name": "Zambija"

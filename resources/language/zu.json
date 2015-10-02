@@ -5,6 +5,9 @@
 	"bas": {
 		"name": "Basaa"
 	},
+	"cu": {
+		"name": "Church Slavic"
+	},
 	"ksh": {
 		"name": "Colognian"
 	},
@@ -14,11 +17,17 @@
 	"ff": {
 		"name": "Fulah"
 	},
+	"af": {
+		"name": "i-Afrikaans"
+	},
 	"en-GB": {
 		"name": "i-British English"
 	},
 	"en-CA": {
 		"name": "i-Canadian English"
+	},
+	"fr-CA": {
+		"name": "i-Canadian French"
 	},
 	"en": {
 		"name": "i-English"
@@ -26,8 +35,14 @@
 	"lo": {
 		"name": "i-Lao"
 	},
+	"es-MX": {
+		"name": "i-Mexican Spanish"
+	},
 	"nn": {
 		"name": "i-Norwegian Nynorsk"
+	},
+	"om": {
+		"name": "i-Oromo"
 	},
 	"gd": {
 		"name": "i-Scottish Gaelic"
@@ -35,8 +50,11 @@
 	"si": {
 		"name": "i-Sinhala"
 	},
-	"af": {
-		"name": "isi-Afrikaans"
+	"fr-CH": {
+		"name": "i-Swiss French"
+	},
+	"de-CH": {
+		"name": "i-Swiss High German"
 	},
 	"agq": {
 		"name": "isi-Aghem"
@@ -90,7 +108,7 @@
 		"name": "isi-Bosnian"
 	},
 	"br": {
-		"name": "Isi-Breton"
+		"name": "isi-Breton"
 	},
 	"bg": {
 		"name": "isi-Bulgari"
@@ -98,20 +116,29 @@
 	"my": {
 		"name": "isi-Burmese"
 	},
-	"fr-CA": {
-		"name": "isi-Canadian French"
-	},
 	"ca": {
 		"name": "isi-Catalan"
 	},
 	"tzm": {
 		"name": "isi-Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "isi-Central Kurdish"
+	},
+	"ce": {
+		"name": "isi-Chechen"
+	},
 	"cgg": {
 		"name": "isi-Chiga"
 	},
 	"zh": {
 		"name": "isi-Chinese"
+	},
+	"zh-Hans": {
+		"name": "isi-Chinese (i-Simplified)"
+	},
+	"zh-Hant": {
+		"name": "isi-Chinese (Okosiko)"
 	},
 	"hr": {
 		"name": "isi-Croatian"
@@ -138,7 +165,7 @@
 		"name": "isi-European Portuguese"
 	},
 	"ee": {
-		"name": "Isi-Ewe"
+		"name": "isi-Ewe"
 	},
 	"fo": {
 		"name": "isi-Faroese"
@@ -156,7 +183,7 @@
 		"name": "isi-Galicia"
 	},
 	"lg": {
-		"name": "Isi-Ganda"
+		"name": "isi-Ganda"
 	},
 	"ka": {
 		"name": "isi-Georgian"
@@ -293,8 +320,8 @@
 	"mas": {
 		"name": "isi-Masai"
 	},
-	"es-MX": {
-		"name": "isi-Mexican Spanish"
+	"mzn": {
+		"name": "isi-Mazanderani"
 	},
 	"ro-MD": {
 		"name": "isi-Moldavian"
@@ -303,7 +330,7 @@
 		"name": "isi-Mongolian"
 	},
 	"mfe": {
-		"name": "Isi-Morisyen"
+		"name": "isi-Morisyen"
 	},
 	"mua": {
 		"name": "isi-Mundang"
@@ -314,6 +341,9 @@
 	"ne": {
 		"name": "isi-Nepali"
 	},
+	"lrc": {
+		"name": "isi-Northern Luri"
+	},
 	"se": {
 		"name": "isi-Northern Sami"
 	},
@@ -321,13 +351,10 @@
 		"name": "isi-Norwegian Bokmål"
 	},
 	"nyn": {
-		"name": "Isi-Nyankole"
+		"name": "isi-Nyankole"
 	},
 	"or": {
 		"name": "isi-Oriya"
-	},
-	"om": {
-		"name": "Isi-Oromo"
 	},
 	"fa": {
 		"name": "isi-Persian"
@@ -368,9 +395,6 @@
 	"sr": {
 		"name": "isi-Serbian"
 	},
-	"zh-Hans": {
-		"name": "isi-Sipmlified Chinese"
-	},
 	"sk": {
 		"name": "isi-Slovak"
 	},
@@ -383,20 +407,11 @@
 	"es": {
 		"name": "isi-Spanish"
 	},
-	"sw": {
-		"name": "isi-Swahili"
-	},
 	"sv": {
 		"name": "isi-Swedish"
 	},
-	"fr-CH": {
-		"name": "isi-Swiss French"
-	},
 	"gsw": {
 		"name": "isi-Swiss German"
-	},
-	"de-CH": {
-		"name": "isi-Swiss High German"
 	},
 	"ta": {
 		"name": "isi-Tamil"
@@ -414,13 +429,13 @@
 		"name": "isi-Tigrinya"
 	},
 	"to": {
-		"name": "Isi-Tongan"
-	},
-	"zh-Hant": {
-		"name": "isi-Traditional Chinese"
+		"name": "isi-Tongan"
 	},
 	"tr": {
 		"name": "isi-Turkish"
+	},
+	"tk": {
+		"name": "isi-Turkmen"
 	},
 	"ug": {
 		"name": "isi-Uighur"
@@ -455,8 +470,17 @@
 	"dje": {
 		"name": "isi-Zarma"
 	},
+	"sw": {
+		"name": "isiSwahili"
+	},
 	"zu": {
 		"name": "isiZulu"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

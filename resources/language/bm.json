@@ -14,23 +14,32 @@
 	"de": {
 		"name": "alimaɲikan"
 	},
+	"de-AT": {
+		"name": "alimaɲikan (Otirisi)"
+	},
+	"de-CH": {
+		"name": "alimaɲikan (Suwisi)"
+	},
 	"am": {
 		"name": "amarikikan"
 	},
 	"en": {
 		"name": "angilɛkan"
 	},
+	"en-GB": {
+		"name": "angilɛkan (Angilɛtɛri)"
+	},
+	"en-CA": {
+		"name": "angilɛkan (Kanada)"
+	},
+	"en-AU": {
+		"name": "angilɛkan (Ositirali)"
+	},
 	"hy": {
 		"name": "Armenian"
 	},
 	"ast": {
 		"name": "Asturian"
-	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
 	},
 	"ha": {
 		"name": "awusakan"
@@ -71,17 +80,8 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "buligarikan"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"ca": {
 		"name": "Catalan"
@@ -89,11 +89,20 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
 	"cs": {
 		"name": "cɛkikan"
 	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -110,14 +119,14 @@
 	"es": {
 		"name": "esipaɲolkan"
 	},
+	"es-MX": {
+		"name": "esipaɲolkan (Meksiki)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "Estonian"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -130,9 +139,6 @@
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -272,11 +278,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -293,6 +296,9 @@
 	"ne": {
 		"name": "nepalekan"
 	},
+	"lrc": {
+		"name": "Northern Luri"
+	},
 	"se": {
 		"name": "Northern Sami"
 	},
@@ -307,6 +313,9 @@
 	},
 	"nl": {
 		"name": "olandekan"
+	},
+	"nl-BE": {
+		"name": "olandekan (Bɛliziki)"
 	},
 	"hu": {
 		"name": "oŋirikan"
@@ -329,6 +338,12 @@
 	"pt": {
 		"name": "pɔritigalikan"
 	},
+	"pt-PT": {
+		"name": "pɔritigalikan (Pɔritigali)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"qu": {
 		"name": "Quechua"
 	},
@@ -340,6 +355,9 @@
 	},
 	"ro": {
 		"name": "rumanikan"
+	},
+	"ro-MD": {
+		"name": "rumanikan (Molidavi)"
 	},
 	"rn": {
 		"name": "Rundi"
@@ -359,14 +377,17 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
 	"zh": {
 		"name": "siniwakan"
+	},
+	"zh-Hans": {
+		"name": "siniwakan (Hans)"
+	},
+	"zh-Hant": {
+		"name": "siniwakan (Hant)"
 	},
 	"sk": {
 		"name": "Slovak"
@@ -383,14 +404,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"ta": {
 		"name": "tamulikan"
@@ -410,14 +425,20 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"fr": {
 		"name": "tubabukan"
 	},
+	"fr-CA": {
+		"name": "tubabukan (Kanada)"
+	},
+	"fr-CH": {
+		"name": "tubabukan (Suwisi)"
+	},
 	"tr": {
 		"name": "turikikan"
+	},
+	"tk": {
+		"name": "Turkmen"
 	},
 	"uk": {
 		"name": "ukɛrɛnikan"
@@ -433,6 +454,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

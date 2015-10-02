@@ -14,12 +14,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -47,20 +41,20 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"ca": {
 		"name": "Catalan"
 	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
+	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -80,9 +74,6 @@
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
@@ -91,9 +82,6 @@
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -206,11 +194,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -223,6 +208,9 @@
 	},
 	"naq": {
 		"name": "Nama"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -263,14 +251,35 @@
 	"zh": {
 		"name": "Oruchaina"
 	},
+	"zh-Hans": {
+		"name": "Oruchaina (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Oruchaina (Hant)"
+	},
 	"nl": {
 		"name": "Orudaaki"
+	},
+	"nl-BE": {
+		"name": "Orudaaki (Bubirigi)"
 	},
 	"fr": {
 		"name": "Orufaransa"
 	},
+	"fr-CA": {
+		"name": "Orufaransa (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Orufaransa (Swisi)"
+	},
 	"de": {
 		"name": "Orugirimaani"
+	},
+	"de-AT": {
+		"name": "Orugirimaani (Osituria)"
+	},
+	"de-CH": {
+		"name": "Orugirimaani (Swisi)"
 	},
 	"el": {
 		"name": "Oruguriiki"
@@ -323,6 +332,15 @@
 	"en": {
 		"name": "Orungyereza"
 	},
+	"en-GB": {
+		"name": "Orungyereza (Bungyereza)"
+	},
+	"en-CA": {
+		"name": "Orungyereza (Kanada)"
+	},
+	"en-AU": {
+		"name": "Orungyereza (Ositureeriya)"
+	},
 	"rw": {
 		"name": "Orunyarwanda"
 	},
@@ -331,6 +349,9 @@
 	},
 	"pt": {
 		"name": "Orupocugo"
+	},
+	"pt-PT": {
+		"name": "Orupocugo (Pocugo)"
 	},
 	"pl": {
 		"name": "Orupoori"
@@ -341,6 +362,9 @@
 	"ro": {
 		"name": "Oruromania"
 	},
+	"ro-MD": {
+		"name": "Oruromania (Moridova)"
+	},
 	"ru": {
 		"name": "Orurrasha"
 	},
@@ -349,6 +373,9 @@
 	},
 	"es": {
 		"name": "Orusupaani"
+	},
+	"es-MX": {
+		"name": "Orusupaani (Mexico)"
 	},
 	"sv": {
 		"name": "Oruswidi"
@@ -370,6 +397,9 @@
 	},
 	"zu": {
 		"name": "Oruzuru"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"qu": {
 		"name": "Quechua"
@@ -398,9 +428,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -413,14 +440,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"twq": {
 		"name": "Tasawaq"
@@ -434,8 +455,8 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "Turkmen"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"
@@ -445,6 +466,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

@@ -17,6 +17,15 @@
 	"en": {
 		"name": "Anglëe"
 	},
+	"en-CA": {
+		"name": "Anglëe (Kanadäa)"
+	},
+	"en-GB": {
+		"name": "Anglëe (Ködörögbïä--Ôko)"
+	},
+	"en-AU": {
+		"name": "Anglëe (Ostralïi, Sotralïi)"
+	},
 	"ar": {
 		"name": "Arâbo"
 	},
@@ -25,12 +34,6 @@
 	},
 	"ast": {
 		"name": "Asturian"
-	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
 	},
 	"az": {
 		"name": "Azerbaijani"
@@ -65,17 +68,8 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "Bulugäri"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"ca": {
 		"name": "Catalan"
@@ -83,8 +77,17 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -107,20 +110,26 @@
 	"es": {
 		"name": "Espanyöl"
 	},
+	"es-MX": {
+		"name": "Espanyöl (Mekisîki)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
 	"fr": {
 		"name": "Farânzi"
+	},
+	"fr-CA": {
+		"name": "Farânzi (Kanadäa)"
+	},
+	"fr-CH": {
+		"name": "Farânzi (Sûîsi)"
 	},
 	"fo": {
 		"name": "Faroese"
@@ -130,9 +139,6 @@
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -169,6 +175,9 @@
 	},
 	"nl": {
 		"name": "Holandëe"
+	},
+	"nl-BE": {
+		"name": "Holandëe (Bêleze, Belezîki)"
 	},
 	"hu": {
 		"name": "Hongruäa"
@@ -272,14 +281,11 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"my": {
 		"name": "Miamära, Birimäni"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -295,6 +301,9 @@
 	},
 	"ne": {
 		"name": "Nepalëe"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -323,6 +332,12 @@
 	"pt": {
 		"name": "Portugëe, Pûra"
 	},
+	"pt-PT": {
+		"name": "Portugëe, Pûra (Pörtugäle, Ködörö Pûra)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"qu": {
 		"name": "Quechua"
 	},
@@ -337,6 +352,9 @@
 	},
 	"ro": {
 		"name": "Rumëen"
+	},
+	"ro-MD": {
+		"name": "Rumëen (Moldavùii)"
 	},
 	"rn": {
 		"name": "Rundi"
@@ -360,7 +378,10 @@
 		"name": "Shinuäa"
 	},
 	"zh-Hans": {
-		"name": "Simplified Chinese"
+		"name": "Shinuäa (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Shinuäa (Hant)"
 	},
 	"si": {
 		"name": "Sinhala"
@@ -380,14 +401,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"ta": {
 		"name": "Tämûli"
@@ -407,8 +422,8 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "Turkmen"
 	},
 	"tr": {
 		"name": "Tûrûku"
@@ -434,6 +449,9 @@
 	"vi": {
 		"name": "Vietnäm"
 	},
+	"vo": {
+		"name": "Volapük"
+	},
 	"wae": {
 		"name": "Walser"
 	},
@@ -454,6 +472,12 @@
 	},
 	"de": {
 		"name": "Zâmani"
+	},
+	"de-AT": {
+		"name": "Zâmani (Otrîsi)"
+	},
+	"de-CH": {
+		"name": "Zâmani (Sûîsi)"
 	},
 	"ja": {
 		"name": "Zaponëe"

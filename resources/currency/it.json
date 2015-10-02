@@ -10,10 +10,10 @@
 		"symbol": "฿"
 	},
 	"PAB": {
-		"name": "balboa di Panama"
+		"name": "balboa panamense"
 	},
 	"ETB": {
-		"name": "birr etiopico"
+		"name": "birr etiope"
 	},
 	"VEF": {
 		"name": "bolívar venezuelano"
@@ -49,7 +49,10 @@
 		"name": "corona svedese"
 	},
 	"GMD": {
-		"name": "dalasi del Gambia"
+		"name": "dalasi gambiano"
+	},
+	"MKD": {
+		"name": "denar macedone"
 	},
 	"DZD": {
 		"name": "dinaro algerino"
@@ -68,9 +71,6 @@
 	},
 	"LYD": {
 		"name": "dinaro libico"
-	},
-	"MKD": {
-		"name": "dinaro macedone"
 	},
 	"RSD": {
 		"name": "dinaro serbo"
@@ -96,7 +96,7 @@
 		"symbol": "CA$"
 	},
 	"XCD": {
-		"name": "dollaro dei Caraibi Orientali",
+		"name": "dollaro dei Caraibi orientali",
 		"symbol": "EC$"
 	},
 	"BZD": {
@@ -104,6 +104,9 @@
 	},
 	"BND": {
 		"name": "dollaro del Brunei"
+	},
+	"SRD": {
+		"name": "dollaro del Suriname"
 	},
 	"GYD": {
 		"name": "dollaro della Guyana"
@@ -121,7 +124,7 @@
 		"name": "dollaro delle Isole Cayman"
 	},
 	"SBD": {
-		"name": "dollaro delle Isole Solomon"
+		"name": "dollaro delle Isole Salomone"
 	},
 	"BBD": {
 		"name": "dollaro di Barbados"
@@ -152,9 +155,6 @@
 		"name": "dollaro statunitense",
 		"symbol": "US$"
 	},
-	"SRD": {
-		"name": "dollaro surinamese"
-	},
 	"ZWL": {
 		"name": "dollaro zimbabwiano (2009)"
 	},
@@ -166,14 +166,14 @@
 		"name": "dram armeno"
 	},
 	"CVE": {
-		"name": "escudo del Capo Verde"
+		"name": "escudo capoverdiano"
 	},
 	"EUR": {
 		"name": "euro",
 		"symbol": "€"
 	},
 	"ANG": {
-		"name": "fiorino delle Antille Olandesi"
+		"name": "fiorino delle Antille olandesi"
 	},
 	"AWG": {
 		"name": "fiorino di Aruba"
@@ -194,7 +194,7 @@
 		"symbol": "CFPF"
 	},
 	"KMF": {
-		"name": "franco Comoriano"
+		"name": "franco comoriano"
 	},
 	"CDF": {
 		"name": "franco congolese"
@@ -206,7 +206,7 @@
 		"name": "franco della Guinea"
 	},
 	"DJF": {
-		"name": "franco gibutiano"
+		"name": "franco di Gibuti"
 	},
 	"RWF": {
 		"name": "franco ruandese"
@@ -221,10 +221,10 @@
 		"name": "grivnia ucraina"
 	},
 	"PYG": {
-		"name": "guaraní del Paraguay"
+		"name": "guaraní paraguayano"
 	},
 	"PGK": {
-		"name": "kina della Papua Nuova Guinea"
+		"name": "kina papuana"
 	},
 	"LAK": {
 		"name": "kip laotiano"
@@ -287,7 +287,7 @@
 		"name": "manat turkmeno"
 	},
 	"BAM": {
-		"name": "marco conv. Bosnia-Erzegovina"
+		"name": "marco convertibile della Bosnia-Herzegovina"
 	},
 	"MZN": {
 		"name": "metical mozambicano"
@@ -299,7 +299,7 @@
 		"name": "nakfa eritreo"
 	},
 	"BTN": {
-		"name": "ngultrum butanese"
+		"name": "ngultrum bhutanese"
 	},
 	"TWD": {
 		"name": "nuovo dollaro taiwanese"
@@ -308,11 +308,14 @@
 		"name": "nuovo siclo israeliano",
 		"symbol": "₪"
 	},
+	"PEN": {
+		"name": "nuovo sol peruviano"
+	},
 	"MRO": {
 		"name": "ouguiya della Mauritania"
 	},
 	"TOP": {
-		"name": "paʻanga di Tonga"
+		"name": "paʻanga tongano"
 	},
 	"MOP": {
 		"name": "pataca di Macao"
@@ -332,17 +335,17 @@
 	"CUC": {
 		"name": "peso cubano convertibile"
 	},
-	"PHP": {
-		"name": "peso delle Filippine"
-	},
 	"DOP": {
 		"name": "peso dominicano"
+	},
+	"PHP": {
+		"name": "peso filippino"
 	},
 	"MXN": {
 		"name": "peso messicano"
 	},
 	"UYU": {
-		"name": "peso uruguaiano"
+		"name": "peso uruguayano"
 	},
 	"BWP": {
 		"name": "pula del Botswana"
@@ -360,20 +363,20 @@
 		"name": "renminbi cinese",
 		"symbol": "CN¥"
 	},
-	"QAR": {
-		"name": "rial del Qatar"
-	},
-	"OMR": {
-		"name": "rial dell’Oman"
-	},
 	"IRR": {
 		"name": "rial iraniano"
+	},
+	"OMR": {
+		"name": "rial omanita"
+	},
+	"QAR": {
+		"name": "rial qatariano"
 	},
 	"KHR": {
 		"name": "riel cambogiano"
 	},
 	"MYR": {
-		"name": "ringgit della Malesia"
+		"name": "ringgit malese"
 	},
 	"SAR": {
 		"name": "riyal saudita"
@@ -389,9 +392,6 @@
 	},
 	"MVR": {
 		"name": "rufiyaa delle Maldive"
-	},
-	"PKR": {
-		"name": "rupia del Pakistan"
 	},
 	"SCR": {
 		"name": "rupia delle Seychelles"
@@ -412,6 +412,9 @@
 	"NPR": {
 		"name": "rupia nepalese"
 	},
+	"PKR": {
+		"name": "rupia pakistana"
+	},
 	"TZS": {
 		"name": "scellino della Tanzania"
 	},
@@ -424,14 +427,15 @@
 	"UGX": {
 		"name": "scellino ugandese"
 	},
-	"PEN": {
-		"name": "sol nuevo peruviano"
-	},
 	"KGS": {
-		"name": "som Kirghiso"
+		"name": "som kirghiso"
 	},
 	"TJS": {
-		"name": "somoni del Tajikistan"
+		"name": "somoni tagiko"
+	},
+	"GBP": {
+		"name": "sterlina britannica",
+		"symbol": "£"
 	},
 	"FKP": {
 		"name": "sterlina delle Falkland"
@@ -445,24 +449,20 @@
 	"EGP": {
 		"name": "sterlina egiziana"
 	},
-	"GBP": {
-		"name": "sterlina inglese",
-		"symbol": "£"
+	"SSP": {
+		"name": "sterlina sud-sudanese"
 	},
 	"SDG": {
 		"name": "sterlina sudanese"
 	},
-	"SSP": {
-		"name": "sterlina sudsudanese"
-	},
 	"UZS": {
-		"name": "sum dell’Uzbekistan"
+		"name": "sum uzbeco"
 	},
 	"BDT": {
 		"name": "taka bangladese"
 	},
 	"WST": {
-		"name": "tala della Samoa Occidentale"
+		"name": "tala samoano"
 	},
 	"KZT": {
 		"name": "tenge kazako"

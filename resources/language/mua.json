@@ -23,12 +23,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -65,17 +59,8 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "bulgaria"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"ca": {
 		"name": "Catalan"
@@ -83,8 +68,17 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -101,14 +95,14 @@
 	"es": {
 		"name": "Espaniya"
 	},
+	"es-MX": {
+		"name": "Espaniya (Mexiko)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "Estonian"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -118,9 +112,6 @@
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -139,6 +130,12 @@
 	},
 	"de": {
 		"name": "germaŋ"
+	},
+	"de-AT": {
+		"name": "germaŋ (austriya)"
+	},
+	"de-CH": {
+		"name": "germaŋ (Sǝr Swiss)"
 	},
 	"el": {
 		"name": "grek"
@@ -266,11 +263,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -286,6 +280,9 @@
 	},
 	"ne": {
 		"name": "Nepaliya"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -314,11 +311,17 @@
 	"pl": {
 		"name": "Poloniya"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"qu": {
 		"name": "Quechua"
 	},
 	"ro": {
 		"name": "Romaniya"
+	},
+	"ro-MD": {
+		"name": "Romaniya (Moldoviya)"
 	},
 	"rm": {
 		"name": "Romansh"
@@ -344,9 +347,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -365,14 +365,8 @@
 	"sv": {
 		"name": "Swedia"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"cs": {
 		"name": "syekya"
@@ -395,11 +389,11 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"tr": {
 		"name": "Turk"
+	},
+	"tk": {
+		"name": "Turkmen"
 	},
 	"uk": {
 		"name": "Ukrainia"
@@ -418,6 +412,9 @@
 	},
 	"vi": {
 		"name": "Vietnamiya"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"
@@ -440,8 +437,23 @@
 	"en": {
 		"name": "zah Anglofoŋ"
 	},
+	"en-AU": {
+		"name": "zah Anglofoŋ (australiya)"
+	},
+	"en-CA": {
+		"name": "zah Anglofoŋ (kanada)"
+	},
+	"en-GB": {
+		"name": "zah Anglofoŋ (Sǝr Anglofoŋ)"
+	},
 	"fr": {
 		"name": "zah sǝr Franssǝ"
+	},
+	"fr-CA": {
+		"name": "zah sǝr Franssǝ (kanada)"
+	},
+	"fr-CH": {
+		"name": "zah sǝr Franssǝ (Sǝr Swiss)"
 	},
 	"ja": {
 		"name": "zah sǝr Japoŋ"
@@ -449,14 +461,26 @@
 	"nl": {
 		"name": "zah sǝr ma kasǝŋ"
 	},
+	"nl-BE": {
+		"name": "zah sǝr ma kasǝŋ (belgika)"
+	},
 	"pt": {
 		"name": "Zah sǝr Portugal"
+	},
+	"pt-PT": {
+		"name": "Zah sǝr Portugal (Sǝr Portugal)"
 	},
 	"rw": {
 		"name": "Zah sǝr Rwanda"
 	},
 	"zh": {
 		"name": "zah Syiŋ"
+	},
+	"zh-Hans": {
+		"name": "zah Syiŋ (Hans)"
+	},
+	"zh-Hant": {
+		"name": "zah Syiŋ (Hant)"
 	},
 	"dje": {
 		"name": "Zarma"

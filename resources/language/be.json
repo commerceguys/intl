@@ -1,6 +1,12 @@
 {
+	"agq": {
+		"name": "агем"
+	},
 	"az": {
 		"name": "азербайджанская"
+	},
+	"ak": {
+		"name": "акан"
 	},
 	"sq": {
 		"name": "албанская"
@@ -14,6 +20,9 @@
 	"en-AU": {
 		"name": "англійская (аўстрал.)"
 	},
+	"en-GB": {
+		"name": "англійская (Вялікабрытанія)"
+	},
 	"en-CA": {
 		"name": "англійская (канад.)"
 	},
@@ -22,6 +31,9 @@
 	},
 	"hy": {
 		"name": "армянская"
+	},
+	"om": {
+		"name": "арома"
 	},
 	"ast": {
 		"name": "астурыйская"
@@ -32,17 +44,32 @@
 	"bg": {
 		"name": "балгарская"
 	},
+	"bm": {
+		"name": "бамбара"
+	},
 	"eu": {
 		"name": "баскская"
 	},
 	"bs": {
 		"name": "баснійская"
 	},
+	"ksf": {
+		"name": "бафія"
+	},
 	"be": {
 		"name": "беларуская"
 	},
+	"bez": {
+		"name": "бена"
+	},
 	"bn": {
 		"name": "бенгальская"
+	},
+	"my": {
+		"name": "бірманская"
+	},
+	"brx": {
+		"name": "бода"
 	},
 	"br": {
 		"name": "брэтонская"
@@ -56,29 +83,56 @@
 	"hu": {
 		"name": "венгерская"
 	},
+	"hsb": {
+		"name": "верхнелужыцкая"
+	},
+	"haw": {
+		"name": "гавайская"
+	},
 	"nl": {
 		"name": "галандская"
 	},
 	"gl": {
 		"name": "галісійская"
 	},
+	"lg": {
+		"name": "ганда"
+	},
 	"ka": {
 		"name": "грузінская"
 	},
 	"el": {
-		"name": "грэцкая"
+		"name": "грэчаская"
 	},
 	"gu": {
-		"name": "гуяраці"
+		"name": "гуджараці"
 	},
 	"da": {
 		"name": "дацкая"
 	},
+	"dz": {
+		"name": "дзонгкха"
+	},
+	"dyo": {
+		"name": "дыёла-фон’і"
+	},
+	"yo": {
+		"name": "ёруба"
+	},
+	"dje": {
+		"name": "зарма"
+	},
 	"zu": {
 		"name": "зулу"
 	},
+	"ig": {
+		"name": "ігба"
+	},
 	"yi": {
 		"name": "ідыш"
+	},
+	"smn": {
+		"name": "інары-саамская"
 	},
 	"id": {
 		"name": "інданезійская"
@@ -92,26 +146,62 @@
 	"es": {
 		"name": "іспанская"
 	},
+	"es-MX": {
+		"name": "іспанская (мексікан.)"
+	},
 	"it": {
 		"name": "італьянская"
 	},
 	"he": {
 		"name": "іўрыт"
 	},
+	"kab": {
+		"name": "кабільская"
+	},
+	"kea": {
+		"name": "кабувердзьяну"
+	},
 	"kk": {
 		"name": "казахская"
 	},
 	"kn": {
-		"name": "каннада"
+		"name": "канада"
 	},
 	"ko": {
 		"name": "карэйская"
 	},
 	"ca": {
-		"name": "каталонская"
+		"name": "каталанская"
+	},
+	"ks": {
+		"name": "кашмірская"
+	},
+	"qu": {
+		"name": "кечуа"
+	},
+	"rw": {
+		"name": "кіньяруанда"
+	},
+	"ky": {
+		"name": "кіргізская"
 	},
 	"zh": {
 		"name": "кітайская"
+	},
+	"khq": {
+		"name": "койра чыіні"
+	},
+	"ses": {
+		"name": "койрабара сенні"
+	},
+	"kok": {
+		"name": "конкані"
+	},
+	"km": {
+		"name": "кхмерская"
+	},
+	"lkt": {
+		"name": "лакота"
 	},
 	"lo": {
 		"name": "лаоская"
@@ -122,14 +212,35 @@
 	"lt": {
 		"name": "літоўская"
 	},
+	"luo": {
+		"name": "луа"
+	},
+	"lu": {
+		"name": "луба-катанга"
+	},
+	"luy": {
+		"name": "луя"
+	},
+	"lb": {
+		"name": "люксембургская"
+	},
+	"mzn": {
+		"name": "мазандэранская"
+	},
 	"mk": {
 		"name": "македонская"
+	},
+	"mgh": {
+		"name": "макуа-меета"
+	},
+	"mg": {
+		"name": "малагасійская"
 	},
 	"ms": {
 		"name": "малайская"
 	},
 	"ml": {
-		"name": "малаяламская"
+		"name": "малаялам"
 	},
 	"ro-MD": {
 		"name": "малдаўская"
@@ -143,14 +254,35 @@
 	"mr": {
 		"name": "маратхі"
 	},
+	"mas": {
+		"name": "масаі"
+	},
+	"mfe": {
+		"name": "маўрыкійская"
+	},
+	"tzm": {
+		"name": "мовы тамазігхтаў"
+	},
+	"mua": {
+		"name": "мунданг"
+	},
+	"naq": {
+		"name": "нама"
+	},
+	"nb": {
+		"name": "нарвежская (букмал)"
+	},
 	"nn": {
 		"name": "нарвежская (нюнорск)"
 	},
-	"nb": {
-		"name": "нарвэская букмал"
-	},
 	"ne": {
 		"name": "непальская"
+	},
+	"dsb": {
+		"name": "ніжнелужыцкая"
+	},
+	"nyn": {
+		"name": "ньянколе"
 	},
 	"de": {
 		"name": "нямецкая"
@@ -161,23 +293,50 @@
 	"de-CH": {
 		"name": "нямецкая (швейц.)"
 	},
+	"or": {
+		"name": "орыя"
+	},
 	"pa": {
 		"name": "панджабі"
 	},
 	"pt": {
 		"name": "партугальская"
 	},
+	"pt-PT": {
+		"name": "партугальская (еўрап.)"
+	},
+	"se": {
+		"name": "паўночнасаамская"
+	},
+	"lrc": {
+		"name": "паўночны луры"
+	},
 	"pl": {
 		"name": "польская"
+	},
+	"rof": {
+		"name": "ромба"
 	},
 	"ro": {
 		"name": "румынская"
 	},
+	"rn": {
+		"name": "рундзі"
+	},
 	"ru": {
 		"name": "руская"
 	},
+	"rm": {
+		"name": "рэтараманская"
+	},
 	"so": {
 		"name": "самалійская"
+	},
+	"sg": {
+		"name": "санга"
+	},
+	"seh": {
+		"name": "сена"
 	},
 	"sr": {
 		"name": "сербская"
@@ -203,8 +362,17 @@
 	"ta": {
 		"name": "тамільская"
 	},
+	"to": {
+		"name": "танганская"
+	},
+	"twq": {
+		"name": "тасавак"
+	},
 	"zh-Hant": {
 		"name": "традыцыйная кітайская"
+	},
+	"tk": {
+		"name": "туркменская"
 	},
 	"tr": {
 		"name": "турэцкая"
@@ -254,8 +422,20 @@
 	"hr": {
 		"name": "харвацкая"
 	},
+	"ha": {
+		"name": "хаўса"
+	},
 	"hi": {
 		"name": "хіндзі"
+	},
+	"ckb": {
+		"name": "цэнтральнакурдская"
+	},
+	"ce": {
+		"name": "чачэнская"
+	},
+	"cgg": {
+		"name": "чыга"
 	},
 	"cs": {
 		"name": "чэшская"
@@ -266,6 +446,12 @@
 	"sv": {
 		"name": "шведская"
 	},
+	"gsw": {
+		"name": "швейцарская нямецкая"
+	},
+	"ee": {
+		"name": "эве"
+	},
 	"eo": {
 		"name": "эсперанта"
 	},
@@ -275,50 +461,14 @@
 	"ja": {
 		"name": "японская"
 	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "Akan"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
 	"bas": {
 		"name": "Basaa"
 	},
-	"bez": {
-		"name": "Bena"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"my": {
-		"name": "Burmese"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"cgg": {
-		"name": "Chiga"
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
-	"ee": {
-		"name": "Ewe"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -326,142 +476,16 @@
 	"ff": {
 		"name": "Fulah"
 	},
-	"lg": {
-		"name": "Ganda"
+	"prg": {
+		"name": "Prussian"
 	},
-	"ha": {
-		"name": "Hausa"
-	},
-	"haw": {
-		"name": "Hawaiian"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"smn": {
-		"name": "Inari Sami"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"ks": {
-		"name": "Kashmiri"
-	},
-	"km": {
-		"name": "Khmer"
-	},
-	"rw": {
-		"name": "Kinyarwanda"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"ky": {
-		"name": "Kyrgyz"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"dsb": {
-		"name": "Lower Sorbian"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "Luxembourgish"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"mg": {
-		"name": "Malagasy"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"se": {
-		"name": "Northern Sami"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"or": {
-		"name": "Oriya"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"rm": {
-		"name": "Romansh"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rn": {
-		"name": "Rundi"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"gsw": {
-		"name": "Swiss German"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"to": {
-		"name": "Tongan"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"
 	},
 	"yav": {
 		"name": "Yangben"
-	},
-	"yo": {
-		"name": "Yoruba"
-	},
-	"dje": {
-		"name": "Zarma"
 	}
 }

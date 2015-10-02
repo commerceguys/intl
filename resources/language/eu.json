@@ -17,6 +17,9 @@
 	"de": {
 		"name": "alemana"
 	},
+	"de-AT": {
+		"name": "alemana (Austria)"
+	},
 	"gsw": {
 		"name": "alemana (Suitza)"
 	},
@@ -34,12 +37,6 @@
 	},
 	"ast": {
 		"name": "Asturian"
-	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
 	},
 	"az": {
 		"name": "azerbaijanera"
@@ -77,9 +74,6 @@
 	"br": {
 		"name": "bretoiera"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "bulgariera"
 	},
@@ -89,14 +83,14 @@
 	"kea": {
 		"name": "Cabo Verdeko kreola"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
+	"ce": {
+		"name": "Chechen"
 	},
 	"cgg": {
 		"name": "chigera"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -113,6 +107,9 @@
 	"ro": {
 		"name": "errumaniera"
 	},
+	"ro-MD": {
+		"name": "errumaniera (Moldavia)"
+	},
 	"ru": {
 		"name": "errusiera"
 	},
@@ -127,6 +124,9 @@
 	},
 	"es": {
 		"name": "espainiera"
+	},
+	"es-MX": {
+		"name": "espainiera (Mexiko)"
 	},
 	"eo": {
 		"name": "esperantoa"
@@ -154,6 +154,12 @@
 	},
 	"fr": {
 		"name": "frantsesa"
+	},
+	"fr-CA": {
+		"name": "frantsesa (Kanada)"
+	},
+	"fr-CH": {
+		"name": "frantsesa (Suitza)"
 	},
 	"fy": {
 		"name": "frisiera"
@@ -214,6 +220,15 @@
 	},
 	"en": {
 		"name": "ingelesa"
+	},
+	"en-AU": {
+		"name": "ingelesa (Australia)"
+	},
+	"en-GB": {
+		"name": "ingelesa (Erresuma Batua)"
+	},
+	"en-CA": {
+		"name": "ingelesa (Kanada)"
 	},
 	"se": {
 		"name": "iparraldeko samiera"
@@ -320,14 +335,11 @@
 	"mfe": {
 		"name": "Mauritaniako kreolera"
 	},
+	"mzn": {
+		"name": "Mazanderani"
+	},
 	"mk": {
 		"name": "mazedoniera"
-	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
 	},
 	"mn": {
 		"name": "mongoliera"
@@ -343,6 +355,9 @@
 	},
 	"ne": {
 		"name": "nepalera"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"nn": {
 		"name": "nynorsk norvegiera"
@@ -364,6 +379,9 @@
 	},
 	"pt-PT": {
 		"name": "portugesa (Europa)"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"pa": {
 		"name": "punjabera"
@@ -392,14 +410,14 @@
 	"so": {
 		"name": "somaliera"
 	},
+	"ckb": {
+		"name": "soraniera"
+	},
 	"sv": {
 		"name": "suediera"
 	},
 	"sw": {
 		"name": "swahili"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
 	},
 	"ta": {
 		"name": "tamilera"
@@ -421,6 +439,9 @@
 	},
 	"tr": {
 		"name": "turkiera"
+	},
+	"tk": {
+		"name": "turkmeniera"
 	},
 	"cs": {
 		"name": "txekiera"
@@ -448,6 +469,9 @@
 	},
 	"vi": {
 		"name": "vietnamera"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

@@ -14,12 +14,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -47,23 +41,23 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"ca": {
 		"name": "Catalan"
 	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -83,9 +77,6 @@
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
@@ -94,9 +85,6 @@
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -131,14 +119,32 @@
 	"es": {
 		"name": "Icesipanyolo"
 	},
+	"es-MX": {
+		"name": "Icesipanyolo (Migizike)"
+	},
 	"en": {
 		"name": "Icongereza"
+	},
+	"en-CA": {
+		"name": "Icongereza (Kanada)"
+	},
+	"en-AU": {
+		"name": "Icongereza (Ositaraliya)"
+	},
+	"en-GB": {
+		"name": "Icongereza (Ubwongereza)"
 	},
 	"cs": {
 		"name": "Igiceke"
 	},
 	"fr": {
 		"name": "Igifaransa"
+	},
+	"fr-CA": {
+		"name": "Igifaransa (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Igifaransa (Ubusuwisi)"
 	},
 	"ha": {
 		"name": "Igihawusa"
@@ -148,6 +154,9 @@
 	},
 	"nl": {
 		"name": "Igiholandi"
+	},
+	"nl-BE": {
+		"name": "Igiholandi (Ububiligi)"
 	},
 	"km": {
 		"name": "Igikambodiya"
@@ -161,11 +170,20 @@
 	"pt": {
 		"name": "Igiporutugari"
 	},
+	"pt-PT": {
+		"name": "Igiporutugari (Porutugali)"
+	},
 	"pa": {
 		"name": "Igipunjabi"
 	},
 	"zh": {
 		"name": "Igishinwa"
+	},
+	"zh-Hans": {
+		"name": "Igishinwa (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Igishinwa (Hant)"
 	},
 	"so": {
 		"name": "Igisomali"
@@ -190,6 +208,12 @@
 	},
 	"de": {
 		"name": "Ikidage"
+	},
+	"de-AT": {
+		"name": "Ikidage (Otirishe)"
+	},
+	"de-CH": {
+		"name": "Ikidage (Ubusuwisi)"
 	},
 	"el": {
 		"name": "Ikigereki"
@@ -223,6 +247,9 @@
 	},
 	"ro": {
 		"name": "Ikinyarumaniya"
+	},
+	"ro-MD": {
+		"name": "Ikinyarumaniya (Moludavi)"
 	},
 	"rw": {
 		"name": "Ikinyarwanda"
@@ -341,11 +368,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -358,6 +382,9 @@
 	},
 	"naq": {
 		"name": "Nama"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -376,6 +403,9 @@
 	},
 	"om": {
 		"name": "Oromo"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"qu": {
 		"name": "Quechua"
@@ -398,9 +428,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -413,14 +440,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"twq": {
 		"name": "Tasawaq"
@@ -434,8 +455,8 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "Turkmen"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"
@@ -445,6 +466,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

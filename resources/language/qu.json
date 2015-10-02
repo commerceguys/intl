@@ -14,6 +14,12 @@
 	"de": {
 		"name": "Aleman Simi"
 	},
+	"de-AT": {
+		"name": "Aleman Simi (Austria)"
+	},
+	"de-CH": {
+		"name": "Aleman Simi (Suiza)"
+	},
 	"gsw": {
 		"name": "Alsaciano Simi"
 	},
@@ -31,12 +37,6 @@
 	},
 	"ast": {
 		"name": "Asturian"
-	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
 	},
 	"az": {
 		"name": "Azerbaiyano Simi"
@@ -71,26 +71,23 @@
 	"br": {
 		"name": "Breton Simi"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "Bulgaro Simi"
 	},
 	"my": {
 		"name": "Burmese"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"ca": {
 		"name": "Catalan Simi"
 	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
+	},
+	"ckb": {
+		"name": "Chawpi Kurdo Simi"
+	},
+	"ce": {
+		"name": "Chechen"
 	},
 	"cs": {
 		"name": "Checo Simi"
@@ -103,6 +100,15 @@
 	},
 	"zh": {
 		"name": "Chino Simi"
+	},
+	"zh-Hans": {
+		"name": "Chino Simi (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Chino Simi (Hant)"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"si": {
 		"name": "Cingales Simi"
@@ -131,14 +137,14 @@
 	"es": {
 		"name": "Español Simi"
 	},
+	"es-MX": {
+		"name": "Español Simi (México)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "Estonio Simi"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"eu": {
 		"name": "Euskera Simi"
@@ -152,11 +158,14 @@
 	"fi": {
 		"name": "Fines Simi"
 	},
-	"nl-BE": {
-		"name": "Flemish"
-	},
 	"fr": {
 		"name": "Frances Simi"
+	},
+	"fr-CA": {
+		"name": "Frances Simi (CA)"
+	},
+	"fr-CH": {
+		"name": "Frances Simi (Suiza)"
 	},
 	"fy": {
 		"name": "Frison Simi"
@@ -211,6 +220,15 @@
 	},
 	"en": {
 		"name": "Ingles Simi"
+	},
+	"en-AU": {
+		"name": "Ingles Simi (Australia)"
+	},
+	"en-CA": {
+		"name": "Ingles Simi (CA)"
+	},
+	"en-GB": {
+		"name": "Ingles Simi (Reino Unido)"
 	},
 	"ga": {
 		"name": "Irlandes Simi"
@@ -311,11 +329,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongol Simi"
@@ -332,8 +347,14 @@
 	"nl": {
 		"name": "Neerlandes Simi"
 	},
+	"nl-BE": {
+		"name": "Neerlandes Simi (Bélgica)"
+	},
 	"ne": {
 		"name": "Nepali Simi"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"nb": {
 		"name": "Norwegian Bokmål"
@@ -359,6 +380,12 @@
 	"pt": {
 		"name": "Portugues Simi"
 	},
+	"pt-PT": {
+		"name": "Portugues Simi (Portugal)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"pa": {
 		"name": "Punyabi Simi"
 	},
@@ -370,6 +397,9 @@
 	},
 	"ro": {
 		"name": "Rumano Simi"
+	},
+	"ro-MD": {
+		"name": "Rumano Simi (Moldova)"
 	},
 	"qu": {
 		"name": "Runasimi"
@@ -392,9 +422,6 @@
 	"sr": {
 		"name": "Serbio Simi"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"so": {
 		"name": "Somali"
 	},
@@ -403,12 +430,6 @@
 	},
 	"sv": {
 		"name": "Sueco Simi"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"th": {
 		"name": "Tailandes Simi"
@@ -428,11 +449,11 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"tr": {
 		"name": "Turco Simi"
+	},
+	"tk": {
+		"name": "Turcomano Simi"
 	},
 	"uk": {
 		"name": "Ucraniano Simi"
@@ -448,6 +469,9 @@
 	},
 	"vi": {
 		"name": "Vietnamita Simi"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

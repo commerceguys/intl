@@ -8,23 +8,23 @@
 	"DZD": {
 		"name": "Algerian Dinar"
 	},
+	"ANG": {
+		"name": "Antillean Guilder ng Netherlands"
+	},
 	"AOA": {
 		"name": "Angolan Kwanza"
 	},
-	"ARS": {
-		"name": "Argentine Peso"
-	},
 	"AMD": {
 		"name": "Armenian Dram"
-	},
-	"AWG": {
-		"name": "Aruban Florin"
 	},
 	"AZN": {
 		"name": "Azerbaijani Manat"
 	},
 	"BHD": {
 		"name": "Bahraini Dinar"
+	},
+	"PAB": {
+		"name": "Balboa ng Panama"
 	},
 	"BDT": {
 		"name": "Bangladeshi Taka"
@@ -35,18 +35,17 @@
 	"BTN": {
 		"name": "Bhutanese Ngultrum"
 	},
+	"VEF": {
+		"name": "Bolívar ng Venezuela"
+	},
 	"BOB": {
-		"name": "Bolivian Boliviano"
+		"name": "Boliviano ng Bolivia"
 	},
 	"BAM": {
 		"name": "Bosnia-Herzegovina Convertible Mark"
 	},
 	"BWP": {
 		"name": "Botswanan Pula"
-	},
-	"BRL": {
-		"name": "Brazilian Real",
-		"symbol": "R$"
 	},
 	"GBP": {
 		"name": "British Pound",
@@ -64,13 +63,13 @@
 	"CVE": {
 		"name": "Cape Verdean Escudo"
 	},
-	"XOF": {
-		"name": "CFA Franc BCEAO",
-		"symbol": "CFA"
-	},
 	"XAF": {
 		"name": "CFA Franc BEAC",
 		"symbol": "FCFA"
+	},
+	"XOF": {
+		"name": "CFA Franc ng Kanlurang Africa",
+		"symbol": "CFA"
 	},
 	"XPF": {
 		"name": "CFP Franc",
@@ -79,6 +78,9 @@
 	"CNY": {
 		"name": "Chinese Yuan",
 		"symbol": "CN¥"
+	},
+	"CRC": {
+		"name": "Colón ng Costa Rica"
 	},
 	"KMF": {
 		"name": "Comorian Franc"
@@ -89,8 +91,8 @@
 	"CDF": {
 		"name": "Congolese Franc"
 	},
-	"CRC": {
-		"name": "Costa Rican Colón"
+	"NIO": {
+		"name": "Córdoba ng Nicaragua"
 	},
 	"HRK": {
 		"name": "Croatian Kuna"
@@ -99,7 +101,7 @@
 		"name": "Czech Republic Koruna"
 	},
 	"DKK": {
-		"name": "Denmark Krone"
+		"name": "Danish Krone"
 	},
 	"DJF": {
 		"name": "Djiboutian Franc"
@@ -190,8 +192,8 @@
 		"name": "Euro",
 		"symbol": "€"
 	},
-	"FKP": {
-		"name": "Falkland Islands Pound"
+	"AWG": {
+		"name": "Florin ng Aruba"
 	},
 	"GMD": {
 		"name": "Gambian Dalasi"
@@ -205,17 +207,11 @@
 	"GIP": {
 		"name": "Gibraltar Pound"
 	},
-	"GTQ": {
-		"name": "Guatemalan Quetzal"
+	"HTG": {
+		"name": "Gourde ng Haiti"
 	},
 	"GNF": {
 		"name": "Guinean Franc"
-	},
-	"HTG": {
-		"name": "Haitian Gourde"
-	},
-	"HNL": {
-		"name": "Honduran Lempira"
 	},
 	"HUF": {
 		"name": "Hungarian Forint"
@@ -262,8 +258,8 @@
 	"LAK": {
 		"name": "Laotian Kip"
 	},
-	"LBP": {
-		"name": "Lebanese Pound"
+	"HNL": {
+		"name": "Lempira ng Honduras"
 	},
 	"LSL": {
 		"name": "Lesotho Loti"
@@ -313,17 +309,8 @@
 	"NPR": {
 		"name": "Nepalese Rupee"
 	},
-	"ANG": {
-		"name": "Netherlands Antillean Guilder"
-	},
-	"NIO": {
-		"name": "Nicaraguan Córdoba"
-	},
 	"NGN": {
 		"name": "Nigerian Naira"
-	},
-	"KPW": {
-		"name": "North Korean Won"
 	},
 	"NOK": {
 		"name": "Norwegian Krone"
@@ -334,9 +321,6 @@
 	"PKR": {
 		"name": "Pakistani Rupee"
 	},
-	"PAB": {
-		"name": "Panamanian Balboa"
-	},
 	"PGK": {
 		"name": "Papua New Guinean Kina"
 	},
@@ -345,6 +329,9 @@
 	},
 	"PEN": {
 		"name": "Peruvian Nuevo Sol"
+	},
+	"ARS": {
+		"name": "Piso ng Argentina"
 	},
 	"CLP": {
 		"name": "Piso ng Chile"
@@ -372,8 +359,30 @@
 	"PLN": {
 		"name": "Polish Zloty"
 	},
+	"FKP": {
+		"name": "Pound ng Falkland Islands"
+	},
+	"LBP": {
+		"name": "Pound ng Lebanon"
+	},
+	"SDG": {
+		"name": "Pound ng Sudan"
+	},
+	"SSP": {
+		"name": "Pound ng Timog Sudan"
+	},
 	"QAR": {
 		"name": "Qatari Rial"
+	},
+	"GTQ": {
+		"name": "Quetzal ng Guatemala"
+	},
+	"ZAR": {
+		"name": "Rand ng Timog Africa"
+	},
+	"BRL": {
+		"name": "Real ng Barzil",
+		"symbol": "R$"
 	},
 	"RON": {
 		"name": "Romanian Leu"
@@ -394,7 +403,7 @@
 		"name": "Samoan Tala"
 	},
 	"STD": {
-		"name": "Sao Tome and Principe Dobra"
+		"name": "São Tomé & Príncipe Dobra"
 	},
 	"SAR": {
 		"name": "Saudi Riyal"
@@ -411,21 +420,8 @@
 	"SOS": {
 		"name": "Somali Shilling"
 	},
-	"ZAR": {
-		"name": "South African Rand"
-	},
-	"KRW": {
-		"name": "South Korean Won",
-		"symbol": "₩"
-	},
-	"SSP": {
-		"name": "South Sudanese Pound"
-	},
 	"LKR": {
 		"name": "Sri Lankan Rupee"
-	},
-	"SDG": {
-		"name": "Sudanese Pound"
 	},
 	"SZL": {
 		"name": "Swazi Lilangeni"
@@ -476,12 +472,16 @@
 	"VUV": {
 		"name": "Vanuatu Vatu"
 	},
-	"VEF": {
-		"name": "Venezuelan Bolívar"
-	},
 	"VND": {
 		"name": "Vietnamese Dong",
 		"symbol": "₫"
+	},
+	"KPW": {
+		"name": "Won ng Hilagang Korea"
+	},
+	"KRW": {
+		"name": "Won ng Timog Korea",
+		"symbol": "₩"
 	},
 	"YER": {
 		"name": "Yemeni Rial"

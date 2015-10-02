@@ -14,12 +14,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -47,23 +41,23 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"ca": {
 		"name": "Catalan"
 	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -83,9 +77,6 @@
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
@@ -94,9 +85,6 @@
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -200,14 +188,32 @@
 	"zh": {
 		"name": "Lucayina"
 	},
+	"zh-Hans": {
+		"name": "Lucayina (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Lucayina (Hant)"
+	},
 	"cs": {
 		"name": "Luceeke"
 	},
 	"de": {
 		"name": "Ludaaki"
 	},
+	"de-AT": {
+		"name": "Ludaaki (Awusituriya)"
+	},
+	"de-CH": {
+		"name": "Ludaaki (Switizirandi)"
+	},
 	"fr": {
 		"name": "Lufalansa"
+	},
+	"fr-CA": {
+		"name": "Lufalansa (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Lufalansa (Switizirandi)"
 	},
 	"lg": {
 		"name": "Luganda"
@@ -227,6 +233,9 @@
 	"nl": {
 		"name": "Luholandi"
 	},
+	"nl-BE": {
+		"name": "Luholandi (Bubirigi)"
+	},
 	"ja": {
 		"name": "Lujapani"
 	},
@@ -242,6 +251,9 @@
 	"ro": {
 		"name": "Lulomaniya"
 	},
+	"ro-MD": {
+		"name": "Lulomaniya (Molodova)"
+	},
 	"ms": {
 		"name": "Lumalayi"
 	},
@@ -253,6 +265,15 @@
 	},
 	"en": {
 		"name": "Lungereza"
+	},
+	"en-AU": {
+		"name": "Lungereza (Awusitureliya)"
+	},
+	"en-GB": {
+		"name": "Lungereza (Bungereza)"
+	},
+	"en-CA": {
+		"name": "Lungereza (Kanada)"
 	},
 	"luo": {
 		"name": "Luo"
@@ -266,11 +287,17 @@
 	"pt": {
 		"name": "Lupotugiizi"
 	},
+	"pt-PT": {
+		"name": "Lupotugiizi (Potugaali)"
+	},
 	"pa": {
 		"name": "Lupunjabi"
 	},
 	"es": {
 		"name": "Lusipanya"
+	},
+	"es-MX": {
+		"name": "Lusipanya (Mekisiko)"
 	},
 	"so": {
 		"name": "Lusomaliya"
@@ -338,11 +365,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -355,6 +379,9 @@
 	},
 	"naq": {
 		"name": "Nama"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -373,6 +400,9 @@
 	},
 	"om": {
 		"name": "Oromo"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"qu": {
 		"name": "Quechua"
@@ -398,9 +428,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -413,14 +440,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"twq": {
 		"name": "Tasawaq"
@@ -434,8 +455,8 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
+	"tk": {
+		"name": "Turkmen"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"
@@ -445,6 +466,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

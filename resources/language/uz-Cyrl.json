@@ -8,12 +8,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"ksf": {
 		"name": "Bafia"
 	},
@@ -32,29 +26,26 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
 	},
 	"dz": {
 		"name": "Dzongkha"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -113,11 +104,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -131,6 +119,9 @@
 	"naq": {
 		"name": "Nama"
 	},
+	"lrc": {
+		"name": "Northern Luri"
+	},
 	"se": {
 		"name": "Northern Sami"
 	},
@@ -139,6 +130,9 @@
 	},
 	"om": {
 		"name": "Oromo"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"rof": {
 		"name": "Rombo"
@@ -155,23 +149,14 @@
 	"seh": {
 		"name": "Sena"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
-	},
 	"twq": {
 		"name": "Tasawaq"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"hsb": {
 		"name": "Upper Sorbian"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"
@@ -260,6 +245,15 @@
 	"en": {
 		"name": "Инглизча"
 	},
+	"en-AU": {
+		"name": "Инглизча (Австралия)"
+	},
+	"en-GB": {
+		"name": "Инглизча (Бирлашган Қироллик)"
+	},
+	"en-CA": {
+		"name": "Инглизча (Канада)"
+	},
 	"id": {
 		"name": "Индонезияча"
 	},
@@ -271,6 +265,9 @@
 	},
 	"es": {
 		"name": "Испанча"
+	},
+	"es-MX": {
+		"name": "Испанча (Мексика)"
 	},
 	"it": {
 		"name": "Италянча"
@@ -344,6 +341,12 @@
 	"de": {
 		"name": "Олмонча"
 	},
+	"de-AT": {
+		"name": "Олмонча (Австрия)"
+	},
+	"de-CH": {
+		"name": "Олмонча (Швейцария)"
+	},
 	"or": {
 		"name": "Ория"
 	},
@@ -356,11 +359,17 @@
 	"pt": {
 		"name": "Португалча"
 	},
+	"pt-PT": {
+		"name": "Португалча (Португалия)"
+	},
 	"rm": {
 		"name": "Романча"
 	},
 	"ro": {
 		"name": "Руминча"
+	},
+	"ro-MD": {
+		"name": "Руминча (Молдова)"
 	},
 	"ru": {
 		"name": "Русча"
@@ -398,6 +407,9 @@
 	"to": {
 		"name": "Тонгоча"
 	},
+	"tk": {
+		"name": "Туркманча"
+	},
 	"tr": {
 		"name": "Туркча"
 	},
@@ -431,11 +443,23 @@
 	"fr": {
 		"name": "Французча"
 	},
+	"fr-CA": {
+		"name": "Французча (Канада)"
+	},
+	"fr-CH": {
+		"name": "Французча (Швейцария)"
+	},
 	"ha": {
 		"name": "Хауса"
 	},
 	"zh": {
 		"name": "Хитойча"
+	},
+	"zh-Hant": {
+		"name": "Хитойча (Анъанавий)"
+	},
+	"zh-Hans": {
+		"name": "Хитойча (Соддалаштирилган)"
 	},
 	"km": {
 		"name": "Хмерча"

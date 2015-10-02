@@ -32,12 +32,6 @@
 	"ast": {
 		"name": "asturiagiella"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -68,20 +62,11 @@
 	"br": {
 		"name": "bretonagiella"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
 	"bg": {
 		"name": "bulgáriagiella"
 	},
 	"my": {
 		"name": "burmagiella"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"cs": {
 		"name": "čeahkagiella"
@@ -89,8 +74,17 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -104,6 +98,12 @@
 	"de": {
 		"name": "duiskkagiella"
 	},
+	"de-AT": {
+		"name": "duiskkagiella (Nuortariika)"
+	},
+	"de-CH": {
+		"name": "duiskkagiella (Šveica)"
+	},
 	"tr": {
 		"name": "durkagiella"
 	},
@@ -113,14 +113,20 @@
 	"en": {
 		"name": "eaŋgalsgiella"
 	},
+	"en-AU": {
+		"name": "eaŋgalsgiella (Austrália)"
+	},
+	"en-CA": {
+		"name": "eaŋgalsgiella (Kanáda)"
+	},
+	"en-GB": {
+		"name": "eaŋgalsgiella (Stuorra-Británnia)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "esttegiella"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -128,11 +134,14 @@
 	"fo": {
 		"name": "fearagiella"
 	},
-	"nl-BE": {
-		"name": "Flemish"
-	},
 	"fr": {
 		"name": "fránskkagiella"
+	},
+	"fr-CA": {
+		"name": "fránskkagiella (Kanáda)"
+	},
+	"fr-CH": {
+		"name": "fránskkagiella (Šveica)"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -172,6 +181,9 @@
 	},
 	"nl": {
 		"name": "hollánddagiella"
+	},
+	"nl-BE": {
+		"name": "hollánddagiella (Belgia)"
 	},
 	"ig": {
 		"name": "Igbo"
@@ -293,11 +305,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "mongoliagiella"
@@ -313,6 +322,9 @@
 	},
 	"ne": {
 		"name": "nepaligiella"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"nyn": {
 		"name": "Nyankole"
@@ -341,11 +353,20 @@
 	"pt": {
 		"name": "portugálagiella"
 	},
+	"pt-PT": {
+		"name": "portugálagiella (Portugála)"
+	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"qu": {
 		"name": "Quechua"
 	},
 	"ro": {
 		"name": "romániagiella"
+	},
+	"ro-MD": {
+		"name": "romániagiella (Moldávia)"
 	},
 	"rm": {
 		"name": "romanšgiella"
@@ -389,20 +410,17 @@
 	"es": {
 		"name": "spánskkagiella"
 	},
+	"es-MX": {
+		"name": "spánskkagiella (Meksiko)"
+	},
 	"fi": {
 		"name": "suomagiella"
 	},
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"ta": {
 		"name": "Tamil"
@@ -418,6 +436,9 @@
 	},
 	"to": {
 		"name": "Tongan"
+	},
+	"tk": {
+		"name": "Turkmen"
 	},
 	"th": {
 		"name": "ŧaigiella"
@@ -445,6 +466,9 @@
 	},
 	"be": {
 		"name": "vilges-ruoššagiella"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

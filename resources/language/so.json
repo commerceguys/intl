@@ -17,12 +17,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"am": {
 		"name": "Axmaari"
 	},
@@ -59,14 +53,14 @@
 	"pt": {
 		"name": "Boortaqiis"
 	},
+	"pt-PT": {
+		"name": "Boortaqiis (Bortuqaal)"
+	},
 	"bs": {
 		"name": "Bosnian"
 	},
 	"br": {
 		"name": "Breton"
-	},
-	"en-GB": {
-		"name": "British English"
 	},
 	"bg": {
 		"name": "Bulgeeriyaan"
@@ -77,12 +71,6 @@
 	"my": {
 		"name": "Burmese"
 	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"ar": {
 		"name": "Carabi"
 	},
@@ -92,8 +80,17 @@
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -113,9 +110,6 @@
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
@@ -124,6 +118,12 @@
 	},
 	"fr": {
 		"name": "Faransiis"
+	},
+	"fr-CA": {
+		"name": "Faransiis (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Faransiis (Swiiserlaand)"
 	},
 	"fo": {
 		"name": "Faroese"
@@ -136,9 +136,6 @@
 	},
 	"fy": {
 		"name": "Firiisiyan Galbeed"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -179,6 +176,9 @@
 	"nl": {
 		"name": "Holandays"
 	},
+	"nl-BE": {
+		"name": "Holandays (Biljam)"
+	},
 	"is": {
 		"name": "Icelandic"
 	},
@@ -194,11 +194,23 @@
 	"en": {
 		"name": "Ingiriisi"
 	},
+	"en-AU": {
+		"name": "Ingiriisi (Awstaraaliya)"
+	},
+	"en-CA": {
+		"name": "Ingiriisi (Kanada)"
+	},
+	"en-GB": {
+		"name": "Ingiriisi (United Kingdom)"
+	},
 	"ga": {
 		"name": "Irish"
 	},
 	"es": {
 		"name": "Isbaanish"
+	},
+	"es-MX": {
+		"name": "Isbaanish (Meksiko)"
 	},
 	"ja": {
 		"name": "Jabbaaniis"
@@ -206,8 +218,20 @@
 	"de": {
 		"name": "Jarmal"
 	},
+	"de-AT": {
+		"name": "Jarmal (Awsteriya)"
+	},
+	"de-CH": {
+		"name": "Jarmal (Swiiserlaand)"
+	},
 	"zh": {
 		"name": "Jayniis"
+	},
+	"zh-Hans": {
+		"name": "Jayniis (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Jayniis (Hant)"
 	},
 	"cs": {
 		"name": "Jeeg"
@@ -299,11 +323,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -319,6 +340,9 @@
 	},
 	"ne": {
 		"name": "Nebaali"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -338,11 +362,17 @@
 	"om": {
 		"name": "Oromo"
 	},
+	"prg": {
+		"name": "Prussian"
+	},
 	"qu": {
 		"name": "Quechua"
 	},
 	"ro": {
 		"name": "Romanka"
+	},
+	"ro-MD": {
+		"name": "Romanka (Moldofa)"
 	},
 	"rm": {
 		"name": "Romansh"
@@ -371,9 +401,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -392,14 +419,8 @@
 	"sv": {
 		"name": "Swiidhis"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"th": {
 		"name": "Taaylandays"
@@ -422,11 +443,11 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"tr": {
 		"name": "Turkish"
+	},
+	"tk": {
+		"name": "Turkmen"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"
@@ -439,6 +460,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

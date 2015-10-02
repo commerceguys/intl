@@ -1,12 +1,4 @@
 {
-	"XOF": {
-		"name": "CFA フラン（BCEAO）",
-		"symbol": "CFA"
-	},
-	"XAF": {
-		"name": "CFA フラン（BEAC）",
-		"symbol": "FCFA"
-	},
 	"XPF": {
 		"name": "CFP フラン",
 		"symbol": "CFPF"
@@ -135,9 +127,6 @@
 	"KWD": {
 		"name": "クウェート ディナール"
 	},
-	"GEL": {
-		"name": "グルジア ラリ"
-	},
 	"HRK": {
 		"name": "クロアチア クーナ"
 	},
@@ -185,6 +174,9 @@
 	},
 	"JMD": {
 		"name": "ジャマイカ ドル"
+	},
+	"GEL": {
+		"name": "ジョージア ラリ"
 	},
 	"SYP": {
 		"name": "シリア ポンド"
@@ -453,7 +445,7 @@
 	},
 	"KRW": {
 		"name": "韓国 ウォン",
-		"symbol": "￦"
+		"symbol": "₩"
 	},
 	"HKD": {
 		"name": "香港ドル",
@@ -465,6 +457,14 @@
 	"TWD": {
 		"name": "新台湾ドル",
 		"symbol": "NT$"
+	},
+	"XOF": {
+		"name": "西アフリカ CFA フラン",
+		"symbol": "CFA"
+	},
+	"XAF": {
+		"name": "中央アフリカ CFA フラン",
+		"symbol": "FCFA"
 	},
 	"CNY": {
 		"name": "中国人民元",

@@ -180,7 +180,8 @@
 		"name": "fòrint hongarès"
 	},
 	"XOF": {
-		"name": "franc CFA BCEAO"
+		"name": "franc CFA BCEAO",
+		"symbol": "CFA"
 	},
 	"XAF": {
 		"name": "franc CFA BEAC",
@@ -276,10 +277,6 @@
 	"TRY": {
 		"name": "lira turca"
 	},
-	"GBP": {
-		"name": "lliura britànica",
-		"symbol": "£"
-	},
 	"GIP": {
 		"name": "lliura de Gibraltar"
 	},
@@ -294,6 +291,10 @@
 	},
 	"EGP": {
 		"name": "lliura egípcia"
+	},
+	"GBP": {
+		"name": "lliura esterlina britànica",
+		"symbol": "£"
 	},
 	"LBP": {
 		"name": "lliura libanesa"

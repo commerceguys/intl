@@ -2,38 +2,17 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"bas": {
 		"name": "Basaa"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
 	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
 	},
+	"cu": {
+		"name": "Church Slavic"
+	},
 	"ksh": {
 		"name": "Colognian"
-	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -92,6 +71,9 @@
 	"bn": {
 		"name": "Kibengali"
 	},
+	"brx": {
+		"name": "Kibodo"
+	},
 	"nb": {
 		"name": "Kibokmal cha Norwe"
 	},
@@ -107,6 +89,9 @@
 	"my": {
 		"name": "Kiburma"
 	},
+	"ce": {
+		"name": "Kichechenia"
+	},
 	"cs": {
 		"name": "Kicheki"
 	},
@@ -115,6 +100,9 @@
 	},
 	"zh": {
 		"name": "Kichina"
+	},
+	"zh-Hans": {
+		"name": "Kichina (Kilichorahisishwa)"
 	},
 	"zh-Hant": {
 		"name": "Kichina cha Jadi"
@@ -140,11 +128,17 @@
 	"fr": {
 		"name": "Kifaransa"
 	},
+	"fr-CA": {
+		"name": "Kifaransa (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Kifaransa (Uswisi)"
+	},
 	"fo": {
 		"name": "Kifaroe"
 	},
 	"fi": {
-		"name": "Kifinlandi"
+		"name": "Kifini"
 	},
 	"fy": {
 		"name": "Kifrisia cha Magharibi"
@@ -176,8 +170,14 @@
 	"es": {
 		"name": "Kihispania"
 	},
+	"es-MX": {
+		"name": "Kihispania (Meksiko)"
+	},
 	"nl": {
 		"name": "Kiholanzi"
+	},
+	"nl-BE": {
+		"name": "Kiholanzi (Ubelgiji)"
 	},
 	"hu": {
 		"name": "Kihungari"
@@ -191,6 +191,15 @@
 	"en": {
 		"name": "Kiingereza"
 	},
+	"en-AU": {
+		"name": "Kiingereza (Australia)"
+	},
+	"en-CA": {
+		"name": "Kiingereza (Kanada)"
+	},
+	"en-GB": {
+		"name": "Kiingereza (Uingereza)"
+	},
 	"it": {
 		"name": "Kiitaliano"
 	},
@@ -202,6 +211,12 @@
 	},
 	"de": {
 		"name": "Kijerumani"
+	},
+	"de-AT": {
+		"name": "Kijerumani (Austria)"
+	},
+	"de-CH": {
+		"name": "Kijerumani (Uswisi)"
 	},
 	"gsw": {
 		"name": "Kijerumani cha Uswisi"
@@ -236,11 +251,17 @@
 	"ky": {
 		"name": "Kikirigizi"
 	},
+	"kok": {
+		"name": "Kikonkani"
+	},
 	"ko": {
 		"name": "Kikorea"
 	},
 	"khq": {
 		"name": "Kikoyra Chiini"
+	},
+	"ckb": {
+		"name": "Kikurdi cha Sorani"
 	},
 	"lkt": {
 		"name": "Kilakota"
@@ -263,6 +284,9 @@
 	"luy": {
 		"name": "Kiluhya"
 	},
+	"lrc": {
+		"name": "Kiluri cha Kaskazini"
+	},
 	"mas": {
 		"name": "Kimaasai"
 	},
@@ -283,6 +307,9 @@
 	},
 	"mk": {
 		"name": "Kimasedonia"
+	},
+	"mzn": {
+		"name": "Kimazanderani"
 	},
 	"mn": {
 		"name": "Kimongolia"
@@ -326,8 +353,14 @@
 	"pt": {
 		"name": "Kireno"
 	},
+	"pt-PT": {
+		"name": "Kireno (Ureno)"
+	},
 	"ro": {
 		"name": "Kiromania"
+	},
+	"ro-MD": {
+		"name": "Kiromania (Moldova)"
 	},
 	"rm": {
 		"name": "Kiromanshi"
@@ -395,14 +428,17 @@
 	"tr": {
 		"name": "Kituruki"
 	},
-	"ug": {
-		"name": "Kiuiguri"
+	"tk": {
+		"name": "Kiturukimeni"
 	},
 	"uk": {
 		"name": "Kiukrania"
 	},
 	"ur": {
 		"name": "Kiurdu"
+	},
+	"ug": {
+		"name": "Kiuyghur"
 	},
 	"uz": {
 		"name": "Kiuzbeki"
@@ -428,9 +464,6 @@
 	"zu": {
 		"name": "Kizulu"
 	},
-	"kok": {
-		"name": "Konkani"
-	},
 	"ses": {
 		"name": "Koyraboro Senni"
 	},
@@ -440,23 +473,14 @@
 	"mg": {
 		"name": "Malagasi"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
-	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
+	"prg": {
+		"name": "Prussian"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

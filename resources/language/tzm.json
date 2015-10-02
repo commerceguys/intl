@@ -14,12 +14,6 @@
 	"ast": {
 		"name": "Asturian"
 	},
-	"en-AU": {
-		"name": "Australian English"
-	},
-	"de-AT": {
-		"name": "Austrian German"
-	},
 	"az": {
 		"name": "Azerbaijani"
 	},
@@ -47,20 +41,20 @@
 	"br": {
 		"name": "Breton"
 	},
-	"en-GB": {
-		"name": "British English"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"ca": {
 		"name": "Catalan"
 	},
+	"ckb": {
+		"name": "Central Kurdish"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
 	"cgg": {
 		"name": "Chiga"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
@@ -80,9 +74,6 @@
 	"et": {
 		"name": "Estonian"
 	},
-	"pt-PT": {
-		"name": "European Portuguese"
-	},
 	"ee": {
 		"name": "Ewe"
 	},
@@ -91,9 +82,6 @@
 	},
 	"fi": {
 		"name": "Finnish"
-	},
-	"nl-BE": {
-		"name": "Flemish"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -206,11 +194,8 @@
 	"mas": {
 		"name": "Masai"
 	},
-	"es-MX": {
-		"name": "Mexican Spanish"
-	},
-	"ro-MD": {
-		"name": "Moldavian"
+	"mzn": {
+		"name": "Mazanderani"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -223,6 +208,9 @@
 	},
 	"naq": {
 		"name": "Nama"
+	},
+	"lrc": {
+		"name": "Northern Luri"
 	},
 	"se": {
 		"name": "Northern Sami"
@@ -241,6 +229,9 @@
 	},
 	"om": {
 		"name": "Oromo"
+	},
+	"prg": {
+		"name": "Prussian"
 	},
 	"qu": {
 		"name": "Quechua"
@@ -266,9 +257,6 @@
 	"sr": {
 		"name": "Serbian"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -281,14 +269,8 @@
 	"sw": {
 		"name": "Swahili"
 	},
-	"fr-CH": {
-		"name": "Swiss French"
-	},
 	"gsw": {
 		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "Swiss High German"
 	},
 	"bg": {
 		"name": "Tabelɣarit"
@@ -308,17 +290,32 @@
 	"pt": {
 		"name": "Taburtuɣalit"
 	},
+	"pt-PT": {
+		"name": "Taburtuɣalit (Purtuɣal)"
+	},
 	"cs": {
 		"name": "Tačikt"
 	},
 	"zh": {
 		"name": "Tacinwit,Mandarin"
 	},
+	"zh-Hans": {
+		"name": "Tacinwit,Mandarin (Hans)"
+	},
+	"zh-Hant": {
+		"name": "Tacinwit,Mandarin (Hant)"
+	},
 	"fa": {
 		"name": "Tafarisit"
 	},
 	"fr": {
 		"name": "Tafṛansist"
+	},
+	"fr-CA": {
+		"name": "Tafṛansist (Kanada)"
+	},
+	"fr-CH": {
+		"name": "Tafṛansist (Swisra)"
 	},
 	"ha": {
 		"name": "Tahawsat"
@@ -332,6 +329,9 @@
 	"nl": {
 		"name": "Tahulanḍit"
 	},
+	"nl-BE": {
+		"name": "Tahulanḍit (Beljika)"
+	},
 	"ja": {
 		"name": "Tajappunit"
 	},
@@ -344,17 +344,32 @@
 	"de": {
 		"name": "Talmanit"
 	},
+	"de-CH": {
+		"name": "Talmanit (Swisra)"
+	},
+	"de-AT": {
+		"name": "Talmanit (Ustriyya)"
+	},
 	"ms": {
 		"name": "Tamalizit"
 	},
 	"tzm": {
-		"name": "Tamaziɣt"
+		"name": "Tamaziɣt n laṭlaṣ"
 	},
 	"am": {
 		"name": "Tamharit"
 	},
 	"en": {
 		"name": "Tanglizt"
+	},
+	"en-CA": {
+		"name": "Tanglizt (Kanada)"
+	},
+	"en-GB": {
+		"name": "Tanglizt (Tagelda Taddukelt)"
+	},
+	"en-AU": {
+		"name": "Tanglizt (Usṭralya)"
 	},
 	"ne": {
 		"name": "Tanippalit"
@@ -364,6 +379,9 @@
 	},
 	"ro": {
 		"name": "Taṛumanit"
+	},
+	"ro-MD": {
+		"name": "Taṛumanit (Mulḍavya)"
 	},
 	"ru": {
 		"name": "Tarusit"
@@ -376,6 +394,9 @@
 	},
 	"es": {
 		"name": "tasbelyunit"
+	},
+	"es-MX": {
+		"name": "tasbelyunit (Miksik)"
 	},
 	"so": {
 		"name": "Taṣumalit"
@@ -428,14 +449,14 @@
 	"to": {
 		"name": "Tongan"
 	},
-	"zh-Hant": {
-		"name": "Traditional Chinese"
-	},
 	"uk": {
 		"name": "Tukranit"
 	},
 	"ur": {
 		"name": "Turdut"
+	},
+	"tk": {
+		"name": "Turkmen"
 	},
 	"hsb": {
 		"name": "Upper Sorbian"
@@ -445,6 +466,9 @@
 	},
 	"uz": {
 		"name": "Uzbek"
+	},
+	"vo": {
+		"name": "Volapük"
 	},
 	"wae": {
 		"name": "Walser"

@@ -30,10 +30,10 @@
 		"name": "astuuria"
 	},
 	"en-AU": {
-		"name": "Australian English"
+		"name": "Austraalia inglise"
 	},
 	"de-AT": {
-		"name": "Austrian German"
+		"name": "Austria saksa"
 	},
 	"ksf": {
 		"name": "bafia"
@@ -65,20 +65,11 @@
 	"br": {
 		"name": "bretooni"
 	},
+	"en-GB": {
+		"name": "Briti inglise"
+	},
 	"bg": {
 		"name": "bulgaaria"
-	},
-	"en-CA": {
-		"name": "Canadian English"
-	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
-	"cgg": {
-		"name": "chiga"
-	},
-	"ksh": {
-		"name": "cologniani"
 	},
 	"dz": {
 		"name": "dzongkha"
@@ -89,17 +80,23 @@
 	"eo": {
 		"name": "esperanto"
 	},
+	"pt-PT": {
+		"name": "Euroopa portugali"
+	},
 	"ee": {
 		"name": "eve"
 	},
 	"nl-BE": {
 		"name": "flaami"
 	},
+	"dyo": {
+		"name": "fonji"
+	},
 	"fur": {
 		"name": "friuuli"
 	},
 	"ff": {
-		"name": "fulbe"
+		"name": "fula"
 	},
 	"fo": {
 		"name": "fääri"
@@ -156,16 +153,13 @@
 		"name": "iiri"
 	},
 	"smn": {
-		"name": "inari saami"
+		"name": "Inari saami"
 	},
 	"id": {
 		"name": "indoneesia"
 	},
 	"en": {
 		"name": "inglise"
-	},
-	"en-GB": {
-		"name": "inglise (Briti)"
 	},
 	"is": {
 		"name": "islandi"
@@ -179,9 +173,6 @@
 	"yi": {
 		"name": "jidiši"
 	},
-	"dyo": {
-		"name": "jola-fonyi"
-	},
 	"yo": {
 		"name": "joruba"
 	},
@@ -190,6 +181,12 @@
 	},
 	"kea": {
 		"name": "kabuverdianu"
+	},
+	"en-CA": {
+		"name": "Kanada inglise"
+	},
+	"fr-CA": {
+		"name": "Kanada prantsuse"
 	},
 	"kn": {
 		"name": "kannada"
@@ -203,9 +200,6 @@
 	"ca": {
 		"name": "katalaani"
 	},
-	"tzm": {
-		"name": "Kesk-Maroko tamazighti"
-	},
 	"qu": {
 		"name": "ketšua"
 	},
@@ -214,6 +208,9 @@
 	},
 	"ky": {
 		"name": "kirgiisi"
+	},
+	"cu": {
+		"name": "kirikuslaavi"
 	},
 	"kok": {
 		"name": "konkani"
@@ -233,6 +230,9 @@
 	"cy": {
 		"name": "kõmri"
 	},
+	"ksh": {
+		"name": "kölni"
+	},
 	"lkt": {
 		"name": "lakota"
 	},
@@ -248,11 +248,11 @@
 	"lu": {
 		"name": "luba"
 	},
+	"luy": {
+		"name": "luhja"
+	},
 	"luo": {
 		"name": "Luo"
-	},
-	"luy": {
-		"name": "luyia"
 	},
 	"lv": {
 		"name": "läti"
@@ -284,11 +284,14 @@
 	"mas": {
 		"name": "masai"
 	},
+	"mzn": {
+		"name": "mazandaraani"
+	},
 	"mfe": {
 		"name": "Mauritiuse kreoolkeel"
 	},
 	"es-MX": {
-		"name": "Mexican Spanish"
+		"name": "Mehhiko hispaania"
 	},
 	"ro-MD": {
 		"name": "moldova"
@@ -311,9 +314,6 @@
 	"nb": {
 		"name": "norra bokmål"
 	},
-	"nn": {
-		"name": "norra nynorsk"
-	},
 	"or": {
 		"name": "oria"
 	},
@@ -329,11 +329,14 @@
 	"pt": {
 		"name": "portugali"
 	},
-	"pt-PT": {
-		"name": "portugali (Euroopa)"
-	},
 	"fr": {
 		"name": "prantsuse"
+	},
+	"prg": {
+		"name": "preisi"
+	},
+	"lrc": {
+		"name": "põhjaluri"
 	},
 	"se": {
 		"name": "põhjasaami"
@@ -342,7 +345,7 @@
 		"name": "pärsia"
 	},
 	"rm": {
-		"name": "retoromaani"
+		"name": "romanši"
 	},
 	"rof": {
 		"name": "rombo"
@@ -361,9 +364,6 @@
 	},
 	"de": {
 		"name": "saksa"
-	},
-	"de-CH": {
-		"name": "saksa (kõrgsaksa)"
 	},
 	"sg": {
 		"name": "sango"
@@ -389,6 +389,9 @@
 	"fi": {
 		"name": "soome"
 	},
+	"ckb": {
+		"name": "sorani"
+	},
 	"sw": {
 		"name": "suahiili"
 	},
@@ -396,7 +399,10 @@
 		"name": "suulu"
 	},
 	"fr-CH": {
-		"name": "Swiss French"
+		"name": "Šveitsi prantsuse"
+	},
+	"de-CH": {
+		"name": "Šveitsi ülemsaksa"
 	},
 	"gsw": {
 		"name": "šveitsisaksa"
@@ -409,6 +415,9 @@
 	},
 	"th": {
 		"name": "tai"
+	},
+	"tzm": {
+		"name": "tamasikti"
 	},
 	"ta": {
 		"name": "tamili"
@@ -428,8 +437,17 @@
 	"cs": {
 		"name": "tšehhi"
 	},
+	"ce": {
+		"name": "tšetšeeni"
+	},
+	"cgg": {
+		"name": "tšiga"
+	},
 	"tr": {
 		"name": "türgi"
+	},
+	"tk": {
+		"name": "türkmeeni"
 	},
 	"ug": {
 		"name": "uiguuri"
@@ -446,6 +464,9 @@
 	"uz": {
 		"name": "usbeki"
 	},
+	"nn": {
+		"name": "uusnorra"
+	},
 	"be": {
 		"name": "valgevene"
 	},
@@ -457,6 +478,9 @@
 	},
 	"vi": {
 		"name": "vietnami"
+	},
+	"vo": {
+		"name": "volapüki"
 	},
 	"hsb": {
 		"name": "ülemsorbi"
