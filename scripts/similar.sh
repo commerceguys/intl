@@ -4,6 +4,9 @@
 #   ./similar en.json   -   will compare all files in current dir with en.json
 #   ./similar en.json 5 -   will compare all files in current dir with en.json
 #       and a threshold of under 5 lines being different before reporting
+#
+# Run this from within any resources/<type> folder, e.g. 'resources/country'
+# $   ./../../scripts/similar.sh en.json 60
 
 BASEFILE="$1"
 LINE_DIFFERENCE_THRESHOLD=${2:-"40"}
