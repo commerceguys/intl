@@ -79,6 +79,8 @@ interface NumberFormatterInterface
      * Sets the minimum number of fraction digits.
      *
      * @param int $minimumFractionDigits
+     *
+     * @return self
      */
     public function setMinimumFractionDigits($minimumFractionDigits);
 
@@ -97,6 +99,8 @@ interface NumberFormatterInterface
      * Sets the maximum number of fraction digits.
      *
      * @param int $maximumFractionDigits
+     *
+     * @return self
      */
     public function setMaximumFractionDigits($maximumFractionDigits);
 
@@ -111,6 +115,8 @@ interface NumberFormatterInterface
      * Sets whether or not major digits should be grouped.
      *
      * @param bool $groupingUsed
+     *
+     * @return self
      */
     public function setGroupingUsed($groupingUsed);
 
@@ -129,6 +135,8 @@ interface NumberFormatterInterface
      * Sets the currency display style.
      *
      * @param int $currencyDisplay One of the CURRENCY_DISPLAY_ constants.
+     *
+     * @return self
      */
     public function setCurrencyDisplay($currencyDisplay);
 }

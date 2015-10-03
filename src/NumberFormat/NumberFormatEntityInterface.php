@@ -8,6 +8,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the locale.
      *
      * @param string $locale The locale (i.e. "en_US").
+     *
+     * @return self
      */
     public function setLocale($locale);
 
@@ -15,6 +17,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the numbering system.
      *
      * @param string $numberingSystem One of the NUMBERING_SYSTEM_ constants.
+     *
+     * @return self
      */
     public function setNumberingSystem($numberingSystem);
 
@@ -22,6 +26,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the decimal separator.
      *
      * @param string $decimalSeparator
+     *
+     * @return self
      */
     public function setDecimalSeparator($decimalSeparator);
 
@@ -29,6 +35,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the grouping separator.
      *
      * @param string $groupingSeparator
+     *
+     * @return self
      */
     public function setGroupingSeparator($groupingSeparator);
 
@@ -36,6 +44,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the plus sign.
      *
      * @param string $plusSign
+     *
+     * @return self
      */
     public function setPlusSign($plusSign);
 
@@ -43,6 +53,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the minus sign.
      *
      * @param string $minusSign
+     *
+     * @return self
      */
     public function setMinusSign($minusSign);
 
@@ -50,6 +62,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the percent sign.
      *
      * @param string $percentSign
+     *
+     * @return self
      */
     public function setPercentSign($percentSign);
 
@@ -57,6 +71,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the number pattern used to format decimal numbers.
      *
      * @param string $decimalPattern The decimal pattern.
+     *
+     * @return self
      */
     public function setDecimalPattern($decimalPattern);
 
@@ -64,6 +80,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the number pattern used to format percentages.
      *
      * @param string $percentPattern The percent pattern.
+     *
+     * @return self
      */
     public function setPercentPattern($percentPattern);
 
@@ -71,6 +89,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Sets the number pattern used to format currency amounts.
      *
      * @param string $currencyPattern The currency pattern.
+     *
+     * @return self
      */
     public function setCurrencyPattern($currencyPattern);
 
@@ -80,6 +100,8 @@ interface NumberFormatEntityInterface extends NumberFormatInterface
      * Most commonly used when formatting amounts on invoices.
      *
      * @param string $accountingCurrencyPattern The accounting currency pattern.
+     *
+     * @return self
      */
     public function setAccountingCurrencyPattern($accountingCurrencyPattern);
 }
