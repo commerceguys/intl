@@ -1,4 +1,7 @@
 {
+	"ps": {
+		"name": "afghanska"
+	},
 	"af": {
 		"name": "afrikaans"
 	},
@@ -20,8 +23,14 @@
 	"hy": {
 		"name": "armeniska"
 	},
+	"as": {
+		"name": "assamesiska"
+	},
 	"ast": {
 		"name": "asturiska"
+	},
+	"asa": {
+		"name": "asu"
 	},
 	"en-AU": {
 		"name": "australisk engelska"
@@ -35,11 +44,17 @@
 	"bm": {
 		"name": "bambara"
 	},
+	"nnh": {
+		"name": "bamileké-ngiemboon"
+	},
 	"bas": {
 		"name": "basa"
 	},
 	"eu": {
 		"name": "baskiska"
+	},
+	"bem": {
+		"name": "bemba"
 	},
 	"bez": {
 		"name": "bena"
@@ -71,11 +86,20 @@
 	"tzm": {
 		"name": "centralmarockansk tamazight"
 	},
+	"chr": {
+		"name": "cherokesiska"
+	},
 	"cgg": {
 		"name": "chiga"
 	},
 	"da": {
 		"name": "danska"
+	},
+	"dua": {
+		"name": "duala"
+	},
+	"ebu": {
+		"name": "embu"
 	},
 	"smn": {
 		"name": "enaresamiska"
@@ -94,6 +118,12 @@
 	},
 	"ee": {
 		"name": "ewe"
+	},
+	"ewo": {
+		"name": "ewondo"
+	},
+	"fil": {
+		"name": "filippinska"
 	},
 	"fi": {
 		"name": "finska"
@@ -131,8 +161,14 @@
 	"el": {
 		"name": "grekiska"
 	},
+	"kl": {
+		"name": "grönländska"
+	},
 	"gu": {
 		"name": "gujarati"
+	},
+	"guz": {
+		"name": "gusii"
 	},
 	"ha": {
 		"name": "hausa"
@@ -164,6 +200,9 @@
 	"it": {
 		"name": "italienska"
 	},
+	"sah": {
+		"name": "jakutiska"
+	},
 	"ja": {
 		"name": "japanska"
 	},
@@ -175,6 +214,12 @@
 	},
 	"kab": {
 		"name": "kabyliska"
+	},
+	"kln": {
+		"name": "kalenjin"
+	},
+	"kam": {
+		"name": "kamba"
 	},
 	"km": {
 		"name": "kambodjanska"
@@ -200,6 +245,12 @@
 	"kk": {
 		"name": "kazakiska"
 	},
+	"ki": {
+		"name": "kikuyu"
+	},
+	"jmc": {
+		"name": "kimashami"
+	},
 	"zh": {
 		"name": "kinesiska"
 	},
@@ -209,14 +260,23 @@
 	"ky": {
 		"name": "kirgiziska"
 	},
+	"ksb": {
+		"name": "kisambaa"
+	},
 	"kok": {
 		"name": "konkani"
 	},
 	"ko": {
 		"name": "koreanska"
 	},
+	"kw": {
+		"name": "korniska"
+	},
 	"hr": {
 		"name": "kroatiska"
+	},
+	"nmg": {
+		"name": "kwasio"
 	},
 	"cu": {
 		"name": "kyrkslaviska"
@@ -227,11 +287,17 @@
 	"lkt": {
 		"name": "lakota"
 	},
+	"lag": {
+		"name": "langi"
+	},
 	"lo": {
 		"name": "laotiska"
 	},
 	"lv": {
 		"name": "lettiska"
+	},
+	"ln": {
+		"name": "lingala"
 	},
 	"lt": {
 		"name": "litauiska"
@@ -248,6 +314,9 @@
 	"luo": {
 		"name": "Luo"
 	},
+	"xog": {
+		"name": "lusoga"
+	},
 	"lb": {
 		"name": "luxemburgiska"
 	},
@@ -259,6 +328,9 @@
 	},
 	"mgh": {
 		"name": "makhuwa-meetto"
+	},
+	"kde": {
+		"name": "makonde"
 	},
 	"mg": {
 		"name": "malagassiska"
@@ -272,8 +344,14 @@
 	"mt": {
 		"name": "maltesiska"
 	},
+	"gv": {
+		"name": "manx"
+	},
 	"mr": {
 		"name": "marathi"
+	},
+	"zgh": {
+		"name": "marockansk standard-tamazight"
 	},
 	"mas": {
 		"name": "massajiska"
@@ -284,8 +362,17 @@
 	"mzn": {
 		"name": "mazanderani"
 	},
+	"mer": {
+		"name": "meru"
+	},
+	"mgo": {
+		"name": "meta’"
+	},
 	"es-MX": {
 		"name": "mexikansk spanska"
+	},
+	"kkj": {
+		"name": "mkako"
 	},
 	"ro-MD": {
 		"name": "moldaviska"
@@ -305,14 +392,23 @@
 	"ne": {
 		"name": "nepalesiska"
 	},
+	"jgo": {
+		"name": "ngomba"
+	},
 	"lrc": {
 		"name": "nordluri"
+	},
+	"nd": {
+		"name": "nordndebele"
 	},
 	"se": {
 		"name": "nordsamiska"
 	},
 	"nb": {
 		"name": "norskt bokmål"
+	},
+	"nus": {
+		"name": "nuer"
 	},
 	"nyn": {
 		"name": "nyankole"
@@ -325,6 +421,9 @@
 	},
 	"om": {
 		"name": "oromo"
+	},
+	"os": {
+		"name": "ossetiska"
 	},
 	"fa": {
 		"name": "persiska"
@@ -350,14 +449,23 @@
 	"rn": {
 		"name": "rundi"
 	},
+	"rwk": {
+		"name": "rwa"
+	},
 	"ru": {
 		"name": "ryska"
 	},
 	"rm": {
 		"name": "rätoromanska"
 	},
+	"saq": {
+		"name": "samburu"
+	},
 	"sg": {
 		"name": "sango"
+	},
+	"sbp": {
+		"name": "sangu"
 	},
 	"gsw": {
 		"name": "schweizertyska"
@@ -373,6 +481,9 @@
 	},
 	"sr": {
 		"name": "serbiska"
+	},
+	"sn": {
+		"name": "shona"
 	},
 	"si": {
 		"name": "singalesiska"
@@ -401,6 +512,15 @@
 	"sw": {
 		"name": "swahili"
 	},
+	"ii": {
+		"name": "szezuan i"
+	},
+	"shi": {
+		"name": "tachelhit"
+	},
+	"dav": {
+		"name": "taita"
+	},
 	"ta": {
 		"name": "tamil"
 	},
@@ -410,8 +530,14 @@
 	"te": {
 		"name": "telugiska"
 	},
+	"teo": {
+		"name": "teso"
+	},
 	"th": {
 		"name": "thailändska"
+	},
+	"bo": {
+		"name": "tibetanska"
 	},
 	"ti": {
 		"name": "tigrinja"
@@ -455,6 +581,9 @@
 	"uz": {
 		"name": "uzbekiska"
 	},
+	"vai": {
+		"name": "vaj"
+	},
 	"vi": {
 		"name": "vietnamesiska"
 	},
@@ -463,6 +592,9 @@
 	},
 	"vo": {
 		"name": "volapük"
+	},
+	"vun": {
+		"name": "vunjo"
 	},
 	"fy": {
 		"name": "västfrisiska"

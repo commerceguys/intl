@@ -43,10 +43,6 @@ $ignoredLocales = [
     'ia',
     // Valencian differs from its parent only by a single character (è/é).
     'ca-ES-VALENCIA',
-    // Those locales are 90% untranslated.
-    'as', 'az-Cyrl', 'bem', 'bo', 'dua', 'fil', 'gv', 'ig', 'ii', 'kkj', 'kl',
-    'kok', 'kw', 'lkt', 'luo', 'mgo', 'nnh', 'nus', 'om', 'os', 'pa-Arab',
-    'rw', 'sah', 'smn', 'ti', 'uz-Arab',
     // Special "grouping" locales.
     'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
 ];
@@ -104,6 +100,7 @@ if ($handle = opendir($localeDirectory)) {
 
 // Create the localizations.
 $countries = [];
+$untranslatedCounts = [];
 foreach ($locales as $locale) {
     $data = json_decode(file_get_contents($localeDirectory . $locale . '/territories.json'), true);
     $data = $data['main'][$locale]['localeDisplayNames']['territories'];
@@ -112,12 +109,24 @@ foreach ($locales as $locale) {
             // This country name is untranslated, use the english version.
             if ($countryCode == str_replace('_', '-', $countryName)) {
                 $countryName = $countryData[$countryCode];
+                // Maintain a count of untranslated countries per locale.
+                $untranslatedCounts += [$locale => 0];
+                $untranslatedCounts[$locale]++;
             }
 
             $countries[$locale][$countryCode] = [
                 'name' => $countryName,
             ];
         }
+    }
+}
+
+// Ignore locales that are more than 80% untranslated.
+foreach ($untranslatedCounts as $locale => $count) {
+    $totalCount = count($countries[$locale]);
+    $untranslatedPercentage = $count * (100 / $totalCount);
+    if ($untranslatedPercentage >= 80) {
+        unset($countries[$locale]);
     }
 }
 

@@ -26,8 +26,14 @@
 	"hy": {
 		"name": "armeno"
 	},
+	"as": {
+		"name": "assamese"
+	},
 	"ast": {
 		"name": "asturiano"
+	},
+	"asa": {
+		"name": "asu"
 	},
 	"az": {
 		"name": "azerbaigiano"
@@ -86,6 +92,9 @@
 	"cs": {
 		"name": "ceco"
 	},
+	"chr": {
+		"name": "cherokee"
+	},
 	"cgg": {
 		"name": "chiga"
 	},
@@ -107,6 +116,9 @@
 	"ko": {
 		"name": "coreano"
 	},
+	"kw": {
+		"name": "cornico"
+	},
 	"mfe": {
 		"name": "creolo mauriziano"
 	},
@@ -119,11 +131,17 @@
 	"da": {
 		"name": "danese"
 	},
+	"dua": {
+		"name": "duala"
+	},
 	"dz": {
 		"name": "dzongkha"
 	},
 	"he": {
 		"name": "ebraico"
+	},
+	"ebu": {
+		"name": "embu"
 	},
 	"eo": {
 		"name": "esperanto"
@@ -134,11 +152,17 @@
 	"ee": {
 		"name": "ewe"
 	},
+	"ewo": {
+		"name": "ewondo"
+	},
 	"fo": {
 		"name": "faroese"
 	},
 	"nl-BE": {
 		"name": "fiammingo"
+	},
+	"fil": {
+		"name": "filippino"
 	},
 	"fi": {
 		"name": "finlandese"
@@ -182,8 +206,14 @@
 	"el": {
 		"name": "greco"
 	},
+	"kl": {
+		"name": "groenlandese"
+	},
 	"gu": {
 		"name": "gujarati"
+	},
+	"guz": {
+		"name": "gusii"
 	},
 	"ha": {
 		"name": "hausa"
@@ -224,6 +254,15 @@
 	"dyo": {
 		"name": "jola-fony"
 	},
+	"kkj": {
+		"name": "kako"
+	},
+	"kln": {
+		"name": "kalenjin"
+	},
+	"kam": {
+		"name": "kamba"
+	},
 	"kn": {
 		"name": "kannada"
 	},
@@ -235,6 +274,9 @@
 	},
 	"km": {
 		"name": "khmer"
+	},
+	"ki": {
+		"name": "kikuyu"
 	},
 	"rw": {
 		"name": "kinyarwanda"
@@ -248,14 +290,23 @@
 	"ses": {
 		"name": "koyraboro senni"
 	},
+	"nmg": {
+		"name": "kwasio"
+	},
 	"lkt": {
 		"name": "lakota"
+	},
+	"lag": {
+		"name": "langi"
 	},
 	"lo": {
 		"name": "lao"
 	},
 	"lv": {
 		"name": "lettone"
+	},
+	"ln": {
+		"name": "lingala"
 	},
 	"lt": {
 		"name": "lituano"
@@ -278,8 +329,14 @@
 	"mk": {
 		"name": "macedone"
 	},
+	"jmc": {
+		"name": "machame"
+	},
 	"mgh": {
 		"name": "makhuwa-meetto"
+	},
+	"kde": {
+		"name": "makonde"
 	},
 	"ml": {
 		"name": "malayalam"
@@ -293,6 +350,9 @@
 	"mt": {
 		"name": "maltese"
 	},
+	"gv": {
+		"name": "mannese"
+	},
 	"mr": {
 		"name": "marathi"
 	},
@@ -301,6 +361,12 @@
 	},
 	"mzn": {
 		"name": "mazandarani"
+	},
+	"mer": {
+		"name": "meru"
+	},
+	"mgo": {
+		"name": "meta’"
 	},
 	"ro-MD": {
 		"name": "moldavo"
@@ -314,14 +380,26 @@
 	"naq": {
 		"name": "nama"
 	},
+	"nd": {
+		"name": "ndebele del nord"
+	},
 	"ne": {
 		"name": "nepalese"
+	},
+	"jgo": {
+		"name": "ngamambo"
+	},
+	"nnh": {
+		"name": "ngiemboon"
 	},
 	"nb": {
 		"name": "norvegese bokmål"
 	},
 	"nn": {
 		"name": "norvegese nynorsk"
+	},
+	"nus": {
+		"name": "nuer"
 	},
 	"nyn": {
 		"name": "nyankole"
@@ -334,6 +412,12 @@
 	},
 	"om": {
 		"name": "oromo"
+	},
+	"os": {
+		"name": "ossetico"
+	},
+	"ps": {
+		"name": "pashto"
 	},
 	"fa": {
 		"name": "persiano"
@@ -371,6 +455,12 @@
 	"ru": {
 		"name": "russo"
 	},
+	"rwk": {
+		"name": "rwa"
+	},
+	"saq": {
+		"name": "samburu"
+	},
 	"se": {
 		"name": "sami del nord"
 	},
@@ -380,11 +470,23 @@
 	"sg": {
 		"name": "sango"
 	},
+	"sbp": {
+		"name": "sangu"
+	},
 	"seh": {
 		"name": "sena"
 	},
 	"sr": {
 		"name": "serbo"
+	},
+	"ksb": {
+		"name": "shambala"
+	},
+	"sn": {
+		"name": "shona"
+	},
+	"ii": {
+		"name": "sichuan yi"
 	},
 	"si": {
 		"name": "singalese"
@@ -397,6 +499,9 @@
 	},
 	"sl": {
 		"name": "sloveno"
+	},
+	"xog": {
+		"name": "soga"
 	},
 	"so": {
 		"name": "somalo"
@@ -413,14 +518,23 @@
 	"sw": {
 		"name": "swahili"
 	},
+	"dav": {
+		"name": "taita"
+	},
 	"tzm": {
 		"name": "tamazight"
+	},
+	"zgh": {
+		"name": "tamazight del Marocco standard"
 	},
 	"ta": {
 		"name": "tamil"
 	},
 	"twq": {
 		"name": "tasawaq"
+	},
+	"shi": {
+		"name": "tashelhit"
 	},
 	"de": {
 		"name": "tedesco"
@@ -434,8 +548,14 @@
 	"te": {
 		"name": "telugu"
 	},
+	"teo": {
+		"name": "teso"
+	},
 	"th": {
 		"name": "thai"
+	},
+	"bo": {
+		"name": "tibetano"
 	},
 	"ti": {
 		"name": "tigrino"
@@ -464,14 +584,26 @@
 	"uz": {
 		"name": "usbeco"
 	},
+	"vai": {
+		"name": "Vai"
+	},
 	"vi": {
 		"name": "vietnamita"
 	},
 	"vo": {
 		"name": "volapük"
 	},
+	"vun": {
+		"name": "vunjo"
+	},
 	"wae": {
 		"name": "walser"
+	},
+	"bem": {
+		"name": "wemba"
+	},
+	"sah": {
+		"name": "yakut"
 	},
 	"yav": {
 		"name": "yangben"

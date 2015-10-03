@@ -23,8 +23,14 @@
 	"hy": {
 		"name": "armenia"
 	},
+	"as": {
+		"name": "assami"
+	},
 	"ast": {
 		"name": "asturia"
+	},
+	"asa": {
+		"name": "asu"
 	},
 	"en-AU": {
 		"name": "australianenglanti"
@@ -43,6 +49,9 @@
 	},
 	"eu": {
 		"name": "baski"
+	},
+	"bem": {
+		"name": "bemba"
 	},
 	"bez": {
 		"name": "bena"
@@ -68,11 +77,20 @@
 	"my": {
 		"name": "burma"
 	},
+	"chr": {
+		"name": "cherokee"
+	},
 	"dje": {
 		"name": "djerma"
 	},
+	"dua": {
+		"name": "duala"
+	},
 	"dz": {
 		"name": "dzongkha"
+	},
+	"ebu": {
+		"name": "embu"
 	},
 	"en": {
 		"name": "englanti"
@@ -89,8 +107,14 @@
 	"ee": {
 		"name": "ewe"
 	},
+	"ewo": {
+		"name": "ewondo"
+	},
 	"fa": {
 		"name": "farsi"
+	},
+	"fil": {
+		"name": "filipino"
 	},
 	"nl-BE": {
 		"name": "flaami"
@@ -118,6 +142,9 @@
 	},
 	"gu": {
 		"name": "gudžarati"
+	},
+	"guz": {
+		"name": "gusii"
 	},
 	"ha": {
 		"name": "hausa"
@@ -155,6 +182,9 @@
 	"de-AT": {
 		"name": "itävallansaksa"
 	},
+	"sah": {
+		"name": "jakuutti"
+	},
 	"ja": {
 		"name": "japani"
 	},
@@ -169,6 +199,18 @@
 	},
 	"kab": {
 		"name": "kabyyli"
+	},
+	"kkj": {
+		"name": "kako"
+	},
+	"kl": {
+		"name": "kalaallisut"
+	},
+	"kln": {
+		"name": "kalenjin"
+	},
+	"kam": {
+		"name": "kamba"
 	},
 	"en-CA": {
 		"name": "kanadanenglanti"
@@ -209,6 +251,9 @@
 	"zh": {
 		"name": "kiina"
 	},
+	"ki": {
+		"name": "kikuju"
+	},
 	"ky": {
 		"name": "kirgiisi"
 	},
@@ -220,6 +265,9 @@
 	},
 	"ko": {
 		"name": "korea"
+	},
+	"kw": {
+		"name": "korni"
 	},
 	"khq": {
 		"name": "koyra chiini"
@@ -233,6 +281,9 @@
 	"hr": {
 		"name": "kroatia"
 	},
+	"nmg": {
+		"name": "kwasio"
+	},
 	"cy": {
 		"name": "kymri"
 	},
@@ -242,6 +293,9 @@
 	"lkt": {
 		"name": "lakota"
 	},
+	"lag": {
+		"name": "lango"
+	},
 	"lo": {
 		"name": "lao"
 	},
@@ -250,6 +304,9 @@
 	},
 	"lt": {
 		"name": "liettua"
+	},
+	"ln": {
+		"name": "lingala"
 	},
 	"luy": {
 		"name": "luhya"
@@ -266,8 +323,14 @@
 	"mas": {
 		"name": "maasai"
 	},
+	"jmc": {
+		"name": "machame"
+	},
 	"mk": {
 		"name": "makedonia"
+	},
+	"kde": {
+		"name": "makonde"
 	},
 	"mgh": {
 		"name": "makua-meetto"
@@ -284,6 +347,9 @@
 	"mt": {
 		"name": "malta"
 	},
+	"gv": {
+		"name": "manksi"
+	},
 	"mr": {
 		"name": "marathi"
 	},
@@ -292,6 +358,12 @@
 	},
 	"es-MX": {
 		"name": "meksikonespanja"
+	},
+	"mer": {
+		"name": "meru"
+	},
+	"mgo": {
+		"name": "meta’"
 	},
 	"ro-MD": {
 		"name": "moldova"
@@ -314,11 +386,20 @@
 	"ne": {
 		"name": "nepali"
 	},
+	"nnh": {
+		"name": "ngiemboon"
+	},
+	"jgo": {
+		"name": "ngomba"
+	},
 	"nb": {
 		"name": "norjan bokmål"
 	},
 	"nn": {
 		"name": "norjan nynorsk"
+	},
+	"nus": {
+		"name": "nuer"
 	},
 	"nyn": {
 		"name": "nyankole"
@@ -329,11 +410,20 @@
 	"om": {
 		"name": "oromo"
 	},
+	"os": {
+		"name": "osseetti"
+	},
 	"pa": {
 		"name": "pandžabi"
 	},
+	"ps": {
+		"name": "paštu"
+	},
 	"zh-Hant": {
 		"name": "perinteinen kiina"
+	},
+	"nd": {
+		"name": "pohjois-ndebele"
 	},
 	"lrc": {
 		"name": "pohjoisluri"
@@ -368,17 +458,32 @@
 	"sv": {
 		"name": "ruotsi"
 	},
+	"rwk": {
+		"name": "rwa"
+	},
 	"de": {
 		"name": "saksa"
 	},
+	"saq": {
+		"name": "samburu"
+	},
 	"sg": {
 		"name": "sango"
+	},
+	"sbp": {
+		"name": "sangu"
 	},
 	"seh": {
 		"name": "sena"
 	},
 	"sr": {
 		"name": "serbia"
+	},
+	"ksb": {
+		"name": "shambala"
+	},
+	"ii": {
+		"name": "sichuanin-yi"
 	},
 	"si": {
 		"name": "sinhala"
@@ -389,8 +494,14 @@
 	"sl": {
 		"name": "sloveeni"
 	},
+	"xog": {
+		"name": "soga"
+	},
 	"so": {
 		"name": "somali"
+	},
+	"sn": {
+		"name": "šona"
 	},
 	"ckb": {
 		"name": "sorani"
@@ -410,6 +521,9 @@
 	"sw": {
 		"name": "swahili"
 	},
+	"dav": {
+		"name": "taita"
+	},
 	"ta": {
 		"name": "tamili"
 	},
@@ -419,14 +533,23 @@
 	"twq": {
 		"name": "tasawaq"
 	},
+	"shi": {
+		"name": "tašelhit"
+	},
 	"te": {
 		"name": "telugu"
+	},
+	"teo": {
+		"name": "teso"
 	},
 	"th": {
 		"name": "thai"
 	},
 	"ti": {
 		"name": "tigrinja"
+	},
+	"bo": {
+		"name": "tiibet"
 	},
 	"to": {
 		"name": "tonga"
@@ -458,6 +581,12 @@
 	"uz": {
 		"name": "uzbekki"
 	},
+	"vai": {
+		"name": "Vai"
+	},
+	"zgh": {
+		"name": "vakioitu tamazight"
+	},
 	"be": {
 		"name": "valkovenäjä"
 	},
@@ -472,6 +601,9 @@
 	},
 	"vo": {
 		"name": "volapük"
+	},
+	"vun": {
+		"name": "vunjo"
 	},
 	"wae": {
 		"name": "walser"

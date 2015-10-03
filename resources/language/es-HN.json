@@ -35,8 +35,14 @@
 	"hy": {
 		"name": "armenio"
 	},
+	"as": {
+		"name": "asamés"
+	},
 	"ast": {
 		"name": "asturiano"
+	},
+	"asa": {
+		"name": "asu"
 	},
 	"az": {
 		"name": "azerbaiyano"
@@ -52,6 +58,9 @@
 	},
 	"bas": {
 		"name": "basa"
+	},
+	"bem": {
+		"name": "bemba"
 	},
 	"bez": {
 		"name": "bena"
@@ -95,6 +104,9 @@
 	"cs": {
 		"name": "checo"
 	},
+	"chr": {
+		"name": "cheroqui"
+	},
 	"cgg": {
 		"name": "chiga"
 	},
@@ -113,6 +125,9 @@
 	"ko": {
 		"name": "coreano"
 	},
+	"kw": {
+		"name": "córnico"
+	},
 	"kea": {
 		"name": "criollo caboverdiano"
 	},
@@ -125,8 +140,14 @@
 	"da": {
 		"name": "danés"
 	},
+	"dua": {
+		"name": "duala"
+	},
 	"dz": {
 		"name": "dzongkha"
+	},
+	"ebu": {
+		"name": "embu"
 	},
 	"cu": {
 		"name": "eslavo eclesiástico"
@@ -152,8 +173,14 @@
 	"ee": {
 		"name": "ewé"
 	},
+	"ewo": {
+		"name": "ewondo"
+	},
 	"fo": {
 		"name": "feroés"
+	},
+	"fil": {
+		"name": "filipino"
 	},
 	"fi": {
 		"name": "finés"
@@ -197,8 +224,14 @@
 	"el": {
 		"name": "griego"
 	},
+	"kl": {
+		"name": "groenlandés"
+	},
 	"gu": {
 		"name": "gujarati"
+	},
+	"guz": {
+		"name": "gusii"
 	},
 	"ha": {
 		"name": "hausa"
@@ -251,8 +284,20 @@
 	"dyo": {
 		"name": "jola-fonyi"
 	},
+	"kkj": {
+		"name": "kako"
+	},
+	"kln": {
+		"name": "kalenjin"
+	},
+	"kam": {
+		"name": "kamba"
+	},
 	"kk": {
 		"name": "kazajo"
+	},
+	"ki": {
+		"name": "kikuyu"
 	},
 	"rw": {
 		"name": "kinyarwanda"
@@ -278,14 +323,23 @@
 	"ckb": {
 		"name": "kurdo sorani"
 	},
+	"nmg": {
+		"name": "kwasio"
+	},
 	"lkt": {
 		"name": "lakota"
+	},
+	"lag": {
+		"name": "langi"
 	},
 	"lo": {
 		"name": "laosiano"
 	},
 	"lv": {
 		"name": "letón"
+	},
+	"ln": {
+		"name": "lingala"
 	},
 	"lt": {
 		"name": "lituano"
@@ -308,8 +362,14 @@
 	"mk": {
 		"name": "macedonio"
 	},
+	"jmc": {
+		"name": "machame"
+	},
 	"mgh": {
 		"name": "makhuwa-meetto"
+	},
+	"kde": {
+		"name": "makonde"
 	},
 	"ml": {
 		"name": "malayalam"
@@ -323,6 +383,9 @@
 	"mt": {
 		"name": "maltés"
 	},
+	"gv": {
+		"name": "manés"
+	},
 	"mr": {
 		"name": "maratí"
 	},
@@ -331,6 +394,12 @@
 	},
 	"mzn": {
 		"name": "mazandaraní"
+	},
+	"mer": {
+		"name": "meru"
+	},
+	"mgo": {
+		"name": "meta’"
 	},
 	"ro-MD": {
 		"name": "moldavo"
@@ -344,17 +413,29 @@
 	"naq": {
 		"name": "nama"
 	},
+	"nd": {
+		"name": "ndebele septentrional"
+	},
 	"nl": {
 		"name": "neerlandés"
 	},
 	"ne": {
 		"name": "nepalí"
 	},
+	"nnh": {
+		"name": "ngiemboon"
+	},
+	"jgo": {
+		"name": "ngomba"
+	},
 	"nb": {
 		"name": "noruego bokmal"
 	},
 	"nn": {
 		"name": "noruego nynorsk"
+	},
+	"nus": {
+		"name": "nuer"
 	},
 	"nyn": {
 		"name": "nyankole"
@@ -365,8 +446,14 @@
 	"om": {
 		"name": "oromo"
 	},
+	"os": {
+		"name": "osético"
+	},
 	"pa": {
 		"name": "panyabí"
+	},
+	"ps": {
+		"name": "pastún"
 	},
 	"fa": {
 		"name": "persa"
@@ -398,6 +485,15 @@
 	"ru": {
 		"name": "ruso"
 	},
+	"rwk": {
+		"name": "rwa"
+	},
+	"sah": {
+		"name": "sakha"
+	},
+	"saq": {
+		"name": "samburu"
+	},
 	"smn": {
 		"name": "sami inari"
 	},
@@ -407,11 +503,23 @@
 	"sg": {
 		"name": "sango"
 	},
+	"sbp": {
+		"name": "sangu"
+	},
 	"seh": {
 		"name": "sena"
 	},
 	"sr": {
 		"name": "serbio"
+	},
+	"ksb": {
+		"name": "shambala"
+	},
+	"sn": {
+		"name": "shona"
+	},
+	"xog": {
+		"name": "soga"
 	},
 	"so": {
 		"name": "somalí"
@@ -425,8 +533,14 @@
 	"th": {
 		"name": "tailandés"
 	},
+	"dav": {
+		"name": "taita"
+	},
 	"tzm": {
 		"name": "tamazight del Marruecos Central"
+	},
+	"zgh": {
+		"name": "tamazight estándar marroquí"
 	},
 	"ta": {
 		"name": "tamil"
@@ -434,8 +548,17 @@
 	"twq": {
 		"name": "tasawaq"
 	},
+	"shi": {
+		"name": "tashelhit"
+	},
 	"te": {
 		"name": "telugu"
+	},
+	"teo": {
+		"name": "teso"
+	},
+	"bo": {
+		"name": "tibetano"
 	},
 	"ti": {
 		"name": "tigriña"
@@ -461,6 +584,9 @@
 	"uz": {
 		"name": "uzbeko"
 	},
+	"vai": {
+		"name": "Vai"
+	},
 	"eu": {
 		"name": "vasco"
 	},
@@ -470,11 +596,17 @@
 	"vo": {
 		"name": "volapük"
 	},
+	"vun": {
+		"name": "vunjo"
+	},
 	"wae": {
 		"name": "walser"
 	},
 	"yav": {
 		"name": "yangben"
+	},
+	"ii": {
+		"name": "yi de Sichuán"
 	},
 	"yi": {
 		"name": "yídish"

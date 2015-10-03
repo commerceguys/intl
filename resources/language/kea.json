@@ -32,8 +32,14 @@
 	"hy": {
 		"name": "arméniu"
 	},
+	"as": {
+		"name": "asames"
+	},
 	"ast": {
 		"name": "Asturian"
+	},
+	"asa": {
+		"name": "asu"
 	},
 	"ha": {
 		"name": "auza"
@@ -55,6 +61,9 @@
 	},
 	"eu": {
 		"name": "basku"
+	},
+	"bem": {
+		"name": "bemba"
 	},
 	"bez": {
 		"name": "bena"
@@ -89,17 +98,29 @@
 	"da": {
 		"name": "dinamarkes"
 	},
+	"dua": {
+		"name": "duala"
+	},
 	"dz": {
 		"name": "dzonka"
 	},
 	"he": {
 		"name": "ebraiku"
 	},
+	"ebu": {
+		"name": "embu"
+	},
 	"ee": {
 		"name": "eve"
 	},
+	"ewo": {
+		"name": "Ewondo"
+	},
 	"fo": {
 		"name": "faroes"
+	},
+	"fil": {
+		"name": "filipinu"
 	},
 	"fi": {
 		"name": "finlandes"
@@ -134,8 +155,14 @@
 	"el": {
 		"name": "gregu"
 	},
+	"kl": {
+		"name": "groenlandes"
+	},
 	"gu": {
 		"name": "gujarati"
+	},
+	"guz": {
+		"name": "gusii"
 	},
 	"ig": {
 		"name": "ibo"
@@ -188,6 +215,15 @@
 	"kea": {
 		"name": "kabuverdianu"
 	},
+	"kkj": {
+		"name": "Kako"
+	},
+	"kln": {
+		"name": "kalenjin"
+	},
+	"kam": {
+		"name": "kamba"
+	},
 	"kn": {
 		"name": "kanares"
 	},
@@ -202,6 +238,9 @@
 	},
 	"qu": {
 		"name": "kexua"
+	},
+	"ki": {
+		"name": "kikuiu"
 	},
 	"rw": {
 		"name": "kiniaruanda"
@@ -224,8 +263,14 @@
 	"ko": {
 		"name": "korianu"
 	},
+	"kw": {
+		"name": "kórniku"
+	},
 	"hr": {
 		"name": "kroata"
+	},
+	"nmg": {
+		"name": "kuazio"
 	},
 	"ckb": {
 		"name": "kurdu sentral"
@@ -233,11 +278,17 @@
 	"lkt": {
 		"name": "Lakota"
 	},
+	"lag": {
+		"name": "Langi"
+	},
 	"lo": {
 		"name": "lausianu"
 	},
 	"lv": {
 		"name": "letãu"
+	},
+	"ln": {
+		"name": "Lingala"
 	},
 	"lt": {
 		"name": "lituanes"
@@ -260,6 +311,9 @@
 	"mgh": {
 		"name": "Makhuwa-Meetto"
 	},
+	"kde": {
+		"name": "Makonde"
+	},
 	"ml": {
 		"name": "malaialam"
 	},
@@ -272,6 +326,9 @@
 	"mt": {
 		"name": "maltes"
 	},
+	"gv": {
+		"name": "manks"
+	},
 	"mr": {
 		"name": "marati"
 	},
@@ -281,8 +338,17 @@
 	"mk": {
 		"name": "masedoniu"
 	},
+	"jmc": {
+		"name": "matxame"
+	},
 	"mzn": {
 		"name": "Mazanderani"
+	},
+	"mer": {
+		"name": "Meru"
+	},
+	"mgo": {
+		"name": "Metaʼ"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -299,6 +365,15 @@
 	"ne": {
 		"name": "nepales"
 	},
+	"nnh": {
+		"name": "Ngiemboon"
+	},
+	"jgo": {
+		"name": "ñomba"
+	},
+	"nd": {
+		"name": "North Ndebele"
+	},
 	"lrc": {
 		"name": "Northern Luri"
 	},
@@ -310,6 +385,12 @@
 	},
 	"nn": {
 		"name": "norueges nynorsk"
+	},
+	"nus": {
+		"name": "Nuer"
+	},
+	"ii": {
+		"name": "nuosu"
 	},
 	"nyn": {
 		"name": "Nyankole"
@@ -323,8 +404,14 @@
 	"om": {
 		"name": "oromo"
 	},
+	"os": {
+		"name": "Ossetic"
+	},
 	"pa": {
 		"name": "pandjabi"
+	},
+	"ps": {
+		"name": "paxto"
 	},
 	"fa": {
 		"name": "persa"
@@ -359,8 +446,20 @@
 	"ru": {
 		"name": "rusu"
 	},
+	"rwk": {
+		"name": "Rwa"
+	},
+	"sah": {
+		"name": "Sakha"
+	},
+	"saq": {
+		"name": "Samburu"
+	},
 	"sg": {
 		"name": "Sango"
+	},
+	"sbp": {
+		"name": "Sangu"
 	},
 	"gd": {
 		"name": "Scottish Gaelic"
@@ -371,6 +470,12 @@
 	"sr": {
 		"name": "sérviu"
 	},
+	"ksb": {
+		"name": "Shambala"
+	},
+	"sn": {
+		"name": "Shona"
+	},
 	"si": {
 		"name": "singales"
 	},
@@ -379,6 +484,9 @@
 	},
 	"sl": {
 		"name": "sloveniu"
+	},
+	"xog": {
+		"name": "Soga"
 	},
 	"so": {
 		"name": "somali"
@@ -398,6 +506,9 @@
 	"eo": {
 		"name": "sperantu"
 	},
+	"zgh": {
+		"name": "Standard Moroccan Tamazight"
+	},
 	"et": {
 		"name": "stonianu"
 	},
@@ -407,8 +518,14 @@
 	"sv": {
 		"name": "sueku"
 	},
+	"shi": {
+		"name": "Tachelhit"
+	},
 	"th": {
 		"name": "tailandes"
+	},
+	"dav": {
+		"name": "taita"
 	},
 	"tzm": {
 		"name": "tamazait di Atlas Sentral"
@@ -421,6 +538,12 @@
 	},
 	"te": {
 		"name": "telugu"
+	},
+	"teo": {
+		"name": "Teso"
+	},
+	"bo": {
+		"name": "tibetanu"
 	},
 	"ti": {
 		"name": "tigrinia"
@@ -455,14 +578,23 @@
 	"uz": {
 		"name": "uzbeki"
 	},
+	"vai": {
+		"name": "Vai"
+	},
 	"vi": {
 		"name": "vietnamita"
 	},
 	"vo": {
 		"name": "Volapük"
 	},
+	"vun": {
+		"name": "Vunjo"
+	},
 	"wae": {
 		"name": "Walser"
+	},
+	"chr": {
+		"name": "xeroki"
 	},
 	"cgg": {
 		"name": "xiga"

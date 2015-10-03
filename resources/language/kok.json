@@ -11,6 +11,9 @@
 	"ar": {
 		"name": "अरेबिक्"
 	},
+	"as": {
+		"name": "असामी"
+	},
 	"en": {
 		"name": "आंग्ल"
 	},
@@ -113,6 +116,9 @@
 	"el": {
 		"name": "ग्रीक्"
 	},
+	"kl": {
+		"name": "ग्रीनलान्डिक"
+	},
 	"zh": {
 		"name": "चीनीस्"
 	},
@@ -158,6 +164,9 @@
 	"ti": {
 		"name": "तिग्रिन्या"
 	},
+	"bo": {
+		"name": "तिबेतियन"
+	},
 	"tk": {
 		"name": "तुर्कमन"
 	},
@@ -181,6 +190,9 @@
 	},
 	"fa": {
 		"name": "पर्षियन्"
+	},
+	"ps": {
+		"name": "पाष्टो (पुष्टो)"
 	},
 	"pt": {
 		"name": "पोर्चुगीज़्"
@@ -275,6 +287,9 @@
 	"lv": {
 		"name": "लाट्वियन् (लेट्टिष्)"
 	},
+	"ln": {
+		"name": "लिंगाला"
+	},
 	"lt": {
 		"name": "लिथुआनियन्"
 	},
@@ -283,6 +298,9 @@
 	},
 	"cy": {
 		"name": "वेळ्ष्"
+	},
+	"sn": {
+		"name": "शोना"
 	},
 	"sg": {
 		"name": "सांग्रो"
@@ -338,6 +356,9 @@
 	"ast": {
 		"name": "Asturian"
 	},
+	"asa": {
+		"name": "Asu"
+	},
 	"ksf": {
 		"name": "Bafia"
 	},
@@ -346,6 +367,9 @@
 	},
 	"bas": {
 		"name": "Basaa"
+	},
+	"bem": {
+		"name": "Bemba"
 	},
 	"bez": {
 		"name": "Bena"
@@ -365,6 +389,9 @@
 	"ce": {
 		"name": "Chechen"
 	},
+	"chr": {
+		"name": "Cherokee"
+	},
 	"cgg": {
 		"name": "Chiga"
 	},
@@ -374,8 +401,23 @@
 	"ksh": {
 		"name": "Colognian"
 	},
+	"kw": {
+		"name": "Cornish"
+	},
+	"dua": {
+		"name": "Duala"
+	},
+	"ebu": {
+		"name": "Embu"
+	},
 	"ee": {
 		"name": "Ewe"
+	},
+	"ewo": {
+		"name": "Ewondo"
+	},
+	"fil": {
+		"name": "Filipino"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -385,6 +427,9 @@
 	},
 	"lg": {
 		"name": "Ganda"
+	},
+	"guz": {
+		"name": "Gusii"
 	},
 	"haw": {
 		"name": "Hawaiian"
@@ -404,14 +449,32 @@
 	"kab": {
 		"name": "Kabyle"
 	},
+	"kkj": {
+		"name": "Kako"
+	},
+	"kln": {
+		"name": "Kalenjin"
+	},
+	"kam": {
+		"name": "Kamba"
+	},
+	"ki": {
+		"name": "Kikuyu"
+	},
 	"khq": {
 		"name": "Koyra Chiini"
 	},
 	"ses": {
 		"name": "Koyraboro Senni"
 	},
+	"nmg": {
+		"name": "Kwasio"
+	},
 	"lkt": {
 		"name": "Lakota"
+	},
+	"lag": {
+		"name": "Langi"
 	},
 	"dsb": {
 		"name": "Lower Sorbian"
@@ -428,14 +491,29 @@
 	"luy": {
 		"name": "Luyia"
 	},
+	"jmc": {
+		"name": "Machame"
+	},
 	"mgh": {
 		"name": "Makhuwa-Meetto"
+	},
+	"kde": {
+		"name": "Makonde"
+	},
+	"gv": {
+		"name": "Manx"
 	},
 	"mas": {
 		"name": "Masai"
 	},
 	"mzn": {
 		"name": "Mazanderani"
+	},
+	"mer": {
+		"name": "Meru"
+	},
+	"mgo": {
+		"name": "Metaʼ"
 	},
 	"mfe": {
 		"name": "Morisyen"
@@ -445,6 +523,15 @@
 	},
 	"naq": {
 		"name": "Nama"
+	},
+	"nnh": {
+		"name": "Ngiemboon"
+	},
+	"jgo": {
+		"name": "Ngomba"
+	},
+	"nd": {
+		"name": "North Ndebele"
 	},
 	"lrc": {
 		"name": "Northern Luri"
@@ -458,8 +545,14 @@
 	"nn": {
 		"name": "Norwegian Nynorsk"
 	},
+	"nus": {
+		"name": "Nuer"
+	},
 	"nyn": {
 		"name": "Nyankole"
+	},
+	"os": {
+		"name": "Ossetic"
 	},
 	"prg": {
 		"name": "Prussian"
@@ -467,17 +560,56 @@
 	"rof": {
 		"name": "Rombo"
 	},
+	"rwk": {
+		"name": "Rwa"
+	},
+	"sah": {
+		"name": "Sakha"
+	},
+	"saq": {
+		"name": "Samburu"
+	},
+	"sbp": {
+		"name": "Sangu"
+	},
 	"seh": {
 		"name": "Sena"
+	},
+	"ksb": {
+		"name": "Shambala"
+	},
+	"ii": {
+		"name": "Sichuan Yi"
+	},
+	"xog": {
+		"name": "Soga"
+	},
+	"zgh": {
+		"name": "Standard Moroccan Tamazight"
 	},
 	"gsw": {
 		"name": "Swiss German"
 	},
+	"shi": {
+		"name": "Tachelhit"
+	},
+	"dav": {
+		"name": "Taita"
+	},
 	"twq": {
 		"name": "Tasawaq"
 	},
+	"teo": {
+		"name": "Teso"
+	},
 	"hsb": {
 		"name": "Upper Sorbian"
+	},
+	"vai": {
+		"name": "Vai"
+	},
+	"vun": {
+		"name": "Vunjo"
 	},
 	"wae": {
 		"name": "Walser"

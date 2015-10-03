@@ -23,6 +23,12 @@
 	"ar": {
 		"name": "arab"
 	},
+	"asa": {
+		"name": "asu"
+	},
+	"as": {
+		"name": "asszámi"
+	},
 	"ast": {
 		"name": "asztúr"
 	},
@@ -46,6 +52,9 @@
 	},
 	"be": {
 		"name": "belorusz"
+	},
+	"bem": {
+		"name": "bemba"
 	},
 	"bez": {
 		"name": "bena"
@@ -80,8 +89,14 @@
 	"cs": {
 		"name": "cseh"
 	},
+	"chr": {
+		"name": "cseroki"
+	},
 	"da": {
 		"name": "dán"
+	},
+	"dua": {
+		"name": "duala"
 	},
 	"cu": {
 		"name": "egyházi szláv"
@@ -89,8 +104,14 @@
 	"zh-Hans": {
 		"name": "egyszerűsített kínai"
 	},
+	"ebu": {
+		"name": "embu"
+	},
 	"lrc": {
 		"name": "északi luri"
+	},
+	"nd": {
+		"name": "északi ndebele"
 	},
 	"se": {
 		"name": "északi számi"
@@ -107,11 +128,17 @@
 	"ee": {
 		"name": "eve"
 	},
+	"ewo": {
+		"name": "evondo"
+	},
 	"hsb": {
 		"name": "felső szorb"
 	},
 	"fo": {
 		"name": "feröeri"
+	},
+	"fil": {
+		"name": "filippínó"
 	},
 	"fi": {
 		"name": "finn"
@@ -140,11 +167,17 @@
 	"el": {
 		"name": "görög"
 	},
+	"kl": {
+		"name": "grönlandi"
+	},
 	"ka": {
 		"name": "grúz"
 	},
 	"gu": {
 		"name": "gudzsarati"
+	},
+	"guz": {
+		"name": "guszii"
 	},
 	"zh-Hant": {
 		"name": "hagyományos kínai"
@@ -182,6 +215,9 @@
 	"is": {
 		"name": "izlandi"
 	},
+	"sah": {
+		"name": "jakut"
+	},
 	"yav": {
 		"name": "jangben"
 	},
@@ -202,6 +238,15 @@
 	},
 	"kea": {
 		"name": "kabuverdianu"
+	},
+	"kkj": {
+		"name": "kakó"
+	},
+	"kln": {
+		"name": "kalendzsin"
+	},
+	"kam": {
+		"name": "kamba"
 	},
 	"km": {
 		"name": "kambodzsai"
@@ -230,6 +275,9 @@
 	"cgg": {
 		"name": "kiga"
 	},
+	"ki": {
+		"name": "kikuju"
+	},
 	"zh": {
 		"name": "kínai"
 	},
@@ -254,6 +302,9 @@
 	"ko": {
 		"name": "koreai"
 	},
+	"kw": {
+		"name": "korni"
+	},
 	"ksh": {
 		"name": "kölsch"
 	},
@@ -263,6 +314,9 @@
 	"lkt": {
 		"name": "lakota"
 	},
+	"lag": {
+		"name": "langi"
+	},
 	"lo": {
 		"name": "laoszi"
 	},
@@ -271,6 +325,9 @@
 	},
 	"lv": {
 		"name": "lett"
+	},
+	"ln": {
+		"name": "lingala"
 	},
 	"lt": {
 		"name": "litván"
@@ -290,8 +347,14 @@
 	"mk": {
 		"name": "macedón"
 	},
+	"jmc": {
+		"name": "machame"
+	},
 	"hu": {
 		"name": "magyar"
+	},
+	"kde": {
+		"name": "makonde"
 	},
 	"mgh": {
 		"name": "makua-metó"
@@ -308,8 +371,14 @@
 	"mt": {
 		"name": "máltai"
 	},
+	"gv": {
+		"name": "man-szigeti"
+	},
 	"mr": {
 		"name": "marathi"
+	},
+	"zgh": {
+		"name": "marokkói tamazight"
 	},
 	"mas": {
 		"name": "masai"
@@ -319,6 +388,12 @@
 	},
 	"mzn": {
 		"name": "mázanderáni"
+	},
+	"mer": {
+		"name": "meru"
+	},
+	"mgo": {
+		"name": "meta’"
 	},
 	"ro-MD": {
 		"name": "moldvai"
@@ -338,11 +413,23 @@
 	"ne": {
 		"name": "nepáli"
 	},
+	"nnh": {
+		"name": "ngiemboon"
+	},
+	"jgo": {
+		"name": "ngomba"
+	},
+	"nmg": {
+		"name": "ngumba"
+	},
 	"nb": {
 		"name": "norvég bokmal"
 	},
 	"nn": {
 		"name": "norvég nynorsk"
+	},
+	"nus": {
+		"name": "nuer"
 	},
 	"nyn": {
 		"name": "nyankole"
@@ -359,6 +446,9 @@
 	"ru": {
 		"name": "orosz"
 	},
+	"os": {
+		"name": "oszét"
+	},
 	"de-AT": {
 		"name": "osztrák német"
 	},
@@ -367,6 +457,9 @@
 	},
 	"pa": {
 		"name": "pandzsábi"
+	},
+	"ps": {
+		"name": "pastu"
 	},
 	"fa": {
 		"name": "perzsa"
@@ -386,8 +479,17 @@
 	"rof": {
 		"name": "rombo"
 	},
+	"rwk": {
+		"name": "rwo"
+	},
+	"ksb": {
+		"name": "sambala"
+	},
 	"gd": {
 		"name": "skót gael"
+	},
+	"sn": {
+		"name": "sona"
 	},
 	"es": {
 		"name": "spanyol"
@@ -407,11 +509,20 @@
 	"sv": {
 		"name": "svéd"
 	},
+	"saq": {
+		"name": "szamburu"
+	},
 	"sg": {
 		"name": "szangó"
 	},
+	"sbp": {
+		"name": "szangu"
+	},
 	"twq": {
 		"name": "szavák"
+	},
+	"ii": {
+		"name": "szecsuán ji"
 	},
 	"seh": {
 		"name": "szena"
@@ -428,6 +539,9 @@
 	"sl": {
 		"name": "szlovén"
 	},
+	"xog": {
+		"name": "szoga"
+	},
 	"so": {
 		"name": "szomáliai"
 	},
@@ -437,14 +551,26 @@
 	"sw": {
 		"name": "szuahéli"
 	},
+	"shi": {
+		"name": "tachelhit"
+	},
+	"dav": {
+		"name": "taita"
+	},
 	"ta": {
 		"name": "tamil"
 	},
 	"te": {
 		"name": "telugu"
 	},
+	"teo": {
+		"name": "teszó"
+	},
 	"th": {
 		"name": "thai"
+	},
+	"bo": {
+		"name": "tibeti"
 	},
 	"ti": {
 		"name": "tigrinja"
@@ -470,11 +596,17 @@
 	"uz": {
 		"name": "üzbég"
 	},
+	"vai": {
+		"name": "Vai"
+	},
 	"vi": {
 		"name": "vietnami"
 	},
 	"vo": {
 		"name": "volapük"
+	},
+	"vun": {
+		"name": "vunjo"
 	},
 	"cy": {
 		"name": "walesi"

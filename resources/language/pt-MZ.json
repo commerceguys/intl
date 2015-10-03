@@ -35,8 +35,14 @@
 	"hy": {
 		"name": "arménio"
 	},
+	"as": {
+		"name": "assamês"
+	},
 	"ast": {
 		"name": "asturiano"
+	},
+	"asa": {
+		"name": "asu"
 	},
 	"az": {
 		"name": "azerbaijano"
@@ -55,6 +61,9 @@
 	},
 	"eu": {
 		"name": "basco"
+	},
+	"bem": {
+		"name": "bemba"
 	},
 	"bez": {
 		"name": "bena"
@@ -101,6 +110,9 @@
 	"cs": {
 		"name": "checo"
 	},
+	"chr": {
+		"name": "cherokee"
+	},
 	"cgg": {
 		"name": "chiga"
 	},
@@ -122,14 +134,23 @@
 	"ko": {
 		"name": "coreano"
 	},
+	"kw": {
+		"name": "córnico"
+	},
 	"hr": {
 		"name": "croata"
 	},
 	"da": {
 		"name": "dinamarquês"
 	},
+	"dua": {
+		"name": "duala"
+	},
 	"dz": {
 		"name": "dzonga"
+	},
+	"ebu": {
+		"name": "embu"
 	},
 	"cu": {
 		"name": "eslavo eclesiástico"
@@ -155,8 +176,14 @@
 	"ee": {
 		"name": "ewe"
 	},
+	"ewo": {
+		"name": "ewondo"
+	},
 	"fo": {
 		"name": "feroês"
+	},
+	"fil": {
+		"name": "filipino"
 	},
 	"fi": {
 		"name": "finlandês"
@@ -199,6 +226,12 @@
 	},
 	"el": {
 		"name": "grego"
+	},
+	"kl": {
+		"name": "groenlandês"
+	},
+	"guz": {
+		"name": "gusii"
 	},
 	"gu": {
 		"name": "guzerate"
@@ -266,6 +299,15 @@
 	"kab": {
 		"name": "kabyle"
 	},
+	"kkj": {
+		"name": "kako"
+	},
+	"kln": {
+		"name": "kalenjin"
+	},
+	"kam": {
+		"name": "kamba"
+	},
 	"km": {
 		"name": "khmer"
 	},
@@ -281,14 +323,23 @@
 	"ses": {
 		"name": "koyraboro senni"
 	},
+	"nmg": {
+		"name": "kwasio"
+	},
 	"lkt": {
 		"name": "lacota"
+	},
+	"lag": {
+		"name": "langi"
 	},
 	"lo": {
 		"name": "laosiano"
 	},
 	"lv": {
 		"name": "letão"
+	},
+	"ln": {
+		"name": "lingala"
 	},
 	"lt": {
 		"name": "lituano"
@@ -311,6 +362,12 @@
 	"mk": {
 		"name": "macedónio"
 	},
+	"jmc": {
+		"name": "machame"
+	},
+	"kde": {
+		"name": "maconde"
+	},
 	"mgh": {
 		"name": "macua"
 	},
@@ -326,6 +383,9 @@
 	"mt": {
 		"name": "maltês"
 	},
+	"gv": {
+		"name": "manx"
+	},
 	"mr": {
 		"name": "marata"
 	},
@@ -334,6 +394,12 @@
 	},
 	"mzn": {
 		"name": "mazandarani"
+	},
+	"mer": {
+		"name": "meru"
+	},
+	"mgo": {
+		"name": "meta’"
 	},
 	"ro-MD": {
 		"name": "moldávio"
@@ -350,14 +416,26 @@
 	"naq": {
 		"name": "nama"
 	},
+	"nd": {
+		"name": "ndebele do norte"
+	},
 	"ne": {
 		"name": "nepali"
+	},
+	"nnh": {
+		"name": "ngiemboon"
+	},
+	"jgo": {
+		"name": "nguemba"
 	},
 	"nb": {
 		"name": "norueguês bokmål"
 	},
 	"nn": {
 		"name": "norueguês nynorsk"
+	},
+	"nus": {
+		"name": "nuer"
 	},
 	"nyn": {
 		"name": "nyankole"
@@ -368,8 +446,14 @@
 	"om": {
 		"name": "oromo"
 	},
+	"os": {
+		"name": "ossético"
+	},
 	"pa": {
 		"name": "panjabi"
+	},
+	"ps": {
+		"name": "pastó"
 	},
 	"fa": {
 		"name": "persa"
@@ -389,6 +473,9 @@
 	"qu": {
 		"name": "quíchua"
 	},
+	"ki": {
+		"name": "quicuio"
+	},
 	"ky": {
 		"name": "quirguiz"
 	},
@@ -407,17 +494,41 @@
 	"ru": {
 		"name": "russo"
 	},
+	"rwk": {
+		"name": "rwa"
+	},
+	"sah": {
+		"name": "sakha"
+	},
+	"saq": {
+		"name": "samburu"
+	},
 	"se": {
 		"name": "sami do norte"
 	},
 	"sg": {
 		"name": "sango"
 	},
+	"sbp": {
+		"name": "sangu"
+	},
 	"seh": {
 		"name": "sena"
 	},
 	"sr": {
 		"name": "sérvio"
+	},
+	"ksb": {
+		"name": "shambala"
+	},
+	"sn": {
+		"name": "shona"
+	},
+	"ii": {
+		"name": "sichuan yi"
+	},
+	"xog": {
+		"name": "soga"
 	},
 	"so": {
 		"name": "somali"
@@ -431,11 +542,20 @@
 	"sv": {
 		"name": "sueco"
 	},
+	"shi": {
+		"name": "tachelhit"
+	},
 	"th": {
 		"name": "tailandês"
 	},
+	"dav": {
+		"name": "taita"
+	},
 	"tzm": {
 		"name": "tamazight do Atlas Central"
+	},
+	"zgh": {
+		"name": "tamazight marroquino padrão"
 	},
 	"ta": {
 		"name": "tâmil"
@@ -445,6 +565,12 @@
 	},
 	"te": {
 		"name": "telugu"
+	},
+	"teo": {
+		"name": "teso"
+	},
+	"bo": {
+		"name": "tibetano"
 	},
 	"ti": {
 		"name": "tigrínia"
@@ -470,11 +596,17 @@
 	"uz": {
 		"name": "usbeque"
 	},
+	"vai": {
+		"name": "Vai"
+	},
 	"vi": {
 		"name": "vietnamita"
 	},
 	"vo": {
 		"name": "volapuque"
+	},
+	"vun": {
+		"name": "vunjo"
 	},
 	"wae": {
 		"name": "walser"

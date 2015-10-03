@@ -45,10 +45,6 @@ $ignoredLocales = [
     'ia',
     // Valencian differs from its parent only by a single character (è/é).
     'ca-ES-VALENCIA',
-    // Those locales are 90% untranslated.
-    'as', 'bem', 'bo', 'dua', 'eo', 'gv', 'ii', 'kkj', 'kl', 'kok', 'kw', 'lkt',
-    'mgh', 'mgo', 'mt', 'nnh', 'nus', 'or', 'pa-Arab', 'ps', 'qu', 'rw', 'sah',
-    'uz-Arab',
     // Special "grouping" locales.
     'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
 ];
@@ -114,6 +110,7 @@ array_unshift($locales, 'en');
 
 // Create the localizations.
 $currencies = [];
+$untranslatedCounts = [];
 foreach ($locales as $locale) {
     $data = json_decode(file_get_contents($numbersDirectory . $locale . '/currencies.json'), true);
     $data = $data['main'][$locale]['numbers']['currencies'];
@@ -123,6 +120,9 @@ foreach ($locales as $locale) {
             // This currency name is untranslated, use the english version.
             if ($currencyCode == $currencyName) {
                 $currencyName = $currencies['en'][$currencyCode]['name'];
+                // Maintain a count of untranslated currencies per locale.
+                $untranslatedCounts += [$locale => 0];
+                $untranslatedCounts[$locale]++;
             }
 
             $currencies[$locale][$currencyCode] = [
@@ -134,6 +134,15 @@ foreach ($locales as $locale) {
                 $currencies[$locale][$currencyCode]['symbol'] = $currency['symbol'];
             }
         }
+    }
+}
+
+// Ignore locales that are more than 80% untranslated.
+foreach ($untranslatedCounts as $locale => $count) {
+    $totalCount = count($currencies[$locale]);
+    $untranslatedPercentage = $count * (100 / $totalCount);
+    if ($untranslatedPercentage >= 80) {
+        unset($currencies[$locale]);
     }
 }
 

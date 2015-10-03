@@ -29,6 +29,9 @@
 	"tzm": {
 		"name": "amazic del Marroc central"
 	},
+	"zgh": {
+		"name": "amazic estàndard marroquí"
+	},
 	"am": {
 		"name": "amhàric"
 	},
@@ -49,6 +52,9 @@
 	},
 	"hy": {
 		"name": "armeni"
+	},
+	"as": {
+		"name": "assamès"
 	},
 	"ast": {
 		"name": "asturià"
@@ -71,6 +77,9 @@
 	"eu": {
 		"name": "basc"
 	},
+	"bem": {
+		"name": "bemba"
+	},
 	"bez": {
 		"name": "bena"
 	},
@@ -82,6 +91,9 @@
 	},
 	"my": {
 		"name": "birmà"
+	},
+	"nmg": {
+		"name": "bissio"
 	},
 	"brx": {
 		"name": "bodo"
@@ -104,6 +116,9 @@
 	"ca": {
 		"name": "català"
 	},
+	"chr": {
+		"name": "cherokee"
+	},
 	"cgg": {
 		"name": "chiga"
 	},
@@ -112,6 +127,9 @@
 	},
 	"ko": {
 		"name": "coreà"
+	},
+	"kw": {
+		"name": "còrnic"
 	},
 	"kea": {
 		"name": "crioll capverdià"
@@ -125,8 +143,14 @@
 	"dyo": {
 		"name": "diola"
 	},
+	"dua": {
+		"name": "douala"
+	},
 	"dz": {
 		"name": "dzongka"
+	},
+	"ebu": {
+		"name": "embu"
 	},
 	"cu": {
 		"name": "eslau eclesiàstic"
@@ -152,8 +176,14 @@
 	"ee": {
 		"name": "ewe"
 	},
+	"ewo": {
+		"name": "ewondo"
+	},
 	"fo": {
 		"name": "feroès"
+	},
+	"fil": {
+		"name": "filipí"
 	},
 	"fi": {
 		"name": "finès"
@@ -197,8 +227,14 @@
 	"el": {
 		"name": "grec"
 	},
+	"kl": {
+		"name": "grenlandès"
+	},
 	"gu": {
 		"name": "gujarati"
+	},
+	"guz": {
+		"name": "gusí"
 	},
 	"ha": {
 		"name": "haussa"
@@ -214,6 +250,9 @@
 	},
 	"hu": {
 		"name": "hongarès"
+	},
+	"sah": {
+		"name": "iacut"
 	},
 	"ig": {
 		"name": "igbo"
@@ -239,6 +278,15 @@
 	"yi": {
 		"name": "jiddisch"
 	},
+	"kkj": {
+		"name": "kako"
+	},
+	"kln": {
+		"name": "kalenjin"
+	},
+	"kam": {
+		"name": "kamba"
+	},
 	"kn": {
 		"name": "kannada"
 	},
@@ -247,6 +295,9 @@
 	},
 	"km": {
 		"name": "khmer"
+	},
+	"ki": {
+		"name": "kikuiu"
 	},
 	"ky": {
 		"name": "kirguís"
@@ -263,11 +314,17 @@
 	"lkt": {
 		"name": "lakota"
 	},
+	"lag": {
+		"name": "langi"
+	},
 	"lo": {
 		"name": "laosià"
 	},
 	"lv": {
 		"name": "letó"
+	},
+	"ln": {
+		"name": "lingala"
 	},
 	"lt": {
 		"name": "lituà"
@@ -290,8 +347,14 @@
 	"mk": {
 		"name": "macedoni"
 	},
+	"jmc": {
+		"name": "machame"
+	},
 	"mgh": {
 		"name": "makhuwa-metto"
+	},
+	"kde": {
+		"name": "makonde"
 	},
 	"ms": {
 		"name": "malai"
@@ -305,6 +368,9 @@
 	"mt": {
 		"name": "maltès"
 	},
+	"gv": {
+		"name": "manx"
+	},
 	"mr": {
 		"name": "marathi"
 	},
@@ -316,6 +382,12 @@
 	},
 	"mzn": {
 		"name": "mazanderani"
+	},
+	"mer": {
+		"name": "meru"
+	},
+	"mgo": {
+		"name": "meta’"
 	},
 	"ro-MD": {
 		"name": "moldau"
@@ -329,17 +401,29 @@
 	"naq": {
 		"name": "nama"
 	},
+	"nd": {
+		"name": "ndebele septentrional"
+	},
 	"nl": {
 		"name": "neerlandès"
 	},
 	"ne": {
 		"name": "nepalès"
 	},
+	"nnh": {
+		"name": "ngiemboon"
+	},
+	"jgo": {
+		"name": "ngomba"
+	},
 	"nb": {
 		"name": "noruec bokmål"
 	},
 	"nn": {
 		"name": "noruec nynorsk"
+	},
+	"nus": {
+		"name": "nuer"
 	},
 	"nyn": {
 		"name": "nyankole"
@@ -350,8 +434,17 @@
 	"om": {
 		"name": "oromo"
 	},
+	"os": {
+		"name": "osseta"
+	},
+	"ps": {
+		"name": "paixtu"
+	},
 	"pa": {
 		"name": "panjabi"
+	},
+	"asa": {
+		"name": "pare"
 	},
 	"fa": {
 		"name": "persa"
@@ -389,6 +482,12 @@
 	"ru": {
 		"name": "rus"
 	},
+	"rwk": {
+		"name": "rwo"
+	},
+	"saq": {
+		"name": "samburu"
+	},
 	"smn": {
 		"name": "sami d’Inari"
 	},
@@ -398,14 +497,26 @@
 	"sg": {
 		"name": "sango"
 	},
+	"sbp": {
+		"name": "sangu"
+	},
 	"seh": {
 		"name": "sena"
 	},
 	"sr": {
 		"name": "serbi"
 	},
+	"ksb": {
+		"name": "shambala"
+	},
+	"sn": {
+		"name": "shona"
+	},
 	"si": {
 		"name": "singalès"
+	},
+	"xog": {
+		"name": "soga"
 	},
 	"so": {
 		"name": "somali"
@@ -422,6 +533,12 @@
 	"th": {
 		"name": "tailandès"
 	},
+	"dav": {
+		"name": "taita"
+	},
+	"shi": {
+		"name": "taixelhit"
+	},
 	"ta": {
 		"name": "tàmil"
 	},
@@ -430,6 +547,12 @@
 	},
 	"te": {
 		"name": "telugu"
+	},
+	"teo": {
+		"name": "teso"
+	},
+	"bo": {
+		"name": "tibetà"
 	},
 	"ti": {
 		"name": "tigrinya"
@@ -461,11 +584,17 @@
 	"uz": {
 		"name": "uzbek"
 	},
+	"vai": {
+		"name": "Vai"
+	},
 	"vi": {
 		"name": "vietnamita"
 	},
 	"vo": {
 		"name": "volapük"
+	},
+	"vun": {
+		"name": "vunjo"
 	},
 	"wae": {
 		"name": "walser"
@@ -481,6 +610,9 @@
 	},
 	"yav": {
 		"name": "yangben"
+	},
+	"ii": {
+		"name": "yi sichuan"
 	},
 	"dje": {
 		"name": "zarma"

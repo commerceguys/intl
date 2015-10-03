@@ -23,8 +23,14 @@
 	"hy": {
 		"name": "Armeens"
 	},
+	"as": {
+		"name": "Assamees"
+	},
 	"ast": {
 		"name": "Asturisch"
+	},
+	"asa": {
+		"name": "Asu"
 	},
 	"en-AU": {
 		"name": "Australisch Engels"
@@ -43,6 +49,9 @@
 	},
 	"eu": {
 		"name": "Baskisch"
+	},
+	"bem": {
+		"name": "Bemba"
 	},
 	"bez": {
 		"name": "Bena"
@@ -77,20 +86,32 @@
 	"ca": {
 		"name": "Catalaans"
 	},
+	"chr": {
+		"name": "Cherokee"
+	},
 	"cgg": {
 		"name": "Chiga"
 	},
 	"zh": {
 		"name": "Chinees"
 	},
+	"kw": {
+		"name": "Cornish"
+	},
 	"da": {
 		"name": "Deens"
+	},
+	"dua": {
+		"name": "Duala"
 	},
 	"de": {
 		"name": "Duits"
 	},
 	"dz": {
 		"name": "Dzongkha"
+	},
+	"ebu": {
+		"name": "Embu"
 	},
 	"en": {
 		"name": "Engels"
@@ -107,8 +128,14 @@
 	"ee": {
 		"name": "Ewe"
 	},
+	"ewo": {
+		"name": "Ewondo"
+	},
 	"fo": {
 		"name": "Faeröers"
+	},
+	"fil": {
+		"name": "Filipijns"
 	},
 	"fi": {
 		"name": "Fins"
@@ -131,11 +158,20 @@
 	"ka": {
 		"name": "Georgisch"
 	},
+	"ki": {
+		"name": "Gikuyu"
+	},
 	"el": {
 		"name": "Grieks"
 	},
+	"kl": {
+		"name": "Groenlands"
+	},
 	"gu": {
 		"name": "Gujarati"
+	},
+	"guz": {
+		"name": "Gusii"
 	},
 	"ha": {
 		"name": "Hausa"
@@ -170,6 +206,9 @@
 	"it": {
 		"name": "Italiaans"
 	},
+	"sah": {
+		"name": "Jakoets"
+	},
 	"ja": {
 		"name": "Japans"
 	},
@@ -184,6 +223,15 @@
 	},
 	"kab": {
 		"name": "Kabylisch"
+	},
+	"kkj": {
+		"name": "Kako"
+	},
+	"kln": {
+		"name": "Kalenjin"
+	},
+	"kam": {
+		"name": "Kamba"
 	},
 	"kn": {
 		"name": "Kannada"
@@ -230,11 +278,17 @@
 	"lkt": {
 		"name": "Lakota"
 	},
+	"lag": {
+		"name": "Langi"
+	},
 	"lo": {
 		"name": "Laotiaans"
 	},
 	"lv": {
 		"name": "Lets"
+	},
+	"ln": {
+		"name": "Lingala"
 	},
 	"lt": {
 		"name": "Litouws"
@@ -260,8 +314,14 @@
 	"mk": {
 		"name": "Macedonisch"
 	},
+	"jmc": {
+		"name": "Machame"
+	},
 	"mgh": {
 		"name": "Makhuwa-Meetto"
+	},
+	"kde": {
+		"name": "Makonde"
 	},
 	"mg": {
 		"name": "Malagassisch"
@@ -275,11 +335,20 @@
 	"mt": {
 		"name": "Maltees"
 	},
+	"gv": {
+		"name": "Manx"
+	},
 	"mr": {
 		"name": "Marathi"
 	},
 	"mzn": {
 		"name": "Mazanderani"
+	},
+	"mer": {
+		"name": "Meru"
+	},
+	"mgo": {
+		"name": "Meta’"
 	},
 	"es-MX": {
 		"name": "Mexicaans Spaans"
@@ -305,6 +374,18 @@
 	"ne": {
 		"name": "Nepalees"
 	},
+	"nnh": {
+		"name": "Ngiemboon"
+	},
+	"jgo": {
+		"name": "Ngomba"
+	},
+	"nmg": {
+		"name": "Ngumba"
+	},
+	"nd": {
+		"name": "Noord-Ndebele"
+	},
 	"se": {
 		"name": "Noord-Samisch"
 	},
@@ -316,6 +397,9 @@
 	},
 	"nn": {
 		"name": "Noors - Nynorsk"
+	},
+	"nus": {
+		"name": "Nuer"
 	},
 	"nyn": {
 		"name": "Nyankole"
@@ -338,8 +422,14 @@
 	"hsb": {
 		"name": "Oppersorbisch"
 	},
+	"os": {
+		"name": "Ossetisch"
+	},
 	"prg": {
 		"name": "Oudpruisisch"
+	},
+	"ps": {
+		"name": "Pasjtoe"
 	},
 	"fa": {
 		"name": "Perzisch"
@@ -371,8 +461,17 @@
 	"ru": {
 		"name": "Russisch"
 	},
+	"rwk": {
+		"name": "Rwa"
+	},
+	"saq": {
+		"name": "Samburu"
+	},
 	"sg": {
 		"name": "Sango"
+	},
+	"sbp": {
+		"name": "Sangu"
 	},
 	"gd": {
 		"name": "Schots-Gaelisch"
@@ -383,6 +482,12 @@
 	"sr": {
 		"name": "Servisch"
 	},
+	"ksb": {
+		"name": "Shambala"
+	},
+	"sn": {
+		"name": "Shona"
+	},
 	"si": {
 		"name": "Singalees"
 	},
@@ -391,6 +496,9 @@
 	},
 	"sk": {
 		"name": "Slowaaks"
+	},
+	"xog": {
+		"name": "Soga"
 	},
 	"so": {
 		"name": "Somalisch"
@@ -401,8 +509,14 @@
 	"es": {
 		"name": "Spaans"
 	},
+	"zgh": {
+		"name": "Standaard Marokkaanse Tamazight"
+	},
 	"sw": {
 		"name": "Swahili"
+	},
+	"dav": {
+		"name": "Taita"
 	},
 	"tzm": {
 		"name": "Tamazight (Centraal-Marokko)"
@@ -413,11 +527,20 @@
 	"twq": {
 		"name": "Tasawaq"
 	},
+	"shi": {
+		"name": "Tashelhiyt"
+	},
 	"te": {
 		"name": "Telugu"
 	},
+	"teo": {
+		"name": "Teso"
+	},
 	"th": {
 		"name": "Thai"
+	},
+	"bo": {
+		"name": "Tibetaans"
 	},
 	"ti": {
 		"name": "Tigrinya"
@@ -443,6 +566,9 @@
 	"ur": {
 		"name": "Urdu"
 	},
+	"vai": {
+		"name": "Vai"
+	},
 	"zh-Hans": {
 		"name": "vereenvoudigd Chinees"
 	},
@@ -455,6 +581,9 @@
 	"vo": {
 		"name": "Volapük"
 	},
+	"vun": {
+		"name": "Vunjo"
+	},
 	"wae": {
 		"name": "Walser"
 	},
@@ -466,6 +595,9 @@
 	},
 	"yav": {
 		"name": "Yangben"
+	},
+	"ii": {
+		"name": "Yi"
 	},
 	"yo": {
 		"name": "Yoruba"

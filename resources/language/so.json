@@ -14,8 +14,14 @@
 	"hy": {
 		"name": "Armenian"
 	},
+	"as": {
+		"name": "Assamese"
+	},
 	"ast": {
 		"name": "Asturian"
+	},
+	"asa": {
+		"name": "Asu"
 	},
 	"am": {
 		"name": "Axmaari"
@@ -40,6 +46,9 @@
 	},
 	"be": {
 		"name": "Beleruusiyaan"
+	},
+	"bem": {
+		"name": "Bemba"
 	},
 	"bez": {
 		"name": "Bena"
@@ -86,6 +95,9 @@
 	"ce": {
 		"name": "Chechen"
 	},
+	"chr": {
+		"name": "Cherokee"
+	},
 	"cgg": {
 		"name": "Chiga"
 	},
@@ -95,14 +107,23 @@
 	"ksh": {
 		"name": "Colognian"
 	},
+	"kw": {
+		"name": "Cornish"
+	},
 	"hr": {
 		"name": "Croatian"
 	},
 	"da": {
 		"name": "Danish"
 	},
+	"dua": {
+		"name": "Duala"
+	},
 	"dz": {
 		"name": "Dzongkha"
+	},
+	"ebu": {
+		"name": "Embu"
 	},
 	"eo": {
 		"name": "Esperanto"
@@ -112,6 +133,9 @@
 	},
 	"ee": {
 		"name": "Ewe"
+	},
+	"ewo": {
+		"name": "Ewondo"
 	},
 	"fa": {
 		"name": "Faarisi"
@@ -130,6 +154,9 @@
 	},
 	"vi": {
 		"name": "Fiitnaamays"
+	},
+	"fil": {
+		"name": "Filipino"
 	},
 	"fi": {
 		"name": "Finnish"
@@ -157,6 +184,9 @@
 	},
 	"gu": {
 		"name": "Gujarati"
+	},
+	"guz": {
+		"name": "Gusii"
 	},
 	"hu": {
 		"name": "Hangariyaan"
@@ -245,6 +275,18 @@
 	"kab": {
 		"name": "Kabyle"
 	},
+	"kkj": {
+		"name": "Kako"
+	},
+	"kl": {
+		"name": "Kalaallisut"
+	},
+	"kln": {
+		"name": "Kalenjin"
+	},
+	"kam": {
+		"name": "Kamba"
+	},
 	"km": {
 		"name": "Kamboodhian"
 	},
@@ -256,6 +298,9 @@
 	},
 	"kk": {
 		"name": "Kazakh"
+	},
+	"ki": {
+		"name": "Kikuyu"
 	},
 	"kok": {
 		"name": "Konkani"
@@ -269,17 +314,26 @@
 	"ko": {
 		"name": "Kuuriyaan"
 	},
+	"nmg": {
+		"name": "Kwasio"
+	},
 	"ky": {
 		"name": "Kyrgyz"
 	},
 	"lkt": {
 		"name": "Lakota"
 	},
+	"lag": {
+		"name": "Langi"
+	},
 	"lo": {
 		"name": "Lao"
 	},
 	"lv": {
 		"name": "Latvian"
+	},
+	"ln": {
+		"name": "Lingala"
 	},
 	"lt": {
 		"name": "Lithuanian"
@@ -302,8 +356,14 @@
 	"mk": {
 		"name": "Macedonian"
 	},
+	"jmc": {
+		"name": "Machame"
+	},
 	"mgh": {
 		"name": "Makhuwa-Meetto"
+	},
+	"kde": {
+		"name": "Makonde"
 	},
 	"ms": {
 		"name": "Malaay"
@@ -317,6 +377,9 @@
 	"mt": {
 		"name": "Maltese"
 	},
+	"gv": {
+		"name": "Manx"
+	},
 	"mr": {
 		"name": "Marathi"
 	},
@@ -325,6 +388,12 @@
 	},
 	"mzn": {
 		"name": "Mazanderani"
+	},
+	"mer": {
+		"name": "Meru"
+	},
+	"mgo": {
+		"name": "Metaʼ"
 	},
 	"mn": {
 		"name": "Mongolian"
@@ -341,6 +410,15 @@
 	"ne": {
 		"name": "Nebaali"
 	},
+	"nnh": {
+		"name": "Ngiemboon"
+	},
+	"jgo": {
+		"name": "Ngomba"
+	},
+	"nd": {
+		"name": "North Ndebele"
+	},
 	"lrc": {
 		"name": "Northern Luri"
 	},
@@ -353,6 +431,9 @@
 	"nn": {
 		"name": "Norwegian Nynorsk"
 	},
+	"nus": {
+		"name": "Nuer"
+	},
 	"nyn": {
 		"name": "Nyankole"
 	},
@@ -361,6 +442,12 @@
 	},
 	"om": {
 		"name": "Oromo"
+	},
+	"os": {
+		"name": "Ossetic"
+	},
+	"ps": {
+		"name": "Pashto"
 	},
 	"prg": {
 		"name": "Prussian"
@@ -386,11 +473,23 @@
 	"ru": {
 		"name": "Ruush"
 	},
+	"rwk": {
+		"name": "Rwa"
+	},
 	"rw": {
 		"name": "Rwanda"
 	},
+	"sah": {
+		"name": "Sakha"
+	},
+	"saq": {
+		"name": "Samburu"
+	},
 	"sg": {
 		"name": "Sango"
+	},
+	"sbp": {
+		"name": "Sangu"
 	},
 	"gd": {
 		"name": "Scottish Gaelic"
@@ -401,6 +500,15 @@
 	"sr": {
 		"name": "Serbian"
 	},
+	"ksb": {
+		"name": "Shambala"
+	},
+	"sn": {
+		"name": "Shona"
+	},
+	"ii": {
+		"name": "Sichuan Yi"
+	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -410,8 +518,14 @@
 	"sl": {
 		"name": "Slovenian"
 	},
+	"xog": {
+		"name": "Soga"
+	},
 	"so": {
 		"name": "Soomaali"
+	},
+	"zgh": {
+		"name": "Standard Moroccan Tamazight"
 	},
 	"sw": {
 		"name": "Swahili"
@@ -425,6 +539,12 @@
 	"th": {
 		"name": "Taaylandays"
 	},
+	"shi": {
+		"name": "Tachelhit"
+	},
+	"dav": {
+		"name": "Taita"
+	},
 	"it": {
 		"name": "Talyaani"
 	},
@@ -436,6 +556,12 @@
 	},
 	"te": {
 		"name": "Telugu"
+	},
+	"teo": {
+		"name": "Teso"
+	},
+	"bo": {
+		"name": "Tibetan"
 	},
 	"ti": {
 		"name": "Tigrinya"
@@ -461,8 +587,14 @@
 	"uz": {
 		"name": "Uzbek"
 	},
+	"vai": {
+		"name": "Vai"
+	},
 	"vo": {
 		"name": "Volapük"
+	},
+	"vun": {
+		"name": "Vunjo"
 	},
 	"wae": {
 		"name": "Walser"
