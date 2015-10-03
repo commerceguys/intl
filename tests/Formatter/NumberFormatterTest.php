@@ -123,6 +123,18 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
         $formatter->setMaximumFractionDigits(5);
         $formattedNumber = $formatter->format('12.50000');
         $this->assertSame('12.5000', $formattedNumber);
+
+        $formatter = new NumberFormatter($numberFormat);
+        $formatter->setMinimumFractionDigits(1);
+        $formatter->setMaximumFractionDigits(2);
+        $formattedNumber = $formatter->format('12.0000');
+        $this->assertSame('12.0', $formattedNumber);
+
+        $formatter = new NumberFormatter($numberFormat);
+        $formatter->setMinimumFractionDigits(1);
+        $formatter->setMaximumFractionDigits(2);
+        $formattedNumber = $formatter->format('12');
+        $this->assertSame('12.0', $formattedNumber);
     }
 
     /**
