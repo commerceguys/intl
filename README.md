@@ -112,6 +112,7 @@ $countryRepository = new CountryRepository;
 $country = $countryRepository->get('US');
 echo $country->getCountryCode(); // US
 echo $country->getName(); // United States
+echo $country->getCurrencyCode(); // USD
 
 // Get the US country using the fr-FR locale.
 $country = $countryRepository->get('US', 'fr-FR');
