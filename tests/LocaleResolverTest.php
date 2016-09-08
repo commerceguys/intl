@@ -25,6 +25,34 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
         $this->repository = new DummyRepository();
     }
 
+	/**
+     * @covers ::getDefaultLocale
+     * @covers ::setDefaultLocale
+     *
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getDefaultLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::setDefaultLocale
+     */
+    public function testDefaultLocale()
+    {
+    	$this->assertEquals('en', $this->repository->getDefaultLocale());
+    	$this->repository->setDefaultLocale('fr');
+    	$this->assertEquals('fr', $this->repository->getDefaultLocale());
+    }
+
+    /**
+     * @covers ::getFallbackLocale
+     * @covers ::setFallbackLocale
+     *
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::getFallbackLocale
+     * @uses \CommerceGuys\Intl\LocaleResolverTrait::setFallbackLocale
+     */
+    public function testFallbackLocale()
+    {
+    	$this->assertNull($this->repository->getFallbackLocale());
+    	$this->repository->setFallbackLocale('en');
+    	$this->assertEquals('en', $this->repository->getFallbackLocale());
+    }
+
     /**
      * @covers ::resolveLocale
      * @covers ::getDefaultLocale
