@@ -104,10 +104,14 @@ class NumberFormatter implements NumberFormatterInterface
      * @param NumberFormatInterface $numberFormat The number format.
      * @param int                   $style        The formatting style.
      *
-     * @throws InvalidArgumentException
+     * @throws \InvalidArgumentException
+     * @throws \RuntimeException
      */
     public function __construct(NumberFormatInterface $numberFormat, $style = self::DECIMAL)
     {
+        if (!extension_loaded('bcmath')) {
+            throw new \RuntimeException('The bcmath extension is required by NumberFormatter.');
+        }
         $availablePatterns = [
             self::DECIMAL => $numberFormat->getDecimalPattern(),
             self::PERCENT => $numberFormat->getPercentPattern(),
