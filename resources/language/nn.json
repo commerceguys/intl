@@ -24,19 +24,13 @@
 		"name": "aserbajdsjansk"
 	},
 	"as": {
-		"name": "assamisk"
+		"name": "assamesisk"
 	},
 	"ast": {
 		"name": "asturisk"
 	},
 	"asa": {
 		"name": "asu (Tanzania)"
-	},
-	"de-AT": {
-		"name": "austerriksk tysk"
-	},
-	"en-AU": {
-		"name": "australisk engelsk"
 	},
 	"ksf": {
 		"name": "bafia"
@@ -80,20 +74,8 @@
 	"my": {
 		"name": "burmesisk"
 	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
 	"chr": {
 		"name": "cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"ksh": {
-		"name": "Colognian"
 	},
 	"da": {
 		"name": "dansk"
@@ -104,20 +86,26 @@
 	"dz": {
 		"name": "dzongkha"
 	},
+	"ebu": {
+		"name": "embu"
+	},
 	"smn": {
 		"name": "enaresamisk"
 	},
 	"en": {
 		"name": "engelsk"
 	},
+	"en-AU": {
+		"name": "engelsk (Australia)"
+	},
+	"en-CA": {
+		"name": "engelsk (Canada)"
+	},
 	"eo": {
 		"name": "esperanto"
 	},
 	"et": {
 		"name": "estisk"
-	},
-	"pt-PT": {
-		"name": "europeisk portugisisk"
 	},
 	"ee": {
 		"name": "ewe"
@@ -140,11 +128,17 @@
 	"fr": {
 		"name": "fransk"
 	},
+	"fr-CA": {
+		"name": "fransk (Canada)"
+	},
+	"fr-CH": {
+		"name": "fransk (Sveits)"
+	},
 	"fur": {
-		"name": "friuliansk"
+		"name": "friulisk"
 	},
 	"ff": {
-		"name": "fulani"
+		"name": "fulfulde"
 	},
 	"fo": {
 		"name": "færøysk"
@@ -161,11 +155,14 @@
 	"el": {
 		"name": "gresk"
 	},
+	"kl": {
+		"name": "grønlandsk (kalaallisut)"
+	},
 	"gu": {
 		"name": "gujarati"
 	},
 	"guz": {
-		"name": "Gusii"
+		"name": "gusii"
 	},
 	"ha": {
 		"name": "hausa"
@@ -197,9 +194,6 @@
 	"it": {
 		"name": "italiensk"
 	},
-	"sah": {
-		"name": "jakutsk"
-	},
 	"ja": {
 		"name": "japansk"
 	},
@@ -212,35 +206,26 @@
 	"yo": {
 		"name": "joruba"
 	},
+	"kea": {
+		"name": "kabuverdianu"
+	},
 	"kab": {
-		"name": "kabylsk"
+		"name": "kabyle"
 	},
 	"kkj": {
-		"name": "Kako"
+		"name": "kako"
 	},
 	"kln": {
-		"name": "Kalenjin"
-	},
-	"kl": {
-		"name": "kalaallisut; grønlandsk"
+		"name": "kalenjin"
 	},
 	"kam": {
 		"name": "kamba"
-	},
-	"en-CA": {
-		"name": "kanadisk engelsk"
-	},
-	"fr-CA": {
-		"name": "kanadisk fransk"
 	},
 	"kn": {
 		"name": "kannada"
 	},
 	"yue": {
 		"name": "kantonesisk"
-	},
-	"kea": {
-		"name": "kapverdisk"
 	},
 	"kk": {
 		"name": "kasakhisk"
@@ -254,8 +239,8 @@
 	"km": {
 		"name": "khmer"
 	},
-	"ebu": {
-		"name": "kiembu"
+	"cgg": {
+		"name": "kiga"
 	},
 	"ki": {
 		"name": "kikuyu"
@@ -279,7 +264,7 @@
 		"name": "kornisk"
 	},
 	"khq": {
-		"name": "Koyra Chiini"
+		"name": "koyra chiini"
 	},
 	"ses": {
 		"name": "Koyraboro Senni"
@@ -296,11 +281,14 @@
 	"cu": {
 		"name": "kyrkjeslavisk"
 	},
+	"ksh": {
+		"name": "kølnsk"
+	},
 	"lkt": {
-		"name": "Lakota"
+		"name": "lakota"
 	},
 	"lag": {
-		"name": "Langi"
+		"name": "langi"
 	},
 	"lo": {
 		"name": "laotisk"
@@ -323,14 +311,17 @@
 	"lb": {
 		"name": "luxemburgsk"
 	},
-	"luy": {
-		"name": "Luyia"
+	"nds-NL": {
+		"name": "lågsaksisk"
 	},
 	"dsb": {
 		"name": "lågsorbisk"
 	},
+	"nds": {
+		"name": "lågtysk"
+	},
 	"jmc": {
-		"name": "Machame"
+		"name": "machame"
 	},
 	"mg": {
 		"name": "madagassisk"
@@ -342,7 +333,7 @@
 		"name": "Makhuwa-Meetto"
 	},
 	"kde": {
-		"name": "Makonde"
+		"name": "makonde"
 	},
 	"ml": {
 		"name": "malayalam"
@@ -363,13 +354,13 @@
 		"name": "masai"
 	},
 	"mzn": {
-		"name": "Mazanderani"
+		"name": "mazanderani"
 	},
 	"mer": {
-		"name": "Meru"
+		"name": "meru"
 	},
 	"mgo": {
-		"name": "Metaʼ"
+		"name": "meta’"
 	},
 	"ro-MD": {
 		"name": "moldavisk"
@@ -378,13 +369,13 @@
 		"name": "mongolsk"
 	},
 	"mfe": {
-		"name": "Morisyen"
+		"name": "morisyen"
 	},
 	"mua": {
 		"name": "mundang"
 	},
 	"naq": {
-		"name": "Nama"
+		"name": "nama"
 	},
 	"nl": {
 		"name": "nederlandsk"
@@ -393,19 +384,19 @@
 		"name": "nepalsk"
 	},
 	"nnh": {
-		"name": "Ngiemboon"
+		"name": "ngiemboon"
 	},
 	"jgo": {
-		"name": "Ngomba"
+		"name": "ngomba"
+	},
+	"lrc": {
+		"name": "nord-lurisk"
 	},
 	"nd": {
 		"name": "nord-ndebele"
 	},
 	"se": {
 		"name": "nordsamisk"
-	},
-	"lrc": {
-		"name": "Northern Luri"
 	},
 	"nus": {
 		"name": "nuer"
@@ -417,7 +408,10 @@
 		"name": "nynorsk"
 	},
 	"or": {
-		"name": "oriya"
+		"name": "odia"
+	},
+	"luy": {
+		"name": "olulujia"
 	},
 	"om": {
 		"name": "oromo"
@@ -440,8 +434,11 @@
 	"pt": {
 		"name": "portugisisk"
 	},
+	"pt-PT": {
+		"name": "portugisisk (Portugal)"
+	},
 	"prg": {
-		"name": "Prussian"
+		"name": "prøyssisk"
 	},
 	"qu": {
 		"name": "quechua"
@@ -464,8 +461,11 @@
 	"rwk": {
 		"name": "rwa"
 	},
+	"sah": {
+		"name": "sakha"
+	},
 	"saq": {
-		"name": "Samburu"
+		"name": "samburu"
 	},
 	"sg": {
 		"name": "sango"
@@ -474,13 +474,16 @@
 		"name": "sangu"
 	},
 	"seh": {
-		"name": "Sena"
+		"name": "sena"
+	},
+	"tzm": {
+		"name": "sentral-tamazight"
 	},
 	"sr": {
 		"name": "serbisk"
 	},
 	"ksb": {
-		"name": "Shambala"
+		"name": "shambala"
 	},
 	"sn": {
 		"name": "shona"
@@ -501,10 +504,13 @@
 		"name": "slovensk"
 	},
 	"xog": {
-		"name": "Soga"
+		"name": "soga"
 	},
 	"so": {
 		"name": "somali"
+	},
+	"ckb": {
+		"name": "sorani"
 	},
 	"es": {
 		"name": "spansk"
@@ -513,16 +519,10 @@
 		"name": "spansk (Mexico)"
 	},
 	"zgh": {
-		"name": "Standard Moroccan Tamazight"
+		"name": "standard marokkansk tamazight"
 	},
 	"gsw": {
 		"name": "sveitsertysk"
-	},
-	"fr-CH": {
-		"name": "sveitsisk fransk"
-	},
-	"de-CH": {
-		"name": "sveitsisk høgtysk"
 	},
 	"sv": {
 		"name": "svensk"
@@ -534,10 +534,10 @@
 		"name": "swahili (Kongo-Kinshasa)"
 	},
 	"shi": {
-		"name": "Tachelhit"
+		"name": "tachelhit"
 	},
 	"dav": {
-		"name": "Taita"
+		"name": "taita"
 	},
 	"ta": {
 		"name": "tamil"
@@ -549,7 +549,7 @@
 		"name": "telugu"
 	},
 	"teo": {
-		"name": "Teso"
+		"name": "teso"
 	},
 	"th": {
 		"name": "thai"
@@ -561,7 +561,7 @@
 		"name": "tigrinja"
 	},
 	"to": {
-		"name": "tonga (Tonga-øyane)"
+		"name": "tongansk"
 	},
 	"zh-Hant": {
 		"name": "tradisjonell kinesisk"
@@ -580,6 +580,12 @@
 	},
 	"de": {
 		"name": "tysk"
+	},
+	"de-AT": {
+		"name": "tysk (Austerrike)"
+	},
+	"de-CH": {
+		"name": "tysk (Sveits)"
 	},
 	"ug": {
 		"name": "uigurisk"
@@ -609,13 +615,13 @@
 		"name": "volapyk"
 	},
 	"vun": {
-		"name": "Vunjo"
+		"name": "vunjo"
 	},
 	"cy": {
 		"name": "walisisk"
 	},
 	"wae": {
-		"name": "Walser"
+		"name": "walsertysk"
 	},
 	"yav": {
 		"name": "yangben"

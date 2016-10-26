@@ -1,33 +1,6 @@
 {
-	"ast": {
-		"name": "Asturian"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"yue": {
-		"name": "Cantonese"
-	},
 	"tzm": {
 		"name": "Central Atlas Tamazight"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"kkj": {
-		"name": "Kako"
 	},
 	"af": {
 		"name": "Kiafrikana"
@@ -59,6 +32,9 @@
 	"as": {
 		"name": "Kiassam"
 	},
+	"ast": {
+		"name": "Kiasturia"
+	},
 	"asa": {
 		"name": "Kiasu"
 	},
@@ -74,8 +50,8 @@
 	"bm": {
 		"name": "Kibambara"
 	},
-	"bn": {
-		"name": "Kibangla"
+	"bas": {
+		"name": "Kibasaa"
 	},
 	"eu": {
 		"name": "Kibasque"
@@ -89,11 +65,11 @@
 	"bez": {
 		"name": "Kibena"
 	},
+	"bn": {
+		"name": "Kibengali"
+	},
 	"brx": {
 		"name": "Kibodo"
-	},
-	"nb": {
-		"name": "Kibokmal cha Norwe"
 	},
 	"bs": {
 		"name": "Kibosnia"
@@ -111,7 +87,7 @@
 		"name": "Kichechenia"
 	},
 	"cs": {
-		"name": "Kichecki"
+		"name": "Kicheki"
 	},
 	"chr": {
 		"name": "Kicherokee"
@@ -127,6 +103,9 @@
 	},
 	"zh-Hant": {
 		"name": "Kichina cha Jadi"
+	},
+	"ksh": {
+		"name": "Kicologne"
 	},
 	"da": {
 		"name": "Kidenmaki"
@@ -152,11 +131,14 @@
 	"ee": {
 		"name": "Kiewe"
 	},
+	"ewo": {
+		"name": "Kiewondo"
+	},
 	"fr": {
 		"name": "Kifaransa"
 	},
 	"fr-CA": {
-		"name": "Kifaransa (Kanada)"
+		"name": "Kifaransa (Canada)"
 	},
 	"fr-CH": {
 		"name": "Kifaransa (Uswisi)"
@@ -170,8 +152,17 @@
 	"fi": {
 		"name": "Kifini"
 	},
+	"nl-BE": {
+		"name": "Kiflemi"
+	},
 	"fy": {
 		"name": "Kifrisia cha Magharibi"
+	},
+	"fur": {
+		"name": "Kifriulian"
+	},
+	"ff": {
+		"name": "Kifula"
 	},
 	"gd": {
 		"name": "Kigaeli cha Uskoti"
@@ -188,6 +179,9 @@
 	"gu": {
 		"name": "Kigujarati"
 	},
+	"hu": {
+		"name": "Kihangari"
+	},
 	"ha": {
 		"name": "Kihausa"
 	},
@@ -201,22 +195,28 @@
 		"name": "Kihispania"
 	},
 	"es-MX": {
-		"name": "Kihispania (Meksiko)"
+		"name": "Kihispania (Mexico)"
 	},
 	"nl": {
 		"name": "Kiholanzi"
-	},
-	"nl-BE": {
-		"name": "Kiholanzi (Ubelgiji)"
-	},
-	"hu": {
-		"name": "Kihungari"
 	},
 	"ig": {
 		"name": "Kiigbo"
 	},
 	"id": {
 		"name": "Kiindonesia"
+	},
+	"en": {
+		"name": "Kiingereza"
+	},
+	"en-AU": {
+		"name": "Kiingereza (Australia)"
+	},
+	"en-CA": {
+		"name": "Kiingereza (Kanada)"
+	},
+	"en-GB": {
+		"name": "Kiingereza (Uingereza)"
 	},
 	"it": {
 		"name": "Kiitaliano"
@@ -251,6 +251,9 @@
 	"kab": {
 		"name": "Kikabylia"
 	},
+	"kkj": {
+		"name": "Kikako"
+	},
 	"kl": {
 		"name": "Kikalaallisut"
 	},
@@ -266,6 +269,9 @@
 	"kn": {
 		"name": "Kikannada"
 	},
+	"yue": {
+		"name": "Kikantoni"
+	},
 	"ks": {
 		"name": "Kikashmiri"
 	},
@@ -273,7 +279,7 @@
 		"name": "Kikatalani"
 	},
 	"kk": {
-		"name": "Kikazaki"
+		"name": "Kikazakh"
 	},
 	"ki": {
 		"name": "Kikikuyu"
@@ -295,6 +301,9 @@
 	},
 	"khq": {
 		"name": "Kikoyra Chiini"
+	},
+	"hr": {
+		"name": "Kikroeshia"
 	},
 	"ckb": {
 		"name": "Kikurdi cha Sorani"
@@ -341,17 +350,20 @@
 	"kde": {
 		"name": "Kimakonde"
 	},
+	"mg": {
+		"name": "Kimalagasi"
+	},
 	"ml": {
 		"name": "Kimalayalam"
 	},
 	"ms": {
-		"name": "Kimalesia"
+		"name": "Kimalei"
 	},
 	"mt": {
 		"name": "Kimalta"
 	},
 	"gv": {
-		"name": "Kimanx"
+		"name": "Kimanksi"
 	},
 	"mr": {
 		"name": "Kimarathi"
@@ -386,23 +398,20 @@
 	"ne": {
 		"name": "Kinepali"
 	},
-	"en": {
-		"name": "Kingereza"
-	},
-	"en-AU": {
-		"name": "Kingereza (Australia)"
-	},
-	"en-CA": {
-		"name": "Kingereza (Kanada)"
-	},
-	"en-GB": {
-		"name": "Kingereza (Uingereza)"
+	"nnh": {
+		"name": "Kingiemboon"
 	},
 	"jgo": {
 		"name": "Kingomba"
 	},
+	"sw-CD": {
+		"name": "Kingwana"
+	},
+	"nb": {
+		"name": "Kinorwe cha Bokmål"
+	},
 	"nn": {
-		"name": "Kinorwe Kipya"
+		"name": "Kinorwe cha Nynorsk"
 	},
 	"nus": {
 		"name": "Kinuer"
@@ -427,6 +436,9 @@
 	},
 	"pl": {
 		"name": "Kipolandi"
+	},
+	"prg": {
+		"name": "Kiprussia"
 	},
 	"pa": {
 		"name": "Kipunjabi"
@@ -462,7 +474,16 @@
 		"name": "Kirusi"
 	},
 	"rwk": {
-		"name": "Kirwo"
+		"name": "Kirwa"
+	},
+	"sah": {
+		"name": "Kisakha"
+	},
+	"nds": {
+		"name": "Kisaksoni"
+	},
+	"nds-NL": {
+		"name": "Kisaksoni (Uholanzi)"
 	},
 	"ksb": {
 		"name": "Kisambaa"
@@ -497,8 +518,14 @@
 	"sk": {
 		"name": "Kislovakia"
 	},
+	"cu": {
+		"name": "Kislovakia cha Church"
+	},
 	"sl": {
 		"name": "Kislovenia"
+	},
+	"hsb": {
+		"name": "Kisobia cha Ukanda wa Juu"
 	},
 	"xog": {
 		"name": "Kisoga"
@@ -508,9 +535,6 @@
 	},
 	"sw": {
 		"name": "Kiswahili"
-	},
-	"sw-CD": {
-		"name": "Kiswahili ya Kongo"
 	},
 	"sv": {
 		"name": "Kiswidi"
@@ -552,7 +576,7 @@
 		"name": "Kiturukimeni"
 	},
 	"uk": {
-		"name": "Kiukrania"
+		"name": "Kiukraine"
 	},
 	"ur": {
 		"name": "Kiurdu"
@@ -569,11 +593,20 @@
 	"vi": {
 		"name": "Kivietinamu"
 	},
+	"vo": {
+		"name": "Kivolapük"
+	},
 	"vun": {
 		"name": "Kivunjo"
 	},
+	"wae": {
+		"name": "Kiwalser"
+	},
 	"cy": {
 		"name": "Kiwelisi"
+	},
+	"yav": {
+		"name": "Kiyangben"
 	},
 	"yi": {
 		"name": "Kiyidi"
@@ -593,37 +626,10 @@
 	"ses": {
 		"name": "Koyraboro Senni"
 	},
-	"hr": {
-		"name": "Kroeshia"
-	},
-	"mg": {
-		"name": "Malagasi"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
 	"ii": {
 		"name": "Sichuan Yi"
 	},
 	"zgh": {
-		"name": "Tamaziti Msingi ya Kimoroko"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"yav": {
-		"name": "Yangben"
+		"name": "Tamaziti Sanifu ya Kimoroko"
 	}
 }

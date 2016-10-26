@@ -39,8 +39,11 @@
 	"BBD": {
 		"name": "i-Barbadian Dollar"
 	},
-	"BYR": {
+	"BYN": {
 		"name": "i-Belarusian Ruble"
+	},
+	"BYR": {
+		"name": "i-Belarusian Ruble (2000–2016)"
 	},
 	"BZD": {
 		"name": "i-Belize Dollar"
@@ -91,12 +94,8 @@
 		"name": "i-Cayman Islands Dollar"
 	},
 	"XAF": {
-		"name": "i-CFA Franc BCEA",
+		"name": "i-Central African CFA Franc",
 		"symbol": "FCFA"
-	},
-	"XOF": {
-		"name": "i-CFA Franc BCEAO",
-		"symbol": "CFA"
 	},
 	"XPF": {
 		"name": "i-CFP Franc",
@@ -479,6 +478,10 @@
 	"VND": {
 		"name": "i-Vietnamese Dong",
 		"symbol": "₫"
+	},
+	"XOF": {
+		"name": "i-West African CFA Franc",
+		"symbol": "CFA"
 	},
 	"YER": {
 		"name": "i-Yemeni Rial"

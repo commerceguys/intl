@@ -11,9 +11,6 @@
 	"DZ": {
 		"name": "Algéria"
 	},
-	"UM": {
-		"name": "Amerikai Csendes-óceáni Szigetek"
-	},
 	"AS": {
 		"name": "Amerikai Szamoa"
 	},
@@ -50,6 +47,9 @@
 	"AT": {
 		"name": "Ausztria"
 	},
+	"UM": {
+		"name": "Az Amerikai Egyesült Államok lakatlan külbirtokai"
+	},
 	"AZ": {
 		"name": "Azerbajdzsán"
 	},
@@ -64,6 +64,9 @@
 	},
 	"BB": {
 		"name": "Barbados"
+	},
+	"BY": {
+		"name": "Belarusz"
 	},
 	"BE": {
 		"name": "Belgium"
@@ -206,9 +209,6 @@
 	"FK": {
 		"name": "Falkland-szigetek"
 	},
-	"BY": {
-		"name": "Fehéroroszország"
-	},
 	"FO": {
 		"name": "Feröer-szigetek"
 	},
@@ -288,7 +288,7 @@
 		"name": "Honduras"
 	},
 	"HK": {
-		"name": "Hongkong SAR Kína"
+		"name": "Hongkong KKT"
 	},
 	"HR": {
 		"name": "Horvátország"
@@ -369,7 +369,7 @@
 		"name": "Kiribati"
 	},
 	"CC": {
-		"name": "Kókusz-szigetek"
+		"name": "Kókusz (Keeling)-szigetek"
 	},
 	"CO": {
 		"name": "Kolumbia"
@@ -432,7 +432,7 @@
 		"name": "Magyarország"
 	},
 	"MO": {
-		"name": "Makaó SAR Kína"
+		"name": "Makaó KKT"
 	},
 	"MY": {
 		"name": "Malajzia"
@@ -573,7 +573,7 @@
 		"name": "Puerto Rico"
 	},
 	"RE": {
-		"name": "Reunion"
+		"name": "Réunion"
 	},
 	"RO": {
 		"name": "Románia"
@@ -584,17 +584,20 @@
 	"KN": {
 		"name": "Saint Kitts és Nevis"
 	},
+	"LC": {
+		"name": "Saint Lucia"
+	},
 	"MF": {
 		"name": "Saint Martin"
-	},
-	"PM": {
-		"name": "Saint Pierre és Miquelon"
 	},
 	"VC": {
 		"name": "Saint Vincent és a Grenadine-szigetek"
 	},
 	"BL": {
 		"name": "Saint-Barthélemy"
+	},
+	"PM": {
+		"name": "Saint-Pierre és Miquelon"
 	},
 	"SB": {
 		"name": "Salamon-szigetek"
@@ -604,9 +607,6 @@
 	},
 	"SM": {
 		"name": "San Marino"
-	},
-	"LC": {
-		"name": "Santa Lucia"
 	},
 	"ST": {
 		"name": "Sao Tomé és Príncipe"
@@ -623,9 +623,6 @@
 	"ES": {
 		"name": "Spanyolország"
 	},
-	"SJ": {
-		"name": "Spitzbergák és Jan Mayen-szigetek"
-	},
 	"LK": {
 		"name": "Srí Lanka"
 	},
@@ -634,6 +631,9 @@
 	},
 	"CH": {
 		"name": "Svájc"
+	},
+	"SJ": {
+		"name": "Svalbard és Jan Mayen"
 	},
 	"SE": {
 		"name": "Svédország"
@@ -747,7 +747,7 @@
 		"name": "Vietnam"
 	},
 	"WF": {
-		"name": "Wallis- és Futuna-szigetek"
+		"name": "Wallis és Futuna"
 	},
 	"ZM": {
 		"name": "Zambia"

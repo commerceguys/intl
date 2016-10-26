@@ -24,7 +24,7 @@
 		"name": "aserbajdsjansk"
 	},
 	"as": {
-		"name": "assamisk"
+		"name": "assamesisk"
 	},
 	"ast": {
 		"name": "asturisk"
@@ -32,20 +32,17 @@
 	"asa": {
 		"name": "asu"
 	},
-	"en-AU": {
-		"name": "australsk engelsk"
-	},
 	"ksf": {
 		"name": "bafia"
 	},
 	"bm": {
 		"name": "bambara"
 	},
-	"bas": {
-		"name": "basa"
-	},
 	"eu": {
 		"name": "baskisk"
+	},
+	"bas": {
+		"name": "basaa"
 	},
 	"bem": {
 		"name": "bemba"
@@ -65,20 +62,11 @@
 	"br": {
 		"name": "bretonsk"
 	},
-	"en-GB": {
-		"name": "britisk engelsk"
-	},
 	"bg": {
 		"name": "bulgarsk"
 	},
 	"my": {
 		"name": "burmesisk"
-	},
-	"en-CA": {
-		"name": "canadisk engelsk"
-	},
-	"fr-CA": {
-		"name": "canadisk fransk"
 	},
 	"chr": {
 		"name": "cherokesisk"
@@ -98,14 +86,20 @@
 	"en": {
 		"name": "engelsk"
 	},
+	"en-AU": {
+		"name": "engelsk (Australia)"
+	},
+	"en-CA": {
+		"name": "engelsk (Canada)"
+	},
+	"en-GB": {
+		"name": "engelsk (Storbritannia)"
+	},
 	"eo": {
 		"name": "esperanto"
 	},
 	"et": {
 		"name": "estisk"
-	},
-	"pt-PT": {
-		"name": "europeisk portugisisk"
 	},
 	"ee": {
 		"name": "ewe"
@@ -114,7 +108,7 @@
 		"name": "ewondo"
 	},
 	"fil": {
-		"name": "filippinsk"
+		"name": "filipino"
 	},
 	"fi": {
 		"name": "finsk"
@@ -128,11 +122,17 @@
 	"fr": {
 		"name": "fransk"
 	},
+	"fr-CA": {
+		"name": "fransk (Canada)"
+	},
+	"fr-CH": {
+		"name": "fransk (Sveits)"
+	},
 	"fur": {
 		"name": "friuliansk"
 	},
 	"ff": {
-		"name": "fulani"
+		"name": "fulfulde"
 	},
 	"fo": {
 		"name": "færøysk"
@@ -195,7 +195,7 @@
 		"name": "italiensk"
 	},
 	"sah": {
-		"name": "jakutsk"
+		"name": "jakutisk"
 	},
 	"ja": {
 		"name": "japansk"
@@ -362,9 +362,6 @@
 	"mzn": {
 		"name": "mazandarani"
 	},
-	"es-MX": {
-		"name": "meksikansk spansk"
-	},
 	"mer": {
 		"name": "meru"
 	},
@@ -385,6 +382,12 @@
 	},
 	"nl": {
 		"name": "nederlandsk"
+	},
+	"nds-NL": {
+		"name": "nedersaksisk"
+	},
+	"nds": {
+		"name": "nedertysk"
 	},
 	"ne": {
 		"name": "nepali"
@@ -436,6 +439,9 @@
 	},
 	"pt": {
 		"name": "portugisisk"
+	},
+	"pt-PT": {
+		"name": "portugisisk (Portugal)"
 	},
 	"prg": {
 		"name": "prøyssisk"
@@ -495,7 +501,7 @@
 		"name": "singalesisk"
 	},
 	"gd": {
-		"name": "skotsk gælisk"
+		"name": "skotsk-gælisk"
 	},
 	"sk": {
 		"name": "slovakisk"
@@ -512,17 +518,14 @@
 	"es": {
 		"name": "spansk"
 	},
+	"es-MX": {
+		"name": "spansk (Mexico)"
+	},
 	"zgh": {
 		"name": "standard marrokansk tamazight"
 	},
 	"gsw": {
 		"name": "sveitsertysk"
-	},
-	"fr-CH": {
-		"name": "sveitsisk fransk"
-	},
-	"de-CH": {
-		"name": "sveitsisk høytysk"
 	},
 	"sv": {
 		"name": "svensk"
@@ -578,6 +581,12 @@
 	"de": {
 		"name": "tysk"
 	},
+	"de-CH": {
+		"name": "tysk (Sveits)"
+	},
+	"de-AT": {
+		"name": "tysk (Østerrike)"
+	},
 	"ug": {
 		"name": "uigurisk"
 	},
@@ -612,7 +621,7 @@
 		"name": "walisisk"
 	},
 	"wae": {
-		"name": "walser"
+		"name": "walsertysk"
 	},
 	"yav": {
 		"name": "yangben"
@@ -622,8 +631,5 @@
 	},
 	"zu": {
 		"name": "zulu"
-	},
-	"de-AT": {
-		"name": "østerriksk tysk"
 	}
 }

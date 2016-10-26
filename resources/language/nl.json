@@ -32,9 +32,6 @@
 	"asa": {
 		"name": "Asu"
 	},
-	"en-AU": {
-		"name": "Australisch Engels"
-	},
 	"az": {
 		"name": "Azerbeidzjaans"
 	},
@@ -71,17 +68,8 @@
 	"br": {
 		"name": "Bretons"
 	},
-	"en-GB": {
-		"name": "Brits Engels"
-	},
 	"bg": {
 		"name": "Bulgaars"
-	},
-	"en-CA": {
-		"name": "Canadees Engels"
-	},
-	"fr-CA": {
-		"name": "Canadees Frans"
 	},
 	"ca": {
 		"name": "Catalaans"
@@ -95,8 +83,11 @@
 	"zh": {
 		"name": "Chinees"
 	},
-	"sw-CD": {
-		"name": "Congo Swahili"
+	"zh-Hant": {
+		"name": "Chinees (traditioneel)"
+	},
+	"zh-Hans": {
+		"name": "Chinees (vereenvoudigd)"
 	},
 	"kw": {
 		"name": "Cornish"
@@ -110,6 +101,12 @@
 	"de": {
 		"name": "Duits"
 	},
+	"de-AT": {
+		"name": "Duits (Oostenrijk)"
+	},
+	"de-CH": {
+		"name": "Duits (Zwitserland)"
+	},
 	"dz": {
 		"name": "Dzongkha"
 	},
@@ -119,14 +116,20 @@
 	"en": {
 		"name": "Engels"
 	},
+	"en-AU": {
+		"name": "Engels (Australië)"
+	},
+	"en-CA": {
+		"name": "Engels (Canada)"
+	},
+	"en-GB": {
+		"name": "Engels (Verenigd Koninkrijk)"
+	},
 	"eo": {
 		"name": "Esperanto"
 	},
 	"et": {
 		"name": "Estisch"
-	},
-	"pt-PT": {
-		"name": "Europees Portugees"
 	},
 	"ee": {
 		"name": "Ewe"
@@ -145,6 +148,12 @@
 	},
 	"fr": {
 		"name": "Frans"
+	},
+	"fr-CA": {
+		"name": "Frans (Canada)"
+	},
+	"fr-CH": {
+		"name": "Frans (Zwitserland)"
 	},
 	"fy": {
 		"name": "Fries"
@@ -356,9 +365,6 @@
 	"mgo": {
 		"name": "Meta’"
 	},
-	"es-MX": {
-		"name": "Mexicaans Spaans"
-	},
 	"mn": {
 		"name": "Mongools"
 	},
@@ -373,6 +379,15 @@
 	},
 	"nl": {
 		"name": "Nederlands"
+	},
+	"nl-BE": {
+		"name": "Nederlands (België)"
+	},
+	"nds": {
+		"name": "Nedersaksisch"
+	},
+	"nds-NL": {
+		"name": "Nedersaksisch (Nederland)"
 	},
 	"dsb": {
 		"name": "Nedersorbisch"
@@ -422,9 +437,6 @@
 	"uz": {
 		"name": "Oezbeeks"
 	},
-	"de-AT": {
-		"name": "Oostenrijks Duits"
-	},
 	"hsb": {
 		"name": "Oppersorbisch"
 	},
@@ -445,6 +457,9 @@
 	},
 	"pt": {
 		"name": "Portugees"
+	},
+	"pt-PT": {
+		"name": "Portugees (Portugal)"
 	},
 	"pa": {
 		"name": "Punjabi"
@@ -515,11 +530,17 @@
 	"es": {
 		"name": "Spaans"
 	},
+	"es-MX": {
+		"name": "Spaans (Mexico)"
+	},
 	"zgh": {
 		"name": "Standaard Marokkaanse Tamazight"
 	},
 	"sw": {
 		"name": "Swahili"
+	},
+	"sw-CD": {
+		"name": "Swahili (Congo-Kinshasa)"
 	},
 	"dav": {
 		"name": "Taita"
@@ -554,9 +575,6 @@
 	"to": {
 		"name": "Tongaans"
 	},
-	"zh-Hant": {
-		"name": "traditioneel Chinees"
-	},
 	"cs": {
 		"name": "Tsjechisch"
 	},
@@ -575,14 +593,8 @@
 	"vai": {
 		"name": "Vai"
 	},
-	"zh-Hans": {
-		"name": "vereenvoudigd Chinees"
-	},
 	"vi": {
 		"name": "Vietnamees"
-	},
-	"nl-BE": {
-		"name": "Vlaams"
 	},
 	"vo": {
 		"name": "Volapük"
@@ -619,11 +631,5 @@
 	},
 	"gsw": {
 		"name": "Zwitserduits"
-	},
-	"fr-CH": {
-		"name": "Zwitsers Frans"
-	},
-	"de-CH": {
-		"name": "Zwitsers Hoogduits"
 	}
 }

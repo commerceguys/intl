@@ -1,7 +1,4 @@
 {
-	"US": {
-		"name": "ABD"
-	},
 	"UM": {
 		"name": "ABD Uzak Adaları"
 	},
@@ -16,6 +13,9 @@
 	},
 	"DE": {
 		"name": "Almanya"
+	},
+	"US": {
+		"name": "Amerika Birleşik Devletleri"
 	},
 	"AS": {
 		"name": "Amerikan Samoası"
@@ -69,7 +69,10 @@
 		"name": "Barbados"
 	},
 	"EH": {
-		"name": "Batı Sahara"
+		"name": "Batı Sahra"
+	},
+	"BY": {
+		"name": "Belarus"
 	},
 	"BE": {
 		"name": "Belçika"
@@ -83,9 +86,6 @@
 	"BM": {
 		"name": "Bermuda"
 	},
-	"BY": {
-		"name": "Beyaz Rusya"
-	},
 	"AE": {
 		"name": "Birleşik Arap Emirlikleri"
 	},
@@ -96,7 +96,7 @@
 		"name": "Bolivya"
 	},
 	"BA": {
-		"name": "Bosna Hersek"
+		"name": "Bosna-Hersek"
 	},
 	"BW": {
 		"name": "Botsvana"
@@ -162,10 +162,10 @@
 		"name": "Çin"
 	},
 	"HK": {
-		"name": "Çin Hong Kong ÖYB"
+		"name": "Çin Hong Kong ÖİB"
 	},
 	"MO": {
-		"name": "Çin Makao ÖYB"
+		"name": "Çin Makao ÖİB"
 	},
 	"DK": {
 		"name": "Danimarka"
@@ -411,7 +411,7 @@
 		"name": "Laos"
 	},
 	"LS": {
-		"name": "Lesoto"
+		"name": "Lesotho"
 	},
 	"LV": {
 		"name": "Letonya"
@@ -657,7 +657,7 @@
 		"name": "Suudi Arabistan"
 	},
 	"SJ": {
-		"name": "Svalbard ve Jan Mayen Adaları"
+		"name": "Svalbard ve Jan Mayen"
 	},
 	"SZ": {
 		"name": "Svaziland"
@@ -738,7 +738,7 @@
 		"name": "Vietnam"
 	},
 	"WF": {
-		"name": "Wallis ve Futuna Adaları"
+		"name": "Wallis ve Futuna"
 	},
 	"YE": {
 		"name": "Yemen"

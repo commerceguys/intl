@@ -1,27 +1,30 @@
 {
 	"USD": {
-		"name": "AEBetako dolarra",
+		"name": "AEBko dolarra",
 		"symbol": "US$"
 	},
 	"AFN": {
 		"name": "Afganistango afghania"
 	},
-	"XOF": {
-		"name": "Afrika ekialdeko frankoa BCEAO",
-		"symbol": "CFA"
-	},
 	"XAF": {
-		"name": "Afrika erdialdeko frankoa BEAC",
+		"name": "Afrika erdialdeko CFA frankoa",
 		"symbol": "FCFA"
+	},
+	"XOF": {
+		"name": "Afrika mendebaldeko CFA frankoa",
+		"symbol": "CFA"
 	},
 	"ALL": {
 		"name": "Albaniako leka"
 	},
 	"DZD": {
-		"name": "Algeriako dinarra"
+		"name": "Aljeriako dinarra"
 	},
 	"AOA": {
 		"name": "Angolako kwanza"
+	},
+	"SAR": {
+		"name": "Arabia Saudiko riala"
 	},
 	"AED": {
 		"name": "Arabiar Emirerri Batuetako dirhama"
@@ -33,7 +36,7 @@
 		"name": "Armeniako drama"
 	},
 	"AWG": {
-		"name": "Arubeko florina"
+		"name": "Arubako florina"
 	},
 	"AUD": {
 		"name": "Australiako dolarra",
@@ -63,8 +66,11 @@
 	"BTN": {
 		"name": "Bhutango ngultruma"
 	},
-	"BYR": {
+	"BYN": {
 		"name": "Bielorrusiako errubloa"
+	},
+	"BYR": {
+		"name": "Bielorrusiako errubloa (2000–2016)"
 	},
 	"BOB": {
 		"name": "Boliviako bolivianoa"
@@ -102,7 +108,7 @@
 		"name": "Danimarkako koroa"
 	},
 	"DJF": {
-		"name": "Djibouteko frankoa"
+		"name": "Djibutiko frankoa"
 	},
 	"DOP": {
 		"name": "Dominikar Errepublikako pesoa"
@@ -123,7 +129,7 @@
 		"name": "Etiopiako birra"
 	},
 	"EUR": {
-		"name": "Euroa",
+		"name": "euroa",
 		"symbol": "€"
 	},
 	"FKP": {
@@ -202,7 +208,7 @@
 		"name": "Islandiako koroa"
 	},
 	"ILS": {
-		"name": "Israeleko sheqel berria",
+		"name": "Israelgo shekel berria",
 		"symbol": "₪"
 	},
 	"JMD": {
@@ -303,7 +309,7 @@
 		"name": "Maurizio uharteetako errupia"
 	},
 	"MKD": {
-		"name": "Mazedoniako denara"
+		"name": "Mazedoniako dinarra"
 	},
 	"MXN": {
 		"name": "Mexikoko pesoa",
@@ -378,9 +384,6 @@
 	"STD": {
 		"name": "Sao Tomeko eta Principeko dobra"
 	},
-	"SAR": {
-		"name": "Saudiko riala"
-	},
 	"RSD": {
 		"name": "Serbiako dinarra"
 	},
@@ -415,7 +418,7 @@
 		"name": "Surinameko dolarra"
 	},
 	"SZL": {
-		"name": "Swaziko lilangenia"
+		"name": "Swazilandiako lilangenia"
 	},
 	"TWD": {
 		"name": "Taiwango dolar berria",
@@ -435,7 +438,7 @@
 		"name": "Tongako Paʻanga"
 	},
 	"TTD": {
-		"name": "Trinidadeko eta Tobagoko dolarra"
+		"name": "Trinidad eta Tobagoko dolarra"
 	},
 	"TND": {
 		"name": "Tunisiako dinarra"

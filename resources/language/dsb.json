@@ -47,9 +47,6 @@
 	"eu": {
 		"name": "baskišćina"
 	},
-	"be": {
-		"name": "běłorušćina"
-	},
 	"bem": {
 		"name": "bemba"
 	},
@@ -58,6 +55,9 @@
 	},
 	"bn": {
 		"name": "bengalšćina"
+	},
+	"be": {
+		"name": "běłorušćina"
 	},
 	"brx": {
 		"name": "bodo"
@@ -83,38 +83,20 @@
 	"tzm": {
 		"name": "centralnoatlaski tamazight"
 	},
-	"cs": {
-		"name": "češćina"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "cherokee"
-	},
-	"cgg": {
-		"name": "chiga"
-	},
-	"zh": {
-		"name": "chinšćina"
-	},
-	"zh-Hant": {
-		"name": "chinšćina (tradicionalna)"
-	},
-	"zh-Hans": {
-		"name": "chinšćina (zjadnorjona)"
-	},
-	"hr": {
-		"name": "chorwatšćina"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
 	"ksh": {
 		"name": "Colognian"
 	},
+	"cs": {
+		"name": "češćina"
+	},
 	"da": {
 		"name": "danšćina"
+	},
+	"nds": {
+		"name": "dolnonimšćina"
+	},
+	"nds-NL": {
+		"name": "dolnonimšćina (Nižozemska)"
 	},
 	"dsb": {
 		"name": "dolnoserbšćina"
@@ -208,6 +190,30 @@
 	},
 	"hu": {
 		"name": "hungoršćina"
+	},
+	"ce": {
+		"name": "Chechen"
+	},
+	"chr": {
+		"name": "cherokee"
+	},
+	"cgg": {
+		"name": "chiga"
+	},
+	"zh": {
+		"name": "chinšćina"
+	},
+	"zh-Hant": {
+		"name": "chinšćina (tradicionalna)"
+	},
+	"zh-Hans": {
+		"name": "chinšćina (zjadnorjona)"
+	},
+	"hr": {
+		"name": "chorwatšćina"
+	},
+	"cu": {
+		"name": "Church Slavic"
 	},
 	"ig": {
 		"name": "igbo"
@@ -485,9 +491,6 @@
 	"sah": {
 		"name": "Sakha"
 	},
-	"ksb": {
-		"name": "šambala"
-	},
 	"saq": {
 		"name": "samburu"
 	},
@@ -521,23 +524,26 @@
 	"so": {
 		"name": "somališćina"
 	},
-	"sn": {
-		"name": "šonšćina"
-	},
 	"ckb": {
 		"name": "sorani"
-	},
-	"gd": {
-		"name": "šotišćina"
-	},
-	"es": {
-		"name": "špańšćina"
 	},
 	"zgh": {
 		"name": "standardny marokkański tamazight"
 	},
 	"sw": {
 		"name": "swahilišćina"
+	},
+	"ksb": {
+		"name": "šambala"
+	},
+	"sn": {
+		"name": "šonšćina"
+	},
+	"gd": {
+		"name": "šotišćina"
+	},
+	"es": {
+		"name": "špańšćina"
 	},
 	"sv": {
 		"name": "šwedšćina"

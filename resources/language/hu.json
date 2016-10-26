@@ -12,7 +12,13 @@
 		"name": "albán"
 	},
 	"dsb": {
-		"name": "alsó szorb"
+		"name": "alsó-szorb"
+	},
+	"nds": {
+		"name": "alsónémet"
+	},
+	"nds-NL": {
+		"name": "alsószász"
 	},
 	"am": {
 		"name": "amhara"
@@ -44,6 +50,9 @@
 	"bm": {
 		"name": "bambara"
 	},
+	"bn": {
+		"name": "bangla"
+	},
 	"bas": {
 		"name": "basza"
 	},
@@ -51,16 +60,13 @@
 		"name": "baszk"
 	},
 	"be": {
-		"name": "belorusz"
+		"name": "belarusz"
 	},
 	"bem": {
 		"name": "bemba"
 	},
 	"bez": {
 		"name": "bena"
-	},
-	"bn": {
-		"name": "bengáli"
 	},
 	"brx": {
 		"name": "bodo"
@@ -80,9 +86,6 @@
 	"my": {
 		"name": "burmai"
 	},
-	"dz": {
-		"name": "butáni"
-	},
 	"ce": {
 		"name": "csecsen"
 	},
@@ -97,6 +100,9 @@
 	},
 	"dua": {
 		"name": "duala"
+	},
+	"dz": {
+		"name": "dzsonga"
 	},
 	"cu": {
 		"name": "egyházi szláv"
@@ -132,7 +138,7 @@
 		"name": "evondo"
 	},
 	"hsb": {
-		"name": "felső szorb"
+		"name": "felső-szorb"
 	},
 	"fo": {
 		"name": "feröeri"
@@ -152,14 +158,11 @@
 	"fur": {
 		"name": "friuli"
 	},
-	"fy": {
-		"name": "fríz"
-	},
 	"ff": {
 		"name": "fulani"
 	},
 	"gl": {
-		"name": "galíciai"
+		"name": "gallego"
 	},
 	"lg": {
 		"name": "ganda"
@@ -174,7 +177,7 @@
 		"name": "grúz"
 	},
 	"gu": {
-		"name": "gudzsarati"
+		"name": "gudzsaráti"
 	},
 	"guz": {
 		"name": "guszii"
@@ -204,7 +207,7 @@
 		"name": "igbó"
 	},
 	"smn": {
-		"name": "inar sami"
+		"name": "inari számi"
 	},
 	"id": {
 		"name": "indonéz"
@@ -214,9 +217,6 @@
 	},
 	"is": {
 		"name": "izlandi"
-	},
-	"sah": {
-		"name": "jakut"
 	},
 	"yav": {
 		"name": "jangben"
@@ -248,9 +248,6 @@
 	"kam": {
 		"name": "kamba"
 	},
-	"km": {
-		"name": "kambodzsai"
-	},
 	"en-CA": {
 		"name": "kanadai angol"
 	},
@@ -264,7 +261,7 @@
 		"name": "kantoni"
 	},
 	"ks": {
-		"name": "kásmíri"
+		"name": "kasmíri"
 	},
 	"ca": {
 		"name": "katalán"
@@ -275,6 +272,9 @@
 	"qu": {
 		"name": "kecsua"
 	},
+	"km": {
+		"name": "khmer"
+	},
 	"cgg": {
 		"name": "kiga"
 	},
@@ -284,11 +284,11 @@
 	"zh": {
 		"name": "kínai"
 	},
+	"rw": {
+		"name": "kinyarvanda"
+	},
 	"ky": {
 		"name": "kirgiz"
-	},
-	"rw": {
-		"name": "kiruanda"
 	},
 	"rn": {
 		"name": "kirundi"
@@ -315,7 +315,10 @@
 		"name": "kölsch"
 	},
 	"tzm": {
-		"name": "közép-marokkói tamazigt"
+		"name": "közép-atlaszi tamazigt"
+	},
+	"ckb": {
+		"name": "közép-ázsiai kurd"
 	},
 	"lkt": {
 		"name": "lakota"
@@ -324,7 +327,7 @@
 		"name": "langi"
 	},
 	"lo": {
-		"name": "laoszi"
+		"name": "lao"
 	},
 	"pl": {
 		"name": "lengyel"
@@ -372,7 +375,7 @@
 		"name": "malajálam"
 	},
 	"mg": {
-		"name": "málgas"
+		"name": "malgas"
 	},
 	"mt": {
 		"name": "máltai"
@@ -381,7 +384,7 @@
 		"name": "man-szigeti"
 	},
 	"mr": {
-		"name": "marathi"
+		"name": "maráthi"
 	},
 	"zgh": {
 		"name": "marokkói tamazight"
@@ -429,10 +432,10 @@
 		"name": "ngumba"
 	},
 	"nb": {
-		"name": "norvég bokmal"
+		"name": "norvég (bokmál)"
 	},
 	"nn": {
-		"name": "norvég nynorsk"
+		"name": "norvég (nynrosk)"
 	},
 	"nus": {
 		"name": "nuer"
@@ -440,14 +443,17 @@
 	"nyn": {
 		"name": "nyankole"
 	},
+	"fy": {
+		"name": "nyugati fríz"
+	},
+	"or": {
+		"name": "odia"
+	},
 	"it": {
 		"name": "olasz"
 	},
-	"or": {
-		"name": "orija"
-	},
 	"om": {
-		"name": "oromói"
+		"name": "oromo"
 	},
 	"ru": {
 		"name": "orosz"
@@ -470,14 +476,14 @@
 	"fa": {
 		"name": "perzsa"
 	},
+	"prg": {
+		"name": "porosz"
+	},
 	"pt": {
 		"name": "portugál"
 	},
-	"prg": {
-		"name": "Prussian"
-	},
 	"rm": {
-		"name": "réto-román"
+		"name": "rétoromán"
 	},
 	"ro": {
 		"name": "román"
@@ -492,7 +498,7 @@
 		"name": "sambala"
 	},
 	"gd": {
-		"name": "skót gael"
+		"name": "skóciai kelta"
 	},
 	"sn": {
 		"name": "sona"
@@ -514,6 +520,9 @@
 	},
 	"sv": {
 		"name": "svéd"
+	},
+	"sah": {
+		"name": "szaha"
 	},
 	"saq": {
 		"name": "szamburu"
@@ -549,10 +558,7 @@
 		"name": "szoga"
 	},
 	"so": {
-		"name": "szomáliai"
-	},
-	"ckb": {
-		"name": "szoráni kurd"
+		"name": "szomáli"
 	},
 	"sw": {
 		"name": "szuahéli"
@@ -579,10 +585,10 @@
 		"name": "tibeti"
 	},
 	"ti": {
-		"name": "tigrinja"
+		"name": "tigrinya"
 	},
 	"to": {
-		"name": "tonga"
+		"name": "tongai"
 	},
 	"tr": {
 		"name": "török"

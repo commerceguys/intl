@@ -92,14 +92,14 @@
 	"AUD": {
 		"name": "dolar australian"
 	},
-	"BBD": {
-		"name": "dolar Barbados"
-	},
 	"CAD": {
 		"name": "dolar canadian"
 	},
 	"BSD": {
 		"name": "dolar din Bahamas"
+	},
+	"BBD": {
+		"name": "dolar din Barbados"
 	},
 	"BZD": {
 		"name": "dolar din Belize"
@@ -147,7 +147,7 @@
 		"name": "dolar nou din Taiwan"
 	},
 	"SGD": {
-		"name": "dolar Singapore"
+		"name": "dolar singaporez"
 	},
 	"SRD": {
 		"name": "dolar surinamez"
@@ -269,6 +269,9 @@
 	"FKP": {
 		"name": "liră din Insulele Falkland"
 	},
+	"SSP": {
+		"name": "liră din Sudanul de Sud"
+	},
 	"EGP": {
 		"name": "liră egipteană"
 	},
@@ -283,9 +286,6 @@
 	},
 	"GBP": {
 		"name": "liră sterlină"
-	},
-	"SSP": {
-		"name": "liră sud-sudaneză"
 	},
 	"SDG": {
 		"name": "liră sudaneză"
@@ -386,8 +386,11 @@
 	"MYR": {
 		"name": "ringgit malaiezian"
 	},
-	"BYR": {
+	"BYN": {
 		"name": "rublă belarusă"
+	},
+	"BYR": {
+		"name": "rublă belarusă (2000–2016)"
 	},
 	"RUB": {
 		"name": "rublă rusească"
@@ -397,9 +400,6 @@
 	},
 	"SCR": {
 		"name": "rupie din Seychelles"
-	},
-	"LKR": {
-		"name": "rupie din Sri Lanka"
 	},
 	"INR": {
 		"name": "rupie indiană"
@@ -415,6 +415,9 @@
 	},
 	"PKR": {
 		"name": "rupie pakistaneză"
+	},
+	"LKR": {
+		"name": "rupie srilankeză"
 	},
 	"PEN": {
 		"name": "sol nou peruvian"

@@ -54,13 +54,19 @@
 		"name": "asturien"
 	},
 	"az": {
-		"name": "azéri"
+		"name": "azerbaïdjanais"
 	},
 	"ksf": {
 		"name": "bafia"
 	},
 	"bm": {
 		"name": "bambara"
+	},
+	"nds": {
+		"name": "bas allemand"
+	},
+	"nds-NL": {
+		"name": "bas saxon"
 	},
 	"dsb": {
 		"name": "bas-sorabe"
@@ -75,7 +81,7 @@
 		"name": "bemba"
 	},
 	"bez": {
-		"name": "béna"
+		"name": "bena"
 	},
 	"bn": {
 		"name": "bengali"
@@ -128,6 +134,9 @@
 	"si": {
 		"name": "cinghalais"
 	},
+	"seh": {
+		"name": "cisena"
+	},
 	"ko": {
 		"name": "coréen"
 	},
@@ -159,7 +168,7 @@
 		"name": "espagnol"
 	},
 	"es-MX": {
-		"name": "espagnol mexicain"
+		"name": "espagnol (Mexique)"
 	},
 	"eo": {
 		"name": "espéranto"
@@ -171,7 +180,7 @@
 		"name": "éwé"
 	},
 	"ewo": {
-		"name": "éwondo"
+		"name": "ewondo"
 	},
 	"fo": {
 		"name": "féroïen"
@@ -193,9 +202,6 @@
 	},
 	"fr-CH": {
 		"name": "français suisse"
-	},
-	"ksh": {
-		"name": "francique ripuaire"
 	},
 	"fur": {
 		"name": "frioulan"
@@ -220,9 +226,6 @@
 	},
 	"el": {
 		"name": "grec"
-	},
-	"kl": {
-		"name": "groenlandais"
 	},
 	"gu": {
 		"name": "gujarati"
@@ -275,8 +278,11 @@
 	"kkj": {
 		"name": "kako"
 	},
+	"kl": {
+		"name": "kalaallisut"
+	},
 	"kln": {
-		"name": "kalenjin"
+		"name": "kalendjin"
 	},
 	"kam": {
 		"name": "kamba"
@@ -302,6 +308,9 @@
 	"ky": {
 		"name": "kirghize"
 	},
+	"ksh": {
+		"name": "kölsch"
+	},
 	"kok": {
 		"name": "konkani"
 	},
@@ -310,6 +319,9 @@
 	},
 	"ses": {
 		"name": "koyraboro senni"
+	},
+	"ckb": {
+		"name": "kurde central"
 	},
 	"nmg": {
 		"name": "kwasio"
@@ -338,6 +350,9 @@
 	"lu": {
 		"name": "luba-katanga"
 	},
+	"luy": {
+		"name": "luhya"
+	},
 	"luo": {
 		"name": "Luo"
 	},
@@ -347,14 +362,11 @@
 	"mk": {
 		"name": "macédonien"
 	},
-	"jmc": {
-		"name": "machame"
-	},
 	"mgh": {
 		"name": "makhuwa-meetto"
 	},
 	"kde": {
-		"name": "makonde"
+		"name": "makondé"
 	},
 	"ms": {
 		"name": "malais"
@@ -369,22 +381,25 @@
 		"name": "maltais"
 	},
 	"gv": {
-		"name": "manx"
+		"name": "mannois"
 	},
 	"mr": {
 		"name": "marathe"
 	},
 	"mas": {
-		"name": "masai"
+		"name": "massaï"
+	},
+	"jmc": {
+		"name": "matchamé"
 	},
 	"mzn": {
 		"name": "mazandérani"
 	},
 	"mer": {
-		"name": "merou"
+		"name": "mérou"
 	},
 	"mgo": {
-		"name": "Meta’"
+		"name": "meta’"
 	},
 	"ro-MD": {
 		"name": "moldave"
@@ -393,7 +408,7 @@
 		"name": "mongol"
 	},
 	"mua": {
-		"name": "mundang"
+		"name": "moundang"
 	},
 	"naq": {
 		"name": "nama"
@@ -413,6 +428,9 @@
 	"jgo": {
 		"name": "ngomba"
 	},
+	"nyn": {
+		"name": "nkole"
+	},
 	"nb": {
 		"name": "norvégien bokmål"
 	},
@@ -422,14 +440,8 @@
 	"nus": {
 		"name": "nuer"
 	},
-	"nyn": {
-		"name": "nyankolé"
-	},
-	"luy": {
-		"name": "oluluyia"
-	},
 	"or": {
-		"name": "oriya"
+		"name": "odia"
 	},
 	"om": {
 		"name": "oromo"
@@ -468,7 +480,7 @@
 		"name": "portugais européen"
 	},
 	"prg": {
-		"name": "Prussian"
+		"name": "prussien"
 	},
 	"qu": {
 		"name": "quechua"
@@ -495,22 +507,19 @@
 		"name": "rwanda"
 	},
 	"saq": {
-		"name": "samburu"
+		"name": "sambourou"
+	},
+	"se": {
+		"name": "same du Nord"
 	},
 	"smn": {
 		"name": "sami d’Inari"
 	},
-	"se": {
-		"name": "sami du Nord"
-	},
 	"sg": {
-		"name": "sangho"
+		"name": "sango"
 	},
 	"sbp": {
 		"name": "sangu"
-	},
-	"seh": {
-		"name": "sena"
 	},
 	"sr": {
 		"name": "serbe"
@@ -533,9 +542,6 @@
 	"so": {
 		"name": "somali"
 	},
-	"ckb": {
-		"name": "sorani"
-	},
 	"sv": {
 		"name": "suédois"
 	},
@@ -546,7 +552,7 @@
 		"name": "swahili"
 	},
 	"sw-CD": {
-		"name": "swahili du Congo"
+		"name": "swahili congolais"
 	},
 	"dav": {
 		"name": "taita"
@@ -600,7 +606,7 @@
 		"name": "vietnamien"
 	},
 	"vo": {
-		"name": "volapuk"
+		"name": "volapük"
 	},
 	"vun": {
 		"name": "vunjo"

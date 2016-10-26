@@ -41,6 +41,9 @@
 	"bm": {
 		"name": "Bambara"
 	},
+	"bn": {
+		"name": "Bangla"
+	},
 	"bas": {
 		"name": "Basaa"
 	},
@@ -49,9 +52,6 @@
 	},
 	"be": {
 		"name": "Bealaruisis"
-	},
-	"bn": {
-		"name": "Beangailis"
 	},
 	"bem": {
 		"name": "Bemba"
@@ -101,6 +101,9 @@
 	"haw": {
 		"name": "Cànan Hawai’i"
 	},
+	"th": {
+		"name": "Cànan nan Tàidh"
+	},
 	"yue": {
 		"name": "Cantonais"
 	},
@@ -109,9 +112,6 @@
 	},
 	"ca": {
 		"name": "Catalanais"
-	},
-	"qu": {
-		"name": "Ceatsua"
 	},
 	"chr": {
 		"name": "Cherokee"
@@ -128,9 +128,6 @@
 	"ko": {
 		"name": "Coirèanais"
 	},
-	"ksh": {
-		"name": "Colognian"
-	},
 	"kw": {
 		"name": "Còrnais"
 	},
@@ -141,7 +138,7 @@
 		"name": "Cuimris"
 	},
 	"ckb": {
-		"name": "Cùrdais Soranî"
+		"name": "Cùrdais Mheadhanach"
 	},
 	"da": {
 		"name": "Danmhairgis"
@@ -227,8 +224,14 @@
 	"de": {
 		"name": "Gearmailtis"
 	},
+	"ksh": {
+		"name": "Gearmailtis Chologne"
+	},
 	"gsw": {
 		"name": "Gearmailtis Eilbheiseach"
+	},
+	"nds": {
+		"name": "Gearmailtis Ìochdarach"
 	},
 	"de-AT": {
 		"name": "Gearmailtis na h-Ostaire"
@@ -259,9 +262,6 @@
 	},
 	"is": {
 		"name": "Innis Tìlis"
-	},
-	"yo": {
-		"name": "Ioruba"
 	},
 	"yi": {
 		"name": "Iùdhais"
@@ -455,6 +455,9 @@
 	"prg": {
 		"name": "Pruisis"
 	},
+	"qu": {
+		"name": "Quechua"
+	},
 	"ro": {
 		"name": "Romàinis"
 	},
@@ -470,8 +473,11 @@
 	"rwk": {
 		"name": "Rwa"
 	},
+	"nds-NL": {
+		"name": "Sagsannais Ìochdarach"
+	},
 	"sah": {
-		"name": "Sachais"
+		"name": "Sakha"
 	},
 	"smn": {
 		"name": "Sàmais Inari"
@@ -488,11 +494,11 @@
 	"sbp": {
 		"name": "Sangu"
 	},
-	"cs": {
-		"name": "Seacais"
-	},
 	"ja": {
 		"name": "Seapanais"
+	},
+	"cs": {
+		"name": "Seicis"
 	},
 	"sr": {
 		"name": "Sèirbis"
@@ -551,9 +557,6 @@
 	"shi": {
 		"name": "Tachelhit"
 	},
-	"th": {
-		"name": "Tàidh"
-	},
 	"ta": {
 		"name": "Taimilis"
 	},
@@ -561,7 +564,7 @@
 		"name": "Taita"
 	},
 	"tzm": {
-		"name": "Tamazight Meadhan na h-Atlas"
+		"name": "Tamazight an Atlais Mheadhanaich"
 	},
 	"zgh": {
 		"name": "Tamazight Stannardach Moroco"
@@ -582,7 +585,7 @@
 		"name": "Tigrinya"
 	},
 	"to": {
-		"name": "Tongais"
+		"name": "Tonga"
 	},
 	"tr": {
 		"name": "Turcais"
@@ -619,6 +622,9 @@
 	},
 	"ii": {
 		"name": "Yi Sichuan"
+	},
+	"yo": {
+		"name": "Yoruba"
 	},
 	"dje": {
 		"name": "Zarma"

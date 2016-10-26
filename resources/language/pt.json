@@ -15,13 +15,16 @@
 		"name": "alemão"
 	},
 	"de-AT": {
-		"name": "alemão austríaco"
+		"name": "alemão (Áustria)"
 	},
 	"gsw": {
-		"name": "alemão suíço"
+		"name": "alemão (Suíça)"
 	},
 	"de-CH": {
-		"name": "alto alemão suíço"
+		"name": "alto alemão (Suíça)"
+	},
+	"hsb": {
+		"name": "alto sorábio"
 	},
 	"am": {
 		"name": "amárico"
@@ -46,6 +49,15 @@
 	},
 	"ksf": {
 		"name": "bafia"
+	},
+	"nds": {
+		"name": "baixo alemão"
+	},
+	"nds-NL": {
+		"name": "baixo saxão"
+	},
+	"dsb": {
+		"name": "baixo sorábio"
 	},
 	"bm": {
 		"name": "bambara"
@@ -159,7 +171,7 @@
 		"name": "espanhol"
 	},
 	"es-MX": {
-		"name": "espanhol mexicano"
+		"name": "espanhol (México)"
 	},
 	"eo": {
 		"name": "esperanto"
@@ -189,10 +201,10 @@
 		"name": "francês"
 	},
 	"fr-CA": {
-		"name": "francês canadense"
+		"name": "francês (Canadá)"
 	},
 	"fr-CH": {
-		"name": "francês suíço"
+		"name": "francês (Suíça)"
 	},
 	"fy": {
 		"name": "frísio ocidental"
@@ -261,16 +273,16 @@
 		"name": "inglês"
 	},
 	"en-AU": {
-		"name": "inglês australiano"
-	},
-	"en-GB": {
-		"name": "inglês britânico"
+		"name": "inglês (Austrália)"
 	},
 	"en-CA": {
-		"name": "inglês canadense"
+		"name": "inglês (Canadá)"
+	},
+	"en-GB": {
+		"name": "inglês (Reino Unido)"
 	},
 	"yo": {
-		"name": "ioruba"
+		"name": "iorubá"
 	},
 	"ga": {
 		"name": "irlandês"
@@ -441,7 +453,7 @@
 		"name": "oromo"
 	},
 	"os": {
-		"name": "ossetic"
+		"name": "osseto"
 	},
 	"pa": {
 		"name": "panjabi"
@@ -459,10 +471,10 @@
 		"name": "português"
 	},
 	"pt-PT": {
-		"name": "português europeu"
+		"name": "português (Portugal)"
 	},
 	"prg": {
-		"name": "Prussian"
+		"name": "prussiano"
 	},
 	"qu": {
 		"name": "quíchua"
@@ -501,7 +513,7 @@
 		"name": "sami de Inari"
 	},
 	"se": {
-		"name": "sami do norte"
+		"name": "sami setentrional"
 	},
 	"sg": {
 		"name": "sango"
@@ -526,12 +538,6 @@
 	},
 	"so": {
 		"name": "somali"
-	},
-	"hsb": {
-		"name": "sorábio alto"
-	},
-	"dsb": {
-		"name": "sorábio baixo"
 	},
 	"ckb": {
 		"name": "sorâni curdo"
@@ -579,7 +585,7 @@
 		"name": "tibetano"
 	},
 	"ti": {
-		"name": "tigrínia"
+		"name": "tigrínio"
 	},
 	"to": {
 		"name": "tonganês"

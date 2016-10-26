@@ -17,9 +17,6 @@
 	"de": {
 		"name": "alemana"
 	},
-	"de-AT": {
-		"name": "alemana (Austria)"
-	},
 	"gsw": {
 		"name": "alemana (Suitza)"
 	},
@@ -39,10 +36,16 @@
 		"name": "assamera"
 	},
 	"ast": {
-		"name": "Asturian"
+		"name": "asturiera"
 	},
 	"asa": {
 		"name": "asua"
+	},
+	"en-AU": {
+		"name": "Australiako ingelesa"
+	},
+	"de-AT": {
+		"name": "Austriako alemana"
 	},
 	"az": {
 		"name": "azerbaijanera"
@@ -54,7 +57,10 @@
 		"name": "bambarera"
 	},
 	"bas": {
-		"name": "Basaa"
+		"name": "basaa"
+	},
+	"nds-NL": {
+		"name": "behe-saxoiera"
 	},
 	"dsb": {
 		"name": "behe-sorabiera"
@@ -83,6 +89,9 @@
 	"br": {
 		"name": "bretoiera"
 	},
+	"en-GB": {
+		"name": "Britainia Handiko ingelesa"
+	},
 	"bg": {
 		"name": "bulgariera"
 	},
@@ -92,20 +101,8 @@
 	"kea": {
 		"name": "Cabo Verdeko kreola"
 	},
-	"yue": {
-		"name": "Cantonese"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
 	"cgg": {
 		"name": "chigera"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
 	},
 	"da": {
 		"name": "daniera"
@@ -116,6 +113,9 @@
 	"dz": {
 		"name": "dzongkha"
 	},
+	"cu": {
+		"name": "Elizako eslaviera"
+	},
 	"ebu": {
 		"name": "embua"
 	},
@@ -124,9 +124,6 @@
 	},
 	"ro": {
 		"name": "errumaniera"
-	},
-	"ro-MD": {
-		"name": "errumaniera (Moldavia)"
 	},
 	"ru": {
 		"name": "errusiera"
@@ -143,9 +140,6 @@
 	"es": {
 		"name": "espainiera"
 	},
-	"es-MX": {
-		"name": "espainiera (Mexiko)"
-	},
 	"eo": {
 		"name": "esperantoa"
 	},
@@ -159,7 +153,7 @@
 		"name": "eweera"
 	},
 	"ewo": {
-		"name": "Ewondo"
+		"name": "ewondera"
 	},
 	"fo": {
 		"name": "faroera"
@@ -176,20 +170,14 @@
 	"fr": {
 		"name": "frantsesa"
 	},
-	"fr-CA": {
-		"name": "frantsesa (Kanada)"
-	},
-	"fr-CH": {
-		"name": "frantsesa (Suitza)"
-	},
 	"fy": {
 		"name": "frisiera"
 	},
 	"fur": {
-		"name": "Friulian"
+		"name": "friuliera"
 	},
 	"ff": {
-		"name": "Fulah"
+		"name": "fula"
 	},
 	"ga": {
 		"name": "gaelikoa"
@@ -237,7 +225,7 @@
 		"name": "igboera"
 	},
 	"smn": {
-		"name": "Inari samiera"
+		"name": "inari-samiera"
 	},
 	"id": {
 		"name": "indonesiera"
@@ -245,14 +233,8 @@
 	"en": {
 		"name": "ingelesa"
 	},
-	"en-AU": {
-		"name": "ingelesa (Australia)"
-	},
-	"en-GB": {
-		"name": "ingelesa (Erresuma Batua)"
-	},
-	"en-CA": {
-		"name": "ingelesa (Kanada)"
+	"lrc": {
+		"name": "iparraldeko lurera"
 	},
 	"nd": {
 		"name": "iparraldeko ndebeleera"
@@ -266,17 +248,17 @@
 	"it": {
 		"name": "italiera"
 	},
+	"yav": {
+		"name": "jangbenera"
+	},
 	"ja": {
 		"name": "japoniera"
-	},
-	"yi": {
-		"name": "Jiddisha"
 	},
 	"kab": {
 		"name": "kabilera"
 	},
 	"kkj": {
-		"name": "Kako"
+		"name": "kakoa"
 	},
 	"kl": {
 		"name": "kalaallisutera"
@@ -287,8 +269,17 @@
 	"kam": {
 		"name": "kambera"
 	},
+	"fr-CA": {
+		"name": "Kanadako frantsesa"
+	},
+	"en-CA": {
+		"name": "Kanadako ingelesa"
+	},
 	"kn": {
 		"name": "kannadera"
+	},
+	"yue": {
+		"name": "kantonera"
 	},
 	"ks": {
 		"name": "kashmirera"
@@ -310,6 +301,9 @@
 	},
 	"ky": {
 		"name": "kirgizera"
+	},
+	"ksh": {
+		"name": "koloniera"
 	},
 	"sw-CD": {
 		"name": "Kongoko swahilia"
@@ -402,7 +396,7 @@
 		"name": "Mauritaniako kreolera"
 	},
 	"mzn": {
-		"name": "Mazanderani"
+		"name": "mazandarandera"
 	},
 	"mk": {
 		"name": "mazedoniera"
@@ -412,6 +406,12 @@
 	},
 	"mgo": {
 		"name": "metera"
+	},
+	"es-MX": {
+		"name": "Mexikoko espainiera"
+	},
+	"ro-MD": {
+		"name": "moldaviera"
 	},
 	"mn": {
 		"name": "mongoliera"
@@ -429,13 +429,10 @@
 		"name": "nepalera"
 	},
 	"nnh": {
-		"name": "Ngiemboon"
+		"name": "ngiemboonera"
 	},
 	"jgo": {
 		"name": "ngomba"
-	},
-	"lrc": {
-		"name": "Northern Luri"
 	},
 	"nus": {
 		"name": "nuerera"
@@ -444,7 +441,7 @@
 		"name": "nynorsk norvegiera"
 	},
 	"or": {
-		"name": "oriyera"
+		"name": "oriya"
 	},
 	"om": {
 		"name": "oromoera"
@@ -468,7 +465,7 @@
 		"name": "portugesa (Europa)"
 	},
 	"prg": {
-		"name": "Prussian"
+		"name": "prusiera"
 	},
 	"pa": {
 		"name": "punjabera"
@@ -486,7 +483,7 @@
 		"name": "rwaera"
 	},
 	"sah": {
-		"name": "Sakha"
+		"name": "sakhera"
 	},
 	"saq": {
 		"name": "samburuera"
@@ -522,10 +519,13 @@
 		"name": "somaliera"
 	},
 	"ckb": {
-		"name": "soraniera"
+		"name": "sorania"
 	},
 	"sv": {
 		"name": "suediera"
+	},
+	"fr-CH": {
+		"name": "Suitzako frantsesa"
 	},
 	"sw": {
 		"name": "swahili"
@@ -578,6 +578,9 @@
 	"chr": {
 		"name": "txerokiera"
 	},
+	"ce": {
+		"name": "txetxeniera"
+	},
 	"zh": {
 		"name": "txinera"
 	},
@@ -606,16 +609,16 @@
 		"name": "vietnamera"
 	},
 	"vo": {
-		"name": "Volapük"
+		"name": "volapüka"
 	},
 	"vun": {
 		"name": "vunjoa"
 	},
 	"wae": {
-		"name": "Walser"
+		"name": "walserera"
 	},
-	"yav": {
-		"name": "Yangben"
+	"yi": {
+		"name": "yiddisha"
 	},
 	"yo": {
 		"name": "yorubera"

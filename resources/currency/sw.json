@@ -24,19 +24,8 @@
 	"GHS": {
 		"name": "Cedi ya Ghana"
 	},
-	"XAF": {
-		"name": "CFA faranga ya BEAC",
-		"symbol": "FCFA"
-	},
-	"XOF": {
-		"name": "CFA faranga za BCEAO",
-		"symbol": "CFA"
-	},
 	"CRC": {
 		"name": "Colon ya Kostarika"
-	},
-	"BAM": {
-		"name": "Convertible Mark ya Bosnia na Hezegovina"
 	},
 	"NIO": {
 		"name": "Cordoba ya Nikaragua"
@@ -163,6 +152,14 @@
 	"CVE": {
 		"name": "Eskudo ya Cape Verde"
 	},
+	"XOF": {
+		"name": "Faranga ya Afrika Magharibi CFA",
+		"symbol": "CFA"
+	},
+	"XAF": {
+		"name": "Faranga ya Afrika ya Kati CFA",
+		"symbol": "FCFA"
+	},
 	"BIF": {
 		"name": "Faranga ya Burundi"
 	},
@@ -278,6 +275,9 @@
 	"TMT": {
 		"name": "Manat ya Turukimenistani"
 	},
+	"BAM": {
+		"name": "Mark Inayoweza Kubadilishwa ya Bosnia na Hezegovina"
+	},
 	"MZN": {
 		"name": "Metikali ya Msumbiji"
 	},
@@ -392,8 +392,11 @@
 	"SAR": {
 		"name": "Riyal ya Saudia"
 	},
-	"BYR": {
+	"BYN": {
 		"name": "Ruble ya Belarusi"
+	},
+	"BYR": {
+		"name": "Ruble ya Belarusi (2000–2016)"
 	},
 	"RUB": {
 		"name": "Ruble ya Urusi"
@@ -427,7 +430,7 @@
 		"name": "Salvadoran Colón"
 	},
 	"ILS": {
-		"name": "Sheqel Mpya ya Israeli",
+		"name": "Shekeli Mpya ya Israel",
 		"symbol": "₪"
 	},
 	"KES": {

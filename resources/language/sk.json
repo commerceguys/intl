@@ -107,6 +107,12 @@
 	"da": {
 		"name": "dánčina"
 	},
+	"nds": {
+		"name": "dolná nemčina"
+	},
+	"nds-NL": {
+		"name": "dolná saština"
+	},
 	"dsb": {
 		"name": "dolnolužická srbčina"
 	},
@@ -114,7 +120,7 @@
 		"name": "duala"
 	},
 	"dz": {
-		"name": "dzongkä"
+		"name": "dzongkha"
 	},
 	"ebu": {
 		"name": "embu"
@@ -272,14 +278,8 @@
 	"ki": {
 		"name": "kikujčina"
 	},
-	"rw": {
-		"name": "kiňarwanda"
-	},
 	"ky": {
 		"name": "kirgizština"
-	},
-	"rn": {
-		"name": "kirundčina"
 	},
 	"ksh": {
 		"name": "kolínčina"
@@ -313,9 +313,6 @@
 	},
 	"smn": {
 		"name": "lapončina (inarijská)"
-	},
-	"se": {
-		"name": "lapončina (severná)"
 	},
 	"ln": {
 		"name": "lingalčina"
@@ -423,7 +420,7 @@
 		"name": "ngomba"
 	},
 	"nb": {
-		"name": "nórčina (bokmål)"
+		"name": "nórčina (bokmal)"
 	},
 	"nn": {
 		"name": "nórčina (nynorsk)"
@@ -456,7 +453,7 @@
 		"name": "portugalčina (európska)"
 	},
 	"prg": {
-		"name": "Prussian"
+		"name": "pruština"
 	},
 	"rm": {
 		"name": "rétorománčina"
@@ -467,14 +464,20 @@
 	"ro": {
 		"name": "rumunčina"
 	},
+	"rn": {
+		"name": "rundčina"
+	},
 	"ru": {
 		"name": "ruština"
 	},
 	"rwk": {
 		"name": "rwa"
 	},
+	"rw": {
+		"name": "rwandčina"
+	},
 	"ii": {
-		"name": "s’čchuanská ioština"
+		"name": "s’čchuanská iovčina"
 	},
 	"saq": {
 		"name": "samburu"
@@ -488,11 +491,14 @@
 	"seh": {
 		"name": "sena"
 	},
-	"lrc": {
-		"name": "severné luri"
+	"se": {
+		"name": "severná lapončina"
 	},
 	"nd": {
-		"name": "severné ndebele"
+		"name": "severná ndebelčina"
+	},
+	"lrc": {
+		"name": "severné luri"
 	},
 	"si": {
 		"name": "sinhalčina"
@@ -512,11 +518,14 @@
 	"sr": {
 		"name": "srbčina"
 	},
-	"sw": {
-		"name": "svahilčina"
+	"tzm": {
+		"name": "stredomarocká tuaregčina"
 	},
 	"sw-CD": {
 		"name": "svahilčina (konžská)"
+	},
+	"sw": {
+		"name": "swahilčina"
 	},
 	"ksb": {
 		"name": "šambala"
@@ -545,12 +554,6 @@
 	"it": {
 		"name": "taliančina"
 	},
-	"tzm": {
-		"name": "tamašek (stredomarocký)"
-	},
-	"zgh": {
-		"name": "tamašek (štandardný marocký)"
-	},
 	"ta": {
 		"name": "tamilčina"
 	},
@@ -574,6 +577,9 @@
 	},
 	"to": {
 		"name": "tongčina"
+	},
+	"zgh": {
+		"name": "tuaregčina (štandardná marocká)"
 	},
 	"tr": {
 		"name": "turečtina"

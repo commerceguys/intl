@@ -1,9 +1,12 @@
 {
 	"VI": {
-		"name": "ABŞ Vircin Adaları"
+		"name": "ABŞ Virgin adaları"
+	},
+	"UM": {
+		"name": "ABŞ-a bağlı kiçik adacıqlar"
 	},
 	"AX": {
-		"name": "Aland Adaları"
+		"name": "Aland adaları"
 	},
 	"AL": {
 		"name": "Albaniya"
@@ -21,7 +24,7 @@
 		"name": "Andorra"
 	},
 	"AI": {
-		"name": "Angila"
+		"name": "Angilya"
 	},
 	"AO": {
 		"name": "Anqola"
@@ -38,6 +41,9 @@
 	"AW": {
 		"name": "Aruba"
 	},
+	"AC": {
+		"name": "Askenson adası"
+	},
 	"AU": {
 		"name": "Avstraliya"
 	},
@@ -48,7 +54,7 @@
 		"name": "Azərbaycan"
 	},
 	"BS": {
-		"name": "Baham Adaları"
+		"name": "Baham adaları"
 	},
 	"BD": {
 		"name": "Banqladeş"
@@ -69,7 +75,7 @@
 		"name": "Benin"
 	},
 	"BM": {
-		"name": "Bermuda"
+		"name": "Bermud adaları"
 	},
 	"BH": {
 		"name": "Bəhreyn"
@@ -80,17 +86,14 @@
 	"GB": {
 		"name": "Birləşmiş Krallıq"
 	},
-	"UM": {
-		"name": "Birləşmiş Ştatlar Uzaq Adalar"
-	},
 	"BO": {
 		"name": "Boliviya"
 	},
 	"BG": {
-		"name": "Bolqariya"
+		"name": "Bolqarıstan"
 	},
 	"BA": {
-		"name": "Bosniya və Hersoqovina"
+		"name": "Bosniya və Herseqovina"
 	},
 	"BW": {
 		"name": "Botsvana"
@@ -99,10 +102,10 @@
 		"name": "Braziliya"
 	},
 	"IO": {
-		"name": "Britaniya Hind Okeanı Ərazisi"
+		"name": "Britaniyanın Hind Okeanı Ərazisi"
 	},
 	"VG": {
-		"name": "Britaniya Vircin Adaları"
+		"name": "Britaniyanın Virgin adaları"
 	},
 	"BN": {
 		"name": "Bruney"
@@ -119,11 +122,14 @@
 	"JE": {
 		"name": "Cersi"
 	},
+	"GI": {
+		"name": "Cəbəllütariq"
+	},
 	"ZA": {
 		"name": "Cənub Afrika"
 	},
 	"GS": {
-		"name": "Cənubi Corciya və Cənubi Sendviç Adaları"
+		"name": "Cənubi Corciya və Cənubi Sendviç adaları"
 	},
 	"KR": {
 		"name": "Cənubi Koreya"
@@ -138,7 +144,7 @@
 		"name": "Çad"
 	},
 	"CZ": {
-		"name": "Çexiya"
+		"name": "Çex Respublikası"
 	},
 	"CL": {
 		"name": "Çili"
@@ -183,16 +189,13 @@
 		"name": "Əlcəzair"
 	},
 	"FO": {
-		"name": "Farer Adaları"
+		"name": "Farer adaları"
 	},
 	"PS": {
 		"name": "Fələstin Əraziləri"
 	},
 	"FJ": {
 		"name": "Fici"
-	},
-	"CI": {
-		"name": "Fil Dişi Sahili"
 	},
 	"PH": {
 		"name": "Filippin"
@@ -201,25 +204,22 @@
 		"name": "Finlandiya"
 	},
 	"FK": {
-		"name": "Folklend Adaları"
+		"name": "Folklend adaları"
 	},
 	"FR": {
 		"name": "Fransa"
 	},
-	"TF": {
-		"name": "Fransa Cənub Əraziləri"
-	},
 	"GF": {
-		"name": "Fransız Qviyanası"
+		"name": "Fransa Qvianası"
 	},
 	"PF": {
-		"name": "Fransız Polineziyası"
+		"name": "Fransa Polineziyası"
+	},
+	"TF": {
+		"name": "Fransanın Cənub Əraziləri"
 	},
 	"GG": {
-		"name": "Gernsey"
-	},
-	"GI": {
-		"name": "Gibraltar"
+		"name": "Gernsi"
 	},
 	"GE": {
 		"name": "Gürcüstan"
@@ -272,6 +272,9 @@
 	"IT": {
 		"name": "İtaliya"
 	},
+	"CV": {
+		"name": "Kabo-Verde"
+	},
 	"KH": {
 		"name": "Kamboca"
 	},
@@ -282,16 +285,13 @@
 		"name": "Kanada"
 	},
 	"IC": {
-		"name": "Kanar Adaları"
-	},
-	"CV": {
-		"name": "Kape Verde"
+		"name": "Kanar adaları"
 	},
 	"BQ": {
 		"name": "Karib Niderlandı"
 	},
 	"KY": {
-		"name": "Kayman Adaları"
+		"name": "Kayman adaları"
 	},
 	"KE": {
 		"name": "Keniya"
@@ -303,13 +303,13 @@
 		"name": "Kiribati"
 	},
 	"CC": {
-		"name": "Kokos Adaları"
+		"name": "Kokos (Kilinq) adaları"
 	},
 	"CO": {
 		"name": "Kolumbiya"
 	},
 	"KM": {
-		"name": "Komor Adaları"
+		"name": "Komor adaları"
 	},
 	"CG": {
 		"name": "Konqo - Brazzavil"
@@ -323,11 +323,14 @@
 	"CR": {
 		"name": "Kosta Rika"
 	},
+	"CI": {
+		"name": "Kotd’ivuar"
+	},
 	"CU": {
 		"name": "Kuba"
 	},
 	"CK": {
-		"name": "Kuk Adaları"
+		"name": "Kuk adaları"
 	},
 	"CW": {
 		"name": "Kurasao"
@@ -344,14 +347,17 @@
 	"GH": {
 		"name": "Qana"
 	},
-	"QA": {
-		"name": "Qatar"
+	"GY": {
+		"name": "Qayana"
 	},
 	"KZ": {
 		"name": "Qazaxıstan"
 	},
 	"EH": {
-		"name": "Qərbi Sahara"
+		"name": "Qərbi Saxara"
+	},
+	"QA": {
+		"name": "Qətər"
 	},
 	"KG": {
 		"name": "Qırğızıstan"
@@ -376,9 +382,6 @@
 	},
 	"GW": {
 		"name": "Qvineya-Bisau"
-	},
-	"GY": {
-		"name": "Qviyana"
 	},
 	"LA": {
 		"name": "Laos"
@@ -426,7 +429,7 @@
 		"name": "Malayziya"
 	},
 	"MV": {
-		"name": "Maldiv Adaları"
+		"name": "Maldiv adaları"
 	},
 	"ML": {
 		"name": "Mali"
@@ -435,7 +438,7 @@
 		"name": "Malta"
 	},
 	"MH": {
-		"name": "Marşal Adaları"
+		"name": "Marşal adaları"
 	},
 	"MQ": {
 		"name": "Martinik"
@@ -453,7 +456,7 @@
 		"name": "Meksika"
 	},
 	"IM": {
-		"name": "Men Adası"
+		"name": "Men adası"
 	},
 	"MA": {
 		"name": "Mərakeş"
@@ -465,7 +468,7 @@
 		"name": "Mikroneziya"
 	},
 	"CX": {
-		"name": "Milad Adası"
+		"name": "Milad adası"
 	},
 	"EG": {
 		"name": "Misir"
@@ -477,7 +480,7 @@
 		"name": "Monako"
 	},
 	"MN": {
-		"name": "Monqoliya"
+		"name": "Monqolustan"
 	},
 	"MS": {
 		"name": "Monserat"
@@ -487,6 +490,9 @@
 	},
 	"MZ": {
 		"name": "Mozambik"
+	},
+	"PM": {
+		"name": "Müqəddəs Pyer və Mikelon"
 	},
 	"SH": {
 		"name": "Müqəddəs Yelena"
@@ -519,7 +525,7 @@
 		"name": "Niue"
 	},
 	"NF": {
-		"name": "Norfolk Adası"
+		"name": "Norfolk adası"
 	},
 	"NO": {
 		"name": "Norveç"
@@ -540,7 +546,7 @@
 		"name": "Panama"
 	},
 	"PG": {
-		"name": "Papua Yeni Qvineya"
+		"name": "Papua-Yeni Qvineya"
 	},
 	"PY": {
 		"name": "Paraqvay"
@@ -549,19 +555,19 @@
 		"name": "Peru"
 	},
 	"PN": {
-		"name": "Pitkern Adaları"
+		"name": "Pitkern adaları"
 	},
 	"PL": {
 		"name": "Polşa"
 	},
 	"PT": {
-		"name": "Portuqal"
+		"name": "Portuqaliya"
 	},
 	"PR": {
 		"name": "Puerto Riko"
 	},
 	"RE": {
-		"name": "Reunion"
+		"name": "Reyunyon"
 	},
 	"RW": {
 		"name": "Ruanda"
@@ -578,32 +584,29 @@
 	"WS": {
 		"name": "Samoa"
 	},
-	"BL": {
-		"name": "San Bartolomey"
-	},
-	"KN": {
-		"name": "San Kits və Nevis"
-	},
-	"LC": {
-		"name": "San Lüsiya"
-	},
 	"SM": {
-		"name": "San Marino"
-	},
-	"MF": {
-		"name": "San Martin"
-	},
-	"PM": {
-		"name": "San Pier və Mikelon"
-	},
-	"VC": {
-		"name": "San Vinsent və Qrenada"
+		"name": "San-Marino"
 	},
 	"ST": {
-		"name": "Sao Tome və Prinsip"
+		"name": "San-Tome və Prinsipi"
 	},
 	"SN": {
 		"name": "Seneqal"
+	},
+	"MF": {
+		"name": "Sent Martin"
+	},
+	"BL": {
+		"name": "Sent-Bartelemi"
+	},
+	"KN": {
+		"name": "Sent-Kits və Nevis"
+	},
+	"LC": {
+		"name": "Sent-Lusiya"
+	},
+	"VC": {
+		"name": "Sent-Vinsent və Qrenadinlər"
 	},
 	"RS": {
 		"name": "Serbiya"
@@ -612,19 +615,16 @@
 		"name": "Seuta və Melilya"
 	},
 	"SC": {
-		"name": "Seyşel Adaları"
+		"name": "Seyşel adaları"
 	},
 	"SA": {
 		"name": "Səudiyyə Ərəbistanı"
-	},
-	"SL": {
-		"name": "Siera Leon"
 	},
 	"SG": {
 		"name": "Sinqapur"
 	},
 	"SX": {
-		"name": "Sint Maarten"
+		"name": "Sint-Marten"
 	},
 	"SK": {
 		"name": "Slovakiya"
@@ -633,7 +633,7 @@
 		"name": "Sloveniya"
 	},
 	"SB": {
-		"name": "Solomon Adaları"
+		"name": "Solomon adaları"
 	},
 	"SO": {
 		"name": "Somali"
@@ -648,10 +648,13 @@
 		"name": "Suriya"
 	},
 	"SJ": {
-		"name": "Svalbard və Yan Mayen"
+		"name": "Svalbard və Yan-Mayen"
 	},
 	"SZ": {
 		"name": "Svazilend"
+	},
+	"SL": {
+		"name": "Syerra-Leone"
 	},
 	"TL": {
 		"name": "Şərqi Timor"
@@ -660,19 +663,19 @@
 		"name": "Şimali Koreya"
 	},
 	"MP": {
-		"name": "Şimali Mariana Adaları"
+		"name": "Şimali Marian adaları"
 	},
 	"LK": {
-		"name": "Şri Lanka"
+		"name": "Şri-Lanka"
 	},
 	"TJ": {
 		"name": "Tacikistan"
 	},
+	"TH": {
+		"name": "Tailand"
+	},
 	"TZ": {
 		"name": "Tanzaniya"
-	},
-	"TH": {
-		"name": "Tayland"
 	},
 	"TW": {
 		"name": "Tayvan"
@@ -686,6 +689,9 @@
 	"TO": {
 		"name": "Tonqa"
 	},
+	"TC": {
+		"name": "Törks və Kaykos adaları"
+	},
 	"TT": {
 		"name": "Trinidad və Tobaqo"
 	},
@@ -695,14 +701,11 @@
 	"TN": {
 		"name": "Tunis"
 	},
-	"TC": {
-		"name": "Turks və Kaikos Adaları"
-	},
 	"TV": {
 		"name": "Tuvalu"
 	},
 	"TR": {
-		"name": "Türkiya"
+		"name": "Türkiyə"
 	},
 	"TM": {
 		"name": "Türkmənistan"
@@ -714,7 +717,7 @@
 		"name": "Uqanda"
 	},
 	"WF": {
-		"name": "Uolis və Futuna"
+		"name": "Uollis və Futuna"
 	},
 	"UY": {
 		"name": "Uruqvay"
@@ -748,9 +751,6 @@
 	},
 	"GR": {
 		"name": "Yunanıstan"
-	},
-	"AC": {
-		"name": "Yüksəliş Adası"
 	},
 	"ZM": {
 		"name": "Zambiya"

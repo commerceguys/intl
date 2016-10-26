@@ -1,24 +1,21 @@
 {
-	"prg": {
-		"name": "Prussian"
-	},
 	"ar": {
 		"name": "Tiếng Ả Rập"
+	},
+	"af": {
+		"name": "Tiếng Afrikaans"
 	},
 	"agq": {
 		"name": "Tiếng Aghem"
 	},
-	"ga": {
-		"name": "Tiếng Ai-len"
-	},
 	"ak": {
 		"name": "Tiếng Akan"
 	},
+	"sq": {
+		"name": "Tiếng Albania"
+	},
 	"am": {
 		"name": "Tiếng Amharic"
-	},
-	"sq": {
-		"name": "Tiếng An-ba-ni"
 	},
 	"en": {
 		"name": "Tiếng Anh"
@@ -26,11 +23,11 @@
 	"en-GB": {
 		"name": "Tiếng Anh (Anh)"
 	},
+	"en-AU": {
+		"name": "Tiếng Anh (Australia)"
+	},
 	"en-CA": {
 		"name": "Tiếng Anh (Canada)"
-	},
-	"en-AU": {
-		"name": "Tiếng Anh (Úc)"
 	},
 	"hy": {
 		"name": "Tiếng Armenia"
@@ -59,6 +56,9 @@
 	"bm": {
 		"name": "Tiếng Bambara"
 	},
+	"bn": {
+		"name": "Tiếng Bangla"
+	},
 	"bas": {
 		"name": "Tiếng Basaa"
 	},
@@ -77,11 +77,11 @@
 	"bez": {
 		"name": "Tiếng Bena"
 	},
-	"bn": {
-		"name": "Tiếng Bengali"
-	},
 	"brx": {
 		"name": "Tiếng Bodo"
+	},
+	"bs": {
+		"name": "Tiếng Bosnia"
 	},
 	"pt": {
 		"name": "Tiếng Bồ Đào Nha"
@@ -125,6 +125,9 @@
 	"dua": {
 		"name": "Tiếng Duala"
 	},
+	"ug": {
+		"name": "Tiếng Duy Ngô Nhĩ"
+	},
 	"dz": {
 		"name": "Tiếng Dzongkha"
 	},
@@ -153,7 +156,7 @@
 		"name": "Tiếng Ewondo"
 	},
 	"fo": {
-		"name": "Tiếng Faore"
+		"name": "Tiếng Faroe"
 	},
 	"nl-BE": {
 		"name": "Tiếng Flemish"
@@ -166,6 +169,9 @@
 	},
 	"ff": {
 		"name": "Tiếng Fulah"
+	},
+	"gd": {
+		"name": "Tiếng Gael Scotland"
 	},
 	"gl": {
 		"name": "Tiếng Galician"
@@ -182,8 +188,14 @@
 	"guz": {
 		"name": "Tiếng Gusii"
 	},
+	"nds": {
+		"name": "Tiếng Hạ Giéc-man"
+	},
 	"nl": {
 		"name": "Tiếng Hà Lan"
+	},
+	"nds-NL": {
+		"name": "Tiếng Hạ Saxon"
 	},
 	"dsb": {
 		"name": "Tiếng Hạ Sorbia"
@@ -218,6 +230,9 @@
 	"id": {
 		"name": "Tiếng Indonesia"
 	},
+	"ga": {
+		"name": "Tiếng Ireland"
+	},
 	"dyo": {
 		"name": "Tiếng Jola-Fonyi"
 	},
@@ -243,7 +258,7 @@
 		"name": "Tiếng Kannada"
 	},
 	"ks": {
-		"name": "Tiếng Kashmiri"
+		"name": "Tiếng Kashmir"
 	},
 	"kk": {
 		"name": "Tiếng Kazakh"
@@ -291,7 +306,7 @@
 		"name": "Tiếng Lingala"
 	},
 	"lt": {
-		"name": "Tiếng Lít-va"
+		"name": "Tiếng Litva"
 	},
 	"lu": {
 		"name": "Tiếng Luba-Katanga"
@@ -304,6 +319,9 @@
 	},
 	"luy": {
 		"name": "Tiếng Luyia"
+	},
+	"ms": {
+		"name": "Tiếng Mã Lai"
 	},
 	"mk": {
 		"name": "Tiếng Macedonia"
@@ -323,11 +341,8 @@
 	"ml": {
 		"name": "Tiếng Malayalam"
 	},
-	"ms": {
-		"name": "Tiếng Malaysia"
-	},
 	"mt": {
-		"name": "Tiếng Malt"
+		"name": "Tiếng Malta"
 	},
 	"gv": {
 		"name": "Tiếng Manx"
@@ -368,12 +383,6 @@
 	"nn": {
 		"name": "Tiếng Na Uy (Nynorsk)"
 	},
-	"af": {
-		"name": "Tiếng Nam Phi"
-	},
-	"bs": {
-		"name": "Tiếng Nam Tư"
-	},
 	"naq": {
 		"name": "Tiếng Nama"
 	},
@@ -402,7 +411,7 @@
 		"name": "Tiếng Nyankole"
 	},
 	"or": {
-		"name": "Tiếng Oriya"
+		"name": "Tiếng Odia"
 	},
 	"om": {
 		"name": "Tiếng Oromo"
@@ -426,7 +435,10 @@
 		"name": "Tiếng Phần Lan"
 	},
 	"fil": {
-		"name": "Tiếng Philipin"
+		"name": "Tiếng Philippines"
+	},
+	"prg": {
+		"name": "Tiếng Prussia"
 	},
 	"pa": {
 		"name": "Tiếng Punjab"
@@ -440,14 +452,14 @@
 	"eo": {
 		"name": "Tiếng Quốc Tế Ngữ"
 	},
+	"ro": {
+		"name": "Tiếng Romania"
+	},
 	"rm": {
 		"name": "Tiếng Romansh"
 	},
 	"rof": {
 		"name": "Tiếng Rombo"
-	},
-	"ro": {
-		"name": "Tiếng Rumani"
 	},
 	"rn": {
 		"name": "Tiếng Rundi"
@@ -558,7 +570,7 @@
 		"name": "Tiếng Thượng Sorbia"
 	},
 	"ti": {
-		"name": "Tiếng Tigrigya"
+		"name": "Tiếng Tigrinya"
 	},
 	"to": {
 		"name": "Tiếng Tonga"
@@ -573,16 +585,13 @@
 		"name": "Tiếng Trung (Phồn thể)"
 	},
 	"tk": {
-		"name": "Tiếng Turk"
+		"name": "Tiếng Turkmen"
 	},
 	"uk": {
 		"name": "Tiếng Ucraina"
 	},
 	"ur": {
-		"name": "Tiếng Uđu"
-	},
-	"ug": {
-		"name": "Tiếng Uyghur"
+		"name": "Tiếng Urdu"
 	},
 	"uz": {
 		"name": "Tiếng Uzbek"
@@ -605,17 +614,14 @@
 	"wae": {
 		"name": "Tiếng Walser"
 	},
-	"gd": {
-		"name": "Tiếng Xentơ (Xcốt len)"
-	},
 	"it": {
 		"name": "Tiếng Ý"
 	},
-	"yi": {
-		"name": "Tiếng Y-đit"
-	},
 	"yav": {
 		"name": "Tiếng Yangben"
+	},
+	"yi": {
+		"name": "Tiếng Yiddish"
 	},
 	"yo": {
 		"name": "Tiếng Yoruba"

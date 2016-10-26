@@ -17,6 +17,9 @@
 	"ARS": {
 		"name": "Argentinski pezos"
 	},
+	"AMD": {
+		"name": "Armenski dram"
+	},
 	"AWG": {
 		"name": "Arubanski florin"
 	},
@@ -44,8 +47,11 @@
 	"BMD": {
 		"name": "Bermudski dolar"
 	},
-	"BYR": {
+	"BYN": {
 		"name": "Bjeloruska rublja"
+	},
+	"BYR": {
+		"name": "Bjeloruska rublja (2000–2016)"
 	},
 	"BWP": {
 		"name": "Bocvanska pula"
@@ -54,7 +60,7 @@
 		"name": "Bolivijski boliviano"
 	},
 	"BAM": {
-		"name": "Bosansko-Hercegovačka konvertibilna marka",
+		"name": "Bosanskohercegovačka konvertibilna marka",
 		"symbol": "KM"
 	},
 	"BRL": {
@@ -76,11 +82,8 @@
 		"name": "Butanski ngultrum"
 	},
 	"XAF": {
-		"name": "centralnoafrički franak CFA",
+		"name": "Centralnoafrički franak (CFA)",
 		"symbol": "FCFA"
-	},
-	"XPF": {
-		"name": "CFP franak"
 	},
 	"CZK": {
 		"name": "Češka kruna"
@@ -117,13 +120,16 @@
 		"symbol": "€"
 	},
 	"FJD": {
-		"name": "Fidži dolar"
+		"name": "Fidžijski dolar"
 	},
 	"PHP": {
 		"name": "Filipinski pezos"
 	},
 	"FKP": {
 		"name": "Folklandska funta"
+	},
+	"XPF": {
+		"name": "Franak (CFP)"
 	},
 	"GMD": {
 		"name": "Gambijski dalasi"
@@ -137,9 +143,6 @@
 	"GEL": {
 		"name": "Gruzijski lari"
 	},
-	"ANG": {
-		"name": "Gulden Holandskih Antila"
-	},
 	"GYD": {
 		"name": "Gvajanski dolar"
 	},
@@ -152,8 +155,11 @@
 	"HTG": {
 		"name": "Haićanski gurd"
 	},
+	"ANG": {
+		"name": "Holandskoantilski gulden"
+	},
 	"HNL": {
-		"name": "Honduraska lempira"
+		"name": "Honduraška lempira"
 	},
 	"HKD": {
 		"name": "Honkonški dolar"
@@ -185,7 +191,7 @@
 		"name": "Izraelski novi šekel"
 	},
 	"JMD": {
-		"name": "Jamajski dolar"
+		"name": "Jamajčanski dolar"
 	},
 	"JPY": {
 		"name": "Japanski jen",
@@ -193,9 +199,6 @@
 	},
 	"YER": {
 		"name": "Jemenski rijal"
-	},
-	"AMD": {
-		"name": "Jermenski dram"
 	},
 	"JOD": {
 		"name": "Jordanski dinar"
@@ -283,10 +286,10 @@
 		"name": "Makedonski denar"
 	},
 	"MGA": {
-		"name": "Malagaski ariari"
+		"name": "Malagaški arijari"
 	},
 	"MWK": {
-		"name": "Malavska kvača"
+		"name": "Malavijska kvača"
 	},
 	"MVR": {
 		"name": "Maldivska rufija"
@@ -310,7 +313,7 @@
 		"name": "Mijanmarski kjat"
 	},
 	"MDL": {
-		"name": "Moldavski lev"
+		"name": "Moldavski lej"
 	},
 	"MNT": {
 		"name": "Mongolski tugrik"
@@ -362,7 +365,7 @@
 		"name": "Ruandski franak"
 	},
 	"RON": {
-		"name": "Rumunski lev"
+		"name": "Rumunski lej"
 	},
 	"RUB": {
 		"name": "Ruska rublja"
@@ -430,7 +433,7 @@
 		"symbol": "฿"
 	},
 	"TZS": {
-		"name": "Tanzanski šiling"
+		"name": "Tanzanijski šiling"
 	},
 	"TOP": {
 		"name": "Tonganska panga"
@@ -439,7 +442,7 @@
 		"name": "Trinidadtobaški dolar"
 	},
 	"TND": {
-		"name": "Tuniski dinar"
+		"name": "Tuniški dinar"
 	},
 	"TMT": {
 		"name": "Turkmenistanski manat"
@@ -451,13 +454,13 @@
 		"name": "Ugandski šiling"
 	},
 	"UAH": {
-		"name": "Ukrajinska grivna"
+		"name": "Ukrajinska hrivnja"
 	},
 	"UYU": {
 		"name": "Urugvajski pezos"
 	},
 	"UZS": {
-		"name": "uzbekistanski som"
+		"name": "Uzbekistanski som"
 	},
 	"VUV": {
 		"name": "Vanuatski vatu"
@@ -473,7 +476,7 @@
 		"name": "Zambijska kvača"
 	},
 	"XOF": {
-		"name": "zapadnoafrički franak CFA",
+		"name": "Zapadnoafrički franak (CFA)",
 		"symbol": "CFA"
 	},
 	"CVE": {

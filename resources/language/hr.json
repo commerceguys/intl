@@ -44,6 +44,9 @@
 	"bm": {
 		"name": "bambara"
 	},
+	"bn": {
+		"name": "bangla"
+	},
 	"bas": {
 		"name": "basa"
 	},
@@ -55,9 +58,6 @@
 	},
 	"bez": {
 		"name": "bena"
-	},
-	"bn": {
-		"name": "bengalski"
 	},
 	"be": {
 		"name": "bjeloruski"
@@ -90,13 +90,22 @@
 		"name": "čečenski"
 	},
 	"chr": {
-		"name": "čeroki"
+		"name": "čerokijski"
 	},
 	"cs": {
 		"name": "češki"
 	},
 	"da": {
 		"name": "danski"
+	},
+	"dsb": {
+		"name": "donjolužički"
+	},
+	"nds": {
+		"name": "donjonjemački"
+	},
+	"nds-NL": {
+		"name": "donjosaksonski"
 	},
 	"dua": {
 		"name": "duala"
@@ -129,7 +138,7 @@
 		"name": "ferojski"
 	},
 	"fil": {
-		"name": "filipino"
+		"name": "filipinski"
 	},
 	"fi": {
 		"name": "finski"
@@ -140,11 +149,11 @@
 	"fr": {
 		"name": "francuski"
 	},
-	"fur": {
-		"name": "friulski"
-	},
 	"ff": {
-		"name": "fulah"
+		"name": "fula"
+	},
+	"fur": {
+		"name": "furlanski"
 	},
 	"gl": {
 		"name": "galicijski"
@@ -213,10 +222,7 @@
 		"name": "jola-fonyi"
 	},
 	"yo": {
-		"name": "joruba"
-	},
-	"se": {
-		"name": "južni sami"
+		"name": "jorupski"
 	},
 	"kab": {
 		"name": "kabilski"
@@ -239,11 +245,11 @@
 	"fr-CA": {
 		"name": "kanadski francuski"
 	},
-	"kn": {
-		"name": "kannadski"
-	},
 	"yue": {
 		"name": "kantonski"
+	},
+	"kn": {
+		"name": "karnatački"
 	},
 	"ks": {
 		"name": "kašmirski"
@@ -255,7 +261,7 @@
 		"name": "kazaški"
 	},
 	"qu": {
-		"name": "kečua"
+		"name": "kečuanski"
 	},
 	"ksh": {
 		"name": "kelnski"
@@ -276,16 +282,13 @@
 		"name": "kinyarwanda"
 	},
 	"ky": {
-		"name": "kirgiški"
+		"name": "kirgiski"
 	},
 	"km": {
 		"name": "kmerski"
 	},
-	"nb": {
-		"name": "književni norveški"
-	},
 	"sw-CD": {
-		"name": "kongoanski swahili"
+		"name": "kongoanski svahili"
 	},
 	"kok": {
 		"name": "konkani"
@@ -335,9 +338,6 @@
 	"luy": {
 		"name": "luyia"
 	},
-	"dsb": {
-		"name": "lužičkosrpski"
-	},
 	"jmc": {
 		"name": "machame"
 	},
@@ -370,9 +370,6 @@
 	},
 	"mr": {
 		"name": "marathski"
-	},
-	"tzm": {
-		"name": "marokanski tamazight"
 	},
 	"mas": {
 		"name": "masajski"
@@ -416,11 +413,14 @@
 	"nl": {
 		"name": "nizozemski"
 	},
+	"nb": {
+		"name": "norveški bokmål"
+	},
 	"nn": {
-		"name": "novonorveški"
+		"name": "norveški nynorsk"
 	},
 	"nus": {
-		"name": "nuer"
+		"name": "nuerski"
 	},
 	"nyn": {
 		"name": "nyankole"
@@ -441,7 +441,7 @@
 		"name": "pandžapski"
 	},
 	"ps": {
-		"name": "paštu"
+		"name": "paštunski"
 	},
 	"fa": {
 		"name": "perzijski"
@@ -453,10 +453,10 @@
 		"name": "portugalski"
 	},
 	"prg": {
-		"name": "Prussian"
+		"name": "pruski"
 	},
 	"rm": {
-		"name": "romanš"
+		"name": "retoromanski"
 	},
 	"rof": {
 		"name": "rombo"
@@ -500,6 +500,9 @@
 	"nd": {
 		"name": "sjeverni ndebele"
 	},
+	"se": {
+		"name": "sjeverni sami"
+	},
 	"lrc": {
 		"name": "sjevernolurski"
 	},
@@ -522,13 +525,13 @@
 		"name": "srpski"
 	},
 	"zgh": {
-		"name": "standardni marokanski tamazight"
+		"name": "standardni marokanski tamašek"
 	},
 	"sw": {
 		"name": "svahili"
 	},
 	"gd": {
-		"name": "škotski-galski"
+		"name": "škotski gaelski"
 	},
 	"es": {
 		"name": "španjolski"
@@ -554,6 +557,9 @@
 	"it": {
 		"name": "talijanski"
 	},
+	"tzm": {
+		"name": "tamašek (Srednji Atlas)"
+	},
 	"ta": {
 		"name": "tamilski"
 	},
@@ -561,13 +567,13 @@
 		"name": "tasawaq"
 	},
 	"te": {
-		"name": "telugu"
+		"name": "teluški"
 	},
 	"teo": {
 		"name": "teso"
 	},
 	"bo": {
-		"name": "tibetanski"
+		"name": "tibetski"
 	},
 	"ti": {
 		"name": "tigrinja"
@@ -609,7 +615,7 @@
 		"name": "vunjo"
 	},
 	"wae": {
-		"name": "walser"
+		"name": "walserski"
 	},
 	"yav": {
 		"name": "yangben"

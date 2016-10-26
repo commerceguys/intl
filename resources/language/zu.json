@@ -1,28 +1,4 @@
 {
-	"ast": {
-		"name": "Asturian"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"yue": {
-		"name": "Cantonese"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
 	"af": {
 		"name": "i-Afrikaans"
 	},
@@ -49,6 +25,9 @@
 	},
 	"om": {
 		"name": "i-Oromo"
+	},
+	"sah": {
+		"name": "i-Sakha"
 	},
 	"gd": {
 		"name": "i-Scottish Gaelic"
@@ -83,6 +62,9 @@
 	"as": {
 		"name": "isi-Assamese"
 	},
+	"ast": {
+		"name": "isi-Asturian"
+	},
 	"asa": {
 		"name": "isi-Asu"
 	},
@@ -100,6 +82,9 @@
 	},
 	"bm": {
 		"name": "isi-Bambara"
+	},
+	"bas": {
+		"name": "isi-Basaa"
 	},
 	"eu": {
 		"name": "isi-Basque"
@@ -131,6 +116,9 @@
 	"my": {
 		"name": "isi-Burmese"
 	},
+	"yue": {
+		"name": "isi-Cantonese"
+	},
 	"ca": {
 		"name": "isi-Catalan"
 	},
@@ -153,10 +141,16 @@
 		"name": "isi-Chinese"
 	},
 	"zh-Hans": {
-		"name": "isi-Chinese (i-Simplified)"
+		"name": "isi-Chinese (esenziwe-lula)"
 	},
 	"zh-Hant": {
 		"name": "isi-Chinese (Okosiko)"
+	},
+	"cu": {
+		"name": "isi-Church Slavic"
+	},
+	"ksh": {
+		"name": "isi-Colognian"
 	},
 	"sw-CD": {
 		"name": "isi-Congo Swahili"
@@ -197,6 +191,9 @@
 	"ee": {
 		"name": "isi-Ewe"
 	},
+	"ewo": {
+		"name": "isi-Ewondo"
+	},
 	"fo": {
 		"name": "isi-Faroese"
 	},
@@ -211,6 +208,12 @@
 	},
 	"fr": {
 		"name": "isi-French"
+	},
+	"fur": {
+		"name": "isi-Friulian"
+	},
+	"ff": {
+		"name": "isi-Fulah"
 	},
 	"gl": {
 		"name": "isi-Galicia"
@@ -270,13 +273,16 @@
 		"name": "isi-Japanese"
 	},
 	"dyo": {
-		"name": "isi-Jola-Fonyl"
+		"name": "isi-Jola-Fonyi"
 	},
 	"kea": {
 		"name": "isi-Kabuverdianu"
 	},
 	"kab": {
 		"name": "isi-Kabyle"
+	},
+	"kkj": {
+		"name": "isi-Kako"
 	},
 	"kl": {
 		"name": "isi-Kalaallisut"
@@ -337,6 +343,12 @@
 	},
 	"lt": {
 		"name": "isi-Lithuanian"
+	},
+	"nds": {
+		"name": "isi-Low German"
+	},
+	"nds-NL": {
+		"name": "isi-Low Saxon"
 	},
 	"dsb": {
 		"name": "isi-Lower Sorbian"
@@ -404,6 +416,9 @@
 	"mfe": {
 		"name": "isi-Morisyen"
 	},
+	"zgh": {
+		"name": "isi-Moroccan Tamazight esivamile"
+	},
 	"mua": {
 		"name": "isi-Mundang"
 	},
@@ -412,6 +427,9 @@
 	},
 	"ne": {
 		"name": "isi-Nepali"
+	},
+	"nnh": {
+		"name": "isi-Ngiemboon"
 	},
 	"jgo": {
 		"name": "isi-Ngomba"
@@ -435,7 +453,7 @@
 		"name": "isi-Nyankole"
 	},
 	"or": {
-		"name": "isi-Oriya"
+		"name": "isi-Odia"
 	},
 	"os": {
 		"name": "isi-Ossetic"
@@ -451,6 +469,9 @@
 	},
 	"pt": {
 		"name": "isi-Portuguese"
+	},
+	"prg": {
+		"name": "isi-Prussian"
 	},
 	"pa": {
 		"name": "isi-Punjabi"
@@ -508,9 +529,6 @@
 	},
 	"es": {
 		"name": "isi-Spanish"
-	},
-	"zgh": {
-		"name": "isi-Standard Moroccan Tamazight"
 	},
 	"sv": {
 		"name": "isi-Swedish"
@@ -575,14 +593,23 @@
 	"vi": {
 		"name": "isi-Vietnamese"
 	},
+	"vo": {
+		"name": "isi-Volapük"
+	},
+	"wae": {
+		"name": "isi-Walser"
+	},
 	"cy": {
 		"name": "isi-Welsh"
 	},
 	"fy": {
 		"name": "isi-Western Frisian"
 	},
+	"yav": {
+		"name": "isi-Yangben"
+	},
 	"yi": {
-		"name": "Isi-Yidish"
+		"name": "isi-Yiddish"
 	},
 	"yo": {
 		"name": "isi-Yoruba"
@@ -604,26 +631,5 @@
 	},
 	"zu": {
 		"name": "isiZulu"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"yav": {
-		"name": "Yangben"
 	}
 }

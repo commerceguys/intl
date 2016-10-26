@@ -15,7 +15,7 @@
 		"name": "Amharic"
 	},
 	"ar": {
-		"name": "Arabe"
+		"name": "Arabic"
 	},
 	"hy": {
 		"name": "Armenian"
@@ -41,6 +41,9 @@
 	"bm": {
 		"name": "Bambara"
 	},
+	"bn": {
+		"name": "Bangla"
+	},
 	"bas": {
 		"name": "Basaa"
 	},
@@ -55,9 +58,6 @@
 	},
 	"bez": {
 		"name": "Bena"
-	},
-	"bn": {
-		"name": "Bengali"
 	},
 	"brx": {
 		"name": "Bodo"
@@ -74,14 +74,14 @@
 	"my": {
 		"name": "Burmese"
 	},
-	"fr-CA": {
-		"name": "Canadian French"
-	},
 	"yue": {
 		"name": "Cantonese"
 	},
 	"ca": {
 		"name": "Catalan"
+	},
+	"tzm": {
+		"name": "Central Atlas Tamazight"
 	},
 	"ckb": {
 		"name": "Central Kurdish"
@@ -98,14 +98,14 @@
 	"zh": {
 		"name": "Chinese"
 	},
-	"zh-Hant": {
-		"name": "Chinese (Tradisyonal)"
-	},
 	"cu": {
 		"name": "Church Slavic"
 	},
 	"ksh": {
 		"name": "Colognian"
+	},
+	"sw-CD": {
+		"name": "Congo Swahili"
 	},
 	"kw": {
 		"name": "Cornish"
@@ -130,12 +130,6 @@
 	},
 	"ebu": {
 		"name": "Embu"
-	},
-	"es": {
-		"name": "Espanyol"
-	},
-	"es-MX": {
-		"name": "Espanyol ng Mehiko"
 	},
 	"eo": {
 		"name": "Esperanto"
@@ -166,6 +160,9 @@
 	},
 	"fr": {
 		"name": "French"
+	},
+	"fr-CA": {
+		"name": "French sa Canada"
 	},
 	"fur": {
 		"name": "Friulian"
@@ -233,11 +230,11 @@
 	"en": {
 		"name": "Ingles"
 	},
+	"en-GB": {
+		"name": "Ingles na British"
+	},
 	"en-AU": {
 		"name": "Ingles ng Australya"
-	},
-	"en-GB": {
-		"name": "Ingles ng British"
 	},
 	"en-CA": {
 		"name": "Ingles sa Canada"
@@ -329,6 +326,12 @@
 	"lt": {
 		"name": "Lithuanian"
 	},
+	"nds": {
+		"name": "Low German"
+	},
+	"nds-NL": {
+		"name": "Low Saxon"
+	},
 	"dsb": {
 		"name": "Lower Sorbian"
 	},
@@ -386,6 +389,9 @@
 	"mgo": {
 		"name": "Meta’"
 	},
+	"es-MX": {
+		"name": "Mexican na Espanyol"
+	},
 	"ro-MD": {
 		"name": "Moldavian"
 	},
@@ -405,7 +411,7 @@
 		"name": "Nepali"
 	},
 	"nb": {
-		"name": "Norwegian Bokmal"
+		"name": "Norwegian Bokmål"
 	},
 	"nn": {
 		"name": "Norwegian Nynorsk"
@@ -423,7 +429,7 @@
 		"name": "Ngomba"
 	},
 	"or": {
-		"name": "Oriya"
+		"name": "Odia"
 	},
 	"om": {
 		"name": "Oromo"
@@ -437,11 +443,14 @@
 	"fa": {
 		"name": "Persian"
 	},
+	"zh-Hans": {
+		"name": "Pinasimpleng Chinese"
+	},
 	"pl": {
 		"name": "Polish"
 	},
 	"pt": {
-		"name": "Portuges"
+		"name": "Portuguese"
 	},
 	"prg": {
 		"name": "Prussian"
@@ -500,9 +509,6 @@
 	"ii": {
 		"name": "Sichuan Yi"
 	},
-	"zh-Hans": {
-		"name": "Simplified Chinese"
-	},
 	"si": {
 		"name": "Sinhala"
 	},
@@ -518,20 +524,17 @@
 	"so": {
 		"name": "Somali"
 	},
+	"es": {
+		"name": "Spanish"
+	},
 	"zgh": {
 		"name": "Standard Moroccan Tamazight"
 	},
 	"sw": {
 		"name": "Swahili"
 	},
-	"sw-CD": {
-		"name": "Swahili (Congo)"
-	},
 	"sv": {
 		"name": "Swedish"
-	},
-	"fr-CH": {
-		"name": "Swiss French"
 	},
 	"gsw": {
 		"name": "Swiss German"
@@ -539,14 +542,14 @@
 	"de-CH": {
 		"name": "Swiss High German"
 	},
+	"fr-CH": {
+		"name": "Swiss na French"
+	},
 	"shi": {
 		"name": "Tachelhit"
 	},
 	"dav": {
 		"name": "Taita"
-	},
-	"tzm": {
-		"name": "Tamazight ng Gitnang Atlas"
 	},
 	"ta": {
 		"name": "Tamil"
@@ -571,6 +574,9 @@
 	},
 	"to": {
 		"name": "Tongan"
+	},
+	"zh-Hant": {
+		"name": "Tradisyonal na Chinese"
 	},
 	"tr": {
 		"name": "Turkish"

@@ -1,4 +1,10 @@
 {
+	"CN": {
+		"name": "A China"
+	},
+	"IN": {
+		"name": "A India"
+	},
 	"AZ": {
 		"name": "Acerbaixán"
 	},
@@ -10,6 +16,9 @@
 	},
 	"DE": {
 		"name": "Alemaña"
+	},
+	"DZ": {
+		"name": "Alxeria"
 	},
 	"AD": {
 		"name": "Andorra"
@@ -35,9 +44,6 @@
 	"AW": {
 		"name": "Aruba"
 	},
-	"DZ": {
-		"name": "Arxelia"
-	},
 	"AR": {
 		"name": "Arxentina"
 	},
@@ -51,10 +57,10 @@
 		"name": "Bahamas"
 	},
 	"BH": {
-		"name": "Bahrein"
+		"name": "Bahrain"
 	},
 	"BD": {
-		"name": "Bangladesh"
+		"name": "Bangladés"
 	},
 	"BB": {
 		"name": "Barbados"
@@ -78,7 +84,7 @@
 		"name": "Bolivia"
 	},
 	"BA": {
-		"name": "Bosnia e Hercegovina"
+		"name": "Bosnia-Hercegovina"
 	},
 	"BW": {
 		"name": "Botsuana"
@@ -105,7 +111,7 @@
 		"name": "Cabo Verde"
 	},
 	"KH": {
-		"name": "Cambodia"
+		"name": "Camboxa"
 	},
 	"CM": {
 		"name": "Camerún"
@@ -114,7 +120,10 @@
 		"name": "Canadá"
 	},
 	"BQ": {
-		"name": "Caribe neerlandés"
+		"name": "Caribe Neerlandés"
+	},
+	"KZ": {
+		"name": "Casaquistán"
 	},
 	"EA": {
 		"name": "Ceuta e Melilla"
@@ -124,9 +133,6 @@
 	},
 	"CL": {
 		"name": "Chile"
-	},
-	"CN": {
-		"name": "China"
 	},
 	"CY": {
 		"name": "Chipre"
@@ -143,9 +149,6 @@
 	"KM": {
 		"name": "Comores"
 	},
-	"CG": {
-		"name": "Congo"
-	},
 	"KP": {
 		"name": "Corea do Norte"
 	},
@@ -153,7 +156,7 @@
 		"name": "Corea do Sur"
 	},
 	"CI": {
-		"name": "Costa de Marfil"
+		"name": "Costa do Marfil"
 	},
 	"CR": {
 		"name": "Costa Rica"
@@ -182,9 +185,6 @@
 	"EC": {
 		"name": "Ecuador"
 	},
-	"SV": {
-		"name": "El Salvador"
-	},
 	"AE": {
 		"name": "Emiratos Árabes Unidos"
 	},
@@ -212,14 +212,14 @@
 	"EG": {
 		"name": "Exipto"
 	},
+	"FJ": {
+		"name": "Fidxi"
+	},
 	"PH": {
 		"name": "Filipinas"
 	},
 	"FI": {
 		"name": "Finlandia"
-	},
-	"FJ": {
-		"name": "Fixi"
 	},
 	"FR": {
 		"name": "Francia"
@@ -231,7 +231,7 @@
 		"name": "Gambia"
 	},
 	"GH": {
-		"name": "Gana"
+		"name": "Ghana"
 	},
 	"GD": {
 		"name": "Granada"
@@ -240,7 +240,7 @@
 		"name": "Grecia"
 	},
 	"GL": {
-		"name": "Grenlandia"
+		"name": "Groenlandia"
 	},
 	"GP": {
 		"name": "Guadalupe"
@@ -267,7 +267,7 @@
 		"name": "Guinea Ecuatorial"
 	},
 	"GW": {
-		"name": "Guinea-Bissau"
+		"name": "Guinea-Bisau"
 	},
 	"HT": {
 		"name": "Haití"
@@ -284,14 +284,14 @@
 	"YE": {
 		"name": "Iemen"
 	},
-	"CX": {
-		"name": "Illa Christmas"
-	},
 	"AC": {
 		"name": "Illa de Ascensión"
 	},
 	"IM": {
 		"name": "Illa de Man"
+	},
+	"CX": {
+		"name": "Illa de Nadal"
 	},
 	"NF": {
 		"name": "Illa Norfolk"
@@ -318,13 +318,10 @@
 		"name": "Illas Malvinas"
 	},
 	"MP": {
-		"name": "Illas Marianas do norte"
+		"name": "Illas Marianas do Norte"
 	},
 	"MH": {
 		"name": "Illas Marshall"
-	},
-	"UM": {
-		"name": "Illas Menores Distantes dos EUA."
 	},
 	"PN": {
 		"name": "Illas Pitcairn"
@@ -335,14 +332,17 @@
 	"TC": {
 		"name": "Illas Turks e Caicos"
 	},
+	"UM": {
+		"name": "Illas Ultramarinas dos EUA"
+	},
 	"VG": {
 		"name": "Illas Virxes Británicas"
 	},
 	"VI": {
 		"name": "Illas Virxes Estadounidenses"
 	},
-	"IN": {
-		"name": "India"
+	"GS": {
+		"name": "Illas Xeorxia do Sur e Sandwich do Sur"
 	},
 	"ID": {
 		"name": "Indonesia"
@@ -368,9 +368,6 @@
 	"JE": {
 		"name": "Jersey"
 	},
-	"KZ": {
-		"name": "Kazakhstan"
-	},
 	"KE": {
 		"name": "Kenya"
 	},
@@ -387,7 +384,7 @@
 		"name": "Laos"
 	},
 	"LS": {
-		"name": "Lesotho"
+		"name": "Lesoto"
 	},
 	"LV": {
 		"name": "Letonia"
@@ -429,7 +426,7 @@
 		"name": "Maldivas"
 	},
 	"ML": {
-		"name": "Mali"
+		"name": "Malí"
 	},
 	"MT": {
 		"name": "Malta"
@@ -456,7 +453,7 @@
 		"name": "Micronesia"
 	},
 	"MD": {
-		"name": "Moldova"
+		"name": "Moldavia"
 	},
 	"MC": {
 		"name": "Mónaco"
@@ -504,7 +501,13 @@
 		"name": "Nova Caledonia"
 	},
 	"NZ": {
-		"name": "Nova Celandia"
+		"name": "Nova Zelandia"
+	},
+	"SV": {
+		"name": "O Salvador"
+	},
+	"JP": {
+		"name": "O Xapón"
 	},
 	"OM": {
 		"name": "Omán"
@@ -519,7 +522,7 @@
 		"name": "Panamá"
 	},
 	"PG": {
-		"name": "Papúa Nova Guinea"
+		"name": "Papúa-Nova Guinea"
 	},
 	"PK": {
 		"name": "Paquistán"
@@ -560,6 +563,9 @@
 	"CD": {
 		"name": "República Democrática do Congo"
 	},
+	"CG": {
+		"name": "República do Congo"
+	},
 	"DO": {
 		"name": "República Dominicana"
 	},
@@ -578,32 +584,32 @@
 	"EH": {
 		"name": "Sáhara Occidental"
 	},
+	"KN": {
+		"name": "Saint Kitts e Nevis"
+	},
+	"PM": {
+		"name": "Saint Pierre e Miquelon"
+	},
+	"BL": {
+		"name": "Saint-Barthélemy"
+	},
+	"MF": {
+		"name": "Saint-Martin"
+	},
 	"WS": {
 		"name": "Samoa"
 	},
 	"AS": {
 		"name": "Samoa Americana"
 	},
-	"BL": {
-		"name": "San Bartolomé"
-	},
-	"KN": {
-		"name": "San Cristovo e Nevis"
-	},
 	"SM": {
 		"name": "San Marino"
-	},
-	"MF": {
-		"name": "San Martiño"
-	},
-	"PM": {
-		"name": "San Pedro e Miguelón"
 	},
 	"ST": {
 		"name": "San Tomé e Príncipe"
 	},
 	"VC": {
-		"name": "San Vicente e Granadinas"
+		"name": "San Vicente e as Granadinas"
 	},
 	"SH": {
 		"name": "Santa Helena"
@@ -641,9 +647,6 @@
 	"SZ": {
 		"name": "Suacilandia"
 	},
-	"ZA": {
-		"name": "Sudáfrica"
-	},
 	"SD": {
 		"name": "Sudán"
 	},
@@ -656,8 +659,11 @@
 	"CH": {
 		"name": "Suíza"
 	},
+	"ZA": {
+		"name": "Suráfrica"
+	},
 	"SR": {
-		"name": "Surinam"
+		"name": "Suriname"
 	},
 	"SJ": {
 		"name": "Svalbard e Jan Mayen"
@@ -678,7 +684,7 @@
 		"name": "Territorio Británico do Océano Índico"
 	},
 	"TF": {
-		"name": "Territorios Franceses do Sul"
+		"name": "Territorios Austrais Franceses"
 	},
 	"PS": {
 		"name": "Territorios palestinos"
@@ -689,14 +695,14 @@
 	"TG": {
 		"name": "Togo"
 	},
-	"TK": {
-		"name": "Tokelau"
-	},
 	"TO": {
 		"name": "Tonga"
 	},
+	"TK": {
+		"name": "Toquelau"
+	},
 	"TT": {
-		"name": "Trindade e Tobago"
+		"name": "Trinidad e Tobago"
 	},
 	"TA": {
 		"name": "Tristán da Cunha"
@@ -705,7 +711,7 @@
 		"name": "Tunisia"
 	},
 	"TM": {
-		"name": "Turkmenistán"
+		"name": "Turcomenistán"
 	},
 	"TR": {
 		"name": "Turquía"
@@ -740,14 +746,8 @@
 	"JM": {
 		"name": "Xamaica"
 	},
-	"JP": {
-		"name": "Xapón"
-	},
 	"GE": {
 		"name": "Xeorxia"
-	},
-	"GS": {
-		"name": "Xeorxia do Sur e Illas Sandwich"
 	},
 	"GI": {
 		"name": "Xibraltar"

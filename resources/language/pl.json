@@ -39,7 +39,7 @@
 		"name": "austriacki niemiecki"
 	},
 	"az": {
-		"name": "azerski"
+		"name": "azerbejdżański"
 	},
 	"ksf": {
 		"name": "bafia"
@@ -48,7 +48,7 @@
 		"name": "bambara"
 	},
 	"bas": {
-		"name": "basa"
+		"name": "basaa"
 	},
 	"eu": {
 		"name": "baskijski"
@@ -83,8 +83,8 @@
 	"bg": {
 		"name": "bułgarski"
 	},
-	"tzm": {
-		"name": "centralnomarokański tamazight"
+	"cu": {
+		"name": "cerkiewnosłowiański"
 	},
 	"cgg": {
 		"name": "chiga"
@@ -93,10 +93,10 @@
 		"name": "chiński"
 	},
 	"zh-Hant": {
-		"name": "chiński (tradycyjny)"
+		"name": "chiński tradycyjny"
 	},
 	"zh-Hans": {
-		"name": "chiński (uproszczony)"
+		"name": "chiński uproszczony"
 	},
 	"hr": {
 		"name": "chorwacki"
@@ -115,6 +115,12 @@
 	},
 	"dsb": {
 		"name": "dolnołużycki"
+	},
+	"nds": {
+		"name": "dolnoniemiecki"
+	},
+	"nds-NL": {
+		"name": "dolnosaksoński"
 	},
 	"dua": {
 		"name": "duala"
@@ -162,7 +168,7 @@
 		"name": "francuski"
 	},
 	"fur": {
-		"name": "friulijski"
+		"name": "friulski"
 	},
 	"ff": {
 		"name": "fulani"
@@ -186,7 +192,7 @@
 		"name": "gruziński"
 	},
 	"gu": {
-		"name": "gudźaracki"
+		"name": "gudżarati"
 	},
 	"guz": {
 		"name": "gusii"
@@ -211,6 +217,9 @@
 	},
 	"ig": {
 		"name": "igbo"
+	},
+	"smn": {
+		"name": "inari"
 	},
 	"id": {
 		"name": "indonezyjski"
@@ -294,7 +303,7 @@
 		"name": "kornijski"
 	},
 	"khq": {
-		"name": "koyra chini"
+		"name": "koyra chiini"
 	},
 	"ses": {
 		"name": "koyraboro senni"
@@ -313,12 +322,6 @@
 	},
 	"lo": {
 		"name": "laotański"
-	},
-	"smn": {
-		"name": "lapoński Inari"
-	},
-	"se": {
-		"name": "lapoński północny"
 	},
 	"ln": {
 		"name": "lingala"
@@ -441,7 +444,7 @@
 		"name": "ormiański"
 	},
 	"om": {
-		"name": "oromski"
+		"name": "oromo"
 	},
 	"os": {
 		"name": "osetyjski"
@@ -460,6 +463,9 @@
 	},
 	"pt": {
 		"name": "portugalski"
+	},
+	"se": {
+		"name": "północnolapoński"
 	},
 	"prg": {
 		"name": "pruski"
@@ -500,6 +506,9 @@
 	"sr": {
 		"name": "serbski"
 	},
+	"sn": {
+		"name": "shona"
+	},
 	"sk": {
 		"name": "słowacki"
 	},
@@ -518,9 +527,6 @@
 	"zgh": {
 		"name": "standardowy marokański tamazight"
 	},
-	"cu": {
-		"name": "staro-cerkiewno-słowiański"
-	},
 	"sw": {
 		"name": "suahili"
 	},
@@ -532,9 +538,6 @@
 	},
 	"gd": {
 		"name": "szkocki gaelicki"
-	},
-	"sn": {
-		"name": "szona"
 	},
 	"fr-CH": {
 		"name": "szwajcarski francuski"
@@ -550,6 +553,9 @@
 	},
 	"th": {
 		"name": "tajski"
+	},
+	"tzm": {
+		"name": "tamazight (Atlas Środkowy)"
 	},
 	"ta": {
 		"name": "tamilski"
@@ -590,9 +596,6 @@
 	"uz": {
 		"name": "uzbecki"
 	},
-	"vo": {
-		"name": "volapuk"
-	},
 	"vun": {
 		"name": "vunjo"
 	},
@@ -613,6 +616,9 @@
 	},
 	"it": {
 		"name": "włoski"
+	},
+	"vo": {
+		"name": "wolapik"
 	},
 	"de-CH": {
 		"name": "wysokoniemiecki (Szwajcaria)"

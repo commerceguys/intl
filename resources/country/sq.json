@@ -48,7 +48,7 @@
 		"name": "Bahamas"
 	},
 	"BH": {
-		"name": "Bahrein"
+		"name": "Bahrejn"
 	},
 	"BD": {
 		"name": "Bangladesh"
@@ -78,16 +78,13 @@
 		"name": "Bosnjë-Hercegovinë"
 	},
 	"BW": {
-		"name": "Botsuanë"
+		"name": "Botsvanë"
 	},
 	"BR": {
 		"name": "Brazil"
 	},
-	"CI": {
-		"name": "Bregu i Fildishtë"
-	},
 	"BN": {
-		"name": "Brunej"
+		"name": "Brunei"
 	},
 	"BG": {
 		"name": "Bullgari"
@@ -96,10 +93,13 @@
 		"name": "Burkina-Faso"
 	},
 	"BI": {
-		"name": "Burund"
+		"name": "Burundi"
 	},
 	"BT": {
 		"name": "Butan"
+	},
+	"CI": {
+		"name": "Côte d’Ivoire"
 	},
 	"TD": {
 		"name": "Çad"
@@ -118,9 +118,6 @@
 	},
 	"EC": {
 		"name": "Ekuador"
-	},
-	"SV": {
-		"name": "El Salvador"
 	},
 	"AE": {
 		"name": "Emiratet e Bashkuara Arabe"
@@ -150,10 +147,13 @@
 		"name": "Gabon"
 	},
 	"GM": {
-		"name": "Gambi"
+		"name": "Gambia"
 	},
 	"GH": {
 		"name": "Ganë"
+	},
+	"GG": {
+		"name": "Gernsej"
 	},
 	"GD": {
 		"name": "Grenadë"
@@ -178,9 +178,6 @@
 	},
 	"GT": {
 		"name": "Guatemalë"
-	},
-	"GG": {
-		"name": "Guernsej"
 	},
 	"GN": {
 		"name": "Guine"
@@ -242,38 +239,38 @@
 	"VG": {
 		"name": "Ishujt e Virgjër Britanikë"
 	},
+	"FK": {
+		"name": "Ishujt Falkland"
+	},
 	"FO": {
 		"name": "Ishujt Faroe"
 	},
-	"FK": {
-		"name": "Ishujt Folklandë"
-	},
 	"KY": {
-		"name": "Ishujt Kajmanë"
+		"name": "Ishujt Kajman"
 	},
 	"IC": {
 		"name": "Ishujt Kanarie"
 	},
 	"CC": {
-		"name": "Ishujt Kokosë"
+		"name": "Ishujt Kokos"
 	},
 	"CK": {
-		"name": "Ishujt Kukë"
+		"name": "Ishujt Kuk"
 	},
 	"MH": {
-		"name": "Ishujt Marshallë"
+		"name": "Ishujt Marshall"
 	},
 	"UM": {
 		"name": "Ishujt periferikë të SHBA-së"
 	},
 	"PN": {
-		"name": "Ishujt Pitkernë"
+		"name": "Ishujt Pitkern"
 	},
 	"SB": {
-		"name": "Ishujt Solomonë"
+		"name": "Ishujt Solomon"
 	},
 	"TC": {
-		"name": "Ishujt Turke dhe Kaike"
+		"name": "Ishujt Turks dhe Kaikos"
 	},
 	"AC": {
 		"name": "Ishulli Asenshion"
@@ -338,6 +335,9 @@
 	"KG": {
 		"name": "Kirgistan"
 	},
+	"KI": {
+		"name": "Kiribati"
+	},
 	"CO": {
 		"name": "Kolumbi"
 	},
@@ -393,7 +393,7 @@
 		"name": "Libi"
 	},
 	"LI": {
-		"name": "Lihtënshtajn"
+		"name": "Lihtenshtajn"
 	},
 	"LT": {
 		"name": "Lituani"
@@ -407,6 +407,9 @@
 	"YT": {
 		"name": "Majotë"
 	},
+	"ME": {
+		"name": "Mal i Zi"
+	},
 	"MY": {
 		"name": "Malajzi"
 	},
@@ -419,9 +422,6 @@
 	"ML": {
 		"name": "Mali"
 	},
-	"ME": {
-		"name": "Mali i Zi"
-	},
 	"MT": {
 		"name": "Maltë"
 	},
@@ -432,7 +432,7 @@
 		"name": "Marok"
 	},
 	"MQ": {
-		"name": "Martinik"
+		"name": "Martinikë"
 	},
 	"MR": {
 		"name": "Mauritani"
@@ -527,11 +527,8 @@
 	"CY": {
 		"name": "Qipro"
 	},
-	"KI": {
-		"name": "Qiribati"
-	},
 	"CF": {
-		"name": "Republika Afrikano-Qendrore"
+		"name": "Repubika e Afrikës Qendrore"
 	},
 	"CZ": {
 		"name": "Republika Çeke"
@@ -560,6 +557,9 @@
 	"EH": {
 		"name": "Saharaja Perëndimore"
 	},
+	"SV": {
+		"name": "Salvador"
+	},
 	"WS": {
 		"name": "Samoa"
 	},
@@ -572,8 +572,11 @@
 	"ST": {
 		"name": "Sao-Tome e Prinsipe"
 	},
+	"SC": {
+		"name": "Sejshelle"
+	},
 	"SN": {
-		"name": "Senegali"
+		"name": "Senegal"
 	},
 	"RS": {
 		"name": "Serbi"
@@ -584,11 +587,11 @@
 	"SG": {
 		"name": "Singapor"
 	},
+	"SX": {
+		"name": "Sint Marten"
+	},
 	"SY": {
 		"name": "Siri"
-	},
-	"SC": {
-		"name": "Sishel"
 	},
 	"SK": {
 		"name": "Sllovaki"
@@ -605,9 +608,6 @@
 	"LK": {
 		"name": "Sri-Lankë"
 	},
-	"SZ": {
-		"name": "Suazilandë"
-	},
 	"SD": {
 		"name": "Sudan"
 	},
@@ -621,31 +621,31 @@
 		"name": "Surinami"
 	},
 	"SJ": {
-		"name": "Svalbard e Zhan-Majen"
+		"name": "Svalbard e Jan-Majen"
+	},
+	"SZ": {
+		"name": "Svazilandë"
 	},
 	"BL": {
-		"name": "Shën-Bartolemeo"
-	},
-	"SH": {
-		"name": "Shën-Helena"
+		"name": "Shën Bartolomeu"
 	},
 	"KN": {
-		"name": "Shën-Kits dhe Nevis"
+		"name": "Shën Kits dhe Nevis"
+	},
+	"PM": {
+		"name": "Shën Pier dhe Mikelon"
+	},
+	"VC": {
+		"name": "Shën Vincent dhe Grenadine"
+	},
+	"SH": {
+		"name": "Shën-Helenë"
 	},
 	"LC": {
 		"name": "Shën-Luçia"
 	},
 	"MF": {
 		"name": "Shën-Martin"
-	},
-	"SX": {
-		"name": "Shën-Martin (Sint Maarten - pjesa e Mbretërisë së Holandës)"
-	},
-	"PM": {
-		"name": "Shën-Peir dhe Mikuelon"
-	},
-	"VC": {
-		"name": "Shën-Vinsent dhe Grenadinet"
 	},
 	"AL": {
 		"name": "Shqipëri"
@@ -666,7 +666,7 @@
 		"name": "Taxhikistan"
 	},
 	"TF": {
-		"name": "Territoret Australiane Franceze"
+		"name": "Territoret Jugore Franceze"
 	},
 	"PS": {
 		"name": "Territoret Palestineze"
@@ -675,7 +675,7 @@
 		"name": "Territori Britanik i Oqeanit Indian"
 	},
 	"TL": {
-		"name": "Timori Lindor"
+		"name": "Timor-Leste"
 	},
 	"TG": {
 		"name": "Togo"
@@ -714,7 +714,7 @@
 		"name": "Ukrainë"
 	},
 	"WF": {
-		"name": "Uollis e Futina"
+		"name": "Uollis e Futuna"
 	},
 	"UY": {
 		"name": "Uruguai"
@@ -741,16 +741,16 @@
 		"name": "Xhersej"
 	},
 	"DJ": {
-		"name": "Xhibut"
+		"name": "Xhibuti"
 	},
 	"GS": {
 		"name": "Xhorxha Jugore dhe Ishujt Senduiçë të Jugut"
 	},
 	"ZM": {
-		"name": "Zambi"
+		"name": "Zambia"
 	},
 	"NZ": {
-		"name": "Zelanda e Re"
+		"name": "Zelandë e Re"
 	},
 	"ZW": {
 		"name": "Zimbabve"

@@ -3,7 +3,7 @@
 		"name": "afrikaans"
 	},
 	"ak": {
-		"name": "akanca"
+		"name": "akan"
 	},
 	"agq": {
 		"name": "aqhem"
@@ -21,10 +21,16 @@
 		"name": "assam"
 	},
 	"ast": {
-		"name": "asturicə"
+		"name": "asturiya"
 	},
 	"asa": {
 		"name": "asu"
+	},
+	"nds": {
+		"name": "aşağı alman"
+	},
+	"nds-NL": {
+		"name": "aşağı sakson"
 	},
 	"dsb": {
 		"name": "aşağı sorb"
@@ -36,7 +42,7 @@
 		"name": "Avstriya almancası"
 	},
 	"az": {
-		"name": "azərbaycan dili"
+		"name": "azərbaycan"
 	},
 	"ksf": {
 		"name": "bafia"
@@ -63,7 +69,7 @@
 		"name": "benqal"
 	},
 	"my": {
-		"name": "birma"
+		"name": "birman"
 	},
 	"brx": {
 		"name": "bodo"
@@ -78,16 +84,10 @@
 		"name": "bosniak"
 	},
 	"br": {
-		"name": "Bretonca"
+		"name": "breton"
 	},
 	"en-GB": {
 		"name": "Britaniya ingiliscəsi"
-	},
-	"yue": {
-		"name": "Cantonese"
-	},
-	"ksh": {
-		"name": "Colognian"
 	},
 	"ce": {
 		"name": "çeçen"
@@ -95,14 +95,14 @@
 	"cs": {
 		"name": "çex"
 	},
+	"chr": {
+		"name": "çeroki"
+	},
 	"cgg": {
 		"name": "çiqa"
 	},
 	"zh": {
 		"name": "çin"
-	},
-	"chr": {
-		"name": "çiroki"
 	},
 	"da": {
 		"name": "danimarka"
@@ -174,13 +174,16 @@
 		"name": "havay"
 	},
 	"hi": {
-		"name": "hindi"
+		"name": "hind"
 	},
 	"nl": {
 		"name": "holland"
 	},
 	"hr": {
 		"name": "xorvat"
+	},
+	"yi": {
+		"name": "idiş"
 	},
 	"ig": {
 		"name": "iqbo"
@@ -189,7 +192,7 @@
 		"name": "inari sami"
 	},
 	"id": {
-		"name": "indonez"
+		"name": "indoneziya"
 	},
 	"en": {
 		"name": "ingilis"
@@ -228,7 +231,7 @@
 		"name": "kabuverdian"
 	},
 	"kkj": {
-		"name": "Kako"
+		"name": "kako"
 	},
 	"kl": {
 		"name": "kalaallisut"
@@ -248,8 +251,8 @@
 	"kn": {
 		"name": "kannada"
 	},
-	"ks": {
-		"name": "kaşmir"
+	"yue": {
+		"name": "kanton"
 	},
 	"ca": {
 		"name": "katalan"
@@ -257,20 +260,20 @@
 	"qu": {
 		"name": "keçua"
 	},
+	"ks": {
+		"name": "kəşmir"
+	},
 	"km": {
 		"name": "kxmer"
 	},
 	"ki": {
 		"name": "kikuyu"
 	},
-	"cu": {
-		"name": "kilsə slav"
-	},
 	"rw": {
 		"name": "kinyarvanda"
 	},
 	"kok": {
-		"name": "konkan"
+		"name": "konkani"
 	},
 	"sw-CD": {
 		"name": "Konqo suahilicəsi"
@@ -287,11 +290,14 @@
 	"ses": {
 		"name": "koyraboro senni"
 	},
+	"ksh": {
+		"name": "köln"
+	},
 	"nmg": {
 		"name": "kvasio"
 	},
 	"gl": {
-		"name": "qalisian"
+		"name": "qalisiya"
 	},
 	"lg": {
 		"name": "qanda"
@@ -372,7 +378,7 @@
 		"name": "manks"
 	},
 	"mr": {
-		"name": "marati"
+		"name": "marathi"
 	},
 	"mas": {
 		"name": "masay"
@@ -411,7 +417,7 @@
 		"name": "nepal"
 	},
 	"nnh": {
-		"name": "Ngiemboon"
+		"name": "ngiemboon"
 	},
 	"jgo": {
 		"name": "nqomba"
@@ -426,13 +432,13 @@
 		"name": "nyankol"
 	},
 	"or": {
-		"name": "oriya"
+		"name": "odiya"
 	},
 	"om": {
 		"name": "oromo"
 	},
 	"os": {
-		"name": "osetik"
+		"name": "osetin"
 	},
 	"uz": {
 		"name": "özbək"
@@ -456,7 +462,7 @@
 		"name": "puştu"
 	},
 	"rm": {
-		"name": "retoroman"
+		"name": "romanş"
 	},
 	"rof": {
 		"name": "rombo"
@@ -475,6 +481,9 @@
 	},
 	"zh-Hans": {
 		"name": "sadələşmiş çin"
+	},
+	"sah": {
+		"name": "saxa"
 	},
 	"saq": {
 		"name": "samburu"
@@ -495,10 +504,10 @@
 		"name": "siçuan yi"
 	},
 	"si": {
-		"name": "sinhal"
+		"name": "sinhala"
 	},
-	"gd": {
-		"name": "skot gaelik"
+	"cu": {
+		"name": "slavyan"
 	},
 	"sk": {
 		"name": "slovak"
@@ -513,7 +522,7 @@
 		"name": "somali"
 	},
 	"ckb": {
-		"name": "sorani kürd"
+		"name": "soran"
 	},
 	"sw": {
 		"name": "suahili"
@@ -532,6 +541,9 @@
 	},
 	"sn": {
 		"name": "şona"
+	},
+	"gd": {
+		"name": "Şotlandiya keltcəsi"
 	},
 	"shi": {
 		"name": "taçelit"
@@ -587,6 +599,9 @@
 	"vai": {
 		"name": "Vai"
 	},
+	"wae": {
+		"name": "valles"
+	},
 	"vo": {
 		"name": "volapük"
 	},
@@ -596,14 +611,8 @@
 	"vi": {
 		"name": "vyetnam"
 	},
-	"yi": {
-		"name": "Yahudi"
-	},
-	"sah": {
-		"name": "yakut"
-	},
 	"yav": {
-		"name": "Yangben"
+		"name": "yanqben"
 	},
 	"ja": {
 		"name": "yapon"
@@ -622,8 +631,5 @@
 	},
 	"zu": {
 		"name": "zulu"
-	},
-	"wae": {
-		"name": "Walser"
 	}
 }

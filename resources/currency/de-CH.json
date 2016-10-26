@@ -80,6 +80,9 @@
 	"BIF": {
 		"name": "Burundi-Franc"
 	},
+	"CVE": {
+		"name": "Cabo-Verde-Escudo"
+	},
 	"XOF": {
 		"name": "CFA-Franc (BCEAO)",
 		"symbol": "CFA"
@@ -114,7 +117,8 @@
 		"name": "Eritreischer Nakfa"
 	},
 	"EUR": {
-		"name": "Euro"
+		"name": "Euro",
+		"symbol": "€"
 	},
 	"FKP": {
 		"name": "Falkland-Pfund"
@@ -195,9 +199,6 @@
 	"CAD": {
 		"name": "Kanadischer Dollar",
 		"symbol": "CA$"
-	},
-	"CVE": {
-		"name": "Kap-Verde-Escudo"
 	},
 	"KZT": {
 		"name": "Kasachischer Tenge"
@@ -342,7 +343,7 @@
 		"name": "Paraguayischer Guaraní"
 	},
 	"PEN": {
-		"name": "Peruanischer Neuer Sol"
+		"name": "Peruanischer Sol"
 	},
 	"PHP": {
 		"name": "Philippinischer Peso"
@@ -487,7 +488,10 @@
 		"name": "Vietnamesischer Dong",
 		"symbol": "₫"
 	},
-	"BYR": {
+	"BYN": {
 		"name": "Weissrussischer Rubel"
+	},
+	"BYR": {
+		"name": "Weissrussischer Rubel (2000–2016)"
 	}
 }
