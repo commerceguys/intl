@@ -75,8 +75,11 @@ foreach ($countryData as $countryCode => $countryName) {
 
     // Determine the current currency for this country.
     if (isset($currencyData['region'][$countryCode])) {
-        $currentCurrency = key(end($currencyData['region'][$countryCode]));
-        $baseData[$countryCode]['currency_code'] = $currentCurrency;
+        $currencies = prepare_currencies($currencyData['region'][$countryCode]);
+        if ($currencies) {
+            $currentCurrency = end(array_keys($currencies));
+            $baseData[$countryCode]['currency_code'] = $currentCurrency;
+        }
     }
 }
 
@@ -173,4 +176,41 @@ function file_put_json($filename, $data)
     // Indenting with tabs instead of 4 spaces gives us 20% smaller files.
     $data = str_replace('    ', "\t", $data);
     file_put_contents($filename, $data);
+}
+
+/**
+ * Prepares the currencies for a specific country.
+ */
+function prepare_currencies($currencies) {
+    if (empty($currencies)) {
+        return [];
+    }
+    // Rekey the array by currency code.
+    foreach ($currencies as $index => $realCurrencies) {
+        foreach ($realCurrencies as $currencyCode => $currency) {
+            $currencies[$currencyCode] = $currency;
+        }
+        unset($currencies[$index]);
+    }
+    // Remove non-tender currencies.
+    $currencies = array_filter($currencies, function ($currency) {
+        return !isset($currency['_tender']) || $currency['_tender'] != 'false';
+    });
+    // Sort by _from date.
+    uasort($currencies, 'compare_from_dates');
+
+    return $currencies;
+}
+
+/**
+ * uasort callback for comparing arrays using their "_from" dates.
+ */
+function compare_from_dates($a, $b) {
+    $a = new DateTime($a['_from']);
+    $b = new DateTime($b['_from']);
+    // DateTime overloads the comparison providers.
+    if ($a == $b) {
+        return 0;
+    }
+    return ($a < $b) ? -1 : 1;
 }
