@@ -257,18 +257,14 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function parseCurrency($value, CurrencyInterface $currency)
+    public function parse($value)
     {
         $replacements = [
+            $this->numberFormat->getGroupingSeparator() => '',
             // Convert the localized symbols back to their original form.
             $this->numberFormat->getDecimalSeparator() => '.',
             $this->numberFormat->getPlusSign() => '+',
             $this->numberFormat->getMinusSign() => '-',
-
-            // Strip any grouping separators, the currency code or symbol.
-            $this->numberFormat->getGroupingSeparator() => '',
-            $currency->getCurrencyCode() => '',
-            $currency->getSymbol() => '',
 
             // Strip whitespace (spaces and non-breaking spaces).
             ' ' => '',
@@ -287,6 +283,21 @@ class NumberFormatter implements NumberFormatterInterface
         }
 
         return is_numeric($value) ? $value : false;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function parseCurrency($value, CurrencyInterface $currency)
+    {
+        $replacements = [
+            // Strip the currency code or symbol.
+            $currency->getCurrencyCode() => '',
+            $currency->getSymbol() => '',
+        ];
+        $value = strtr($value, $replacements);
+
+        return $this->parse($value);
     }
 
     /**

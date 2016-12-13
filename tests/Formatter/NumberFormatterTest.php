@@ -174,6 +174,22 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers ::parse
+     *
+     * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
+     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
+     *
+     * @dataProvider formattedValueProvider
+     */
+    public function testParse($number_format, $style, $value, $expected_value)
+    {
+        $formatter = new NumberFormatter($number_format, $style);
+
+        $parsedNumber = $formatter->parse($value);
+        $this->assertSame($expected_value, $parsedNumber);
+    }
+
+    /**
      * @covers ::parseCurrency
      *
      * @uses \CommerceGuys\Intl\Currency\Currency
@@ -333,6 +349,18 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
             [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '-50.5', '-৫০.৫০BND'],
             [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
             [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '500100.05', '৫,০০,১০০.০৫BND'],
+        ];
+    }
+
+    /**
+     * Provides values for the formatted value parser.
+     */
+    public function formattedValueProvider()
+    {
+        return [
+            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '500,100.05', '500100.05'],
+            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '-1,059.59', '-1059.59'],
+            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::DECIMAL, '৫,০০,১০০.০৫', '500100.05'],
         ];
     }
 
