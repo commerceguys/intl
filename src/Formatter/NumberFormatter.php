@@ -99,7 +99,7 @@ class NumberFormatter implements NumberFormatterInterface
     ];
 
     /**
-     * Creaes a NumberFormatter instance.
+     * Creates a NumberFormatter instance.
      *
      * @param NumberFormatInterface $numberFormat The number format.
      * @param int                   $style        The formatting style.
