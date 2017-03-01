@@ -14,6 +14,7 @@ interface NumberFormatterInterface
     const CURRENCY_ACCOUNTING = 4;
 
     /* Currency display style constants */
+    const CURRENCY_DISPLAY_NONE = 0;
     const CURRENCY_DISPLAY_SYMBOL = 1;
     const CURRENCY_DISPLAY_CODE = 2;
 
