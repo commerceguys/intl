@@ -24,7 +24,7 @@ interface CurrencyRepositoryInterface
      * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
-     * @return array An array of currencies implementing the CurrencyInterface,
+     * @return CurrencyInterface[] An array of currencies implementing the CurrencyInterface,
      *               keyed by currency code.
      */
     public function getAll($locale = null, $fallbackLocale = null);

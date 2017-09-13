@@ -24,7 +24,7 @@ interface CountryRepositoryInterface
      * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
-     * @return array An array of countries implementing the CountryInterface,
+     * @return CountryInterface[] An array of countries implementing the CountryInterface,
      *               keyed by country code.
      */
     public function getAll($locale = null, $fallbackLocale = null);
