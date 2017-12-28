@@ -20,6 +20,9 @@
 	"gsw": {
 		"name": "alemana (Suitza)"
 	},
+	"zgh": {
+		"name": "amazigera estandarra"
+	},
 	"am": {
 		"name": "amharera"
 	},
@@ -77,6 +80,9 @@
 	"be": {
 		"name": "bielorrusiera"
 	},
+	"my": {
+		"name": "birmaniera"
+	},
 	"brx": {
 		"name": "bodoera"
 	},
@@ -94,9 +100,6 @@
 	},
 	"bg": {
 		"name": "bulgariera"
-	},
-	"my": {
-		"name": "burmatarra"
 	},
 	"kea": {
 		"name": "Cabo Verdeko kreola"
@@ -119,8 +122,11 @@
 	"ebu": {
 		"name": "embua"
 	},
+	"tzm": {
+		"name": "Erdialdeko Atlaseko amazigera"
+	},
 	"rm": {
-		"name": "erromantxera"
+		"name": "erretorromaniera"
 	},
 	"ro": {
 		"name": "errumaniera"
@@ -129,7 +135,7 @@
 		"name": "errusiera"
 	},
 	"gd": {
-		"name": "eskoziako gaelikoa"
+		"name": "Eskoziako gaelikoa"
 	},
 	"sk": {
 		"name": "eslovakiera"
@@ -158,6 +164,9 @@
 	"fo": {
 		"name": "faroera"
 	},
+	"fil": {
+		"name": "filipinera"
+	},
 	"fi": {
 		"name": "finlandiera"
 	},
@@ -183,7 +192,7 @@
 		"name": "gaelikoa"
 	},
 	"cy": {
-		"name": "galesera"
+		"name": "galesa"
 	},
 	"gl": {
 		"name": "galiziera"
@@ -199,6 +208,9 @@
 	},
 	"el": {
 		"name": "greziera"
+	},
+	"kl": {
+		"name": "groenlandiera"
 	},
 	"gu": {
 		"name": "gujaratera"
@@ -254,14 +266,14 @@
 	"ja": {
 		"name": "japoniera"
 	},
+	"yo": {
+		"name": "jorubera"
+	},
 	"kab": {
 		"name": "kabilera"
 	},
 	"kkj": {
 		"name": "kakoa"
-	},
-	"kl": {
-		"name": "kalaallisutera"
 	},
 	"kln": {
 		"name": "kalenjinera"
@@ -276,16 +288,13 @@
 		"name": "Kanadako ingelesa"
 	},
 	"kn": {
-		"name": "kannadera"
-	},
-	"yue": {
-		"name": "kantonera"
-	},
-	"ks": {
-		"name": "kashmirera"
+		"name": "kannada"
 	},
 	"ca": {
 		"name": "katalana"
+	},
+	"ks": {
+		"name": "kaxmirera"
 	},
 	"kk": {
 		"name": "kazakhera"
@@ -302,6 +311,9 @@
 	"ky": {
 		"name": "kirgizera"
 	},
+	"qu": {
+		"name": "kitxua"
+	},
 	"ksh": {
 		"name": "koloniera"
 	},
@@ -309,7 +321,7 @@
 		"name": "Kongoko swahilia"
 	},
 	"kok": {
-		"name": "konkaniera"
+		"name": "konkanera"
 	},
 	"ko": {
 		"name": "koreera"
@@ -368,14 +380,14 @@
 	"kde": {
 		"name": "makondera"
 	},
-	"mg": {
-		"name": "malagasyera"
-	},
 	"ml": {
-		"name": "malayalamera"
+		"name": "malabarera"
 	},
 	"ms": {
 		"name": "malaysiera"
+	},
+	"mg": {
+		"name": "malgaxea"
 	},
 	"mt": {
 		"name": "maltera"
@@ -385,9 +397,6 @@
 	},
 	"mr": {
 		"name": "marathera"
-	},
-	"tzm": {
-		"name": "Maroko erdialdeko tamazighta"
 	},
 	"mas": {
 		"name": "masaiera"
@@ -470,9 +479,6 @@
 	"pa": {
 		"name": "punjabera"
 	},
-	"qu": {
-		"name": "quechuera"
-	},
 	"rof": {
 		"name": "romboera"
 	},
@@ -489,7 +495,7 @@
 		"name": "samburuera"
 	},
 	"sg": {
-		"name": "sangoera"
+		"name": "sangoa"
 	},
 	"sbp": {
 		"name": "sanguera"
@@ -507,7 +513,10 @@
 		"name": "shonera"
 	},
 	"ii": {
-		"name": "sichuan yia"
+		"name": "Sichuango yiera"
+	},
+	"sd": {
+		"name": "sindhia"
 	},
 	"si": {
 		"name": "sinhala"
@@ -528,19 +537,16 @@
 		"name": "Suitzako frantsesa"
 	},
 	"sw": {
-		"name": "swahili"
+		"name": "swahilia"
 	},
 	"shi": {
 		"name": "tachelhita"
 	},
-	"fil": {
-		"name": "tagaloga"
-	},
 	"dav": {
 		"name": "taitera"
 	},
-	"zgh": {
-		"name": "tamazight estandarra"
+	"tg": {
+		"name": "tajikera"
 	},
 	"ta": {
 		"name": "tamilera"
@@ -548,8 +554,11 @@
 	"twq": {
 		"name": "tasawaqa"
 	},
+	"tt": {
+		"name": "tatarera"
+	},
 	"te": {
-		"name": "teluguera"
+		"name": "telugua"
 	},
 	"teo": {
 		"name": "tesoera"
@@ -570,7 +579,7 @@
 		"name": "turkiera"
 	},
 	"tk": {
-		"name": "turkmeniera"
+		"name": "turkmenera"
 	},
 	"cs": {
 		"name": "txekiera"
@@ -617,14 +626,14 @@
 	"wae": {
 		"name": "walserera"
 	},
+	"wo": {
+		"name": "wolofera"
+	},
 	"yi": {
 		"name": "yiddisha"
 	},
-	"yo": {
-		"name": "yorubera"
-	},
 	"dje": {
-		"name": "zarmera"
+		"name": "zarma"
 	},
 	"zu": {
 		"name": "zuluera"

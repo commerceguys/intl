@@ -2,9 +2,6 @@
 	"AFN": {
 		"name": "afghanistanga afghani"
 	},
-	"ISK": {
-		"name": "aiselandga króna"
-	},
 	"ALL": {
 		"name": "albaniaga lek"
 	},
@@ -31,7 +28,7 @@
 		"name": "azerbaidzanga manat"
 	},
 	"BSD": {
-		"name": "bahamiaga dollar"
+		"name": "bahamasga dollar"
 	},
 	"BHD": {
 		"name": "bahrainga dinar"
@@ -40,13 +37,10 @@
 		"name": "bangladeshga taka"
 	},
 	"BBD": {
-		"name": "barbadiaga dollar"
+		"name": "barbadosga dollar"
 	},
 	"BYN": {
 		"name": "belarusiaga ruble"
-	},
-	"BYR": {
-		"name": "belarusiaga ruble (2000–2016)"
 	},
 	"BZD": {
 		"name": "belizega dollar"
@@ -67,11 +61,11 @@
 		"name": "botswanaga pula"
 	},
 	"BRL": {
-		"name": "Braziliaga real",
+		"name": "braziliaga real",
 		"symbol": "R$"
 	},
 	"GBP": {
-		"name": "Britishga pound",
+		"name": "britainga pound",
 		"symbol": "£"
 	},
 	"BND": {
@@ -84,25 +78,46 @@
 		"name": "burundiga franc"
 	},
 	"CAD": {
-		"name": "Canadaga dollar",
+		"name": "canadaga dollar",
 		"symbol": "CA$"
+	},
+	"KYD": {
+		"name": "cayman islandsga dollar"
 	},
 	"XPF": {
 		"name": "CFP ga franc",
 		"symbol": "CFPF"
 	},
+	"CLP": {
+		"name": "chilega peso"
+	},
 	"CNY": {
 		"name": "Chinesega yuan",
 		"symbol": "CN¥"
 	},
+	"COP": {
+		"name": "colombiaga peso"
+	},
+	"CRC": {
+		"name": "costa ricaga colón"
+	},
+	"HRK": {
+		"name": "croatiaga kuna"
+	},
+	"CUC": {
+		"name": "cubaga convertible peso"
+	},
+	"CUP": {
+		"name": "cubaga peso"
+	},
+	"CZK": {
+		"name": "czechga koruna"
+	},
 	"DKK": {
-		"name": "Denmarkga krone"
+		"name": "denmarkga krone"
 	},
 	"DOP": {
 		"name": "dominicaga peso"
-	},
-	"JMD": {
-		"name": "dzamaikaga dollar"
 	},
 	"DJF": {
 		"name": "dziboutiga franc"
@@ -112,6 +127,10 @@
 	},
 	"GEL": {
 		"name": "dzɔdziaga lari"
+	},
+	"XCD": {
+		"name": "east caribbeanga dollar",
+		"symbol": "EC$"
 	},
 	"EGP": {
 		"name": "egyptega pound"
@@ -127,7 +146,7 @@
 		"symbol": "€"
 	},
 	"FKP": {
-		"name": "falklanɖ ƒudomekpo dukɔwo ƒe ga pound"
+		"name": "falkland islands pound"
 	},
 	"FJD": {
 		"name": "fidziga dollar"
@@ -143,7 +162,7 @@
 		"symbol": "GH₵"
 	},
 	"GIP": {
-		"name": "gilbrataga pound"
+		"name": "gilbratarga pound"
 	},
 	"GNF": {
 		"name": "giniga franc"
@@ -153,10 +172,6 @@
 	},
 	"GYD": {
 		"name": "guyanaga dollar"
-	},
-	"XCD": {
-		"name": "ɣedzeƒe caribbeaga dollar",
-		"symbol": "EC$"
 	},
 	"XOF": {
 		"name": "ɣetoɖofe afrikaga CFA franc BCEAO",
@@ -179,6 +194,9 @@
 	"HUF": {
 		"name": "hungariaga forint"
 	},
+	"ISK": {
+		"name": "icelandga króna"
+	},
 	"INR": {
 		"name": "Indiaga rupee",
 		"symbol": "₹"
@@ -196,6 +214,9 @@
 		"name": "israelga yeyetɔ sheqel",
 		"symbol": "₪"
 	},
+	"JMD": {
+		"name": "jamaicaga dollar"
+	},
 	"JPY": {
 		"name": "Japanesega yen",
 		"symbol": "JP¥"
@@ -209,9 +230,6 @@
 	"QAR": {
 		"name": "katarga rial"
 	},
-	"KYD": {
-		"name": "kayman ƒudomekpoga dollar"
-	},
 	"KZT": {
 		"name": "kazakhstanga tenge"
 	},
@@ -221,26 +239,11 @@
 	"KGS": {
 		"name": "kirgistanga som"
 	},
-	"COP": {
-		"name": "kolombiaga peso"
-	},
 	"KMF": {
 		"name": "komoroga franc"
 	},
 	"CDF": {
 		"name": "kongoga franc"
-	},
-	"CRC": {
-		"name": "kosta rikaga kolón"
-	},
-	"HRK": {
-		"name": "kroatiaga kuna"
-	},
-	"CUC": {
-		"name": "kubaga convertible peso"
-	},
-	"CUP": {
-		"name": "kubaga peso"
 	},
 	"KWD": {
 		"name": "kuwaitga dinar"
@@ -263,9 +266,6 @@
 	"MOP": {
 		"name": "makanesega pataca"
 	},
-	"MKD": {
-		"name": "makedoniaga denar"
-	},
 	"MGA": {
 		"name": "malagasega ariary"
 	},
@@ -278,8 +278,11 @@
 	"MVR": {
 		"name": "maldiviaga rufiyaa"
 	},
+	"MKD": {
+		"name": "marcedoniaga denar"
+	},
 	"MXN": {
-		"name": "Mexicoga peso",
+		"name": "mexicoga peso",
 		"symbol": "MX$"
 	},
 	"MDL": {
@@ -309,21 +312,21 @@
 	"NAD": {
 		"name": "Namibian Dollar"
 	},
-	"ANG": {
-		"name": "nedalands antilleaga guilder"
-	},
 	"NPR": {
 		"name": "nepalga rupee"
+	},
+	"ANG": {
+		"name": "netherlands antilleaga guilder"
 	},
 	"NZD": {
 		"name": "new zealanɖga dollar",
 		"symbol": "NZ$"
 	},
 	"NIO": {
-		"name": "nikaraguaga córdoba"
+		"name": "nicaraguaga córdoba"
 	},
 	"NOK": {
-		"name": "Norwayga krone"
+		"name": "norwayga krone"
 	},
 	"OMR": {
 		"name": "omanga rial"
@@ -341,16 +344,16 @@
 		"name": "paraguayga guarani"
 	},
 	"PEN": {
-		"name": "peruga nuevo sol"
+		"name": "peruga sol"
 	},
 	"PLN": {
-		"name": "polanɖga zloty"
+		"name": "polandga zloty"
 	},
 	"RON": {
 		"name": "romaniaga leu"
 	},
 	"RUB": {
-		"name": "Russiaga ruble"
+		"name": "russiaga ruble"
 	},
 	"RWF": {
 		"name": "rwandaga franc"
@@ -411,10 +414,10 @@
 		"name": "swaziga lilangeni"
 	},
 	"SEK": {
-		"name": "Swedishga krone"
+		"name": "swedenga krone"
 	},
 	"CHF": {
-		"name": "Swissga franc"
+		"name": "switzerlandga franc"
 	},
 	"SYP": {
 		"name": "syriaga pound"
@@ -437,7 +440,7 @@
 		"name": "tonagaga pa’anga"
 	},
 	"TTD": {
-		"name": "trinidad kple tobagoga dollar"
+		"name": "trinidad & tobagoga dollar"
 	},
 	"TND": {
 		"name": "tunisiaga dinar"
@@ -447,12 +450,6 @@
 	},
 	"TMT": {
 		"name": "turkmenistanga manat"
-	},
-	"CZK": {
-		"name": "tsɛk repɔblikga koruna"
-	},
-	"CLP": {
-		"name": "tsilega peso"
 	},
 	"UGX": {
 		"name": "ugandaga shilling"
@@ -467,7 +464,7 @@
 		"name": "uruguayga peso"
 	},
 	"USD": {
-		"name": "US ga dollar",
+		"name": "us ga dollar",
 		"symbol": "US$"
 	},
 	"UZS": {

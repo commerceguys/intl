@@ -27,7 +27,7 @@ $ignoredLocales = [
     // Interlingua is a made up language.
     'ia',
     // Ignored by other generation scripts, very minor locales.
-    'as', 'asa', 'bem', 'chr', 'dav', 'dua', 'ebu', 'ewo', 'guz', 'gv', 'ii',
+    'as', 'asa', 'bem', 'ccp', 'chr', 'dav', 'dua', 'ebu', 'ewo', 'guz', 'gv', 'ii',
     'jgo', 'jmc', 'kam', 'kde', 'ki', 'kkj', 'kl', 'kln', 'ksb', 'kw', 'lag',
     'ln', 'mer', 'mgo', 'nd', 'nmg', 'nnh', 'nus', 'os', 'ps', 'rwk', 'sah',
     'saq', 'sbp', 'shi', 'sn', 'teo', 'vai', 'vun', 'xog', 'zgh',

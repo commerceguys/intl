@@ -1,6 +1,15 @@
 {
+	"ak": {
+		"name": "अकान"
+	},
+	"agq": {
+		"name": "अघेम"
+	},
 	"az": {
 		"name": "अज़रबैजानी"
+	},
+	"hsb": {
+		"name": "अपर सोर्बियन"
 	},
 	"af": {
 		"name": "अफ्रिकान्स"
@@ -9,31 +18,34 @@
 		"name": "अमहारिक्"
 	},
 	"ar": {
-		"name": "अरेबिक्"
+		"name": "अरेबिक"
 	},
-	"as": {
-		"name": "असामी"
+	"asa": {
+		"name": "असु"
 	},
-	"en": {
-		"name": "आंग्ल"
-	},
-	"en-AU": {
-		"name": "आंग्ल (AU)"
-	},
-	"en-CA": {
-		"name": "आंग्ल (CA)"
-	},
-	"en-GB": {
-		"name": "आंग्ल (GB)"
+	"ast": {
+		"name": "अस्टुरियान"
 	},
 	"is": {
 		"name": "आईस्लान्डिक"
 	},
 	"hy": {
-		"name": "आर्मीनियन्"
+		"name": "आर्मेनियन"
 	},
 	"sq": {
 		"name": "आल्बेनियन्"
+	},
+	"as": {
+		"name": "आसामी"
+	},
+	"en": {
+		"name": "इंग्लीश"
+	},
+	"id": {
+		"name": "इंडोनेशियन"
+	},
+	"ig": {
+		"name": "इग्बो"
 	},
 	"it": {
 		"name": "इटालियन"
@@ -41,35 +53,68 @@
 	"yi": {
 		"name": "इद्दिष्"
 	},
-	"id": {
-		"name": "इन्डोनेषियन"
-	},
 	"et": {
 		"name": "इस्टोनियन्"
 	},
 	"eo": {
 		"name": "इस्परान्टो"
 	},
+	"smn": {
+		"name": "ईनारी सामी"
+	},
 	"uz": {
 		"name": "उज़बेक"
 	},
+	"nd": {
+		"name": "उत्तर न्डेबेले"
+	},
+	"lrc": {
+		"name": "उत्तरीय लुरी"
+	},
+	"se": {
+		"name": "उत्तरीय सामी"
+	},
 	"ug": {
-		"name": "उधूर"
+		"name": "उयघूर"
 	},
 	"ur": {
 		"name": "उर्दू"
 	},
+	"wo": {
+		"name": "उलोफ़"
+	},
+	"ebu": {
+		"name": "एम्बु"
+	},
+	"ee": {
+		"name": "एव"
+	},
+	"ewo": {
+		"name": "एवोंडो"
+	},
 	"ga": {
 		"name": "ऐरिष"
+	},
+	"de-AT": {
+		"name": "ऑस्ट्रियन जर्मन"
+	},
+	"en-AU": {
+		"name": "ऑस्ट्रेलियन इंग्लीश"
 	},
 	"or": {
 		"name": "ओरिया"
 	},
 	"om": {
-		"name": "ओरोमो (अफान)"
+		"name": "ओरोमो"
 	},
 	"vo": {
 		"name": "ओलापुक"
+	},
+	"os": {
+		"name": "ओसेटिक"
+	},
+	"kam": {
+		"name": "कंबा"
 	},
 	"km": {
 		"name": "कंबोडियन"
@@ -86,20 +131,59 @@
 	"ks": {
 		"name": "कश्मीरी"
 	},
+	"sw-CD": {
+		"name": "काँगो स्वाहिली"
+	},
+	"kkj": {
+		"name": "काको"
+	},
+	"kab": {
+		"name": "काबायले"
+	},
+	"kea": {
+		"name": "काबुवर्डियनु"
+	},
+	"kl": {
+		"name": "कालाल्लिसुट"
+	},
+	"kln": {
+		"name": "कालेंजीन"
+	},
+	"ki": {
+		"name": "किकुयु"
+	},
 	"rw": {
 		"name": "किन्यार्वान्डा"
-	},
-	"rn": {
-		"name": "किरुन्दी"
 	},
 	"ky": {
 		"name": "किर्गिज़"
 	},
+	"en-CA": {
+		"name": "कॅनाडीयन इंग्लीश"
+	},
+	"fr-CA": {
+		"name": "कॅनाडीयन फ्रेन्च"
+	},
+	"tzm": {
+		"name": "केंद्रीय अटलास तामाझायट"
+	},
 	"kok": {
 		"name": "कोंकणी"
 	},
+	"khq": {
+		"name": "कोयरा छिनी"
+	},
+	"ses": {
+		"name": "कोयराबोरो सेन्नी"
+	},
 	"ko": {
 		"name": "कोरियन्"
+	},
+	"kw": {
+		"name": "कोर्निश"
+	},
+	"ksh": {
+		"name": "कोलोनियन"
 	},
 	"hr": {
 		"name": "क्रोयेषियन्"
@@ -107,8 +191,17 @@
 	"qu": {
 		"name": "क्वेच्वा"
 	},
+	"nmg": {
+		"name": "ख्वासी"
+	},
+	"lg": {
+		"name": "गांडा"
+	},
 	"gu": {
 		"name": "गुजराती"
+	},
+	"guz": {
+		"name": "गुसी"
 	},
 	"gl": {
 		"name": "गेलीशियन"
@@ -116,29 +209,29 @@
 	"el": {
 		"name": "ग्रीक्"
 	},
-	"kl": {
-		"name": "ग्रीनलान्डिक"
+	"cu": {
+		"name": "चर्च स्लेव्हीक"
+	},
+	"cgg": {
+		"name": "चिगा"
+	},
+	"ce": {
+		"name": "चिचेन"
 	},
 	"zh": {
-		"name": "चीनीस्"
+		"name": "चिनी"
 	},
-	"zh-Hans": {
-		"name": "चीनीस् (Hans)"
+	"chr": {
+		"name": "चिरोकी"
 	},
-	"zh-Hant": {
-		"name": "चीनीस् (Hant)"
+	"cs": {
+		"name": "चेक"
+	},
+	"ja": {
+		"name": "जपानी"
 	},
 	"de": {
 		"name": "जर्मन"
-	},
-	"de-AT": {
-		"name": "जर्मन (AT)"
-	},
-	"de-CH": {
-		"name": "जर्मन (CH)"
-	},
-	"ja": {
-		"name": "जापनीस्"
 	},
 	"ka": {
 		"name": "जार्जियन्"
@@ -146,20 +239,41 @@
 	"zu": {
 		"name": "जुलू"
 	},
-	"cs": {
-		"name": "ज़ेक्"
+	"dyo": {
+		"name": "जोला-फोनी"
+	},
+	"dje": {
+		"name": "झर्मा"
+	},
+	"dz": {
+		"name": "झोंग्खा"
 	},
 	"nl": {
 		"name": "डच्"
 	},
-	"nl-BE": {
-		"name": "डच् (BE)"
-	},
 	"da": {
-		"name": "डानिष"
+		"name": "डॅनिश"
+	},
+	"dua": {
+		"name": "डौल"
+	},
+	"tg": {
+		"name": "तजिक"
+	},
+	"tt": {
+		"name": "तटार"
 	},
 	"ta": {
 		"name": "तमिळ"
+	},
+	"shi": {
+		"name": "ताछेहीट"
+	},
+	"dav": {
+		"name": "तायता"
+	},
+	"twq": {
+		"name": "तासावाक"
 	},
 	"ti": {
 		"name": "तिग्रिन्या"
@@ -176,14 +290,38 @@
 	"te": {
 		"name": "तेलुगू"
 	},
+	"teo": {
+		"name": "तेसो"
+	},
 	"to": {
 		"name": "तोंगा"
 	},
 	"th": {
 		"name": "थाई"
 	},
+	"nyn": {
+		"name": "नानकोले"
+	},
+	"naq": {
+		"name": "नामा"
+	},
 	"ne": {
 		"name": "नेपाळी"
+	},
+	"nb": {
+		"name": "नोर्वेजियन बोकमाल"
+	},
+	"nn": {
+		"name": "नोर्वोजियन नायनोर्स्क"
+	},
+	"nnh": {
+		"name": "न्गेबून"
+	},
+	"jgo": {
+		"name": "न्गोंबा"
+	},
+	"nus": {
+		"name": "न्युयर"
 	},
 	"pa": {
 		"name": "पंजाबी"
@@ -191,38 +329,50 @@
 	"fa": {
 		"name": "पर्षियन्"
 	},
+	"fy": {
+		"name": "पश्चिमी फ्रिशियन"
+	},
+	"zh-Hant": {
+		"name": "पारंपारीक चिनी"
+	},
 	"ps": {
 		"name": "पाष्टो (पुष्टो)"
 	},
 	"pt": {
-		"name": "पोर्चुगीज़्"
-	},
-	"pt-PT": {
-		"name": "पोर्चुगीज़् (PT)"
+		"name": "पोर्तुगिज"
 	},
 	"pl": {
 		"name": "पोलिष"
 	},
+	"zgh": {
+		"name": "प्रमाणित मोरोक्कन तामाझायट"
+	},
+	"prg": {
+		"name": "प्रुसियन"
+	},
 	"fi": {
 		"name": "फिन्निष्"
+	},
+	"fil": {
+		"name": "फिलिपिनो"
+	},
+	"ff": {
+		"name": "फुला"
 	},
 	"fo": {
 		"name": "फेरोस्"
 	},
-	"fy": {
-		"name": "फ्रिशियन्"
+	"fur": {
+		"name": "फ्रिलियन"
 	},
 	"fr": {
 		"name": "फ्रेन्च"
 	},
-	"fr-CA": {
-		"name": "फ्रेन्च (CA)"
+	"nl-BE": {
+		"name": "फ्लेमिश"
 	},
-	"fr-CH": {
-		"name": "फ्रेन्च (CH)"
-	},
-	"bn": {
-		"name": "बंगाली"
+	"bm": {
+		"name": "बंबारा"
 	},
 	"my": {
 		"name": "बर्मीज़्"
@@ -230,20 +380,50 @@
 	"bg": {
 		"name": "बल्गेरियन"
 	},
+	"bas": {
+		"name": "बस्सा"
+	},
+	"bn": {
+		"name": "बांग्ला"
+	},
+	"ksf": {
+		"name": "बाफिया"
+	},
 	"eu": {
 		"name": "बास्क"
+	},
+	"bez": {
+		"name": "बेना"
+	},
+	"bem": {
+		"name": "बेम्बा"
 	},
 	"be": {
 		"name": "बैलोरुसियन्"
 	},
+	"brx": {
+		"name": "बोडो"
+	},
+	"bs": {
+		"name": "बोस्नियन"
+	},
+	"en-GB": {
+		"name": "ब्रिटीश इंग्लीश"
+	},
 	"br": {
 		"name": "ब्रेटन"
 	},
-	"dz": {
-		"name": "भूटानी"
-	},
 	"mn": {
 		"name": "मंगोलियन्"
+	},
+	"jmc": {
+		"name": "मचामे"
+	},
+	"mzn": {
+		"name": "मझांडेराणी"
+	},
+	"ckb": {
+		"name": "मध्य खुर्दीश"
 	},
 	"mr": {
 		"name": "मराठी"
@@ -254,35 +434,86 @@
 	"mg": {
 		"name": "मलागसी"
 	},
+	"mas": {
+		"name": "मसाई"
+	},
 	"mk": {
 		"name": "मसीडोनियन्"
 	},
 	"ml": {
 		"name": "मळियाळम"
 	},
+	"kde": {
+		"name": "माकोंडे"
+	},
+	"mgh": {
+		"name": "माखुवा-मिट्टो"
+	},
 	"mt": {
 		"name": "मालतीस्"
+	},
+	"mua": {
+		"name": "मुडांग"
+	},
+	"gv": {
+		"name": "मॅन्स"
+	},
+	"es-MX": {
+		"name": "मेक्सिकन स्पॅनिश"
+	},
+	"mgo": {
+		"name": "मेटा"
+	},
+	"mer": {
+		"name": "मेरू"
+	},
+	"mfe": {
+		"name": "मोरिसेन"
 	},
 	"ro-MD": {
 		"name": "मोल्डावियन्"
 	},
+	"yav": {
+		"name": "यांगबेन"
+	},
 	"uk": {
 		"name": "युक्रेनियन्"
+	},
+	"pt-PT": {
+		"name": "युरोपियन पोर्तुगिज"
 	},
 	"yo": {
 		"name": "यूरुबा"
 	},
+	"rwk": {
+		"name": "रवा"
+	},
 	"ru": {
-		"name": "रष्यन्"
+		"name": "रशियन"
 	},
 	"rm": {
 		"name": "रहटो-रोमान्स्"
 	},
+	"rn": {
+		"name": "रुंदी"
+	},
 	"ro": {
 		"name": "रोमानियन्"
 	},
+	"rof": {
+		"name": "रोम्बो"
+	},
+	"lb": {
+		"name": "लक्सेमबर्गीश"
+	},
+	"lag": {
+		"name": "लांगी"
+	},
 	"lo": {
-		"name": "लाओतियन्"
+		"name": "लाअो"
+	},
+	"lkt": {
+		"name": "लाकोटा"
 	},
 	"lv": {
 		"name": "लाट्वियन् (लेट्टिष्)"
@@ -293,35 +524,80 @@
 	"lt": {
 		"name": "लिथुआनियन्"
 	},
+	"luo": {
+		"name": "लुओ"
+	},
+	"lu": {
+		"name": "लुबा-काटांगा"
+	},
+	"luy": {
+		"name": "लुय"
+	},
+	"dsb": {
+		"name": "लोवर सोर्बियन"
+	},
+	"vai": {
+		"name": "वाई"
+	},
+	"wae": {
+		"name": "वाल्सर"
+	},
 	"vi": {
 		"name": "वियत्नामीज़"
+	},
+	"vun": {
+		"name": "वुंजो"
 	},
 	"cy": {
 		"name": "वेळ्ष्"
 	},
+	"ksb": {
+		"name": "शंबाला"
+	},
 	"sn": {
 		"name": "शोना"
+	},
+	"sah": {
+		"name": "सखा"
+	},
+	"sr": {
+		"name": "सर्बियन"
+	},
+	"sbp": {
+		"name": "सांगू"
 	},
 	"sg": {
 		"name": "सांग्रो"
 	},
+	"saq": {
+		"name": "सांबारु"
+	},
+	"sd": {
+		"name": "सिंधी"
+	},
+	"ii": {
+		"name": "सिच्युआन यी"
+	},
 	"si": {
 		"name": "सिन्हलीस्"
 	},
-	"sr": {
-		"name": "सेर्बियन्"
+	"seh": {
+		"name": "सेना"
+	},
+	"zh-Hans": {
+		"name": "सोंपी चिनी"
+	},
+	"xog": {
+		"name": "सोगा"
 	},
 	"so": {
-		"name": "सोमाळी"
+		"name": "सोमाली"
 	},
 	"gd": {
 		"name": "स्काटस् गेलिक्"
 	},
 	"es": {
-		"name": "स्पानिष"
-	},
-	"es-MX": {
-		"name": "स्पानिष (MX)"
+		"name": "स्पॅनिश"
 	},
 	"sk": {
 		"name": "स्लोवाक"
@@ -332,8 +608,14 @@
 	"sw": {
 		"name": "स्वाहिली"
 	},
-	"sw-CD": {
-		"name": "स्वाहिली (CD)"
+	"gsw": {
+		"name": "स्विज जर्मन"
+	},
+	"fr-CH": {
+		"name": "स्वीझ फ्रेन्च"
+	},
+	"de-CH": {
+		"name": "स्वीझ म्हान जर्मन"
 	},
 	"sv": {
 		"name": "स्वीदीष"
@@ -341,292 +623,19 @@
 	"hu": {
 		"name": "हंगेरियन्"
 	},
+	"haw": {
+		"name": "हवायियान"
+	},
 	"hi": {
 		"name": "हिन्दी"
 	},
 	"he": {
-		"name": "हेब्रु"
+		"name": "हिब्रू"
 	},
 	"ha": {
 		"name": "हौसा"
 	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "Akan"
-	},
-	"ast": {
-		"name": "Asturian"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"bs": {
-		"name": "Bosnian"
-	},
-	"yue": {
-		"name": "Cantonese"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"kw": {
-		"name": "Cornish"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fil": {
-		"name": "Filipino"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"haw": {
-		"name": "Hawaiian"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"smn": {
-		"name": "Inari Sami"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"dsb": {
-		"name": "Lower Sorbian"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "Luxembourgish"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"gv": {
-		"name": "Manx"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
 	"nds-NL": {
-		"name": "nds (NL)"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nd": {
-		"name": "North Ndebele"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"se": {
-		"name": "Northern Sami"
-	},
-	"nb": {
-		"name": "Norwegian Bokmål"
-	},
-	"nn": {
-		"name": "Norwegian Nynorsk"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"os": {
-		"name": "Ossetic"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"gsw": {
-		"name": "Swiss German"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"dje": {
-		"name": "Zarma"
+		"name": "nds (नॅदरलँड)"
 	}
 }

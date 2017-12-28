@@ -3,13 +3,13 @@
 		"name": "acerbaixano"
 	},
 	"af": {
-		"name": "africáner"
+		"name": "afrikaans"
 	},
 	"agq": {
 		"name": "aghem"
 	},
 	"ak": {
-		"name": "akán"
+		"name": "akan"
 	},
 	"sq": {
 		"name": "albanés"
@@ -30,7 +30,7 @@
 		"name": "alto sorbio"
 	},
 	"am": {
-		"name": "amárico"
+		"name": "amhárico"
 	},
 	"ar": {
 		"name": "árabe"
@@ -39,7 +39,7 @@
 		"name": "armenio"
 	},
 	"as": {
-		"name": "asamés"
+		"name": "assamés"
 	},
 	"ast": {
 		"name": "asturiano"
@@ -57,7 +57,7 @@
 		"name": "baixo saxón"
 	},
 	"dsb": {
-		"name": "baixo sorabio"
+		"name": "baixo sorbio"
 	},
 	"bm": {
 		"name": "bambaro"
@@ -92,6 +92,9 @@
 	"bg": {
 		"name": "búlgaro"
 	},
+	"kab": {
+		"name": "cabila"
+	},
 	"kea": {
 		"name": "caboverdiano"
 	},
@@ -100,9 +103,6 @@
 	},
 	"kn": {
 		"name": "canarés"
-	},
-	"yue": {
-		"name": "cantonés"
 	},
 	"kk": {
 		"name": "casaco"
@@ -117,7 +117,7 @@
 		"name": "checo"
 	},
 	"chr": {
-		"name": "cheroqui"
+		"name": "cherokee"
 	},
 	"zh": {
 		"name": "chinés"
@@ -195,22 +195,22 @@
 		"name": "finés"
 	},
 	"nl-BE": {
-		"name": "flamenco"
+		"name": "flamengo"
 	},
 	"fr": {
 		"name": "francés"
 	},
 	"fr-CA": {
-		"name": "francés canadiano"
+		"name": "francés canadense"
 	},
 	"fr-CH": {
 		"name": "francés suízo"
 	},
 	"fy": {
-		"name": "frisón"
+		"name": "frisón occidental"
 	},
 	"fur": {
-		"name": "friuliano"
+		"name": "friulano"
 	},
 	"ff": {
 		"name": "fula"
@@ -231,7 +231,7 @@
 		"name": "grego"
 	},
 	"kl": {
-		"name": "groenlandés occidental"
+		"name": "groenlandés"
 	},
 	"guz": {
 		"name": "gusii"
@@ -250,9 +250,6 @@
 	},
 	"hi": {
 		"name": "hindi"
-	},
-	"nl": {
-		"name": "holandés"
 	},
 	"hu": {
 		"name": "húngaro"
@@ -273,7 +270,7 @@
 		"name": "inglés británico"
 	},
 	"en-CA": {
-		"name": "inglés canadiano"
+		"name": "inglés canadense"
 	},
 	"ga": {
 		"name": "irlandés"
@@ -286,9 +283,6 @@
 	},
 	"dyo": {
 		"name": "jola-fonyi"
-	},
-	"kab": {
-		"name": "kabile"
 	},
 	"kkj": {
 		"name": "kako"
@@ -307,6 +301,9 @@
 	},
 	"ki": {
 		"name": "kikuyu"
+	},
+	"ky": {
+		"name": "kirguiz"
 	},
 	"ksh": {
 		"name": "kölsch"
@@ -351,7 +348,7 @@
 		"name": "Luo"
 	},
 	"lrc": {
-		"name": "luri do norte"
+		"name": "luri setentrional"
 	},
 	"lb": {
 		"name": "luxemburgués"
@@ -414,7 +411,10 @@
 		"name": "nama"
 	},
 	"nd": {
-		"name": "ndebele do norte"
+		"name": "ndebele setentrional"
+	},
+	"nl": {
+		"name": "neerlandés"
 	},
 	"ne": {
 		"name": "nepalí"
@@ -426,7 +426,7 @@
 		"name": "ngomba"
 	},
 	"nb": {
-		"name": "noruegués bokmal"
+		"name": "noruegués bokmål"
 	},
 	"nn": {
 		"name": "noruegués nynorsk"
@@ -444,13 +444,13 @@
 		"name": "oromo"
 	},
 	"os": {
-		"name": "osetio"
+		"name": "ossetio"
 	},
 	"pa": {
 		"name": "panxabiano"
 	},
 	"ps": {
-		"name": "pashtu"
+		"name": "paxto"
 	},
 	"fa": {
 		"name": "persa"
@@ -462,16 +462,13 @@
 		"name": "portugués"
 	},
 	"pt-PT": {
-		"name": "portugués europeo"
+		"name": "portugués de Portugal"
 	},
 	"prg": {
 		"name": "prusiano"
 	},
 	"qu": {
 		"name": "quechua"
-	},
-	"ky": {
-		"name": "quirguiz"
 	},
 	"rm": {
 		"name": "romanche"
@@ -498,7 +495,7 @@
 		"name": "saami de Inari"
 	},
 	"se": {
-		"name": "saami do norte"
+		"name": "saami setentrional"
 	},
 	"sah": {
 		"name": "sakha"
@@ -524,6 +521,9 @@
 	"sn": {
 		"name": "shona"
 	},
+	"sd": {
+		"name": "sindhi"
+	},
 	"xog": {
 		"name": "soga"
 	},
@@ -548,20 +548,26 @@
 	"dav": {
 		"name": "taita"
 	},
-	"zgh": {
-		"name": "tamazight de Marrocos estándar"
-	},
 	"tzm": {
-		"name": "tamazight do Marrocos Central"
+		"name": "tamazight de Marrocos central"
+	},
+	"zgh": {
+		"name": "tamazight marroquí estándar"
 	},
 	"ta": {
 		"name": "támil"
 	},
+	"tt": {
+		"name": "tártaro"
+	},
 	"twq": {
 		"name": "tasawaq"
 	},
+	"tg": {
+		"name": "taxico"
+	},
 	"te": {
-		"name": "telugú"
+		"name": "telugu"
 	},
 	"teo": {
 		"name": "teso"
@@ -573,7 +579,7 @@
 		"name": "tigriña"
 	},
 	"to": {
-		"name": "tonganés"
+		"name": "tongano"
 	},
 	"tr": {
 		"name": "turco"
@@ -607,6 +613,9 @@
 	},
 	"wae": {
 		"name": "walser"
+	},
+	"wo": {
+		"name": "wólof"
 	},
 	"ja": {
 		"name": "xaponés"

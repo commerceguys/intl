@@ -163,7 +163,7 @@
 		"name": "Forint Hungary"
 	},
 	"BIF": {
-		"name": "Franc Burundia"
+		"name": "Franc Burundi"
 	},
 	"XOF": {
 		"name": "Franc CFA BCEAO",
@@ -202,7 +202,7 @@
 		"name": "Guarani Paraguay"
 	},
 	"ANG": {
-		"name": "Guilder Antillean Netherland"
+		"name": "Guilder Antillen Belanda"
 	},
 	"UAH": {
 		"name": "Hryvnia Ukraine"
@@ -291,11 +291,11 @@
 	"BTN": {
 		"name": "Ngultrum Bhutan"
 	},
-	"PEN": {
-		"name": "Nuevo Sol Peru"
-	},
 	"MRO": {
 		"name": "Ouguiya Mauritania"
+	},
+	"TOP": {
+		"name": "Pa’anga Tonga"
 	},
 	"MOP": {
 		"name": "Pataca Macau"
@@ -352,6 +352,9 @@
 	"MXN": {
 		"name": "Peso Mexico"
 	},
+	"UYU": {
+		"name": "Peso Uruguay"
+	},
 	"BWP": {
 		"name": "Pula Botswana"
 	},
@@ -388,10 +391,7 @@
 		"name": "Riyal Saudi"
 	},
 	"BYN": {
-		"name": "Rubel Belarus"
-	},
-	"BYR": {
-		"name": "Rubel Belarus (2000–2016)"
+		"name": "Rubel Belarus baharu"
 	},
 	"RUB": {
 		"name": "Rubel Rusia"
@@ -404,7 +404,7 @@
 		"symbol": "₹"
 	},
 	"MUR": {
-		"name": "Rupee Mauritia"
+		"name": "Rupee Mauritius"
 	},
 	"NPR": {
 		"name": "Rupee Nepal"
@@ -424,9 +424,8 @@
 	"SVC": {
 		"name": "Salvadoran Colón"
 	},
-	"ILS": {
-		"name": "Sheqel Baru Israel",
-		"symbol": "₪"
+	"PEN": {
+		"name": "Sol Peru"
 	},
 	"KGS": {
 		"name": "Som Kyrgystani"
@@ -436,6 +435,10 @@
 	},
 	"TJS": {
 		"name": "Somoni Tajikistan"
+	},
+	"ILS": {
+		"name": "Syekel Baharu Israel",
+		"symbol": "₪"
 	},
 	"KES": {
 		"name": "Syiling Kenya"
@@ -458,14 +461,8 @@
 	"KZT": {
 		"name": "Tenge Kazakhstan"
 	},
-	"TOP": {
-		"name": "Tongan Paʻanga"
-	},
 	"MNT": {
 		"name": "Tugrik Mongolia"
-	},
-	"UYU": {
-		"name": "Uruguayan Peso"
 	},
 	"VUV": {
 		"name": "Vatu Vanuatu"

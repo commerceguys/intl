@@ -10,7 +10,7 @@
 		"symbol": "฿"
 	},
 	"PAB": {
-		"name": "Balboa panamenha"
+		"name": "Balboa panamenho"
 	},
 	"ETB": {
 		"name": "Birr etíope"
@@ -78,11 +78,11 @@
 	"TND": {
 		"name": "Dinar tunisiano"
 	},
+	"MAD": {
+		"name": "Dirham marroquino"
+	},
 	"AED": {
 		"name": "Dirrã dos Emirados Árabes Unidos"
-	},
-	"MAD": {
-		"name": "Dirrã marroquino"
 	},
 	"STD": {
 		"name": "Dobra de São Tomé e Príncipe"
@@ -115,7 +115,7 @@
 		"symbol": "CA$"
 	},
 	"KYD": {
-		"name": "Dólar das Ilhas Caiman"
+		"name": "Dólar das Ilhas Cayman"
 	},
 	"SBD": {
 		"name": "Dólar das Ilhas Salomão"
@@ -180,7 +180,7 @@
 		"name": "Florim das Antilhas Holandesas"
 	},
 	"HUF": {
-		"name": "Forint húngaro"
+		"name": "Florim húngaro"
 	},
 	"BIF": {
 		"name": "Franco burundiano"
@@ -198,13 +198,13 @@
 		"symbol": "CFPF"
 	},
 	"KMF": {
-		"name": "Franco comorense"
+		"name": "Franco comoriano"
 	},
 	"CDF": {
 		"name": "Franco congolês"
 	},
 	"DJF": {
-		"name": "Franco djibutiense"
+		"name": "Franco djiboutiano"
 	},
 	"GNF": {
 		"name": "Franco guineano"
@@ -238,7 +238,7 @@
 		"name": "Kuna croata"
 	},
 	"MWK": {
-		"name": "Kwacha malawiana"
+		"name": "Kwacha malauiana"
 	},
 	"ZMW": {
 		"name": "Kwacha zambiano"
@@ -270,10 +270,6 @@
 	"BGN": {
 		"name": "Lev búlgaro"
 	},
-	"GBP": {
-		"name": "Libra britânica",
-		"symbol": "£"
-	},
 	"GIP": {
 		"name": "Libra de Gibraltar"
 	},
@@ -282,6 +278,10 @@
 	},
 	"EGP": {
 		"name": "Libra egípcia"
+	},
+	"GBP": {
+		"name": "Libra esterlina",
+		"symbol": "£"
 	},
 	"LBP": {
 		"name": "Libra libanesa"
@@ -314,7 +314,7 @@
 		"name": "Manat turcomeno"
 	},
 	"BAM": {
-		"name": "Marco bósnio-herzegovino conversível"
+		"name": "Marco conversível da Bósnia e Herzegovina"
 	},
 	"MZN": {
 		"name": "Metical moçambicano"
@@ -331,9 +331,6 @@
 	"TWD": {
 		"name": "Novo dólar taiwanês",
 		"symbol": "NT$"
-	},
-	"PEN": {
-		"name": "Novo sol peruano"
 	},
 	"MRO": {
 		"name": "Ouguiya mauritana"
@@ -376,7 +373,7 @@
 		"name": "Pula botsuanesa"
 	},
 	"GTQ": {
-		"name": "Quetzal guatemalense"
+		"name": "Quetzal guatemalteco"
 	},
 	"ZAR": {
 		"name": "Rand sul-africano"
@@ -409,9 +406,6 @@
 	"BYN": {
 		"name": "Rublo bielorrusso"
 	},
-	"BYR": {
-		"name": "Rublo bielorrusso (2000–2016)"
-	},
 	"RUB": {
 		"name": "Rublo russo"
 	},
@@ -443,6 +437,9 @@
 	"ILS": {
 		"name": "Sheqel novo israelita",
 		"symbol": "₪"
+	},
+	"PEN": {
+		"name": "Sol peruano"
 	},
 	"KGS": {
 		"name": "Som quirguiz"

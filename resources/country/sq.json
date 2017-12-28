@@ -104,6 +104,9 @@
 	"TD": {
 		"name": "Çad"
 	},
+	"CZ": {
+		"name": "Çeki"
+	},
 	"DK": {
 		"name": "Danimarkë"
 	},
@@ -185,6 +188,9 @@
 	"GW": {
 		"name": "Guine-Bisau"
 	},
+	"PG": {
+		"name": "Guineja e Re-Papua"
+	},
 	"GQ": {
 		"name": "Guineja Ekuatoriale"
 	},
@@ -233,11 +239,11 @@
 	"MP": {
 		"name": "Ishujt e Marianës Veriore"
 	},
-	"VI": {
-		"name": "Ishujt e Virgjër Amerikanë"
-	},
 	"VG": {
 		"name": "Ishujt e Virgjër Britanikë"
+	},
+	"VI": {
+		"name": "Ishujt e Virgjër të SHBA-së"
 	},
 	"FK": {
 		"name": "Ishujt Falkland"
@@ -261,7 +267,7 @@
 		"name": "Ishujt Marshall"
 	},
 	"UM": {
-		"name": "Ishujt periferikë të SHBA-së"
+		"name": "Ishujt Periferikë të SHBA-së"
 	},
 	"PN": {
 		"name": "Ishujt Pitkern"
@@ -503,9 +509,6 @@
 	"PA": {
 		"name": "Panama"
 	},
-	"PG": {
-		"name": "Papua Guineja e Re"
-	},
 	"PY": {
 		"name": "Paraguai"
 	},
@@ -527,17 +530,20 @@
 	"CY": {
 		"name": "Qipro"
 	},
-	"CF": {
-		"name": "Repubika e Afrikës Qendrore"
-	},
-	"CZ": {
-		"name": "Republika Çeke"
-	},
 	"DO": {
 		"name": "Republika Dominikane"
 	},
+	"CF": {
+		"name": "Republika e Afrikës Qendrore"
+	},
 	"RE": {
 		"name": "Reunion"
+	},
+	"HK": {
+		"name": "RPA i Hong-Kongut"
+	},
+	"MO": {
+		"name": "RPA i Makaos"
 	},
 	"RW": {
 		"name": "Ruandë"
@@ -547,12 +553,6 @@
 	},
 	"RU": {
 		"name": "Rusi"
-	},
-	"HK": {
-		"name": "RVAK i Hong Kongut"
-	},
-	"MO": {
-		"name": "RVAK i Makaos"
 	},
 	"EH": {
 		"name": "Saharaja Perëndimore"
@@ -570,7 +570,7 @@
 		"name": "San-Marino"
 	},
 	"ST": {
-		"name": "Sao-Tome e Prinsipe"
+		"name": "Sao Tome dhe Principe"
 	},
 	"SC": {
 		"name": "Sejshelle"
@@ -588,7 +588,7 @@
 		"name": "Singapor"
 	},
 	"SX": {
-		"name": "Sint Marten"
+		"name": "Sint-Marten"
 	},
 	"SY": {
 		"name": "Siri"
@@ -621,7 +621,7 @@
 		"name": "Surinami"
 	},
 	"SJ": {
-		"name": "Svalbard e Jan-Majen"
+		"name": "Svalbard dhe Jan-Majen"
 	},
 	"SZ": {
 		"name": "Svazilandë"
@@ -629,23 +629,23 @@
 	"BL": {
 		"name": "Shën Bartolomeu"
 	},
-	"KN": {
-		"name": "Shën Kits dhe Nevis"
-	},
 	"PM": {
 		"name": "Shën Pier dhe Mikelon"
 	},
-	"VC": {
-		"name": "Shën Vincent dhe Grenadine"
-	},
 	"SH": {
 		"name": "Shën-Helenë"
+	},
+	"KN": {
+		"name": "Shën-Kits dhe Nevis"
 	},
 	"LC": {
 		"name": "Shën-Luçia"
 	},
 	"MF": {
 		"name": "Shën-Martin"
+	},
+	"VC": {
+		"name": "Shën-Vincent dhe Grenadine"
 	},
 	"AL": {
 		"name": "Shqipëri"
