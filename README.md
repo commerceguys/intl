@@ -160,4 +160,4 @@ the CurrencyEntityInterface so that the NumberFormatter can continue to work.
 
 Related projects
 ----------------
-[commerceguys/pricing](http://github.com/commerceguys/pricing) provides a Price object.
+[Laravel integration](https://github.com/Propaganistas/Laravel-Intl/)
