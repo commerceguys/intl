@@ -3,7 +3,7 @@ intl
 
 [![Build Status](https://travis-ci.org/commerceguys/intl.svg?branch=master)](https://travis-ci.org/commerceguys/intl)
 
-A PHP 5.4+ internationalization library, powered by CLDR data.
+A PHP 5.5+ internationalization library, powered by CLDR data.
 
 Features:
 - NumberFormatter, inspired by [intl](http://php.net/manual/en/class.numberformatter.php).
