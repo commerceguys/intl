@@ -20,14 +20,4 @@ class DummyRepository
     {
         return $this->resolveLocale($locale, $fallbackLocale);
     }
-
-    public function runResolveLocaleAlias($locale = null)
-    {
-        return $this->resolveLocaleAlias($locale);
-    }
-
-    public function runCanonicalizeLocale($locale = null)
-    {
-        return $this->canonicalizeLocale($locale);
-    }
 }

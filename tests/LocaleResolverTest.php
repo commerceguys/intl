@@ -25,7 +25,7 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
         $this->repository = new DummyRepository();
     }
 
-	/**
+    /**
      * @covers ::getDefaultLocale
      * @covers ::setDefaultLocale
      *
@@ -34,9 +34,9 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
      */
     public function testDefaultLocale()
     {
-    	$this->assertEquals('en', $this->repository->getDefaultLocale());
-    	$this->repository->setDefaultLocale('fr');
-    	$this->assertEquals('fr', $this->repository->getDefaultLocale());
+        $this->assertEquals('en', $this->repository->getDefaultLocale());
+        $this->repository->setDefaultLocale('fr');
+        $this->assertEquals('fr', $this->repository->getDefaultLocale());
     }
 
     /**
@@ -48,18 +48,13 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
      */
     public function testFallbackLocale()
     {
-    	$this->assertNull($this->repository->getFallbackLocale());
-    	$this->repository->setFallbackLocale('en');
-    	$this->assertEquals('en', $this->repository->getFallbackLocale());
+        $this->assertNull($this->repository->getFallbackLocale());
+        $this->repository->setFallbackLocale('en');
+        $this->assertEquals('en', $this->repository->getFallbackLocale());
     }
 
     /**
      * @covers ::resolveLocale
-     * @covers ::getDefaultLocale
-     * @covers ::getLocaleVariants
-     *
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocaleAlias
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::canonicalizeLocale
      */
     public function testLocaleFallback()
     {
@@ -74,34 +69,8 @@ class LocaleResolverTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ::resolveLocaleAlias
-     */
-    public function testResolveLocaleAlias()
-    {
-        $locale = $this->repository->runResolveLocaleAlias('zh-CN');
-        $this->assertEquals('zh-Hans-CN', $locale);
-        $locale = $this->repository->runResolveLocaleAlias(null);
-        $this->assertEquals(null, $locale);
-    }
-
-    /**
-     * @covers ::canonicalizeLocale
-     */
-    public function testCanonicalizeLocale()
-    {
-        $locale = $this->repository->runCanonicalizeLocale('BS_cyrl-ba');
-        $this->assertEquals('bs-Cyrl-BA', $locale);
-        $locale = $this->repository->runCanonicalizeLocale(null);
-        $this->assertEquals(null, $locale);
-    }
-
-    /**
      * @covers ::resolveLocale
-     * @covers ::getLocaleVariants
      * @expectedException \CommerceGuys\Intl\Exception\UnknownLocaleException
-     *
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::resolveLocaleAlias
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait::canonicalizeLocale
      */
     public function testInvalidLocale()
     {
