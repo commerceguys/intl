@@ -136,6 +136,11 @@ foreach ($languages as $locale => $localizedLanguages) {
     file_put_json($locale . '.json', $localizedLanguages);
 }
 
+$availableLocales = array_keys($languages);
+sort($availableLocales);
+echo count($availableLocales) . " available locales: \n";
+echo export_locales($availableLocales);
+
 /**
  * Converts the provided data into json and writes it to the disk.
  */
@@ -145,4 +150,23 @@ function file_put_json($filename, $data)
     // Indenting with tabs instead of 4 spaces gives us 20% smaller files.
     $data = str_replace('    ', "\t", $data);
     file_put_contents($filename, $data);
+}
+
+/**
+ * Exports locales.
+ */
+function export_locales($data)
+{
+    // Wrap the values in single quotes.
+    $data = array_map(function ($value) {
+        return "'" . $value . "'";
+    }, $data);
+    // Join the values with commas.
+    $data = implode(', ', $data);
+    // Prepare the output array, with indentation.
+    $export = '[' . "\n";
+    $export .= '    ' . $data . "\n";
+    $export .= "];";
+
+    return $export;
 }

@@ -61,12 +61,33 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers ::getDefaultLocale
+     * @covers ::setDefaultLocale
+     * @covers ::getFallbackLocale
+     * @covers ::setFallbackLocale
+     *
+     * @depends testConstructor
+     */
+    public function testLocale($currencyRepository)
+    {
+        $this->assertEquals('en', $currencyRepository->getDefaultLocale());
+        $currencyRepository->setDefaultLocale('fr');
+        $this->assertEquals('fr', $currencyRepository->getDefaultLocale());
+        // Revert the value for the other tests.
+        $currencyRepository->setDefaultLocale('en');
+
+        $this->assertNull($currencyRepository->getFallbackLocale());
+        $currencyRepository->setFallbackLocale('en');
+        $this->assertEquals('en', $currencyRepository->getFallbackLocale());
+    }
+
+    /**
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCurrencyFromDefinition
      *
      * @uses \CommerceGuys\Intl\Currency\Currency
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @depends testConstructor
      */
     public function testGet($currencyRepository)
@@ -85,7 +106,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      *
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @expectedException \CommerceGuys\Intl\Exception\UnknownCurrencyException
      * @depends testConstructor
      */
@@ -100,7 +121,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::createCurrencyFromDefinition
      *
      * @uses \CommerceGuys\Intl\Currency\Currency
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @depends testConstructor
      */
     public function testGetAll($currencyRepository)
@@ -116,7 +137,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::getList
      * @covers ::loadDefinitions
      *
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @depends testConstructor
      */
     public function testGetList($currencyRepository)

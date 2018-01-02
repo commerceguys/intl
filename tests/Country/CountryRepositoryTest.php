@@ -62,12 +62,33 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers ::getDefaultLocale
+     * @covers ::setDefaultLocale
+     * @covers ::getFallbackLocale
+     * @covers ::setFallbackLocale
+     *
+     * @depends testConstructor
+     */
+    public function testLocale($countryRepository)
+    {
+        $this->assertEquals('en', $countryRepository->getDefaultLocale());
+        $countryRepository->setDefaultLocale('fr');
+        $this->assertEquals('fr', $countryRepository->getDefaultLocale());
+        // Revert the value for the other tests.
+        $countryRepository->setDefaultLocale('en');
+
+        $this->assertNull($countryRepository->getFallbackLocale());
+        $countryRepository->setFallbackLocale('en');
+        $this->assertEquals('en', $countryRepository->getFallbackLocale());
+    }
+
+    /**
      * @covers ::get
      * @covers ::loadDefinitions
      * @covers ::createCountryFromDefinition
      *
      * @uses \CommerceGuys\Intl\Country\Country
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @depends testConstructor
      */
     public function testGet($countryRepository)
@@ -86,7 +107,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::get
      * @covers ::loadDefinitions
      *
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @expectedException \CommerceGuys\Intl\Exception\UnknownCountryException
      * @depends testConstructor
      */
@@ -101,7 +122,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::createCountryFromDefinition
      *
      * @uses \CommerceGuys\Intl\Country\Country
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @depends testConstructor
      */
     public function testGetAll($countryRepository)
@@ -117,7 +138,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      * @covers ::getList
      * @covers ::loadDefinitions
      *
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @depends testConstructor
      */
     public function testGetList($countryRepository)

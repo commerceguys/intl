@@ -2,7 +2,8 @@
 
 namespace CommerceGuys\Intl\Country;
 
-use CommerceGuys\Intl\LocaleResolverTrait;
+use CommerceGuys\Intl\Locale;
+use CommerceGuys\Intl\RepositoryLocaleTrait;
 use CommerceGuys\Intl\Exception\UnknownCountryException;
 
 /**
@@ -10,7 +11,14 @@ use CommerceGuys\Intl\Exception\UnknownCountryException;
  */
 class CountryRepository implements CountryRepositoryInterface
 {
-    use LocaleResolverTrait;
+    use RepositoryLocaleTrait;
+
+    /**
+     * The path where per-locale definitions are stored.
+     *
+     * @var string
+     */
+    protected $definitionPath;
 
     /**
      * Base country definitions.
@@ -30,6 +38,40 @@ class CountryRepository implements CountryRepositoryInterface
     protected $definitions = [];
 
     /**
+     * The available locales.
+     *
+     * @var array
+     */
+    protected $availableLocales = [
+        'af', 'agq', 'ak', 'am', 'ar', 'ar-LY', 'ar-SA', 'as', 'asa', 'ast',
+        'az', 'az-Cyrl', 'bas', 'be', 'bez', 'bg', 'bm', 'bn', 'bn-IN', 'br',
+        'brx', 'bs', 'bs-Cyrl', 'ca', 'ccp', 'ce', 'cgg', 'chr', 'ckb', 'cs',
+        'cy', 'da', 'dav', 'de', 'de-AT', 'de-CH', 'dje', 'dsb', 'dyo', 'dz',
+        'ebu', 'ee', 'el', 'en', 'en-GB', 'eo', 'es', 'es-AR', 'es-BO',
+        'es-BR', 'es-BZ', 'es-CL', 'es-CO', 'es-CR', 'es-CU', 'es-DO', 'es-EC',
+        'es-GT', 'es-HN', 'es-MX', 'es-NI', 'es-PA', 'es-PE', 'es-PR', 'es-PY',
+        'es-SV', 'es-US', 'es-UY', 'es-VE', 'et', 'eu', 'ewo', 'fa', 'fa-AF',
+        'ff', 'fi', 'fil', 'fo', 'fr', 'fr-BE', 'fr-CA', 'fur', 'fy', 'ga',
+        'gd', 'gl', 'gsw', 'gu', 'guz', 'ha', 'he', 'hi', 'hr', 'hsb', 'hu',
+        'hy', 'id', 'is', 'it', 'ja', 'jgo', 'jmc', 'ka', 'kab', 'kam', 'kde',
+        'kea', 'khq', 'ki', 'kk', 'kln', 'km', 'kn', 'ko', 'ko-KP', 'kok',
+        'ks', 'ksb', 'ksf', 'ksh', 'ky', 'lag', 'lb', 'lg', 'ln', 'lo', 'lt',
+        'lu', 'luo', 'luy', 'lv', 'mas', 'mer', 'mfe', 'mg', 'mgh', 'mk', 'ml',
+        'mn', 'mr', 'ms', 'mt', 'mua', 'my', 'mzn', 'naq', 'nb', 'nd', 'ne',
+        'nl', 'nmg', 'nn', 'nus', 'nyn', 'or', 'pa', 'pl', 'ps', 'pt', 'pt-AO',
+        'pt-CH', 'pt-CV', 'pt-GQ', 'pt-GW', 'pt-LU', 'pt-MO', 'pt-MZ', 'pt-PT',
+        'pt-ST', 'pt-TL', 'qu', 'rm', 'rn', 'ro', 'ro-MD', 'rof', 'ru',
+        'ru-UA', 'rwk', 'saq', 'sbp', 'sd', 'se', 'se-FI', 'seh', 'ses', 'sg',
+        'shi', 'shi-Latn', 'si', 'sk', 'sl', 'smn', 'sn', 'so', 'sq', 'sr',
+        'sr-Cyrl-BA', 'sr-Cyrl-ME', 'sr-Cyrl-XK', 'sr-Latn', 'sr-Latn-BA',
+        'sr-Latn-ME', 'sr-Latn-XK', 'sv', 'sw', 'sw-CD', 'sw-KE', 'ta', 'te',
+        'teo', 'tg', 'th', 'ti', 'tk', 'to', 'tr', 'tt', 'twq', 'tzm', 'ug',
+        'uk', 'ur', 'ur-IN', 'uz', 'uz-Cyrl', 'vai', 'vai-Latn', 'vi', 'vun',
+        'wae', 'wo', 'xog', 'yav', 'yi', 'yo', 'yo-BJ', 'zgh', 'zh', 'zh-Hant',
+        'zh-Hant-HK', 'zh-Hant-MO', 'zu',
+    ];
+
+    /**
      * Creates a CountryRepository instance.
      *
      * @param string $definitionPath The path to the country definitions.
@@ -45,7 +87,9 @@ class CountryRepository implements CountryRepositoryInterface
      */
     public function get($countryCode, $locale = null, $fallbackLocale = null)
     {
-        $locale = $this->resolveLocale($locale, $fallbackLocale);
+        $locale = $locale ?: $this->getDefaultLocale();
+        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
+        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         if (!isset($definitions[$countryCode])) {
             throw new UnknownCountryException($countryCode);
@@ -59,7 +103,9 @@ class CountryRepository implements CountryRepositoryInterface
      */
     public function getAll($locale = null, $fallbackLocale = null)
     {
-        $locale = $this->resolveLocale($locale, $fallbackLocale);
+        $locale = $locale ?: $this->getDefaultLocale();
+        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
+        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $countries = [];
         foreach ($definitions as $countryCode => $definition) {
@@ -74,7 +120,9 @@ class CountryRepository implements CountryRepositoryInterface
      */
     public function getList($locale = null, $fallbackLocale = null)
     {
-        $locale = $this->resolveLocale($locale, $fallbackLocale);
+        $locale = $locale ?: $this->getDefaultLocale();
+        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
+        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $list = [];
         foreach ($definitions as $countryCode => $definition) {

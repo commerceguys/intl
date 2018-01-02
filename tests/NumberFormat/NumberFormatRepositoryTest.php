@@ -42,11 +42,30 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers ::getDefaultLocale
+     * @covers ::setDefaultLocale
+     * @covers ::getFallbackLocale
+     * @covers ::setFallbackLocale
+     *
+     * @depends testConstructor
+     */
+    public function testLocale($numberFormatRepository)
+    {
+        $this->assertEquals('en', $numberFormatRepository->getDefaultLocale());
+        $numberFormatRepository->setDefaultLocale('fr');
+        $this->assertEquals('fr', $numberFormatRepository->getDefaultLocale());
+
+        $this->assertNull($numberFormatRepository->getFallbackLocale());
+        $numberFormatRepository->setFallbackLocale('en');
+        $this->assertEquals('en', $numberFormatRepository->getFallbackLocale());
+    }
+
+    /**
      * @covers ::get
      * @covers ::createNumberFormatFromDefinition
      *
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
-     * @uses \CommerceGuys\Intl\LocaleResolverTrait
+     * @uses \CommerceGuys\Intl\Locale
      * @depends testConstructor
      */
     public function testGet($numberFormatRepository)

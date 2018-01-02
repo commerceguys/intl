@@ -77,7 +77,8 @@ foreach ($countryData as $countryCode => $countryName) {
     if (isset($currencyData['region'][$countryCode])) {
         $currencies = prepare_currencies($currencyData['region'][$countryCode]);
         if ($currencies) {
-            $currentCurrency = end(array_keys($currencies));
+            $currencyCodes = array_keys($currencies);
+            $currentCurrency = end($currencyCodes);
             $baseData[$countryCode]['currency_code'] = $currentCurrency;
         }
     }
@@ -167,6 +168,11 @@ foreach ($countries as $locale => $localizedCountries) {
     file_put_json($locale . '.json', $localizedCountries);
 }
 
+$availableLocales = array_keys($countries);
+sort($availableLocales);
+echo count($availableLocales) . " available locales: \n";
+echo export_locales($availableLocales);
+
 /**
  * Converts the provided data into json and writes it to the disk.
  */
@@ -179,9 +185,29 @@ function file_put_json($filename, $data)
 }
 
 /**
+ * Exports locales.
+ */
+function export_locales($data)
+{
+    // Wrap the values in single quotes.
+    $data = array_map(function ($value) {
+        return "'" . $value . "'";
+    }, $data);
+    // Join the values with commas.
+    $data = implode(', ', $data);
+    // Prepare the output array, with indentation.
+    $export = '[' . "\n";
+    $export .= '    ' . $data . "\n";
+    $export .= "];";
+
+    return $export;
+}
+
+/**
  * Prepares the currencies for a specific country.
  */
-function prepare_currencies($currencies) {
+function prepare_currencies($currencies)
+{
     if (empty($currencies)) {
         return [];
     }
@@ -205,7 +231,8 @@ function prepare_currencies($currencies) {
 /**
  * uasort callback for comparing arrays using their "_from" dates.
  */
-function compare_from_dates($a, $b) {
+function compare_from_dates($a, $b)
+{
     $a = new DateTime($a['_from']);
     $b = new DateTime($b['_from']);
     // DateTime overloads the comparison providers.

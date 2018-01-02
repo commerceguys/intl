@@ -2,6 +2,8 @@
 
 namespace CommerceGuys\Intl;
 
+use CommerceGuys\Intl\Exception\UnknownLocaleException;
+
 final class Locale
 {
     /**
@@ -56,6 +58,42 @@ final class Locale
     ];
 
     /**
+     * Resolves the locale from the available locales.
+     *
+     * Takes all locale candidates for the requested locale
+     * and fallback locale, searches for them in the available
+     * locale list. The first found locale is returned.
+     * If no candidate is found in the list, an exception is thrown.
+     *
+     * @see self::getCandidates
+     *
+     * @param array  $availableLocales The available locales.
+     * @param string $locale           The requested locale (i.e. fr-FR).
+     * @param string $fallbackLocale   A fallback locale (i.e "en").
+     *
+     * @return string
+     *
+     * @throws UnknownLocaleException
+     */
+    public static function resolve(array $availableLocales, $locale, $fallbackLocale = null)
+    {
+        $locale = self::canonicalize($locale);
+        $resolvedLocale = null;
+        foreach (self::getCandidates($locale, $fallbackLocale) as $candidate) {
+            if (in_array($candidate, $availableLocales)) {
+                $resolvedLocale = $candidate;
+                break;
+            }
+        }
+        // No locale could be resolved, stop here.
+        if (!$resolvedLocale) {
+            throw new UnknownLocaleException($locale);
+        }
+
+        return $resolvedLocale;
+    }
+
+    /**
      * Canonicalizes the given locale.
      *
      * @param string $locale The locale.
@@ -108,7 +146,7 @@ final class Locale
     public static function getCandidates($locale, $fallbackLocale = null)
     {
         $candidates = [];
-        $localeParts = explode('-', self::resolveAlias($locale));
+        $localeParts = explode('-', self::replaceAlias($locale));
         while (!empty($localeParts)) {
             $candidates[] = implode('-', $localeParts);
             array_pop($localeParts);
@@ -121,15 +159,15 @@ final class Locale
     }
 
     /**
-     * Resolves known locale aliases.
+     * Replaces a locale alias with the real locale.
      *
-     * For example, "zh-CN" is resolved to "zh-Hans-CN".
+     * For example, "zh-CN" is replaced with "zh-Hans-CN".
      *
      * @param string $locale The locale.
      *
      * @return string The locale.
      */
-    public static function resolveAlias($locale)
+    public static function replaceAlias($locale)
     {
         if (!empty($locale) && isset(self::$aliases[$locale])) {
             $locale = self::$aliases[$locale];
