@@ -24,7 +24,7 @@ interface LanguageRepositoryInterface
      * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
-     * @return array An array of languages implementing the LanguageInterface,
+     * @return LanguageInterface[] An array of languages implementing the LanguageInterface,
      *               keyed by language code.
      */
     public function getAll($locale = null, $fallbackLocale = null);
