@@ -247,6 +247,8 @@ class NumberFormatter implements NumberFormatterInterface
         // Determine whether to show the currency symbol or the currency code.
         if ($this->currencyDisplay == self::CURRENCY_DISPLAY_SYMBOL) {
             $symbol = $currency->getSymbol();
+        } elseif ($this->currencyDisplay == self::CURRENCY_DISPLAY_NONE){
+            $symbol = '';
         } else {
             $symbol = $currency->getCurrencyCode();
         }
