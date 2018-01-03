@@ -314,12 +314,15 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
         $formattedNumber = $formatter->formatCurrency('100', $currency);
         $this->assertSame('$100.00', $formattedNumber);
 
-        // Currency display respects setting the value to currency code.
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
         $formatter->setCurrencyDisplay(NumberFormatter::CURRENCY_DISPLAY_CODE);
         $this->assertSame(NumberFormatter::CURRENCY_DISPLAY_CODE, $formatter->getCurrencyDisplay());
         $formattedNumber = $formatter->formatCurrency('100', $currency);
         $this->assertSame('USD100.00', $formattedNumber);
+
+        $formatter->setCurrencyDisplay(NumberFormatter::CURRENCY_DISPLAY_NONE);
+        $this->assertSame(NumberFormatter::CURRENCY_DISPLAY_NONE, $formatter->getCurrencyDisplay());
+        $formattedNumber = $formatter->formatCurrency('100', $currency);
+        $this->assertSame('100.00', $formattedNumber);
     }
 
     /**

@@ -244,12 +244,10 @@ class NumberFormatter implements NumberFormatterInterface
             $this->maximumFractionDigits = null;
         }
 
-        // Determine whether to show the currency symbol or the currency code.
+        $symbol = '';
         if ($this->currencyDisplay == self::CURRENCY_DISPLAY_SYMBOL) {
             $symbol = $currency->getSymbol();
-        } elseif ($this->currencyDisplay == self::CURRENCY_DISPLAY_NONE){
-            $symbol = '';
-        } else {
+        } elseif ($this->currencyDisplay == self::CURRENCY_DISPLAY_CODE) {
             $symbol = $currency->getCurrencyCode();
         }
 
