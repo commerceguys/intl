@@ -3,7 +3,9 @@
 /**
  * Generates the json files stored in resources/number_format.
  */
+
 set_time_limit(0);
+require '../../vendor/autoload.php';
 
 // Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
 $localeDirectory = '../assets/cldr-localenames-full/main/';
@@ -32,7 +34,7 @@ $ignoredLocales = [
     'ln', 'mer', 'mgo', 'nd', 'nmg', 'nnh', 'nus', 'os', 'ps', 'rwk', 'sah',
     'saq', 'sbp', 'shi', 'sn', 'teo', 'vai', 'vun', 'xog', 'zgh',
     // Special "grouping" locales.
-    'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
+    'root', 'en-US-POSIX',
 ];
 
 // Gather available locales.
@@ -96,11 +98,9 @@ foreach ($locales as $locale) {
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
 foreach ($numberFormats as $locale => $formatData) {
-    if (strpos($locale, '-') !== false) {
-        $localeParts = explode('-', $locale);
-        array_pop($localeParts);
-        $parentLocale = implode('-', $localeParts);
-        $diff = array_diff_assoc($formatData, $numberFormats[$parentLocale]);
+    if ($parentLocale = \CommerceGuys\Intl\Locale::getParent($locale)) {
+        $parentNumberFormat = isset($numberFormats[$parentLocale]) ? $numberFormats[$parentLocale] : [];
+        $diff = array_diff_assoc($formatData, $parentNumberFormat);
 
         if (empty($diff)) {
             // The duplicates are not removed right away because they might

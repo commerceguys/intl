@@ -6,7 +6,9 @@
  * The ISO currency list is used as a base, since it doesn't contain
  * deprecated currencies, unlike CLDR (v25 has 139 deprecated entries).
  */
+
 set_time_limit(0);
+require '../../vendor/autoload.php';
 
 // Downloaded from http://www.currency-iso.org/en/home/tables/table-a1.html
 $isoCurrencies = '../assets/c2.xml';
@@ -46,7 +48,7 @@ $ignoredLocales = [
     // Valencian differs from its parent only by a single character (è/é).
     'ca-ES-VALENCIA',
     // Special "grouping" locales.
-    'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
+    'root', 'en-US-POSIX',
 ];
 
 // Assemble the base data.
@@ -150,11 +152,9 @@ foreach ($untranslatedCounts as $locale => $count) {
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
 foreach ($currencies as $locale => $localizedCurrencies) {
-    if (strpos($locale, '-') !== false) {
-        $localeParts = explode('-', $locale);
-        array_pop($localeParts);
-        $parentLocale = implode('-', $localeParts);
-        $diff = array_udiff($localizedCurrencies, $currencies[$parentLocale], function ($first, $second) {
+    if ($parentLocale = \CommerceGuys\Intl\Locale::getParent($locale)) {
+        $parentCurrencies = isset($currencies[$parentLocale]) ? $currencies[$parentLocale] : [];
+        $diff = array_udiff($localizedCurrencies, $parentCurrencies, function ($first, $second) {
             return ($first['name'] == $second['name']) ? 0 : 1;
         });
 

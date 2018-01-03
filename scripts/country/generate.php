@@ -3,7 +3,9 @@
 /**
  * Generates the json files stored in resources/country.
  */
+
 set_time_limit(0);
+require '../../vendor/autoload.php';
 
 // Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
 $localeDirectory = '../assets/cldr-localenames-full/main/';
@@ -44,7 +46,7 @@ $ignoredLocales = [
     // Valencian differs from its parent only by a single character (è/é).
     'ca-ES-VALENCIA',
     // Special "grouping" locales.
-    'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
+    'root', 'en-US-POSIX',
 ];
 
 // Assemble the base data. Use the "en" data to get a list of countries.
@@ -138,11 +140,9 @@ foreach ($untranslatedCounts as $locale => $count) {
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
 foreach ($countries as $locale => $localizedCountries) {
-    if (strpos($locale, '-') !== false) {
-        $localeParts = explode('-', $locale);
-        array_pop($localeParts);
-        $parentLocale = implode('-', $localeParts);
-        $diff = array_udiff($localizedCountries, $countries[$parentLocale], function ($first, $second) {
+    if ($parentLocale = \CommerceGuys\Intl\Locale::getParent($locale)) {
+        $parentCountries = isset($countries[$parentLocale]) ? $countries[$parentLocale] : [];
+        $diff = array_udiff($localizedCountries, $parentCountries, function ($first, $second) {
             return ($first['name'] == $second['name']) ? 0 : 1;
         });
 

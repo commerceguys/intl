@@ -16,11 +16,13 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     public function testResolve()
     {
         $availableLocales = ['bs-Cyrl', 'bs', 'en'];
-        $locale = Locale::resolve($availableLocales,'bs-Cyrl-BA');
+        $locale = Locale::resolve($availableLocales, 'bs-Cyrl-BA');
         $this->assertEquals('bs-Cyrl', $locale);
-        $locale = Locale::resolve($availableLocales,'bs-Latn-BA');
+
+        $locale = Locale::resolve($availableLocales, 'bs-Latn-BA');
         $this->assertEquals('bs', $locale);
-        $locale = Locale::resolve($availableLocales,'de', 'en');
+
+        $locale = Locale::resolve($availableLocales, 'de', 'en');
         $this->assertEquals('en', $locale);
     }
 
@@ -31,7 +33,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     {
         $this->setExpectedException(UnknownLocaleException::class);
         $availableLocales = ['bs', 'en'];
-        $locale = Locale::resolve($availableLocales,'de');
+        $locale = Locale::resolve($availableLocales, 'de');
     }
 
     /**
@@ -51,11 +53,25 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
      */
     public function testCandidates()
     {
-        $candidates = Locale::getCandidates('bs-Cyrl-BA');
-        $this->assertEquals(['bs-Cyrl-BA', 'bs-Cyrl', 'bs'], $candidates);
+        $candidates = Locale::getCandidates('en-US');
+        $this->assertEquals(['en-US', 'en'], $candidates);
+
+        $candidates = Locale::getCandidates('en-AU');
+        $this->assertEquals(['en-AU', 'en-001', 'en'], $candidates);
 
         $candidates = Locale::getCandidates('sh');
-        $this->assertEquals(['sr-Latn', 'sr'], $candidates);
+        $this->assertEquals(['sr-Latn', 'root'], $candidates);
+    }
+
+    /**
+     * @covers ::getParent
+     */
+    public function testParent()
+    {
+        $this->assertEquals('sr-Latn', Locale::getParent('sr-Latn-RS'));
+        $this->assertEquals('root', Locale::getParent('sr-Latn'));
+        $this->assertEquals(null, Locale::getParent('root'));
+        $this->assertEquals(null, Locale::getParent('sr'));
     }
 
     /**

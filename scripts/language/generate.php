@@ -7,7 +7,9 @@
  * In order to decrease the list to a reasonable size, only the languages
  * for which CLDR itself has translations are listed.
  */
+
 set_time_limit(0);
+require '../../vendor/autoload.php';
 
 // Downloaded from https://github.com/unicode-cldr/cldr-localenames-full.git
 $localeDirectory = '../assets/cldr-localenames-full/main/';
@@ -33,7 +35,7 @@ $ignoredLocales = [
     // Valencian differs from its parent only by a single character (è/é).
     'ca-ES-VALENCIA',
     // Special "grouping" locales.
-    'root', 'en-US-POSIX', 'en-001', 'en-150', 'es-419',
+    'root', 'en-US-POSIX',
 ];
 
 $languages = [];
@@ -106,11 +108,9 @@ foreach ($untranslatedCounts as $locale => $count) {
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
 foreach ($languages as $locale => $localizedLanguages) {
-    if (strpos($locale, '-') !== false) {
-        $localeParts = explode('-', $locale);
-        array_pop($localeParts);
-        $parentLocale = implode('-', $localeParts);
-        $diff = array_udiff($localizedLanguages, $languages[$parentLocale], function ($first, $second) {
+    if ($parentLocale = \CommerceGuys\Intl\Locale::getParent($locale)) {
+        $parentLanguages = isset($languages[$parentLocale]) ? $languages[$parentLocale] : [];
+        $diff = array_udiff($localizedLanguages, $parentLanguages, function ($first, $second) {
             return ($first['name'] == $second['name']) ? 0 : 1;
         });
 
