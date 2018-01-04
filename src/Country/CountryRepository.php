@@ -93,8 +93,11 @@ class CountryRepository implements CountryRepositoryInterface
         if (!isset($definitions[$countryCode])) {
             throw new UnknownCountryException($countryCode);
         }
+        $definition = $definitions[$countryCode];
+        $definition['country_code'] = $countryCode;
+        $definition['locale'] = $locale;
 
-        return $this->createCountryFromDefinition($countryCode, $definitions[$countryCode], $locale);
+        return new Country($definition);
     }
 
     /**
@@ -108,7 +111,9 @@ class CountryRepository implements CountryRepositoryInterface
         $definitions = $this->loadDefinitions($locale);
         $countries = [];
         foreach ($definitions as $countryCode => $definition) {
-            $countries[$countryCode] = $this->createCountryFromDefinition($countryCode, $definition, $locale);
+            $definition['country_code'] = $countryCode;
+            $definition['locale'] = $locale;
+            $countries[$countryCode] = new Country($definition);
         }
 
         return $countries;
@@ -155,36 +160,5 @@ class CountryRepository implements CountryRepositoryInterface
         }
 
         return $this->definitions[$locale];
-    }
-
-    /**
-     * Creates a country object from the provided definition.
-     *
-     * @param string $countryCode The country code.
-     * @param array  $definition  The country definition.
-     * @param string $locale      The locale of the country definition.
-     *
-     * @return Country
-     */
-    protected function createCountryFromDefinition($countryCode, array $definition, $locale)
-    {
-        $country = new Country();
-        $setValues = \Closure::bind(function ($countryCode, $definition, $locale) {
-            $this->countryCode = $countryCode;
-            $this->name = $definition['name'];
-            $this->locale = $locale;
-            if (isset($definition['three_letter_code'])) {
-                $this->threeLetterCode = $definition['three_letter_code'];
-            }
-            if (isset($definition['numeric_code'])) {
-                $this->numericCode = $definition['numeric_code'];
-            }
-            if (isset($definition['currency_code'])) {
-                $this->currencyCode = $definition['currency_code'];
-            }
-        }, $country, '\CommerceGuys\Intl\Country\Country');
-        $setValues($countryCode, $definition, $locale);
-
-        return $country;
     }
 }

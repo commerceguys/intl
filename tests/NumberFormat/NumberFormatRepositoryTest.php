@@ -74,15 +74,15 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf('CommerceGuys\\Intl\\NumberFormat\\NumberFormat', $numberFormat);
         $this->assertEquals('en', $numberFormat->getLocale());
         $this->assertEquals('latn', $numberFormat->getNumberingSystem());
+        $this->assertEquals('#,##0.###', $numberFormat->getDecimalPattern());
+        $this->assertEquals('#,##0%', $numberFormat->getPercentPattern());
+        $this->assertEquals('¤#,##0.00', $numberFormat->getCurrencyPattern());
+        $this->assertEquals('¤#,##0.00;(¤#,##0.00)', $numberFormat->getAccountingCurrencyPattern());
         $this->assertEquals('.', $numberFormat->getDecimalSeparator());
         $this->assertEquals(',', $numberFormat->getGroupingSeparator());
         $this->assertEquals('+', $numberFormat->getPlusSign());
         $this->assertEquals('-', $numberFormat->getMinusSign());
         $this->assertEquals('%', $numberFormat->getPercentSign());
-        $this->assertEquals('#,##0.###', $numberFormat->getDecimalPattern());
-        $this->assertEquals('#,##0%', $numberFormat->getPercentPattern());
-        $this->assertEquals('¤#,##0.00', $numberFormat->getCurrencyPattern());
-        $this->assertEquals('¤#,##0.00;(¤#,##0.00)', $numberFormat->getAccountingCurrencyPattern());
 
         return $numberFormat;
     }

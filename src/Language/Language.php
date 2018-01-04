@@ -2,7 +2,10 @@
 
 namespace CommerceGuys\Intl\Language;
 
-class Language implements LanguageEntityInterface
+/**
+ * Represents a language.
+ */
+final class Language
 {
     /**
      * The two-letter language code.
@@ -19,11 +22,29 @@ class Language implements LanguageEntityInterface
     protected $name;
 
     /**
-     * The language locale (i.e. "en-US").
+     * The locale (i.e. "en-US").
      *
      * @var string
      */
     protected $locale;
+
+    /**
+     * Creates a new Language instance.
+     *
+     * @param array $definition The definition array.
+     */
+    public function __construct(array $definition)
+    {
+        foreach (['language_code', 'name', 'locale'] as $requiredProperty) {
+            if (empty($definition[$requiredProperty])) {
+                throw new \InvalidArgumentException(sprintf('Missing required property "%s".', $requiredProperty));
+            }
+        }
+
+        $this->languageCode = $definition['language_code'];
+        $this->name = $definition['name'];
+        $this->locale = $definition['locale'];
+    }
 
     /**
      * Returns the string representation of the Language.
@@ -32,11 +53,13 @@ class Language implements LanguageEntityInterface
      */
     public function __toString()
     {
-        return $this->getLanguageCode();
+        return $this->languageCode;
     }
 
     /**
-     * {@inheritdoc}
+     * Gets the two-letter language code.
+     *
+     * @return string
      */
     public function getLanguageCode()
     {
@@ -44,17 +67,11 @@ class Language implements LanguageEntityInterface
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function setLanguageCode($languageCode)
-    {
-        $this->languageCode = $languageCode;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
+     * Gets the language name.
+     *
+     * This value is locale specific.
+     *
+     * @return string
      */
     public function getName()
     {
@@ -62,30 +79,14 @@ class Language implements LanguageEntityInterface
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
+     * Gets the locale.
+     *
+     * The language name is locale specific.
+     *
+     * @return string
      */
     public function getLocale()
     {
         return $this->locale;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setLocale($locale)
-    {
-        $this->locale = $locale;
-
-        return $this;
     }
 }

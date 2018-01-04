@@ -2,8 +2,8 @@
 
 namespace CommerceGuys\Intl\Formatter;
 
-use CommerceGuys\Intl\Currency\CurrencyInterface;
-use CommerceGuys\Intl\NumberFormat\NumberFormatInterface;
+use CommerceGuys\Intl\Currency\Currency;
+use CommerceGuys\Intl\NumberFormat\NumberFormat;
 
 interface NumberFormatterInterface
 {
@@ -38,12 +38,12 @@ interface NumberFormatterInterface
      * This formatter doesn't do any rounding of its own, and will simply
      * truncate extra digits.
      *
-     * @param string            $value    The value to format.
-     * @param CurrencyInterface $currency The currency.
+     * @param string   $value    The value to format.
+     * @param Currency $currency The currency.
      *
      * @return string
      */
-    public function formatCurrency($value, CurrencyInterface $currency);
+    public function formatCurrency($value, Currency $currency);
 
     /**
      * Parses a number.
@@ -60,17 +60,17 @@ interface NumberFormatterInterface
     /**
      * Parses a formatted currency value.
      *
-     * @param string            $value    The value to parse.
-     * @param CurrencyInterface $currency The currency.
+     * @param string   $value    The value to parse.
+     * @param Currency $currency The currency.
      *
      * @return string|false The parsed numeric value or FALSE on error.
      */
-    public function parseCurrency($value, CurrencyInterface $currency);
+    public function parseCurrency($value, Currency $currency);
 
     /**
      * Gets the number format.
      *
-     * @return NumberFormatInterface
+     * @return NumberFormat
      */
     public function getNumberFormat();
 

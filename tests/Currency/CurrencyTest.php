@@ -10,74 +10,43 @@ use CommerceGuys\Intl\Currency\Currency;
 class CurrencyTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var Currency
+     * @covers ::__construct
      */
-    protected $currency;
-
-    public function setUp()
+    public function testMissingProperty()
     {
-        $this->currency = new Currency();
+        $this->setExpectedException('\InvalidArgumentException', 'Missing required property "currency_code".');
+        $currency = new Currency([]);
     }
 
     /**
-     * @covers ::getCurrencyCode
-     * @covers ::setCurrencyCode
+     * @covers ::__construct
      * @covers ::__toString
-     */
-    public function testCurrencyCode()
-    {
-        $this->currency->setCurrencyCode('USD');
-        $this->assertEquals('USD', $this->currency->getCurrencyCode());
-        $this->assertEquals('USD', (string) $this->currency);
-    }
-
-    /**
+     * @covers ::getCurrencyCode
      * @covers ::getName
-     * @covers ::setName
-     */
-    public function testName()
-    {
-        $this->currency->setName('US Dollar');
-        $this->assertEquals('US Dollar', $this->currency->getName());
-    }
-
-    /**
      * @covers ::getNumericCode
-     * @covers ::setNumericCode
-     */
-    public function testNumericCode()
-    {
-        $this->currency->setNumericCode('840');
-        $this->assertEquals('840', $this->currency->getNumericCode());
-    }
-
-    /**
-     * @covers ::getFractionDigits
-     * @covers ::setFractionDigits
-     */
-    public function testFractionDigits()
-    {
-        $this->currency->setFractionDigits('2');
-        $this->assertEquals('2', $this->currency->getFractionDigits());
-    }
-
-    /**
      * @covers ::getSymbol
-     * @covers ::setSymbol
-     */
-    public function testSymbol()
-    {
-        $this->currency->setSymbol('$');
-        $this->assertEquals('$', $this->currency->getSymbol());
-    }
-
-    /**
+     * @covers ::getFractionDigits
      * @covers ::getLocale
-     * @covers ::setLocale
      */
-    public function testLocale()
+    public function testValid()
     {
-        $this->currency->setLocale('en');
-        $this->assertEquals('en', $this->currency->getLocale());
+        $definition = [
+            'currency_code' => 'USD',
+            'name' => 'dollar des États-Unis',
+            'numeric_code' => '840',
+            'symbol' => '$US',
+            // Dummy value, intentionally different from the default.
+            'fraction_digits' => 3,
+            'locale' => 'fr',
+        ];
+        $currency = new Currency($definition);
+
+        $this->assertEquals($definition['currency_code'], $currency->__toString());
+        $this->assertEquals($definition['currency_code'], $currency->getCurrencyCode());
+        $this->assertEquals($definition['name'], $currency->getName());
+        $this->assertEquals($definition['numeric_code'], $currency->getNumericCode());
+        $this->assertEquals($definition['symbol'], $currency->getSymbol());
+        $this->assertEquals($definition['fraction_digits'], $currency->getFractionDigits());
+        $this->assertEquals($definition['locale'], $currency->getLocale());
     }
 }

@@ -84,8 +84,11 @@ class LanguageRepository implements LanguageRepositoryInterface
         if (!isset($definitions[$languageCode])) {
             throw new UnknownLanguageException($languageCode);
         }
+        $definition = $definitions[$languageCode];
+        $definition['language_code'] = $languageCode;
+        $definition['locale'] = $locale;
 
-        return $this->createLanguageFromDefinition($languageCode, $definitions[$languageCode], $locale);
+        return new Language($definition);
     }
 
     /**
@@ -99,7 +102,9 @@ class LanguageRepository implements LanguageRepositoryInterface
         $definitions = $this->loadDefinitions($locale);
         $languages = [];
         foreach ($definitions as $languageCode => $definition) {
-            $languages[$languageCode] = $this->createLanguageFromDefinition($languageCode, $definition, $locale);
+            $definition['language_code'] = $languageCode;
+            $definition['locale'] = $locale;
+            $languages[$languageCode] = new Language($definition);
         }
 
         return $languages;
@@ -137,27 +142,5 @@ class LanguageRepository implements LanguageRepositoryInterface
         }
 
         return $this->definitions[$locale];
-    }
-
-    /**
-     * Creates a language object from the provided definition.
-     *
-     * @param string $languageCode The language code.
-     * @param array  $definition   The language definition.
-     * @param string $locale       The locale of the language definition.
-     *
-     * @return Language
-     */
-    protected function createLanguageFromDefinition($languageCode, array $definition, $locale)
-    {
-        $language = new Language();
-        $setValues = \Closure::bind(function ($languageCode, $definition, $locale) {
-            $this->languageCode = $languageCode;
-            $this->name = $definition['name'];
-            $this->locale = $locale;
-        }, $language, '\CommerceGuys\Intl\Language\Language');
-        $setValues($languageCode, $definition, $locale);
-
-        return $language;
     }
 }

@@ -8,34 +8,33 @@ namespace CommerceGuys\Intl\Country;
 interface CountryRepositoryInterface
 {
     /**
-     * Returns a country instance matching the provided country code.
+     * Gets a country matching the provided country code.
      *
      * @param string $countryCode    The country code.
      * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
-     * @return CountryInterface
+     * @return Country
      */
     public function get($countryCode, $locale = null, $fallbackLocale = null);
 
     /**
-     * Returns all country instances.
+     * Gets all countries.
      *
      * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
-     * @return CountryInterface[] An array of countries implementing the CountryInterface,
-     *               keyed by country code.
+     * @return Country[] An array of countries, keyed by country code.
      */
     public function getAll($locale = null, $fallbackLocale = null);
 
     /**
-     * Returns a list of countries.
+     * Gets a list of countries.
      *
      * @param string $locale         The locale (i.e. fr-FR).
      * @param string $fallbackLocale A fallback locale (i.e "en").
      *
-     * @return array An array of country names, keyed by country code.
+     * @return string[] An array of country names, keyed by country code.
      */
     public function getList($locale = null, $fallbackLocale = null);
 }

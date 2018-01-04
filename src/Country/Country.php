@@ -2,7 +2,10 @@
 
 namespace CommerceGuys\Intl\Country;
 
-class Country implements CountryEntityInterface
+/**
+ * Represents a country.
+ */
+final class Country
 {
     /**
      * The two-letter country code.
@@ -33,33 +36,60 @@ class Country implements CountryEntityInterface
     protected $numericCode;
 
     /**
-     * The country currency code.
+     * The currency code.
      *
      * @var string
      */
     protected $currencyCode;
 
     /**
-     * The country locale (i.e. "en_US").
-     *
-     * The country name is locale specific.
+     * The locale (i.e. "en_US").
      *
      * @var string
      */
     protected $locale;
 
     /**
-     * Returns the string representation of the Country.
+     * Creates a new Country instance.
+     *
+     * @param array $definition The definition array.
+     */
+    public function __construct(array $definition)
+    {
+        foreach (['country_code', 'name', 'locale'] as $requiredProperty) {
+            if (empty($definition[$requiredProperty])) {
+                throw new \InvalidArgumentException(sprintf('Missing required property "%s".', $requiredProperty));
+            }
+        }
+
+        $this->countryCode = $definition['country_code'];
+        $this->name = $definition['name'];
+        if (isset($definition['three_letter_code'])) {
+            $this->threeLetterCode = $definition['three_letter_code'];
+        }
+        if (isset($definition['numeric_code'])) {
+            $this->numericCode = $definition['numeric_code'];
+        }
+        if (isset($definition['currency_code'])) {
+            $this->currencyCode = $definition['currency_code'];
+        }
+        $this->locale = $definition['locale'];
+    }
+
+    /**
+     * Gets the string representation of the Country.
      *
      * @return string
      */
     public function __toString()
     {
-        return $this->getCountryCode();
+        return $this->countryCode;
     }
 
     /**
-     * {@inheritdoc}
+     * Gets the two-letter country code.
+     *
+     * @return string
      */
     public function getCountryCode()
     {
@@ -67,17 +97,11 @@ class Country implements CountryEntityInterface
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function setCountryCode($countryCode)
-    {
-        $this->countryCode = $countryCode;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
+     * Gets the country name.
+     *
+     * This value is locale specific.
+     *
+     * @return string
      */
     public function getName()
     {
@@ -85,17 +109,14 @@ class Country implements CountryEntityInterface
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
+     * Gets the three-letter country code.
+     *
+     * Note that not every country has a three-letter code.
+     * CLDR lists "Canary Islands" (IC) and "Ceuta and Melilla" (EA)
+     * as separate countries, even though they are formally a part of Spain
+     * and have no three-letter or numeric ISO codes.
+     *
+     * @return string|null
      */
     public function getThreeLetterCode()
     {
@@ -103,17 +124,19 @@ class Country implements CountryEntityInterface
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function setThreeLetterCode($threeLetterCode)
-    {
-        $this->threeLetterCode = $threeLetterCode;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
+     * Gets the numeric country code.
+     *
+     * The numeric code has three digits, and the first one can be a zero,
+     * hence the need to pass it around as a string.
+     *
+     * Note that not every country has a numeric code.
+     * CLDR lists "Canary Islands" (IC) and "Ceuta and Melilla" (EA)
+     * as separate countries, even though they are formally a part of Spain
+     * and have no three-letter or numeric ISO codes.
+     * "Ascension Island" (AE) also has no numeric code, even though it has a
+     * three-letter code.
+     *
+     * @return string|null
      */
     public function getNumericCode()
     {
@@ -121,17 +144,11 @@ class Country implements CountryEntityInterface
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function setNumericCode($numericCode)
-    {
-        $this->numericCode = $numericCode;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
+     * Gets the currency code.
+     *
+     * Represents the default currency used in the country, if known.
+     *
+     * @return string|null
      */
     public function getCurrencyCode()
     {
@@ -139,30 +156,14 @@ class Country implements CountryEntityInterface
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function setCurrencyCode($currencyCode)
-    {
-        $this->currencyCode = $currencyCode;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
+     * Gets the locale.
+     *
+     * The country name is locale specific.
+     *
+     * @return string
      */
     public function getLocale()
     {
         return $this->locale;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setLocale($locale)
-    {
-        $this->locale = $locale;
-
-        return $this;
     }
 }

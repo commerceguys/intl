@@ -2,9 +2,9 @@
 
 namespace CommerceGuys\Intl\Formatter;
 
-use CommerceGuys\Intl\Currency\CurrencyInterface;
+use CommerceGuys\Intl\Currency\Currency;
 use CommerceGuys\Intl\Exception\InvalidArgumentException;
-use CommerceGuys\Intl\NumberFormat\NumberFormatInterface;
+use CommerceGuys\Intl\NumberFormat\NumberFormat;
 
 /**
  * Formats numbers using locale-specific patterns.
@@ -14,7 +14,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * The number format.
      *
-     * @var NumberFormatInterface
+     * @var NumberFormat
      */
     protected $numberFormat;
 
@@ -80,19 +80,19 @@ class NumberFormatter implements NumberFormatterInterface
      * @var array
      */
     protected $digits = [
-        NumberFormatInterface::NUMBERING_SYSTEM_ARABIC => [
+        NumberFormat::NUMBERING_SYSTEM_ARABIC => [
             0 => '٠', 1 => '١', 2 => '٢', 3 => '٣', 4 => '٤',
             5 => '٥', 6 => '٦', 7 => '٧', 8 => '٨', 9 => '٩',
         ],
-        NumberFormatInterface::NUMBERING_SYSTEM_ARABIC_EXTENDED => [
+        NumberFormat::NUMBERING_SYSTEM_ARABIC_EXTENDED => [
             0 => '۰', 1 => '۱', 2 => '۲', 3 => '۳', 4 => '۴',
             5 => '۵', 6 => '۶', 7 => '۷', 8 => '۸', 9 => '۹',
         ],
-        NumberFormatInterface::NUMBERING_SYSTEM_BENGALI => [
+        NumberFormat::NUMBERING_SYSTEM_BENGALI => [
             0 => '০', 1 => '১', 2 => '২', 3 => '৩', 4 => '৪',
             5 => '৫', 6 => '৬', 7 => '৭', 8 => '৮', 9 => '৯',
         ],
-        NumberFormatInterface::NUMBERING_SYSTEM_DEVANAGARI => [
+        NumberFormat::NUMBERING_SYSTEM_DEVANAGARI => [
             0 => '०', 1 => '१', 2 => '२', 3 => '३', 4 => '४',
             5 => '५', 6 => '६', 7 => '७', 8 => '८', 9 => '९',
         ],
@@ -101,13 +101,13 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * Creates a NumberFormatter instance.
      *
-     * @param NumberFormatInterface $numberFormat The number format.
+     * @param NumberFormat $numberFormat The number format.
      * @param int                   $style        The formatting style.
      *
      * @throws \InvalidArgumentException
      * @throws \RuntimeException
      */
-    public function __construct(NumberFormatInterface $numberFormat, $style = self::DECIMAL)
+    public function __construct(NumberFormat $numberFormat, $style = self::DECIMAL)
     {
         if (!extension_loaded('bcmath')) {
             throw new \RuntimeException('The bcmath extension is required by NumberFormatter.');
@@ -219,7 +219,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function formatCurrency($value, CurrencyInterface $currency)
+    public function formatCurrency($value, Currency $currency)
     {
         // Use the currency defaults if the values weren't set by the caller.
         $resetMinimumFractionDigits = $resetMaximumFractionDigits = false;
@@ -288,7 +288,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function parseCurrency($value, CurrencyInterface $currency)
+    public function parseCurrency($value, Currency $currency)
     {
         $replacements = [
             // Strip the currency code or symbol.

@@ -10,44 +10,33 @@ use CommerceGuys\Intl\Language\Language;
 class LanguageTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var Language
+     * @covers ::__construct
      */
-    protected $language;
-
-    public function setUp()
+    public function testMissingProperty()
     {
-        $this->language = new Language();
+        $this->setExpectedException('\InvalidArgumentException', 'Missing required property "language_code".');
+        $language = new Language([]);
     }
 
     /**
-     * @covers ::getLanguageCode
-     * @covers ::setLanguageCode
+     * @covers ::__construct
      * @covers ::__toString
-     */
-    public function testLanguageCode()
-    {
-        $this->language->setLanguageCode('en');
-        $this->assertEquals('en', $this->language->getLanguageCode());
-        $this->assertEquals('en', (string) $this->language);
-    }
-
-    /**
+     * @covers ::getLanguageCode
      * @covers ::getName
-     * @covers ::setName
-     */
-    public function testName()
-    {
-        $this->language->setName('English');
-        $this->assertEquals('English', $this->language->getName());
-    }
-
-    /**
      * @covers ::getLocale
-     * @covers ::setLocale
      */
-    public function testLocale()
+    public function testValid()
     {
-        $this->language->setLocale('en');
-        $this->assertEquals('en', $this->language->getLocale());
+        $definition = [
+            'language_code' => 'fr',
+            'name' => 'French',
+            'locale' => 'en-US',
+        ];
+        $language = new Language($definition);
+
+        $this->assertEquals($definition['language_code'], $language->__toString());
+        $this->assertEquals($definition['language_code'], $language->getLanguageCode());
+        $this->assertEquals($definition['name'], $language->getName());
+        $this->assertEquals($definition['locale'], $language->getLocale());
     }
 }

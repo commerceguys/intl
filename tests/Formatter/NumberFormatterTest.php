@@ -15,14 +15,16 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      * Prepare two number formats.
      */
     protected $numberFormats = [
-        'latn' => [
+        'en' => [
+            'locale' => 'en',
             'numbering_system' => 'latn',
             'decimal_pattern' => '#,##0.###',
             'percent_pattern' => '#,##0%',
             'currency_pattern' => '¤#,##0.00',
             'accounting_currency_pattern' => '¤#,##0.00;(¤#,##0.00)',
         ],
-        'beng' => [
+        'bn' => [
+            'locale' => 'bn',
             'numbering_system' => 'beng',
             'decimal_pattern' => '#,##,##0.###',
             'percent_pattern' => '#,##,##0%',
@@ -36,16 +38,18 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     protected $currencies = [
         'USD' => [
-            'code' => 'USD',
+            'currency_code' => 'USD',
             'name' => 'US Dollar',
             'numeric_code' => '840',
             'symbol' => '$',
+            'locale' => 'en',
         ],
         'BND' => [
-            'code' => 'BND',
+            'currency_code' => 'BND',
             'name' => 'dollar Brunei',
             'numeric_code' => '096',
             'symbol' => 'BND',
+            'locale' => 'bn',
         ],
     ];
 
@@ -57,7 +61,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstructor()
     {
-        $numberFormat = new NumberFormat();
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
         $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
         $this->assertSame($numberFormat, $formatter->getNumberFormat());
     }
@@ -72,7 +76,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstructorWithInvalidStyle()
     {
-        $numberFormat = new NumberFormat();
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
         new NumberFormatter($numberFormat, 'foo');
     }
 
@@ -106,7 +110,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormatFractionDigits()
     {
-        $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
 
         $formatter = new NumberFormatter($numberFormat);
         $formatter->setMinimumFractionDigits(2);
@@ -148,7 +152,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormatOnlyAllowsNumbers()
     {
-        $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
         $formatter = new NumberFormatter($numberFormat);
         $formatter->format('a12.34');
     }
@@ -214,7 +218,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetNumberFormat()
     {
-        $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
         $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
         $this->assertSame($numberFormat, $formatter->getNumberFormat());
     }
@@ -227,7 +231,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testMinimumFractionDigits()
     {
-        $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
 
         // Defaults to 0 for decimal and percentage formats.
         $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
@@ -250,7 +254,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testMaximumFractionDigits()
     {
-        $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
 
         // Defaults to 3 for decimal and percentage formats.
         $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
@@ -277,7 +281,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testGroupingUsed()
     {
-        $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
 
         // The formatter groups correctly.
         $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
@@ -305,8 +309,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testCurrencyDisplay()
     {
-        $numberFormat = $this->createNumberFormat($this->numberFormats['latn']);
-        $currency = $this->createCurrency($this->currencies['USD']);
+        $numberFormat = new NumberFormat($this->numberFormats['en']);
+        $currency = new Currency($this->currencies['USD']);
 
         // Currency display defaults to symbol.
         $formatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
@@ -331,12 +335,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function numberValueProvider()
     {
         return [
-            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '-50.5', '-50.5'],
-            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::PERCENT, '50.5', '50.5%'],
-            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '5000000.5', '5,000,000.5'],
-            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::DECIMAL, '-50.5', '-৫০.৫'],
-            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::PERCENT, '50.5', '৫০.৫%'],
-            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::DECIMAL, '5000000.5', '৫০,০০,০০০.৫'],
+            [new NumberFormat($this->numberFormats['en']), NumberFormatter::DECIMAL, '-50.5', '-50.5'],
+            [new NumberFormat($this->numberFormats['en']), NumberFormatter::PERCENT, '50.5', '50.5%'],
+            [new NumberFormat($this->numberFormats['en']), NumberFormatter::DECIMAL, '5000000.5', '5,000,000.5'],
+            [new NumberFormat($this->numberFormats['bn']), NumberFormatter::DECIMAL, '-50.5', '-৫০.৫'],
+            [new NumberFormat($this->numberFormats['bn']), NumberFormatter::PERCENT, '50.5', '৫০.৫%'],
+            [new NumberFormat($this->numberFormats['bn']), NumberFormatter::DECIMAL, '5000000.5', '৫০,০০,০০০.৫'],
         ];
     }
 
@@ -346,12 +350,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function currencyValueProvider()
     {
         return [
-            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '-5.05', '-$5.05'],
-            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '-5.05', '($5.05)'],
-            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '500100.05', '$500,100.05'],
-            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '-50.5', '-৫০.৫০BND'],
-            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
-            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '500100.05', '৫,০০,১০০.০৫BND'],
+            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '-5.05', '-$5.05'],
+            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '-5.05', '($5.05)'],
+            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '500100.05', '$500,100.05'],
+            [new NumberFormat($this->numberFormats['bn']), new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '-50.5', '-৫০.৫০BND'],
+            [new NumberFormat($this->numberFormats['bn']), new Currency($this->currencies['BND']), NumberFormatter::CURRENCY_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
+            [new NumberFormat($this->numberFormats['bn']), new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '500100.05', '৫,০০,১০০.০৫BND'],
         ];
     }
 
@@ -361,9 +365,9 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function formattedValueProvider()
     {
         return [
-            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '500,100.05', '500100.05'],
-            [$this->createNumberFormat($this->numberFormats['latn']), NumberFormatter::DECIMAL, '-1,059.59', '-1059.59'],
-            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), NumberFormatter::DECIMAL, '৫,০০,১০০.০৫', '500100.05'],
+            [new NumberFormat($this->numberFormats['en']), NumberFormatter::DECIMAL, '500,100.05', '500100.05'],
+            [new NumberFormat($this->numberFormats['en']), NumberFormatter::DECIMAL, '-1,059.59', '-1059.59'],
+            [new NumberFormat($this->numberFormats['bn']), NumberFormatter::DECIMAL, '৫,০০,১০০.০৫', '500100.05'],
         ];
     }
 
@@ -373,61 +377,10 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function formattedCurrencyProvider()
     {
         return [
-            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '$500,100.05', '500100.05'],
-            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY, '-$1,059.59', '-1059.59'],
-            [$this->createNumberFormat($this->numberFormats['latn']), $this->createCurrency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '($1,059.59)', '-1059.59'],
-            [$this->createNumberFormat($this->numberFormats['beng'], 'bn'), $this->createCurrency($this->currencies['BND'], 'bn'), NumberFormatter::CURRENCY, '৫,০০,১০০.০৫BND', '500100.05'],
+            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '$500,100.05', '500100.05'],
+            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '-$1,059.59', '-1059.59'],
+            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '($1,059.59)', '-1059.59'],
+            [new NumberFormat($this->numberFormats['bn']), new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '৫,০০,১০০.০৫BND', '500100.05'],
         ];
-    }
-
-    /**
-     * Helper for initiating a new NumberFormat object.
-     */
-    protected function createNumberFormat(array $definition, $locale = 'en')
-    {
-        $default = [
-            'decimal_separator' => '.',
-            'grouping_separator' => ',',
-            'plus_sign' => '+',
-            'minus_sign' => '-',
-            'percent_sign' => '%',
-        ];
-        $format = array_merge($default, $definition);
-
-        $numberFormat = new NumberFormat();
-        $numberFormat->setLocale($locale);
-        $numberFormat->setNumberingSystem($format['numbering_system']);
-        $numberFormat->setDecimalSeparator($format['decimal_separator']);
-        $numberFormat->setGroupingSeparator($format['grouping_separator']);
-        $numberFormat->setPlusSign($format['plus_sign']);
-        $numberFormat->setMinusSign($format['minus_sign']);
-        $numberFormat->setPercentSign($format['percent_sign']);
-        $numberFormat->setDecimalPattern($format['decimal_pattern']);
-        $numberFormat->setPercentPattern($format['percent_pattern']);
-        $numberFormat->setCurrencyPattern($format['currency_pattern']);
-        $numberFormat->setAccountingCurrencyPattern($format['accounting_currency_pattern']);
-
-        return $numberFormat;
-    }
-
-    /**
-     * Helper for initiating a new Currency object.
-     */
-    protected function createCurrency(array $definition, $locale = 'en')
-    {
-        $default = [
-            'fraction_digits' => 2,
-        ];
-        $format = array_merge($default, $definition);
-
-        $currency = new Currency();
-        $currency->setCurrencyCode($format['code']);
-        $currency->setName($format['name']);
-        $currency->setNumericCode($format['numeric_code']);
-        $currency->setFractionDigits($format['fraction_digits']);
-        $currency->setSymbol($format['symbol']);
-        $currency->setLocale($locale);
-
-        return $currency;
     }
 }
