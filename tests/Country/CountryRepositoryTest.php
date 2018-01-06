@@ -11,24 +11,6 @@ use org\bovigo\vfs\vfsStream;
 class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Base country definitions.
-     *
-     * @var array
-     */
-    protected $baseDefinitions = [
-        'FR' => [
-            'three_letter_code' => 'FRA',
-            'numeric_code' => '250',
-            'currency_code' => 'EUR',
-        ],
-        'US' => [
-            'three_letter_code' => 'USA',
-            'numeric_code' => '840',
-            'currency_code' => 'USD',
-        ],
-    ];
-
-    /**
      * English country definitions.
      *
      * @var array
@@ -49,7 +31,6 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         // Mock the existence of JSON definitions on the filesystem.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('country/base.json')->at($root)->setContent(json_encode($this->baseDefinitions));
         vfsStream::newFile('country/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
 
         // Instantiate the country repository and confirm that the definition path
@@ -113,7 +94,7 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetInvalidCountry($countryRepository)
     {
-        $countryRepository->get('DE');
+        $countryRepository->get('INVALID');
     }
 
     /**

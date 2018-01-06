@@ -11,21 +11,6 @@ use org\bovigo\vfs\vfsStream;
 class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Base currency definitions.
-     *
-     * @var array
-     */
-    protected $baseDefinitions = [
-        'USD' => [
-            'numeric_code' => '840',
-        ],
-        'EUR' => [
-            'numeric_code' => '840',
-            'fraction_digits' => '2',
-        ],
-    ];
-
-    /**
      * English currency definitions.
      *
      * @var array
@@ -48,7 +33,6 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         // Mock the existence of JSON definitions on the filesystem.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('currency/base.json')->at($root)->setContent(json_encode($this->baseDefinitions));
         vfsStream::newFile('currency/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
 
         // Instantiate the currency repository and confirm that the definition path
@@ -112,7 +96,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetInvalidCurrency($currencyRepository)
     {
-        $currencyRepository->get('RSD');
+        $currencyRepository->get('INVALID');
     }
 
     /**

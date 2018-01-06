@@ -77,20 +77,15 @@ foreach ($isoData->CcyTbl->CcyNtry as $currency) {
         'numeric_code' => $currency['CcyNbr'],
     ];
     // Take the fraction digits from CLDR, not ISO, because it reflects real
-    // life usage more closely. If the digits aren't set, that means that the
-    // default value (2) should be used.
+    // life usage more closely.
     if (isset($currencyData[$currencyCode]['_digits'])) {
-        $fractionDigits = $currencyData[$currencyCode]['_digits'];
-        if ($fractionDigits != 2) {
-            $baseData[$currencyCode]['fraction_digits'] = $fractionDigits;
-        }
+        $baseData[$currencyCode]['fraction_digits'] = $currencyData[$currencyCode]['_digits'];
+    } else {
+        $baseData[$currencyCode]['fraction_digits'] = $currencyData['DEFAULT']['_digits'];
     }
 }
 
-// Write out base.json.
 ksort($baseData);
-file_put_json('base.json', $baseData);
-
 // Gather available locales.
 $locales = [];
 if ($handle = opendir($localeDirectory)) {
@@ -180,7 +175,12 @@ foreach ($currencies as $locale => $localizedCurrencies) {
     file_put_json($locale . '.json', $localizedCurrencies);
 }
 
+// Print the base definitions for CurrencyRepository.
+echo "Base data: \n";
+echo export_base_data($baseData);
+echo "\n\n";
 
+// Print the locales for CurrencyRepository.
 $availableLocales = array_keys($currencies);
 sort($availableLocales);
 echo count($availableLocales) . " available locales: \n";
@@ -195,6 +195,22 @@ function file_put_json($filename, $data)
     // Indenting with tabs instead of 4 spaces gives us 20% smaller files.
     $data = str_replace('    ', "\t", $data);
     file_put_contents($filename, $data);
+}
+
+/**
+ * Exports base data.
+ */
+function export_base_data($baseData)
+{
+    $export = '[' . "\n";
+    foreach ($baseData as $currencyCode => $currencyData) {
+        $export .= "    '" . $currencyCode . "' => ['";
+        $export .= $currencyData['numeric_code'] . "', " . $currencyData['fraction_digits'];
+        $export .= "],\n";
+    }
+    $export .= "];";
+
+    return $export;
 }
 
 /**

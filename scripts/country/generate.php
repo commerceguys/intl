@@ -86,10 +86,7 @@ foreach ($countryData as $countryCode => $countryName) {
     }
 }
 
-// Write out base.json.
 ksort($baseData);
-file_put_json('base.json', $baseData);
-
 // Gather available locales.
 $locales = [];
 if ($handle = opendir($localeDirectory)) {
@@ -168,6 +165,12 @@ foreach ($countries as $locale => $localizedCountries) {
     file_put_json($locale . '.json', $localizedCountries);
 }
 
+// Print the base definitions for CountryRepository.
+echo "Base data: \n";
+echo export_base_data($baseData);
+echo "\n\n";
+
+// Print the locales for CountryRepository.
 $availableLocales = array_keys($countries);
 sort($availableLocales);
 echo count($availableLocales) . " available locales: \n";
@@ -182,6 +185,35 @@ function file_put_json($filename, $data)
     // Indenting with tabs instead of 4 spaces gives us 20% smaller files.
     $data = str_replace('    ', "\t", $data);
     file_put_contents($filename, $data);
+}
+
+/**
+ * Exports base data.
+ */
+function export_base_data($baseData)
+{
+    $export = '[' . "\n";
+    foreach ($baseData as $countryCode => $countryData) {
+        $threeLetterCode = 'null';
+        if (isset($countryData['three_letter_code'])) {
+            $threeLetterCode = "'" . $countryData['three_letter_code'] . "'";
+        }
+        $numericCode = 'null';
+        if (isset($countryData['numeric_code'])) {
+            $numericCode = "'" . $countryData['numeric_code'] . "'";
+        }
+        $currencyCode = 'null';
+        if (isset($countryData['currency_code'])) {
+            $currencyCode = "'" . $countryData['currency_code'] . "'";
+        }
+
+        $export .= "    '" . $countryCode . "' => [";
+        $export .= $threeLetterCode . ", " . $numericCode . ', ' . $currencyCode;
+        $export .= "],\n";
+    }
+    $export .= "];";
+
+    return $export;
 }
 
 /**
