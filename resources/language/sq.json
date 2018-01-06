@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "afrikanisht"
-	},
-	"agq": {
-		"name": "agemisht"
-	},
-	"ak": {
-		"name": "akanisht"
-	},
-	"am": {
-		"name": "amarisht"
-	},
-	"en": {
-		"name": "anglisht"
-	},
-	"en-AU": {
-		"name": "anglishte australiane"
-	},
-	"en-GB": {
-		"name": "anglishte britanike"
-	},
-	"en-CA": {
-		"name": "anglishte kanadeze"
-	},
-	"ar": {
-		"name": "arabisht"
-	},
-	"hy": {
-		"name": "armenisht"
-	},
-	"as": {
-		"name": "asamezisht"
-	},
-	"ast": {
-		"name": "asturisht"
-	},
-	"asa": {
-		"name": "asuisht"
-	},
-	"az": {
-		"name": "azerbajxhanisht"
-	},
-	"ksf": {
-		"name": "bafianisht"
-	},
-	"bm": {
-		"name": "bambarisht"
-	},
-	"bas": {
-		"name": "basaisht"
-	},
-	"eu": {
-		"name": "baskisht"
-	},
-	"bem": {
-		"name": "bembaisht"
-	},
-	"bez": {
-		"name": "benaisht"
-	},
-	"bn": {
-		"name": "bengalisht"
-	},
-	"my": {
-		"name": "birmanisht"
-	},
-	"be": {
-		"name": "bjellorusisht"
-	},
-	"brx": {
-		"name": "bodoisht"
-	},
-	"bs": {
-		"name": "boshnjakisht"
-	},
-	"br": {
-		"name": "bretonisht"
-	},
-	"bg": {
-		"name": "bullgarisht"
-	},
-	"ce": {
-		"name": "çeçenisht"
-	},
-	"cs": {
-		"name": "çekisht"
-	},
-	"chr": {
-		"name": "çerokisht"
-	},
-	"cgg": {
-		"name": "çigisht"
-	},
-	"da": {
-		"name": "danisht"
-	},
-	"dua": {
-		"name": "dualaisht"
-	},
-	"ebu": {
-		"name": "embuisht"
-	},
-	"eo": {
-		"name": "esperanto"
-	},
-	"et": {
-		"name": "estonisht"
-	},
-	"ewo": {
-		"name": "euondoisht"
-	},
-	"ee": {
-		"name": "eveisht"
-	},
-	"fo": {
-		"name": "faroisht"
-	},
-	"fil": {
-		"name": "filipinisht"
-	},
-	"fi": {
-		"name": "finlandisht"
-	},
-	"nl-BE": {
-		"name": "flamandisht"
-	},
-	"fr": {
-		"name": "frëngjisht"
-	},
-	"fr-CA": {
-		"name": "frëngjishte kanadeze"
-	},
-	"fr-CH": {
-		"name": "frëngjishte zvicerane"
-	},
-	"fur": {
-		"name": "friulianisht"
-	},
-	"fy": {
-		"name": "frizianishte perëndimore"
-	},
-	"ff": {
-		"name": "fulaisht"
-	},
-	"gl": {
-		"name": "galicisht"
-	},
-	"gd": {
-		"name": "galishte skoceze"
-	},
-	"lg": {
-		"name": "gandaisht"
-	},
-	"el": {
-		"name": "greqisht"
-	},
-	"guz": {
-		"name": "gusisht"
-	},
-	"gu": {
-		"name": "guxharatisht"
-	},
-	"ka": {
-		"name": "gjeorgjisht"
-	},
-	"de": {
-		"name": "gjermanisht"
-	},
-	"de-AT": {
-		"name": "gjermanishte austriake"
-	},
-	"nds": {
-		"name": "gjermanishte e vendeve të ulëta"
-	},
-	"nds-NL": {
-		"name": "gjermanishte saksone e vendeve të ulëta"
-	},
-	"gsw": {
-		"name": "gjermanishte zvicerane"
-	},
-	"de-CH": {
-		"name": "gjermanishte zvicerane (dialekti i Alpeve)"
-	},
-	"ha": {
-		"name": "hausisht"
-	},
-	"haw": {
-		"name": "havaisht"
-	},
-	"he": {
-		"name": "hebraisht"
-	},
-	"nl": {
-		"name": "holandisht"
-	},
-	"hu": {
-		"name": "hungarisht"
-	},
-	"ig": {
-		"name": "igboisht"
-	},
-	"hi": {
-		"name": "indisht"
-	},
-	"id": {
-		"name": "indonezisht"
-	},
-	"ga": {
-		"name": "irlandisht"
-	},
-	"is": {
-		"name": "islandisht"
-	},
-	"it": {
-		"name": "italisht"
-	},
-	"yav": {
-		"name": "jangbenisht"
-	},
-	"ja": {
-		"name": "japonisht"
-	},
-	"yi": {
-		"name": "jidisht"
-	},
-	"yo": {
-		"name": "jorubaisht"
-	},
-	"kab": {
-		"name": "kabilisht"
-	},
-	"kkj": {
-		"name": "kakoisht"
-	},
-	"kl": {
-		"name": "kalalisutisht"
-	},
-	"kln": {
-		"name": "kalenxhinisht"
-	},
-	"kam": {
-		"name": "kambaisht"
-	},
-	"kn": {
-		"name": "kanadisht"
-	},
-	"ks": {
-		"name": "kashmirisht"
-	},
-	"ca": {
-		"name": "katalonisht"
-	},
-	"kk": {
-		"name": "kazakisht"
-	},
-	"qu": {
-		"name": "keçuaisht"
-	},
-	"ksh": {
-		"name": "këlnisht"
-	},
-	"ki": {
-		"name": "kikujuisht"
-	},
-	"zh": {
-		"name": "kinezisht"
-	},
-	"zh-Hans": {
-		"name": "kinezisht (i thjeshtuar)"
-	},
-	"zh-Hant": {
-		"name": "kinezisht (tradicional)"
-	},
-	"rw": {
-		"name": "kiniaruandisht"
-	},
-	"ky": {
-		"name": "kirgizisht"
-	},
-	"km": {
-		"name": "kmerisht"
-	},
-	"khq": {
-		"name": "kojraçinisht"
-	},
-	"kok": {
-		"name": "konkanisht"
-	},
-	"ko": {
-		"name": "koreanisht"
-	},
-	"kw": {
-		"name": "kornisht"
-	},
-	"kea": {
-		"name": "kreolishte e Kepit të Gjelbër"
-	},
-	"hr": {
-		"name": "kroatisht"
-	},
-	"nmg": {
-		"name": "kuasisht"
-	},
-	"ckb": {
-		"name": "kurdishte qendrore"
-	},
-	"lkt": {
-		"name": "lakotisht"
-	},
-	"lag": {
-		"name": "langisht"
-	},
-	"lo": {
-		"name": "laosisht"
-	},
-	"lv": {
-		"name": "letonisht"
-	},
-	"ln": {
-		"name": "lingalisht"
-	},
-	"lt": {
-		"name": "lituanisht"
-	},
-	"lu": {
-		"name": "luba-katangaisht"
-	},
-	"luy": {
-		"name": "lujaisht"
-	},
-	"lb": {
-		"name": "luksemburgisht"
-	},
-	"luo": {
-		"name": "luoisht"
-	},
-	"lrc": {
-		"name": "lurishte veriore"
-	},
-	"jmc": {
-		"name": "maçamisht"
-	},
-	"mg": {
-		"name": "madagaskarisht"
-	},
-	"kde": {
-		"name": "makondisht"
-	},
-	"mgh": {
-		"name": "makua-mitoisht"
-	},
-	"ml": {
-		"name": "malajalamisht"
-	},
-	"ms": {
-		"name": "malajisht"
-	},
-	"mt": {
-		"name": "maltisht"
-	},
-	"gv": {
-		"name": "manksisht"
-	},
-	"mk": {
-		"name": "maqedonisht"
-	},
-	"mr": {
-		"name": "maratisht"
-	},
-	"mas": {
-		"name": "masaisht"
-	},
-	"mzn": {
-		"name": "mazanderanisht"
-	},
-	"mer": {
-		"name": "meruisht"
-	},
-	"mgo": {
-		"name": "metaisht"
-	},
-	"ro-MD": {
-		"name": "moldavisht"
-	},
-	"mn": {
-		"name": "mongolisht"
-	},
-	"mfe": {
-		"name": "morisjenisht"
-	},
-	"mua": {
-		"name": "mundangisht"
-	},
-	"naq": {
-		"name": "namaisht"
-	},
-	"nd": {
-		"name": "ndebelishte veriore"
-	},
-	"ne": {
-		"name": "nepalisht"
-	},
-	"nnh": {
-		"name": "ngiembunisht"
-	},
-	"jgo": {
-		"name": "ngombisht"
-	},
-	"nyn": {
-		"name": "niankolisht"
-	},
-	"nb": {
-		"name": "norvegjishte letrare"
-	},
-	"nn": {
-		"name": "norvegjishte nynorsk"
-	},
-	"nus": {
-		"name": "nuerisht"
-	},
-	"or": {
-		"name": "odisht"
-	},
-	"om": {
-		"name": "oromoisht"
-	},
-	"os": {
-		"name": "osetisht"
-	},
-	"ps": {
-		"name": "pashtoisht"
-	},
-	"fa": {
-		"name": "persisht"
-	},
-	"pl": {
-		"name": "polonisht"
-	},
-	"pt": {
-		"name": "portugalisht"
-	},
-	"pt-PT": {
-		"name": "portugalishte evropiane"
-	},
-	"prg": {
-		"name": "prusisht"
-	},
-	"pa": {
-		"name": "punxhabisht"
-	},
-	"rm": {
-		"name": "retoromanisht"
-	},
-	"rof": {
-		"name": "romboisht"
-	},
-	"rwk": {
-		"name": "ruaisht"
-	},
-	"ro": {
-		"name": "rumanisht"
-	},
-	"rn": {
-		"name": "rundisht"
-	},
-	"ru": {
-		"name": "rusisht"
-	},
-	"sah": {
-		"name": "sakaisht"
-	},
-	"saq": {
-		"name": "samburisht"
-	},
-	"smn": {
-		"name": "samishte inari"
-	},
-	"se": {
-		"name": "samishte veriore"
-	},
-	"sg": {
-		"name": "sangoisht"
-	},
-	"sbp": {
-		"name": "sanguisht"
-	},
-	"seh": {
-		"name": "senaisht"
-	},
-	"ses": {
-		"name": "senishte kojrabore"
-	},
-	"sr": {
-		"name": "serbisht"
-	},
-	"sd": {
-		"name": "sindisht"
-	},
-	"si": {
-		"name": "sinhalisht"
-	},
-	"ii": {
-		"name": "sishuanisht"
-	},
-	"cu": {
-		"name": "sllavishte kishtare"
-	},
-	"sk": {
-		"name": "sllovakisht"
-	},
-	"sl": {
-		"name": "sllovenisht"
-	},
-	"xog": {
-		"name": "sogisht"
-	},
-	"so": {
-		"name": "somalisht"
-	},
-	"dsb": {
-		"name": "sorbishte e poshtme"
-	},
-	"hsb": {
-		"name": "sorbishte e sipërme"
-	},
-	"es": {
-		"name": "spanjisht"
-	},
-	"es-419": {
-		"name": "spanjishte amerikano-latine"
-	},
-	"es-MX": {
-		"name": "spanjishte meksikane"
-	},
-	"sw": {
-		"name": "suahilisht"
-	},
-	"sw-CD": {
-		"name": "suahilishte kongoleze"
-	},
-	"sv": {
-		"name": "suedisht"
-	},
-	"ksb": {
-		"name": "shambalisht"
-	},
-	"sn": {
-		"name": "shonisht"
-	},
-	"sq": {
-		"name": "shqip"
-	},
-	"shi": {
-		"name": "taçelitisht"
-	},
-	"th": {
-		"name": "tajlandisht"
-	},
-	"dav": {
-		"name": "tajtaisht"
-	},
-	"tzm": {
-		"name": "tamazajtisht e Atlasit Qendror"
-	},
-	"zgh": {
-		"name": "tamaziatishte standarde marokene"
-	},
-	"ta": {
-		"name": "tamilisht"
-	},
-	"twq": {
-		"name": "tasavakisht"
-	},
-	"tt": {
-		"name": "tatarisht"
-	},
-	"tg": {
-		"name": "taxhikisht"
-	},
-	"te": {
-		"name": "teluguisht"
-	},
-	"teo": {
-		"name": "tesoisht"
-	},
-	"bo": {
-		"name": "tibetisht"
-	},
-	"ti": {
-		"name": "tigrinjaisht"
-	},
-	"to": {
-		"name": "tonganisht"
-	},
-	"tk": {
-		"name": "turkmenisht"
-	},
-	"tr": {
-		"name": "turqisht"
-	},
-	"wae": {
-		"name": "ualserisht"
-	},
-	"cy": {
-		"name": "uellsisht"
-	},
-	"ug": {
-		"name": "ujgurisht"
-	},
-	"uk": {
-		"name": "ukrainisht"
-	},
-	"wo": {
-		"name": "uolofisht"
-	},
-	"ur": {
-		"name": "urduisht"
-	},
-	"uz": {
-		"name": "uzbekisht"
-	},
-	"vai": {
-		"name": "vaisht"
-	},
-	"vi": {
-		"name": "vietnamisht"
-	},
-	"vo": {
-		"name": "volapykisht"
-	},
-	"vun": {
-		"name": "vunxhoisht"
-	},
-	"dz": {
-		"name": "xhongaisht"
-	},
-	"dyo": {
-		"name": "xhulafonjisht"
-	},
-	"dje": {
-		"name": "zarmaisht"
-	},
-	"zu": {
-		"name": "zuluisht"
-	}
+	"af": "afrikanisht",
+	"agq": "agemisht",
+	"ak": "akanisht",
+	"am": "amarisht",
+	"en": "anglisht",
+	"en-AU": "anglishte australiane",
+	"en-GB": "anglishte britanike",
+	"en-CA": "anglishte kanadeze",
+	"ar": "arabisht",
+	"hy": "armenisht",
+	"as": "asamezisht",
+	"ast": "asturisht",
+	"asa": "asuisht",
+	"az": "azerbajxhanisht",
+	"ksf": "bafianisht",
+	"bm": "bambarisht",
+	"bas": "basaisht",
+	"eu": "baskisht",
+	"bem": "bembaisht",
+	"bez": "benaisht",
+	"bn": "bengalisht",
+	"my": "birmanisht",
+	"be": "bjellorusisht",
+	"brx": "bodoisht",
+	"bs": "boshnjakisht",
+	"br": "bretonisht",
+	"bg": "bullgarisht",
+	"ce": "çeçenisht",
+	"cs": "çekisht",
+	"chr": "çerokisht",
+	"cgg": "çigisht",
+	"da": "danisht",
+	"dua": "dualaisht",
+	"ebu": "embuisht",
+	"eo": "esperanto",
+	"et": "estonisht",
+	"ewo": "euondoisht",
+	"ee": "eveisht",
+	"fo": "faroisht",
+	"fil": "filipinisht",
+	"fi": "finlandisht",
+	"nl-BE": "flamandisht",
+	"fr": "frëngjisht",
+	"fr-CA": "frëngjishte kanadeze",
+	"fr-CH": "frëngjishte zvicerane",
+	"fur": "friulianisht",
+	"fy": "frizianishte perëndimore",
+	"ff": "fulaisht",
+	"gl": "galicisht",
+	"gd": "galishte skoceze",
+	"lg": "gandaisht",
+	"el": "greqisht",
+	"guz": "gusisht",
+	"gu": "guxharatisht",
+	"ka": "gjeorgjisht",
+	"de": "gjermanisht",
+	"de-AT": "gjermanishte austriake",
+	"nds": "gjermanishte e vendeve të ulëta",
+	"nds-NL": "gjermanishte saksone e vendeve të ulëta",
+	"gsw": "gjermanishte zvicerane",
+	"de-CH": "gjermanishte zvicerane (dialekti i Alpeve)",
+	"ha": "hausisht",
+	"haw": "havaisht",
+	"he": "hebraisht",
+	"nl": "holandisht",
+	"hu": "hungarisht",
+	"ig": "igboisht",
+	"hi": "indisht",
+	"id": "indonezisht",
+	"ga": "irlandisht",
+	"is": "islandisht",
+	"it": "italisht",
+	"yav": "jangbenisht",
+	"ja": "japonisht",
+	"yi": "jidisht",
+	"yo": "jorubaisht",
+	"kab": "kabilisht",
+	"kkj": "kakoisht",
+	"kl": "kalalisutisht",
+	"kln": "kalenxhinisht",
+	"kam": "kambaisht",
+	"kn": "kanadisht",
+	"ks": "kashmirisht",
+	"ca": "katalonisht",
+	"kk": "kazakisht",
+	"qu": "keçuaisht",
+	"ksh": "këlnisht",
+	"ki": "kikujuisht",
+	"zh": "kinezisht",
+	"zh-Hans": "kinezisht (i thjeshtuar)",
+	"zh-Hant": "kinezisht (tradicional)",
+	"rw": "kiniaruandisht",
+	"ky": "kirgizisht",
+	"km": "kmerisht",
+	"khq": "kojraçinisht",
+	"kok": "konkanisht",
+	"ko": "koreanisht",
+	"kw": "kornisht",
+	"kea": "kreolishte e Kepit të Gjelbër",
+	"hr": "kroatisht",
+	"nmg": "kuasisht",
+	"ckb": "kurdishte qendrore",
+	"lkt": "lakotisht",
+	"lag": "langisht",
+	"lo": "laosisht",
+	"lv": "letonisht",
+	"ln": "lingalisht",
+	"lt": "lituanisht",
+	"lu": "luba-katangaisht",
+	"luy": "lujaisht",
+	"lb": "luksemburgisht",
+	"luo": "luoisht",
+	"lrc": "lurishte veriore",
+	"jmc": "maçamisht",
+	"mg": "madagaskarisht",
+	"kde": "makondisht",
+	"mgh": "makua-mitoisht",
+	"ml": "malajalamisht",
+	"ms": "malajisht",
+	"mt": "maltisht",
+	"gv": "manksisht",
+	"mk": "maqedonisht",
+	"mr": "maratisht",
+	"mas": "masaisht",
+	"mzn": "mazanderanisht",
+	"mer": "meruisht",
+	"mgo": "metaisht",
+	"ro-MD": "moldavisht",
+	"mn": "mongolisht",
+	"mfe": "morisjenisht",
+	"mua": "mundangisht",
+	"naq": "namaisht",
+	"nd": "ndebelishte veriore",
+	"ne": "nepalisht",
+	"nnh": "ngiembunisht",
+	"jgo": "ngombisht",
+	"nyn": "niankolisht",
+	"nb": "norvegjishte letrare",
+	"nn": "norvegjishte nynorsk",
+	"nus": "nuerisht",
+	"or": "odisht",
+	"om": "oromoisht",
+	"os": "osetisht",
+	"ps": "pashtoisht",
+	"fa": "persisht",
+	"pl": "polonisht",
+	"pt": "portugalisht",
+	"pt-PT": "portugalishte evropiane",
+	"prg": "prusisht",
+	"pa": "punxhabisht",
+	"rm": "retoromanisht",
+	"rof": "romboisht",
+	"rwk": "ruaisht",
+	"ro": "rumanisht",
+	"rn": "rundisht",
+	"ru": "rusisht",
+	"sah": "sakaisht",
+	"saq": "samburisht",
+	"smn": "samishte inari",
+	"se": "samishte veriore",
+	"sg": "sangoisht",
+	"sbp": "sanguisht",
+	"seh": "senaisht",
+	"ses": "senishte kojrabore",
+	"sr": "serbisht",
+	"sd": "sindisht",
+	"si": "sinhalisht",
+	"ii": "sishuanisht",
+	"cu": "sllavishte kishtare",
+	"sk": "sllovakisht",
+	"sl": "sllovenisht",
+	"xog": "sogisht",
+	"so": "somalisht",
+	"dsb": "sorbishte e poshtme",
+	"hsb": "sorbishte e sipërme",
+	"es": "spanjisht",
+	"es-419": "spanjishte amerikano-latine",
+	"es-MX": "spanjishte meksikane",
+	"sw": "suahilisht",
+	"sw-CD": "suahilishte kongoleze",
+	"sv": "suedisht",
+	"ksb": "shambalisht",
+	"sn": "shonisht",
+	"sq": "shqip",
+	"shi": "taçelitisht",
+	"th": "tajlandisht",
+	"dav": "tajtaisht",
+	"tzm": "tamazajtisht e Atlasit Qendror",
+	"zgh": "tamaziatishte standarde marokene",
+	"ta": "tamilisht",
+	"twq": "tasavakisht",
+	"tt": "tatarisht",
+	"tg": "taxhikisht",
+	"te": "teluguisht",
+	"teo": "tesoisht",
+	"bo": "tibetisht",
+	"ti": "tigrinjaisht",
+	"to": "tonganisht",
+	"tk": "turkmenisht",
+	"tr": "turqisht",
+	"wae": "ualserisht",
+	"cy": "uellsisht",
+	"ug": "ujgurisht",
+	"uk": "ukrainisht",
+	"wo": "uolofisht",
+	"ur": "urduisht",
+	"uz": "uzbekisht",
+	"vai": "vaisht",
+	"vi": "vietnamisht",
+	"vo": "volapykisht",
+	"vun": "vunxhoisht",
+	"dz": "xhongaisht",
+	"dyo": "xhulafonjisht",
+	"dje": "zarmaisht",
+	"zu": "zuluisht"
 }

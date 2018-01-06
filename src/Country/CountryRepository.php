@@ -96,7 +96,7 @@ class CountryRepository implements CountryRepositoryInterface
         $definitions = $this->loadDefinitions($locale);
         $country = new Country([
             'country_code' => $countryCode,
-            'name' => $definitions[$countryCode]['name'],
+            'name' => $definitions[$countryCode],
             'three_letter_code' => $baseDefinitions[$countryCode][0],
             'numeric_code' => $baseDefinitions[$countryCode][1],
             'currency_code' => $baseDefinitions[$countryCode][2],
@@ -117,10 +117,10 @@ class CountryRepository implements CountryRepositoryInterface
         $baseDefinitions = $this->getBaseDefinitions();
         $definitions = $this->loadDefinitions($locale);
         $countries = [];
-        foreach ($definitions as $countryCode => $definition) {
+        foreach ($definitions as $countryCode => $countryName) {
             $countries[$countryCode] = new Country([
                 'country_code' => $countryCode,
-                'name' => $definition['name'],
+                'name' => $countryName,
                 'three_letter_code' => $baseDefinitions[$countryCode][0],
                 'numeric_code' => $baseDefinitions[$countryCode][1],
                 'currency_code' => $baseDefinitions[$countryCode][2],
@@ -141,8 +141,8 @@ class CountryRepository implements CountryRepositoryInterface
         $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $list = [];
-        foreach ($definitions as $countryCode => $definition) {
-            $list[$countryCode] = $definition['name'];
+        foreach ($definitions as $countryCode => $countryName) {
+            $list[$countryCode] = $countryName;
         }
 
         return $list;

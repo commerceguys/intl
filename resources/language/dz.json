@@ -1,644 +1,216 @@
 {
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "Akan"
-	},
-	"ast": {
-		"name": "Asturian"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"br": {
-		"name": "Breton"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"kw": {
-		"name": "Cornish"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"smn": {
-		"name": "Inari Sami"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"rw": {
-		"name": "Kinyarwanda"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"ln": {
-		"name": "Lingala"
-	},
-	"dsb": {
-		"name": "Lower Sorbian"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"gv": {
-		"name": "Manx"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"mn": {
-		"name": "Mongolian"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nds-NL": {
-		"name": "nds། (ནེ་དར་ལནཌས྄།)"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nd": {
-		"name": "North Ndebele"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"se": {
-		"name": "Northern Sami"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Ossetic"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rn": {
-		"name": "Rundi"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"gd": {
-		"name": "Scottish Gaelic"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "Shona"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"yi": {
-		"name": "Yiddish"
-	},
-	"dje": {
-		"name": "Zarma"
-	},
-	"kn": {
-		"name": "ཀ་ན་ཌ་ཁ"
-	},
-	"kk": {
-		"name": "ཀ་ཛགས་ཁ"
-	},
-	"qu": {
-		"name": "ཀྭེ་ཆུ་ཨ་ཁ"
-	},
-	"hr": {
-		"name": "ཀྲོ་ཨེ་ཤི་ཡཱན་ཁ"
-	},
-	"ks": {
-		"name": "ཀཱཤ་མི་རི་ཁ"
-	},
-	"ky": {
-		"name": "ཀིར་གིས་ཁ"
-	},
-	"ca": {
-		"name": "ཀེ་ཊ་ལཱན་ཁ"
-	},
-	"fr-CA": {
-		"name": "ཀེ་ན་ཌི་ཡཱན་ཕྲནཅ་ཁ"
-	},
-	"en-CA": {
-		"name": "ཀེ་ན་ཌི་ཡཱན་ཨིང་ལིཤ་ཁ"
-	},
-	"ko": {
-		"name": "ཀོ་རི་ཡཱན་ཁ"
-	},
-	"km": {
-		"name": "ཁེ་མེར་ཁ"
-	},
-	"el": {
-		"name": "གྲིཀ་ཁ"
-	},
-	"gl": {
-		"name": "གལ་ཨིས་ཨི་ཡན་ཁ"
-	},
-	"gu": {
-		"name": "གུ་ཇ་ར་ཏི་ཁ"
-	},
-	"cs": {
-		"name": "ཅེཀ་ཁ"
-	},
-	"ja": {
-		"name": "ཇཱ་པཱ་ནིས་ཁ"
-	},
-	"de": {
-		"name": "ཇཱར་མཱན་ཁ"
-	},
-	"ka": {
-		"name": "ཇཽ་ཇི་ཡཱན་ཁ"
-	},
-	"tt": {
-		"name": "ཊ་ཊར་ཁ"
-	},
-	"tr": {
-		"name": "ཊཱར་ཀིཤ་ཁ"
-	},
-	"tk": {
-		"name": "ཊཱརཀ་མེན་ཁ"
-	},
-	"to": {
-		"name": "ཊོང་གྷན་ཁ"
-	},
-	"nl": {
-		"name": "ཌཆ་ཁ"
-	},
-	"da": {
-		"name": "ཌེ་ནིཤ་ཁ"
-	},
-	"tg": {
-		"name": "ཏ་ཇིཀ་ཁ"
-	},
-	"ta": {
-		"name": "ཏ་མིལ་ཁ"
-	},
-	"ti": {
-		"name": "ཏིག་རི་ཉ་ཁ"
-	},
-	"te": {
-		"name": "ཏེ་ལུ་གུ་ཁ"
-	},
-	"th": {
-		"name": "ཐཱའི་ཁ"
-	},
-	"fy": {
-		"name": "ནུབ་ཕྼི་སི་ཡན་ཁ"
-	},
-	"ne": {
-		"name": "ནེ་པཱལི་ཁ"
-	},
-	"nn": {
-		"name": "ནོར་ཝེ་ཇི་ཡཱན་ནོརསཀ་ཁ"
-	},
-	"nb": {
-		"name": "ནོར་ཝེ་ཇི་ཡཱན་བོཀ་མཱལ་ཁ"
-	},
-	"fa": {
-		"name": "པར་ཤི་ཡཱན་ཁ"
-	},
-	"pa": {
-		"name": "པཱན་ཇ་བི་ཁ"
-	},
-	"ps": {
-		"name": "པཱཤ་ཏོ་ཁ"
-	},
-	"pl": {
-		"name": "པོ་ལིཤ་ཁ"
-	},
-	"pt": {
-		"name": "པོར་ཅུ་གིས་ཁ"
-	},
-	"fr": {
-		"name": "ཕྲནཅ་ཁ"
-	},
-	"nl-BE": {
-		"name": "ཕྷེལེ་མིཤ་ཁ"
-	},
-	"fo": {
-		"name": "ཕཱ་རོ་ཨིས་ཁ"
-	},
-	"fi": {
-		"name": "ཕི་ནིཤ་ཁ"
-	},
-	"fil": {
-		"name": "ཕི་ལི་པི་ནོ་ཁ"
-	},
-	"bn": {
-		"name": "བངྒ་ལ་ཁ"
-	},
-	"my": {
-		"name": "བར་མིས་ཁ"
-	},
-	"en-GB": {
-		"name": "བྲི་ཊིཤ་ཨིང་ལིཤ་ཁ"
-	},
-	"bs": {
-		"name": "བྷོས་ནི་ཡཱན་ཁ"
-	},
-	"bg": {
-		"name": "བཱལ་གེ་རི་ཡཱན་ཁ"
-	},
-	"eu": {
-		"name": "བཱསཀ་ཁ"
-	},
-	"vi": {
-		"name": "བེཊ་ནཱ་མིས་ཁ"
-	},
-	"be": {
-		"name": "བེལ་ཨ་རུས་ཁ"
-	},
-	"bo": {
-		"name": "བོད་ཁ"
-	},
-	"mr": {
-		"name": "མ་ར་ཐི་ཁ"
-	},
-	"mg": {
-		"name": "མ་ལ་ག་སི་ཁ"
-	},
-	"ml": {
-		"name": "མ་ལ་ཡ་ལམ་ཁ"
-	},
-	"ms": {
-		"name": "མ་ལེ་ཁ"
-	},
-	"mk": {
-		"name": "མ་སེ་ཌོ་ནི་ཡཱན་ཁ"
-	},
-	"mt": {
-		"name": "མཱལ་ཊ་ཁ"
-	},
-	"ug": {
-		"name": "ཝི་གུར་ཁ"
-	},
-	"cy": {
-		"name": "ཝེལཤ་ཁ"
-	},
-	"wo": {
-		"name": "ཝོ་ལོཕ་ཁ"
-	},
-	"zu": {
-		"name": "ཟུ་ལུ་ཁ"
-	},
-	"uk": {
-		"name": "ཡུ་ཀེ་རེ་ནི་ཡཱན་ཁ"
-	},
-	"yo": {
-		"name": "ཡོ་རུ་བ་ཁ"
-	},
-	"zh": {
-		"name": "རྒྱ་མི་ཁ"
-	},
-	"zh-Hans": {
-		"name": "རྒྱ་མི་ཁ་འཇམ་སངམ"
-	},
-	"dz": {
-		"name": "རྫོང་ཁ"
-	},
-	"ro": {
-		"name": "རོ་མེ་ནི་ཡཱན་ཁ"
-	},
-	"ro-MD": {
-		"name": "རོ་མེ་ནི་ཡཱན་ཁ། (མོལ་དོ་བཱ།)"
-	},
-	"rm": {
-		"name": "རོ་མེ་ནིཤ་ཁ"
-	},
-	"lb": {
-		"name": "ལག་ཛམ་བོརྒ་ཁ"
-	},
-	"lv": {
-		"name": "ལཊ་བི་ཡཱན་ཁ"
-	},
-	"lo": {
-		"name": "ལཱ་ཝོས་ཁ"
-	},
-	"lt": {
-		"name": "ལི་ཐུ་ཝེ་ནི་ཡཱན་ཁ"
-	},
-	"es-419": {
-		"name": "ལེ་ཊིན་ཨ་མེ་རི་ཀཱན་གི་ཨིས་པེ་ནིཤ་ཁ"
-	},
-	"zh-Hant": {
-		"name": "སྔ་དུས་ཀྱི་རྒྱ་མི་ཁ"
-	},
-	"sw": {
-		"name": "སྭཱ་ཧི་ལི་ཁ"
-	},
-	"sw-CD": {
-		"name": "སྭཱ་ཧི་ལི་ཁ། (ཀོང་གྷོ ཀིན་ཤ་ས།)"
-	},
-	"sr": {
-		"name": "སཱར་བྷི་ཡཱན་ཁ"
-	},
-	"si": {
-		"name": "སིང་ཧ་ལ་ཁ"
-	},
-	"sd": {
-		"name": "སིན་དཱི་ཁ"
-	},
-	"de-CH": {
-		"name": "སུ་ཡིས་གི་མཐོ་སའི་ཇཱར་མཱན་ཁ"
-	},
-	"gsw": {
-		"name": "སུ་ཡིས་ཇཱར་མཱན་ཁ"
-	},
-	"fr-CH": {
-		"name": "སུ་ཡིས་ཕྲནཅ་ཁ"
-	},
-	"sk": {
-		"name": "སུ་ལོ་བཱཀ་ཁ"
-	},
-	"sl": {
-		"name": "སུ་ལོ་བི་ནི་ཡཱན་ཁ"
-	},
-	"sv": {
-		"name": "སུའི་ཌིཤ་ཁ"
-	},
-	"so": {
-		"name": "སོ་མ་ལི་ཁ"
-	},
-	"haw": {
-		"name": "ཧ་ཝ་ཡིའི་ཁ"
-	},
-	"ha": {
-		"name": "ཧཝ་ས་ཁ"
-	},
-	"hu": {
-		"name": "ཧཱང་གྷ་རི་ཡཱན་ཁ"
-	},
-	"hi": {
-		"name": "ཧིན་དི་ཁ"
-	},
-	"he": {
-		"name": "ཧེ་བྲུ་ཁ"
-	},
-	"az": {
-		"name": "ཨ་ཛར་བྷའི་ཇཱན་ཁ"
-	},
-	"is": {
-		"name": "ཨ་ཡིས་ལེན་ཌིཀ་ཁ"
-	},
-	"as": {
-		"name": "ཨ་ས་མིས་ཁ"
-	},
-	"af": {
-		"name": "ཨཕ་རི་ཀཱནས་ཁ"
-	},
-	"am": {
-		"name": "ཨམ་ཧ་རིཀ་ཁ"
-	},
-	"hy": {
-		"name": "ཨར་མི་ནི་ཡཱན་ཁ"
-	},
-	"ga": {
-		"name": "ཨཱའི་རིཤ་ཁ"
-	},
-	"sq": {
-		"name": "ཨཱལ་བེ་ནི་ཡཱན་ཁ"
-	},
-	"de-AT": {
-		"name": "ཨཱོས་ཊྲི་ཡཱན་ཇཱར་མཱན་ཁ"
-	},
-	"en-AU": {
-		"name": "ཨཱོས་ཊྲེ་ལི་ཡཱན་ཨིང་ལིཤ་ཁ"
-	},
-	"it": {
-		"name": "ཨི་ཊ་ལི་ཡཱན་ཁ"
-	},
-	"pt-PT": {
-		"name": "ཨི་བེ་རི་ཡཱན་པོར་ཅུ་གིས་ཁ"
-	},
-	"ig": {
-		"name": "ཨིག་བོ་ཁ"
-	},
-	"en": {
-		"name": "ཨིང་ལིཤ་ཁ"
-	},
-	"id": {
-		"name": "ཨིན་ཌོ་ནེ་ཤི་ཡཱན་ཁ"
-	},
-	"es": {
-		"name": "ཨིས་པེ་ནིཤ་ཁ"
-	},
-	"es-MX": {
-		"name": "ཨིས་པེ་ནིཤ་ཁ། (མེཀ་སི་ཀོ།)"
-	},
-	"ru": {
-		"name": "ཨུ་རུ་སུའི་ཁ"
-	},
-	"ur": {
-		"name": "ཨུར་དུ་ཁ"
-	},
-	"uz": {
-		"name": "ཨུས་བེཀ་ཁ"
-	},
-	"ar": {
-		"name": "ཨེ་ར་བིཀ་ཁ"
-	},
-	"et": {
-		"name": "ཨེས་ཊོ་ནི་ཡཱན་ཁ"
-	},
-	"eo": {
-		"name": "ཨེས་པ་རཱན་ཏོ་ཁ"
-	},
-	"or": {
-		"name": "ཨོ་རི་ཡ་ཁ"
-	}
+	"agq": "Aghem",
+	"ak": "Akan",
+	"ast": "Asturian",
+	"asa": "Asu",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bas": "Basaa",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"brx": "Bodo",
+	"br": "Breton",
+	"tzm": "Central Atlas Tamazight",
+	"ckb": "Central Kurdish",
+	"ce": "Chechen",
+	"chr": "Cherokee",
+	"cgg": "Chiga",
+	"cu": "Church Slavic",
+	"ksh": "Colognian",
+	"kw": "Cornish",
+	"dua": "Duala",
+	"ebu": "Embu",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fur": "Friulian",
+	"ff": "Fulah",
+	"lg": "Ganda",
+	"guz": "Gusii",
+	"smn": "Inari Sami",
+	"dyo": "Jola-Fonyi",
+	"kea": "Kabuverdianu",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"ki": "Kikuyu",
+	"rw": "Kinyarwanda",
+	"kok": "Konkani",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"nmg": "Kwasio",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"ln": "Lingala",
+	"dsb": "Lower Sorbian",
+	"lu": "Luba-Katanga",
+	"luo": "Luo",
+	"luy": "Luyia",
+	"jmc": "Machame",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"gv": "Manx",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"mn": "Mongolian",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nds-NL": "nds། (ནེ་དར་ལནཌས྄།)",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"nd": "North Ndebele",
+	"lrc": "Northern Luri",
+	"se": "Northern Sami",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"om": "Oromo",
+	"os": "Ossetic",
+	"prg": "Prussian",
+	"rof": "Rombo",
+	"rn": "Rundi",
+	"rwk": "Rwa",
+	"sah": "Sakha",
+	"saq": "Samburu",
+	"sg": "Sango",
+	"sbp": "Sangu",
+	"gd": "Scottish Gaelic",
+	"seh": "Sena",
+	"ksb": "Shambala",
+	"sn": "Shona",
+	"ii": "Sichuan Yi",
+	"xog": "Soga",
+	"zgh": "Standard Moroccan Tamazight",
+	"shi": "Tachelhit",
+	"dav": "Taita",
+	"twq": "Tasawaq",
+	"teo": "Teso",
+	"hsb": "Upper Sorbian",
+	"vai": "Vai",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"wae": "Walser",
+	"yav": "Yangben",
+	"yi": "Yiddish",
+	"dje": "Zarma",
+	"kn": "ཀ་ན་ཌ་ཁ",
+	"kk": "ཀ་ཛགས་ཁ",
+	"qu": "ཀྭེ་ཆུ་ཨ་ཁ",
+	"hr": "ཀྲོ་ཨེ་ཤི་ཡཱན་ཁ",
+	"ks": "ཀཱཤ་མི་རི་ཁ",
+	"ky": "ཀིར་གིས་ཁ",
+	"ca": "ཀེ་ཊ་ལཱན་ཁ",
+	"fr-CA": "ཀེ་ན་ཌི་ཡཱན་ཕྲནཅ་ཁ",
+	"en-CA": "ཀེ་ན་ཌི་ཡཱན་ཨིང་ལིཤ་ཁ",
+	"ko": "ཀོ་རི་ཡཱན་ཁ",
+	"km": "ཁེ་མེར་ཁ",
+	"el": "གྲིཀ་ཁ",
+	"gl": "གལ་ཨིས་ཨི་ཡན་ཁ",
+	"gu": "གུ་ཇ་ར་ཏི་ཁ",
+	"cs": "ཅེཀ་ཁ",
+	"ja": "ཇཱ་པཱ་ནིས་ཁ",
+	"de": "ཇཱར་མཱན་ཁ",
+	"ka": "ཇཽ་ཇི་ཡཱན་ཁ",
+	"tt": "ཊ་ཊར་ཁ",
+	"tr": "ཊཱར་ཀིཤ་ཁ",
+	"tk": "ཊཱརཀ་མེན་ཁ",
+	"to": "ཊོང་གྷན་ཁ",
+	"nl": "ཌཆ་ཁ",
+	"da": "ཌེ་ནིཤ་ཁ",
+	"tg": "ཏ་ཇིཀ་ཁ",
+	"ta": "ཏ་མིལ་ཁ",
+	"ti": "ཏིག་རི་ཉ་ཁ",
+	"te": "ཏེ་ལུ་གུ་ཁ",
+	"th": "ཐཱའི་ཁ",
+	"fy": "ནུབ་ཕྼི་སི་ཡན་ཁ",
+	"ne": "ནེ་པཱལི་ཁ",
+	"nn": "ནོར་ཝེ་ཇི་ཡཱན་ནོརསཀ་ཁ",
+	"nb": "ནོར་ཝེ་ཇི་ཡཱན་བོཀ་མཱལ་ཁ",
+	"fa": "པར་ཤི་ཡཱན་ཁ",
+	"pa": "པཱན་ཇ་བི་ཁ",
+	"ps": "པཱཤ་ཏོ་ཁ",
+	"pl": "པོ་ལིཤ་ཁ",
+	"pt": "པོར་ཅུ་གིས་ཁ",
+	"fr": "ཕྲནཅ་ཁ",
+	"nl-BE": "ཕྷེལེ་མིཤ་ཁ",
+	"fo": "ཕཱ་རོ་ཨིས་ཁ",
+	"fi": "ཕི་ནིཤ་ཁ",
+	"fil": "ཕི་ལི་པི་ནོ་ཁ",
+	"bn": "བངྒ་ལ་ཁ",
+	"my": "བར་མིས་ཁ",
+	"en-GB": "བྲི་ཊིཤ་ཨིང་ལིཤ་ཁ",
+	"bs": "བྷོས་ནི་ཡཱན་ཁ",
+	"bg": "བཱལ་གེ་རི་ཡཱན་ཁ",
+	"eu": "བཱསཀ་ཁ",
+	"vi": "བེཊ་ནཱ་མིས་ཁ",
+	"be": "བེལ་ཨ་རུས་ཁ",
+	"bo": "བོད་ཁ",
+	"mr": "མ་ར་ཐི་ཁ",
+	"mg": "མ་ལ་ག་སི་ཁ",
+	"ml": "མ་ལ་ཡ་ལམ་ཁ",
+	"ms": "མ་ལེ་ཁ",
+	"mk": "མ་སེ་ཌོ་ནི་ཡཱན་ཁ",
+	"mt": "མཱལ་ཊ་ཁ",
+	"ug": "ཝི་གུར་ཁ",
+	"cy": "ཝེལཤ་ཁ",
+	"wo": "ཝོ་ལོཕ་ཁ",
+	"zu": "ཟུ་ལུ་ཁ",
+	"uk": "ཡུ་ཀེ་རེ་ནི་ཡཱན་ཁ",
+	"yo": "ཡོ་རུ་བ་ཁ",
+	"zh": "རྒྱ་མི་ཁ",
+	"zh-Hans": "རྒྱ་མི་ཁ་འཇམ་སངམ",
+	"dz": "རྫོང་ཁ",
+	"ro": "རོ་མེ་ནི་ཡཱན་ཁ",
+	"ro-MD": "རོ་མེ་ནི་ཡཱན་ཁ། (མོལ་དོ་བཱ།)",
+	"rm": "རོ་མེ་ནིཤ་ཁ",
+	"lb": "ལག་ཛམ་བོརྒ་ཁ",
+	"lv": "ལཊ་བི་ཡཱན་ཁ",
+	"lo": "ལཱ་ཝོས་ཁ",
+	"lt": "ལི་ཐུ་ཝེ་ནི་ཡཱན་ཁ",
+	"es-419": "ལེ་ཊིན་ཨ་མེ་རི་ཀཱན་གི་ཨིས་པེ་ནིཤ་ཁ",
+	"zh-Hant": "སྔ་དུས་ཀྱི་རྒྱ་མི་ཁ",
+	"sw": "སྭཱ་ཧི་ལི་ཁ",
+	"sw-CD": "སྭཱ་ཧི་ལི་ཁ། (ཀོང་གྷོ ཀིན་ཤ་ས།)",
+	"sr": "སཱར་བྷི་ཡཱན་ཁ",
+	"si": "སིང་ཧ་ལ་ཁ",
+	"sd": "སིན་དཱི་ཁ",
+	"de-CH": "སུ་ཡིས་གི་མཐོ་སའི་ཇཱར་མཱན་ཁ",
+	"gsw": "སུ་ཡིས་ཇཱར་མཱན་ཁ",
+	"fr-CH": "སུ་ཡིས་ཕྲནཅ་ཁ",
+	"sk": "སུ་ལོ་བཱཀ་ཁ",
+	"sl": "སུ་ལོ་བི་ནི་ཡཱན་ཁ",
+	"sv": "སུའི་ཌིཤ་ཁ",
+	"so": "སོ་མ་ལི་ཁ",
+	"haw": "ཧ་ཝ་ཡིའི་ཁ",
+	"ha": "ཧཝ་ས་ཁ",
+	"hu": "ཧཱང་གྷ་རི་ཡཱན་ཁ",
+	"hi": "ཧིན་དི་ཁ",
+	"he": "ཧེ་བྲུ་ཁ",
+	"az": "ཨ་ཛར་བྷའི་ཇཱན་ཁ",
+	"is": "ཨ་ཡིས་ལེན་ཌིཀ་ཁ",
+	"as": "ཨ་ས་མིས་ཁ",
+	"af": "ཨཕ་རི་ཀཱནས་ཁ",
+	"am": "ཨམ་ཧ་རིཀ་ཁ",
+	"hy": "ཨར་མི་ནི་ཡཱན་ཁ",
+	"ga": "ཨཱའི་རིཤ་ཁ",
+	"sq": "ཨཱལ་བེ་ནི་ཡཱན་ཁ",
+	"de-AT": "ཨཱོས་ཊྲི་ཡཱན་ཇཱར་མཱན་ཁ",
+	"en-AU": "ཨཱོས་ཊྲེ་ལི་ཡཱན་ཨིང་ལིཤ་ཁ",
+	"it": "ཨི་ཊ་ལི་ཡཱན་ཁ",
+	"pt-PT": "ཨི་བེ་རི་ཡཱན་པོར་ཅུ་གིས་ཁ",
+	"ig": "ཨིག་བོ་ཁ",
+	"en": "ཨིང་ལིཤ་ཁ",
+	"id": "ཨིན་ཌོ་ནེ་ཤི་ཡཱན་ཁ",
+	"es": "ཨིས་པེ་ནིཤ་ཁ",
+	"es-MX": "ཨིས་པེ་ནིཤ་ཁ། (མེཀ་སི་ཀོ།)",
+	"ru": "ཨུ་རུ་སུའི་ཁ",
+	"ur": "ཨུར་དུ་ཁ",
+	"uz": "ཨུས་བེཀ་ཁ",
+	"ar": "ཨེ་ར་བིཀ་ཁ",
+	"et": "ཨེས་ཊོ་ནི་ཡཱན་ཁ",
+	"eo": "ཨེས་པ་རཱན་ཏོ་ཁ",
+	"or": "ཨོ་རི་ཡ་ཁ"
 }

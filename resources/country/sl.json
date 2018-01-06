@@ -1,761 +1,255 @@
 {
-	"AF": {
-		"name": "Afganistan"
-	},
-	"AX": {
-		"name": "Ålandski otoki"
-	},
-	"AL": {
-		"name": "Albanija"
-	},
-	"DZ": {
-		"name": "Alžirija"
-	},
-	"AS": {
-		"name": "Ameriška Samoa"
-	},
-	"VI": {
-		"name": "Ameriški Deviški otoki"
-	},
-	"AD": {
-		"name": "Andora"
-	},
-	"AO": {
-		"name": "Angola"
-	},
-	"AI": {
-		"name": "Angvila"
-	},
-	"AQ": {
-		"name": "Antarktika"
-	},
-	"AG": {
-		"name": "Antigva in Barbuda"
-	},
-	"AR": {
-		"name": "Argentina"
-	},
-	"AM": {
-		"name": "Armenija"
-	},
-	"AW": {
-		"name": "Aruba"
-	},
-	"AU": {
-		"name": "Avstralija"
-	},
-	"AT": {
-		"name": "Avstrija"
-	},
-	"AZ": {
-		"name": "Azerbajdžan"
-	},
-	"BS": {
-		"name": "Bahami"
-	},
-	"BH": {
-		"name": "Bahrajn"
-	},
-	"BD": {
-		"name": "Bangladeš"
-	},
-	"BB": {
-		"name": "Barbados"
-	},
-	"BE": {
-		"name": "Belgija"
-	},
-	"BZ": {
-		"name": "Belize"
-	},
-	"BY": {
-		"name": "Belorusija"
-	},
-	"BJ": {
-		"name": "Benin"
-	},
-	"BM": {
-		"name": "Bermudi"
-	},
-	"BW": {
-		"name": "Bocvana"
-	},
-	"BG": {
-		"name": "Bolgarija"
-	},
-	"BO": {
-		"name": "Bolivija"
-	},
-	"BA": {
-		"name": "Bosna in Hercegovina"
-	},
-	"CX": {
-		"name": "Božični otok"
-	},
-	"BR": {
-		"name": "Brazilija"
-	},
-	"VG": {
-		"name": "Britanski Deviški otoki"
-	},
-	"IO": {
-		"name": "Britansko ozemlje v Indijskem oceanu"
-	},
-	"BN": {
-		"name": "Brunej"
-	},
-	"BF": {
-		"name": "Burkina Faso"
-	},
-	"BI": {
-		"name": "Burundi"
-	},
-	"BT": {
-		"name": "Butan"
-	},
-	"CF": {
-		"name": "Centralnoafriška republika"
-	},
-	"EA": {
-		"name": "Ceuta in Melilla"
-	},
-	"CY": {
-		"name": "Ciper"
-	},
-	"CK": {
-		"name": "Cookovi otoki"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"TD": {
-		"name": "Čad"
-	},
-	"CZ": {
-		"name": "Češka"
-	},
-	"CL": {
-		"name": "Čile"
-	},
-	"ME": {
-		"name": "Črna gora"
-	},
-	"DK": {
-		"name": "Danska"
-	},
-	"CD": {
-		"name": "Demokratična republika Kongo"
-	},
-	"DG": {
-		"name": "Diego Garcia"
-	},
-	"DM": {
-		"name": "Dominika"
-	},
-	"DO": {
-		"name": "Dominikanska republika"
-	},
-	"DJ": {
-		"name": "Džibuti"
-	},
-	"EG": {
-		"name": "Egipt"
-	},
-	"EC": {
-		"name": "Ekvador"
-	},
-	"GQ": {
-		"name": "Ekvatorialna Gvineja"
-	},
-	"ER": {
-		"name": "Eritreja"
-	},
-	"EE": {
-		"name": "Estonija"
-	},
-	"ET": {
-		"name": "Etiopija"
-	},
-	"FK": {
-		"name": "Falklandski otoki"
-	},
-	"FO": {
-		"name": "Ferski otoki"
-	},
-	"FJ": {
-		"name": "Fidži"
-	},
-	"PH": {
-		"name": "Filipini"
-	},
-	"FI": {
-		"name": "Finska"
-	},
-	"FR": {
-		"name": "Francija"
-	},
-	"GF": {
-		"name": "Francoska Gvajana"
-	},
-	"PF": {
-		"name": "Francoska Polinezija"
-	},
-	"TF": {
-		"name": "Francosko južno ozemlje"
-	},
-	"GA": {
-		"name": "Gabon"
-	},
-	"GM": {
-		"name": "Gambija"
-	},
-	"GH": {
-		"name": "Gana"
-	},
-	"GI": {
-		"name": "Gibraltar"
-	},
-	"GR": {
-		"name": "Grčija"
-	},
-	"GD": {
-		"name": "Grenada"
-	},
-	"GL": {
-		"name": "Grenlandija"
-	},
-	"GE": {
-		"name": "Gruzija"
-	},
-	"GP": {
-		"name": "Guadeloupe"
-	},
-	"GU": {
-		"name": "Guam"
-	},
-	"GG": {
-		"name": "Guernsey"
-	},
-	"GY": {
-		"name": "Gvajana"
-	},
-	"GT": {
-		"name": "Gvatemala"
-	},
-	"GN": {
-		"name": "Gvineja"
-	},
-	"GW": {
-		"name": "Gvineja Bissau"
-	},
-	"HT": {
-		"name": "Haiti"
-	},
-	"HN": {
-		"name": "Honduras"
-	},
-	"HR": {
-		"name": "Hrvaška"
-	},
-	"IN": {
-		"name": "Indija"
-	},
-	"ID": {
-		"name": "Indonezija"
-	},
-	"IQ": {
-		"name": "Irak"
-	},
-	"IR": {
-		"name": "Iran"
-	},
-	"IE": {
-		"name": "Irska"
-	},
-	"IS": {
-		"name": "Islandija"
-	},
-	"IT": {
-		"name": "Italija"
-	},
-	"IL": {
-		"name": "Izrael"
-	},
-	"JM": {
-		"name": "Jamajka"
-	},
-	"JP": {
-		"name": "Japonska"
-	},
-	"YE": {
-		"name": "Jemen"
-	},
-	"JE": {
-		"name": "Jersey"
-	},
-	"JO": {
-		"name": "Jordanija"
-	},
-	"GS": {
-		"name": "Južna Georgia in Južni Sandwichevi otoki"
-	},
-	"KR": {
-		"name": "Južna Koreja"
-	},
-	"SS": {
-		"name": "Južni Sudan"
-	},
-	"ZA": {
-		"name": "Južnoafriška republika"
-	},
-	"KY": {
-		"name": "Kajmanski otoki"
-	},
-	"KH": {
-		"name": "Kambodža"
-	},
-	"CM": {
-		"name": "Kamerun"
-	},
-	"CA": {
-		"name": "Kanada"
-	},
-	"IC": {
-		"name": "Kanarski otoki"
-	},
-	"QA": {
-		"name": "Katar"
-	},
-	"KZ": {
-		"name": "Kazahstan"
-	},
-	"KE": {
-		"name": "Kenija"
-	},
-	"KG": {
-		"name": "Kirgizistan"
-	},
-	"KI": {
-		"name": "Kiribati"
-	},
-	"CN": {
-		"name": "Kitajska"
-	},
-	"CC": {
-		"name": "Kokosovi otoki"
-	},
-	"CO": {
-		"name": "Kolumbija"
-	},
-	"KM": {
-		"name": "Komori"
-	},
-	"CG": {
-		"name": "Kongo - Brazzaville"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"CR": {
-		"name": "Kostarika"
-	},
-	"CU": {
-		"name": "Kuba"
-	},
-	"KW": {
-		"name": "Kuvajt"
-	},
-	"LA": {
-		"name": "Laos"
-	},
-	"LV": {
-		"name": "Latvija"
-	},
-	"LS": {
-		"name": "Lesoto"
-	},
-	"LB": {
-		"name": "Libanon"
-	},
-	"LR": {
-		"name": "Liberija"
-	},
-	"LY": {
-		"name": "Libija"
-	},
-	"LI": {
-		"name": "Lihtenštajn"
-	},
-	"LT": {
-		"name": "Litva"
-	},
-	"LU": {
-		"name": "Luksemburg"
-	},
-	"MG": {
-		"name": "Madagaskar"
-	},
-	"HU": {
-		"name": "Madžarska"
-	},
-	"MK": {
-		"name": "Makedonija"
-	},
-	"MW": {
-		"name": "Malavi"
-	},
-	"MV": {
-		"name": "Maldivi"
-	},
-	"MY": {
-		"name": "Malezija"
-	},
-	"ML": {
-		"name": "Mali"
-	},
-	"MT": {
-		"name": "Malta"
-	},
-	"MA": {
-		"name": "Maroko"
-	},
-	"MH": {
-		"name": "Marshallovi otoki"
-	},
-	"MQ": {
-		"name": "Martinik"
-	},
-	"MU": {
-		"name": "Mauritius"
-	},
-	"MR": {
-		"name": "Mavretanija"
-	},
-	"YT": {
-		"name": "Mayotte"
-	},
-	"MX": {
-		"name": "Mehika"
-	},
-	"FM": {
-		"name": "Mikronezija"
-	},
-	"MM": {
-		"name": "Mjanmar (Burma)"
-	},
-	"MD": {
-		"name": "Moldavija"
-	},
-	"MC": {
-		"name": "Monako"
-	},
-	"MN": {
-		"name": "Mongolija"
-	},
-	"MS": {
-		"name": "Montserrat"
-	},
-	"MZ": {
-		"name": "Mozambik"
-	},
-	"NA": {
-		"name": "Namibija"
-	},
-	"NR": {
-		"name": "Nauru"
-	},
-	"DE": {
-		"name": "Nemčija"
-	},
-	"NP": {
-		"name": "Nepal"
-	},
-	"NE": {
-		"name": "Niger"
-	},
-	"NG": {
-		"name": "Nigerija"
-	},
-	"NI": {
-		"name": "Nikaragva"
-	},
-	"NU": {
-		"name": "Niue"
-	},
-	"NL": {
-		"name": "Nizozemska"
-	},
-	"BQ": {
-		"name": "Nizozemski Karibi"
-	},
-	"NF": {
-		"name": "Norfolški otok"
-	},
-	"NO": {
-		"name": "Norveška"
-	},
-	"NC": {
-		"name": "Nova Kaledonija"
-	},
-	"NZ": {
-		"name": "Nova Zelandija"
-	},
-	"OM": {
-		"name": "Oman"
-	},
-	"AC": {
-		"name": "Otok Ascension"
-	},
-	"IM": {
-		"name": "Otok Man"
-	},
-	"TC": {
-		"name": "Otoki Turks in Caicos"
-	},
-	"PK": {
-		"name": "Pakistan"
-	},
-	"PW": {
-		"name": "Palau"
-	},
-	"PS": {
-		"name": "Palestinsko ozemlje"
-	},
-	"PA": {
-		"name": "Panama"
-	},
-	"PG": {
-		"name": "Papua Nova Gvineja"
-	},
-	"PY": {
-		"name": "Paragvaj"
-	},
-	"PE": {
-		"name": "Peru"
-	},
-	"PN": {
-		"name": "Pitcairn"
-	},
-	"PL": {
-		"name": "Poljska"
-	},
-	"PR": {
-		"name": "Portoriko"
-	},
-	"PT": {
-		"name": "Portugalska"
-	},
-	"HK": {
-		"name": "Posebno administrativno območje LR Kitajske Hongkong"
-	},
-	"MO": {
-		"name": "Posebno administrativno območje LR Kitajske Macao"
-	},
-	"RE": {
-		"name": "Reunion"
-	},
-	"RO": {
-		"name": "Romunija"
-	},
-	"RW": {
-		"name": "Ruanda"
-	},
-	"RU": {
-		"name": "Rusija"
-	},
-	"BL": {
-		"name": "Saint Barthélemy"
-	},
-	"KN": {
-		"name": "Saint Kitts in Nevis"
-	},
-	"LC": {
-		"name": "Saint Lucia"
-	},
-	"MF": {
-		"name": "Saint Martin"
-	},
-	"PM": {
-		"name": "Saint Pierre in Miquelon"
-	},
-	"VC": {
-		"name": "Saint Vincent in Grenadine"
-	},
-	"SB": {
-		"name": "Salomonovi otoki"
-	},
-	"SV": {
-		"name": "Salvador"
-	},
-	"WS": {
-		"name": "Samoa"
-	},
-	"SM": {
-		"name": "San Marino"
-	},
-	"ST": {
-		"name": "Sao Tome in Principe"
-	},
-	"SA": {
-		"name": "Saudova Arabija"
-	},
-	"SC": {
-		"name": "Sejšeli"
-	},
-	"SN": {
-		"name": "Senegal"
-	},
-	"KP": {
-		"name": "Severna Koreja"
-	},
-	"MP": {
-		"name": "Severni Marianski otoki"
-	},
-	"SL": {
-		"name": "Sierra Leone"
-	},
-	"SG": {
-		"name": "Singapur"
-	},
-	"SX": {
-		"name": "Sint Maarten"
-	},
-	"SY": {
-		"name": "Sirija"
-	},
-	"CI": {
-		"name": "Slonokoščena obala"
-	},
-	"SK": {
-		"name": "Slovaška"
-	},
-	"SI": {
-		"name": "Slovenija"
-	},
-	"SO": {
-		"name": "Somalija"
-	},
-	"RS": {
-		"name": "Srbija"
-	},
-	"UM": {
-		"name": "Stranski zunanji otoki Združenih držav"
-	},
-	"SD": {
-		"name": "Sudan"
-	},
-	"SR": {
-		"name": "Surinam"
-	},
-	"SJ": {
-		"name": "Svalbard in Jan Mayen"
-	},
-	"SZ": {
-		"name": "Svazi"
-	},
-	"SH": {
-		"name": "Sveta Helena"
-	},
-	"ES": {
-		"name": "Španija"
-	},
-	"LK": {
-		"name": "Šrilanka"
-	},
-	"SE": {
-		"name": "Švedska"
-	},
-	"CH": {
-		"name": "Švica"
-	},
-	"TJ": {
-		"name": "Tadžikistan"
-	},
-	"TH": {
-		"name": "Tajska"
-	},
-	"TW": {
-		"name": "Tajvan"
-	},
-	"TZ": {
-		"name": "Tanzanija"
-	},
-	"TL": {
-		"name": "Timor-Leste"
-	},
-	"TG": {
-		"name": "Togo"
-	},
-	"TK": {
-		"name": "Tokelau"
-	},
-	"TO": {
-		"name": "Tonga"
-	},
-	"TT": {
-		"name": "Trinidad in Tobago"
-	},
-	"TA": {
-		"name": "Tristan da Cunha"
-	},
-	"TN": {
-		"name": "Tunizija"
-	},
-	"TR": {
-		"name": "Turčija"
-	},
-	"TM": {
-		"name": "Turkmenistan"
-	},
-	"TV": {
-		"name": "Tuvalu"
-	},
-	"UG": {
-		"name": "Uganda"
-	},
-	"UA": {
-		"name": "Ukrajina"
-	},
-	"UY": {
-		"name": "Urugvaj"
-	},
-	"UZ": {
-		"name": "Uzbekistan"
-	},
-	"VU": {
-		"name": "Vanuatu"
-	},
-	"VA": {
-		"name": "Vatikan"
-	},
-	"VE": {
-		"name": "Venezuela"
-	},
-	"VN": {
-		"name": "Vietnam"
-	},
-	"WF": {
-		"name": "Wallis in Futuna"
-	},
-	"EH": {
-		"name": "Zahodna Sahara"
-	},
-	"ZM": {
-		"name": "Zambija"
-	},
-	"US": {
-		"name": "Združene države Amerike"
-	},
-	"AE": {
-		"name": "Združeni arabski emirati"
-	},
-	"GB": {
-		"name": "Združeno kraljestvo"
-	},
-	"CV": {
-		"name": "Zelenortski otoki"
-	},
-	"ZW": {
-		"name": "Zimbabve"
-	}
+	"AF": "Afganistan",
+	"AX": "Ålandski otoki",
+	"AL": "Albanija",
+	"DZ": "Alžirija",
+	"AS": "Ameriška Samoa",
+	"VI": "Ameriški Deviški otoki",
+	"AD": "Andora",
+	"AO": "Angola",
+	"AI": "Angvila",
+	"AQ": "Antarktika",
+	"AG": "Antigva in Barbuda",
+	"AR": "Argentina",
+	"AM": "Armenija",
+	"AW": "Aruba",
+	"AU": "Avstralija",
+	"AT": "Avstrija",
+	"AZ": "Azerbajdžan",
+	"BS": "Bahami",
+	"BH": "Bahrajn",
+	"BD": "Bangladeš",
+	"BB": "Barbados",
+	"BE": "Belgija",
+	"BZ": "Belize",
+	"BY": "Belorusija",
+	"BJ": "Benin",
+	"BM": "Bermudi",
+	"BW": "Bocvana",
+	"BG": "Bolgarija",
+	"BO": "Bolivija",
+	"BA": "Bosna in Hercegovina",
+	"CX": "Božični otok",
+	"BR": "Brazilija",
+	"VG": "Britanski Deviški otoki",
+	"IO": "Britansko ozemlje v Indijskem oceanu",
+	"BN": "Brunej",
+	"BF": "Burkina Faso",
+	"BI": "Burundi",
+	"BT": "Butan",
+	"CF": "Centralnoafriška republika",
+	"EA": "Ceuta in Melilla",
+	"CY": "Ciper",
+	"CK": "Cookovi otoki",
+	"CW": "Curaçao",
+	"TD": "Čad",
+	"CZ": "Češka",
+	"CL": "Čile",
+	"ME": "Črna gora",
+	"DK": "Danska",
+	"CD": "Demokratična republika Kongo",
+	"DG": "Diego Garcia",
+	"DM": "Dominika",
+	"DO": "Dominikanska republika",
+	"DJ": "Džibuti",
+	"EG": "Egipt",
+	"EC": "Ekvador",
+	"GQ": "Ekvatorialna Gvineja",
+	"ER": "Eritreja",
+	"EE": "Estonija",
+	"ET": "Etiopija",
+	"FK": "Falklandski otoki",
+	"FO": "Ferski otoki",
+	"FJ": "Fidži",
+	"PH": "Filipini",
+	"FI": "Finska",
+	"FR": "Francija",
+	"GF": "Francoska Gvajana",
+	"PF": "Francoska Polinezija",
+	"TF": "Francosko južno ozemlje",
+	"GA": "Gabon",
+	"GM": "Gambija",
+	"GH": "Gana",
+	"GI": "Gibraltar",
+	"GR": "Grčija",
+	"GD": "Grenada",
+	"GL": "Grenlandija",
+	"GE": "Gruzija",
+	"GP": "Guadeloupe",
+	"GU": "Guam",
+	"GG": "Guernsey",
+	"GY": "Gvajana",
+	"GT": "Gvatemala",
+	"GN": "Gvineja",
+	"GW": "Gvineja Bissau",
+	"HT": "Haiti",
+	"HN": "Honduras",
+	"HR": "Hrvaška",
+	"IN": "Indija",
+	"ID": "Indonezija",
+	"IQ": "Irak",
+	"IR": "Iran",
+	"IE": "Irska",
+	"IS": "Islandija",
+	"IT": "Italija",
+	"IL": "Izrael",
+	"JM": "Jamajka",
+	"JP": "Japonska",
+	"YE": "Jemen",
+	"JE": "Jersey",
+	"JO": "Jordanija",
+	"GS": "Južna Georgia in Južni Sandwichevi otoki",
+	"KR": "Južna Koreja",
+	"SS": "Južni Sudan",
+	"ZA": "Južnoafriška republika",
+	"KY": "Kajmanski otoki",
+	"KH": "Kambodža",
+	"CM": "Kamerun",
+	"CA": "Kanada",
+	"IC": "Kanarski otoki",
+	"QA": "Katar",
+	"KZ": "Kazahstan",
+	"KE": "Kenija",
+	"KG": "Kirgizistan",
+	"KI": "Kiribati",
+	"CN": "Kitajska",
+	"CC": "Kokosovi otoki",
+	"CO": "Kolumbija",
+	"KM": "Komori",
+	"CG": "Kongo - Brazzaville",
+	"XK": "Kosovo",
+	"CR": "Kostarika",
+	"CU": "Kuba",
+	"KW": "Kuvajt",
+	"LA": "Laos",
+	"LV": "Latvija",
+	"LS": "Lesoto",
+	"LB": "Libanon",
+	"LR": "Liberija",
+	"LY": "Libija",
+	"LI": "Lihtenštajn",
+	"LT": "Litva",
+	"LU": "Luksemburg",
+	"MG": "Madagaskar",
+	"HU": "Madžarska",
+	"MK": "Makedonija",
+	"MW": "Malavi",
+	"MV": "Maldivi",
+	"MY": "Malezija",
+	"ML": "Mali",
+	"MT": "Malta",
+	"MA": "Maroko",
+	"MH": "Marshallovi otoki",
+	"MQ": "Martinik",
+	"MU": "Mauritius",
+	"MR": "Mavretanija",
+	"YT": "Mayotte",
+	"MX": "Mehika",
+	"FM": "Mikronezija",
+	"MM": "Mjanmar (Burma)",
+	"MD": "Moldavija",
+	"MC": "Monako",
+	"MN": "Mongolija",
+	"MS": "Montserrat",
+	"MZ": "Mozambik",
+	"NA": "Namibija",
+	"NR": "Nauru",
+	"DE": "Nemčija",
+	"NP": "Nepal",
+	"NE": "Niger",
+	"NG": "Nigerija",
+	"NI": "Nikaragva",
+	"NU": "Niue",
+	"NL": "Nizozemska",
+	"BQ": "Nizozemski Karibi",
+	"NF": "Norfolški otok",
+	"NO": "Norveška",
+	"NC": "Nova Kaledonija",
+	"NZ": "Nova Zelandija",
+	"OM": "Oman",
+	"AC": "Otok Ascension",
+	"IM": "Otok Man",
+	"TC": "Otoki Turks in Caicos",
+	"PK": "Pakistan",
+	"PW": "Palau",
+	"PS": "Palestinsko ozemlje",
+	"PA": "Panama",
+	"PG": "Papua Nova Gvineja",
+	"PY": "Paragvaj",
+	"PE": "Peru",
+	"PN": "Pitcairn",
+	"PL": "Poljska",
+	"PR": "Portoriko",
+	"PT": "Portugalska",
+	"HK": "Posebno administrativno območje LR Kitajske Hongkong",
+	"MO": "Posebno administrativno območje LR Kitajske Macao",
+	"RE": "Reunion",
+	"RO": "Romunija",
+	"RW": "Ruanda",
+	"RU": "Rusija",
+	"BL": "Saint Barthélemy",
+	"KN": "Saint Kitts in Nevis",
+	"LC": "Saint Lucia",
+	"MF": "Saint Martin",
+	"PM": "Saint Pierre in Miquelon",
+	"VC": "Saint Vincent in Grenadine",
+	"SB": "Salomonovi otoki",
+	"SV": "Salvador",
+	"WS": "Samoa",
+	"SM": "San Marino",
+	"ST": "Sao Tome in Principe",
+	"SA": "Saudova Arabija",
+	"SC": "Sejšeli",
+	"SN": "Senegal",
+	"KP": "Severna Koreja",
+	"MP": "Severni Marianski otoki",
+	"SL": "Sierra Leone",
+	"SG": "Singapur",
+	"SX": "Sint Maarten",
+	"SY": "Sirija",
+	"CI": "Slonokoščena obala",
+	"SK": "Slovaška",
+	"SI": "Slovenija",
+	"SO": "Somalija",
+	"RS": "Srbija",
+	"UM": "Stranski zunanji otoki Združenih držav",
+	"SD": "Sudan",
+	"SR": "Surinam",
+	"SJ": "Svalbard in Jan Mayen",
+	"SZ": "Svazi",
+	"SH": "Sveta Helena",
+	"ES": "Španija",
+	"LK": "Šrilanka",
+	"SE": "Švedska",
+	"CH": "Švica",
+	"TJ": "Tadžikistan",
+	"TH": "Tajska",
+	"TW": "Tajvan",
+	"TZ": "Tanzanija",
+	"TL": "Timor-Leste",
+	"TG": "Togo",
+	"TK": "Tokelau",
+	"TO": "Tonga",
+	"TT": "Trinidad in Tobago",
+	"TA": "Tristan da Cunha",
+	"TN": "Tunizija",
+	"TR": "Turčija",
+	"TM": "Turkmenistan",
+	"TV": "Tuvalu",
+	"UG": "Uganda",
+	"UA": "Ukrajina",
+	"UY": "Urugvaj",
+	"UZ": "Uzbekistan",
+	"VU": "Vanuatu",
+	"VA": "Vatikan",
+	"VE": "Venezuela",
+	"VN": "Vietnam",
+	"WF": "Wallis in Futuna",
+	"EH": "Zahodna Sahara",
+	"ZM": "Zambija",
+	"US": "Združene države Amerike",
+	"AE": "Združeni arabski emirati",
+	"GB": "Združeno kraljestvo",
+	"CV": "Zelenortski otoki",
+	"ZW": "Zimbabve"
 }

@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "afrikaans"
-	},
-	"agq": {
-		"name": "agem"
-	},
-	"ak": {
-		"name": "akan"
-	},
-	"sq": {
-		"name": "albán"
-	},
-	"dsb": {
-		"name": "alsó-szorb"
-	},
-	"nds": {
-		"name": "alsónémet"
-	},
-	"nds-NL": {
-		"name": "alsószász"
-	},
-	"am": {
-		"name": "amhara"
-	},
-	"en": {
-		"name": "angol"
-	},
-	"ar": {
-		"name": "arab"
-	},
-	"asa": {
-		"name": "asu"
-	},
-	"as": {
-		"name": "asszámi"
-	},
-	"ast": {
-		"name": "asztúr"
-	},
-	"en-AU": {
-		"name": "ausztrál angol"
-	},
-	"az": {
-		"name": "azerbajdzsáni"
-	},
-	"ksf": {
-		"name": "bafia"
-	},
-	"bm": {
-		"name": "bambara"
-	},
-	"bn": {
-		"name": "bangla"
-	},
-	"bas": {
-		"name": "basza"
-	},
-	"eu": {
-		"name": "baszk"
-	},
-	"be": {
-		"name": "belarusz"
-	},
-	"bem": {
-		"name": "bemba"
-	},
-	"bez": {
-		"name": "bena"
-	},
-	"brx": {
-		"name": "bodo"
-	},
-	"bg": {
-		"name": "bolgár"
-	},
-	"bs": {
-		"name": "bosnyák"
-	},
-	"br": {
-		"name": "breton"
-	},
-	"en-GB": {
-		"name": "brit angol"
-	},
-	"my": {
-		"name": "burmai"
-	},
-	"ce": {
-		"name": "csecsen"
-	},
-	"cs": {
-		"name": "cseh"
-	},
-	"chr": {
-		"name": "cseroki"
-	},
-	"da": {
-		"name": "dán"
-	},
-	"dua": {
-		"name": "duala"
-	},
-	"dz": {
-		"name": "dzsonga"
-	},
-	"cu": {
-		"name": "egyházi szláv"
-	},
-	"zh-Hans": {
-		"name": "egyszerűsített kínai"
-	},
-	"ebu": {
-		"name": "embu"
-	},
-	"lrc": {
-		"name": "északi luri"
-	},
-	"nd": {
-		"name": "északi ndebele"
-	},
-	"se": {
-		"name": "északi számi"
-	},
-	"eo": {
-		"name": "eszperantó"
-	},
-	"et": {
-		"name": "észt"
-	},
-	"pt-PT": {
-		"name": "európai portugál"
-	},
-	"ee": {
-		"name": "eve"
-	},
-	"ewo": {
-		"name": "evondo"
-	},
-	"hsb": {
-		"name": "felső-szorb"
-	},
-	"fo": {
-		"name": "feröeri"
-	},
-	"fil": {
-		"name": "filippínó"
-	},
-	"fi": {
-		"name": "finn"
-	},
-	"nl-BE": {
-		"name": "flamand"
-	},
-	"fr": {
-		"name": "francia"
-	},
-	"fur": {
-		"name": "friuli"
-	},
-	"ff": {
-		"name": "fulani"
-	},
-	"gl": {
-		"name": "gallego"
-	},
-	"lg": {
-		"name": "ganda"
-	},
-	"el": {
-		"name": "görög"
-	},
-	"kl": {
-		"name": "grönlandi"
-	},
-	"ka": {
-		"name": "grúz"
-	},
-	"gu": {
-		"name": "gudzsaráti"
-	},
-	"guz": {
-		"name": "guszii"
-	},
-	"zh-Hant": {
-		"name": "hagyományos kínai"
-	},
-	"ha": {
-		"name": "hausza"
-	},
-	"haw": {
-		"name": "hawaii"
-	},
-	"he": {
-		"name": "héber"
-	},
-	"hi": {
-		"name": "hindi"
-	},
-	"nl": {
-		"name": "holland"
-	},
-	"hr": {
-		"name": "horvát"
-	},
-	"ig": {
-		"name": "igbó"
-	},
-	"smn": {
-		"name": "inari számi"
-	},
-	"id": {
-		"name": "indonéz"
-	},
-	"ga": {
-		"name": "ír"
-	},
-	"is": {
-		"name": "izlandi"
-	},
-	"yav": {
-		"name": "jangben"
-	},
-	"ja": {
-		"name": "japán"
-	},
-	"yi": {
-		"name": "jiddis"
-	},
-	"dyo": {
-		"name": "jola-fonyi"
-	},
-	"yo": {
-		"name": "joruba"
-	},
-	"kab": {
-		"name": "kabije"
-	},
-	"kea": {
-		"name": "kabuverdianu"
-	},
-	"kkj": {
-		"name": "kakó"
-	},
-	"kln": {
-		"name": "kalendzsin"
-	},
-	"kam": {
-		"name": "kamba"
-	},
-	"en-CA": {
-		"name": "kanadai angol"
-	},
-	"fr-CA": {
-		"name": "kanadai francia"
-	},
-	"kn": {
-		"name": "kannada"
-	},
-	"ks": {
-		"name": "kasmíri"
-	},
-	"ca": {
-		"name": "katalán"
-	},
-	"kk": {
-		"name": "kazah"
-	},
-	"qu": {
-		"name": "kecsua"
-	},
-	"km": {
-		"name": "khmer"
-	},
-	"cgg": {
-		"name": "kiga"
-	},
-	"ki": {
-		"name": "kikuju"
-	},
-	"zh": {
-		"name": "kínai"
-	},
-	"rw": {
-		"name": "kinyarvanda"
-	},
-	"ky": {
-		"name": "kirgiz"
-	},
-	"rn": {
-		"name": "kirundi"
-	},
-	"khq": {
-		"name": "kojra-csíni"
-	},
-	"ses": {
-		"name": "kojra-szenni"
-	},
-	"sw-CD": {
-		"name": "kongói szuahéli"
-	},
-	"kok": {
-		"name": "konkani"
-	},
-	"ko": {
-		"name": "koreai"
-	},
-	"kw": {
-		"name": "korni"
-	},
-	"ksh": {
-		"name": "kölsch"
-	},
-	"tzm": {
-		"name": "közép-atlaszi tamazigt"
-	},
-	"ckb": {
-		"name": "közép-ázsiai kurd"
-	},
-	"lkt": {
-		"name": "lakota"
-	},
-	"lag": {
-		"name": "langi"
-	},
-	"lo": {
-		"name": "lao"
-	},
-	"es-419": {
-		"name": "latin-amerikai spanyol"
-	},
-	"pl": {
-		"name": "lengyel"
-	},
-	"lv": {
-		"name": "lett"
-	},
-	"ln": {
-		"name": "lingala"
-	},
-	"lt": {
-		"name": "litván"
-	},
-	"lu": {
-		"name": "luba-katanga"
-	},
-	"luy": {
-		"name": "lujia"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "luxemburgi"
-	},
-	"mk": {
-		"name": "macedón"
-	},
-	"jmc": {
-		"name": "machame"
-	},
-	"hu": {
-		"name": "magyar"
-	},
-	"kde": {
-		"name": "makonde"
-	},
-	"mgh": {
-		"name": "makua-metó"
-	},
-	"ms": {
-		"name": "maláj"
-	},
-	"ml": {
-		"name": "malajálam"
-	},
-	"mg": {
-		"name": "malgas"
-	},
-	"mt": {
-		"name": "máltai"
-	},
-	"gv": {
-		"name": "man-szigeti"
-	},
-	"mr": {
-		"name": "maráthi"
-	},
-	"zgh": {
-		"name": "marokkói tamazight"
-	},
-	"mas": {
-		"name": "masai"
-	},
-	"mfe": {
-		"name": "mauritiusi kreol"
-	},
-	"mzn": {
-		"name": "mázanderáni"
-	},
-	"mer": {
-		"name": "meru"
-	},
-	"mgo": {
-		"name": "meta’"
-	},
-	"ro-MD": {
-		"name": "moldvai"
-	},
-	"mn": {
-		"name": "mongol"
-	},
-	"mua": {
-		"name": "mundang"
-	},
-	"naq": {
-		"name": "nama"
-	},
-	"de": {
-		"name": "német"
-	},
-	"ne": {
-		"name": "nepáli"
-	},
-	"nnh": {
-		"name": "ngiemboon"
-	},
-	"jgo": {
-		"name": "ngomba"
-	},
-	"nmg": {
-		"name": "ngumba"
-	},
-	"nb": {
-		"name": "norvég (bokmål)"
-	},
-	"nn": {
-		"name": "norvég (nynorsk)"
-	},
-	"nus": {
-		"name": "nuer"
-	},
-	"nyn": {
-		"name": "nyankole"
-	},
-	"fy": {
-		"name": "nyugati fríz"
-	},
-	"or": {
-		"name": "odia"
-	},
-	"it": {
-		"name": "olasz"
-	},
-	"om": {
-		"name": "oromo"
-	},
-	"ru": {
-		"name": "orosz"
-	},
-	"os": {
-		"name": "oszét"
-	},
-	"de-AT": {
-		"name": "osztrák német"
-	},
-	"hy": {
-		"name": "örmény"
-	},
-	"pa": {
-		"name": "pandzsábi"
-	},
-	"ps": {
-		"name": "pastu"
-	},
-	"fa": {
-		"name": "perzsa"
-	},
-	"prg": {
-		"name": "porosz"
-	},
-	"pt": {
-		"name": "portugál"
-	},
-	"rm": {
-		"name": "rétoromán"
-	},
-	"ro": {
-		"name": "román"
-	},
-	"rof": {
-		"name": "rombo"
-	},
-	"rwk": {
-		"name": "rwo"
-	},
-	"ksb": {
-		"name": "sambala"
-	},
-	"gd": {
-		"name": "skóciai kelta"
-	},
-	"sn": {
-		"name": "sona"
-	},
-	"es": {
-		"name": "spanyol"
-	},
-	"es-MX": {
-		"name": "spanyol (mexikói)"
-	},
-	"de-CH": {
-		"name": "svájci felnémet"
-	},
-	"fr-CH": {
-		"name": "svájci francia"
-	},
-	"gsw": {
-		"name": "svájci német"
-	},
-	"sv": {
-		"name": "svéd"
-	},
-	"sah": {
-		"name": "szaha"
-	},
-	"saq": {
-		"name": "szamburu"
-	},
-	"sg": {
-		"name": "szangó"
-	},
-	"sbp": {
-		"name": "szangu"
-	},
-	"twq": {
-		"name": "szavák"
-	},
-	"ii": {
-		"name": "szecsuán ji"
-	},
-	"seh": {
-		"name": "szena"
-	},
-	"sr": {
-		"name": "szerb"
-	},
-	"sd": {
-		"name": "szindhi"
-	},
-	"si": {
-		"name": "szingaléz"
-	},
-	"sk": {
-		"name": "szlovák"
-	},
-	"sl": {
-		"name": "szlovén"
-	},
-	"xog": {
-		"name": "szoga"
-	},
-	"so": {
-		"name": "szomáli"
-	},
-	"sw": {
-		"name": "szuahéli"
-	},
-	"shi": {
-		"name": "tachelhit"
-	},
-	"tg": {
-		"name": "tadzsik"
-	},
-	"dav": {
-		"name": "taita"
-	},
-	"ta": {
-		"name": "tamil"
-	},
-	"tt": {
-		"name": "tatár"
-	},
-	"te": {
-		"name": "telugu"
-	},
-	"teo": {
-		"name": "teszó"
-	},
-	"th": {
-		"name": "thai"
-	},
-	"bo": {
-		"name": "tibeti"
-	},
-	"ti": {
-		"name": "tigrinya"
-	},
-	"to": {
-		"name": "tongai"
-	},
-	"tr": {
-		"name": "török"
-	},
-	"tk": {
-		"name": "türkmén"
-	},
-	"ug": {
-		"name": "ujgur"
-	},
-	"uk": {
-		"name": "ukrán"
-	},
-	"ur": {
-		"name": "urdu"
-	},
-	"uz": {
-		"name": "üzbég"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "vietnami"
-	},
-	"vo": {
-		"name": "volapük"
-	},
-	"wo": {
-		"name": "volof"
-	},
-	"vun": {
-		"name": "vunjo"
-	},
-	"cy": {
-		"name": "walesi"
-	},
-	"wae": {
-		"name": "walser"
-	},
-	"dje": {
-		"name": "zarma"
-	},
-	"zu": {
-		"name": "zulu"
-	}
+	"af": "afrikaans",
+	"agq": "agem",
+	"ak": "akan",
+	"sq": "albán",
+	"dsb": "alsó-szorb",
+	"nds": "alsónémet",
+	"nds-NL": "alsószász",
+	"am": "amhara",
+	"en": "angol",
+	"ar": "arab",
+	"asa": "asu",
+	"as": "asszámi",
+	"ast": "asztúr",
+	"en-AU": "ausztrál angol",
+	"az": "azerbajdzsáni",
+	"ksf": "bafia",
+	"bm": "bambara",
+	"bn": "bangla",
+	"bas": "basza",
+	"eu": "baszk",
+	"be": "belarusz",
+	"bem": "bemba",
+	"bez": "bena",
+	"brx": "bodo",
+	"bg": "bolgár",
+	"bs": "bosnyák",
+	"br": "breton",
+	"en-GB": "brit angol",
+	"my": "burmai",
+	"ce": "csecsen",
+	"cs": "cseh",
+	"chr": "cseroki",
+	"da": "dán",
+	"dua": "duala",
+	"dz": "dzsonga",
+	"cu": "egyházi szláv",
+	"zh-Hans": "egyszerűsített kínai",
+	"ebu": "embu",
+	"lrc": "északi luri",
+	"nd": "északi ndebele",
+	"se": "északi számi",
+	"eo": "eszperantó",
+	"et": "észt",
+	"pt-PT": "európai portugál",
+	"ee": "eve",
+	"ewo": "evondo",
+	"hsb": "felső-szorb",
+	"fo": "feröeri",
+	"fil": "filippínó",
+	"fi": "finn",
+	"nl-BE": "flamand",
+	"fr": "francia",
+	"fur": "friuli",
+	"ff": "fulani",
+	"gl": "gallego",
+	"lg": "ganda",
+	"el": "görög",
+	"kl": "grönlandi",
+	"ka": "grúz",
+	"gu": "gudzsaráti",
+	"guz": "guszii",
+	"zh-Hant": "hagyományos kínai",
+	"ha": "hausza",
+	"haw": "hawaii",
+	"he": "héber",
+	"hi": "hindi",
+	"nl": "holland",
+	"hr": "horvát",
+	"ig": "igbó",
+	"smn": "inari számi",
+	"id": "indonéz",
+	"ga": "ír",
+	"is": "izlandi",
+	"yav": "jangben",
+	"ja": "japán",
+	"yi": "jiddis",
+	"dyo": "jola-fonyi",
+	"yo": "joruba",
+	"kab": "kabije",
+	"kea": "kabuverdianu",
+	"kkj": "kakó",
+	"kln": "kalendzsin",
+	"kam": "kamba",
+	"en-CA": "kanadai angol",
+	"fr-CA": "kanadai francia",
+	"kn": "kannada",
+	"ks": "kasmíri",
+	"ca": "katalán",
+	"kk": "kazah",
+	"qu": "kecsua",
+	"km": "khmer",
+	"cgg": "kiga",
+	"ki": "kikuju",
+	"zh": "kínai",
+	"rw": "kinyarvanda",
+	"ky": "kirgiz",
+	"rn": "kirundi",
+	"khq": "kojra-csíni",
+	"ses": "kojra-szenni",
+	"sw-CD": "kongói szuahéli",
+	"kok": "konkani",
+	"ko": "koreai",
+	"kw": "korni",
+	"ksh": "kölsch",
+	"tzm": "közép-atlaszi tamazigt",
+	"ckb": "közép-ázsiai kurd",
+	"lkt": "lakota",
+	"lag": "langi",
+	"lo": "lao",
+	"es-419": "latin-amerikai spanyol",
+	"pl": "lengyel",
+	"lv": "lett",
+	"ln": "lingala",
+	"lt": "litván",
+	"lu": "luba-katanga",
+	"luy": "lujia",
+	"luo": "Luo",
+	"lb": "luxemburgi",
+	"mk": "macedón",
+	"jmc": "machame",
+	"hu": "magyar",
+	"kde": "makonde",
+	"mgh": "makua-metó",
+	"ms": "maláj",
+	"ml": "malajálam",
+	"mg": "malgas",
+	"mt": "máltai",
+	"gv": "man-szigeti",
+	"mr": "maráthi",
+	"zgh": "marokkói tamazight",
+	"mas": "masai",
+	"mfe": "mauritiusi kreol",
+	"mzn": "mázanderáni",
+	"mer": "meru",
+	"mgo": "meta’",
+	"ro-MD": "moldvai",
+	"mn": "mongol",
+	"mua": "mundang",
+	"naq": "nama",
+	"de": "német",
+	"ne": "nepáli",
+	"nnh": "ngiemboon",
+	"jgo": "ngomba",
+	"nmg": "ngumba",
+	"nb": "norvég (bokmål)",
+	"nn": "norvég (nynorsk)",
+	"nus": "nuer",
+	"nyn": "nyankole",
+	"fy": "nyugati fríz",
+	"or": "odia",
+	"it": "olasz",
+	"om": "oromo",
+	"ru": "orosz",
+	"os": "oszét",
+	"de-AT": "osztrák német",
+	"hy": "örmény",
+	"pa": "pandzsábi",
+	"ps": "pastu",
+	"fa": "perzsa",
+	"prg": "porosz",
+	"pt": "portugál",
+	"rm": "rétoromán",
+	"ro": "román",
+	"rof": "rombo",
+	"rwk": "rwo",
+	"ksb": "sambala",
+	"gd": "skóciai kelta",
+	"sn": "sona",
+	"es": "spanyol",
+	"es-MX": "spanyol (mexikói)",
+	"de-CH": "svájci felnémet",
+	"fr-CH": "svájci francia",
+	"gsw": "svájci német",
+	"sv": "svéd",
+	"sah": "szaha",
+	"saq": "szamburu",
+	"sg": "szangó",
+	"sbp": "szangu",
+	"twq": "szavák",
+	"ii": "szecsuán ji",
+	"seh": "szena",
+	"sr": "szerb",
+	"sd": "szindhi",
+	"si": "szingaléz",
+	"sk": "szlovák",
+	"sl": "szlovén",
+	"xog": "szoga",
+	"so": "szomáli",
+	"sw": "szuahéli",
+	"shi": "tachelhit",
+	"tg": "tadzsik",
+	"dav": "taita",
+	"ta": "tamil",
+	"tt": "tatár",
+	"te": "telugu",
+	"teo": "teszó",
+	"th": "thai",
+	"bo": "tibeti",
+	"ti": "tigrinya",
+	"to": "tongai",
+	"tr": "török",
+	"tk": "türkmén",
+	"ug": "ujgur",
+	"uk": "ukrán",
+	"ur": "urdu",
+	"uz": "üzbég",
+	"vai": "Vai",
+	"vi": "vietnami",
+	"vo": "volapük",
+	"wo": "volof",
+	"vun": "vunjo",
+	"cy": "walesi",
+	"wae": "walser",
+	"dje": "zarma",
+	"zu": "zulu"
 }

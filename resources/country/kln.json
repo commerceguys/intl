@@ -1,761 +1,255 @@
 {
-	"AX": {
-		"name": "Åland Islands"
-	},
-	"AQ": {
-		"name": "Antarctica"
-	},
-	"AC": {
-		"name": "Ascension Island"
-	},
-	"IC": {
-		"name": "Canary Islands"
-	},
-	"BQ": {
-		"name": "Caribbean Netherlands"
-	},
-	"EA": {
-		"name": "Ceuta & Melilla"
-	},
-	"CX": {
-		"name": "Christmas Island"
-	},
-	"CC": {
-		"name": "Cocos (Keeling) Islands"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"DG": {
-		"name": "Diego Garcia"
-	},
-	"AF": {
-		"name": "Emetab Afghanistan"
-	},
-	"CF": {
-		"name": "Emetab Afrika nebo Kwen"
-	},
-	"ZA": {
-		"name": "Emetab Afrika nebo Murot tai"
-	},
-	"AL": {
-		"name": "Emetab Albania"
-	},
-	"DZ": {
-		"name": "Emetab Algeria"
-	},
-	"AS": {
-		"name": "Emetab American Samoa"
-	},
-	"US": {
-		"name": "Emetab amerika"
-	},
-	"AD": {
-		"name": "Emetab Andorra"
-	},
-	"AO": {
-		"name": "Emetab Angola"
-	},
-	"AI": {
-		"name": "Emetab Anguilla"
-	},
-	"AG": {
-		"name": "Emetab Antigua ak Barbuda"
-	},
-	"AR": {
-		"name": "Emetab Argentina"
-	},
-	"AM": {
-		"name": "Emetab Armenia"
-	},
-	"AW": {
-		"name": "Emetab Aruba"
-	},
-	"AU": {
-		"name": "Emetab Australia"
-	},
-	"AT": {
-		"name": "Emetab Austria"
-	},
-	"AZ": {
-		"name": "Emetab Azerbaijan"
-	},
-	"BS": {
-		"name": "Emetab Bahamas"
-	},
-	"BH": {
-		"name": "Emetab Bahrain"
-	},
-	"BD": {
-		"name": "Emetab Bangladesh"
-	},
-	"BB": {
-		"name": "Emetab Barbados"
-	},
-	"BY": {
-		"name": "Emetab Belarus"
-	},
-	"BE": {
-		"name": "Emetab Belgium"
-	},
-	"BZ": {
-		"name": "Emetab Belize"
-	},
-	"BJ": {
-		"name": "Emetab Benin"
-	},
-	"BM": {
-		"name": "Emetab Bermuda"
-	},
-	"BT": {
-		"name": "Emetab Bhutan"
-	},
-	"BO": {
-		"name": "Emetab Bolivia"
-	},
-	"BA": {
-		"name": "Emetab Bosnia ak Herzegovina"
-	},
-	"BW": {
-		"name": "Emetab Botswana"
-	},
-	"BR": {
-		"name": "Emetab Brazil"
-	},
-	"BN": {
-		"name": "Emetab Brunei"
-	},
-	"BG": {
-		"name": "Emetab Bulgaria"
-	},
-	"BF": {
-		"name": "Emetab Burkina Faso"
-	},
-	"BI": {
-		"name": "Emetab Burundi"
-	},
-	"KH": {
-		"name": "Emetab Cambodia"
-	},
-	"CM": {
-		"name": "Emetab Cameroon"
-	},
-	"CA": {
-		"name": "Emetab Canada"
-	},
-	"TD": {
-		"name": "Emetab Chad"
-	},
-	"CL": {
-		"name": "Emetab Chile"
-	},
-	"CN": {
-		"name": "Emetab China"
-	},
-	"CO": {
-		"name": "Emetab Colombia"
-	},
-	"KM": {
-		"name": "Emetab Comoros"
-	},
-	"CG": {
-		"name": "Emetab Congo - Brazzaville"
-	},
-	"CD": {
-		"name": "Emetab Congo - Kinshasa"
-	},
-	"CR": {
-		"name": "Emetab Costa Rica"
-	},
-	"CI": {
-		"name": "Emetab Côte d’Ivoire"
-	},
-	"HR": {
-		"name": "Emetab Croatia"
-	},
-	"CU": {
-		"name": "Emetab Cuba"
-	},
-	"CY": {
-		"name": "Emetab Cyprus"
-	},
-	"CZ": {
-		"name": "Emetab Czech Republic"
-	},
-	"DK": {
-		"name": "Emetab Denmark"
-	},
-	"DJ": {
-		"name": "Emetab Djibouti"
-	},
-	"DM": {
-		"name": "Emetab Dominica"
-	},
-	"DO": {
-		"name": "Emetab Dominican Republic"
-	},
-	"EC": {
-		"name": "Emetab Ecuador"
-	},
-	"SV": {
-		"name": "Emetab El Salvador"
-	},
-	"GQ": {
-		"name": "Emetab Equatorial Guinea"
-	},
-	"ER": {
-		"name": "Emetab Eritrea"
-	},
-	"EE": {
-		"name": "Emetab Estonia"
-	},
-	"ET": {
-		"name": "Emetab Ethiopia"
-	},
-	"FJ": {
-		"name": "Emetab Fiji"
-	},
-	"FI": {
-		"name": "Emetab Finland"
-	},
-	"FR": {
-		"name": "Emetab France"
-	},
-	"GA": {
-		"name": "Emetab Gabon"
-	},
-	"GM": {
-		"name": "Emetab Gambia"
-	},
-	"GE": {
-		"name": "Emetab Georgia"
-	},
-	"DE": {
-		"name": "Emetab Geruman"
-	},
-	"GH": {
-		"name": "Emetab Ghana"
-	},
-	"GI": {
-		"name": "Emetab Gibraltar"
-	},
-	"GR": {
-		"name": "Emetab Greece"
-	},
-	"GL": {
-		"name": "Emetab Greenland"
-	},
-	"GD": {
-		"name": "Emetab Grenada"
-	},
-	"GP": {
-		"name": "Emetab Guadeloupe"
-	},
-	"GU": {
-		"name": "Emetab Guam"
-	},
-	"GT": {
-		"name": "Emetab Guatemala"
-	},
-	"GF": {
-		"name": "Emetab Guiana nebo Ufaransa"
-	},
-	"GN": {
-		"name": "Emetab Guinea"
-	},
-	"GW": {
-		"name": "Emetab Guinea-Bissau"
-	},
-	"GY": {
-		"name": "Emetab Guyana"
-	},
-	"HT": {
-		"name": "Emetab Haiti"
-	},
-	"SH": {
-		"name": "Emetab Helena Ne tilil"
-	},
-	"NL": {
-		"name": "Emetab Holand"
-	},
-	"HN": {
-		"name": "Emetab Honduras"
-	},
-	"HU": {
-		"name": "Emetab Hungary"
-	},
-	"IS": {
-		"name": "Emetab Iceland"
-	},
-	"IN": {
-		"name": "Emetab India"
-	},
-	"ID": {
-		"name": "Emetab Indonesia"
-	},
-	"IR": {
-		"name": "Emetab Iran"
-	},
-	"IQ": {
-		"name": "Emetab Iraq"
-	},
-	"IE": {
-		"name": "Emetab Ireland"
-	},
-	"IL": {
-		"name": "Emetab Israel"
-	},
-	"IT": {
-		"name": "Emetab Italy"
-	},
-	"JM": {
-		"name": "Emetab Jamaica"
-	},
-	"JP": {
-		"name": "Emetab Japan"
-	},
-	"JO": {
-		"name": "Emetab Jordan"
-	},
-	"KZ": {
-		"name": "Emetab Kazakhstan"
-	},
-	"KE": {
-		"name": "Emetab Kenya"
-	},
-	"AE": {
-		"name": "Emetab kibagenge nebo arabuk"
-	},
-	"GB": {
-		"name": "Emetab Kibagenge nebo Uingereza"
-	},
-	"KI": {
-		"name": "Emetab Kiribati"
-	},
-	"KP": {
-		"name": "Emetab Korea nebo murot katam"
-	},
-	"KR": {
-		"name": "Emetab korea nebo murot tai"
-	},
-	"KW": {
-		"name": "Emetab Kuwait"
-	},
-	"KG": {
-		"name": "Emetab Kyrgyzstan"
-	},
-	"LA": {
-		"name": "Emetab Laos"
-	},
-	"LV": {
-		"name": "Emetab Latvia"
-	},
-	"LB": {
-		"name": "Emetab Lebanon"
-	},
-	"LS": {
-		"name": "Emetab Lesotho"
-	},
-	"LR": {
-		"name": "Emetab Liberia"
-	},
-	"LY": {
-		"name": "Emetab Libya"
-	},
-	"LI": {
-		"name": "Emetab Liechtenstein"
-	},
-	"LT": {
-		"name": "Emetab Lithuania"
-	},
-	"LC": {
-		"name": "Emetab Lucia Ne"
-	},
-	"LU": {
-		"name": "Emetab Luxembourg"
-	},
-	"MK": {
-		"name": "Emetab Macedonia"
-	},
-	"MG": {
-		"name": "Emetab Madagascar"
-	},
-	"MW": {
-		"name": "Emetab Malawi"
-	},
-	"MY": {
-		"name": "Emetab Malaysia"
-	},
-	"MV": {
-		"name": "Emetab Maldives"
-	},
-	"ML": {
-		"name": "Emetab Mali"
-	},
-	"MT": {
-		"name": "Emetab Malta"
-	},
-	"MQ": {
-		"name": "Emetab Martinique"
-	},
-	"MR": {
-		"name": "Emetab Mauritania"
-	},
-	"MU": {
-		"name": "Emetab Mauritius"
-	},
-	"YT": {
-		"name": "Emetab Mayotte"
-	},
-	"MX": {
-		"name": "Emetab Mexico"
-	},
-	"FM": {
-		"name": "Emetab Micronesia"
-	},
-	"EG": {
-		"name": "Emetab Misiri"
-	},
-	"MD": {
-		"name": "Emetab Moldova"
-	},
-	"MC": {
-		"name": "Emetab Monaco"
-	},
-	"MN": {
-		"name": "Emetab Mongolia"
-	},
-	"MS": {
-		"name": "Emetab Montserrat"
-	},
-	"MA": {
-		"name": "Emetab Morocco"
-	},
-	"MZ": {
-		"name": "Emetab Mozambique"
-	},
-	"MM": {
-		"name": "Emetab Myanmar"
-	},
-	"NA": {
-		"name": "Emetab Namibia"
-	},
-	"NR": {
-		"name": "Emetab Nauru"
-	},
-	"NP": {
-		"name": "Emetab Nepal"
-	},
-	"NC": {
-		"name": "Emetab New Caledonia"
-	},
-	"NZ": {
-		"name": "Emetab New Zealand"
-	},
-	"NI": {
-		"name": "Emetab Nicaragua"
-	},
-	"NE": {
-		"name": "Emetab niger"
-	},
-	"NG": {
-		"name": "Emetab Nigeria"
-	},
-	"NU": {
-		"name": "Emetab Niue"
-	},
-	"NO": {
-		"name": "Emetab Norway"
-	},
-	"OM": {
-		"name": "Emetab Oman"
-	},
-	"PK": {
-		"name": "Emetab Pakistan"
-	},
-	"PW": {
-		"name": "Emetab Palau"
-	},
-	"PS": {
-		"name": "Emetab Palestine"
-	},
-	"PA": {
-		"name": "Emetab Panama"
-	},
-	"PG": {
-		"name": "Emetab Papua New Guinea"
-	},
-	"PY": {
-		"name": "Emetab Paraguay"
-	},
-	"PE": {
-		"name": "Emetab Peru"
-	},
-	"PM": {
-		"name": "Emetab Peter Ne titil ak Miquelon"
-	},
-	"PH": {
-		"name": "Emetab Philippines"
-	},
-	"PN": {
-		"name": "Emetab Pitcairn"
-	},
-	"PL": {
-		"name": "Emetab Poland"
-	},
-	"PF": {
-		"name": "Emetab Polynesia nebo ufaransa"
-	},
-	"PT": {
-		"name": "Emetab Portugal"
-	},
-	"PR": {
-		"name": "Emetab Puerto Rico"
-	},
-	"QA": {
-		"name": "Emetab Qatar"
-	},
-	"RE": {
-		"name": "Emetab Réunion"
-	},
-	"RO": {
-		"name": "Emetab Romania"
-	},
-	"RU": {
-		"name": "Emetab Russia"
-	},
-	"RW": {
-		"name": "Emetab Rwanda"
-	},
-	"KN": {
-		"name": "Emetab Saint Kitts ak Nevis"
-	},
-	"WS": {
-		"name": "Emetab Samoa"
-	},
-	"SM": {
-		"name": "Emetab San Marino"
-	},
-	"ST": {
-		"name": "Emetab São Tomé and Príncipe"
-	},
-	"SA": {
-		"name": "Emetab Saudi Arabia"
-	},
-	"SN": {
-		"name": "Emetab Senegal"
-	},
-	"SC": {
-		"name": "Emetab Seychelles"
-	},
-	"SL": {
-		"name": "Emetab Sierra Leone"
-	},
-	"SG": {
-		"name": "Emetab Singapore"
-	},
-	"SK": {
-		"name": "Emetab Slovakia"
-	},
-	"SI": {
-		"name": "Emetab Slovenia"
-	},
-	"SO": {
-		"name": "Emetab Somalia"
-	},
-	"ES": {
-		"name": "Emetab Spain"
-	},
-	"LK": {
-		"name": "Emetab Sri Lanka"
-	},
-	"SD": {
-		"name": "Emetab Sudan"
-	},
-	"SR": {
-		"name": "Emetab Suriname"
-	},
-	"SZ": {
-		"name": "Emetab Swaziland"
-	},
-	"SE": {
-		"name": "Emetab Sweden"
-	},
-	"CH": {
-		"name": "Emetab Switzerland"
-	},
-	"SY": {
-		"name": "Emetab Syria"
-	},
-	"TW": {
-		"name": "Emetab Taiwan"
-	},
-	"TJ": {
-		"name": "Emetab Tajikistan"
-	},
-	"TZ": {
-		"name": "Emetab Tanzania"
-	},
-	"TH": {
-		"name": "Emetab Thailand"
-	},
-	"TL": {
-		"name": "Emetab Timor nebo Murot tai"
-	},
-	"TG": {
-		"name": "Emetab Togo"
-	},
-	"TK": {
-		"name": "Emetab Tokelau"
-	},
-	"TO": {
-		"name": "Emetab Tonga"
-	},
-	"TT": {
-		"name": "Emetab Trinidad ak Tobago"
-	},
-	"TN": {
-		"name": "Emetab Tunisia"
-	},
-	"TR": {
-		"name": "Emetab Turkey"
-	},
-	"TM": {
-		"name": "Emetab Turkmenistan"
-	},
-	"TV": {
-		"name": "Emetab Tuvalu"
-	},
-	"UG": {
-		"name": "Emetab Uganda"
-	},
-	"UA": {
-		"name": "Emetab Ukrainie"
-	},
-	"UY": {
-		"name": "Emetab Uruguay"
-	},
-	"UZ": {
-		"name": "Emetab Uzibekistani"
-	},
-	"VU": {
-		"name": "Emetab Vanuatu"
-	},
-	"VA": {
-		"name": "Emetab Vatican"
-	},
-	"VE": {
-		"name": "Emetab Venezuela"
-	},
-	"VN": {
-		"name": "Emetab Vietnam"
-	},
-	"VC": {
-		"name": "Emetab Vincent netilil ak Grenadines"
-	},
-	"WF": {
-		"name": "Emetab Walis ak Futuna"
-	},
-	"YE": {
-		"name": "Emetab Yemen"
-	},
-	"ZM": {
-		"name": "Emetab Zambia"
-	},
-	"ZW": {
-		"name": "Emetab Zimbabwe"
-	},
-	"FO": {
-		"name": "Faroe Islands"
-	},
-	"TF": {
-		"name": "French Southern Territories"
-	},
-	"GG": {
-		"name": "Guernsey"
-	},
-	"HK": {
-		"name": "Hong Kong SAR China"
-	},
-	"MP": {
-		"name": "Ikwembeiyotab Mariana nebo murot katam"
-	},
-	"MH": {
-		"name": "Ikwembeiyotab Marshall"
-	},
-	"NF": {
-		"name": "Ikwembeiyotab Norfork"
-	},
-	"SB": {
-		"name": "Ikwembeiyotab Solomon"
-	},
-	"TC": {
-		"name": "Ikwembeiyotab Turks ak Caicos"
-	},
-	"VG": {
-		"name": "Ikwembeyotab British Virgin"
-	},
-	"CV": {
-		"name": "Ikwembeyotab Cape Verde"
-	},
-	"KY": {
-		"name": "Ikwembeyotab Cayman"
-	},
-	"CK": {
-		"name": "Ikwembeyotab Cook"
-	},
-	"FK": {
-		"name": "Ikwembeyotab Falkland"
-	},
-	"VI": {
-		"name": "Ikwemweiyotab Amerika"
-	},
-	"IM": {
-		"name": "Isle of Man"
-	},
-	"JE": {
-		"name": "Jersey"
-	},
-	"IO": {
-		"name": "Kebebertab araraitab indian Ocean nebo Uingeresa"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"MO": {
-		"name": "Macau SAR China"
-	},
-	"ME": {
-		"name": "Montenegro"
-	},
-	"RS": {
-		"name": "Serbia"
-	},
-	"SX": {
-		"name": "Sint Maarten"
-	},
-	"GS": {
-		"name": "South Georgia & South Sandwich Islands"
-	},
-	"SS": {
-		"name": "South Sudan"
-	},
-	"BL": {
-		"name": "St. Barthélemy"
-	},
-	"MF": {
-		"name": "St. Martin"
-	},
-	"SJ": {
-		"name": "Svalbard & Jan Mayen"
-	},
-	"TA": {
-		"name": "Tristan da Cunha"
-	},
-	"UM": {
-		"name": "U.S. Outlying Islands"
-	},
-	"EH": {
-		"name": "Western Sahara"
-	}
+	"AX": "Åland Islands",
+	"AQ": "Antarctica",
+	"AC": "Ascension Island",
+	"IC": "Canary Islands",
+	"BQ": "Caribbean Netherlands",
+	"EA": "Ceuta & Melilla",
+	"CX": "Christmas Island",
+	"CC": "Cocos (Keeling) Islands",
+	"CW": "Curaçao",
+	"DG": "Diego Garcia",
+	"AF": "Emetab Afghanistan",
+	"CF": "Emetab Afrika nebo Kwen",
+	"ZA": "Emetab Afrika nebo Murot tai",
+	"AL": "Emetab Albania",
+	"DZ": "Emetab Algeria",
+	"AS": "Emetab American Samoa",
+	"US": "Emetab amerika",
+	"AD": "Emetab Andorra",
+	"AO": "Emetab Angola",
+	"AI": "Emetab Anguilla",
+	"AG": "Emetab Antigua ak Barbuda",
+	"AR": "Emetab Argentina",
+	"AM": "Emetab Armenia",
+	"AW": "Emetab Aruba",
+	"AU": "Emetab Australia",
+	"AT": "Emetab Austria",
+	"AZ": "Emetab Azerbaijan",
+	"BS": "Emetab Bahamas",
+	"BH": "Emetab Bahrain",
+	"BD": "Emetab Bangladesh",
+	"BB": "Emetab Barbados",
+	"BY": "Emetab Belarus",
+	"BE": "Emetab Belgium",
+	"BZ": "Emetab Belize",
+	"BJ": "Emetab Benin",
+	"BM": "Emetab Bermuda",
+	"BT": "Emetab Bhutan",
+	"BO": "Emetab Bolivia",
+	"BA": "Emetab Bosnia ak Herzegovina",
+	"BW": "Emetab Botswana",
+	"BR": "Emetab Brazil",
+	"BN": "Emetab Brunei",
+	"BG": "Emetab Bulgaria",
+	"BF": "Emetab Burkina Faso",
+	"BI": "Emetab Burundi",
+	"KH": "Emetab Cambodia",
+	"CM": "Emetab Cameroon",
+	"CA": "Emetab Canada",
+	"TD": "Emetab Chad",
+	"CL": "Emetab Chile",
+	"CN": "Emetab China",
+	"CO": "Emetab Colombia",
+	"KM": "Emetab Comoros",
+	"CG": "Emetab Congo - Brazzaville",
+	"CD": "Emetab Congo - Kinshasa",
+	"CR": "Emetab Costa Rica",
+	"CI": "Emetab Côte d’Ivoire",
+	"HR": "Emetab Croatia",
+	"CU": "Emetab Cuba",
+	"CY": "Emetab Cyprus",
+	"CZ": "Emetab Czech Republic",
+	"DK": "Emetab Denmark",
+	"DJ": "Emetab Djibouti",
+	"DM": "Emetab Dominica",
+	"DO": "Emetab Dominican Republic",
+	"EC": "Emetab Ecuador",
+	"SV": "Emetab El Salvador",
+	"GQ": "Emetab Equatorial Guinea",
+	"ER": "Emetab Eritrea",
+	"EE": "Emetab Estonia",
+	"ET": "Emetab Ethiopia",
+	"FJ": "Emetab Fiji",
+	"FI": "Emetab Finland",
+	"FR": "Emetab France",
+	"GA": "Emetab Gabon",
+	"GM": "Emetab Gambia",
+	"GE": "Emetab Georgia",
+	"DE": "Emetab Geruman",
+	"GH": "Emetab Ghana",
+	"GI": "Emetab Gibraltar",
+	"GR": "Emetab Greece",
+	"GL": "Emetab Greenland",
+	"GD": "Emetab Grenada",
+	"GP": "Emetab Guadeloupe",
+	"GU": "Emetab Guam",
+	"GT": "Emetab Guatemala",
+	"GF": "Emetab Guiana nebo Ufaransa",
+	"GN": "Emetab Guinea",
+	"GW": "Emetab Guinea-Bissau",
+	"GY": "Emetab Guyana",
+	"HT": "Emetab Haiti",
+	"SH": "Emetab Helena Ne tilil",
+	"NL": "Emetab Holand",
+	"HN": "Emetab Honduras",
+	"HU": "Emetab Hungary",
+	"IS": "Emetab Iceland",
+	"IN": "Emetab India",
+	"ID": "Emetab Indonesia",
+	"IR": "Emetab Iran",
+	"IQ": "Emetab Iraq",
+	"IE": "Emetab Ireland",
+	"IL": "Emetab Israel",
+	"IT": "Emetab Italy",
+	"JM": "Emetab Jamaica",
+	"JP": "Emetab Japan",
+	"JO": "Emetab Jordan",
+	"KZ": "Emetab Kazakhstan",
+	"KE": "Emetab Kenya",
+	"AE": "Emetab kibagenge nebo arabuk",
+	"GB": "Emetab Kibagenge nebo Uingereza",
+	"KI": "Emetab Kiribati",
+	"KP": "Emetab Korea nebo murot katam",
+	"KR": "Emetab korea nebo murot tai",
+	"KW": "Emetab Kuwait",
+	"KG": "Emetab Kyrgyzstan",
+	"LA": "Emetab Laos",
+	"LV": "Emetab Latvia",
+	"LB": "Emetab Lebanon",
+	"LS": "Emetab Lesotho",
+	"LR": "Emetab Liberia",
+	"LY": "Emetab Libya",
+	"LI": "Emetab Liechtenstein",
+	"LT": "Emetab Lithuania",
+	"LC": "Emetab Lucia Ne",
+	"LU": "Emetab Luxembourg",
+	"MK": "Emetab Macedonia",
+	"MG": "Emetab Madagascar",
+	"MW": "Emetab Malawi",
+	"MY": "Emetab Malaysia",
+	"MV": "Emetab Maldives",
+	"ML": "Emetab Mali",
+	"MT": "Emetab Malta",
+	"MQ": "Emetab Martinique",
+	"MR": "Emetab Mauritania",
+	"MU": "Emetab Mauritius",
+	"YT": "Emetab Mayotte",
+	"MX": "Emetab Mexico",
+	"FM": "Emetab Micronesia",
+	"EG": "Emetab Misiri",
+	"MD": "Emetab Moldova",
+	"MC": "Emetab Monaco",
+	"MN": "Emetab Mongolia",
+	"MS": "Emetab Montserrat",
+	"MA": "Emetab Morocco",
+	"MZ": "Emetab Mozambique",
+	"MM": "Emetab Myanmar",
+	"NA": "Emetab Namibia",
+	"NR": "Emetab Nauru",
+	"NP": "Emetab Nepal",
+	"NC": "Emetab New Caledonia",
+	"NZ": "Emetab New Zealand",
+	"NI": "Emetab Nicaragua",
+	"NE": "Emetab niger",
+	"NG": "Emetab Nigeria",
+	"NU": "Emetab Niue",
+	"NO": "Emetab Norway",
+	"OM": "Emetab Oman",
+	"PK": "Emetab Pakistan",
+	"PW": "Emetab Palau",
+	"PS": "Emetab Palestine",
+	"PA": "Emetab Panama",
+	"PG": "Emetab Papua New Guinea",
+	"PY": "Emetab Paraguay",
+	"PE": "Emetab Peru",
+	"PM": "Emetab Peter Ne titil ak Miquelon",
+	"PH": "Emetab Philippines",
+	"PN": "Emetab Pitcairn",
+	"PL": "Emetab Poland",
+	"PF": "Emetab Polynesia nebo ufaransa",
+	"PT": "Emetab Portugal",
+	"PR": "Emetab Puerto Rico",
+	"QA": "Emetab Qatar",
+	"RE": "Emetab Réunion",
+	"RO": "Emetab Romania",
+	"RU": "Emetab Russia",
+	"RW": "Emetab Rwanda",
+	"KN": "Emetab Saint Kitts ak Nevis",
+	"WS": "Emetab Samoa",
+	"SM": "Emetab San Marino",
+	"ST": "Emetab São Tomé and Príncipe",
+	"SA": "Emetab Saudi Arabia",
+	"SN": "Emetab Senegal",
+	"SC": "Emetab Seychelles",
+	"SL": "Emetab Sierra Leone",
+	"SG": "Emetab Singapore",
+	"SK": "Emetab Slovakia",
+	"SI": "Emetab Slovenia",
+	"SO": "Emetab Somalia",
+	"ES": "Emetab Spain",
+	"LK": "Emetab Sri Lanka",
+	"SD": "Emetab Sudan",
+	"SR": "Emetab Suriname",
+	"SZ": "Emetab Swaziland",
+	"SE": "Emetab Sweden",
+	"CH": "Emetab Switzerland",
+	"SY": "Emetab Syria",
+	"TW": "Emetab Taiwan",
+	"TJ": "Emetab Tajikistan",
+	"TZ": "Emetab Tanzania",
+	"TH": "Emetab Thailand",
+	"TL": "Emetab Timor nebo Murot tai",
+	"TG": "Emetab Togo",
+	"TK": "Emetab Tokelau",
+	"TO": "Emetab Tonga",
+	"TT": "Emetab Trinidad ak Tobago",
+	"TN": "Emetab Tunisia",
+	"TR": "Emetab Turkey",
+	"TM": "Emetab Turkmenistan",
+	"TV": "Emetab Tuvalu",
+	"UG": "Emetab Uganda",
+	"UA": "Emetab Ukrainie",
+	"UY": "Emetab Uruguay",
+	"UZ": "Emetab Uzibekistani",
+	"VU": "Emetab Vanuatu",
+	"VA": "Emetab Vatican",
+	"VE": "Emetab Venezuela",
+	"VN": "Emetab Vietnam",
+	"VC": "Emetab Vincent netilil ak Grenadines",
+	"WF": "Emetab Walis ak Futuna",
+	"YE": "Emetab Yemen",
+	"ZM": "Emetab Zambia",
+	"ZW": "Emetab Zimbabwe",
+	"FO": "Faroe Islands",
+	"TF": "French Southern Territories",
+	"GG": "Guernsey",
+	"HK": "Hong Kong SAR China",
+	"MP": "Ikwembeiyotab Mariana nebo murot katam",
+	"MH": "Ikwembeiyotab Marshall",
+	"NF": "Ikwembeiyotab Norfork",
+	"SB": "Ikwembeiyotab Solomon",
+	"TC": "Ikwembeiyotab Turks ak Caicos",
+	"VG": "Ikwembeyotab British Virgin",
+	"CV": "Ikwembeyotab Cape Verde",
+	"KY": "Ikwembeyotab Cayman",
+	"CK": "Ikwembeyotab Cook",
+	"FK": "Ikwembeyotab Falkland",
+	"VI": "Ikwemweiyotab Amerika",
+	"IM": "Isle of Man",
+	"JE": "Jersey",
+	"IO": "Kebebertab araraitab indian Ocean nebo Uingeresa",
+	"XK": "Kosovo",
+	"MO": "Macau SAR China",
+	"ME": "Montenegro",
+	"RS": "Serbia",
+	"SX": "Sint Maarten",
+	"GS": "South Georgia & South Sandwich Islands",
+	"SS": "South Sudan",
+	"BL": "St. Barthélemy",
+	"MF": "St. Martin",
+	"SJ": "Svalbard & Jan Mayen",
+	"TA": "Tristan da Cunha",
+	"UM": "U.S. Outlying Islands",
+	"EH": "Western Sahara"
 }

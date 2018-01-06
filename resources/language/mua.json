@@ -1,644 +1,216 @@
 {
-	"af": {
-		"name": "Afrikaans"
-	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "akaŋ"
-	},
-	"sq": {
-		"name": "Albanian"
-	},
-	"am": {
-		"name": "amharik"
-	},
-	"ar": {
-		"name": "arabiya"
-	},
-	"hy": {
-		"name": "Armenian"
-	},
-	"as": {
-		"name": "Assamese"
-	},
-	"ast": {
-		"name": "Asturian"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"az": {
-		"name": "Azerbaijani"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"eu": {
-		"name": "Basque"
-	},
-	"be": {
-		"name": "belarussiya"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"bn": {
-		"name": "bengalia"
-	},
-	"my": {
-		"name": "birmania"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"bs": {
-		"name": "Bosnian"
-	},
-	"br": {
-		"name": "Breton"
-	},
-	"bg": {
-		"name": "bulgaria"
-	},
-	"ca": {
-		"name": "Catalan"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"kw": {
-		"name": "Cornish"
-	},
-	"hr": {
-		"name": "Croatian"
-	},
-	"da": {
-		"name": "Danish"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"es": {
-		"name": "Espaniya"
-	},
-	"es-419": {
-		"name": "Espaniya (419)"
-	},
-	"es-MX": {
-		"name": "Espaniya (Mexiko)"
-	},
-	"eo": {
-		"name": "Esperanto"
-	},
-	"et": {
-		"name": "Estonian"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fo": {
-		"name": "Faroese"
-	},
-	"fil": {
-		"name": "Filipino"
-	},
-	"fi": {
-		"name": "Finnish"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"gl": {
-		"name": "Galician"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"ka": {
-		"name": "Georgian"
-	},
-	"de": {
-		"name": "germaŋ"
-	},
-	"de-AT": {
-		"name": "germaŋ (austriya)"
-	},
-	"de-CH": {
-		"name": "germaŋ (Sǝr Swiss)"
-	},
-	"el": {
-		"name": "grek"
-	},
-	"gu": {
-		"name": "Gujarati"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"ha": {
-		"name": "haussa"
-	},
-	"haw": {
-		"name": "Hawaiian"
-	},
-	"he": {
-		"name": "Hebrew"
-	},
-	"hi": {
-		"name": "hindi"
-	},
-	"hu": {
-		"name": "hungariya"
-	},
-	"is": {
-		"name": "Icelandic"
-	},
-	"ig": {
-		"name": "igbo"
-	},
-	"smn": {
-		"name": "Inari Sami"
-	},
-	"id": {
-		"name": "indonesiya"
-	},
-	"ga": {
-		"name": "Irish"
-	},
-	"it": {
-		"name": "italiya"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"kn": {
-		"name": "Kannada"
-	},
-	"ks": {
-		"name": "Kashmiri"
-	},
-	"kk": {
-		"name": "Kazakh"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"km": {
-		"name": "kmer"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"ko": {
-		"name": "korea"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"ky": {
-		"name": "Kyrgyz"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lo": {
-		"name": "Lao"
-	},
-	"lv": {
-		"name": "Latvian"
-	},
-	"ln": {
-		"name": "Lingala"
-	},
-	"lt": {
-		"name": "Lithuanian"
-	},
-	"dsb": {
-		"name": "Lower Sorbian"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "Luxembourgish"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"mk": {
-		"name": "Macedonian"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"mg": {
-		"name": "Malagasy"
-	},
-	"ms": {
-		"name": "malasiya"
-	},
-	"ml": {
-		"name": "Malayalam"
-	},
-	"mt": {
-		"name": "Maltese"
-	},
-	"gv": {
-		"name": "Manx"
-	},
-	"mr": {
-		"name": "Marathi"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"mn": {
-		"name": "Mongolian"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "MUNDAŊ"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nds-NL": {
-		"name": "nds (Sǝr ma kasǝŋ)"
-	},
-	"ne": {
-		"name": "Nepaliya"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nd": {
-		"name": "North Ndebele"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"se": {
-		"name": "Northern Sami"
-	},
-	"nb": {
-		"name": "Norwegian Bokmål"
-	},
-	"nn": {
-		"name": "Norwegian Nynorsk"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"or": {
-		"name": "Odia"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Ossetic"
-	},
-	"ps": {
-		"name": "Pashto"
-	},
-	"fa": {
-		"name": "Persia"
-	},
-	"pa": {
-		"name": "Pǝnjabi"
-	},
-	"pl": {
-		"name": "Poloniya"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"ro": {
-		"name": "Romaniya"
-	},
-	"ro-MD": {
-		"name": "Romaniya (Moldoviya)"
-	},
-	"rm": {
-		"name": "Romansh"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rn": {
-		"name": "Rundi"
-	},
-	"ru": {
-		"name": "Russiya"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"gd": {
-		"name": "Scottish Gaelic"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"sr": {
-		"name": "Serbian"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "Shona"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"sd": {
-		"name": "Sindhi"
-	},
-	"si": {
-		"name": "Sinhala"
-	},
-	"sk": {
-		"name": "Slovak"
-	},
-	"sl": {
-		"name": "Slovenian"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "Somaliya"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"sw-CD": {
-		"name": "sw (Sǝr Kongo ma dii ne zair)"
-	},
-	"sw": {
-		"name": "Swahili"
-	},
-	"sv": {
-		"name": "Swedia"
-	},
-	"gsw": {
-		"name": "Swiss German"
-	},
-	"cs": {
-		"name": "syekya"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"tg": {
-		"name": "Tajik"
-	},
-	"ta": {
-		"name": "Tamul"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "Tatar"
-	},
-	"te": {
-		"name": "Telugu"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"th": {
-		"name": "Thai"
-	},
-	"bo": {
-		"name": "Tibetan"
-	},
-	"ti": {
-		"name": "Tigrinya"
-	},
-	"to": {
-		"name": "Tongan"
-	},
-	"tr": {
-		"name": "Turk"
-	},
-	"tk": {
-		"name": "Turkmen"
-	},
-	"uk": {
-		"name": "Ukrainia"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
-	},
-	"ur": {
-		"name": "Urdu"
-	},
-	"ug": {
-		"name": "Uyghur"
-	},
-	"uz": {
-		"name": "Uzbek"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "Vietnamiya"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"cy": {
-		"name": "Welsh"
-	},
-	"fy": {
-		"name": "Western Frisian"
-	},
-	"wo": {
-		"name": "Wolof"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"yi": {
-		"name": "Yiddish"
-	},
-	"yo": {
-		"name": "Yoruba"
-	},
-	"en": {
-		"name": "zah Anglofoŋ"
-	},
-	"en-AU": {
-		"name": "zah Anglofoŋ (australiya)"
-	},
-	"en-CA": {
-		"name": "zah Anglofoŋ (kanada)"
-	},
-	"en-GB": {
-		"name": "zah Anglofoŋ (Sǝr Anglofoŋ)"
-	},
-	"fr": {
-		"name": "zah sǝr Franssǝ"
-	},
-	"fr-CA": {
-		"name": "zah sǝr Franssǝ (kanada)"
-	},
-	"fr-CH": {
-		"name": "zah sǝr Franssǝ (Sǝr Swiss)"
-	},
-	"ja": {
-		"name": "zah sǝr Japoŋ"
-	},
-	"nl": {
-		"name": "zah sǝr ma kasǝŋ"
-	},
-	"nl-BE": {
-		"name": "zah sǝr ma kasǝŋ (belgika)"
-	},
-	"pt": {
-		"name": "Zah sǝr Portugal"
-	},
-	"pt-PT": {
-		"name": "Zah sǝr Portugal (Sǝr Portugal)"
-	},
-	"rw": {
-		"name": "Zah sǝr Rwanda"
-	},
-	"zh": {
-		"name": "zah Syiŋ"
-	},
-	"zh-Hans": {
-		"name": "zah Syiŋ (Hans)"
-	},
-	"zh-Hant": {
-		"name": "zah Syiŋ (Hant)"
-	},
-	"dje": {
-		"name": "Zarma"
-	},
-	"zu": {
-		"name": "Zulu"
-	}
+	"af": "Afrikaans",
+	"agq": "Aghem",
+	"ak": "akaŋ",
+	"sq": "Albanian",
+	"am": "amharik",
+	"ar": "arabiya",
+	"hy": "Armenian",
+	"as": "Assamese",
+	"ast": "Asturian",
+	"asa": "Asu",
+	"az": "Azerbaijani",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bas": "Basaa",
+	"eu": "Basque",
+	"be": "belarussiya",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"bn": "bengalia",
+	"my": "birmania",
+	"brx": "Bodo",
+	"bs": "Bosnian",
+	"br": "Breton",
+	"bg": "bulgaria",
+	"ca": "Catalan",
+	"tzm": "Central Atlas Tamazight",
+	"ckb": "Central Kurdish",
+	"ce": "Chechen",
+	"chr": "Cherokee",
+	"cgg": "Chiga",
+	"cu": "Church Slavic",
+	"ksh": "Colognian",
+	"kw": "Cornish",
+	"hr": "Croatian",
+	"da": "Danish",
+	"dua": "Duala",
+	"dz": "Dzongkha",
+	"ebu": "Embu",
+	"es": "Espaniya",
+	"es-419": "Espaniya (419)",
+	"es-MX": "Espaniya (Mexiko)",
+	"eo": "Esperanto",
+	"et": "Estonian",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fo": "Faroese",
+	"fil": "Filipino",
+	"fi": "Finnish",
+	"fur": "Friulian",
+	"ff": "Fulah",
+	"gl": "Galician",
+	"lg": "Ganda",
+	"ka": "Georgian",
+	"de": "germaŋ",
+	"de-AT": "germaŋ (austriya)",
+	"de-CH": "germaŋ (Sǝr Swiss)",
+	"el": "grek",
+	"gu": "Gujarati",
+	"guz": "Gusii",
+	"ha": "haussa",
+	"haw": "Hawaiian",
+	"he": "Hebrew",
+	"hi": "hindi",
+	"hu": "hungariya",
+	"is": "Icelandic",
+	"ig": "igbo",
+	"smn": "Inari Sami",
+	"id": "indonesiya",
+	"ga": "Irish",
+	"it": "italiya",
+	"dyo": "Jola-Fonyi",
+	"kea": "Kabuverdianu",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"kn": "Kannada",
+	"ks": "Kashmiri",
+	"kk": "Kazakh",
+	"ki": "Kikuyu",
+	"km": "kmer",
+	"kok": "Konkani",
+	"ko": "korea",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"nmg": "Kwasio",
+	"ky": "Kyrgyz",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"lo": "Lao",
+	"lv": "Latvian",
+	"ln": "Lingala",
+	"lt": "Lithuanian",
+	"dsb": "Lower Sorbian",
+	"lu": "Luba-Katanga",
+	"luo": "Luo",
+	"lb": "Luxembourgish",
+	"luy": "Luyia",
+	"mk": "Macedonian",
+	"jmc": "Machame",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"mg": "Malagasy",
+	"ms": "malasiya",
+	"ml": "Malayalam",
+	"mt": "Maltese",
+	"gv": "Manx",
+	"mr": "Marathi",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"mn": "Mongolian",
+	"mfe": "Morisyen",
+	"mua": "MUNDAŊ",
+	"naq": "Nama",
+	"nds-NL": "nds (Sǝr ma kasǝŋ)",
+	"ne": "Nepaliya",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"nd": "North Ndebele",
+	"lrc": "Northern Luri",
+	"se": "Northern Sami",
+	"nb": "Norwegian Bokmål",
+	"nn": "Norwegian Nynorsk",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"or": "Odia",
+	"om": "Oromo",
+	"os": "Ossetic",
+	"ps": "Pashto",
+	"fa": "Persia",
+	"pa": "Pǝnjabi",
+	"pl": "Poloniya",
+	"prg": "Prussian",
+	"qu": "Quechua",
+	"ro": "Romaniya",
+	"ro-MD": "Romaniya (Moldoviya)",
+	"rm": "Romansh",
+	"rof": "Rombo",
+	"rn": "Rundi",
+	"ru": "Russiya",
+	"rwk": "Rwa",
+	"sah": "Sakha",
+	"saq": "Samburu",
+	"sg": "Sango",
+	"sbp": "Sangu",
+	"gd": "Scottish Gaelic",
+	"seh": "Sena",
+	"sr": "Serbian",
+	"ksb": "Shambala",
+	"sn": "Shona",
+	"ii": "Sichuan Yi",
+	"sd": "Sindhi",
+	"si": "Sinhala",
+	"sk": "Slovak",
+	"sl": "Slovenian",
+	"xog": "Soga",
+	"so": "Somaliya",
+	"zgh": "Standard Moroccan Tamazight",
+	"sw-CD": "sw (Sǝr Kongo ma dii ne zair)",
+	"sw": "Swahili",
+	"sv": "Swedia",
+	"gsw": "Swiss German",
+	"cs": "syekya",
+	"shi": "Tachelhit",
+	"dav": "Taita",
+	"tg": "Tajik",
+	"ta": "Tamul",
+	"twq": "Tasawaq",
+	"tt": "Tatar",
+	"te": "Telugu",
+	"teo": "Teso",
+	"th": "Thai",
+	"bo": "Tibetan",
+	"ti": "Tigrinya",
+	"to": "Tongan",
+	"tr": "Turk",
+	"tk": "Turkmen",
+	"uk": "Ukrainia",
+	"hsb": "Upper Sorbian",
+	"ur": "Urdu",
+	"ug": "Uyghur",
+	"uz": "Uzbek",
+	"vai": "Vai",
+	"vi": "Vietnamiya",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"wae": "Walser",
+	"cy": "Welsh",
+	"fy": "Western Frisian",
+	"wo": "Wolof",
+	"yav": "Yangben",
+	"yi": "Yiddish",
+	"yo": "Yoruba",
+	"en": "zah Anglofoŋ",
+	"en-AU": "zah Anglofoŋ (australiya)",
+	"en-CA": "zah Anglofoŋ (kanada)",
+	"en-GB": "zah Anglofoŋ (Sǝr Anglofoŋ)",
+	"fr": "zah sǝr Franssǝ",
+	"fr-CA": "zah sǝr Franssǝ (kanada)",
+	"fr-CH": "zah sǝr Franssǝ (Sǝr Swiss)",
+	"ja": "zah sǝr Japoŋ",
+	"nl": "zah sǝr ma kasǝŋ",
+	"nl-BE": "zah sǝr ma kasǝŋ (belgika)",
+	"pt": "Zah sǝr Portugal",
+	"pt-PT": "Zah sǝr Portugal (Sǝr Portugal)",
+	"rw": "Zah sǝr Rwanda",
+	"zh": "zah Syiŋ",
+	"zh-Hans": "zah Syiŋ (Hans)",
+	"zh-Hant": "zah Syiŋ (Hant)",
+	"dje": "Zarma",
+	"zu": "Zulu"
 }

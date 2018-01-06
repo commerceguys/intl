@@ -1,647 +1,217 @@
 {
-	"ak": {
-		"name": "Acáinis"
-	},
-	"af": {
-		"name": "Afracáinis"
-	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"hy": {
-		"name": "Airméinis"
-	},
-	"sq": {
-		"name": "Albáinis"
-	},
-	"am": {
-		"name": "Amáiris"
-	},
-	"ar": {
-		"name": "Araibis"
-	},
-	"de-CH": {
-		"name": "Ard-Ghearmáinis Eilvéiseach"
-	},
-	"as": {
-		"name": "Asaimis"
-	},
-	"az": {
-		"name": "Asarbaiseáinis"
-	},
-	"ast": {
-		"name": "Astúiris"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"eu": {
-		"name": "Bascais"
-	},
-	"be": {
-		"name": "Bealarúisis"
-	},
-	"bn": {
-		"name": "Beangáilis"
-	},
-	"en": {
-		"name": "Béarla"
-	},
-	"en-AU": {
-		"name": "Béarla Astrálach"
-	},
-	"en-GB": {
-		"name": "Béarla Briotanach"
-	},
-	"en-CA": {
-		"name": "Béarla Ceanadach"
-	},
-	"bem": {
-		"name": "Beimbis"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"bs": {
-		"name": "Boisnis"
-	},
-	"cy": {
-		"name": "Breatnais"
-	},
-	"br": {
-		"name": "Briotáinis"
-	},
-	"bg": {
-		"name": "Bulgáiris"
-	},
-	"my": {
-		"name": "Burmais"
-	},
-	"ks": {
-		"name": "Caismíris"
-	},
-	"kn": {
-		"name": "Cannadais"
-	},
-	"kk": {
-		"name": "Casaicis"
-	},
-	"ca": {
-		"name": "Catalóinis"
-	},
-	"qu": {
-		"name": "Ceatsuais"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"km": {
-		"name": "Ciméiris"
-	},
-	"rw": {
-		"name": "Ciniaruaindis"
-	},
-	"ki": {
-		"name": "Ciocúis"
-	},
-	"ky": {
-		"name": "Cirgisis"
-	},
-	"ckb": {
-		"name": "Coirdis Lárnach"
-	},
-	"ko": {
-		"name": "Cóiréis"
-	},
-	"kw": {
-		"name": "Coirnis"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"kok": {
-		"name": "Concáinis"
-	},
-	"hr": {
-		"name": "Cróitis"
-	},
-	"da": {
-		"name": "Danmhairgis"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"he": {
-		"name": "Eabhrais"
-	},
-	"et": {
-		"name": "Eastóinis"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"eo": {
-		"name": "Esperanto"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fo": {
-		"name": "Faróis"
-	},
-	"fil": {
-		"name": "Filipínis"
-	},
-	"fi": {
-		"name": "Fionlainnis"
-	},
-	"fr": {
-		"name": "Fraincis"
-	},
-	"fr-CA": {
-		"name": "Fraincis Cheanadach"
-	},
-	"fr-CH": {
-		"name": "Fraincis Eilvéiseach"
-	},
-	"fy": {
-		"name": "Freaslainnis Iartharach"
-	},
-	"fur": {
-		"name": "Friúilis"
-	},
-	"ff": {
-		"name": "Fuláinis"
-	},
-	"ga": {
-		"name": "Gaeilge"
-	},
-	"gd": {
-		"name": "Gaeilge na hAlban"
-	},
-	"gl": {
-		"name": "Gailísis"
-	},
-	"de": {
-		"name": "Gearmáinis"
-	},
-	"gsw": {
-		"name": "Gearmáinis Eilvéiseach"
-	},
-	"nds": {
-		"name": "Gearmáinis Íochtarach"
-	},
-	"de-AT": {
-		"name": "Gearmáinis Ostarach"
-	},
-	"yi": {
-		"name": "Giúdais"
-	},
-	"el": {
-		"name": "Gréigis"
-	},
-	"gu": {
-		"name": "Gúisearáitis"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"ha": {
-		"name": "Hásais"
-	},
-	"haw": {
-		"name": "Haváis"
-	},
-	"hi": {
-		"name": "Hiondúis"
-	},
-	"yo": {
-		"name": "Iarúibis"
-	},
-	"id": {
-		"name": "Indinéisis"
-	},
-	"it": {
-		"name": "Iodáilis"
-	},
-	"ig": {
-		"name": "Íogbóis"
-	},
-	"nb": {
-		"name": "Ioruais Bokmål"
-	},
-	"is": {
-		"name": "Íoslainnis"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lv": {
-		"name": "Laitvis"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lo": {
-		"name": "Laoisis"
-	},
-	"ln": {
-		"name": "Liongáilis"
-	},
-	"lt": {
-		"name": "Liotuáinis"
-	},
-	"lu": {
-		"name": "Lúba-Cataingis"
-	},
-	"lb": {
-		"name": "Lucsambuirgis"
-	},
-	"lg": {
-		"name": "Lugandais"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"mk": {
-		"name": "Macadóinis"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"ml": {
-		"name": "Mailéalaimis"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"ms": {
-		"name": "Malaeis"
-	},
-	"mg": {
-		"name": "Malagáisis"
-	},
-	"mt": {
-		"name": "Máltais"
-	},
-	"gv": {
-		"name": "Manainnis"
-	},
-	"mr": {
-		"name": "Maraitis"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"ro-MD": {
-		"name": "Moldáivis"
-	},
-	"mn": {
-		"name": "Mongóilis"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nd": {
-		"name": "Ndeibéilis an Tuaiscirt"
-	},
-	"ne": {
-		"name": "Neipeailis"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"nn": {
-		"name": "Nua-Ioruais"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"or": {
-		"name": "Oirísis"
-	},
-	"os": {
-		"name": "Oiséitis"
-	},
-	"nl": {
-		"name": "Ollainnis"
-	},
-	"om": {
-		"name": "Oraimis"
-	},
-	"ps": {
-		"name": "Paistis"
-	},
-	"fa": {
-		"name": "Peirsis"
-	},
-	"nl-BE": {
-		"name": "Pléimeannais"
-	},
-	"pl": {
-		"name": "Polainnis"
-	},
-	"pt": {
-		"name": "Portaingéilis"
-	},
-	"pt-PT": {
-		"name": "Portaingéilis Ibéarach"
-	},
-	"prg": {
-		"name": "Prúisis"
-	},
-	"pa": {
-		"name": "Puinseáibis"
-	},
-	"rm": {
-		"name": "Rómainis"
-	},
-	"ro": {
-		"name": "Rómáinis"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rn": {
-		"name": "Rúindis"
-	},
-	"ru": {
-		"name": "Rúisis"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"sah": {
-		"name": "Sachais"
-	},
-	"nds-NL": {
-		"name": "Sacsainis Íochtarach"
-	},
-	"smn": {
-		"name": "Sáimis Inari"
-	},
-	"se": {
-		"name": "Sáimis Thuaidh"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sangóis"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"ja": {
-		"name": "Seapáinis"
-	},
-	"cs": {
-		"name": "Seicis"
-	},
-	"sr": {
-		"name": "Seirbis"
-	},
-	"chr": {
-		"name": "Seiricis"
-	},
-	"ce": {
-		"name": "Seisnis"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"dz": {
-		"name": "Seoinicis"
-	},
-	"sn": {
-		"name": "Seoinis"
-	},
-	"ka": {
-		"name": "Seoirsis"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"sd": {
-		"name": "Sindis"
-	},
-	"zh": {
-		"name": "Sínis"
-	},
-	"zh-Hans": {
-		"name": "Sínis Shimplithe"
-	},
-	"zh-Hant": {
-		"name": "Sínis Thraidisiúnta"
-	},
-	"si": {
-		"name": "Siolóinis"
-	},
-	"cu": {
-		"name": "Slavais na hEaglaise"
-	},
-	"sl": {
-		"name": "Slóivéinis"
-	},
-	"sk": {
-		"name": "Slóvaicis"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "Somáilis"
-	},
-	"dsb": {
-		"name": "Sorbais Íochtarach"
-	},
-	"hsb": {
-		"name": "Sorbais Uachtarach"
-	},
-	"es": {
-		"name": "Spáinnis"
-	},
-	"es-MX": {
-		"name": "Spáinnis Mheicsiceach"
-	},
-	"es-419": {
-		"name": "Spáinnis Mheiriceá Laidinigh"
-	},
-	"sv": {
-		"name": "Sualainnis"
-	},
-	"zu": {
-		"name": "Súlúis"
-	},
-	"sw": {
-		"name": "Svahaílis"
-	},
-	"sw-CD": {
-		"name": "Svahaílis an Chongó"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"tg": {
-		"name": "Táidsícis"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"ta": {
-		"name": "Tamailis"
-	},
-	"tzm": {
-		"name": "Tamazight Atlais Láir"
-	},
-	"zgh": {
-		"name": "Tamazight Caighdeánach Mharacó"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "Tatairis"
-	},
-	"th": {
-		"name": "Téalainnis"
-	},
-	"te": {
-		"name": "Teileagúis"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"bo": {
-		"name": "Tibéidis"
-	},
-	"ti": {
-		"name": "Tigrinis"
-	},
-	"to": {
-		"name": "Tongais"
-	},
-	"tr": {
-		"name": "Tuircis"
-	},
-	"tk": {
-		"name": "Tuircméinis"
-	},
-	"uk": {
-		"name": "Úcráinis"
-	},
-	"ug": {
-		"name": "Uigiúiris"
-	},
-	"uz": {
-		"name": "Úisbéiceastáinis"
-	},
-	"hu": {
-		"name": "Ungáiris"
-	},
-	"ur": {
-		"name": "Urdúis"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "Vítneaimis"
-	},
-	"wo": {
-		"name": "Volaifis"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"dje": {
-		"name": "Zarmais"
-	}
+	"ak": "Acáinis",
+	"af": "Afracáinis",
+	"agq": "Aghem",
+	"hy": "Airméinis",
+	"sq": "Albáinis",
+	"am": "Amáiris",
+	"ar": "Araibis",
+	"de-CH": "Ard-Ghearmáinis Eilvéiseach",
+	"as": "Asaimis",
+	"az": "Asarbaiseáinis",
+	"ast": "Astúiris",
+	"asa": "Asu",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bas": "Basaa",
+	"eu": "Bascais",
+	"be": "Bealarúisis",
+	"bn": "Beangáilis",
+	"en": "Béarla",
+	"en-AU": "Béarla Astrálach",
+	"en-GB": "Béarla Briotanach",
+	"en-CA": "Béarla Ceanadach",
+	"bem": "Beimbis",
+	"bez": "Bena",
+	"brx": "Bodo",
+	"bs": "Boisnis",
+	"cy": "Breatnais",
+	"br": "Briotáinis",
+	"bg": "Bulgáiris",
+	"my": "Burmais",
+	"ks": "Caismíris",
+	"kn": "Cannadais",
+	"kk": "Casaicis",
+	"ca": "Catalóinis",
+	"qu": "Ceatsuais",
+	"cgg": "Chiga",
+	"km": "Ciméiris",
+	"rw": "Ciniaruaindis",
+	"ki": "Ciocúis",
+	"ky": "Cirgisis",
+	"ckb": "Coirdis Lárnach",
+	"ko": "Cóiréis",
+	"kw": "Coirnis",
+	"ksh": "Colognian",
+	"kok": "Concáinis",
+	"hr": "Cróitis",
+	"da": "Danmhairgis",
+	"dua": "Duala",
+	"he": "Eabhrais",
+	"et": "Eastóinis",
+	"ebu": "Embu",
+	"eo": "Esperanto",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fo": "Faróis",
+	"fil": "Filipínis",
+	"fi": "Fionlainnis",
+	"fr": "Fraincis",
+	"fr-CA": "Fraincis Cheanadach",
+	"fr-CH": "Fraincis Eilvéiseach",
+	"fy": "Freaslainnis Iartharach",
+	"fur": "Friúilis",
+	"ff": "Fuláinis",
+	"ga": "Gaeilge",
+	"gd": "Gaeilge na hAlban",
+	"gl": "Gailísis",
+	"de": "Gearmáinis",
+	"gsw": "Gearmáinis Eilvéiseach",
+	"nds": "Gearmáinis Íochtarach",
+	"de-AT": "Gearmáinis Ostarach",
+	"yi": "Giúdais",
+	"el": "Gréigis",
+	"gu": "Gúisearáitis",
+	"guz": "Gusii",
+	"ha": "Hásais",
+	"haw": "Haváis",
+	"hi": "Hiondúis",
+	"yo": "Iarúibis",
+	"id": "Indinéisis",
+	"it": "Iodáilis",
+	"ig": "Íogbóis",
+	"nb": "Ioruais Bokmål",
+	"is": "Íoslainnis",
+	"dyo": "Jola-Fonyi",
+	"kea": "Kabuverdianu",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"nmg": "Kwasio",
+	"lv": "Laitvis",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"lo": "Laoisis",
+	"ln": "Liongáilis",
+	"lt": "Liotuáinis",
+	"lu": "Lúba-Cataingis",
+	"lb": "Lucsambuirgis",
+	"lg": "Lugandais",
+	"luo": "Luo",
+	"luy": "Luyia",
+	"mk": "Macadóinis",
+	"jmc": "Machame",
+	"ml": "Mailéalaimis",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"ms": "Malaeis",
+	"mg": "Malagáisis",
+	"mt": "Máltais",
+	"gv": "Manainnis",
+	"mr": "Maraitis",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"ro-MD": "Moldáivis",
+	"mn": "Mongóilis",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nd": "Ndeibéilis an Tuaiscirt",
+	"ne": "Neipeailis",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"lrc": "Northern Luri",
+	"nn": "Nua-Ioruais",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"or": "Oirísis",
+	"os": "Oiséitis",
+	"nl": "Ollainnis",
+	"om": "Oraimis",
+	"ps": "Paistis",
+	"fa": "Peirsis",
+	"nl-BE": "Pléimeannais",
+	"pl": "Polainnis",
+	"pt": "Portaingéilis",
+	"pt-PT": "Portaingéilis Ibéarach",
+	"prg": "Prúisis",
+	"pa": "Puinseáibis",
+	"rm": "Rómainis",
+	"ro": "Rómáinis",
+	"rof": "Rombo",
+	"rn": "Rúindis",
+	"ru": "Rúisis",
+	"rwk": "Rwa",
+	"sah": "Sachais",
+	"nds-NL": "Sacsainis Íochtarach",
+	"smn": "Sáimis Inari",
+	"se": "Sáimis Thuaidh",
+	"saq": "Samburu",
+	"sg": "Sangóis",
+	"sbp": "Sangu",
+	"ja": "Seapáinis",
+	"cs": "Seicis",
+	"sr": "Seirbis",
+	"chr": "Seiricis",
+	"ce": "Seisnis",
+	"seh": "Sena",
+	"dz": "Seoinicis",
+	"sn": "Seoinis",
+	"ka": "Seoirsis",
+	"ksb": "Shambala",
+	"ii": "Sichuan Yi",
+	"sd": "Sindis",
+	"zh": "Sínis",
+	"zh-Hans": "Sínis Shimplithe",
+	"zh-Hant": "Sínis Thraidisiúnta",
+	"si": "Siolóinis",
+	"cu": "Slavais na hEaglaise",
+	"sl": "Slóivéinis",
+	"sk": "Slóvaicis",
+	"xog": "Soga",
+	"so": "Somáilis",
+	"dsb": "Sorbais Íochtarach",
+	"hsb": "Sorbais Uachtarach",
+	"es": "Spáinnis",
+	"es-MX": "Spáinnis Mheicsiceach",
+	"es-419": "Spáinnis Mheiriceá Laidinigh",
+	"sv": "Sualainnis",
+	"zu": "Súlúis",
+	"sw": "Svahaílis",
+	"sw-CD": "Svahaílis an Chongó",
+	"shi": "Tachelhit",
+	"tg": "Táidsícis",
+	"dav": "Taita",
+	"ta": "Tamailis",
+	"tzm": "Tamazight Atlais Láir",
+	"zgh": "Tamazight Caighdeánach Mharacó",
+	"twq": "Tasawaq",
+	"tt": "Tatairis",
+	"th": "Téalainnis",
+	"te": "Teileagúis",
+	"teo": "Teso",
+	"bo": "Tibéidis",
+	"ti": "Tigrinis",
+	"to": "Tongais",
+	"tr": "Tuircis",
+	"tk": "Tuircméinis",
+	"uk": "Úcráinis",
+	"ug": "Uigiúiris",
+	"uz": "Úisbéiceastáinis",
+	"hu": "Ungáiris",
+	"ur": "Urdúis",
+	"vai": "Vai",
+	"vi": "Vítneaimis",
+	"wo": "Volaifis",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"wae": "Walser",
+	"yav": "Yangben",
+	"dje": "Zarmais"
 }

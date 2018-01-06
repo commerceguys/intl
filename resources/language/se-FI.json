@@ -1,644 +1,216 @@
 {
-	"af": {
-		"name": "afrikánsagiella"
-	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "Akan"
-	},
-	"sq": {
-		"name": "albánagiella"
-	},
-	"am": {
-		"name": "Amharic"
-	},
-	"smn": {
-		"name": "anárašgiella"
-	},
-	"ar": {
-		"name": "arábagiella"
-	},
-	"hy": {
-		"name": "armenagiella"
-	},
-	"as": {
-		"name": "Assamese"
-	},
-	"ast": {
-		"name": "asturiagiella"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"en-AU": {
-		"name": "austrálialaš eaŋgalsgiella"
-	},
-	"az": {
-		"name": "Azerbaijani"
-	},
-	"zh-Hans": {
-		"name": "álkes kiinnágiella"
-	},
-	"zh-Hant": {
-		"name": "árbevirolaš kiinnágiella"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"eu": {
-		"name": "Basque"
-	},
-	"nl-BE": {
-		"name": "belgialaš hollánddagiella"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"bn": {
-		"name": "bengalagiella"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"bs": {
-		"name": "bosniagiella"
-	},
-	"br": {
-		"name": "bretonagiella"
-	},
-	"en-GB": {
-		"name": "brihttalaš eaŋgalsgiella"
-	},
-	"bg": {
-		"name": "bulgáriagiella"
-	},
-	"my": {
-		"name": "burmagiella"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"cs": {
-		"name": "čeahkagiella"
-	},
-	"se": {
-		"name": "davvisámegiella"
-	},
-	"da": {
-		"name": "dánskkagiella"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"de": {
-		"name": "duiskkagiella"
-	},
-	"tr": {
-		"name": "durkagiella"
-	},
-	"dz": {
-		"name": "dzongkhagiella"
-	},
-	"en": {
-		"name": "eaŋgalsgiella"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"eo": {
-		"name": "Esperanto"
-	},
-	"et": {
-		"name": "esttegiella"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fo": {
-		"name": "fearagiella"
-	},
-	"fil": {
-		"name": "filippiinnagiella"
-	},
-	"fr": {
-		"name": "fránskkagiella"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"gl": {
-		"name": "Galician"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"ka": {
-		"name": "georgiagiella"
-	},
-	"nb": {
-		"name": "girjedárogiella"
-	},
-	"el": {
-		"name": "greikkagiella"
-	},
-	"gu": {
-		"name": "gujaratagiella"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"ha": {
-		"name": "haussagiella"
-	},
-	"haw": {
-		"name": "hawaiigiella"
-	},
-	"he": {
-		"name": "Hebrew"
-	},
-	"hi": {
-		"name": "hindigiella"
-	},
-	"nl": {
-		"name": "hollánddagiella"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"ga": {
-		"name": "iirragiella"
-	},
-	"id": {
-		"name": "indonesiagiella"
-	},
-	"is": {
-		"name": "islánddagiella"
-	},
-	"it": {
-		"name": "itáliagiella"
-	},
-	"ja": {
-		"name": "japánagiella"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"km": {
-		"name": "kambožagiella"
-	},
-	"en-CA": {
-		"name": "kanádalaš eaŋgalsgiella"
-	},
-	"fr-CA": {
-		"name": "kanádalaš fránskkagiella"
-	},
-	"kn": {
-		"name": "Kannada"
-	},
-	"ks": {
-		"name": "Kashmiri"
-	},
-	"ca": {
-		"name": "katalánagiella"
-	},
-	"kk": {
-		"name": "kazakhgiella"
-	},
-	"zh": {
-		"name": "kiinnágiella"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"rw": {
-		"name": "Kinyarwanda"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"ko": {
-		"name": "koreagiella"
-	},
-	"kw": {
-		"name": "kornagiella"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"hr": {
-		"name": "kroátiagiella"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"cy": {
-		"name": "kymragiella"
-	},
-	"ky": {
-		"name": "Kyrgyz"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lo": {
-		"name": "laogiella"
-	},
-	"es-419": {
-		"name": "latiinna-amerihkalaš spánskkagiella"
-	},
-	"lv": {
-		"name": "látviagiella"
-	},
-	"lt": {
-		"name": "liettuvagiella"
-	},
-	"ln": {
-		"name": "Lingala"
-	},
-	"dsb": {
-		"name": "Lower Sorbian"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "luxemburggagiella"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mk": {
-		"name": "makedoniagiella"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"mg": {
-		"name": "Malagasy"
-	},
-	"ms": {
-		"name": "Malay"
-	},
-	"ml": {
-		"name": "Malayalam"
-	},
-	"mt": {
-		"name": "maltagiella"
-	},
-	"gv": {
-		"name": "manksgiella"
-	},
-	"mr": {
-		"name": "Marathi"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"es-MX": {
-		"name": "meksikolaš spánskkagiella"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"ro-MD": {
-		"name": "moldávialaš romániagiella"
-	},
-	"mn": {
-		"name": "mongoliagiella"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nds-NL": {
-		"name": "nds (Vuolleeatnamat)"
-	},
-	"ne": {
-		"name": "nepalagiella"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nd": {
-		"name": "North Ndebele"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"de-AT": {
-		"name": "nuortariikkalaš duiskkagiella"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"fy": {
-		"name": "oarjifriisagiella"
-	},
-	"or": {
-		"name": "Odia"
-	},
-	"nn": {
-		"name": "ođđadárogiella"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Ossetic"
-	},
-	"pa": {
-		"name": "panjabagiella"
-	},
-	"ps": {
-		"name": "Pashto"
-	},
-	"fa": {
-		"name": "persijagiella"
-	},
-	"pl": {
-		"name": "polskkagiella"
-	},
-	"pt": {
-		"name": "portugálagiella"
-	},
-	"pt-PT": {
-		"name": "portugálalaš portugálagiella"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"rm": {
-		"name": "romanšgiella"
-	},
-	"ro": {
-		"name": "romániagiella"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rn": {
-		"name": "Rundi"
-	},
-	"ru": {
-		"name": "ruoššagiella"
-	},
-	"sv": {
-		"name": "ruoŧagiella"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"gd": {
-		"name": "Scottish Gaelic"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"sr": {
-		"name": "serbiagiella"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "Shona"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"sd": {
-		"name": "Sindhi"
-	},
-	"si": {
-		"name": "Sinhala"
-	},
-	"sk": {
-		"name": "slovákiagiella"
-	},
-	"sl": {
-		"name": "slovenagiella"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "Somali"
-	},
-	"es": {
-		"name": "spánskkagiella"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"fi": {
-		"name": "suomagiella"
-	},
-	"sw-CD": {
-		"name": "sw (Kongo-Kinshasa)"
-	},
-	"sw": {
-		"name": "Swahili"
-	},
-	"gsw": {
-		"name": "Swiss German"
-	},
-	"de-CH": {
-		"name": "šveicalaš duiskkagiella"
-	},
-	"fr-CH": {
-		"name": "šveicalaš fránskkagiella"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"tg": {
-		"name": "Tajik"
-	},
-	"ta": {
-		"name": "Tamil"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "Tatar"
-	},
-	"te": {
-		"name": "Telugu"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"th": {
-		"name": "thaigiella"
-	},
-	"bo": {
-		"name": "tibetagiella"
-	},
-	"ti": {
-		"name": "Tigrinya"
-	},
-	"to": {
-		"name": "Tongan"
-	},
-	"tk": {
-		"name": "Turkmen"
-	},
-	"uk": {
-		"name": "ukrainagiella"
-	},
-	"hu": {
-		"name": "ungárgiella"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
-	},
-	"ur": {
-		"name": "urdugiella"
-	},
-	"ug": {
-		"name": "Uyghur"
-	},
-	"uz": {
-		"name": "Uzbek"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "vietnamagiella"
-	},
-	"be": {
-		"name": "vilgesruoššagiella"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"wo": {
-		"name": "Wolof"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"yi": {
-		"name": "Yiddish"
-	},
-	"yo": {
-		"name": "Yoruba"
-	},
-	"dje": {
-		"name": "Zarma"
-	},
-	"zu": {
-		"name": "Zulu"
-	}
+	"af": "afrikánsagiella",
+	"agq": "Aghem",
+	"ak": "Akan",
+	"sq": "albánagiella",
+	"am": "Amharic",
+	"smn": "anárašgiella",
+	"ar": "arábagiella",
+	"hy": "armenagiella",
+	"as": "Assamese",
+	"ast": "asturiagiella",
+	"asa": "Asu",
+	"en-AU": "austrálialaš eaŋgalsgiella",
+	"az": "Azerbaijani",
+	"zh-Hans": "álkes kiinnágiella",
+	"zh-Hant": "árbevirolaš kiinnágiella",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bas": "Basaa",
+	"eu": "Basque",
+	"nl-BE": "belgialaš hollánddagiella",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"bn": "bengalagiella",
+	"brx": "Bodo",
+	"bs": "bosniagiella",
+	"br": "bretonagiella",
+	"en-GB": "brihttalaš eaŋgalsgiella",
+	"bg": "bulgáriagiella",
+	"my": "burmagiella",
+	"tzm": "Central Atlas Tamazight",
+	"ckb": "Central Kurdish",
+	"ce": "Chechen",
+	"chr": "Cherokee",
+	"cgg": "Chiga",
+	"cu": "Church Slavic",
+	"ksh": "Colognian",
+	"cs": "čeahkagiella",
+	"se": "davvisámegiella",
+	"da": "dánskkagiella",
+	"dua": "Duala",
+	"de": "duiskkagiella",
+	"tr": "durkagiella",
+	"dz": "dzongkhagiella",
+	"en": "eaŋgalsgiella",
+	"ebu": "Embu",
+	"eo": "Esperanto",
+	"et": "esttegiella",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fo": "fearagiella",
+	"fil": "filippiinnagiella",
+	"fr": "fránskkagiella",
+	"fur": "Friulian",
+	"ff": "Fulah",
+	"gl": "Galician",
+	"lg": "Ganda",
+	"ka": "georgiagiella",
+	"nb": "girjedárogiella",
+	"el": "greikkagiella",
+	"gu": "gujaratagiella",
+	"guz": "Gusii",
+	"ha": "haussagiella",
+	"haw": "hawaiigiella",
+	"he": "Hebrew",
+	"hi": "hindigiella",
+	"nl": "hollánddagiella",
+	"ig": "Igbo",
+	"ga": "iirragiella",
+	"id": "indonesiagiella",
+	"is": "islánddagiella",
+	"it": "itáliagiella",
+	"ja": "japánagiella",
+	"dyo": "Jola-Fonyi",
+	"kea": "Kabuverdianu",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"km": "kambožagiella",
+	"en-CA": "kanádalaš eaŋgalsgiella",
+	"fr-CA": "kanádalaš fránskkagiella",
+	"kn": "Kannada",
+	"ks": "Kashmiri",
+	"ca": "katalánagiella",
+	"kk": "kazakhgiella",
+	"zh": "kiinnágiella",
+	"ki": "Kikuyu",
+	"rw": "Kinyarwanda",
+	"kok": "Konkani",
+	"ko": "koreagiella",
+	"kw": "kornagiella",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"hr": "kroátiagiella",
+	"nmg": "Kwasio",
+	"cy": "kymragiella",
+	"ky": "Kyrgyz",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"lo": "laogiella",
+	"es-419": "latiinna-amerihkalaš spánskkagiella",
+	"lv": "látviagiella",
+	"lt": "liettuvagiella",
+	"ln": "Lingala",
+	"dsb": "Lower Sorbian",
+	"lu": "Luba-Katanga",
+	"luo": "Luo",
+	"lb": "luxemburggagiella",
+	"luy": "Luyia",
+	"jmc": "Machame",
+	"mk": "makedoniagiella",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"mg": "Malagasy",
+	"ms": "Malay",
+	"ml": "Malayalam",
+	"mt": "maltagiella",
+	"gv": "manksgiella",
+	"mr": "Marathi",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"es-MX": "meksikolaš spánskkagiella",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"ro-MD": "moldávialaš romániagiella",
+	"mn": "mongoliagiella",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nds-NL": "nds (Vuolleeatnamat)",
+	"ne": "nepalagiella",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"nd": "North Ndebele",
+	"lrc": "Northern Luri",
+	"nus": "Nuer",
+	"de-AT": "nuortariikkalaš duiskkagiella",
+	"nyn": "Nyankole",
+	"fy": "oarjifriisagiella",
+	"or": "Odia",
+	"nn": "ođđadárogiella",
+	"om": "Oromo",
+	"os": "Ossetic",
+	"pa": "panjabagiella",
+	"ps": "Pashto",
+	"fa": "persijagiella",
+	"pl": "polskkagiella",
+	"pt": "portugálagiella",
+	"pt-PT": "portugálalaš portugálagiella",
+	"prg": "Prussian",
+	"qu": "Quechua",
+	"rm": "romanšgiella",
+	"ro": "romániagiella",
+	"rof": "Rombo",
+	"rn": "Rundi",
+	"ru": "ruoššagiella",
+	"sv": "ruoŧagiella",
+	"rwk": "Rwa",
+	"sah": "Sakha",
+	"saq": "Samburu",
+	"sg": "Sango",
+	"sbp": "Sangu",
+	"gd": "Scottish Gaelic",
+	"seh": "Sena",
+	"sr": "serbiagiella",
+	"ksb": "Shambala",
+	"sn": "Shona",
+	"ii": "Sichuan Yi",
+	"sd": "Sindhi",
+	"si": "Sinhala",
+	"sk": "slovákiagiella",
+	"sl": "slovenagiella",
+	"xog": "Soga",
+	"so": "Somali",
+	"es": "spánskkagiella",
+	"zgh": "Standard Moroccan Tamazight",
+	"fi": "suomagiella",
+	"sw-CD": "sw (Kongo-Kinshasa)",
+	"sw": "Swahili",
+	"gsw": "Swiss German",
+	"de-CH": "šveicalaš duiskkagiella",
+	"fr-CH": "šveicalaš fránskkagiella",
+	"shi": "Tachelhit",
+	"dav": "Taita",
+	"tg": "Tajik",
+	"ta": "Tamil",
+	"twq": "Tasawaq",
+	"tt": "Tatar",
+	"te": "Telugu",
+	"teo": "Teso",
+	"th": "thaigiella",
+	"bo": "tibetagiella",
+	"ti": "Tigrinya",
+	"to": "Tongan",
+	"tk": "Turkmen",
+	"uk": "ukrainagiella",
+	"hu": "ungárgiella",
+	"hsb": "Upper Sorbian",
+	"ur": "urdugiella",
+	"ug": "Uyghur",
+	"uz": "Uzbek",
+	"vai": "Vai",
+	"vi": "vietnamagiella",
+	"be": "vilgesruoššagiella",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"wae": "Walser",
+	"wo": "Wolof",
+	"yav": "Yangben",
+	"yi": "Yiddish",
+	"yo": "Yoruba",
+	"dje": "Zarma",
+	"zu": "Zulu"
 }

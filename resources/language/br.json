@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "afrikaans"
-	},
-	"agq": {
-		"name": "aghem"
-	},
-	"ak": {
-		"name": "akan"
-	},
-	"de": {
-		"name": "alamaneg"
-	},
-	"de-AT": {
-		"name": "alamaneg Aostria"
-	},
-	"nds": {
-		"name": "alamaneg izel"
-	},
-	"gsw": {
-		"name": "alamaneg Suis"
-	},
-	"de-CH": {
-		"name": "alamaneg uhel Suis"
-	},
-	"sq": {
-		"name": "albaneg"
-	},
-	"am": {
-		"name": "amhareg"
-	},
-	"ar": {
-		"name": "arabeg"
-	},
-	"hy": {
-		"name": "armenianeg"
-	},
-	"as": {
-		"name": "asameg"
-	},
-	"ast": {
-		"name": "asturianeg"
-	},
-	"asa": {
-		"name": "asu"
-	},
-	"az": {
-		"name": "azerbaidjaneg"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "bambara"
-	},
-	"bas": {
-		"name": "basaa"
-	},
-	"be": {
-		"name": "belaruseg"
-	},
-	"bem": {
-		"name": "bemba"
-	},
-	"bez": {
-		"name": "bena"
-	},
-	"bn": {
-		"name": "bengali"
-	},
-	"my": {
-		"name": "birmaneg"
-	},
-	"brx": {
-		"name": "bodo"
-	},
-	"bs": {
-		"name": "bosneg"
-	},
-	"br": {
-		"name": "brezhoneg"
-	},
-	"bg": {
-		"name": "bulgareg"
-	},
-	"chr": {
-		"name": "cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"da": {
-		"name": "daneg"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"dz": {
-		"name": "dzongkha"
-	},
-	"ebu": {
-		"name": "embu"
-	},
-	"eo": {
-		"name": "esperanteg"
-	},
-	"et": {
-		"name": "estoneg"
-	},
-	"eu": {
-		"name": "euskareg"
-	},
-	"ee": {
-		"name": "ewe"
-	},
-	"ewo": {
-		"name": "ewondo"
-	},
-	"fo": {
-		"name": "faeroeg"
-	},
-	"fil": {
-		"name": "filipineg"
-	},
-	"fi": {
-		"name": "finneg"
-	},
-	"nl-BE": {
-		"name": "flandrezeg"
-	},
-	"fur": {
-		"name": "frioulaneg"
-	},
-	"fy": {
-		"name": "frizeg ar Cʼhornôg"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"gl": {
-		"name": "galizeg"
-	},
-	"fr": {
-		"name": "galleg"
-	},
-	"fr-CA": {
-		"name": "galleg Kanada"
-	},
-	"fr-CH": {
-		"name": "galleg Suis"
-	},
-	"lg": {
-		"name": "ganda"
-	},
-	"el": {
-		"name": "gresianeg"
-	},
-	"gu": {
-		"name": "gujarati"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"ha": {
-		"name": "haousa"
-	},
-	"haw": {
-		"name": "hawaieg"
-	},
-	"he": {
-		"name": "hebraeg"
-	},
-	"prg": {
-		"name": "henbruseg"
-	},
-	"hi": {
-		"name": "hindi"
-	},
-	"hu": {
-		"name": "hungareg"
-	},
-	"ig": {
-		"name": "igbo"
-	},
-	"id": {
-		"name": "indonezeg"
-	},
-	"is": {
-		"name": "islandeg"
-	},
-	"it": {
-		"name": "italianeg"
-	},
-	"ga": {
-		"name": "iwerzhoneg"
-	},
-	"dsb": {
-		"name": "izelsorabeg"
-	},
-	"ja": {
-		"name": "japaneg"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"ka": {
-		"name": "jorjianeg"
-	},
-	"kab": {
-		"name": "kabileg"
-	},
-	"kea": {
-		"name": "kabuverdianu"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "kamba"
-	},
-	"kn": {
-		"name": "kanareg"
-	},
-	"ks": {
-		"name": "kashmiri"
-	},
-	"ca": {
-		"name": "katalaneg"
-	},
-	"kk": {
-		"name": "kazak"
-	},
-	"qu": {
-		"name": "kechuaeg"
-	},
-	"cy": {
-		"name": "kembraeg"
-	},
-	"kw": {
-		"name": "kerneveureg"
-	},
-	"km": {
-		"name": "khmer"
-	},
-	"ki": {
-		"name": "kikuyu"
-	},
-	"rw": {
-		"name": "kinyarwanda"
-	},
-	"ky": {
-		"name": "kirgiz"
-	},
-	"ksh": {
-		"name": "koluneg"
-	},
-	"kok": {
-		"name": "konkani"
-	},
-	"ko": {
-		"name": "koreaneg"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"hr": {
-		"name": "kroateg"
-	},
-	"ckb": {
-		"name": "kurdeg sorani"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lo": {
-		"name": "laoseg"
-	},
-	"lv": {
-		"name": "latvieg"
-	},
-	"ln": {
-		"name": "lingala"
-	},
-	"lt": {
-		"name": "lituaneg"
-	},
-	"lu": {
-		"name": "luba-katanga"
-	},
-	"lb": {
-		"name": "luksembourgeg"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"luy": {
-		"name": "luyia"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mk": {
-		"name": "makedoneg"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"ml": {
-		"name": "malayalam"
-	},
-	"ms": {
-		"name": "malayseg"
-	},
-	"mg": {
-		"name": "malgacheg"
-	},
-	"mt": {
-		"name": "malteg"
-	},
-	"gv": {
-		"name": "manaveg"
-	},
-	"mr": {
-		"name": "marathi"
-	},
-	"mas": {
-		"name": "masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"ro-MD": {
-		"name": "moldoveg"
-	},
-	"mn": {
-		"name": "mongoleg"
-	},
-	"mfe": {
-		"name": "moriseg"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nd": {
-		"name": "ndebele an Norzh"
-	},
-	"nl": {
-		"name": "nederlandeg"
-	},
-	"ne": {
-		"name": "nepaleg"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"nb": {
-		"name": "norvegeg bokmål"
-	},
-	"nn": {
-		"name": "norvegeg nynorsk"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "nyankole"
-	},
-	"or": {
-		"name": "oriya"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "oseteg"
-	},
-	"ug": {
-		"name": "ouigoureg"
-	},
-	"ur": {
-		"name": "ourdou"
-	},
-	"uz": {
-		"name": "ouzbekeg"
-	},
-	"ps": {
-		"name": "pachto"
-	},
-	"fa": {
-		"name": "perseg"
-	},
-	"pl": {
-		"name": "poloneg"
-	},
-	"pt": {
-		"name": "portugaleg"
-	},
-	"pt-PT": {
-		"name": "portugaleg Europa"
-	},
-	"pa": {
-		"name": "punjabi"
-	},
-	"rm": {
-		"name": "romañcheg"
-	},
-	"rof": {
-		"name": "rombo"
-	},
-	"ro": {
-		"name": "roumaneg"
-	},
-	"rn": {
-		"name": "rundi"
-	},
-	"ru": {
-		"name": "rusianeg"
-	},
-	"rwk": {
-		"name": "rwa"
-	},
-	"nds-NL": {
-		"name": "saksoneg izel"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"se": {
-		"name": "sámi an Norzh"
-	},
-	"smn": {
-		"name": "sámi Inari"
-	},
-	"sg": {
-		"name": "sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"en": {
-		"name": "saozneg"
-	},
-	"en-AU": {
-		"name": "saozneg Aostralia"
-	},
-	"en-GB": {
-		"name": "saozneg Breizh-Veur"
-	},
-	"en-CA": {
-		"name": "saozneg Kanada"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"sr": {
-		"name": "serbeg"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "shona"
-	},
-	"zh": {
-		"name": "sinaeg"
-	},
-	"zh-Hans": {
-		"name": "sinaeg eeunaet"
-	},
-	"zh-Hant": {
-		"name": "sinaeg hengounel"
-	},
-	"sd": {
-		"name": "sindhi"
-	},
-	"si": {
-		"name": "singhaleg"
-	},
-	"gd": {
-		"name": "skoseg"
-	},
-	"cu": {
-		"name": "slavoneg iliz"
-	},
-	"sk": {
-		"name": "slovakeg"
-	},
-	"sl": {
-		"name": "sloveneg"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "somali"
-	},
-	"es": {
-		"name": "spagnoleg"
-	},
-	"es-419": {
-		"name": "spagnoleg Amerika latin"
-	},
-	"es-MX": {
-		"name": "spagnoleg Mecʼhiko"
-	},
-	"sv": {
-		"name": "svedeg"
-	},
-	"sw": {
-		"name": "swahili"
-	},
-	"sw-CD": {
-		"name": "swahili Kongo"
-	},
-	"shi": {
-		"name": "tacheliteg"
-	},
-	"tg": {
-		"name": "tadjik"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"zgh": {
-		"name": "tamacheg Maroko standart"
-	},
-	"tzm": {
-		"name": "tamazigteg Kreizatlas"
-	},
-	"ta": {
-		"name": "tamileg"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "tatar"
-	},
-	"cs": {
-		"name": "tchekeg"
-	},
-	"ce": {
-		"name": "tchetcheneg"
-	},
-	"te": {
-		"name": "telougou"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"th": {
-		"name": "thai"
-	},
-	"bo": {
-		"name": "tibetaneg"
-	},
-	"ti": {
-		"name": "tigrigna"
-	},
-	"to": {
-		"name": "tonga"
-	},
-	"tr": {
-		"name": "turkeg"
-	},
-	"tk": {
-		"name": "turkmeneg"
-	},
-	"hsb": {
-		"name": "uhelsorabeg"
-	},
-	"uk": {
-		"name": "ukraineg"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "vietnameg"
-	},
-	"vo": {
-		"name": "volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "walser"
-	},
-	"wo": {
-		"name": "wolof"
-	},
-	"sah": {
-		"name": "yakouteg"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"yi": {
-		"name": "yiddish"
-	},
-	"ii": {
-		"name": "yieg Sichuan"
-	},
-	"yo": {
-		"name": "yorouba"
-	},
-	"dje": {
-		"name": "Zarma"
-	},
-	"zu": {
-		"name": "zouloueg"
-	}
+	"af": "afrikaans",
+	"agq": "aghem",
+	"ak": "akan",
+	"de": "alamaneg",
+	"de-AT": "alamaneg Aostria",
+	"nds": "alamaneg izel",
+	"gsw": "alamaneg Suis",
+	"de-CH": "alamaneg uhel Suis",
+	"sq": "albaneg",
+	"am": "amhareg",
+	"ar": "arabeg",
+	"hy": "armenianeg",
+	"as": "asameg",
+	"ast": "asturianeg",
+	"asa": "asu",
+	"az": "azerbaidjaneg",
+	"ksf": "Bafia",
+	"bm": "bambara",
+	"bas": "basaa",
+	"be": "belaruseg",
+	"bem": "bemba",
+	"bez": "bena",
+	"bn": "bengali",
+	"my": "birmaneg",
+	"brx": "bodo",
+	"bs": "bosneg",
+	"br": "brezhoneg",
+	"bg": "bulgareg",
+	"chr": "cherokee",
+	"cgg": "Chiga",
+	"da": "daneg",
+	"dua": "Duala",
+	"dz": "dzongkha",
+	"ebu": "embu",
+	"eo": "esperanteg",
+	"et": "estoneg",
+	"eu": "euskareg",
+	"ee": "ewe",
+	"ewo": "ewondo",
+	"fo": "faeroeg",
+	"fil": "filipineg",
+	"fi": "finneg",
+	"nl-BE": "flandrezeg",
+	"fur": "frioulaneg",
+	"fy": "frizeg ar Cʼhornôg",
+	"ff": "Fulah",
+	"gl": "galizeg",
+	"fr": "galleg",
+	"fr-CA": "galleg Kanada",
+	"fr-CH": "galleg Suis",
+	"lg": "ganda",
+	"el": "gresianeg",
+	"gu": "gujarati",
+	"guz": "Gusii",
+	"ha": "haousa",
+	"haw": "hawaieg",
+	"he": "hebraeg",
+	"prg": "henbruseg",
+	"hi": "hindi",
+	"hu": "hungareg",
+	"ig": "igbo",
+	"id": "indonezeg",
+	"is": "islandeg",
+	"it": "italianeg",
+	"ga": "iwerzhoneg",
+	"dsb": "izelsorabeg",
+	"ja": "japaneg",
+	"dyo": "Jola-Fonyi",
+	"ka": "jorjianeg",
+	"kab": "kabileg",
+	"kea": "kabuverdianu",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "kamba",
+	"kn": "kanareg",
+	"ks": "kashmiri",
+	"ca": "katalaneg",
+	"kk": "kazak",
+	"qu": "kechuaeg",
+	"cy": "kembraeg",
+	"kw": "kerneveureg",
+	"km": "khmer",
+	"ki": "kikuyu",
+	"rw": "kinyarwanda",
+	"ky": "kirgiz",
+	"ksh": "koluneg",
+	"kok": "konkani",
+	"ko": "koreaneg",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"hr": "kroateg",
+	"ckb": "kurdeg sorani",
+	"nmg": "Kwasio",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"lo": "laoseg",
+	"lv": "latvieg",
+	"ln": "lingala",
+	"lt": "lituaneg",
+	"lu": "luba-katanga",
+	"lb": "luksembourgeg",
+	"luo": "Luo",
+	"luy": "luyia",
+	"jmc": "Machame",
+	"mk": "makedoneg",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"ml": "malayalam",
+	"ms": "malayseg",
+	"mg": "malgacheg",
+	"mt": "malteg",
+	"gv": "manaveg",
+	"mr": "marathi",
+	"mas": "masai",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"ro-MD": "moldoveg",
+	"mn": "mongoleg",
+	"mfe": "moriseg",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nd": "ndebele an Norzh",
+	"nl": "nederlandeg",
+	"ne": "nepaleg",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"lrc": "Northern Luri",
+	"nb": "norvegeg bokmål",
+	"nn": "norvegeg nynorsk",
+	"nus": "Nuer",
+	"nyn": "nyankole",
+	"or": "oriya",
+	"om": "Oromo",
+	"os": "oseteg",
+	"ug": "ouigoureg",
+	"ur": "ourdou",
+	"uz": "ouzbekeg",
+	"ps": "pachto",
+	"fa": "perseg",
+	"pl": "poloneg",
+	"pt": "portugaleg",
+	"pt-PT": "portugaleg Europa",
+	"pa": "punjabi",
+	"rm": "romañcheg",
+	"rof": "rombo",
+	"ro": "roumaneg",
+	"rn": "rundi",
+	"ru": "rusianeg",
+	"rwk": "rwa",
+	"nds-NL": "saksoneg izel",
+	"saq": "Samburu",
+	"se": "sámi an Norzh",
+	"smn": "sámi Inari",
+	"sg": "sango",
+	"sbp": "Sangu",
+	"en": "saozneg",
+	"en-AU": "saozneg Aostralia",
+	"en-GB": "saozneg Breizh-Veur",
+	"en-CA": "saozneg Kanada",
+	"seh": "Sena",
+	"sr": "serbeg",
+	"ksb": "Shambala",
+	"sn": "shona",
+	"zh": "sinaeg",
+	"zh-Hans": "sinaeg eeunaet",
+	"zh-Hant": "sinaeg hengounel",
+	"sd": "sindhi",
+	"si": "singhaleg",
+	"gd": "skoseg",
+	"cu": "slavoneg iliz",
+	"sk": "slovakeg",
+	"sl": "sloveneg",
+	"xog": "Soga",
+	"so": "somali",
+	"es": "spagnoleg",
+	"es-419": "spagnoleg Amerika latin",
+	"es-MX": "spagnoleg Mecʼhiko",
+	"sv": "svedeg",
+	"sw": "swahili",
+	"sw-CD": "swahili Kongo",
+	"shi": "tacheliteg",
+	"tg": "tadjik",
+	"dav": "Taita",
+	"zgh": "tamacheg Maroko standart",
+	"tzm": "tamazigteg Kreizatlas",
+	"ta": "tamileg",
+	"twq": "Tasawaq",
+	"tt": "tatar",
+	"cs": "tchekeg",
+	"ce": "tchetcheneg",
+	"te": "telougou",
+	"teo": "Teso",
+	"th": "thai",
+	"bo": "tibetaneg",
+	"ti": "tigrigna",
+	"to": "tonga",
+	"tr": "turkeg",
+	"tk": "turkmeneg",
+	"hsb": "uhelsorabeg",
+	"uk": "ukraineg",
+	"vai": "Vai",
+	"vi": "vietnameg",
+	"vo": "volapük",
+	"vun": "Vunjo",
+	"wae": "walser",
+	"wo": "wolof",
+	"sah": "yakouteg",
+	"yav": "Yangben",
+	"yi": "yiddish",
+	"ii": "yieg Sichuan",
+	"yo": "yorouba",
+	"dje": "Zarma",
+	"zu": "zouloueg"
 }

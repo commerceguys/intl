@@ -1,644 +1,216 @@
 {
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "Akan"
-	},
-	"ast": {
-		"name": "Asturian"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"my": {
-		"name": "Burmese"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"zh": {
-		"name": "Chinese"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"kw": {
-		"name": "Cornish"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"ha": {
-		"name": "Hausa"
-	},
-	"haw": {
-		"name": "Hawaiian"
-	},
-	"sq": {
-		"name": "Icyalubaniya"
-	},
-	"ar": {
-		"name": "Icyarabu"
-	},
-	"as": {
-		"name": "Icyasamizi"
-	},
-	"es": {
-		"name": "Icyesipanyolo"
-	},
-	"es-419": {
-		"name": "Icyesipanyolo (419)"
-	},
-	"es-MX": {
-		"name": "Icyesipanyolo (MX)"
-	},
-	"eo": {
-		"name": "Icyesiperanto"
-	},
-	"et": {
-		"name": "Icyesitoniya"
-	},
-	"en": {
-		"name": "Icyongereza"
-	},
-	"en-AU": {
-		"name": "Icyongereza (AU)"
-	},
-	"en-CA": {
-		"name": "Icyongereza (CA)"
-	},
-	"en-GB": {
-		"name": "Icyongereza (GB)"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"cs": {
-		"name": "Igiceke"
-	},
-	"fr": {
-		"name": "Igifaransa"
-	},
-	"fr-CA": {
-		"name": "Igifaransa (CA)"
-	},
-	"fr-CH": {
-		"name": "Igifaransa (CH)"
-	},
-	"fi": {
-		"name": "Igifinilande"
-	},
-	"fy": {
-		"name": "Igifiriziyani"
-	},
-	"he": {
-		"name": "Igiheburayo"
-	},
-	"hi": {
-		"name": "Igihindi"
-	},
-	"hu": {
-		"name": "Igihongiriya"
-	},
-	"km": {
-		"name": "Igikambodiya"
-	},
-	"kn": {
-		"name": "Igikanada"
-	},
-	"ca": {
-		"name": "Igikatalani"
-	},
-	"ko": {
-		"name": "Igikoreya"
-	},
-	"hr": {
-		"name": "Igikorowasiya"
-	},
-	"pl": {
-		"name": "Igipolone"
-	},
-	"pt": {
-		"name": "Igiporutugali"
-	},
-	"pa": {
-		"name": "Igipunjabi"
-	},
-	"sr": {
-		"name": "Igiseribe"
-	},
-	"is": {
-		"name": "Igisilande"
-	},
-	"sk": {
-		"name": "Igisilovaki"
-	},
-	"sd": {
-		"name": "Igisindi"
-	},
-	"so": {
-		"name": "Igisomali"
-	},
-	"sv": {
-		"name": "Igisuweduwa"
-	},
-	"sw": {
-		"name": "Igiswahili"
-	},
-	"sw-CD": {
-		"name": "Igiswahili (CD)"
-	},
-	"it": {
-		"name": "Igitaliyani"
-	},
-	"ta": {
-		"name": "Igitamili"
-	},
-	"th": {
-		"name": "Igitayi"
-	},
-	"te": {
-		"name": "Igitelugu"
-	},
-	"tr": {
-		"name": "Igiturukiya"
-	},
-	"eu": {
-		"name": "Ikibasiki"
-	},
-	"be": {
-		"name": "Ikibelarusiya"
-	},
-	"bn": {
-		"name": "Ikibengali"
-	},
-	"de": {
-		"name": "Ikidage"
-	},
-	"de-AT": {
-		"name": "Ikidage (AT)"
-	},
-	"de-CH": {
-		"name": "Ikidage (CH)"
-	},
-	"da": {
-		"name": "Ikidaninwa"
-	},
-	"gl": {
-		"name": "Ikigalisiya"
-	},
-	"cy": {
-		"name": "Ikigaluwa"
-	},
-	"gd": {
-		"name": "Ikigaluwa cy’Igisweduwa"
-	},
-	"el": {
-		"name": "Ikigereki"
-	},
-	"lo": {
-		"name": "Ikilawotiyani"
-	},
-	"lt": {
-		"name": "Ikilituwaniya"
-	},
-	"ml": {
-		"name": "Ikimalayalami"
-	},
-	"ms": {
-		"name": "Ikimalayi"
-	},
-	"mt": {
-		"name": "Ikimaliteze"
-	},
-	"mr": {
-		"name": "Ikimarati"
-	},
-	"mk": {
-		"name": "Ikimasedoniya"
-	},
-	"mn": {
-		"name": "Ikimongoli"
-	},
-	"ne": {
-		"name": "Ikinepali"
-	},
-	"nl": {
-		"name": "Ikinerilande"
-	},
-	"nl-BE": {
-		"name": "Ikinerilande (BE)"
-	},
-	"fil": {
-		"name": "Ikinyafilipine"
-	},
-	"af": {
-		"name": "Ikinyafurikaneri"
-	},
-	"lv": {
-		"name": "Ikinyaletoviyani"
-	},
-	"ro": {
-		"name": "Ikinyarumaniya"
-	},
-	"ro-MD": {
-		"name": "Ikinyarumaniya (MD)"
-	},
-	"hy": {
-		"name": "Ikinyarumeniya"
-	},
-	"sl": {
-		"name": "Ikinyasiloveniya"
-	},
-	"vi": {
-		"name": "Ikinyaviyetinamu"
-	},
-	"uk": {
-		"name": "Ikinyayukereni"
-	},
-	"id": {
-		"name": "Ikinyendoziya"
-	},
-	"ga": {
-		"name": "Ikirilandi"
-	},
-	"ru": {
-		"name": "Ikirusiya"
-	},
-	"ug": {
-		"name": "Ikiwiguri"
-	},
-	"ja": {
-		"name": "Ikiyapani"
-	},
-	"ln": {
-		"name": "Ilingala"
-	},
-	"ps": {
-		"name": "Impashito"
-	},
-	"smn": {
-		"name": "Inari Sami"
-	},
-	"ky": {
-		"name": "Inkerigizi"
-	},
-	"am": {
-		"name": "Inyamuhariki"
-	},
-	"ti": {
-		"name": "Inyatigirinya"
-	},
-	"az": {
-		"name": "Inyazeribayijani"
-	},
-	"br": {
-		"name": "Inyebiritoni"
-	},
-	"bs": {
-		"name": "Inyebosiniya"
-	},
-	"fo": {
-		"name": "Inyefaroyizi"
-	},
-	"gu": {
-		"name": "Inyegujarati"
-	},
-	"ka": {
-		"name": "Inyejeworujiya"
-	},
-	"nn": {
-		"name": "Inyenoruveji (Nyonorusiki)"
-	},
-	"fa": {
-		"name": "Inyeperisi"
-	},
-	"pt-PT": {
-		"name": "Inyeporutigali (Igiporutigali)"
-	},
-	"si": {
-		"name": "Inyesimpaleze"
-	},
-	"tk": {
-		"name": "Inyeturukimeni"
-	},
-	"yi": {
-		"name": "Inyeyidishi"
-	},
-	"ur": {
-		"name": "Inyeyurudu"
-	},
-	"uz": {
-		"name": "Inyeyuzubeki"
-	},
-	"zu": {
-		"name": "Inyezulu"
-	},
-	"or": {
-		"name": "Inyoriya"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"ks": {
-		"name": "Kashmiri"
-	},
-	"kk": {
-		"name": "Kazakh"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"rw": {
-		"name": "Kinyarwanda"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"dsb": {
-		"name": "Lower Sorbian"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "Luxembourgish"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"mg": {
-		"name": "Malagasy"
-	},
-	"gv": {
-		"name": "Manx"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nds-NL": {
-		"name": "nds (NL)"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nd": {
-		"name": "North Ndebele"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"se": {
-		"name": "Northern Sami"
-	},
-	"nb": {
-		"name": "Norwegian Bokmål"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Ossetic"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"rm": {
-		"name": "Romansh"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rn": {
-		"name": "Rundi"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "Shona"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"gsw": {
-		"name": "Swiss German"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"tg": {
-		"name": "Tajik"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "Tatar"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"bo": {
-		"name": "Tibetan"
-	},
-	"to": {
-		"name": "Tongan"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
-	},
-	"bg": {
-		"name": "Urunyabuligariya"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"wo": {
-		"name": "Wolof"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"yo": {
-		"name": "Yoruba"
-	},
-	"dje": {
-		"name": "Zarma"
-	},
-	"zh-Hans": {
-		"name": "zh (Hans)"
-	},
-	"zh-Hant": {
-		"name": "zh (Hant)"
-	}
+	"agq": "Aghem",
+	"ak": "Akan",
+	"ast": "Asturian",
+	"asa": "Asu",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bas": "Basaa",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"brx": "Bodo",
+	"my": "Burmese",
+	"tzm": "Central Atlas Tamazight",
+	"ckb": "Central Kurdish",
+	"ce": "Chechen",
+	"chr": "Cherokee",
+	"cgg": "Chiga",
+	"zh": "Chinese",
+	"cu": "Church Slavic",
+	"ksh": "Colognian",
+	"kw": "Cornish",
+	"dua": "Duala",
+	"dz": "Dzongkha",
+	"ebu": "Embu",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fur": "Friulian",
+	"ff": "Fulah",
+	"lg": "Ganda",
+	"guz": "Gusii",
+	"ha": "Hausa",
+	"haw": "Hawaiian",
+	"sq": "Icyalubaniya",
+	"ar": "Icyarabu",
+	"as": "Icyasamizi",
+	"es": "Icyesipanyolo",
+	"es-419": "Icyesipanyolo (419)",
+	"es-MX": "Icyesipanyolo (MX)",
+	"eo": "Icyesiperanto",
+	"et": "Icyesitoniya",
+	"en": "Icyongereza",
+	"en-AU": "Icyongereza (AU)",
+	"en-CA": "Icyongereza (CA)",
+	"en-GB": "Icyongereza (GB)",
+	"ig": "Igbo",
+	"cs": "Igiceke",
+	"fr": "Igifaransa",
+	"fr-CA": "Igifaransa (CA)",
+	"fr-CH": "Igifaransa (CH)",
+	"fi": "Igifinilande",
+	"fy": "Igifiriziyani",
+	"he": "Igiheburayo",
+	"hi": "Igihindi",
+	"hu": "Igihongiriya",
+	"km": "Igikambodiya",
+	"kn": "Igikanada",
+	"ca": "Igikatalani",
+	"ko": "Igikoreya",
+	"hr": "Igikorowasiya",
+	"pl": "Igipolone",
+	"pt": "Igiporutugali",
+	"pa": "Igipunjabi",
+	"sr": "Igiseribe",
+	"is": "Igisilande",
+	"sk": "Igisilovaki",
+	"sd": "Igisindi",
+	"so": "Igisomali",
+	"sv": "Igisuweduwa",
+	"sw": "Igiswahili",
+	"sw-CD": "Igiswahili (CD)",
+	"it": "Igitaliyani",
+	"ta": "Igitamili",
+	"th": "Igitayi",
+	"te": "Igitelugu",
+	"tr": "Igiturukiya",
+	"eu": "Ikibasiki",
+	"be": "Ikibelarusiya",
+	"bn": "Ikibengali",
+	"de": "Ikidage",
+	"de-AT": "Ikidage (AT)",
+	"de-CH": "Ikidage (CH)",
+	"da": "Ikidaninwa",
+	"gl": "Ikigalisiya",
+	"cy": "Ikigaluwa",
+	"gd": "Ikigaluwa cy’Igisweduwa",
+	"el": "Ikigereki",
+	"lo": "Ikilawotiyani",
+	"lt": "Ikilituwaniya",
+	"ml": "Ikimalayalami",
+	"ms": "Ikimalayi",
+	"mt": "Ikimaliteze",
+	"mr": "Ikimarati",
+	"mk": "Ikimasedoniya",
+	"mn": "Ikimongoli",
+	"ne": "Ikinepali",
+	"nl": "Ikinerilande",
+	"nl-BE": "Ikinerilande (BE)",
+	"fil": "Ikinyafilipine",
+	"af": "Ikinyafurikaneri",
+	"lv": "Ikinyaletoviyani",
+	"ro": "Ikinyarumaniya",
+	"ro-MD": "Ikinyarumaniya (MD)",
+	"hy": "Ikinyarumeniya",
+	"sl": "Ikinyasiloveniya",
+	"vi": "Ikinyaviyetinamu",
+	"uk": "Ikinyayukereni",
+	"id": "Ikinyendoziya",
+	"ga": "Ikirilandi",
+	"ru": "Ikirusiya",
+	"ug": "Ikiwiguri",
+	"ja": "Ikiyapani",
+	"ln": "Ilingala",
+	"ps": "Impashito",
+	"smn": "Inari Sami",
+	"ky": "Inkerigizi",
+	"am": "Inyamuhariki",
+	"ti": "Inyatigirinya",
+	"az": "Inyazeribayijani",
+	"br": "Inyebiritoni",
+	"bs": "Inyebosiniya",
+	"fo": "Inyefaroyizi",
+	"gu": "Inyegujarati",
+	"ka": "Inyejeworujiya",
+	"nn": "Inyenoruveji (Nyonorusiki)",
+	"fa": "Inyeperisi",
+	"pt-PT": "Inyeporutigali (Igiporutigali)",
+	"si": "Inyesimpaleze",
+	"tk": "Inyeturukimeni",
+	"yi": "Inyeyidishi",
+	"ur": "Inyeyurudu",
+	"uz": "Inyeyuzubeki",
+	"zu": "Inyezulu",
+	"or": "Inyoriya",
+	"dyo": "Jola-Fonyi",
+	"kea": "Kabuverdianu",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"ks": "Kashmiri",
+	"kk": "Kazakh",
+	"ki": "Kikuyu",
+	"rw": "Kinyarwanda",
+	"kok": "Konkani",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"nmg": "Kwasio",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"dsb": "Lower Sorbian",
+	"lu": "Luba-Katanga",
+	"luo": "Luo",
+	"lb": "Luxembourgish",
+	"luy": "Luyia",
+	"jmc": "Machame",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"mg": "Malagasy",
+	"gv": "Manx",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nds-NL": "nds (NL)",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"nd": "North Ndebele",
+	"lrc": "Northern Luri",
+	"se": "Northern Sami",
+	"nb": "Norwegian Bokmål",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"om": "Oromo",
+	"os": "Ossetic",
+	"prg": "Prussian",
+	"qu": "Quechua",
+	"rm": "Romansh",
+	"rof": "Rombo",
+	"rn": "Rundi",
+	"rwk": "Rwa",
+	"sah": "Sakha",
+	"saq": "Samburu",
+	"sg": "Sango",
+	"sbp": "Sangu",
+	"seh": "Sena",
+	"ksb": "Shambala",
+	"sn": "Shona",
+	"ii": "Sichuan Yi",
+	"xog": "Soga",
+	"zgh": "Standard Moroccan Tamazight",
+	"gsw": "Swiss German",
+	"shi": "Tachelhit",
+	"dav": "Taita",
+	"tg": "Tajik",
+	"twq": "Tasawaq",
+	"tt": "Tatar",
+	"teo": "Teso",
+	"bo": "Tibetan",
+	"to": "Tongan",
+	"hsb": "Upper Sorbian",
+	"bg": "Urunyabuligariya",
+	"vai": "Vai",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"wae": "Walser",
+	"wo": "Wolof",
+	"yav": "Yangben",
+	"yo": "Yoruba",
+	"dje": "Zarma",
+	"zh-Hans": "zh (Hans)",
+	"zh-Hant": "zh (Hant)"
 }

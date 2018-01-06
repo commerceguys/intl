@@ -16,12 +16,8 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      * @var array
      */
     protected $englishDefinitions = [
-        'FR' => [
-            'name' => 'France',
-        ],
-        'US' => [
-            'name' => 'United States',
-        ],
+        'FR' => 'France',
+        'US' => 'United States',
     ];
 
     /**

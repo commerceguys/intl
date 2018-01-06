@@ -1,644 +1,216 @@
 {
-	"af": {
-		"name": "Afrikaans"
-	},
-	"agq": {
-		"name": "Aghehmesch"
-	},
-	"ak": {
-		"name": "Akahnesch"
-	},
-	"sq": {
-		"name": "Albahnesch"
-	},
-	"am": {
-		"name": "Amhahresch"
-	},
-	"en": {
-		"name": "Änglesch"
-	},
-	"en-AU": {
-		"name": "Änglesch uß Außtrahlije"
-	},
-	"en-GB": {
-		"name": "Änglesch uß Jruhßbrettannije"
-	},
-	"en-CA": {
-		"name": "Änglesch uß Kanada"
-	},
-	"ar": {
-		"name": "Arahbesch"
-	},
-	"hy": {
-		"name": "Armehnesch"
-	},
-	"as": {
-		"name": "Aßamehsesch"
-	},
-	"az": {
-		"name": "Asserbaidschahnesch"
-	},
-	"et": {
-		"name": "Äßnesch"
-	},
-	"ast": {
-		"name": "Astuhrejahnesch"
-	},
-	"ksf": {
-		"name": "Bafijahnesch"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bn": {
-		"name": "Bängjahlesch"
-	},
-	"bas": {
-		"name": "Basaa-Schprohche"
-	},
-	"eu": {
-		"name": "Baskesch"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"br": {
-		"name": "Bettohnesch"
-	},
-	"brx": {
-		"name": "Boddo"
-	},
-	"bs": {
-		"name": "Boßnesch"
-	},
-	"hsb": {
-		"name": "Bovversorrbesch"
-	},
-	"bg": {
-		"name": "Bulljahresch"
-	},
-	"my": {
-		"name": "Burmehsesch"
-	},
-	"dz": {
-		"name": "Butahnesch"
-	},
-	"kde": {
-		"name": "Chimakonde"
-	},
-	"da": {
-		"name": "Dähnesch"
-	},
-	"dav": {
-		"name": "Dawedahnesch"
-	},
-	"de": {
-		"name": "Deutsch"
-	},
-	"de-CH": {
-		"name": "Deutsch uß de Schweijz"
-	},
-	"de-AT": {
-		"name": "Deutsch uß Öhßterich"
-	},
-	"dje": {
-		"name": "Djerma"
-	},
-	"dua": {
-		"name": "Du’ala"
-	},
-	"eo": {
-		"name": "Esperanto"
-	},
-	"it": {
-		"name": "Etalljähnesch"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewonndo"
-	},
-	"fo": {
-		"name": "Färröhresch"
-	},
-	"fil": {
-		"name": "Fillipihnesch"
-	},
-	"fi": {
-		"name": "Finnesch"
-	},
-	"nl-BE": {
-		"name": "Flähmesch"
-	},
-	"fr": {
-		"name": "Franzühsesch"
-	},
-	"fr-CH": {
-		"name": "Franzühsesch uß de Schweijz"
-	},
-	"fr-CA": {
-		"name": "Franzühsesch uß Kanada"
-	},
-	"fur": {
-		"name": "Frijauhlesch"
-	},
-	"ff": {
-		"name": "Fulfulde"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"gu": {
-		"name": "Gutscharatesch"
-	},
-	"nmg": {
-		"name": "Gyele"
-	},
-	"haw": {
-		"name": "Hauajahnesch"
-	},
-	"ha": {
-		"name": "Haußa"
-	},
-	"he": {
-		"name": "Hebrähjesch"
-	},
-	"hi": {
-		"name": "Hinndi"
-	},
-	"nl": {
-		"name": "Holländesch"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"ga": {
-		"name": "Ihresch"
-	},
-	"smn": {
-		"name": "Inahri Lappländesch"
-	},
-	"id": {
-		"name": "Indonehsesch"
-	},
-	"is": {
-		"name": "Ißlänndesch"
-	},
-	"sah": {
-		"name": "Jackutesch"
-	},
-	"gl": {
-		"name": "Jallihzesch"
-	},
-	"ja": {
-		"name": "Japahnesch"
-	},
-	"ka": {
-		"name": "Je’orjesch"
-	},
-	"yi": {
-		"name": "Jiddesch"
-	},
-	"dyo": {
-		"name": "Jola-Fonyisch"
-	},
-	"yo": {
-		"name": "Joruhba"
-	},
-	"el": {
-		"name": "Jrihschesch"
-	},
-	"kl": {
-		"name": "Jröhnländesch"
-	},
-	"rn": {
-		"name": "K-Rundesch"
-	},
-	"kab": {
-		"name": "Kabyhlesch"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kln": {
-		"name": "Kaländjihnesch"
-	},
-	"kam": {
-		"name": "Kamba vun Kehnija"
-	},
-	"kn": {
-		"name": "Kannada"
-	},
-	"kea": {
-		"name": "Kapvärdesch"
-	},
-	"ks": {
-		"name": "Kaschmihresch"
-	},
-	"kk": {
-		"name": "Kassakkesch"
-	},
-	"ca": {
-		"name": "Kattalahnesch"
-	},
-	"qu": {
-		"name": "Kättschowa"
-	},
-	"cu": {
-		"name": "Kerscheßlahwesch"
-	},
-	"km": {
-		"name": "Khmer"
-	},
-	"ebu": {
-		"name": "Kîembu"
-	},
-	"cgg": {
-		"name": "Kihja-Schprohch"
-	},
-	"lu": {
-		"name": "Kiluba"
-	},
-	"rw": {
-		"name": "Kinja-Ruandesch"
-	},
-	"ky": {
-		"name": "Kirjihsesch"
-	},
-	"rof": {
-		"name": "Kirombo"
-	},
-	"khq": {
-		"name": "Kojra Tschihni"
-	},
-	"ses": {
-		"name": "Kojraboro Senni"
-	},
-	"ksh": {
-		"name": "Kölsch"
-	},
-	"kok": {
-		"name": "Kon’kahnesch"
-	},
-	"kw": {
-		"name": "Kornesch"
-	},
-	"ko": {
-		"name": "Korrejaanesch"
-	},
-	"hr": {
-		"name": "Krowatesch"
-	},
-	"lo": {
-		"name": "Lahootesch"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Lango"
-	},
-	"lv": {
-		"name": "Lättesch"
-	},
-	"ln": {
-		"name": "Lingjalla"
-	},
-	"lt": {
-		"name": "Littouesch"
-	},
-	"lg": {
-		"name": "Lugannda"
-	},
-	"luy": {
-		"name": "Luhjesch"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "Luxemborjesch"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mg": {
-		"name": "Madajaßkesch"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"ms": {
-		"name": "Mallaijesch"
-	},
-	"ml": {
-		"name": "Mallajalam"
-	},
-	"mt": {
-		"name": "Maltehsesch"
-	},
-	"gv": {
-		"name": "Mangx"
-	},
-	"mr": {
-		"name": "Marrahtesch"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mk": {
-		"name": "Mazedohnesch"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"mn": {
-		"name": "Mongjohlesch"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nds-NL": {
-		"name": "Nehdersaksesch en de Nederläng"
-	},
-	"ne": {
-		"name": "Nepallehsesch"
-	},
-	"nn": {
-		"name": "Neu Norrwehjesch"
-	},
-	"dsb": {
-		"name": "Niddersorbesch"
-	},
-	"nnh": {
-		"name": "Njijembohn"
-	},
-	"jgo": {
-		"name": "Njomba"
-	},
-	"se": {
-		"name": "Nood-Lappländesch"
-	},
-	"lrc": {
-		"name": "Nood-Luhresch"
-	},
-	"nd": {
-		"name": "Nood-Ndebele"
-	},
-	"nb": {
-		"name": "Norrwehjesch Bokmål"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"or": {
-		"name": "Oriija"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Oßeetesch"
-	},
-	"pa": {
-		"name": "Panschaabesch"
-	},
-	"asa": {
-		"name": "Pare"
-	},
-	"fa": {
-		"name": "Pärsesch"
-	},
-	"ps": {
-		"name": "Paschtuunesch"
-	},
-	"pt": {
-		"name": "Pochtojesesch"
-	},
-	"pt-PT": {
-		"name": "Pochtojesesch uß Pochtojall"
-	},
-	"pl": {
-		"name": "Pollnesch"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"rm": {
-		"name": "Rätoromaanesch"
-	},
-	"ki": {
-		"name": "Rekohjo"
-	},
-	"ro": {
-		"name": "Rumänesch"
-	},
-	"ro-MD": {
-		"name": "Rumänesch en Moldaavije"
-	},
-	"ru": {
-		"name": "Rußßesch"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sangjo"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"sr": {
-		"name": "Särbesch"
-	},
-	"sn": {
-		"name": "Schi-Schona"
-	},
-	"zh-Hans": {
-		"name": "Schinehsesch (eijfache Schreff)"
-	},
-	"zh": {
-		"name": "Schinehsesch (Mandarin)"
-	},
-	"zh-Hant": {
-		"name": "Schinehsesch (tradizjonälle Schreff)"
-	},
-	"es": {
-		"name": "Schpahnesch"
-	},
-	"es-MX": {
-		"name": "Schpahnesch en Mäxikoh"
-	},
-	"es-419": {
-		"name": "Schpahnesch uß Latting-Ammärrika"
-	},
-	"sv": {
-		"name": "Schwehdesch"
-	},
-	"gsw": {
-		"name": "Schwitzerdütsch"
-	},
-	"gd": {
-		"name": "Scottish Gaelic"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"si": {
-		"name": "Singjaleesesch"
-	},
-	"sd": {
-		"name": "Sinndi"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "Somahlesch"
-	},
-	"sk": {
-		"name": "ẞlovakesch"
-	},
-	"sl": {
-		"name": "ẞloveenesch"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"sw": {
-		"name": "Suahehlesch"
-	},
-	"sw-CD": {
-		"name": "Suahehlesch en dä Konggo [Kinschasa]"
-	},
-	"zu": {
-		"name": "Suhlu"
-	},
-	"tg": {
-		"name": "Tadschihkesch"
-	},
-	"th": {
-		"name": "Tailändesch"
-	},
-	"tzm": {
-		"name": "Tamasicht ussem meddlere Atlas"
-	},
-	"ta": {
-		"name": "Tamihlesch"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"shi": {
-		"name": "Taschelhittesch"
-	},
-	"tt": {
-		"name": "Tattahresch"
-	},
-	"te": {
-		"name": "Telluhju"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"bo": {
-		"name": "Tibehtesch"
-	},
-	"ti": {
-		"name": "Tijrenejahnesch"
-	},
-	"to": {
-		"name": "Tongjahnesch"
-	},
-	"tr": {
-		"name": "Törkesch"
-	},
-	"tk": {
-		"name": "Törkmehnesch"
-	},
-	"chr": {
-		"name": "Tschärrokeh"
-	},
-	"cs": {
-		"name": "Tschäschesch"
-	},
-	"ce": {
-		"name": "Tschätschehnesch"
-	},
-	"ug": {
-		"name": "Uj’juhresch"
-	},
-	"uk": {
-		"name": "Ukrainesch"
-	},
-	"hu": {
-		"name": "Unnjarresch"
-	},
-	"ur": {
-		"name": "Urdu\/Hindi"
-	},
-	"uz": {
-		"name": "Ußbehkesch"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "Vijätnammehsesch"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"cy": {
-		"name": "Wallihsesch"
-	},
-	"wae": {
-		"name": "Walserdütsch"
-	},
-	"fy": {
-		"name": "Wäßfrihsesch"
-	},
-	"be": {
-		"name": "Wiißrußesch"
-	},
-	"wo": {
-		"name": "Woloff"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"ckb": {
-		"name": "Zäntrahl-Kurrdesch"
-	}
+	"af": "Afrikaans",
+	"agq": "Aghehmesch",
+	"ak": "Akahnesch",
+	"sq": "Albahnesch",
+	"am": "Amhahresch",
+	"en": "Änglesch",
+	"en-AU": "Änglesch uß Außtrahlije",
+	"en-GB": "Änglesch uß Jruhßbrettannije",
+	"en-CA": "Änglesch uß Kanada",
+	"ar": "Arahbesch",
+	"hy": "Armehnesch",
+	"as": "Aßamehsesch",
+	"az": "Asserbaidschahnesch",
+	"et": "Äßnesch",
+	"ast": "Astuhrejahnesch",
+	"ksf": "Bafijahnesch",
+	"bm": "Bambara",
+	"bn": "Bängjahlesch",
+	"bas": "Basaa-Schprohche",
+	"eu": "Baskesch",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"br": "Bettohnesch",
+	"brx": "Boddo",
+	"bs": "Boßnesch",
+	"hsb": "Bovversorrbesch",
+	"bg": "Bulljahresch",
+	"my": "Burmehsesch",
+	"dz": "Butahnesch",
+	"kde": "Chimakonde",
+	"da": "Dähnesch",
+	"dav": "Dawedahnesch",
+	"de": "Deutsch",
+	"de-CH": "Deutsch uß de Schweijz",
+	"de-AT": "Deutsch uß Öhßterich",
+	"dje": "Djerma",
+	"dua": "Du’ala",
+	"eo": "Esperanto",
+	"it": "Etalljähnesch",
+	"ee": "Ewe",
+	"ewo": "Ewonndo",
+	"fo": "Färröhresch",
+	"fil": "Fillipihnesch",
+	"fi": "Finnesch",
+	"nl-BE": "Flähmesch",
+	"fr": "Franzühsesch",
+	"fr-CH": "Franzühsesch uß de Schweijz",
+	"fr-CA": "Franzühsesch uß Kanada",
+	"fur": "Frijauhlesch",
+	"ff": "Fulfulde",
+	"guz": "Gusii",
+	"gu": "Gutscharatesch",
+	"nmg": "Gyele",
+	"haw": "Hauajahnesch",
+	"ha": "Haußa",
+	"he": "Hebrähjesch",
+	"hi": "Hinndi",
+	"nl": "Holländesch",
+	"ig": "Igbo",
+	"ga": "Ihresch",
+	"smn": "Inahri Lappländesch",
+	"id": "Indonehsesch",
+	"is": "Ißlänndesch",
+	"sah": "Jackutesch",
+	"gl": "Jallihzesch",
+	"ja": "Japahnesch",
+	"ka": "Je’orjesch",
+	"yi": "Jiddesch",
+	"dyo": "Jola-Fonyisch",
+	"yo": "Joruhba",
+	"el": "Jrihschesch",
+	"kl": "Jröhnländesch",
+	"rn": "K-Rundesch",
+	"kab": "Kabyhlesch",
+	"kkj": "Kako",
+	"kln": "Kaländjihnesch",
+	"kam": "Kamba vun Kehnija",
+	"kn": "Kannada",
+	"kea": "Kapvärdesch",
+	"ks": "Kaschmihresch",
+	"kk": "Kassakkesch",
+	"ca": "Kattalahnesch",
+	"qu": "Kättschowa",
+	"cu": "Kerscheßlahwesch",
+	"km": "Khmer",
+	"ebu": "Kîembu",
+	"cgg": "Kihja-Schprohch",
+	"lu": "Kiluba",
+	"rw": "Kinja-Ruandesch",
+	"ky": "Kirjihsesch",
+	"rof": "Kirombo",
+	"khq": "Kojra Tschihni",
+	"ses": "Kojraboro Senni",
+	"ksh": "Kölsch",
+	"kok": "Kon’kahnesch",
+	"kw": "Kornesch",
+	"ko": "Korrejaanesch",
+	"hr": "Krowatesch",
+	"lo": "Lahootesch",
+	"lkt": "Lakota",
+	"lag": "Lango",
+	"lv": "Lättesch",
+	"ln": "Lingjalla",
+	"lt": "Littouesch",
+	"lg": "Lugannda",
+	"luy": "Luhjesch",
+	"luo": "Luo",
+	"lb": "Luxemborjesch",
+	"jmc": "Machame",
+	"mg": "Madajaßkesch",
+	"mgh": "Makhuwa-Meetto",
+	"ms": "Mallaijesch",
+	"ml": "Mallajalam",
+	"mt": "Maltehsesch",
+	"gv": "Mangx",
+	"mr": "Marrahtesch",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"mk": "Mazedohnesch",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"mn": "Mongjohlesch",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nds-NL": "Nehdersaksesch en de Nederläng",
+	"ne": "Nepallehsesch",
+	"nn": "Neu Norrwehjesch",
+	"dsb": "Niddersorbesch",
+	"nnh": "Njijembohn",
+	"jgo": "Njomba",
+	"se": "Nood-Lappländesch",
+	"lrc": "Nood-Luhresch",
+	"nd": "Nood-Ndebele",
+	"nb": "Norrwehjesch Bokmål",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"or": "Oriija",
+	"om": "Oromo",
+	"os": "Oßeetesch",
+	"pa": "Panschaabesch",
+	"asa": "Pare",
+	"fa": "Pärsesch",
+	"ps": "Paschtuunesch",
+	"pt": "Pochtojesesch",
+	"pt-PT": "Pochtojesesch uß Pochtojall",
+	"pl": "Pollnesch",
+	"prg": "Prussian",
+	"rm": "Rätoromaanesch",
+	"ki": "Rekohjo",
+	"ro": "Rumänesch",
+	"ro-MD": "Rumänesch en Moldaavije",
+	"ru": "Rußßesch",
+	"rwk": "Rwa",
+	"saq": "Samburu",
+	"sg": "Sangjo",
+	"sbp": "Sangu",
+	"sr": "Särbesch",
+	"sn": "Schi-Schona",
+	"zh-Hans": "Schinehsesch (eijfache Schreff)",
+	"zh": "Schinehsesch (Mandarin)",
+	"zh-Hant": "Schinehsesch (tradizjonälle Schreff)",
+	"es": "Schpahnesch",
+	"es-MX": "Schpahnesch en Mäxikoh",
+	"es-419": "Schpahnesch uß Latting-Ammärrika",
+	"sv": "Schwehdesch",
+	"gsw": "Schwitzerdütsch",
+	"gd": "Scottish Gaelic",
+	"seh": "Sena",
+	"ksb": "Shambala",
+	"ii": "Sichuan Yi",
+	"si": "Singjaleesesch",
+	"sd": "Sinndi",
+	"xog": "Soga",
+	"so": "Somahlesch",
+	"sk": "ẞlovakesch",
+	"sl": "ẞloveenesch",
+	"zgh": "Standard Moroccan Tamazight",
+	"sw": "Suahehlesch",
+	"sw-CD": "Suahehlesch en dä Konggo [Kinschasa]",
+	"zu": "Suhlu",
+	"tg": "Tadschihkesch",
+	"th": "Tailändesch",
+	"tzm": "Tamasicht ussem meddlere Atlas",
+	"ta": "Tamihlesch",
+	"twq": "Tasawaq",
+	"shi": "Taschelhittesch",
+	"tt": "Tattahresch",
+	"te": "Telluhju",
+	"teo": "Teso",
+	"bo": "Tibehtesch",
+	"ti": "Tijrenejahnesch",
+	"to": "Tongjahnesch",
+	"tr": "Törkesch",
+	"tk": "Törkmehnesch",
+	"chr": "Tschärrokeh",
+	"cs": "Tschäschesch",
+	"ce": "Tschätschehnesch",
+	"ug": "Uj’juhresch",
+	"uk": "Ukrainesch",
+	"hu": "Unnjarresch",
+	"ur": "Urdu\/Hindi",
+	"uz": "Ußbehkesch",
+	"vai": "Vai",
+	"vi": "Vijätnammehsesch",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"cy": "Wallihsesch",
+	"wae": "Walserdütsch",
+	"fy": "Wäßfrihsesch",
+	"be": "Wiißrußesch",
+	"wo": "Woloff",
+	"yav": "Yangben",
+	"ckb": "Zäntrahl-Kurrdesch"
 }

@@ -1,761 +1,255 @@
 {
-	"AF": {
-		"name": "Afganistāna"
-	},
-	"AL": {
-		"name": "Albānija"
-	},
-	"DZ": {
-		"name": "Alžīrija"
-	},
-	"US": {
-		"name": "Amerikas Savienotās Valstis"
-	},
-	"AD": {
-		"name": "Andora"
-	},
-	"AI": {
-		"name": "Angilja"
-	},
-	"AO": {
-		"name": "Angola"
-	},
-	"AQ": {
-		"name": "Antarktika"
-	},
-	"AG": {
-		"name": "Antigva un Barbuda"
-	},
-	"AE": {
-		"name": "Apvienotie Arābu Emirāti"
-	},
-	"AR": {
-		"name": "Argentīna"
-	},
-	"AM": {
-		"name": "Armēnija"
-	},
-	"AW": {
-		"name": "Aruba"
-	},
-	"UM": {
-		"name": "ASV Mazās Aizjūras salas"
-	},
-	"AS": {
-		"name": "ASV Samoa"
-	},
-	"VI": {
-		"name": "ASV Virdžīnas"
-	},
-	"AU": {
-		"name": "Austrālija"
-	},
-	"AT": {
-		"name": "Austrija"
-	},
-	"TL": {
-		"name": "Austrumtimora"
-	},
-	"AZ": {
-		"name": "Azerbaidžāna"
-	},
-	"BS": {
-		"name": "Bahamu salas"
-	},
-	"BH": {
-		"name": "Bahreina"
-	},
-	"BY": {
-		"name": "Baltkrievija"
-	},
-	"BD": {
-		"name": "Bangladeša"
-	},
-	"BB": {
-		"name": "Barbadosa"
-	},
-	"BZ": {
-		"name": "Beliza"
-	},
-	"BE": {
-		"name": "Beļģija"
-	},
-	"BJ": {
-		"name": "Benina"
-	},
-	"BM": {
-		"name": "Bermudu salas"
-	},
-	"BO": {
-		"name": "Bolīvija"
-	},
-	"BA": {
-		"name": "Bosnija un Hercegovina"
-	},
-	"BW": {
-		"name": "Botsvāna"
-	},
-	"BR": {
-		"name": "Brazīlija"
-	},
-	"VG": {
-		"name": "Britu Virdžīnas"
-	},
-	"BN": {
-		"name": "Bruneja"
-	},
-	"BG": {
-		"name": "Bulgārija"
-	},
-	"BF": {
-		"name": "Burkinafaso"
-	},
-	"BI": {
-		"name": "Burundija"
-	},
-	"BT": {
-		"name": "Butāna"
-	},
-	"CF": {
-		"name": "Centrālāfrikas Republika"
-	},
-	"TD": {
-		"name": "Čada"
-	},
-	"CZ": {
-		"name": "Čehija"
-	},
-	"CL": {
-		"name": "Čīle"
-	},
-	"DK": {
-		"name": "Dānija"
-	},
-	"AC": {
-		"name": "Debesbraukšanas sala"
-	},
-	"ZA": {
-		"name": "Dienvidāfrikas Republika"
-	},
-	"GS": {
-		"name": "Dienviddžordžija un Dienvidsendviču salas"
-	},
-	"KR": {
-		"name": "Dienvidkoreja"
-	},
-	"SS": {
-		"name": "Dienvidsudāna"
-	},
-	"DG": {
-		"name": "Djego Garsijas atols"
-	},
-	"DM": {
-		"name": "Dominika"
-	},
-	"DO": {
-		"name": "Dominikāna"
-	},
-	"JE": {
-		"name": "Džērsija"
-	},
-	"DJ": {
-		"name": "Džibutija"
-	},
-	"EG": {
-		"name": "Ēģipte"
-	},
-	"EC": {
-		"name": "Ekvadora"
-	},
-	"GQ": {
-		"name": "Ekvatoriālā Gvineja"
-	},
-	"ER": {
-		"name": "Eritreja"
-	},
-	"ET": {
-		"name": "Etiopija"
-	},
-	"FO": {
-		"name": "Fēru salas"
-	},
-	"FJ": {
-		"name": "Fidži"
-	},
-	"PH": {
-		"name": "Filipīnas"
-	},
-	"FK": {
-		"name": "Folklenda salas"
-	},
-	"FR": {
-		"name": "Francija"
-	},
-	"TF": {
-		"name": "Francijas Dienvidjūru teritorija"
-	},
-	"GF": {
-		"name": "Francijas Gviāna"
-	},
-	"PF": {
-		"name": "Francijas Polinēzija"
-	},
-	"GA": {
-		"name": "Gabona"
-	},
-	"GY": {
-		"name": "Gajāna"
-	},
-	"GM": {
-		"name": "Gambija"
-	},
-	"GH": {
-		"name": "Gana"
-	},
-	"GG": {
-		"name": "Gērnsija"
-	},
-	"GI": {
-		"name": "Gibraltārs"
-	},
-	"GD": {
-		"name": "Grenāda"
-	},
-	"GL": {
-		"name": "Grenlande"
-	},
-	"GR": {
-		"name": "Grieķija"
-	},
-	"GE": {
-		"name": "Gruzija"
-	},
-	"GU": {
-		"name": "Guama"
-	},
-	"GP": {
-		"name": "Gvadelupa"
-	},
-	"GT": {
-		"name": "Gvatemala"
-	},
-	"GN": {
-		"name": "Gvineja"
-	},
-	"GW": {
-		"name": "Gvineja-Bisava"
-	},
-	"HT": {
-		"name": "Haiti"
-	},
-	"HN": {
-		"name": "Hondurasa"
-	},
-	"HR": {
-		"name": "Horvātija"
-	},
-	"EE": {
-		"name": "Igaunija"
-	},
-	"IN": {
-		"name": "Indija"
-	},
-	"IO": {
-		"name": "Indijas okeāna Britu teritorija"
-	},
-	"ID": {
-		"name": "Indonēzija"
-	},
-	"IQ": {
-		"name": "Irāka"
-	},
-	"IR": {
-		"name": "Irāna"
-	},
-	"IE": {
-		"name": "Īrija"
-	},
-	"IS": {
-		"name": "Islande"
-	},
-	"IT": {
-		"name": "Itālija"
-	},
-	"IL": {
-		"name": "Izraēla"
-	},
-	"JM": {
-		"name": "Jamaika"
-	},
-	"JP": {
-		"name": "Japāna"
-	},
-	"NC": {
-		"name": "Jaunkaledonija"
-	},
-	"NZ": {
-		"name": "Jaunzēlande"
-	},
-	"YE": {
-		"name": "Jemena"
-	},
-	"JO": {
-		"name": "Jordānija"
-	},
-	"CV": {
-		"name": "Kaboverde"
-	},
-	"KY": {
-		"name": "Kaimanu salas"
-	},
-	"KH": {
-		"name": "Kambodža"
-	},
-	"CM": {
-		"name": "Kamerūna"
-	},
-	"CA": {
-		"name": "Kanāda"
-	},
-	"IC": {
-		"name": "Kanāriju salas"
-	},
-	"QA": {
-		"name": "Katara"
-	},
-	"KZ": {
-		"name": "Kazahstāna"
-	},
-	"KE": {
-		"name": "Kenija"
-	},
-	"CY": {
-		"name": "Kipra"
-	},
-	"CW": {
-		"name": "Kirasao"
-	},
-	"KG": {
-		"name": "Kirgizstāna"
-	},
-	"KI": {
-		"name": "Kiribati"
-	},
-	"CC": {
-		"name": "Kokosu (Kīlinga) salas"
-	},
-	"CO": {
-		"name": "Kolumbija"
-	},
-	"KM": {
-		"name": "Komoru salas"
-	},
-	"CG": {
-		"name": "Kongo (Brazavila)"
-	},
-	"CD": {
-		"name": "Kongo (Kinšasa)"
-	},
-	"XK": {
-		"name": "Kosova"
-	},
-	"CR": {
-		"name": "Kostarika"
-	},
-	"CI": {
-		"name": "Kotdivuāra"
-	},
-	"RU": {
-		"name": "Krievija"
-	},
-	"CU": {
-		"name": "Kuba"
-	},
-	"CK": {
-		"name": "Kuka salas"
-	},
-	"KW": {
-		"name": "Kuveita"
-	},
-	"CN": {
-		"name": "Ķīna"
-	},
-	"HK": {
-		"name": "Ķīnas īpašās pārvaldes apgabals Honkonga"
-	},
-	"MO": {
-		"name": "Ķīnas īpašās pārvaldes apgabals Makao"
-	},
-	"LA": {
-		"name": "Laosa"
-	},
-	"LV": {
-		"name": "Latvija"
-	},
-	"LS": {
-		"name": "Lesoto"
-	},
-	"LB": {
-		"name": "Libāna"
-	},
-	"LR": {
-		"name": "Libērija"
-	},
-	"LY": {
-		"name": "Lībija"
-	},
-	"GB": {
-		"name": "Lielbritānija"
-	},
-	"LT": {
-		"name": "Lietuva"
-	},
-	"LI": {
-		"name": "Lihtenšteina"
-	},
-	"LU": {
-		"name": "Luksemburga"
-	},
-	"MG": {
-		"name": "Madagaskara"
-	},
-	"YT": {
-		"name": "Majota"
-	},
-	"MK": {
-		"name": "Maķedonija"
-	},
-	"MY": {
-		"name": "Malaizija"
-	},
-	"MW": {
-		"name": "Malāvija"
-	},
-	"MV": {
-		"name": "Maldīvija"
-	},
-	"ML": {
-		"name": "Mali"
-	},
-	"MT": {
-		"name": "Malta"
-	},
-	"MA": {
-		"name": "Maroka"
-	},
-	"MH": {
-		"name": "Māršala salas"
-	},
-	"MQ": {
-		"name": "Martinika"
-	},
-	"MU": {
-		"name": "Maurīcija"
-	},
-	"MR": {
-		"name": "Mauritānija"
-	},
-	"MX": {
-		"name": "Meksika"
-	},
-	"ME": {
-		"name": "Melnkalne"
-	},
-	"IM": {
-		"name": "Mena"
-	},
-	"FM": {
-		"name": "Mikronēzija"
-	},
-	"MM": {
-		"name": "Mjanma (Birma)"
-	},
-	"MD": {
-		"name": "Moldova"
-	},
-	"MC": {
-		"name": "Monako"
-	},
-	"MN": {
-		"name": "Mongolija"
-	},
-	"MS": {
-		"name": "Montserrata"
-	},
-	"MZ": {
-		"name": "Mozambika"
-	},
-	"NA": {
-		"name": "Namībija"
-	},
-	"NR": {
-		"name": "Nauru"
-	},
-	"NP": {
-		"name": "Nepāla"
-	},
-	"NL": {
-		"name": "Nīderlande"
-	},
-	"BQ": {
-		"name": "Nīderlandes Karību salas"
-	},
-	"NE": {
-		"name": "Nigēra"
-	},
-	"NG": {
-		"name": "Nigērija"
-	},
-	"NI": {
-		"name": "Nikaragva"
-	},
-	"NU": {
-		"name": "Niue"
-	},
-	"NF": {
-		"name": "Norfolkas sala"
-	},
-	"NO": {
-		"name": "Norvēģija"
-	},
-	"AX": {
-		"name": "Olandes salas"
-	},
-	"OM": {
-		"name": "Omāna"
-	},
-	"PK": {
-		"name": "Pakistāna"
-	},
-	"PW": {
-		"name": "Palau"
-	},
-	"PS": {
-		"name": "Palestīna"
-	},
-	"PA": {
-		"name": "Panama"
-	},
-	"PG": {
-		"name": "Papua-Jaungvineja"
-	},
-	"PY": {
-		"name": "Paragvaja"
-	},
-	"PE": {
-		"name": "Peru"
-	},
-	"PN": {
-		"name": "Pitkērnas salas"
-	},
-	"PL": {
-		"name": "Polija"
-	},
-	"PT": {
-		"name": "Portugāle"
-	},
-	"PR": {
-		"name": "Puertoriko"
-	},
-	"RE": {
-		"name": "Reinjona"
-	},
-	"EH": {
-		"name": "Rietumsahāra"
-	},
-	"RW": {
-		"name": "Ruanda"
-	},
-	"RO": {
-		"name": "Rumānija"
-	},
-	"SV": {
-		"name": "Salvadora"
-	},
-	"WS": {
-		"name": "Samoa"
-	},
-	"SM": {
-		"name": "Sanmarīno"
-	},
-	"ST": {
-		"name": "Santome un Prinsipi"
-	},
-	"SA": {
-		"name": "Saūda Arābija"
-	},
-	"SC": {
-		"name": "Seišelu salas"
-	},
-	"BL": {
-		"name": "Senbartelmī"
-	},
-	"SN": {
-		"name": "Senegāla"
-	},
-	"MF": {
-		"name": "Senmartēna"
-	},
-	"PM": {
-		"name": "Senpjēra un Mikelona"
-	},
-	"KN": {
-		"name": "Sentkitsa un Nevisa"
-	},
-	"LC": {
-		"name": "Sentlūsija"
-	},
-	"VC": {
-		"name": "Sentvinsenta un Grenadīnas"
-	},
-	"RS": {
-		"name": "Serbija"
-	},
-	"EA": {
-		"name": "Seūta un Melilja"
-	},
-	"SG": {
-		"name": "Singapūra"
-	},
-	"SX": {
-		"name": "Sintmārtena"
-	},
-	"SY": {
-		"name": "Sīrija"
-	},
-	"SL": {
-		"name": "Sjerraleone"
-	},
-	"SK": {
-		"name": "Slovākija"
-	},
-	"SI": {
-		"name": "Slovēnija"
-	},
-	"SO": {
-		"name": "Somālija"
-	},
-	"FI": {
-		"name": "Somija"
-	},
-	"ES": {
-		"name": "Spānija"
-	},
-	"SD": {
-		"name": "Sudāna"
-	},
-	"SR": {
-		"name": "Surinama"
-	},
-	"SH": {
-		"name": "Sv.Helēnas sala"
-	},
-	"SJ": {
-		"name": "Svalbāra un Jana Majena sala"
-	},
-	"SZ": {
-		"name": "Svazilenda"
-	},
-	"LK": {
-		"name": "Šrilanka"
-	},
-	"CH": {
-		"name": "Šveice"
-	},
-	"TJ": {
-		"name": "Tadžikistāna"
-	},
-	"TW": {
-		"name": "Taivāna"
-	},
-	"TH": {
-		"name": "Taizeme"
-	},
-	"TZ": {
-		"name": "Tanzānija"
-	},
-	"TC": {
-		"name": "Tērksas un Kaikosas salas"
-	},
-	"TG": {
-		"name": "Togo"
-	},
-	"TK": {
-		"name": "Tokelau"
-	},
-	"TO": {
-		"name": "Tonga"
-	},
-	"TT": {
-		"name": "Trinidāda un Tobāgo"
-	},
-	"TA": {
-		"name": "Tristana da Kuņas salas"
-	},
-	"TN": {
-		"name": "Tunisija"
-	},
-	"TR": {
-		"name": "Turcija"
-	},
-	"TM": {
-		"name": "Turkmenistāna"
-	},
-	"TV": {
-		"name": "Tuvalu"
-	},
-	"UG": {
-		"name": "Uganda"
-	},
-	"UA": {
-		"name": "Ukraina"
-	},
-	"HU": {
-		"name": "Ungārija"
-	},
-	"UY": {
-		"name": "Urugvaja"
-	},
-	"UZ": {
-		"name": "Uzbekistāna"
-	},
-	"DE": {
-		"name": "Vācija"
-	},
-	"VU": {
-		"name": "Vanuatu"
-	},
-	"VA": {
-		"name": "Vatikāns"
-	},
-	"VE": {
-		"name": "Venecuēla"
-	},
-	"VN": {
-		"name": "Vjetnama"
-	},
-	"WF": {
-		"name": "Volisa un Futunas salas"
-	},
-	"SB": {
-		"name": "Zālamana salas"
-	},
-	"ZM": {
-		"name": "Zambija"
-	},
-	"KP": {
-		"name": "Ziemeļkoreja"
-	},
-	"MP": {
-		"name": "Ziemeļu Marianas salas"
-	},
-	"CX": {
-		"name": "Ziemsvētku sala"
-	},
-	"ZW": {
-		"name": "Zimbabve"
-	},
-	"SE": {
-		"name": "Zviedrija"
-	}
+	"AF": "Afganistāna",
+	"AL": "Albānija",
+	"DZ": "Alžīrija",
+	"US": "Amerikas Savienotās Valstis",
+	"AD": "Andora",
+	"AI": "Angilja",
+	"AO": "Angola",
+	"AQ": "Antarktika",
+	"AG": "Antigva un Barbuda",
+	"AE": "Apvienotie Arābu Emirāti",
+	"AR": "Argentīna",
+	"AM": "Armēnija",
+	"AW": "Aruba",
+	"UM": "ASV Mazās Aizjūras salas",
+	"AS": "ASV Samoa",
+	"VI": "ASV Virdžīnas",
+	"AU": "Austrālija",
+	"AT": "Austrija",
+	"TL": "Austrumtimora",
+	"AZ": "Azerbaidžāna",
+	"BS": "Bahamu salas",
+	"BH": "Bahreina",
+	"BY": "Baltkrievija",
+	"BD": "Bangladeša",
+	"BB": "Barbadosa",
+	"BZ": "Beliza",
+	"BE": "Beļģija",
+	"BJ": "Benina",
+	"BM": "Bermudu salas",
+	"BO": "Bolīvija",
+	"BA": "Bosnija un Hercegovina",
+	"BW": "Botsvāna",
+	"BR": "Brazīlija",
+	"VG": "Britu Virdžīnas",
+	"BN": "Bruneja",
+	"BG": "Bulgārija",
+	"BF": "Burkinafaso",
+	"BI": "Burundija",
+	"BT": "Butāna",
+	"CF": "Centrālāfrikas Republika",
+	"TD": "Čada",
+	"CZ": "Čehija",
+	"CL": "Čīle",
+	"DK": "Dānija",
+	"AC": "Debesbraukšanas sala",
+	"ZA": "Dienvidāfrikas Republika",
+	"GS": "Dienviddžordžija un Dienvidsendviču salas",
+	"KR": "Dienvidkoreja",
+	"SS": "Dienvidsudāna",
+	"DG": "Djego Garsijas atols",
+	"DM": "Dominika",
+	"DO": "Dominikāna",
+	"JE": "Džērsija",
+	"DJ": "Džibutija",
+	"EG": "Ēģipte",
+	"EC": "Ekvadora",
+	"GQ": "Ekvatoriālā Gvineja",
+	"ER": "Eritreja",
+	"ET": "Etiopija",
+	"FO": "Fēru salas",
+	"FJ": "Fidži",
+	"PH": "Filipīnas",
+	"FK": "Folklenda salas",
+	"FR": "Francija",
+	"TF": "Francijas Dienvidjūru teritorija",
+	"GF": "Francijas Gviāna",
+	"PF": "Francijas Polinēzija",
+	"GA": "Gabona",
+	"GY": "Gajāna",
+	"GM": "Gambija",
+	"GH": "Gana",
+	"GG": "Gērnsija",
+	"GI": "Gibraltārs",
+	"GD": "Grenāda",
+	"GL": "Grenlande",
+	"GR": "Grieķija",
+	"GE": "Gruzija",
+	"GU": "Guama",
+	"GP": "Gvadelupa",
+	"GT": "Gvatemala",
+	"GN": "Gvineja",
+	"GW": "Gvineja-Bisava",
+	"HT": "Haiti",
+	"HN": "Hondurasa",
+	"HR": "Horvātija",
+	"EE": "Igaunija",
+	"IN": "Indija",
+	"IO": "Indijas okeāna Britu teritorija",
+	"ID": "Indonēzija",
+	"IQ": "Irāka",
+	"IR": "Irāna",
+	"IE": "Īrija",
+	"IS": "Islande",
+	"IT": "Itālija",
+	"IL": "Izraēla",
+	"JM": "Jamaika",
+	"JP": "Japāna",
+	"NC": "Jaunkaledonija",
+	"NZ": "Jaunzēlande",
+	"YE": "Jemena",
+	"JO": "Jordānija",
+	"CV": "Kaboverde",
+	"KY": "Kaimanu salas",
+	"KH": "Kambodža",
+	"CM": "Kamerūna",
+	"CA": "Kanāda",
+	"IC": "Kanāriju salas",
+	"QA": "Katara",
+	"KZ": "Kazahstāna",
+	"KE": "Kenija",
+	"CY": "Kipra",
+	"CW": "Kirasao",
+	"KG": "Kirgizstāna",
+	"KI": "Kiribati",
+	"CC": "Kokosu (Kīlinga) salas",
+	"CO": "Kolumbija",
+	"KM": "Komoru salas",
+	"CG": "Kongo (Brazavila)",
+	"CD": "Kongo (Kinšasa)",
+	"XK": "Kosova",
+	"CR": "Kostarika",
+	"CI": "Kotdivuāra",
+	"RU": "Krievija",
+	"CU": "Kuba",
+	"CK": "Kuka salas",
+	"KW": "Kuveita",
+	"CN": "Ķīna",
+	"HK": "Ķīnas īpašās pārvaldes apgabals Honkonga",
+	"MO": "Ķīnas īpašās pārvaldes apgabals Makao",
+	"LA": "Laosa",
+	"LV": "Latvija",
+	"LS": "Lesoto",
+	"LB": "Libāna",
+	"LR": "Libērija",
+	"LY": "Lībija",
+	"GB": "Lielbritānija",
+	"LT": "Lietuva",
+	"LI": "Lihtenšteina",
+	"LU": "Luksemburga",
+	"MG": "Madagaskara",
+	"YT": "Majota",
+	"MK": "Maķedonija",
+	"MY": "Malaizija",
+	"MW": "Malāvija",
+	"MV": "Maldīvija",
+	"ML": "Mali",
+	"MT": "Malta",
+	"MA": "Maroka",
+	"MH": "Māršala salas",
+	"MQ": "Martinika",
+	"MU": "Maurīcija",
+	"MR": "Mauritānija",
+	"MX": "Meksika",
+	"ME": "Melnkalne",
+	"IM": "Mena",
+	"FM": "Mikronēzija",
+	"MM": "Mjanma (Birma)",
+	"MD": "Moldova",
+	"MC": "Monako",
+	"MN": "Mongolija",
+	"MS": "Montserrata",
+	"MZ": "Mozambika",
+	"NA": "Namībija",
+	"NR": "Nauru",
+	"NP": "Nepāla",
+	"NL": "Nīderlande",
+	"BQ": "Nīderlandes Karību salas",
+	"NE": "Nigēra",
+	"NG": "Nigērija",
+	"NI": "Nikaragva",
+	"NU": "Niue",
+	"NF": "Norfolkas sala",
+	"NO": "Norvēģija",
+	"AX": "Olandes salas",
+	"OM": "Omāna",
+	"PK": "Pakistāna",
+	"PW": "Palau",
+	"PS": "Palestīna",
+	"PA": "Panama",
+	"PG": "Papua-Jaungvineja",
+	"PY": "Paragvaja",
+	"PE": "Peru",
+	"PN": "Pitkērnas salas",
+	"PL": "Polija",
+	"PT": "Portugāle",
+	"PR": "Puertoriko",
+	"RE": "Reinjona",
+	"EH": "Rietumsahāra",
+	"RW": "Ruanda",
+	"RO": "Rumānija",
+	"SV": "Salvadora",
+	"WS": "Samoa",
+	"SM": "Sanmarīno",
+	"ST": "Santome un Prinsipi",
+	"SA": "Saūda Arābija",
+	"SC": "Seišelu salas",
+	"BL": "Senbartelmī",
+	"SN": "Senegāla",
+	"MF": "Senmartēna",
+	"PM": "Senpjēra un Mikelona",
+	"KN": "Sentkitsa un Nevisa",
+	"LC": "Sentlūsija",
+	"VC": "Sentvinsenta un Grenadīnas",
+	"RS": "Serbija",
+	"EA": "Seūta un Melilja",
+	"SG": "Singapūra",
+	"SX": "Sintmārtena",
+	"SY": "Sīrija",
+	"SL": "Sjerraleone",
+	"SK": "Slovākija",
+	"SI": "Slovēnija",
+	"SO": "Somālija",
+	"FI": "Somija",
+	"ES": "Spānija",
+	"SD": "Sudāna",
+	"SR": "Surinama",
+	"SH": "Sv.Helēnas sala",
+	"SJ": "Svalbāra un Jana Majena sala",
+	"SZ": "Svazilenda",
+	"LK": "Šrilanka",
+	"CH": "Šveice",
+	"TJ": "Tadžikistāna",
+	"TW": "Taivāna",
+	"TH": "Taizeme",
+	"TZ": "Tanzānija",
+	"TC": "Tērksas un Kaikosas salas",
+	"TG": "Togo",
+	"TK": "Tokelau",
+	"TO": "Tonga",
+	"TT": "Trinidāda un Tobāgo",
+	"TA": "Tristana da Kuņas salas",
+	"TN": "Tunisija",
+	"TR": "Turcija",
+	"TM": "Turkmenistāna",
+	"TV": "Tuvalu",
+	"UG": "Uganda",
+	"UA": "Ukraina",
+	"HU": "Ungārija",
+	"UY": "Urugvaja",
+	"UZ": "Uzbekistāna",
+	"DE": "Vācija",
+	"VU": "Vanuatu",
+	"VA": "Vatikāns",
+	"VE": "Venecuēla",
+	"VN": "Vjetnama",
+	"WF": "Volisa un Futunas salas",
+	"SB": "Zālamana salas",
+	"ZM": "Zambija",
+	"KP": "Ziemeļkoreja",
+	"MP": "Ziemeļu Marianas salas",
+	"CX": "Ziemsvētku sala",
+	"ZW": "Zimbabve",
+	"SE": "Zviedrija"
 }

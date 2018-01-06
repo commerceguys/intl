@@ -1,761 +1,255 @@
 {
-	"ZA": {
-		"name": "Afrika du Sulu"
-	},
-	"AX": {
-		"name": "Åland Islands"
-	},
-	"DZ": {
-		"name": "Alujeria"
-	},
-	"AO": {
-		"name": "Angola"
-	},
-	"AI": {
-		"name": "Anguilla"
-	},
-	"AQ": {
-		"name": "Antarctica"
-	},
-	"AG": {
-		"name": "Antigua & Barbuda"
-	},
-	"AR": {
-		"name": "Argentina"
-	},
-	"AM": {
-		"name": "Armenia"
-	},
-	"AW": {
-		"name": "Aruba"
-	},
-	"AC": {
-		"name": "Ascension Island"
-	},
-	"AU": {
-		"name": "Australia"
-	},
-	"AT": {
-		"name": "Austria"
-	},
-	"BS": {
-		"name": "Bahamas"
-	},
-	"BH": {
-		"name": "Bahrain"
-	},
-	"BD": {
-		"name": "Bangladesh"
-	},
-	"BB": {
-		"name": "Barbados"
-	},
-	"BY": {
-		"name": "Belarus"
-	},
-	"BE": {
-		"name": "Belgium"
-	},
-	"BZ": {
-		"name": "Belize"
-	},
-	"BM": {
-		"name": "Bermuda"
-	},
-	"BT": {
-		"name": "Bhutan"
-	},
-	"BO": {
-		"name": "Bolivia"
-	},
-	"BA": {
-		"name": "Bosnia & Herzegovina"
-	},
-	"BW": {
-		"name": "Botswana"
-	},
-	"BR": {
-		"name": "Brazil"
-	},
-	"IO": {
-		"name": "British Indian Ocean Territory"
-	},
-	"VG": {
-		"name": "British Virgin Islands"
-	},
-	"BN": {
-		"name": "Brunei"
-	},
-	"BG": {
-		"name": "Bulgaria"
-	},
-	"BF": {
-		"name": "Burkina Faso"
-	},
-	"CM": {
-		"name": "Cameroon"
-	},
-	"IC": {
-		"name": "Canary Islands"
-	},
-	"CV": {
-		"name": "Cape Verde"
-	},
-	"BQ": {
-		"name": "Caribbean Netherlands"
-	},
-	"KY": {
-		"name": "Cayman Islands"
-	},
-	"CF": {
-		"name": "Central African Republic"
-	},
-	"EA": {
-		"name": "Ceuta & Melilla"
-	},
-	"CX": {
-		"name": "Christmas Island"
-	},
-	"CC": {
-		"name": "Cocos (Keeling) Islands"
-	},
-	"CD": {
-		"name": "Congo - Kinshasa"
-	},
-	"CK": {
-		"name": "Cook Islands"
-	},
-	"CR": {
-		"name": "Costa Rica"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"DG": {
-		"name": "Diego Garcia"
-	},
-	"DO": {
-		"name": "Dominican Republic"
-	},
-	"EC": {
-		"name": "Ecuador"
-	},
-	"GQ": {
-		"name": "Equatorial Guinea"
-	},
-	"EE": {
-		"name": "Estonia"
-	},
-	"FK": {
-		"name": "Falkland Islands"
-	},
-	"FO": {
-		"name": "Faroe Islands"
-	},
-	"TF": {
-		"name": "French Southern Territories"
-	},
-	"DE": {
-		"name": "Germany"
-	},
-	"GR": {
-		"name": "Greece"
-	},
-	"GG": {
-		"name": "Guernsey"
-	},
-	"HK": {
-		"name": "Hong Kong SAR China"
-	},
-	"IS": {
-		"name": "Iceland"
-	},
-	"IR": {
-		"name": "Iran"
-	},
-	"IM": {
-		"name": "Isle of Man"
-	},
-	"IT": {
-		"name": "Italia"
-	},
-	"JE": {
-		"name": "Jersey"
-	},
-	"KI": {
-		"name": "Kiribati"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"KW": {
-		"name": "Kuwait"
-	},
-	"KG": {
-		"name": "Kyrgyzstan"
-	},
-	"LA": {
-		"name": "Laos"
-	},
-	"MO": {
-		"name": "Macau SAR China"
-	},
-	"MY": {
-		"name": "Malaysia"
-	},
-	"MV": {
-		"name": "Maldives"
-	},
-	"ML": {
-		"name": "Mali"
-	},
-	"MT": {
-		"name": "Malta"
-	},
-	"MH": {
-		"name": "Marshall Islands"
-	},
-	"MQ": {
-		"name": "Martinique"
-	},
-	"MR": {
-		"name": "Mauritania"
-	},
-	"MU": {
-		"name": "Mauritius"
-	},
-	"YT": {
-		"name": "Mayotte"
-	},
-	"MX": {
-		"name": "Mexico"
-	},
-	"FM": {
-		"name": "Micronesia"
-	},
-	"MD": {
-		"name": "Moldova"
-	},
-	"MC": {
-		"name": "Monaco"
-	},
-	"MN": {
-		"name": "Mongolia"
-	},
-	"MS": {
-		"name": "Montserrat"
-	},
-	"MA": {
-		"name": "Morocco"
-	},
-	"MM": {
-		"name": "Myanmar (Burma)"
-	},
-	"NA": {
-		"name": "Namibia"
-	},
-	"NR": {
-		"name": "Nauru"
-	},
-	"NP": {
-		"name": "Nepal"
-	},
-	"NL": {
-		"name": "Netherlands"
-	},
-	"NC": {
-		"name": "New Caledonia"
-	},
-	"NZ": {
-		"name": "New Zealand"
-	},
-	"NI": {
-		"name": "Nicaragua"
-	},
-	"NU": {
-		"name": "Niue"
-	},
-	"NF": {
-		"name": "Norfolk Island"
-	},
-	"MP": {
-		"name": "Northern Mariana Islands"
-	},
-	"PW": {
-		"name": "Palau"
-	},
-	"PS": {
-		"name": "Palestinian Territories"
-	},
-	"PY": {
-		"name": "Paragwai"
-	},
-	"PT": {
-		"name": "Portugal"
-	},
-	"RU": {
-		"name": "Russia"
-	},
-	"RS": {
-		"name": "Serbia"
-	},
-	"SL": {
-		"name": "Sierra Leone"
-	},
-	"SX": {
-		"name": "Sint Maarten"
-	},
-	"SB": {
-		"name": "Solomon Islands"
-	},
-	"GS": {
-		"name": "South Georgia & South Sandwich Islands"
-	},
-	"SS": {
-		"name": "South Sudan"
-	},
-	"BL": {
-		"name": "St. Barthélemy"
-	},
-	"MF": {
-		"name": "St. Martin"
-	},
-	"SJ": {
-		"name": "Svalbard & Jan Mayen"
-	},
-	"TW": {
-		"name": "Taiwan"
-	},
-	"TA": {
-		"name": "Tristan da Cunha"
-	},
-	"TC": {
-		"name": "Turks & Caicos Islands"
-	},
-	"UM": {
-		"name": "U.S. Outlying Islands"
-	},
-	"VI": {
-		"name": "U.S. Virgin Islands"
-	},
-	"AL": {
-		"name": "Ualbania"
-	},
-	"AD": {
-		"name": "Uandora"
-	},
-	"IE": {
-		"name": "Uayalandi"
-	},
-	"AZ": {
-		"name": "Uazabajani"
-	},
-	"BJ": {
-		"name": "Ubelin"
-	},
-	"MG": {
-		"name": "Ubukini"
-	},
-	"TD": {
-		"name": "Uchadi"
-	},
-	"CZ": {
-		"name": "Ucheki"
-	},
-	"CL": {
-		"name": "Uchile"
-	},
-	"CN": {
-		"name": "Uchina"
-	},
-	"DK": {
-		"name": "Udenimaka"
-	},
-	"DM": {
-		"name": "Udominika"
-	},
-	"FR": {
-		"name": "Ufaransa"
-	},
-	"GF": {
-		"name": "Ufaransa yo Gwaya"
-	},
-	"PF": {
-		"name": "Ufaransa yo Potina"
-	},
-	"FJ": {
-		"name": "Ufiji"
-	},
-	"PH": {
-		"name": "Ufilipino"
-	},
-	"FI": {
-		"name": "Ufini"
-	},
-	"AF": {
-		"name": "Ufugustani"
-	},
-	"GA": {
-		"name": "Ugaboni"
-	},
-	"GM": {
-		"name": "Ugambia"
-	},
-	"GH": {
-		"name": "Ugana"
-	},
-	"UG": {
-		"name": "Uganda"
-	},
-	"GN": {
-		"name": "Ugine"
-	},
-	"GW": {
-		"name": "Uginebisau"
-	},
-	"GD": {
-		"name": "Ugrenada"
-	},
-	"GL": {
-		"name": "Ugrinlandi"
-	},
-	"GY": {
-		"name": "Uguyana"
-	},
-	"GP": {
-		"name": "Ugwadelupe"
-	},
-	"GU": {
-		"name": "Ugwam"
-	},
-	"GT": {
-		"name": "Ugwatemala"
-	},
-	"ET": {
-		"name": "Uhabeshi"
-	},
-	"HT": {
-		"name": "Uhaiti"
-	},
-	"IN": {
-		"name": "Uhindini"
-	},
-	"ES": {
-		"name": "Uhispania"
-	},
-	"HN": {
-		"name": "Uhondurasi"
-	},
-	"HU": {
-		"name": "Uhungaria"
-	},
-	"IL": {
-		"name": "Uisraeli"
-	},
-	"JM": {
-		"name": "Ujamaika"
-	},
-	"JP": {
-		"name": "Ujapani"
-	},
-	"GI": {
-		"name": "Ujibralta"
-	},
-	"DJ": {
-		"name": "Ujibuti"
-	},
-	"TJ": {
-		"name": "Ujikistani"
-	},
-	"GE": {
-		"name": "Ujojia"
-	},
-	"KH": {
-		"name": "Ukambodia"
-	},
-	"CA": {
-		"name": "Ukanada"
-	},
-	"QA": {
-		"name": "Ukatari"
-	},
-	"KZ": {
-		"name": "Ukazakistani"
-	},
-	"KE": {
-		"name": "Ukenya"
-	},
-	"CI": {
-		"name": "Ukodiva"
-	},
-	"CO": {
-		"name": "Ukolombia"
-	},
-	"KM": {
-		"name": "Ukomoro"
-	},
-	"CG": {
-		"name": "Ukongo"
-	},
-	"HR": {
-		"name": "Ukorasia"
-	},
-	"KP": {
-		"name": "Ukorea Kaskazini"
-	},
-	"KR": {
-		"name": "Ukorea Kusini"
-	},
-	"UA": {
-		"name": "Ukraine"
-	},
-	"CU": {
-		"name": "Ukuba"
-	},
-	"CY": {
-		"name": "Ukuprosi"
-	},
-	"LV": {
-		"name": "Ulativia"
-	},
-	"LB": {
-		"name": "Ulebanoni"
-	},
-	"LS": {
-		"name": "Ulesoto"
-	},
-	"LR": {
-		"name": "Uliberia"
-	},
-	"LY": {
-		"name": "Ulibya"
-	},
-	"MW": {
-		"name": "Umalawi"
-	},
-	"ME": {
-		"name": "Umantegro"
-	},
-	"US": {
-		"name": "Umarekani"
-	},
-	"MK": {
-		"name": "Umasedonia"
-	},
-	"EG": {
-		"name": "Umisiri"
-	},
-	"MZ": {
-		"name": "Umozambiki"
-	},
-	"ID": {
-		"name": "Undonesia"
-	},
-	"NE": {
-		"name": "Unijeri"
-	},
-	"NG": {
-		"name": "Unijeria"
-	},
-	"AE": {
-		"name": "United Arab Emirates"
-	},
-	"GB": {
-		"name": "United Kingdom"
-	},
-	"NO": {
-		"name": "Unorwe"
-	},
-	"OM": {
-		"name": "Uomani"
-	},
-	"PK": {
-		"name": "Upakistani"
-	},
-	"PA": {
-		"name": "Upanama"
-	},
-	"PG": {
-		"name": "Upapua"
-	},
-	"PE": {
-		"name": "Uperuu"
-	},
-	"PN": {
-		"name": "Upitkairni"
-	},
-	"PL": {
-		"name": "Upolandi"
-	},
-	"PR": {
-		"name": "Upwetoriko"
-	},
-	"ER": {
-		"name": "Uriterea"
-	},
-	"RE": {
-		"name": "Uriyunioni"
-	},
-	"RO": {
-		"name": "Uromania"
-	},
-	"UY": {
-		"name": "Uruguay"
-	},
-	"BI": {
-		"name": "Urundi"
-	},
-	"RW": {
-		"name": "Urwanda"
-	},
-	"SV": {
-		"name": "Usalavado"
-	},
-	"SM": {
-		"name": "Usamarino"
-	},
-	"WS": {
-		"name": "Usamoa"
-	},
-	"AS": {
-		"name": "Usamoa ya Marekani"
-	},
-	"SH": {
-		"name": "Usantahelena"
-	},
-	"KN": {
-		"name": "Usantakitzi na Nevis"
-	},
-	"LC": {
-		"name": "Usantalusia"
-	},
-	"PM": {
-		"name": "Usantapieri na Mikeloni"
-	},
-	"VC": {
-		"name": "Usantavisenti na Grenadini"
-	},
-	"ST": {
-		"name": "Usao Tome na Principe"
-	},
-	"SA": {
-		"name": "Usaudi"
-	},
-	"LU": {
-		"name": "Usembaji"
-	},
-	"SN": {
-		"name": "Usenegali"
-	},
-	"SC": {
-		"name": "Ushelisheli"
-	},
-	"LI": {
-		"name": "Ushenteni"
-	},
-	"SG": {
-		"name": "Usingapoo"
-	},
-	"SY": {
-		"name": "Usiria"
-	},
-	"LK": {
-		"name": "Usirilanka"
-	},
-	"SK": {
-		"name": "Uslovakia"
-	},
-	"SI": {
-		"name": "Uslovenia"
-	},
-	"SO": {
-		"name": "Usomalia"
-	},
-	"SD": {
-		"name": "Usudani"
-	},
-	"SR": {
-		"name": "Usurinamu"
-	},
-	"SZ": {
-		"name": "Uswazi"
-	},
-	"SE": {
-		"name": "Uswidi"
-	},
-	"CH": {
-		"name": "Uswisi"
-	},
-	"TH": {
-		"name": "Utailandi"
-	},
-	"TZ": {
-		"name": "Utanzania"
-	},
-	"TL": {
-		"name": "Utimo Mashariki"
-	},
-	"TG": {
-		"name": "Utogo"
-	},
-	"TK": {
-		"name": "Utokelau"
-	},
-	"TO": {
-		"name": "Utonga"
-	},
-	"TT": {
-		"name": "Utrinidad na Tobago"
-	},
-	"TR": {
-		"name": "Utuki"
-	},
-	"TN": {
-		"name": "Utunisia"
-	},
-	"TM": {
-		"name": "Uturukimenistani"
-	},
-	"TV": {
-		"name": "Utuvalu"
-	},
-	"LT": {
-		"name": "Utwania"
-	},
-	"VU": {
-		"name": "Uvanuatu"
-	},
-	"VA": {
-		"name": "Uvatikani"
-	},
-	"VE": {
-		"name": "Uvenezuela"
-	},
-	"VN": {
-		"name": "Uvietinamu"
-	},
-	"WF": {
-		"name": "Uwalis na Futuna"
-	},
-	"YE": {
-		"name": "Uyemeni"
-	},
-	"JO": {
-		"name": "Uyordani"
-	},
-	"ZM": {
-		"name": "Uzambia"
-	},
-	"UZ": {
-		"name": "Uzbekistan"
-	},
-	"ZW": {
-		"name": "Uzimbabwe"
-	},
-	"EH": {
-		"name": "Western Sahara"
-	},
-	"IQ": {
-		"name": "Wiraki"
-	}
+	"ZA": "Afrika du Sulu",
+	"AX": "Åland Islands",
+	"DZ": "Alujeria",
+	"AO": "Angola",
+	"AI": "Anguilla",
+	"AQ": "Antarctica",
+	"AG": "Antigua & Barbuda",
+	"AR": "Argentina",
+	"AM": "Armenia",
+	"AW": "Aruba",
+	"AC": "Ascension Island",
+	"AU": "Australia",
+	"AT": "Austria",
+	"BS": "Bahamas",
+	"BH": "Bahrain",
+	"BD": "Bangladesh",
+	"BB": "Barbados",
+	"BY": "Belarus",
+	"BE": "Belgium",
+	"BZ": "Belize",
+	"BM": "Bermuda",
+	"BT": "Bhutan",
+	"BO": "Bolivia",
+	"BA": "Bosnia & Herzegovina",
+	"BW": "Botswana",
+	"BR": "Brazil",
+	"IO": "British Indian Ocean Territory",
+	"VG": "British Virgin Islands",
+	"BN": "Brunei",
+	"BG": "Bulgaria",
+	"BF": "Burkina Faso",
+	"CM": "Cameroon",
+	"IC": "Canary Islands",
+	"CV": "Cape Verde",
+	"BQ": "Caribbean Netherlands",
+	"KY": "Cayman Islands",
+	"CF": "Central African Republic",
+	"EA": "Ceuta & Melilla",
+	"CX": "Christmas Island",
+	"CC": "Cocos (Keeling) Islands",
+	"CD": "Congo - Kinshasa",
+	"CK": "Cook Islands",
+	"CR": "Costa Rica",
+	"CW": "Curaçao",
+	"DG": "Diego Garcia",
+	"DO": "Dominican Republic",
+	"EC": "Ecuador",
+	"GQ": "Equatorial Guinea",
+	"EE": "Estonia",
+	"FK": "Falkland Islands",
+	"FO": "Faroe Islands",
+	"TF": "French Southern Territories",
+	"DE": "Germany",
+	"GR": "Greece",
+	"GG": "Guernsey",
+	"HK": "Hong Kong SAR China",
+	"IS": "Iceland",
+	"IR": "Iran",
+	"IM": "Isle of Man",
+	"IT": "Italia",
+	"JE": "Jersey",
+	"KI": "Kiribati",
+	"XK": "Kosovo",
+	"KW": "Kuwait",
+	"KG": "Kyrgyzstan",
+	"LA": "Laos",
+	"MO": "Macau SAR China",
+	"MY": "Malaysia",
+	"MV": "Maldives",
+	"ML": "Mali",
+	"MT": "Malta",
+	"MH": "Marshall Islands",
+	"MQ": "Martinique",
+	"MR": "Mauritania",
+	"MU": "Mauritius",
+	"YT": "Mayotte",
+	"MX": "Mexico",
+	"FM": "Micronesia",
+	"MD": "Moldova",
+	"MC": "Monaco",
+	"MN": "Mongolia",
+	"MS": "Montserrat",
+	"MA": "Morocco",
+	"MM": "Myanmar (Burma)",
+	"NA": "Namibia",
+	"NR": "Nauru",
+	"NP": "Nepal",
+	"NL": "Netherlands",
+	"NC": "New Caledonia",
+	"NZ": "New Zealand",
+	"NI": "Nicaragua",
+	"NU": "Niue",
+	"NF": "Norfolk Island",
+	"MP": "Northern Mariana Islands",
+	"PW": "Palau",
+	"PS": "Palestinian Territories",
+	"PY": "Paragwai",
+	"PT": "Portugal",
+	"RU": "Russia",
+	"RS": "Serbia",
+	"SL": "Sierra Leone",
+	"SX": "Sint Maarten",
+	"SB": "Solomon Islands",
+	"GS": "South Georgia & South Sandwich Islands",
+	"SS": "South Sudan",
+	"BL": "St. Barthélemy",
+	"MF": "St. Martin",
+	"SJ": "Svalbard & Jan Mayen",
+	"TW": "Taiwan",
+	"TA": "Tristan da Cunha",
+	"TC": "Turks & Caicos Islands",
+	"UM": "U.S. Outlying Islands",
+	"VI": "U.S. Virgin Islands",
+	"AL": "Ualbania",
+	"AD": "Uandora",
+	"IE": "Uayalandi",
+	"AZ": "Uazabajani",
+	"BJ": "Ubelin",
+	"MG": "Ubukini",
+	"TD": "Uchadi",
+	"CZ": "Ucheki",
+	"CL": "Uchile",
+	"CN": "Uchina",
+	"DK": "Udenimaka",
+	"DM": "Udominika",
+	"FR": "Ufaransa",
+	"GF": "Ufaransa yo Gwaya",
+	"PF": "Ufaransa yo Potina",
+	"FJ": "Ufiji",
+	"PH": "Ufilipino",
+	"FI": "Ufini",
+	"AF": "Ufugustani",
+	"GA": "Ugaboni",
+	"GM": "Ugambia",
+	"GH": "Ugana",
+	"UG": "Uganda",
+	"GN": "Ugine",
+	"GW": "Uginebisau",
+	"GD": "Ugrenada",
+	"GL": "Ugrinlandi",
+	"GY": "Uguyana",
+	"GP": "Ugwadelupe",
+	"GU": "Ugwam",
+	"GT": "Ugwatemala",
+	"ET": "Uhabeshi",
+	"HT": "Uhaiti",
+	"IN": "Uhindini",
+	"ES": "Uhispania",
+	"HN": "Uhondurasi",
+	"HU": "Uhungaria",
+	"IL": "Uisraeli",
+	"JM": "Ujamaika",
+	"JP": "Ujapani",
+	"GI": "Ujibralta",
+	"DJ": "Ujibuti",
+	"TJ": "Ujikistani",
+	"GE": "Ujojia",
+	"KH": "Ukambodia",
+	"CA": "Ukanada",
+	"QA": "Ukatari",
+	"KZ": "Ukazakistani",
+	"KE": "Ukenya",
+	"CI": "Ukodiva",
+	"CO": "Ukolombia",
+	"KM": "Ukomoro",
+	"CG": "Ukongo",
+	"HR": "Ukorasia",
+	"KP": "Ukorea Kaskazini",
+	"KR": "Ukorea Kusini",
+	"UA": "Ukraine",
+	"CU": "Ukuba",
+	"CY": "Ukuprosi",
+	"LV": "Ulativia",
+	"LB": "Ulebanoni",
+	"LS": "Ulesoto",
+	"LR": "Uliberia",
+	"LY": "Ulibya",
+	"MW": "Umalawi",
+	"ME": "Umantegro",
+	"US": "Umarekani",
+	"MK": "Umasedonia",
+	"EG": "Umisiri",
+	"MZ": "Umozambiki",
+	"ID": "Undonesia",
+	"NE": "Unijeri",
+	"NG": "Unijeria",
+	"AE": "United Arab Emirates",
+	"GB": "United Kingdom",
+	"NO": "Unorwe",
+	"OM": "Uomani",
+	"PK": "Upakistani",
+	"PA": "Upanama",
+	"PG": "Upapua",
+	"PE": "Uperuu",
+	"PN": "Upitkairni",
+	"PL": "Upolandi",
+	"PR": "Upwetoriko",
+	"ER": "Uriterea",
+	"RE": "Uriyunioni",
+	"RO": "Uromania",
+	"UY": "Uruguay",
+	"BI": "Urundi",
+	"RW": "Urwanda",
+	"SV": "Usalavado",
+	"SM": "Usamarino",
+	"WS": "Usamoa",
+	"AS": "Usamoa ya Marekani",
+	"SH": "Usantahelena",
+	"KN": "Usantakitzi na Nevis",
+	"LC": "Usantalusia",
+	"PM": "Usantapieri na Mikeloni",
+	"VC": "Usantavisenti na Grenadini",
+	"ST": "Usao Tome na Principe",
+	"SA": "Usaudi",
+	"LU": "Usembaji",
+	"SN": "Usenegali",
+	"SC": "Ushelisheli",
+	"LI": "Ushenteni",
+	"SG": "Usingapoo",
+	"SY": "Usiria",
+	"LK": "Usirilanka",
+	"SK": "Uslovakia",
+	"SI": "Uslovenia",
+	"SO": "Usomalia",
+	"SD": "Usudani",
+	"SR": "Usurinamu",
+	"SZ": "Uswazi",
+	"SE": "Uswidi",
+	"CH": "Uswisi",
+	"TH": "Utailandi",
+	"TZ": "Utanzania",
+	"TL": "Utimo Mashariki",
+	"TG": "Utogo",
+	"TK": "Utokelau",
+	"TO": "Utonga",
+	"TT": "Utrinidad na Tobago",
+	"TR": "Utuki",
+	"TN": "Utunisia",
+	"TM": "Uturukimenistani",
+	"TV": "Utuvalu",
+	"LT": "Utwania",
+	"VU": "Uvanuatu",
+	"VA": "Uvatikani",
+	"VE": "Uvenezuela",
+	"VN": "Uvietinamu",
+	"WF": "Uwalis na Futuna",
+	"YE": "Uyemeni",
+	"JO": "Uyordani",
+	"ZM": "Uzambia",
+	"UZ": "Uzbekistan",
+	"ZW": "Uzimbabwe",
+	"EH": "Western Sahara",
+	"IQ": "Wiraki"
 }

@@ -1,761 +1,255 @@
 {
-	"AF": {
-		"name": "Afjaanistahn"
-	},
-	"AR": {
-		"name": "Ajjentiinije"
-	},
-	"EG": {
-		"name": "Äjüpte"
-	},
-	"EC": {
-		"name": "Äkwador"
-	},
-	"SV": {
-		"name": "Äl Slavadohr"
-	},
-	"AL": {
-		"name": "Albaanije"
-	},
-	"CI": {
-		"name": "Älfebeijn-Köß"
-	},
-	"DZ": {
-		"name": "Alljeerije"
-	},
-	"AS": {
-		"name": "Ammerikaanesch Sammoha"
-	},
-	"AD": {
-		"name": "Andorra"
-	},
-	"AI": {
-		"name": "Anggwilla"
-	},
-	"AO": {
-		"name": "Angjoola"
-	},
-	"AG": {
-		"name": "Antigwa un Barbuda"
-	},
-	"GQ": {
-		"name": "Äquatorial Jineeja"
-	},
-	"ER": {
-		"name": "Äritreja"
-	},
-	"AM": {
-		"name": "Arrmeenije"
-	},
-	"AW": {
-		"name": "Aruba"
-	},
-	"AC": {
-		"name": "Aßension"
-	},
-	"AZ": {
-		"name": "Asserbaidschahn"
-	},
-	"EE": {
-		"name": "Äßland"
-	},
-	"ET": {
-		"name": "Ättijoopije"
-	},
-	"AU": {
-		"name": "Austraalije"
-	},
-	"BH": {
-		"name": "Bachrain"
-	},
-	"BD": {
-		"name": "Bangladesch"
-	},
-	"BZ": {
-		"name": "Belize"
-	},
-	"BE": {
-		"name": "Bellje"
-	},
-	"MM": {
-		"name": "Birma"
-	},
-	"BO": {
-		"name": "Bolliivije"
-	},
-	"BA": {
-		"name": "Boßnije un Herzegovina"
-	},
-	"BW": {
-		"name": "Bozwaana"
-	},
-	"BR": {
-		"name": "Brasilije"
-	},
-	"IO": {
-		"name": "Brettesche Besezunge em indesche Oozejahn"
-	},
-	"BN": {
-		"name": "Brunei"
-	},
-	"BF": {
-		"name": "Bukkinna-Faase"
-	},
-	"BG": {
-		"name": "Bulljaarije"
-	},
-	"BI": {
-		"name": "Burundi"
-	},
-	"BT": {
-		"name": "Buttaan"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"BJ": {
-		"name": "dä Benin"
-	},
-	"CG": {
-		"name": "dä Konggo (Brassavill)"
-	},
-	"CD": {
-		"name": "dä Konggo (Kinschasa)"
-	},
-	"DK": {
-		"name": "Dänemark"
-	},
-	"VI": {
-		"name": "de ammärrikahnesche Juffer-Enselle"
-	},
-	"BS": {
-		"name": "de Bahamas"
-	},
-	"BM": {
-		"name": "de Bermudas"
-	},
-	"VG": {
-		"name": "de brettesche Juffer-Enselle"
-	},
-	"DG": {
-		"name": "de Diego-Garcia-Ensel"
-	},
-	"DO": {
-		"name": "de Dommenekaanesche Reppublik"
-	},
-	"BB": {
-		"name": "de Ensel Barbados"
-	},
-	"IM": {
-		"name": "de Ensel Män"
-	},
-	"SH": {
-		"name": "de Ensel Zint Hellena"
-	},
-	"LC": {
-		"name": "de Ensel Zint-Lutscha"
-	},
-	"SJ": {
-		"name": "de Enselle Svalbard un Jan Mayen"
-	},
-	"TC": {
-		"name": "de Enselle Turks un Kaikos"
-	},
-	"FK": {
-		"name": "de Falkland-Enselle"
-	},
-	"FO": {
-		"name": "de Färrör-Enselle"
-	},
-	"FJ": {
-		"name": "de Fidschi-Endelle"
-	},
-	"KY": {
-		"name": "de Kaiman-Enselle"
-	},
-	"IC": {
-		"name": "de Kannaresche Enselle"
-	},
-	"CV": {
-		"name": "de kapvärdesche Enselle"
-	},
-	"BQ": {
-		"name": "de karribbesche Nederläng"
-	},
-	"CC": {
-		"name": "de Kokkos-Enselle"
-	},
-	"KM": {
-		"name": "de Kommoore"
-	},
-	"CK": {
-		"name": "de Kuuk-Enselle"
-	},
-	"MH": {
-		"name": "de Machschall-Enselle"
-	},
-	"NL": {
-		"name": "de Nederläng"
-	},
-	"MP": {
-		"name": "de nöödlijje Marijanne-Enselle"
-	},
-	"NF": {
-		"name": "de Noofok-Ensel"
-	},
-	"AX": {
-		"name": "de Ohland-Enselle"
-	},
-	"PN": {
-		"name": "de Pitkärn-Ensel"
-	},
-	"ZA": {
-		"name": "de Republik Södaffrika"
-	},
-	"CH": {
-		"name": "de Schweiz"
-	},
-	"SC": {
-		"name": "de Seischälle"
-	},
-	"SB": {
-		"name": "de Solomone-Enselle"
-	},
-	"TR": {
-		"name": "de Törkei"
-	},
-	"CZ": {
-		"name": "de Tschäschei"
-	},
-	"UA": {
-		"name": "de Ukra’iine"
-	},
-	"UM": {
-		"name": "de Vereineschte Schtaate vun Amärrika ier ußerhallef jelääje Enselsche"
-	},
-	"US": {
-		"name": "de vereineschte Schtaate vun Ammärrika"
-	},
-	"CX": {
-		"name": "de Weihnaachs-Ensel"
-	},
-	"CF": {
-		"name": "de Zäntraalaffrikaanesche Republik"
-	},
-	"BL": {
-		"name": "de Zint Battälmi-Enselle"
-	},
-	"MF": {
-		"name": "de Zint-Määtes-Ensel"
-	},
-	"SN": {
-		"name": "der Sennejall"
-	},
-	"AQ": {
-		"name": "der Södpol"
-	},
-	"TD": {
-		"name": "der Tschadd"
-	},
-	"VA": {
-		"name": "der Vattikahn"
-	},
-	"DM": {
-		"name": "Dominnika"
-	},
-	"DE": {
-		"name": "Doütschland"
-	},
-	"DJ": {
-		"name": "Dschibutti"
-	},
-	"ME": {
-		"name": "et Monteneejro"
-	},
-	"PH": {
-		"name": "Fillipiine"
-	},
-	"FI": {
-		"name": "Finnland"
-	},
-	"FR": {
-		"name": "Frankrisch"
-	},
-	"GF": {
-		"name": "Franzüüsesch Jujaana"
-	},
-	"PF": {
-		"name": "Franzüüsesch Pollineesije"
-	},
-	"TF": {
-		"name": "Franzüüsesche Södsee-Enselle"
-	},
-	"HT": {
-		"name": "Ha’itti"
-	},
-	"HN": {
-		"name": "Honduras"
-	},
-	"HK": {
-		"name": "Hongkong"
-	},
-	"IN": {
-		"name": "Indije"
-	},
-	"ID": {
-		"name": "Indoneesije"
-	},
-	"IQ": {
-		"name": "Irak"
-	},
-	"IE": {
-		"name": "Irrland"
-	},
-	"IS": {
-		"name": "Ißland"
-	},
-	"IL": {
-		"name": "Ißraäl"
-	},
-	"IT": {
-		"name": "Itaalije"
-	},
-	"GH": {
-		"name": "Jaana"
-	},
-	"GA": {
-		"name": "Jabuhn"
-	},
-	"GM": {
-		"name": "Jambija"
-	},
-	"JM": {
-		"name": "Jammaika"
-	},
-	"YE": {
-		"name": "Jämme"
-	},
-	"JP": {
-		"name": "Japan"
-	},
-	"GE": {
-		"name": "Jeorrjije"
-	},
-	"GI": {
-		"name": "Jibralltaa"
-	},
-	"GN": {
-		"name": "Jinneha"
-	},
-	"GW": {
-		"name": "Jinneha_Bißau"
-	},
-	"GG": {
-		"name": "Jöönsei"
-	},
-	"JE": {
-		"name": "Jööseh"
-	},
-	"JO": {
-		"name": "Jordaanije"
-	},
-	"GD": {
-		"name": "Jrenahda"
-	},
-	"GR": {
-		"name": "Jriescheland"
-	},
-	"GL": {
-		"name": "Jröhnland"
-	},
-	"GB": {
-		"name": "Jruußbrettannije"
-	},
-	"GP": {
-		"name": "Juadelupp"
-	},
-	"GU": {
-		"name": "Juham"
-	},
-	"GY": {
-		"name": "Jujaana"
-	},
-	"GT": {
-		"name": "Juwatemahla"
-	},
-	"KH": {
-		"name": "Kambodscha"
-	},
-	"CM": {
-		"name": "Kammeruhn"
-	},
-	"CA": {
-		"name": "Kanada"
-	},
-	"KZ": {
-		"name": "Kassakstahn"
-	},
-	"QA": {
-		"name": "Kataa"
-	},
-	"KE": {
-		"name": "Keenija"
-	},
-	"KI": {
-		"name": "Kiribati"
-	},
-	"KG": {
-		"name": "Kirrjiisije"
-	},
-	"CO": {
-		"name": "Kolumbije"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"CR": {
-		"name": "Kostarika"
-	},
-	"HR": {
-		"name": "Krowazije"
-	},
-	"CU": {
-		"name": "Kuhba"
-	},
-	"KW": {
-		"name": "Kuweit"
-	},
-	"LA": {
-		"name": "La’os"
-	},
-	"LV": {
-		"name": "Lätland"
-	},
-	"LB": {
-		"name": "Lebbannon"
-	},
-	"LS": {
-		"name": "Lesooto"
-	},
-	"LY": {
-		"name": "Libbije"
-	},
-	"LR": {
-		"name": "Libeerija"
-	},
-	"LI": {
-		"name": "Lischteschtein"
-	},
-	"LT": {
-		"name": "Littaue"
-	},
-	"LU": {
-		"name": "Luxembursch"
-	},
-	"ML": {
-		"name": "Maali"
-	},
-	"MQ": {
-		"name": "Machtinik"
-	},
-	"MG": {
-		"name": "Maddajaska"
-	},
-	"YT": {
-		"name": "Majott"
-	},
-	"MO": {
-		"name": "Makau"
-	},
-	"MY": {
-		"name": "Malaisije"
-	},
-	"MW": {
-		"name": "Malawi"
-	},
-	"MV": {
-		"name": "Mallediive"
-	},
-	"MT": {
-		"name": "Malta"
-	},
-	"MA": {
-		"name": "Marokko"
-	},
-	"MU": {
-		"name": "Maurizijus"
-	},
-	"MR": {
-		"name": "Mautitaanije"
-	},
-	"MX": {
-		"name": "Mäxiko"
-	},
-	"MK": {
-		"name": "Mazedoonije"
-	},
-	"FM": {
-		"name": "Mikroneesije"
-	},
-	"MD": {
-		"name": "Moldaavije"
-	},
-	"MC": {
-		"name": "Monakko"
-	},
-	"MN": {
-		"name": "Mongjolei"
-	},
-	"MS": {
-		"name": "Mongßerrat"
-	},
-	"MZ": {
-		"name": "Mosambik"
-	},
-	"NA": {
-		"name": "Namiibije"
-	},
-	"NR": {
-		"name": "Nauru"
-	},
-	"NP": {
-		"name": "Nepall"
-	},
-	"NC": {
-		"name": "Neuschottland"
-	},
-	"NZ": {
-		"name": "Neuseeland"
-	},
-	"NE": {
-		"name": "Nijer"
-	},
-	"NG": {
-		"name": "Nikaraagua"
-	},
-	"NI": {
-		"name": "Nikarahguwa"
-	},
-	"NU": {
-		"name": "Niue"
-	},
-	"KP": {
-		"name": "Nood-Koreja"
-	},
-	"SD": {
-		"name": "Noodsudahn"
-	},
-	"NO": {
-		"name": "Norrweeje"
-	},
-	"OM": {
-		"name": "Oman"
-	},
-	"AT": {
-		"name": "Öösterisch"
-	},
-	"TL": {
-		"name": "Oß-Timor"
-	},
-	"PK": {
-		"name": "Pakistahn"
-	},
-	"PS": {
-		"name": "Palästina"
-	},
-	"PW": {
-		"name": "Pallau"
-	},
-	"PA": {
-		"name": "Pannama"
-	},
-	"PG": {
-		"name": "Papuwa Neujineeja"
-	},
-	"PY": {
-		"name": "Parraguwai"
-	},
-	"PE": {
-		"name": "Perruh"
-	},
-	"IR": {
-		"name": "Persije"
-	},
-	"PT": {
-		"name": "Pochtojall"
-	},
-	"PR": {
-		"name": "Pochtoriko"
-	},
-	"PL": {
-		"name": "Pole"
-	},
-	"RE": {
-		"name": "Rehunjohn"
-	},
-	"RO": {
-		"name": "Romäänije"
-	},
-	"RW": {
-		"name": "Ruanda"
-	},
-	"RU": {
-		"name": "Rußland"
-	},
-	"ZM": {
-		"name": "Sambija"
-	},
-	"WS": {
-		"name": "Sammoha"
-	},
-	"SM": {
-		"name": "San-Marino"
-	},
-	"RS": {
-		"name": "Särbije"
-	},
-	"SA": {
-		"name": "Saudi Arraabije"
-	},
-	"CL": {
-		"name": "Schiile"
-	},
-	"CN": {
-		"name": "Schiina"
-	},
-	"ES": {
-		"name": "Schpaanije"
-	},
-	"SE": {
-		"name": "Schweede"
-	},
-	"ZW": {
-		"name": "Simbabwe"
-	},
-	"SG": {
-		"name": "Singjapuur"
-	},
-	"SL": {
-		"name": "Sjärra Lejone"
-	},
-	"GS": {
-		"name": "Söd-Jeorjie un de södlijje Botteramms-Enselle"
-	},
-	"KR": {
-		"name": "Söd-Koreja"
-	},
-	"SS": {
-		"name": "Södsudahn"
-	},
-	"SO": {
-		"name": "Somaalije"
-	},
-	"LK": {
-		"name": "Sri Lanka"
-	},
-	"SK": {
-		"name": "ẞlovakei"
-	},
-	"SI": {
-		"name": "ẞloveenije"
-	},
-	"SZ": {
-		"name": "ẞwaasiland"
-	},
-	"SY": {
-		"name": "Sürije"
-	},
-	"SR": {
-		"name": "Sürinamm"
-	},
-	"TJ": {
-		"name": "Tadschikistahn"
-	},
-	"TH": {
-		"name": "Tailand"
-	},
-	"TW": {
-		"name": "Taiwan"
-	},
-	"TZ": {
-		"name": "Tansanija"
-	},
-	"TK": {
-		"name": "Tokelau"
-	},
-	"TO": {
-		"name": "Tongga"
-	},
-	"TG": {
-		"name": "Toojo"
-	},
-	"TT": {
-		"name": "Trinidad un Tobähjo"
-	},
-	"TA": {
-		"name": "Tristan da Cunja"
-	},
-	"TN": {
-		"name": "Tuneesije"
-	},
-	"TM": {
-		"name": "Turkmenistahn"
-	},
-	"TV": {
-		"name": "Tuvalu"
-	},
-	"UG": {
-		"name": "Ujanda"
-	},
-	"HU": {
-		"name": "Unjann"
-	},
-	"UY": {
-		"name": "Urrujwai"
-	},
-	"UZ": {
-		"name": "Ußbeekistahn"
-	},
-	"VU": {
-		"name": "Vanuatu"
-	},
-	"VE": {
-		"name": "Venezuela"
-	},
-	"AE": {
-		"name": "Vereinschte Arrabesche Emmirate"
-	},
-	"VN": {
-		"name": "Vijätnamm"
-	},
-	"WF": {
-		"name": "Wallis un Futuna"
-	},
-	"EH": {
-		"name": "Wäß-Sahara"
-	},
-	"BY": {
-		"name": "Wießrußland"
-	},
-	"EA": {
-		"name": "Ze’uta un Meliija"
-	},
-	"KN": {
-		"name": "Zint Kitts un Nevis"
-	},
-	"SX": {
-		"name": "Zint Maarten"
-	},
-	"PM": {
-		"name": "Zint Pjäär un Mikelong"
-	},
-	"ST": {
-		"name": "Zint Tommeh un Printschipe"
-	},
-	"VC": {
-		"name": "Zint Vinzänz un de Jrenadines-Enselle"
-	},
-	"CY": {
-		"name": "Züppere"
-	}
+	"AF": "Afjaanistahn",
+	"AR": "Ajjentiinije",
+	"EG": "Äjüpte",
+	"EC": "Äkwador",
+	"SV": "Äl Slavadohr",
+	"AL": "Albaanije",
+	"CI": "Älfebeijn-Köß",
+	"DZ": "Alljeerije",
+	"AS": "Ammerikaanesch Sammoha",
+	"AD": "Andorra",
+	"AI": "Anggwilla",
+	"AO": "Angjoola",
+	"AG": "Antigwa un Barbuda",
+	"GQ": "Äquatorial Jineeja",
+	"ER": "Äritreja",
+	"AM": "Arrmeenije",
+	"AW": "Aruba",
+	"AC": "Aßension",
+	"AZ": "Asserbaidschahn",
+	"EE": "Äßland",
+	"ET": "Ättijoopije",
+	"AU": "Austraalije",
+	"BH": "Bachrain",
+	"BD": "Bangladesch",
+	"BZ": "Belize",
+	"BE": "Bellje",
+	"MM": "Birma",
+	"BO": "Bolliivije",
+	"BA": "Boßnije un Herzegovina",
+	"BW": "Bozwaana",
+	"BR": "Brasilije",
+	"IO": "Brettesche Besezunge em indesche Oozejahn",
+	"BN": "Brunei",
+	"BF": "Bukkinna-Faase",
+	"BG": "Bulljaarije",
+	"BI": "Burundi",
+	"BT": "Buttaan",
+	"CW": "Curaçao",
+	"BJ": "dä Benin",
+	"CG": "dä Konggo (Brassavill)",
+	"CD": "dä Konggo (Kinschasa)",
+	"DK": "Dänemark",
+	"VI": "de ammärrikahnesche Juffer-Enselle",
+	"BS": "de Bahamas",
+	"BM": "de Bermudas",
+	"VG": "de brettesche Juffer-Enselle",
+	"DG": "de Diego-Garcia-Ensel",
+	"DO": "de Dommenekaanesche Reppublik",
+	"BB": "de Ensel Barbados",
+	"IM": "de Ensel Män",
+	"SH": "de Ensel Zint Hellena",
+	"LC": "de Ensel Zint-Lutscha",
+	"SJ": "de Enselle Svalbard un Jan Mayen",
+	"TC": "de Enselle Turks un Kaikos",
+	"FK": "de Falkland-Enselle",
+	"FO": "de Färrör-Enselle",
+	"FJ": "de Fidschi-Endelle",
+	"KY": "de Kaiman-Enselle",
+	"IC": "de Kannaresche Enselle",
+	"CV": "de kapvärdesche Enselle",
+	"BQ": "de karribbesche Nederläng",
+	"CC": "de Kokkos-Enselle",
+	"KM": "de Kommoore",
+	"CK": "de Kuuk-Enselle",
+	"MH": "de Machschall-Enselle",
+	"NL": "de Nederläng",
+	"MP": "de nöödlijje Marijanne-Enselle",
+	"NF": "de Noofok-Ensel",
+	"AX": "de Ohland-Enselle",
+	"PN": "de Pitkärn-Ensel",
+	"ZA": "de Republik Södaffrika",
+	"CH": "de Schweiz",
+	"SC": "de Seischälle",
+	"SB": "de Solomone-Enselle",
+	"TR": "de Törkei",
+	"CZ": "de Tschäschei",
+	"UA": "de Ukra’iine",
+	"UM": "de Vereineschte Schtaate vun Amärrika ier ußerhallef jelääje Enselsche",
+	"US": "de vereineschte Schtaate vun Ammärrika",
+	"CX": "de Weihnaachs-Ensel",
+	"CF": "de Zäntraalaffrikaanesche Republik",
+	"BL": "de Zint Battälmi-Enselle",
+	"MF": "de Zint-Määtes-Ensel",
+	"SN": "der Sennejall",
+	"AQ": "der Södpol",
+	"TD": "der Tschadd",
+	"VA": "der Vattikahn",
+	"DM": "Dominnika",
+	"DE": "Doütschland",
+	"DJ": "Dschibutti",
+	"ME": "et Monteneejro",
+	"PH": "Fillipiine",
+	"FI": "Finnland",
+	"FR": "Frankrisch",
+	"GF": "Franzüüsesch Jujaana",
+	"PF": "Franzüüsesch Pollineesije",
+	"TF": "Franzüüsesche Södsee-Enselle",
+	"HT": "Ha’itti",
+	"HN": "Honduras",
+	"HK": "Hongkong",
+	"IN": "Indije",
+	"ID": "Indoneesije",
+	"IQ": "Irak",
+	"IE": "Irrland",
+	"IS": "Ißland",
+	"IL": "Ißraäl",
+	"IT": "Itaalije",
+	"GH": "Jaana",
+	"GA": "Jabuhn",
+	"GM": "Jambija",
+	"JM": "Jammaika",
+	"YE": "Jämme",
+	"JP": "Japan",
+	"GE": "Jeorrjije",
+	"GI": "Jibralltaa",
+	"GN": "Jinneha",
+	"GW": "Jinneha_Bißau",
+	"GG": "Jöönsei",
+	"JE": "Jööseh",
+	"JO": "Jordaanije",
+	"GD": "Jrenahda",
+	"GR": "Jriescheland",
+	"GL": "Jröhnland",
+	"GB": "Jruußbrettannije",
+	"GP": "Juadelupp",
+	"GU": "Juham",
+	"GY": "Jujaana",
+	"GT": "Juwatemahla",
+	"KH": "Kambodscha",
+	"CM": "Kammeruhn",
+	"CA": "Kanada",
+	"KZ": "Kassakstahn",
+	"QA": "Kataa",
+	"KE": "Keenija",
+	"KI": "Kiribati",
+	"KG": "Kirrjiisije",
+	"CO": "Kolumbije",
+	"XK": "Kosovo",
+	"CR": "Kostarika",
+	"HR": "Krowazije",
+	"CU": "Kuhba",
+	"KW": "Kuweit",
+	"LA": "La’os",
+	"LV": "Lätland",
+	"LB": "Lebbannon",
+	"LS": "Lesooto",
+	"LY": "Libbije",
+	"LR": "Libeerija",
+	"LI": "Lischteschtein",
+	"LT": "Littaue",
+	"LU": "Luxembursch",
+	"ML": "Maali",
+	"MQ": "Machtinik",
+	"MG": "Maddajaska",
+	"YT": "Majott",
+	"MO": "Makau",
+	"MY": "Malaisije",
+	"MW": "Malawi",
+	"MV": "Mallediive",
+	"MT": "Malta",
+	"MA": "Marokko",
+	"MU": "Maurizijus",
+	"MR": "Mautitaanije",
+	"MX": "Mäxiko",
+	"MK": "Mazedoonije",
+	"FM": "Mikroneesije",
+	"MD": "Moldaavije",
+	"MC": "Monakko",
+	"MN": "Mongjolei",
+	"MS": "Mongßerrat",
+	"MZ": "Mosambik",
+	"NA": "Namiibije",
+	"NR": "Nauru",
+	"NP": "Nepall",
+	"NC": "Neuschottland",
+	"NZ": "Neuseeland",
+	"NE": "Nijer",
+	"NG": "Nikaraagua",
+	"NI": "Nikarahguwa",
+	"NU": "Niue",
+	"KP": "Nood-Koreja",
+	"SD": "Noodsudahn",
+	"NO": "Norrweeje",
+	"OM": "Oman",
+	"AT": "Öösterisch",
+	"TL": "Oß-Timor",
+	"PK": "Pakistahn",
+	"PS": "Palästina",
+	"PW": "Pallau",
+	"PA": "Pannama",
+	"PG": "Papuwa Neujineeja",
+	"PY": "Parraguwai",
+	"PE": "Perruh",
+	"IR": "Persije",
+	"PT": "Pochtojall",
+	"PR": "Pochtoriko",
+	"PL": "Pole",
+	"RE": "Rehunjohn",
+	"RO": "Romäänije",
+	"RW": "Ruanda",
+	"RU": "Rußland",
+	"ZM": "Sambija",
+	"WS": "Sammoha",
+	"SM": "San-Marino",
+	"RS": "Särbije",
+	"SA": "Saudi Arraabije",
+	"CL": "Schiile",
+	"CN": "Schiina",
+	"ES": "Schpaanije",
+	"SE": "Schweede",
+	"ZW": "Simbabwe",
+	"SG": "Singjapuur",
+	"SL": "Sjärra Lejone",
+	"GS": "Söd-Jeorjie un de södlijje Botteramms-Enselle",
+	"KR": "Söd-Koreja",
+	"SS": "Södsudahn",
+	"SO": "Somaalije",
+	"LK": "Sri Lanka",
+	"SK": "ẞlovakei",
+	"SI": "ẞloveenije",
+	"SZ": "ẞwaasiland",
+	"SY": "Sürije",
+	"SR": "Sürinamm",
+	"TJ": "Tadschikistahn",
+	"TH": "Tailand",
+	"TW": "Taiwan",
+	"TZ": "Tansanija",
+	"TK": "Tokelau",
+	"TO": "Tongga",
+	"TG": "Toojo",
+	"TT": "Trinidad un Tobähjo",
+	"TA": "Tristan da Cunja",
+	"TN": "Tuneesije",
+	"TM": "Turkmenistahn",
+	"TV": "Tuvalu",
+	"UG": "Ujanda",
+	"HU": "Unjann",
+	"UY": "Urrujwai",
+	"UZ": "Ußbeekistahn",
+	"VU": "Vanuatu",
+	"VE": "Venezuela",
+	"AE": "Vereinschte Arrabesche Emmirate",
+	"VN": "Vijätnamm",
+	"WF": "Wallis un Futuna",
+	"EH": "Wäß-Sahara",
+	"BY": "Wießrußland",
+	"EA": "Ze’uta un Meliija",
+	"KN": "Zint Kitts un Nevis",
+	"SX": "Zint Maarten",
+	"PM": "Zint Pjäär un Mikelong",
+	"ST": "Zint Tommeh un Printschipe",
+	"VC": "Zint Vinzänz un de Jrenadines-Enselle",
+	"CY": "Züppere"
 }

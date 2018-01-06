@@ -84,11 +84,13 @@ class LanguageRepository implements LanguageRepositoryInterface
         if (!isset($definitions[$languageCode])) {
             throw new UnknownLanguageException($languageCode);
         }
-        $definition = $definitions[$languageCode];
-        $definition['language_code'] = $languageCode;
-        $definition['locale'] = $locale;
+        $language =  new Language([
+            'language_code' => $languageCode,
+            'name' => $definitions[$languageCode],
+            'locale' => $locale,
+        ]);
 
-        return new Language($definition);
+        return $language;
     }
 
     /**
@@ -101,10 +103,12 @@ class LanguageRepository implements LanguageRepositoryInterface
         $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $languages = [];
-        foreach ($definitions as $languageCode => $definition) {
-            $definition['language_code'] = $languageCode;
-            $definition['locale'] = $locale;
-            $languages[$languageCode] = new Language($definition);
+        foreach ($definitions as $languageCode => $languageName) {
+            $languages[$languageCode] = new Language([
+                'language_code' => $languageCode,
+                'name' => $languageName,
+                'locale' => $locale,
+            ]);
         }
 
         return $languages;
@@ -120,8 +124,8 @@ class LanguageRepository implements LanguageRepositoryInterface
         $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $list = [];
-        foreach ($definitions as $languageCode => $definition) {
-            $list[$languageCode] = $definition['name'];
+        foreach ($definitions as $languageCode => $languageName) {
+            $list[$languageCode] = $languageName;
         }
 
         return $list;

@@ -1,761 +1,255 @@
 {
-	"AF": {
-		"name": "Afeganistão"
-	},
-	"ZA": {
-		"name": "África do Sul"
-	},
-	"AL": {
-		"name": "Albânia"
-	},
-	"DE": {
-		"name": "Alemanha"
-	},
-	"AD": {
-		"name": "Andorra"
-	},
-	"AO": {
-		"name": "Angola"
-	},
-	"AI": {
-		"name": "Anguilla"
-	},
-	"AQ": {
-		"name": "Antártida"
-	},
-	"AG": {
-		"name": "Antígua e Barbuda"
-	},
-	"SA": {
-		"name": "Arábia Saudita"
-	},
-	"DZ": {
-		"name": "Argélia"
-	},
-	"AR": {
-		"name": "Argentina"
-	},
-	"AM": {
-		"name": "Armênia"
-	},
-	"AW": {
-		"name": "Aruba"
-	},
-	"AU": {
-		"name": "Austrália"
-	},
-	"AT": {
-		"name": "Áustria"
-	},
-	"AZ": {
-		"name": "Azerbaijão"
-	},
-	"BS": {
-		"name": "Bahamas"
-	},
-	"BH": {
-		"name": "Bahrein"
-	},
-	"BD": {
-		"name": "Bangladesh"
-	},
-	"BB": {
-		"name": "Barbados"
-	},
-	"BE": {
-		"name": "Bélgica"
-	},
-	"BZ": {
-		"name": "Belize"
-	},
-	"BJ": {
-		"name": "Benin"
-	},
-	"BM": {
-		"name": "Bermudas"
-	},
-	"BY": {
-		"name": "Bielorrússia"
-	},
-	"BO": {
-		"name": "Bolívia"
-	},
-	"BA": {
-		"name": "Bósnia e Herzegovina"
-	},
-	"BW": {
-		"name": "Botsuana"
-	},
-	"BR": {
-		"name": "Brasil"
-	},
-	"BN": {
-		"name": "Brunei"
-	},
-	"BG": {
-		"name": "Bulgária"
-	},
-	"BF": {
-		"name": "Burquina Faso"
-	},
-	"BI": {
-		"name": "Burundi"
-	},
-	"BT": {
-		"name": "Butão"
-	},
-	"CV": {
-		"name": "Cabo Verde"
-	},
-	"CM": {
-		"name": "Camarões"
-	},
-	"KH": {
-		"name": "Camboja"
-	},
-	"CA": {
-		"name": "Canadá"
-	},
-	"QA": {
-		"name": "Catar"
-	},
-	"KZ": {
-		"name": "Cazaquistão"
-	},
-	"EA": {
-		"name": "Ceuta e Melilha"
-	},
-	"TD": {
-		"name": "Chade"
-	},
-	"CL": {
-		"name": "Chile"
-	},
-	"CN": {
-		"name": "China"
-	},
-	"CY": {
-		"name": "Chipre"
-	},
-	"VA": {
-		"name": "Cidade do Vaticano"
-	},
-	"CO": {
-		"name": "Colômbia"
-	},
-	"KM": {
-		"name": "Comores"
-	},
-	"CG": {
-		"name": "Congo - Brazzaville"
-	},
-	"CD": {
-		"name": "Congo - Kinshasa"
-	},
-	"KP": {
-		"name": "Coreia do Norte"
-	},
-	"KR": {
-		"name": "Coreia do Sul"
-	},
-	"CI": {
-		"name": "Costa do Marfim"
-	},
-	"CR": {
-		"name": "Costa Rica"
-	},
-	"HR": {
-		"name": "Croácia"
-	},
-	"CU": {
-		"name": "Cuba"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"DG": {
-		"name": "Diego Garcia"
-	},
-	"DK": {
-		"name": "Dinamarca"
-	},
-	"DJ": {
-		"name": "Djibuti"
-	},
-	"DM": {
-		"name": "Dominica"
-	},
-	"EG": {
-		"name": "Egito"
-	},
-	"SV": {
-		"name": "El Salvador"
-	},
-	"AE": {
-		"name": "Emirados Árabes Unidos"
-	},
-	"EC": {
-		"name": "Equador"
-	},
-	"ER": {
-		"name": "Eritreia"
-	},
-	"SK": {
-		"name": "Eslováquia"
-	},
-	"SI": {
-		"name": "Eslovênia"
-	},
-	"ES": {
-		"name": "Espanha"
-	},
-	"US": {
-		"name": "Estados Unidos"
-	},
-	"EE": {
-		"name": "Estônia"
-	},
-	"ET": {
-		"name": "Etiópia"
-	},
-	"FJ": {
-		"name": "Fiji"
-	},
-	"PH": {
-		"name": "Filipinas"
-	},
-	"FI": {
-		"name": "Finlândia"
-	},
-	"FR": {
-		"name": "França"
-	},
-	"GA": {
-		"name": "Gabão"
-	},
-	"GM": {
-		"name": "Gâmbia"
-	},
-	"GH": {
-		"name": "Gana"
-	},
-	"GE": {
-		"name": "Geórgia"
-	},
-	"GI": {
-		"name": "Gibraltar"
-	},
-	"GD": {
-		"name": "Granada"
-	},
-	"GR": {
-		"name": "Grécia"
-	},
-	"GL": {
-		"name": "Groenlândia"
-	},
-	"GP": {
-		"name": "Guadalupe"
-	},
-	"GU": {
-		"name": "Guam"
-	},
-	"GT": {
-		"name": "Guatemala"
-	},
-	"GG": {
-		"name": "Guernsey"
-	},
-	"GY": {
-		"name": "Guiana"
-	},
-	"GF": {
-		"name": "Guiana Francesa"
-	},
-	"GN": {
-		"name": "Guiné"
-	},
-	"GQ": {
-		"name": "Guiné Equatorial"
-	},
-	"GW": {
-		"name": "Guiné-Bissau"
-	},
-	"HT": {
-		"name": "Haiti"
-	},
-	"NL": {
-		"name": "Holanda"
-	},
-	"HN": {
-		"name": "Honduras"
-	},
-	"HK": {
-		"name": "Hong Kong, RAE da China"
-	},
-	"HU": {
-		"name": "Hungria"
-	},
-	"YE": {
-		"name": "Iêmen"
-	},
-	"CX": {
-		"name": "Ilha Christmas"
-	},
-	"AC": {
-		"name": "Ilha de Ascensão"
-	},
-	"IM": {
-		"name": "Ilha de Man"
-	},
-	"NF": {
-		"name": "Ilha Norfolk"
-	},
-	"AX": {
-		"name": "Ilhas Aland"
-	},
-	"IC": {
-		"name": "Ilhas Canárias"
-	},
-	"KY": {
-		"name": "Ilhas Cayman"
-	},
-	"CC": {
-		"name": "Ilhas Cocos (Keeling)"
-	},
-	"CK": {
-		"name": "Ilhas Cook"
-	},
-	"FO": {
-		"name": "Ilhas Faroe"
-	},
-	"GS": {
-		"name": "Ilhas Geórgia do Sul e Sandwich do Sul"
-	},
-	"FK": {
-		"name": "Ilhas Malvinas"
-	},
-	"MP": {
-		"name": "Ilhas Marianas do Norte"
-	},
-	"MH": {
-		"name": "Ilhas Marshall"
-	},
-	"UM": {
-		"name": "Ilhas Menores Distantes dos EUA"
-	},
-	"PN": {
-		"name": "Ilhas Pitcairn"
-	},
-	"SB": {
-		"name": "Ilhas Salomão"
-	},
-	"TC": {
-		"name": "Ilhas Turks e Caicos"
-	},
-	"VI": {
-		"name": "Ilhas Virgens Americanas"
-	},
-	"VG": {
-		"name": "Ilhas Virgens Britânicas"
-	},
-	"IN": {
-		"name": "Índia"
-	},
-	"ID": {
-		"name": "Indonésia"
-	},
-	"IR": {
-		"name": "Irã"
-	},
-	"IQ": {
-		"name": "Iraque"
-	},
-	"IE": {
-		"name": "Irlanda"
-	},
-	"IS": {
-		"name": "Islândia"
-	},
-	"IL": {
-		"name": "Israel"
-	},
-	"IT": {
-		"name": "Itália"
-	},
-	"JM": {
-		"name": "Jamaica"
-	},
-	"JP": {
-		"name": "Japão"
-	},
-	"JE": {
-		"name": "Jersey"
-	},
-	"JO": {
-		"name": "Jordânia"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"KW": {
-		"name": "Kuwait"
-	},
-	"LA": {
-		"name": "Laos"
-	},
-	"LS": {
-		"name": "Lesoto"
-	},
-	"LV": {
-		"name": "Letônia"
-	},
-	"LB": {
-		"name": "Líbano"
-	},
-	"LR": {
-		"name": "Libéria"
-	},
-	"LY": {
-		"name": "Líbia"
-	},
-	"LI": {
-		"name": "Liechtenstein"
-	},
-	"LT": {
-		"name": "Lituânia"
-	},
-	"LU": {
-		"name": "Luxemburgo"
-	},
-	"MO": {
-		"name": "Macau, RAE da China"
-	},
-	"MK": {
-		"name": "Macedônia"
-	},
-	"MG": {
-		"name": "Madagascar"
-	},
-	"MY": {
-		"name": "Malásia"
-	},
-	"MW": {
-		"name": "Malaui"
-	},
-	"MV": {
-		"name": "Maldivas"
-	},
-	"ML": {
-		"name": "Mali"
-	},
-	"MT": {
-		"name": "Malta"
-	},
-	"MA": {
-		"name": "Marrocos"
-	},
-	"MQ": {
-		"name": "Martinica"
-	},
-	"MU": {
-		"name": "Maurício"
-	},
-	"MR": {
-		"name": "Mauritânia"
-	},
-	"YT": {
-		"name": "Mayotte"
-	},
-	"MX": {
-		"name": "México"
-	},
-	"MM": {
-		"name": "Mianmar (Birmânia)"
-	},
-	"FM": {
-		"name": "Micronésia"
-	},
-	"MZ": {
-		"name": "Moçambique"
-	},
-	"MD": {
-		"name": "Moldávia"
-	},
-	"MC": {
-		"name": "Mônaco"
-	},
-	"MN": {
-		"name": "Mongólia"
-	},
-	"ME": {
-		"name": "Montenegro"
-	},
-	"MS": {
-		"name": "Montserrat"
-	},
-	"NA": {
-		"name": "Namíbia"
-	},
-	"NR": {
-		"name": "Nauru"
-	},
-	"NP": {
-		"name": "Nepal"
-	},
-	"NI": {
-		"name": "Nicarágua"
-	},
-	"NE": {
-		"name": "Níger"
-	},
-	"NG": {
-		"name": "Nigéria"
-	},
-	"NU": {
-		"name": "Niue"
-	},
-	"NO": {
-		"name": "Noruega"
-	},
-	"NC": {
-		"name": "Nova Caledônia"
-	},
-	"NZ": {
-		"name": "Nova Zelândia"
-	},
-	"OM": {
-		"name": "Omã"
-	},
-	"BQ": {
-		"name": "Países Baixos Caribenhos"
-	},
-	"PW": {
-		"name": "Palau"
-	},
-	"PA": {
-		"name": "Panamá"
-	},
-	"PG": {
-		"name": "Papua-Nova Guiné"
-	},
-	"PK": {
-		"name": "Paquistão"
-	},
-	"PY": {
-		"name": "Paraguai"
-	},
-	"PE": {
-		"name": "Peru"
-	},
-	"PF": {
-		"name": "Polinésia Francesa"
-	},
-	"PL": {
-		"name": "Polônia"
-	},
-	"PR": {
-		"name": "Porto Rico"
-	},
-	"PT": {
-		"name": "Portugal"
-	},
-	"KE": {
-		"name": "Quênia"
-	},
-	"KG": {
-		"name": "Quirguistão"
-	},
-	"KI": {
-		"name": "Quiribati"
-	},
-	"GB": {
-		"name": "Reino Unido"
-	},
-	"CF": {
-		"name": "República Centro-Africana"
-	},
-	"DO": {
-		"name": "República Dominicana"
-	},
-	"RE": {
-		"name": "Reunião"
-	},
-	"RO": {
-		"name": "Romênia"
-	},
-	"RW": {
-		"name": "Ruanda"
-	},
-	"RU": {
-		"name": "Rússia"
-	},
-	"EH": {
-		"name": "Saara Ocidental"
-	},
-	"WS": {
-		"name": "Samoa"
-	},
-	"AS": {
-		"name": "Samoa Americana"
-	},
-	"SM": {
-		"name": "San Marino"
-	},
-	"SH": {
-		"name": "Santa Helena"
-	},
-	"LC": {
-		"name": "Santa Lúcia"
-	},
-	"BL": {
-		"name": "São Bartolomeu"
-	},
-	"KN": {
-		"name": "São Cristóvão e Névis"
-	},
-	"MF": {
-		"name": "São Martinho"
-	},
-	"PM": {
-		"name": "São Pedro e Miquelão"
-	},
-	"ST": {
-		"name": "São Tomé e Príncipe"
-	},
-	"VC": {
-		"name": "São Vicente e Granadinas"
-	},
-	"SC": {
-		"name": "Seicheles"
-	},
-	"SN": {
-		"name": "Senegal"
-	},
-	"SL": {
-		"name": "Serra Leoa"
-	},
-	"RS": {
-		"name": "Sérvia"
-	},
-	"SG": {
-		"name": "Singapura"
-	},
-	"SX": {
-		"name": "Sint Maarten"
-	},
-	"SY": {
-		"name": "Síria"
-	},
-	"SO": {
-		"name": "Somália"
-	},
-	"LK": {
-		"name": "Sri Lanka"
-	},
-	"SZ": {
-		"name": "Suazilândia"
-	},
-	"SD": {
-		"name": "Sudão"
-	},
-	"SS": {
-		"name": "Sudão do Sul"
-	},
-	"SE": {
-		"name": "Suécia"
-	},
-	"CH": {
-		"name": "Suíça"
-	},
-	"SR": {
-		"name": "Suriname"
-	},
-	"SJ": {
-		"name": "Svalbard e Jan Mayen"
-	},
-	"TJ": {
-		"name": "Tadjiquistão"
-	},
-	"TH": {
-		"name": "Tailândia"
-	},
-	"TW": {
-		"name": "Taiwan"
-	},
-	"TZ": {
-		"name": "Tanzânia"
-	},
-	"CZ": {
-		"name": "Tchéquia"
-	},
-	"IO": {
-		"name": "Território Britânico do Oceano Índico"
-	},
-	"TF": {
-		"name": "Territórios Franceses do Sul"
-	},
-	"PS": {
-		"name": "Territórios palestinos"
-	},
-	"TL": {
-		"name": "Timor-Leste"
-	},
-	"TG": {
-		"name": "Togo"
-	},
-	"TK": {
-		"name": "Tokelau"
-	},
-	"TO": {
-		"name": "Tonga"
-	},
-	"TT": {
-		"name": "Trinidad e Tobago"
-	},
-	"TA": {
-		"name": "Tristão da Cunha"
-	},
-	"TN": {
-		"name": "Tunísia"
-	},
-	"TM": {
-		"name": "Turcomenistão"
-	},
-	"TR": {
-		"name": "Turquia"
-	},
-	"TV": {
-		"name": "Tuvalu"
-	},
-	"UA": {
-		"name": "Ucrânia"
-	},
-	"UG": {
-		"name": "Uganda"
-	},
-	"UY": {
-		"name": "Uruguai"
-	},
-	"UZ": {
-		"name": "Uzbequistão"
-	},
-	"VU": {
-		"name": "Vanuatu"
-	},
-	"VE": {
-		"name": "Venezuela"
-	},
-	"VN": {
-		"name": "Vietnã"
-	},
-	"WF": {
-		"name": "Wallis e Futuna"
-	},
-	"ZM": {
-		"name": "Zâmbia"
-	},
-	"ZW": {
-		"name": "Zimbábue"
-	}
+	"AF": "Afeganistão",
+	"ZA": "África do Sul",
+	"AL": "Albânia",
+	"DE": "Alemanha",
+	"AD": "Andorra",
+	"AO": "Angola",
+	"AI": "Anguilla",
+	"AQ": "Antártida",
+	"AG": "Antígua e Barbuda",
+	"SA": "Arábia Saudita",
+	"DZ": "Argélia",
+	"AR": "Argentina",
+	"AM": "Armênia",
+	"AW": "Aruba",
+	"AU": "Austrália",
+	"AT": "Áustria",
+	"AZ": "Azerbaijão",
+	"BS": "Bahamas",
+	"BH": "Bahrein",
+	"BD": "Bangladesh",
+	"BB": "Barbados",
+	"BE": "Bélgica",
+	"BZ": "Belize",
+	"BJ": "Benin",
+	"BM": "Bermudas",
+	"BY": "Bielorrússia",
+	"BO": "Bolívia",
+	"BA": "Bósnia e Herzegovina",
+	"BW": "Botsuana",
+	"BR": "Brasil",
+	"BN": "Brunei",
+	"BG": "Bulgária",
+	"BF": "Burquina Faso",
+	"BI": "Burundi",
+	"BT": "Butão",
+	"CV": "Cabo Verde",
+	"CM": "Camarões",
+	"KH": "Camboja",
+	"CA": "Canadá",
+	"QA": "Catar",
+	"KZ": "Cazaquistão",
+	"EA": "Ceuta e Melilha",
+	"TD": "Chade",
+	"CL": "Chile",
+	"CN": "China",
+	"CY": "Chipre",
+	"VA": "Cidade do Vaticano",
+	"CO": "Colômbia",
+	"KM": "Comores",
+	"CG": "Congo - Brazzaville",
+	"CD": "Congo - Kinshasa",
+	"KP": "Coreia do Norte",
+	"KR": "Coreia do Sul",
+	"CI": "Costa do Marfim",
+	"CR": "Costa Rica",
+	"HR": "Croácia",
+	"CU": "Cuba",
+	"CW": "Curaçao",
+	"DG": "Diego Garcia",
+	"DK": "Dinamarca",
+	"DJ": "Djibuti",
+	"DM": "Dominica",
+	"EG": "Egito",
+	"SV": "El Salvador",
+	"AE": "Emirados Árabes Unidos",
+	"EC": "Equador",
+	"ER": "Eritreia",
+	"SK": "Eslováquia",
+	"SI": "Eslovênia",
+	"ES": "Espanha",
+	"US": "Estados Unidos",
+	"EE": "Estônia",
+	"ET": "Etiópia",
+	"FJ": "Fiji",
+	"PH": "Filipinas",
+	"FI": "Finlândia",
+	"FR": "França",
+	"GA": "Gabão",
+	"GM": "Gâmbia",
+	"GH": "Gana",
+	"GE": "Geórgia",
+	"GI": "Gibraltar",
+	"GD": "Granada",
+	"GR": "Grécia",
+	"GL": "Groenlândia",
+	"GP": "Guadalupe",
+	"GU": "Guam",
+	"GT": "Guatemala",
+	"GG": "Guernsey",
+	"GY": "Guiana",
+	"GF": "Guiana Francesa",
+	"GN": "Guiné",
+	"GQ": "Guiné Equatorial",
+	"GW": "Guiné-Bissau",
+	"HT": "Haiti",
+	"NL": "Holanda",
+	"HN": "Honduras",
+	"HK": "Hong Kong, RAE da China",
+	"HU": "Hungria",
+	"YE": "Iêmen",
+	"CX": "Ilha Christmas",
+	"AC": "Ilha de Ascensão",
+	"IM": "Ilha de Man",
+	"NF": "Ilha Norfolk",
+	"AX": "Ilhas Aland",
+	"IC": "Ilhas Canárias",
+	"KY": "Ilhas Cayman",
+	"CC": "Ilhas Cocos (Keeling)",
+	"CK": "Ilhas Cook",
+	"FO": "Ilhas Faroe",
+	"GS": "Ilhas Geórgia do Sul e Sandwich do Sul",
+	"FK": "Ilhas Malvinas",
+	"MP": "Ilhas Marianas do Norte",
+	"MH": "Ilhas Marshall",
+	"UM": "Ilhas Menores Distantes dos EUA",
+	"PN": "Ilhas Pitcairn",
+	"SB": "Ilhas Salomão",
+	"TC": "Ilhas Turks e Caicos",
+	"VI": "Ilhas Virgens Americanas",
+	"VG": "Ilhas Virgens Britânicas",
+	"IN": "Índia",
+	"ID": "Indonésia",
+	"IR": "Irã",
+	"IQ": "Iraque",
+	"IE": "Irlanda",
+	"IS": "Islândia",
+	"IL": "Israel",
+	"IT": "Itália",
+	"JM": "Jamaica",
+	"JP": "Japão",
+	"JE": "Jersey",
+	"JO": "Jordânia",
+	"XK": "Kosovo",
+	"KW": "Kuwait",
+	"LA": "Laos",
+	"LS": "Lesoto",
+	"LV": "Letônia",
+	"LB": "Líbano",
+	"LR": "Libéria",
+	"LY": "Líbia",
+	"LI": "Liechtenstein",
+	"LT": "Lituânia",
+	"LU": "Luxemburgo",
+	"MO": "Macau, RAE da China",
+	"MK": "Macedônia",
+	"MG": "Madagascar",
+	"MY": "Malásia",
+	"MW": "Malaui",
+	"MV": "Maldivas",
+	"ML": "Mali",
+	"MT": "Malta",
+	"MA": "Marrocos",
+	"MQ": "Martinica",
+	"MU": "Maurício",
+	"MR": "Mauritânia",
+	"YT": "Mayotte",
+	"MX": "México",
+	"MM": "Mianmar (Birmânia)",
+	"FM": "Micronésia",
+	"MZ": "Moçambique",
+	"MD": "Moldávia",
+	"MC": "Mônaco",
+	"MN": "Mongólia",
+	"ME": "Montenegro",
+	"MS": "Montserrat",
+	"NA": "Namíbia",
+	"NR": "Nauru",
+	"NP": "Nepal",
+	"NI": "Nicarágua",
+	"NE": "Níger",
+	"NG": "Nigéria",
+	"NU": "Niue",
+	"NO": "Noruega",
+	"NC": "Nova Caledônia",
+	"NZ": "Nova Zelândia",
+	"OM": "Omã",
+	"BQ": "Países Baixos Caribenhos",
+	"PW": "Palau",
+	"PA": "Panamá",
+	"PG": "Papua-Nova Guiné",
+	"PK": "Paquistão",
+	"PY": "Paraguai",
+	"PE": "Peru",
+	"PF": "Polinésia Francesa",
+	"PL": "Polônia",
+	"PR": "Porto Rico",
+	"PT": "Portugal",
+	"KE": "Quênia",
+	"KG": "Quirguistão",
+	"KI": "Quiribati",
+	"GB": "Reino Unido",
+	"CF": "República Centro-Africana",
+	"DO": "República Dominicana",
+	"RE": "Reunião",
+	"RO": "Romênia",
+	"RW": "Ruanda",
+	"RU": "Rússia",
+	"EH": "Saara Ocidental",
+	"WS": "Samoa",
+	"AS": "Samoa Americana",
+	"SM": "San Marino",
+	"SH": "Santa Helena",
+	"LC": "Santa Lúcia",
+	"BL": "São Bartolomeu",
+	"KN": "São Cristóvão e Névis",
+	"MF": "São Martinho",
+	"PM": "São Pedro e Miquelão",
+	"ST": "São Tomé e Príncipe",
+	"VC": "São Vicente e Granadinas",
+	"SC": "Seicheles",
+	"SN": "Senegal",
+	"SL": "Serra Leoa",
+	"RS": "Sérvia",
+	"SG": "Singapura",
+	"SX": "Sint Maarten",
+	"SY": "Síria",
+	"SO": "Somália",
+	"LK": "Sri Lanka",
+	"SZ": "Suazilândia",
+	"SD": "Sudão",
+	"SS": "Sudão do Sul",
+	"SE": "Suécia",
+	"CH": "Suíça",
+	"SR": "Suriname",
+	"SJ": "Svalbard e Jan Mayen",
+	"TJ": "Tadjiquistão",
+	"TH": "Tailândia",
+	"TW": "Taiwan",
+	"TZ": "Tanzânia",
+	"CZ": "Tchéquia",
+	"IO": "Território Britânico do Oceano Índico",
+	"TF": "Territórios Franceses do Sul",
+	"PS": "Territórios palestinos",
+	"TL": "Timor-Leste",
+	"TG": "Togo",
+	"TK": "Tokelau",
+	"TO": "Tonga",
+	"TT": "Trinidad e Tobago",
+	"TA": "Tristão da Cunha",
+	"TN": "Tunísia",
+	"TM": "Turcomenistão",
+	"TR": "Turquia",
+	"TV": "Tuvalu",
+	"UA": "Ucrânia",
+	"UG": "Uganda",
+	"UY": "Uruguai",
+	"UZ": "Uzbequistão",
+	"VU": "Vanuatu",
+	"VE": "Venezuela",
+	"VN": "Vietnã",
+	"WF": "Wallis e Futuna",
+	"ZM": "Zâmbia",
+	"ZW": "Zimbábue"
 }

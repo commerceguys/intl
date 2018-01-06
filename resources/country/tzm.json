@@ -1,761 +1,255 @@
 {
-	"AF": {
-		"name": "Afɣanistan"
-	},
-	"PS": {
-		"name": "Agemmaḍ Ugut d Ɣazza Ifilisṭiniyen"
-	},
-	"AX": {
-		"name": "Åland Islands"
-	},
-	"AL": {
-		"name": "Albanya"
-	},
-	"DE": {
-		"name": "Almanya"
-	},
-	"IO": {
-		"name": "Amur n Agaraw Uhindi Ubṛiṭani"
-	},
-	"AD": {
-		"name": "Anḍurra"
-	},
-	"AO": {
-		"name": "Angula"
-	},
-	"AI": {
-		"name": "Angwilla"
-	},
-	"AQ": {
-		"name": "Antarctica"
-	},
-	"AG": {
-		"name": "Antigwa d Barbuda"
-	},
-	"AR": {
-		"name": "Arjuntin"
-	},
-	"AM": {
-		"name": "Arminya"
-	},
-	"AW": {
-		"name": "Aruba"
-	},
-	"AC": {
-		"name": "Ascension Island"
-	},
-	"VA": {
-		"name": "Awank iɣrem n Vatikan"
-	},
-	"AZ": {
-		"name": "Azerbiǧan"
-	},
-	"BS": {
-		"name": "Bahamas"
-	},
-	"BH": {
-		"name": "Baḥrayn"
-	},
-	"BD": {
-		"name": "Bangladic"
-	},
-	"BB": {
-		"name": "Barbadus"
-	},
-	"BG": {
-		"name": "Belɣarya"
-	},
-	"BE": {
-		"name": "Beljika"
-	},
-	"BY": {
-		"name": "Bilarusya"
-	},
-	"BZ": {
-		"name": "Biliz"
-	},
-	"BJ": {
-		"name": "Binin"
-	},
-	"BM": {
-		"name": "Birmuda"
-	},
-	"BR": {
-		"name": "Bṛazil"
-	},
-	"BN": {
-		"name": "Brunay"
-	},
-	"BO": {
-		"name": "Bulivya"
-	},
-	"BF": {
-		"name": "Burkina Fasu"
-	},
-	"BI": {
-		"name": "Burundi"
-	},
-	"BA": {
-		"name": "Busna-d-Hirsik"
-	},
-	"BT": {
-		"name": "Buṭan"
-	},
-	"BW": {
-		"name": "Butswana"
-	},
-	"IC": {
-		"name": "Canary Islands"
-	},
-	"BQ": {
-		"name": "Caribbean Netherlands"
-	},
-	"CL": {
-		"name": "Ccili"
-	},
-	"EA": {
-		"name": "Ceuta & Melilla"
-	},
-	"CX": {
-		"name": "Christmas Island"
-	},
-	"CC": {
-		"name": "Cocos (Keeling) Islands"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"DK": {
-		"name": "Danmark"
-	},
-	"DG": {
-		"name": "Diego Garcia"
-	},
-	"DM": {
-		"name": "Ḍuminika"
-	},
-	"DZ": {
-		"name": "Dzayer"
-	},
-	"IQ": {
-		"name": "Ɛiraq"
-	},
-	"OM": {
-		"name": "Ɛumman"
-	},
-	"FO": {
-		"name": "Faroe Islands"
-	},
-	"FJ": {
-		"name": "Fiji"
-	},
-	"PH": {
-		"name": "Filippin"
-	},
-	"FI": {
-		"name": "Finlanḍa"
-	},
-	"FR": {
-		"name": "Fṛansa"
-	},
-	"TF": {
-		"name": "French Southern Territories"
-	},
-	"GA": {
-		"name": "Gabun"
-	},
-	"GM": {
-		"name": "Gambya"
-	},
-	"DJ": {
-		"name": "Ǧibuti"
-	},
-	"GD": {
-		"name": "Grinada"
-	},
-	"GL": {
-		"name": "Grinlanḍa"
-	},
-	"GG": {
-		"name": "Guernsey"
-	},
-	"GY": {
-		"name": "Guyana"
-	},
-	"GF": {
-		"name": "Guyana Tafransist"
-	},
-	"GP": {
-		"name": "Gwadalup"
-	},
-	"GU": {
-		"name": "Gwam"
-	},
-	"GT": {
-		"name": "Gwatimala"
-	},
-	"GH": {
-		"name": "Ɣana"
-	},
-	"GN": {
-		"name": "Ɣinya"
-	},
-	"GQ": {
-		"name": "Ɣinya Tikwaṭur it"
-	},
-	"GW": {
-		"name": "Ɣinya-Bissaw"
-	},
-	"HT": {
-		"name": "Hayti"
-	},
-	"HU": {
-		"name": "Henɣarya"
-	},
-	"IN": {
-		"name": "Hind"
-	},
-	"HN": {
-		"name": "Hinduras"
-	},
-	"HK": {
-		"name": "Hong Kong SAR China"
-	},
-	"NL": {
-		"name": "Hulanḍa"
-	},
-	"EC": {
-		"name": "Ikwaḍur"
-	},
-	"AE": {
-		"name": "Imarat Tiεrabin Tidduklin"
-	},
-	"ID": {
-		"name": "Indunizya"
-	},
-	"IR": {
-		"name": "Iran"
-	},
-	"ER": {
-		"name": "Iritrya"
-	},
-	"IE": {
-		"name": "Irlanḍa"
-	},
-	"IS": {
-		"name": "Islanḍa"
-	},
-	"IM": {
-		"name": "Isle of Man"
-	},
-	"IL": {
-		"name": "Israeil"
-	},
-	"EE": {
-		"name": "Isṭunya"
-	},
-	"IT": {
-		"name": "Iṭalya"
-	},
-	"ET": {
-		"name": "Ityupya"
-	},
-	"US": {
-		"name": "Iwunak Idduklen n Amirika"
-	},
-	"JM": {
-		"name": "Jamayka"
-	},
-	"JE": {
-		"name": "Jersey"
-	},
-	"GI": {
-		"name": "Jibralṭar"
-	},
-	"JP": {
-		"name": "Jjappun"
-	},
-	"GE": {
-		"name": "Jyurjya"
-	},
-	"NC": {
-		"name": "kalidunya Tamaynut"
-	},
-	"KH": {
-		"name": "Kambudj"
-	},
-	"CM": {
-		"name": "Kamerun"
-	},
-	"CA": {
-		"name": "Kanada"
-	},
-	"KZ": {
-		"name": "Kazaxistan"
-	},
-	"KE": {
-		"name": "Kinya"
-	},
-	"KG": {
-		"name": "Kirɣistan"
-	},
-	"KI": {
-		"name": "Kiribati"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"HR": {
-		"name": "Krwatya"
-	},
-	"CU": {
-		"name": "kuba"
-	},
-	"CO": {
-		"name": "Kulumbya"
-	},
-	"CG": {
-		"name": "Kungu"
-	},
-	"KP": {
-		"name": "Kurya Tugafat"
-	},
-	"KR": {
-		"name": "Kurya Tunẓult"
-	},
-	"CR": {
-		"name": "Kusṭa Rika"
-	},
-	"KW": {
-		"name": "Kuwwayt"
-	},
-	"LA": {
-		"name": "Laws"
-	},
-	"LR": {
-		"name": "Libirya"
-	},
-	"LY": {
-		"name": "Libya"
-	},
-	"LI": {
-		"name": "Lictencṭayn"
-	},
-	"LU": {
-		"name": "Liksumburg"
-	},
-	"LS": {
-		"name": "Lisuṭu"
-	},
-	"LV": {
-		"name": "Liṭṭunya"
-	},
-	"LT": {
-		"name": "Litwanya"
-	},
-	"LB": {
-		"name": "Lubnan"
-	},
-	"MO": {
-		"name": "Macau SAR China"
-	},
-	"MG": {
-		"name": "Madaɣacqar"
-	},
-	"MW": {
-		"name": "Malawi"
-	},
-	"MV": {
-		"name": "Maldiv"
-	},
-	"ML": {
-		"name": "Mali"
-	},
-	"MY": {
-		"name": "Malizya"
-	},
-	"MT": {
-		"name": "Malṭa"
-	},
-	"MN": {
-		"name": "Manɣulya"
-	},
-	"MK": {
-		"name": "Maqdunya"
-	},
-	"MQ": {
-		"name": "Martinik"
-	},
-	"YT": {
-		"name": "Mayuṭ"
-	},
-	"MA": {
-		"name": "Meṛṛuk"
-	},
-	"FM": {
-		"name": "Mikrunizya"
-	},
-	"MX": {
-		"name": "Miksik"
-	},
-	"EG": {
-		"name": "Miṣr"
-	},
-	"ME": {
-		"name": "Montenegro"
-	},
-	"MD": {
-		"name": "Mulḍavya"
-	},
-	"MC": {
-		"name": "Munaku"
-	},
-	"MS": {
-		"name": "Muntsirra"
-	},
-	"MU": {
-		"name": "Muris"
-	},
-	"MR": {
-		"name": "Muritanya"
-	},
-	"MZ": {
-		"name": "Muzambiq"
-	},
-	"MM": {
-		"name": "Myanmar"
-	},
-	"NA": {
-		"name": "Namibya"
-	},
-	"NR": {
-		"name": "Nawru"
-	},
-	"NG": {
-		"name": "Nijiria"
-	},
-	"NI": {
-		"name": "Nikaragwa"
-	},
-	"NP": {
-		"name": "Nippal"
-	},
-	"NU": {
-		"name": "Niwi"
-	},
-	"NE": {
-		"name": "Nnijer"
-	},
-	"NO": {
-		"name": "Nnurwij"
-	},
-	"PK": {
-		"name": "Pakistan"
-	},
-	"PW": {
-		"name": "Palu"
-	},
-	"PA": {
-		"name": "Panama"
-	},
-	"PG": {
-		"name": "Papwa Ɣinya Tamaynut"
-	},
-	"PY": {
-		"name": "Paragway"
-	},
-	"PE": {
-		"name": "Piru"
-	},
-	"PN": {
-		"name": "Pitkirn"
-	},
-	"PF": {
-		"name": "Pulinizya Tafransist"
-	},
-	"PL": {
-		"name": "Pulunya"
-	},
-	"PT": {
-		"name": "Purtuɣal"
-	},
-	"PR": {
-		"name": "Purturiku"
-	},
-	"QA": {
-		"name": "Qaṭar"
-	},
-	"CY": {
-		"name": "Qubrus"
-	},
-	"KM": {
-		"name": "Qumur"
-	},
-	"RE": {
-		"name": "Riyyunyun"
-	},
-	"RO": {
-		"name": "Ṛumanya"
-	},
-	"RU": {
-		"name": "Rusya"
-	},
-	"RW": {
-		"name": "Ruwwanḍa"
-	},
-	"SV": {
-		"name": "Salvaḍur"
-	},
-	"WS": {
-		"name": "Samwa"
-	},
-	"AS": {
-		"name": "Samwa Imirikaniyyin"
-	},
-	"SG": {
-		"name": "Sanɣafura"
-	},
-	"SM": {
-		"name": "Sanmarinu"
-	},
-	"SH": {
-		"name": "Santehilin"
-	},
-	"KN": {
-		"name": "Santekits d Nivis"
-	},
-	"LC": {
-		"name": "Santelusya"
-	},
-	"PM": {
-		"name": "Santepyir d Mikelun"
-	},
-	"VC": {
-		"name": "Santevinsent d Grinadin"
-	},
-	"ST": {
-		"name": "Sawṭumi d Prinsip"
-	},
-	"ES": {
-		"name": "Sbanya"
-	},
-	"RS": {
-		"name": "Serbia"
-	},
-	"SX": {
-		"name": "Sint Maarten"
-	},
-	"SL": {
-		"name": "Siralyun"
-	},
-	"SK": {
-		"name": "Sluvakya"
-	},
-	"SI": {
-		"name": "Sluvinya"
-	},
-	"GS": {
-		"name": "South Georgia & South Sandwich Islands"
-	},
-	"SS": {
-		"name": "South Sudan"
-	},
-	"LK": {
-		"name": "Srilanka"
-	},
-	"SA": {
-		"name": "Ssaεudiyya Taεrabt"
-	},
-	"SE": {
-		"name": "Ssewwid"
-	},
-	"SC": {
-		"name": "Ssicil"
-	},
-	"CN": {
-		"name": "Ṣṣin"
-	},
-	"SN": {
-		"name": "Ssiniɣal"
-	},
-	"SD": {
-		"name": "Ssudan"
-	},
-	"SO": {
-		"name": "Ṣṣumal"
-	},
-	"BL": {
-		"name": "St. Barthélemy"
-	},
-	"MF": {
-		"name": "St. Martin"
-	},
-	"SR": {
-		"name": "Surinam"
-	},
-	"SY": {
-		"name": "Surya"
-	},
-	"SJ": {
-		"name": "Svalbard & Jan Mayen"
-	},
-	"SZ": {
-		"name": "Swazilanḍa"
-	},
-	"CH": {
-		"name": "Swisra"
-	},
-	"ZA": {
-		"name": "Tafrikt Tunẓul"
-	},
-	"CF": {
-		"name": "Tagduda n Afrika Wammas"
-	},
-	"CZ": {
-		"name": "Tagduda n Čik"
-	},
-	"DO": {
-		"name": "Tagduda n Ḍuminikan"
-	},
-	"CD": {
-		"name": "Tagduda Tadimuqraṭit n Kungu"
-	},
-	"GB": {
-		"name": "Tagelda Taddukelt"
-	},
-	"TJ": {
-		"name": "Ṭaǧikistan"
-	},
-	"CI": {
-		"name": "Taɣazut n Uszer"
-	},
-	"TZ": {
-		"name": "Ṭanzanya"
-	},
-	"TH": {
-		"name": "Ṭaylanḍa"
-	},
-	"TW": {
-		"name": "Ṭaywan"
-	},
-	"TD": {
-		"name": "Tcad"
-	},
-	"VG": {
-		"name": "Tigzirin (Virgin) Tibṛiṭaniyin"
-	},
-	"FK": {
-		"name": "Tigzirin n Falkland"
-	},
-	"CV": {
-		"name": "Tigzirin n Iɣf Uzegzaw"
-	},
-	"KY": {
-		"name": "Tigzirin n Kayman"
-	},
-	"CK": {
-		"name": "Tigzirin n Kuk"
-	},
-	"MH": {
-		"name": "Tigzirin n Marcal"
-	},
-	"MP": {
-		"name": "Tigzirin n Maryana Tugafat"
-	},
-	"SB": {
-		"name": "Tigzirin n Salumun"
-	},
-	"VI": {
-		"name": "Tigzirin n Virjin n Iwunak Yedduklen"
-	},
-	"TC": {
-		"name": "Tigzirin Turkiyyin d Tikaykusin"
-	},
-	"NF": {
-		"name": "Tigzirt Nurfulk"
-	},
-	"TL": {
-		"name": "Timur Tagmuṭ"
-	},
-	"TT": {
-		"name": "Trinidad d Ṭubagu"
-	},
-	"TA": {
-		"name": "Tristan da Cunha"
-	},
-	"TG": {
-		"name": "Ṭṭugu"
-	},
-	"TK": {
-		"name": "Tuklu"
-	},
-	"TN": {
-		"name": "Tunes"
-	},
-	"TO": {
-		"name": "Ṭunga"
-	},
-	"TM": {
-		"name": "Turkmanistan"
-	},
-	"TR": {
-		"name": "Turkya"
-	},
-	"TV": {
-		"name": "Ṭuvalu"
-	},
-	"UM": {
-		"name": "U.S. Outlying Islands"
-	},
-	"UG": {
-		"name": "Uɣanda"
-	},
-	"UA": {
-		"name": "Ukranya"
-	},
-	"JO": {
-		"name": "Urḍun"
-	},
-	"UY": {
-		"name": "Urugway"
-	},
-	"AU": {
-		"name": "Usṭralya"
-	},
-	"AT": {
-		"name": "Ustriyya"
-	},
-	"UZ": {
-		"name": "Uzbakistan"
-	},
-	"VU": {
-		"name": "Vanwatu"
-	},
-	"VE": {
-		"name": "Vinzwilla"
-	},
-	"VN": {
-		"name": "Viṭnam"
-	},
-	"WF": {
-		"name": "Walis d Futuna"
-	},
-	"EH": {
-		"name": "Western Sahara"
-	},
-	"YE": {
-		"name": "Yaman"
-	},
-	"GR": {
-		"name": "Yunan"
-	},
-	"ZM": {
-		"name": "Zambya"
-	},
-	"NZ": {
-		"name": "Zilanḍa Tamaynut"
-	},
-	"ZW": {
-		"name": "Zimbabwi"
-	}
+	"AF": "Afɣanistan",
+	"PS": "Agemmaḍ Ugut d Ɣazza Ifilisṭiniyen",
+	"AX": "Åland Islands",
+	"AL": "Albanya",
+	"DE": "Almanya",
+	"IO": "Amur n Agaraw Uhindi Ubṛiṭani",
+	"AD": "Anḍurra",
+	"AO": "Angula",
+	"AI": "Angwilla",
+	"AQ": "Antarctica",
+	"AG": "Antigwa d Barbuda",
+	"AR": "Arjuntin",
+	"AM": "Arminya",
+	"AW": "Aruba",
+	"AC": "Ascension Island",
+	"VA": "Awank iɣrem n Vatikan",
+	"AZ": "Azerbiǧan",
+	"BS": "Bahamas",
+	"BH": "Baḥrayn",
+	"BD": "Bangladic",
+	"BB": "Barbadus",
+	"BG": "Belɣarya",
+	"BE": "Beljika",
+	"BY": "Bilarusya",
+	"BZ": "Biliz",
+	"BJ": "Binin",
+	"BM": "Birmuda",
+	"BR": "Bṛazil",
+	"BN": "Brunay",
+	"BO": "Bulivya",
+	"BF": "Burkina Fasu",
+	"BI": "Burundi",
+	"BA": "Busna-d-Hirsik",
+	"BT": "Buṭan",
+	"BW": "Butswana",
+	"IC": "Canary Islands",
+	"BQ": "Caribbean Netherlands",
+	"CL": "Ccili",
+	"EA": "Ceuta & Melilla",
+	"CX": "Christmas Island",
+	"CC": "Cocos (Keeling) Islands",
+	"CW": "Curaçao",
+	"DK": "Danmark",
+	"DG": "Diego Garcia",
+	"DM": "Ḍuminika",
+	"DZ": "Dzayer",
+	"IQ": "Ɛiraq",
+	"OM": "Ɛumman",
+	"FO": "Faroe Islands",
+	"FJ": "Fiji",
+	"PH": "Filippin",
+	"FI": "Finlanḍa",
+	"FR": "Fṛansa",
+	"TF": "French Southern Territories",
+	"GA": "Gabun",
+	"GM": "Gambya",
+	"DJ": "Ǧibuti",
+	"GD": "Grinada",
+	"GL": "Grinlanḍa",
+	"GG": "Guernsey",
+	"GY": "Guyana",
+	"GF": "Guyana Tafransist",
+	"GP": "Gwadalup",
+	"GU": "Gwam",
+	"GT": "Gwatimala",
+	"GH": "Ɣana",
+	"GN": "Ɣinya",
+	"GQ": "Ɣinya Tikwaṭur it",
+	"GW": "Ɣinya-Bissaw",
+	"HT": "Hayti",
+	"HU": "Henɣarya",
+	"IN": "Hind",
+	"HN": "Hinduras",
+	"HK": "Hong Kong SAR China",
+	"NL": "Hulanḍa",
+	"EC": "Ikwaḍur",
+	"AE": "Imarat Tiεrabin Tidduklin",
+	"ID": "Indunizya",
+	"IR": "Iran",
+	"ER": "Iritrya",
+	"IE": "Irlanḍa",
+	"IS": "Islanḍa",
+	"IM": "Isle of Man",
+	"IL": "Israeil",
+	"EE": "Isṭunya",
+	"IT": "Iṭalya",
+	"ET": "Ityupya",
+	"US": "Iwunak Idduklen n Amirika",
+	"JM": "Jamayka",
+	"JE": "Jersey",
+	"GI": "Jibralṭar",
+	"JP": "Jjappun",
+	"GE": "Jyurjya",
+	"NC": "kalidunya Tamaynut",
+	"KH": "Kambudj",
+	"CM": "Kamerun",
+	"CA": "Kanada",
+	"KZ": "Kazaxistan",
+	"KE": "Kinya",
+	"KG": "Kirɣistan",
+	"KI": "Kiribati",
+	"XK": "Kosovo",
+	"HR": "Krwatya",
+	"CU": "kuba",
+	"CO": "Kulumbya",
+	"CG": "Kungu",
+	"KP": "Kurya Tugafat",
+	"KR": "Kurya Tunẓult",
+	"CR": "Kusṭa Rika",
+	"KW": "Kuwwayt",
+	"LA": "Laws",
+	"LR": "Libirya",
+	"LY": "Libya",
+	"LI": "Lictencṭayn",
+	"LU": "Liksumburg",
+	"LS": "Lisuṭu",
+	"LV": "Liṭṭunya",
+	"LT": "Litwanya",
+	"LB": "Lubnan",
+	"MO": "Macau SAR China",
+	"MG": "Madaɣacqar",
+	"MW": "Malawi",
+	"MV": "Maldiv",
+	"ML": "Mali",
+	"MY": "Malizya",
+	"MT": "Malṭa",
+	"MN": "Manɣulya",
+	"MK": "Maqdunya",
+	"MQ": "Martinik",
+	"YT": "Mayuṭ",
+	"MA": "Meṛṛuk",
+	"FM": "Mikrunizya",
+	"MX": "Miksik",
+	"EG": "Miṣr",
+	"ME": "Montenegro",
+	"MD": "Mulḍavya",
+	"MC": "Munaku",
+	"MS": "Muntsirra",
+	"MU": "Muris",
+	"MR": "Muritanya",
+	"MZ": "Muzambiq",
+	"MM": "Myanmar",
+	"NA": "Namibya",
+	"NR": "Nawru",
+	"NG": "Nijiria",
+	"NI": "Nikaragwa",
+	"NP": "Nippal",
+	"NU": "Niwi",
+	"NE": "Nnijer",
+	"NO": "Nnurwij",
+	"PK": "Pakistan",
+	"PW": "Palu",
+	"PA": "Panama",
+	"PG": "Papwa Ɣinya Tamaynut",
+	"PY": "Paragway",
+	"PE": "Piru",
+	"PN": "Pitkirn",
+	"PF": "Pulinizya Tafransist",
+	"PL": "Pulunya",
+	"PT": "Purtuɣal",
+	"PR": "Purturiku",
+	"QA": "Qaṭar",
+	"CY": "Qubrus",
+	"KM": "Qumur",
+	"RE": "Riyyunyun",
+	"RO": "Ṛumanya",
+	"RU": "Rusya",
+	"RW": "Ruwwanḍa",
+	"SV": "Salvaḍur",
+	"WS": "Samwa",
+	"AS": "Samwa Imirikaniyyin",
+	"SG": "Sanɣafura",
+	"SM": "Sanmarinu",
+	"SH": "Santehilin",
+	"KN": "Santekits d Nivis",
+	"LC": "Santelusya",
+	"PM": "Santepyir d Mikelun",
+	"VC": "Santevinsent d Grinadin",
+	"ST": "Sawṭumi d Prinsip",
+	"ES": "Sbanya",
+	"RS": "Serbia",
+	"SX": "Sint Maarten",
+	"SL": "Siralyun",
+	"SK": "Sluvakya",
+	"SI": "Sluvinya",
+	"GS": "South Georgia & South Sandwich Islands",
+	"SS": "South Sudan",
+	"LK": "Srilanka",
+	"SA": "Ssaεudiyya Taεrabt",
+	"SE": "Ssewwid",
+	"SC": "Ssicil",
+	"CN": "Ṣṣin",
+	"SN": "Ssiniɣal",
+	"SD": "Ssudan",
+	"SO": "Ṣṣumal",
+	"BL": "St. Barthélemy",
+	"MF": "St. Martin",
+	"SR": "Surinam",
+	"SY": "Surya",
+	"SJ": "Svalbard & Jan Mayen",
+	"SZ": "Swazilanḍa",
+	"CH": "Swisra",
+	"ZA": "Tafrikt Tunẓul",
+	"CF": "Tagduda n Afrika Wammas",
+	"CZ": "Tagduda n Čik",
+	"DO": "Tagduda n Ḍuminikan",
+	"CD": "Tagduda Tadimuqraṭit n Kungu",
+	"GB": "Tagelda Taddukelt",
+	"TJ": "Ṭaǧikistan",
+	"CI": "Taɣazut n Uszer",
+	"TZ": "Ṭanzanya",
+	"TH": "Ṭaylanḍa",
+	"TW": "Ṭaywan",
+	"TD": "Tcad",
+	"VG": "Tigzirin (Virgin) Tibṛiṭaniyin",
+	"FK": "Tigzirin n Falkland",
+	"CV": "Tigzirin n Iɣf Uzegzaw",
+	"KY": "Tigzirin n Kayman",
+	"CK": "Tigzirin n Kuk",
+	"MH": "Tigzirin n Marcal",
+	"MP": "Tigzirin n Maryana Tugafat",
+	"SB": "Tigzirin n Salumun",
+	"VI": "Tigzirin n Virjin n Iwunak Yedduklen",
+	"TC": "Tigzirin Turkiyyin d Tikaykusin",
+	"NF": "Tigzirt Nurfulk",
+	"TL": "Timur Tagmuṭ",
+	"TT": "Trinidad d Ṭubagu",
+	"TA": "Tristan da Cunha",
+	"TG": "Ṭṭugu",
+	"TK": "Tuklu",
+	"TN": "Tunes",
+	"TO": "Ṭunga",
+	"TM": "Turkmanistan",
+	"TR": "Turkya",
+	"TV": "Ṭuvalu",
+	"UM": "U.S. Outlying Islands",
+	"UG": "Uɣanda",
+	"UA": "Ukranya",
+	"JO": "Urḍun",
+	"UY": "Urugway",
+	"AU": "Usṭralya",
+	"AT": "Ustriyya",
+	"UZ": "Uzbakistan",
+	"VU": "Vanwatu",
+	"VE": "Vinzwilla",
+	"VN": "Viṭnam",
+	"WF": "Walis d Futuna",
+	"EH": "Western Sahara",
+	"YE": "Yaman",
+	"GR": "Yunan",
+	"ZM": "Zambya",
+	"NZ": "Zilanḍa Tamaynut",
+	"ZW": "Zimbabwi"
 }

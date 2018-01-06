@@ -1,761 +1,255 @@
 {
-	"AF": {
-		"name": "Afuganisitani"
-	},
-	"ZA": {
-		"name": "Afurika y’Epfo"
-	},
-	"AX": {
-		"name": "Åland Islands"
-	},
-	"DZ": {
-		"name": "Alijeriya"
-	},
-	"AL": {
-		"name": "Alubaniya"
-	},
-	"VI": {
-		"name": "Amazinga y’Isugi y’Abanyamerika"
-	},
-	"PH": {
-		"name": "Amazinga ya Filipine"
-	},
-	"MP": {
-		"name": "Amazinga ya Mariyana ryo mu majaruguru"
-	},
-	"RE": {
-		"name": "Amazinga ya Reyiniyo"
-	},
-	"SB": {
-		"name": "Amazinga ya Salumoni"
-	},
-	"SC": {
-		"name": "Amazinga ya Seyisheli"
-	},
-	"TC": {
-		"name": "Amazinga ya Turkisi na Cayikosi"
-	},
-	"AD": {
-		"name": "Andora"
-	},
-	"AO": {
-		"name": "Angola"
-	},
-	"AI": {
-		"name": "Angwila"
-	},
-	"AQ": {
-		"name": "Antarctica"
-	},
-	"AG": {
-		"name": "Antigwa na Baribuda"
-	},
-	"SA": {
-		"name": "Arabiya Sawudite"
-	},
-	"AR": {
-		"name": "Arijantine"
-	},
-	"AW": {
-		"name": "Aruba"
-	},
-	"AM": {
-		"name": "Arumeniya"
-	},
-	"AC": {
-		"name": "Ascension Island"
-	},
-	"IS": {
-		"name": "Ayisilandi"
-	},
-	"AZ": {
-		"name": "Azerubayijani"
-	},
-	"BS": {
-		"name": "Bahamasi"
-	},
-	"BH": {
-		"name": "Bahareyini"
-	},
-	"BD": {
-		"name": "Bangaladeshi"
-	},
-	"BB": {
-		"name": "Barubadosi"
-	},
-	"BY": {
-		"name": "Belausi"
-	},
-	"BZ": {
-		"name": "Belize"
-	},
-	"BJ": {
-		"name": "Bene"
-	},
-	"BM": {
-		"name": "Berimuda"
-	},
-	"MM": {
-		"name": "Birimaniya"
-	},
-	"BO": {
-		"name": "Boliviya"
-	},
-	"BA": {
-		"name": "Bosiniya na Herigozevine"
-	},
-	"BW": {
-		"name": "Botswana"
-	},
-	"BG": {
-		"name": "Buligariya"
-	},
-	"BR": {
-		"name": "Burezili"
-	},
-	"BF": {
-		"name": "Burukina Faso"
-	},
-	"BN": {
-		"name": "Buruneyi"
-	},
-	"BT": {
-		"name": "Butani"
-	},
-	"TD": {
-		"name": "Cadi"
-	},
-	"IC": {
-		"name": "Canary Islands"
-	},
-	"BQ": {
-		"name": "Caribbean Netherlands"
-	},
-	"EA": {
-		"name": "Ceuta & Melilla"
-	},
-	"CX": {
-		"name": "Christmas Island"
-	},
-	"CC": {
-		"name": "Cocos (Keeling) Islands"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"DK": {
-		"name": "Danimariki"
-	},
-	"DG": {
-		"name": "Diego Garcia"
-	},
-	"DM": {
-		"name": "Dominika"
-	},
-	"EC": {
-		"name": "Ekwateri"
-	},
-	"SV": {
-		"name": "Eli Saluvatori"
-	},
-	"ER": {
-		"name": "Elitereya"
-	},
-	"EE": {
-		"name": "Esitoniya"
-	},
-	"ET": {
-		"name": "Etiyopiya"
-	},
-	"FO": {
-		"name": "Faroe Islands"
-	},
-	"FJ": {
-		"name": "Fiji"
-	},
-	"FI": {
-		"name": "Finilandi"
-	},
-	"TF": {
-		"name": "French Southern Territories"
-	},
-	"GA": {
-		"name": "Gabo"
-	},
-	"GM": {
-		"name": "Gambiya"
-	},
-	"GH": {
-		"name": "Gana"
-	},
-	"GD": {
-		"name": "Gerenada"
-	},
-	"GW": {
-		"name": "Gineya Bisawu"
-	},
-	"GQ": {
-		"name": "Gineya Ekwatoriyali"
-	},
-	"GG": {
-		"name": "Guernsey"
-	},
-	"GN": {
-		"name": "Guneya"
-	},
-	"GL": {
-		"name": "Gurunilandi"
-	},
-	"GY": {
-		"name": "Guyane"
-	},
-	"GP": {
-		"name": "Gwadelupe"
-	},
-	"GU": {
-		"name": "Gwamu"
-	},
-	"GT": {
-		"name": "Gwatemala"
-	},
-	"GF": {
-		"name": "Gwayana y’Abafaransa"
-	},
-	"HT": {
-		"name": "Hayiti"
-	},
-	"ES": {
-		"name": "Hisipaniya"
-	},
-	"HN": {
-		"name": "Hondurasi"
-	},
-	"HK": {
-		"name": "Hong Kong SAR China"
-	},
-	"HU": {
-		"name": "Hungariya"
-	},
-	"VG": {
-		"name": "Ibirwa by’isugi by’Abongereza"
-	},
-	"CV": {
-		"name": "Ibirwa bya Kapuveri"
-	},
-	"KY": {
-		"name": "Ibirwa bya Keyimani"
-	},
-	"UA": {
-		"name": "Ikerene"
-	},
-	"ID": {
-		"name": "Indoneziya"
-	},
-	"IO": {
-		"name": "Intara y’Ubwongereza yo mu birwa by’Abahindi"
-	},
-	"IQ": {
-		"name": "Iraki"
-	},
-	"IR": {
-		"name": "Irani"
-	},
-	"UY": {
-		"name": "Irigwe"
-	},
-	"IE": {
-		"name": "Irilandi"
-	},
-	"IL": {
-		"name": "Isiraheli"
-	},
-	"IM": {
-		"name": "Isle of Man"
-	},
-	"FK": {
-		"name": "Izinga rya Filikilandi"
-	},
-	"KM": {
-		"name": "Izinga rya Komore"
-	},
-	"CK": {
-		"name": "Izinga rya Kuku"
-	},
-	"MH": {
-		"name": "Izinga rya Marishari"
-	},
-	"MU": {
-		"name": "Izinga rya Morise"
-	},
-	"NF": {
-		"name": "izinga rya Norufoluke"
-	},
-	"CY": {
-		"name": "Izinga rya Shipure"
-	},
-	"JM": {
-		"name": "Jamayika"
-	},
-	"JE": {
-		"name": "Jersey"
-	},
-	"GE": {
-		"name": "Jeworujiya"
-	},
-	"DJ": {
-		"name": "Jibuti"
-	},
-	"GI": {
-		"name": "Juburalitari"
-	},
-	"KH": {
-		"name": "Kamboje"
-	},
-	"CM": {
-		"name": "Kameruni"
-	},
-	"CA": {
-		"name": "Kanada"
-	},
-	"QA": {
-		"name": "Katari"
-	},
-	"KZ": {
-		"name": "Kazakisitani"
-	},
-	"KE": {
-		"name": "Kenya"
-	},
-	"CU": {
-		"name": "Kiba"
-	},
-	"KI": {
-		"name": "Kiribati"
-	},
-	"KG": {
-		"name": "Kirigisitani"
-	},
-	"CO": {
-		"name": "Kolombiya"
-	},
-	"CG": {
-		"name": "Kongo"
-	},
-	"KP": {
-		"name": "Koreya y’amajaruguru"
-	},
-	"KR": {
-		"name": "Koreya y’amajepfo"
-	},
-	"HR": {
-		"name": "Korowasiya"
-	},
-	"CR": {
-		"name": "Kositarika"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"CI": {
-		"name": "Kotedivuware"
-	},
-	"KW": {
-		"name": "Koweti"
-	},
-	"LV": {
-		"name": "Lativa"
-	},
-	"LA": {
-		"name": "Layosi"
-	},
-	"LS": {
-		"name": "Lesoto"
-	},
-	"AE": {
-		"name": "Leta Zunze Ubumwe z’Abarabu"
-	},
-	"US": {
-		"name": "Leta Zunze Ubumwe za Amerika"
-	},
-	"LB": {
-		"name": "Libani"
-	},
-	"LR": {
-		"name": "Liberiya"
-	},
-	"LY": {
-		"name": "Libiya"
-	},
-	"LI": {
-		"name": "Lishyitenshitayini"
-	},
-	"LT": {
-		"name": "Lituwaniya"
-	},
-	"LU": {
-		"name": "Lukusamburu"
-	},
-	"MO": {
-		"name": "Macau SAR China"
-	},
-	"MG": {
-		"name": "Madagasikari"
-	},
-	"MW": {
-		"name": "Malawi"
-	},
-	"MY": {
-		"name": "Maleziya"
-	},
-	"ML": {
-		"name": "Mali"
-	},
-	"MT": {
-		"name": "Malita"
-	},
-	"MQ": {
-		"name": "Maritiniki"
-	},
-	"MA": {
-		"name": "Maroke"
-	},
-	"MK": {
-		"name": "Masedoniya"
-	},
-	"YT": {
-		"name": "Mayote"
-	},
-	"MX": {
-		"name": "Migizike"
-	},
-	"FM": {
-		"name": "Mikoroniziya"
-	},
-	"EG": {
-		"name": "Misiri"
-	},
-	"MV": {
-		"name": "Moludave"
-	},
-	"MD": {
-		"name": "Moludavi"
-	},
-	"MC": {
-		"name": "Monako"
-	},
-	"MN": {
-		"name": "Mongoliya"
-	},
-	"ME": {
-		"name": "Montenegro"
-	},
-	"MS": {
-		"name": "Monteserati"
-	},
-	"MR": {
-		"name": "Moritaniya"
-	},
-	"MZ": {
-		"name": "Mozambiki"
-	},
-	"NA": {
-		"name": "Namibiya"
-	},
-	"NR": {
-		"name": "Nawuru"
-	},
-	"NP": {
-		"name": "Nepali"
-	},
-	"NE": {
-		"name": "Nijeri"
-	},
-	"NG": {
-		"name": "Nijeriya"
-	},
-	"NI": {
-		"name": "Nikaragwa"
-	},
-	"NC": {
-		"name": "Niyukaledoniya"
-	},
-	"NU": {
-		"name": "Niyuwe"
-	},
-	"NO": {
-		"name": "Noruveji"
-	},
-	"NZ": {
-		"name": "Nuvelizelandi"
-	},
-	"OM": {
-		"name": "Omani"
-	},
-	"AU": {
-		"name": "Ositaraliya"
-	},
-	"AT": {
-		"name": "Otirishe"
-	},
-	"PK": {
-		"name": "Pakisitani"
-	},
-	"PW": {
-		"name": "Palawu"
-	},
-	"PS": {
-		"name": "Palesitina Wesitibanka na Gaza"
-	},
-	"PA": {
-		"name": "Panama"
-	},
-	"PG": {
-		"name": "Papuwa Niyugineya"
-	},
-	"PY": {
-		"name": "Paragwe"
-	},
-	"PE": {
-		"name": "Peru"
-	},
-	"PN": {
-		"name": "Pitikeyirini"
-	},
-	"PF": {
-		"name": "Polineziya y’Abafaransa"
-	},
-	"PL": {
-		"name": "Polonye"
-	},
-	"PT": {
-		"name": "Porutugali"
-	},
-	"PR": {
-		"name": "Puwetoriko"
-	},
-	"CD": {
-		"name": "Repubulika Iharanira Demokarasi ya Kongo"
-	},
-	"CZ": {
-		"name": "Repubulika ya Ceke"
-	},
-	"DO": {
-		"name": "Repubulika ya Dominika"
-	},
-	"CF": {
-		"name": "Repubulika ya Santarafurika"
-	},
-	"RO": {
-		"name": "Rumaniya"
-	},
-	"WS": {
-		"name": "Samowa"
-	},
-	"AS": {
-		"name": "Samowa nyamerika"
-	},
-	"SM": {
-		"name": "Sanimarino"
-	},
-	"ST": {
-		"name": "Sawotome na Perensipe"
-	},
-	"SH": {
-		"name": "Sehelene"
-	},
-	"KN": {
-		"name": "Sekitsi na Nevisi"
-	},
-	"LC": {
-		"name": "Selusiya"
-	},
-	"PM": {
-		"name": "Sempiyeri na Mikeloni"
-	},
-	"SN": {
-		"name": "Senegali"
-	},
-	"RS": {
-		"name": "Serbia"
-	},
-	"VC": {
-		"name": "Sevensa na Gerenadine"
-	},
-	"CL": {
-		"name": "Shili"
-	},
-	"SK": {
-		"name": "Silovakiya"
-	},
-	"SI": {
-		"name": "Siloveniya"
-	},
-	"SG": {
-		"name": "Singapuru"
-	},
-	"SX": {
-		"name": "Sint Maarten"
-	},
-	"LK": {
-		"name": "Sirilanka"
-	},
-	"SY": {
-		"name": "Siriya"
-	},
-	"SL": {
-		"name": "Siyeralewone"
-	},
-	"SO": {
-		"name": "Somaliya"
-	},
-	"GS": {
-		"name": "South Georgia & South Sandwich Islands"
-	},
-	"SS": {
-		"name": "South Sudan"
-	},
-	"BL": {
-		"name": "St. Barthélemy"
-	},
-	"MF": {
-		"name": "St. Martin"
-	},
-	"SD": {
-		"name": "Sudani"
-	},
-	"SR": {
-		"name": "Suriname"
-	},
-	"SZ": {
-		"name": "Suwazilandi"
-	},
-	"SE": {
-		"name": "Suwedi"
-	},
-	"SJ": {
-		"name": "Svalbard & Jan Mayen"
-	},
-	"TJ": {
-		"name": "Tajikisitani"
-	},
-	"TZ": {
-		"name": "Tanzaniya"
-	},
-	"TH": {
-		"name": "Tayilandi"
-	},
-	"TW": {
-		"name": "Tayiwani"
-	},
-	"TL": {
-		"name": "Timoru y’iburasirazuba"
-	},
-	"TT": {
-		"name": "Tirinidadi na Tobago"
-	},
-	"TG": {
-		"name": "Togo"
-	},
-	"TK": {
-		"name": "Tokelawu"
-	},
-	"TO": {
-		"name": "Tonga"
-	},
-	"TA": {
-		"name": "Tristan da Cunha"
-	},
-	"TN": {
-		"name": "Tuniziya"
-	},
-	"TR": {
-		"name": "Turukiya"
-	},
-	"TM": {
-		"name": "Turukumenisitani"
-	},
-	"TV": {
-		"name": "Tuvalu"
-	},
-	"RW": {
-		"name": "u Rwanda"
-	},
-	"UM": {
-		"name": "U.S. Outlying Islands"
-	},
-	"BE": {
-		"name": "Ububiligi"
-	},
-	"DE": {
-		"name": "Ubudage"
-	},
-	"FR": {
-		"name": "Ubufaransa"
-	},
-	"UG": {
-		"name": "Ubugande"
-	},
-	"GR": {
-		"name": "Ubugereki"
-	},
-	"IN": {
-		"name": "Ubuhindi"
-	},
-	"NL": {
-		"name": "Ubuholandi"
-	},
-	"BI": {
-		"name": "Uburundi"
-	},
-	"RU": {
-		"name": "Uburusiya"
-	},
-	"CN": {
-		"name": "Ubushinwa"
-	},
-	"CH": {
-		"name": "Ubusuwisi"
-	},
-	"IT": {
-		"name": "Ubutaliyani"
-	},
-	"JP": {
-		"name": "Ubuyapani"
-	},
-	"GB": {
-		"name": "Ubwongereza"
-	},
-	"VA": {
-		"name": "Umurwa wa Vatikani"
-	},
-	"UZ": {
-		"name": "Uzubekisitani"
-	},
-	"VU": {
-		"name": "Vanuwatu"
-	},
-	"VE": {
-		"name": "Venezuwela"
-	},
-	"VN": {
-		"name": "Viyetinamu"
-	},
-	"WF": {
-		"name": "Walisi na Futuna"
-	},
-	"EH": {
-		"name": "Western Sahara"
-	},
-	"YE": {
-		"name": "Yemeni"
-	},
-	"JO": {
-		"name": "Yorudaniya"
-	},
-	"ZM": {
-		"name": "Zambiya"
-	},
-	"ZW": {
-		"name": "Zimbabwe"
-	}
+	"AF": "Afuganisitani",
+	"ZA": "Afurika y’Epfo",
+	"AX": "Åland Islands",
+	"DZ": "Alijeriya",
+	"AL": "Alubaniya",
+	"VI": "Amazinga y’Isugi y’Abanyamerika",
+	"PH": "Amazinga ya Filipine",
+	"MP": "Amazinga ya Mariyana ryo mu majaruguru",
+	"RE": "Amazinga ya Reyiniyo",
+	"SB": "Amazinga ya Salumoni",
+	"SC": "Amazinga ya Seyisheli",
+	"TC": "Amazinga ya Turkisi na Cayikosi",
+	"AD": "Andora",
+	"AO": "Angola",
+	"AI": "Angwila",
+	"AQ": "Antarctica",
+	"AG": "Antigwa na Baribuda",
+	"SA": "Arabiya Sawudite",
+	"AR": "Arijantine",
+	"AW": "Aruba",
+	"AM": "Arumeniya",
+	"AC": "Ascension Island",
+	"IS": "Ayisilandi",
+	"AZ": "Azerubayijani",
+	"BS": "Bahamasi",
+	"BH": "Bahareyini",
+	"BD": "Bangaladeshi",
+	"BB": "Barubadosi",
+	"BY": "Belausi",
+	"BZ": "Belize",
+	"BJ": "Bene",
+	"BM": "Berimuda",
+	"MM": "Birimaniya",
+	"BO": "Boliviya",
+	"BA": "Bosiniya na Herigozevine",
+	"BW": "Botswana",
+	"BG": "Buligariya",
+	"BR": "Burezili",
+	"BF": "Burukina Faso",
+	"BN": "Buruneyi",
+	"BT": "Butani",
+	"TD": "Cadi",
+	"IC": "Canary Islands",
+	"BQ": "Caribbean Netherlands",
+	"EA": "Ceuta & Melilla",
+	"CX": "Christmas Island",
+	"CC": "Cocos (Keeling) Islands",
+	"CW": "Curaçao",
+	"DK": "Danimariki",
+	"DG": "Diego Garcia",
+	"DM": "Dominika",
+	"EC": "Ekwateri",
+	"SV": "Eli Saluvatori",
+	"ER": "Elitereya",
+	"EE": "Esitoniya",
+	"ET": "Etiyopiya",
+	"FO": "Faroe Islands",
+	"FJ": "Fiji",
+	"FI": "Finilandi",
+	"TF": "French Southern Territories",
+	"GA": "Gabo",
+	"GM": "Gambiya",
+	"GH": "Gana",
+	"GD": "Gerenada",
+	"GW": "Gineya Bisawu",
+	"GQ": "Gineya Ekwatoriyali",
+	"GG": "Guernsey",
+	"GN": "Guneya",
+	"GL": "Gurunilandi",
+	"GY": "Guyane",
+	"GP": "Gwadelupe",
+	"GU": "Gwamu",
+	"GT": "Gwatemala",
+	"GF": "Gwayana y’Abafaransa",
+	"HT": "Hayiti",
+	"ES": "Hisipaniya",
+	"HN": "Hondurasi",
+	"HK": "Hong Kong SAR China",
+	"HU": "Hungariya",
+	"VG": "Ibirwa by’isugi by’Abongereza",
+	"CV": "Ibirwa bya Kapuveri",
+	"KY": "Ibirwa bya Keyimani",
+	"UA": "Ikerene",
+	"ID": "Indoneziya",
+	"IO": "Intara y’Ubwongereza yo mu birwa by’Abahindi",
+	"IQ": "Iraki",
+	"IR": "Irani",
+	"UY": "Irigwe",
+	"IE": "Irilandi",
+	"IL": "Isiraheli",
+	"IM": "Isle of Man",
+	"FK": "Izinga rya Filikilandi",
+	"KM": "Izinga rya Komore",
+	"CK": "Izinga rya Kuku",
+	"MH": "Izinga rya Marishari",
+	"MU": "Izinga rya Morise",
+	"NF": "izinga rya Norufoluke",
+	"CY": "Izinga rya Shipure",
+	"JM": "Jamayika",
+	"JE": "Jersey",
+	"GE": "Jeworujiya",
+	"DJ": "Jibuti",
+	"GI": "Juburalitari",
+	"KH": "Kamboje",
+	"CM": "Kameruni",
+	"CA": "Kanada",
+	"QA": "Katari",
+	"KZ": "Kazakisitani",
+	"KE": "Kenya",
+	"CU": "Kiba",
+	"KI": "Kiribati",
+	"KG": "Kirigisitani",
+	"CO": "Kolombiya",
+	"CG": "Kongo",
+	"KP": "Koreya y’amajaruguru",
+	"KR": "Koreya y’amajepfo",
+	"HR": "Korowasiya",
+	"CR": "Kositarika",
+	"XK": "Kosovo",
+	"CI": "Kotedivuware",
+	"KW": "Koweti",
+	"LV": "Lativa",
+	"LA": "Layosi",
+	"LS": "Lesoto",
+	"AE": "Leta Zunze Ubumwe z’Abarabu",
+	"US": "Leta Zunze Ubumwe za Amerika",
+	"LB": "Libani",
+	"LR": "Liberiya",
+	"LY": "Libiya",
+	"LI": "Lishyitenshitayini",
+	"LT": "Lituwaniya",
+	"LU": "Lukusamburu",
+	"MO": "Macau SAR China",
+	"MG": "Madagasikari",
+	"MW": "Malawi",
+	"MY": "Maleziya",
+	"ML": "Mali",
+	"MT": "Malita",
+	"MQ": "Maritiniki",
+	"MA": "Maroke",
+	"MK": "Masedoniya",
+	"YT": "Mayote",
+	"MX": "Migizike",
+	"FM": "Mikoroniziya",
+	"EG": "Misiri",
+	"MV": "Moludave",
+	"MD": "Moludavi",
+	"MC": "Monako",
+	"MN": "Mongoliya",
+	"ME": "Montenegro",
+	"MS": "Monteserati",
+	"MR": "Moritaniya",
+	"MZ": "Mozambiki",
+	"NA": "Namibiya",
+	"NR": "Nawuru",
+	"NP": "Nepali",
+	"NE": "Nijeri",
+	"NG": "Nijeriya",
+	"NI": "Nikaragwa",
+	"NC": "Niyukaledoniya",
+	"NU": "Niyuwe",
+	"NO": "Noruveji",
+	"NZ": "Nuvelizelandi",
+	"OM": "Omani",
+	"AU": "Ositaraliya",
+	"AT": "Otirishe",
+	"PK": "Pakisitani",
+	"PW": "Palawu",
+	"PS": "Palesitina Wesitibanka na Gaza",
+	"PA": "Panama",
+	"PG": "Papuwa Niyugineya",
+	"PY": "Paragwe",
+	"PE": "Peru",
+	"PN": "Pitikeyirini",
+	"PF": "Polineziya y’Abafaransa",
+	"PL": "Polonye",
+	"PT": "Porutugali",
+	"PR": "Puwetoriko",
+	"CD": "Repubulika Iharanira Demokarasi ya Kongo",
+	"CZ": "Repubulika ya Ceke",
+	"DO": "Repubulika ya Dominika",
+	"CF": "Repubulika ya Santarafurika",
+	"RO": "Rumaniya",
+	"WS": "Samowa",
+	"AS": "Samowa nyamerika",
+	"SM": "Sanimarino",
+	"ST": "Sawotome na Perensipe",
+	"SH": "Sehelene",
+	"KN": "Sekitsi na Nevisi",
+	"LC": "Selusiya",
+	"PM": "Sempiyeri na Mikeloni",
+	"SN": "Senegali",
+	"RS": "Serbia",
+	"VC": "Sevensa na Gerenadine",
+	"CL": "Shili",
+	"SK": "Silovakiya",
+	"SI": "Siloveniya",
+	"SG": "Singapuru",
+	"SX": "Sint Maarten",
+	"LK": "Sirilanka",
+	"SY": "Siriya",
+	"SL": "Siyeralewone",
+	"SO": "Somaliya",
+	"GS": "South Georgia & South Sandwich Islands",
+	"SS": "South Sudan",
+	"BL": "St. Barthélemy",
+	"MF": "St. Martin",
+	"SD": "Sudani",
+	"SR": "Suriname",
+	"SZ": "Suwazilandi",
+	"SE": "Suwedi",
+	"SJ": "Svalbard & Jan Mayen",
+	"TJ": "Tajikisitani",
+	"TZ": "Tanzaniya",
+	"TH": "Tayilandi",
+	"TW": "Tayiwani",
+	"TL": "Timoru y’iburasirazuba",
+	"TT": "Tirinidadi na Tobago",
+	"TG": "Togo",
+	"TK": "Tokelawu",
+	"TO": "Tonga",
+	"TA": "Tristan da Cunha",
+	"TN": "Tuniziya",
+	"TR": "Turukiya",
+	"TM": "Turukumenisitani",
+	"TV": "Tuvalu",
+	"RW": "u Rwanda",
+	"UM": "U.S. Outlying Islands",
+	"BE": "Ububiligi",
+	"DE": "Ubudage",
+	"FR": "Ubufaransa",
+	"UG": "Ubugande",
+	"GR": "Ubugereki",
+	"IN": "Ubuhindi",
+	"NL": "Ubuholandi",
+	"BI": "Uburundi",
+	"RU": "Uburusiya",
+	"CN": "Ubushinwa",
+	"CH": "Ubusuwisi",
+	"IT": "Ubutaliyani",
+	"JP": "Ubuyapani",
+	"GB": "Ubwongereza",
+	"VA": "Umurwa wa Vatikani",
+	"UZ": "Uzubekisitani",
+	"VU": "Vanuwatu",
+	"VE": "Venezuwela",
+	"VN": "Viyetinamu",
+	"WF": "Walisi na Futuna",
+	"EH": "Western Sahara",
+	"YE": "Yemeni",
+	"JO": "Yorudaniya",
+	"ZM": "Zambiya",
+	"ZW": "Zimbabwe"
 }

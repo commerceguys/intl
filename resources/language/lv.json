@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "afrikandu"
-	},
-	"agq": {
-		"name": "aghemu"
-	},
-	"ak": {
-		"name": "akanu"
-	},
-	"sq": {
-		"name": "albāņu"
-	},
-	"am": {
-		"name": "amharu"
-	},
-	"en": {
-		"name": "angļu"
-	},
-	"en-AU": {
-		"name": "angļu (Austrālija)"
-	},
-	"en-CA": {
-		"name": "angļu (Kanāda)"
-	},
-	"en-GB": {
-		"name": "angļu (Lielbritānija)"
-	},
-	"ar": {
-		"name": "arābu"
-	},
-	"hy": {
-		"name": "armēņu"
-	},
-	"as": {
-		"name": "asamiešu"
-	},
-	"ast": {
-		"name": "astūriešu"
-	},
-	"asa": {
-		"name": "asu"
-	},
-	"hsb": {
-		"name": "augšsorbu"
-	},
-	"az": {
-		"name": "azerbaidžāņu"
-	},
-	"ksf": {
-		"name": "bafiju"
-	},
-	"be": {
-		"name": "baltkrievu"
-	},
-	"bm": {
-		"name": "bambaru"
-	},
-	"eu": {
-		"name": "basku"
-	},
-	"bas": {
-		"name": "basu"
-	},
-	"cu": {
-		"name": "baznīcslāvu"
-	},
-	"bem": {
-		"name": "bembu"
-	},
-	"bez": {
-		"name": "bena"
-	},
-	"bn": {
-		"name": "bengāļu"
-	},
-	"my": {
-		"name": "birmiešu"
-	},
-	"brx": {
-		"name": "bodo"
-	},
-	"bs": {
-		"name": "bosniešu"
-	},
-	"br": {
-		"name": "bretoņu"
-	},
-	"bg": {
-		"name": "bulgāru"
-	},
-	"ckb": {
-		"name": "centrālkurdu"
-	},
-	"tzm": {
-		"name": "Centrālmarokas tamazīts"
-	},
-	"ce": {
-		"name": "čečenu"
-	},
-	"cs": {
-		"name": "čehu"
-	},
-	"chr": {
-		"name": "čiroku"
-	},
-	"da": {
-		"name": "dāņu"
-	},
-	"dyo": {
-		"name": "diola-fonjī"
-	},
-	"dua": {
-		"name": "dualu"
-	},
-	"dz": {
-		"name": "dzongke"
-	},
-	"eo": {
-		"name": "esperanto"
-	},
-	"ewo": {
-		"name": "evondu"
-	},
-	"ee": {
-		"name": "evu"
-	},
-	"fo": {
-		"name": "fēru"
-	},
-	"fil": {
-		"name": "filipīniešu"
-	},
-	"nl-BE": {
-		"name": "flāmu"
-	},
-	"fr": {
-		"name": "franču"
-	},
-	"fr-CA": {
-		"name": "franču (Kanāda)"
-	},
-	"fr-CH": {
-		"name": "franču (Šveice)"
-	},
-	"fur": {
-		"name": "friūlu"
-	},
-	"ff": {
-		"name": "fulu"
-	},
-	"gl": {
-		"name": "galisiešu"
-	},
-	"lg": {
-		"name": "gandu"
-	},
-	"gd": {
-		"name": "gēlu"
-	},
-	"kl": {
-		"name": "grenlandiešu"
-	},
-	"el": {
-		"name": "grieķu"
-	},
-	"ka": {
-		"name": "gruzīnu"
-	},
-	"gu": {
-		"name": "gudžaratu"
-	},
-	"guz": {
-		"name": "gusii"
-	},
-	"ha": {
-		"name": "hausu"
-	},
-	"haw": {
-		"name": "havajiešu"
-	},
-	"hi": {
-		"name": "hindi"
-	},
-	"nl": {
-		"name": "holandiešu"
-	},
-	"hr": {
-		"name": "horvātu"
-	},
-	"et": {
-		"name": "igauņu"
-	},
-	"ig": {
-		"name": "igbo"
-	},
-	"smn": {
-		"name": "Inari sāmu"
-	},
-	"id": {
-		"name": "indonēziešu"
-	},
-	"ga": {
-		"name": "īru"
-	},
-	"is": {
-		"name": "islandiešu"
-	},
-	"it": {
-		"name": "itāļu"
-	},
-	"he": {
-		"name": "ivrits"
-	},
-	"sah": {
-		"name": "jakutu"
-	},
-	"yav": {
-		"name": "janbaņu"
-	},
-	"ja": {
-		"name": "japāņu"
-	},
-	"nn": {
-		"name": "jaunnorvēģu"
-	},
-	"yi": {
-		"name": "jidišs"
-	},
-	"yo": {
-		"name": "jorubu"
-	},
-	"kab": {
-		"name": "kabilu"
-	},
-	"kea": {
-		"name": "kaboverdiešu"
-	},
-	"kkj": {
-		"name": "kako"
-	},
-	"kln": {
-		"name": "kalendžīnu"
-	},
-	"kam": {
-		"name": "kambu"
-	},
-	"kn": {
-		"name": "kannadu"
-	},
-	"ks": {
-		"name": "kašmiriešu"
-	},
-	"ca": {
-		"name": "katalāņu"
-	},
-	"kk": {
-		"name": "kazahu"
-	},
-	"qu": {
-		"name": "kečvu"
-	},
-	"km": {
-		"name": "khmeru"
-	},
-	"cgg": {
-		"name": "kiga"
-	},
-	"ki": {
-		"name": "kikuju"
-	},
-	"rw": {
-		"name": "kiņaruanda"
-	},
-	"ky": {
-		"name": "kirgīzu"
-	},
-	"ebu": {
-		"name": "kjembu"
-	},
-	"ses": {
-		"name": "koiraboro senni"
-	},
-	"khq": {
-		"name": "koiračiinī"
-	},
-	"sw-CD": {
-		"name": "Kongo svahili"
-	},
-	"kok": {
-		"name": "konkanu"
-	},
-	"ko": {
-		"name": "korejiešu"
-	},
-	"kw": {
-		"name": "korniešu"
-	},
-	"ru": {
-		"name": "krievu"
-	},
-	"nmg": {
-		"name": "kvasio"
-	},
-	"ksh": {
-		"name": "Ķelnes vācu"
-	},
-	"zh": {
-		"name": "ķīniešu"
-	},
-	"zh-Hant": {
-		"name": "ķīniešu tradicionālā"
-	},
-	"zh-Hans": {
-		"name": "ķīniešu vienkāršotā"
-	},
-	"lkt": {
-		"name": "lakotu"
-	},
-	"lag": {
-		"name": "langi"
-	},
-	"lo": {
-		"name": "laosiešu"
-	},
-	"lv": {
-		"name": "latviešu"
-	},
-	"nds-NL": {
-		"name": "lejassakšu"
-	},
-	"dsb": {
-		"name": "lejassorbu"
-	},
-	"nds": {
-		"name": "lejasvācu"
-	},
-	"lt": {
-		"name": "lietuviešu"
-	},
-	"ln": {
-		"name": "lingala"
-	},
-	"lu": {
-		"name": "lubakatanga"
-	},
-	"luy": {
-		"name": "luhju"
-	},
-	"lb": {
-		"name": "luksemburgiešu"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"jmc": {
-		"name": "mačamu"
-	},
-	"kde": {
-		"name": "makonde"
-	},
-	"mgh": {
-		"name": "makua"
-	},
-	"mk": {
-		"name": "maķedoniešu"
-	},
-	"mg": {
-		"name": "malagasu"
-	},
-	"ml": {
-		"name": "malajalu"
-	},
-	"ms": {
-		"name": "malajiešu"
-	},
-	"mt": {
-		"name": "maltiešu"
-	},
-	"mr": {
-		"name": "marathu"
-	},
-	"mas": {
-		"name": "masaju"
-	},
-	"mfe": {
-		"name": "Maurīcijas kreolu"
-	},
-	"mzn": {
-		"name": "mazanderāņu"
-	},
-	"gv": {
-		"name": "meniešu"
-	},
-	"mer": {
-		"name": "meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"ro-MD": {
-		"name": "moldāvu"
-	},
-	"mn": {
-		"name": "mongoļu"
-	},
-	"mua": {
-		"name": "mundangu"
-	},
-	"naq": {
-		"name": "nama"
-	},
-	"ne": {
-		"name": "nepāliešu"
-	},
-	"nnh": {
-		"name": "ngjembūnu"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nb": {
-		"name": "norvēģu bukmols"
-	},
-	"nus": {
-		"name": "nueru"
-	},
-	"nyn": {
-		"name": "ņankolu"
-	},
-	"or": {
-		"name": "oriju"
-	},
-	"om": {
-		"name": "oromu"
-	},
-	"os": {
-		"name": "osetīnu"
-	},
-	"pa": {
-		"name": "pandžabu"
-	},
-	"fa": {
-		"name": "persiešu"
-	},
-	"pl": {
-		"name": "poļu"
-	},
-	"pt": {
-		"name": "portugāļu"
-	},
-	"pt-PT": {
-		"name": "portugāļu (Portugāle)"
-	},
-	"prg": {
-		"name": "prūšu"
-	},
-	"ps": {
-		"name": "puštu"
-	},
-	"rm": {
-		"name": "retoromāņu"
-	},
-	"fy": {
-		"name": "rietumfrīzu"
-	},
-	"rof": {
-		"name": "rombo"
-	},
-	"rwk": {
-		"name": "ruanda"
-	},
-	"ro": {
-		"name": "rumāņu"
-	},
-	"rn": {
-		"name": "rundu"
-	},
-	"saq": {
-		"name": "samburu"
-	},
-	"sg": {
-		"name": "sango"
-	},
-	"sbp": {
-		"name": "sangu"
-	},
-	"seh": {
-		"name": "senu"
-	},
-	"sr": {
-		"name": "serbu"
-	},
-	"ii": {
-		"name": "Sičuaņas ji"
-	},
-	"sd": {
-		"name": "sindhu"
-	},
-	"si": {
-		"name": "singāļu"
-	},
-	"sk": {
-		"name": "slovāku"
-	},
-	"sl": {
-		"name": "slovēņu"
-	},
-	"xog": {
-		"name": "sogu"
-	},
-	"so": {
-		"name": "somāļu"
-	},
-	"fi": {
-		"name": "somu"
-	},
-	"es": {
-		"name": "spāņu"
-	},
-	"es-419": {
-		"name": "spāņu (Latīņamerika)"
-	},
-	"es-MX": {
-		"name": "spāņu (Meksika)"
-	},
-	"zgh": {
-		"name": "standarta marokāņu berberu"
-	},
-	"sw": {
-		"name": "svahili"
-	},
-	"ksb": {
-		"name": "šambalu"
-	},
-	"shi": {
-		"name": "šilhu"
-	},
-	"sn": {
-		"name": "šonu"
-	},
-	"de-CH": {
-		"name": "Šveices augšvācu"
-	},
-	"gsw": {
-		"name": "Šveices vācu"
-	},
-	"tg": {
-		"name": "tadžiku"
-	},
-	"dav": {
-		"name": "taitu"
-	},
-	"th": {
-		"name": "taju"
-	},
-	"ta": {
-		"name": "tamilu"
-	},
-	"twq": {
-		"name": "tasavaku"
-	},
-	"tt": {
-		"name": "tatāru"
-	},
-	"te": {
-		"name": "telugu"
-	},
-	"teo": {
-		"name": "teso"
-	},
-	"bo": {
-		"name": "tibetiešu"
-	},
-	"ti": {
-		"name": "tigrinja"
-	},
-	"to": {
-		"name": "tongiešu"
-	},
-	"tk": {
-		"name": "turkmēņu"
-	},
-	"tr": {
-		"name": "turku"
-	},
-	"ug": {
-		"name": "uiguru"
-	},
-	"uk": {
-		"name": "ukraiņu"
-	},
-	"hu": {
-		"name": "ungāru"
-	},
-	"ur": {
-		"name": "urdu"
-	},
-	"uz": {
-		"name": "uzbeku"
-	},
-	"de": {
-		"name": "vācu"
-	},
-	"de-AT": {
-		"name": "vācu (Austrija)"
-	},
-	"vai": {
-		"name": "vaju"
-	},
-	"wae": {
-		"name": "Vallisas vācu"
-	},
-	"cy": {
-		"name": "velsiešu"
-	},
-	"vi": {
-		"name": "vjetnamiešu"
-	},
-	"vo": {
-		"name": "volapiks"
-	},
-	"wo": {
-		"name": "volofu"
-	},
-	"vun": {
-		"name": "vundžo"
-	},
-	"dje": {
-		"name": "zarmu"
-	},
-	"lrc": {
-		"name": "ziemeļluru"
-	},
-	"nd": {
-		"name": "ziemeļndebelu"
-	},
-	"se": {
-		"name": "ziemeļsāmu"
-	},
-	"zu": {
-		"name": "zulu"
-	},
-	"sv": {
-		"name": "zviedru"
-	}
+	"af": "afrikandu",
+	"agq": "aghemu",
+	"ak": "akanu",
+	"sq": "albāņu",
+	"am": "amharu",
+	"en": "angļu",
+	"en-AU": "angļu (Austrālija)",
+	"en-CA": "angļu (Kanāda)",
+	"en-GB": "angļu (Lielbritānija)",
+	"ar": "arābu",
+	"hy": "armēņu",
+	"as": "asamiešu",
+	"ast": "astūriešu",
+	"asa": "asu",
+	"hsb": "augšsorbu",
+	"az": "azerbaidžāņu",
+	"ksf": "bafiju",
+	"be": "baltkrievu",
+	"bm": "bambaru",
+	"eu": "basku",
+	"bas": "basu",
+	"cu": "baznīcslāvu",
+	"bem": "bembu",
+	"bez": "bena",
+	"bn": "bengāļu",
+	"my": "birmiešu",
+	"brx": "bodo",
+	"bs": "bosniešu",
+	"br": "bretoņu",
+	"bg": "bulgāru",
+	"ckb": "centrālkurdu",
+	"tzm": "Centrālmarokas tamazīts",
+	"ce": "čečenu",
+	"cs": "čehu",
+	"chr": "čiroku",
+	"da": "dāņu",
+	"dyo": "diola-fonjī",
+	"dua": "dualu",
+	"dz": "dzongke",
+	"eo": "esperanto",
+	"ewo": "evondu",
+	"ee": "evu",
+	"fo": "fēru",
+	"fil": "filipīniešu",
+	"nl-BE": "flāmu",
+	"fr": "franču",
+	"fr-CA": "franču (Kanāda)",
+	"fr-CH": "franču (Šveice)",
+	"fur": "friūlu",
+	"ff": "fulu",
+	"gl": "galisiešu",
+	"lg": "gandu",
+	"gd": "gēlu",
+	"kl": "grenlandiešu",
+	"el": "grieķu",
+	"ka": "gruzīnu",
+	"gu": "gudžaratu",
+	"guz": "gusii",
+	"ha": "hausu",
+	"haw": "havajiešu",
+	"hi": "hindi",
+	"nl": "holandiešu",
+	"hr": "horvātu",
+	"et": "igauņu",
+	"ig": "igbo",
+	"smn": "Inari sāmu",
+	"id": "indonēziešu",
+	"ga": "īru",
+	"is": "islandiešu",
+	"it": "itāļu",
+	"he": "ivrits",
+	"sah": "jakutu",
+	"yav": "janbaņu",
+	"ja": "japāņu",
+	"nn": "jaunnorvēģu",
+	"yi": "jidišs",
+	"yo": "jorubu",
+	"kab": "kabilu",
+	"kea": "kaboverdiešu",
+	"kkj": "kako",
+	"kln": "kalendžīnu",
+	"kam": "kambu",
+	"kn": "kannadu",
+	"ks": "kašmiriešu",
+	"ca": "katalāņu",
+	"kk": "kazahu",
+	"qu": "kečvu",
+	"km": "khmeru",
+	"cgg": "kiga",
+	"ki": "kikuju",
+	"rw": "kiņaruanda",
+	"ky": "kirgīzu",
+	"ebu": "kjembu",
+	"ses": "koiraboro senni",
+	"khq": "koiračiinī",
+	"sw-CD": "Kongo svahili",
+	"kok": "konkanu",
+	"ko": "korejiešu",
+	"kw": "korniešu",
+	"ru": "krievu",
+	"nmg": "kvasio",
+	"ksh": "Ķelnes vācu",
+	"zh": "ķīniešu",
+	"zh-Hant": "ķīniešu tradicionālā",
+	"zh-Hans": "ķīniešu vienkāršotā",
+	"lkt": "lakotu",
+	"lag": "langi",
+	"lo": "laosiešu",
+	"lv": "latviešu",
+	"nds-NL": "lejassakšu",
+	"dsb": "lejassorbu",
+	"nds": "lejasvācu",
+	"lt": "lietuviešu",
+	"ln": "lingala",
+	"lu": "lubakatanga",
+	"luy": "luhju",
+	"lb": "luksemburgiešu",
+	"luo": "Luo",
+	"jmc": "mačamu",
+	"kde": "makonde",
+	"mgh": "makua",
+	"mk": "maķedoniešu",
+	"mg": "malagasu",
+	"ml": "malajalu",
+	"ms": "malajiešu",
+	"mt": "maltiešu",
+	"mr": "marathu",
+	"mas": "masaju",
+	"mfe": "Maurīcijas kreolu",
+	"mzn": "mazanderāņu",
+	"gv": "meniešu",
+	"mer": "meru",
+	"mgo": "Metaʼ",
+	"ro-MD": "moldāvu",
+	"mn": "mongoļu",
+	"mua": "mundangu",
+	"naq": "nama",
+	"ne": "nepāliešu",
+	"nnh": "ngjembūnu",
+	"jgo": "Ngomba",
+	"nb": "norvēģu bukmols",
+	"nus": "nueru",
+	"nyn": "ņankolu",
+	"or": "oriju",
+	"om": "oromu",
+	"os": "osetīnu",
+	"pa": "pandžabu",
+	"fa": "persiešu",
+	"pl": "poļu",
+	"pt": "portugāļu",
+	"pt-PT": "portugāļu (Portugāle)",
+	"prg": "prūšu",
+	"ps": "puštu",
+	"rm": "retoromāņu",
+	"fy": "rietumfrīzu",
+	"rof": "rombo",
+	"rwk": "ruanda",
+	"ro": "rumāņu",
+	"rn": "rundu",
+	"saq": "samburu",
+	"sg": "sango",
+	"sbp": "sangu",
+	"seh": "senu",
+	"sr": "serbu",
+	"ii": "Sičuaņas ji",
+	"sd": "sindhu",
+	"si": "singāļu",
+	"sk": "slovāku",
+	"sl": "slovēņu",
+	"xog": "sogu",
+	"so": "somāļu",
+	"fi": "somu",
+	"es": "spāņu",
+	"es-419": "spāņu (Latīņamerika)",
+	"es-MX": "spāņu (Meksika)",
+	"zgh": "standarta marokāņu berberu",
+	"sw": "svahili",
+	"ksb": "šambalu",
+	"shi": "šilhu",
+	"sn": "šonu",
+	"de-CH": "Šveices augšvācu",
+	"gsw": "Šveices vācu",
+	"tg": "tadžiku",
+	"dav": "taitu",
+	"th": "taju",
+	"ta": "tamilu",
+	"twq": "tasavaku",
+	"tt": "tatāru",
+	"te": "telugu",
+	"teo": "teso",
+	"bo": "tibetiešu",
+	"ti": "tigrinja",
+	"to": "tongiešu",
+	"tk": "turkmēņu",
+	"tr": "turku",
+	"ug": "uiguru",
+	"uk": "ukraiņu",
+	"hu": "ungāru",
+	"ur": "urdu",
+	"uz": "uzbeku",
+	"de": "vācu",
+	"de-AT": "vācu (Austrija)",
+	"vai": "vaju",
+	"wae": "Vallisas vācu",
+	"cy": "velsiešu",
+	"vi": "vjetnamiešu",
+	"vo": "volapiks",
+	"wo": "volofu",
+	"vun": "vundžo",
+	"dje": "zarmu",
+	"lrc": "ziemeļluru",
+	"nd": "ziemeļndebelu",
+	"se": "ziemeļsāmu",
+	"zu": "zulu",
+	"sv": "zviedru"
 }

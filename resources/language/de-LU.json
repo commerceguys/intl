@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "Afrikaans"
-	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "Akan"
-	},
-	"sq": {
-		"name": "Albanisch"
-	},
-	"prg": {
-		"name": "Altpreußisch"
-	},
-	"am": {
-		"name": "Amharisch"
-	},
-	"ar": {
-		"name": "Arabisch"
-	},
-	"hy": {
-		"name": "Armenisch"
-	},
-	"az": {
-		"name": "Aserbaidschanisch"
-	},
-	"as": {
-		"name": "Assamesisch"
-	},
-	"ast": {
-		"name": "Asturianisch"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"en-AU": {
-		"name": "Australisches Englisch"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"eu": {
-		"name": "Baskisch"
-	},
-	"be": {
-		"name": "Belarussisch"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"bn": {
-		"name": "Bengalisch"
-	},
-	"my": {
-		"name": "Birmanisch"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"bs": {
-		"name": "Bosnisch"
-	},
-	"br": {
-		"name": "Bretonisch"
-	},
-	"en-GB": {
-		"name": "Britisches Englisch"
-	},
-	"bg": {
-		"name": "Bulgarisch"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"zh": {
-		"name": "Chinesisch"
-	},
-	"zh-Hant": {
-		"name": "Chinesisch (traditionell)"
-	},
-	"zh-Hans": {
-		"name": "Chinesisch (vereinfacht)"
-	},
-	"da": {
-		"name": "Dänisch"
-	},
-	"de": {
-		"name": "Deutsch"
-	},
-	"dyo": {
-		"name": "Diola"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"en": {
-		"name": "Englisch"
-	},
-	"eo": {
-		"name": "Esperanto"
-	},
-	"et": {
-		"name": "Estnisch"
-	},
-	"pt-PT": {
-		"name": "Europäisches Portugiesisch"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fo": {
-		"name": "Färöisch"
-	},
-	"fil": {
-		"name": "Filipino"
-	},
-	"fi": {
-		"name": "Finnisch"
-	},
-	"nl-BE": {
-		"name": "Flämisch"
-	},
-	"fr": {
-		"name": "Französisch"
-	},
-	"fur": {
-		"name": "Friaulisch"
-	},
-	"ff": {
-		"name": "Ful"
-	},
-	"gl": {
-		"name": "Galicisch"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"ka": {
-		"name": "Georgisch"
-	},
-	"el": {
-		"name": "Griechisch"
-	},
-	"kl": {
-		"name": "Grönländisch"
-	},
-	"gu": {
-		"name": "Gujarati"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"ha": {
-		"name": "Haussa"
-	},
-	"haw": {
-		"name": "Hawaiisch"
-	},
-	"he": {
-		"name": "Hebräisch"
-	},
-	"hi": {
-		"name": "Hindi"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"smn": {
-		"name": "Inari-Samisch"
-	},
-	"id": {
-		"name": "Indonesisch"
-	},
-	"ga": {
-		"name": "Irisch"
-	},
-	"is": {
-		"name": "Isländisch"
-	},
-	"it": {
-		"name": "Italienisch"
-	},
-	"sah": {
-		"name": "Jakutisch"
-	},
-	"ja": {
-		"name": "Japanisch"
-	},
-	"yi": {
-		"name": "Jiddisch"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabylisch"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"en-CA": {
-		"name": "Kanadisches Englisch"
-	},
-	"fr-CA": {
-		"name": "Kanadisches Französisch"
-	},
-	"kn": {
-		"name": "Kannada"
-	},
-	"kk": {
-		"name": "Kasachisch"
-	},
-	"ks": {
-		"name": "Kaschmiri"
-	},
-	"ca": {
-		"name": "Katalanisch"
-	},
-	"km": {
-		"name": "Khmer"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"rw": {
-		"name": "Kinyarwanda"
-	},
-	"cu": {
-		"name": "Kirchenslawisch"
-	},
-	"ky": {
-		"name": "Kirgisisch"
-	},
-	"ksh": {
-		"name": "Kölsch"
-	},
-	"sw-CD": {
-		"name": "Kongo-Swahili"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"ko": {
-		"name": "Koreanisch"
-	},
-	"kw": {
-		"name": "Kornisch"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyra Senni"
-	},
-	"hr": {
-		"name": "Kroatisch"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lo": {
-		"name": "Laotisch"
-	},
-	"es-419": {
-		"name": "Lateinamerikanisches Spanisch"
-	},
-	"lv": {
-		"name": "Lettisch"
-	},
-	"ln": {
-		"name": "Lingala"
-	},
-	"lt": {
-		"name": "Litauisch"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luy": {
-		"name": "Luhya"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "Luxemburgisch"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mg": {
-		"name": "Madagassisch"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"ms": {
-		"name": "Malaiisch"
-	},
-	"ml": {
-		"name": "Malayalam"
-	},
-	"mt": {
-		"name": "Maltesisch"
-	},
-	"gv": {
-		"name": "Manx"
-	},
-	"mr": {
-		"name": "Marathi"
-	},
-	"mzn": {
-		"name": "Masanderanisch"
-	},
-	"mas": {
-		"name": "Massai"
-	},
-	"mk": {
-		"name": "Mazedonisch"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Meta’"
-	},
-	"es-MX": {
-		"name": "Mexikanisches Spanisch"
-	},
-	"ro-MD": {
-		"name": "Moldauisch"
-	},
-	"mn": {
-		"name": "Mongolisch"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"ne": {
-		"name": "Nepalesisch"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nds": {
-		"name": "Niederdeutsch"
-	},
-	"nl": {
-		"name": "Niederländisch"
-	},
-	"nds-NL": {
-		"name": "Niedersächsisch"
-	},
-	"dsb": {
-		"name": "Niedersorbisch"
-	},
-	"nd": {
-		"name": "Nord-Ndebele"
-	},
-	"lrc": {
-		"name": "Nördliches Luri"
-	},
-	"se": {
-		"name": "Nordsamisch"
-	},
-	"nb": {
-		"name": "Norwegisch Bokmål"
-	},
-	"nn": {
-		"name": "Norwegisch Nynorsk"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"hsb": {
-		"name": "Obersorbisch"
-	},
-	"or": {
-		"name": "Oriya"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Ossetisch"
-	},
-	"de-AT": {
-		"name": "Österreichisches Deutsch"
-	},
-	"ps": {
-		"name": "Paschtu"
-	},
-	"fa": {
-		"name": "Persisch"
-	},
-	"pl": {
-		"name": "Polnisch"
-	},
-	"pt": {
-		"name": "Portugiesisch"
-	},
-	"pa": {
-		"name": "Punjabi"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"rm": {
-		"name": "Rätoromanisch"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"cgg": {
-		"name": "Rukiga"
-	},
-	"ro": {
-		"name": "Rumänisch"
-	},
-	"rn": {
-		"name": "Rundi"
-	},
-	"ru": {
-		"name": "Russisch"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"gd": {
-		"name": "Schottisches Gälisch"
-	},
-	"sv": {
-		"name": "Schwedisch"
-	},
-	"fr-CH": {
-		"name": "Schweizer Französisch"
-	},
-	"de-CH": {
-		"name": "Schweizer Hochdeutsch"
-	},
-	"gsw": {
-		"name": "Schweizerdeutsch"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"sr": {
-		"name": "Serbisch"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "Shona"
-	},
-	"sd": {
-		"name": "Sindhi"
-	},
-	"si": {
-		"name": "Singhalesisch"
-	},
-	"sk": {
-		"name": "Slowakisch"
-	},
-	"sl": {
-		"name": "Slowenisch"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "Somali"
-	},
-	"es": {
-		"name": "Spanisch"
-	},
-	"sw": {
-		"name": "Suaheli"
-	},
-	"tg": {
-		"name": "Tadschikisch"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"zgh": {
-		"name": "Tamazight"
-	},
-	"ta": {
-		"name": "Tamil"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"shi": {
-		"name": "Taschelhit"
-	},
-	"tt": {
-		"name": "Tatarisch"
-	},
-	"te": {
-		"name": "Telugu"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"th": {
-		"name": "Thailändisch"
-	},
-	"bo": {
-		"name": "Tibetisch"
-	},
-	"ti": {
-		"name": "Tigrinya"
-	},
-	"to": {
-		"name": "Tongaisch"
-	},
-	"cs": {
-		"name": "Tschechisch"
-	},
-	"ce": {
-		"name": "Tschetschenisch"
-	},
-	"tr": {
-		"name": "Türkisch"
-	},
-	"tk": {
-		"name": "Turkmenisch"
-	},
-	"ug": {
-		"name": "Uigurisch"
-	},
-	"uk": {
-		"name": "Ukrainisch"
-	},
-	"hu": {
-		"name": "Ungarisch"
-	},
-	"ur": {
-		"name": "Urdu"
-	},
-	"uz": {
-		"name": "Usbekisch"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "Vietnamesisch"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"cy": {
-		"name": "Walisisch"
-	},
-	"wae": {
-		"name": "Walliserdeutsch"
-	},
-	"fy": {
-		"name": "Westfriesisch"
-	},
-	"wo": {
-		"name": "Wolof"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"ii": {
-		"name": "Yi"
-	},
-	"yo": {
-		"name": "Yoruba"
-	},
-	"dje": {
-		"name": "Zarma"
-	},
-	"tzm": {
-		"name": "Zentralatlas-Tamazight"
-	},
-	"ckb": {
-		"name": "Zentralkurdisch"
-	},
-	"zu": {
-		"name": "Zulu"
-	}
+	"af": "Afrikaans",
+	"agq": "Aghem",
+	"ak": "Akan",
+	"sq": "Albanisch",
+	"prg": "Altpreußisch",
+	"am": "Amharisch",
+	"ar": "Arabisch",
+	"hy": "Armenisch",
+	"az": "Aserbaidschanisch",
+	"as": "Assamesisch",
+	"ast": "Asturianisch",
+	"asa": "Asu",
+	"en-AU": "Australisches Englisch",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bas": "Basaa",
+	"eu": "Baskisch",
+	"be": "Belarussisch",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"bn": "Bengalisch",
+	"my": "Birmanisch",
+	"brx": "Bodo",
+	"bs": "Bosnisch",
+	"br": "Bretonisch",
+	"en-GB": "Britisches Englisch",
+	"bg": "Bulgarisch",
+	"chr": "Cherokee",
+	"zh": "Chinesisch",
+	"zh-Hant": "Chinesisch (traditionell)",
+	"zh-Hans": "Chinesisch (vereinfacht)",
+	"da": "Dänisch",
+	"de": "Deutsch",
+	"dyo": "Diola",
+	"dua": "Duala",
+	"dz": "Dzongkha",
+	"ebu": "Embu",
+	"en": "Englisch",
+	"eo": "Esperanto",
+	"et": "Estnisch",
+	"pt-PT": "Europäisches Portugiesisch",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fo": "Färöisch",
+	"fil": "Filipino",
+	"fi": "Finnisch",
+	"nl-BE": "Flämisch",
+	"fr": "Französisch",
+	"fur": "Friaulisch",
+	"ff": "Ful",
+	"gl": "Galicisch",
+	"lg": "Ganda",
+	"ka": "Georgisch",
+	"el": "Griechisch",
+	"kl": "Grönländisch",
+	"gu": "Gujarati",
+	"guz": "Gusii",
+	"ha": "Haussa",
+	"haw": "Hawaiisch",
+	"he": "Hebräisch",
+	"hi": "Hindi",
+	"ig": "Igbo",
+	"smn": "Inari-Samisch",
+	"id": "Indonesisch",
+	"ga": "Irisch",
+	"is": "Isländisch",
+	"it": "Italienisch",
+	"sah": "Jakutisch",
+	"ja": "Japanisch",
+	"yi": "Jiddisch",
+	"kea": "Kabuverdianu",
+	"kab": "Kabylisch",
+	"kkj": "Kako",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"en-CA": "Kanadisches Englisch",
+	"fr-CA": "Kanadisches Französisch",
+	"kn": "Kannada",
+	"kk": "Kasachisch",
+	"ks": "Kaschmiri",
+	"ca": "Katalanisch",
+	"km": "Khmer",
+	"ki": "Kikuyu",
+	"rw": "Kinyarwanda",
+	"cu": "Kirchenslawisch",
+	"ky": "Kirgisisch",
+	"ksh": "Kölsch",
+	"sw-CD": "Kongo-Swahili",
+	"kok": "Konkani",
+	"ko": "Koreanisch",
+	"kw": "Kornisch",
+	"khq": "Koyra Chiini",
+	"ses": "Koyra Senni",
+	"hr": "Kroatisch",
+	"nmg": "Kwasio",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"lo": "Laotisch",
+	"es-419": "Lateinamerikanisches Spanisch",
+	"lv": "Lettisch",
+	"ln": "Lingala",
+	"lt": "Litauisch",
+	"lu": "Luba-Katanga",
+	"luy": "Luhya",
+	"luo": "Luo",
+	"lb": "Luxemburgisch",
+	"jmc": "Machame",
+	"mg": "Madagassisch",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"ms": "Malaiisch",
+	"ml": "Malayalam",
+	"mt": "Maltesisch",
+	"gv": "Manx",
+	"mr": "Marathi",
+	"mzn": "Masanderanisch",
+	"mas": "Massai",
+	"mk": "Mazedonisch",
+	"mer": "Meru",
+	"mgo": "Meta’",
+	"es-MX": "Mexikanisches Spanisch",
+	"ro-MD": "Moldauisch",
+	"mn": "Mongolisch",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"ne": "Nepalesisch",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"nds": "Niederdeutsch",
+	"nl": "Niederländisch",
+	"nds-NL": "Niedersächsisch",
+	"dsb": "Niedersorbisch",
+	"nd": "Nord-Ndebele",
+	"lrc": "Nördliches Luri",
+	"se": "Nordsamisch",
+	"nb": "Norwegisch Bokmål",
+	"nn": "Norwegisch Nynorsk",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"hsb": "Obersorbisch",
+	"or": "Oriya",
+	"om": "Oromo",
+	"os": "Ossetisch",
+	"de-AT": "Österreichisches Deutsch",
+	"ps": "Paschtu",
+	"fa": "Persisch",
+	"pl": "Polnisch",
+	"pt": "Portugiesisch",
+	"pa": "Punjabi",
+	"qu": "Quechua",
+	"rm": "Rätoromanisch",
+	"rof": "Rombo",
+	"cgg": "Rukiga",
+	"ro": "Rumänisch",
+	"rn": "Rundi",
+	"ru": "Russisch",
+	"rwk": "Rwa",
+	"saq": "Samburu",
+	"sg": "Sango",
+	"sbp": "Sangu",
+	"gd": "Schottisches Gälisch",
+	"sv": "Schwedisch",
+	"fr-CH": "Schweizer Französisch",
+	"de-CH": "Schweizer Hochdeutsch",
+	"gsw": "Schweizerdeutsch",
+	"seh": "Sena",
+	"sr": "Serbisch",
+	"ksb": "Shambala",
+	"sn": "Shona",
+	"sd": "Sindhi",
+	"si": "Singhalesisch",
+	"sk": "Slowakisch",
+	"sl": "Slowenisch",
+	"xog": "Soga",
+	"so": "Somali",
+	"es": "Spanisch",
+	"sw": "Suaheli",
+	"tg": "Tadschikisch",
+	"dav": "Taita",
+	"zgh": "Tamazight",
+	"ta": "Tamil",
+	"twq": "Tasawaq",
+	"shi": "Taschelhit",
+	"tt": "Tatarisch",
+	"te": "Telugu",
+	"teo": "Teso",
+	"th": "Thailändisch",
+	"bo": "Tibetisch",
+	"ti": "Tigrinya",
+	"to": "Tongaisch",
+	"cs": "Tschechisch",
+	"ce": "Tschetschenisch",
+	"tr": "Türkisch",
+	"tk": "Turkmenisch",
+	"ug": "Uigurisch",
+	"uk": "Ukrainisch",
+	"hu": "Ungarisch",
+	"ur": "Urdu",
+	"uz": "Usbekisch",
+	"vai": "Vai",
+	"vi": "Vietnamesisch",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"cy": "Walisisch",
+	"wae": "Walliserdeutsch",
+	"fy": "Westfriesisch",
+	"wo": "Wolof",
+	"yav": "Yangben",
+	"ii": "Yi",
+	"yo": "Yoruba",
+	"dje": "Zarma",
+	"tzm": "Zentralatlas-Tamazight",
+	"ckb": "Zentralkurdisch",
+	"zu": "Zulu"
 }

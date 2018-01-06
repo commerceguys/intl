@@ -1,647 +1,217 @@
 {
-	"ps": {
-		"name": "afghanska"
-	},
-	"af": {
-		"name": "afrikaans"
-	},
-	"agq": {
-		"name": "aghem"
-	},
-	"ak": {
-		"name": "akan"
-	},
-	"sq": {
-		"name": "albanska"
-	},
-	"am": {
-		"name": "amhariska"
-	},
-	"ar": {
-		"name": "arabiska"
-	},
-	"hy": {
-		"name": "armeniska"
-	},
-	"as": {
-		"name": "assamesiska"
-	},
-	"ast": {
-		"name": "asturiska"
-	},
-	"asa": {
-		"name": "asu"
-	},
-	"en-AU": {
-		"name": "australisk engelska"
-	},
-	"az": {
-		"name": "azerbajdzjanska"
-	},
-	"ksf": {
-		"name": "bafia"
-	},
-	"bm": {
-		"name": "bambara"
-	},
-	"nnh": {
-		"name": "bamileké-ngiemboon"
-	},
-	"bas": {
-		"name": "basa"
-	},
-	"eu": {
-		"name": "baskiska"
-	},
-	"bem": {
-		"name": "bemba"
-	},
-	"bez": {
-		"name": "bena"
-	},
-	"bn": {
-		"name": "bengali"
-	},
-	"brx": {
-		"name": "bodo"
-	},
-	"bs": {
-		"name": "bosniska"
-	},
-	"br": {
-		"name": "bretonska"
-	},
-	"en-GB": {
-		"name": "brittisk engelska"
-	},
-	"bg": {
-		"name": "bulgariska"
-	},
-	"my": {
-		"name": "burmesiska"
-	},
-	"tzm": {
-		"name": "centralmarockansk tamazight"
-	},
-	"chr": {
-		"name": "cherokesiska"
-	},
-	"cgg": {
-		"name": "chiga"
-	},
-	"da": {
-		"name": "danska"
-	},
-	"dua": {
-		"name": "duala"
-	},
-	"dz": {
-		"name": "dzongkha"
-	},
-	"ebu": {
-		"name": "embu"
-	},
-	"smn": {
-		"name": "enaresamiska"
-	},
-	"en": {
-		"name": "engelska"
-	},
-	"eo": {
-		"name": "esperanto"
-	},
-	"et": {
-		"name": "estniska"
-	},
-	"pt-PT": {
-		"name": "europeisk portugisiska"
-	},
-	"ee": {
-		"name": "ewe"
-	},
-	"ewo": {
-		"name": "ewondo"
-	},
-	"fil": {
-		"name": "filippinska"
-	},
-	"fi": {
-		"name": "finska"
-	},
-	"nl-BE": {
-		"name": "flamländska"
-	},
-	"prg": {
-		"name": "fornpreussiska"
-	},
-	"fr": {
-		"name": "franska"
-	},
-	"fur": {
-		"name": "friulianska"
-	},
-	"ff": {
-		"name": "fulani"
-	},
-	"fo": {
-		"name": "färöiska"
-	},
-	"zh-Hans": {
-		"name": "förenklad kinesiska"
-	},
-	"gl": {
-		"name": "galiciska"
-	},
-	"ses": {
-		"name": "Gao-songhay"
-	},
-	"ka": {
-		"name": "georgiska"
-	},
-	"el": {
-		"name": "grekiska"
-	},
-	"kl": {
-		"name": "grönländska"
-	},
-	"gu": {
-		"name": "gujarati"
-	},
-	"guz": {
-		"name": "gusii"
-	},
-	"ha": {
-		"name": "hausa"
-	},
-	"haw": {
-		"name": "hawaiiska"
-	},
-	"he": {
-		"name": "hebreiska"
-	},
-	"hi": {
-		"name": "hindi"
-	},
-	"hsb": {
-		"name": "högsorbiska"
-	},
-	"ig": {
-		"name": "igbo"
-	},
-	"id": {
-		"name": "indonesiska"
-	},
-	"ga": {
-		"name": "iriska"
-	},
-	"is": {
-		"name": "isländska"
-	},
-	"it": {
-		"name": "italienska"
-	},
-	"sah": {
-		"name": "jakutiska"
-	},
-	"ja": {
-		"name": "japanska"
-	},
-	"yi": {
-		"name": "jiddisch"
-	},
-	"dyo": {
-		"name": "jola-fonyi"
-	},
-	"kab": {
-		"name": "kabyliska"
-	},
-	"kln": {
-		"name": "kalenjin"
-	},
-	"kam": {
-		"name": "kamba"
-	},
-	"km": {
-		"name": "kambodjanska"
-	},
-	"en-CA": {
-		"name": "kanadensisk engelska"
-	},
-	"fr-CA": {
-		"name": "kanadensisk franska"
-	},
-	"kn": {
-		"name": "kannada"
-	},
-	"kea": {
-		"name": "kapverdiska"
-	},
-	"ks": {
-		"name": "kashmiriska"
-	},
-	"ca": {
-		"name": "katalanska"
-	},
-	"kk": {
-		"name": "kazakiska"
-	},
-	"ki": {
-		"name": "kikuyu"
-	},
-	"jmc": {
-		"name": "kimashami"
-	},
-	"zh": {
-		"name": "kinesiska"
-	},
-	"rw": {
-		"name": "kinjarwanda"
-	},
-	"ky": {
-		"name": "kirgiziska"
-	},
-	"ksb": {
-		"name": "kisambaa"
-	},
-	"sw-CD": {
-		"name": "Kongo-swahili"
-	},
-	"kok": {
-		"name": "konkani"
-	},
-	"ko": {
-		"name": "koreanska"
-	},
-	"kw": {
-		"name": "korniska"
-	},
-	"hr": {
-		"name": "kroatiska"
-	},
-	"nmg": {
-		"name": "kwasio"
-	},
-	"cu": {
-		"name": "kyrkslaviska"
-	},
-	"ksh": {
-		"name": "kölniska"
-	},
-	"lkt": {
-		"name": "lakota"
-	},
-	"lag": {
-		"name": "langi"
-	},
-	"lo": {
-		"name": "laotiska"
-	},
-	"es-419": {
-		"name": "latinamerikansk spanska"
-	},
-	"lv": {
-		"name": "lettiska"
-	},
-	"ln": {
-		"name": "lingala"
-	},
-	"lt": {
-		"name": "litauiska"
-	},
-	"lu": {
-		"name": "luba-katanga"
-	},
-	"lg": {
-		"name": "luganda"
-	},
-	"luy": {
-		"name": "luhya"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"xog": {
-		"name": "lusoga"
-	},
-	"lb": {
-		"name": "luxemburgiska"
-	},
-	"nds-NL": {
-		"name": "lågsaxiska"
-	},
-	"dsb": {
-		"name": "lågsorbiska"
-	},
-	"nds": {
-		"name": "lågtyska"
-	},
-	"mk": {
-		"name": "makedonska"
-	},
-	"mgh": {
-		"name": "makhuwa-meetto"
-	},
-	"kde": {
-		"name": "makonde"
-	},
-	"mg": {
-		"name": "malagassiska"
-	},
-	"ms": {
-		"name": "malajiska"
-	},
-	"ml": {
-		"name": "malayalam"
-	},
-	"mt": {
-		"name": "maltesiska"
-	},
-	"gv": {
-		"name": "manx"
-	},
-	"mr": {
-		"name": "marathi"
-	},
-	"zgh": {
-		"name": "marockansk standard-tamazight"
-	},
-	"mas": {
-		"name": "massajiska"
-	},
-	"mfe": {
-		"name": "mauritansk kreol"
-	},
-	"mzn": {
-		"name": "mazanderani"
-	},
-	"mer": {
-		"name": "meru"
-	},
-	"mgo": {
-		"name": "meta’"
-	},
-	"es-MX": {
-		"name": "mexikansk spanska"
-	},
-	"kkj": {
-		"name": "mkako"
-	},
-	"ro-MD": {
-		"name": "moldaviska"
-	},
-	"mn": {
-		"name": "mongoliska"
-	},
-	"mua": {
-		"name": "mundang"
-	},
-	"naq": {
-		"name": "nama"
-	},
-	"nl": {
-		"name": "nederländska"
-	},
-	"ne": {
-		"name": "nepalesiska"
-	},
-	"jgo": {
-		"name": "ngomba"
-	},
-	"lrc": {
-		"name": "nordluri"
-	},
-	"nd": {
-		"name": "nordndebele"
-	},
-	"se": {
-		"name": "nordsamiska"
-	},
-	"nb": {
-		"name": "norskt bokmål"
-	},
-	"nus": {
-		"name": "nuer"
-	},
-	"nyn": {
-		"name": "nyankole"
-	},
-	"nn": {
-		"name": "nynorska"
-	},
-	"or": {
-		"name": "oriya"
-	},
-	"om": {
-		"name": "oromo"
-	},
-	"os": {
-		"name": "ossetiska"
-	},
-	"fa": {
-		"name": "persiska"
-	},
-	"pl": {
-		"name": "polska"
-	},
-	"pt": {
-		"name": "portugisiska"
-	},
-	"pa": {
-		"name": "punjabi"
-	},
-	"qu": {
-		"name": "quechua"
-	},
-	"rof": {
-		"name": "rombo"
-	},
-	"ro": {
-		"name": "rumänska"
-	},
-	"rn": {
-		"name": "rundi"
-	},
-	"rwk": {
-		"name": "rwa"
-	},
-	"ru": {
-		"name": "ryska"
-	},
-	"rm": {
-		"name": "rätoromanska"
-	},
-	"saq": {
-		"name": "samburu"
-	},
-	"sg": {
-		"name": "sango"
-	},
-	"sbp": {
-		"name": "sangu"
-	},
-	"gsw": {
-		"name": "schweizertyska"
-	},
-	"fr-CH": {
-		"name": "schweizisk franska"
-	},
-	"de-CH": {
-		"name": "schweizisk högtyska"
-	},
-	"seh": {
-		"name": "sena"
-	},
-	"sr": {
-		"name": "serbiska"
-	},
-	"sn": {
-		"name": "shona"
-	},
-	"sd": {
-		"name": "sindhi"
-	},
-	"si": {
-		"name": "singalesiska"
-	},
-	"gd": {
-		"name": "skotsk gäliska"
-	},
-	"sk": {
-		"name": "slovakiska"
-	},
-	"sl": {
-		"name": "slovenska"
-	},
-	"so": {
-		"name": "somaliska"
-	},
-	"ckb": {
-		"name": "soranisk kurdiska"
-	},
-	"es": {
-		"name": "spanska"
-	},
-	"sv": {
-		"name": "svenska"
-	},
-	"sw": {
-		"name": "swahili"
-	},
-	"ii": {
-		"name": "szezuan i"
-	},
-	"shi": {
-		"name": "tachelhit"
-	},
-	"tg": {
-		"name": "tadzjikiska"
-	},
-	"dav": {
-		"name": "taita"
-	},
-	"ta": {
-		"name": "tamil"
-	},
-	"twq": {
-		"name": "tasawaq"
-	},
-	"tt": {
-		"name": "tatariska"
-	},
-	"te": {
-		"name": "telugu"
-	},
-	"teo": {
-		"name": "teso"
-	},
-	"th": {
-		"name": "thailändska"
-	},
-	"bo": {
-		"name": "tibetanska"
-	},
-	"ti": {
-		"name": "tigrinja"
-	},
-	"khq": {
-		"name": "Timbuktu-songhoy"
-	},
-	"cs": {
-		"name": "tjeckiska"
-	},
-	"ce": {
-		"name": "tjetjenska"
-	},
-	"to": {
-		"name": "tonganska"
-	},
-	"zh-Hant": {
-		"name": "traditionell kinesiska"
-	},
-	"tr": {
-		"name": "turkiska"
-	},
-	"tk": {
-		"name": "turkmeniska"
-	},
-	"de": {
-		"name": "tyska"
-	},
-	"ug": {
-		"name": "uiguriska"
-	},
-	"uk": {
-		"name": "ukrainska"
-	},
-	"hu": {
-		"name": "ungerska"
-	},
-	"ur": {
-		"name": "urdu"
-	},
-	"uz": {
-		"name": "uzbekiska"
-	},
-	"vai": {
-		"name": "vaj"
-	},
-	"vi": {
-		"name": "vietnamesiska"
-	},
-	"be": {
-		"name": "vitryska"
-	},
-	"vo": {
-		"name": "volapük"
-	},
-	"vun": {
-		"name": "vunjo"
-	},
-	"fy": {
-		"name": "västfrisiska"
-	},
-	"cy": {
-		"name": "walesiska"
-	},
-	"wae": {
-		"name": "walsertyska"
-	},
-	"wo": {
-		"name": "wolof"
-	},
-	"yav": {
-		"name": "yangben"
-	},
-	"yo": {
-		"name": "yoruba"
-	},
-	"dje": {
-		"name": "zarma"
-	},
-	"zu": {
-		"name": "zulu"
-	},
-	"de-AT": {
-		"name": "österrikisk tyska"
-	}
+	"ps": "afghanska",
+	"af": "afrikaans",
+	"agq": "aghem",
+	"ak": "akan",
+	"sq": "albanska",
+	"am": "amhariska",
+	"ar": "arabiska",
+	"hy": "armeniska",
+	"as": "assamesiska",
+	"ast": "asturiska",
+	"asa": "asu",
+	"en-AU": "australisk engelska",
+	"az": "azerbajdzjanska",
+	"ksf": "bafia",
+	"bm": "bambara",
+	"nnh": "bamileké-ngiemboon",
+	"bas": "basa",
+	"eu": "baskiska",
+	"bem": "bemba",
+	"bez": "bena",
+	"bn": "bengali",
+	"brx": "bodo",
+	"bs": "bosniska",
+	"br": "bretonska",
+	"en-GB": "brittisk engelska",
+	"bg": "bulgariska",
+	"my": "burmesiska",
+	"tzm": "centralmarockansk tamazight",
+	"chr": "cherokesiska",
+	"cgg": "chiga",
+	"da": "danska",
+	"dua": "duala",
+	"dz": "dzongkha",
+	"ebu": "embu",
+	"smn": "enaresamiska",
+	"en": "engelska",
+	"eo": "esperanto",
+	"et": "estniska",
+	"pt-PT": "europeisk portugisiska",
+	"ee": "ewe",
+	"ewo": "ewondo",
+	"fil": "filippinska",
+	"fi": "finska",
+	"nl-BE": "flamländska",
+	"prg": "fornpreussiska",
+	"fr": "franska",
+	"fur": "friulianska",
+	"ff": "fulani",
+	"fo": "färöiska",
+	"zh-Hans": "förenklad kinesiska",
+	"gl": "galiciska",
+	"ses": "Gao-songhay",
+	"ka": "georgiska",
+	"el": "grekiska",
+	"kl": "grönländska",
+	"gu": "gujarati",
+	"guz": "gusii",
+	"ha": "hausa",
+	"haw": "hawaiiska",
+	"he": "hebreiska",
+	"hi": "hindi",
+	"hsb": "högsorbiska",
+	"ig": "igbo",
+	"id": "indonesiska",
+	"ga": "iriska",
+	"is": "isländska",
+	"it": "italienska",
+	"sah": "jakutiska",
+	"ja": "japanska",
+	"yi": "jiddisch",
+	"dyo": "jola-fonyi",
+	"kab": "kabyliska",
+	"kln": "kalenjin",
+	"kam": "kamba",
+	"km": "kambodjanska",
+	"en-CA": "kanadensisk engelska",
+	"fr-CA": "kanadensisk franska",
+	"kn": "kannada",
+	"kea": "kapverdiska",
+	"ks": "kashmiriska",
+	"ca": "katalanska",
+	"kk": "kazakiska",
+	"ki": "kikuyu",
+	"jmc": "kimashami",
+	"zh": "kinesiska",
+	"rw": "kinjarwanda",
+	"ky": "kirgiziska",
+	"ksb": "kisambaa",
+	"sw-CD": "Kongo-swahili",
+	"kok": "konkani",
+	"ko": "koreanska",
+	"kw": "korniska",
+	"hr": "kroatiska",
+	"nmg": "kwasio",
+	"cu": "kyrkslaviska",
+	"ksh": "kölniska",
+	"lkt": "lakota",
+	"lag": "langi",
+	"lo": "laotiska",
+	"es-419": "latinamerikansk spanska",
+	"lv": "lettiska",
+	"ln": "lingala",
+	"lt": "litauiska",
+	"lu": "luba-katanga",
+	"lg": "luganda",
+	"luy": "luhya",
+	"luo": "Luo",
+	"xog": "lusoga",
+	"lb": "luxemburgiska",
+	"nds-NL": "lågsaxiska",
+	"dsb": "lågsorbiska",
+	"nds": "lågtyska",
+	"mk": "makedonska",
+	"mgh": "makhuwa-meetto",
+	"kde": "makonde",
+	"mg": "malagassiska",
+	"ms": "malajiska",
+	"ml": "malayalam",
+	"mt": "maltesiska",
+	"gv": "manx",
+	"mr": "marathi",
+	"zgh": "marockansk standard-tamazight",
+	"mas": "massajiska",
+	"mfe": "mauritansk kreol",
+	"mzn": "mazanderani",
+	"mer": "meru",
+	"mgo": "meta’",
+	"es-MX": "mexikansk spanska",
+	"kkj": "mkako",
+	"ro-MD": "moldaviska",
+	"mn": "mongoliska",
+	"mua": "mundang",
+	"naq": "nama",
+	"nl": "nederländska",
+	"ne": "nepalesiska",
+	"jgo": "ngomba",
+	"lrc": "nordluri",
+	"nd": "nordndebele",
+	"se": "nordsamiska",
+	"nb": "norskt bokmål",
+	"nus": "nuer",
+	"nyn": "nyankole",
+	"nn": "nynorska",
+	"or": "oriya",
+	"om": "oromo",
+	"os": "ossetiska",
+	"fa": "persiska",
+	"pl": "polska",
+	"pt": "portugisiska",
+	"pa": "punjabi",
+	"qu": "quechua",
+	"rof": "rombo",
+	"ro": "rumänska",
+	"rn": "rundi",
+	"rwk": "rwa",
+	"ru": "ryska",
+	"rm": "rätoromanska",
+	"saq": "samburu",
+	"sg": "sango",
+	"sbp": "sangu",
+	"gsw": "schweizertyska",
+	"fr-CH": "schweizisk franska",
+	"de-CH": "schweizisk högtyska",
+	"seh": "sena",
+	"sr": "serbiska",
+	"sn": "shona",
+	"sd": "sindhi",
+	"si": "singalesiska",
+	"gd": "skotsk gäliska",
+	"sk": "slovakiska",
+	"sl": "slovenska",
+	"so": "somaliska",
+	"ckb": "soranisk kurdiska",
+	"es": "spanska",
+	"sv": "svenska",
+	"sw": "swahili",
+	"ii": "szezuan i",
+	"shi": "tachelhit",
+	"tg": "tadzjikiska",
+	"dav": "taita",
+	"ta": "tamil",
+	"twq": "tasawaq",
+	"tt": "tatariska",
+	"te": "telugu",
+	"teo": "teso",
+	"th": "thailändska",
+	"bo": "tibetanska",
+	"ti": "tigrinja",
+	"khq": "Timbuktu-songhoy",
+	"cs": "tjeckiska",
+	"ce": "tjetjenska",
+	"to": "tonganska",
+	"zh-Hant": "traditionell kinesiska",
+	"tr": "turkiska",
+	"tk": "turkmeniska",
+	"de": "tyska",
+	"ug": "uiguriska",
+	"uk": "ukrainska",
+	"hu": "ungerska",
+	"ur": "urdu",
+	"uz": "uzbekiska",
+	"vai": "vaj",
+	"vi": "vietnamesiska",
+	"be": "vitryska",
+	"vo": "volapük",
+	"vun": "vunjo",
+	"fy": "västfrisiska",
+	"cy": "walesiska",
+	"wae": "walsertyska",
+	"wo": "wolof",
+	"yav": "yangben",
+	"yo": "yoruba",
+	"dje": "zarma",
+	"zu": "zulu",
+	"de-AT": "österrikisk tyska"
 }

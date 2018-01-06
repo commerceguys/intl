@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "Afraganais"
-	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"hy": {
-		"name": "Airmeinis"
-	},
-	"ak": {
-		"name": "Akan"
-	},
-	"sq": {
-		"name": "Albàinis"
-	},
-	"am": {
-		"name": "Amtharais"
-	},
-	"ar": {
-		"name": "Arabais"
-	},
-	"de-CH": {
-		"name": "Àrd-Ghearmailtis na h-Eilbheise"
-	},
-	"as": {
-		"name": "Asamais"
-	},
-	"az": {
-		"name": "Asarbaideànais"
-	},
-	"ast": {
-		"name": "Astùrais"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bn": {
-		"name": "Bangla"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"eu": {
-		"name": "Basgais"
-	},
-	"be": {
-		"name": "Bealaruisis"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"en": {
-		"name": "Beurla"
-	},
-	"en-AU": {
-		"name": "Beurla Astràilia"
-	},
-	"en-GB": {
-		"name": "Beurla Bhreatainn"
-	},
-	"en-CA": {
-		"name": "Beurla Chanada"
-	},
-	"vi": {
-		"name": "Bhiet-Namais"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"nb": {
-		"name": "Bokmål na Nirribhidh"
-	},
-	"bs": {
-		"name": "Bosnais"
-	},
-	"br": {
-		"name": "Breatnais"
-	},
-	"bg": {
-		"name": "Bulgarais"
-	},
-	"my": {
-		"name": "Burmais"
-	},
-	"ka": {
-		"name": "Cairtbheilis"
-	},
-	"ks": {
-		"name": "Caismiris"
-	},
-	"haw": {
-		"name": "Cànan Hawai’i"
-	},
-	"th": {
-		"name": "Cànan nan Tàidh"
-	},
-	"kk": {
-		"name": "Casachais"
-	},
-	"ca": {
-		"name": "Catalanais"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"ky": {
-		"name": "Cìorgasais"
-	},
-	"km": {
-		"name": "Cmèar"
-	},
-	"ko": {
-		"name": "Coirèanais"
-	},
-	"kw": {
-		"name": "Còrnais"
-	},
-	"hr": {
-		"name": "Cròthaisis"
-	},
-	"cy": {
-		"name": "Cuimris"
-	},
-	"ckb": {
-		"name": "Cùrdais Mheadhanach"
-	},
-	"da": {
-		"name": "Danmhairgis"
-	},
-	"ce": {
-		"name": "Deideanais"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"nl": {
-		"name": "Duitsis"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"he": {
-		"name": "Eabhra"
-	},
-	"it": {
-		"name": "Eadailtis"
-	},
-	"et": {
-		"name": "Eastoinis"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"eo": {
-		"name": "Esperanto"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fo": {
-		"name": "Fàrothais"
-	},
-	"fil": {
-		"name": "Filipinis"
-	},
-	"fi": {
-		"name": "Fionnlannais"
-	},
-	"nl-BE": {
-		"name": "Flannrais"
-	},
-	"fr": {
-		"name": "Fraingis"
-	},
-	"fr-CA": {
-		"name": "Fraingis Chanada"
-	},
-	"fr-CH": {
-		"name": "Fraingis Eilbheiseach"
-	},
-	"fy": {
-		"name": "Frìoslannais Shiarach"
-	},
-	"fur": {
-		"name": "Friùilis"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"ga": {
-		"name": "Gaeilge"
-	},
-	"gv": {
-		"name": "Gaelg"
-	},
-	"gd": {
-		"name": "Gàidhlig"
-	},
-	"gl": {
-		"name": "Gailìsis"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"de": {
-		"name": "Gearmailtis"
-	},
-	"ksh": {
-		"name": "Gearmailtis Chologne"
-	},
-	"gsw": {
-		"name": "Gearmailtis Eilbheiseach"
-	},
-	"nds": {
-		"name": "Gearmailtis Ìochdarach"
-	},
-	"de-AT": {
-		"name": "Gearmailtis na h-Ostaire"
-	},
-	"wae": {
-		"name": "Gearmailtis Wallis"
-	},
-	"el": {
-		"name": "Greugais"
-	},
-	"gu": {
-		"name": "Gujarati"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"ha": {
-		"name": "Hausa"
-	},
-	"hi": {
-		"name": "Hindis"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"id": {
-		"name": "Innd-Innsis"
-	},
-	"is": {
-		"name": "Innis Tìlis"
-	},
-	"yi": {
-		"name": "Iùdhais"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"kn": {
-		"name": "Kannada"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"rw": {
-		"name": "Kinyarwanda"
-	},
-	"rn": {
-		"name": "Kirundi"
-	},
-	"sw": {
-		"name": "Kiswahili"
-	},
-	"sw-CD": {
-		"name": "Kiswahili na Congo"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lv": {
-		"name": "Laitbheis"
-	},
-	"lkt": {
-		"name": "Lakhóta"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lo": {
-		"name": "Làtho"
-	},
-	"ln": {
-		"name": "Lingala"
-	},
-	"lt": {
-		"name": "Liotuainis"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"lb": {
-		"name": "Lugsamburgais"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lrc": {
-		"name": "Luri Thuathach"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"mas": {
-		"name": "Maasai"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"mg": {
-		"name": "Malagasais"
-	},
-	"ms": {
-		"name": "Malaidhis"
-	},
-	"ml": {
-		"name": "Malayalam"
-	},
-	"mt": {
-		"name": "Maltais"
-	},
-	"mr": {
-		"name": "Marathi"
-	},
-	"mk": {
-		"name": "Masadonais"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Meta’"
-	},
-	"ro-MD": {
-		"name": "Moldobhais"
-	},
-	"mn": {
-		"name": "Mongolais"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nd": {
-		"name": "Ndebele Thuathach"
-	},
-	"ne": {
-		"name": "Neapàlais"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"nn": {
-		"name": "Nynorsk na Nirribhidh"
-	},
-	"or": {
-		"name": "Odia"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Ossetic"
-	},
-	"pa": {
-		"name": "Panjabi"
-	},
-	"ps": {
-		"name": "Pashto"
-	},
-	"fa": {
-		"name": "Peirsis"
-	},
-	"pl": {
-		"name": "Pòlainnis"
-	},
-	"pt": {
-		"name": "Portagailis"
-	},
-	"pt-PT": {
-		"name": "Portagailis Eòrpach"
-	},
-	"prg": {
-		"name": "Pruisis"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"ro": {
-		"name": "Romàinis"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"ru": {
-		"name": "Ruisis"
-	},
-	"rm": {
-		"name": "Rumains"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"nds-NL": {
-		"name": "Sagsannais Ìochdarach"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"smn": {
-		"name": "Sàmais Inari"
-	},
-	"se": {
-		"name": "Sàmais Thuathach"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"ja": {
-		"name": "Seapanais"
-	},
-	"cs": {
-		"name": "Seicis"
-	},
-	"sr": {
-		"name": "Sèirbis"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "Shona"
-	},
-	"sd": {
-		"name": "Sindhi"
-	},
-	"si": {
-		"name": "Sinhala"
-	},
-	"zh": {
-		"name": "Sìnis"
-	},
-	"zh-Hans": {
-		"name": "Sìnis Shimplichte"
-	},
-	"zh-Hant": {
-		"name": "Sìnis Thradaiseanta"
-	},
-	"cu": {
-		"name": "Slàbhais na h-Eaglaise"
-	},
-	"sk": {
-		"name": "Slòbhacais"
-	},
-	"sl": {
-		"name": "Slòbhainis"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "Somàilis"
-	},
-	"dsb": {
-		"name": "Sòrbais Ìochdarach"
-	},
-	"hsb": {
-		"name": "Sòrbais Uachdarach"
-	},
-	"es": {
-		"name": "Spàinntis"
-	},
-	"es-MX": {
-		"name": "Spàinntis Mheagsagach"
-	},
-	"es-419": {
-		"name": "Spàinntis na h-Aimeireaga Laidinneach"
-	},
-	"sv": {
-		"name": "Suainis"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"tg": {
-		"name": "Taidigis"
-	},
-	"ta": {
-		"name": "Taimilis"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"tzm": {
-		"name": "Tamazight an Atlais Mheadhanaich"
-	},
-	"zgh": {
-		"name": "Tamazight Stannardach Moroco"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "Tatarais"
-	},
-	"te": {
-		"name": "Telugu"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"bo": {
-		"name": "Tibeitis"
-	},
-	"ti": {
-		"name": "Tigrinya"
-	},
-	"to": {
-		"name": "Tonga"
-	},
-	"tr": {
-		"name": "Turcais"
-	},
-	"tk": {
-		"name": "Turcmanais"
-	},
-	"uk": {
-		"name": "Ucràinis"
-	},
-	"ug": {
-		"name": "Ùigiurais"
-	},
-	"hu": {
-		"name": "Ungairis"
-	},
-	"ur": {
-		"name": "Ùrdu"
-	},
-	"uz": {
-		"name": "Usbagais"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wo": {
-		"name": "Wolof"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"ii": {
-		"name": "Yi Sichuan"
-	},
-	"yo": {
-		"name": "Yoruba"
-	},
-	"dje": {
-		"name": "Zarma"
-	},
-	"zu": {
-		"name": "Zulu"
-	}
+	"af": "Afraganais",
+	"agq": "Aghem",
+	"hy": "Airmeinis",
+	"ak": "Akan",
+	"sq": "Albàinis",
+	"am": "Amtharais",
+	"ar": "Arabais",
+	"de-CH": "Àrd-Ghearmailtis na h-Eilbheise",
+	"as": "Asamais",
+	"az": "Asarbaideànais",
+	"ast": "Astùrais",
+	"asa": "Asu",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bn": "Bangla",
+	"bas": "Basaa",
+	"eu": "Basgais",
+	"be": "Bealaruisis",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"en": "Beurla",
+	"en-AU": "Beurla Astràilia",
+	"en-GB": "Beurla Bhreatainn",
+	"en-CA": "Beurla Chanada",
+	"vi": "Bhiet-Namais",
+	"brx": "Bodo",
+	"nb": "Bokmål na Nirribhidh",
+	"bs": "Bosnais",
+	"br": "Breatnais",
+	"bg": "Bulgarais",
+	"my": "Burmais",
+	"ka": "Cairtbheilis",
+	"ks": "Caismiris",
+	"haw": "Cànan Hawai’i",
+	"th": "Cànan nan Tàidh",
+	"kk": "Casachais",
+	"ca": "Catalanais",
+	"chr": "Cherokee",
+	"cgg": "Chiga",
+	"ky": "Cìorgasais",
+	"km": "Cmèar",
+	"ko": "Coirèanais",
+	"kw": "Còrnais",
+	"hr": "Cròthaisis",
+	"cy": "Cuimris",
+	"ckb": "Cùrdais Mheadhanach",
+	"da": "Danmhairgis",
+	"ce": "Deideanais",
+	"dua": "Duala",
+	"nl": "Duitsis",
+	"dz": "Dzongkha",
+	"he": "Eabhra",
+	"it": "Eadailtis",
+	"et": "Eastoinis",
+	"ebu": "Embu",
+	"eo": "Esperanto",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fo": "Fàrothais",
+	"fil": "Filipinis",
+	"fi": "Fionnlannais",
+	"nl-BE": "Flannrais",
+	"fr": "Fraingis",
+	"fr-CA": "Fraingis Chanada",
+	"fr-CH": "Fraingis Eilbheiseach",
+	"fy": "Frìoslannais Shiarach",
+	"fur": "Friùilis",
+	"ff": "Fulah",
+	"ga": "Gaeilge",
+	"gv": "Gaelg",
+	"gd": "Gàidhlig",
+	"gl": "Gailìsis",
+	"lg": "Ganda",
+	"de": "Gearmailtis",
+	"ksh": "Gearmailtis Chologne",
+	"gsw": "Gearmailtis Eilbheiseach",
+	"nds": "Gearmailtis Ìochdarach",
+	"de-AT": "Gearmailtis na h-Ostaire",
+	"wae": "Gearmailtis Wallis",
+	"el": "Greugais",
+	"gu": "Gujarati",
+	"guz": "Gusii",
+	"ha": "Hausa",
+	"hi": "Hindis",
+	"ig": "Igbo",
+	"id": "Innd-Innsis",
+	"is": "Innis Tìlis",
+	"yi": "Iùdhais",
+	"dyo": "Jola-Fonyi",
+	"kea": "Kabuverdianu",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"kn": "Kannada",
+	"ki": "Kikuyu",
+	"rw": "Kinyarwanda",
+	"rn": "Kirundi",
+	"sw": "Kiswahili",
+	"sw-CD": "Kiswahili na Congo",
+	"kok": "Konkani",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"nmg": "Kwasio",
+	"lv": "Laitbheis",
+	"lkt": "Lakhóta",
+	"lag": "Langi",
+	"lo": "Làtho",
+	"ln": "Lingala",
+	"lt": "Liotuainis",
+	"lu": "Luba-Katanga",
+	"lb": "Lugsamburgais",
+	"luo": "Luo",
+	"lrc": "Luri Thuathach",
+	"luy": "Luyia",
+	"mas": "Maasai",
+	"jmc": "Machame",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"mg": "Malagasais",
+	"ms": "Malaidhis",
+	"ml": "Malayalam",
+	"mt": "Maltais",
+	"mr": "Marathi",
+	"mk": "Masadonais",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Meta’",
+	"ro-MD": "Moldobhais",
+	"mn": "Mongolais",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nd": "Ndebele Thuathach",
+	"ne": "Neapàlais",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"nn": "Nynorsk na Nirribhidh",
+	"or": "Odia",
+	"om": "Oromo",
+	"os": "Ossetic",
+	"pa": "Panjabi",
+	"ps": "Pashto",
+	"fa": "Peirsis",
+	"pl": "Pòlainnis",
+	"pt": "Portagailis",
+	"pt-PT": "Portagailis Eòrpach",
+	"prg": "Pruisis",
+	"qu": "Quechua",
+	"ro": "Romàinis",
+	"rof": "Rombo",
+	"ru": "Ruisis",
+	"rm": "Rumains",
+	"rwk": "Rwa",
+	"nds-NL": "Sagsannais Ìochdarach",
+	"sah": "Sakha",
+	"smn": "Sàmais Inari",
+	"se": "Sàmais Thuathach",
+	"saq": "Samburu",
+	"sg": "Sango",
+	"sbp": "Sangu",
+	"ja": "Seapanais",
+	"cs": "Seicis",
+	"sr": "Sèirbis",
+	"seh": "Sena",
+	"ksb": "Shambala",
+	"sn": "Shona",
+	"sd": "Sindhi",
+	"si": "Sinhala",
+	"zh": "Sìnis",
+	"zh-Hans": "Sìnis Shimplichte",
+	"zh-Hant": "Sìnis Thradaiseanta",
+	"cu": "Slàbhais na h-Eaglaise",
+	"sk": "Slòbhacais",
+	"sl": "Slòbhainis",
+	"xog": "Soga",
+	"so": "Somàilis",
+	"dsb": "Sòrbais Ìochdarach",
+	"hsb": "Sòrbais Uachdarach",
+	"es": "Spàinntis",
+	"es-MX": "Spàinntis Mheagsagach",
+	"es-419": "Spàinntis na h-Aimeireaga Laidinneach",
+	"sv": "Suainis",
+	"shi": "Tachelhit",
+	"tg": "Taidigis",
+	"ta": "Taimilis",
+	"dav": "Taita",
+	"tzm": "Tamazight an Atlais Mheadhanaich",
+	"zgh": "Tamazight Stannardach Moroco",
+	"twq": "Tasawaq",
+	"tt": "Tatarais",
+	"te": "Telugu",
+	"teo": "Teso",
+	"bo": "Tibeitis",
+	"ti": "Tigrinya",
+	"to": "Tonga",
+	"tr": "Turcais",
+	"tk": "Turcmanais",
+	"uk": "Ucràinis",
+	"ug": "Ùigiurais",
+	"hu": "Ungairis",
+	"ur": "Ùrdu",
+	"uz": "Usbagais",
+	"vai": "Vai",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"wo": "Wolof",
+	"yav": "Yangben",
+	"ii": "Yi Sichuan",
+	"yo": "Yoruba",
+	"dje": "Zarma",
+	"zu": "Zulu"
 }

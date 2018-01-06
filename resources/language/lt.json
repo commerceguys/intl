@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "afrikanų"
-	},
-	"agq": {
-		"name": "aghemų"
-	},
-	"ga": {
-		"name": "airių"
-	},
-	"ak": {
-		"name": "akanų"
-	},
-	"sq": {
-		"name": "albanų"
-	},
-	"am": {
-		"name": "amharų"
-	},
-	"en": {
-		"name": "anglų"
-	},
-	"ar": {
-		"name": "arabų"
-	},
-	"hy": {
-		"name": "armėnų"
-	},
-	"as": {
-		"name": "asamų"
-	},
-	"ast": {
-		"name": "asturianų"
-	},
-	"asa": {
-		"name": "asu"
-	},
-	"hsb": {
-		"name": "aukštutinių sorbų"
-	},
-	"en-AU": {
-		"name": "Australijos anglų"
-	},
-	"de-AT": {
-		"name": "Austrijos vokiečių"
-	},
-	"az": {
-		"name": "azerbaidžaniečių"
-	},
-	"ksf": {
-		"name": "bafų"
-	},
-	"be": {
-		"name": "baltarusių"
-	},
-	"bm": {
-		"name": "bambarų"
-	},
-	"eu": {
-		"name": "baskų"
-	},
-	"bas": {
-		"name": "basų"
-	},
-	"cu": {
-		"name": "bažnytinė slavų"
-	},
-	"bem": {
-		"name": "bembų"
-	},
-	"bn": {
-		"name": "bengalų"
-	},
-	"bez": {
-		"name": "benų"
-	},
-	"my": {
-		"name": "birmiečių"
-	},
-	"brx": {
-		"name": "bodo"
-	},
-	"bs": {
-		"name": "bosnių"
-	},
-	"dz": {
-		"name": "botijų"
-	},
-	"br": {
-		"name": "bretonų"
-	},
-	"bg": {
-		"name": "bulgarų"
-	},
-	"tzm": {
-		"name": "Centrinio Maroko tamazitų"
-	},
-	"ce": {
-		"name": "čečėnų"
-	},
-	"cs": {
-		"name": "čekų"
-	},
-	"chr": {
-		"name": "čerokių"
-	},
-	"cgg": {
-		"name": "čigų"
-	},
-	"da": {
-		"name": "danų"
-	},
-	"en-GB": {
-		"name": "Didžiosios Britanijos anglų"
-	},
-	"dua": {
-		"name": "dualų"
-	},
-	"dyo": {
-		"name": "džiola-foni"
-	},
-	"ebu": {
-		"name": "embu"
-	},
-	"eo": {
-		"name": "esperanto"
-	},
-	"et": {
-		"name": "estų"
-	},
-	"pt-PT": {
-		"name": "Europos portugalų"
-	},
-	"ee": {
-		"name": "evių"
-	},
-	"ewo": {
-		"name": "evondo"
-	},
-	"fo": {
-		"name": "farerų"
-	},
-	"fil": {
-		"name": "filipiniečių"
-	},
-	"nl-BE": {
-		"name": "flamandų"
-	},
-	"fur": {
-		"name": "friulių"
-	},
-	"ff": {
-		"name": "fulahų"
-	},
-	"gl": {
-		"name": "galisų"
-	},
-	"lg": {
-		"name": "ganda"
-	},
-	"el": {
-		"name": "graikų"
-	},
-	"ka": {
-		"name": "gruzinų"
-	},
-	"gu": {
-		"name": "gudžaratų"
-	},
-	"guz": {
-		"name": "gusi"
-	},
-	"ha": {
-		"name": "hausų"
-	},
-	"haw": {
-		"name": "havajiečių"
-	},
-	"he": {
-		"name": "hebrajų"
-	},
-	"hi": {
-		"name": "hindi"
-	},
-	"ig": {
-		"name": "igbų"
-	},
-	"smn": {
-		"name": "Inario samių"
-	},
-	"id": {
-		"name": "indoneziečių"
-	},
-	"is": {
-		"name": "islandų"
-	},
-	"es": {
-		"name": "ispanų"
-	},
-	"it": {
-		"name": "italų"
-	},
-	"sah": {
-		"name": "jakutų"
-	},
-	"yav": {
-		"name": "jangbenų"
-	},
-	"ja": {
-		"name": "japonų"
-	},
-	"yi": {
-		"name": "jidiš"
-	},
-	"yo": {
-		"name": "jorubų"
-	},
-	"kkj": {
-		"name": "kako"
-	},
-	"kl": {
-		"name": "kalalisut"
-	},
-	"kln": {
-		"name": "kalenjinų"
-	},
-	"en-CA": {
-		"name": "Kanados anglų"
-	},
-	"fr-CA": {
-		"name": "Kanados prancūzų"
-	},
-	"kn": {
-		"name": "kanadų"
-	},
-	"ks": {
-		"name": "kašmyrų"
-	},
-	"ca": {
-		"name": "katalonų"
-	},
-	"kk": {
-		"name": "kazachų"
-	},
-	"kab": {
-		"name": "kebailų"
-	},
-	"qu": {
-		"name": "kečujų"
-	},
-	"kam": {
-		"name": "kembų"
-	},
-	"km": {
-		"name": "khmerų"
-	},
-	"ki": {
-		"name": "kikujų"
-	},
-	"rw": {
-		"name": "kinjaruandų"
-	},
-	"zh": {
-		"name": "kinų"
-	},
-	"ky": {
-		"name": "kirgizų"
-	},
-	"khq": {
-		"name": "kojra čini"
-	},
-	"ses": {
-		"name": "kojraboro seni"
-	},
-	"ksh": {
-		"name": "kolognų"
-	},
-	"sw-CD": {
-		"name": "Kongo suahilių"
-	},
-	"kok": {
-		"name": "konkanių"
-	},
-	"ko": {
-		"name": "korėjiečių"
-	},
-	"kw": {
-		"name": "kornų"
-	},
-	"hr": {
-		"name": "kroatų"
-	},
-	"nmg": {
-		"name": "kvasių"
-	},
-	"lkt": {
-		"name": "lakotų"
-	},
-	"lag": {
-		"name": "langi"
-	},
-	"lo": {
-		"name": "laosiečių"
-	},
-	"lv": {
-		"name": "latvių"
-	},
-	"pl": {
-		"name": "lenkų"
-	},
-	"lt": {
-		"name": "lietuvių"
-	},
-	"lb": {
-		"name": "liuksemburgiečių"
-	},
-	"es-419": {
-		"name": "Lotynų Amerikos ispanų"
-	},
-	"lu": {
-		"name": "luba katanga"
-	},
-	"luy": {
-		"name": "luja"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"jmc": {
-		"name": "mačamų"
-	},
-	"mk": {
-		"name": "makedonų"
-	},
-	"kde": {
-		"name": "makondų"
-	},
-	"mgh": {
-		"name": "makua-maeto"
-	},
-	"mg": {
-		"name": "malagasų"
-	},
-	"ml": {
-		"name": "malajalių"
-	},
-	"ms": {
-		"name": "malajiečių"
-	},
-	"mt": {
-		"name": "maltiečių"
-	},
-	"mr": {
-		"name": "maratų"
-	},
-	"mas": {
-		"name": "masajų"
-	},
-	"mzn": {
-		"name": "mazenderanių"
-	},
-	"es-MX": {
-		"name": "Meksikos ispanų"
-	},
-	"gv": {
-		"name": "meniečių"
-	},
-	"mer": {
-		"name": "merų"
-	},
-	"mgo": {
-		"name": "meta"
-	},
-	"ro-MD": {
-		"name": "moldavų"
-	},
-	"mn": {
-		"name": "mongolų"
-	},
-	"mfe": {
-		"name": "morisijų"
-	},
-	"mua": {
-		"name": "mundangų"
-	},
-	"naq": {
-		"name": "nama"
-	},
-	"nn": {
-		"name": "naujoji norvegų"
-	},
-	"ne": {
-		"name": "nepaliečių"
-	},
-	"ln": {
-		"name": "ngalų"
-	},
-	"nnh": {
-		"name": "ngiembūnų"
-	},
-	"jgo": {
-		"name": "ngombų"
-	},
-	"nyn": {
-		"name": "niankolų"
-	},
-	"nb": {
-		"name": "norvegų bukmolas"
-	},
-	"nus": {
-		"name": "nuerų"
-	},
-	"or": {
-		"name": "odijų"
-	},
-	"nl": {
-		"name": "olandų"
-	},
-	"om": {
-		"name": "oromų"
-	},
-	"os": {
-		"name": "osetinų"
-	},
-	"pa": {
-		"name": "pendžabų"
-	},
-	"fa": {
-		"name": "persų"
-	},
-	"pt": {
-		"name": "portugalų"
-	},
-	"fr": {
-		"name": "prancūzų"
-	},
-	"prg": {
-		"name": "prūsų"
-	},
-	"ps": {
-		"name": "puštūnų"
-	},
-	"rm": {
-		"name": "retoromanų"
-	},
-	"rof": {
-		"name": "rombo"
-	},
-	"rwk": {
-		"name": "rua"
-	},
-	"ro": {
-		"name": "rumunų"
-	},
-	"rn": {
-		"name": "rundi"
-	},
-	"ru": {
-		"name": "rusų"
-	},
-	"saq": {
-		"name": "sambūrų"
-	},
-	"sg": {
-		"name": "sango"
-	},
-	"sbp": {
-		"name": "sangų"
-	},
-	"seh": {
-		"name": "senų"
-	},
-	"sr": {
-		"name": "serbų"
-	},
-	"ii": {
-		"name": "sičuan ji"
-	},
-	"sd": {
-		"name": "sindų"
-	},
-	"si": {
-		"name": "sinhalų"
-	},
-	"sk": {
-		"name": "slovakų"
-	},
-	"sl": {
-		"name": "slovėnų"
-	},
-	"xog": {
-		"name": "sogų"
-	},
-	"so": {
-		"name": "somaliečių"
-	},
-	"ckb": {
-		"name": "soranių kurdų"
-	},
-	"zgh": {
-		"name": "standartinė Maroko tamazigtų"
-	},
-	"sw": {
-		"name": "suahilių"
-	},
-	"fi": {
-		"name": "suomių"
-	},
-	"zh-Hans": {
-		"name": "supaprastintoji kinų"
-	},
-	"ksb": {
-		"name": "šambalų"
-	},
-	"lrc": {
-		"name": "šiaurės luri"
-	},
-	"nd": {
-		"name": "šiaurės ndebelų"
-	},
-	"se": {
-		"name": "šiaurės samių"
-	},
-	"gd": {
-		"name": "škotų (gėlų)"
-	},
-	"sn": {
-		"name": "šonų"
-	},
-	"sv": {
-		"name": "švedų"
-	},
-	"de-CH": {
-		"name": "Šveicarijos aukštutinė vokiečių"
-	},
-	"fr-CH": {
-		"name": "Šveicarijos prancūzų"
-	},
-	"gsw": {
-		"name": "Šveicarijos vokiečių"
-	},
-	"shi": {
-		"name": "tachelhitų"
-	},
-	"tg": {
-		"name": "tadžikų"
-	},
-	"dav": {
-		"name": "taitų"
-	},
-	"th": {
-		"name": "tajų"
-	},
-	"ta": {
-		"name": "tamilų"
-	},
-	"twq": {
-		"name": "tasavakų"
-	},
-	"te": {
-		"name": "telugų"
-	},
-	"teo": {
-		"name": "teso"
-	},
-	"bo": {
-		"name": "tibetiečių"
-	},
-	"ti": {
-		"name": "tigrajų"
-	},
-	"to": {
-		"name": "tonganų"
-	},
-	"tt": {
-		"name": "totorių"
-	},
-	"zh-Hant": {
-		"name": "tradicinė kinų"
-	},
-	"tk": {
-		"name": "turkmėnų"
-	},
-	"tr": {
-		"name": "turkų"
-	},
-	"ug": {
-		"name": "uigūrų"
-	},
-	"uk": {
-		"name": "ukrainiečių"
-	},
-	"ur": {
-		"name": "urdų"
-	},
-	"uz": {
-		"name": "uzbekų"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"fy": {
-		"name": "vakarų fryzų"
-	},
-	"wae": {
-		"name": "valserų"
-	},
-	"cy": {
-		"name": "valų"
-	},
-	"hu": {
-		"name": "vengrų"
-	},
-	"vi": {
-		"name": "vietnamiečių"
-	},
-	"de": {
-		"name": "vokiečių"
-	},
-	"vo": {
-		"name": "volapiuko"
-	},
-	"wo": {
-		"name": "volofų"
-	},
-	"vun": {
-		"name": "vunjo"
-	},
-	"dje": {
-		"name": "zarmų"
-	},
-	"zu": {
-		"name": "zulų"
-	},
-	"kea": {
-		"name": "Žaliojo Kyšulio kreolų"
-	},
-	"nds-NL": {
-		"name": "Žemutinės Saksonijos (Nyderlandai)"
-	},
-	"nds": {
-		"name": "Žemutinės Vokietijos"
-	},
-	"dsb": {
-		"name": "žemutinių sorbų"
-	}
+	"af": "afrikanų",
+	"agq": "aghemų",
+	"ga": "airių",
+	"ak": "akanų",
+	"sq": "albanų",
+	"am": "amharų",
+	"en": "anglų",
+	"ar": "arabų",
+	"hy": "armėnų",
+	"as": "asamų",
+	"ast": "asturianų",
+	"asa": "asu",
+	"hsb": "aukštutinių sorbų",
+	"en-AU": "Australijos anglų",
+	"de-AT": "Austrijos vokiečių",
+	"az": "azerbaidžaniečių",
+	"ksf": "bafų",
+	"be": "baltarusių",
+	"bm": "bambarų",
+	"eu": "baskų",
+	"bas": "basų",
+	"cu": "bažnytinė slavų",
+	"bem": "bembų",
+	"bn": "bengalų",
+	"bez": "benų",
+	"my": "birmiečių",
+	"brx": "bodo",
+	"bs": "bosnių",
+	"dz": "botijų",
+	"br": "bretonų",
+	"bg": "bulgarų",
+	"tzm": "Centrinio Maroko tamazitų",
+	"ce": "čečėnų",
+	"cs": "čekų",
+	"chr": "čerokių",
+	"cgg": "čigų",
+	"da": "danų",
+	"en-GB": "Didžiosios Britanijos anglų",
+	"dua": "dualų",
+	"dyo": "džiola-foni",
+	"ebu": "embu",
+	"eo": "esperanto",
+	"et": "estų",
+	"pt-PT": "Europos portugalų",
+	"ee": "evių",
+	"ewo": "evondo",
+	"fo": "farerų",
+	"fil": "filipiniečių",
+	"nl-BE": "flamandų",
+	"fur": "friulių",
+	"ff": "fulahų",
+	"gl": "galisų",
+	"lg": "ganda",
+	"el": "graikų",
+	"ka": "gruzinų",
+	"gu": "gudžaratų",
+	"guz": "gusi",
+	"ha": "hausų",
+	"haw": "havajiečių",
+	"he": "hebrajų",
+	"hi": "hindi",
+	"ig": "igbų",
+	"smn": "Inario samių",
+	"id": "indoneziečių",
+	"is": "islandų",
+	"es": "ispanų",
+	"it": "italų",
+	"sah": "jakutų",
+	"yav": "jangbenų",
+	"ja": "japonų",
+	"yi": "jidiš",
+	"yo": "jorubų",
+	"kkj": "kako",
+	"kl": "kalalisut",
+	"kln": "kalenjinų",
+	"en-CA": "Kanados anglų",
+	"fr-CA": "Kanados prancūzų",
+	"kn": "kanadų",
+	"ks": "kašmyrų",
+	"ca": "katalonų",
+	"kk": "kazachų",
+	"kab": "kebailų",
+	"qu": "kečujų",
+	"kam": "kembų",
+	"km": "khmerų",
+	"ki": "kikujų",
+	"rw": "kinjaruandų",
+	"zh": "kinų",
+	"ky": "kirgizų",
+	"khq": "kojra čini",
+	"ses": "kojraboro seni",
+	"ksh": "kolognų",
+	"sw-CD": "Kongo suahilių",
+	"kok": "konkanių",
+	"ko": "korėjiečių",
+	"kw": "kornų",
+	"hr": "kroatų",
+	"nmg": "kvasių",
+	"lkt": "lakotų",
+	"lag": "langi",
+	"lo": "laosiečių",
+	"lv": "latvių",
+	"pl": "lenkų",
+	"lt": "lietuvių",
+	"lb": "liuksemburgiečių",
+	"es-419": "Lotynų Amerikos ispanų",
+	"lu": "luba katanga",
+	"luy": "luja",
+	"luo": "Luo",
+	"jmc": "mačamų",
+	"mk": "makedonų",
+	"kde": "makondų",
+	"mgh": "makua-maeto",
+	"mg": "malagasų",
+	"ml": "malajalių",
+	"ms": "malajiečių",
+	"mt": "maltiečių",
+	"mr": "maratų",
+	"mas": "masajų",
+	"mzn": "mazenderanių",
+	"es-MX": "Meksikos ispanų",
+	"gv": "meniečių",
+	"mer": "merų",
+	"mgo": "meta",
+	"ro-MD": "moldavų",
+	"mn": "mongolų",
+	"mfe": "morisijų",
+	"mua": "mundangų",
+	"naq": "nama",
+	"nn": "naujoji norvegų",
+	"ne": "nepaliečių",
+	"ln": "ngalų",
+	"nnh": "ngiembūnų",
+	"jgo": "ngombų",
+	"nyn": "niankolų",
+	"nb": "norvegų bukmolas",
+	"nus": "nuerų",
+	"or": "odijų",
+	"nl": "olandų",
+	"om": "oromų",
+	"os": "osetinų",
+	"pa": "pendžabų",
+	"fa": "persų",
+	"pt": "portugalų",
+	"fr": "prancūzų",
+	"prg": "prūsų",
+	"ps": "puštūnų",
+	"rm": "retoromanų",
+	"rof": "rombo",
+	"rwk": "rua",
+	"ro": "rumunų",
+	"rn": "rundi",
+	"ru": "rusų",
+	"saq": "sambūrų",
+	"sg": "sango",
+	"sbp": "sangų",
+	"seh": "senų",
+	"sr": "serbų",
+	"ii": "sičuan ji",
+	"sd": "sindų",
+	"si": "sinhalų",
+	"sk": "slovakų",
+	"sl": "slovėnų",
+	"xog": "sogų",
+	"so": "somaliečių",
+	"ckb": "soranių kurdų",
+	"zgh": "standartinė Maroko tamazigtų",
+	"sw": "suahilių",
+	"fi": "suomių",
+	"zh-Hans": "supaprastintoji kinų",
+	"ksb": "šambalų",
+	"lrc": "šiaurės luri",
+	"nd": "šiaurės ndebelų",
+	"se": "šiaurės samių",
+	"gd": "škotų (gėlų)",
+	"sn": "šonų",
+	"sv": "švedų",
+	"de-CH": "Šveicarijos aukštutinė vokiečių",
+	"fr-CH": "Šveicarijos prancūzų",
+	"gsw": "Šveicarijos vokiečių",
+	"shi": "tachelhitų",
+	"tg": "tadžikų",
+	"dav": "taitų",
+	"th": "tajų",
+	"ta": "tamilų",
+	"twq": "tasavakų",
+	"te": "telugų",
+	"teo": "teso",
+	"bo": "tibetiečių",
+	"ti": "tigrajų",
+	"to": "tonganų",
+	"tt": "totorių",
+	"zh-Hant": "tradicinė kinų",
+	"tk": "turkmėnų",
+	"tr": "turkų",
+	"ug": "uigūrų",
+	"uk": "ukrainiečių",
+	"ur": "urdų",
+	"uz": "uzbekų",
+	"vai": "Vai",
+	"fy": "vakarų fryzų",
+	"wae": "valserų",
+	"cy": "valų",
+	"hu": "vengrų",
+	"vi": "vietnamiečių",
+	"de": "vokiečių",
+	"vo": "volapiuko",
+	"wo": "volofų",
+	"vun": "vunjo",
+	"dje": "zarmų",
+	"zu": "zulų",
+	"kea": "Žaliojo Kyšulio kreolų",
+	"nds-NL": "Žemutinės Saksonijos (Nyderlandai)",
+	"nds": "Žemutinės Vokietijos",
+	"dsb": "žemutinių sorbų"
 }

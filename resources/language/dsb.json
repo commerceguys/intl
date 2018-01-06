@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "afrikans"
-	},
-	"agq": {
-		"name": "aghem"
-	},
-	"ak": {
-		"name": "akanšćina"
-	},
-	"sq": {
-		"name": "albanšćina"
-	},
-	"am": {
-		"name": "amharšćina"
-	},
-	"ar": {
-		"name": "arabšćina"
-	},
-	"hy": {
-		"name": "armeńšćina"
-	},
-	"as": {
-		"name": "asamšćina"
-	},
-	"ast": {
-		"name": "asturšćina"
-	},
-	"en-AU": {
-		"name": "awstralska engelšćina"
-	},
-	"de-AT": {
-		"name": "awstriska nimšćina"
-	},
-	"az": {
-		"name": "azerbajdžanšćina"
-	},
-	"ksf": {
-		"name": "bafia"
-	},
-	"bm": {
-		"name": "bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"eu": {
-		"name": "baskišćina"
-	},
-	"bem": {
-		"name": "bemba"
-	},
-	"bez": {
-		"name": "bena"
-	},
-	"bn": {
-		"name": "bengalšćina"
-	},
-	"be": {
-		"name": "běłorušćina"
-	},
-	"brx": {
-		"name": "bodo"
-	},
-	"bs": {
-		"name": "bosnišćina"
-	},
-	"br": {
-		"name": "bretonšćina"
-	},
-	"en-GB": {
-		"name": "britiska engelšćina"
-	},
-	"bg": {
-		"name": "bulgaršćina"
-	},
-	"my": {
-		"name": "burmašćina"
-	},
-	"tzm": {
-		"name": "centralnoatlaski tamazight"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"cs": {
-		"name": "češćina"
-	},
-	"da": {
-		"name": "danšćina"
-	},
-	"nds": {
-		"name": "dolnonimšćina"
-	},
-	"nds-NL": {
-		"name": "dolnonimšćina (Nižozemska)"
-	},
-	"dsb": {
-		"name": "dolnoserbšćina"
-	},
-	"dua": {
-		"name": "duala"
-	},
-	"dz": {
-		"name": "dzongkha"
-	},
-	"ebu": {
-		"name": "embu"
-	},
-	"en": {
-		"name": "engelšćina"
-	},
-	"eo": {
-		"name": "esperanto"
-	},
-	"et": {
-		"name": "estišćina"
-	},
-	"pt-PT": {
-		"name": "europejska portugalšćina"
-	},
-	"ee": {
-		"name": "ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fo": {
-		"name": "ferejšćina"
-	},
-	"fil": {
-		"name": "filipinšćina"
-	},
-	"fi": {
-		"name": "finšćina"
-	},
-	"nl-BE": {
-		"name": "flamšćina"
-	},
-	"fr": {
-		"name": "francojšćina"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"fy": {
-		"name": "frizišćina"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"gl": {
-		"name": "galicišćina"
-	},
-	"lg": {
-		"name": "gandšćina"
-	},
-	"ka": {
-		"name": "georgišćina"
-	},
-	"hsb": {
-		"name": "górnoserbšćina"
-	},
-	"el": {
-		"name": "grichišćina"
-	},
-	"kl": {
-		"name": "grönlandšćina"
-	},
-	"gu": {
-		"name": "gudžaratšćina"
-	},
-	"guz": {
-		"name": "gusii"
-	},
-	"ha": {
-		"name": "hausa"
-	},
-	"haw": {
-		"name": "hawaiišćina"
-	},
-	"he": {
-		"name": "hebrejšćina"
-	},
-	"hi": {
-		"name": "hindišćina"
-	},
-	"hu": {
-		"name": "hungoršćina"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "cherokee"
-	},
-	"cgg": {
-		"name": "chiga"
-	},
-	"zh": {
-		"name": "chinšćina"
-	},
-	"zh-Hant": {
-		"name": "chinšćina (tradicionalna)"
-	},
-	"zh-Hans": {
-		"name": "chinšćina (zjadnorjona)"
-	},
-	"hr": {
-		"name": "chorwatšćina"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ig": {
-		"name": "igbo"
-	},
-	"smn": {
-		"name": "inari-samišćina"
-	},
-	"id": {
-		"name": "indonešćina"
-	},
-	"ga": {
-		"name": "iršćina"
-	},
-	"is": {
-		"name": "islandšćina"
-	},
-	"it": {
-		"name": "italšćina"
-	},
-	"ja": {
-		"name": "japańšćina"
-	},
-	"yi": {
-		"name": "jidišćina"
-	},
-	"dyo": {
-		"name": "jola-fonyi"
-	},
-	"yo": {
-		"name": "jorubšćina"
-	},
-	"kab": {
-		"name": "kabylšćina"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kln": {
-		"name": "kalenjin"
-	},
-	"kam": {
-		"name": "kamba"
-	},
-	"km": {
-		"name": "kambodžanšćina"
-	},
-	"en-CA": {
-		"name": "kanadiska engelšćina"
-	},
-	"fr-CA": {
-		"name": "kanadiska francojšćina"
-	},
-	"kn": {
-		"name": "kannadšćina"
-	},
-	"kea": {
-		"name": "kapverdšćina"
-	},
-	"ks": {
-		"name": "kašmiršćina"
-	},
-	"ca": {
-		"name": "katanlanšćina"
-	},
-	"kk": {
-		"name": "kazachšćina"
-	},
-	"qu": {
-		"name": "kečua"
-	},
-	"ki": {
-		"name": "kikuyu"
-	},
-	"rw": {
-		"name": "kinjarwanda"
-	},
-	"ky": {
-		"name": "kirgišćina"
-	},
-	"rn": {
-		"name": "kirundišćina"
-	},
-	"sw-CD": {
-		"name": "kongojska swahilišćina"
-	},
-	"kok": {
-		"name": "konkani"
-	},
-	"ko": {
-		"name": "korejańšćina"
-	},
-	"kw": {
-		"name": "kornišćina"
-	},
-	"khq": {
-		"name": "koyra chiini"
-	},
-	"ses": {
-		"name": "koyra senni"
-	},
-	"nmg": {
-		"name": "kwasio"
-	},
-	"es-419": {
-		"name": "łatyńskoamerikańska špańšćina"
-	},
-	"lkt": {
-		"name": "lakotšćina"
-	},
-	"lag": {
-		"name": "langi"
-	},
-	"lo": {
-		"name": "laošćina"
-	},
-	"se": {
-		"name": "lapšćina"
-	},
-	"lv": {
-		"name": "letišćina"
-	},
-	"ln": {
-		"name": "lingala"
-	},
-	"lt": {
-		"name": "litawšćina"
-	},
-	"lu": {
-		"name": "luba-katanga"
-	},
-	"luy": {
-		"name": "luhya"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "luxemburgšćina"
-	},
-	"jmc": {
-		"name": "machame"
-	},
-	"mk": {
-		"name": "makedońšćina"
-	},
-	"mgh": {
-		"name": "makhuwa-meetto"
-	},
-	"kde": {
-		"name": "makonde"
-	},
-	"ml": {
-		"name": "malajamšćina"
-	},
-	"ms": {
-		"name": "malajšćina"
-	},
-	"mg": {
-		"name": "malgašćina"
-	},
-	"mt": {
-		"name": "maltašćina"
-	},
-	"gv": {
-		"name": "manšćina"
-	},
-	"mr": {
-		"name": "maratišćina"
-	},
-	"mas": {
-		"name": "masaišćina"
-	},
-	"mfe": {
-		"name": "mauriciska kreolšćina"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "meru"
-	},
-	"mgo": {
-		"name": "meta’"
-	},
-	"es-MX": {
-		"name": "mexikańska špańšćina"
-	},
-	"ro-MD": {
-		"name": "moldawišćina"
-	},
-	"mn": {
-		"name": "mongolšćina"
-	},
-	"mua": {
-		"name": "mundang"
-	},
-	"naq": {
-		"name": "nama"
-	},
-	"ne": {
-		"name": "nepalšćina"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "ngomba"
-	},
-	"de": {
-		"name": "nimšćina"
-	},
-	"nl": {
-		"name": "nižozemšćina"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"nb": {
-		"name": "norwegske bokmål"
-	},
-	"nn": {
-		"name": "norwegske nynorsk"
-	},
-	"nus": {
-		"name": "nuer"
-	},
-	"nyn": {
-		"name": "nyankole"
-	},
-	"or": {
-		"name": "orojišćina"
-	},
-	"om": {
-		"name": "oromo"
-	},
-	"os": {
-		"name": "Ossetic"
-	},
-	"pa": {
-		"name": "pandžabšćina"
-	},
-	"asa": {
-		"name": "pare"
-	},
-	"ps": {
-		"name": "paštunšćina"
-	},
-	"fa": {
-		"name": "persišćina"
-	},
-	"nd": {
-		"name": "pódpołnocne ndebele"
-	},
-	"pl": {
-		"name": "pólšćina"
-	},
-	"pt": {
-		"name": "portugalšćina"
-	},
-	"prg": {
-		"name": "prusčina"
-	},
-	"rm": {
-		"name": "retoromańšćina"
-	},
-	"rof": {
-		"name": "rombo"
-	},
-	"ro": {
-		"name": "rumunšćina"
-	},
-	"ru": {
-		"name": "rušćina"
-	},
-	"rwk": {
-		"name": "rwa"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "samburu"
-	},
-	"sg": {
-		"name": "sango"
-	},
-	"sbp": {
-		"name": "sangu"
-	},
-	"seh": {
-		"name": "sena"
-	},
-	"sr": {
-		"name": "serbišćina"
-	},
-	"ii": {
-		"name": "sichuan yi"
-	},
-	"sd": {
-		"name": "sindšćina"
-	},
-	"si": {
-		"name": "singalšćina"
-	},
-	"sk": {
-		"name": "słowakšćina"
-	},
-	"sl": {
-		"name": "słowjeńšćina"
-	},
-	"xog": {
-		"name": "soga"
-	},
-	"so": {
-		"name": "somališćina"
-	},
-	"ckb": {
-		"name": "sorani"
-	},
-	"zgh": {
-		"name": "standardny marokkański tamazight"
-	},
-	"sw": {
-		"name": "swahilišćina"
-	},
-	"ksb": {
-		"name": "šambala"
-	},
-	"sn": {
-		"name": "šonšćina"
-	},
-	"gd": {
-		"name": "šotišćina"
-	},
-	"es": {
-		"name": "špańšćina"
-	},
-	"sv": {
-		"name": "šwedšćina"
-	},
-	"fr-CH": {
-		"name": "šwicarska francojšćina"
-	},
-	"gsw": {
-		"name": "šwicarska nimšćina"
-	},
-	"de-CH": {
-		"name": "šwicarska wusokonimšćina"
-	},
-	"tg": {
-		"name": "tadžikišćina"
-	},
-	"dav": {
-		"name": "taita"
-	},
-	"ta": {
-		"name": "tamilšćina"
-	},
-	"twq": {
-		"name": "tasawaq"
-	},
-	"shi": {
-		"name": "tašelhit"
-	},
-	"tt": {
-		"name": "tataršćina"
-	},
-	"te": {
-		"name": "telugšćina"
-	},
-	"teo": {
-		"name": "teso"
-	},
-	"th": {
-		"name": "thailandšćina"
-	},
-	"bo": {
-		"name": "tibetšćina"
-	},
-	"ti": {
-		"name": "tigrinja"
-	},
-	"to": {
-		"name": "tonganšćina"
-	},
-	"tk": {
-		"name": "turkmeńšćina"
-	},
-	"tr": {
-		"name": "turkojšćina"
-	},
-	"ug": {
-		"name": "ujguršćina"
-	},
-	"uk": {
-		"name": "ukrainšćina"
-	},
-	"ur": {
-		"name": "urdušćina"
-	},
-	"uz": {
-		"name": "usbekšćina"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "vietnamšćina"
-	},
-	"vo": {
-		"name": "volapük"
-	},
-	"vun": {
-		"name": "vunjo"
-	},
-	"cy": {
-		"name": "walizišćina"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"wo": {
-		"name": "wolof"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"dje": {
-		"name": "zarma"
-	},
-	"zu": {
-		"name": "zulu"
-	}
+	"af": "afrikans",
+	"agq": "aghem",
+	"ak": "akanšćina",
+	"sq": "albanšćina",
+	"am": "amharšćina",
+	"ar": "arabšćina",
+	"hy": "armeńšćina",
+	"as": "asamšćina",
+	"ast": "asturšćina",
+	"en-AU": "awstralska engelšćina",
+	"de-AT": "awstriska nimšćina",
+	"az": "azerbajdžanšćina",
+	"ksf": "bafia",
+	"bm": "bambara",
+	"bas": "Basaa",
+	"eu": "baskišćina",
+	"bem": "bemba",
+	"bez": "bena",
+	"bn": "bengalšćina",
+	"be": "běłorušćina",
+	"brx": "bodo",
+	"bs": "bosnišćina",
+	"br": "bretonšćina",
+	"en-GB": "britiska engelšćina",
+	"bg": "bulgaršćina",
+	"my": "burmašćina",
+	"tzm": "centralnoatlaski tamazight",
+	"ksh": "Colognian",
+	"cs": "češćina",
+	"da": "danšćina",
+	"nds": "dolnonimšćina",
+	"nds-NL": "dolnonimšćina (Nižozemska)",
+	"dsb": "dolnoserbšćina",
+	"dua": "duala",
+	"dz": "dzongkha",
+	"ebu": "embu",
+	"en": "engelšćina",
+	"eo": "esperanto",
+	"et": "estišćina",
+	"pt-PT": "europejska portugalšćina",
+	"ee": "ewe",
+	"ewo": "Ewondo",
+	"fo": "ferejšćina",
+	"fil": "filipinšćina",
+	"fi": "finšćina",
+	"nl-BE": "flamšćina",
+	"fr": "francojšćina",
+	"fur": "Friulian",
+	"fy": "frizišćina",
+	"ff": "Fulah",
+	"gl": "galicišćina",
+	"lg": "gandšćina",
+	"ka": "georgišćina",
+	"hsb": "górnoserbšćina",
+	"el": "grichišćina",
+	"kl": "grönlandšćina",
+	"gu": "gudžaratšćina",
+	"guz": "gusii",
+	"ha": "hausa",
+	"haw": "hawaiišćina",
+	"he": "hebrejšćina",
+	"hi": "hindišćina",
+	"hu": "hungoršćina",
+	"ce": "Chechen",
+	"chr": "cherokee",
+	"cgg": "chiga",
+	"zh": "chinšćina",
+	"zh-Hant": "chinšćina (tradicionalna)",
+	"zh-Hans": "chinšćina (zjadnorjona)",
+	"hr": "chorwatšćina",
+	"cu": "Church Slavic",
+	"ig": "igbo",
+	"smn": "inari-samišćina",
+	"id": "indonešćina",
+	"ga": "iršćina",
+	"is": "islandšćina",
+	"it": "italšćina",
+	"ja": "japańšćina",
+	"yi": "jidišćina",
+	"dyo": "jola-fonyi",
+	"yo": "jorubšćina",
+	"kab": "kabylšćina",
+	"kkj": "Kako",
+	"kln": "kalenjin",
+	"kam": "kamba",
+	"km": "kambodžanšćina",
+	"en-CA": "kanadiska engelšćina",
+	"fr-CA": "kanadiska francojšćina",
+	"kn": "kannadšćina",
+	"kea": "kapverdšćina",
+	"ks": "kašmiršćina",
+	"ca": "katanlanšćina",
+	"kk": "kazachšćina",
+	"qu": "kečua",
+	"ki": "kikuyu",
+	"rw": "kinjarwanda",
+	"ky": "kirgišćina",
+	"rn": "kirundišćina",
+	"sw-CD": "kongojska swahilišćina",
+	"kok": "konkani",
+	"ko": "korejańšćina",
+	"kw": "kornišćina",
+	"khq": "koyra chiini",
+	"ses": "koyra senni",
+	"nmg": "kwasio",
+	"es-419": "łatyńskoamerikańska špańšćina",
+	"lkt": "lakotšćina",
+	"lag": "langi",
+	"lo": "laošćina",
+	"se": "lapšćina",
+	"lv": "letišćina",
+	"ln": "lingala",
+	"lt": "litawšćina",
+	"lu": "luba-katanga",
+	"luy": "luhya",
+	"luo": "Luo",
+	"lb": "luxemburgšćina",
+	"jmc": "machame",
+	"mk": "makedońšćina",
+	"mgh": "makhuwa-meetto",
+	"kde": "makonde",
+	"ml": "malajamšćina",
+	"ms": "malajšćina",
+	"mg": "malgašćina",
+	"mt": "maltašćina",
+	"gv": "manšćina",
+	"mr": "maratišćina",
+	"mas": "masaišćina",
+	"mfe": "mauriciska kreolšćina",
+	"mzn": "Mazanderani",
+	"mer": "meru",
+	"mgo": "meta’",
+	"es-MX": "mexikańska špańšćina",
+	"ro-MD": "moldawišćina",
+	"mn": "mongolšćina",
+	"mua": "mundang",
+	"naq": "nama",
+	"ne": "nepalšćina",
+	"nnh": "Ngiemboon",
+	"jgo": "ngomba",
+	"de": "nimšćina",
+	"nl": "nižozemšćina",
+	"lrc": "Northern Luri",
+	"nb": "norwegske bokmål",
+	"nn": "norwegske nynorsk",
+	"nus": "nuer",
+	"nyn": "nyankole",
+	"or": "orojišćina",
+	"om": "oromo",
+	"os": "Ossetic",
+	"pa": "pandžabšćina",
+	"asa": "pare",
+	"ps": "paštunšćina",
+	"fa": "persišćina",
+	"nd": "pódpołnocne ndebele",
+	"pl": "pólšćina",
+	"pt": "portugalšćina",
+	"prg": "prusčina",
+	"rm": "retoromańšćina",
+	"rof": "rombo",
+	"ro": "rumunšćina",
+	"ru": "rušćina",
+	"rwk": "rwa",
+	"sah": "Sakha",
+	"saq": "samburu",
+	"sg": "sango",
+	"sbp": "sangu",
+	"seh": "sena",
+	"sr": "serbišćina",
+	"ii": "sichuan yi",
+	"sd": "sindšćina",
+	"si": "singalšćina",
+	"sk": "słowakšćina",
+	"sl": "słowjeńšćina",
+	"xog": "soga",
+	"so": "somališćina",
+	"ckb": "sorani",
+	"zgh": "standardny marokkański tamazight",
+	"sw": "swahilišćina",
+	"ksb": "šambala",
+	"sn": "šonšćina",
+	"gd": "šotišćina",
+	"es": "špańšćina",
+	"sv": "šwedšćina",
+	"fr-CH": "šwicarska francojšćina",
+	"gsw": "šwicarska nimšćina",
+	"de-CH": "šwicarska wusokonimšćina",
+	"tg": "tadžikišćina",
+	"dav": "taita",
+	"ta": "tamilšćina",
+	"twq": "tasawaq",
+	"shi": "tašelhit",
+	"tt": "tataršćina",
+	"te": "telugšćina",
+	"teo": "teso",
+	"th": "thailandšćina",
+	"bo": "tibetšćina",
+	"ti": "tigrinja",
+	"to": "tonganšćina",
+	"tk": "turkmeńšćina",
+	"tr": "turkojšćina",
+	"ug": "ujguršćina",
+	"uk": "ukrainšćina",
+	"ur": "urdušćina",
+	"uz": "usbekšćina",
+	"vai": "Vai",
+	"vi": "vietnamšćina",
+	"vo": "volapük",
+	"vun": "vunjo",
+	"cy": "walizišćina",
+	"wae": "Walser",
+	"wo": "wolof",
+	"yav": "Yangben",
+	"dje": "zarma",
+	"zu": "zulu"
 }

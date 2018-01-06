@@ -45,9 +45,7 @@ $languageData = json_decode(file_get_contents($enLanguages), true);
 $languageData = $languageData['main']['en']['localeDisplayNames']['languages'];
 foreach ($languageData as $languageCode => $languageName) {
     if (strpos($languageCode, '-alt-') === false) {
-        $languages['en'][$languageCode] = [
-            'name' => $languageName,
-        ];
+        $languages['en'][$languageCode] = $languageName;
     }
 }
 
@@ -82,15 +80,13 @@ foreach ($locales as $locale) {
         if (isset($languages['en'][$languageCode])) {
             // This language name is untranslated, use to the english version.
             if ($languageCode == str_replace('_', '-', $languageName)) {
-                $languageName = $languages['en'][$languageCode]['name'];
+                $languageName = $languages['en'][$languageCode];
                 // Maintain a count of untranslated languages per locale.
                 $untranslatedCounts += [$locale => 0];
                 $untranslatedCounts[$locale]++;
             }
 
-            $languages[$locale][$languageCode] = [
-                'name' => $languageName,
-            ];
+            $languages[$locale][$languageCode] = $languageName;
         }
     }
 }
@@ -111,7 +107,7 @@ foreach ($languages as $locale => $localizedLanguages) {
     if ($parentLocale = \CommerceGuys\Intl\Locale::getParent($locale)) {
         $parentLanguages = isset($languages[$parentLocale]) ? $languages[$parentLocale] : [];
         $diff = array_udiff($localizedLanguages, $parentLanguages, function ($first, $second) {
-            return ($first['name'] == $second['name']) ? 0 : 1;
+            return ($first == $second) ? 0 : 1;
         });
 
         if (empty($diff)) {
@@ -131,7 +127,7 @@ foreach ($duplicates as $locale) {
 foreach ($languages as $locale => $localizedLanguages) {
     $collator = collator_create($locale);
     uasort($localizedLanguages, function ($a, $b) use ($collator) {
-        return collator_compare($collator, $a['name'], $b['name']);
+        return collator_compare($collator, $a, $b);
     });
     file_put_json($locale . '.json', $localizedLanguages);
 }

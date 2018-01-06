@@ -1,761 +1,255 @@
 {
-	"AF": {
-		"name": "Afgaanistan"
-	},
-	"AX": {
-		"name": "Åland Islands"
-	},
-	"AL": {
-		"name": "Albaani"
-	},
-	"GB": {
-		"name": "Albaasalaama Marganta"
-	},
-	"DE": {
-		"name": "Almaaɲe"
-	},
-	"DZ": {
-		"name": "Alžeeri"
-	},
-	"VI": {
-		"name": "Ameerik Virgin Gungey"
-	},
-	"US": {
-		"name": "Ameriki Laabu Margantey"
-	},
-	"AS": {
-		"name": "Ameriki Samoa"
-	},
-	"AD": {
-		"name": "Andoora"
-	},
-	"AI": {
-		"name": "Angiiya"
-	},
-	"AO": {
-		"name": "Angoola"
-	},
-	"AQ": {
-		"name": "Antarctica"
-	},
-	"AG": {
-		"name": "Antigua nda Barbuuda"
-	},
-	"AR": {
-		"name": "Argentine"
-	},
-	"AM": {
-		"name": "Armeeni"
-	},
-	"AW": {
-		"name": "Aruuba"
-	},
-	"AC": {
-		"name": "Ascension Island"
-	},
-	"IS": {
-		"name": "Ayseland"
-	},
-	"AZ": {
-		"name": "Azerbaayijaŋ"
-	},
-	"BS": {
-		"name": "Bahamas"
-	},
-	"BH": {
-		"name": "Bahareen"
-	},
-	"BD": {
-		"name": "Bangladeši"
-	},
-	"BB": {
-		"name": "Barbaados"
-	},
-	"BE": {
-		"name": "Belgiiki"
-	},
-	"BZ": {
-		"name": "Beliizi"
-	},
-	"BJ": {
-		"name": "Beniŋ"
-	},
-	"BM": {
-		"name": "Bermuda"
-	},
-	"BY": {
-		"name": "Biloriši"
-	},
-	"BO": {
-		"name": "Boolivi"
-	},
-	"BA": {
-		"name": "Bosni nda Herzegovine"
-	},
-	"BW": {
-		"name": "Botswaana"
-	},
-	"BR": {
-		"name": "Breezil"
-	},
-	"IO": {
-		"name": "Britiši Indu teekoo laama"
-	},
-	"VG": {
-		"name": "Britiši Virgin gungey"
-	},
-	"BN": {
-		"name": "Bruunee"
-	},
-	"BG": {
-		"name": "Bulgaari"
-	},
-	"BF": {
-		"name": "Burkina faso"
-	},
-	"BI": {
-		"name": "Burundi"
-	},
-	"BT": {
-		"name": "Buutaŋ"
-	},
-	"TD": {
-		"name": "Caadu"
-	},
-	"IC": {
-		"name": "Canary Islands"
-	},
-	"BQ": {
-		"name": "Caribbean Netherlands"
-	},
-	"CZ": {
-		"name": "Cek labo"
-	},
-	"CF": {
-		"name": "Centraafriki koyra"
-	},
-	"EA": {
-		"name": "Ceuta & Melilla"
-	},
-	"CX": {
-		"name": "Christmas Island"
-	},
-	"CC": {
-		"name": "Cocos (Keeling) Islands"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"DK": {
-		"name": "Danemark"
-	},
-	"DG": {
-		"name": "Diego Garcia"
-	},
-	"DM": {
-		"name": "Dominica"
-	},
-	"DO": {
-		"name": "Doominiki laboo"
-	},
-	"ET": {
-		"name": "Ecioopi"
-	},
-	"EC": {
-		"name": "Ekwateer"
-	},
-	"ER": {
-		"name": "Eritree"
-	},
-	"ES": {
-		"name": "Espaaɲe"
-	},
-	"EE": {
-		"name": "Estooni"
-	},
-	"FR": {
-		"name": "Faransi"
-	},
-	"GF": {
-		"name": "Faransi Guyaan"
-	},
-	"PF": {
-		"name": "Faransi Polineezi"
-	},
-	"FO": {
-		"name": "Faroe Islands"
-	},
-	"FJ": {
-		"name": "Fiji"
-	},
-	"PH": {
-		"name": "Filipine"
-	},
-	"FI": {
-		"name": "Finlandu"
-	},
-	"TF": {
-		"name": "French Southern Territories"
-	},
-	"GA": {
-		"name": "Gaabon"
-	},
-	"GH": {
-		"name": "Gaana"
-	},
-	"GM": {
-		"name": "Gambi"
-	},
-	"GI": {
-		"name": "Gibraltar"
-	},
-	"GN": {
-		"name": "Gine"
-	},
-	"GW": {
-		"name": "Gine-Bisso"
-	},
-	"GQ": {
-		"name": "Ginee Ekwatorial"
-	},
-	"GE": {
-		"name": "Gorgi"
-	},
-	"GR": {
-		"name": "Greece"
-	},
-	"GD": {
-		"name": "Grenaada"
-	},
-	"GL": {
-		"name": "Grinland"
-	},
-	"GU": {
-		"name": "Guam"
-	},
-	"GG": {
-		"name": "Guernsey"
-	},
-	"KP": {
-		"name": "Gurma Kooree"
-	},
-	"GY": {
-		"name": "Guyaane"
-	},
-	"GP": {
-		"name": "Gwadeluup"
-	},
-	"GT": {
-		"name": "Gwatemaala"
-	},
-	"HT": {
-		"name": "Haiti"
-	},
-	"ZA": {
-		"name": "Hawsa Afriki Laboo"
-	},
-	"KR": {
-		"name": "Hawsa Kooree"
-	},
-	"NL": {
-		"name": "Hollandu"
-	},
-	"HN": {
-		"name": "Honduras"
-	},
-	"HK": {
-		"name": "Hong Kong SAR China"
-	},
-	"HU": {
-		"name": "Hungaari"
-	},
-	"ID": {
-		"name": "Indoneezi"
-	},
-	"IN": {
-		"name": "Indu laboo"
-	},
-	"IQ": {
-		"name": "Iraak"
-	},
-	"IR": {
-		"name": "Iraan"
-	},
-	"RU": {
-		"name": "Iriši laboo"
-	},
-	"IE": {
-		"name": "Irlandu"
-	},
-	"IM": {
-		"name": "Isle of Man"
-	},
-	"IL": {
-		"name": "Israyel"
-	},
-	"IT": {
-		"name": "Itaali"
-	},
-	"JP": {
-		"name": "Jaapoŋ"
-	},
-	"JM": {
-		"name": "Jamaayik"
-	},
-	"JE": {
-		"name": "Jersey"
-	},
-	"DJ": {
-		"name": "Jibuuti"
-	},
-	"NC": {
-		"name": "Kaaledooni Taagaa"
-	},
-	"KZ": {
-		"name": "Kaazakstan"
-	},
-	"FK": {
-		"name": "Kalkan gungey"
-	},
-	"KH": {
-		"name": "kamboogi"
-	},
-	"CM": {
-		"name": "Kameruun"
-	},
-	"CA": {
-		"name": "Kanaada"
-	},
-	"CV": {
-		"name": "Kapuver gungey"
-	},
-	"QA": {
-		"name": "Kataar"
-	},
-	"KY": {
-		"name": "Kayman gungey"
-	},
-	"KE": {
-		"name": "Keeniya"
-	},
-	"KI": {
-		"name": "Kiribaati"
-	},
-	"CO": {
-		"name": "Kolombi"
-	},
-	"KM": {
-		"name": "Komoor"
-	},
-	"CG": {
-		"name": "Kongoo"
-	},
-	"CD": {
-		"name": "Kongoo demookaratiki laboo"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"CR": {
-		"name": "Kosta rika"
-	},
-	"HR": {
-		"name": "Krwaasi"
-	},
-	"CI": {
-		"name": "Kudwar"
-	},
-	"CU": {
-		"name": "Kuuba"
-	},
-	"CK": {
-		"name": "Kuuk gungey"
-	},
-	"KW": {
-		"name": "Kuweet"
-	},
-	"KG": {
-		"name": "Kyrgyzstan"
-	},
-	"AE": {
-		"name": "Laaraw Imaarawey Margantey"
-	},
-	"LA": {
-		"name": "Laawos"
-	},
-	"LS": {
-		"name": "Leesoto"
-	},
-	"LV": {
-		"name": "Letooni"
-	},
-	"LR": {
-		"name": "Liberia"
-	},
-	"LI": {
-		"name": "Liechtenstein"
-	},
-	"LY": {
-		"name": "Liibi"
-	},
-	"LT": {
-		"name": "Lituaani"
-	},
-	"LB": {
-		"name": "Lubnaan"
-	},
-	"LU": {
-		"name": "Luxembourg"
-	},
-	"MK": {
-		"name": "Maacedooni"
-	},
-	"ML": {
-		"name": "Maali"
-	},
-	"MA": {
-		"name": "Maarok"
-	},
-	"MO": {
-		"name": "Macau SAR China"
-	},
-	"MG": {
-		"name": "Madagascar"
-	},
-	"MW": {
-		"name": "Malaawi"
-	},
-	"MV": {
-		"name": "Maldiivu"
-	},
-	"MY": {
-		"name": "Maleezi"
-	},
-	"MT": {
-		"name": "Malta"
-	},
-	"MP": {
-		"name": "Mariana Gurma Gungey"
-	},
-	"MH": {
-		"name": "Maršal gungey"
-	},
-	"MQ": {
-		"name": "Martiniiki"
-	},
-	"MM": {
-		"name": "Maynamar"
-	},
-	"YT": {
-		"name": "Mayooti"
-	},
-	"MX": {
-		"name": "Mexiki"
-	},
-	"FM": {
-		"name": "Mikronezi"
-	},
-	"EG": {
-		"name": "Misra"
-	},
-	"MD": {
-		"name": "Moldovi"
-	},
-	"MC": {
-		"name": "Monako"
-	},
-	"MN": {
-		"name": "Mongooli"
-	},
-	"ME": {
-		"name": "Montenegro"
-	},
-	"MS": {
-		"name": "Montserrat"
-	},
-	"MU": {
-		"name": "Mooris gungey"
-	},
-	"MR": {
-		"name": "Mooritaani"
-	},
-	"MZ": {
-		"name": "Mozambik"
-	},
-	"NG": {
-		"name": "Naajiriia"
-	},
-	"NA": {
-		"name": "Naamibi"
-	},
-	"NR": {
-		"name": "Nauru"
-	},
-	"NP": {
-		"name": "Neepal"
-	},
-	"NI": {
-		"name": "Nikaragwa"
-	},
-	"NU": {
-		"name": "Niue"
-	},
-	"NE": {
-		"name": "Nižer"
-	},
-	"NF": {
-		"name": "Norfolk Gungoo"
-	},
-	"NO": {
-		"name": "Norveej"
-	},
-	"OM": {
-		"name": "Omaan"
-	},
-	"AU": {
-		"name": "Ostraali"
-	},
-	"AT": {
-		"name": "Otriši"
-	},
-	"PK": {
-		"name": "Paakistan"
-	},
-	"PS": {
-		"name": "Palestine Dangay nda Gaaza"
-	},
-	"PW": {
-		"name": "Palu"
-	},
-	"PA": {
-		"name": "Panama"
-	},
-	"PG": {
-		"name": "Papua Ginee Taaga"
-	},
-	"PY": {
-		"name": "Paraguwey"
-	},
-	"PE": {
-		"name": "Peeru"
-	},
-	"PN": {
-		"name": "Pitikarin"
-	},
-	"PL": {
-		"name": "Poloɲe"
-	},
-	"PR": {
-		"name": "Porto Riko"
-	},
-	"PT": {
-		"name": "Portugaal"
-	},
-	"RE": {
-		"name": "Reenioŋ"
-	},
-	"RO": {
-		"name": "Rumaani"
-	},
-	"RW": {
-		"name": "Rwanda"
-	},
-	"SV": {
-		"name": "Salvador laboo"
-	},
-	"WS": {
-		"name": "Samoa"
-	},
-	"SM": {
-		"name": "San Marino"
-	},
-	"ST": {
-		"name": "Sao Tome nda Prinsipe"
-	},
-	"SA": {
-		"name": "Saudiya"
-	},
-	"SL": {
-		"name": "Seera Leon"
-	},
-	"SC": {
-		"name": "Seešel"
-	},
-	"SN": {
-		"name": "Senegal"
-	},
-	"SH": {
-		"name": "Seŋ Helena"
-	},
-	"KN": {
-		"name": "Seŋ Kitts nda Nevis"
-	},
-	"LC": {
-		"name": "Seŋ Lussia"
-	},
-	"PM": {
-		"name": "Seŋ Piyer nda Mikelon"
-	},
-	"VC": {
-		"name": "Seŋvinsaŋ nda Grenadine"
-	},
-	"RS": {
-		"name": "Serbia"
-	},
-	"CL": {
-		"name": "Šiili"
-	},
-	"CN": {
-		"name": "Šiin"
-	},
-	"CY": {
-		"name": "Šiipur"
-	},
-	"SG": {
-		"name": "Singapur"
-	},
-	"SX": {
-		"name": "Sint Maarten"
-	},
-	"SK": {
-		"name": "Slovaaki"
-	},
-	"SI": {
-		"name": "Sloveeni"
-	},
-	"SB": {
-		"name": "Solomon Gungey"
-	},
-	"SO": {
-		"name": "Somaali"
-	},
-	"GS": {
-		"name": "South Georgia & South Sandwich Islands"
-	},
-	"SS": {
-		"name": "South Sudan"
-	},
-	"LK": {
-		"name": "Srilanka"
-	},
-	"BL": {
-		"name": "St. Barthélemy"
-	},
-	"MF": {
-		"name": "St. Martin"
-	},
-	"SR": {
-		"name": "Surinaam"
-	},
-	"SD": {
-		"name": "Suudaŋ"
-	},
-	"SY": {
-		"name": "Suuria"
-	},
-	"SJ": {
-		"name": "Svalbard & Jan Mayen"
-	},
-	"SZ": {
-		"name": "Swaziland"
-	},
-	"SE": {
-		"name": "Sweede"
-	},
-	"CH": {
-		"name": "Swisu"
-	},
-	"TH": {
-		"name": "Taayiland"
-	},
-	"TW": {
-		"name": "Taayiwan"
-	},
-	"TJ": {
-		"name": "Taažikistan"
-	},
-	"TZ": {
-		"name": "Tanzaani"
-	},
-	"TL": {
-		"name": "Timoor hawsa"
-	},
-	"TG": {
-		"name": "Togo"
-	},
-	"TK": {
-		"name": "Tokelau"
-	},
-	"TO": {
-		"name": "Tonga"
-	},
-	"TT": {
-		"name": "Trinidad nda Tobaago"
-	},
-	"TA": {
-		"name": "Tristan da Cunha"
-	},
-	"TN": {
-		"name": "Tunizi"
-	},
-	"TC": {
-		"name": "Turk nda Kayikos Gungey"
-	},
-	"TR": {
-		"name": "Turki"
-	},
-	"TM": {
-		"name": "Turkmenistaŋ"
-	},
-	"TV": {
-		"name": "Tuvalu"
-	},
-	"UM": {
-		"name": "U.S. Outlying Islands"
-	},
-	"UG": {
-		"name": "Uganda"
-	},
-	"UA": {
-		"name": "Ukreen"
-	},
-	"JO": {
-		"name": "Urdun"
-	},
-	"UY": {
-		"name": "Uruguwey"
-	},
-	"UZ": {
-		"name": "Uzbeekistan"
-	},
-	"VA": {
-		"name": "Vaatikan Laama"
-	},
-	"VU": {
-		"name": "Vanautu"
-	},
-	"VE": {
-		"name": "Veneezuyeela"
-	},
-	"VN": {
-		"name": "Vietnaam"
-	},
-	"WF": {
-		"name": "Wallis nda Futuna"
-	},
-	"EH": {
-		"name": "Western Sahara"
-	},
-	"YE": {
-		"name": "Yaman"
-	},
-	"ZM": {
-		"name": "Zambi"
-	},
-	"NZ": {
-		"name": "Zeelandu Taaga"
-	},
-	"ZW": {
-		"name": "Zimbabwe"
-	}
+	"AF": "Afgaanistan",
+	"AX": "Åland Islands",
+	"AL": "Albaani",
+	"GB": "Albaasalaama Marganta",
+	"DE": "Almaaɲe",
+	"DZ": "Alžeeri",
+	"VI": "Ameerik Virgin Gungey",
+	"US": "Ameriki Laabu Margantey",
+	"AS": "Ameriki Samoa",
+	"AD": "Andoora",
+	"AI": "Angiiya",
+	"AO": "Angoola",
+	"AQ": "Antarctica",
+	"AG": "Antigua nda Barbuuda",
+	"AR": "Argentine",
+	"AM": "Armeeni",
+	"AW": "Aruuba",
+	"AC": "Ascension Island",
+	"IS": "Ayseland",
+	"AZ": "Azerbaayijaŋ",
+	"BS": "Bahamas",
+	"BH": "Bahareen",
+	"BD": "Bangladeši",
+	"BB": "Barbaados",
+	"BE": "Belgiiki",
+	"BZ": "Beliizi",
+	"BJ": "Beniŋ",
+	"BM": "Bermuda",
+	"BY": "Biloriši",
+	"BO": "Boolivi",
+	"BA": "Bosni nda Herzegovine",
+	"BW": "Botswaana",
+	"BR": "Breezil",
+	"IO": "Britiši Indu teekoo laama",
+	"VG": "Britiši Virgin gungey",
+	"BN": "Bruunee",
+	"BG": "Bulgaari",
+	"BF": "Burkina faso",
+	"BI": "Burundi",
+	"BT": "Buutaŋ",
+	"TD": "Caadu",
+	"IC": "Canary Islands",
+	"BQ": "Caribbean Netherlands",
+	"CZ": "Cek labo",
+	"CF": "Centraafriki koyra",
+	"EA": "Ceuta & Melilla",
+	"CX": "Christmas Island",
+	"CC": "Cocos (Keeling) Islands",
+	"CW": "Curaçao",
+	"DK": "Danemark",
+	"DG": "Diego Garcia",
+	"DM": "Dominica",
+	"DO": "Doominiki laboo",
+	"ET": "Ecioopi",
+	"EC": "Ekwateer",
+	"ER": "Eritree",
+	"ES": "Espaaɲe",
+	"EE": "Estooni",
+	"FR": "Faransi",
+	"GF": "Faransi Guyaan",
+	"PF": "Faransi Polineezi",
+	"FO": "Faroe Islands",
+	"FJ": "Fiji",
+	"PH": "Filipine",
+	"FI": "Finlandu",
+	"TF": "French Southern Territories",
+	"GA": "Gaabon",
+	"GH": "Gaana",
+	"GM": "Gambi",
+	"GI": "Gibraltar",
+	"GN": "Gine",
+	"GW": "Gine-Bisso",
+	"GQ": "Ginee Ekwatorial",
+	"GE": "Gorgi",
+	"GR": "Greece",
+	"GD": "Grenaada",
+	"GL": "Grinland",
+	"GU": "Guam",
+	"GG": "Guernsey",
+	"KP": "Gurma Kooree",
+	"GY": "Guyaane",
+	"GP": "Gwadeluup",
+	"GT": "Gwatemaala",
+	"HT": "Haiti",
+	"ZA": "Hawsa Afriki Laboo",
+	"KR": "Hawsa Kooree",
+	"NL": "Hollandu",
+	"HN": "Honduras",
+	"HK": "Hong Kong SAR China",
+	"HU": "Hungaari",
+	"ID": "Indoneezi",
+	"IN": "Indu laboo",
+	"IQ": "Iraak",
+	"IR": "Iraan",
+	"RU": "Iriši laboo",
+	"IE": "Irlandu",
+	"IM": "Isle of Man",
+	"IL": "Israyel",
+	"IT": "Itaali",
+	"JP": "Jaapoŋ",
+	"JM": "Jamaayik",
+	"JE": "Jersey",
+	"DJ": "Jibuuti",
+	"NC": "Kaaledooni Taagaa",
+	"KZ": "Kaazakstan",
+	"FK": "Kalkan gungey",
+	"KH": "kamboogi",
+	"CM": "Kameruun",
+	"CA": "Kanaada",
+	"CV": "Kapuver gungey",
+	"QA": "Kataar",
+	"KY": "Kayman gungey",
+	"KE": "Keeniya",
+	"KI": "Kiribaati",
+	"CO": "Kolombi",
+	"KM": "Komoor",
+	"CG": "Kongoo",
+	"CD": "Kongoo demookaratiki laboo",
+	"XK": "Kosovo",
+	"CR": "Kosta rika",
+	"HR": "Krwaasi",
+	"CI": "Kudwar",
+	"CU": "Kuuba",
+	"CK": "Kuuk gungey",
+	"KW": "Kuweet",
+	"KG": "Kyrgyzstan",
+	"AE": "Laaraw Imaarawey Margantey",
+	"LA": "Laawos",
+	"LS": "Leesoto",
+	"LV": "Letooni",
+	"LR": "Liberia",
+	"LI": "Liechtenstein",
+	"LY": "Liibi",
+	"LT": "Lituaani",
+	"LB": "Lubnaan",
+	"LU": "Luxembourg",
+	"MK": "Maacedooni",
+	"ML": "Maali",
+	"MA": "Maarok",
+	"MO": "Macau SAR China",
+	"MG": "Madagascar",
+	"MW": "Malaawi",
+	"MV": "Maldiivu",
+	"MY": "Maleezi",
+	"MT": "Malta",
+	"MP": "Mariana Gurma Gungey",
+	"MH": "Maršal gungey",
+	"MQ": "Martiniiki",
+	"MM": "Maynamar",
+	"YT": "Mayooti",
+	"MX": "Mexiki",
+	"FM": "Mikronezi",
+	"EG": "Misra",
+	"MD": "Moldovi",
+	"MC": "Monako",
+	"MN": "Mongooli",
+	"ME": "Montenegro",
+	"MS": "Montserrat",
+	"MU": "Mooris gungey",
+	"MR": "Mooritaani",
+	"MZ": "Mozambik",
+	"NG": "Naajiriia",
+	"NA": "Naamibi",
+	"NR": "Nauru",
+	"NP": "Neepal",
+	"NI": "Nikaragwa",
+	"NU": "Niue",
+	"NE": "Nižer",
+	"NF": "Norfolk Gungoo",
+	"NO": "Norveej",
+	"OM": "Omaan",
+	"AU": "Ostraali",
+	"AT": "Otriši",
+	"PK": "Paakistan",
+	"PS": "Palestine Dangay nda Gaaza",
+	"PW": "Palu",
+	"PA": "Panama",
+	"PG": "Papua Ginee Taaga",
+	"PY": "Paraguwey",
+	"PE": "Peeru",
+	"PN": "Pitikarin",
+	"PL": "Poloɲe",
+	"PR": "Porto Riko",
+	"PT": "Portugaal",
+	"RE": "Reenioŋ",
+	"RO": "Rumaani",
+	"RW": "Rwanda",
+	"SV": "Salvador laboo",
+	"WS": "Samoa",
+	"SM": "San Marino",
+	"ST": "Sao Tome nda Prinsipe",
+	"SA": "Saudiya",
+	"SL": "Seera Leon",
+	"SC": "Seešel",
+	"SN": "Senegal",
+	"SH": "Seŋ Helena",
+	"KN": "Seŋ Kitts nda Nevis",
+	"LC": "Seŋ Lussia",
+	"PM": "Seŋ Piyer nda Mikelon",
+	"VC": "Seŋvinsaŋ nda Grenadine",
+	"RS": "Serbia",
+	"CL": "Šiili",
+	"CN": "Šiin",
+	"CY": "Šiipur",
+	"SG": "Singapur",
+	"SX": "Sint Maarten",
+	"SK": "Slovaaki",
+	"SI": "Sloveeni",
+	"SB": "Solomon Gungey",
+	"SO": "Somaali",
+	"GS": "South Georgia & South Sandwich Islands",
+	"SS": "South Sudan",
+	"LK": "Srilanka",
+	"BL": "St. Barthélemy",
+	"MF": "St. Martin",
+	"SR": "Surinaam",
+	"SD": "Suudaŋ",
+	"SY": "Suuria",
+	"SJ": "Svalbard & Jan Mayen",
+	"SZ": "Swaziland",
+	"SE": "Sweede",
+	"CH": "Swisu",
+	"TH": "Taayiland",
+	"TW": "Taayiwan",
+	"TJ": "Taažikistan",
+	"TZ": "Tanzaani",
+	"TL": "Timoor hawsa",
+	"TG": "Togo",
+	"TK": "Tokelau",
+	"TO": "Tonga",
+	"TT": "Trinidad nda Tobaago",
+	"TA": "Tristan da Cunha",
+	"TN": "Tunizi",
+	"TC": "Turk nda Kayikos Gungey",
+	"TR": "Turki",
+	"TM": "Turkmenistaŋ",
+	"TV": "Tuvalu",
+	"UM": "U.S. Outlying Islands",
+	"UG": "Uganda",
+	"UA": "Ukreen",
+	"JO": "Urdun",
+	"UY": "Uruguwey",
+	"UZ": "Uzbeekistan",
+	"VA": "Vaatikan Laama",
+	"VU": "Vanautu",
+	"VE": "Veneezuyeela",
+	"VN": "Vietnaam",
+	"WF": "Wallis nda Futuna",
+	"EH": "Western Sahara",
+	"YE": "Yaman",
+	"ZM": "Zambi",
+	"NZ": "Zeelandu Taaga",
+	"ZW": "Zimbabwe"
 }

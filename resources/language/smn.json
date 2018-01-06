@@ -1,644 +1,216 @@
 {
-	"af": {
-		"name": "afrikaans"
-	},
-	"agq": {
-		"name": "aghem"
-	},
-	"ak": {
-		"name": "akankielâ"
-	},
-	"sq": {
-		"name": "albaniakielâ"
-	},
-	"am": {
-		"name": "amharakielâ"
-	},
-	"smn": {
-		"name": "anarâškielâ"
-	},
-	"ar": {
-		"name": "arabiakielâ"
-	},
-	"hy": {
-		"name": "armeniakielâ"
-	},
-	"as": {
-		"name": "assamkielâ"
-	},
-	"ast": {
-		"name": "asturiakielâ"
-	},
-	"asa": {
-		"name": "asukielâ"
-	},
-	"teo": {
-		"name": "ateso"
-	},
-	"en-AU": {
-		"name": "Australia eŋgâlâskielâ"
-	},
-	"az": {
-		"name": "azerbaidžankielâ"
-	},
-	"ksf": {
-		"name": "bafia"
-	},
-	"bm": {
-		"name": "bambarakielâ"
-	},
-	"bn": {
-		"name": "banglakielâ"
-	},
-	"bas": {
-		"name": "basaakielâ"
-	},
-	"eu": {
-		"name": "baskikielâ"
-	},
-	"bem": {
-		"name": "bembakielâ"
-	},
-	"bez": {
-		"name": "benakielâ"
-	},
-	"brx": {
-		"name": "bodokielâ"
-	},
-	"bs": {
-		"name": "bosniakielâ"
-	},
-	"br": {
-		"name": "bretonkielâ"
-	},
-	"en-GB": {
-		"name": "Britannia eŋgâlâskielâ"
-	},
-	"bg": {
-		"name": "bulgariakielâ"
-	},
-	"my": {
-		"name": "burmakielâ"
-	},
-	"chr": {
-		"name": "cherokeekielâ"
-	},
-	"dua": {
-		"name": "dualakielâ"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"et": {
-		"name": "eestikielâ"
-	},
-	"ebu": {
-		"name": "embukielâ"
-	},
-	"en": {
-		"name": "eŋgâlâskielâ"
-	},
-	"es": {
-		"name": "espanjakielâ"
-	},
-	"eo": {
-		"name": "esperantokielâ"
-	},
-	"ee": {
-		"name": "ewekielâ"
-	},
-	"ewo": {
-		"name": "ewondokielâ"
-	},
-	"fil": {
-		"name": "filipinokielâ"
-	},
-	"fur": {
-		"name": "friulikielâ"
-	},
-	"ff": {
-		"name": "fulakielâ"
-	},
-	"fo": {
-		"name": "fäärikielâ"
-	},
-	"gl": {
-		"name": "galiciakielâ"
-	},
-	"ka": {
-		"name": "georgiakielâ"
-	},
-	"gu": {
-		"name": "gudžaratikielâ"
-	},
-	"guz": {
-		"name": "gusiikielâ"
-	},
-	"ha": {
-		"name": "hausakielâ"
-	},
-	"haw": {
-		"name": "hawaijikielâ"
-	},
-	"he": {
-		"name": "hepreakielâ"
-	},
-	"hi": {
-		"name": "hindikielâ"
-	},
-	"nl": {
-		"name": "hollandkielâ"
-	},
-	"nl-BE": {
-		"name": "hollandkielâ (flaami)"
-	},
-	"ig": {
-		"name": "igbokielâ"
-	},
-	"ga": {
-		"name": "iirikielâ"
-	},
-	"id": {
-		"name": "indonesiakielâ"
-	},
-	"is": {
-		"name": "islandkielâ"
-	},
-	"it": {
-		"name": "italiakielâ"
-	},
-	"ja": {
-		"name": "jaapaankielâ"
-	},
-	"sah": {
-		"name": "jakutkielâ"
-	},
-	"yi": {
-		"name": "jiddish"
-	},
-	"dyo": {
-		"name": "jola-fonyi"
-	},
-	"kab": {
-		"name": "kabylkielâ"
-	},
-	"kkj": {
-		"name": "kako"
-	},
-	"kl": {
-		"name": "kalaallisut"
-	},
-	"kln": {
-		"name": "kalenjikielâ"
-	},
-	"kam": {
-		"name": "kambakielâ"
-	},
-	"en-CA": {
-		"name": "Kanada eŋgâlâskielâ"
-	},
-	"fr-CA": {
-		"name": "Kanada ranskakielâ"
-	},
-	"kn": {
-		"name": "kannada"
-	},
-	"kea": {
-		"name": "Kap Verde kreoli"
-	},
-	"ks": {
-		"name": "kashmirkielâ"
-	},
-	"ca": {
-		"name": "katalankielâ"
-	},
-	"lu": {
-		"name": "katangaluba"
-	},
-	"kk": {
-		"name": "kazakkielâ"
-	},
-	"km": {
-		"name": "khmerkielâ"
-	},
-	"cgg": {
-		"name": "kigakielâ"
-	},
-	"ki": {
-		"name": "kikujukielâ"
-	},
-	"ky": {
-		"name": "kirgiskielâ"
-	},
-	"cu": {
-		"name": "kirkkoslaavi"
-	},
-	"sw-CD": {
-		"name": "Kongo swahilikielâ"
-	},
-	"kok": {
-		"name": "konkani"
-	},
-	"ko": {
-		"name": "koreakielâ"
-	},
-	"kw": {
-		"name": "kornikielâ"
-	},
-	"tzm": {
-		"name": "Koskâatlas tamazight"
-	},
-	"khq": {
-		"name": "koyra chiini"
-	},
-	"ses": {
-		"name": "koyraboro senni"
-	},
-	"el": {
-		"name": "kreikakielâ"
-	},
-	"hr": {
-		"name": "kroatiakielâ"
-	},
-	"nmg": {
-		"name": "kwasio"
-	},
-	"cy": {
-		"name": "kymrikielâ"
-	},
-	"ksh": {
-		"name": "kölnkielâ"
-	},
-	"lkt": {
-		"name": "lakotakielâ"
-	},
-	"lag": {
-		"name": "langokielâ"
-	},
-	"lo": {
-		"name": "laokielâ"
-	},
-	"lv": {
-		"name": "latviakielâ"
-	},
-	"lt": {
-		"name": "liettuakielâ"
-	},
-	"ln": {
-		"name": "lingala"
-	},
-	"lg": {
-		"name": "luganda"
-	},
-	"luy": {
-		"name": "luhya"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "luxemburgkielâ"
-	},
-	"es-419": {
-		"name": "Läättin-Amerika espanjakielâ"
-	},
-	"jmc": {
-		"name": "machame"
-	},
-	"mk": {
-		"name": "makedoniakielâ"
-	},
-	"kde": {
-		"name": "makonde"
-	},
-	"mgh": {
-		"name": "makua-meetto"
-	},
-	"mg": {
-		"name": "malagaskielâ"
-	},
-	"ms": {
-		"name": "malaiji"
-	},
-	"ml": {
-		"name": "malajam"
-	},
-	"mt": {
-		"name": "maltakielâ"
-	},
-	"zh": {
-		"name": "mandarinkiinakielâ"
-	},
-	"gv": {
-		"name": "manks"
-	},
-	"mr": {
-		"name": "marathikielâ"
-	},
-	"mas": {
-		"name": "masaikielâ"
-	},
-	"mzn": {
-		"name": "mazandarani"
-	},
-	"es-MX": {
-		"name": "Meksiko espanjakielâ"
-	},
-	"mer": {
-		"name": "merukielâ"
-	},
-	"mgo": {
-		"name": "meta’"
-	},
-	"mn": {
-		"name": "mongoliakielâ"
-	},
-	"mfe": {
-		"name": "morisyen"
-	},
-	"mua": {
-		"name": "mundang"
-	},
-	"naq": {
-		"name": "nama"
-	},
-	"ne": {
-		"name": "nepalkielâ"
-	},
-	"nnh": {
-		"name": "ngiemboon"
-	},
-	"jgo": {
-		"name": "ngomba"
-	},
-	"nus": {
-		"name": "nuer"
-	},
-	"de-AT": {
-		"name": "Nuorttâriijkâ saksakielâ"
-	},
-	"nyn": {
-		"name": "nyankolekielâ"
-	},
-	"zh-Hans": {
-		"name": "oovtâkiärdánis kiinakielâ"
-	},
-	"or": {
-		"name": "orija"
-	},
-	"om": {
-		"name": "oromokielâ"
-	},
-	"os": {
-		"name": "ossetkielâ"
-	},
-	"hsb": {
-		"name": "pajesorbi"
-	},
-	"pa": {
-		"name": "pandžabi"
-	},
-	"ps": {
-		"name": "paštu"
-	},
-	"fa": {
-		"name": "persiakielâ"
-	},
-	"pt-PT": {
-		"name": "Portugal portugalkielâ"
-	},
-	"pt": {
-		"name": "portugalkielâ"
-	},
-	"pl": {
-		"name": "puolakielâ"
-	},
-	"qu": {
-		"name": "quechua"
-	},
-	"fr": {
-		"name": "ranskakielâ"
-	},
-	"rm": {
-		"name": "retoroomaankielâ"
-	},
-	"ro": {
-		"name": "romaniakielâ"
-	},
-	"ro-MD": {
-		"name": "romaniakielâ (Moldova)"
-	},
-	"rof": {
-		"name": "rombo"
-	},
-	"rw": {
-		"name": "ruandakielâ"
-	},
-	"rn": {
-		"name": "rundi"
-	},
-	"ru": {
-		"name": "ruošâkielâ"
-	},
-	"sv": {
-		"name": "ruotâkielâ"
-	},
-	"rwk": {
-		"name": "rwa"
-	},
-	"de": {
-		"name": "saksakielâ"
-	},
-	"saq": {
-		"name": "samburukielâ"
-	},
-	"sg": {
-		"name": "sango"
-	},
-	"sbp": {
-		"name": "sangu"
-	},
-	"seh": {
-		"name": "sena"
-	},
-	"sr": {
-		"name": "serbiakielâ"
-	},
-	"ksb": {
-		"name": "shambala"
-	},
-	"sn": {
-		"name": "shona"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"sd": {
-		"name": "sindhi"
-	},
-	"si": {
-		"name": "sinhala"
-	},
-	"gd": {
-		"name": "skottilâš gaelikielâ"
-	},
-	"sk": {
-		"name": "slovakiakielâ"
-	},
-	"sl": {
-		"name": "sloveniakielâ"
-	},
-	"xog": {
-		"name": "soga"
-	},
-	"so": {
-		"name": "somalikielâ"
-	},
-	"ckb": {
-		"name": "sorani kurdikielâ"
-	},
-	"zgh": {
-		"name": "standard tamazight"
-	},
-	"fi": {
-		"name": "suomâkielâ"
-	},
-	"de-CH": {
-		"name": "Sveitsi pajesaksakielâ"
-	},
-	"fr-CH": {
-		"name": "Sveitsi ranskakielâ"
-	},
-	"gsw": {
-		"name": "Sveitsi saksakielâ"
-	},
-	"sw": {
-		"name": "swahilikielâ"
-	},
-	"tg": {
-		"name": "tadžikkielâ"
-	},
-	"dav": {
-		"name": "taitakielâ"
-	},
-	"ta": {
-		"name": "tamilkielâ"
-	},
-	"da": {
-		"name": "tanskakielâ"
-	},
-	"twq": {
-		"name": "tasawaq"
-	},
-	"shi": {
-		"name": "tašelhit"
-	},
-	"tt": {
-		"name": "tatarkielâ"
-	},
-	"nd": {
-		"name": "tave-nbedele"
-	},
-	"se": {
-		"name": "tavekielâ"
-	},
-	"lrc": {
-		"name": "taveluri"
-	},
-	"te": {
-		"name": "telugu"
-	},
-	"th": {
-		"name": "thaikielâ"
-	},
-	"ti": {
-		"name": "tigrinyakielâ"
-	},
-	"bo": {
-		"name": "tiibetkielâ"
-	},
-	"to": {
-		"name": "tongakielâ"
-	},
-	"prg": {
-		"name": "toovláš preussikielâ"
-	},
-	"cs": {
-		"name": "tšeekikielâ"
-	},
-	"ce": {
-		"name": "tšetšenkielâ"
-	},
-	"tk": {
-		"name": "turkmenkielâ"
-	},
-	"tr": {
-		"name": "tuurkikielâ"
-	},
-	"nb": {
-		"name": "tárukielâ bokmål"
-	},
-	"nn": {
-		"name": "tárukielâ nynorsk"
-	},
-	"ug": {
-		"name": "uigurkielâ"
-	},
-	"uk": {
-		"name": "ukrainakielâ"
-	},
-	"hu": {
-		"name": "uŋgarkielâ"
-	},
-	"ur": {
-		"name": "urdu"
-	},
-	"uz": {
-		"name": "uzbekkielâ"
-	},
-	"vai": {
-		"name": "vaikielâ"
-	},
-	"be": {
-		"name": "vielgisruošâkielâ"
-	},
-	"fy": {
-		"name": "viestârfriisi"
-	},
-	"vi": {
-		"name": "vietnamkielâ"
-	},
-	"vo": {
-		"name": "volapük"
-	},
-	"vun": {
-		"name": "vunjo"
-	},
-	"nds-NL": {
-		"name": "Vuáládâhenâmij saksakielâ"
-	},
-	"dsb": {
-		"name": "vyelisorbi"
-	},
-	"wae": {
-		"name": "walliskielâ"
-	},
-	"wo": {
-		"name": "wolofkielâ"
-	},
-	"yav": {
-		"name": "yangben"
-	},
-	"yo": {
-		"name": "yorubakielâ"
-	},
-	"dje": {
-		"name": "zarmakielâ"
-	},
-	"zu": {
-		"name": "zulukielâ"
-	},
-	"zh-Hant": {
-		"name": "ärbivuáválâš kiinakielâ"
-	}
+	"af": "afrikaans",
+	"agq": "aghem",
+	"ak": "akankielâ",
+	"sq": "albaniakielâ",
+	"am": "amharakielâ",
+	"smn": "anarâškielâ",
+	"ar": "arabiakielâ",
+	"hy": "armeniakielâ",
+	"as": "assamkielâ",
+	"ast": "asturiakielâ",
+	"asa": "asukielâ",
+	"teo": "ateso",
+	"en-AU": "Australia eŋgâlâskielâ",
+	"az": "azerbaidžankielâ",
+	"ksf": "bafia",
+	"bm": "bambarakielâ",
+	"bn": "banglakielâ",
+	"bas": "basaakielâ",
+	"eu": "baskikielâ",
+	"bem": "bembakielâ",
+	"bez": "benakielâ",
+	"brx": "bodokielâ",
+	"bs": "bosniakielâ",
+	"br": "bretonkielâ",
+	"en-GB": "Britannia eŋgâlâskielâ",
+	"bg": "bulgariakielâ",
+	"my": "burmakielâ",
+	"chr": "cherokeekielâ",
+	"dua": "dualakielâ",
+	"dz": "Dzongkha",
+	"et": "eestikielâ",
+	"ebu": "embukielâ",
+	"en": "eŋgâlâskielâ",
+	"es": "espanjakielâ",
+	"eo": "esperantokielâ",
+	"ee": "ewekielâ",
+	"ewo": "ewondokielâ",
+	"fil": "filipinokielâ",
+	"fur": "friulikielâ",
+	"ff": "fulakielâ",
+	"fo": "fäärikielâ",
+	"gl": "galiciakielâ",
+	"ka": "georgiakielâ",
+	"gu": "gudžaratikielâ",
+	"guz": "gusiikielâ",
+	"ha": "hausakielâ",
+	"haw": "hawaijikielâ",
+	"he": "hepreakielâ",
+	"hi": "hindikielâ",
+	"nl": "hollandkielâ",
+	"nl-BE": "hollandkielâ (flaami)",
+	"ig": "igbokielâ",
+	"ga": "iirikielâ",
+	"id": "indonesiakielâ",
+	"is": "islandkielâ",
+	"it": "italiakielâ",
+	"ja": "jaapaankielâ",
+	"sah": "jakutkielâ",
+	"yi": "jiddish",
+	"dyo": "jola-fonyi",
+	"kab": "kabylkielâ",
+	"kkj": "kako",
+	"kl": "kalaallisut",
+	"kln": "kalenjikielâ",
+	"kam": "kambakielâ",
+	"en-CA": "Kanada eŋgâlâskielâ",
+	"fr-CA": "Kanada ranskakielâ",
+	"kn": "kannada",
+	"kea": "Kap Verde kreoli",
+	"ks": "kashmirkielâ",
+	"ca": "katalankielâ",
+	"lu": "katangaluba",
+	"kk": "kazakkielâ",
+	"km": "khmerkielâ",
+	"cgg": "kigakielâ",
+	"ki": "kikujukielâ",
+	"ky": "kirgiskielâ",
+	"cu": "kirkkoslaavi",
+	"sw-CD": "Kongo swahilikielâ",
+	"kok": "konkani",
+	"ko": "koreakielâ",
+	"kw": "kornikielâ",
+	"tzm": "Koskâatlas tamazight",
+	"khq": "koyra chiini",
+	"ses": "koyraboro senni",
+	"el": "kreikakielâ",
+	"hr": "kroatiakielâ",
+	"nmg": "kwasio",
+	"cy": "kymrikielâ",
+	"ksh": "kölnkielâ",
+	"lkt": "lakotakielâ",
+	"lag": "langokielâ",
+	"lo": "laokielâ",
+	"lv": "latviakielâ",
+	"lt": "liettuakielâ",
+	"ln": "lingala",
+	"lg": "luganda",
+	"luy": "luhya",
+	"luo": "Luo",
+	"lb": "luxemburgkielâ",
+	"es-419": "Läättin-Amerika espanjakielâ",
+	"jmc": "machame",
+	"mk": "makedoniakielâ",
+	"kde": "makonde",
+	"mgh": "makua-meetto",
+	"mg": "malagaskielâ",
+	"ms": "malaiji",
+	"ml": "malajam",
+	"mt": "maltakielâ",
+	"zh": "mandarinkiinakielâ",
+	"gv": "manks",
+	"mr": "marathikielâ",
+	"mas": "masaikielâ",
+	"mzn": "mazandarani",
+	"es-MX": "Meksiko espanjakielâ",
+	"mer": "merukielâ",
+	"mgo": "meta’",
+	"mn": "mongoliakielâ",
+	"mfe": "morisyen",
+	"mua": "mundang",
+	"naq": "nama",
+	"ne": "nepalkielâ",
+	"nnh": "ngiemboon",
+	"jgo": "ngomba",
+	"nus": "nuer",
+	"de-AT": "Nuorttâriijkâ saksakielâ",
+	"nyn": "nyankolekielâ",
+	"zh-Hans": "oovtâkiärdánis kiinakielâ",
+	"or": "orija",
+	"om": "oromokielâ",
+	"os": "ossetkielâ",
+	"hsb": "pajesorbi",
+	"pa": "pandžabi",
+	"ps": "paštu",
+	"fa": "persiakielâ",
+	"pt-PT": "Portugal portugalkielâ",
+	"pt": "portugalkielâ",
+	"pl": "puolakielâ",
+	"qu": "quechua",
+	"fr": "ranskakielâ",
+	"rm": "retoroomaankielâ",
+	"ro": "romaniakielâ",
+	"ro-MD": "romaniakielâ (Moldova)",
+	"rof": "rombo",
+	"rw": "ruandakielâ",
+	"rn": "rundi",
+	"ru": "ruošâkielâ",
+	"sv": "ruotâkielâ",
+	"rwk": "rwa",
+	"de": "saksakielâ",
+	"saq": "samburukielâ",
+	"sg": "sango",
+	"sbp": "sangu",
+	"seh": "sena",
+	"sr": "serbiakielâ",
+	"ksb": "shambala",
+	"sn": "shona",
+	"ii": "Sichuan Yi",
+	"sd": "sindhi",
+	"si": "sinhala",
+	"gd": "skottilâš gaelikielâ",
+	"sk": "slovakiakielâ",
+	"sl": "sloveniakielâ",
+	"xog": "soga",
+	"so": "somalikielâ",
+	"ckb": "sorani kurdikielâ",
+	"zgh": "standard tamazight",
+	"fi": "suomâkielâ",
+	"de-CH": "Sveitsi pajesaksakielâ",
+	"fr-CH": "Sveitsi ranskakielâ",
+	"gsw": "Sveitsi saksakielâ",
+	"sw": "swahilikielâ",
+	"tg": "tadžikkielâ",
+	"dav": "taitakielâ",
+	"ta": "tamilkielâ",
+	"da": "tanskakielâ",
+	"twq": "tasawaq",
+	"shi": "tašelhit",
+	"tt": "tatarkielâ",
+	"nd": "tave-nbedele",
+	"se": "tavekielâ",
+	"lrc": "taveluri",
+	"te": "telugu",
+	"th": "thaikielâ",
+	"ti": "tigrinyakielâ",
+	"bo": "tiibetkielâ",
+	"to": "tongakielâ",
+	"prg": "toovláš preussikielâ",
+	"cs": "tšeekikielâ",
+	"ce": "tšetšenkielâ",
+	"tk": "turkmenkielâ",
+	"tr": "tuurkikielâ",
+	"nb": "tárukielâ bokmål",
+	"nn": "tárukielâ nynorsk",
+	"ug": "uigurkielâ",
+	"uk": "ukrainakielâ",
+	"hu": "uŋgarkielâ",
+	"ur": "urdu",
+	"uz": "uzbekkielâ",
+	"vai": "vaikielâ",
+	"be": "vielgisruošâkielâ",
+	"fy": "viestârfriisi",
+	"vi": "vietnamkielâ",
+	"vo": "volapük",
+	"vun": "vunjo",
+	"nds-NL": "Vuáládâhenâmij saksakielâ",
+	"dsb": "vyelisorbi",
+	"wae": "walliskielâ",
+	"wo": "wolofkielâ",
+	"yav": "yangben",
+	"yo": "yorubakielâ",
+	"dje": "zarmakielâ",
+	"zu": "zulukielâ",
+	"zh-Hant": "ärbivuáválâš kiinakielâ"
 }

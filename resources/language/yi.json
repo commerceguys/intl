@@ -1,647 +1,217 @@
 {
-	"uz": {
-		"name": "אוזבעקיש"
-	},
-	"hu": {
-		"name": "אונגעריש"
-	},
-	"dsb": {
-		"name": "אונטער־סארביש"
-	},
-	"uk": {
-		"name": "אוקראַאיניש"
-	},
-	"ur": {
-		"name": "אורדו"
-	},
-	"az": {
-		"name": "אַזערביידזשאַניש"
-	},
-	"hsb": {
-		"name": "אייבער־סארביש"
-	},
-	"it": {
-		"name": "איטאַליעניש"
-	},
-	"id": {
-		"name": "אינדאנעזיש"
-	},
-	"is": {
-		"name": "איסלאַנדיש"
-	},
-	"ga": {
-		"name": "איריש"
-	},
-	"sq": {
-		"name": "אַלבאַניש"
-	},
-	"am": {
-		"name": "אַמהאַריש"
-	},
-	"as": {
-		"name": "אַסאַמיש"
-	},
-	"os": {
-		"name": "אסעטיש"
-	},
-	"af": {
-		"name": "אַפֿריקאַנס"
-	},
-	"ar": {
-		"name": "אַראַביש"
-	},
-	"hy": {
-		"name": "אַרמעניש"
-	},
-	"bs": {
-		"name": "באסניש"
-	},
-	"eu": {
-		"name": "באַסקיש"
-	},
-	"bg": {
-		"name": "בולגאַריש"
-	},
-	"my": {
-		"name": "בירמאַניש"
-	},
-	"be": {
-		"name": "בעלאַרוסיש"
-	},
-	"bn": {
-		"name": "בענגאַליש"
-	},
-	"br": {
-		"name": "ברעטאניש"
-	},
-	"gl": {
-		"name": "גאַלישיש"
-	},
-	"ka": {
-		"name": "גרוזיניש"
-	},
-	"el": {
-		"name": "גריכיש"
-	},
-	"de": {
-		"name": "דײַטש"
-	},
-	"de-AT": {
-		"name": "דײַטש (עסטרייך)"
-	},
-	"de-CH": {
-		"name": "דײַטש (שווייץ)"
-	},
-	"da": {
-		"name": "דעניש"
-	},
-	"ha": {
-		"name": "האַוסאַ"
-	},
-	"nl": {
-		"name": "האלענדיש"
-	},
-	"hi": {
-		"name": "הינדי"
-	},
-	"he": {
-		"name": "העברעאיש"
-	},
-	"vo": {
-		"name": "וואלאַפּוק"
-	},
-	"vi": {
-		"name": "וויעטנאַמעזיש"
-	},
-	"cy": {
-		"name": "וועלשיש"
-	},
-	"zu": {
-		"name": "זולו"
-	},
-	"dyo": {
-		"name": "זשאלא־פֿאני"
-	},
-	"tt": {
-		"name": "טאָטעריש"
-	},
-	"ta": {
-		"name": "טאַמיל"
-	},
-	"tk": {
-		"name": "טורקמעניש"
-	},
-	"bo": {
-		"name": "טיבעטיש"
-	},
-	"cs": {
-		"name": "טשעכיש"
-	},
-	"ja": {
-		"name": "יאַפּאַניש"
-	},
-	"yi": {
-		"name": "ייִדיש"
-	},
-	"zh": {
-		"name": "כינעזיש"
-	},
-	"zh-Hans": {
-		"name": "כינעזיש (Hans)"
-	},
-	"zh-Hant": {
-		"name": "כינעזיש (Hant)"
-	},
-	"km": {
-		"name": "כמער"
-	},
-	"lo": {
-		"name": "לאַא"
-	},
-	"lb": {
-		"name": "לוקסעמבורגיש"
-	},
-	"lt": {
-		"name": "ליטוויש"
-	},
-	"lv": {
-		"name": "לעטיש"
-	},
-	"ml": {
-		"name": "מאַלאַיאַלאַם"
-	},
-	"mt": {
-		"name": "מאַלטעזיש"
-	},
-	"mn": {
-		"name": "מאנגאליש"
-	},
-	"gv": {
-		"name": "מאַנקס"
-	},
-	"mk": {
-		"name": "מאַקעדאניש"
-	},
-	"fy": {
-		"name": "מערב־פֿריזיש"
-	},
-	"se": {
-		"name": "נארדסאַמיש"
-	},
-	"nn": {
-		"name": "נײַ־נארוועגיש"
-	},
-	"nds": {
-		"name": "נידערדײַטש"
-	},
-	"nds-NL": {
-		"name": "נידערדײַטש (האלאַנד)"
-	},
-	"ne": {
-		"name": "נעפּאַליש"
-	},
-	"so": {
-		"name": "סאמאַליש"
-	},
-	"sw": {
-		"name": "סוואַהיליש"
-	},
-	"sd": {
-		"name": "סינדהי"
-	},
-	"si": {
-		"name": "סינהאַליש"
-	},
-	"sk": {
-		"name": "סלאוואַקיש"
-	},
-	"sl": {
-		"name": "סלאוועניש"
-	},
-	"sr": {
-		"name": "סערביש"
-	},
-	"gd": {
-		"name": "סקאטיש געליש"
-	},
-	"en": {
-		"name": "ענגליש"
-	},
-	"en-AU": {
-		"name": "ענגליש (אויסטראַליע)"
-	},
-	"en-GB": {
-		"name": "ענגליש (פֿאַראייניגטע קעניגרייך)"
-	},
-	"en-CA": {
-		"name": "ענגליש (קאַנאַדע)"
-	},
-	"et": {
-		"name": "עסטיש"
-	},
-	"eo": {
-		"name": "עספּעראַנטא"
-	},
-	"pt": {
-		"name": "פּארטוגעזיש"
-	},
-	"pt-PT": {
-		"name": "פּארטוגעזיש (פּארטוגאַל)"
-	},
-	"ps": {
-		"name": "פּאַשטאָ"
-	},
-	"pl": {
-		"name": "פּויליש"
-	},
-	"fa": {
-		"name": "פּערסיש"
-	},
-	"prg": {
-		"name": "פּרייסיש"
-	},
-	"fo": {
-		"name": "פֿאַראיש"
-	},
-	"fil": {
-		"name": "פֿיליפּינא"
-	},
-	"fi": {
-		"name": "פֿיניש"
-	},
-	"nl-BE": {
-		"name": "פֿלעמיש"
-	},
-	"fr": {
-		"name": "פֿראַנצויזיש"
-	},
-	"fr-CA": {
-		"name": "פֿראַנצויזיש (קאַנאַדע)"
-	},
-	"fr-CH": {
-		"name": "פֿראַנצויזיש (שווייץ)"
-	},
-	"kk": {
-		"name": "קאַזאַכיש"
-	},
-	"ca": {
-		"name": "קאַטאַלאניש"
-	},
-	"kn": {
-		"name": "קאַנאַדאַ"
-	},
-	"sw-CD": {
-		"name": "קאנגא־סוואַהיליש"
-	},
-	"kw": {
-		"name": "קארניש"
-	},
-	"ko": {
-		"name": "קארעאיש"
-	},
-	"ky": {
-		"name": "קירגיזיש"
-	},
-	"cu": {
-		"name": "קלויסטער־סלאַוויש"
-	},
-	"hr": {
-		"name": "קראאַטיש"
-	},
-	"ro": {
-		"name": "רומעניש"
-	},
-	"ro-MD": {
-		"name": "רומעניש (מאלדאווע)"
-	},
-	"ru": {
-		"name": "רוסיש"
-	},
-	"sn": {
-		"name": "שאנאַ"
-	},
-	"sv": {
-		"name": "שוועדיש"
-	},
-	"es": {
-		"name": "שפּאַניש"
-	},
-	"es-419": {
-		"name": "שפּאַניש (לאַטיין־אַמעריקע)"
-	},
-	"es-MX": {
-		"name": "שפּאַניש (מעקסיקע)"
-	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "Akan"
-	},
-	"ast": {
-		"name": "Asturian"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"gu": {
-		"name": "Gujarati"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"haw": {
-		"name": "Hawaiian"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"smn": {
-		"name": "Inari Sami"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"ks": {
-		"name": "Kashmiri"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"rw": {
-		"name": "Kinyarwanda"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"ln": {
-		"name": "Lingala"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"mg": {
-		"name": "Malagasy"
-	},
-	"ms": {
-		"name": "Malay"
-	},
-	"mr": {
-		"name": "Marathi"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nd": {
-		"name": "North Ndebele"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"nb": {
-		"name": "Norwegian Bokmål"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"or": {
-		"name": "Odia"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"pa": {
-		"name": "Punjabi"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"rm": {
-		"name": "Romansh"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rn": {
-		"name": "Rundi"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"gsw": {
-		"name": "Swiss German"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"tg": {
-		"name": "Tajik"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"te": {
-		"name": "Telugu"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"th": {
-		"name": "Thai"
-	},
-	"ti": {
-		"name": "Tigrinya"
-	},
-	"to": {
-		"name": "Tongan"
-	},
-	"tr": {
-		"name": "Turkish"
-	},
-	"ug": {
-		"name": "Uyghur"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"wo": {
-		"name": "Wolof"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"yo": {
-		"name": "Yoruba"
-	},
-	"dje": {
-		"name": "Zarma"
-	}
+	"uz": "אוזבעקיש",
+	"hu": "אונגעריש",
+	"dsb": "אונטער־סארביש",
+	"uk": "אוקראַאיניש",
+	"ur": "אורדו",
+	"az": "אַזערביידזשאַניש",
+	"hsb": "אייבער־סארביש",
+	"it": "איטאַליעניש",
+	"id": "אינדאנעזיש",
+	"is": "איסלאַנדיש",
+	"ga": "איריש",
+	"sq": "אַלבאַניש",
+	"am": "אַמהאַריש",
+	"as": "אַסאַמיש",
+	"os": "אסעטיש",
+	"af": "אַפֿריקאַנס",
+	"ar": "אַראַביש",
+	"hy": "אַרמעניש",
+	"bs": "באסניש",
+	"eu": "באַסקיש",
+	"bg": "בולגאַריש",
+	"my": "בירמאַניש",
+	"be": "בעלאַרוסיש",
+	"bn": "בענגאַליש",
+	"br": "ברעטאניש",
+	"gl": "גאַלישיש",
+	"ka": "גרוזיניש",
+	"el": "גריכיש",
+	"de": "דײַטש",
+	"de-AT": "דײַטש (עסטרייך)",
+	"de-CH": "דײַטש (שווייץ)",
+	"da": "דעניש",
+	"ha": "האַוסאַ",
+	"nl": "האלענדיש",
+	"hi": "הינדי",
+	"he": "העברעאיש",
+	"vo": "וואלאַפּוק",
+	"vi": "וויעטנאַמעזיש",
+	"cy": "וועלשיש",
+	"zu": "זולו",
+	"dyo": "זשאלא־פֿאני",
+	"tt": "טאָטעריש",
+	"ta": "טאַמיל",
+	"tk": "טורקמעניש",
+	"bo": "טיבעטיש",
+	"cs": "טשעכיש",
+	"ja": "יאַפּאַניש",
+	"yi": "ייִדיש",
+	"zh": "כינעזיש",
+	"zh-Hans": "כינעזיש (Hans)",
+	"zh-Hant": "כינעזיש (Hant)",
+	"km": "כמער",
+	"lo": "לאַא",
+	"lb": "לוקסעמבורגיש",
+	"lt": "ליטוויש",
+	"lv": "לעטיש",
+	"ml": "מאַלאַיאַלאַם",
+	"mt": "מאַלטעזיש",
+	"mn": "מאנגאליש",
+	"gv": "מאַנקס",
+	"mk": "מאַקעדאניש",
+	"fy": "מערב־פֿריזיש",
+	"se": "נארדסאַמיש",
+	"nn": "נײַ־נארוועגיש",
+	"nds": "נידערדײַטש",
+	"nds-NL": "נידערדײַטש (האלאַנד)",
+	"ne": "נעפּאַליש",
+	"so": "סאמאַליש",
+	"sw": "סוואַהיליש",
+	"sd": "סינדהי",
+	"si": "סינהאַליש",
+	"sk": "סלאוואַקיש",
+	"sl": "סלאוועניש",
+	"sr": "סערביש",
+	"gd": "סקאטיש געליש",
+	"en": "ענגליש",
+	"en-AU": "ענגליש (אויסטראַליע)",
+	"en-GB": "ענגליש (פֿאַראייניגטע קעניגרייך)",
+	"en-CA": "ענגליש (קאַנאַדע)",
+	"et": "עסטיש",
+	"eo": "עספּעראַנטא",
+	"pt": "פּארטוגעזיש",
+	"pt-PT": "פּארטוגעזיש (פּארטוגאַל)",
+	"ps": "פּאַשטאָ",
+	"pl": "פּויליש",
+	"fa": "פּערסיש",
+	"prg": "פּרייסיש",
+	"fo": "פֿאַראיש",
+	"fil": "פֿיליפּינא",
+	"fi": "פֿיניש",
+	"nl-BE": "פֿלעמיש",
+	"fr": "פֿראַנצויזיש",
+	"fr-CA": "פֿראַנצויזיש (קאַנאַדע)",
+	"fr-CH": "פֿראַנצויזיש (שווייץ)",
+	"kk": "קאַזאַכיש",
+	"ca": "קאַטאַלאניש",
+	"kn": "קאַנאַדאַ",
+	"sw-CD": "קאנגא־סוואַהיליש",
+	"kw": "קארניש",
+	"ko": "קארעאיש",
+	"ky": "קירגיזיש",
+	"cu": "קלויסטער־סלאַוויש",
+	"hr": "קראאַטיש",
+	"ro": "רומעניש",
+	"ro-MD": "רומעניש (מאלדאווע)",
+	"ru": "רוסיש",
+	"sn": "שאנאַ",
+	"sv": "שוועדיש",
+	"es": "שפּאַניש",
+	"es-419": "שפּאַניש (לאַטיין־אַמעריקע)",
+	"es-MX": "שפּאַניש (מעקסיקע)",
+	"agq": "Aghem",
+	"ak": "Akan",
+	"ast": "Asturian",
+	"asa": "Asu",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bas": "Basaa",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"brx": "Bodo",
+	"tzm": "Central Atlas Tamazight",
+	"ckb": "Central Kurdish",
+	"ce": "Chechen",
+	"chr": "Cherokee",
+	"cgg": "Chiga",
+	"ksh": "Colognian",
+	"dua": "Duala",
+	"dz": "Dzongkha",
+	"ebu": "Embu",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fur": "Friulian",
+	"ff": "Fulah",
+	"lg": "Ganda",
+	"gu": "Gujarati",
+	"guz": "Gusii",
+	"haw": "Hawaiian",
+	"ig": "Igbo",
+	"smn": "Inari Sami",
+	"kea": "Kabuverdianu",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"ks": "Kashmiri",
+	"ki": "Kikuyu",
+	"rw": "Kinyarwanda",
+	"kok": "Konkani",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"nmg": "Kwasio",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"ln": "Lingala",
+	"lu": "Luba-Katanga",
+	"luo": "Luo",
+	"luy": "Luyia",
+	"jmc": "Machame",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"mg": "Malagasy",
+	"ms": "Malay",
+	"mr": "Marathi",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"nd": "North Ndebele",
+	"lrc": "Northern Luri",
+	"nb": "Norwegian Bokmål",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"or": "Odia",
+	"om": "Oromo",
+	"pa": "Punjabi",
+	"qu": "Quechua",
+	"rm": "Romansh",
+	"rof": "Rombo",
+	"rn": "Rundi",
+	"rwk": "Rwa",
+	"sah": "Sakha",
+	"saq": "Samburu",
+	"sg": "Sango",
+	"sbp": "Sangu",
+	"seh": "Sena",
+	"ksb": "Shambala",
+	"ii": "Sichuan Yi",
+	"xog": "Soga",
+	"zgh": "Standard Moroccan Tamazight",
+	"gsw": "Swiss German",
+	"shi": "Tachelhit",
+	"dav": "Taita",
+	"tg": "Tajik",
+	"twq": "Tasawaq",
+	"te": "Telugu",
+	"teo": "Teso",
+	"th": "Thai",
+	"ti": "Tigrinya",
+	"to": "Tongan",
+	"tr": "Turkish",
+	"ug": "Uyghur",
+	"vai": "Vai",
+	"vun": "Vunjo",
+	"wae": "Walser",
+	"wo": "Wolof",
+	"yav": "Yangben",
+	"yo": "Yoruba",
+	"dje": "Zarma"
 }

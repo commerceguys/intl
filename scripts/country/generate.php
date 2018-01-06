@@ -117,9 +117,7 @@ foreach ($locales as $locale) {
                 $untranslatedCounts[$locale]++;
             }
 
-            $countries[$locale][$countryCode] = [
-                'name' => $countryName,
-            ];
+            $countries[$locale][$countryCode] = $countryName;
         }
     }
 }
@@ -140,7 +138,7 @@ foreach ($countries as $locale => $localizedCountries) {
     if ($parentLocale = \CommerceGuys\Intl\Locale::getParent($locale)) {
         $parentCountries = isset($countries[$parentLocale]) ? $countries[$parentLocale] : [];
         $diff = array_udiff($localizedCountries, $parentCountries, function ($first, $second) {
-            return ($first['name'] == $second['name']) ? 0 : 1;
+            return ($first == $second) ? 0 : 1;
         });
 
         if (empty($diff)) {
@@ -160,7 +158,7 @@ foreach ($duplicates as $locale) {
 foreach ($countries as $locale => $localizedCountries) {
     $collator = collator_create($locale);
     uasort($localizedCountries, function ($a, $b) use ($collator) {
-        return collator_compare($collator, $a['name'], $b['name']);
+        return collator_compare($collator, $a, $b);
     });
     file_put_json($locale . '.json', $localizedCountries);
 }

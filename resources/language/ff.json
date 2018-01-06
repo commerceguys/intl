@@ -1,644 +1,216 @@
 {
-	"ar": {
-		"name": "Aarabeere"
-	},
-	"af": {
-		"name": "Afrikaans"
-	},
-	"agq": {
-		"name": "Aghem"
-	},
-	"ak": {
-		"name": "Akaan"
-	},
-	"sq": {
-		"name": "Albanian"
-	},
-	"am": {
-		"name": "Amarik"
-	},
-	"hy": {
-		"name": "Armenian"
-	},
-	"as": {
-		"name": "Assamese"
-	},
-	"ast": {
-		"name": "Asturian"
-	},
-	"asa": {
-		"name": "Asu"
-	},
-	"az": {
-		"name": "Azerbaijani"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "Bambara"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"eu": {
-		"name": "Basque"
-	},
-	"be": {
-		"name": "Belaruuse"
-	},
-	"bem": {
-		"name": "Bemba"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"bn": {
-		"name": "Bengali"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"bs": {
-		"name": "Bosnian"
-	},
-	"br": {
-		"name": "Breton"
-	},
-	"bg": {
-		"name": "Bulgariire"
-	},
-	"my": {
-		"name": "Burmeese"
-	},
-	"ca": {
-		"name": "Catalan"
-	},
-	"cs": {
-		"name": "Cekkere"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"kw": {
-		"name": "Cornish"
-	},
-	"hr": {
-		"name": "Croatian"
-	},
-	"nl": {
-		"name": "Dacceere"
-	},
-	"nl-BE": {
-		"name": "Dacceere (Beljik)"
-	},
-	"da": {
-		"name": "Danish"
-	},
-	"de": {
-		"name": "Docceere"
-	},
-	"de-AT": {
-		"name": "Docceere (Otiriis)"
-	},
-	"de-CH": {
-		"name": "Docceere (Suwiis)"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"ebu": {
-		"name": "Embu"
-	},
-	"id": {
-		"name": "Endonesiire"
-	},
-	"en": {
-		"name": "Engeleere"
-	},
-	"en-CA": {
-		"name": "Engeleere (Kanadaa)"
-	},
-	"en-GB": {
-		"name": "Engeleere (Laamateeri Rentundi)"
-	},
-	"en-AU": {
-		"name": "Engeleere (Ostaraalii)"
-	},
-	"es": {
-		"name": "Español"
-	},
-	"es-419": {
-		"name": "Español (419)"
-	},
-	"es-MX": {
-		"name": "Español (Meksik)"
-	},
-	"eo": {
-		"name": "Esperanto"
-	},
-	"et": {
-		"name": "Estonian"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fr": {
-		"name": "Farayseere"
-	},
-	"fr-CA": {
-		"name": "Farayseere (Kanadaa)"
-	},
-	"fr-CH": {
-		"name": "Farayseere (Suwiis)"
-	},
-	"fo": {
-		"name": "Faroese"
-	},
-	"fil": {
-		"name": "Filipino"
-	},
-	"fi": {
-		"name": "Finnish"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"gl": {
-		"name": "Galician"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"ka": {
-		"name": "Georgian"
-	},
-	"el": {
-		"name": "Gerke"
-	},
-	"gu": {
-		"name": "Gujarati"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"haw": {
-		"name": "Hawaiian"
-	},
-	"ha": {
-		"name": "Hawsaŋkoore"
-	},
-	"he": {
-		"name": "Hebrew"
-	},
-	"hi": {
-		"name": "Hinndi"
-	},
-	"hu": {
-		"name": "Hongariire"
-	},
-	"is": {
-		"name": "Icelandic"
-	},
-	"ig": {
-		"name": "Igiboore"
-	},
-	"smn": {
-		"name": "Inari Sami"
-	},
-	"ga": {
-		"name": "Irish"
-	},
-	"it": {
-		"name": "Italiyeere"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kea": {
-		"name": "Kabuverdianu"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"kn": {
-		"name": "Kannada"
-	},
-	"ks": {
-		"name": "Kashmiri"
-	},
-	"kk": {
-		"name": "Kazakh"
-	},
-	"km": {
-		"name": "Kemeere"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"ko": {
-		"name": "Koreere"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"ky": {
-		"name": "Kyrgyz"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lo": {
-		"name": "Lao"
-	},
-	"lv": {
-		"name": "Latvian"
-	},
-	"ln": {
-		"name": "Lingala"
-	},
-	"lt": {
-		"name": "Lithuanian"
-	},
-	"dsb": {
-		"name": "Lower Sorbian"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "Luxembourgish"
-	},
-	"luy": {
-		"name": "Luyia"
-	},
-	"mk": {
-		"name": "Macedonian"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"mg": {
-		"name": "Malagasy"
-	},
-	"ml": {
-		"name": "Malayalam"
-	},
-	"ms": {
-		"name": "Malayeere"
-	},
-	"mt": {
-		"name": "Maltese"
-	},
-	"gv": {
-		"name": "Manx"
-	},
-	"mr": {
-		"name": "Marathi"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"mn": {
-		"name": "Mongolian"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nds-NL": {
-		"name": "nds (Nederlannda)"
-	},
-	"ne": {
-		"name": "Nepaaleere"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"nd": {
-		"name": "North Ndebele"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"se": {
-		"name": "Northern Sami"
-	},
-	"nb": {
-		"name": "Norwegian Bokmål"
-	},
-	"nn": {
-		"name": "Norwegian Nynorsk"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"or": {
-		"name": "Odia"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Ossetic"
-	},
-	"ps": {
-		"name": "Pashto"
-	},
-	"fa": {
-		"name": "Perseere"
-	},
-	"pl": {
-		"name": "Poloneere"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"ff": {
-		"name": "Pulaar"
-	},
-	"pa": {
-		"name": "Punjabeere"
-	},
-	"pt": {
-		"name": "Purtugeere"
-	},
-	"pt-PT": {
-		"name": "Purtugeere (Purtugaal)"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"ru": {
-		"name": "Riis"
-	},
-	"ro": {
-		"name": "Romaneere"
-	},
-	"ro-MD": {
-		"name": "Romaneere (Moldawii)"
-	},
-	"rm": {
-		"name": "Romansh"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rn": {
-		"name": "Rundi"
-	},
-	"rw": {
-		"name": "Ruwaanndeere"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"ja": {
-		"name": "Saponeere"
-	},
-	"gd": {
-		"name": "Scottish Gaelic"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"sr": {
-		"name": "Serbian"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "Shona"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"sd": {
-		"name": "Sindhi"
-	},
-	"si": {
-		"name": "Sinhala"
-	},
-	"zh": {
-		"name": "Sinuwaare"
-	},
-	"zh-Hans": {
-		"name": "Sinuwaare (Hans)"
-	},
-	"zh-Hant": {
-		"name": "Sinuwaare (Hant)"
-	},
-	"sk": {
-		"name": "Slovak"
-	},
-	"sl": {
-		"name": "Slovenian"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "Somalii"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"zu": {
-		"name": "Suluŋkoore"
-	},
-	"sw-CD": {
-		"name": "sw (Ndenndaandi Demokaraasiire Konngo)"
-	},
-	"sw": {
-		"name": "Swahili"
-	},
-	"sv": {
-		"name": "Sweedeere"
-	},
-	"gsw": {
-		"name": "Swiss German"
-	},
-	"th": {
-		"name": "Taay"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"tg": {
-		"name": "Tajik"
-	},
-	"ta": {
-		"name": "Tamil"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "Tatar"
-	},
-	"te": {
-		"name": "Telugu"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"bo": {
-		"name": "Tibetan"
-	},
-	"ti": {
-		"name": "Tigrinya"
-	},
-	"to": {
-		"name": "Tongan"
-	},
-	"tr": {
-		"name": "Turkeere"
-	},
-	"tk": {
-		"name": "Turkmen"
-	},
-	"uk": {
-		"name": "Ukereneere"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
-	},
-	"ur": {
-		"name": "Urdu"
-	},
-	"ug": {
-		"name": "Uyghur"
-	},
-	"uz": {
-		"name": "Uzbek"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"wae": {
-		"name": "Walser"
-	},
-	"cy": {
-		"name": "Welsh"
-	},
-	"fy": {
-		"name": "Western Frisian"
-	},
-	"vi": {
-		"name": "Wiyetnameere"
-	},
-	"wo": {
-		"name": "Wolof"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"yi": {
-		"name": "Yiddish"
-	},
-	"yo": {
-		"name": "Yorrubaa"
-	},
-	"dje": {
-		"name": "Zarma"
-	}
+	"ar": "Aarabeere",
+	"af": "Afrikaans",
+	"agq": "Aghem",
+	"ak": "Akaan",
+	"sq": "Albanian",
+	"am": "Amarik",
+	"hy": "Armenian",
+	"as": "Assamese",
+	"ast": "Asturian",
+	"asa": "Asu",
+	"az": "Azerbaijani",
+	"ksf": "Bafia",
+	"bm": "Bambara",
+	"bas": "Basaa",
+	"eu": "Basque",
+	"be": "Belaruuse",
+	"bem": "Bemba",
+	"bez": "Bena",
+	"bn": "Bengali",
+	"brx": "Bodo",
+	"bs": "Bosnian",
+	"br": "Breton",
+	"bg": "Bulgariire",
+	"my": "Burmeese",
+	"ca": "Catalan",
+	"cs": "Cekkere",
+	"tzm": "Central Atlas Tamazight",
+	"ckb": "Central Kurdish",
+	"ce": "Chechen",
+	"chr": "Cherokee",
+	"cgg": "Chiga",
+	"cu": "Church Slavic",
+	"ksh": "Colognian",
+	"kw": "Cornish",
+	"hr": "Croatian",
+	"nl": "Dacceere",
+	"nl-BE": "Dacceere (Beljik)",
+	"da": "Danish",
+	"de": "Docceere",
+	"de-AT": "Docceere (Otiriis)",
+	"de-CH": "Docceere (Suwiis)",
+	"dua": "Duala",
+	"dz": "Dzongkha",
+	"ebu": "Embu",
+	"id": "Endonesiire",
+	"en": "Engeleere",
+	"en-CA": "Engeleere (Kanadaa)",
+	"en-GB": "Engeleere (Laamateeri Rentundi)",
+	"en-AU": "Engeleere (Ostaraalii)",
+	"es": "Español",
+	"es-419": "Español (419)",
+	"es-MX": "Español (Meksik)",
+	"eo": "Esperanto",
+	"et": "Estonian",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"fr": "Farayseere",
+	"fr-CA": "Farayseere (Kanadaa)",
+	"fr-CH": "Farayseere (Suwiis)",
+	"fo": "Faroese",
+	"fil": "Filipino",
+	"fi": "Finnish",
+	"fur": "Friulian",
+	"gl": "Galician",
+	"lg": "Ganda",
+	"ka": "Georgian",
+	"el": "Gerke",
+	"gu": "Gujarati",
+	"guz": "Gusii",
+	"haw": "Hawaiian",
+	"ha": "Hawsaŋkoore",
+	"he": "Hebrew",
+	"hi": "Hinndi",
+	"hu": "Hongariire",
+	"is": "Icelandic",
+	"ig": "Igiboore",
+	"smn": "Inari Sami",
+	"ga": "Irish",
+	"it": "Italiyeere",
+	"dyo": "Jola-Fonyi",
+	"kea": "Kabuverdianu",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"kn": "Kannada",
+	"ks": "Kashmiri",
+	"kk": "Kazakh",
+	"km": "Kemeere",
+	"ki": "Kikuyu",
+	"kok": "Konkani",
+	"ko": "Koreere",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"nmg": "Kwasio",
+	"ky": "Kyrgyz",
+	"lkt": "Lakota",
+	"lag": "Langi",
+	"lo": "Lao",
+	"lv": "Latvian",
+	"ln": "Lingala",
+	"lt": "Lithuanian",
+	"dsb": "Lower Sorbian",
+	"lu": "Luba-Katanga",
+	"luo": "Luo",
+	"lb": "Luxembourgish",
+	"luy": "Luyia",
+	"mk": "Macedonian",
+	"jmc": "Machame",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"mg": "Malagasy",
+	"ml": "Malayalam",
+	"ms": "Malayeere",
+	"mt": "Maltese",
+	"gv": "Manx",
+	"mr": "Marathi",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"mn": "Mongolian",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nds-NL": "nds (Nederlannda)",
+	"ne": "Nepaaleere",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"nd": "North Ndebele",
+	"lrc": "Northern Luri",
+	"se": "Northern Sami",
+	"nb": "Norwegian Bokmål",
+	"nn": "Norwegian Nynorsk",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"or": "Odia",
+	"om": "Oromo",
+	"os": "Ossetic",
+	"ps": "Pashto",
+	"fa": "Perseere",
+	"pl": "Poloneere",
+	"prg": "Prussian",
+	"ff": "Pulaar",
+	"pa": "Punjabeere",
+	"pt": "Purtugeere",
+	"pt-PT": "Purtugeere (Purtugaal)",
+	"qu": "Quechua",
+	"ru": "Riis",
+	"ro": "Romaneere",
+	"ro-MD": "Romaneere (Moldawii)",
+	"rm": "Romansh",
+	"rof": "Rombo",
+	"rn": "Rundi",
+	"rw": "Ruwaanndeere",
+	"rwk": "Rwa",
+	"sah": "Sakha",
+	"saq": "Samburu",
+	"sg": "Sango",
+	"sbp": "Sangu",
+	"ja": "Saponeere",
+	"gd": "Scottish Gaelic",
+	"seh": "Sena",
+	"sr": "Serbian",
+	"ksb": "Shambala",
+	"sn": "Shona",
+	"ii": "Sichuan Yi",
+	"sd": "Sindhi",
+	"si": "Sinhala",
+	"zh": "Sinuwaare",
+	"zh-Hans": "Sinuwaare (Hans)",
+	"zh-Hant": "Sinuwaare (Hant)",
+	"sk": "Slovak",
+	"sl": "Slovenian",
+	"xog": "Soga",
+	"so": "Somalii",
+	"zgh": "Standard Moroccan Tamazight",
+	"zu": "Suluŋkoore",
+	"sw-CD": "sw (Ndenndaandi Demokaraasiire Konngo)",
+	"sw": "Swahili",
+	"sv": "Sweedeere",
+	"gsw": "Swiss German",
+	"th": "Taay",
+	"shi": "Tachelhit",
+	"dav": "Taita",
+	"tg": "Tajik",
+	"ta": "Tamil",
+	"twq": "Tasawaq",
+	"tt": "Tatar",
+	"te": "Telugu",
+	"teo": "Teso",
+	"bo": "Tibetan",
+	"ti": "Tigrinya",
+	"to": "Tongan",
+	"tr": "Turkeere",
+	"tk": "Turkmen",
+	"uk": "Ukereneere",
+	"hsb": "Upper Sorbian",
+	"ur": "Urdu",
+	"ug": "Uyghur",
+	"uz": "Uzbek",
+	"vai": "Vai",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"wae": "Walser",
+	"cy": "Welsh",
+	"fy": "Western Frisian",
+	"vi": "Wiyetnameere",
+	"wo": "Wolof",
+	"yav": "Yangben",
+	"yi": "Yiddish",
+	"yo": "Yorrubaa",
+	"dje": "Zarma"
 }

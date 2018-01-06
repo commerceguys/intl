@@ -1,647 +1,217 @@
 {
-	"af": {
-		"name": "afrikaans"
-	},
-	"agq": {
-		"name": "agem"
-	},
-	"ak": {
-		"name": "akan"
-	},
-	"sq": {
-		"name": "alban"
-	},
-	"am": {
-		"name": "amxar"
-	},
-	"ar": {
-		"name": "arab"
-	},
-	"hy": {
-		"name": "arman"
-	},
-	"as": {
-		"name": "assam"
-	},
-	"ast": {
-		"name": "asturiy"
-	},
-	"asa": {
-		"name": "asu"
-	},
-	"ksf": {
-		"name": "bafiya"
-	},
-	"bm": {
-		"name": "bambara"
-	},
-	"bas": {
-		"name": "basa"
-	},
-	"eu": {
-		"name": "bask"
-	},
-	"be": {
-		"name": "belarus"
-	},
-	"bem": {
-		"name": "bemba"
-	},
-	"bez": {
-		"name": "bena"
-	},
-	"bn": {
-		"name": "bengal"
-	},
-	"my": {
-		"name": "birman"
-	},
-	"brx": {
-		"name": "bodo"
-	},
-	"bg": {
-		"name": "bolgar"
-	},
-	"bs": {
-		"name": "bosniy"
-	},
-	"br": {
-		"name": "breton"
-	},
-	"da": {
-		"name": "dan"
-	},
-	"dyo": {
-		"name": "diola-fogni"
-	},
-	"dua": {
-		"name": "duala"
-	},
-	"dz": {
-		"name": "dzongka"
-	},
-	"ebu": {
-		"name": "embu"
-	},
-	"eo": {
-		"name": "esperanto"
-	},
-	"et": {
-		"name": "estoncha"
-	},
-	"ee": {
-		"name": "eve"
-	},
-	"ewo": {
-		"name": "evondo"
-	},
-	"fo": {
-		"name": "farercha"
-	},
-	"fil": {
-		"name": "filipincha"
-	},
-	"fi": {
-		"name": "fincha"
-	},
-	"nl-BE": {
-		"name": "flamand"
-	},
-	"fa": {
-		"name": "fors"
-	},
-	"fr-CA": {
-		"name": "fransuz (Kanada)"
-	},
-	"fr-CH": {
-		"name": "fransuz (Shveytsariya)"
-	},
-	"fr": {
-		"name": "fransuzcha"
-	},
-	"fur": {
-		"name": "friul"
-	},
-	"ff": {
-		"name": "fula"
-	},
-	"gl": {
-		"name": "galisiy"
-	},
-	"lg": {
-		"name": "ganda"
-	},
-	"haw": {
-		"name": "gavaycha"
-	},
-	"nl": {
-		"name": "golland"
-	},
-	"el": {
-		"name": "grek"
-	},
-	"kl": {
-		"name": "grenland"
-	},
-	"ka": {
-		"name": "gruzincha"
-	},
-	"gu": {
-		"name": "gujarot"
-	},
-	"guz": {
-		"name": "gusii"
-	},
-	"hi": {
-		"name": "hind"
-	},
-	"yi": {
-		"name": "idish"
-	},
-	"ig": {
-		"name": "igbo"
-	},
-	"smn": {
-		"name": "inari-saam"
-	},
-	"id": {
-		"name": "indonez"
-	},
-	"en-AU": {
-		"name": "ingliz (Avstraliya)"
-	},
-	"en-GB": {
-		"name": "ingliz (Britaniya)"
-	},
-	"en-CA": {
-		"name": "ingliz (Kanada)"
-	},
-	"en": {
-		"name": "inglizcha"
-	},
-	"ga": {
-		"name": "irland"
-	},
-	"is": {
-		"name": "island"
-	},
-	"es-419": {
-		"name": "ispan (Lotin Amerikasi)"
-	},
-	"es-MX": {
-		"name": "ispan (Meksika)"
-	},
-	"es": {
-		"name": "ispancha"
-	},
-	"it": {
-		"name": "italyan"
-	},
-	"he": {
-		"name": "ivrit"
-	},
-	"kab": {
-		"name": "kabil"
-	},
-	"kea": {
-		"name": "kabuverdianu"
-	},
-	"kkj": {
-		"name": "kako"
-	},
-	"kln": {
-		"name": "kalenjin"
-	},
-	"kam": {
-		"name": "kamba"
-	},
-	"kn": {
-		"name": "kannada"
-	},
-	"ca": {
-		"name": "katalan"
-	},
-	"ks": {
-		"name": "kashmircha"
-	},
-	"qu": {
-		"name": "kechua"
-	},
-	"ki": {
-		"name": "kikuyu"
-	},
-	"rw": {
-		"name": "kinyaruanda"
-	},
-	"kok": {
-		"name": "konkan"
-	},
-	"ko": {
-		"name": "koreyscha"
-	},
-	"kw": {
-		"name": "korn"
-	},
-	"khq": {
-		"name": "koyra-chiini"
-	},
-	"ses": {
-		"name": "koyraboro-senni"
-	},
-	"nmg": {
-		"name": "kvasio"
-	},
-	"ksh": {
-		"name": "kyoln"
-	},
-	"lkt": {
-		"name": "lakota"
-	},
-	"lag": {
-		"name": "langi"
-	},
-	"lo": {
-		"name": "laos"
-	},
-	"lv": {
-		"name": "latishcha"
-	},
-	"ln": {
-		"name": "lingala"
-	},
-	"lt": {
-		"name": "litva"
-	},
-	"lu": {
-		"name": "luba-katanga"
-	},
-	"luy": {
-		"name": "luhya"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"lb": {
-		"name": "lyuksemburgcha"
-	},
-	"mk": {
-		"name": "makedon"
-	},
-	"kde": {
-		"name": "makonde"
-	},
-	"mg": {
-		"name": "malagasiy"
-	},
-	"ms": {
-		"name": "malay"
-	},
-	"ml": {
-		"name": "malayalam"
-	},
-	"mt": {
-		"name": "maltiy"
-	},
-	"mr": {
-		"name": "maratxi"
-	},
-	"tzm": {
-		"name": "markaziy atlas tamazigxt"
-	},
-	"mas": {
-		"name": "masay"
-	},
-	"mgh": {
-		"name": "maxuva-mitto"
-	},
-	"jmc": {
-		"name": "machame"
-	},
-	"gv": {
-		"name": "men"
-	},
-	"mer": {
-		"name": "meru"
-	},
-	"mgo": {
-		"name": "meta"
-	},
-	"ro-MD": {
-		"name": "moldovan"
-	},
-	"mfe": {
-		"name": "morisyen"
-	},
-	"mzn": {
-		"name": "mozandaron"
-	},
-	"mua": {
-		"name": "mundang"
-	},
-	"mn": {
-		"name": "mo‘g‘ul"
-	},
-	"naq": {
-		"name": "nama"
-	},
-	"de-AT": {
-		"name": "nemis (Avstriya)"
-	},
-	"gsw": {
-		"name": "nemis (Shveytsariya)"
-	},
-	"de": {
-		"name": "nemischa"
-	},
-	"ne": {
-		"name": "nepal"
-	},
-	"nnh": {
-		"name": "ngiyembun"
-	},
-	"jgo": {
-		"name": "ngomba"
-	},
-	"nb": {
-		"name": "norveg-bokmal"
-	},
-	"nn": {
-		"name": "norveg-nyunorsk"
-	},
-	"nus": {
-		"name": "nuer"
-	},
-	"nyn": {
-		"name": "nyankole"
-	},
-	"or": {
-		"name": "oriya"
-	},
-	"om": {
-		"name": "oromo"
-	},
-	"os": {
-		"name": "osetin"
-	},
-	"az": {
-		"name": "ozarbayjon"
-	},
-	"pa": {
-		"name": "panjobcha"
-	},
-	"pl": {
-		"name": "polyakcha"
-	},
-	"pt-PT": {
-		"name": "portugal (Yevropa)"
-	},
-	"pt": {
-		"name": "portugalcha"
-	},
-	"prg": {
-		"name": "pruss"
-	},
-	"ps": {
-		"name": "pushtu"
-	},
-	"ky": {
-		"name": "qirgʻizcha"
-	},
-	"kk": {
-		"name": "qozoqcha"
-	},
-	"nds": {
-		"name": "quyi nemis"
-	},
-	"nds-NL": {
-		"name": "quyi sakson"
-	},
-	"dsb": {
-		"name": "quyi sorbcha"
-	},
-	"rm": {
-		"name": "romansh"
-	},
-	"rof": {
-		"name": "rombo"
-	},
-	"rwk": {
-		"name": "ruanda"
-	},
-	"ro": {
-		"name": "rumincha"
-	},
-	"rn": {
-		"name": "rundi"
-	},
-	"ru": {
-		"name": "ruscha"
-	},
-	"saq": {
-		"name": "samburu"
-	},
-	"sg": {
-		"name": "sango"
-	},
-	"sbp": {
-		"name": "sangu"
-	},
-	"sah": {
-		"name": "saxa"
-	},
-	"seh": {
-		"name": "sena"
-	},
-	"sr": {
-		"name": "serbcha"
-	},
-	"sd": {
-		"name": "sindxi"
-	},
-	"si": {
-		"name": "singal"
-	},
-	"ii": {
-		"name": "sichuan"
-	},
-	"cu": {
-		"name": "slavyan (cherkov)"
-	},
-	"sk": {
-		"name": "slovakcha"
-	},
-	"sl": {
-		"name": "slovencha"
-	},
-	"xog": {
-		"name": "soga"
-	},
-	"so": {
-		"name": "somalicha"
-	},
-	"ckb": {
-		"name": "sorani-kurd"
-	},
-	"sw": {
-		"name": "suaxili"
-	},
-	"sw-CD": {
-		"name": "suaxili (Kongo)"
-	},
-	"dav": {
-		"name": "taita"
-	},
-	"zgh": {
-		"name": "tamazigxt"
-	},
-	"ta": {
-		"name": "tamil"
-	},
-	"twq": {
-		"name": "tasavak"
-	},
-	"tt": {
-		"name": "tatar"
-	},
-	"th": {
-		"name": "tay"
-	},
-	"shi": {
-		"name": "tashelxit"
-	},
-	"te": {
-		"name": "telugu"
-	},
-	"teo": {
-		"name": "teso"
-	},
-	"bo": {
-		"name": "tibet"
-	},
-	"ti": {
-		"name": "tigrinya"
-	},
-	"tg": {
-		"name": "tojik"
-	},
-	"to": {
-		"name": "tongan"
-	},
-	"tr": {
-		"name": "turk"
-	},
-	"tk": {
-		"name": "turkman"
-	},
-	"uk": {
-		"name": "ukrain"
-	},
-	"ur": {
-		"name": "urdu"
-	},
-	"ug": {
-		"name": "uyg‘ur"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"wae": {
-		"name": "valis"
-	},
-	"cy": {
-		"name": "valliy"
-	},
-	"hu": {
-		"name": "venger"
-	},
-	"vo": {
-		"name": "volapyuk"
-	},
-	"wo": {
-		"name": "volof"
-	},
-	"vun": {
-		"name": "vunjo"
-	},
-	"vi": {
-		"name": "vyetnam"
-	},
-	"ha": {
-		"name": "xausa"
-	},
-	"zh": {
-		"name": "xitoy"
-	},
-	"zh-Hant": {
-		"name": "xitoy (an’anaviy)"
-	},
-	"zh-Hans": {
-		"name": "xitoy (soddalashgan)"
-	},
-	"km": {
-		"name": "xmer"
-	},
-	"hr": {
-		"name": "xorvat"
-	},
-	"yav": {
-		"name": "yangben"
-	},
-	"ja": {
-		"name": "yapon"
-	},
-	"yo": {
-		"name": "yoruba"
-	},
-	"de-CH": {
-		"name": "yuqori nemis (Shveytsariya)"
-	},
-	"hsb": {
-		"name": "yuqori sorb"
-	},
-	"dje": {
-		"name": "zarma"
-	},
-	"zu": {
-		"name": "zulu"
-	},
-	"uz": {
-		"name": "o‘zbek"
-	},
-	"fy": {
-		"name": "g‘arbiy friz"
-	},
-	"ksb": {
-		"name": "shambala"
-	},
-	"lrc": {
-		"name": "shimoliy luri"
-	},
-	"nd": {
-		"name": "shimoliy ndebele"
-	},
-	"se": {
-		"name": "shimoliy saam"
-	},
-	"sn": {
-		"name": "shona"
-	},
-	"gd": {
-		"name": "shotland-gel"
-	},
-	"sv": {
-		"name": "shved"
-	},
-	"chr": {
-		"name": "cheroki"
-	},
-	"cs": {
-		"name": "chex"
-	},
-	"ce": {
-		"name": "chechen"
-	},
-	"cgg": {
-		"name": "chiga"
-	}
+	"af": "afrikaans",
+	"agq": "agem",
+	"ak": "akan",
+	"sq": "alban",
+	"am": "amxar",
+	"ar": "arab",
+	"hy": "arman",
+	"as": "assam",
+	"ast": "asturiy",
+	"asa": "asu",
+	"ksf": "bafiya",
+	"bm": "bambara",
+	"bas": "basa",
+	"eu": "bask",
+	"be": "belarus",
+	"bem": "bemba",
+	"bez": "bena",
+	"bn": "bengal",
+	"my": "birman",
+	"brx": "bodo",
+	"bg": "bolgar",
+	"bs": "bosniy",
+	"br": "breton",
+	"da": "dan",
+	"dyo": "diola-fogni",
+	"dua": "duala",
+	"dz": "dzongka",
+	"ebu": "embu",
+	"eo": "esperanto",
+	"et": "estoncha",
+	"ee": "eve",
+	"ewo": "evondo",
+	"fo": "farercha",
+	"fil": "filipincha",
+	"fi": "fincha",
+	"nl-BE": "flamand",
+	"fa": "fors",
+	"fr-CA": "fransuz (Kanada)",
+	"fr-CH": "fransuz (Shveytsariya)",
+	"fr": "fransuzcha",
+	"fur": "friul",
+	"ff": "fula",
+	"gl": "galisiy",
+	"lg": "ganda",
+	"haw": "gavaycha",
+	"nl": "golland",
+	"el": "grek",
+	"kl": "grenland",
+	"ka": "gruzincha",
+	"gu": "gujarot",
+	"guz": "gusii",
+	"hi": "hind",
+	"yi": "idish",
+	"ig": "igbo",
+	"smn": "inari-saam",
+	"id": "indonez",
+	"en-AU": "ingliz (Avstraliya)",
+	"en-GB": "ingliz (Britaniya)",
+	"en-CA": "ingliz (Kanada)",
+	"en": "inglizcha",
+	"ga": "irland",
+	"is": "island",
+	"es-419": "ispan (Lotin Amerikasi)",
+	"es-MX": "ispan (Meksika)",
+	"es": "ispancha",
+	"it": "italyan",
+	"he": "ivrit",
+	"kab": "kabil",
+	"kea": "kabuverdianu",
+	"kkj": "kako",
+	"kln": "kalenjin",
+	"kam": "kamba",
+	"kn": "kannada",
+	"ca": "katalan",
+	"ks": "kashmircha",
+	"qu": "kechua",
+	"ki": "kikuyu",
+	"rw": "kinyaruanda",
+	"kok": "konkan",
+	"ko": "koreyscha",
+	"kw": "korn",
+	"khq": "koyra-chiini",
+	"ses": "koyraboro-senni",
+	"nmg": "kvasio",
+	"ksh": "kyoln",
+	"lkt": "lakota",
+	"lag": "langi",
+	"lo": "laos",
+	"lv": "latishcha",
+	"ln": "lingala",
+	"lt": "litva",
+	"lu": "luba-katanga",
+	"luy": "luhya",
+	"luo": "Luo",
+	"lb": "lyuksemburgcha",
+	"mk": "makedon",
+	"kde": "makonde",
+	"mg": "malagasiy",
+	"ms": "malay",
+	"ml": "malayalam",
+	"mt": "maltiy",
+	"mr": "maratxi",
+	"tzm": "markaziy atlas tamazigxt",
+	"mas": "masay",
+	"mgh": "maxuva-mitto",
+	"jmc": "machame",
+	"gv": "men",
+	"mer": "meru",
+	"mgo": "meta",
+	"ro-MD": "moldovan",
+	"mfe": "morisyen",
+	"mzn": "mozandaron",
+	"mua": "mundang",
+	"mn": "mo‘g‘ul",
+	"naq": "nama",
+	"de-AT": "nemis (Avstriya)",
+	"gsw": "nemis (Shveytsariya)",
+	"de": "nemischa",
+	"ne": "nepal",
+	"nnh": "ngiyembun",
+	"jgo": "ngomba",
+	"nb": "norveg-bokmal",
+	"nn": "norveg-nyunorsk",
+	"nus": "nuer",
+	"nyn": "nyankole",
+	"or": "oriya",
+	"om": "oromo",
+	"os": "osetin",
+	"az": "ozarbayjon",
+	"pa": "panjobcha",
+	"pl": "polyakcha",
+	"pt-PT": "portugal (Yevropa)",
+	"pt": "portugalcha",
+	"prg": "pruss",
+	"ps": "pushtu",
+	"ky": "qirgʻizcha",
+	"kk": "qozoqcha",
+	"nds": "quyi nemis",
+	"nds-NL": "quyi sakson",
+	"dsb": "quyi sorbcha",
+	"rm": "romansh",
+	"rof": "rombo",
+	"rwk": "ruanda",
+	"ro": "rumincha",
+	"rn": "rundi",
+	"ru": "ruscha",
+	"saq": "samburu",
+	"sg": "sango",
+	"sbp": "sangu",
+	"sah": "saxa",
+	"seh": "sena",
+	"sr": "serbcha",
+	"sd": "sindxi",
+	"si": "singal",
+	"ii": "sichuan",
+	"cu": "slavyan (cherkov)",
+	"sk": "slovakcha",
+	"sl": "slovencha",
+	"xog": "soga",
+	"so": "somalicha",
+	"ckb": "sorani-kurd",
+	"sw": "suaxili",
+	"sw-CD": "suaxili (Kongo)",
+	"dav": "taita",
+	"zgh": "tamazigxt",
+	"ta": "tamil",
+	"twq": "tasavak",
+	"tt": "tatar",
+	"th": "tay",
+	"shi": "tashelxit",
+	"te": "telugu",
+	"teo": "teso",
+	"bo": "tibet",
+	"ti": "tigrinya",
+	"tg": "tojik",
+	"to": "tongan",
+	"tr": "turk",
+	"tk": "turkman",
+	"uk": "ukrain",
+	"ur": "urdu",
+	"ug": "uyg‘ur",
+	"vai": "Vai",
+	"wae": "valis",
+	"cy": "valliy",
+	"hu": "venger",
+	"vo": "volapyuk",
+	"wo": "volof",
+	"vun": "vunjo",
+	"vi": "vyetnam",
+	"ha": "xausa",
+	"zh": "xitoy",
+	"zh-Hant": "xitoy (an’anaviy)",
+	"zh-Hans": "xitoy (soddalashgan)",
+	"km": "xmer",
+	"hr": "xorvat",
+	"yav": "yangben",
+	"ja": "yapon",
+	"yo": "yoruba",
+	"de-CH": "yuqori nemis (Shveytsariya)",
+	"hsb": "yuqori sorb",
+	"dje": "zarma",
+	"zu": "zulu",
+	"uz": "o‘zbek",
+	"fy": "g‘arbiy friz",
+	"ksb": "shambala",
+	"lrc": "shimoliy luri",
+	"nd": "shimoliy ndebele",
+	"se": "shimoliy saam",
+	"sn": "shona",
+	"gd": "shotland-gel",
+	"sv": "shved",
+	"chr": "cheroki",
+	"cs": "chex",
+	"ce": "chechen",
+	"cgg": "chiga"
 }

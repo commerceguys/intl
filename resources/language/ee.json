@@ -1,644 +1,216 @@
 {
-	"af": {
-		"name": "afrikaangbe"
-	},
-	"agq": {
-		"name": "aghemgbe"
-	},
-	"sq": {
-		"name": "albaniagbe"
-	},
-	"am": {
-		"name": "amhariagbe"
-	},
-	"ar": {
-		"name": "Arabiagbe"
-	},
-	"hy": {
-		"name": "armeniagbe"
-	},
-	"asa": {
-		"name": "asagbe"
-	},
-	"as": {
-		"name": "assamegbe"
-	},
-	"ast": {
-		"name": "Asturian"
-	},
-	"az": {
-		"name": "azerbaijangbe"
-	},
-	"ksf": {
-		"name": "Bafia"
-	},
-	"bm": {
-		"name": "bambaragbe"
-	},
-	"bas": {
-		"name": "Basaa"
-	},
-	"eu": {
-		"name": "basqugbe"
-	},
-	"be": {
-		"name": "belarusiagbe"
-	},
-	"bem": {
-		"name": "bembagbe"
-	},
-	"bez": {
-		"name": "benagbe"
-	},
-	"bn": {
-		"name": "Bengaligbe"
-	},
-	"zh-Hant": {
-		"name": "blema tsainagbe"
-	},
-	"ak": {
-		"name": "blugbe"
-	},
-	"brx": {
-		"name": "bodogbe"
-	},
-	"bs": {
-		"name": "bosniagbe"
-	},
-	"br": {
-		"name": "bretongbe"
-	},
-	"bg": {
-		"name": "bulgariagbe"
-	},
-	"my": {
-		"name": "burmagbe"
-	},
-	"kea": {
-		"name": "cape verdegbe"
-	},
-	"tzm": {
-		"name": "Central Atlas Tamazight"
-	},
-	"ckb": {
-		"name": "Central Kurdish"
-	},
-	"ce": {
-		"name": "Chechen"
-	},
-	"chr": {
-		"name": "Cherokee"
-	},
-	"cgg": {
-		"name": "Chiga"
-	},
-	"zh": {
-		"name": "Chinagbe"
-	},
-	"cu": {
-		"name": "Church Slavic"
-	},
-	"ksh": {
-		"name": "Colognian"
-	},
-	"kw": {
-		"name": "Cornish"
-	},
-	"da": {
-		"name": "denmarkgbe"
-	},
-	"dua": {
-		"name": "Duala"
-	},
-	"nd": {
-		"name": "dziehe ndebelegbe"
-	},
-	"se": {
-		"name": "dziehe samigbe"
-	},
-	"dz": {
-		"name": "dzongkhagbe"
-	},
-	"ebu": {
-		"name": "embugbe"
-	},
-	"eo": {
-		"name": "esperantogbe"
-	},
-	"et": {
-		"name": "estoniagbe"
-	},
-	"ee": {
-		"name": "Eʋegbe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"fo": {
-		"name": "Faroese"
-	},
-	"fil": {
-		"name": "filipingbe"
-	},
-	"fi": {
-		"name": "finlanɖgbe"
-	},
-	"nl-BE": {
-		"name": "Flemishgbe"
-	},
-	"fr": {
-		"name": "Fransegbe"
-	},
-	"fr-CA": {
-		"name": "Fransegbe (Canada)"
-	},
-	"fr-CH": {
-		"name": "Fransegbe (Switzerland)"
-	},
-	"fur": {
-		"name": "Friulian"
-	},
-	"ff": {
-		"name": "Fulah"
-	},
-	"gl": {
-		"name": "galatagbe"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"de": {
-		"name": "Germaniagbe"
-	},
-	"de-AT": {
-		"name": "Germaniagbe (Austria)"
-	},
-	"de-CH": {
-		"name": "Germaniagbe (Switzerland)"
-	},
-	"ka": {
-		"name": "gɔgiagbe"
-	},
-	"el": {
-		"name": "grisigbe"
-	},
-	"gu": {
-		"name": "gujarati"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"ha": {
-		"name": "hausagbe"
-	},
-	"haw": {
-		"name": "hawaigbe"
-	},
-	"he": {
-		"name": "hebrigbe"
-	},
-	"hi": {
-		"name": "Hindigbe"
-	},
-	"nl": {
-		"name": "Hollandgbe"
-	},
-	"hu": {
-		"name": "hungarigbe"
-	},
-	"is": {
-		"name": "icelanɖgbe"
-	},
-	"ig": {
-		"name": "igbogbe"
-	},
-	"smn": {
-		"name": "Inari Sami"
-	},
-	"id": {
-		"name": "Indonesiagbe"
-	},
-	"ga": {
-		"name": "irelanɖgbe"
-	},
-	"it": {
-		"name": "Italiagbe"
-	},
-	"ja": {
-		"name": "Japangbe"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kab": {
-		"name": "Kabyle"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kam": {
-		"name": "Kamba"
-	},
-	"kn": {
-		"name": "kannadagbe"
-	},
-	"ks": {
-		"name": "kashmirgbe"
-	},
-	"ca": {
-		"name": "katalagbe"
-	},
-	"kk": {
-		"name": "kazakhstangbe"
-	},
-	"km": {
-		"name": "khmergbe"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"ky": {
-		"name": "kirghistangbe"
-	},
-	"kok": {
-		"name": "Konkani"
-	},
-	"ko": {
-		"name": "Koreagbe"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"hr": {
-		"name": "kroatiagbe"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"qu": {
-		"name": "kwetsuagbe"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lb": {
-		"name": "laksembɔggbe"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lo": {
-		"name": "laogbe"
-	},
-	"lv": {
-		"name": "latviagbe"
-	},
-	"ln": {
-		"name": "lingala"
-	},
-	"lt": {
-		"name": "lithuaniagbe"
-	},
-	"dsb": {
-		"name": "Lower Sorbian"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"luo": {
-		"name": "Luo"
-	},
-	"luy": {
-		"name": "luyiagbe"
-	},
-	"jmc": {
-		"name": "Machame"
-	},
-	"mk": {
-		"name": "makedoniagbe"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"kde": {
-		"name": "Makonde"
-	},
-	"mg": {
-		"name": "malagasegbe"
-	},
-	"ml": {
-		"name": "malayagbe"
-	},
-	"ms": {
-		"name": "malaygbe"
-	},
-	"mt": {
-		"name": "maltagbe"
-	},
-	"gv": {
-		"name": "Manx"
-	},
-	"mr": {
-		"name": "marathiagbe"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Mazanderani"
-	},
-	"mer": {
-		"name": "Meru"
-	},
-	"mgo": {
-		"name": "Metaʼ"
-	},
-	"mn": {
-		"name": "mongoliagbe"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nds-NL": {
-		"name": "nds (Netherlands nutome)"
-	},
-	"ne": {
-		"name": "nepalgbe"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"lrc": {
-		"name": "Northern Luri"
-	},
-	"nb": {
-		"name": "nɔweigbe bokmål"
-	},
-	"nn": {
-		"name": "nɔweigbe ninɔsk"
-	},
-	"nus": {
-		"name": "Nuer"
-	},
-	"nyn": {
-		"name": "Nyankole"
-	},
-	"or": {
-		"name": "oriyagbe"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "ossetiagbe"
-	},
-	"ps": {
-		"name": "pashtogbe"
-	},
-	"fa": {
-		"name": "persiagbe"
-	},
-	"pl": {
-		"name": "Polishgbe"
-	},
-	"pt": {
-		"name": "Portuguesegbe"
-	},
-	"pt-PT": {
-		"name": "Portuguesegbe (Europe)"
-	},
-	"prg": {
-		"name": "Prussian"
-	},
-	"pa": {
-		"name": "pundzabgbe"
-	},
-	"ro": {
-		"name": "romaniagbe"
-	},
-	"ro-MD": {
-		"name": "romaniagbe (Moldova nutome)"
-	},
-	"rm": {
-		"name": "romanshgbe"
-	},
-	"rof": {
-		"name": "rombogbe"
-	},
-	"rn": {
-		"name": "rundigbe"
-	},
-	"ru": {
-		"name": "Russiagbe"
-	},
-	"rw": {
-		"name": "ruwandagbe"
-	},
-	"rwk": {
-		"name": "rwagbe"
-	},
-	"sah": {
-		"name": "sakagbe"
-	},
-	"saq": {
-		"name": "Samburu"
-	},
-	"sg": {
-		"name": "sangogbe"
-	},
-	"sbp": {
-		"name": "Sangu"
-	},
-	"gd": {
-		"name": "Scottish Gaelic"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"sr": {
-		"name": "serbiagbe"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "shonagbe"
-	},
-	"ii": {
-		"name": "Sichuan Yi"
-	},
-	"sd": {
-		"name": "sindhgbe"
-	},
-	"si": {
-		"name": "sinhalgbe"
-	},
-	"sk": {
-		"name": "slovakiagbe"
-	},
-	"sl": {
-		"name": "sloveniagbe"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "somaliagbe"
-	},
-	"es": {
-		"name": "Spanishgbe"
-	},
-	"es-419": {
-		"name": "Spanishgbe (Latin America)"
-	},
-	"es-MX": {
-		"name": "Spanishgbe (Mexico)"
-	},
-	"zgh": {
-		"name": "Standard Moroccan Tamazight"
-	},
-	"sw": {
-		"name": "swahili"
-	},
-	"sw-CD": {
-		"name": "swahili (Kongo Kinshasa nutome)"
-	},
-	"sv": {
-		"name": "swedengbe"
-	},
-	"gsw": {
-		"name": "swizerlanɖtɔwo ƒe germaniagbe"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"tg": {
-		"name": "tadzikistangbe"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"ta": {
-		"name": "tamilgbe"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "Tatar"
-	},
-	"te": {
-		"name": "telegugbe"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"tk": {
-		"name": "tɛkmengbe"
-	},
-	"th": {
-		"name": "Thailandgbe"
-	},
-	"bo": {
-		"name": "tibetagbe"
-	},
-	"ti": {
-		"name": "tigrinyagbe"
-	},
-	"to": {
-		"name": "tongagbe"
-	},
-	"tr": {
-		"name": "Turkishgbe"
-	},
-	"zh-Hans": {
-		"name": "tsainagbe"
-	},
-	"cs": {
-		"name": "tsɛkgbe"
-	},
-	"ug": {
-		"name": "uighurgbe"
-	},
-	"uk": {
-		"name": "ukraingbe"
-	},
-	"hsb": {
-		"name": "Upper Sorbian"
-	},
-	"ur": {
-		"name": "urdugbe"
-	},
-	"uz": {
-		"name": "uzbekistangbe"
-	},
-	"vai": {
-		"name": "Vai"
-	},
-	"vi": {
-		"name": "vietnamgbe"
-	},
-	"vo": {
-		"name": "Volapük"
-	},
-	"vun": {
-		"name": "Vunjo"
-	},
-	"cy": {
-		"name": "walesgbe"
-	},
-	"wae": {
-		"name": "walsegbe"
-	},
-	"fy": {
-		"name": "Western Frisian"
-	},
-	"wo": {
-		"name": "wolofgbe"
-	},
-	"yav": {
-		"name": "Yangben"
-	},
-	"en": {
-		"name": "Yevugbe"
-	},
-	"en-AU": {
-		"name": "Yevugbe (Australia)"
-	},
-	"en-GB": {
-		"name": "Yevugbe (Britain)"
-	},
-	"en-CA": {
-		"name": "Yevugbe (Canada)"
-	},
-	"yi": {
-		"name": "Yiddish"
-	},
-	"yo": {
-		"name": "yorubagbe"
-	},
-	"dje": {
-		"name": "Zarma"
-	},
-	"zu": {
-		"name": "zulugbe"
-	}
+	"af": "afrikaangbe",
+	"agq": "aghemgbe",
+	"sq": "albaniagbe",
+	"am": "amhariagbe",
+	"ar": "Arabiagbe",
+	"hy": "armeniagbe",
+	"asa": "asagbe",
+	"as": "assamegbe",
+	"ast": "Asturian",
+	"az": "azerbaijangbe",
+	"ksf": "Bafia",
+	"bm": "bambaragbe",
+	"bas": "Basaa",
+	"eu": "basqugbe",
+	"be": "belarusiagbe",
+	"bem": "bembagbe",
+	"bez": "benagbe",
+	"bn": "Bengaligbe",
+	"zh-Hant": "blema tsainagbe",
+	"ak": "blugbe",
+	"brx": "bodogbe",
+	"bs": "bosniagbe",
+	"br": "bretongbe",
+	"bg": "bulgariagbe",
+	"my": "burmagbe",
+	"kea": "cape verdegbe",
+	"tzm": "Central Atlas Tamazight",
+	"ckb": "Central Kurdish",
+	"ce": "Chechen",
+	"chr": "Cherokee",
+	"cgg": "Chiga",
+	"zh": "Chinagbe",
+	"cu": "Church Slavic",
+	"ksh": "Colognian",
+	"kw": "Cornish",
+	"da": "denmarkgbe",
+	"dua": "Duala",
+	"nd": "dziehe ndebelegbe",
+	"se": "dziehe samigbe",
+	"dz": "dzongkhagbe",
+	"ebu": "embugbe",
+	"eo": "esperantogbe",
+	"et": "estoniagbe",
+	"ee": "Eʋegbe",
+	"ewo": "Ewondo",
+	"fo": "Faroese",
+	"fil": "filipingbe",
+	"fi": "finlanɖgbe",
+	"nl-BE": "Flemishgbe",
+	"fr": "Fransegbe",
+	"fr-CA": "Fransegbe (Canada)",
+	"fr-CH": "Fransegbe (Switzerland)",
+	"fur": "Friulian",
+	"ff": "Fulah",
+	"gl": "galatagbe",
+	"lg": "Ganda",
+	"de": "Germaniagbe",
+	"de-AT": "Germaniagbe (Austria)",
+	"de-CH": "Germaniagbe (Switzerland)",
+	"ka": "gɔgiagbe",
+	"el": "grisigbe",
+	"gu": "gujarati",
+	"guz": "Gusii",
+	"ha": "hausagbe",
+	"haw": "hawaigbe",
+	"he": "hebrigbe",
+	"hi": "Hindigbe",
+	"nl": "Hollandgbe",
+	"hu": "hungarigbe",
+	"is": "icelanɖgbe",
+	"ig": "igbogbe",
+	"smn": "Inari Sami",
+	"id": "Indonesiagbe",
+	"ga": "irelanɖgbe",
+	"it": "Italiagbe",
+	"ja": "Japangbe",
+	"dyo": "Jola-Fonyi",
+	"kab": "Kabyle",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kam": "Kamba",
+	"kn": "kannadagbe",
+	"ks": "kashmirgbe",
+	"ca": "katalagbe",
+	"kk": "kazakhstangbe",
+	"km": "khmergbe",
+	"ki": "Kikuyu",
+	"ky": "kirghistangbe",
+	"kok": "Konkani",
+	"ko": "Koreagbe",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"hr": "kroatiagbe",
+	"nmg": "Kwasio",
+	"qu": "kwetsuagbe",
+	"lkt": "Lakota",
+	"lb": "laksembɔggbe",
+	"lag": "Langi",
+	"lo": "laogbe",
+	"lv": "latviagbe",
+	"ln": "lingala",
+	"lt": "lithuaniagbe",
+	"dsb": "Lower Sorbian",
+	"lu": "Luba-Katanga",
+	"luo": "Luo",
+	"luy": "luyiagbe",
+	"jmc": "Machame",
+	"mk": "makedoniagbe",
+	"mgh": "Makhuwa-Meetto",
+	"kde": "Makonde",
+	"mg": "malagasegbe",
+	"ml": "malayagbe",
+	"ms": "malaygbe",
+	"mt": "maltagbe",
+	"gv": "Manx",
+	"mr": "marathiagbe",
+	"mas": "Masai",
+	"mzn": "Mazanderani",
+	"mer": "Meru",
+	"mgo": "Metaʼ",
+	"mn": "mongoliagbe",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nds-NL": "nds (Netherlands nutome)",
+	"ne": "nepalgbe",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"lrc": "Northern Luri",
+	"nb": "nɔweigbe bokmål",
+	"nn": "nɔweigbe ninɔsk",
+	"nus": "Nuer",
+	"nyn": "Nyankole",
+	"or": "oriyagbe",
+	"om": "Oromo",
+	"os": "ossetiagbe",
+	"ps": "pashtogbe",
+	"fa": "persiagbe",
+	"pl": "Polishgbe",
+	"pt": "Portuguesegbe",
+	"pt-PT": "Portuguesegbe (Europe)",
+	"prg": "Prussian",
+	"pa": "pundzabgbe",
+	"ro": "romaniagbe",
+	"ro-MD": "romaniagbe (Moldova nutome)",
+	"rm": "romanshgbe",
+	"rof": "rombogbe",
+	"rn": "rundigbe",
+	"ru": "Russiagbe",
+	"rw": "ruwandagbe",
+	"rwk": "rwagbe",
+	"sah": "sakagbe",
+	"saq": "Samburu",
+	"sg": "sangogbe",
+	"sbp": "Sangu",
+	"gd": "Scottish Gaelic",
+	"seh": "Sena",
+	"sr": "serbiagbe",
+	"ksb": "Shambala",
+	"sn": "shonagbe",
+	"ii": "Sichuan Yi",
+	"sd": "sindhgbe",
+	"si": "sinhalgbe",
+	"sk": "slovakiagbe",
+	"sl": "sloveniagbe",
+	"xog": "Soga",
+	"so": "somaliagbe",
+	"es": "Spanishgbe",
+	"es-419": "Spanishgbe (Latin America)",
+	"es-MX": "Spanishgbe (Mexico)",
+	"zgh": "Standard Moroccan Tamazight",
+	"sw": "swahili",
+	"sw-CD": "swahili (Kongo Kinshasa nutome)",
+	"sv": "swedengbe",
+	"gsw": "swizerlanɖtɔwo ƒe germaniagbe",
+	"shi": "Tachelhit",
+	"tg": "tadzikistangbe",
+	"dav": "Taita",
+	"ta": "tamilgbe",
+	"twq": "Tasawaq",
+	"tt": "Tatar",
+	"te": "telegugbe",
+	"teo": "Teso",
+	"tk": "tɛkmengbe",
+	"th": "Thailandgbe",
+	"bo": "tibetagbe",
+	"ti": "tigrinyagbe",
+	"to": "tongagbe",
+	"tr": "Turkishgbe",
+	"zh-Hans": "tsainagbe",
+	"cs": "tsɛkgbe",
+	"ug": "uighurgbe",
+	"uk": "ukraingbe",
+	"hsb": "Upper Sorbian",
+	"ur": "urdugbe",
+	"uz": "uzbekistangbe",
+	"vai": "Vai",
+	"vi": "vietnamgbe",
+	"vo": "Volapük",
+	"vun": "Vunjo",
+	"cy": "walesgbe",
+	"wae": "walsegbe",
+	"fy": "Western Frisian",
+	"wo": "wolofgbe",
+	"yav": "Yangben",
+	"en": "Yevugbe",
+	"en-AU": "Yevugbe (Australia)",
+	"en-GB": "Yevugbe (Britain)",
+	"en-CA": "Yevugbe (Canada)",
+	"yi": "Yiddish",
+	"yo": "yorubagbe",
+	"dje": "Zarma",
+	"zu": "zulugbe"
 }

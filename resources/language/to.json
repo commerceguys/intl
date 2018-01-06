@@ -1,647 +1,217 @@
 {
-	"or": {
-		"name": "lea faka-ʻotia"
-	},
-	"fr": {
-		"name": "lea fakafalanisē"
-	},
-	"fr-CA": {
-		"name": "lea fakafalanisē-kānata"
-	},
-	"fr-CH": {
-		"name": "lea fakafalanisē-suisilani"
-	},
-	"fo": {
-		"name": "lea fakafaloe"
-	},
-	"fil": {
-		"name": "lea fakafilipaini"
-	},
-	"fy": {
-		"name": "lea fakafilisia-hihifo"
-	},
-	"fi": {
-		"name": "lea fakafinilani"
-	},
-	"ff": {
-		"name": "lea fakafulā"
-	},
-	"fur": {
-		"name": "lea fakafulilāni"
-	},
-	"haw": {
-		"name": "lea fakahauaiʻi"
-	},
-	"ha": {
-		"name": "lea fakahausa"
-	},
-	"he": {
-		"name": "lea fakahepelū"
-	},
-	"hi": {
-		"name": "lea fakahinitī"
-	},
-	"nl": {
-		"name": "lea fakahōlani"
-	},
-	"nl-BE": {
-		"name": "lea fakahōlani-pelesiume"
-	},
-	"hu": {
-		"name": "lea fakahungakalia"
-	},
-	"dyo": {
-		"name": "lea fakaiola-fonī"
-	},
-	"yi": {
-		"name": "lea fakaītisi"
-	},
-	"gd": {
-		"name": "lea fakakaeliki"
-	},
-	"kkj": {
-		"name": "lea fakakako"
-	},
-	"kl": {
-		"name": "lea fakakalaʻalisuti"
-	},
-	"kln": {
-		"name": "lea fakakalenisini"
-	},
-	"el": {
-		"name": "lea fakakalisi"
-	},
-	"gl": {
-		"name": "lea fakakalisia"
-	},
-	"kam": {
-		"name": "lea fakakamipa"
-	},
-	"km": {
-		"name": "lea fakakamipōtia"
-	},
-	"kn": {
-		"name": "lea fakakanata"
-	},
-	"lg": {
-		"name": "lea fakakanita"
-	},
-	"kab": {
-		"name": "lea fakakapile"
-	},
-	"kea": {
-		"name": "lea fakakapuvelitianu"
-	},
-	"kk": {
-		"name": "lea fakakasaki"
-	},
-	"ks": {
-		"name": "lea fakakāsimila"
-	},
-	"ca": {
-		"name": "lea fakakatalani"
-	},
-	"cgg": {
-		"name": "lea fakakika"
-	},
-	"ki": {
-		"name": "lea fakakikuiu"
-	},
-	"rw": {
-		"name": "lea fakakiniāuanita"
-	},
-	"ky": {
-		"name": "lea fakakīsisi"
-	},
-	"khq": {
-		"name": "lea fakakoila-sīni"
-	},
-	"ses": {
-		"name": "lea fakakoilapolo-seni"
-	},
-	"ko": {
-		"name": "lea fakakōlea"
-	},
-	"ksh": {
-		"name": "lea fakakolongia"
-	},
-	"kok": {
-		"name": "lea fakakonikanī"
-	},
-	"kw": {
-		"name": "lea fakakoniuali"
-	},
-	"nmg": {
-		"name": "lea fakakuasio"
-	},
-	"qu": {
-		"name": "lea fakakuetisa"
-	},
-	"hr": {
-		"name": "lea fakakuloisia"
-	},
-	"guz": {
-		"name": "lea fakakusī"
-	},
-	"gu": {
-		"name": "lea fakakutalati"
-	},
-	"ckb": {
-		"name": "lea fakakūtisi-loloto"
-	},
-	"rm": {
-		"name": "lea fakalaito-lomēnia"
-	},
-	"lb": {
-		"name": "lea fakalakisimipeki"
-	},
-	"lkt": {
-		"name": "lea fakalakota"
-	},
-	"lag": {
-		"name": "lea fakalangi"
-	},
-	"lv": {
-		"name": "lea fakalativia"
-	},
-	"lo": {
-		"name": "lea fakalau"
-	},
-	"lt": {
-		"name": "lea fakalituania"
-	},
-	"ro": {
-		"name": "lea fakalōmenia"
-	},
-	"rof": {
-		"name": "lea fakalomipō"
-	},
-	"rwk": {
-		"name": "lea fakaluā"
-	},
-	"rn": {
-		"name": "lea fakaluaniti"
-	},
-	"luy": {
-		"name": "lea fakaluīa"
-	},
-	"lrc": {
-		"name": "lea fakaluli-tokelau"
-	},
-	"luo": {
-		"name": "lea fakaluo"
-	},
-	"lu": {
-		"name": "lea fakalupa-katanga"
-	},
-	"ru": {
-		"name": "lea fakalūsia"
-	},
-	"kde": {
-		"name": "lea fakamakōnite"
-	},
-	"mgh": {
-		"name": "lea fakamakūa-meʻeto"
-	},
-	"mg": {
-		"name": "lea fakamalakasi"
-	},
-	"mr": {
-		"name": "lea fakamalati"
-	},
-	"ms": {
-		"name": "lea fakamalei"
-	},
-	"mt": {
-		"name": "lea fakamalita"
-	},
-	"gv": {
-		"name": "lea fakamangikī"
-	},
-	"mas": {
-		"name": "lea fakamasai"
-	},
-	"jmc": {
-		"name": "lea fakamasame"
-	},
-	"mzn": {
-		"name": "lea fakamasanitelani"
-	},
-	"mk": {
-		"name": "lea fakamasitōnia"
-	},
-	"mer": {
-		"name": "lea fakamelu"
-	},
-	"mgo": {
-		"name": "lea fakametā"
-	},
-	"mfe": {
-		"name": "lea fakamolisieni"
-	},
-	"ro-MD": {
-		"name": "lea fakamolitāvia"
-	},
-	"mn": {
-		"name": "lea fakamongokōlia"
-	},
-	"mua": {
-		"name": "lea fakamunitangi"
-	},
-	"naq": {
-		"name": "lea fakanama"
-	},
-	"ne": {
-		"name": "lea fakanepali"
-	},
-	"nd": {
-		"name": "lea fakanetepele-tokelau"
-	},
-	"nyn": {
-		"name": "lea fakanianikole"
-	},
-	"jgo": {
-		"name": "lea fakanikōmipa"
-	},
-	"nn": {
-		"name": "lea fakanoauē-ninosiki"
-	},
-	"nb": {
-		"name": "lea fakanouaē-pokimali"
-	},
-	"nus": {
-		"name": "lea fakanueli"
-	},
-	"nnh": {
-		"name": "lea fakangiemipōni"
-	},
-	"ksf": {
-		"name": "lea fakapafia"
-	},
-	"en": {
-		"name": "lea fakapālangi"
-	},
-	"en-CA": {
-		"name": "lea fakapālangi-kānata"
-	},
-	"en-AU": {
-		"name": "lea fakapālangi-ʻaositelēlia"
-	},
-	"bm": {
-		"name": "lea fakapamipala"
-	},
-	"bn": {
-		"name": "lea fakapāngilā"
-	},
-	"bas": {
-		"name": "lea fakapasaʻa"
-	},
-	"eu": {
-		"name": "lea fakapāsiki"
-	},
-	"ps": {
-		"name": "lea fakapasitō"
-	},
-	"be": {
-		"name": "lea fakapelalusi"
-	},
-	"br": {
-		"name": "lea fakapeletoni"
-	},
-	"my": {
-		"name": "lea fakapema"
-	},
-	"bem": {
-		"name": "lea fakapēmipa"
-	},
-	"bez": {
-		"name": "lea fakapena"
-	},
-	"fa": {
-		"name": "lea fakapēsia"
-	},
-	"en-GB": {
-		"name": "lea fakapilitānia"
-	},
-	"pl": {
-		"name": "lea fakapolani"
-	},
-	"bs": {
-		"name": "lea fakaposinia"
-	},
-	"brx": {
-		"name": "lea fakapōto"
-	},
-	"pt": {
-		"name": "lea fakapotukali"
-	},
-	"pt-PT": {
-		"name": "lea fakapotukali-ʻiulope"
-	},
-	"bg": {
-		"name": "lea fakapulukalia"
-	},
-	"prg": {
-		"name": "lea fakapulūsia"
-	},
-	"pa": {
-		"name": "lea fakapūnusapi"
-	},
-	"sah": {
-		"name": "lea fakasaka"
-	},
-	"nds-NL": {
-		"name": "lea fakasakisoni-hifo"
-	},
-	"se": {
-		"name": "lea fakasami-tokelau"
-	},
-	"smn": {
-		"name": "lea fakasami-ʻinali"
-	},
-	"saq": {
-		"name": "lea fakasamipulu"
-	},
-	"sg": {
-		"name": "lea fakasangikō"
-	},
-	"sbp": {
-		"name": "lea fakasangu"
-	},
-	"cs": {
-		"name": "lea fakaseki"
-	},
-	"chr": {
-		"name": "lea fakaselokī"
-	},
-	"seh": {
-		"name": "lea fakasena"
-	},
-	"ka": {
-		"name": "lea fakaseōsia"
-	},
-	"sr": {
-		"name": "lea fakasēpia"
-	},
-	"ce": {
-		"name": "lea fakasese"
-	},
-	"zh": {
-		"name": "lea fakasiaina"
-	},
-	"zh-Hans": {
-		"name": "lea fakasiaina-fakafaingofua"
-	},
-	"zh-Hant": {
-		"name": "lea fakasiaina-tukufakaholo"
-	},
-	"de": {
-		"name": "lea fakasiamane"
-	},
-	"de-CH": {
-		"name": "lea fakasiamane-hake-suisilani"
-	},
-	"nds": {
-		"name": "lea fakasiamane-hifo"
-	},
-	"gsw": {
-		"name": "lea fakasiamane-suisilani"
-	},
-	"de-AT": {
-		"name": "lea fakasiamane-ʻaositulia"
-	},
-	"ksb": {
-		"name": "lea fakasiamipala"
-	},
-	"ja": {
-		"name": "lea fakasiapani"
-	},
-	"cu": {
-		"name": "lea fakasilavia-fakasiasi"
-	},
-	"sd": {
-		"name": "lea fakasīniti"
-	},
-	"si": {
-		"name": "lea fakasingihala"
-	},
-	"sn": {
-		"name": "lea fakasiona"
-	},
-	"es": {
-		"name": "lea fakasipēnisi"
-	},
-	"es-419": {
-		"name": "lea fakasipēnisi lātini-ʻamelika"
-	},
-	"es-MX": {
-		"name": "lea fakasipēnisi-mekisikou"
-	},
-	"ii": {
-		"name": "lea fakasisiuani-ī"
-	},
-	"xog": {
-		"name": "lea fakasoka"
-	},
-	"sk": {
-		"name": "lea fakasolāvaki"
-	},
-	"sl": {
-		"name": "lea fakasolovenia"
-	},
-	"so": {
-		"name": "lea fakasomali"
-	},
-	"hsb": {
-		"name": "lea fakasōpia-hake"
-	},
-	"dsb": {
-		"name": "lea fakasōpia-hifo"
-	},
-	"sw": {
-		"name": "lea fakasuahili"
-	},
-	"sw-CD": {
-		"name": "lea fakasuahili-kongikō"
-	},
-	"sv": {
-		"name": "lea fakasuēteni"
-	},
-	"zu": {
-		"name": "lea fakasulu"
-	},
-	"th": {
-		"name": "lea fakatailani"
-	},
-	"dav": {
-		"name": "lea fakataita"
-	},
-	"zgh": {
-		"name": "lea fakatamasaiti-moloko"
-	},
-	"tzm": {
-		"name": "lea fakatamasaiti-ʻatilasi-loloto"
-	},
-	"ta": {
-		"name": "lea fakatamili"
-	},
-	"twq": {
-		"name": "lea fakatasauaki"
-	},
-	"shi": {
-		"name": "lea fakataselihiti"
-	},
-	"tg": {
-		"name": "lea fakatāsiki"
-	},
-	"tt": {
-		"name": "lea fakatatale"
-	},
-	"tk": {
-		"name": "lea fakatēkimeni"
-	},
-	"da": {
-		"name": "lea fakatenimaʻake"
-	},
-	"teo": {
-		"name": "lea fakateso"
-	},
-	"ti": {
-		"name": "lea fakatikilinia"
-	},
-	"bo": {
-		"name": "lea fakatipeti"
-	},
-	"dje": {
-		"name": "lea fakatisāma"
-	},
-	"dz": {
-		"name": "lea fakatisōngika"
-	},
-	"tr": {
-		"name": "lea fakatoake"
-	},
-	"to": {
-		"name": "lea fakatonga"
-	},
-	"dua": {
-		"name": "lea fakatuala"
-	},
-	"cy": {
-		"name": "lea fakauēlesi"
-	},
-	"vai": {
-		"name": "lea fakavai"
-	},
-	"vi": {
-		"name": "lea fakavietinami"
-	},
-	"vo": {
-		"name": "lea fakavolapiki"
-	},
-	"vun": {
-		"name": "lea fakavūniso"
-	},
-	"ga": {
-		"name": "lea fakaʻaelani"
-	},
-	"af": {
-		"name": "lea fakaʻafilikana"
-	},
-	"is": {
-		"name": "lea fakaʻaisilani"
-	},
-	"ak": {
-		"name": "lea fakaʻakani"
-	},
-	"agq": {
-		"name": "lea fakaʻakihemi"
-	},
-	"sq": {
-		"name": "lea fakaʻalapēnia"
-	},
-	"ar": {
-		"name": "lea fakaʻalepea"
-	},
-	"am": {
-		"name": "lea fakaʻameliki"
-	},
-	"hy": {
-		"name": "lea fakaʻāmenia"
-	},
-	"as": {
-		"name": "lea fakaʻasamia"
-	},
-	"az": {
-		"name": "lea fakaʻasapaisani"
-	},
-	"ast": {
-		"name": "lea fakaʻasitūlia"
-	},
-	"asa": {
-		"name": "lea fakaʻasu"
-	},
-	"ebu": {
-		"name": "lea fakaʻemipū"
-	},
-	"eo": {
-		"name": "lea fakaʻesipulanito"
-	},
-	"et": {
-		"name": "lea fakaʻesitōnia"
-	},
-	"ee": {
-		"name": "lea fakaʻeue"
-	},
-	"ewo": {
-		"name": "lea fakaʻeuōnito"
-	},
-	"yav": {
-		"name": "lea fakaʻiangipeni"
-	},
-	"ig": {
-		"name": "lea fakaʻikipō"
-	},
-	"ml": {
-		"name": "lea fakaʻinitia-malāialami"
-	},
-	"te": {
-		"name": "lea fakaʻinitia-teluku"
-	},
-	"id": {
-		"name": "lea fakaʻinitōnesia"
-	},
-	"yo": {
-		"name": "lea fakaʻiōlupa"
-	},
-	"it": {
-		"name": "lea fakaʻītali"
-	},
-	"om": {
-		"name": "lea fakaʻolomo"
-	},
-	"os": {
-		"name": "lea fakaʻosetiki"
-	},
-	"wae": {
-		"name": "lea fakaʻualiseli"
-	},
-	"ug": {
-		"name": "lea fakaʻuikūli"
-	},
-	"uk": {
-		"name": "lea fakaʻūkalaʻine"
-	},
-	"wo": {
-		"name": "lea fakaʻuolofo"
-	},
-	"uz": {
-		"name": "lea fakaʻusipeki"
-	},
-	"ur": {
-		"name": "lea fakaʻūtū"
-	},
-	"ln": {
-		"name": "lea lingikala"
-	}
+	"or": "lea faka-ʻotia",
+	"fr": "lea fakafalanisē",
+	"fr-CA": "lea fakafalanisē-kānata",
+	"fr-CH": "lea fakafalanisē-suisilani",
+	"fo": "lea fakafaloe",
+	"fil": "lea fakafilipaini",
+	"fy": "lea fakafilisia-hihifo",
+	"fi": "lea fakafinilani",
+	"ff": "lea fakafulā",
+	"fur": "lea fakafulilāni",
+	"haw": "lea fakahauaiʻi",
+	"ha": "lea fakahausa",
+	"he": "lea fakahepelū",
+	"hi": "lea fakahinitī",
+	"nl": "lea fakahōlani",
+	"nl-BE": "lea fakahōlani-pelesiume",
+	"hu": "lea fakahungakalia",
+	"dyo": "lea fakaiola-fonī",
+	"yi": "lea fakaītisi",
+	"gd": "lea fakakaeliki",
+	"kkj": "lea fakakako",
+	"kl": "lea fakakalaʻalisuti",
+	"kln": "lea fakakalenisini",
+	"el": "lea fakakalisi",
+	"gl": "lea fakakalisia",
+	"kam": "lea fakakamipa",
+	"km": "lea fakakamipōtia",
+	"kn": "lea fakakanata",
+	"lg": "lea fakakanita",
+	"kab": "lea fakakapile",
+	"kea": "lea fakakapuvelitianu",
+	"kk": "lea fakakasaki",
+	"ks": "lea fakakāsimila",
+	"ca": "lea fakakatalani",
+	"cgg": "lea fakakika",
+	"ki": "lea fakakikuiu",
+	"rw": "lea fakakiniāuanita",
+	"ky": "lea fakakīsisi",
+	"khq": "lea fakakoila-sīni",
+	"ses": "lea fakakoilapolo-seni",
+	"ko": "lea fakakōlea",
+	"ksh": "lea fakakolongia",
+	"kok": "lea fakakonikanī",
+	"kw": "lea fakakoniuali",
+	"nmg": "lea fakakuasio",
+	"qu": "lea fakakuetisa",
+	"hr": "lea fakakuloisia",
+	"guz": "lea fakakusī",
+	"gu": "lea fakakutalati",
+	"ckb": "lea fakakūtisi-loloto",
+	"rm": "lea fakalaito-lomēnia",
+	"lb": "lea fakalakisimipeki",
+	"lkt": "lea fakalakota",
+	"lag": "lea fakalangi",
+	"lv": "lea fakalativia",
+	"lo": "lea fakalau",
+	"lt": "lea fakalituania",
+	"ro": "lea fakalōmenia",
+	"rof": "lea fakalomipō",
+	"rwk": "lea fakaluā",
+	"rn": "lea fakaluaniti",
+	"luy": "lea fakaluīa",
+	"lrc": "lea fakaluli-tokelau",
+	"luo": "lea fakaluo",
+	"lu": "lea fakalupa-katanga",
+	"ru": "lea fakalūsia",
+	"kde": "lea fakamakōnite",
+	"mgh": "lea fakamakūa-meʻeto",
+	"mg": "lea fakamalakasi",
+	"mr": "lea fakamalati",
+	"ms": "lea fakamalei",
+	"mt": "lea fakamalita",
+	"gv": "lea fakamangikī",
+	"mas": "lea fakamasai",
+	"jmc": "lea fakamasame",
+	"mzn": "lea fakamasanitelani",
+	"mk": "lea fakamasitōnia",
+	"mer": "lea fakamelu",
+	"mgo": "lea fakametā",
+	"mfe": "lea fakamolisieni",
+	"ro-MD": "lea fakamolitāvia",
+	"mn": "lea fakamongokōlia",
+	"mua": "lea fakamunitangi",
+	"naq": "lea fakanama",
+	"ne": "lea fakanepali",
+	"nd": "lea fakanetepele-tokelau",
+	"nyn": "lea fakanianikole",
+	"jgo": "lea fakanikōmipa",
+	"nn": "lea fakanoauē-ninosiki",
+	"nb": "lea fakanouaē-pokimali",
+	"nus": "lea fakanueli",
+	"nnh": "lea fakangiemipōni",
+	"ksf": "lea fakapafia",
+	"en": "lea fakapālangi",
+	"en-CA": "lea fakapālangi-kānata",
+	"en-AU": "lea fakapālangi-ʻaositelēlia",
+	"bm": "lea fakapamipala",
+	"bn": "lea fakapāngilā",
+	"bas": "lea fakapasaʻa",
+	"eu": "lea fakapāsiki",
+	"ps": "lea fakapasitō",
+	"be": "lea fakapelalusi",
+	"br": "lea fakapeletoni",
+	"my": "lea fakapema",
+	"bem": "lea fakapēmipa",
+	"bez": "lea fakapena",
+	"fa": "lea fakapēsia",
+	"en-GB": "lea fakapilitānia",
+	"pl": "lea fakapolani",
+	"bs": "lea fakaposinia",
+	"brx": "lea fakapōto",
+	"pt": "lea fakapotukali",
+	"pt-PT": "lea fakapotukali-ʻiulope",
+	"bg": "lea fakapulukalia",
+	"prg": "lea fakapulūsia",
+	"pa": "lea fakapūnusapi",
+	"sah": "lea fakasaka",
+	"nds-NL": "lea fakasakisoni-hifo",
+	"se": "lea fakasami-tokelau",
+	"smn": "lea fakasami-ʻinali",
+	"saq": "lea fakasamipulu",
+	"sg": "lea fakasangikō",
+	"sbp": "lea fakasangu",
+	"cs": "lea fakaseki",
+	"chr": "lea fakaselokī",
+	"seh": "lea fakasena",
+	"ka": "lea fakaseōsia",
+	"sr": "lea fakasēpia",
+	"ce": "lea fakasese",
+	"zh": "lea fakasiaina",
+	"zh-Hans": "lea fakasiaina-fakafaingofua",
+	"zh-Hant": "lea fakasiaina-tukufakaholo",
+	"de": "lea fakasiamane",
+	"de-CH": "lea fakasiamane-hake-suisilani",
+	"nds": "lea fakasiamane-hifo",
+	"gsw": "lea fakasiamane-suisilani",
+	"de-AT": "lea fakasiamane-ʻaositulia",
+	"ksb": "lea fakasiamipala",
+	"ja": "lea fakasiapani",
+	"cu": "lea fakasilavia-fakasiasi",
+	"sd": "lea fakasīniti",
+	"si": "lea fakasingihala",
+	"sn": "lea fakasiona",
+	"es": "lea fakasipēnisi",
+	"es-419": "lea fakasipēnisi lātini-ʻamelika",
+	"es-MX": "lea fakasipēnisi-mekisikou",
+	"ii": "lea fakasisiuani-ī",
+	"xog": "lea fakasoka",
+	"sk": "lea fakasolāvaki",
+	"sl": "lea fakasolovenia",
+	"so": "lea fakasomali",
+	"hsb": "lea fakasōpia-hake",
+	"dsb": "lea fakasōpia-hifo",
+	"sw": "lea fakasuahili",
+	"sw-CD": "lea fakasuahili-kongikō",
+	"sv": "lea fakasuēteni",
+	"zu": "lea fakasulu",
+	"th": "lea fakatailani",
+	"dav": "lea fakataita",
+	"zgh": "lea fakatamasaiti-moloko",
+	"tzm": "lea fakatamasaiti-ʻatilasi-loloto",
+	"ta": "lea fakatamili",
+	"twq": "lea fakatasauaki",
+	"shi": "lea fakataselihiti",
+	"tg": "lea fakatāsiki",
+	"tt": "lea fakatatale",
+	"tk": "lea fakatēkimeni",
+	"da": "lea fakatenimaʻake",
+	"teo": "lea fakateso",
+	"ti": "lea fakatikilinia",
+	"bo": "lea fakatipeti",
+	"dje": "lea fakatisāma",
+	"dz": "lea fakatisōngika",
+	"tr": "lea fakatoake",
+	"to": "lea fakatonga",
+	"dua": "lea fakatuala",
+	"cy": "lea fakauēlesi",
+	"vai": "lea fakavai",
+	"vi": "lea fakavietinami",
+	"vo": "lea fakavolapiki",
+	"vun": "lea fakavūniso",
+	"ga": "lea fakaʻaelani",
+	"af": "lea fakaʻafilikana",
+	"is": "lea fakaʻaisilani",
+	"ak": "lea fakaʻakani",
+	"agq": "lea fakaʻakihemi",
+	"sq": "lea fakaʻalapēnia",
+	"ar": "lea fakaʻalepea",
+	"am": "lea fakaʻameliki",
+	"hy": "lea fakaʻāmenia",
+	"as": "lea fakaʻasamia",
+	"az": "lea fakaʻasapaisani",
+	"ast": "lea fakaʻasitūlia",
+	"asa": "lea fakaʻasu",
+	"ebu": "lea fakaʻemipū",
+	"eo": "lea fakaʻesipulanito",
+	"et": "lea fakaʻesitōnia",
+	"ee": "lea fakaʻeue",
+	"ewo": "lea fakaʻeuōnito",
+	"yav": "lea fakaʻiangipeni",
+	"ig": "lea fakaʻikipō",
+	"ml": "lea fakaʻinitia-malāialami",
+	"te": "lea fakaʻinitia-teluku",
+	"id": "lea fakaʻinitōnesia",
+	"yo": "lea fakaʻiōlupa",
+	"it": "lea fakaʻītali",
+	"om": "lea fakaʻolomo",
+	"os": "lea fakaʻosetiki",
+	"wae": "lea fakaʻualiseli",
+	"ug": "lea fakaʻuikūli",
+	"uk": "lea fakaʻūkalaʻine",
+	"wo": "lea fakaʻuolofo",
+	"uz": "lea fakaʻusipeki",
+	"ur": "lea fakaʻūtū",
+	"ln": "lea lingikala"
 }

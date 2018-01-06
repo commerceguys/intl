@@ -1,647 +1,217 @@
 {
-	"ak": {
-		"name": "Acaneg"
-	},
-	"af": {
-		"name": "Affricâneg"
-	},
-	"agq": {
-		"name": "Aghemeg"
-	},
-	"sq": {
-		"name": "Albaneg"
-	},
-	"de": {
-		"name": "Almaeneg"
-	},
-	"de-AT": {
-		"name": "Almaeneg Awstria"
-	},
-	"nds": {
-		"name": "Almaeneg Isel"
-	},
-	"de-CH": {
-		"name": "Almaeneg Safonol y Swistir"
-	},
-	"gsw": {
-		"name": "Almaeneg y Swistir"
-	},
-	"am": {
-		"name": "Amhareg"
-	},
-	"ar": {
-		"name": "Arabeg"
-	},
-	"hy": {
-		"name": "Armeneg"
-	},
-	"as": {
-		"name": "Asameg"
-	},
-	"az": {
-		"name": "Aserbaijaneg"
-	},
-	"ast": {
-		"name": "Astwrianeg"
-	},
-	"asa": {
-		"name": "Asw"
-	},
-	"ksf": {
-		"name": "Baffia"
-	},
-	"bm": {
-		"name": "Bambareg"
-	},
-	"bas": {
-		"name": "Basâeg"
-	},
-	"eu": {
-		"name": "Basgeg"
-	},
-	"bn": {
-		"name": "Bengaleg"
-	},
-	"be": {
-		"name": "Belarwseg"
-	},
-	"bem": {
-		"name": "Bembeg"
-	},
-	"bez": {
-		"name": "Bena"
-	},
-	"brx": {
-		"name": "Bodo"
-	},
-	"bs": {
-		"name": "Bosnieg"
-	},
-	"bg": {
-		"name": "Bwlgareg"
-	},
-	"my": {
-		"name": "Byrmaneg"
-	},
-	"kab": {
-		"name": "Cabileg"
-	},
-	"kea": {
-		"name": "Caboferdianeg"
-	},
-	"kam": {
-		"name": "Camba"
-	},
-	"kk": {
-		"name": "Casacheg"
-	},
-	"ks": {
-		"name": "Cashmireg"
-	},
-	"ca": {
-		"name": "Catalaneg"
-	},
-	"kw": {
-		"name": "Cernyweg"
-	},
-	"rw": {
-		"name": "Ciniarŵandeg"
-	},
-	"ky": {
-		"name": "Cirgiseg"
-	},
-	"kok": {
-		"name": "Concani"
-	},
-	"ko": {
-		"name": "Coreeg"
-	},
-	"hr": {
-		"name": "Croateg"
-	},
-	"ksh": {
-		"name": "Cwleneg"
-	},
-	"ckb": {
-		"name": "Cwrdeg Sorani"
-	},
-	"cy": {
-		"name": "Cymraeg"
-	},
-	"km": {
-		"name": "Chmereg"
-	},
-	"da": {
-		"name": "Daneg"
-	},
-	"dua": {
-		"name": "Diwaleg"
-	},
-	"dz": {
-		"name": "Dzongkha"
-	},
-	"it": {
-		"name": "Eidaleg"
-	},
-	"ebu": {
-		"name": "Embw"
-	},
-	"eo": {
-		"name": "Esperanto"
-	},
-	"et": {
-		"name": "Estoneg"
-	},
-	"ee": {
-		"name": "Ewe"
-	},
-	"ewo": {
-		"name": "Ewondo"
-	},
-	"vai": {
-		"name": "Faieg"
-	},
-	"vi": {
-		"name": "Fietnameg"
-	},
-	"vo": {
-		"name": "Folapük"
-	},
-	"vun": {
-		"name": "Funjo"
-	},
-	"fo": {
-		"name": "Ffaröeg"
-	},
-	"fil": {
-		"name": "Ffilipineg"
-	},
-	"fi": {
-		"name": "Ffinneg"
-	},
-	"nl-BE": {
-		"name": "Fflemeg"
-	},
-	"fr": {
-		"name": "Ffrangeg"
-	},
-	"fr-CA": {
-		"name": "Ffrangeg Canada"
-	},
-	"fr-CH": {
-		"name": "Ffrangeg y Swistir"
-	},
-	"fy": {
-		"name": "Ffriseg y Gorllewin"
-	},
-	"fur": {
-		"name": "Ffriwleg"
-	},
-	"ff": {
-		"name": "Ffwla"
-	},
-	"gd": {
-		"name": "Gaeleg yr Alban"
-	},
-	"gl": {
-		"name": "Galisieg"
-	},
-	"lg": {
-		"name": "Ganda"
-	},
-	"ka": {
-		"name": "Georgeg"
-	},
-	"el": {
-		"name": "Groeg"
-	},
-	"guz": {
-		"name": "Gusii"
-	},
-	"gu": {
-		"name": "Gwjarati"
-	},
-	"ga": {
-		"name": "Gwyddeleg"
-	},
-	"nnh": {
-		"name": "Ngiemboon"
-	},
-	"jgo": {
-		"name": "Ngomba"
-	},
-	"haw": {
-		"name": "Hawäieg"
-	},
-	"ha": {
-		"name": "Hawsa"
-	},
-	"he": {
-		"name": "Hebraeg"
-	},
-	"cu": {
-		"name": "Hen Slafoneg"
-	},
-	"hi": {
-		"name": "Hindi"
-	},
-	"hu": {
-		"name": "Hwngareg"
-	},
-	"yav": {
-		"name": "Iangben"
-	},
-	"yi": {
-		"name": "Iddew-Almaeneg"
-	},
-	"ig": {
-		"name": "Igbo"
-	},
-	"id": {
-		"name": "Indoneseg"
-	},
-	"yo": {
-		"name": "Iorwba"
-	},
-	"nl": {
-		"name": "Iseldireg"
-	},
-	"is": {
-		"name": "Islandeg"
-	},
-	"ja": {
-		"name": "Japaneeg"
-	},
-	"dyo": {
-		"name": "Jola-Fonyi"
-	},
-	"kkj": {
-		"name": "Kako"
-	},
-	"kl": {
-		"name": "Kalaallisut"
-	},
-	"kln": {
-		"name": "Kalenjin"
-	},
-	"kn": {
-		"name": "Kannada"
-	},
-	"ki": {
-		"name": "Kikuyu"
-	},
-	"khq": {
-		"name": "Koyra Chiini"
-	},
-	"ses": {
-		"name": "Koyraboro Senni"
-	},
-	"nmg": {
-		"name": "Kwasio"
-	},
-	"lag": {
-		"name": "Langi"
-	},
-	"lkt": {
-		"name": "Lakota"
-	},
-	"lo": {
-		"name": "Laoeg"
-	},
-	"lv": {
-		"name": "Latfieg"
-	},
-	"ln": {
-		"name": "Lingala"
-	},
-	"lt": {
-		"name": "Lithwaneg"
-	},
-	"lu": {
-		"name": "Luba-Katanga"
-	},
-	"lrc": {
-		"name": "Luri Gogleddol"
-	},
-	"lb": {
-		"name": "Lwcsembwrgeg"
-	},
-	"luo": {
-		"name": "Lŵo"
-	},
-	"luy": {
-		"name": "Lwyia"
-	},
-	"br": {
-		"name": "Llydaweg"
-	},
-	"mk": {
-		"name": "Macedoneg"
-	},
-	"kde": {
-		"name": "Macondeg"
-	},
-	"mgh": {
-		"name": "Makhuwa-Meetto"
-	},
-	"mg": {
-		"name": "Malagaseg"
-	},
-	"ml": {
-		"name": "Malayalam"
-	},
-	"ms": {
-		"name": "Maleieg"
-	},
-	"mt": {
-		"name": "Malteg"
-	},
-	"gv": {
-		"name": "Manaweg"
-	},
-	"mr": {
-		"name": "Marathi"
-	},
-	"mas": {
-		"name": "Masai"
-	},
-	"mzn": {
-		"name": "Masanderani"
-	},
-	"jmc": {
-		"name": "Matsiame"
-	},
-	"mer": {
-		"name": "Mêrw"
-	},
-	"mgo": {
-		"name": "Meta"
-	},
-	"mn": {
-		"name": "Mongoleg"
-	},
-	"ro-MD": {
-		"name": "Moldofeg"
-	},
-	"mfe": {
-		"name": "Morisyen"
-	},
-	"mua": {
-		"name": "Mundang"
-	},
-	"naq": {
-		"name": "Nama"
-	},
-	"nd": {
-		"name": "Ndebele Gogleddol"
-	},
-	"ne": {
-		"name": "Nepaleg"
-	},
-	"nyn": {
-		"name": "Niancole"
-	},
-	"nb": {
-		"name": "Norwyeg Bokmål"
-	},
-	"nn": {
-		"name": "Norwyeg Nynorsk"
-	},
-	"nus": {
-		"name": "Nŵereg"
-	},
-	"ii": {
-		"name": "Nwosw"
-	},
-	"or": {
-		"name": "Odia"
-	},
-	"om": {
-		"name": "Oromo"
-	},
-	"os": {
-		"name": "Oseteg"
-	},
-	"ps": {
-		"name": "Pashto"
-	},
-	"fa": {
-		"name": "Perseg"
-	},
-	"pt": {
-		"name": "Portiwgeeg"
-	},
-	"pt-PT": {
-		"name": "Portiwgeeg Ewrop"
-	},
-	"prg": {
-		"name": "Prwseg"
-	},
-	"pa": {
-		"name": "Pwnjabeg"
-	},
-	"pl": {
-		"name": "Pwyleg"
-	},
-	"qu": {
-		"name": "Quechua"
-	},
-	"rm": {
-		"name": "Románsh"
-	},
-	"rof": {
-		"name": "Rombo"
-	},
-	"rwk": {
-		"name": "Rwa"
-	},
-	"ro": {
-		"name": "Rwmaneg"
-	},
-	"rn": {
-		"name": "Rwndi"
-	},
-	"ru": {
-		"name": "Rwseg"
-	},
-	"nds-NL": {
-		"name": "Sacsoneg Isel"
-	},
-	"en": {
-		"name": "Saesneg"
-	},
-	"en-AU": {
-		"name": "Saesneg Awstralia"
-	},
-	"en-CA": {
-		"name": "Saesneg Canada"
-	},
-	"en-GB": {
-		"name": "Saesneg Prydain"
-	},
-	"sg": {
-		"name": "Sango"
-	},
-	"sbp": {
-		"name": "Sangw"
-	},
-	"sah": {
-		"name": "Sakha"
-	},
-	"saq": {
-		"name": "Sambŵrw"
-	},
-	"se": {
-		"name": "Sami Gogleddol"
-	},
-	"smn": {
-		"name": "Sami Inari"
-	},
-	"dje": {
-		"name": "Sarmaeg"
-	},
-	"es": {
-		"name": "Sbaeneg"
-	},
-	"es-419": {
-		"name": "Sbaeneg America Ladin"
-	},
-	"es-MX": {
-		"name": "Sbaeneg Mecsico"
-	},
-	"seh": {
-		"name": "Sena"
-	},
-	"sr": {
-		"name": "Serbeg"
-	},
-	"ksb": {
-		"name": "Shambala"
-	},
-	"sn": {
-		"name": "Shona"
-	},
-	"sd": {
-		"name": "Sindhi"
-	},
-	"si": {
-		"name": "Sinhaleg"
-	},
-	"sk": {
-		"name": "Slofaceg"
-	},
-	"sl": {
-		"name": "Slofeneg"
-	},
-	"xog": {
-		"name": "Soga"
-	},
-	"so": {
-		"name": "Somaleg"
-	},
-	"dsb": {
-		"name": "Sorbeg Isaf"
-	},
-	"hsb": {
-		"name": "Sorbeg Uchaf"
-	},
-	"sw": {
-		"name": "Swahili"
-	},
-	"sw-CD": {
-		"name": "Swahili’r Congo"
-	},
-	"sv": {
-		"name": "Swedeg"
-	},
-	"zu": {
-		"name": "Swlw"
-	},
-	"shi": {
-		"name": "Tachelhit"
-	},
-	"dav": {
-		"name": "Taita"
-	},
-	"tg": {
-		"name": "Tajiceg"
-	},
-	"tzm": {
-		"name": "Tamaseit Canolbarth Moroco"
-	},
-	"zgh": {
-		"name": "Tamaseit Safonol"
-	},
-	"ta": {
-		"name": "Tamileg"
-	},
-	"twq": {
-		"name": "Tasawaq"
-	},
-	"tt": {
-		"name": "Tatareg"
-	},
-	"te": {
-		"name": "Telugu"
-	},
-	"teo": {
-		"name": "Teso"
-	},
-	"bo": {
-		"name": "Tibeteg"
-	},
-	"ti": {
-		"name": "Tigrinya"
-	},
-	"to": {
-		"name": "Tongeg"
-	},
-	"cs": {
-		"name": "Tsieceg"
-	},
-	"zh": {
-		"name": "Tsieineeg"
-	},
-	"zh-Hans": {
-		"name": "Tsieineeg Symledig"
-	},
-	"zh-Hant": {
-		"name": "Tsieineeg Traddodiadol"
-	},
-	"chr": {
-		"name": "Tsierocî"
-	},
-	"ce": {
-		"name": "Tsietsieneg"
-	},
-	"cgg": {
-		"name": "Tsiga"
-	},
-	"tk": {
-		"name": "Twrcmeneg"
-	},
-	"tr": {
-		"name": "Tyrceg"
-	},
-	"th": {
-		"name": "Thai"
-	},
-	"ug": {
-		"name": "Uighur"
-	},
-	"wae": {
-		"name": "Walsereg"
-	},
-	"uk": {
-		"name": "Wcreineg"
-	},
-	"wo": {
-		"name": "Woloff"
-	},
-	"ur": {
-		"name": "Wrdw"
-	},
-	"uz": {
-		"name": "Wsbeceg"
-	}
+	"ak": "Acaneg",
+	"af": "Affricâneg",
+	"agq": "Aghemeg",
+	"sq": "Albaneg",
+	"de": "Almaeneg",
+	"de-AT": "Almaeneg Awstria",
+	"nds": "Almaeneg Isel",
+	"de-CH": "Almaeneg Safonol y Swistir",
+	"gsw": "Almaeneg y Swistir",
+	"am": "Amhareg",
+	"ar": "Arabeg",
+	"hy": "Armeneg",
+	"as": "Asameg",
+	"az": "Aserbaijaneg",
+	"ast": "Astwrianeg",
+	"asa": "Asw",
+	"ksf": "Baffia",
+	"bm": "Bambareg",
+	"bas": "Basâeg",
+	"eu": "Basgeg",
+	"bn": "Bengaleg",
+	"be": "Belarwseg",
+	"bem": "Bembeg",
+	"bez": "Bena",
+	"brx": "Bodo",
+	"bs": "Bosnieg",
+	"bg": "Bwlgareg",
+	"my": "Byrmaneg",
+	"kab": "Cabileg",
+	"kea": "Caboferdianeg",
+	"kam": "Camba",
+	"kk": "Casacheg",
+	"ks": "Cashmireg",
+	"ca": "Catalaneg",
+	"kw": "Cernyweg",
+	"rw": "Ciniarŵandeg",
+	"ky": "Cirgiseg",
+	"kok": "Concani",
+	"ko": "Coreeg",
+	"hr": "Croateg",
+	"ksh": "Cwleneg",
+	"ckb": "Cwrdeg Sorani",
+	"cy": "Cymraeg",
+	"km": "Chmereg",
+	"da": "Daneg",
+	"dua": "Diwaleg",
+	"dz": "Dzongkha",
+	"it": "Eidaleg",
+	"ebu": "Embw",
+	"eo": "Esperanto",
+	"et": "Estoneg",
+	"ee": "Ewe",
+	"ewo": "Ewondo",
+	"vai": "Faieg",
+	"vi": "Fietnameg",
+	"vo": "Folapük",
+	"vun": "Funjo",
+	"fo": "Ffaröeg",
+	"fil": "Ffilipineg",
+	"fi": "Ffinneg",
+	"nl-BE": "Fflemeg",
+	"fr": "Ffrangeg",
+	"fr-CA": "Ffrangeg Canada",
+	"fr-CH": "Ffrangeg y Swistir",
+	"fy": "Ffriseg y Gorllewin",
+	"fur": "Ffriwleg",
+	"ff": "Ffwla",
+	"gd": "Gaeleg yr Alban",
+	"gl": "Galisieg",
+	"lg": "Ganda",
+	"ka": "Georgeg",
+	"el": "Groeg",
+	"guz": "Gusii",
+	"gu": "Gwjarati",
+	"ga": "Gwyddeleg",
+	"nnh": "Ngiemboon",
+	"jgo": "Ngomba",
+	"haw": "Hawäieg",
+	"ha": "Hawsa",
+	"he": "Hebraeg",
+	"cu": "Hen Slafoneg",
+	"hi": "Hindi",
+	"hu": "Hwngareg",
+	"yav": "Iangben",
+	"yi": "Iddew-Almaeneg",
+	"ig": "Igbo",
+	"id": "Indoneseg",
+	"yo": "Iorwba",
+	"nl": "Iseldireg",
+	"is": "Islandeg",
+	"ja": "Japaneeg",
+	"dyo": "Jola-Fonyi",
+	"kkj": "Kako",
+	"kl": "Kalaallisut",
+	"kln": "Kalenjin",
+	"kn": "Kannada",
+	"ki": "Kikuyu",
+	"khq": "Koyra Chiini",
+	"ses": "Koyraboro Senni",
+	"nmg": "Kwasio",
+	"lag": "Langi",
+	"lkt": "Lakota",
+	"lo": "Laoeg",
+	"lv": "Latfieg",
+	"ln": "Lingala",
+	"lt": "Lithwaneg",
+	"lu": "Luba-Katanga",
+	"lrc": "Luri Gogleddol",
+	"lb": "Lwcsembwrgeg",
+	"luo": "Lŵo",
+	"luy": "Lwyia",
+	"br": "Llydaweg",
+	"mk": "Macedoneg",
+	"kde": "Macondeg",
+	"mgh": "Makhuwa-Meetto",
+	"mg": "Malagaseg",
+	"ml": "Malayalam",
+	"ms": "Maleieg",
+	"mt": "Malteg",
+	"gv": "Manaweg",
+	"mr": "Marathi",
+	"mas": "Masai",
+	"mzn": "Masanderani",
+	"jmc": "Matsiame",
+	"mer": "Mêrw",
+	"mgo": "Meta",
+	"mn": "Mongoleg",
+	"ro-MD": "Moldofeg",
+	"mfe": "Morisyen",
+	"mua": "Mundang",
+	"naq": "Nama",
+	"nd": "Ndebele Gogleddol",
+	"ne": "Nepaleg",
+	"nyn": "Niancole",
+	"nb": "Norwyeg Bokmål",
+	"nn": "Norwyeg Nynorsk",
+	"nus": "Nŵereg",
+	"ii": "Nwosw",
+	"or": "Odia",
+	"om": "Oromo",
+	"os": "Oseteg",
+	"ps": "Pashto",
+	"fa": "Perseg",
+	"pt": "Portiwgeeg",
+	"pt-PT": "Portiwgeeg Ewrop",
+	"prg": "Prwseg",
+	"pa": "Pwnjabeg",
+	"pl": "Pwyleg",
+	"qu": "Quechua",
+	"rm": "Románsh",
+	"rof": "Rombo",
+	"rwk": "Rwa",
+	"ro": "Rwmaneg",
+	"rn": "Rwndi",
+	"ru": "Rwseg",
+	"nds-NL": "Sacsoneg Isel",
+	"en": "Saesneg",
+	"en-AU": "Saesneg Awstralia",
+	"en-CA": "Saesneg Canada",
+	"en-GB": "Saesneg Prydain",
+	"sg": "Sango",
+	"sbp": "Sangw",
+	"sah": "Sakha",
+	"saq": "Sambŵrw",
+	"se": "Sami Gogleddol",
+	"smn": "Sami Inari",
+	"dje": "Sarmaeg",
+	"es": "Sbaeneg",
+	"es-419": "Sbaeneg America Ladin",
+	"es-MX": "Sbaeneg Mecsico",
+	"seh": "Sena",
+	"sr": "Serbeg",
+	"ksb": "Shambala",
+	"sn": "Shona",
+	"sd": "Sindhi",
+	"si": "Sinhaleg",
+	"sk": "Slofaceg",
+	"sl": "Slofeneg",
+	"xog": "Soga",
+	"so": "Somaleg",
+	"dsb": "Sorbeg Isaf",
+	"hsb": "Sorbeg Uchaf",
+	"sw": "Swahili",
+	"sw-CD": "Swahili’r Congo",
+	"sv": "Swedeg",
+	"zu": "Swlw",
+	"shi": "Tachelhit",
+	"dav": "Taita",
+	"tg": "Tajiceg",
+	"tzm": "Tamaseit Canolbarth Moroco",
+	"zgh": "Tamaseit Safonol",
+	"ta": "Tamileg",
+	"twq": "Tasawaq",
+	"tt": "Tatareg",
+	"te": "Telugu",
+	"teo": "Teso",
+	"bo": "Tibeteg",
+	"ti": "Tigrinya",
+	"to": "Tongeg",
+	"cs": "Tsieceg",
+	"zh": "Tsieineeg",
+	"zh-Hans": "Tsieineeg Symledig",
+	"zh-Hant": "Tsieineeg Traddodiadol",
+	"chr": "Tsierocî",
+	"ce": "Tsietsieneg",
+	"cgg": "Tsiga",
+	"tk": "Twrcmeneg",
+	"tr": "Tyrceg",
+	"th": "Thai",
+	"ug": "Uighur",
+	"wae": "Walsereg",
+	"uk": "Wcreineg",
+	"wo": "Woloff",
+	"ur": "Wrdw",
+	"uz": "Wsbeceg"
 }

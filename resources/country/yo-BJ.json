@@ -1,761 +1,255 @@
 {
-	"AX": {
-		"name": "Åland Islands"
-	},
-	"AQ": {
-		"name": "Antarctica"
-	},
-	"AC": {
-		"name": "Ascension Island"
-	},
-	"IC": {
-		"name": "Canary Islands"
-	},
-	"BQ": {
-		"name": "Caribbean Netherlands"
-	},
-	"EA": {
-		"name": "Ceuta & Melilla"
-	},
-	"CX": {
-		"name": "Christmas Island"
-	},
-	"CC": {
-		"name": "Cocos (Keeling) Islands"
-	},
-	"CW": {
-		"name": "Curaçao"
-	},
-	"DG": {
-		"name": "Diego Garcia"
-	},
-	"FO": {
-		"name": "Faroe Islands"
-	},
-	"TF": {
-		"name": "French Southern Territories"
-	},
-	"GG": {
-		"name": "Guernsey"
-	},
-	"HK": {
-		"name": "Hong Kong SAR China"
-	},
-	"VA": {
-		"name": "Ìlú Vatican"
-	},
-	"IM": {
-		"name": "Isle of Man"
-	},
-	"JE": {
-		"name": "Jersey"
-	},
-	"XK": {
-		"name": "Kosovo"
-	},
-	"MO": {
-		"name": "Macau SAR China"
-	},
-	"ME": {
-		"name": "Montenegro"
-	},
-	"AD": {
-		"name": "Orílɛ́ède Ààndórà"
-	},
-	"AO": {
-		"name": "Orílɛ́ède Ààngólà"
-	},
-	"AI": {
-		"name": "Orílɛ́ède Ààngúlílà"
-	},
-	"AG": {
-		"name": "Orílɛ́ède Ààntígúà àti Báríbúdà"
-	},
-	"AF": {
-		"name": "Orílɛ́ède Àfùgànístánì"
-	},
-	"AR": {
-		"name": "Orílɛ́ède Agentínà"
-	},
-	"IE": {
-		"name": "Orílɛ́ède Ailandi"
-	},
-	"AL": {
-		"name": "Orílɛ́ède Àlùbàníánì"
-	},
-	"DZ": {
-		"name": "Orílɛ́ède Àlùgèríánì"
-	},
-	"AM": {
-		"name": "Orílɛ́ède Améníà"
-	},
-	"CF": {
-		"name": "Orílɛ́ède Àrin gùngun Áfíríkà"
-	},
-	"ZA": {
-		"name": "Orílɛ́ède Ariwa Afirika"
-	},
-	"KR": {
-		"name": "Orílɛ́ède Ariwa Kɔria"
-	},
-	"AW": {
-		"name": "Orílɛ́ède Árúbà"
-	},
-	"AZ": {
-		"name": "Orílɛ́ède Asɛ́bájánì"
-	},
-	"IS": {
-		"name": "Orílɛ́ède Ashilandi"
-	},
-	"AT": {
-		"name": "Orílɛ́ède Asítíríà"
-	},
-	"AU": {
-		"name": "Orílɛ́ède Ástràlìá"
-	},
-	"BB": {
-		"name": "Orílɛ́ède Bábádósì"
-	},
-	"BS": {
-		"name": "Orílɛ́ède Bàhámásì"
-	},
-	"BD": {
-		"name": "Orílɛ́ède Bángáládésì"
-	},
-	"BH": {
-		"name": "Orílɛ́ède Báránì"
-	},
-	"BR": {
-		"name": "Orílɛ́ède Bàràsílì"
-	},
-	"BE": {
-		"name": "Orílɛ́ède Bégíɔ́mù"
-	},
-	"BY": {
-		"name": "Orílɛ́ède Bélárúsì"
-	},
-	"BZ": {
-		"name": "Orílɛ́ède Bèlísɛ̀"
-	},
-	"BM": {
-		"name": "Orílɛ́ède Bémúdà"
-	},
-	"BJ": {
-		"name": "Orílɛ́ède Bɛ̀nɛ̀"
-	},
-	"BO": {
-		"name": "Orílɛ́ède Bɔ̀lífíyà"
-	},
-	"BA": {
-		"name": "Orílɛ́ède Bɔ̀síníà àti Ɛtisɛgófínà"
-	},
-	"BW": {
-		"name": "Orílɛ́ède Bɔ̀tìsúwánà"
-	},
-	"BN": {
-		"name": "Orílɛ́ède Búrúnɛ́lì"
-	},
-	"BT": {
-		"name": "Orílɛ́ède Bútánì"
-	},
-	"BG": {
-		"name": "Orílɛ́ède Bùùgáríà"
-	},
-	"BF": {
-		"name": "Orílɛ́ède Bùùkíná Fasò"
-	},
-	"BI": {
-		"name": "Orílɛ́ède Bùùrúndì"
-	},
-	"DK": {
-		"name": "Orílɛ́ède Dɛ́mákì"
-	},
-	"DJ": {
-		"name": "Orílɛ́ède Díbɔ́ótì"
-	},
-	"DM": {
-		"name": "Orílɛ́ède Dòmíníkà"
-	},
-	"DO": {
-		"name": "Orilɛ́ède Dòmíníkánì"
-	},
-	"EG": {
-		"name": "Orílɛ́ède Égípítì"
-	},
-	"EC": {
-		"name": "Orílɛ́ède Ekuádò"
-	},
-	"GQ": {
-		"name": "Orílɛ́ède Ekutoria Gini"
-	},
-	"ER": {
-		"name": "Orílɛ́ède Eritira"
-	},
-	"EE": {
-		"name": "Orílɛ́ède Esitonia"
-	},
-	"VI": {
-		"name": "Orílɛ́ède Etikun Fagini ti Amɛrika"
-	},
-	"VG": {
-		"name": "Orílɛ́ède Etíkun Fágínì ti ìlú Bírítísì"
-	},
-	"FK": {
-		"name": "Orílɛ́ède Etikun Fakalandi"
-	},
-	"MP": {
-		"name": "Orílɛ́ède Etikun Guusu Mariana"
-	},
-	"IO": {
-		"name": "Orílɛ́ède Etíkun Índíánì ti Ìlú Bírítísì"
-	},
-	"MH": {
-		"name": "Orílɛ́ède Etikun Máshali"
-	},
-	"NF": {
-		"name": "Orílɛ́ède Etikun Nɔ́úfókì"
-	},
-	"SB": {
-		"name": "Orílɛ́ède Etikun Solomoni"
-	},
-	"KY": {
-		"name": "Orílɛ́ède Etíokun Kámánì"
-	},
-	"CV": {
-		"name": "Orílɛ́ède Etíokun Kápé féndè"
-	},
-	"CK": {
-		"name": "Orílɛ́ède Etíokun Kùúkù"
-	},
-	"ET": {
-		"name": "Orílɛ́ède Etopia"
-	},
-	"SV": {
-		"name": "Orílɛ́ède Ɛɛsáfádò"
-	},
-	"AE": {
-		"name": "Orílɛ́ède Ɛmirate ti Awɔn Arabu"
-	},
-	"VU": {
-		"name": "Orílɛ́ède Faniatu"
-	},
-	"FR": {
-		"name": "Orílɛ́ède Faranse"
-	},
-	"VE": {
-		"name": "Orílɛ́ède Fɛnɛshuɛla"
-	},
-	"VN": {
-		"name": "Orílɛ́ède Fɛtinami"
-	},
-	"FJ": {
-		"name": "Orílɛ́ède Fiji"
-	},
-	"FI": {
-		"name": "Orílɛ́ède Filandi"
-	},
-	"PH": {
-		"name": "Orílɛ́ède filipini"
-	},
-	"GF": {
-		"name": "Orílɛ́ède Firenshi Guana"
-	},
-	"PF": {
-		"name": "Orílɛ́ède Firenshi Polinesia"
-	},
-	"VC": {
-		"name": "Orílɛ́ède Fisɛnnti ati Genadina"
-	},
-	"GA": {
-		"name": "Orílɛ́ède Gabon"
-	},
-	"GP": {
-		"name": "Orílɛ́ède Gadelope"
-	},
-	"GM": {
-		"name": "Orílɛ́ède Gambia"
-	},
-	"GH": {
-		"name": "Orílɛ́ède Gana"
-	},
-	"DE": {
-		"name": "Orílɛ́ède Gemani"
-	},
-	"GD": {
-		"name": "Orílɛ́ède Genada"
-	},
-	"GN": {
-		"name": "Orílɛ́ède Gene"
-	},
-	"GW": {
-		"name": "Orílɛ́ède Gene-Busau"
-	},
-	"GL": {
-		"name": "Orílɛ́ède Gerelandi"
-	},
-	"GR": {
-		"name": "Orílɛ́ède Geriisi"
-	},
-	"GI": {
-		"name": "Orílɛ́ède Gibaratara"
-	},
-	"GE": {
-		"name": "Orílɛ́ède Gɔgia"
-	},
-	"GU": {
-		"name": "Orílɛ́ède Guamu"
-	},
-	"GT": {
-		"name": "Orílɛ́ède Guatemala"
-	},
-	"KP": {
-		"name": "Orílɛ́ède Guusu Kɔria"
-	},
-	"GY": {
-		"name": "Orílɛ́ède Guyana"
-	},
-	"HT": {
-		"name": "Orílɛ́ède Haati"
-	},
-	"SH": {
-		"name": "Orílɛ́ède Hɛlena"
-	},
-	"HN": {
-		"name": "Orílɛ́ède Hondurasi"
-	},
-	"HU": {
-		"name": "Orílɛ́ède Hungari"
-	},
-	"TL": {
-		"name": "Orílɛ́ède ÌlàOòrùn Tímɔ̀"
-	},
-	"IN": {
-		"name": "Orílɛ́ède India"
-	},
-	"ID": {
-		"name": "Orílɛ́ède Indonesia"
-	},
-	"IQ": {
-		"name": "Orílɛ́ède Iraki"
-	},
-	"IR": {
-		"name": "Orílɛ́ède Irani"
-	},
-	"IL": {
-		"name": "Orílɛ́ède Iserɛli"
-	},
-	"IT": {
-		"name": "Orílɛ́ède Italiyi"
-	},
-	"PS": {
-		"name": "Orílɛ́ède Iwɔorun Pakisitian ati Gasha"
-	},
-	"JM": {
-		"name": "Orílɛ́ède Jamaika"
-	},
-	"JP": {
-		"name": "Orílɛ́ède Japani"
-	},
-	"JO": {
-		"name": "Orílɛ́ède Jɔdani"
-	},
-	"NC": {
-		"name": "Orílɛ́ède Kaledonia Titun"
-	},
-	"CM": {
-		"name": "Orílɛ́ède Kamerúúnì"
-	},
-	"KH": {
-		"name": "Orílɛ́ède Kàmùbódíà"
-	},
-	"CA": {
-		"name": "Orílɛ́ède Kánádà"
-	},
-	"KZ": {
-		"name": "Orílɛ́ède Kashashatani"
-	},
-	"KE": {
-		"name": "Orílɛ́ède Kenya"
-	},
-	"KN": {
-		"name": "Orílɛ́ède Kiiti ati Neefi"
-	},
-	"KI": {
-		"name": "Orílɛ́ède Kiribati"
-	},
-	"CO": {
-		"name": "Orílɛ́ède Kòlómíbìa"
-	},
-	"KM": {
-		"name": "Orílɛ́ède Kòmòrósì"
-	},
-	"CD": {
-		"name": "Orilɛ́ède Kóngò"
-	},
-	"CG": {
-		"name": "Orílɛ́ède Kóngò"
-	},
-	"HR": {
-		"name": "Orílɛ́ède Kòróátíà"
-	},
-	"QA": {
-		"name": "Orílɛ́ède Kota"
-	},
-	"CI": {
-		"name": "Orílɛ́ède Kóútè forà"
-	},
-	"CU": {
-		"name": "Orílɛ́ède Kúbà"
-	},
-	"KG": {
-		"name": "Orílɛ́ède Kurishisitani"
-	},
-	"CY": {
-		"name": "Orílɛ́ède Kúrúsì"
-	},
-	"CR": {
-		"name": "Orílɛ́ède Kuusita Ríkà"
-	},
-	"KW": {
-		"name": "Orílɛ́ède Kuweti"
-	},
-	"LR": {
-		"name": "Orílɛ́ède Laberia"
-	},
-	"LA": {
-		"name": "Orílɛ́ède Laosi"
-	},
-	"LV": {
-		"name": "Orílɛ́ède Latifia"
-	},
-	"LB": {
-		"name": "Orílɛ́ède Lebanoni"
-	},
-	"LS": {
-		"name": "Orílɛ́ède Lesoto"
-	},
-	"LI": {
-		"name": "Orílɛ́ède Lɛshitɛnisiteni"
-	},
-	"LY": {
-		"name": "Orílɛ́ède Libiya"
-	},
-	"LT": {
-		"name": "Orílɛ́ède Lituania"
-	},
-	"LU": {
-		"name": "Orílɛ́ède Lusemogi"
-	},
-	"LC": {
-		"name": "Orílɛ́ède Lushia"
-	},
-	"MG": {
-		"name": "Orílɛ́ède Madasika"
-	},
-	"FM": {
-		"name": "Orílɛ́ède Makoronesia"
-	},
-	"MV": {
-		"name": "Orílɛ́ède Maladifi"
-	},
-	"MY": {
-		"name": "Orílɛ́ède Malasia"
-	},
-	"MT": {
-		"name": "Orílɛ́ède Malata"
-	},
-	"MW": {
-		"name": "Orílɛ́ède Malawi"
-	},
-	"ML": {
-		"name": "Orílɛ́ède Mali"
-	},
-	"MM": {
-		"name": "Orílɛ́ède Manamari"
-	},
-	"MR": {
-		"name": "Orílɛ́ède Maritania"
-	},
-	"MU": {
-		"name": "Orílɛ́ède Maritiusi"
-	},
-	"MK": {
-		"name": "Orílɛ́ède Masidonia"
-	},
-	"MQ": {
-		"name": "Orílɛ́ède Matinikuwi"
-	},
-	"YT": {
-		"name": "Orílɛ́ède Mayote"
-	},
-	"MX": {
-		"name": "Orílɛ́ède Mesiko"
-	},
-	"MD": {
-		"name": "Orílɛ́ède Modofia"
-	},
-	"MN": {
-		"name": "Orílɛ́ède Mogolia"
-	},
-	"MC": {
-		"name": "Orílɛ́ède Monako"
-	},
-	"MA": {
-		"name": "Orílɛ́ède Moroko"
-	},
-	"MZ": {
-		"name": "Orílɛ́ède Moshamibiku"
-	},
-	"MS": {
-		"name": "Orílɛ́ède Motserati"
-	},
-	"NE": {
-		"name": "Orílɛ́ède Nàìjá"
-	},
-	"NG": {
-		"name": "Orílɛ́ède Nàìjíríà"
-	},
-	"NA": {
-		"name": "Orílɛ́ède Namibia"
-	},
-	"NR": {
-		"name": "Orílɛ́ède Nauru"
-	},
-	"NL": {
-		"name": "Orílɛ́ède Nedalandi"
-	},
-	"NP": {
-		"name": "Orílɛ́ède Nepa"
-	},
-	"NI": {
-		"name": "Orílɛ́ède NIkaragua"
-	},
-	"NU": {
-		"name": "Orílɛ́ède Niue"
-	},
-	"NO": {
-		"name": "Orílɛ́ède Nɔɔwii"
-	},
-	"UY": {
-		"name": "Orílɛ́ède Nruguayi"
-	},
-	"UZ": {
-		"name": "Orílɛ́ède Nshibɛkisitani"
-	},
-	"GB": {
-		"name": "Orílɛ́ède Omobabirin"
-	},
-	"US": {
-		"name": "Orílɛ́ède Orilɛede Amerika"
-	},
-	"OM": {
-		"name": "Orílɛ́ède Ɔɔma"
-	},
-	"PW": {
-		"name": "Orílɛ́ède Paalu"
-	},
-	"PG": {
-		"name": "Orílɛ́ède Paapu ti Giini"
-	},
-	"PK": {
-		"name": "Orílɛ́ède Pakisitan"
-	},
-	"PA": {
-		"name": "Orílɛ́ède Panama"
-	},
-	"PY": {
-		"name": "Orílɛ́ède Paraguye"
-	},
-	"PE": {
-		"name": "Orílɛ́ède Peru"
-	},
-	"PM": {
-		"name": "Orílɛ́ède Pɛɛri ati mikuloni"
-	},
-	"PN": {
-		"name": "Orílɛ́ède Pikarini"
-	},
-	"PL": {
-		"name": "Orílɛ́ède Polandi"
-	},
-	"PR": {
-		"name": "Orílɛ́ède Pɔto Riko"
-	},
-	"PT": {
-		"name": "Orílɛ́ède Pɔtugi"
-	},
-	"RE": {
-		"name": "Orílɛ́ède Riuniyan"
-	},
-	"RO": {
-		"name": "Orílɛ́ède Romaniya"
-	},
-	"RU": {
-		"name": "Orílɛ́ède Rɔshia"
-	},
-	"RW": {
-		"name": "Orílɛ́ède Ruwanda"
-	},
-	"WS": {
-		"name": "Orílɛ́ède Samɔ"
-	},
-	"SM": {
-		"name": "Orílɛ́ède Sani Marino"
-	},
-	"ST": {
-		"name": "Orílɛ́ède Sao tomi ati piriishipi"
-	},
-	"SZ": {
-		"name": "Orílɛ́ède Sashiland"
-	},
-	"SA": {
-		"name": "Orílɛ́ède Saudi Arabia"
-	},
-	"SC": {
-		"name": "Orílɛ́ède seshɛlɛsi"
-	},
-	"SN": {
-		"name": "Orílɛ́ède Sɛnɛga"
-	},
-	"TD": {
-		"name": "Orílɛ́ède shààdì"
-	},
-	"CN": {
-		"name": "Orílɛ́ède sháínà"
-	},
-	"ZM": {
-		"name": "Orílɛ́ède shamibia"
-	},
-	"CZ": {
-		"name": "Orílɛ́ède shɛ́ɛ́kì"
-	},
-	"NZ": {
-		"name": "Orílɛ́ède shilandi Titun"
-	},
-	"CL": {
-		"name": "Orílɛ́ède shílè"
-	},
-	"ZW": {
-		"name": "Orílɛ́ède shimibabe"
-	},
-	"SK": {
-		"name": "Orílɛ́ède Silofakia"
-	},
-	"SI": {
-		"name": "Orílɛ́ède Silofania"
-	},
-	"SG": {
-		"name": "Orílɛ́ède Singapo"
-	},
-	"ES": {
-		"name": "Orílɛ́ède Sipani"
-	},
-	"LK": {
-		"name": "Orílɛ́ède Siri Lanka"
-	},
-	"SY": {
-		"name": "Orílɛ́ède Siria"
-	},
-	"SL": {
-		"name": "Orílɛ́ède Siria looni"
-	},
-	"SO": {
-		"name": "Orílɛ́ède Somalia"
-	},
-	"SD": {
-		"name": "Orílɛ́ède Sudani"
-	},
-	"SR": {
-		"name": "Orílɛ́ède Surinami"
-	},
-	"SE": {
-		"name": "Orílɛ́ède Swidini"
-	},
-	"CH": {
-		"name": "Orílɛ́ède switishilandi"
-	},
-	"TH": {
-		"name": "Orílɛ́ède Tailandi"
-	},
-	"TW": {
-		"name": "Orílɛ́ède Taiwani"
-	},
-	"TJ": {
-		"name": "Orílɛ́ède Takisitani"
-	},
-	"TZ": {
-		"name": "Orílɛ́ède Tanshania"
-	},
-	"TT": {
-		"name": "Orílɛ́ède Tirinida ati Tobaga"
-	},
-	"TG": {
-		"name": "Orílɛ́ède Togo"
-	},
-	"TK": {
-		"name": "Orílɛ́ède Tokelau"
-	},
-	"TO": {
-		"name": "Orílɛ́ède Tonga"
-	},
-	"TR": {
-		"name": "Orílɛ́ède Tɔɔki"
-	},
-	"TC": {
-		"name": "Orílɛ́ède Tɔɔki ati Etikun Kakɔsi"
-	},
-	"TM": {
-		"name": "Orílɛ́ède Tɔɔkimenisita"
-	},
-	"TV": {
-		"name": "Orílɛ́ède Tufalu"
-	},
-	"TN": {
-		"name": "Orílɛ́ède Tunishia"
-	},
-	"UG": {
-		"name": "Orílɛ́ède Uganda"
-	},
-	"UA": {
-		"name": "Orílɛ́ède Ukarini"
-	},
-	"WF": {
-		"name": "Orílɛ́ède Wali ati futuna"
-	},
-	"YE": {
-		"name": "Orílɛ́ède yemeni"
-	},
-	"AS": {
-		"name": "Sámóánì ti Orílɛ́ède Àméríkà"
-	},
-	"RS": {
-		"name": "Serbia"
-	},
-	"SX": {
-		"name": "Sint Maarten"
-	},
-	"GS": {
-		"name": "South Georgia & South Sandwich Islands"
-	},
-	"SS": {
-		"name": "South Sudan"
-	},
-	"BL": {
-		"name": "St. Barthélemy"
-	},
-	"MF": {
-		"name": "St. Martin"
-	},
-	"SJ": {
-		"name": "Svalbard & Jan Mayen"
-	},
-	"TA": {
-		"name": "Tristan da Cunha"
-	},
-	"UM": {
-		"name": "U.S. Outlying Islands"
-	},
-	"EH": {
-		"name": "Western Sahara"
-	}
+	"AX": "Åland Islands",
+	"AQ": "Antarctica",
+	"AC": "Ascension Island",
+	"IC": "Canary Islands",
+	"BQ": "Caribbean Netherlands",
+	"EA": "Ceuta & Melilla",
+	"CX": "Christmas Island",
+	"CC": "Cocos (Keeling) Islands",
+	"CW": "Curaçao",
+	"DG": "Diego Garcia",
+	"FO": "Faroe Islands",
+	"TF": "French Southern Territories",
+	"GG": "Guernsey",
+	"HK": "Hong Kong SAR China",
+	"VA": "Ìlú Vatican",
+	"IM": "Isle of Man",
+	"JE": "Jersey",
+	"XK": "Kosovo",
+	"MO": "Macau SAR China",
+	"ME": "Montenegro",
+	"AD": "Orílɛ́ède Ààndórà",
+	"AO": "Orílɛ́ède Ààngólà",
+	"AI": "Orílɛ́ède Ààngúlílà",
+	"AG": "Orílɛ́ède Ààntígúà àti Báríbúdà",
+	"AF": "Orílɛ́ède Àfùgànístánì",
+	"AR": "Orílɛ́ède Agentínà",
+	"IE": "Orílɛ́ède Ailandi",
+	"AL": "Orílɛ́ède Àlùbàníánì",
+	"DZ": "Orílɛ́ède Àlùgèríánì",
+	"AM": "Orílɛ́ède Améníà",
+	"CF": "Orílɛ́ède Àrin gùngun Áfíríkà",
+	"ZA": "Orílɛ́ède Ariwa Afirika",
+	"KR": "Orílɛ́ède Ariwa Kɔria",
+	"AW": "Orílɛ́ède Árúbà",
+	"AZ": "Orílɛ́ède Asɛ́bájánì",
+	"IS": "Orílɛ́ède Ashilandi",
+	"AT": "Orílɛ́ède Asítíríà",
+	"AU": "Orílɛ́ède Ástràlìá",
+	"BB": "Orílɛ́ède Bábádósì",
+	"BS": "Orílɛ́ède Bàhámásì",
+	"BD": "Orílɛ́ède Bángáládésì",
+	"BH": "Orílɛ́ède Báránì",
+	"BR": "Orílɛ́ède Bàràsílì",
+	"BE": "Orílɛ́ède Bégíɔ́mù",
+	"BY": "Orílɛ́ède Bélárúsì",
+	"BZ": "Orílɛ́ède Bèlísɛ̀",
+	"BM": "Orílɛ́ède Bémúdà",
+	"BJ": "Orílɛ́ède Bɛ̀nɛ̀",
+	"BO": "Orílɛ́ède Bɔ̀lífíyà",
+	"BA": "Orílɛ́ède Bɔ̀síníà àti Ɛtisɛgófínà",
+	"BW": "Orílɛ́ède Bɔ̀tìsúwánà",
+	"BN": "Orílɛ́ède Búrúnɛ́lì",
+	"BT": "Orílɛ́ède Bútánì",
+	"BG": "Orílɛ́ède Bùùgáríà",
+	"BF": "Orílɛ́ède Bùùkíná Fasò",
+	"BI": "Orílɛ́ède Bùùrúndì",
+	"DK": "Orílɛ́ède Dɛ́mákì",
+	"DJ": "Orílɛ́ède Díbɔ́ótì",
+	"DM": "Orílɛ́ède Dòmíníkà",
+	"DO": "Orilɛ́ède Dòmíníkánì",
+	"EG": "Orílɛ́ède Égípítì",
+	"EC": "Orílɛ́ède Ekuádò",
+	"GQ": "Orílɛ́ède Ekutoria Gini",
+	"ER": "Orílɛ́ède Eritira",
+	"EE": "Orílɛ́ède Esitonia",
+	"VI": "Orílɛ́ède Etikun Fagini ti Amɛrika",
+	"VG": "Orílɛ́ède Etíkun Fágínì ti ìlú Bírítísì",
+	"FK": "Orílɛ́ède Etikun Fakalandi",
+	"MP": "Orílɛ́ède Etikun Guusu Mariana",
+	"IO": "Orílɛ́ède Etíkun Índíánì ti Ìlú Bírítísì",
+	"MH": "Orílɛ́ède Etikun Máshali",
+	"NF": "Orílɛ́ède Etikun Nɔ́úfókì",
+	"SB": "Orílɛ́ède Etikun Solomoni",
+	"KY": "Orílɛ́ède Etíokun Kámánì",
+	"CV": "Orílɛ́ède Etíokun Kápé féndè",
+	"CK": "Orílɛ́ède Etíokun Kùúkù",
+	"ET": "Orílɛ́ède Etopia",
+	"SV": "Orílɛ́ède Ɛɛsáfádò",
+	"AE": "Orílɛ́ède Ɛmirate ti Awɔn Arabu",
+	"VU": "Orílɛ́ède Faniatu",
+	"FR": "Orílɛ́ède Faranse",
+	"VE": "Orílɛ́ède Fɛnɛshuɛla",
+	"VN": "Orílɛ́ède Fɛtinami",
+	"FJ": "Orílɛ́ède Fiji",
+	"FI": "Orílɛ́ède Filandi",
+	"PH": "Orílɛ́ède filipini",
+	"GF": "Orílɛ́ède Firenshi Guana",
+	"PF": "Orílɛ́ède Firenshi Polinesia",
+	"VC": "Orílɛ́ède Fisɛnnti ati Genadina",
+	"GA": "Orílɛ́ède Gabon",
+	"GP": "Orílɛ́ède Gadelope",
+	"GM": "Orílɛ́ède Gambia",
+	"GH": "Orílɛ́ède Gana",
+	"DE": "Orílɛ́ède Gemani",
+	"GD": "Orílɛ́ède Genada",
+	"GN": "Orílɛ́ède Gene",
+	"GW": "Orílɛ́ède Gene-Busau",
+	"GL": "Orílɛ́ède Gerelandi",
+	"GR": "Orílɛ́ède Geriisi",
+	"GI": "Orílɛ́ède Gibaratara",
+	"GE": "Orílɛ́ède Gɔgia",
+	"GU": "Orílɛ́ède Guamu",
+	"GT": "Orílɛ́ède Guatemala",
+	"KP": "Orílɛ́ède Guusu Kɔria",
+	"GY": "Orílɛ́ède Guyana",
+	"HT": "Orílɛ́ède Haati",
+	"SH": "Orílɛ́ède Hɛlena",
+	"HN": "Orílɛ́ède Hondurasi",
+	"HU": "Orílɛ́ède Hungari",
+	"TL": "Orílɛ́ède ÌlàOòrùn Tímɔ̀",
+	"IN": "Orílɛ́ède India",
+	"ID": "Orílɛ́ède Indonesia",
+	"IQ": "Orílɛ́ède Iraki",
+	"IR": "Orílɛ́ède Irani",
+	"IL": "Orílɛ́ède Iserɛli",
+	"IT": "Orílɛ́ède Italiyi",
+	"PS": "Orílɛ́ède Iwɔorun Pakisitian ati Gasha",
+	"JM": "Orílɛ́ède Jamaika",
+	"JP": "Orílɛ́ède Japani",
+	"JO": "Orílɛ́ède Jɔdani",
+	"NC": "Orílɛ́ède Kaledonia Titun",
+	"CM": "Orílɛ́ède Kamerúúnì",
+	"KH": "Orílɛ́ède Kàmùbódíà",
+	"CA": "Orílɛ́ède Kánádà",
+	"KZ": "Orílɛ́ède Kashashatani",
+	"KE": "Orílɛ́ède Kenya",
+	"KN": "Orílɛ́ède Kiiti ati Neefi",
+	"KI": "Orílɛ́ède Kiribati",
+	"CO": "Orílɛ́ède Kòlómíbìa",
+	"KM": "Orílɛ́ède Kòmòrósì",
+	"CD": "Orilɛ́ède Kóngò",
+	"CG": "Orílɛ́ède Kóngò",
+	"HR": "Orílɛ́ède Kòróátíà",
+	"QA": "Orílɛ́ède Kota",
+	"CI": "Orílɛ́ède Kóútè forà",
+	"CU": "Orílɛ́ède Kúbà",
+	"KG": "Orílɛ́ède Kurishisitani",
+	"CY": "Orílɛ́ède Kúrúsì",
+	"CR": "Orílɛ́ède Kuusita Ríkà",
+	"KW": "Orílɛ́ède Kuweti",
+	"LR": "Orílɛ́ède Laberia",
+	"LA": "Orílɛ́ède Laosi",
+	"LV": "Orílɛ́ède Latifia",
+	"LB": "Orílɛ́ède Lebanoni",
+	"LS": "Orílɛ́ède Lesoto",
+	"LI": "Orílɛ́ède Lɛshitɛnisiteni",
+	"LY": "Orílɛ́ède Libiya",
+	"LT": "Orílɛ́ède Lituania",
+	"LU": "Orílɛ́ède Lusemogi",
+	"LC": "Orílɛ́ède Lushia",
+	"MG": "Orílɛ́ède Madasika",
+	"FM": "Orílɛ́ède Makoronesia",
+	"MV": "Orílɛ́ède Maladifi",
+	"MY": "Orílɛ́ède Malasia",
+	"MT": "Orílɛ́ède Malata",
+	"MW": "Orílɛ́ède Malawi",
+	"ML": "Orílɛ́ède Mali",
+	"MM": "Orílɛ́ède Manamari",
+	"MR": "Orílɛ́ède Maritania",
+	"MU": "Orílɛ́ède Maritiusi",
+	"MK": "Orílɛ́ède Masidonia",
+	"MQ": "Orílɛ́ède Matinikuwi",
+	"YT": "Orílɛ́ède Mayote",
+	"MX": "Orílɛ́ède Mesiko",
+	"MD": "Orílɛ́ède Modofia",
+	"MN": "Orílɛ́ède Mogolia",
+	"MC": "Orílɛ́ède Monako",
+	"MA": "Orílɛ́ède Moroko",
+	"MZ": "Orílɛ́ède Moshamibiku",
+	"MS": "Orílɛ́ède Motserati",
+	"NE": "Orílɛ́ède Nàìjá",
+	"NG": "Orílɛ́ède Nàìjíríà",
+	"NA": "Orílɛ́ède Namibia",
+	"NR": "Orílɛ́ède Nauru",
+	"NL": "Orílɛ́ède Nedalandi",
+	"NP": "Orílɛ́ède Nepa",
+	"NI": "Orílɛ́ède NIkaragua",
+	"NU": "Orílɛ́ède Niue",
+	"NO": "Orílɛ́ède Nɔɔwii",
+	"UY": "Orílɛ́ède Nruguayi",
+	"UZ": "Orílɛ́ède Nshibɛkisitani",
+	"GB": "Orílɛ́ède Omobabirin",
+	"US": "Orílɛ́ède Orilɛede Amerika",
+	"OM": "Orílɛ́ède Ɔɔma",
+	"PW": "Orílɛ́ède Paalu",
+	"PG": "Orílɛ́ède Paapu ti Giini",
+	"PK": "Orílɛ́ède Pakisitan",
+	"PA": "Orílɛ́ède Panama",
+	"PY": "Orílɛ́ède Paraguye",
+	"PE": "Orílɛ́ède Peru",
+	"PM": "Orílɛ́ède Pɛɛri ati mikuloni",
+	"PN": "Orílɛ́ède Pikarini",
+	"PL": "Orílɛ́ède Polandi",
+	"PR": "Orílɛ́ède Pɔto Riko",
+	"PT": "Orílɛ́ède Pɔtugi",
+	"RE": "Orílɛ́ède Riuniyan",
+	"RO": "Orílɛ́ède Romaniya",
+	"RU": "Orílɛ́ède Rɔshia",
+	"RW": "Orílɛ́ède Ruwanda",
+	"WS": "Orílɛ́ède Samɔ",
+	"SM": "Orílɛ́ède Sani Marino",
+	"ST": "Orílɛ́ède Sao tomi ati piriishipi",
+	"SZ": "Orílɛ́ède Sashiland",
+	"SA": "Orílɛ́ède Saudi Arabia",
+	"SC": "Orílɛ́ède seshɛlɛsi",
+	"SN": "Orílɛ́ède Sɛnɛga",
+	"TD": "Orílɛ́ède shààdì",
+	"CN": "Orílɛ́ède sháínà",
+	"ZM": "Orílɛ́ède shamibia",
+	"CZ": "Orílɛ́ède shɛ́ɛ́kì",
+	"NZ": "Orílɛ́ède shilandi Titun",
+	"CL": "Orílɛ́ède shílè",
+	"ZW": "Orílɛ́ède shimibabe",
+	"SK": "Orílɛ́ède Silofakia",
+	"SI": "Orílɛ́ède Silofania",
+	"SG": "Orílɛ́ède Singapo",
+	"ES": "Orílɛ́ède Sipani",
+	"LK": "Orílɛ́ède Siri Lanka",
+	"SY": "Orílɛ́ède Siria",
+	"SL": "Orílɛ́ède Siria looni",
+	"SO": "Orílɛ́ède Somalia",
+	"SD": "Orílɛ́ède Sudani",
+	"SR": "Orílɛ́ède Surinami",
+	"SE": "Orílɛ́ède Swidini",
+	"CH": "Orílɛ́ède switishilandi",
+	"TH": "Orílɛ́ède Tailandi",
+	"TW": "Orílɛ́ède Taiwani",
+	"TJ": "Orílɛ́ède Takisitani",
+	"TZ": "Orílɛ́ède Tanshania",
+	"TT": "Orílɛ́ède Tirinida ati Tobaga",
+	"TG": "Orílɛ́ède Togo",
+	"TK": "Orílɛ́ède Tokelau",
+	"TO": "Orílɛ́ède Tonga",
+	"TR": "Orílɛ́ède Tɔɔki",
+	"TC": "Orílɛ́ède Tɔɔki ati Etikun Kakɔsi",
+	"TM": "Orílɛ́ède Tɔɔkimenisita",
+	"TV": "Orílɛ́ède Tufalu",
+	"TN": "Orílɛ́ède Tunishia",
+	"UG": "Orílɛ́ède Uganda",
+	"UA": "Orílɛ́ède Ukarini",
+	"WF": "Orílɛ́ède Wali ati futuna",
+	"YE": "Orílɛ́ède yemeni",
+	"AS": "Sámóánì ti Orílɛ́ède Àméríkà",
+	"RS": "Serbia",
+	"SX": "Sint Maarten",
+	"GS": "South Georgia & South Sandwich Islands",
+	"SS": "South Sudan",
+	"BL": "St. Barthélemy",
+	"MF": "St. Martin",
+	"SJ": "Svalbard & Jan Mayen",
+	"TA": "Tristan da Cunha",
+	"UM": "U.S. Outlying Islands",
+	"EH": "Western Sahara"
 }
