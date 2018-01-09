@@ -11,46 +11,14 @@ use org\bovigo\vfs\vfsStream;
 class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * English number format definition.
-     *
-     * @var array
-     */
-    protected $englishDefinition = [
-        'numbering_system' => 'latn',
-        'decimal_pattern' => '#,##0.###',
-        'percent_pattern' => '#,##0%',
-        'currency_pattern' => '¤#,##0.00',
-        'accounting_currency_pattern' => '¤#,##0.00;(¤#,##0.00)',
-    ];
-
-    /**
-     * @covers ::__construct
-     */
-    public function testConstructor()
-    {
-        // Mock the existence of JSON definitions on the filesystem.
-        $root = vfsStream::setup('resources');
-        vfsStream::newFile('number_format/en.json')->at($root)->setContent(json_encode($this->englishDefinition));
-
-        // Instantiate the number format repository and confirm that the definition
-        // path was properly set.
-        $numberFormatRepository = new NumberFormatRepository('vfs://resources/number_format/');
-        $definitionPath = $this->getObjectAttribute($numberFormatRepository, 'definitionPath');
-        $this->assertEquals('vfs://resources/number_format/', $definitionPath);
-
-        return $numberFormatRepository;
-    }
-
-    /**
      * @covers ::getDefaultLocale
      * @covers ::setDefaultLocale
      * @covers ::getFallbackLocale
      * @covers ::setFallbackLocale
-     *
-     * @depends testConstructor
      */
-    public function testLocale($numberFormatRepository)
+    public function testLocale()
     {
+        $numberFormatRepository = new NumberFormatRepository();
         $this->assertEquals('en', $numberFormatRepository->getDefaultLocale());
         $numberFormatRepository->setDefaultLocale('fr');
         $this->assertEquals('fr', $numberFormatRepository->getDefaultLocale());
@@ -66,10 +34,10 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
      *
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      * @uses \CommerceGuys\Intl\Locale
-     * @depends testConstructor
      */
-    public function testGet($numberFormatRepository)
+    public function testGet()
     {
+        $numberFormatRepository = new NumberFormatRepository();
         $numberFormat = $numberFormatRepository->get('en');
         $this->assertInstanceOf('CommerceGuys\\Intl\\NumberFormat\\NumberFormat', $numberFormat);
         $this->assertEquals('en', $numberFormat->getLocale());

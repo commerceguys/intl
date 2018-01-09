@@ -26,13 +26,6 @@ final class NumberFormat
     protected $locale;
 
     /**
-     * The numbering system.
-     *
-     * @var string
-     */
-    protected $numberingSystem = [];
-
-    /**
      * The number pattern used to format decimal numbers.
      *
      * @var string
@@ -59,6 +52,13 @@ final class NumberFormat
      * @var string
      */
     protected $accountingCurrencyPattern;
+
+    /**
+     * The numbering system.
+     *
+     * @var string
+     */
+    protected $numberingSystem = self::NUMBERING_SYSTEM_LATIN;
 
     /**
      * The decimal separator.
@@ -104,7 +104,7 @@ final class NumberFormat
     {
         // Validate the presence of required properties.
         $requiredProperties = [
-            'locale', 'numbering_system', 'decimal_pattern', 'percent_pattern',
+            'locale', 'decimal_pattern', 'percent_pattern',
             'currency_pattern', 'accounting_currency_pattern',
         ];
         foreach ($requiredProperties as $requiredProperty) {
@@ -113,16 +113,20 @@ final class NumberFormat
             }
         }
         // Validate the numbering system.
-        if (!in_array($definition['numbering_system'], ['arab', 'arabext', 'beng', 'deva', 'latn'])) {
-            throw new \InvalidArgumentException(sprintf('Invalid numbering system "%s".', $definition['numbering_system']));
+        if (isset($definition['numbering_system'])) {
+            if (!in_array($definition['numbering_system'], ['arab', 'arabext', 'beng', 'deva', 'latn'])) {
+                throw new \InvalidArgumentException(sprintf('Invalid numbering system "%s".', $definition['numbering_system']));
+            }
         }
 
         $this->locale = $definition['locale'];
-        $this->numberingSystem = $definition['numbering_system'];
         $this->decimalPattern = $definition['decimal_pattern'];
         $this->percentPattern = $definition['percent_pattern'];
         $this->currencyPattern = $definition['currency_pattern'];
         $this->accountingCurrencyPattern = $definition['accounting_currency_pattern'];
+        if (isset($definition['numbering_system'])) {
+            $this->numberingSystem = $definition['numbering_system'];
+        }
         if (isset($definition['decimal_separator'])) {
             $this->decimalSeparator = $definition['decimal_separator'];
         }
@@ -148,18 +152,6 @@ final class NumberFormat
     public function getLocale()
     {
         return $this->locale;
-    }
-
-    /**
-     * Gets the numbering system.
-     *
-     * The value is one of the NUMBERING_SYSTEM_ constants.
-     *
-     * @return string
-     */
-    public function getNumberingSystem()
-    {
-        return $this->numberingSystem;
     }
 
     /**
@@ -210,6 +202,18 @@ final class NumberFormat
     public function getAccountingCurrencyPattern()
     {
         return $this->accountingCurrencyPattern;
+    }
+
+    /**
+     * Gets the numbering system.
+     *
+     * The value is one of the NUMBERING_SYSTEM_ constants.
+     *
+     * @return string
+     */
+    public function getNumberingSystem()
+    {
+        return $this->numberingSystem;
     }
 
     /**

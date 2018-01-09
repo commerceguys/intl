@@ -70,6 +70,10 @@ foreach ($locales as $locale) {
         'currency_pattern' => $data['currencyFormats-numberSystem-' . $numberingSystem]['standard'],
         'accounting_currency_pattern' => $data['currencyFormats-numberSystem-' . $numberingSystem]['accounting'],
     ];
+    // No need to export 'latn' since that is the default value.
+    if ($numberFormats[$locale]['numbering_system'] != 'latn') {
+        $numberFormats[$locale]['numbering_system'] = $numberingSystem;
+    }
 
     // Add the symbols only if they're different from the default data.
     $decimalSeparator = $data['symbols-numberSystem-' . $numberingSystem]['decimal'];
@@ -94,36 +98,40 @@ foreach ($locales as $locale) {
     }
 }
 
+ksort($numberFormats);
 // Identify localizations that are the same as the ones for the parent locale.
 // For example, "fr-FR" if "fr" has the same data.
 $duplicates = [];
-foreach ($numberFormats as $locale => $formatData) {
-    if ($parentLocale = \CommerceGuys\Intl\Locale::getParent($locale)) {
-        $parentNumberFormat = isset($numberFormats[$parentLocale]) ? $numberFormats[$parentLocale] : [];
-        $diff = array_diff_assoc($formatData, $parentNumberFormat);
+foreach ($numberFormats as $locale => $numberFormat) {
+    $parentNumberFormat = [];
+    $parentLocale = \CommerceGuys\Intl\Locale::getParent($locale);
+    if ($parentLocale && isset($numberFormats[$parentLocale])) {
+        $parentNumberFormat = $numberFormats[$parentLocale];
+    }
 
-        if (empty($diff)) {
-            // The duplicates are not removed right away because they might
-            // still be needed for other duplicate checks (for example,
-            // when there are locales like bs-Latn-BA, bs-Latn, bs).
-            $duplicates[] = $locale;
-        }
+    $diff = array_diff_assoc($numberFormat, $parentNumberFormat);
+    if (empty($diff)) {
+        // The duplicates are not removed right away because they might
+        // still be needed for other duplicate checks (for example,
+        // when there are locales like bs-Latn-BA, bs-Latn, bs).
+        $duplicates[] = $locale;
     }
 }
 // Remove the duplicates.
 foreach ($duplicates as $locale) {
     unset($numberFormats[$locale]);
 }
-
-// Write out the data.
+// We treat 'en' as a generic definition, which allows
+// us to strip any data that matches one of its keys.
 foreach ($numberFormats as $locale => $numberFormat) {
-    file_put_json($locale . '.json', $numberFormat);
+    if ($locale != 'en') {
+        $numberFormats[$locale] = array_diff_assoc($numberFormats[$locale], $numberFormats['en']);
+    }
 }
 
 $availableLocales = array_keys($numberFormats);
-sort($availableLocales);
 echo count($availableLocales) . " available locales: \n";
-echo export_locales($availableLocales);
+echo export_number_formats($numberFormats);
 
 /**
  * Converts the provided data into json and writes it to the disk.
@@ -137,20 +145,24 @@ function file_put_json($filename, $data)
 }
 
 /**
- * Exports locales.
+ * Exports number formats.
  */
-function export_locales($data)
+function export_number_formats(array $numberFormats)
 {
-    // Wrap the values in single quotes.
-    $data = array_map(function ($value) {
-        return "'" . $value . "'";
-    }, $data);
-    // Join the values with commas.
-    $data = implode(', ', $data);
-    // Prepare the output array, with indentation.
-    $export = '[' . "\n";
-    $export .= '    ' . $data . "\n";
-    $export .= "];";
+    $indent = '    ';
+    $export = "[\n";
+    foreach ($numberFormats as $locale => $numberFormat) {
+        $locale = "'" . $locale . "'";
+        $export .= $indent . $locale . " => [\n";
+        foreach ($numberFormat as $key => $value) {
+            $key = "'" . $key . "'";
+            $value = "'" . $value . "'";
+            $export .= $indent . $indent . $key . ' => ' . $value . ",\n";
+        }
+        $export .= "$indent],\n";
+    }
+    $export .= ']';
+    $export = str_replace("[\n$indent],", '[],', $export);
 
     return $export;
 }

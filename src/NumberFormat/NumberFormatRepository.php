@@ -6,83 +6,1222 @@ use CommerceGuys\Intl\Locale;
 use CommerceGuys\Intl\RepositoryLocaleTrait;
 
 /**
- * Repository for number formats based on JSON definitions.
+ * Provides number formats.
  */
 class NumberFormatRepository implements NumberFormatRepositoryInterface
 {
     use RepositoryLocaleTrait;
 
     /**
-     * The path where the definitions are stored.
-     *
-     * @var string
-     */
-    protected $definitionPath;
-
-    /**
-     * Number formats.
-     *
-     * @var array
-     */
-    protected $numberFormats = [];
-
-    /**
-     * The available locales.
-     *
-     * @var array
-     */
-    protected $availableLocales = [
-        'af', 'agq', 'ak', 'am', 'ar', 'ar-DZ', 'ar-EH', 'ar-LY', 'ar-MA',
-        'ar-TN', 'ast', 'az', 'az-Cyrl', 'bas', 'be', 'bez', 'bg', 'bm',
-        'bn', 'bo', 'br', 'brx', 'bs', 'bs-Cyrl', 'ca', 'ca-ES-VALENCIA',
-        'ce', 'cgg', 'ckb', 'cs', 'cu', 'cy', 'da', 'de', 'de-AT', 'de-CH',
-        'de-LI', 'dje', 'dsb', 'dyo', 'dz', 'ee', 'el', 'en', 'en-150',
-        'en-AT', 'en-BE', 'en-CH', 'en-DE', 'en-DK', 'en-FI', 'en-IN',
-        'en-NL', 'en-SE', 'en-SI', 'en-ZA', 'eo', 'es', 'es-419', 'es-AR',
-        'es-BO', 'es-CL', 'es-CO', 'es-CR', 'es-DO', 'es-EC', 'es-GQ', 'es-PY',
-        'es-UY', 'es-VE', 'et', 'eu', 'fa', 'fa-AF', 'ff', 'fi', 'fil', 'fo',
-        'fr', 'fr-CH', 'fr-LU', 'fr-MA', 'fur', 'fy', 'ga', 'gd', 'gl', 'gsw',
-        'gu', 'ha', 'haw', 'he', 'hi', 'hr', 'hsb', 'hu', 'hy', 'id', 'ig',
-        'is', 'it', 'it-CH', 'ja', 'ka', 'kab', 'kea', 'khq', 'kk', 'km', 'kn',
-        'ko', 'kok', 'ks', 'ksf', 'ksh', 'ky', 'lb', 'lg', 'lkt', 'lo', 'lrc',
-        'lt', 'lu', 'luo', 'luy', 'lv', 'mas', 'mfe', 'mg', 'mgh', 'mk', 'ml',
-        'mn', 'mr', 'ms', 'ms-BN', 'mt', 'mua', 'my', 'mzn', 'naq', 'nb',
-        'nds', 'ne', 'nl', 'nl-BE', 'nn', 'nyn', 'om', 'or', 'pa', 'pa-Arab',
-        'pl', 'prg', 'pt', 'pt-PT', 'qu', 'qu-BO', 'rm', 'rn', 'ro', 'rof',
-        'ru', 'rw', 'sd', 'se', 'seh', 'ses', 'sg', 'si', 'sk', 'sl', 'smn',
-        'so', 'sq', 'sr', 'sr-Latn', 'sv', 'sw', 'sw-CD', 'ta', 'ta-MY',
-        'ta-SG', 'te', 'tg', 'th', 'ti', 'tk', 'to', 'tr', 'tt', 'twq',
-        'tzm', 'ug', 'uk', 'ur', 'ur-IN', 'uz', 'uz-Arab', 'uz-Cyrl', 'vi',
-        'vo', 'wae', 'wo', 'yav', 'yi', 'yo', 'yue-Hans', 'yue-Hant', 'zh',
-        'zh-Hant', 'zu',
-    ];
-
-    /**
-     * Creates a NumberFormatRepository instance.
-     *
-     * @param string $definitionPath The path to the number format definitions.
-     *                               Defaults to 'resources/number_format'.
-     */
-    public function __construct($definitionPath = null)
-    {
-        $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/number_format/';
-    }
-
-    /**
      * {@inheritdoc}
      */
     public function get($locale, $fallbackLocale = null)
     {
+        $definitions = $this->getDefinitions();
+        $availableLocales = array_keys($definitions);
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
-        if (!isset($this->numberFormats[$locale])) {
-            $filename = $this->definitionPath . $locale . '.json';
-            $definition = json_decode(file_get_contents($filename), true);
-            $definition['locale'] = $locale;
-            $this->numberFormats[$locale] = new NumberFormat($definition);
+        $locale = Locale::resolve($availableLocales, $locale, $fallbackLocale);
+        $definition = $this->processDefinition($locale, $definitions[$locale]);
+
+        return new NumberFormat($definition);
+    }
+
+    /**
+     * Processes the number format definition for the provided locale.
+     *
+     * @param string $locale    The locale.
+     * @param array $definition The definition
+     *
+     * @return array The processed definition.
+     */
+    protected function processDefinition($locale, array $definition)
+    {
+        $definition['locale'] = $locale;
+        // The generation script strips all keys that have the same values
+        // as the ones in 'en'.
+        if ($definition['locale'] != 'en') {
+            $definition += $definition['en'];
         }
 
-        return $this->numberFormats[$locale];
+        return $definition;
+    }
+
+    /**
+     * Gets the number format definitions.
+     *
+     * @return array
+     *   The number format definitions, keyed by locale.
+     */
+    protected function getDefinitions()
+    {
+        return [
+            'af' => [
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'agq' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'ak' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'am' => [],
+            'ar' => [
+                'numbering_system' => 'arab',
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '؜+',
+                'minus_sign' => '؜-',
+                'percent_sign' => '٪؜',
+            ],
+            'ar-DZ' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎-',
+                'percent_sign' => '‎%‎',
+            ],
+            'ar-EH' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎-',
+                'percent_sign' => '‎%‎',
+            ],
+            'ar-LY' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎-',
+                'percent_sign' => '‎%‎',
+            ],
+            'ar-MA' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎-',
+                'percent_sign' => '‎%‎',
+            ],
+            'ar-TN' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎-',
+                'percent_sign' => '‎%‎',
+            ],
+            'ast' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'az' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'az-Cyrl' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'bas' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'be' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'bez' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+            ],
+            'bg' => [
+                'currency_pattern' => '0.00 ¤',
+                'accounting_currency_pattern' => '0.00 ¤;(0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'bm' => [],
+            'bn' => [
+                'numbering_system' => 'beng',
+                'decimal_pattern' => '#,##,##0.###',
+                'currency_pattern' => '#,##,##0.00¤',
+                'accounting_currency_pattern' => '#,##,##0.00¤;(#,##,##0.00¤)',
+            ],
+            'bo' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'br' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'brx' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤ #,##,##0.00',
+                'accounting_currency_pattern' => '¤ #,##,##0.00',
+            ],
+            'bs' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'bs-Cyrl' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ca' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ca-ES-VALENCIA' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ce' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+            ],
+            'cgg' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'ckb' => [
+                'numbering_system' => 'arab',
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‏+',
+                'minus_sign' => '‏-',
+                'percent_sign' => '٪',
+            ],
+            'cs' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'cu' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'cy' => [],
+            'da' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'de' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'de-AT' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'de-CH' => [
+                'currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'grouping_separator' => '’',
+            ],
+            'de-LI' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'grouping_separator' => '’',
+            ],
+            'dje' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'grouping_separator' => ' ',
+            ],
+            'dsb' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'dyo' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'dz' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0 %',
+                'currency_pattern' => '¤#,##,##0.00',
+                'accounting_currency_pattern' => '¤#,##,##0.00',
+            ],
+            'ee' => [],
+            'el' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en' => [
+                'numbering_system' => 'latn',
+                'decimal_pattern' => '#,##0.###',
+                'percent_pattern' => '#,##0%',
+                'currency_pattern' => '¤#,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00;(¤#,##0.00)',
+            ],
+            'en-150' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en-AT' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en-BE' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en-CH' => [
+                'currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en-DE' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en-DK' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en-FI' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'en-IN' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤ #,##,##0.00',
+            ],
+            'en-NL' => [
+                'currency_pattern' => '¤ #,##0.00;¤ -#,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00;(¤ #,##0.00)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en-SE' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'en-SI' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'en-ZA' => [
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'eo' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'es' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-419' => [
+                'percent_pattern' => '#,##0 %',
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'es-AR' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00;(¤ #,##0.00)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-BO' => [
+                'percent_pattern' => '#,##0 %',
+                'accounting_currency_pattern' => '¤#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-CL' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤#,##0.00;¤-#,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-CO' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-CR' => [
+                'percent_pattern' => '#,##0 %',
+                'accounting_currency_pattern' => '¤#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'es-DO' => [
+                'percent_pattern' => '#,##0 %',
+            ],
+            'es-EC' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤#,##0.00;¤-#,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-GQ' => [
+                'percent_pattern' => '#,##0 %',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-PY' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00;¤ -#,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-UY' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00;(¤ #,##0.00)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'es-VE' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤#,##0.00;¤-#,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'et' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+                'minus_sign' => '−',
+            ],
+            'eu' => [
+                'percent_pattern' => '% #,##0',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+                'minus_sign' => '−',
+            ],
+            'fa' => [
+                'numbering_system' => 'arabext',
+                'currency_pattern' => '‎¤#,##0.00',
+                'accounting_currency_pattern' => '‎¤ #,##0.00;‎(¤ #,##0.00)',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎−',
+                'percent_sign' => '٪',
+            ],
+            'fa-AF' => [
+                'numbering_system' => 'arabext',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00;‎(¤ #,##0.00)',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎−',
+                'percent_sign' => '٪',
+            ],
+            'ff' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'fi' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+                'minus_sign' => '−',
+            ],
+            'fil' => [],
+            'fo' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+                'minus_sign' => '−',
+            ],
+            'fr' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'fr-CH' => [
+                'currency_pattern' => '#,##0.00 ¤ ;-#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'fr-LU' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'fr-MA' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'fur' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'fy' => [
+                'currency_pattern' => '¤ #,##0.00;¤ #,##0.00-',
+                'accounting_currency_pattern' => '¤ #,##0.00;(¤ #,##0.00)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ga' => [],
+            'gd' => [],
+            'gl' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'gsw' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'grouping_separator' => '’',
+                'minus_sign' => '−',
+            ],
+            'gu' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤#,##,##0.00',
+                'accounting_currency_pattern' => '¤#,##,##0.00;(¤#,##,##0.00)',
+            ],
+            'ha' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'haw' => [],
+            'he' => [
+                'currency_pattern' => '‏#,##0.00 ¤;‏-#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎-',
+            ],
+            'hi' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤#,##,##0.00',
+                'accounting_currency_pattern' => '¤#,##,##0.00',
+            ],
+            'hr' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'hsb' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'hu' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'hy' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'id' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ig' => [],
+            'is' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'it' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'it-CH' => [
+                'currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'grouping_separator' => '’',
+            ],
+            'ja' => [],
+            'ka' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'kab' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'kea' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'khq' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'grouping_separator' => ' ',
+            ],
+            'kk' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'km' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤;(#,##0.00¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'kn' => [],
+            'ko' => [],
+            'kok' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤ #,##,##0.00',
+                'accounting_currency_pattern' => '¤ #,##,##0.00',
+            ],
+            'ks' => [
+                'numbering_system' => 'arabext',
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤ #,##,##0.00',
+                'accounting_currency_pattern' => '¤ #,##,##0.00',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‎+‎',
+                'minus_sign' => '‎-‎',
+                'percent_sign' => '٪',
+            ],
+            'ksf' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'ksh' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+                'minus_sign' => '−',
+            ],
+            'ky' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'lb' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'lg' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+            ],
+            'lkt' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'lo' => [
+                'currency_pattern' => '¤#,##0.00;¤-#,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00;¤-#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'lrc' => [
+                'numbering_system' => 'arabext',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‎+‎',
+                'minus_sign' => '‎-‎',
+                'percent_sign' => '٪',
+            ],
+            'lt' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+                'minus_sign' => '−',
+            ],
+            'lu' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'luo' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+            ],
+            'luy' => [
+                'currency_pattern' => '¤#,##0.00;¤- #,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00;¤- #,##0.00',
+            ],
+            'lv' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'mas' => [],
+            'mfe' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'grouping_separator' => ' ',
+            ],
+            'mg' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'mgh' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'mk' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ml' => [
+                'decimal_pattern' => '#,##,##0.###',
+            ],
+            'mn' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'mr' => [
+                'numbering_system' => 'deva',
+                'decimal_pattern' => '#,##,##0.###',
+            ],
+            'ms' => [],
+            'ms-BN' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'mt' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'mua' => [
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'my' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'mzn' => [
+                'numbering_system' => 'arabext',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‎+‎',
+                'minus_sign' => '‎-‎',
+                'percent_sign' => '٪',
+            ],
+            'naq' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'nb' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+                'minus_sign' => '−',
+            ],
+            'nds' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'ne' => [
+                'numbering_system' => 'deva',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'nl' => [
+                'currency_pattern' => '¤ #,##0.00;¤ -#,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00;(¤ #,##0.00)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'nl-BE' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '¤ #,##0.00;(¤ #,##0.00)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'nn' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+                'minus_sign' => '−',
+            ],
+            'nyn' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'om' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'or' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤ #,##,##0.00',
+                'accounting_currency_pattern' => '¤#,##,##0.00;(¤#,##,##0.00)',
+            ],
+            'pa' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤ #,##,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'pa-Arab' => [
+                'numbering_system' => 'arabext',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‎+‎',
+                'minus_sign' => '‎-‎',
+                'percent_sign' => '٪',
+            ],
+            'pl' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'prg' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'pt' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'pt-PT' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'qu' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'qu-BO' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'rm' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'grouping_separator' => '’',
+                'minus_sign' => '−',
+            ],
+            'rn' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ro' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'rof' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'ru' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'rw' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'sd' => [
+                'numbering_system' => 'arab',
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '؜+',
+                'minus_sign' => '؜-',
+                'percent_sign' => '٪؜',
+            ],
+            'se' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+                'minus_sign' => '−',
+            ],
+            'seh' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ses' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'grouping_separator' => ' ',
+            ],
+            'sg' => [
+                'currency_pattern' => '¤#,##0.00;¤-#,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00;¤-#,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'si' => [],
+            'sk' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'sl' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+                'minus_sign' => '−',
+            ],
+            'smn' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'so' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'sq' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'sr' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'sr-Latn' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'sv' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+                'minus_sign' => '−',
+            ],
+            'sw' => [],
+            'sw-CD' => [
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'ta' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'percent_pattern' => '#,##,##0%',
+                'currency_pattern' => '¤ #,##,##0.00',
+            ],
+            'ta-MY' => [
+                'currency_pattern' => '¤ #,##0.00',
+            ],
+            'ta-SG' => [
+                'currency_pattern' => '¤ #,##0.00',
+            ],
+            'te' => [
+                'decimal_pattern' => '#,##,##0.###',
+                'currency_pattern' => '¤#,##,##0.00',
+                'accounting_currency_pattern' => '¤#,##,##0.00;(¤#,##,##0.00)',
+            ],
+            'tg' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'th' => [],
+            'ti' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+            'tk' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'to' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'tr' => [
+                'percent_pattern' => '%#,##0',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'tt' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'twq' => [
+                'currency_pattern' => '#,##0.00¤',
+                'accounting_currency_pattern' => '#,##0.00¤',
+                'grouping_separator' => ' ',
+            ],
+            'tzm' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'ug' => [],
+            'uk' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00¤;(#,##0.00¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'ur' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'plus_sign' => '‎+',
+                'minus_sign' => '‎-',
+            ],
+            'ur-IN' => [
+                'numbering_system' => 'arabext',
+                'currency_pattern' => '¤ #,##,##0.00',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‎+‎',
+                'minus_sign' => '‎-‎',
+            ],
+            'uz' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'uz-Arab' => [
+                'numbering_system' => 'arabext',
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => '٫',
+                'grouping_separator' => '٬',
+                'plus_sign' => '‎+‎',
+                'minus_sign' => '‎-‎',
+                'percent_sign' => '٪',
+            ],
+            'uz-Cyrl' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'vi' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'vo' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'wae' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '’',
+            ],
+            'wo' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
+            ],
+            'yav' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'yi' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'yo' => [],
+            'yue-Hans' => [],
+            'yue-Hant' => [],
+            'zh' => [],
+            'zh-Hant' => [],
+            'zu' => [
+                'accounting_currency_pattern' => '¤#,##0.00',
+            ],
+        ];
     }
 }
