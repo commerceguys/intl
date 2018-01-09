@@ -68,15 +68,14 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get($currencyCode, $locale = null, $fallbackLocale = null)
+    public function get($currencyCode, $locale = null)
     {
         $baseDefinitions = $this->getBaseDefinitions();
         if (!isset($baseDefinitions[$currencyCode])) {
             throw new UnknownCurrencyException($currencyCode);
         }
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $definitions = $this->loadDefinitions($locale);
         $currency = new Currency([
             'currency_code' => $currencyCode,
@@ -91,11 +90,10 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll($locale = null, $fallbackLocale = null)
+    public function getAll($locale = null)
     {
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $baseDefinitions = $this->getBaseDefinitions();
         $definitions = $this->loadDefinitions($locale);
         $currencies = [];
@@ -114,11 +112,10 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getList($locale = null, $fallbackLocale = null)
+    public function getList($locale = null)
     {
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $definitions = $this->loadDefinitions($locale);
         $list = [];
         foreach ($definitions as $currencyCode => $definition) {

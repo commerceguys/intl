@@ -54,9 +54,9 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
         // Revert the value for the other tests.
         $countryRepository->setDefaultLocale('en');
 
-        $this->assertNull($countryRepository->getFallbackLocale());
-        $countryRepository->setFallbackLocale('en');
         $this->assertEquals('en', $countryRepository->getFallbackLocale());
+        $countryRepository->setFallbackLocale('de');
+        $this->assertEquals('de', $countryRepository->getFallbackLocale());
     }
 
     /**

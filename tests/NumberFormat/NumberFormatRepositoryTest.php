@@ -23,9 +23,9 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
         $numberFormatRepository->setDefaultLocale('fr');
         $this->assertEquals('fr', $numberFormatRepository->getDefaultLocale());
 
-        $this->assertNull($numberFormatRepository->getFallbackLocale());
-        $numberFormatRepository->setFallbackLocale('en');
         $this->assertEquals('en', $numberFormatRepository->getFallbackLocale());
+        $numberFormatRepository->setFallbackLocale('de');
+        $this->assertEquals('de', $numberFormatRepository->getFallbackLocale());
     }
 
     /**

@@ -10,31 +10,28 @@ interface LanguageRepositoryInterface
     /**
      * Gets a language matching the provided language code.
      *
-     * @param string $languageCode   The language code.
-     * @param string $locale         The locale (i.e. fr-FR).
-     * @param string $fallbackLocale A fallback locale (i.e "en").
+     * @param string $languageCode The language code.
+     * @param string $locale       The locale (i.e. fr-FR).
      *
      * @return Language
      */
-    public function get($languageCode, $locale = null, $fallbackLocale = null);
+    public function get($languageCode, $locale = null);
 
     /**
      * Gets all languages.
      *
-     * @param string $locale         The locale (i.e. fr-FR).
-     * @param string $fallbackLocale A fallback locale (i.e "en").
+     * @param string $locale The locale (i.e. fr-FR).
      *
      * @return Language[] An array of languages, keyed by language code.
      */
-    public function getAll($locale = null, $fallbackLocale = null);
+    public function getAll($locale = null);
 
     /**
      * Gets a list of languages.
      *
-     * @param string $locale         The locale (i.e. fr-FR).
-     * @param string $fallbackLocale A fallback locale (i.e "en").
+     * @param string $locale The locale (i.e. fr-FR).
      *
      * @return array An array of language names, keyed by language code.
      */
-    public function getList($locale = null, $fallbackLocale = null);
+    public function getList($locale = null);
 }

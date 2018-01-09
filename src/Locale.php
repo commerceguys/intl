@@ -308,9 +308,13 @@ final class Locale
         }
         if (isset($fallbackLocale)) {
             $candidates[] = $fallbackLocale;
+            while ($parent = self::getParent($fallbackLocale)) {
+                $candidates[] = $parent;
+                $fallbackLocale = $parent;
+            }
         }
 
-        return $candidates;
+        return array_unique($candidates);
     }
 
     /**

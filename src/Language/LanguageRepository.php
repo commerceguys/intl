@@ -75,11 +75,10 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get($languageCode, $locale = null, $fallbackLocale = null)
+    public function get($languageCode, $locale = null)
     {
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $definitions = $this->loadDefinitions($locale);
         if (!isset($definitions[$languageCode])) {
             throw new UnknownLanguageException($languageCode);
@@ -96,11 +95,10 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll($locale = null, $fallbackLocale = null)
+    public function getAll($locale = null)
     {
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $definitions = $this->loadDefinitions($locale);
         $languages = [];
         foreach ($definitions as $languageCode => $languageName) {
@@ -117,11 +115,10 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getList($locale = null, $fallbackLocale = null)
+    public function getList($locale = null)
     {
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $definitions = $this->loadDefinitions($locale);
         $list = [];
         foreach ($definitions as $languageCode => $languageName) {

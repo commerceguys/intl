@@ -56,6 +56,12 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
         $candidates = Locale::getCandidates('en-US');
         $this->assertEquals(['en-US', 'en'], $candidates);
 
+        $candidates = Locale::getCandidates('en-US', 'en');
+        $this->assertEquals(['en-US', 'en'], $candidates);
+
+        $candidates = Locale::getCandidates('sr', 'en-US');
+        $this->assertEquals(['sr', 'en-US', 'en'], $candidates);
+
         $candidates = Locale::getCandidates('en-AU');
         $this->assertEquals(['en-AU', 'en-001', 'en'], $candidates);
 

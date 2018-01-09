@@ -84,15 +84,14 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get($countryCode, $locale = null, $fallbackLocale = null)
+    public function get($countryCode, $locale = null)
     {
         $baseDefinitions = $this->getBaseDefinitions();
         if (!isset($baseDefinitions[$countryCode])) {
             throw new UnknownCountryException($countryCode);
         }
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $definitions = $this->loadDefinitions($locale);
         $country = new Country([
             'country_code' => $countryCode,
@@ -109,11 +108,10 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll($locale = null, $fallbackLocale = null)
+    public function getAll($locale = null)
     {
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $baseDefinitions = $this->getBaseDefinitions();
         $definitions = $this->loadDefinitions($locale);
         $countries = [];
@@ -134,11 +132,10 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getList($locale = null, $fallbackLocale = null)
+    public function getList($locale = null)
     {
         $locale = $locale ?: $this->getDefaultLocale();
-        $fallbackLocale = $fallbackLocale ?: $this->getFallbackLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
         $definitions = $this->loadDefinitions($locale);
         $list = [];
         foreach ($definitions as $countryCode => $countryName) {

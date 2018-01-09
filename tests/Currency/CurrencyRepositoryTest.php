@@ -60,9 +60,9 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
         // Revert the value for the other tests.
         $currencyRepository->setDefaultLocale('en');
 
-        $this->assertNull($currencyRepository->getFallbackLocale());
-        $currencyRepository->setFallbackLocale('en');
         $this->assertEquals('en', $currencyRepository->getFallbackLocale());
+        $currencyRepository->setFallbackLocale('de');
+        $this->assertEquals('de', $currencyRepository->getFallbackLocale());
     }
 
     /**

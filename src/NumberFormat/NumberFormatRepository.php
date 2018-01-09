@@ -15,12 +15,12 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get($locale, $fallbackLocale = null)
+    public function get($locale)
     {
         $definitions = $this->getDefinitions();
         $availableLocales = array_keys($definitions);
         $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($availableLocales, $locale, $fallbackLocale);
+        $locale = Locale::resolve($availableLocales, $locale, $this->getFallbackLocale());
         $definition = $this->processDefinition($locale, $definitions[$locale]);
 
         return new NumberFormat($definition);

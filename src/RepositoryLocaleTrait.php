@@ -16,7 +16,7 @@ trait RepositoryLocaleTrait
      *
      * @var string
      */
-    protected $fallbackLocale = null;
+    protected $fallbackLocale = 'en';
 
     /**
      * Gets the default locale.
