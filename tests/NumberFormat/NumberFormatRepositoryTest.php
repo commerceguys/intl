@@ -38,6 +38,10 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
     public function testGet()
     {
         $numberFormatRepository = new NumberFormatRepository();
+
+        $numberFormat = $numberFormatRepository->get('es');
+        $this->assertEquals('es', $numberFormat->getLocale());
+
         $numberFormat = $numberFormatRepository->get('en');
         $this->assertInstanceOf('CommerceGuys\\Intl\\NumberFormat\\NumberFormat', $numberFormat);
         $this->assertEquals('en', $numberFormat->getLocale());
