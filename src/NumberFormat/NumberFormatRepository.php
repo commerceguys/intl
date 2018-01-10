@@ -40,7 +40,8 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
         // The generation script strips all keys that have the same values
         // as the ones in 'en'.
         if ($definition['locale'] != 'en') {
-            $definition += $definition['en'];
+            $definitions = $this->getDefinitions();
+            $definition += $definitions['en'];
         }
 
         return $definition;
