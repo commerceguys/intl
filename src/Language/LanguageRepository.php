@@ -44,11 +44,11 @@ class LanguageRepository implements LanguageRepositoryInterface
      * @var array
      */
     protected $availableLocales = [
-        'af', 'agq', 'ak', 'am', 'ar', 'ar-EG', 'ar-LY', 'ar-SA', 'asa', 'ast',
-        'az', 'az-Cyrl', 'bas', 'be', 'bem', 'bez', 'bg', 'bm', 'bn', 'bn-IN',
-        'br', 'brx', 'bs', 'bs-Cyrl', 'ca', 'ccp', 'ce', 'cgg', 'chr', 'ckb',
-        'cs', 'cy', 'da', 'dav', 'de', 'de-AT', 'de-CH', 'de-LU', 'dje', 'dsb',
-        'dyo', 'dz', 'ebu', 'ee', 'el', 'en', 'en-AU', 'en-CA', 'en-GB',
+        'af', 'agq', 'ak', 'am', 'ar', 'ar-EG', 'ar-LY', 'ar-SA', 'as', 'asa',
+        'ast', 'az', 'az-Cyrl', 'bas', 'be', 'bem', 'bez', 'bg', 'bm', 'bn',
+        'bn-IN', 'br', 'brx', 'bs', 'bs-Cyrl', 'ca', 'ccp', 'ce', 'cgg', 'chr',
+        'ckb', 'cs', 'cy', 'da', 'dav', 'de', 'de-AT', 'de-CH', 'de-LU', 'dje',
+        'dsb', 'dyo', 'dz', 'ebu', 'ee', 'el', 'en', 'en-AU', 'en-CA', 'en-GB',
         'en-IN', 'eo', 'es', 'es-419', 'es-AR', 'es-BO', 'es-CL', 'es-CO',
         'es-CR', 'es-DO', 'es-EC', 'es-GT', 'es-HN', 'es-MX', 'es-NI', 'es-PA',
         'es-PE', 'es-PR', 'es-PY', 'es-SV', 'es-US', 'es-VE', 'et', 'eu',
@@ -68,7 +68,7 @@ class LanguageRepository implements LanguageRepositoryInterface
         'sw-KE', 'ta', 'te', 'teo', 'tg', 'th', 'ti', 'tk', 'to', 'tr', 'tt',
         'twq', 'tzm', 'ug', 'uk', 'ur', 'ur-IN', 'uz', 'uz-Cyrl', 'vai',
         'vai-Latn', 'vi', 'vun', 'wae', 'wo', 'xog', 'yav', 'yi', 'yo',
-        'yo-BJ', 'yue-Hans', 'yue-Hant', 'zgh', 'zh', 'zh-Hant',
+        'yo-BJ', 'yue', 'yue-Hans', 'zgh', 'zh', 'zh-Hant',
         'zh-Hant-HK', 'zu',
     ];
 

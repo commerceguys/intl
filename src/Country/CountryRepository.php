@@ -77,7 +77,7 @@ class CountryRepository implements CountryRepositoryInterface
         'sv', 'sw', 'sw-CD', 'sw-KE', 'ta', 'te', 'teo', 'tg', 'th', 'ti',
         'tk', 'to', 'tr', 'tt', 'twq', 'tzm', 'ug', 'uk', 'ur', 'ur-IN', 'uz',
         'uz-Cyrl', 'vai', 'vai-Latn', 'vi', 'vun', 'wae', 'wo', 'xog', 'yav',
-        'yi', 'yo', 'yo-BJ', 'yue-Hans', 'yue-Hant', 'zgh', 'zh', 'zh-Hant',
+        'yi', 'yo', 'yo-BJ', 'yue', 'yue-Hans', 'zgh', 'zh', 'zh-Hant',
         'zh-Hant-HK', 'zu',
     ];
 
@@ -344,7 +344,7 @@ class CountryRepository implements CountryRepositoryInterface
             'MO' => ['MAC', '446', 'MOP'],
             'MP' => ['MNP', '580', 'USD'],
             'MQ' => ['MTQ', '474', 'EUR'],
-            'MR' => ['MRT', '478', 'MRO'],
+            'MR' => ['MRT', '478', 'MRU'],
             'MS' => ['MSR', '500', 'XCD'],
             'MT' => ['MLT', '470', 'EUR'],
             'MU' => ['MUS', '480', 'MUR'],

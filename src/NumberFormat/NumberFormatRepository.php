@@ -85,7 +85,6 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'am' => [],
             'ar' => [
                 'numbering_system' => 'arab',
-                'percent_pattern' => '#,##0 %',
                 'currency_pattern' => '#,##0.00 ¤',
                 'accounting_currency_pattern' => '#,##0.00 ¤',
                 'decimal_separator' => '٫',
@@ -549,7 +548,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'grouping_separator' => ' ',
             ],
             'fr-CH' => [
-                'currency_pattern' => '#,##0.00 ¤ ;-#,##0.00 ¤',
+                'currency_pattern' => '#,##0.00 ¤;-#,##0.00 ¤',
                 'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
@@ -1003,7 +1002,6 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             ],
             'sd' => [
                 'numbering_system' => 'arab',
-                'percent_pattern' => '#,##0 %',
                 'currency_pattern' => '#,##0.00 ¤',
                 'accounting_currency_pattern' => '#,##0.00 ¤',
                 'decimal_separator' => '٫',
@@ -1229,8 +1227,8 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '¤ #,##0.00',
             ],
             'yo' => [],
+            'yue' => [],
             'yue-Hans' => [],
-            'yue-Hant' => [],
             'zh' => [],
             'zh-Hant' => [],
             'zu' => [
