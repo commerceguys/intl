@@ -11,13 +11,23 @@ use org\bovigo\vfs\vfsStream;
 class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * English language definitions.
+     * Language definitions.
      *
      * @var array
      */
-    protected $englishDefinitions = [
-        'en' => 'English',
-        'fr' => 'French',
+    protected $definitions = [
+        'en' => [
+            'en' => 'English',
+            'fr' => 'French',
+        ],
+        'es' => [
+            'en' => 'inglés',
+            'fr' => 'francés',
+        ],
+        'de' => [
+            'en' => 'Englisch',
+            'fr' => 'Französisch',
+        ],
     ];
 
     /**
@@ -27,36 +37,17 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         // Mock the existence of JSON definitions on the filesystem.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('language/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
+        foreach ($this->definitions as $locale => $data) {
+            vfsStream::newFile('language/' . $locale . '.json')->at($root)->setContent(json_encode($data));
+        }
 
         // Instantiate the language repository and confirm that the definition path
         // was properly set.
-        $languageRepository = new LanguageRepository('vfs://resources/language/');
+        $languageRepository = new LanguageRepository('de', 'en', 'vfs://resources/language/');
         $definitionPath = $this->getObjectAttribute($languageRepository, 'definitionPath');
         $this->assertEquals('vfs://resources/language/', $definitionPath);
 
         return $languageRepository;
-    }
-
-    /**
-     * @covers ::getDefaultLocale
-     * @covers ::setDefaultLocale
-     * @covers ::getFallbackLocale
-     * @covers ::setFallbackLocale
-     *
-     * @depends testConstructor
-     */
-    public function testLocale($languageRepository)
-    {
-        $this->assertEquals('en', $languageRepository->getDefaultLocale());
-        $languageRepository->setDefaultLocale('fr');
-        $this->assertEquals('fr', $languageRepository->getDefaultLocale());
-        // Revert the value for the other tests.
-        $languageRepository->setDefaultLocale('en');
-
-        $this->assertEquals('en', $languageRepository->getFallbackLocale());
-        $languageRepository->setFallbackLocale('de');
-        $this->assertEquals('de', $languageRepository->getFallbackLocale());
     }
 
     /**
@@ -70,7 +61,22 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGet($languageRepository)
     {
+        // Explicit locale.
+        $language = $languageRepository->get('en', 'es');
+        $this->assertInstanceOf('CommerceGuys\\Intl\\Language\\Language', $language);
+        $this->assertEquals('en', $language->getLanguageCode());
+        $this->assertEquals('inglés', $language->getName());
+        $this->assertEquals('es', $language->getLocale());
+
+        // Default locale.
         $language = $languageRepository->get('en');
+        $this->assertInstanceOf('CommerceGuys\\Intl\\Language\\Language', $language);
+        $this->assertEquals('en', $language->getLanguageCode());
+        $this->assertEquals('Englisch', $language->getName());
+        $this->assertEquals('de', $language->getLocale());
+
+        // Fallback locale.
+        $language = $languageRepository->get('en', 'INVALID-LOCALE');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Language\\Language', $language);
         $this->assertEquals('en', $language->getLanguageCode());
         $this->assertEquals('English', $language->getName());
@@ -101,11 +107,26 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetAll($languageRepository)
     {
+        // Explicit locale.
+        $languages = $languageRepository->getAll('es');
+        $this->assertArrayHasKey('en', $languages);
+        $this->assertArrayHasKey('fr', $languages);
+        $this->assertEquals('inglés', $languages['en']->getName());
+        $this->assertEquals('francés', $languages['fr']->getName());
+
+        // Default locale.
         $languages = $languageRepository->getAll();
         $this->assertArrayHasKey('en', $languages);
         $this->assertArrayHasKey('fr', $languages);
-        $this->assertEquals('en', $languages['en']->getLanguageCode());
-        $this->assertEquals('fr', $languages['fr']->getLanguageCode());
+        $this->assertEquals('Englisch', $languages['en']->getName());
+        $this->assertEquals('Französisch', $languages['fr']->getName());
+
+        // Fallback locale.
+        $languages = $languageRepository->getAll('INVALID-LOCALE');
+        $this->assertArrayHasKey('en', $languages);
+        $this->assertArrayHasKey('fr', $languages);
+        $this->assertEquals('English', $languages['en']->getName());
+        $this->assertEquals('French', $languages['fr']->getName());
     }
 
     /**
@@ -117,8 +138,16 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetList($languageRepository)
     {
+        // Explicit locale.
+        $list = $languageRepository->getList('es');
+        $this->assertEquals(['en' => 'inglés', 'fr' => 'francés'], $list);
+
+        // Default locale.
         $list = $languageRepository->getList();
-        $expectedList = ['en' => 'English', 'fr' => 'French'];
-        $this->assertEquals($expectedList, $list);
+        $this->assertEquals(['en' => 'Englisch', 'fr' => 'Französisch'], $list);
+
+        // Fallback locale.
+        $list = $languageRepository->getList('INVALID-LOCALE');
+        $this->assertEquals(['en' => 'English', 'fr' => 'French'], $list);
     }
 }

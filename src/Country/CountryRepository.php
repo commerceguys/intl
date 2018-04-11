@@ -3,7 +3,6 @@
 namespace CommerceGuys\Intl\Country;
 
 use CommerceGuys\Intl\Locale;
-use CommerceGuys\Intl\RepositoryLocaleTrait;
 use CommerceGuys\Intl\Exception\UnknownCountryException;
 
 /**
@@ -11,7 +10,19 @@ use CommerceGuys\Intl\Exception\UnknownCountryException;
  */
 class CountryRepository implements CountryRepositoryInterface
 {
-    use RepositoryLocaleTrait;
+    /**
+     * The default locale.
+     *
+     * @var string
+     */
+    protected $defaultLocale;
+
+    /**
+     * The fallback locale.
+     *
+     * @var string
+     */
+    protected $fallbackLocale;
 
     /**
      * The path where per-locale definitions are stored.
@@ -73,11 +84,15 @@ class CountryRepository implements CountryRepositoryInterface
     /**
      * Creates a CountryRepository instance.
      *
+     * @param string $defaultLocale  The default locale. Defaults to 'en'.
+     * @param string $fallbackLocale The fallback locale. Defaults to 'en'.
      * @param string $definitionPath The path to the country definitions.
      *                               Defaults to 'resources/country'.
      */
-    public function __construct($definitionPath = null)
+    public function __construct($defaultLocale = 'en', $fallbackLocale = 'en', $definitionPath = null)
     {
+        $this->defaultLocale = $defaultLocale;
+        $this->fallbackLocale = $fallbackLocale;
         $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/country/';
     }
 
@@ -90,8 +105,8 @@ class CountryRepository implements CountryRepositoryInterface
         if (!isset($baseDefinitions[$countryCode])) {
             throw new UnknownCountryException($countryCode);
         }
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $country = new Country([
             'country_code' => $countryCode,
@@ -110,8 +125,8 @@ class CountryRepository implements CountryRepositoryInterface
      */
     public function getAll($locale = null)
     {
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $baseDefinitions = $this->getBaseDefinitions();
         $definitions = $this->loadDefinitions($locale);
         $countries = [];
@@ -134,8 +149,8 @@ class CountryRepository implements CountryRepositoryInterface
      */
     public function getList($locale = null)
     {
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $list = [];
         foreach ($definitions as $countryCode => $countryName) {

@@ -3,7 +3,6 @@
 namespace CommerceGuys\Intl\Language;
 
 use CommerceGuys\Intl\Locale;
-use CommerceGuys\Intl\RepositoryLocaleTrait;
 use CommerceGuys\Intl\Exception\UnknownLanguageException;
 
 /**
@@ -11,7 +10,19 @@ use CommerceGuys\Intl\Exception\UnknownLanguageException;
  */
 class LanguageRepository implements LanguageRepositoryInterface
 {
-    use RepositoryLocaleTrait;
+    /**
+     * The default locale.
+     *
+     * @var string
+     */
+    protected $defaultLocale;
+
+    /**
+     * The fallback locale.
+     *
+     * @var string
+     */
+    protected $fallbackLocale;
 
     /**
      * The path where per-locale definitions are stored.
@@ -64,11 +75,15 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * Creates a LanguageRepository instance.
      *
+     * @param string $defaultLocale  The default locale. Defaults to 'en'.
+     * @param string $fallbackLocale The fallback locale. Defaults to 'en'.
      * @param string $definitionPath The path to the currency definitions.
      *                               Defaults to 'resources/language'.
      */
-    public function __construct($definitionPath = null)
+    public function __construct($defaultLocale = 'en', $fallbackLocale = 'en', $definitionPath = null)
     {
+        $this->defaultLocale = $defaultLocale;
+        $this->fallbackLocale = $fallbackLocale;
         $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/language/';
     }
 
@@ -77,8 +92,8 @@ class LanguageRepository implements LanguageRepositoryInterface
      */
     public function get($languageCode, $locale = null)
     {
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         if (!isset($definitions[$languageCode])) {
             throw new UnknownLanguageException($languageCode);
@@ -97,8 +112,8 @@ class LanguageRepository implements LanguageRepositoryInterface
      */
     public function getAll($locale = null)
     {
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $languages = [];
         foreach ($definitions as $languageCode => $languageName) {
@@ -117,8 +132,8 @@ class LanguageRepository implements LanguageRepositoryInterface
      */
     public function getList($locale = null)
     {
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $list = [];
         foreach ($definitions as $languageCode => $languageName) {

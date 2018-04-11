@@ -11,18 +11,37 @@ use org\bovigo\vfs\vfsStream;
 class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * English currency definitions.
+     * Currency definitions.
      *
      * @var array
      */
-    protected $englishDefinitions = [
-        'USD' => [
-            'name' => 'US Dollar',
-            'symbol' => '$',
+    protected $definitions = [
+        'en' => [
+            'RSD' => [
+                'name' => 'Serbian Dinar',
+            ],
+            'USD' => [
+                'name' => 'US Dollar',
+                'symbol' => '$',
+            ],
         ],
-        'EUR' => [
-            'name' => 'Euro',
-            'symbol' => '€',
+        'es' => [
+            'RSD' => [
+                'name' => 'dinar serbio',
+            ],
+            'USD' => [
+                'name' => 'dólar estadounidense',
+                'symbol' => 'US$',
+            ],
+        ],
+        'de' => [
+            'RSD' => [
+                'name' => 'Serbischer Dinar',
+            ],
+            'USD' => [
+                'name' => 'US-Dollar',
+                'symbol' => '$',
+            ],
         ],
     ];
 
@@ -33,36 +52,17 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         // Mock the existence of JSON definitions on the filesystem.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('currency/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
+        foreach ($this->definitions as $locale => $data) {
+            vfsStream::newFile('currency/' . $locale . '.json')->at($root)->setContent(json_encode($data));
+        }
 
         // Instantiate the currency repository and confirm that the definition path
         // was properly set.
-        $currencyRepository = new CurrencyRepository('vfs://resources/currency/');
+        $currencyRepository = new CurrencyRepository('de', 'en', 'vfs://resources/currency/');
         $definitionPath = $this->getObjectAttribute($currencyRepository, 'definitionPath');
         $this->assertEquals('vfs://resources/currency/', $definitionPath);
 
         return $currencyRepository;
-    }
-
-    /**
-     * @covers ::getDefaultLocale
-     * @covers ::setDefaultLocale
-     * @covers ::getFallbackLocale
-     * @covers ::setFallbackLocale
-     *
-     * @depends testConstructor
-     */
-    public function testLocale($currencyRepository)
-    {
-        $this->assertEquals('en', $currencyRepository->getDefaultLocale());
-        $currencyRepository->setDefaultLocale('fr');
-        $this->assertEquals('fr', $currencyRepository->getDefaultLocale());
-        // Revert the value for the other tests.
-        $currencyRepository->setDefaultLocale('en');
-
-        $this->assertEquals('en', $currencyRepository->getFallbackLocale());
-        $currencyRepository->setFallbackLocale('de');
-        $this->assertEquals('de', $currencyRepository->getFallbackLocale());
     }
 
     /**
@@ -76,12 +76,29 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGet($currencyRepository)
     {
+        // Explicit locale.
+        $currency = $currencyRepository->get('USD', 'es');
+        $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
+        $this->assertEquals('USD', $currency->getCurrencyCode());
+        $this->assertEquals('dólar estadounidense', $currency->getName());
+        $this->assertEquals('840', $currency->getNumericCode());
+        $this->assertEquals('2', $currency->getFractionDigits());
+        $this->assertEquals('US$', $currency->getSymbol());
+        $this->assertEquals('es', $currency->getLocale());
+
+        // Default locale.
         $currency = $currencyRepository->get('USD');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
         $this->assertEquals('USD', $currency->getCurrencyCode());
+        $this->assertEquals('US-Dollar', $currency->getName());
+        $this->assertEquals('$', $currency->getSymbol());
+        $this->assertEquals('de', $currency->getLocale());
+
+        // Fallback locale.
+        $currency = $currencyRepository->get('USD', 'INVALID-LOCALE');
+        $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
+        $this->assertEquals('USD', $currency->getCurrencyCode());
         $this->assertEquals('US Dollar', $currency->getName());
-        $this->assertEquals('840', $currency->getNumericCode());
-        $this->assertEquals('2', $currency->getFractionDigits());
         $this->assertEquals('$', $currency->getSymbol());
         $this->assertEquals('en', $currency->getLocale());
     }
@@ -110,11 +127,32 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetAll($currencyRepository)
     {
-        $currencies = $currencyRepository->getAll();
+        // Explicit locale.
+        $currencies = $currencyRepository->getAll('es');
+        $this->assertArrayHasKey('RSD', $currencies);
         $this->assertArrayHasKey('USD', $currencies);
-        $this->assertArrayHasKey('EUR', $currencies);
-        $this->assertEquals('USD', $currencies['USD']->getCurrencyCode());
-        $this->assertEquals('EUR', $currencies['EUR']->getCurrencyCode());
+        $this->assertEquals('dinar serbio', $currencies['RSD']->getName());
+        $this->assertEquals('dólar estadounidense', $currencies['USD']->getName());
+        $this->assertEquals('RSD', $currencies['RSD']->getSymbol());
+        $this->assertEquals('US$', $currencies['USD']->getSymbol());
+
+        // Default locale.
+        $currencies = $currencyRepository->getAll();
+        $this->assertArrayHasKey('RSD', $currencies);
+        $this->assertArrayHasKey('USD', $currencies);
+        $this->assertEquals('Serbischer Dinar', $currencies['RSD']->getName());
+        $this->assertEquals('US-Dollar', $currencies['USD']->getName());
+        $this->assertEquals('RSD', $currencies['RSD']->getSymbol());
+        $this->assertEquals('$', $currencies['USD']->getSymbol());
+
+        // Fallback locale.
+        $currencies = $currencyRepository->getAll('INVALID-LOCALE');
+        $this->assertArrayHasKey('RSD', $currencies);
+        $this->assertArrayHasKey('USD', $currencies);
+        $this->assertEquals('Serbian Dinar', $currencies['RSD']->getName());
+        $this->assertEquals('US Dollar', $currencies['USD']->getName());
+        $this->assertEquals('RSD', $currencies['RSD']->getSymbol());
+        $this->assertEquals('$', $currencies['USD']->getSymbol());
     }
 
     /**
@@ -126,8 +164,16 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetList($currencyRepository)
     {
+        // Explicit locale.
+        $list = $currencyRepository->getList('es');
+        $this->assertEquals(['RSD' => 'dinar serbio', 'USD' => 'dólar estadounidense'], $list);
+
+        // Default locale.
         $list = $currencyRepository->getList();
-        $expectedList = ['EUR' => 'Euro', 'USD' => 'US Dollar'];
-        $this->assertEquals($expectedList, $list);
+        $this->assertEquals(['RSD' => 'Serbischer Dinar', 'USD' => 'US-Dollar'], $list);
+
+        // Fallback locale.
+        $list = $currencyRepository->getList('INVALID-LOCALE');
+        $this->assertEquals(['RSD' => 'Serbian Dinar', 'USD' => 'US Dollar'], $list);
     }
 }

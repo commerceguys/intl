@@ -3,14 +3,28 @@
 namespace CommerceGuys\Intl\NumberFormat;
 
 use CommerceGuys\Intl\Locale;
-use CommerceGuys\Intl\RepositoryLocaleTrait;
 
 /**
  * Provides number formats.
  */
 class NumberFormatRepository implements NumberFormatRepositoryInterface
 {
-    use RepositoryLocaleTrait;
+    /**
+     * The fallback locale.
+     *
+     * @var string
+     */
+    protected $fallbackLocale;
+
+    /**
+     * Creates a NumberFormatRepository instance.
+     *
+     * @param string $fallbackLocale The fallback locale. Defaults to 'en'.
+     */
+    public function __construct($fallbackLocale = 'en')
+    {
+        $this->fallbackLocale = $fallbackLocale;
+    }
 
     /**
      * {@inheritdoc}
@@ -19,8 +33,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
     {
         $definitions = $this->getDefinitions();
         $availableLocales = array_keys($definitions);
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($availableLocales, $locale, $this->getFallbackLocale());
+        $locale = Locale::resolve($availableLocales, $locale, $this->fallbackLocale);
         $definition = $this->processDefinition($locale, $definitions[$locale]);
 
         return new NumberFormat($definition);

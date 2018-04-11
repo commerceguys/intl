@@ -11,24 +11,6 @@ use org\bovigo\vfs\vfsStream;
 class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::getDefaultLocale
-     * @covers ::setDefaultLocale
-     * @covers ::getFallbackLocale
-     * @covers ::setFallbackLocale
-     */
-    public function testLocale()
-    {
-        $numberFormatRepository = new NumberFormatRepository();
-        $this->assertEquals('en', $numberFormatRepository->getDefaultLocale());
-        $numberFormatRepository->setDefaultLocale('fr');
-        $this->assertEquals('fr', $numberFormatRepository->getDefaultLocale());
-
-        $this->assertEquals('en', $numberFormatRepository->getFallbackLocale());
-        $numberFormatRepository->setFallbackLocale('de');
-        $this->assertEquals('de', $numberFormatRepository->getFallbackLocale());
-    }
-
-    /**
      * @covers ::get
      * @covers ::createNumberFormatFromDefinition
      *
@@ -37,7 +19,7 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGet()
     {
-        $numberFormatRepository = new NumberFormatRepository();
+        $numberFormatRepository = new NumberFormatRepository('de');
 
         $numberFormat = $numberFormatRepository->get('en');
         $this->assertInstanceOf('CommerceGuys\\Intl\\NumberFormat\\NumberFormat', $numberFormat);
@@ -55,5 +37,8 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
 
         $numberFormat = $numberFormatRepository->get('es');
         $this->assertEquals('es', $numberFormat->getLocale());
+
+        $numberFormat = $numberFormatRepository->get('UNKNOWN');
+        $this->assertEquals('de', $numberFormat->getLocale());
     }
 }

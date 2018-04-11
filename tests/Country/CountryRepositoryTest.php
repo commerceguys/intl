@@ -11,13 +11,23 @@ use org\bovigo\vfs\vfsStream;
 class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * English country definitions.
+     * Country definitions.
      *
      * @var array
      */
-    protected $englishDefinitions = [
-        'FR' => 'France',
-        'US' => 'United States',
+    protected $definitions = [
+        'en' => [
+            'FR' => 'France',
+            'US' => 'United States',
+        ],
+        'es' => [
+            'FR' => 'Francia',
+            'US' => 'Estados Unidos',
+        ],
+        'de' => [
+            'FR' => 'Frankreich',
+            'US' => 'Vereinigte Staaten',
+        ],
     ];
 
     /**
@@ -27,36 +37,17 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         // Mock the existence of JSON definitions on the filesystem.
         $root = vfsStream::setup('resources');
-        vfsStream::newFile('country/en.json')->at($root)->setContent(json_encode($this->englishDefinitions));
+        foreach ($this->definitions as $locale => $data) {
+            vfsStream::newFile('country/' . $locale . '.json')->at($root)->setContent(json_encode($data));
+        }
 
         // Instantiate the country repository and confirm that the definition path
         // was properly set.
-        $countryRepository = new CountryRepository('vfs://resources/country/');
+        $countryRepository = new CountryRepository('de', 'en', 'vfs://resources/country/');
         $definitionPath = $this->getObjectAttribute($countryRepository, 'definitionPath');
         $this->assertEquals('vfs://resources/country/', $definitionPath);
 
         return $countryRepository;
-    }
-
-    /**
-     * @covers ::getDefaultLocale
-     * @covers ::setDefaultLocale
-     * @covers ::getFallbackLocale
-     * @covers ::setFallbackLocale
-     *
-     * @depends testConstructor
-     */
-    public function testLocale($countryRepository)
-    {
-        $this->assertEquals('en', $countryRepository->getDefaultLocale());
-        $countryRepository->setDefaultLocale('fr');
-        $this->assertEquals('fr', $countryRepository->getDefaultLocale());
-        // Revert the value for the other tests.
-        $countryRepository->setDefaultLocale('en');
-
-        $this->assertEquals('en', $countryRepository->getFallbackLocale());
-        $countryRepository->setFallbackLocale('de');
-        $this->assertEquals('de', $countryRepository->getFallbackLocale());
     }
 
     /**
@@ -70,13 +61,28 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGet($countryRepository)
     {
-        $country = $countryRepository->get('FR');
+        // Explicit locale.
+        $country = $countryRepository->get('FR', 'es');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Country\\Country', $country);
         $this->assertEquals('FR', $country->getCountryCode());
-        $this->assertEquals('France', $country->getName());
+        $this->assertEquals('Francia', $country->getName());
         $this->assertEquals('FRA', $country->getThreeLetterCode());
         $this->assertEquals('250', $country->getNumericCode());
         $this->assertEquals('EUR', $country->getCurrencyCode());
+        $this->assertEquals('es', $country->getLocale());
+
+        // Default locale.
+        $country = $countryRepository->get('FR');
+        $this->assertInstanceOf('CommerceGuys\\Intl\\Country\\Country', $country);
+        $this->assertEquals('FR', $country->getCountryCode());
+        $this->assertEquals('Frankreich', $country->getName());
+        $this->assertEquals('de', $country->getLocale());
+
+        // Fallback locale.
+        $country = $countryRepository->get('FR', 'INVALID-LOCALE');
+        $this->assertInstanceOf('CommerceGuys\\Intl\\Country\\Country', $country);
+        $this->assertEquals('FR', $country->getCountryCode());
+        $this->assertEquals('France', $country->getName());
         $this->assertEquals('en', $country->getLocale());
     }
 
@@ -104,11 +110,26 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetAll($countryRepository)
     {
+        // Explicit locale.
+        $countries = $countryRepository->getAll('es');
+        $this->assertArrayHasKey('FR', $countries);
+        $this->assertArrayHasKey('US', $countries);
+        $this->assertEquals('Francia', $countries['FR']->getName());
+        $this->assertEquals('Estados Unidos', $countries['US']->getName());
+
+        // Default locale.
         $countries = $countryRepository->getAll();
         $this->assertArrayHasKey('FR', $countries);
         $this->assertArrayHasKey('US', $countries);
-        $this->assertEquals('FR', $countries['FR']->getCountryCode());
-        $this->assertEquals('US', $countries['US']->getCountryCode());
+        $this->assertEquals('Frankreich', $countries['FR']->getName());
+        $this->assertEquals('Vereinigte Staaten', $countries['US']->getName());
+
+        // Fallback locale.
+        $countries = $countryRepository->getAll('INVALID-LOCALE');
+        $this->assertArrayHasKey('FR', $countries);
+        $this->assertArrayHasKey('US', $countries);
+        $this->assertEquals('France', $countries['FR']->getName());
+        $this->assertEquals('United States', $countries['US']->getName());
     }
 
     /**
@@ -120,8 +141,16 @@ class CountryRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetList($countryRepository)
     {
+        // Explicit locale.
+        $list = $countryRepository->getList('es');
+        $this->assertEquals(['FR' => 'Francia', 'US' => 'Estados Unidos'], $list);
+
+        // Default locale.
         $list = $countryRepository->getList();
-        $expectedList = ['FR' => 'France', 'US' => 'United States'];
-        $this->assertEquals($expectedList, $list);
+        $this->assertEquals(['FR' => 'Frankreich', 'US' => 'Vereinigte Staaten'], $list);
+
+        // Fallback locale.
+        $list = $countryRepository->getList('INVALID-LOCALE');
+        $this->assertEquals(['FR' => 'France', 'US' => 'United States'], $list);
     }
 }

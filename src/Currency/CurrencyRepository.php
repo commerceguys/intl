@@ -3,7 +3,6 @@
 namespace CommerceGuys\Intl\Currency;
 
 use CommerceGuys\Intl\Locale;
-use CommerceGuys\Intl\RepositoryLocaleTrait;
 use CommerceGuys\Intl\Exception\UnknownCurrencyException;
 
 /**
@@ -11,7 +10,19 @@ use CommerceGuys\Intl\Exception\UnknownCurrencyException;
  */
 class CurrencyRepository implements CurrencyRepositoryInterface
 {
-    use RepositoryLocaleTrait;
+    /**
+     * The default locale.
+     *
+     * @var string
+     */
+    protected $defaultLocale;
+
+    /**
+     * The fallback locale.
+     *
+     * @var string
+     */
+    protected $fallbackLocale;
 
     /**
      * The path where per-locale definitions are stored.
@@ -57,11 +68,15 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * Creates a CurrencyRepository instance.
      *
+     * @param string $defaultLocale  The default locale. Defaults to 'en'.
+     * @param string $fallbackLocale The fallback locale. Defaults to 'en'.
      * @param string $definitionPath The path to the currency definitions.
      *                               Defaults to 'resources/currency'.
      */
-    public function __construct($definitionPath = null)
+    public function __construct($defaultLocale = 'en', $fallbackLocale = 'en', $definitionPath = null)
     {
+        $this->defaultLocale = $defaultLocale;
+        $this->fallbackLocale = $fallbackLocale;
         $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/currency/';
     }
 
@@ -74,8 +89,8 @@ class CurrencyRepository implements CurrencyRepositoryInterface
         if (!isset($baseDefinitions[$currencyCode])) {
             throw new UnknownCurrencyException($currencyCode);
         }
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $currency = new Currency([
             'currency_code' => $currencyCode,
@@ -92,8 +107,8 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      */
     public function getAll($locale = null)
     {
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $baseDefinitions = $this->getBaseDefinitions();
         $definitions = $this->loadDefinitions($locale);
         $currencies = [];
@@ -114,8 +129,8 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      */
     public function getList($locale = null)
     {
-        $locale = $locale ?: $this->getDefaultLocale();
-        $locale = Locale::resolve($this->availableLocales, $locale, $this->getFallbackLocale());
+        $locale = $locale ?: $this->defaultLocale;
+        $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
         $list = [];
         foreach ($definitions as $currencyCode => $definition) {
