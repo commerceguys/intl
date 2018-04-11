@@ -156,6 +156,19 @@ final class Country
     }
 
     /**
+     * Gets the timezones.
+     *
+     * Note that a country can span more than one timezone.
+     * For example, Germany has ['Europe/Berlin', 'Europe/Busingen'].
+     *
+     * @return string[]
+     */
+    public function getTimezones()
+    {
+        return \DateTimeZone::listIdentifiers(\DateTimeZone::PER_COUNTRY, $this->countryCode);
+    }
+
+    /**
      * Gets the locale.
      *
      * The country name is locale specific.

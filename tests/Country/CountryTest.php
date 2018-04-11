@@ -26,6 +26,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
      * @covers ::getThreeLetterCode
      * @covers ::getNumericCode
      * @covers ::getCurrencyCode
+     * @covers ::getTimezones
      * @covers ::getLocale
      */
     public function testValid()
@@ -46,6 +47,7 @@ class CountryTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($definition['three_letter_code'], $country->getThreeLetterCode());
         $this->assertEquals($definition['numeric_code'], $country->getNumericCode());
         $this->assertEquals($definition['currency_code'], $country->getCurrencyCode());
+        $this->assertEquals(['Europe/Berlin', 'Europe/Busingen'], $country->getTimezones());
         $this->assertEquals($definition['locale'], $country->getLocale());
     }
 }
