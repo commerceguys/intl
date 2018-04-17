@@ -251,6 +251,9 @@ final class Locale
     /**
      * Canonicalizes the given locale.
      *
+     * Standardizes separators and capitalization, turning
+     * a locale such as "sr_rs_latn" into "sr-RS-Latn".
+     *
      * @param string $locale The locale.
      *
      * @return string The canonicalized locale.
@@ -261,8 +264,8 @@ final class Locale
             return $locale;
         }
 
-        $locale = str_replace('-', '_', strtolower($locale));
-        $localeParts = explode('_', $locale);
+        $locale = str_replace('_', '-', strtolower($locale));
+        $localeParts = explode('-', $locale);
         foreach ($localeParts as $index => $part) {
             if ($index === 0) {
                 // The language code should stay lowercase.
