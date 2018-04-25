@@ -211,6 +211,50 @@ final class Locale
     ];
 
     /**
+     * Checks whether two locales match.
+     *
+     * @param string $firstLocale  The first locale.
+     * @param string $secondLocale The second locale.
+     *
+     * @return bool TRUE if the locales match, FALSE otherwise.
+     */
+    public static function match($firstLocale, $secondLocale)
+    {
+        if (empty($firstLocale) || empty($secondLocale)) {
+            return false;
+        }
+
+        return self::canonicalize($firstLocale) === self::canonicalize($secondLocale);
+    }
+
+    /**
+     * Checks whether two locales have at least one common candidate.
+     *
+     * For example, "de" and "de-AT" will match because they both have
+     * "de" in common. This is useful for partial locale matching.
+     *
+     * @see self::getCandidates
+     *
+     * @param string $firstLocale  The first locale.
+     * @param string $secondLocale The second locale.
+     *
+     * @return bool TRUE if there is a common candidate, FALSE otherwise.
+     */
+    public static function matchCandidates($firstLocale, $secondLocale)
+    {
+        if (empty($firstLocale) || empty($secondLocale)) {
+            return false;
+        }
+
+        $firstLocale = self::canonicalize($firstLocale);
+        $secondLocale = self::canonicalize($secondLocale);
+        $firstLocaleCandidates = self::getCandidates($firstLocale);
+        $secondLocaleCandidates = self::getCandidates($secondLocale);
+
+        return (bool) array_intersect($firstLocaleCandidates, $secondLocaleCandidates);
+    }
+
+    /**
      * Resolves the locale from the available locales.
      *
      * Takes all locale candidates for the requested locale
