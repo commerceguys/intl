@@ -190,8 +190,6 @@ final class Locale
         'pt-ST' => 'pt-PT',
         'pt-TL' => 'pt-PT',
         'zh-Hant-MO' => 'zh-Hant-HK',
-        // Note that the library doesn't have the empty 'root' locale,
-        // it is more user friendly to use the configured fallback instead.
         'az-Arab' => 'root',
         'az-Cyrl' => 'root',
         'bm-Nkoo' => 'root',
@@ -338,6 +336,11 @@ final class Locale
             $localeParts = explode('-', $locale);
             array_pop($localeParts);
             $parent = implode('-', $localeParts);
+        }
+        // The library doesn't have data for the empty 'root' locale, it
+        // is more user friendly to use the configured fallback instead.
+        if ($parent == 'root') {
+            $parent = null;
         }
 
         return $parent;

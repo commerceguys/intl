@@ -66,7 +66,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(['en-AU', 'en-001', 'en'], $candidates);
 
         $candidates = Locale::getCandidates('sh');
-        $this->assertEquals(['sr-Latn', 'root'], $candidates);
+        $this->assertEquals(['sr-Latn'], $candidates);
     }
 
     /**
@@ -75,8 +75,8 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     public function testParent()
     {
         $this->assertEquals('sr-Latn', Locale::getParent('sr-Latn-RS'));
-        $this->assertEquals('root', Locale::getParent('sr-Latn'));
-        $this->assertEquals(null, Locale::getParent('root'));
+        // sr-Latn falls back to "root" instead of "sr".
+        $this->assertEquals(null, Locale::getParent('sr-Latn'));
         $this->assertEquals(null, Locale::getParent('sr'));
     }
 
