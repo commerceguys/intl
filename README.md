@@ -8,10 +8,9 @@ A PHP 5.5+ internationalization library, powered by CLDR data.
 Features:
 - NumberFormatter, inspired by [intl](http://php.net/manual/en/class.numberformatter.php).
 - Currencies
-- Countries
 - Languages
 
-Coming soon: date formatting.
+Looking for a list of countries and subdivisions? Check out [commerceguys/addressing](https://github.com/commerceguys/addressing).
 
 Why not use the intl extension?
 -------------------------------
@@ -98,27 +97,6 @@ echo $currency->getSymbol(); // $US
 echo $currency->getLocale(); // fr-FR
 
 $allCurrencies = $currencyRepository->getAll();
-```
-
-Countries
----------
-```php
-use CommerceGuys\Intl\Country\CountryRepository;
-
-// Reads the country definitions from resources/country.
-$countryRepository = new CountryRepository;
-
-// Get the US country using the default locale (en).
-$country = $countryRepository->get('US');
-echo $country->getCountryCode(); // US
-echo $country->getName(); // United States
-echo $country->getCurrencyCode(); // USD
-
-// Get the US country using the fr-FR locale.
-$country = $countryRepository->get('US', 'fr-FR');
-echo $country->getName(); // États-Unis
-
-$allCountries = $countryRepository->getAll();
 ```
 
 Languages
