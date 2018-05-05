@@ -282,7 +282,6 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function testGroupingUsed()
     {
         $numberFormat = new NumberFormat($this->numberFormats['en']);
-
         // The formatter groups correctly.
         $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
         $this->assertTrue($formatter->isGroupingUsed());
@@ -293,6 +292,15 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
         $formatter->setGroupingUsed(false);
         $this->assertFalse($formatter->isGroupingUsed());
         $this->assertSame('10000.9', $formatter->format('10000.90'));
+
+        // Test secondary groups.
+        $numberFormat = new NumberFormat($this->numberFormats['bn']);
+        $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
+        $this->assertTrue($formatter->isGroupingUsed());
+        $this->assertSame('১,২৩,৪৫,৬৭৮.৯', $formatter->format('12345678.90'));
+
+        // No grouping needed.
+        $this->assertSame('১২৩.৯', $formatter->format('123.90'));
     }
 
     /**

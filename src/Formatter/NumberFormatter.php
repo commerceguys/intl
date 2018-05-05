@@ -19,39 +19,18 @@ class NumberFormatter implements NumberFormatterInterface
     protected $numberFormat;
 
     /**
-     * The number pattern used to format positive numbers.
+     * The parsed number pattern.
      *
-     * @var string
+     * @var ParsedPattern
      */
-    protected $positivePattern;
-
-    /**
-     * The number pattern used to format negative numbers.
-     *
-     * @var string
-     */
-    protected $negativePattern;
+    protected $parsedPattern;
 
     /**
      * Whether grouping is used.
      *
      * @var bool
      */
-    protected $groupingUsed;
-
-    /**
-     * The size of the group of digits closest to the decimal point.
-     *
-     * @var int
-     */
-    protected $primaryGroupSize;
-
-    /**
-     * The size of every group of digits after the primary group.
-     *
-     * @var int
-     */
-    protected $secondaryGroupSize;
+    protected $groupingUsed = true;
 
     /**
      * The minimum number of fraction digits to show.
@@ -112,6 +91,8 @@ class NumberFormatter implements NumberFormatterInterface
         if (!extension_loaded('bcmath')) {
             throw new \RuntimeException('The bcmath extension is required by NumberFormatter.');
         }
+
+        $this->numberFormat = $numberFormat;
         $availablePatterns = [
             self::DECIMAL => $numberFormat->getDecimalPattern(),
             self::PERCENT => $numberFormat->getPercentPattern(),
@@ -122,28 +103,7 @@ class NumberFormatter implements NumberFormatterInterface
             // Unknown type.
             throw new InvalidArgumentException('Unknown format style provided to NumberFormatter::__construct().');
         }
-
-        // Split the selected pattern into positive and negative patterns.
-        $patterns = explode(';', $availablePatterns[$style]);
-        if (!isset($patterns[1])) {
-            // No explicit negative pattern was provided, construct it.
-            $patterns[1] = '-' . $patterns[0];
-        }
-
-        $this->numberFormat = $numberFormat;
-        $this->positivePattern = $patterns[0];
-        $this->negativePattern = $patterns[1];
-        $this->groupingUsed = (strpos($this->positivePattern, ',') !== false);
-        // This pattern has number groups, parse them.
-        if ($this->groupingUsed) {
-            preg_match('/#+0/', $this->positivePattern, $primaryGroupMatches);
-            $this->primaryGroupSize = $this->secondaryGroupSize = strlen($primaryGroupMatches[0]);
-            $numberGroups = explode(',', $this->positivePattern);
-            if (count($numberGroups) > 2) {
-                // This pattern has a distinct secondary group size.
-                $this->secondaryGroupSize = strlen($numberGroups[1]);
-            }
-        }
+        $this->parsedPattern = new ParsedPattern($availablePatterns[$style]);
 
         // Initialize the fraction digit settings for decimal and percent
         // styles only. The currency ones will default to the currency values.
@@ -164,6 +124,7 @@ class NumberFormatter implements NumberFormatterInterface
             throw new InvalidArgumentException($message);
         }
 
+        $parsedPattern = $this->parsedPattern;
         // Ensure that the value is positive and has the right number of digits.
         $negative = (bccomp('0', $value, 12) == 1);
         $signMultiplier = $negative ? '-1' : '1';
@@ -175,14 +136,14 @@ class NumberFormatter implements NumberFormatterInterface
         // have a decimal point, and $valueParts[1] won't be set.
         $minorDigits = isset($valueParts[1]) ? $valueParts[1] : '';
 
-        if ($this->groupingUsed) {
+        if ($this->groupingUsed && $parsedPattern->isGroupingUsed()) {
             // Reverse the major digits, since they are grouped from the right.
             $majorDigits = array_reverse(str_split($majorDigits));
             // Group the major digits.
             $groups = [];
-            $groups[] = array_splice($majorDigits, 0, $this->primaryGroupSize);
+            $groups[] = array_splice($majorDigits, 0, $parsedPattern->getPrimaryGroupSize());
             while (!empty($majorDigits)) {
-                $groups[] = array_splice($majorDigits, 0, $this->secondaryGroupSize);
+                $groups[] = array_splice($majorDigits, 0, $parsedPattern->getSecondaryGroupSize());
             }
             // Reverse the groups and the digits inside of them.
             $groups = array_reverse($groups);
@@ -206,7 +167,7 @@ class NumberFormatter implements NumberFormatterInterface
 
         // Assemble the final number and insert it into the pattern.
         $value = strlen($minorDigits) ? $majorDigits . '.' . $minorDigits : $majorDigits;
-        $pattern = $negative ? $this->negativePattern : $this->positivePattern;
+        $pattern = $negative ? $parsedPattern->getNegativePattern() : $parsedPattern->getPositivePattern();
         $value = preg_replace('/#(?:[\.,]#+)*0(?:[,\.][0#]+)*/', $value, $pattern);
 
         // Localize the number.
