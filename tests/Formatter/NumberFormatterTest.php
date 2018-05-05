@@ -90,12 +90,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider numberValueProvider
      */
-    public function testFormat($number_format, $style, $value, $expected_value)
+    public function testFormat($numberFormat, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter($number_format, $style);
+        $formatter = new NumberFormatter($numberFormat, $style);
 
-        $formattedNumber = $formatter->format($value);
-        $this->assertSame($expected_value, $formattedNumber);
+        $formattedNumber = $formatter->format($number);
+        $this->assertSame($expectedNumber, $formattedNumber);
     }
 
     /**
@@ -169,12 +169,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider currencyValueProvider
      */
-    public function testFormatCurrency($number_format, $currency, $style, $value, $expected_value)
+    public function testFormatCurrency($numberFormat, $currency, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter($number_format, $style);
+        $formatter = new NumberFormatter($numberFormat, $style);
 
-        $formattedNumber = $formatter->formatCurrency($value, $currency);
-        $this->assertSame($expected_value, $formattedNumber);
+        $formattedNumber = $formatter->formatCurrency($number, $currency);
+        $this->assertSame($expectedNumber, $formattedNumber);
     }
 
     /**
@@ -185,12 +185,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider formattedValueProvider
      */
-    public function testParse($number_format, $style, $value, $expected_value)
+    public function testParse($numberFormat, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter($number_format, $style);
+        $formatter = new NumberFormatter($numberFormat, $style);
 
-        $parsedNumber = $formatter->parse($value);
-        $this->assertSame($expected_value, $parsedNumber);
+        $parsedNumber = $formatter->parse($number);
+        $this->assertSame($expectedNumber, $parsedNumber);
     }
 
     /**
@@ -202,12 +202,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider formattedCurrencyProvider
      */
-    public function testParseCurrency($number_format, $currency, $style, $value, $expected_value)
+    public function testParseCurrency($numberFormat, $currency, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter($number_format, $style);
+        $formatter = new NumberFormatter($numberFormat, $style);
 
-        $parsedNumber = $formatter->parseCurrency($value, $currency);
-        $this->assertSame($expected_value, $parsedNumber);
+        $parsedNumber = $formatter->parseCurrency($number, $currency);
+        $this->assertSame($expectedNumber, $parsedNumber);
     }
 
     /**

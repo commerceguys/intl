@@ -21,51 +21,54 @@ interface NumberFormatterInterface
     /**
      * Formats a number.
      *
-     * Please note that the provided value should already be rounded.
+     * Please note that the provided number should already be rounded.
      * This formatter doesn't do any rounding of its own, and will simply
      * truncate extra digits.
      *
-     * @param string $value The value to format.
+     * @param string $number The number.
      *
      * @return string
      */
-    public function format($value);
+    public function format($number);
 
     /**
-     * Formats a currency value.
+     * Formats a currency amount.
      *
-     * Please note that the provided value should already be rounded.
+     * Please note that the provided number should already be rounded.
      * This formatter doesn't do any rounding of its own, and will simply
      * truncate extra digits.
      *
-     * @param string   $value    The value to format.
+     * @param string   $number   The number.
      * @param Currency $currency The currency.
      *
      * @return string
      */
-    public function formatCurrency($value, Currency $currency);
+    public function formatCurrency($number, Currency $currency);
 
     /**
      * Parses a number.
      *
      * Commonly used in input widgets where the end-user might input
-     * a value using digits and symbols common to their locale.
+     * a number using digits and symbols common to their locale.
      *
-     * @param string $value The value to parse.
+     * @param string $number The number.
      *
-     * @return string|false The parsed numeric value or FALSE on error.
+     * @return string|false The parsed number or FALSE on error.
      */
-    public function parse($value);
+    public function parse($number);
 
     /**
-     * Parses a formatted currency value.
+     * Parses a formatted currency amount.
      *
-     * @param string   $value    The value to parse.
-     * @param Currency $currency The currency.
+     * Commonly used in input widgets where the end-user might input
+     * a number using digits and symbols common to their locale.
      *
-     * @return string|false The parsed numeric value or FALSE on error.
+     * @param string   $number    The number.
+     * @param Currency $currency  The currency.
+     *
+     * @return string|false The parsed number or FALSE on error.
      */
-    public function parseCurrency($value, Currency $currency);
+    public function parseCurrency($number, Currency $currency);
 
     /**
      * Gets the number format.
@@ -115,7 +118,7 @@ interface NumberFormatterInterface
     public function setMaximumFractionDigits($maximumFractionDigits);
 
     /**
-     * Returns whether the major digits will be grouped.
+     * Gets whether the major digits will be grouped.
      *
      * @return bool
      */

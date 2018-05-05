@@ -117,24 +117,24 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function format($value)
+    public function format($number)
     {
-        if (!is_numeric($value)) {
-            $message = sprintf('The provided value "%s" must be a valid number or numeric string.', $value);
+        if (!is_numeric($number)) {
+            $message = sprintf('The provided value "%s" must be a valid number or numeric string.', $number);
             throw new InvalidArgumentException($message);
         }
 
         $parsedPattern = $this->parsedPattern;
         // Ensure that the value is positive and has the right number of digits.
-        $negative = (bccomp('0', $value, 12) == 1);
+        $negative = (bccomp('0', $number, 12) == 1);
         $signMultiplier = $negative ? '-1' : '1';
-        $value = bcdiv($value, $signMultiplier, $this->maximumFractionDigits);
+        $number = bcdiv($number, $signMultiplier, $this->maximumFractionDigits);
         // Split the number into major and minor digits.
-        $valueParts = explode('.', $value);
-        $majorDigits = $valueParts[0];
+        $numberParts = explode('.', $number);
+        $majorDigits = $numberParts[0];
         // Account for maximumFractionDigits = 0, where the number won't
-        // have a decimal point, and $valueParts[1] won't be set.
-        $minorDigits = isset($valueParts[1]) ? $valueParts[1] : '';
+        // have a decimal point, and $numberParts[1] won't be set.
+        $minorDigits = isset($numberParts[1]) ? $numberParts[1] : '';
 
         if ($this->groupingUsed && $parsedPattern->isGroupingUsed()) {
             // Reverse the major digits, since they are grouped from the right.
@@ -166,21 +166,21 @@ class NumberFormatter implements NumberFormatterInterface
         }
 
         // Assemble the final number and insert it into the pattern.
-        $value = strlen($minorDigits) ? $majorDigits . '.' . $minorDigits : $majorDigits;
+        $number = strlen($minorDigits) ? $majorDigits . '.' . $minorDigits : $majorDigits;
         $pattern = $negative ? $parsedPattern->getNegativePattern() : $parsedPattern->getPositivePattern();
-        $value = preg_replace('/#(?:[\.,]#+)*0(?:[,\.][0#]+)*/', $value, $pattern);
+        $number = preg_replace('/#(?:[\.,]#+)*0(?:[,\.][0#]+)*/', $number, $pattern);
 
         // Localize the number.
-        $value = $this->replaceDigits($value);
-        $value = $this->replaceSymbols($value);
+        $number = $this->replaceDigits($number);
+        $number = $this->replaceSymbols($number);
 
-        return $value;
+        return $number;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function formatCurrency($value, Currency $currency)
+    public function formatCurrency($number, Currency $currency)
     {
         // Use the currency defaults if the values weren't set by the caller.
         $resetMinimumFractionDigits = $resetMaximumFractionDigits = false;
@@ -194,7 +194,7 @@ class NumberFormatter implements NumberFormatterInterface
         }
 
         // Format the decimal part of the value first.
-        $value = $this->format($value);
+        $number = $this->format($number);
 
         // Reset the fraction digit settings, so that they don't affect
         // future formattings with different currencies.
@@ -212,13 +212,13 @@ class NumberFormatter implements NumberFormatterInterface
             $symbol = $currency->getCurrencyCode();
         }
 
-        return str_replace('¤', $symbol, $value);
+        return str_replace('¤', $symbol, $number);
     }
 
     /**
      * {@inheritdoc}
      */
-    public function parse($value)
+    public function parse($number)
     {
         $replacements = [
             $this->numberFormat->getGroupingSeparator() => '',
@@ -237,57 +237,57 @@ class NumberFormatter implements NumberFormatterInterface
             $replacements += array_flip($this->digits[$numberingSystem]);
         }
 
-        $value = strtr($value, $replacements);
-        if (substr($value, 0, 1) == '(' && substr($value, -1, 1) == ')') {
+        $number = strtr($number, $replacements);
+        if (substr($number, 0, 1) == '(' && substr($number, -1, 1) == ')') {
             // This is an accounting formatted negative number.
-            $value = '-' . str_replace(['(', ')'], '', $value);
+            $number = '-' . str_replace(['(', ')'], '', $number);
         }
 
-        return is_numeric($value) ? $value : false;
+        return is_numeric($number) ? $number : false;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function parseCurrency($value, Currency $currency)
+    public function parseCurrency($number, Currency $currency)
     {
         $replacements = [
             // Strip the currency code or symbol.
             $currency->getCurrencyCode() => '',
             $currency->getSymbol() => '',
         ];
-        $value = strtr($value, $replacements);
+        $number = strtr($number, $replacements);
 
-        return $this->parse($value);
+        return $this->parse($number);
     }
 
     /**
      * Replaces digits with their localized equivalents.
      *
-     * @param string $value The value being formatted.
+     * @param string $number The number.
      *
      * @return string
      */
-    protected function replaceDigits($value)
+    protected function replaceDigits($number)
     {
         $numberingSystem = $this->numberFormat->getNumberingSystem();
         if (isset($this->digits[$numberingSystem])) {
-            $value = strtr($value, $this->digits[$numberingSystem]);
+            $number = strtr($number, $this->digits[$numberingSystem]);
         }
 
-        return $value;
+        return $number;
     }
 
     /**
      * Replaces number symbols with their localized equivalents.
      *
-     * @param string $value The value being formatted.
+     * @param string $number The number.
      *
      * @return string
      *
      * @see http://cldr.unicode.org/translation/number-symbols
      */
-    protected function replaceSymbols($value)
+    protected function replaceSymbols($number)
     {
         $replacements = [
             '.' => $this->numberFormat->getDecimalSeparator(),
@@ -297,7 +297,7 @@ class NumberFormatter implements NumberFormatterInterface
             '%' => $this->numberFormat->getPercentSign(),
         ];
 
-        return strtr($value, $replacements);
+        return strtr($number, $replacements);
     }
 
     /**
