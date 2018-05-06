@@ -43,30 +43,29 @@ use CommerceGuys\Intl\Currency\CurrencyRepository;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 use CommerceGuys\Intl\Formatter\NumberFormatter;
 
-$currencyRepository = new CurrencyRepository;
 $numberFormatRepository = new NumberFormatRepository;
-
+$currencyRepository = new CurrencyRepository;
 $currency = $currencyRepository->get('USD');
-$numberFormat = $numberFormatRepository->get('en');
 
-$decimalFormatter = new NumberFormatter($numberFormat);
+// The locale can be provided to the constructor or the
+// individual methods, defaults to 'en' when missing.
+$decimalFormatter = new NumberFormatter($numberFormatRepository);
 echo $decimalFormatter->format('1234.99'); // 123,456.99
 
-$percentFormatter = new NumberFormatter($numberFormat, NumberFormatter::PERCENT);
+$percentFormatter = new NumberFormatter($numberFormatRepository, NumberFormatter::PERCENT);
 echo $percentFormatter->format('0.75'); // 75%
 
-$currencyFormatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
+$currencyFormatter = new NumberFormatter($numberFormatRepository, NumberFormatter::CURRENCY);
 echo $currencyFormatter->formatCurrency('2.99', $currency); // $2.99
 
 // The accounting pattern shows negative numbers differently and is used
 // primarily for amounts shown on invoices.
-$invoiceCurrencyFormatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY_ACCOUNTING);
+$invoiceCurrencyFormatter = new NumberFormatter($numberFormatRepository, NumberFormatter::CURRENCY_ACCOUNTING);
 echo $invoiceCurrencyFormatter->formatCurrency('-2.99', $currency); // (2.99$)
 
 // Arabic, Arabic extended, Bengali, Devanagari digits are supported as expected.
 $currency = $currencyRepository->get('USD', 'ar');
-$numberFormat = $numberFormatRepository->get('ar');
-$currencyFormatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
+$currencyFormatter = new NumberFormatter($numberFormatRepository, NumberFormatter::CURRENCY, 'ar');
 echo $currencyFormatter->formatCurrency('1230.99', $currency); // US$ ١٬٢٣٠٫٩٩
 
 // Parse formatted values into numeric values.

@@ -5,6 +5,7 @@ namespace CommerceGuys\Intl\Formatter;
 use CommerceGuys\Intl\Currency\Currency;
 use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
+use CommerceGuys\Intl\NumberFormat\NumberFormatRepositoryInterface;
 
 /**
  * Formats numbers using locale-specific patterns.
@@ -12,18 +13,39 @@ use CommerceGuys\Intl\NumberFormat\NumberFormat;
 class NumberFormatter implements NumberFormatterInterface
 {
     /**
-     * The number format.
+     * The number format repository.
      *
-     * @var NumberFormat
+     * @var NumberFormatRepositoryInterface
      */
-    protected $numberFormat;
+    protected $numberFormatRepository;
 
     /**
-     * The parsed number pattern.
+     * The formatting style.
      *
-     * @var ParsedPattern
+     * @var int
      */
-    protected $parsedPattern;
+    protected $style;
+
+    /**
+     * The default locale.
+     *
+     * @var string
+     */
+    protected $defaultLocale;
+
+    /**
+     * The loaded number formats.
+     *
+     * @var NumberFormat[]
+     */
+    protected $numberFormats = [];
+
+    /**
+     * The parsed number patterns, keyed by locale and style.
+     *
+     * @var ParsedPattern[]
+     */
+    protected $parsedPatterns = [];
 
     /**
      * Whether grouping is used.
@@ -80,31 +102,25 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * Creates a NumberFormatter instance.
      *
-     * @param NumberFormat $numberFormat The number format.
-     * @param int                   $style        The formatting style.
+     * @param NumberFormatRepositoryInterface $numberFormatRepository The number format repository.
+     * @param int                             $style                  The formatting style.
+     * @param string                          $defaultLocale          The default locale. Defaults to 'en'.
      *
      * @throws \InvalidArgumentException
      * @throws \RuntimeException
      */
-    public function __construct(NumberFormat $numberFormat, $style = self::DECIMAL)
+    public function __construct(NumberFormatRepositoryInterface $numberFormatRepository, $style = self::DECIMAL, $defaultLocale = 'en')
     {
         if (!extension_loaded('bcmath')) {
             throw new \RuntimeException('The bcmath extension is required by NumberFormatter.');
         }
-
-        $this->numberFormat = $numberFormat;
-        $availablePatterns = [
-            self::DECIMAL => $numberFormat->getDecimalPattern(),
-            self::PERCENT => $numberFormat->getPercentPattern(),
-            self::CURRENCY => $numberFormat->getCurrencyPattern(),
-            self::CURRENCY_ACCOUNTING => $numberFormat->getAccountingCurrencyPattern(),
-        ];
-        if (!array_key_exists($style, $availablePatterns)) {
-            // Unknown type.
+        if (!in_array($style, [self::DECIMAL, self::PERCENT, self::CURRENCY, self::CURRENCY_ACCOUNTING])) {
             throw new InvalidArgumentException('Unknown format style provided to NumberFormatter::__construct().');
         }
-        $this->parsedPattern = new ParsedPattern($availablePatterns[$style]);
 
+        $this->numberFormatRepository = $numberFormatRepository;
+        $this->style = $style;
+        $this->defaultLocale = $defaultLocale;
         // Initialize the fraction digit settings for decimal and percent
         // styles only. The currency ones will default to the currency values.
         if (in_array($style, [self::DECIMAL, self::PERCENT])) {
@@ -117,14 +133,16 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function format($number)
+    public function format($number, $locale = null)
     {
         if (!is_numeric($number)) {
             $message = sprintf('The provided value "%s" must be a valid number or numeric string.', $number);
             throw new InvalidArgumentException($message);
         }
 
-        $parsedPattern = $this->parsedPattern;
+        $locale = $locale ?: $this->defaultLocale;
+        $numberFormat = $this->getNumberFormat($locale);
+        $parsedPattern = $this->getParsedPattern($numberFormat, $this->style);
         // Ensure that the value is positive and has the right number of digits.
         $negative = (bccomp('0', $number, 12) == 1);
         $signMultiplier = $negative ? '-1' : '1';
@@ -169,10 +187,7 @@ class NumberFormatter implements NumberFormatterInterface
         $number = strlen($minorDigits) ? $majorDigits . '.' . $minorDigits : $majorDigits;
         $pattern = $negative ? $parsedPattern->getNegativePattern() : $parsedPattern->getPositivePattern();
         $number = preg_replace('/#(?:[\.,]#+)*0(?:[,\.][0#]+)*/', $number, $pattern);
-
-        // Localize the number.
-        $number = $this->replaceDigits($number);
-        $number = $this->replaceSymbols($number);
+        $number = $this->localizeNumber($number, $numberFormat);
 
         return $number;
     }
@@ -180,7 +195,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function formatCurrency($number, Currency $currency)
+    public function formatCurrency($number, Currency $currency, $locale = null)
     {
         // Use the currency defaults if the values weren't set by the caller.
         $resetMinimumFractionDigits = $resetMaximumFractionDigits = false;
@@ -194,10 +209,10 @@ class NumberFormatter implements NumberFormatterInterface
         }
 
         // Format the decimal part of the value first.
-        $number = $this->format($number);
+        $number = $this->format($number, $locale);
 
         // Reset the fraction digit settings, so that they don't affect
-        // future formattings with different currencies.
+        // future formatting with different currencies.
         if ($resetMinimumFractionDigits) {
             $this->minimumFractionDigits = null;
         }
@@ -218,20 +233,22 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function parse($number)
+    public function parse($number, $locale = null)
     {
+        $locale = $locale ?: $this->defaultLocale;
+        $numberFormat = $this->getNumberFormat($locale);
         $replacements = [
-            $this->numberFormat->getGroupingSeparator() => '',
+            $numberFormat->getGroupingSeparator() => '',
             // Convert the localized symbols back to their original form.
-            $this->numberFormat->getDecimalSeparator() => '.',
-            $this->numberFormat->getPlusSign() => '+',
-            $this->numberFormat->getMinusSign() => '-',
+            $numberFormat->getDecimalSeparator() => '.',
+            $numberFormat->getPlusSign() => '+',
+            $numberFormat->getMinusSign() => '-',
 
             // Strip whitespace (spaces and non-breaking spaces).
             ' ' => '',
             chr(0xC2) . chr(0xA0) => '',
         ];
-        $numberingSystem = $this->numberFormat->getNumberingSystem();
+        $numberingSystem = $numberFormat->getNumberingSystem();
         if (isset($this->digits[$numberingSystem])) {
             // Convert the localized digits back to latin.
             $replacements += array_flip($this->digits[$numberingSystem]);
@@ -249,7 +266,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function parseCurrency($number, Currency $currency)
+    public function parseCurrency($number, Currency $currency, $locale = null)
     {
         $replacements = [
             // Strip the currency code or symbol.
@@ -258,54 +275,79 @@ class NumberFormatter implements NumberFormatterInterface
         ];
         $number = strtr($number, $replacements);
 
-        return $this->parse($number);
+        return $this->parse($number, $locale);
     }
 
     /**
-     * Replaces digits with their localized equivalents.
+     * Localizes the number according to the number format.
      *
-     * @param string $number The number.
+     * Both the digits and the symbols are replaced
+     * with their localized equivalents.
      *
-     * @return string
+     * @param string       $number       The number.
+     * @param NumberFormat $numberFormat The number format.
+     *
+     * @return string The localized number.
+     *
+     * @see http://cldr.unicode.org/translation/number-symbols
      */
-    protected function replaceDigits($number)
+    protected function localizeNumber($number, NumberFormat $numberFormat)
     {
-        $numberingSystem = $this->numberFormat->getNumberingSystem();
+        // Localize digits.
+        $numberingSystem = $numberFormat->getNumberingSystem();
         if (isset($this->digits[$numberingSystem])) {
             $number = strtr($number, $this->digits[$numberingSystem]);
         }
+        // Localize symbols.
+        $replacements = [
+            '.' => $numberFormat->getDecimalSeparator(),
+            ',' => $numberFormat->getGroupingSeparator(),
+            '+' => $numberFormat->getPlusSign(),
+            '-' => $numberFormat->getMinusSign(),
+            '%' => $numberFormat->getPercentSign(),
+        ];
+        $number = strtr($number, $replacements);
 
         return $number;
     }
 
     /**
-     * Replaces number symbols with their localized equivalents.
+     * Gets the number format for the provided locale.
      *
-     * @param string $number The number.
+     * @param string $locale The locale.
      *
-     * @return string
-     *
-     * @see http://cldr.unicode.org/translation/number-symbols
+     * @return NumberFormat
      */
-    protected function replaceSymbols($number)
+    protected function getNumberFormat($locale)
     {
-        $replacements = [
-            '.' => $this->numberFormat->getDecimalSeparator(),
-            ',' => $this->numberFormat->getGroupingSeparator(),
-            '+' => $this->numberFormat->getPlusSign(),
-            '-' => $this->numberFormat->getMinusSign(),
-            '%' => $this->numberFormat->getPercentSign(),
-        ];
+        if (!isset($this->numberFormats[$locale])) {
+            $this->numberFormats[$locale] = $this->numberFormatRepository->get($locale);
+        }
 
-        return strtr($number, $replacements);
+        return $this->numberFormats[$locale];
     }
 
     /**
-     * {@inheritdoc}
+     * Gets the pattern for the provided number format.
+     *
+     * @param NumberFormat $numberFormat The number format.
+     *
+     * @return ParsedPattern
      */
-    public function getNumberFormat()
+    protected function getParsedPattern(NumberFormat $numberFormat, $style)
     {
-        return $this->numberFormat;
+        $locale = $numberFormat->getLocale();
+        if (!isset($this->parsedPatterns[$locale][$style])) {
+            $availablePatterns = [
+                self::DECIMAL => $numberFormat->getDecimalPattern(),
+                self::PERCENT => $numberFormat->getPercentPattern(),
+                self::CURRENCY => $numberFormat->getCurrencyPattern(),
+                self::CURRENCY_ACCOUNTING => $numberFormat->getAccountingCurrencyPattern(),
+            ];
+            $this->parsedPatterns[$locale][$style] = new ParsedPattern($availablePatterns[$style]);
+        }
+
+        return $this->parsedPatterns[$locale][$style];
     }
 
     /**

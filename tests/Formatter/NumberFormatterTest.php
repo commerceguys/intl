@@ -5,6 +5,7 @@ namespace CommerceGuys\Intl\Tests\Formatter;
 use CommerceGuys\Intl\Currency\Currency;
 use CommerceGuys\Intl\Formatter\NumberFormatter;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
+use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Formatter\NumberFormatter
@@ -12,29 +13,7 @@ use CommerceGuys\Intl\NumberFormat\NumberFormat;
 class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Prepare two number formats.
-     */
-    protected $numberFormats = [
-        'en' => [
-            'locale' => 'en',
-            'numbering_system' => 'latn',
-            'decimal_pattern' => '#,##0.###',
-            'percent_pattern' => '#,##0%',
-            'currency_pattern' => '¤#,##0.00',
-            'accounting_currency_pattern' => '¤#,##0.00;(¤#,##0.00)',
-        ],
-        'bn' => [
-            'locale' => 'bn',
-            'numbering_system' => 'beng',
-            'decimal_pattern' => '#,##,##0.###',
-            'percent_pattern' => '#,##,##0%',
-            'currency_pattern' => '#,##,##0.00¤',
-            'accounting_currency_pattern' => '#,##,##0.00¤;(#,##,##0.00¤)',
-        ],
-    ];
-
-    /**
-     * Prepare two currency formats.
+     * Prepare two currencies.
      */
     protected $currencies = [
         'USD' => [
@@ -56,19 +35,6 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::__construct
      *
-     * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::getNumberFormat
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
-     */
-    public function testConstructor()
-    {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
-        $this->assertSame($numberFormat, $formatter->getNumberFormat());
-    }
-
-    /**
-     * @covers ::__construct
-     *
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      *
      * @expectedException         \CommerceGuys\Intl\Exception\InvalidArgumentException
@@ -76,8 +42,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstructorWithInvalidStyle()
     {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
-        new NumberFormatter($numberFormat, 'foo');
+        $numberFormatRepository = new NumberFormatRepository();
+        $formatter = new NumberFormatter($numberFormatRepository, 'foo');
     }
 
     /**
@@ -90,11 +56,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider numberValueProvider
      */
-    public function testFormat($numberFormat, $style, $number, $expectedNumber)
+    public function testFormat($locale, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter($numberFormat, $style);
+        $numberFormatRepository = new NumberFormatRepository();
+        $formatter = new NumberFormatter($numberFormatRepository, $style);
 
-        $formattedNumber = $formatter->format($number);
+        $formattedNumber = $formatter->format($number, $locale);
         $this->assertSame($expectedNumber, $formattedNumber);
     }
 
@@ -110,31 +77,26 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormatFractionDigits()
     {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
-
-        $formatter = new NumberFormatter($numberFormat);
+        $numberFormatRepository = new NumberFormatRepository();
+        $formatter = new NumberFormatter($numberFormatRepository);
         $formatter->setMinimumFractionDigits(2);
         $formattedNumber = $formatter->format('12.5');
         $this->assertSame('12.50', $formattedNumber);
 
-        $formatter = new NumberFormatter($numberFormat);
         $formatter->setMaximumFractionDigits(1);
         $formattedNumber = $formatter->format('12.50');
         $this->assertSame('12.5', $formattedNumber);
 
-        $formatter = new NumberFormatter($numberFormat);
         $formatter->setMinimumFractionDigits(4);
         $formatter->setMaximumFractionDigits(5);
         $formattedNumber = $formatter->format('12.50000');
         $this->assertSame('12.5000', $formattedNumber);
 
-        $formatter = new NumberFormatter($numberFormat);
         $formatter->setMinimumFractionDigits(1);
         $formatter->setMaximumFractionDigits(2);
         $formattedNumber = $formatter->format('12.0000');
         $this->assertSame('12.0', $formattedNumber);
 
-        $formatter = new NumberFormatter($numberFormat);
         $formatter->setMinimumFractionDigits(1);
         $formatter->setMaximumFractionDigits(2);
         $formattedNumber = $formatter->format('12');
@@ -152,8 +114,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormatOnlyAllowsNumbers()
     {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
-        $formatter = new NumberFormatter($numberFormat);
+        $numberFormatRepository = new NumberFormatRepository();
+        $formatter = new NumberFormatter($numberFormatRepository);
         $formatter->format('a12.34');
     }
 
@@ -169,11 +131,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider currencyValueProvider
      */
-    public function testFormatCurrency($numberFormat, $currency, $style, $number, $expectedNumber)
+    public function testFormatCurrency($locale, $currency, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter($numberFormat, $style);
+        $numberFormatRepository = new NumberFormatRepository();
+        $formatter = new NumberFormatter($numberFormatRepository, $style);
 
-        $formattedNumber = $formatter->formatCurrency($number, $currency);
+        $formattedNumber = $formatter->formatCurrency($number, $currency, $locale);
         $this->assertSame($expectedNumber, $formattedNumber);
     }
 
@@ -185,11 +148,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider formattedValueProvider
      */
-    public function testParse($numberFormat, $style, $number, $expectedNumber)
+    public function testParse($locale, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter($numberFormat, $style);
+        $numberFormatRepository = new NumberFormatRepository();
+        $formatter = new NumberFormatter($numberFormatRepository, $style);
 
-        $parsedNumber = $formatter->parse($number);
+        $parsedNumber = $formatter->parse($number, $locale);
         $this->assertSame($expectedNumber, $parsedNumber);
     }
 
@@ -202,25 +166,13 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider formattedCurrencyProvider
      */
-    public function testParseCurrency($numberFormat, $currency, $style, $number, $expectedNumber)
+    public function testParseCurrency($locale, $currency, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter($numberFormat, $style);
+        $numberFormatRepository = new NumberFormatRepository();
+        $formatter = new NumberFormatter($numberFormatRepository, $style);
 
-        $parsedNumber = $formatter->parseCurrency($number, $currency);
+        $parsedNumber = $formatter->parseCurrency($number, $currency, $locale);
         $this->assertSame($expectedNumber, $parsedNumber);
-    }
-
-    /**
-     * @covers ::getNumberFormat
-     *
-     * @uses \CommerceGuys\Intl\Formatter\NumberFormatter::__construct
-     * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
-     */
-    public function testGetNumberFormat()
-    {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
-        $this->assertSame($numberFormat, $formatter->getNumberFormat());
     }
 
     /**
@@ -231,18 +183,17 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testMinimumFractionDigits()
     {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
-
+        $numberFormatRepository = new NumberFormatRepository();
         // Defaults to 0 for decimal and percentage formats.
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::DECIMAL);
         $this->assertEquals(0, $formatter->getMinimumFractionDigits());
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::PERCENT);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::PERCENT);
         $this->assertEquals(0, $formatter->getMinimumFractionDigits());
 
         // Should default to null for currency formats.
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::CURRENCY);
         $this->assertNull($formatter->getMinimumFractionDigits());
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY_ACCOUNTING);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::CURRENCY_ACCOUNTING);
         $this->assertNull($formatter->getMinimumFractionDigits());
     }
 
@@ -254,18 +205,17 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testMaximumFractionDigits()
     {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
-
+        $numberFormatRepository = new NumberFormatRepository();
         // Defaults to 3 for decimal and percentage formats.
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::DECIMAL);
         $this->assertEquals(3, $formatter->getMaximumFractionDigits());
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::PERCENT);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::PERCENT);
         $this->assertEquals(3, $formatter->getMaximumFractionDigits());
 
         // Should default to null for currency formats.
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::CURRENCY);
         $this->assertNull($formatter->getMaximumFractionDigits());
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY_ACCOUNTING);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::CURRENCY_ACCOUNTING);
         $this->assertNull($formatter->getMaximumFractionDigits());
     }
 
@@ -281,26 +231,23 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testGroupingUsed()
     {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
+        $numberFormatRepository = new NumberFormatRepository();
         // The formatter groups correctly.
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
-        $this->assertTrue($formatter->isGroupingUsed());
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::DECIMAL);
         $this->assertSame('10,000.9', $formatter->format('10000.90'));
 
         // The formatter respects grouping turned off.
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::DECIMAL);
         $formatter->setGroupingUsed(false);
         $this->assertFalse($formatter->isGroupingUsed());
         $this->assertSame('10000.9', $formatter->format('10000.90'));
 
         // Test secondary groups.
-        $numberFormat = new NumberFormat($this->numberFormats['bn']);
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::DECIMAL);
-        $this->assertTrue($formatter->isGroupingUsed());
-        $this->assertSame('১,২৩,৪৫,৬৭৮.৯', $formatter->format('12345678.90'));
+        $formatter->setGroupingUsed(true);
+        $this->assertSame('১,২৩,৪৫,৬৭৮.৯', $formatter->format('12345678.90', 'bn'));
 
         // No grouping needed.
-        $this->assertSame('১২৩.৯', $formatter->format('123.90'));
+        $this->assertSame('১২৩.৯', $formatter->format('123.90', 'bn'));
     }
 
     /**
@@ -317,11 +264,11 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testCurrencyDisplay()
     {
-        $numberFormat = new NumberFormat($this->numberFormats['en']);
+        $numberFormatRepository = new NumberFormatRepository();
         $currency = new Currency($this->currencies['USD']);
 
         // Currency display defaults to symbol.
-        $formatter = new NumberFormatter($numberFormat, NumberFormatter::CURRENCY);
+        $formatter = new NumberFormatter($numberFormatRepository, NumberFormatter::CURRENCY);
         $this->assertSame(NumberFormatter::CURRENCY_DISPLAY_SYMBOL, $formatter->getCurrencyDisplay());
         $formattedNumber = $formatter->formatCurrency('100', $currency);
         $this->assertSame('$100.00', $formattedNumber);
@@ -338,17 +285,16 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Provides the number format, number style, value and expected formatted value.
+     * Provides the locale, number style, value and expected formatted value.
      */
     public function numberValueProvider()
     {
         return [
-            [new NumberFormat($this->numberFormats['en']), NumberFormatter::DECIMAL, '-50.5', '-50.5'],
-            [new NumberFormat($this->numberFormats['en']), NumberFormatter::PERCENT, '50.5', '50.5%'],
-            [new NumberFormat($this->numberFormats['en']), NumberFormatter::DECIMAL, '5000000.5', '5,000,000.5'],
-            [new NumberFormat($this->numberFormats['bn']), NumberFormatter::DECIMAL, '-50.5', '-৫০.৫'],
-            [new NumberFormat($this->numberFormats['bn']), NumberFormatter::PERCENT, '50.5', '৫০.৫%'],
-            [new NumberFormat($this->numberFormats['bn']), NumberFormatter::DECIMAL, '5000000.5', '৫০,০০,০০০.৫'],
+            ['en', NumberFormatter::DECIMAL, '-50.5', '-50.5'],
+            ['en', NumberFormatter::PERCENT, '50.5', '50.5%'],
+            ['en', NumberFormatter::DECIMAL, '5000000.5', '5,000,000.5'],
+            ['bn', NumberFormatter::DECIMAL, '-50.5', '-৫০.৫'],
+            ['bn', NumberFormatter::DECIMAL, '5000000.5', '৫০,০০,০০০.৫'],
         ];
     }
 
@@ -358,12 +304,12 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function currencyValueProvider()
     {
         return [
-            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '-5.05', '-$5.05'],
-            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '-5.05', '($5.05)'],
-            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '500100.05', '$500,100.05'],
-            [new NumberFormat($this->numberFormats['bn']), new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '-50.5', '-৫০.৫০BND'],
-            [new NumberFormat($this->numberFormats['bn']), new Currency($this->currencies['BND']), NumberFormatter::CURRENCY_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
-            [new NumberFormat($this->numberFormats['bn']), new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '500100.05', '৫,০০,১০০.০৫BND'],
+            ['en', new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '-5.05', '-$5.05'],
+            ['en', new Currency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '-5.05', '($5.05)'],
+            ['en', new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '500100.05', '$500,100.05'],
+            ['bn', new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '-50.5', '-৫০.৫০BND'],
+            ['bn', new Currency($this->currencies['BND']), NumberFormatter::CURRENCY_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
+            ['bn', new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '500100.05', '৫,০০,১০০.০৫BND'],
         ];
     }
 
@@ -373,9 +319,9 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function formattedValueProvider()
     {
         return [
-            [new NumberFormat($this->numberFormats['en']), NumberFormatter::DECIMAL, '500,100.05', '500100.05'],
-            [new NumberFormat($this->numberFormats['en']), NumberFormatter::DECIMAL, '-1,059.59', '-1059.59'],
-            [new NumberFormat($this->numberFormats['bn']), NumberFormatter::DECIMAL, '৫,০০,১০০.০৫', '500100.05'],
+            ['en', NumberFormatter::DECIMAL, '500,100.05', '500100.05'],
+            ['en', NumberFormatter::DECIMAL, '-1,059.59', '-1059.59'],
+            ['bn', NumberFormatter::DECIMAL, '৫,০০,১০০.০৫', '500100.05'],
         ];
     }
 
@@ -385,10 +331,10 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function formattedCurrencyProvider()
     {
         return [
-            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '$500,100.05', '500100.05'],
-            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '-$1,059.59', '-1059.59'],
-            [new NumberFormat($this->numberFormats['en']), new Currency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '($1,059.59)', '-1059.59'],
-            [new NumberFormat($this->numberFormats['bn']), new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '৫,০০,১০০.০৫BND', '500100.05'],
+            ['en', new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '$500,100.05', '500100.05'],
+            ['en', new Currency($this->currencies['USD']), NumberFormatter::CURRENCY, '-$1,059.59', '-1059.59'],
+            ['en', new Currency($this->currencies['USD']), NumberFormatter::CURRENCY_ACCOUNTING, '($1,059.59)', '-1059.59'],
+            ['bn', new Currency($this->currencies['BND']), NumberFormatter::CURRENCY, '৫,০০,১০০.০৫BND', '500100.05'],
         ];
     }
 }

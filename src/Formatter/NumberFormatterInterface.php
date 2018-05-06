@@ -71,13 +71,6 @@ interface NumberFormatterInterface
     public function parseCurrency($number, Currency $currency);
 
     /**
-     * Gets the number format.
-     *
-     * @return NumberFormat
-     */
-    public function getNumberFormat();
-
-    /**
      * Gets the minimum number of fraction digits.
      *
      * Defaults to 0 for decimal and percentage styles.
