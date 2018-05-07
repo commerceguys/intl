@@ -70,6 +70,16 @@ echo $currencyFormatter->formatCurrency('1230.99', $currency); // US$ ١٬٢٣٠
 
 // Parse formatted values into numeric values.
 echo $currencyFormatter->parseCurrency('US$ ١٬٢٣٠٫٩٩', $currency); // 1230.99
+
+// Convert number from one format to another.
+$number = "14,445"
+$source_number_format = $number_formatter_repository->get('en');
+$source_number_formatter = new NumberFormatter($source_number_format, NumberFormatter::DECIMAL);
+$target_number_format = $number_formatter_repository->get('fr');
+$target_number_formatter = new NumberFormatter($target_number_format, NumberFormatter::DECIMAL);
+
+$parsed_number = $source_number_formatter->parse($number); // 14445
+$formatted_number = $target_number_formatter->format($parsed_number); // 14 445
 ```
 
 Currencies
