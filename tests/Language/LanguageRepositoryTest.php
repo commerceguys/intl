@@ -68,8 +68,8 @@ class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('inglés', $language->getName());
         $this->assertEquals('es', $language->getLocale());
 
-        // Default locale.
-        $language = $languageRepository->get('en');
+        // Default locale, uppercase language code.
+        $language = $languageRepository->get('EN');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Language\\Language', $language);
         $this->assertEquals('en', $language->getLanguageCode());
         $this->assertEquals('Englisch', $language->getName());

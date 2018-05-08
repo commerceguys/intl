@@ -85,6 +85,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      */
     public function get($currencyCode, $locale = null)
     {
+        $currencyCode = strtoupper($currencyCode);
         $baseDefinitions = $this->getBaseDefinitions();
         if (!isset($baseDefinitions[$currencyCode])) {
             throw new UnknownCurrencyException($currencyCode);

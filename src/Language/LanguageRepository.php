@@ -95,6 +95,7 @@ class LanguageRepository implements LanguageRepositoryInterface
         $locale = $locale ?: $this->defaultLocale;
         $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
         $definitions = $this->loadDefinitions($locale);
+        $languageCode = strtolower($languageCode);
         if (!isset($definitions[$languageCode])) {
             throw new UnknownLanguageException($languageCode);
         }

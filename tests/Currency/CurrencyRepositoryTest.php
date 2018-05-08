@@ -86,8 +86,8 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('US$', $currency->getSymbol());
         $this->assertEquals('es', $currency->getLocale());
 
-        // Default locale.
-        $currency = $currencyRepository->get('USD');
+        // Default locale, lowercase currency code.
+        $currency = $currencyRepository->get('usd');
         $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
         $this->assertEquals('USD', $currency->getCurrencyCode());
         $this->assertEquals('US-Dollar', $currency->getName());
