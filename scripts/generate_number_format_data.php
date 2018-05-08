@@ -83,12 +83,25 @@ function generate_number_formats()
             $numberingSystem = 'latn';
         }
 
+        $patterns = [
+            'decimal' => $data['decimalFormats-numberSystem-' . $numberingSystem]['standard'],
+            'percent' =>  $data['percentFormats-numberSystem-' . $numberingSystem]['standard'],
+            'currency' => $data['currencyFormats-numberSystem-' . $numberingSystem]['standard'],
+            'accounting' => $data['currencyFormats-numberSystem-' . $numberingSystem]['accounting'],
+        ];
+        // The "bg" patterns have no '#', confusing the formatter.
+        foreach ($patterns as $key => $pattern) {
+            if (strpos($pattern, '#') === false) {
+                $patterns[$key] = str_replace('0.00', '#0.00', $pattern);
+            }
+        }
+
         $numberFormats[$locale] = [
             'numbering_system' => $numberingSystem,
-            'decimal_pattern' => $data['decimalFormats-numberSystem-' . $numberingSystem]['standard'],
-            'percent_pattern' => $data['percentFormats-numberSystem-' . $numberingSystem]['standard'],
-            'currency_pattern' => $data['currencyFormats-numberSystem-' . $numberingSystem]['standard'],
-            'accounting_currency_pattern' => $data['currencyFormats-numberSystem-' . $numberingSystem]['accounting'],
+            'decimal_pattern' => $patterns['decimal'],
+            'percent_pattern' => $patterns['percent'],
+            'currency_pattern' => $patterns['currency'],
+            'accounting_currency_pattern' => $patterns['accounting'],
         ];
         // No need to export 'latn' since that is the default value.
         if ($numberFormats[$locale]['numbering_system'] != 'latn') {

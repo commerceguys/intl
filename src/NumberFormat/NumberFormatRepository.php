@@ -168,8 +168,8 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00¤',
             ],
             'bg' => [
-                'currency_pattern' => '0.00 ¤',
-                'accounting_currency_pattern' => '0.00 ¤;(0.00 ¤)',
+                'currency_pattern' => '#0.00 ¤',
+                'accounting_currency_pattern' => '#0.00 ¤;(#0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
             ],
