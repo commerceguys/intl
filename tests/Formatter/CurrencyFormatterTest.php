@@ -55,6 +55,17 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::format
      */
+    public function testUnknownCurrencyFormat()
+    {
+        // XSD doesn't exist. The formatter should use the code as-is,
+        // and default to 2 fraction digits.
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
+        $this->assertSame('XSD9.99', $formatter->format('9.99', 'XSD'));
+    }
+
+    /**
+     * @covers ::format
+     */
     public function testAdvancedFormat()
     {
         $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());

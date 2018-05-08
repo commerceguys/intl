@@ -5,6 +5,7 @@ namespace CommerceGuys\Intl\Formatter;
 use CommerceGuys\Intl\Currency\Currency;
 use CommerceGuys\Intl\Currency\CurrencyRepositoryInterface;
 use CommerceGuys\Intl\Exception\InvalidArgumentException;
+use CommerceGuys\Intl\Exception\UnknownCurrencyException;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepositoryInterface;
 
@@ -188,7 +189,19 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     protected function getCurrency($currencyCode, $locale)
     {
         if (!isset($this->currencies[$currencyCode][$locale])) {
-            $this->currencies[$currencyCode][$locale] = $this->currencyRepository->get($currencyCode, $locale);
+            try {
+                $currency = $this->currencyRepository->get($currencyCode, $locale);
+            } catch (UnknownCurrencyException $e) {
+                // The requested currency was not found. Fall back
+                // to a dummy object to show just the currency code.
+                $currency = new Currency([
+                   'currency_code' => $currencyCode,
+                   'name' => $currencyCode,
+                   'numeric_code' => '000',
+                   'locale' => $locale,
+                ]);
+            }
+            $this->currencies[$currencyCode][$locale] = $currency;
         }
 
         return $this->currencies[$currencyCode][$locale];
