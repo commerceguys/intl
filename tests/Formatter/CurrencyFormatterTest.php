@@ -3,6 +3,7 @@
 namespace CommerceGuys\Intl\Tests\Formatter;
 
 use CommerceGuys\Intl\Currency\Currency;
+use CommerceGuys\Intl\Currency\CurrencyRepository;
 use CommerceGuys\Intl\Formatter\CurrencyFormatter;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
@@ -13,26 +14,6 @@ use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Prepare two currencies.
-     */
-    protected $currencies = [
-        'USD' => [
-            'currency_code' => 'USD',
-            'name' => 'US Dollar',
-            'numeric_code' => '840',
-            'symbol' => '$',
-            'locale' => 'en',
-        ],
-        'BND' => [
-            'currency_code' => 'BND',
-            'name' => 'dollar Brunei',
-            'numeric_code' => '096',
-            'symbol' => 'BND',
-            'locale' => 'bn',
-        ],
-    ];
-
-    /**
      * @covers ::__construct
      *
      * @expectedException        \CommerceGuys\Intl\Exception\InvalidArgumentException
@@ -40,11 +21,9 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormatWithInvalidStyle()
     {
-        $currency = new Currency($this->currencies['USD']);
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new CurrencyFormatter($numberFormatRepository);
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
         $formatter->setStyle('INVALID');
-        $formatter->format('9.99', $currency);
+        $formatter->format('9.99', 'USD');
     }
 
     /**
@@ -55,10 +34,8 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormatWithInvalidNumber()
     {
-        $currency = new Currency($this->currencies['USD']);
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new CurrencyFormatter($numberFormatRepository);
-        $formatter->format('a12.34', $currency);
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
+        $formatter->format('a12.34', 'USD');
     }
 
     /**
@@ -66,13 +43,12 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider currencyValueProvider
      */
-    public function testBasicFormat($locale, $currency, $style, $number, $expectedNumber)
+    public function testBasicFormat($locale, $currencyCode, $style, $number, $expectedNumber)
     {
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new CurrencyFormatter($numberFormatRepository);
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
         $formatter->setStyle($style);
 
-        $formattedNumber = $formatter->format($number, $currency, $locale);
+        $formattedNumber = $formatter->format($number, $currencyCode, $locale);
         $this->assertSame($expectedNumber, $formattedNumber);
     }
 
@@ -81,39 +57,36 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testAdvancedFormat()
     {
-        $currency = new Currency($this->currencies['USD']);
-        $numberFormatRepository = new NumberFormatRepository();
-
-        $formatter = new CurrencyFormatter($numberFormatRepository);
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
         $formatter->setMinimumFractionDigits(2);
-        $this->assertSame('$12.50', $formatter->format('12.5', $currency));
+        $this->assertSame('$12.50', $formatter->format('12.5', 'USD'));
 
         $formatter->setMinimumFractionDigits(1);
         $formatter->setMaximumFractionDigits(2);
-        $this->assertSame('$12.0', $formatter->format('12', $currency));
+        $this->assertSame('$12.0', $formatter->format('12', 'USD'));
 
         $formatter->setMinimumFractionDigits(1);
         $formatter->setMaximumFractionDigits(2);
-        $this->assertSame('$12.99', $formatter->format('12.999', $currency));
+        $this->assertSame('$12.99', $formatter->format('12.999', 'USD'));
 
         // Format with and without grouping.
-        $this->assertSame('$10,000.9', $formatter->format('10000.90', $currency));
+        $this->assertSame('$10,000.9', $formatter->format('10000.90', 'USD'));
         $formatter->setGroupingUsed(false);
-        $this->assertSame('$10000.9', $formatter->format('10000.90', $currency));
+        $this->assertSame('$10000.9', $formatter->format('10000.90', 'USD'));
 
         // Test secondary groups.
         $formatter->setGroupingUsed(true);
-        $this->assertSame('১,২৩,৪৫,৬৭৮.৯$', $formatter->format('12345678.90', $currency, 'bn'));
+        $this->assertSame('১,২৩,৪৫,৬৭৮.৯US$', $formatter->format('12345678.90', 'USD', 'bn'));
 
         // No grouping needed.
-        $this->assertSame('১২৩.৯$', $formatter->format('123.90', $currency, 'bn'));
+        $this->assertSame('১২৩.৯US$', $formatter->format('123.90', 'USD', 'bn'));
 
         // Alternative currency display.
         $formatter->setCurrencyDisplay(CurrencyFormatter::CURRENCY_DISPLAY_CODE);
-        $this->assertSame('USD100.0', $formatter->format('100', $currency));
+        $this->assertSame('USD100.0', $formatter->format('100', 'USD'));
 
         $formatter->setCurrencyDisplay(CurrencyFormatter::CURRENCY_DISPLAY_NONE);
-        $this->assertSame('100.0', $formatter->format('100', $currency));
+        $this->assertSame('100.0', $formatter->format('100', 'USD'));
     }
 
     /**
@@ -121,13 +94,12 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider formattedCurrencyProvider
      */
-    public function testParse($locale, $currency, $style, $number, $expectedNumber)
+    public function testParse($locale, $currencyCode, $style, $number, $expectedNumber)
     {
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new CurrencyFormatter($numberFormatRepository);
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
         $formatter->setStyle($style);
 
-        $parsedNumber = $formatter->parse($number, $currency, $locale);
+        $parsedNumber = $formatter->parse($number, $currencyCode, $locale);
         $this->assertSame($expectedNumber, $parsedNumber);
     }
 
@@ -145,8 +117,7 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testOptions()
     {
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new CurrencyFormatter($numberFormatRepository);
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
 
         $this->assertEquals(CurrencyFormatter::STYLE_STANDARD, $formatter->getStyle());
         $formatter->setStyle(CurrencyFormatter::STYLE_ACCOUNTING);
@@ -175,12 +146,12 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
     public function currencyValueProvider()
     {
         return [
-            ['en', new Currency($this->currencies['USD']), CurrencyFormatter::STYLE_STANDARD, '-5.05', '-$5.05'],
-            ['en', new Currency($this->currencies['USD']), CurrencyFormatter::STYLE_ACCOUNTING, '-5.05', '($5.05)'],
-            ['en', new Currency($this->currencies['USD']), CurrencyFormatter::STYLE_STANDARD, '500100.05', '$500,100.05'],
-            ['bn', new Currency($this->currencies['BND']), CurrencyFormatter::STYLE_STANDARD, '-50.5', '-৫০.৫০BND'],
-            ['bn', new Currency($this->currencies['BND']), CurrencyFormatter::STYLE_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
-            ['bn', new Currency($this->currencies['BND']), CurrencyFormatter::STYLE_STANDARD, '500100.05', '৫,০০,১০০.০৫BND'],
+            ['en', 'USD', CurrencyFormatter::STYLE_STANDARD, '-5.05', '-$5.05'],
+            ['en', 'USD', CurrencyFormatter::STYLE_ACCOUNTING, '-5.05', '($5.05)'],
+            ['en', 'USD', CurrencyFormatter::STYLE_STANDARD, '500100.05', '$500,100.05'],
+            ['bn', 'BND', CurrencyFormatter::STYLE_STANDARD, '-50.5', '-৫০.৫০BND'],
+            ['bn', 'BND', CurrencyFormatter::STYLE_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
+            ['bn', 'BND', CurrencyFormatter::STYLE_STANDARD, '500100.05', '৫,০০,১০০.০৫BND'],
         ];
     }
 
@@ -190,10 +161,10 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
     public function formattedCurrencyProvider()
     {
         return [
-            ['en', new Currency($this->currencies['USD']), CurrencyFormatter::STYLE_STANDARD, '$500,100.05', '500100.05'],
-            ['en', new Currency($this->currencies['USD']), CurrencyFormatter::STYLE_STANDARD, '-$1,059.59', '-1059.59'],
-            ['en', new Currency($this->currencies['USD']), CurrencyFormatter::STYLE_ACCOUNTING, '($1,059.59)', '-1059.59'],
-            ['bn', new Currency($this->currencies['BND']), CurrencyFormatter::STYLE_STANDARD, '৫,০০,১০০.০৫BND', '500100.05'],
+            ['en', 'USD', CurrencyFormatter::STYLE_STANDARD, '$500,100.05', '500100.05'],
+            ['en', 'USD', CurrencyFormatter::STYLE_STANDARD, '-$1,059.59', '-1059.59'],
+            ['en', 'USD', CurrencyFormatter::STYLE_ACCOUNTING, '($1,059.59)', '-1059.59'],
+            ['bn', 'BND', CurrencyFormatter::STYLE_STANDARD, '৫,০০,১০০.০৫BND', '500100.05'],
         ];
     }
 }

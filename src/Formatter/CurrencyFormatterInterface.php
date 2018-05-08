@@ -2,8 +2,6 @@
 
 namespace CommerceGuys\Intl\Formatter;
 
-use CommerceGuys\Intl\Currency\Currency;
-
 interface CurrencyFormatterInterface
 {
     /* Formatting style constants */
@@ -22,24 +20,24 @@ interface CurrencyFormatterInterface
      * This formatter doesn't do any rounding of its own, and will simply
      * truncate extra digits.
      *
-     * @param string   $number   The number.
-     * @param Currency $currency The currency.
-     * @param string   $locale   The locale (i.e. fr-FR).
+     * @param string $number       The number.
+     * @param string $currencyCode The currency code.
+     * @param string $locale       The locale (i.e. fr-FR).
      *
      * @return string
      */
-    public function format($number, Currency $currency, $locale = null);
+    public function format($number, $currencyCode, $locale = null);
 
     /**
      * Parses a formatted currency amount.
      *
-     * @param string   $number   The number.
-     * @param Currency $currency The currency.
-     * @param string   $locale   The locale (i.e. fr-FR).
+     * @param string $number       The number.
+     * @param string $currencyCode The currency code.
+     * @param string $locale       The locale (i.e. fr-FR).
      *
      * @return string|false The parsed number or FALSE on error.
      */
-    public function parse($number, Currency $currency, $locale = null);
+    public function parse($number, $currencyCode, $locale = null);
 
     /**
      * Gets the formatting style.

@@ -20,8 +20,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormatWithInvalidStyle()
     {
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new NumberFormatter($numberFormatRepository);
+        $formatter = new NumberFormatter(new NumberFormatRepository());
         $formatter->setStyle('INVALID');
         $formatter->format('9.99');
     }
@@ -34,8 +33,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFormatWithInvalidNumber()
     {
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new NumberFormatter($numberFormatRepository);
+        $formatter = new NumberFormatter(new NumberFormatRepository());
         $formatter->format('a12.34');
     }
 
@@ -46,8 +44,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testBasicFormat($locale, $style, $number, $expectedNumber)
     {
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new NumberFormatter($numberFormatRepository);
+        $formatter = new NumberFormatter(new NumberFormatRepository());
         $formatter->setStyle($style);
 
         $formattedNumber = $formatter->format($number, $locale);
@@ -59,9 +56,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testAdvancedFormat()
     {
-        $numberFormatRepository = new NumberFormatRepository();
-
-        $formatter = new NumberFormatter($numberFormatRepository);
+        $formatter = new NumberFormatter(new NumberFormatRepository());
         $formatter->setMinimumFractionDigits(2);
         $this->assertSame('12.50', $formatter->format('12.5'));
 
@@ -93,8 +88,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testParse($locale, $style, $number, $expectedNumber)
     {
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new NumberFormatter($numberFormatRepository);
+        $formatter = new NumberFormatter(new NumberFormatRepository());
         $formatter->setStyle($style);
 
         $parsedNumber = $formatter->parse($number, $locale);
@@ -113,8 +107,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testOptions()
     {
-        $numberFormatRepository = new NumberFormatRepository();
-        $formatter = new NumberFormatter($numberFormatRepository);
+        $formatter = new NumberFormatter(new NumberFormatRepository());
 
         $this->assertEquals(NumberFormatter::STYLE_DECIMAL, $formatter->getStyle());
         $formatter->setStyle(NumberFormatter::STYLE_PERCENT);

@@ -3,6 +3,7 @@
 namespace CommerceGuys\Intl\Formatter;
 
 use CommerceGuys\Intl\Currency\Currency;
+use CommerceGuys\Intl\Currency\CurrencyRepositoryInterface;
 use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepositoryInterface;
@@ -22,6 +23,13 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     protected $numberFormatRepository;
 
     /**
+     * The currency repository.
+     *
+     * @var CurrencyRepositoryInterface
+     */
+    protected $currencyRepository;
+
+    /**
      * The default locale.
      *
      * @var string
@@ -36,6 +44,13 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     protected $numberFormats = [];
 
     /**
+     * The loaded currencies.
+     *
+     * @var Currency[]
+     */
+    protected $currencies = [];
+
+    /**
      * The currency display style.
      *
      * @var string
@@ -46,17 +61,19 @@ class CurrencyFormatter implements CurrencyFormatterInterface
      * Creates a CurrencyFormatter instance.
      *
      * @param NumberFormatRepositoryInterface $numberFormatRepository The number format repository.
+     * @param CurrencyRepositoryInterface     $currencyRepository     The currency repository.
      * @param string                          $defaultLocale          The default locale. Defaults to 'en'.
      *
      * @throws \RuntimeException
      */
-    public function __construct(NumberFormatRepositoryInterface $numberFormatRepository, $defaultLocale = 'en')
+    public function __construct(NumberFormatRepositoryInterface $numberFormatRepository, CurrencyRepositoryInterface $currencyRepository, $defaultLocale = 'en')
     {
         if (!extension_loaded('bcmath')) {
             throw new \RuntimeException('The bcmath extension is required by CurrencyFormatter.');
         }
 
         $this->numberFormatRepository = $numberFormatRepository;
+        $this->currencyRepository = $currencyRepository;
         $this->defaultLocale = $defaultLocale;
         $this->style = self::STYLE_STANDARD;
     }
@@ -64,12 +81,16 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function format($number, Currency $currency, $locale = null)
+    public function format($number, $currencyCode, $locale = null)
     {
         if (!is_numeric($number)) {
             $message = sprintf('The provided value "%s" is not a valid number or numeric string.', $number);
             throw new InvalidArgumentException($message);
         }
+
+        $locale = $locale ?: $this->defaultLocale;
+        $numberFormat = $this->getNumberFormat($locale);
+        $currency = $this->getCurrency($currencyCode, $locale);
 
         // Use the currency defaults if the values weren't set by the caller.
         $resetMinimumFractionDigits = $resetMaximumFractionDigits = false;
@@ -82,8 +103,6 @@ class CurrencyFormatter implements CurrencyFormatterInterface
             $resetMaximumFractionDigits = true;
         }
 
-        $locale = $locale ?: $this->defaultLocale;
-        $numberFormat = $this->getNumberFormat($locale);
         $number = $this->formatNumber($number, $numberFormat);
         $symbol = '';
         if ($this->currencyDisplay == self::CURRENCY_DISPLAY_SYMBOL) {
@@ -108,10 +127,11 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function parse($number, Currency $currency, $locale = null)
+    public function parse($number, $currencyCode, $locale = null)
     {
         $locale = $locale ?: $this->defaultLocale;
         $numberFormat = $this->getNumberFormat($locale);
+        $currency = $this->getCurrency($currencyCode, $locale);
         $replacements = [
             // Strip the currency code or symbol.
             $currency->getCurrencyCode() => '',
@@ -155,6 +175,23 @@ class CurrencyFormatter implements CurrencyFormatterInterface
         }
 
         return $this->numberFormats[$locale];
+    }
+
+    /**
+     * Gets the currency for the provided currency code and locale.
+     *
+     * @param string $currencyCode The currency code.
+     * @param string $locale       The locale.
+     *
+     * @return Currency
+     */
+    protected function getCurrency($currencyCode, $locale)
+    {
+        if (!isset($this->currencies[$currencyCode][$locale])) {
+            $this->currencies[$currencyCode][$locale] = $this->currencyRepository->get($currencyCode, $locale);
+        }
+
+        return $this->currencies[$currencyCode][$locale];
     }
 
     /**

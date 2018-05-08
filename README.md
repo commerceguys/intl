@@ -53,22 +53,19 @@ $numberFormatter->setStyle(NumberFormatter::STYLE_PERCENT);
 echo $numberFormatter->format('0.75'); // 75%
 
 $currencyRepository = new CurrencyRepository;
-$currency = $currencyRepository->get('USD');
-
-$currencyFormatter = new CurrencyFormatter($numberFormatRepository);
-echo $currencyFormatter->format('2.99', $currency); // $2.99
+$currencyFormatter = new CurrencyFormatter($numberFormatRepository, $currencyRepository);
+echo $currencyFormatter->format('2.99', 'USD'); // $2.99
 // The accounting pattern shows negative numbers differently and is used
 // primarily for amounts shown on invoices.
 $currencyFormatter->setStyle(CurrencyFormatter::STYLE_ACCOUNTING);
-echo $currencyFormatter->format('-2.99', $currency); // (2.99$)
+echo $currencyFormatter->format('-2.99', 'USD'); // (2.99$)
 
 // Arabic, Arabic extended, Bengali, Devanagari digits are supported as expected.
-$currency = $currencyRepository->get('USD', 'ar');
-$currencyFormatter = new CurrencyFormatter($numberFormatRepository, 'ar');
-echo $currencyFormatter->format('1230.99', $currency); // US$ ١٬٢٣٠٫٩٩
+$currencyFormatter = new CurrencyFormatter($numberFormatRepository, $currencyRepository, 'ar');
+echo $currencyFormatter->format('1230.99', 'USD'); // US$ ١٬٢٣٠٫٩٩
 
 // Parse formatted values into numeric values.
-echo $currencyFormatter->parse('US$ ١٬٢٣٠٫٩٩', $currency); // 1230.99
+echo $currencyFormatter->parse('US$ ١٬٢٣٠٫٩٩', 'USD'); // 1230.99
 ```
 
 Currencies
