@@ -6,7 +6,7 @@ intl
 A PHP 5.5+ internationalization library, powered by CLDR data.
 
 Features:
-- NumberFormatter, inspired by [intl](http://php.net/manual/en/class.numberformatter.php).
+- NumberFormatter and CurrencyFormatter, inspired by [intl](http://php.net/manual/en/class.numberformatter.php).
 - Currencies
 - Languages
 
@@ -33,9 +33,6 @@ Formatting numbers
 Allows formatting numbers (decimals, percents, currency amounts) using locale-specific rules.
 
 Two formatters are provided for this purpose: [NumberFormatter](https://github.com/commerceguys/intl/blob/master/src/Formatter/NumberFormatterInterface.php) and [CurrencyFormatter](https://github.com/commerceguys/intl/blob/master/src/Formatter/CurrencyFormatterInterface.php).
-
-The amounts passed for formatting should already be rounded, because the
-formatters do not do any rounding of their own.
 
 ```php
 use CommerceGuys\Intl\Currency\CurrencyRepository;

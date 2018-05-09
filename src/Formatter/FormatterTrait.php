@@ -2,6 +2,7 @@
 
 namespace CommerceGuys\Intl\Formatter;
 
+use CommerceGuys\Intl\Calculator;
 use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 
@@ -22,13 +23,6 @@ trait FormatterTrait
     protected $style;
 
     /**
-     * Whether grouping is used.
-     *
-     * @var bool
-     */
-    protected $groupingUsed = true;
-
-    /**
      * The minimum number of fraction digits to show.
      *
      * @var int
@@ -41,6 +35,20 @@ trait FormatterTrait
      * @var int
      */
     protected $maximumFractionDigits;
+
+    /**
+     * Whether grouping is used.
+     *
+     * @var bool
+     */
+    protected $groupingUsed = true;
+
+    /**
+     * The rounding mode.
+     *
+     * @var int
+     */
+    protected $roundingMode;
 
     /**
      * Localized digits.
@@ -77,8 +85,12 @@ trait FormatterTrait
     protected function formatNumber($number, NumberFormat $numberFormat)
     {
         $parsedPattern = $this->getParsedPattern($numberFormat, $this->style);
+        // Start by rounding the number, if rounding is enabled.
+        if ($roundingMode = $this->getRoundingMode()) {
+            $number = Calculator::round($number, $this->maximumFractionDigits, $roundingMode);
+        }
+        $negative = (Calculator::compare('0', $number, 12) == 1);
         // Ensure that the value is positive and has the right number of digits.
-        $negative = (bccomp('0', $number, 12) == 1);
         $signMultiplier = $negative ? '-1' : '1';
         $number = bcdiv($number, $signMultiplier, $this->maximumFractionDigits);
         // Split the number into major and minor digits.
@@ -298,6 +310,24 @@ trait FormatterTrait
     public function setGroupingUsed($groupingUsed)
     {
         $this->groupingUsed = $groupingUsed;
+
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getRoundingMode()
+    {
+        return $this->roundingMode;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setRoundingMode($roundingMode)
+    {
+        $this->roundingMode = $roundingMode;
 
         return $this;
     }

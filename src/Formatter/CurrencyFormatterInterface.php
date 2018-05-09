@@ -8,6 +8,13 @@ interface CurrencyFormatterInterface
     const STYLE_STANDARD = 'standard';
     const STYLE_ACCOUNTING = 'accounting';
 
+    /* Rounding mode constants */
+    const ROUND_NONE = 0;
+    const ROUND_HALF_UP = PHP_ROUND_HALF_UP;
+    const ROUND_HALF_DOWN = PHP_ROUND_HALF_DOWN;
+    const ROUND_HALF_EVEN = PHP_ROUND_HALF_EVEN;
+    const ROUND_HALF_ODD = PHP_ROUND_HALF_ODD;
+
     /* Currency display style constants */
     const CURRENCY_DISPLAY_NONE = 'none';
     const CURRENCY_DISPLAY_SYMBOL = 'symbol';
@@ -15,10 +22,6 @@ interface CurrencyFormatterInterface
 
     /**
      * Formats a currency amount.
-     *
-     * Please note that the provided number should already be rounded.
-     * This formatter doesn't do any rounding of its own, and will simply
-     * truncate extra digits.
      *
      * @param string $number       The number.
      * @param string $currencyCode The currency code.
@@ -108,6 +111,22 @@ interface CurrencyFormatterInterface
      * @return self
      */
     public function setGroupingUsed($groupingUsed);
+
+    /**
+     * Gets the rounding mode.
+     *
+     * @return int
+     */
+    public function getRoundingMode();
+
+    /**
+     * Sets the rounding mode.
+     *
+     * @param int $roundingMode The rounding mode. One of the ROUND_ constants.
+     *
+     * @return self
+     */
+    public function setRoundingMode($roundingMode);
 
     /**
      * Gets the currency display style.

@@ -54,6 +54,7 @@ class NumberFormatter implements NumberFormatterInterface
         $this->style = self::STYLE_DECIMAL;
         $this->minimumFractionDigits = 0;
         $this->maximumFractionDigits = 3;
+        $this->roundingMode = self::ROUND_HALF_UP;
     }
 
     /**

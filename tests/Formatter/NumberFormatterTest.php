@@ -46,6 +46,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     {
         $formatter = new NumberFormatter(new NumberFormatRepository());
         $formatter->setStyle($style);
+        $formatter->setRoundingMode(NumberFormatter::ROUND_NONE);
 
         $formattedNumber = $formatter->format($number, $locale);
         $this->assertSame($expectedNumber, $formattedNumber);
@@ -57,6 +58,8 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function testAdvancedFormat()
     {
         $formatter = new NumberFormatter(new NumberFormatRepository());
+        $formatter->setRoundingMode(NumberFormatter::ROUND_NONE);
+
         $formatter->setMinimumFractionDigits(2);
         $this->assertSame('12.50', $formatter->format('12.5'));
 
@@ -79,6 +82,13 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
         // No grouping needed.
         $this->assertSame('১২৩.৯', $formatter->format('123.90', 'bn'));
+
+        // Rounding.
+        $formatter->setRoundingMode(NumberFormatter::ROUND_HALF_UP);
+        $this->assertSame('12.56', $formatter->format('12.555', 'USD'));
+
+        $formatter->setRoundingMode(NumberFormatter::ROUND_HALF_DOWN);
+        $this->assertSame('12.55', $formatter->format('12.555', 'USD'));
     }
 
     /**

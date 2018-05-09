@@ -77,6 +77,7 @@ class CurrencyFormatter implements CurrencyFormatterInterface
         $this->currencyRepository = $currencyRepository;
         $this->defaultLocale = $defaultLocale;
         $this->style = self::STYLE_STANDARD;
+        $this->roundingMode = self::ROUND_HALF_UP;
     }
 
     /**

@@ -47,6 +47,7 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
     {
         $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
         $formatter->setStyle($style);
+        $formatter->setRoundingMode(CurrencyFormatter::ROUND_NONE);
 
         $formattedNumber = $formatter->format($number, $currencyCode, $locale);
         $this->assertSame($expectedNumber, $formattedNumber);
@@ -69,6 +70,8 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
     public function testAdvancedFormat()
     {
         $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
+        $formatter->setRoundingMode(CurrencyFormatter::ROUND_NONE);
+
         $formatter->setMinimumFractionDigits(2);
         $this->assertSame('$12.50', $formatter->format('12.5', 'USD'));
 
@@ -98,6 +101,13 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
 
         $formatter->setCurrencyDisplay(CurrencyFormatter::CURRENCY_DISPLAY_NONE);
         $this->assertSame('100.0', $formatter->format('100', 'USD'));
+
+        // Rounding.
+        $formatter->setRoundingMode(CurrencyFormatter::ROUND_HALF_UP);
+        $this->assertSame('12.56', $formatter->format('12.555', 'USD'));
+
+        $formatter->setRoundingMode(CurrencyFormatter::ROUND_HALF_DOWN);
+        $this->assertSame('12.55', $formatter->format('12.555', 'USD'));
     }
 
     /**
