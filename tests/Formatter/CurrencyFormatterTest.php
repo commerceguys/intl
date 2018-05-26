@@ -143,6 +143,13 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
         ]);
         $this->assertSame('100.00', $formattedNumber);
 
+        // Confirm there is no trailing whitespace.
+        $formattedNumber = $formatter->format('100', 'USD', [
+            'locale' => 'fr',
+            'currency_display' => 'none',
+        ]);
+        $this->assertSame('100,00', $formattedNumber);
+
         // Rounding.
         $formattedNumber = $formatter->format('12.555', 'USD', [
             'rounding_mode' => PHP_ROUND_HALF_UP,

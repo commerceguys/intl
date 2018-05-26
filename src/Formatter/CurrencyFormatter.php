@@ -110,13 +110,15 @@ class CurrencyFormatter implements CurrencyFormatterInterface
         }
 
         $number = $this->formatNumber($number, $numberFormat, $options);
-        $symbol = '';
         if ($options['currency_display'] == 'symbol') {
-            $symbol = $currency->getSymbol();
+            $number = str_replace('¤', $currency->getSymbol(), $number);
         } elseif ($options['currency_display'] == 'code') {
-            $symbol = $currency->getCurrencyCode();
+            $number = str_replace('¤', $currency->getCurrencyCode(), $number);
+        } else {
+            // No symbol should be displayed. Remove leftover whitespace.
+            $number = str_replace('¤', '', $number);
+            $number = trim($number, " \xC2\xA0");
         }
-        $number = str_replace('¤', $symbol, $number);
 
         return $number;
     }
