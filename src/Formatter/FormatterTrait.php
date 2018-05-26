@@ -16,41 +16,6 @@ trait FormatterTrait
     protected $parsedPatterns = [];
 
     /**
-     * The formatting style.
-     *
-     * @var string
-     */
-    protected $style;
-
-    /**
-     * The minimum number of fraction digits to show.
-     *
-     * @var int
-     */
-    protected $minimumFractionDigits;
-
-    /**
-     * The maximum number of fraction digits to show.
-     *
-     * @var int
-     */
-    protected $maximumFractionDigits;
-
-    /**
-     * Whether grouping is used.
-     *
-     * @var bool
-     */
-    protected $groupingUsed = true;
-
-    /**
-     * The rounding mode.
-     *
-     * @var int
-     */
-    protected $roundingMode;
-
-    /**
      * Localized digits.
      *
      * @var array
@@ -82,17 +47,17 @@ trait FormatterTrait
      *
      * @return string The formatted number.
      */
-    protected function formatNumber($number, NumberFormat $numberFormat)
+    protected function formatNumber($number, NumberFormat $numberFormat, array $options = [])
     {
-        $parsedPattern = $this->getParsedPattern($numberFormat, $this->style);
+        $parsedPattern = $this->getParsedPattern($numberFormat, $options['style']);
         // Start by rounding the number, if rounding is enabled.
-        if ($roundingMode = $this->getRoundingMode()) {
-            $number = Calculator::round($number, $this->maximumFractionDigits, $roundingMode);
+        if (is_int($options['rounding_mode'])) {
+            $number = Calculator::round($number, $options['maximum_fraction_digits'], $options['rounding_mode']);
         }
         $negative = (Calculator::compare('0', $number, 12) == 1);
         // Ensure that the value is positive and has the right number of digits.
         $signMultiplier = $negative ? '-1' : '1';
-        $number = bcdiv($number, $signMultiplier, $this->maximumFractionDigits);
+        $number = bcdiv($number, $signMultiplier, $options['maximum_fraction_digits']);
         // Split the number into major and minor digits.
         $numberParts = explode('.', $number);
         $majorDigits = $numberParts[0];
@@ -100,7 +65,7 @@ trait FormatterTrait
         // have a decimal point, and $numberParts[1] won't be set.
         $minorDigits = isset($numberParts[1]) ? $numberParts[1] : '';
 
-        if ($this->groupingUsed && $parsedPattern->isGroupingUsed()) {
+        if ($options['use_grouping'] && $parsedPattern->isGroupingUsed()) {
             // Reverse the major digits, since they are grouped from the right.
             $majorDigits = array_reverse(str_split($majorDigits));
             // Group the major digits.
@@ -118,13 +83,13 @@ trait FormatterTrait
             $majorDigits = implode(',', $groups);
         }
 
-        if ($this->minimumFractionDigits < $this->maximumFractionDigits) {
+        if ($options['minimum_fraction_digits'] < $options['maximum_fraction_digits']) {
             // Strip any trailing zeroes.
             $minorDigits = rtrim($minorDigits, '0');
-            if (strlen($minorDigits) < $this->minimumFractionDigits) {
+            if (strlen($minorDigits) < $options['minimum_fraction_digits']) {
                 // Now there are too few digits, re-add trailing zeroes
                 // until the desired length is reached.
-                $neededZeroes = $this->minimumFractionDigits - strlen($minorDigits);
+                $neededZeroes = $options['minimum_fraction_digits'] - strlen($minorDigits);
                 $minorDigits .= str_repeat('0', $neededZeroes);
             }
         }
@@ -241,94 +206,4 @@ trait FormatterTrait
      * @return string[] The patterns, keyed by style.
      */
     abstract protected function getAvailablePatterns(NumberFormat $numberFormat);
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getStyle()
-    {
-        return $this->style;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setStyle($style)
-    {
-        $this->style = $style;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getMinimumFractionDigits()
-    {
-        return $this->minimumFractionDigits;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setMinimumFractionDigits($minimumFractionDigits)
-    {
-        $this->minimumFractionDigits = $minimumFractionDigits;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getMaximumFractionDigits()
-    {
-        return $this->maximumFractionDigits;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setMaximumFractionDigits($maximumFractionDigits)
-    {
-        $this->maximumFractionDigits = $maximumFractionDigits;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function isGroupingUsed()
-    {
-        return $this->groupingUsed;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setGroupingUsed($groupingUsed)
-    {
-        $this->groupingUsed = $groupingUsed;
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getRoundingMode()
-    {
-        return $this->roundingMode;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setRoundingMode($roundingMode)
-    {
-        $this->roundingMode = $roundingMode;
-
-        return $this;
-    }
 }

@@ -4,6 +4,7 @@ namespace CommerceGuys\Intl\Tests\Formatter;
 
 use CommerceGuys\Intl\Currency\Currency;
 use CommerceGuys\Intl\Currency\CurrencyRepository;
+use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\Formatter\CurrencyFormatter;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
@@ -14,16 +15,44 @@ use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::__construct
-     *
-     * @expectedException        \CommerceGuys\Intl\Exception\InvalidArgumentException
-     * @expectedExceptionMessage Unrecognized style "INVALID".
+     * @covers ::format
      */
-    public function testFormatWithInvalidStyle()
+    public function testFormatWithInvalidOptions()
     {
         $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
-        $formatter->setStyle('INVALID');
-        $formatter->format('9.99', 'USD');
+        $data = [
+            'Unrecognized option "unknown".' => [
+                'unknown' => '123',
+            ],
+            'The option "use_grouping" must be a boolean.' => [
+                'use_grouping' => 'INVALID',
+            ],
+            'The option "minimum_fraction_digits" must be numeric.' => [
+                'minimum_fraction_digits' => 'INVALID',
+            ],
+            'The option "maximum_fraction_digits" must be numeric.' => [
+                'maximum_fraction_digits' => 'INVALID',
+            ],
+            'Unrecognized rounding mode "INVALID".' => [
+                'rounding_mode' => 'INVALID',
+            ],
+            'Unrecognized style "INVALID".' => [
+                'style' => 'INVALID',
+            ],
+            'Unrecognized currency display "INVALID".' => [
+                'currency_display' => 'INVALID',
+            ],
+        ];
+
+        foreach ($data as $expectedError => $options) {
+            $message = '';
+            try {
+                $formatter->format('9.99', 'USD', $options);
+            } catch (InvalidArgumentException $e) {
+                $message = $e->getMessage();
+            }
+            $this->assertEquals($expectedError, $message);
+        }
     }
 
     /**
@@ -45,11 +74,12 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testBasicFormat($locale, $currencyCode, $style, $number, $expectedNumber)
     {
-        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
-        $formatter->setStyle($style);
-        $formatter->setRoundingMode(CurrencyFormatter::ROUND_NONE);
-
-        $formattedNumber = $formatter->format($number, $currencyCode, $locale);
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository(), [
+            'locale' => $locale,
+            'style' => $style,
+            'rounding_mode' => 'none',
+        ]);
+        $formattedNumber = $formatter->format($number, $currencyCode);
         $this->assertSame($expectedNumber, $formattedNumber);
     }
 
@@ -69,45 +99,60 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testAdvancedFormat()
     {
-        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
-        $formatter->setRoundingMode(CurrencyFormatter::ROUND_NONE);
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository(), [
+            'rounding_mode' => 'none',
+        ]);
 
-        $formatter->setMinimumFractionDigits(2);
-        $this->assertSame('$12.50', $formatter->format('12.5', 'USD'));
+        $formattedNumber = $formatter->format('12.999', 'USD');
+        $this->assertSame('$12.99', $formattedNumber);
 
-        $formatter->setMinimumFractionDigits(1);
-        $formatter->setMaximumFractionDigits(2);
-        $this->assertSame('$12.0', $formatter->format('12', 'USD'));
+        $formattedNumber = $formatter->format('12', 'USD', [
+            'minimum_fraction_digits' => 1,
+        ]);
+        $this->assertSame('$12.0', $formattedNumber);
 
-        $formatter->setMinimumFractionDigits(1);
-        $formatter->setMaximumFractionDigits(2);
-        $this->assertSame('$12.99', $formatter->format('12.999', 'USD'));
+        $formattedNumber = $formatter->format('12.99', 'USD', [
+            'maximum_fraction_digits' => 1,
+        ]);
+        $this->assertSame('$12.9', $formattedNumber);
 
         // Format with and without grouping.
-        $this->assertSame('$10,000.9', $formatter->format('10000.90', 'USD'));
-        $formatter->setGroupingUsed(false);
-        $this->assertSame('$10000.9', $formatter->format('10000.90', 'USD'));
+        $formattedNumber = $formatter->format('10000.90', 'USD');
+        $this->assertSame('$10,000.90', $formattedNumber);
+        $formattedNumber = $formatter->format('10000.90', 'USD', [
+            'use_grouping' => false,
+        ]);
+        $this->assertSame('$10000.90', $formattedNumber);
 
         // Test secondary groups.
-        $formatter->setGroupingUsed(true);
-        $this->assertSame('১,২৩,৪৫,৬৭৮.৯US$', $formatter->format('12345678.90', 'USD', 'bn'));
+        $formattedNumber = $formatter->format('12345678.90', 'USD', ['locale' => 'bn']);
+        $this->assertSame('১,২৩,৪৫,৬৭৮.৯০US$', $formattedNumber);
 
         // No grouping needed.
-        $this->assertSame('১২৩.৯US$', $formatter->format('123.90', 'USD', 'bn'));
+        $formattedNumber = $formatter->format('123.90', 'USD', ['locale' => 'bn']);
+        $this->assertSame('১২৩.৯০US$', $formattedNumber);
 
         // Alternative currency display.
-        $formatter->setCurrencyDisplay(CurrencyFormatter::CURRENCY_DISPLAY_CODE);
-        $this->assertSame('USD100.0', $formatter->format('100', 'USD'));
+        $formattedNumber = $formatter->format('100', 'USD', [
+            'currency_display' => 'code',
+        ]);
+        $this->assertSame('USD100.00', $formattedNumber);
 
-        $formatter->setCurrencyDisplay(CurrencyFormatter::CURRENCY_DISPLAY_NONE);
-        $this->assertSame('100.0', $formatter->format('100', 'USD'));
+        $formattedNumber = $formatter->format('100', 'USD', [
+            'currency_display' => 'none',
+        ]);
+        $this->assertSame('100.00', $formattedNumber);
 
         // Rounding.
-        $formatter->setRoundingMode(CurrencyFormatter::ROUND_HALF_UP);
-        $this->assertSame('12.56', $formatter->format('12.555', 'USD'));
+        $formattedNumber = $formatter->format('12.555', 'USD', [
+            'rounding_mode' => PHP_ROUND_HALF_UP,
+        ]);
+        $this->assertSame('$12.56', $formattedNumber);
 
-        $formatter->setRoundingMode(CurrencyFormatter::ROUND_HALF_DOWN);
-        $this->assertSame('12.55', $formatter->format('12.555', 'USD'));
+        $formattedNumber = $formatter->format('12.555', 'USD', [
+            'rounding_mode' => PHP_ROUND_HALF_DOWN,
+        ]);
+        $this->assertSame('$12.55', $formattedNumber);
     }
 
     /**
@@ -115,50 +160,11 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider formattedCurrencyProvider
      */
-    public function testParse($locale, $currencyCode, $style, $number, $expectedNumber)
+    public function testParse($locale, $currencyCode, $number, $expectedNumber)
     {
         $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
-        $formatter->setStyle($style);
-
-        $parsedNumber = $formatter->parse($number, $currencyCode, $locale);
+        $parsedNumber = $formatter->parse($number, $currencyCode, ['locale' => $locale]);
         $this->assertSame($expectedNumber, $parsedNumber);
-    }
-
-    /**
-     * @covers ::getStyle
-     * @covers ::setStyle
-     * @covers ::getMinimumFractionDigits
-     * @covers ::setMinimumFractionDigits
-     * @covers ::getMaximumFractionDigits
-     * @covers ::setMaximumFractionDigits
-     * @covers ::isGroupingUsed
-     * @covers ::setGroupingUsed
-     * @covers ::getCurrencyDisplay
-     * @covers ::setCurrencyDisplay
-     */
-    public function testOptions()
-    {
-        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
-
-        $this->assertEquals(CurrencyFormatter::STYLE_STANDARD, $formatter->getStyle());
-        $formatter->setStyle(CurrencyFormatter::STYLE_ACCOUNTING);
-        $this->assertEquals(CurrencyFormatter::STYLE_ACCOUNTING, $formatter->getStyle());
-
-        $this->assertEquals(null, $formatter->getMinimumFractionDigits());
-        $formatter->setMinimumFractionDigits(2);
-        $this->assertEquals(2, $formatter->getMinimumFractionDigits());
-
-        $this->assertEquals(null, $formatter->getMaximumFractionDigits());
-        $formatter->setMaximumFractionDigits(5);
-        $this->assertEquals(5, $formatter->getMaximumFractionDigits());
-
-        $this->assertTrue($formatter->isGroupingUsed());
-        $formatter->setGroupingUsed(false);
-        $this->assertFalse($formatter->isGroupingUsed());
-
-        $this->assertEquals(CurrencyFormatter::CURRENCY_DISPLAY_SYMBOL, $formatter->getCurrencyDisplay());
-        $formatter->setCurrencyDisplay(CurrencyFormatter::CURRENCY_DISPLAY_CODE);
-        $this->assertEquals(CurrencyFormatter::CURRENCY_DISPLAY_CODE, $formatter->getCurrencyDisplay());
     }
 
     /**
@@ -167,12 +173,12 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
     public function currencyValueProvider()
     {
         return [
-            ['en', 'USD', CurrencyFormatter::STYLE_STANDARD, '-5.05', '-$5.05'],
-            ['en', 'USD', CurrencyFormatter::STYLE_ACCOUNTING, '-5.05', '($5.05)'],
-            ['en', 'USD', CurrencyFormatter::STYLE_STANDARD, '500100.05', '$500,100.05'],
-            ['bn', 'BND', CurrencyFormatter::STYLE_STANDARD, '-50.5', '-৫০.৫০BND'],
-            ['bn', 'BND', CurrencyFormatter::STYLE_ACCOUNTING, '-50.5', '(৫০.৫০BND)'],
-            ['bn', 'BND', CurrencyFormatter::STYLE_STANDARD, '500100.05', '৫,০০,১০০.০৫BND'],
+            ['en', 'USD', 'standard', '-5.05', '-$5.05'],
+            ['en', 'USD', 'accounting', '-5.05', '($5.05)'],
+            ['en', 'USD', 'standard', '500100.05', '$500,100.05'],
+            ['bn', 'BND', 'standard', '-50.5', '-৫০.৫০BND'],
+            ['bn', 'BND', 'accounting', '-50.5', '(৫০.৫০BND)'],
+            ['bn', 'BND', 'standard', '500100.05', '৫,০০,১০০.০৫BND'],
         ];
     }
 
@@ -182,10 +188,10 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
     public function formattedCurrencyProvider()
     {
         return [
-            ['en', 'USD', CurrencyFormatter::STYLE_STANDARD, '$500,100.05', '500100.05'],
-            ['en', 'USD', CurrencyFormatter::STYLE_STANDARD, '-$1,059.59', '-1059.59'],
-            ['en', 'USD', CurrencyFormatter::STYLE_ACCOUNTING, '($1,059.59)', '-1059.59'],
-            ['bn', 'BND', CurrencyFormatter::STYLE_STANDARD, '৫,০০,১০০.০৫BND', '500100.05'],
+            ['en', 'USD', '$500,100.05', '500100.05'],
+            ['en', 'USD', '-$1,059.59', '-1059.59'],
+            ['en', 'USD', '($1,059.59)', '-1059.59'],
+            ['bn', 'BND', '৫,০০,১০০.০৫BND', '500100.05'],
         ];
     }
 }

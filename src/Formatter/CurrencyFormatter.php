@@ -52,76 +52,71 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     protected $currencies = [];
 
     /**
-     * The currency display style.
+     * The default options.
      *
-     * @var string
+     * @var array
      */
-    protected $currencyDisplay = self::CURRENCY_DISPLAY_SYMBOL;
+    protected $defaultOptions = [
+        'locale' => 'en',
+        'use_grouping' => true,
+        'minimum_fraction_digits' => null,
+        'maximum_fraction_digits' => null,
+        'rounding_mode' => PHP_ROUND_HALF_UP,
+        'style' => 'standard',
+        'currency_display' => 'symbol',
+    ];
 
     /**
      * Creates a CurrencyFormatter instance.
      *
      * @param NumberFormatRepositoryInterface $numberFormatRepository The number format repository.
      * @param CurrencyRepositoryInterface     $currencyRepository     The currency repository.
-     * @param string                          $defaultLocale          The default locale. Defaults to 'en'.
+     * @param array                           $defaultOptions         The default options.
      *
      * @throws \RuntimeException
      */
-    public function __construct(NumberFormatRepositoryInterface $numberFormatRepository, CurrencyRepositoryInterface $currencyRepository, $defaultLocale = 'en')
+    public function __construct(NumberFormatRepositoryInterface $numberFormatRepository, CurrencyRepositoryInterface $currencyRepository, array $defaultOptions = [])
     {
         if (!extension_loaded('bcmath')) {
             throw new \RuntimeException('The bcmath extension is required by CurrencyFormatter.');
         }
+        $this->validateOptions($defaultOptions);
 
         $this->numberFormatRepository = $numberFormatRepository;
         $this->currencyRepository = $currencyRepository;
-        $this->defaultLocale = $defaultLocale;
-        $this->style = self::STYLE_STANDARD;
-        $this->roundingMode = self::ROUND_HALF_UP;
+        $this->defaultOptions = array_replace($this->defaultOptions, $defaultOptions);
     }
 
     /**
      * {@inheritdoc}
      */
-    public function format($number, $currencyCode, $locale = null)
+    public function format($number, $currencyCode, array $options = [])
     {
         if (!is_numeric($number)) {
             $message = sprintf('The provided value "%s" is not a valid number or numeric string.', $number);
             throw new InvalidArgumentException($message);
         }
 
-        $locale = $locale ?: $this->defaultLocale;
-        $numberFormat = $this->getNumberFormat($locale);
-        $currency = $this->getCurrency($currencyCode, $locale);
-
+        $this->validateOptions($options);
+        $options = array_replace($this->defaultOptions, $options);
+        $numberFormat = $this->getNumberFormat($options['locale']);
+        $currency = $this->getCurrency($currencyCode, $options['locale']);
         // Use the currency defaults if the values weren't set by the caller.
-        $resetMinimumFractionDigits = $resetMaximumFractionDigits = false;
-        if (!isset($this->minimumFractionDigits)) {
-            $this->minimumFractionDigits = $currency->getFractionDigits();
-            $resetMinimumFractionDigits = true;
+        if (!isset($options['minimum_fraction_digits'])) {
+            $options['minimum_fraction_digits'] = $currency->getFractionDigits();
         }
-        if (!isset($this->maximumFractionDigits)) {
-            $this->maximumFractionDigits = $currency->getFractionDigits();
-            $resetMaximumFractionDigits = true;
+        if (!isset($options['maximum_fraction_digits'])) {
+            $options['maximum_fraction_digits'] = $currency->getFractionDigits();
         }
 
-        $number = $this->formatNumber($number, $numberFormat);
+        $number = $this->formatNumber($number, $numberFormat, $options);
         $symbol = '';
-        if ($this->currencyDisplay == self::CURRENCY_DISPLAY_SYMBOL) {
+        if ($options['currency_display'] == 'symbol') {
             $symbol = $currency->getSymbol();
-        } elseif ($this->currencyDisplay == self::CURRENCY_DISPLAY_CODE) {
+        } elseif ($options['currency_display'] == 'code') {
             $symbol = $currency->getCurrencyCode();
         }
         $number = str_replace('¤', $symbol, $number);
-
-        // Reset the fraction digit settings, so that they don't affect
-        // future formatting with different currencies.
-        if ($resetMinimumFractionDigits) {
-            $this->minimumFractionDigits = null;
-        }
-        if ($resetMaximumFractionDigits) {
-            $this->maximumFractionDigits = null;
-        }
 
         return $number;
     }
@@ -129,11 +124,12 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function parse($number, $currencyCode, $locale = null)
+    public function parse($number, $currencyCode, array $options = [])
     {
-        $locale = $locale ?: $this->defaultLocale;
-        $numberFormat = $this->getNumberFormat($locale);
-        $currency = $this->getCurrency($currencyCode, $locale);
+        $this->validateOptions($options);
+        $options = array_replace($this->defaultOptions, $options);
+        $numberFormat = $this->getNumberFormat($options['locale']);
+        $currency = $this->getCurrency($currencyCode, $options['locale']);
         $replacements = [
             // Strip the currency code or symbol.
             $currency->getCurrencyCode() => '',
@@ -143,24 +139,6 @@ class CurrencyFormatter implements CurrencyFormatterInterface
         $number = $this->parseNumber($number, $numberFormat);
 
         return $number;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getCurrencyDisplay()
-    {
-        return $this->currencyDisplay;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setCurrencyDisplay($currencyDisplay)
-    {
-        $this->currencyDisplay = $currencyDisplay;
-
-        return $this;
     }
 
     /**
@@ -214,8 +192,47 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     protected function getAvailablePatterns(NumberFormat $numberFormat)
     {
         return [
-            self::STYLE_STANDARD => $numberFormat->getCurrencyPattern(),
-            self::STYLE_ACCOUNTING => $numberFormat->getAccountingCurrencyPattern(),
+            'standard' => $numberFormat->getCurrencyPattern(),
+            'accounting' => $numberFormat->getAccountingCurrencyPattern(),
         ];
+    }
+
+    /**
+     * Validates the provided options.
+     *
+     * Ensures the absence of unknown keys, correct data types and values.
+     *
+     * @param array $options The options.
+     *
+     * @throws \InvalidArgumentException
+     */
+    protected function validateOptions(array $options)
+    {
+        foreach ($options as $option => $value) {
+            if (!array_key_exists($option, $this->defaultOptions)) {
+                throw new InvalidArgumentException(sprintf('Unrecognized option "%s".', $option));
+            }
+        }
+        if (isset($options['use_grouping']) && !is_bool($options['use_grouping'])) {
+            throw new InvalidArgumentException('The option "use_grouping" must be a boolean.');
+        }
+        foreach (['minimum_fraction_digits', 'maximum_fraction_digits'] as $option) {
+            if (array_key_exists($option, $options) && !is_numeric($options[$option])) {
+                throw new InvalidArgumentException(sprintf('The option "%s" must be numeric.', $option));
+            }
+        }
+        $roundingModes = [
+            PHP_ROUND_HALF_UP, PHP_ROUND_HALF_DOWN,
+            PHP_ROUND_HALF_EVEN, PHP_ROUND_HALF_ODD, 'none',
+        ];
+        if (!empty($options['rounding_mode']) && !in_array($options['rounding_mode'], $roundingModes)) {
+            throw new InvalidArgumentException(sprintf('Unrecognized rounding mode "%s".', $options['rounding_mode']));
+        }
+        if (!empty($options['style']) && !in_array($options['style'], ['standard', 'accounting'])) {
+            throw new InvalidArgumentException(sprintf('Unrecognized style "%s".', $options['style']));
+        }
+        if (!empty($options['currency_display']) && !in_array($options['currency_display'], ['code', 'symbol', 'none'])) {
+            throw new InvalidArgumentException(sprintf('Unrecognized currency display "%s".', $options['currency_display']));
+        }
     }
 }

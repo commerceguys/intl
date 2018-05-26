@@ -41,24 +41,21 @@ use CommerceGuys\Intl\Formatter\NumberFormatter;
 use CommerceGuys\Intl\Formatter\CurrencyFormatter;
 
 $numberFormatRepository = new NumberFormatRepository;
-// The locale can be provided to the constructor or the
-// individual methods, defaults to 'en' when missing.
+// Options can be provided to the constructor or the
+// individual methods, the locale defaults to 'en' when missing.
 $numberFormatter = new NumberFormatter($numberFormatRepository);
 echo $numberFormatter->format('1234.99'); // 123,456.99
-
-$numberFormatter->setStyle(NumberFormatter::STYLE_PERCENT);
-echo $numberFormatter->format('0.75'); // 75%
+echo $numberFormatter->format('0.75', ['style' => 'percent']); // 75%
 
 $currencyRepository = new CurrencyRepository;
 $currencyFormatter = new CurrencyFormatter($numberFormatRepository, $currencyRepository);
 echo $currencyFormatter->format('2.99', 'USD'); // $2.99
-// The accounting pattern shows negative numbers differently and is used
+// The accounting style shows negative numbers differently and is used
 // primarily for amounts shown on invoices.
-$currencyFormatter->setStyle(CurrencyFormatter::STYLE_ACCOUNTING);
-echo $currencyFormatter->format('-2.99', 'USD'); // (2.99$)
+echo $currencyFormatter->format('-2.99', 'USD', ['style' => 'accounting']); // (2.99$)
 
 // Arabic, Arabic extended, Bengali, Devanagari digits are supported as expected.
-$currencyFormatter = new CurrencyFormatter($numberFormatRepository, $currencyRepository, 'ar');
+$currencyFormatter = new CurrencyFormatter($numberFormatRepository, $currencyRepository, ['locale' => 'ar']);
 echo $currencyFormatter->format('1230.99', 'USD'); // US$ ١٬٢٣٠٫٩٩
 
 // Parse formatted values into numeric values.

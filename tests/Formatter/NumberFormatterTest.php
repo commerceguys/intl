@@ -3,6 +3,7 @@
 namespace CommerceGuys\Intl\Tests\Formatter;
 
 use CommerceGuys\Intl\Currency\Currency;
+use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\Formatter\NumberFormatter;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
@@ -13,16 +14,41 @@ use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::__construct
-     *
-     * @expectedException         \CommerceGuys\Intl\Exception\InvalidArgumentException
-     * @expectedExceptionMessage  Unrecognized style "INVALID".
+     * @covers ::format
      */
-    public function testFormatWithInvalidStyle()
+    public function testFormatWithInvalidOptions()
     {
         $formatter = new NumberFormatter(new NumberFormatRepository());
-        $formatter->setStyle('INVALID');
-        $formatter->format('9.99');
+        $data = [
+            'Unrecognized option "unknown".' => [
+                'unknown' => '123',
+            ],
+            'The option "use_grouping" must be a boolean.' => [
+              'use_grouping' => 'INVALID',
+            ],
+            'The option "minimum_fraction_digits" must be numeric.' => [
+                'minimum_fraction_digits' => 'INVALID',
+            ],
+            'The option "maximum_fraction_digits" must be numeric.' => [
+                'maximum_fraction_digits' => 'INVALID',
+            ],
+            'Unrecognized rounding mode "INVALID".' => [
+                'rounding_mode' => 'INVALID',
+            ],
+            'Unrecognized style "INVALID".' => [
+                'style' => 'INVALID',
+            ],
+        ];
+
+        foreach ($data as $expectedError => $options) {
+            $message = '';
+            try {
+                $formatter->format('9.99', $options);
+            } catch (InvalidArgumentException $e) {
+                $message = $e->getMessage();
+            }
+            $this->assertEquals($expectedError, $message);
+        }
     }
 
     /**
@@ -44,11 +70,11 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testBasicFormat($locale, $style, $number, $expectedNumber)
     {
-        $formatter = new NumberFormatter(new NumberFormatRepository());
-        $formatter->setStyle($style);
-        $formatter->setRoundingMode(NumberFormatter::ROUND_NONE);
-
-        $formattedNumber = $formatter->format($number, $locale);
+        $formatter = new NumberFormatter(new NumberFormatRepository(), [
+            'locale' => $locale,
+            'style' => $style,
+        ]);
+        $formattedNumber = $formatter->format($number);
         $this->assertSame($expectedNumber, $formattedNumber);
     }
 
@@ -57,38 +83,50 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      */
     public function testAdvancedFormat()
     {
-        $formatter = new NumberFormatter(new NumberFormatRepository());
-        $formatter->setRoundingMode(NumberFormatter::ROUND_NONE);
+        $formatter = new NumberFormatter(new NumberFormatRepository(), [
+            'maximum_fraction_digits' => 2,
+            'rounding_mode' => 'none',
+        ]);
 
-        $formatter->setMinimumFractionDigits(2);
-        $this->assertSame('12.50', $formatter->format('12.5'));
+        $formattedNumber = $formatter->format('12.999');
+        $this->assertSame('12.99', $formattedNumber);
 
-        $formatter->setMinimumFractionDigits(1);
-        $formatter->setMaximumFractionDigits(2);
-        $this->assertSame('12.0', $formatter->format('12'));
+        $formattedNumber = $formatter->format('12.5', [
+           'minimum_fraction_digits' => 2,
+        ]);
+        $this->assertSame('12.50', $formattedNumber);
 
-        $formatter->setMinimumFractionDigits(1);
-        $formatter->setMaximumFractionDigits(2);
-        $this->assertSame('12.99', $formatter->format('12.999'));
+        $formattedNumber = $formatter->format('12', [
+            'minimum_fraction_digits' => 1,
+        ]);
+        $this->assertSame('12.0', $formattedNumber);
 
         // Format with and without grouping.
-        $this->assertSame('10,000.9', $formatter->format('10000.90'));
-        $formatter->setGroupingUsed(false);
-        $this->assertSame('10000.9', $formatter->format('10000.90'));
+        $formattedNumber = $formatter->format('10000.90');
+        $this->assertSame('10,000.9', $formattedNumber);
+        $formattedNumber = $formatter->format('10000.90', [
+            'use_grouping' => false,
+        ]);
+        $this->assertSame('10000.9', $formattedNumber);
 
         // Test secondary groups.
-        $formatter->setGroupingUsed(true);
-        $this->assertSame('১,২৩,৪৫,৬৭৮.৯', $formatter->format('12345678.90', 'bn'));
+        $formattedNumber = $formatter->format('12345678.90', ['locale' => 'bn']);
+        $this->assertSame('১,২৩,৪৫,৬৭৮.৯', $formattedNumber);
 
         // No grouping needed.
-        $this->assertSame('১২৩.৯', $formatter->format('123.90', 'bn'));
+        $formattedNumber = $formatter->format('123.90', ['locale' => 'bn']);
+        $this->assertSame('১২৩.৯', $formattedNumber);
 
         // Rounding.
-        $formatter->setRoundingMode(NumberFormatter::ROUND_HALF_UP);
-        $this->assertSame('12.56', $formatter->format('12.555', 'USD'));
+        $formattedNumber = $formatter->format('12.555', [
+            'rounding_mode' => PHP_ROUND_HALF_UP,
+        ]);
+        $this->assertSame('12.56', $formattedNumber);
 
-        $formatter->setRoundingMode(NumberFormatter::ROUND_HALF_DOWN);
-        $this->assertSame('12.55', $formatter->format('12.555', 'USD'));
+        $formattedNumber = $formatter->format('12.555', [
+            'rounding_mode' => PHP_ROUND_HALF_DOWN,
+        ]);
+        $this->assertSame('12.55', $formattedNumber);
     }
 
     /**
@@ -96,44 +134,11 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
      *
      * @dataProvider formattedValueProvider
      */
-    public function testParse($locale, $style, $number, $expectedNumber)
+    public function testParse($locale, $number, $expectedNumber)
     {
         $formatter = new NumberFormatter(new NumberFormatRepository());
-        $formatter->setStyle($style);
-
-        $parsedNumber = $formatter->parse($number, $locale);
+        $parsedNumber = $formatter->parse($number, ['locale' => $locale]);
         $this->assertSame($expectedNumber, $parsedNumber);
-    }
-
-    /**
-     * @covers ::getStyle
-     * @covers ::setStyle
-     * @covers ::getMinimumFractionDigits
-     * @covers ::setMinimumFractionDigits
-     * @covers ::getMaximumFractionDigits
-     * @covers ::setMaximumFractionDigits
-     * @covers ::isGroupingUsed
-     * @covers ::setGroupingUsed
-     */
-    public function testOptions()
-    {
-        $formatter = new NumberFormatter(new NumberFormatRepository());
-
-        $this->assertEquals(NumberFormatter::STYLE_DECIMAL, $formatter->getStyle());
-        $formatter->setStyle(NumberFormatter::STYLE_PERCENT);
-        $this->assertEquals(NumberFormatter::STYLE_PERCENT, $formatter->getStyle());
-
-        $this->assertEquals(0, $formatter->getMinimumFractionDigits());
-        $formatter->setMinimumFractionDigits(2);
-        $this->assertEquals(2, $formatter->getMinimumFractionDigits());
-
-        $this->assertEquals(3, $formatter->getMaximumFractionDigits());
-        $formatter->setMaximumFractionDigits(5);
-        $this->assertEquals(5, $formatter->getMaximumFractionDigits());
-
-        $this->assertTrue($formatter->isGroupingUsed());
-        $formatter->setGroupingUsed(false);
-        $this->assertFalse($formatter->isGroupingUsed());
     }
 
     /**
@@ -142,11 +147,11 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function numberValueProvider()
     {
         return [
-            ['en', NumberFormatter::STYLE_DECIMAL, '-50.00', '-50'],
-            ['en', NumberFormatter::STYLE_PERCENT, '50.00', '50%'],
-            ['en', NumberFormatter::STYLE_DECIMAL, '5000000.5', '5,000,000.5'],
-            ['bn', NumberFormatter::STYLE_DECIMAL, '-50.5', '-৫০.৫'],
-            ['bn', NumberFormatter::STYLE_DECIMAL, '5000000.5', '৫০,০০,০০০.৫'],
+            ['en', 'decimal', '-50.00', '-50'],
+            ['en', 'percent', '50.00', '50%'],
+            ['en', 'decimal', '5000000.5', '5,000,000.5'],
+            ['bn', 'decimal', '-50.5', '-৫০.৫'],
+            ['bn', 'decimal', '5000000.5', '৫০,০০,০০০.৫'],
         ];
     }
 
@@ -156,9 +161,9 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     public function formattedValueProvider()
     {
         return [
-            ['en', NumberFormatter::STYLE_DECIMAL, '500,100.05', '500100.05'],
-            ['en', NumberFormatter::STYLE_DECIMAL, '-1,059.59', '-1059.59'],
-            ['bn', NumberFormatter::STYLE_DECIMAL, '৫,০০,১০০.০৫', '500100.05'],
+            ['en', '500,100.05', '500100.05'],
+            ['en', '-1,059.59', '-1059.59'],
+            ['bn', '৫,০০,১০০.০৫', '500100.05'],
         ];
     }
 }
