@@ -2,6 +2,7 @@
 
 namespace CommerceGuys\Intl\Formatter;
 
+use CommerceGuys\Intl\Calculator;
 use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepositoryInterface;
@@ -72,6 +73,10 @@ class NumberFormatter implements NumberFormatterInterface
         }
         $this->validateOptions($options);
         $options = array_replace($this->defaultOptions, $options);
+        // Percentages are passed as decimals (e.g. 0.2 for 20%).
+        if ($options['style'] == 'percent') {
+            $number = Calculator::multiply($number, '100');
+        }
         $numberFormat = $this->getNumberFormat($options['locale']);
         $number = $this->formatNumber($number, $numberFormat, $options);
 

@@ -155,6 +155,7 @@ trait FormatterTrait
             $numberFormat->getDecimalSeparator() => '.',
             $numberFormat->getPlusSign() => '+',
             $numberFormat->getMinusSign() => '-',
+            $numberFormat->getPercentSign() => '%',
 
             // Strip whitespace (spaces and non-breaking spaces).
             ' ' => '',
@@ -165,11 +166,16 @@ trait FormatterTrait
             // Convert the localized digits back to latin.
             $replacements += array_flip($this->digits[$numberingSystem]);
         }
-
         $number = strtr($number, $replacements);
+
+        // Convert the accounting format for negative numbers.
         if (substr($number, 0, 1) == '(' && substr($number, -1, 1) == ')') {
-            // This is an accounting formatted negative number.
             $number = '-' . str_replace(['(', ')'], '', $number);
+        }
+        // Convert percentages back to their decimal form.
+        if (strpos($number, '%') !== false) {
+            $number = str_replace('%', '', $number);
+            $number = Calculator::divide($number, '100');
         }
 
         return is_numeric($number) ? $number : false;

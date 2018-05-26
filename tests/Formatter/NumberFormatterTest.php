@@ -148,7 +148,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
     {
         return [
             ['en', 'decimal', '-50.00', '-50'],
-            ['en', 'percent', '50.00', '50%'],
+            ['en', 'percent', '0.50', '50%'],
             ['en', 'decimal', '5000000.5', '5,000,000.5'],
             ['bn', 'decimal', '-50.5', '-৫০.৫'],
             ['bn', 'decimal', '5000000.5', '৫০,০০,০০০.৫'],
@@ -163,6 +163,7 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
         return [
             ['en', '500,100.05', '500100.05'],
             ['en', '-1,059.59', '-1059.59'],
+            ['en', '50%', '0.5'],
             ['bn', '৫,০০,১০০.০৫', '500100.05'],
         ];
     }
