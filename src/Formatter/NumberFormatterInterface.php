@@ -12,7 +12,7 @@ interface NumberFormatterInterface
      *
      * Supported options:
      * - locale:                  The locale. Default: 'en'.
-     * - use_grouping:           Whether to use grouping separators,
+     * - use_grouping:            Whether to use grouping separators,
      *                            such as thousands separators.
      *                            Default: true.
      * - minimum_fraction_digits: Minimum fraction digits. Default: 0.
@@ -27,7 +27,7 @@ interface NumberFormatterInterface
      * @param string $number  The number.
      * @param array  $options The formatting options.
      *
-     * @return string
+     * @return string The formatted number.
      */
     public function format($number, array $options = []);
 
@@ -40,7 +40,7 @@ interface NumberFormatterInterface
      * Supported options:
      * - locale: The locale. Default: 'en'.
      *
-     * @param string $number  The number.
+     * @param string $number  The formatted number.
      * @param array  $options The parsing options.
      *
      * @return string|false The parsed number or FALSE on error.
