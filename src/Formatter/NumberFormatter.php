@@ -73,6 +73,8 @@ class NumberFormatter implements NumberFormatterInterface
         }
         $this->validateOptions($options);
         $options = array_replace($this->defaultOptions, $options);
+
+        $number = (string) $number;
         // Percentages are passed as decimals (e.g. 0.2 for 20%).
         if ($options['style'] == 'percent') {
             $number = Calculator::multiply($number, '100');

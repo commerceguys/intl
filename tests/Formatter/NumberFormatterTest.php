@@ -65,6 +65,16 @@ class NumberFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::format
+     */
+    public function testFormatWithFloat()
+    {
+        $formatter = new NumberFormatter(new NumberFormatRepository());
+        $formattedNumber = $formatter->format(12.34);
+        $this->assertSame('12.34', $formattedNumber);
+    }
+
+    /**
+     * @covers ::format
      *
      * @dataProvider numberValueProvider
      */

@@ -109,6 +109,7 @@ class CurrencyFormatter implements CurrencyFormatterInterface
             $options['maximum_fraction_digits'] = $currency->getFractionDigits();
         }
 
+        $number = (string) $number;
         $number = $this->formatNumber($number, $numberFormat, $options);
         if ($options['currency_display'] == 'symbol') {
             $number = str_replace('¤', $currency->getSymbol(), $number);

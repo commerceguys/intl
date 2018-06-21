@@ -69,6 +69,16 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers ::format
+     */
+    public function testFormatWithFloat()
+    {
+        $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
+        $formattedNumber = $formatter->format(12.34, 'USD');
+        $this->assertSame('$12.34', $formattedNumber);
+    }
+
+    /**
+     * @covers ::format
      *
      * @dataProvider currencyValueProvider
      */
