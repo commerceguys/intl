@@ -15,11 +15,11 @@
 	"ETB": {
 		"name": "Birr etíope"
 	},
-	"VEF": {
+	"VES": {
 		"name": "Bolívar venezuelano"
 	},
 	"BOB": {
-		"name": "Boliviano"
+		"name": "Boliviano da Bolívia"
 	},
 	"GHS": {
 		"name": "Cedi ganês"
@@ -78,11 +78,11 @@
 	"TND": {
 		"name": "Dinar tunisiano"
 	},
+	"AED": {
+		"name": "Dirham dos Emirados Árabes Unidos"
+	},
 	"MAD": {
 		"name": "Dirham marroquino"
-	},
-	"AED": {
-		"name": "Dirrã dos Emirados Árabes Unidos"
 	},
 	"STN": {
 		"name": "Dobra de São Tomé e Príncipe"
@@ -246,9 +246,6 @@
 	"AOA": {
 		"name": "Kwanza angolano"
 	},
-	"MMK": {
-		"name": "Kyat mianmarense"
-	},
 	"GEL": {
 		"name": "Lari georgiano"
 	},
@@ -332,6 +329,13 @@
 		"name": "Novo dólar taiwanês",
 		"symbol": "NT$"
 	},
+	"ILS": {
+		"name": "Novo shekel israelense",
+		"symbol": "₪"
+	},
+	"PEN": {
+		"name": "Novo sol peruano"
+	},
 	"MRU": {
 		"name": "Ouguiya mauritana"
 	},
@@ -339,7 +343,7 @@
 		"name": "Paʻanga tonganesa"
 	},
 	"MOP": {
-		"name": "Pataca macaense"
+		"name": "Pataca de Macau"
 	},
 	"ARS": {
 		"name": "Peso argentino"
@@ -375,12 +379,19 @@
 	"GTQ": {
 		"name": "Quetzal guatemalteco"
 	},
+	"MMK": {
+		"name": "Quiat de Myanmar"
+	},
 	"ZAR": {
 		"name": "Rand sul-africano"
 	},
 	"BRL": {
 		"name": "Real brasileiro",
 		"symbol": "R$"
+	},
+	"CNY": {
+		"name": "Renminbi chinês",
+		"symbol": "CN¥"
 	},
 	"QAR": {
 		"name": "Rial catariano"
@@ -410,7 +421,7 @@
 		"name": "Rublo russo"
 	},
 	"LKR": {
-		"name": "Rupia ceilandesa"
+		"name": "Rupia do Sri Lanka"
 	},
 	"INR": {
 		"name": "Rupia indiana",
@@ -420,7 +431,7 @@
 		"name": "Rupia indonésia"
 	},
 	"MVR": {
-		"name": "Rupia maldiva"
+		"name": "Rupia maldivana"
 	},
 	"MUR": {
 		"name": "Rupia mauriciana"
@@ -434,13 +445,6 @@
 	"SCR": {
 		"name": "Rupia seichelense"
 	},
-	"ILS": {
-		"name": "Sheqel novo israelita",
-		"symbol": "₪"
-	},
-	"PEN": {
-		"name": "Sol peruano"
-	},
 	"KGS": {
 		"name": "Som quirguiz"
 	},
@@ -451,7 +455,7 @@
 		"name": "Somoni tadjique"
 	},
 	"BDT": {
-		"name": "Taka bengalesa"
+		"name": "Taka bengali"
 	},
 	"WST": {
 		"name": "Tala samoano"
@@ -462,8 +466,11 @@
 	"MNT": {
 		"name": "Tugrik mongol"
 	},
+	"UYW": {
+		"name": "Uruguayan Nominal Wage Index Unit"
+	},
 	"VUV": {
-		"name": "Vatu vanuatuense"
+		"name": "Vatu de Vanuatu"
 	},
 	"KPW": {
 		"name": "Won norte-coreano"
@@ -476,7 +483,7 @@
 		"name": "Xelim queniano"
 	},
 	"SOS": {
-		"name": "Xelim somaliano"
+		"name": "Xelim somali"
 	},
 	"TZS": {
 		"name": "Xelim tanzaniano"
@@ -484,11 +491,7 @@
 	"UGX": {
 		"name": "Xelim ugandense"
 	},
-	"CNY": {
-		"name": "Yuan chinês",
-		"symbol": "CN¥"
-	},
 	"PLN": {
-		"name": "Zloti polonês"
+		"name": "Zloty polonês"
 	}
 }

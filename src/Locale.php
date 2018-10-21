@@ -208,6 +208,7 @@ final class Locale
         'vai-Latn' => 'root',
         'zh-Hant' => 'root',
         'yue-Hans' => 'root',
+        'ff-Adlm' => 'root',
     ];
 
     /**

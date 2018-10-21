@@ -14,7 +14,7 @@
 	"ETB": {
 		"name": "bir"
 	},
-	"VEF": {
+	"VES": {
 		"name": "bolívar venezolano"
 	},
 	"BOB": {
@@ -165,7 +165,7 @@
 		"name": "dólar zimbabuense"
 	},
 	"VND": {
-		"name": "dong"
+		"name": "dong vietnamita"
 	},
 	"AMD": {
 		"name": "dram armenio"
@@ -191,11 +191,11 @@
 	"BIF": {
 		"name": "franco burundés"
 	},
-	"XAF": {
-		"name": "franco CFA de África Central"
-	},
 	"XOF": {
-		"name": "franco CFA de África Occidental"
+		"name": "franco CFA BCEAO"
+	},
+	"XAF": {
+		"name": "franco CFA BEAC"
 	},
 	"XPF": {
 		"name": "franco CFP",
@@ -228,9 +228,6 @@
 	"PYG": {
 		"name": "guaraní paraguayo"
 	},
-	"BTN": {
-		"name": "gultrum"
-	},
 	"MMK": {
 		"name": "kiat"
 	},
@@ -238,7 +235,7 @@
 		"name": "kina"
 	},
 	"LAK": {
-		"name": "kip"
+		"name": "kip laosiano"
 	},
 	"AOA": {
 		"name": "kuanza"
@@ -327,6 +324,9 @@
 	"ERN": {
 		"name": "nakfa"
 	},
+	"BTN": {
+		"name": "ngultrum butanés"
+	},
 	"TWD": {
 		"name": "nuevo dólar taiwanés"
 	},
@@ -395,7 +395,7 @@
 		"name": "rial yemení"
 	},
 	"KHR": {
-		"name": "riel"
+		"name": "riel camboyano"
 	},
 	"MYR": {
 		"name": "ringit"
@@ -407,7 +407,7 @@
 		"name": "rublo ruso"
 	},
 	"MVR": {
-		"name": "rufiya"
+		"name": "rupia de Maldivas"
 	},
 	"LKR": {
 		"name": "rupia esrilanquesa"
@@ -434,7 +434,7 @@
 		"name": "sol peruano"
 	},
 	"KGS": {
-		"name": "som"
+		"name": "som kirguís"
 	},
 	"TJS": {
 		"name": "somoni tayiko"
@@ -443,7 +443,7 @@
 		"name": "sum"
 	},
 	"BDT": {
-		"name": "taka"
+		"name": "taka bangladesí"
 	},
 	"WST": {
 		"name": "tala"
@@ -455,7 +455,11 @@
 		"name": "tugrik"
 	},
 	"MRU": {
-		"name": "uguiya"
+		"name": "uguiya",
+		"symbol": "UM"
+	},
+	"UYW": {
+		"name": "unidad previsional uruguayo"
 	},
 	"VUV": {
 		"name": "vatu"

@@ -14,7 +14,7 @@
 	"ETB": {
 		"name": "birr éthiopien"
 	},
-	"VEF": {
+	"VES": {
 		"name": "bolivar vénézuélien"
 	},
 	"BOB": {
@@ -136,6 +136,9 @@
 	"GYD": {
 		"name": "dollar du Guyana"
 	},
+	"SRD": {
+		"name": "dollar du Suriname"
+	},
 	"FJD": {
 		"name": "dollar fidjien"
 	},
@@ -152,9 +155,6 @@
 		"name": "dollar néo-zélandais",
 		"symbol": "$ NZ"
 	},
-	"SRD": {
-		"name": "dollar surinamais"
-	},
 	"ZWL": {
 		"name": "dollar zimbabwéen (2009)"
 	},
@@ -165,7 +165,7 @@
 		"name": "dram arménien"
 	},
 	"CVE": {
-		"name": "escudo capverdien"
+		"name": "escudo cap-verdien"
 	},
 	"EUR": {
 		"name": "euro",
@@ -220,10 +220,10 @@
 		"name": "hryvnia ukrainienne"
 	},
 	"PGK": {
-		"name": "kina papouan-néo-guinéen"
+		"name": "kina papou-néo-guinéen"
 	},
 	"LAK": {
-		"name": "kip loatien"
+		"name": "kip laotien"
 	},
 	"HRK": {
 		"name": "kuna croate"
@@ -299,7 +299,7 @@
 		"name": "loti lesothan"
 	},
 	"AZN": {
-		"name": "manat azéri"
+		"name": "manat azerbaïdjanais"
 	},
 	"BAM": {
 		"name": "mark convertible bosniaque"
@@ -324,6 +324,9 @@
 	},
 	"ILS": {
 		"name": "nouveau shekel israélien"
+	},
+	"PEN": {
+		"name": "nouveau sol péruvien"
 	},
 	"MRU": {
 		"name": "ouguiya mauritanien"
@@ -393,7 +396,7 @@
 		"name": "ringgit malais"
 	},
 	"QAR": {
-		"name": "riyal qatari"
+		"name": "riyal du Qatar"
 	},
 	"BYN": {
 		"name": "rouble biélorusse"
@@ -437,9 +440,6 @@
 	"TZS": {
 		"name": "shilling tanzanien"
 	},
-	"PEN": {
-		"name": "sol péruvien"
-	},
 	"KGS": {
 		"name": "som kirghize"
 	},
@@ -453,8 +453,7 @@
 		"name": "taka bangladeshi"
 	},
 	"WST": {
-		"name": "tala samoan",
-		"symbol": "WS$"
+		"name": "tala"
 	},
 	"KZT": {
 		"name": "tenge kazakh"
@@ -462,8 +461,11 @@
 	"MNT": {
 		"name": "tugrik mongol"
 	},
+	"UYW": {
+		"name": "Uruguayan Nominal Wage Index Unit"
+	},
 	"VUV": {
-		"name": "vatu vanuatuan"
+		"name": "vatu"
 	},
 	"KPW": {
 		"name": "won nord-coréen"

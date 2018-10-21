@@ -1,8 +1,4 @@
 {
-	"XOF": {
-		"name": "(CFA) ფრანკი (BCEAO)",
-		"symbol": "CFA"
-	},
 	"AUD": {
 		"name": "ავსტრალიური დოლარი"
 	},
@@ -115,6 +111,10 @@
 	"DKK": {
 		"name": "დანიური კრონა"
 	},
+	"XOF": {
+		"name": "დასავლეთ აფრიკული CFA ფრანკი",
+		"symbol": "CFA"
+	},
 	"DOP": {
 		"name": "დომინიკური პესო"
 	},
@@ -137,7 +137,7 @@
 	"VUV": {
 		"name": "ვანუატუს ვატუ"
 	},
-	"VEF": {
+	"VES": {
 		"name": "ვენესუელის ბოლივარი"
 	},
 	"VND": {
@@ -478,6 +478,9 @@
 	},
 	"SVC": {
 		"name": "Salvadoran Colón"
+	},
+	"UYW": {
+		"name": "Uruguayan Nominal Wage Index Unit"
 	},
 	"ZWL": {
 		"name": "Zimbabwean Dollar (2009)"
