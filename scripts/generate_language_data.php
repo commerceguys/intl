@@ -102,6 +102,8 @@ function generate_languages()
     // too strict, filtering out languages that should be in the final list.
     // This override ensures that such cases are covered.
     $explicitlyAllowed = ['wa'];
+    // Languages that are untranslated in most locales (as of CLDR v34).
+    $explicitlyIgnored = ['ccp', 'fa-AF'];
 
     $untranslatedCounts = [];
     $languages = [];
@@ -114,6 +116,9 @@ function generate_languages()
             if (!in_array($languageCode, $locales) && !in_array($languageCode, $explicitlyAllowed)) {
                 continue;
             }
+            if (in_array($languageCode, $explicitlyIgnored)) {
+                continue;
+            }
 
             // This language name is untranslated, use to the english version.
             if ($languageCode == str_replace('_', '-', $languageName)) {
@@ -124,6 +129,13 @@ function generate_languages()
             }
 
             $languages[$locale][$languageCode] = $languageName;
+        }
+        // CLDR v34 has an uneven language list due to missing translations.
+        if ($locale != 'en') {
+            $missingLanguages = array_diff_key($languages['en'], $languages[$locale]);
+            foreach ($missingLanguages as $languageCode => $languageName) {
+                $languages[$locale][$languageCode] = $languages['en'][$languageCode];
+            }
         }
     }
 
