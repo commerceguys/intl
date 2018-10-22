@@ -98,6 +98,10 @@ function generate_languages()
     $index = array_search('en', $locales);
     unset($locales[$index]);
     array_unshift($locales, 'en');
+    // The filtering of the language list against the locale list can be
+    // too strict, filtering out languages that should be in the final list.
+    // This override ensures that such cases are covered.
+    $explicitlyAllowed = ['wa'];
 
     $untranslatedCounts = [];
     $languages = [];
@@ -107,7 +111,7 @@ function generate_languages()
         foreach ($data as $languageCode => $languageName) {
             // Skip all languages that aren't an available locale at the same time.
             // This reduces the language list from about 515 to about 185 languages.
-            if (!in_array($languageCode, $locales)) {
+            if (!in_array($languageCode, $locales) && !in_array($languageCode, $explicitlyAllowed)) {
                 continue;
             }
 
