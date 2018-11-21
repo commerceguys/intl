@@ -8,6 +8,7 @@ use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\Exception\UnknownCurrencyException;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepositoryInterface;
+use CommerceGuys\Intl\Calculator;
 
 /**
  * Formats currency amounts using locale-specific patterns.
@@ -97,6 +98,7 @@ class CurrencyFormatter implements CurrencyFormatterInterface
             throw new InvalidArgumentException($message);
         }
 
+        $negative = (Calculator::compare('0', (string) $number, 12) == 1);
         $this->validateOptions($options);
         $options = array_replace($this->defaultOptions, $options);
         $numberFormat = $this->getNumberFormat($options['locale']);
@@ -117,8 +119,9 @@ class CurrencyFormatter implements CurrencyFormatterInterface
             $number = str_replace('¤', $currency->getCurrencyCode(), $number);
         } else {
             // No symbol should be displayed. Remove leftover whitespace.
-            $number = str_replace('¤', '', $number);
-            $number = trim($number, " \xC2\xA0");
+            $negative_sign = $negative ? $numberFormat->getMinusSign() : '';
+            $pattern = '/^' . $negative_sign . '¤*\s*(.*?)\s*¤*$/us';
+            $number = preg_replace($pattern, $negative_sign . '$1', $number);
         }
 
         return $number;
