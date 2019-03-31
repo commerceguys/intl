@@ -14,7 +14,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
      */
     public function testMissingProperty()
     {
-        $this->setExpectedException('\InvalidArgumentException', 'Missing required property "locale".');
+        $this->setExpectedException(\InvalidArgumentException::class, 'Missing required property "locale".');
         $numberFormat = new NumberFormat([]);
     }
 
@@ -23,7 +23,7 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvalidNumberingSystem()
     {
-        $this->setExpectedException('\InvalidArgumentException', 'Invalid numbering system "FAKE".');
+        $this->setExpectedException(\InvalidArgumentException::class, 'Invalid numbering system "FAKE".');
         $numberFormat = new NumberFormat([
             'locale' => 'sr-Latn',
             'decimal_pattern' => '#,##0.###',

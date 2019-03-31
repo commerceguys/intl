@@ -2,6 +2,7 @@
 
 namespace CommerceGuys\Intl\Tests\Currency;
 
+use CommerceGuys\Intl\Currency\Currency;
 use CommerceGuys\Intl\Currency\CurrencyRepository;
 use org\bovigo\vfs\vfsStream;
 
@@ -78,7 +79,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
     {
         // Explicit locale.
         $currency = $currencyRepository->get('USD', 'es');
-        $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
+        $this->assertInstanceOf(Currency::class, $currency);
         $this->assertEquals('USD', $currency->getCurrencyCode());
         $this->assertEquals('dólar estadounidense', $currency->getName());
         $this->assertEquals('840', $currency->getNumericCode());
@@ -88,7 +89,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
 
         // Default locale, lowercase currency code.
         $currency = $currencyRepository->get('usd');
-        $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
+        $this->assertInstanceOf(Currency::class, $currency);
         $this->assertEquals('USD', $currency->getCurrencyCode());
         $this->assertEquals('US-Dollar', $currency->getName());
         $this->assertEquals('$', $currency->getSymbol());
@@ -96,7 +97,7 @@ class CurrencyRepositoryTest extends \PHPUnit_Framework_TestCase
 
         // Fallback locale.
         $currency = $currencyRepository->get('USD', 'INVALID-LOCALE');
-        $this->assertInstanceOf('CommerceGuys\\Intl\\Currency\\Currency', $currency);
+        $this->assertInstanceOf(Currency::class, $currency);
         $this->assertEquals('USD', $currency->getCurrencyCode());
         $this->assertEquals('US Dollar', $currency->getName());
         $this->assertEquals('$', $currency->getSymbol());

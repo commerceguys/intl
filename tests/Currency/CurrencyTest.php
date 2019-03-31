@@ -14,7 +14,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
      */
     public function testMissingProperty()
     {
-        $this->setExpectedException('\InvalidArgumentException', 'Missing required property "currency_code".');
+        $this->setExpectedException(\InvalidArgumentException::class, 'Missing required property "currency_code".');
         $currency = new Currency([]);
     }
 

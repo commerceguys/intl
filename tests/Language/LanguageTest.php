@@ -14,7 +14,7 @@ class LanguageTest extends \PHPUnit_Framework_TestCase
      */
     public function testMissingProperty()
     {
-        $this->setExpectedException('\InvalidArgumentException', 'Missing required property "language_code".');
+        $this->setExpectedException(\InvalidArgumentException::class, 'Missing required property "language_code".');
         $language = new Language([]);
     }
 

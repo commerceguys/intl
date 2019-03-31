@@ -2,6 +2,7 @@
 
 namespace CommerceGuys\Intl\Tests\NumberFormat;
 
+use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 use org\bovigo\vfs\vfsStream;
 
@@ -22,7 +23,7 @@ class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
         $numberFormatRepository = new NumberFormatRepository('de');
 
         $numberFormat = $numberFormatRepository->get('en');
-        $this->assertInstanceOf('CommerceGuys\\Intl\\NumberFormat\\NumberFormat', $numberFormat);
+        $this->assertInstanceOf(NumberFormat::class, $numberFormat);
         $this->assertEquals('en', $numberFormat->getLocale());
         $this->assertEquals('latn', $numberFormat->getNumberingSystem());
         $this->assertEquals('#,##0.###', $numberFormat->getDecimalPattern());
