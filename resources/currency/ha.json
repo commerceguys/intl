@@ -44,10 +44,6 @@
 	"BAM": {
 		"name": "Bosnia-Herzegovina Convertible Mark"
 	},
-	"BRL": {
-		"name": "Brazilian Real",
-		"symbol": "R$"
-	},
 	"BND": {
 		"name": "Brunei Dollar"
 	},
@@ -86,8 +82,8 @@
 		"name": "Czech Koruna"
 	},
 	"USD": {
-		"name": "Dalar Amurka",
-		"symbol": "US$"
+		"name": "Dalar Amirka",
+		"symbol": "$"
 	},
 	"CAD": {
 		"name": "Dalar Kanada",
@@ -116,10 +112,6 @@
 	"FKP": {
 		"name": "Falkland Islands Pound"
 	},
-	"GBP": {
-		"name": "Fam kin Ingila",
-		"symbol": "£"
-	},
 	"EGP": {
 		"name": "Fam kin Masar"
 	},
@@ -128,6 +120,10 @@
 	},
 	"SDG": {
 		"name": "Fam kin Sudan"
+	},
+	"GBP": {
+		"name": "Fam na Ingila",
+		"symbol": "£"
 	},
 	"FJD": {
 		"name": "Fijian Dollar"
@@ -206,10 +202,6 @@
 	"BIF": {
 		"name": "Kuɗin Burundi"
 	},
-	"CNY": {
-		"name": "Kuɗin Caina\/Sin",
-		"symbol": "CN¥"
-	},
 	"ERN": {
 		"name": "Kuɗin Eritireya"
 	},
@@ -225,10 +217,6 @@
 	"INR": {
 		"name": "Kuɗin Indiya",
 		"symbol": "₹"
-	},
-	"JPY": {
-		"name": "Kuɗin Japan",
-		"symbol": "JP¥"
 	},
 	"DJF": {
 		"name": "Kuɗin Jibuti"
@@ -389,6 +377,10 @@
 	"QAR": {
 		"name": "Qatari Rial"
 	},
+	"BRL": {
+		"name": "Ril Kudin Birazil",
+		"symbol": "R$"
+	},
 	"SAR": {
 		"name": "Riyal"
 	},
@@ -396,7 +388,7 @@
 		"name": "Romanian Leu"
 	},
 	"RUB": {
-		"name": "Russian Ruble"
+		"name": "Ruble kasar Rasha"
 	},
 	"SVC": {
 		"name": "Salvadoran Colón"
@@ -487,9 +479,17 @@
 	"YER": {
 		"name": "Yemeni Rial"
 	},
+	"JPY": {
+		"name": "Yen kasar Japan",
+		"symbol": "¥"
+	},
 	"EUR": {
 		"name": "Yuro",
 		"symbol": "€"
+	},
+	"CNY": {
+		"name": "Yuwan kasar Sin",
+		"symbol": "CN¥"
 	},
 	"ZWL": {
 		"name": "Zimbabwean Dollar (2009)"

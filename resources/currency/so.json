@@ -1,46 +1,46 @@
 {
 	"AFN": {
-		"name": "Afgan Afgan"
+		"name": "Afgan Afgani"
 	},
 	"MGA": {
-		"name": "Ariari Malagasy"
+		"name": "Arayrida Madagaskar"
 	},
 	"TOP": {
-		"name": "Ba’anga Tonga"
+		"name": "Ba’angada Tonga"
 	},
 	"THB": {
-		"name": "Baatka Tayland"
+		"name": "Baatka Taylaan"
 	},
 	"PAB": {
-		"name": "Balboa Panama"
+		"name": "Balbow Banama"
 	},
 	"MOP": {
 		"name": "Bataka Makana"
 	},
 	"ARS": {
-		"name": "Beeso Arjentina"
+		"name": "Beesada Arjentiin"
 	},
 	"DOP": {
-		"name": "Beeso Dominika"
+		"name": "Beesada Dominiika"
 	},
 	"CLP": {
-		"name": "Beeso Jili"
+		"name": "Beesada Jili"
 	},
 	"COP": {
-		"name": "Beeso Kolombiya"
-	},
-	"CUP": {
-		"name": "Beeso Kuuba"
+		"name": "Beesada Kolombiya"
 	},
 	"CUC": {
-		"name": "Beeso Kuuba Konfatibal"
+		"name": "Beesada Konfatibal ee Kuuba"
+	},
+	"CUP": {
+		"name": "Beesada Kuuba"
 	},
 	"MXN": {
-		"name": "Beeso Meksikaan",
+		"name": "Beesada Meksiko",
 		"symbol": "MX$"
 	},
 	"UYU": {
-		"name": "Beeso Uruguay"
+		"name": "Beesada Urugway"
 	},
 	"ETB": {
 		"name": "Birta Itoobbiya"
@@ -49,26 +49,26 @@
 		"name": "Biso Filibin"
 	},
 	"VES": {
-		"name": "Bolifar Fenezuela"
+		"name": "Bolifarada Fenesuwela"
 	},
 	"BOB": {
-		"name": "Bolifiano Bolifiya"
-	},
-	"SSP": {
-		"name": "Boownka Koonfurta Suudaan"
+		"name": "Bolifiyanada Bolifiya"
 	},
 	"GBP": {
 		"name": "Bowndka Biritishka",
 		"symbol": "£"
 	},
 	"FKP": {
-		"name": "Bowndka Faalkland Island"
+		"name": "Bowndka Faalklaan Aylaanis"
 	},
 	"GIP": {
 		"name": "Bowndka Gibraltar"
 	},
+	"SSP": {
+		"name": "Bowndka Koonfurta Suudaan"
+	},
 	"LBP": {
-		"name": "Bowndka Lebanon"
+		"name": "Bowndka Lubnaan"
 	},
 	"EGP": {
 		"name": "Bowndka Masar"
@@ -86,7 +86,7 @@
 		"name": "Buulada Botswana"
 	},
 	"GMD": {
-		"name": "Dalasi Gambiya"
+		"name": "Dalasida Gambiya"
 	},
 	"AMD": {
 		"name": "Daraamka Armeniya"
@@ -103,9 +103,6 @@
 	"IQD": {
 		"name": "Dinaarka Ciraaq"
 	},
-	"JOD": {
-		"name": "Dinaarka Joordan"
-	},
 	"KWD": {
 		"name": "Dinaarka Kuweyt"
 	},
@@ -118,6 +115,9 @@
 	"TND": {
 		"name": "Dinaarka Tunisiya"
 	},
+	"JOD": {
+		"name": "Dinaarka Urdun"
+	},
 	"AED": {
 		"name": "Dirhamka Isutaga Imaaraatka Carabta"
 	},
@@ -125,26 +125,21 @@
 		"name": "Dirhamka Moroko"
 	},
 	"STN": {
-		"name": "Dobra Sao Tome & Birinsibal"
+		"name": "Dobra Sao Tome & Birinsibi"
 	},
 	"VND": {
-		"name": "Dong Fitnaam",
+		"name": "Dongta Fitnaam",
 		"symbol": "₫"
 	},
-	"XCD": {
-		"name": "Doolaraka Bariga Kaaribyan",
-		"symbol": "EC$"
-	},
 	"AUD": {
-		"name": "Doolarka Awstaraaliya",
+		"name": "Doolarka Astaraaliya",
 		"symbol": "A$"
 	},
 	"BSD": {
-		"name": "Doolarka Bahamaas",
-		"symbol": "DBS"
+		"name": "Doolarka Bahamaas"
 	},
 	"BBD": {
-		"name": "Doolarka Barbaadiyaanka",
+		"name": "Doolarka Barbaadiyaan",
 		"symbol": "DBB"
 	},
 	"BMD": {
@@ -153,108 +148,116 @@
 	"BZD": {
 		"name": "Doolarka Beelisa"
 	},
+	"BND": {
+		"name": "Doolarka Buruney"
+	},
 	"FJD": {
 		"name": "Doolarka Fiji"
 	},
 	"GYD": {
 		"name": "Doolarka Guyanes"
 	},
+	"HKD": {
+		"name": "Doolarka Hoon Koon",
+		"symbol": "HK$"
+	},
+	"XCD": {
+		"name": "Doolarka Iist Kaaribyan",
+		"symbol": "EC$"
+	},
 	"JMD": {
-		"name": "Doolarka Jamaaika"
-	},
-	"KYD": {
-		"name": "Doolarka jasiiradaha Kayman"
-	},
-	"SBD": {
-		"name": "Doolarka Jasiiradaha Solomon"
+		"name": "Doolarka Jamayka"
 	},
 	"CAD": {
 		"name": "Doolarka Kanada",
 		"symbol": "CA$"
 	},
+	"KYD": {
+		"name": "Doolarka Kayman Aylaanis"
+	},
+	"LRD": {
+		"name": "Doolarka Liberiya"
+	},
+	"USD": {
+		"name": "Doolarka Mareeykanka",
+		"symbol": "US$"
+	},
+	"NAD": {
+		"name": "Doolarka Namibiya"
+	},
 	"NZD": {
 		"name": "Doolarka Niyuu Siyalaan",
 		"symbol": "NZ$"
 	},
+	"SGD": {
+		"name": "Doolarka Singabuur"
+	},
+	"SBD": {
+		"name": "Doolarka Solomon Aylaanis"
+	},
 	"SRD": {
 		"name": "Doolarka Surinamees"
 	},
-	"TTD": {
-		"name": "Doolarka Tirinad iyo Tobago"
-	},
-	"BND": {
-		"name": "Doollarka Burunel"
-	},
-	"HKD": {
-		"name": "Doollarka Hong Kong",
-		"symbol": "HK$"
-	},
-	"LRD": {
-		"name": "Doollarka Liberiya"
-	},
-	"NAD": {
-		"name": "Doollarka Namibiya"
-	},
-	"SGD": {
-		"name": "Doollarka Singabuur"
-	},
 	"TWD": {
-		"name": "Doollarka Taywaanta Cusubta",
+		"name": "Doolarka Taywaanta Cusub",
 		"symbol": "NT$"
+	},
+	"TTD": {
+		"name": "Doolarka Tirinidad iyo Tobago"
 	},
 	"CVE": {
 		"name": "Eskudo Keyb Farde"
 	},
 	"DJF": {
-		"name": "Faran Jabbuuti"
+		"name": "Faran Jabuuti"
 	},
 	"BIF": {
-		"name": "Farank Burundi"
+		"name": "Faranka Burundi"
 	},
 	"XAF": {
-		"name": "Farank CFA ee Bartamaha Afrika",
+		"name": "Faranka CFA ee Bartamaha Afrika",
 		"symbol": "FCFA"
-	},
-	"XPF": {
-		"name": "Farank CFP",
-		"symbol": "CFPF"
-	},
-	"CHF": {
-		"name": "Farank Iswis"
-	},
-	"KMF": {
-		"name": "Farank Komora"
-	},
-	"CDF": {
-		"name": "Farank Kongo"
-	},
-	"RWF": {
-		"name": "Farank Ruwanda"
 	},
 	"XOF": {
 		"name": "Faranka CFA Galbeedka Afrika",
 		"symbol": "CFA"
 	},
+	"XPF": {
+		"name": "Faranka CFP",
+		"symbol": "CFPF"
+	},
 	"GNF": {
 		"name": "Faranka Gini"
+	},
+	"CHF": {
+		"name": "Faranka Iswiska"
+	},
+	"KMF": {
+		"name": "Faranka Komoros"
+	},
+	"CDF": {
+		"name": "Faranka Kongo"
+	},
+	"RWF": {
+		"name": "Faranka Ruwanda"
 	},
 	"VUV": {
 		"name": "Fatu Fanuatu"
 	},
 	"AWG": {
-		"name": "Foloorin Aruban"
+		"name": "Foloorinta Aruban"
 	},
 	"HUF": {
 		"name": "Forintiska Hangari"
 	},
 	"ANG": {
-		"name": "Galdar Nadarland Antilean"
+		"name": "Galdarka Nadarlaan Antiliyaan"
 	},
 	"HTG": {
-		"name": "Goorde Haiti"
+		"name": "Goordada Hiyati"
 	},
 	"PYG": {
-		"name": "Guarani Baraguay"
+		"name": "Guranida Baraguway"
 	},
 	"UAH": {
 		"name": "Hirfiniyada Yukreeyn"
@@ -269,7 +272,7 @@
 		"name": "Kawansada Angola"
 	},
 	"MMK": {
-		"name": "Kayat Mayanmaar"
+		"name": "Kayatda Mayanmaar"
 	},
 	"LAK": {
 		"name": "Kib Laoti"
@@ -278,17 +281,19 @@
 		"name": "Kinada Babua Niyuu Gini"
 	},
 	"CRC": {
-		"name": "Kolon Kosta Rika",
-		"symbol": "KKR"
+		"name": "Kolonka Kosta Riika"
 	},
 	"BAM": {
-		"name": "Konfatibal Maak Bosnia-Hersogofina"
+		"name": "Konfatibal Maakta Bosnia-Hersogofina"
 	},
-	"DKK": {
-		"name": "Koranka Danishka"
+	"NIO": {
+		"name": "Kordobada Nikargow"
 	},
 	"ISK": {
-		"name": "Korona Eysland"
+		"name": "Koronada Eysland"
+	},
+	"DKK": {
+		"name": "Koronka Danishka"
 	},
 	"SEK": {
 		"name": "Koronka Isweden"
@@ -300,23 +305,25 @@
 		"name": "Korunada Jeek"
 	},
 	"HRK": {
-		"name": "Kuna Korooshiya"
+		"name": "Kunada Korooshiya"
+	},
+	"GTQ": {
+		"name": "Kuwestalka Guwatemala"
 	},
 	"GEL": {
 		"name": "Laariga Joorjiya"
 	},
 	"MDL": {
-		"name": "Leeyuu Moldofa"
+		"name": "Leeyuuda Moldofa"
 	},
 	"BGN": {
-		"name": "Lef Bulgariya"
+		"name": "Lefta Bulgariya"
 	},
 	"ALL": {
-		"name": "Lek Albaniya"
+		"name": "Lekta Albaniya"
 	},
 	"HNL": {
-		"name": "Lembira Hondura",
-		"symbol": "LHN"
+		"name": "Lembirada Honduras"
 	},
 	"SLL": {
 		"name": "Leonka Sira Leon"
@@ -328,54 +335,48 @@
 		"name": "Liirada Turkiga"
 	},
 	"SZL": {
-		"name": "Lilangeenida iswasi"
+		"name": "Lilangeenida iswaasi"
 	},
 	"RON": {
-		"name": "Liyuu ROmaniya"
-	},
-	"TMT": {
-		"name": "Manaat Turkmenistan"
+		"name": "Liyuuda Romaniya"
 	},
 	"AZN": {
-		"name": "Manaatada Asarbeyjan"
+		"name": "Manaata Asarbeyjan"
 	},
-	"MRU": {
-		"name": "Mauritanian Ouguiya"
+	"TMT": {
+		"name": "Manaata Turkmenistan"
 	},
 	"MZN": {
 		"name": "Metikalka Mosambik"
 	},
-	"ERN": {
-		"name": "Nafkada Eritriya"
-	},
 	"NGN": {
 		"name": "Nairada Neyjeeriya"
 	},
-	"BTN": {
-		"name": "Ngultaram Butan"
-	},
-	"NIO": {
-		"name": "Nikaragua Kordoba"
+	"ERN": {
+		"name": "Nakfada Eritriya"
 	},
 	"ILS": {
 		"name": "Niyuu Shekelka Israaiil",
 		"symbol": "₪"
 	},
-	"GTQ": {
-		"name": "Quetsal Guatemala"
+	"BTN": {
+		"name": "Nugultaramta Butan"
+	},
+	"MRU": {
+		"name": "Oogiyada Mawritaaniya"
 	},
 	"ZAR": {
 		"name": "Randka Koonfur Afrika"
 	},
 	"BRL": {
-		"name": "Real Barasil",
+		"name": "Realka Barasil",
 		"symbol": "R$"
 	},
 	"MYR": {
-		"name": "Ringit Malayshiya"
+		"name": "Ringitda Malayshiya"
 	},
 	"OMR": {
-		"name": "Riyaalka Comaan"
+		"name": "Riyaalka Cumaan"
 	},
 	"IRR": {
 		"name": "Riyaalka Iran"
@@ -390,13 +391,13 @@
 		"name": "Riyaalka Yemen"
 	},
 	"KHR": {
-		"name": "Riyf Cambodiya"
+		"name": "Riyf kambodiya"
 	},
 	"BYN": {
 		"name": "Rubalka Belarus"
 	},
 	"RUB": {
-		"name": "Rubalka Ruush"
+		"name": "Rubalka Ruushka"
 	},
 	"IDR": {
 		"name": "Rubiah Indonesiya"
@@ -421,13 +422,13 @@
 		"name": "Rubiga Siri lanka"
 	},
 	"MVR": {
-		"name": "Rufiya Maldifiya"
+		"name": "Rufiyada Maldifiya"
 	},
 	"SVC": {
 		"name": "Salvadoran Colón"
 	},
 	"GHS": {
-		"name": "Sedi Gana"
+		"name": "Sedida Gana"
 	},
 	"KES": {
 		"name": "Shilingka Kenya"
@@ -440,22 +441,22 @@
 		"name": "Shilingka Tansaaniya"
 	},
 	"UGX": {
-		"name": "Shilingka Uganda"
-	},
-	"PEN": {
-		"name": "Sol Beeru"
+		"name": "Shilingka Yugandha"
 	},
 	"PLN": {
-		"name": "Solotida Boland"
+		"name": "Solotida Bolaan"
+	},
+	"PEN": {
+		"name": "Solsha Beeru"
 	},
 	"TJS": {
-		"name": "Somoon Tajikistan"
+		"name": "Somoonida Tajikistan"
 	},
 	"KGS": {
-		"name": "Soom Kiyrgiystan"
+		"name": "Somta Kiyrgiystan"
 	},
 	"UZS": {
-		"name": "Soom Usbekistan"
+		"name": "Somta Usbekistan"
 	},
 	"BDT": {
 		"name": "Taka Bangledesh"
@@ -464,36 +465,32 @@
 		"name": "Tala Samao"
 	},
 	"KZT": {
-		"name": "Tenge Kasakhstan"
+		"name": "Tengeda Kasakhstan"
 	},
 	"MNT": {
-		"name": "Tugrik Mongoliya"
+		"name": "Tugrikta Mongoliya"
 	},
 	"UYW": {
 		"name": "Uruguayan Nominal Wage Index Unit"
-	},
-	"USD": {
-		"name": "US Dollar",
-		"symbol": "US$"
 	},
 	"KRW": {
 		"name": "Wonka Koonfur Kuuriya",
 		"symbol": "₩"
 	},
 	"KPW": {
-		"name": "Wonka Waqooyi Kuuriya"
+		"name": "Wonka Waqooyiga Kuuriya"
 	},
 	"JPY": {
-		"name": "Yenta Jaban",
+		"name": "Yenta Jabaan",
 		"symbol": "JP¥"
-	},
-	"CNY": {
-		"name": "Yuanta Shiinaha",
-		"symbol": "CN¥"
 	},
 	"EUR": {
 		"name": "Yuuroo",
 		"symbol": "€"
+	},
+	"CNY": {
+		"name": "Yuwanta Shiinaha",
+		"symbol": "CN¥"
 	},
 	"ZWL": {
 		"name": "Zimbabwean Dollar (2009)"
