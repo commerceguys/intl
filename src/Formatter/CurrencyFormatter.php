@@ -102,10 +102,10 @@ class CurrencyFormatter implements CurrencyFormatterInterface
         $numberFormat = $this->getNumberFormat($options['locale']);
         $currency = $this->getCurrency($currencyCode, $options['locale']);
         // Use the currency defaults if the values weren't set by the caller.
-        if (!isset($options['minimum_fraction_digits'])) {
+        if (empty($options['minimum_fraction_digits'])) {
             $options['minimum_fraction_digits'] = $currency->getFractionDigits();
         }
-        if (!isset($options['maximum_fraction_digits'])) {
+        if (empty($options['maximum_fraction_digits'])) {
             $options['maximum_fraction_digits'] = $currency->getFractionDigits();
         }
 
