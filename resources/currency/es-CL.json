@@ -14,6 +14,9 @@
 	"ETB": {
 		"name": "bir"
 	},
+	"VES": {
+		"name": "bolívar venezolano"
+	},
 	"BOB": {
 		"name": "boliviano"
 	},
@@ -166,7 +169,7 @@
 		"name": "dong"
 	},
 	"AMD": {
-		"name": "dram armenio"
+		"name": "dram"
 	},
 	"CVE": {
 		"name": "escudo de Cabo Verde"
@@ -189,11 +192,11 @@
 	"BIF": {
 		"name": "franco burundés"
 	},
-	"XOF": {
-		"name": "franco CFA BCEAO"
-	},
 	"XAF": {
-		"name": "franco CFA BEAC"
+		"name": "franco CFA de África Central"
+	},
+	"XOF": {
+		"name": "franco CFA de África Occidental"
 	},
 	"XPF": {
 		"name": "franco CFP",
@@ -319,11 +322,11 @@
 	"MZN": {
 		"name": "metical"
 	},
-	"ERN": {
-		"name": "nafka"
-	},
 	"NGN": {
 		"name": "naira"
+	},
+	"ERN": {
+		"name": "nakfa"
 	},
 	"TWD": {
 		"name": "nuevo dólar taiwanés"
@@ -396,7 +399,7 @@
 		"name": "riel"
 	},
 	"MYR": {
-		"name": "ringgit malayo"
+		"name": "ringit"
 	},
 	"BYN": {
 		"name": "rublo bielorruso"
@@ -460,9 +463,6 @@
 	},
 	"VUV": {
 		"name": "vatu"
-	},
-	"VES": {
-		"name": "Venezuelan Bolívar"
 	},
 	"KPW": {
 		"name": "won norcoreano"

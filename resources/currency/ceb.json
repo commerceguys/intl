@@ -40,7 +40,7 @@
 		"name": "Barbadian Dollar"
 	},
 	"BYN": {
-		"name": "Belarusian Rouble"
+		"name": "Belarusian Ruble"
 	},
 	"BZD": {
 		"name": "Belize Dollar"
@@ -63,10 +63,6 @@
 	"BRL": {
 		"name": "Brazilian Real",
 		"symbol": "R$"
-	},
-	"GBP": {
-		"name": "British Pound",
-		"symbol": "£"
 	},
 	"BND": {
 		"name": "Brunei Dollar"
@@ -101,10 +97,6 @@
 	"CLP": {
 		"name": "Chilean Peso"
 	},
-	"CNY": {
-		"name": "Chinese Yuan",
-		"symbol": "CN¥"
-	},
 	"COP": {
 		"name": "Colombian Peso"
 	},
@@ -115,7 +107,7 @@
 		"name": "Congolese Franc"
 	},
 	"CRC": {
-		"name": "Costa Rican Colón"
+		"name": "Costa Rican Colon"
 	},
 	"HRK": {
 		"name": "Croatian Kuna"
@@ -134,6 +126,10 @@
 	},
 	"DJF": {
 		"name": "Djiboutian Franc"
+	},
+	"USD": {
+		"name": "Dolyar sa US",
+		"symbol": "US $"
 	},
 	"DOP": {
 		"name": "Dominican Peso"
@@ -185,6 +181,10 @@
 	"HTG": {
 		"name": "Haitian Gourde"
 	},
+	"JPY": {
+		"name": "Hapon nga Yen",
+		"symbol": "JP¥"
+	},
 	"HNL": {
 		"name": "Honduran Lempira"
 	},
@@ -196,14 +196,18 @@
 		"name": "Hungarian Forint"
 	},
 	"ISK": {
-		"name": "Icelandic Króna"
-	},
-	"INR": {
-		"name": "Indian Rupee",
-		"symbol": "₹"
+		"name": "Icelandic Krona"
 	},
 	"IDR": {
 		"name": "Indonesian Rupiah"
+	},
+	"GBP": {
+		"name": "Inglatera nga Libra",
+		"symbol": "£"
+	},
+	"CNY": {
+		"name": "Intsik nga Yuan",
+		"symbol": "CN¥"
 	},
 	"IRR": {
 		"name": "Iranian Rial"
@@ -217,10 +221,6 @@
 	},
 	"JMD": {
 		"name": "Jamaican Dollar"
-	},
-	"JPY": {
-		"name": "Japanese Yen",
-		"symbol": "JP¥"
 	},
 	"JOD": {
 		"name": "Jordanian Dinar"
@@ -313,7 +313,7 @@
 		"symbol": "NZ$"
 	},
 	"NIO": {
-		"name": "Nicaraguan Córdoba"
+		"name": "Nicaraguan Cordoba"
 	},
 	"NGN": {
 		"name": "Nigerian Naira"
@@ -343,7 +343,8 @@
 		"name": "Peruvian Sol"
 	},
 	"PHP": {
-		"name": "Philippine Piso"
+		"name": "Philippine Piso",
+		"symbol": "₱"
 	},
 	"PLN": {
 		"name": "Polish Zloty"
@@ -354,8 +355,12 @@
 	"RON": {
 		"name": "Romanian Leu"
 	},
+	"INR": {
+		"name": "Rupee sa India",
+		"symbol": "₹"
+	},
 	"RUB": {
-		"name": "Russian Rouble"
+		"name": "Rusong ruble"
 	},
 	"RWF": {
 		"name": "Rwandan Franc"
@@ -367,7 +372,7 @@
 		"name": "Samoan Tala"
 	},
 	"STN": {
-		"name": "São Tomé & Príncipe Dobra"
+		"name": "Sao Tome & Principe Dobra"
 	},
 	"SAR": {
 		"name": "Saudi Riyal"
@@ -404,7 +409,7 @@
 		"name": "Sri Lankan Rupee"
 	},
 	"SHP": {
-		"name": "St Helena Pound"
+		"name": "St. Helena Pound"
 	},
 	"SDG": {
 		"name": "Sudanese Pound"
@@ -463,10 +468,6 @@
 	"UYU": {
 		"name": "Uruguayan Peso"
 	},
-	"USD": {
-		"name": "US Dollar",
-		"symbol": "US$"
-	},
 	"UZS": {
 		"name": "Uzbekistani Som"
 	},
@@ -474,7 +475,7 @@
 		"name": "Vanuatu Vatu"
 	},
 	"VES": {
-		"name": "Venezuelan Bolívar"
+		"name": "Venezuelan Bolivar"
 	},
 	"VND": {
 		"name": "Vietnamese Dong",

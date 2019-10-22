@@ -8,10 +8,6 @@
 	"DZD": {
 		"name": "Algeriese dinar"
 	},
-	"USD": {
-		"name": "Amerikaanse dollar",
-		"symbol": "US$"
-	},
 	"AOA": {
 		"name": "Angolese kwanza"
 	},
@@ -43,11 +39,11 @@
 	"BBD": {
 		"name": "Barbados-dollar"
 	},
+	"BYN": {
+		"name": "Belarusiese roebel"
+	},
 	"BZD": {
 		"name": "Beliziese dollar"
-	},
-	"BYN": {
-		"name": "Belo-Russiese roebel"
 	},
 	"BMD": {
 		"name": "Bermuda-dollar"
@@ -62,7 +58,7 @@
 		"name": "Bosnies-Herzegowiniese omskakelbare marka"
 	},
 	"BWP": {
-		"name": "Botswana pula"
+		"name": "Botswana-pula"
 	},
 	"BRL": {
 		"name": "Brasilliaanse reaal",
@@ -82,15 +78,7 @@
 		"name": "Burundiese frank"
 	},
 	"KYD": {
-		"name": "Cayman-eilande dollar"
-	},
-	"XOF": {
-		"name": "CFA frank BCEAO",
-		"symbol": "CFA"
-	},
-	"XAF": {
-		"name": "CFA frank BEAC",
-		"symbol": "FCFA"
+		"name": "Cayman-eilandse dollar"
 	},
 	"XPF": {
 		"name": "CFP-frank",
@@ -98,6 +86,10 @@
 	},
 	"CLP": {
 		"name": "Chileense peso"
+	},
+	"CNY": {
+		"name": "Chinese joean",
+		"symbol": "CN¥"
 	},
 	"COP": {
 		"name": "Colombiaanse peso"
@@ -112,7 +104,7 @@
 		"name": "Deense kroon"
 	},
 	"DJF": {
-		"name": "Djiboeti frank"
+		"name": "Djiboeti-frank"
 	},
 	"DOP": {
 		"name": "Dominikaanse peso"
@@ -131,7 +123,7 @@
 		"symbol": "€"
 	},
 	"FKP": {
-		"name": "Falkland-eilande pond"
+		"name": "Falkland-eilandse pond"
 	},
 	"FJD": {
 		"name": "Fidjiaanse dollar"
@@ -166,12 +158,12 @@
 	"HNL": {
 		"name": "Hondurese lempira"
 	},
-	"HKD": {
-		"name": "Hong Kong dollar",
-		"symbol": "HK$"
-	},
 	"HUF": {
 		"name": "Hongaarse florint"
+	},
+	"HKD": {
+		"name": "Hongkongse dollar",
+		"symbol": "HK$"
 	},
 	"INR": {
 		"name": "Indiese roepee",
@@ -210,8 +202,7 @@
 		"name": "Kambodjaanse riel"
 	},
 	"CAD": {
-		"name": "Kanadese dollar",
-		"symbol": "CA$"
+		"name": "Kanadese dollar"
 	},
 	"QAR": {
 		"name": "Katarrese rial"
@@ -243,11 +234,11 @@
 	"LAK": {
 		"name": "Laosiaanse kip"
 	},
-	"LBP": {
-		"name": "Lebanese pond"
-	},
 	"LSL": {
 		"name": "Lesotho loti"
+	},
+	"LBP": {
+		"name": "Libanese pond"
 	},
 	"LRD": {
 		"name": "Liberiese dollar"
@@ -280,7 +271,7 @@
 		"name": "Mauritaniese ouguiya"
 	},
 	"MUR": {
-		"name": "Mauritiaanse rupee"
+		"name": "Mauritiaanse roepee"
 	},
 	"MXN": {
 		"name": "Meksikaanse peso"
@@ -310,7 +301,7 @@
 		"name": "Nicaraguaanse córdoba"
 	},
 	"NZD": {
-		"name": "Nieu-Seeland dollar",
+		"name": "Nieu-Seelandse dollar",
 		"symbol": "NZ$"
 	},
 	"NGN": {
@@ -336,7 +327,7 @@
 		"name": "Omaanse rial"
 	},
 	"XCD": {
-		"name": "Oos-Karibbiese dollar",
+		"name": "Oos-Karibiese dollar",
 		"symbol": "EC$"
 	},
 	"PKR": {
@@ -364,10 +355,10 @@
 		"name": "Russiese roebel"
 	},
 	"RWF": {
-		"name": "Rwandiese frank"
+		"name": "Rwandese frank"
 	},
 	"SBD": {
-		"name": "Salomonseilande dollar"
+		"name": "Salomonseilandse dollar"
 	},
 	"SVC": {
 		"name": "Salvadoran Colón"
@@ -376,32 +367,32 @@
 		"name": "Samoaanse tala"
 	},
 	"STN": {
-		"name": "São Tomé en Príncipe dobra"
+		"name": "São Tomé en Príncipe-dobra"
 	},
 	"SAR": {
 		"name": "Saoedi-Arabiese riyal"
 	},
+	"XAF": {
+		"name": "Sentraal Afrikaanse CFA-frank",
+		"symbol": "FCFA"
+	},
 	"RSD": {
-		"name": "Serbiese dinar"
+		"name": "Serwiese dinar"
 	},
 	"SCR": {
-		"name": "Seychellese rupee"
+		"name": "Seychellese roepee"
 	},
 	"SLL": {
 		"name": "Sierra Leoniese leone"
 	},
 	"SGD": {
-		"name": "Singapoer dollar"
+		"name": "Singapoer-dollar"
 	},
 	"SHP": {
-		"name": "Sint Helena pond"
+		"name": "Sint Helena-pond"
 	},
 	"SYP": {
 		"name": "Siriese pond"
-	},
-	"CNY": {
-		"name": "Sjinese joean renminbi",
-		"symbol": "CN¥"
 	},
 	"SDG": {
 		"name": "Soedannese pond"
@@ -436,7 +427,7 @@
 		"name": "Switserse frank"
 	},
 	"TJS": {
-		"name": "Tadjikse roebel"
+		"name": "Tadjikse somoni"
 	},
 	"TZS": {
 		"name": "Tanzaniese sjieling"
@@ -449,7 +440,7 @@
 		"name": "Tongaanse pa’anga"
 	},
 	"TTD": {
-		"name": "Trinidad en Tobago dollar"
+		"name": "Trinidad en Tobago-dollar"
 	},
 	"CZK": {
 		"name": "Tsjeggiese kroon"
@@ -461,7 +452,7 @@
 		"name": "Turkmeense manat"
 	},
 	"TRY": {
-		"name": "Turkse lier"
+		"name": "Turkse lira"
 	},
 	"UGX": {
 		"name": "Ugandese sjieling"
@@ -476,14 +467,21 @@
 		"name": "Vanuatuse vatu"
 	},
 	"VES": {
-		"name": "Venezolaanse Bolívar"
+		"name": "Venezolaanse bolívar"
 	},
 	"AED": {
-		"name": "Verenigde Arabiese Emirate dirham"
+		"name": "Verenigde Arabiese Emirate-dirham"
 	},
 	"VND": {
 		"name": "Viëtnamese dong",
 		"symbol": "₫"
+	},
+	"USD": {
+		"name": "VSA-dollar"
+	},
+	"XOF": {
+		"name": "Wes-Afrikaanse CFA-frank",
+		"symbol": "CFA"
 	},
 	"ISK": {
 		"name": "Yslandse kroon"
