@@ -8,6 +8,7 @@ use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\Formatter\CurrencyFormatter;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
+use CommerceGuys\Intl\Tests\NumberFormat\CustomNumberFormatRepository;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Formatter\CurrencyFormatter
@@ -182,6 +183,17 @@ class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
         $formatter = new CurrencyFormatter(new NumberFormatRepository(), new CurrencyRepository());
         $parsedNumber = $formatter->parse($number, $currencyCode, ['locale' => $locale]);
         $this->assertSame($expectedNumber, $parsedNumber);
+    }
+
+    /**
+     * @covers ::format
+     */
+    public function testFormatUtf8()
+    {
+        include __DIR__ . '/../NumberFormat/CustomNumberFormatRepository.php';
+        $numberFormatRepository = new CustomNumberFormatRepository();
+        $formatter = new CurrencyFormatter($numberFormatRepository, new CurrencyRepository());
+        $this->assertSame("\xc2\xb1950.00", $formatter->format('-950.000000', 'USD', ['currency_display' => 'none', 'locale' => 'tst']));
     }
 
     /**
