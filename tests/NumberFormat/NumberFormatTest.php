@@ -3,18 +3,20 @@
 namespace CommerceGuys\Intl\Tests\NumberFormat;
 
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\NumberFormat\NumberFormat
  */
-class NumberFormatTest extends \PHPUnit_Framework_TestCase
+final class NumberFormatTest extends TestCase
 {
     /**
      * @covers ::__construct
      */
     public function testMissingProperty()
     {
-        $this->setExpectedException(\InvalidArgumentException::class, 'Missing required property "locale".');
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage('Missing required property "locale".');
         $numberFormat = new NumberFormat([]);
     }
 
@@ -23,7 +25,8 @@ class NumberFormatTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvalidNumberingSystem()
     {
-        $this->setExpectedException(\InvalidArgumentException::class, 'Invalid numbering system "FAKE".');
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage('Invalid numbering system "FAKE".');
         $numberFormat = new NumberFormat([
             'locale' => 'sr-Latn',
             'decimal_pattern' => '#,##0.###',

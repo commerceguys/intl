@@ -3,11 +3,12 @@
 namespace CommerceGuys\Intl\Tests;
 
 use CommerceGuys\Intl\Calculator;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Calculator
  */
-class CalculatorTest extends \PHPUnit_Framework_TestCase
+final class CalculatorTest extends TestCase
 {
     /**
      * @covers ::add

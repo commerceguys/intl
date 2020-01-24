@@ -3,11 +3,12 @@
 namespace CommerceGuys\Intl\Tests\Formatter;
 
 use CommerceGuys\Intl\Formatter\ParsedPattern;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Formatter\ParsedPattern
  */
-class ParsedPatternTest extends \PHPUnit_Framework_TestCase
+final class ParsedPatternTest extends TestCase
 {
     /**
      * @covers ::__construct

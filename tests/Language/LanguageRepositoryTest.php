@@ -5,11 +5,12 @@ namespace CommerceGuys\Intl\Tests\Language;
 use CommerceGuys\Intl\Language\Language;
 use CommerceGuys\Intl\Language\LanguageRepository;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Language\LanguageRepository
  */
-class LanguageRepositoryTest extends \PHPUnit_Framework_TestCase
+final class LanguageRepositoryTest extends TestCase
 {
     /**
      * Language definitions.

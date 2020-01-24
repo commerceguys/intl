@@ -3,18 +3,20 @@
 namespace CommerceGuys\Intl\Tests\Language;
 
 use CommerceGuys\Intl\Language\Language;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Language\Language
  */
-class LanguageTest extends \PHPUnit_Framework_TestCase
+final class LanguageTest extends TestCase
 {
     /**
      * @covers ::__construct
      */
     public function testMissingProperty()
     {
-        $this->setExpectedException(\InvalidArgumentException::class, 'Missing required property "language_code".');
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage('Missing required property "language_code".');
         $language = new Language([]);
     }
 

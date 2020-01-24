@@ -4,11 +4,12 @@ namespace CommerceGuys\Intl\Tests;
 
 use CommerceGuys\Intl\Exception\UnknownLocaleException;
 use CommerceGuys\Intl\Locale;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Locale
  */
-class LocaleTest extends \PHPUnit_Framework_TestCase
+final class LocaleTest extends TestCase
 {
     /**
      * @covers ::match
@@ -57,7 +58,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
      */
     public function testResolveWithoutResult()
     {
-        $this->setExpectedException(UnknownLocaleException::class);
+        $this->expectException(UnknownLocaleException::class);
         $availableLocales = ['bs', 'en'];
         $locale = Locale::resolve($availableLocales, 'de');
     }

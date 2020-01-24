@@ -5,11 +5,12 @@ namespace CommerceGuys\Intl\Tests\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\NumberFormat\NumberFormatRepository
  */
-class NumberFormatRepositoryTest extends \PHPUnit_Framework_TestCase
+final class NumberFormatRepositoryTest extends TestCase
 {
     /**
      * @covers ::get

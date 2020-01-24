@@ -7,11 +7,12 @@ use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\Formatter\NumberFormatter;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Formatter\NumberFormatter
  */
-class NumberFormatterTest extends \PHPUnit_Framework_TestCase
+final class NumberFormatterTest extends TestCase
 {
     /**
      * @covers ::format

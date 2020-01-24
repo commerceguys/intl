@@ -3,18 +3,20 @@
 namespace CommerceGuys\Intl\Tests\Currency;
 
 use CommerceGuys\Intl\Currency\Currency;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Currency\Currency
  */
-class CurrencyTest extends \PHPUnit_Framework_TestCase
+final class CurrencyTest extends TestCase
 {
     /**
      * @covers ::__construct
      */
     public function testMissingProperty()
     {
-        $this->setExpectedException(\InvalidArgumentException::class, 'Missing required property "currency_code".');
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage('Missing required property "currency_code".');
         $currency = new Currency([]);
     }
 

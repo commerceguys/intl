@@ -8,11 +8,12 @@ use CommerceGuys\Intl\Exception\InvalidArgumentException;
 use CommerceGuys\Intl\Formatter\CurrencyFormatter;
 use CommerceGuys\Intl\NumberFormat\NumberFormat;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \CommerceGuys\Intl\Formatter\CurrencyFormatter
  */
-class CurrencyFormatterTest extends \PHPUnit_Framework_TestCase
+final class CurrencyFormatterTest extends TestCase
 {
     /**
      * @covers ::format
