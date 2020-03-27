@@ -180,27 +180,34 @@ function discover_locales()
         'eo', 'ia', 'vo',
         // Church Slavic, Manx, Prussian are historical languages.
         'cu', 'gv', 'prg',
-        // Ignored by other generation scripts, very minor locales.
-        'as', 'asa', 'bem', 'ccp', 'chr', 'dav', 'dua', 'ebu', 'ewo', 'guz', 'ii',
-        'jgo', 'jmc', 'kam', 'kde', 'ki', 'kkj', 'kl', 'kln', 'ksb', 'kw', 'lag',
-        'ln', 'mer', 'mgo', 'nd', 'nmg', 'nnh', 'nus', 'os', 'ps', 'rwk', 'sah',
-        'saq', 'sbp', 'shi', 'sn', 'teo', 'vai', 'vun', 'xog', 'zgh',
+        // Africa secondary languages.
+        'agq', 'ak', 'am', 'asa', 'bas', 'bem', 'bez', 'bm', 'cgg', 'dav',
+        'dje', 'dua', 'dyo', 'ebu', 'ee', 'ewo', 'ff', 'ff-Latn', 'guz',
+        'ha', 'ig', 'jgo', 'jmc', 'kab', 'kam', 'kea', 'kde', 'ki', 'kkj',
+        'kln', 'khq', 'ksb', 'ksf', 'lag', 'luo', 'luy', 'lu', 'lg', 'ln',
+        'mas', 'mer', 'mua', 'mgo', 'mgh', 'mfe', 'naq', 'nd', 'nmg', 'nnh',
+        'nus', 'nyn', 'om', 'rof', 'rwk', 'saq', 'seh', 'ses', 'sbp', 'sg',
+        'shi', 'sn', 'teo', 'ti', 'tzm', 'twq', 'vai', 'vai-Latn', 'vun',
+        'wo', 'xog', 'xh', 'zgh', 'yav', 'yo', 'zu',
+        // Europe secondary languages.
+        'br', 'dsb', 'fo', 'fur', 'fy', 'hsb', 'ksh', 'kw', 'nds', 'or', 'rm',
+        'se', 'smn', 'wae',
+        // Other infrequently used locales.
+        'ceb', 'ccp', 'chr', 'ckb', 'haw', 'ii', 'jv', 'kl', 'kn', 'lkt',
+        'lrc', 'mi', 'mzn', 'os', 'qu', 'row', 'sah', 'tt', 'ug', 'yi',
         // Special "grouping" locales.
         'root', 'en-US-POSIX',
     ];
 
     // Gather available locales.
     $locales = [];
-    if ($handle = opendir($localeDirectory)) {
-        while (false !== ($entry = readdir($handle))) {
-            if (substr($entry, 0, 1) != '.') {
-                $entryParts = explode('-', $entry);
-                if (!in_array($entry, $ignoredLocales) && !in_array($entryParts[0], $ignoredLocales)) {
-                    $locales[] = $entry;
-                }
+    foreach (scandir($localeDirectory) as $entry) {
+        if (substr($entry, 0, 1) != '.') {
+            $entryParts = explode('-', $entry);
+            if (!in_array($entry, $ignoredLocales) && !in_array($entryParts[0], $ignoredLocales)) {
+                $locales[] = $entry;
             }
         }
-        closedir($handle);
     }
 
     return $locales;

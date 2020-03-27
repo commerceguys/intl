@@ -98,12 +98,13 @@ function generate_languages()
     $index = array_search('en', $locales);
     unset($locales[$index]);
     array_unshift($locales, 'en');
-    // The filtering of the language list against the locale list can be
-    // too strict, filtering out languages that should be in the final list.
-    // This override ensures that such cases are covered.
-    $explicitlyAllowed = ['wa'];
+    // Skip all languages that aren't an available locale at the same time.
+    // This reduces the language list from about 515 to about 185 languages.
+    $allowedLanguages = scandir($localeDirectory);
+    $allowedLanguages[] = 'wa';
+    $allowedLanguages = array_diff($allowedLanguages, ['eo', 'ia', 'vo', 'cu', 'gv', 'prg', 'root']);
     // Languages that are untranslated in most locales (as of CLDR v34).
-    $explicitlyIgnored = ['ccp', 'fa-AF'];
+    $allowedLanguages = array_diff($allowedLanguages, ['ccp', 'fa-AF']);
 
     $untranslatedCounts = [];
     $languages = [];
@@ -111,12 +112,7 @@ function generate_languages()
         $data = json_decode(file_get_contents($localeDirectory . $locale . '/languages.json'), true);
         $data = $data['main'][$locale]['localeDisplayNames']['languages'];
         foreach ($data as $languageCode => $languageName) {
-            // Skip all languages that aren't an available locale at the same time.
-            // This reduces the language list from about 515 to about 185 languages.
-            if (!in_array($languageCode, $locales) && !in_array($languageCode, $explicitlyAllowed)) {
-                continue;
-            }
-            if (in_array($languageCode, $explicitlyIgnored)) {
+            if (!in_array($languageCode, $allowedLanguages)) {
                 continue;
             }
 
@@ -197,22 +193,34 @@ function discover_locales()
         'cu', 'gv', 'prg',
         // Valencian differs from its parent only by a single character (è/é).
         'ca-ES-VALENCIA',
+        // Africa secondary languages.
+        'agq', 'ak', 'am', 'asa', 'bas', 'bem', 'bez', 'bm', 'cgg', 'dav',
+        'dje', 'dua', 'dyo', 'ebu', 'ee', 'ewo', 'ff', 'ff-Latn', 'guz',
+        'ha', 'ig', 'jgo', 'jmc', 'kab', 'kam', 'kea', 'kde', 'ki', 'kkj',
+        'kln', 'khq', 'ksb', 'ksf', 'lag', 'luo', 'luy', 'lu', 'lg', 'ln',
+        'mas', 'mer', 'mua', 'mgo', 'mgh', 'mfe', 'naq', 'nd', 'nmg', 'nnh',
+        'nus', 'nyn', 'om', 'rof', 'rwk', 'saq', 'seh', 'ses', 'sbp', 'sg',
+        'shi', 'sn', 'teo', 'ti', 'tzm', 'twq', 'vai', 'vai-Latn', 'vun',
+        'wo', 'xog', 'xh', 'zgh', 'yav', 'yo', 'zu',
+        // Europe secondary languages.
+        'br', 'dsb', 'fo', 'fur', 'fy', 'hsb', 'ksh', 'kw', 'nds', 'or', 'rm',
+        'se', 'smn', 'wae',
+        // Other infrequently used locales.
+        'ceb', 'ccp', 'chr', 'ckb', 'haw', 'ii', 'jv', 'kl', 'kn', 'lkt',
+        'lrc', 'mi', 'mzn', 'os', 'qu', 'row', 'sah', 'tt', 'ug', 'yi',
         // Special "grouping" locales.
         'root', 'en-US-POSIX',
     ];
 
     // Gather available locales.
     $locales = [];
-    if ($handle = opendir($localeDirectory)) {
-        while (false !== ($entry = readdir($handle))) {
-            if (substr($entry, 0, 1) != '.') {
-                $entryParts = explode('-', $entry);
-                if (!in_array($entry, $ignoredLocales) && !in_array($entryParts[0], $ignoredLocales)) {
-                    $locales[] = $entry;
-                }
+    foreach (scandir($localeDirectory) as $entry) {
+        if (substr($entry, 0, 1) != '.') {
+            $entryParts = explode('-', $entry);
+            if (!in_array($entry, $ignoredLocales) && !in_array($entryParts[0], $ignoredLocales)) {
+                $locales[] = $entry;
             }
         }
-        closedir($handle);
     }
 
     return $locales;

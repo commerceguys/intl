@@ -44,25 +44,18 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      * @var array
      */
     protected $availableLocales = [
-        'af', 'agq', 'ak', 'am', 'ar', 'as', 'asa', 'ast', 'az', 'bas', 'be',
-        'bez', 'bg', 'bm', 'bn', 'br', 'brx', 'bs', 'bs-Cyrl', 'ca', 'ccp',
-        'ce', 'ceb', 'cgg', 'chr', 'cs', 'cy', 'da', 'dav', 'de', 'de-CH',
-        'dje', 'dsb', 'dz', 'ebu', 'ee', 'el', 'en', 'en-001', 'en-AU', 'en-GG',
-        'en-IM', 'en-JE', 'es', 'es-419', 'es-CL', 'es-GT', 'es-MX', 'es-US',
-        'es-VE', 'et', 'eu', 'ewo', 'fa', 'fa-AF', 'ff', 'fi', 'fil', 'fo',
-        'fr', 'fr-CA', 'fur', 'fy', 'ga', 'gd', 'gl', 'gsw', 'gu', 'guz', 'ha',
-        'he', 'hi', 'hr', 'hsb', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'jmc',
-        'jv', 'ka', 'kab', 'kam', 'kde', 'kea', 'khq', 'ki', 'kk', 'kln', 'km',
-        'kn', 'ko', 'kok', 'ks', 'ksb', 'ksf', 'ksh', 'ky', 'lag', 'lb', 'lg',
-        'ln', 'lo', 'lt', 'lu', 'luo', 'luy', 'lv', 'mas', 'mer', 'mfe', 'mg',
-        'mk', 'ml', 'mn', 'mr', 'ms', 'mua', 'my', 'mzn', 'naq', 'nb', 'nd',
-        'ne', 'nl', 'nmg', 'nn', 'nyn', 'or', 'pa', 'pl', 'ps', 'pt', 'pt-PT',
-        'qu', 'rm', 'rn', 'ro', 'rof', 'ru', 'rwk', 'saq', 'sbp', 'sd', 'seh',
-        'ses', 'sg', 'shi', 'shi-Latn', 'si', 'sk', 'sl', 'sn', 'so', 'sq',
-        'sr', 'sr-Latn', 'sv', 'sw', 'sw-CD', 'sw-KE', 'ta', 'te', 'teo', 'th',
-        'tk', 'tr', 'twq', 'tzm', 'ug', 'uk', 'ur', 'ur-IN', 'uz', 'uz-Cyrl',
-        'vai', 'vai-Latn', 'vi', 'vun', 'xog', 'yo', 'yo-BJ', 'yue', 'yue-Hans',
-        'zgh', 'zh', 'zh-Hans-HK', 'zh-Hant', 'zh-Hant-HK', 'zu',
+        'af', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn', 'brx', 'bs', 'bs-Cyrl',
+        'ca', 'ce', 'cs', 'cy', 'da', 'de', 'de-CH', 'dz', 'el', 'en', 'en-001',
+        'en-AU', 'en-GG', 'en-IM', 'en-JE', 'es', 'es-419', 'es-CL', 'es-GT',
+        'es-MX', 'es-US', 'es-VE', 'et', 'eu', 'fa', 'fa-AF', 'fi', 'fil', 'fr',
+        'fr-CA', 'ga', 'gd', 'gl', 'gsw', 'gu', 'he', 'hi', 'hr', 'hu', 'hy',
+        'id', 'is', 'it', 'ja', 'ka', 'kk', 'km', 'ko', 'kok', 'ks', 'ky', 'lb',
+        'lo', 'lt', 'lv', 'mg', 'mk', 'ml', 'mn', 'mr', 'ms', 'my', 'nb', 'ne',
+        'nl', 'nn', 'pa', 'pl', 'ps', 'pt', 'pt-PT', 'rn', 'ro', 'ru', 'sd',
+        'si', 'sk', 'sl', 'so', 'sq', 'sr', 'sr-Latn', 'sv', 'sw', 'sw-CD',
+        'sw-KE', 'ta', 'te', 'th', 'tk', 'tr', 'uk', 'ur', 'ur-IN', 'uz',
+        'uz-Cyrl', 'vi', 'yue', 'yue-Hans', 'zh', 'zh-Hans-HK', 'zh-Hant',
+        'zh-Hant-HK',
     ];
 
     /**
