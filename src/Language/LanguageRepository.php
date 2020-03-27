@@ -49,7 +49,7 @@ class LanguageRepository implements LanguageRepositoryInterface
         'bn-IN', 'br', 'brx', 'bs', 'bs-Cyrl', 'ca', 'ccp', 'ce', 'cgg', 'chr',
         'ckb', 'cs', 'cy', 'da', 'dav', 'de', 'de-AT', 'de-CH', 'de-LU', 'dje',
         'dsb', 'dyo', 'dz', 'ebu', 'ee', 'el', 'en', 'en-001', 'en-AU', 'en-CA',
-        'en-IN', 'en-NZ', 'eo', 'es', 'es-419', 'es-AR', 'es-BO', 'es-CL',
+        'en-IN', 'en-NZ', 'es', 'es-419', 'es-AR', 'es-BO', 'es-CL',
         'es-CO', 'es-CR', 'es-DO', 'es-EC', 'es-GT', 'es-HN', 'es-MX', 'es-NI',
         'es-PA', 'es-PE', 'es-PR', 'es-PY', 'es-SV', 'es-US', 'es-VE', 'et',
         'eu', 'ewo', 'fa', 'fa-AF', 'ff', 'fi', 'fil', 'fo', 'fr', 'fr-BE',

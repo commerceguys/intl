@@ -176,10 +176,12 @@ function discover_locales()
     // Locales listed without a "-" match all variants.
     // Locales listed with a "-" match only those exact ones.
     $ignoredLocales = [
-        // Interlingua is a made up language.
-        'ia',
+        // Esperanto, Interlingua, Volapuk are made up languages.
+        'eo', 'ia', 'vo',
+        // Church Slavic, Manx, Prussian are historical languages.
+        'cu', 'gv', 'prg',
         // Ignored by other generation scripts, very minor locales.
-        'as', 'asa', 'bem', 'ccp', 'chr', 'dav', 'dua', 'ebu', 'ewo', 'guz', 'gv', 'ii',
+        'as', 'asa', 'bem', 'ccp', 'chr', 'dav', 'dua', 'ebu', 'ewo', 'guz', 'ii',
         'jgo', 'jmc', 'kam', 'kde', 'ki', 'kkj', 'kl', 'kln', 'ksb', 'kw', 'lag',
         'ln', 'mer', 'mgo', 'nd', 'nmg', 'nnh', 'nus', 'os', 'ps', 'rwk', 'sah',
         'saq', 'sbp', 'shi', 'sn', 'teo', 'vai', 'vun', 'xog', 'zgh',
