@@ -106,8 +106,14 @@ function generate_number_formats()
         if ($decimalSeparator != '.') {
             $numberFormats[$locale]['decimal_separator'] = $decimalSeparator;
         }
+        if (array_key_exists('currencyDecimal', $data['symbols-numberSystem-' . $numberingSystem])) {
+            $numberFormats[$locale]['decimal_currency_separator'] = $data['symbols-numberSystem-' . $numberingSystem]['currencyDecimal'];
+        }
         if ($groupingSeparator != ',') {
             $numberFormats[$locale]['grouping_separator'] = $groupingSeparator;
+        }
+        if (array_key_exists('currencyGroup', $data['symbols-numberSystem-' . $numberingSystem])) {
+            $numberFormats[$locale]['grouping_currency_separator'] = $data['symbols-numberSystem-' . $numberingSystem]['currencyGroup'];
         }
         if ($plusSign != '+') {
             $numberFormats[$locale]['plus_sign'] = $plusSign;

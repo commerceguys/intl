@@ -227,6 +227,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00 ¤',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
+                'grouping_currency_separator' => '.',
             ],
             'de-CH' => [
                 'currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
@@ -476,6 +477,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'currency_pattern' => '#,##0.00 ¤',
                 'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
+                'decimal_currency_separator' => '.',
                 'grouping_separator' => ' ',
             ],
             'fr-LU' => [
