@@ -124,7 +124,7 @@ trait FormatterTrait
             $number = strtr($number, $this->digits[$numberingSystem]);
         }
         // Localize symbols.
-        $replacements = $this->getLocalizeReplacements($numberFormat);
+        $replacements = $this->getLocalizedSymbols($numberFormat);
         $number = strtr($number, $replacements);
 
         return $number;
@@ -143,7 +143,7 @@ trait FormatterTrait
      */
     protected function parseNumber($number, NumberFormat $numberFormat)
     {
-        $replacements = $this->getParseReplacements($numberFormat);
+        $replacements = $this->getCanonicalSymbols($numberFormat);
         $numberingSystem = $numberFormat->getNumberingSystem();
         if (isset($this->digits[$numberingSystem])) {
             // Convert the localized digits back to latin.
@@ -199,45 +199,18 @@ trait FormatterTrait
     /**
      * Returns the replacements to be used for the localizeNumber method.
      *
-     * Can be overriden which is useful for deviating symbols for currencies.
-     *
      * @param NumberFormat $numberFormat
      *
      * @return array
      */
-    protected function getLocalizeReplacements(NumberFormat $numberFormat): array
-    {
-        return [
-            '.' => $numberFormat->getDecimalSeparator(),
-            ',' => $numberFormat->getGroupingSeparator(),
-            '+' => $numberFormat->getPlusSign(),
-            '-' => $numberFormat->getMinusSign(),
-            '%' => $numberFormat->getPercentSign(),
-        ];
-    }
+    abstract protected function getLocalizedSymbols(NumberFormat $numberFormat): array;
 
     /**
      * Returns the replacements to be used for the parseNumber method.
      *
-     * Can be overriden which is useful for deviating symbols for currencies.
-     *
      * @param NumberFormat $numberFormat
      *
      * @return array
      */
-    protected function getParseReplacements(NumberFormat $numberFormat): array
-    {
-        return  [
-            $numberFormat->getGroupingSeparator() => '',
-            // Convert the localized symbols back to their original form.
-            $numberFormat->getDecimalSeparator() => '.',
-            $numberFormat->getPlusSign() => '+',
-            $numberFormat->getMinusSign() => '-',
-            $numberFormat->getPercentSign() => '%',
-
-            // Strip whitespace (spaces and non-breaking spaces).
-            ' ' => '',
-            chr(0xC2) . chr(0xA0) => '',
-        ];
-    }
+    abstract protected function getCanonicalSymbols(NumberFormat $numberFormat): array;
 }

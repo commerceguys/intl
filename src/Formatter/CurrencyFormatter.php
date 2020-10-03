@@ -242,7 +242,7 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     /**
      * {@inheritdoc}
      */
-    protected function getLocalizeReplacements(NumberFormat $numberFormat): array
+    protected function getLocalizedSymbols(NumberFormat $numberFormat): array
     {
         return [
             '.' => $numberFormat->getDecimalCurrencySeparator(),
@@ -256,7 +256,7 @@ class CurrencyFormatter implements CurrencyFormatterInterface
     /**
      * {@inheritdoc}
      */
-    protected function getParseReplacements(NumberFormat $numberFormat): array
+    protected function getCanonicalSymbols(NumberFormat $numberFormat): array
     {
         return  [
             $numberFormat->getGroupingCurrencySeparator() => '',
