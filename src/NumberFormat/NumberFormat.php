@@ -68,7 +68,7 @@ final class NumberFormat
     protected $decimalSeparator = '.';
 
     /**
-     * The decimal separator for currency.
+     * The decimal separator for currency amounts.
      *
      * @var string
      */
@@ -82,7 +82,7 @@ final class NumberFormat
     protected $groupingSeparator = ',';
 
     /**
-     * The grouping separator for currency.
+     * The grouping separator for currency amounts.
      *
      * @var string
      */
@@ -251,7 +251,7 @@ final class NumberFormat
     }
 
     /**
-     * Gets the currency decimal separator.
+     * Gets the decimal separator for currency amounts.
      *
      * @return string
      */
@@ -261,7 +261,7 @@ final class NumberFormat
     }
 
     /**
-     * Gets the grouping separator.
+     * Gets the grouping separator for currency amounts.
      *
      * @return string
      */
