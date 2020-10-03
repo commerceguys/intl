@@ -44,7 +44,7 @@ $numberFormatRepository = new NumberFormatRepository;
 // Options can be provided to the constructor or the
 // individual methods, the locale defaults to 'en' when missing.
 $numberFormatter = new NumberFormatter($numberFormatRepository);
-echo $numberFormatter->format('1234.99'); // 123,456.99
+echo $numberFormatter->format('1234.99'); // 1,234.99
 echo $numberFormatter->format('0.75', ['style' => 'percent']); // 75%
 
 $currencyRepository = new CurrencyRepository;
@@ -85,6 +85,7 @@ echo $currency->getName(); // dollar des États-Unis
 echo $currency->getSymbol(); // $US
 echo $currency->getLocale(); // fr-FR
 
+// Get all currencies, keyed by currency code.
 $allCurrencies = $currencyRepository->getAll();
 ```
 
@@ -105,6 +106,7 @@ echo $language->getName(); // German
 $language = $languageRepository->get('de', 'fr-FR');
 echo $language->getName(); // allemand
 
+// Get all languages, keyed by language code.
 $allLanguages = $languageRepository->getAll();
 ```
 
