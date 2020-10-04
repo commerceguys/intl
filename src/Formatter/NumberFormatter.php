@@ -174,23 +174,4 @@ class NumberFormatter implements NumberFormatterInterface
             '%' => $numberFormat->getPercentSign(),
         ];
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function getCanonicalSymbols(NumberFormat $numberFormat): array
-    {
-        return  [
-            $numberFormat->getGroupingSeparator() => '',
-            // Convert the localized symbols back to their original form.
-            $numberFormat->getDecimalSeparator() => '.',
-            $numberFormat->getPlusSign() => '+',
-            $numberFormat->getMinusSign() => '-',
-            $numberFormat->getPercentSign() => '%',
-
-            // Strip whitespace (spaces and non-breaking spaces).
-            ' ' => '',
-            chr(0xC2) . chr(0xA0) => '',
-        ];
-    }
 }
