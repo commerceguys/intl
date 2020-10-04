@@ -124,13 +124,7 @@ trait FormatterTrait
             $number = strtr($number, $this->digits[$numberingSystem]);
         }
         // Localize symbols.
-        $replacements = [
-            '.' => $numberFormat->getDecimalSeparator(),
-            ',' => $numberFormat->getGroupingSeparator(),
-            '+' => $numberFormat->getPlusSign(),
-            '-' => $numberFormat->getMinusSign(),
-            '%' => $numberFormat->getPercentSign(),
-        ];
+        $replacements = $this->getLocalizedSymbols($numberFormat);
         $number = strtr($number, $replacements);
 
         return $number;
@@ -149,18 +143,7 @@ trait FormatterTrait
      */
     protected function parseNumber($number, NumberFormat $numberFormat)
     {
-        $replacements = [
-            $numberFormat->getGroupingSeparator() => '',
-            // Convert the localized symbols back to their original form.
-            $numberFormat->getDecimalSeparator() => '.',
-            $numberFormat->getPlusSign() => '+',
-            $numberFormat->getMinusSign() => '-',
-            $numberFormat->getPercentSign() => '%',
-
-            // Strip whitespace (spaces and non-breaking spaces).
-            ' ' => '',
-            chr(0xC2) . chr(0xA0) => '',
-        ];
+        $replacements = $this->getCanonicalSymbols($numberFormat);
         $numberingSystem = $numberFormat->getNumberingSystem();
         if (isset($this->digits[$numberingSystem])) {
             // Convert the localized digits back to latin.
@@ -212,4 +195,22 @@ trait FormatterTrait
      * @return string[] The patterns, keyed by style.
      */
     abstract protected function getAvailablePatterns(NumberFormat $numberFormat);
+
+    /**
+     * Returns the replacements to be used for the localizeNumber method.
+     *
+     * @param NumberFormat $numberFormat
+     *
+     * @return array
+     */
+    abstract protected function getLocalizedSymbols(NumberFormat $numberFormat): array;
+
+    /**
+     * Returns the replacements to be used for the parseNumber method.
+     *
+     * @param NumberFormat $numberFormat
+     *
+     * @return array
+     */
+    abstract protected function getCanonicalSymbols(NumberFormat $numberFormat): array;
 }

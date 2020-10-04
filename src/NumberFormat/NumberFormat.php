@@ -68,11 +68,25 @@ final class NumberFormat
     protected $decimalSeparator = '.';
 
     /**
+     * The decimal separator for currency amounts.
+     *
+     * @var string
+     */
+    protected $decimalCurrencySeparator = '.';
+
+    /**
      * The grouping separator.
      *
      * @var string
      */
     protected $groupingSeparator = ',';
+
+    /**
+     * The grouping separator for currency amounts.
+     *
+     * @var string
+     */
+    protected $groupingCurrencySeparator = ',';
 
     /**
      * The plus sign.
@@ -130,8 +144,18 @@ final class NumberFormat
         if (isset($definition['decimal_separator'])) {
             $this->decimalSeparator = $definition['decimal_separator'];
         }
+        if (isset($definition['decimal_currency_separator'])) {
+            $this->decimalCurrencySeparator = $definition['decimal_currency_separator'];
+        } else {
+            $this->decimalCurrencySeparator = $this->decimalSeparator;
+        }
         if (isset($definition['grouping_separator'])) {
             $this->groupingSeparator = $definition['grouping_separator'];
+        }
+        if (isset($definition['grouping_currency_separator'])) {
+            $this->groupingCurrencySeparator = $definition['grouping_currency_separator'];
+        } else {
+            $this->groupingCurrencySeparator = $this->groupingSeparator;
         }
         if (isset($definition['plus_sign'])) {
             $this->plusSign = $definition['plus_sign'];
@@ -227,13 +251,33 @@ final class NumberFormat
     }
 
     /**
-     * Gets the grouping separator.
+     * Gets the decimal separator for currency amounts.
+     *
+     * @return string
+     */
+    public function getDecimalCurrencySeparator()
+    {
+        return $this->decimalCurrencySeparator;
+    }
+
+    /**
+     * Gets the grouping separator for currency amounts.
      *
      * @return string
      */
     public function getGroupingSeparator()
     {
         return $this->groupingSeparator;
+    }
+
+    /**
+     * Gets the currency grouping separator.
+     *
+     * @return string
+     */
+    public function getGroupingCurrencySeparator()
+    {
+        return $this->groupingCurrencySeparator;
     }
 
     /**
