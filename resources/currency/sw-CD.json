@@ -25,37 +25,37 @@
 		"name": "Cedi ya Ghana"
 	},
 	"CRC": {
-		"name": "Colon ya Costa Rica"
+		"name": "Colon ya Kostarika"
 	},
 	"BAM": {
 		"name": "Convertible Mark ya Bosnia na Hezegovina"
 	},
 	"NIO": {
-		"name": "Cordoba ya Nicaragua"
+		"name": "Cordoba ya Nikaragwa"
 	},
 	"GMD": {
 		"name": "Dalasi ya Gambia"
 	},
 	"MKD": {
-		"name": "Denar ya Macedonia"
+		"name": "Denar ya Masedonia"
 	},
 	"DZD": {
 		"name": "Dinar ya Aljeria"
 	},
-	"BHD": {
-		"name": "Dinar ya Bahrain"
-	},
-	"IQD": {
-		"name": "Dinar ya Iraq"
-	},
-	"JOD": {
-		"name": "Dinar ya Jordan"
-	},
-	"KWD": {
-		"name": "Dinar ya Kuwait"
-	},
 	"RSD": {
 		"name": "Dinar ya Serbia"
+	},
+	"BHD": {
+		"name": "Dinari ya Bahareni"
+	},
+	"IQD": {
+		"name": "Dinari ya Iraki"
+	},
+	"JOD": {
+		"name": "Dinari ya Jordan"
+	},
+	"KWD": {
+		"name": "Dinari ya Kuwait"
 	},
 	"LYD": {
 		"name": "Dinari ya Libya"
@@ -67,7 +67,7 @@
 		"name": "Dirham ya Falme za Kiarabu"
 	},
 	"MAD": {
-		"name": "Dirham ya Morocco"
+		"name": "Dirham ya Moroko"
 	},
 	"STN": {
 		"name": "Dobra ya Sao Tome na Principe"
@@ -95,10 +95,6 @@
 		"name": "Dola ya Canada",
 		"symbol": "CA$"
 	},
-	"XCD": {
-		"name": "Dola ya Caribbean Mashariki",
-		"symbol": "EC$"
-	},
 	"FJD": {
 		"name": "Dola ya Fiji"
 	},
@@ -110,7 +106,11 @@
 		"symbol": "HK$"
 	},
 	"JMD": {
-		"name": "Dola ya Jamaica"
+		"name": "Dola ya Jamaika"
+	},
+	"XCD": {
+		"name": "Dola ya Karibi Mashariki",
+		"symbol": "EC$"
 	},
 	"LRD": {
 		"name": "Dola ya Liberia"
@@ -123,7 +123,7 @@
 		"name": "Dola ya Namibia"
 	},
 	"NZD": {
-		"name": "Dola ya New Zealand",
+		"name": "Dola ya Nyuzilandi",
 		"symbol": "NZ$"
 	},
 	"SGD": {
@@ -170,14 +170,14 @@
 		"name": "Faranga ya CFP",
 		"symbol": "CFPF"
 	},
-	"KMF": {
-		"name": "Faranga ya Comoros"
-	},
-	"DJF": {
-		"name": "Faranga ya Djibouti"
-	},
 	"GNF": {
 		"name": "Faranga ya Guinea"
+	},
+	"DJF": {
+		"name": "Faranga ya Jibuti"
+	},
+	"KMF": {
+		"name": "Faranga ya Komoro"
 	},
 	"CDF": {
 		"name": "Faranga ya Kongo",
@@ -199,7 +199,7 @@
 		"name": "Gourde ya Haiti"
 	},
 	"PYG": {
-		"name": "Guarani ya Paraguay"
+		"name": "Guarani ya Paragwai"
 	},
 	"ANG": {
 		"name": "Guilder ya Antili za Kiholanzi"
@@ -214,7 +214,7 @@
 		"name": "Kip ya Laosi"
 	},
 	"CZK": {
-		"name": "koruna ya Jamhuri ya Czech"
+		"name": "Koruna ya Jamhuri ya Czech"
 	},
 	"ISK": {
 		"name": "Krona ya Aisilandi"
@@ -226,10 +226,10 @@
 		"name": "Krone ya Denmark"
 	},
 	"NOK": {
-		"name": "Krone ya Norway"
+		"name": "Krone ya Norwe"
 	},
 	"HRK": {
-		"name": "Kuna ya Croatia"
+		"name": "Kuna ya Korasia"
 	},
 	"MWK": {
 		"name": "Kwacha ya Malawi"
@@ -244,7 +244,7 @@
 		"name": "Kyat ya Myanmar"
 	},
 	"GEL": {
-		"name": "Lari ya Georgia"
+		"name": "Lari ya Jojia"
 	},
 	"ALL": {
 		"name": "Lek ya Albania"
@@ -253,7 +253,7 @@
 		"name": "Lempira ya Hondurasi"
 	},
 	"SLL": {
-		"name": "Leone"
+		"name": "Leone ya Siera Leoni"
 	},
 	"MDL": {
 		"name": "Leu ya Moldova"
@@ -265,7 +265,7 @@
 		"name": "Lev ya Bulgaria"
 	},
 	"SZL": {
-		"name": "Lilangeni"
+		"name": "Lilangeni ya Uswazi"
 	},
 	"TRY": {
 		"name": "Lira ya Uturuki"
@@ -326,32 +326,32 @@
 		"name": "Pauni ya Visiwa vya Falkland"
 	},
 	"ARS": {
-		"name": "Peso ya Argentina"
+		"name": "Peso ya Ajentina"
 	},
 	"CLP": {
 		"name": "Peso ya Chile"
 	},
+	"DOP": {
+		"name": "Peso ya Dominika"
+	},
 	"COP": {
-		"name": "Peso ya Colombia"
+		"name": "Peso ya Kolombia"
 	},
 	"CUP": {
-		"name": "Peso ya Cuba"
+		"name": "Peso ya Kuba"
 	},
 	"CUC": {
-		"name": "Peso ya Cuba Inayoweza Kubadilishwa"
-	},
-	"DOP": {
-		"name": "Peso ya Dominica"
+		"name": "Peso ya Kuba Inayoweza Kubadilishwa"
 	},
 	"MXN": {
-		"name": "Peso ya Mexico",
+		"name": "Peso ya Meksiko",
 		"symbol": "MX$"
 	},
 	"PHP": {
 		"name": "Peso ya Ufilipino"
 	},
 	"UYU": {
-		"name": "Peso ya Uruguay"
+		"name": "Peso ya Urugwai"
 	},
 	"BWP": {
 		"name": "Pula ya Botswana"
@@ -379,7 +379,7 @@
 		"name": "Rial ya Yemen"
 	},
 	"KHR": {
-		"name": "Riel ya Cambodia"
+		"name": "Riel ya Kambodia"
 	},
 	"MYR": {
 		"name": "Ringgit ya Malaysia"
@@ -401,7 +401,7 @@
 		"symbol": "₹"
 	},
 	"MUR": {
-		"name": "Rupia ya Mauritius"
+		"name": "Rupia ya Morisi"
 	},
 	"NPR": {
 		"name": "Rupia ya Nepal"

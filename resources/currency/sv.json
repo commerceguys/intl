@@ -8,8 +8,15 @@
 	"DZD": {
 		"name": "algerisk dinar"
 	},
+	"USD": {
+		"name": "amerikansk dollar",
+		"symbol": "US$"
+	},
 	"AOA": {
 		"name": "angolansk kwanza"
+	},
+	"ANG": {
+		"name": "Antillergulden"
 	},
 	"ARS": {
 		"name": "argentinsk peso"
@@ -37,7 +44,7 @@
 		"name": "bangladeshisk taka"
 	},
 	"BBD": {
-		"name": "Barbados-dollar",
+		"name": "barbadisk dollar",
 		"symbol": "Bds$"
 	},
 	"BZD": {
@@ -45,7 +52,7 @@
 		"symbol": "BZ$"
 	},
 	"BMD": {
-		"name": "Bermuda-dollar",
+		"name": "bermudisk dollar",
 		"symbol": "BM$"
 	},
 	"BTN": {
@@ -77,7 +84,7 @@
 		"name": "burundisk franc"
 	},
 	"KYD": {
-		"name": "Cayman-dollar"
+		"name": "caymansk dollar"
 	},
 	"XAF": {
 		"name": "centralafrikansk franc",
@@ -111,6 +118,9 @@
 		"name": "egyptiskt pund",
 		"symbol": "EG£"
 	},
+	"AED": {
+		"name": "emiratisk dirham"
+	},
 	"ERN": {
 		"name": "eritreansk nakfa"
 	},
@@ -129,9 +139,6 @@
 	},
 	"PHP": {
 		"name": "filippinsk peso"
-	},
-	"AED": {
-		"name": "Förenade Arabemiratens dirham"
 	},
 	"GMD": {
 		"name": "gambisk dalasi"
@@ -184,7 +191,7 @@
 		"symbol": "₪"
 	},
 	"JMD": {
-		"name": "Jamaica-dollar",
+		"name": "jamaicansk dollar",
 		"symbol": "JM$"
 	},
 	"JPY": {
@@ -297,9 +304,6 @@
 	"NAD": {
 		"name": "namibisk dollar"
 	},
-	"ANG": {
-		"name": "Nederländska Antillernas gulden"
-	},
 	"NPR": {
 		"name": "nepalesisk rupie"
 	},
@@ -352,14 +356,14 @@
 	"RUB": {
 		"name": "rysk rubel"
 	},
-	"SHP": {
-		"name": "S:t Helena-pund"
-	},
 	"SBD": {
 		"name": "Salomondollar"
 	},
 	"SVC": {
 		"name": "salvadoransk colón"
+	},
+	"SHP": {
+		"name": "sankthelenskt pund"
 	},
 	"STN": {
 		"name": "saotomeansk dobra"
@@ -417,7 +421,7 @@
 		"name": "tadzjikisk somoni"
 	},
 	"TWD": {
-		"name": "Taiwandollar"
+		"name": "taiwanesisk dollar"
 	},
 	"TZS": {
 		"name": "tanzanisk shilling"
@@ -432,7 +436,7 @@
 		"name": "tongansk paʻanga"
 	},
 	"TTD": {
-		"name": "Trinidad och Tobago-dollar"
+		"name": "Trinidaddollar"
 	},
 	"TND": {
 		"name": "tunisisk dinar"
@@ -457,10 +461,6 @@
 	},
 	"UYU": {
 		"name": "uruguayansk peso"
-	},
-	"USD": {
-		"name": "US-dollar",
-		"symbol": "US$"
 	},
 	"UZS": {
 		"name": "uzbekisk sum"

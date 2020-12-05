@@ -40,7 +40,7 @@
 		"name": "Denar Makedonia"
 	},
 	"DZD": {
-		"name": "Dinar Algeria"
+		"name": "Dinar Aljazair"
 	},
 	"BHD": {
 		"name": "Dinar Bahrain"
@@ -172,11 +172,11 @@
 		"name": "Franc Burundi"
 	},
 	"XOF": {
-		"name": "Franc CFA BCEAO",
+		"name": "Franc CFA Afrika Barat",
 		"symbol": "CFA"
 	},
 	"XAF": {
-		"name": "Franc CFA BEAC",
+		"name": "Franc CFA Afrika Tengah",
 		"symbol": "FCFA"
 	},
 	"XPF": {
@@ -220,7 +220,7 @@
 		"name": "Kip Laos"
 	},
 	"CZK": {
-		"name": "Koruna Cheska"
+		"name": "Koruna Ceko"
 	},
 	"ISK": {
 		"name": "Krona Islandia"
@@ -283,7 +283,7 @@
 		"name": "Manat Azerbaijan"
 	},
 	"TMT": {
-		"name": "Manat Turkimenistan"
+		"name": "Manat Turkmenistan"
 	},
 	"BAM": {
 		"name": "Mark Konvertibel Bosnia-Herzegovina"
@@ -336,9 +336,6 @@
 	},
 	"UYU": {
 		"name": "Peso Uruguay"
-	},
-	"PLN": {
-		"name": "Polandia Zloty"
 	},
 	"GIP": {
 		"name": "Pound Gibraltar"
@@ -454,7 +451,7 @@
 		"name": "Sol Peru"
 	},
 	"KGS": {
-		"name": "Som Kirgistan"
+		"name": "Som Kirgizstan"
 	},
 	"UZS": {
 		"name": "Som Uzbekistan"
@@ -469,7 +466,7 @@
 		"name": "Tala Samoa"
 	},
 	"KZT": {
-		"name": "Tenge Kazakstan"
+		"name": "Tenge Kazakhstan"
 	},
 	"MNT": {
 		"name": "Tugrik Mongolia"
@@ -494,5 +491,8 @@
 	"CNY": {
 		"name": "Yuan Tiongkok",
 		"symbol": "CN¥"
+	},
+	"PLN": {
+		"name": "Zloty Polandia"
 	}
 }

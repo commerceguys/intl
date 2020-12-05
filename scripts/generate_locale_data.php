@@ -6,7 +6,7 @@
 
 require __DIR__ . '/generate_base.php';
 
-$parentLocales = __DIR__ . '/assets/cldr-core/supplemental/parentLocales.json';
+$parentLocales = __DIR__ . '/assets/cldr/cldr-json/cldr-core/supplemental/parentLocales.json';
 $parentLocales = json_decode(file_get_contents($parentLocales), true);
 $parentLocales = $parentLocales['supplemental']['parentLocales']['parentLocale'];
 foreach ($parentLocales as $locale => $parentLocale) {
