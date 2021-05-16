@@ -51,8 +51,8 @@ class CurrencyRepository implements CurrencyRepositoryInterface
         'fr-CA', 'ga', 'gd', 'gl', 'gsw', 'gu', 'he', 'hi', 'hr', 'hu', 'hy',
         'id', 'is', 'it', 'ja', 'ka', 'kk', 'km', 'ko', 'kok', 'ks', 'ky', 'lb',
         'lo', 'lt', 'lv', 'mg', 'mk', 'ml', 'mn', 'mr', 'ms', 'my', 'nb', 'ne',
-        'nl', 'nn', 'pa', 'pl', 'ps', 'pt', 'pt-PT', 'rn', 'ro', 'ru', 'sd',
-        'si', 'sk', 'sl', 'so', 'sq', 'sr', 'sr-Cyrl-BA', 'sr-Latn',
+        'nl', 'nn', 'no', 'pa', 'pl', 'ps', 'pt', 'pt-PT', 'rn', 'ro', 'ru',
+        'sd', 'si', 'sk', 'sl', 'so', 'sq', 'sr', 'sr-Cyrl-BA', 'sr-Latn',
         'sr-Latn-BA', 'sv', 'sw', 'sw-CD', 'sw-KE', 'ta', 'te', 'th', 'tk',
         'tr', 'uk', 'ur', 'ur-IN', 'uz', 'uz-Cyrl', 'vi', 'yue', 'yue-Hans',
         'zh', 'zh-Hans-HK', 'zh-Hant', 'zh-Hant-HK'

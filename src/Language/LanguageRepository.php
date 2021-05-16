@@ -54,12 +54,12 @@ class LanguageRepository implements LanguageRepositoryInterface
         'gd', 'gl', 'gsw', 'gu', 'he', 'hi', 'hr', 'hu', 'hy', 'id', 'is', 'it',
         'ja', 'ka', 'kk', 'km', 'ko', 'kok', 'ks', 'ku', 'ky', 'lb', 'lo', 'lt',
         'lv', 'mg', 'mk', 'ml', 'mn', 'mr', 'ms', 'mt', 'my', 'nb', 'ne', 'nl',
-        'nn', 'pa', 'pl', 'ps', 'ps-PK', 'pt', 'pt-PT', 'rn', 'ro', 'ro-MD',
-        'ru', 'rw', 'sd', 'si', 'sk', 'sl', 'so', 'sq', 'sr', 'sr-Cyrl-BA',
-        'sr-Cyrl-ME', 'sr-Cyrl-XK', 'sr-Latn', 'sr-Latn-BA', 'sr-Latn-ME',
-        'sr-Latn-XK', 'sv', 'sw', 'sw-CD', 'sw-KE', 'ta', 'te', 'tg', 'th',
-        'tk', 'to', 'tr', 'uk', 'ur', 'ur-IN', 'uz', 'uz-Cyrl', 'vi', 'yue',
-        'yue-Hans', 'zh', 'zh-Hant', 'zh-Hant-HK'
+        'nn', 'no', 'pa', 'pl', 'ps', 'ps-PK', 'pt', 'pt-PT', 'rn', 'ro',
+        'ro-MD', 'ru', 'rw', 'sd', 'si', 'sk', 'sl', 'so', 'sq', 'sr',
+        'sr-Cyrl-BA', 'sr-Cyrl-ME', 'sr-Cyrl-XK', 'sr-Latn', 'sr-Latn-BA',
+        'sr-Latn-ME', 'sr-Latn-XK', 'sv', 'sw', 'sw-CD', 'sw-KE', 'ta', 'te',
+        'tg', 'th', 'tk', 'to', 'tr', 'uk', 'ur', 'ur-IN', 'uz', 'uz-Cyrl',
+        'vi', 'yue', 'yue-Hans', 'zh', 'zh-Hant', 'zh-Hant-HK'
     ];
 
     /**
