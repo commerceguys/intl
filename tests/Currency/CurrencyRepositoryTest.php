@@ -70,7 +70,6 @@ final class CurrencyRepositoryTest extends TestCase
     /**
      * @covers ::get
      * @covers ::loadDefinitions
-     * @covers ::createCurrencyFromDefinition
      *
      * @uses \CommerceGuys\Intl\Currency\Currency
      * @uses \CommerceGuys\Intl\Locale
@@ -121,7 +120,6 @@ final class CurrencyRepositoryTest extends TestCase
     /**
      * @covers ::getAll
      * @covers ::loadDefinitions
-     * @covers ::createCurrencyFromDefinition
      *
      * @uses \CommerceGuys\Intl\Currency\Currency
      * @uses \CommerceGuys\Intl\Locale

@@ -14,7 +14,6 @@ final class NumberFormatRepositoryTest extends TestCase
 {
     /**
      * @covers ::get
-     * @covers ::createNumberFormatFromDefinition
      *
      * @uses \CommerceGuys\Intl\NumberFormat\NumberFormat
      * @uses \CommerceGuys\Intl\Locale
