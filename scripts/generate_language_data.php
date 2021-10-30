@@ -79,7 +79,7 @@ function generate_languages()
     // This reduces the language list from about 515 to about 185 languages.
     $allowedLanguages = scandir($localeDirectory);
     $allowedLanguages[] = 'wa';
-    $allowedLanguages = array_diff($allowedLanguages, ['eo', 'ia', 'vo', 'cu', 'gv', 'prg', 'root']);
+    $allowedLanguages = array_diff($allowedLanguages, ['eo', 'ia', 'vo', 'cu', 'gv', 'prg', 'und']);
     // Languages that are untranslated in most locales (as of CLDR v34).
     $allowedLanguages = array_diff($allowedLanguages, ['ccp', 'fa-AF']);
 

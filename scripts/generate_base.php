@@ -31,12 +31,15 @@ if (!function_exists('collator_create')) {
 // Locales listed without a "-" match all variants.
 // Locales listed with a "-" match only those exact ones.
 $ignoredLocales = [
+    // English is our fallback, we don't need another.
+    'und',
     // Esperanto, Interlingua, Volapuk are made up languages.
     'eo', 'ia', 'vo',
-    // Church Slavic, Manx, Prussian, Sanskrit are historical languages.
-    'cu', 'gv', 'prg', 'sa',
+    // Belarus (Classical orthography), Church Slavic, Manx, Prussian,
+    // Sanskrit are historical languages.
+    'be-tarask', 'cu', 'gv', 'prg', 'sa',
     // Valencian differs from its parent only by a single character (è/é).
-    'ca-ES-VALENCIA',
+    'ca-ES-valencia',
     // Africa secondary languages.
     'agq', 'ak', 'am', 'asa', 'bas', 'bem', 'bez', 'bm', 'cgg', 'dav',
     'dje', 'dua', 'dyo', 'ebu', 'ee', 'ewo', 'ff', 'ff-Latn', 'guz',
@@ -48,12 +51,11 @@ $ignoredLocales = [
     'wo', 'xog', 'xh', 'zgh', 'yav', 'yo', 'zu',
     // Europe secondary languages.
     'br', 'dsb', 'fo', 'fur', 'fy', 'hsb', 'ksh', 'kw', 'nds', 'or', 'rm',
-    'se', 'smn', 'wae',
+    'sc', 'se', 'smn', 'wae',
     // Other infrequently used locales.
-    'ceb', 'ccp', 'chr', 'ckb', 'haw', 'ii', 'jv', 'kl', 'kn', 'lkt',
+    'ceb', 'ccp', 'chr', 'ckb', 'haw', 'ii', 'jv', 'kgp', 'kl', 'kn', 'lkt',
     'lrc', 'mi', 'mzn', 'os', 'qu', 'row', 'sah', 'su', 'tt', 'ug', 'yi',
-    // Special "grouping" locales.
-    'root', 'en-US-POSIX',
+    'yrl',
 ];
 
 /**

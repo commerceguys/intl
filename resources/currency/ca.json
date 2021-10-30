@@ -6,11 +6,11 @@
 		"name": "ariary malgaix"
 	},
 	"THB": {
-		"name": "baht tailandès",
+		"name": "baht",
 		"symbol": "฿"
 	},
 	"PAB": {
-		"name": "balboa panameny"
+		"name": "balboa"
 	},
 	"ETB": {
 		"name": "birr etíop"
@@ -51,9 +51,6 @@
 	"GMD": {
 		"name": "dalasi gambià"
 	},
-	"MKD": {
-		"name": "denar macedoni"
-	},
 	"DZD": {
 		"name": "dinar algerià"
 	},
@@ -72,6 +69,9 @@
 	"LYD": {
 		"name": "dinar libi"
 	},
+	"MKD": {
+		"name": "dinar macedoni"
+	},
 	"RSD": {
 		"name": "dinar serbi"
 	},
@@ -79,7 +79,7 @@
 		"name": "dinar tunisià"
 	},
 	"AED": {
-		"name": "dírham de la UEA"
+		"name": "dírham dels Emirats Àrabs Units"
 	},
 	"MAD": {
 		"name": "dírham marroquí"
@@ -161,7 +161,7 @@
 		"symbol": "₫"
 	},
 	"AMD": {
-		"name": "dram armeni"
+		"name": "dram"
 	},
 	"CVE": {
 		"name": "escut de Cap Verd"
@@ -177,7 +177,7 @@
 		"name": "florí de les Antilles Neerlandeses"
 	},
 	"HUF": {
-		"name": "fòrint hongarès"
+		"name": "fòrint"
 	},
 	"XOF": {
 		"name": "franc CFA BCEAO",
@@ -213,29 +213,29 @@
 		"name": "franc suís"
 	},
 	"HTG": {
-		"name": "gourde haitià"
+		"name": "gourde"
 	},
 	"PYG": {
-		"name": "guaraní paraguaià"
+		"name": "guaraní"
 	},
 	"UAH": {
-		"name": "hrívnia ucraïnesa"
+		"name": "hrívnia"
 	},
 	"JPY": {
-		"name": "ien japonès",
+		"name": "ien",
 		"symbol": "¥"
 	},
 	"CNY": {
-		"name": "iuan xinès"
+		"name": "iuan"
 	},
 	"PGK": {
-		"name": "kina de Papua Nova Guinea"
+		"name": "kina"
 	},
 	"LAK": {
 		"name": "kip laosià"
 	},
 	"HRK": {
-		"name": "kuna croata"
+		"name": "kuna"
 	},
 	"MWK": {
 		"name": "kwacha malawià"
@@ -250,13 +250,13 @@
 		"name": "kyat de Myanmar"
 	},
 	"GEL": {
-		"name": "lari georgià"
+		"name": "lari"
 	},
 	"ALL": {
-		"name": "lek albanès"
+		"name": "lek"
 	},
 	"HNL": {
-		"name": "lempira hondurenya"
+		"name": "lempira"
 	},
 	"SLL": {
 		"name": "leone de Sierra Leone"
@@ -268,7 +268,7 @@
 		"name": "leu romanès"
 	},
 	"BGN": {
-		"name": "lev búlgar"
+		"name": "lev"
 	},
 	"SZL": {
 		"name": "lilangeni swazi"
@@ -292,7 +292,7 @@
 		"name": "lliura egípcia"
 	},
 	"GBP": {
-		"name": "lliura esterlina britànica",
+		"name": "lliura esterlina",
 		"symbol": "£"
 	},
 	"LBP": {
@@ -305,7 +305,7 @@
 		"name": "lliura sudanesa"
 	},
 	"LSL": {
-		"name": "loti de Lesotho"
+		"name": "loti"
 	},
 	"AZN": {
 		"name": "manat azerbaidjanès"
@@ -376,7 +376,7 @@
 		"name": "pula de Botswana"
 	},
 	"GTQ": {
-		"name": "quetzal guatemalenc"
+		"name": "quetzal"
 	},
 	"ZAR": {
 		"name": "rand sud-africà"
@@ -403,13 +403,13 @@
 		"name": "riel cambodjà"
 	},
 	"MYR": {
-		"name": "ringgit de Malàisia"
+		"name": "ringgit"
+	},
+	"RUB": {
+		"name": "ruble"
 	},
 	"BYN": {
 		"name": "ruble bielorús"
-	},
-	"RUB": {
-		"name": "ruble rus"
 	},
 	"MVR": {
 		"name": "rupia de les Maldives"
@@ -437,7 +437,7 @@
 		"name": "rupia pakistanesa"
 	},
 	"PEN": {
-		"name": "sol peruà"
+		"name": "sol"
 	},
 	"KGS": {
 		"name": "som kirguís"
@@ -449,13 +449,13 @@
 		"name": "somoni tadjik"
 	},
 	"BDT": {
-		"name": "taka de Bangla Desh"
+		"name": "taka"
 	},
 	"WST": {
 		"name": "tala samoà"
 	},
 	"KZT": {
-		"name": "tenge kazakh"
+		"name": "tenge"
 	},
 	"MNT": {
 		"name": "tögrög mongol"
@@ -486,6 +486,6 @@
 		"name": "xíling ugandès"
 	},
 	"PLN": {
-		"name": "zloty polonès"
+		"name": "zloty"
 	}
 }
