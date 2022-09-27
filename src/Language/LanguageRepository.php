@@ -46,7 +46,7 @@ class LanguageRepository implements LanguageRepositoryInterface
     protected $availableLocales = [
         'af', 'ar', 'ar-EG', 'ar-LY', 'ar-SA', 'as', 'ast', 'az', 'az-Cyrl',
         'be', 'bg', 'bn', 'bn-IN', 'brx', 'bs', 'bs-Cyrl', 'ca', 'ce', 'cs',
-        'cy', 'da', 'de', 'de-AT', 'de-CH', 'dz', 'el', 'en', 'en-001', 'en-AU',
+        'cy', 'da', 'de', 'de-AT', 'de-CH', 'dz', 'el', 'en', 'en-US', 'en-001', 'en-AU',
         'en-CA', 'en-IN', 'es', 'es-419', 'es-AR', 'es-BO', 'es-CL', 'es-CO',
         'es-CR', 'es-DO', 'es-EC', 'es-GT', 'es-HN', 'es-MX', 'es-NI', 'es-PA',
         'es-PE', 'es-PR', 'es-PY', 'es-SV', 'es-US', 'es-VE', 'et', 'eu', 'fa',

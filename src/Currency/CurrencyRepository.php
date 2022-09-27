@@ -45,7 +45,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      */
     protected $availableLocales = [
         'af', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn', 'brx', 'bs', 'bs-Cyrl',
-        'ca', 'ce', 'cs', 'cy', 'da', 'de', 'de-CH', 'dz', 'el', 'en', 'en-001',
+        'ca', 'ce', 'cs', 'cy', 'da', 'de', 'de-CH', 'dz', 'el', 'en', 'en-US', 'en-001',
         'en-AU', 'en-CA', 'en-GG', 'en-IM', 'en-JE', 'en-PH', 'es', 'es-419',
         'es-CL', 'es-GT', 'es-MX', 'es-US', 'es-VE', 'et', 'eu', 'fa', 'fa-AF',
         'fi', 'fil', 'fr', 'fr-CA', 'ga', 'gd', 'gl', 'gsw', 'gu', 'he', 'hi',
