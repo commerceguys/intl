@@ -1,5 +1,4 @@
-name: CI
-
+name: Build
 on: [push, pull_request]
 
 jobs:
@@ -8,7 +7,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
       - uses: php-actions/composer@v6
 
       - name: PHPUnit Tests PHP 7.3
