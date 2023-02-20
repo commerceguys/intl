@@ -1,7 +1,7 @@
 intl
 =====
 
-[![Build Status](https://travis-ci.com/commerceguys/intl.svg?branch=master)](https://travis-ci.org/commerceguys/intl)
+[![Build Status](https://travis-ci.com/commerceguys/intl.svg?branch=master)](https://travis-ci.com/commerceguys/intl)
 
 A PHP 7.3+ internationalization library, powered by CLDR data.
 
