@@ -12,42 +12,42 @@ final class ParsedPattern
      *
      * @var string
      */
-    protected $positivePattern;
+    protected string $positivePattern;
 
     /**
      * The negative number pattern.
      *
      * @var string
      */
-    protected $negativePattern;
+    protected string $negativePattern;
 
     /**
      * Whether grouping is used.
      *
      * @var bool
      */
-    protected $groupingUsed;
+    protected bool $groupingUsed;
 
     /**
      * The primary group size.
      *
      * @var int
      */
-    protected $primaryGroupSize;
+    protected int $primaryGroupSize;
 
     /**
      * The secondary group size.
      *
      * @var int
      */
-    protected $secondaryGroupSize;
+    protected int $secondaryGroupSize;
 
     /**
      * Creates a new ParsedPattern instance.
      *
      * @param string $pattern The raw pattern.
      */
-    public function __construct($pattern)
+    public function __construct(string $pattern)
     {
         // Split the pattern into positive and negative patterns.
         $patternList = explode(';', $pattern);
@@ -58,7 +58,7 @@ final class ParsedPattern
 
         $this->positivePattern = $patternList[0];
         $this->negativePattern = $patternList[1];
-        $this->groupingUsed = (strpos($patternList[0], ',') !== false);
+        $this->groupingUsed = (str_contains($patternList[0], ','));
         if ($this->groupingUsed) {
             preg_match('/#+0/', $patternList[0], $primaryGroupMatches);
             $this->primaryGroupSize = $this->secondaryGroupSize = strlen($primaryGroupMatches[0]);
@@ -77,7 +77,7 @@ final class ParsedPattern
      *
      * @return string
      */
-    public function getPositivePattern()
+    public function getPositivePattern(): string
     {
         return $this->positivePattern;
     }
@@ -89,7 +89,7 @@ final class ParsedPattern
      *
      * @return string
      */
-    public function getNegativePattern()
+    public function getNegativePattern(): string
     {
         return $this->negativePattern;
     }
@@ -102,7 +102,7 @@ final class ParsedPattern
      *
      * @return bool
      */
-    public function isGroupingUsed()
+    public function isGroupingUsed(): bool
     {
         return $this->groupingUsed;
     }
@@ -112,7 +112,7 @@ final class ParsedPattern
      *
      * @return int|null
      */
-    public function getPrimaryGroupSize()
+    public function getPrimaryGroupSize(): ?int
     {
         return $this->primaryGroupSize;
     }
@@ -122,7 +122,7 @@ final class ParsedPattern
      *
      * @return int|null
      */
-    public function getSecondaryGroupSize()
+    public function getSecondaryGroupSize(): ?int
     {
         return $this->secondaryGroupSize;
     }

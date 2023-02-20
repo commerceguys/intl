@@ -15,35 +15,35 @@ class LanguageRepository implements LanguageRepositoryInterface
      *
      * @var string
      */
-    protected $defaultLocale;
+    protected string $defaultLocale;
 
     /**
      * The fallback locale.
      *
      * @var string
      */
-    protected $fallbackLocale;
+    protected string $fallbackLocale;
 
     /**
      * The path where per-locale definitions are stored.
      *
      * @var string
      */
-    protected $definitionPath;
+    protected string $definitionPath;
 
     /**
      * Per-locale language definitions.
      *
      * @var array
      */
-    protected $definitions = [];
+    protected array $definitions = [];
 
     /**
      * The available locales.
      *
      * @var array
      */
-    protected $availableLocales = [
+    protected array $availableLocales = [
         'af', 'ar', 'ar-EG', 'ar-LY', 'ar-SA', 'as', 'ast', 'az', 'az-Cyrl',
         'be', 'bg', 'bn', 'bn-IN', 'brx', 'bs', 'bs-Cyrl', 'ca', 'ce', 'cs',
         'cy', 'da', 'de', 'de-AT', 'dz', 'el', 'en', 'en-001', 'en-AU', 'en-CA',
@@ -67,20 +67,20 @@ class LanguageRepository implements LanguageRepositoryInterface
      *
      * @param string $defaultLocale  The default locale. Defaults to 'en'.
      * @param string $fallbackLocale The fallback locale. Defaults to 'en'.
-     * @param string $definitionPath The path to the currency definitions.
+     * @param string|null $definitionPath The path to the currency definitions.
      *                               Defaults to 'resources/language'.
      */
-    public function __construct($defaultLocale = 'en', $fallbackLocale = 'en', $definitionPath = null)
+    public function __construct(string $defaultLocale = 'en', string $fallbackLocale = 'en', string $definitionPath = null)
     {
         $this->defaultLocale = $defaultLocale;
         $this->fallbackLocale = $fallbackLocale;
-        $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/language/';
+        $this->definitionPath = $definitionPath ?: __DIR__ . '/../../resources/language/';
     }
 
     /**
      * {@inheritdoc}
      */
-    public function get($languageCode, $locale = null)
+    public function get(string $languageCode, string $locale = null): Language
     {
         $locale = $locale ?: $this->defaultLocale;
         $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
@@ -101,7 +101,7 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll($locale = null)
+    public function getAll(string $locale = null): array
     {
         $locale = $locale ?: $this->defaultLocale;
         $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
@@ -121,7 +121,7 @@ class LanguageRepository implements LanguageRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getList($locale = null)
+    public function getList(string $locale = null): array
     {
         $locale = $locale ?: $this->defaultLocale;
         $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
@@ -141,7 +141,7 @@ class LanguageRepository implements LanguageRepositoryInterface
      *
      * @return array
      */
-    protected function loadDefinitions($locale)
+    protected function loadDefinitions(string $locale): array
     {
         if (!isset($this->definitions[$locale])) {
             $filename = $this->definitionPath . $locale . '.json';

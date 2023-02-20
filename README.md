@@ -3,7 +3,7 @@ intl
 
 [![Build Status](https://github.com/commerceguys/intl/actions/workflows/build.yml/badge.svg)](https://github.com/commerceguys/intl/actions/workflows/build.yml)
 
-A PHP 7.3+ internationalization library, powered by CLDR data.
+A PHP 8.0+ internationalization library, powered by CLDR data.
 
 Features:
 - NumberFormatter and CurrencyFormatter, inspired by [intl](http://php.net/manual/en/class.numberformatter.php).

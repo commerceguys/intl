@@ -29,7 +29,7 @@ interface NumberFormatterInterface
      *
      * @return string The formatted number.
      */
-    public function format($number, array $options = []);
+    public function format(string $number, array $options = []): string;
 
     /**
      * Parses a number.
@@ -45,5 +45,5 @@ interface NumberFormatterInterface
      *
      * @return string|false The parsed number or FALSE on error.
      */
-    public function parse($number, array $options = []);
+    public function parse(string $number, array $options = []): string|bool;
 }
