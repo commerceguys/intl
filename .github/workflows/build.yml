@@ -15,7 +15,7 @@ jobs:
           bootstrap: vendor/autoload.php
           configuration: phpunit.xml
           args: --coverage-text
-          php_extensions: bcmath
+          php_extensions: xdebug bcmath
           php_version: 7.3
           version: 9
 
@@ -25,6 +25,6 @@ jobs:
           bootstrap: vendor/autoload.php
           configuration: phpunit.xml
           args: --coverage-text
-          php_extensions: bcmath
+          php_extensions: xdebug bcmath
           php_version: 8.0
           version: 9
