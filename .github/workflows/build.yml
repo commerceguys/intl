@@ -18,6 +18,8 @@ jobs:
           php_extensions: xdebug bcmath
           php_version: 7.3
           version: 9
+        env:
+          XDEBUG_MODE: coverage
 
       - name: PHPUnit Tests PHP 8.0
         uses: php-actions/phpunit@master
@@ -28,3 +30,5 @@ jobs:
           php_extensions: xdebug bcmath
           php_version: 8.0
           version: 9
+        env:
+          XDEBUG_MODE: coverage
