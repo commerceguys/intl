@@ -57,6 +57,9 @@
 	"BMD": {
 		"name": "Bermúdadalur"
 	},
+	"VED": {
+		"name": "Bolívar Soberano"
+	},
 	"BWP": {
 		"name": "botsvönsk púla"
 	},
@@ -108,11 +111,11 @@
 	"FKP": {
 		"name": "falklenskt pund"
 	},
-	"FJD": {
-		"name": "fidjeyskur dalur"
-	},
 	"PHP": {
 		"name": "filippseyskur pesi"
+	},
+	"FJD": {
+		"name": "fídjískur dalur"
 	},
 	"GMD": {
 		"name": "gambískur dalasi"
@@ -170,7 +173,8 @@
 		"name": "íranskt ríal"
 	},
 	"ISK": {
-		"name": "íslensk króna"
+		"name": "íslensk króna",
+		"symbol": "kr."
 	},
 	"JMD": {
 		"name": "jamaískur dalur"
@@ -218,9 +222,6 @@
 	},
 	"KMF": {
 		"name": "kómoreyskur franki"
-	},
-	"HRK": {
-		"name": "króatísk kúna"
 	},
 	"CUP": {
 		"name": "kúbverskur pesi"
@@ -369,6 +370,9 @@
 	"SCR": {
 		"name": "Seychellesrúpía"
 	},
+	"SLE": {
+		"name": "Sierra Leonean Leone"
+	},
 	"SGD": {
 		"name": "singapúrskur dalur"
 	},
@@ -439,7 +443,7 @@
 		"name": "Trínidad og Tóbagó-dalur"
 	},
 	"TND": {
-		"name": "túnískur denari"
+		"name": "túniskur denari"
 	},
 	"TMT": {
 		"name": "túrkmenskt manat"

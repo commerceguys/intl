@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL="https://www.currency-iso.org/dam/downloads/lists/list_one.xml"
+URL="https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
 
 rm -fR assets
 mkdir assets

@@ -30,6 +30,9 @@
 	"BTN": {
 		"name": "Bhutanese Ngultrum"
 	},
+	"VED": {
+		"name": "Bolívar Soberano"
+	},
 	"BAM": {
 		"name": "Bosnia-Herzegovina Convertible Mark"
 	},
@@ -64,9 +67,6 @@
 	},
 	"CDF": {
 		"name": "Congolese Franc"
-	},
-	"HRK": {
-		"name": "Croatian Kuna"
 	},
 	"CZK": {
 		"name": "Czech Koruna"
@@ -220,14 +220,14 @@
 		"name": "Papua New Guinean Kina"
 	},
 	"PHP": {
-		"name": "Philippine Piso",
+		"name": "Philippine Peso",
 		"symbol": "₱"
 	},
 	"PLN": {
 		"name": "Polish Zloty"
 	},
 	"QAR": {
-		"name": "Qatari Rial"
+		"name": "Qatari Riyal"
 	},
 	"RON": {
 		"name": "Romanian Leu"
@@ -253,8 +253,11 @@
 	"SCR": {
 		"name": "Seychellois Rupee"
 	},
-	"SLL": {
+	"SLE": {
 		"name": "Sierra Leonean Leone"
+	},
+	"SLL": {
+		"name": "Sierra Leonean Leone (1964—2022)"
 	},
 	"SGD": {
 		"name": "Singapore Dollar"

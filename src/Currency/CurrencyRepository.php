@@ -44,18 +44,19 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      * @var array
      */
     protected $availableLocales = [
-        'af', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn', 'brx', 'bs', 'bs-Cyrl',
-        'ca', 'ce', 'cs', 'cy', 'da', 'de', 'de-CH', 'dz', 'el', 'en', 'en-001',
-        'en-AU', 'en-CA', 'en-GG', 'en-IM', 'en-JE', 'en-PH', 'es', 'es-419',
-        'es-CL', 'es-GT', 'es-MX', 'es-US', 'es-VE', 'et', 'eu', 'fa', 'fa-AF',
-        'fi', 'fil', 'fr', 'fr-CA', 'ga', 'gd', 'gl', 'gsw', 'gu', 'he', 'hi',
-        'hr', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kk', 'km', 'ko', 'kok',
-        'ks', 'ky', 'lb', 'lo', 'lt', 'lv', 'mg', 'mk', 'ml', 'mn', 'mr', 'ms',
-        'my', 'ne', 'nl', 'nn', 'no', 'pa', 'pl', 'ps', 'pt', 'pt-PT', 'rn',
-        'ro', 'ru', 'sd', 'si', 'sk', 'sl', 'so', 'sq', 'sr', 'sr-Cyrl-BA',
-        'sr-Latn', 'sr-Latn-BA', 'sv', 'sw', 'sw-CD', 'sw-KE', 'ta', 'te', 'th',
-        'tk', 'tr', 'uk', 'ur', 'ur-IN', 'uz', 'uz-Cyrl', 'vi', 'yue',
-        'yue-Hans', 'zh', 'zh-Hans-HK', 'zh-Hant', 'zh-Hant-HK'
+        'af', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn', 'bn-IN', 'brx', 'bs',
+        'bs-Cyrl', 'ca', 'ce', 'cs', 'cv', 'cy', 'da', 'de', 'de-CH', 'dz',
+        'el', 'en', 'en-001', 'en-AU', 'en-CA', 'en-GG', 'en-IM', 'en-JE',
+        'en-MV', 'es', 'es-419', 'es-CL', 'es-GT', 'es-MX', 'es-US', 'es-VE',
+        'et', 'eu', 'fa', 'fa-AF', 'fi', 'fil', 'fr', 'fr-CA', 'ga', 'gd', 'gl',
+        'gsw', 'gu', 'he', 'hi', 'hi-Latn', 'hr', 'hu', 'hy', 'id', 'is', 'it',
+        'ja', 'ka', 'kk', 'km', 'ko', 'kok', 'ks', 'ky', 'lb', 'lo', 'lt', 'lv',
+        'mg', 'mk', 'ml', 'mn', 'mr', 'ms', 'my', 'ne', 'nl', 'nn', 'no', 'pa',
+        'pl', 'ps', 'pt', 'pt-PT', 'rn', 'ro', 'ru', 'sd', 'si', 'sk', 'sl',
+        'so', 'sq', 'sr', 'sr-Cyrl-BA', 'sr-Latn', 'sr-Latn-BA', 'sv', 'sw',
+        'sw-CD', 'sw-KE', 'ta', 'te', 'th', 'tk', 'tr', 'uk', 'ur', 'ur-IN',
+        'uz', 'uz-Cyrl', 'vi', 'yue', 'yue-Hans', 'zh', 'zh-Hans-HK', 'zh-Hant',
+        'zh-Hant-HK'
     ];
 
     /**
@@ -221,7 +222,6 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'GYD' => ['328', 2],
             'HKD' => ['344', 2],
             'HNL' => ['340', 2],
-            'HRK' => ['191', 2],
             'HTG' => ['332', 2],
             'HUF' => ['348', 2],
             'IDR' => ['360', 2],
@@ -288,6 +288,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'SEK' => ['752', 2],
             'SGD' => ['702', 2],
             'SHP' => ['654', 2],
+            'SLE' => ['925', 2],
             'SLL' => ['694', 0],
             'SOS' => ['706', 0],
             'SRD' => ['968', 2],
@@ -311,6 +312,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'UYU' => ['858', 2],
             'UYW' => ['927', 4],
             'UZS' => ['860', 2],
+            'VED' => ['926', 2],
             'VES' => ['928', 2],
             'VND' => ['704', 0],
             'VUV' => ['548', 0],

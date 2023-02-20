@@ -2,9 +2,6 @@
 	"AFN": {
 		"name": "Afghan Afghani"
 	},
-	"ALL": {
-		"name": "Albanian Lek"
-	},
 	"DZD": {
 		"name": "Algerian Dinar"
 	},
@@ -29,14 +26,14 @@
 	"BDT": {
 		"name": "Bangladeshi Taka"
 	},
-	"BYN": {
-		"name": "Belarusian Ruble"
-	},
 	"BTN": {
 		"name": "Bhutanese Ngultrum"
 	},
 	"VES": {
 		"name": "Bolívar ng Venezuela"
+	},
+	"VED": {
+		"name": "Bolívar Soberano"
 	},
 	"BOB": {
 		"name": "Boliviano ng Bolivia"
@@ -94,14 +91,17 @@
 	"NIO": {
 		"name": "Córdoba ng Nicaragua"
 	},
-	"HRK": {
-		"name": "Croatian Kuna"
-	},
-	"CZK": {
-		"name": "Czech Republic Koruna"
-	},
 	"DKK": {
 		"name": "Danish Krone"
+	},
+	"MKD": {
+		"name": "Denar ng Macedonia"
+	},
+	"LYD": {
+		"name": "Dinar ng Libya"
+	},
+	"RSD": {
+		"name": "Dinar ng Serbia"
 	},
 	"DJF": {
 		"name": "Djiboutian Franc"
@@ -179,9 +179,6 @@
 		"name": "Dolyar ng US",
 		"symbol": "$"
 	},
-	"EGP": {
-		"name": "Egyptian Pound"
-	},
 	"ERN": {
 		"name": "Eritrean Nakfa"
 	},
@@ -195,6 +192,9 @@
 	"AWG": {
 		"name": "Florin ng Aruba"
 	},
+	"HUF": {
+		"name": "Forint ng Hungary"
+	},
 	"GMD": {
 		"name": "Gambian Dalasi"
 	},
@@ -204,17 +204,14 @@
 	"GHS": {
 		"name": "Ghanaian Cedi"
 	},
-	"GIP": {
-		"name": "Gibraltar Pound"
-	},
 	"HTG": {
 		"name": "Gourde ng Haiti"
 	},
 	"GNF": {
 		"name": "Guinean Franc"
 	},
-	"HUF": {
-		"name": "Hungarian Forint"
+	"UAH": {
+		"name": "Hryvnia ng Ukraine"
 	},
 	"ISK": {
 		"name": "Icelandic Króna"
@@ -232,10 +229,6 @@
 	"IQD": {
 		"name": "Iraqi Dinar"
 	},
-	"ILS": {
-		"name": "Israeli New Sheqel",
-		"symbol": "₪"
-	},
 	"JPY": {
 		"name": "Japanese Yen",
 		"symbol": "¥"
@@ -249,6 +242,9 @@
 	"KES": {
 		"name": "Kenyan Shilling"
 	},
+	"CZK": {
+		"name": "Koruna ng Czech Republic"
+	},
 	"KWD": {
 		"name": "Kuwaiti Dinar"
 	},
@@ -258,20 +254,23 @@
 	"LAK": {
 		"name": "Laotian Kip"
 	},
+	"ALL": {
+		"name": "Lek ng Albania"
+	},
 	"HNL": {
 		"name": "Lempira ng Honduras"
 	},
 	"LSL": {
 		"name": "Lesotho Loti"
 	},
-	"LYD": {
-		"name": "Libyan Dinar"
+	"MDL": {
+		"name": "Leu ng Moldova"
+	},
+	"RON": {
+		"name": "Leu ng Romania"
 	},
 	"MOP": {
 		"name": "Macanese Pataca"
-	},
-	"MKD": {
-		"name": "Macedonian Denar"
 	},
 	"MGA": {
 		"name": "Malagasy Ariary"
@@ -288,9 +287,6 @@
 	"MUR": {
 		"name": "Mauritian Rupee"
 	},
-	"MDL": {
-		"name": "Moldovan Leu"
-	},
 	"MNT": {
 		"name": "Mongolian Tugrik"
 	},
@@ -305,6 +301,10 @@
 	},
 	"NPR": {
 		"name": "Nepalese Rupee"
+	},
+	"ILS": {
+		"name": "New Shekel ng Israel",
+		"symbol": "₪"
 	},
 	"NGN": {
 		"name": "Nigerian Naira"
@@ -356,11 +356,14 @@
 	"UYU": {
 		"name": "Piso ng Uruguay"
 	},
-	"PLN": {
-		"name": "Polish Zloty"
+	"EGP": {
+		"name": "Pound ng Egypt"
 	},
 	"FKP": {
 		"name": "Pound ng Falkland Islands"
+	},
+	"GIP": {
+		"name": "Pound ng Gibraltar"
 	},
 	"LBP": {
 		"name": "Pound ng Lebanon"
@@ -384,11 +387,11 @@
 		"name": "Real ng Barzil",
 		"symbol": "R$"
 	},
-	"RON": {
-		"name": "Romanian Leu"
+	"BYN": {
+		"name": "Ruble ng Belarus"
 	},
 	"RUB": {
-		"name": "Russian Ruble"
+		"name": "Ruble ng Russia"
 	},
 	"RWF": {
 		"name": "Rwandan Franc"
@@ -408,11 +411,11 @@
 	"SAR": {
 		"name": "Saudi Riyal"
 	},
-	"RSD": {
-		"name": "Serbian Dinar"
-	},
 	"SCR": {
 		"name": "Seychellois Rupee"
+	},
+	"SLE": {
+		"name": "Sierra Leonean Leone"
 	},
 	"SLL": {
 		"name": "Sierra Leonean Leone"
@@ -460,9 +463,6 @@
 	"UGX": {
 		"name": "Ugandan Shilling"
 	},
-	"UAH": {
-		"name": "Ukrainian Hryvnia"
-	},
 	"AED": {
 		"name": "United Arab Emirates Dirham"
 	},
@@ -494,5 +494,8 @@
 	},
 	"ZWL": {
 		"name": "Zimbabwean Dollar (2009)"
+	},
+	"PLN": {
+		"name": "Zloty ng Poland"
 	}
 }

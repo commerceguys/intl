@@ -54,12 +54,11 @@ final class NumberFormatterTest extends TestCase
 
     /**
      * @covers ::format
-     *
-     * @expectedException \CommerceGuys\Intl\Exception\InvalidArgumentException
-     * @expectedExceptionMessage The provided value "a12.34" is not a valid number or numeric string.
      */
     public function testFormatWithInvalidNumber()
     {
+        $this->expectExceptionMessage('The provided value "a12.34" is not a valid number or numeric string.');
+        $this->expectException(InvalidArgumentException::class);
         $formatter = new NumberFormatter(new NumberFormatRepository());
         $formatter->format('a12.34');
     }

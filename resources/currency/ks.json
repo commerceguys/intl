@@ -1,4 +1,7 @@
 {
+	"VED": {
+		"name": "Bolívar Soberano"
+	},
 	"CVE": {
 		"name": "Cape Verdean Escudo"
 	},
@@ -14,8 +17,11 @@
 	"SCR": {
 		"name": "Seychellois Rupee"
 	},
-	"SLL": {
+	"SLE": {
 		"name": "Sierra Leonean Leone"
+	},
+	"SLL": {
+		"name": "Sierra Leonean Leone (1964—2022)"
 	},
 	"SSP": {
 		"name": "South Sudanese Pound"
@@ -25,6 +31,10 @@
 	},
 	"UYW": {
 		"name": "Uruguayan Nominal Wage Index Unit"
+	},
+	"USD": {
+		"name": "US ڈالر",
+		"symbol": "$"
 	},
 	"ZWL": {
 		"name": "Zimbabwean Dollar (2009)"
@@ -98,11 +108,11 @@
 		"name": "بحریٖنی دیٖنار"
 	},
 	"BRL": {
-		"name": "برازیٖلین رِیَل",
+		"name": "برازیٖلی رِیَل",
 		"symbol": "R$"
 	},
 	"GBP": {
-		"name": "برطٲنوی پاونڑ سٹٔرلِنگ",
+		"name": "برطٲنوی پوٗنڈ",
 		"symbol": "£"
 	},
 	"BMD": {
@@ -183,7 +193,7 @@
 	},
 	"JPY": {
 		"name": "جاپانُک یَن",
-		"symbol": "JP¥"
+		"symbol": "¥"
 	},
 	"GEL": {
 		"name": "جارجِیَن لاری"
@@ -204,7 +214,7 @@
 		"name": "چیک کوریٖنا"
 	},
 	"CNY": {
-		"name": "چینیٖز یَن رِنمِنبی",
+		"name": "چیٖنی یُوان",
 		"symbol": "CN¥"
 	},
 	"HKD": {
@@ -229,11 +239,11 @@
 	"ERN": {
 		"name": "رِٹریٖن نَفکا"
 	},
-	"RUB": {
-		"name": "رٔشیَن رَبٕل"
-	},
 	"RWF": {
 		"name": "روانڑَن فرانک"
+	},
+	"RUB": {
+		"name": "روٗسی رَبٕل"
 	},
 	"RON": {
 		"name": "رومانِیَن لؠیوٗ"
@@ -319,9 +329,6 @@
 	},
 	"KGS": {
 		"name": "کِرگِستانُک سوم"
-	},
-	"HRK": {
-		"name": "کروایشنُک کوٗنا"
 	},
 	"KZT": {
 		"name": "کزاکِستان ٹینج"
@@ -482,10 +489,6 @@
 	},
 	"YER": {
 		"name": "یَمنُک رِیال"
-	},
-	"USD": {
-		"name": "یوٗ ایس ڈالَر",
-		"symbol": "US$"
 	},
 	"EUR": {
 		"name": "یوٗرو",

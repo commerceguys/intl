@@ -4,6 +4,7 @@ namespace CommerceGuys\Intl\Tests\Currency;
 
 use CommerceGuys\Intl\Currency\Currency;
 use CommerceGuys\Intl\Currency\CurrencyRepository;
+use CommerceGuys\Intl\Exception\UnknownCurrencyException;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
 
@@ -61,8 +62,10 @@ final class CurrencyRepositoryTest extends TestCase
         // Instantiate the currency repository and confirm that the definition path
         // was properly set.
         $currencyRepository = new CurrencyRepository('de', 'en', 'vfs://resources/currency/');
-        $definitionPath = $this->getObjectAttribute($currencyRepository, 'definitionPath');
-        $this->assertEquals('vfs://resources/currency/', $definitionPath);
+        $reflectedCurrencyRepository = new \ReflectionObject($currencyRepository);
+        $reflectedDefinitionPath = $reflectedCurrencyRepository->getProperty('definitionPath');
+        $reflectedDefinitionPath->setAccessible(true);
+        $this->assertEquals('vfs://resources/currency/',  $reflectedDefinitionPath->getValue($currencyRepository));
 
         return $currencyRepository;
     }
@@ -109,11 +112,12 @@ final class CurrencyRepositoryTest extends TestCase
      * @covers ::loadDefinitions
      *
      * @uses \CommerceGuys\Intl\Locale
-     * @expectedException \CommerceGuys\Intl\Exception\UnknownCurrencyException
+     *
      * @depends testConstructor
      */
     public function testGetInvalidCurrency($currencyRepository)
     {
+        $this->expectException(UnknownCurrencyException::class);
         $currencyRepository->get('INVALID');
     }
 

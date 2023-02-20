@@ -53,6 +53,9 @@
 	"BWP": {
 		"name": "bocvanska pula"
 	},
+	"VED": {
+		"name": "Bolívar Soberano"
+	},
 	"BOB": {
 		"name": "bolivijski bolivijano"
 	},
@@ -113,7 +116,8 @@
 		"name": "etiopski bir"
 	},
 	"EUR": {
-		"name": "euro"
+		"name": "euro",
+		"symbol": "€"
 	},
 	"FKP": {
 		"name": "falklandska funta"
@@ -153,10 +157,6 @@
 	},
 	"HKD": {
 		"name": "hongkonški dolar"
-	},
-	"HRK": {
-		"name": "hrvatska kuna",
-		"symbol": "kn"
 	},
 	"INR": {
 		"name": "indijska rupija"
@@ -373,6 +373,9 @@
 	},
 	"SCR": {
 		"name": "sejšelska rupija"
+	},
+	"SLE": {
+		"name": "Sierra Leonean Leone"
 	},
 	"SLL": {
 		"name": "sijeraleonski leone"

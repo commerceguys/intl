@@ -4,10 +4,10 @@
     "description": "Internationalization library powered by CLDR data.",
     "license": "MIT",
     "require": {
-        "php": ">=7.1.3"
+        "php": ">=7.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.5",
+        "phpunit/phpunit": "^9.5",
         "mikey179/vfsstream": "1.*"
     },
     "autoload": {
@@ -23,6 +23,9 @@
     "authors": [
         {
             "name": "Bojan Zivanovic"
+        },
+        {
+            "name": "Jonathan Sacksick"
         }
     ],
     "extra": {

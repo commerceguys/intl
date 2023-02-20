@@ -2,6 +2,7 @@
 
 namespace CommerceGuys\Intl\Tests\Language;
 
+use CommerceGuys\Intl\Exception\UnknownLanguageException;
 use CommerceGuys\Intl\Language\Language;
 use CommerceGuys\Intl\Language\LanguageRepository;
 use org\bovigo\vfs\vfsStream;
@@ -49,8 +50,10 @@ final class LanguageRepositoryTest extends TestCase
         // Instantiate the language repository and confirm that the definition path
         // was properly set.
         $languageRepository = new LanguageRepository('de', 'en', 'vfs://resources/language/');
-        $definitionPath = $this->getObjectAttribute($languageRepository, 'definitionPath');
-        $this->assertEquals('vfs://resources/language/', $definitionPath);
+        $reflectedLanguageRepository = new \ReflectionObject($languageRepository);
+        $reflectedDefinitionPath = $reflectedLanguageRepository->getProperty('definitionPath');
+        $reflectedDefinitionPath->setAccessible(true);
+        $this->assertEquals('vfs://resources/language/', $reflectedDefinitionPath->getValue($languageRepository));
 
         return $languageRepository;
     }
@@ -110,11 +113,12 @@ final class LanguageRepositoryTest extends TestCase
      * @covers ::loadDefinitions
      *
      * @uses \CommerceGuys\Intl\Locale
-     * @expectedException \CommerceGuys\Intl\Exception\UnknownLanguageException
+     *
      * @depends testConstructor
      */
     public function testGetInvalidLanguage($languageRepository)
     {
+        $this->expectException(UnknownLanguageException::class);
         $languageRepository->get('de');
     }
 

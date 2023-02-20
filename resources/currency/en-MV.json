@@ -40,16 +40,19 @@
 		"name": "Barbadian Dollar"
 	},
 	"BYN": {
-		"name": "Belarusian Ruble"
+		"name": "Belarusian Rouble"
 	},
 	"BZD": {
 		"name": "Belize Dollar"
 	},
 	"BMD": {
-		"name": "Bermudan Dollar"
+		"name": "Bermudian Dollar"
 	},
 	"BTN": {
 		"name": "Bhutanese Ngultrum"
+	},
+	"VED": {
+		"name": "Bolívar Soberano"
 	},
 	"BOB": {
 		"name": "Bolivian Boliviano"
@@ -116,9 +119,6 @@
 	},
 	"CRC": {
 		"name": "Costa Rican Colón"
-	},
-	"HRK": {
-		"name": "Croatian Kuna"
 	},
 	"CUC": {
 		"name": "Cuban Convertible Peso"
@@ -220,7 +220,7 @@
 	},
 	"JPY": {
 		"name": "Japanese Yen",
-		"symbol": "¥"
+		"symbol": "JP¥"
 	},
 	"JOD": {
 		"name": "Jordanian Dinar"
@@ -268,7 +268,8 @@
 		"name": "Malaysian Ringgit"
 	},
 	"MVR": {
-		"name": "Maldivian Rufiyaa"
+		"name": "Maldivian Rufiyaa",
+		"symbol": "Rf"
 	},
 	"MRU": {
 		"name": "Mauritanian Ouguiya"
@@ -343,20 +344,20 @@
 		"name": "Peruvian Sol"
 	},
 	"PHP": {
-		"name": "Philippine Piso",
+		"name": "Philippine Peso",
 		"symbol": "₱"
 	},
 	"PLN": {
 		"name": "Polish Zloty"
 	},
 	"QAR": {
-		"name": "Qatari Rial"
+		"name": "Qatari Riyal"
 	},
 	"RON": {
 		"name": "Romanian Leu"
 	},
 	"RUB": {
-		"name": "Russian Ruble"
+		"name": "Russian Rouble"
 	},
 	"RWF": {
 		"name": "Rwandan Franc"
@@ -379,8 +380,11 @@
 	"SCR": {
 		"name": "Seychellois Rupee"
 	},
-	"SLL": {
+	"SLE": {
 		"name": "Sierra Leonean Leone"
+	},
+	"SLL": {
+		"name": "Sierra Leonean Leone (1964—2022)"
 	},
 	"SGD": {
 		"name": "Singapore Dollar"
@@ -405,7 +409,7 @@
 		"name": "Sri Lankan Rupee"
 	},
 	"SHP": {
-		"name": "St. Helena Pound"
+		"name": "St Helena Pound"
 	},
 	"SDG": {
 		"name": "Sudanese Pound"
@@ -466,7 +470,7 @@
 	},
 	"USD": {
 		"name": "US Dollar",
-		"symbol": "$"
+		"symbol": "US$"
 	},
 	"UZS": {
 		"name": "Uzbekistani Som"
