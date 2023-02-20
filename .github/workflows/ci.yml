@@ -12,19 +12,19 @@ jobs:
       - uses: php-actions/composer@v6
 
       - name: PHPUnit Tests PHP 7.3
-        uses: php-actions/phpunit@v3
+        uses: php-actions/phpunit@master
         with:
           bootstrap: vendor/autoload.php
-          configuration: test/phpunit.xml
+          configuration: phpunit.xml
           args: --coverage-text
           php_version: 7.3
           version: 9
 
       - name: PHPUnit Tests PHP 8.0
-        uses: php-actions/phpunit@v3
+        uses: php-actions/phpunit@master
         with:
           bootstrap: vendor/autoload.php
-          configuration: test/phpunit.xml
+          configuration: phpunit.xml
           args: --coverage-text
           php_version: 8.0
           version: 9
