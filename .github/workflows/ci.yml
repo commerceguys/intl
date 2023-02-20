@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
 
       - uses: php-actions/composer@v6
 
       - name: PHPUnit Tests PHP 7.3
-        uses: php-actions/phpunit@v9
+        uses: php-actions/phpunit@v3
         with:
           bootstrap: vendor/autoload.php
           configuration: test/phpunit.xml
@@ -21,7 +21,7 @@ jobs:
           version: 9
 
       - name: PHPUnit Tests PHP 8.0
-        uses: php-actions/phpunit@v9
+        uses: php-actions/phpunit@v3
         with:
           bootstrap: vendor/autoload.php
           configuration: test/phpunit.xml
