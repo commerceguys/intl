@@ -26,6 +26,8 @@ final class Calculator
      */
     public static function add(string $first_number, string $second_number, int $scale = 6): string
     {
+        self::assertNumberFormat($first_number);
+        self::assertNumberFormat($second_number);
         $result = bcadd($first_number, $second_number, $scale);
 
         return self::trim($result);
@@ -44,6 +46,8 @@ final class Calculator
      */
     public static function subtract(string $first_number, string $second_number, int $scale = 6): string
     {
+        self::assertNumberFormat($first_number);
+        self::assertNumberFormat($second_number);
         $result = bcsub($first_number, $second_number, $scale);
 
         return self::trim($result);
@@ -62,6 +66,8 @@ final class Calculator
      */
     public static function multiply(string $first_number, string $second_number, int $scale = 6): string
     {
+        self::assertNumberFormat($first_number);
+        self::assertNumberFormat($second_number);
         $result = bcmul($first_number, $second_number, $scale);
 
         return self::trim($result);
@@ -80,6 +86,8 @@ final class Calculator
      */
     public static function divide(string $first_number, string $second_number, int $scale = 6): string
     {
+        self::assertNumberFormat($first_number);
+        self::assertNumberFormat($second_number);
         $result = bcdiv($first_number, $second_number, $scale);
 
         return self::trim($result);
@@ -139,6 +147,7 @@ final class Calculator
      */
     public static function round(string $number, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): string
     {
+        self::assertNumberFormat($number);
         if (!is_numeric($precision) || $precision < 0) {
             throw new \InvalidArgumentException('The provided precision should be a positive number');
         }
@@ -154,7 +163,7 @@ final class Calculator
         // The rounding direction is based on the first decimal after $precision.
         $number_parts = explode('.', $number);
         $decimals = !empty($number_parts[1]) ? $number_parts[1] : '0';
-        $relevant_decimal = isset($decimals[$precision]) ? $decimals[$precision] : 0;
+        $relevant_decimal = $decimals[$precision] ?? 0;
         if ($relevant_decimal < 5) {
             $number = $rounded_down;
         } elseif ($relevant_decimal == 5) {
@@ -190,6 +199,8 @@ final class Calculator
      */
     public static function compare(string $first_number, string $second_number, int $scale = 6): int
     {
+        self::assertNumberFormat($first_number);
+        self::assertNumberFormat($second_number);
         return bccomp($first_number, $second_number, $scale);
     }
 
@@ -215,5 +226,19 @@ final class Calculator
 
         return $number;
     }
+
+  /**
+   * Assert that the given number is a numeric string value.
+   *
+   * @param string $number The number to check.
+   *
+   * @throws \InvalidArgumentException
+   */
+  public static function assertNumberFormat(string $number)
+  {
+      if (!is_numeric($number)) {
+          throw new \InvalidArgumentException(sprintf('The provided value "%s" is not a numeric value.', $number));
+      }
+  }
 
 }
