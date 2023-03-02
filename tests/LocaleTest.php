@@ -70,9 +70,6 @@ final class LocaleTest extends TestCase
     {
         $locale = Locale::canonicalize('BS_cyrl-ba');
         $this->assertEquals('bs-Cyrl-BA', $locale);
-
-        $locale = Locale::canonicalize(null);
-        $this->assertEquals(null, $locale);
     }
 
     /**
@@ -114,8 +111,5 @@ final class LocaleTest extends TestCase
     {
         $locale = Locale::replaceAlias('zh-CN');
         $this->assertEquals('zh-Hans-CN', $locale);
-
-        $locale = Locale::replaceAlias(null);
-        $this->assertEquals(null, $locale);
     }
 }

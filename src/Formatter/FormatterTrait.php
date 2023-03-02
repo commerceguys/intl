@@ -13,14 +13,14 @@ trait FormatterTrait
      *
      * @var ParsedPattern[]
      */
-    protected $parsedPatterns = [];
+    protected array $parsedPatterns = [];
 
     /**
      * Localized digits.
      *
      * @var array
      */
-    protected $digits = [
+    protected array $digits = [
         NumberFormat::NUMBERING_SYSTEM_ARABIC => [
             0 => '٠', 1 => '١', 2 => '٢', 3 => '٣', 4 => '٤',
             5 => '٥', 6 => '٦', 7 => '٧', 8 => '٨', 9 => '٩',
@@ -47,7 +47,7 @@ trait FormatterTrait
      *
      * @return string The formatted number.
      */
-    protected function formatNumber($number, NumberFormat $numberFormat, array $options = [])
+    protected function formatNumber(string $number, NumberFormat $numberFormat, array $options = []): string
     {
         $parsedPattern = $this->getParsedPattern($numberFormat, $options['style']);
         // Start by rounding the number, if rounding is enabled.
@@ -116,7 +116,7 @@ trait FormatterTrait
      *
      * @see http://cldr.unicode.org/translation/number-symbols
      */
-    protected function localizeNumber($number, NumberFormat $numberFormat)
+    protected function localizeNumber(string $number, NumberFormat $numberFormat): string
     {
         // Localize digits.
         $numberingSystem = $numberFormat->getNumberingSystem();
@@ -139,9 +139,9 @@ trait FormatterTrait
      * @param string       $number       The number.
      * @param NumberFormat $numberFormat The number format.
      *
-     * @return string The localized number.
+     * @return string|bool The localized number, or FALSE on error.
      */
-    protected function parseNumber($number, NumberFormat $numberFormat)
+    protected function parseNumber(string $number, NumberFormat $numberFormat): string|bool
     {
         // Convert localized symbols back to their original form.
         $replacements = array_flip($this->getLocalizedSymbols($numberFormat));
@@ -179,8 +179,10 @@ trait FormatterTrait
      * @param string       $style        The formatter style.
      *
      * @return ParsedPattern
+     *
+     * @throws InvalidArgumentException
      */
-    protected function getParsedPattern(NumberFormat $numberFormat, $style)
+    protected function getParsedPattern(NumberFormat $numberFormat, string $style): ParsedPattern
     {
         $locale = $numberFormat->getLocale();
         if (!isset($this->parsedPatterns[$locale][$style])) {
@@ -202,7 +204,7 @@ trait FormatterTrait
      *
      * @return string[] The patterns, keyed by style.
      */
-    abstract protected function getAvailablePatterns(NumberFormat $numberFormat);
+    abstract protected function getAvailablePatterns(NumberFormat $numberFormat): array;
 
     /**
      * Gets the localized symbols for the provided number format.

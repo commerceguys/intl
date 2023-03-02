@@ -185,7 +185,7 @@ final class CurrencyFormatterTest extends TestCase
     /**
      * Provides the number format, currency format, number style, value and expected formatted value.
      */
-    public function currencyValueProvider()
+    public static function currencyValueProvider()
     {
         return [
             ['en', 'USD', 'standard', '-5.05', '-$5.05'],
@@ -202,7 +202,7 @@ final class CurrencyFormatterTest extends TestCase
     /**
      * Provides values for the formatted currency parser.
      */
-    public function formattedCurrencyProvider()
+    public static function formattedCurrencyProvider()
     {
         return [
             ['en', 'USD', '$500,100.05', '500100.05'],

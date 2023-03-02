@@ -19,14 +19,14 @@ class NumberFormatter implements NumberFormatterInterface
      *
      * @var NumberFormatRepositoryInterface
      */
-    protected $numberFormatRepository;
+    protected NumberFormatRepositoryInterface $numberFormatRepository;
 
     /**
      * The default options.
      *
      * @var array
      */
-    protected $defaultOptions = [
+    protected array $defaultOptions = [
         'locale' => 'en',
         'use_grouping' => true,
         'minimum_fraction_digits' => 0,
@@ -40,7 +40,7 @@ class NumberFormatter implements NumberFormatterInterface
      *
      * @var NumberFormat[]
      */
-    protected $numberFormats = [];
+    protected array $numberFormats = [];
 
     /**
      * Creates a NumberFormatter instance.
@@ -65,7 +65,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function format($number, array $options = [])
+    public function format(string $number, array $options = []): string
     {
         if (!is_numeric($number)) {
             $message = sprintf('The provided value "%s" is not a valid number or numeric string.', $number);
@@ -88,7 +88,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function parse($number, array $options = [])
+    public function parse(string $number, array $options = []): string
     {
         $this->validateOptions($options);
         $options = array_replace($this->defaultOptions, $options);
@@ -105,7 +105,7 @@ class NumberFormatter implements NumberFormatterInterface
      *
      * @return NumberFormat
      */
-    protected function getNumberFormat($locale)
+    protected function getNumberFormat(string $locale): NumberFormat
     {
         if (!isset($this->numberFormats[$locale])) {
             $this->numberFormats[$locale] = $this->numberFormatRepository->get($locale);
@@ -117,7 +117,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    protected function getAvailablePatterns(NumberFormat $numberFormat)
+    protected function getAvailablePatterns(NumberFormat $numberFormat): array
     {
         return [
             'decimal' => $numberFormat->getDecimalPattern(),

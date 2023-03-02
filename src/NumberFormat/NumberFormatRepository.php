@@ -14,14 +14,14 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
      *
      * @var string
      */
-    protected $fallbackLocale;
+    protected string $fallbackLocale;
 
     /**
      * Creates a NumberFormatRepository instance.
      *
      * @param string $fallbackLocale The fallback locale. Defaults to 'en'.
      */
-    public function __construct($fallbackLocale = 'en')
+    public function __construct(string $fallbackLocale = 'en')
     {
         $this->fallbackLocale = $fallbackLocale;
     }
@@ -29,7 +29,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get($locale)
+    public function get(string $locale): NumberFormat
     {
         $definitions = $this->getDefinitions();
         $availableLocales = array_keys($definitions);
@@ -47,7 +47,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
      *
      * @return array The processed definition.
      */
-    protected function processDefinition($locale, array $definition)
+    protected function processDefinition(string $locale, array $definition)
     {
         $definition['locale'] = $locale;
         // The generation script strips all keys that have the same values
@@ -66,7 +66,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
      * @return array
      *   The number format definitions, keyed by locale.
      */
-    protected function getDefinitions()
+    protected function getDefinitions(): array
     {
         return [
             'af' => [

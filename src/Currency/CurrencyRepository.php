@@ -15,35 +15,35 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      *
      * @var string
      */
-    protected $defaultLocale;
+    protected string $defaultLocale;
 
     /**
      * The fallback locale.
      *
      * @var string
      */
-    protected $fallbackLocale;
+    protected string $fallbackLocale;
 
     /**
      * The path where per-locale definitions are stored.
      *
      * @var string
      */
-    protected $definitionPath;
+    protected string $definitionPath;
 
     /**
      * Per-locale currency definitions.
      *
      * @var array
      */
-    protected $definitions = [];
+    protected array $definitions = [];
 
     /**
      * The available locales.
      *
      * @var array
      */
-    protected $availableLocales = [
+    protected array $availableLocales = [
         'af', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn', 'bn-IN', 'brx', 'bs',
         'bs-Cyrl', 'ca', 'ce', 'cs', 'cv', 'cy', 'da', 'de', 'de-CH', 'dz',
         'el', 'en', 'en-001', 'en-AU', 'en-CA', 'en-GG', 'en-IM', 'en-JE',
@@ -64,20 +64,20 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      *
      * @param string $defaultLocale  The default locale. Defaults to 'en'.
      * @param string $fallbackLocale The fallback locale. Defaults to 'en'.
-     * @param string $definitionPath The path to the currency definitions.
+     * @param string|null $definitionPath The path to the currency definitions.
      *                               Defaults to 'resources/currency'.
      */
-    public function __construct($defaultLocale = 'en', $fallbackLocale = 'en', $definitionPath = null)
+    public function __construct(string $defaultLocale = 'en', string $fallbackLocale = 'en', string $definitionPath = null)
     {
         $this->defaultLocale = $defaultLocale;
         $this->fallbackLocale = $fallbackLocale;
-        $this->definitionPath = $definitionPath ? $definitionPath : __DIR__ . '/../../resources/currency/';
+        $this->definitionPath = $definitionPath ?: __DIR__ . '/../../resources/currency/';
     }
 
     /**
      * {@inheritdoc}
      */
-    public function get($currencyCode, $locale = null)
+    public function get(string $currencyCode, string $locale = null): Currency
     {
         $currencyCode = strtoupper($currencyCode);
         $baseDefinitions = $this->getBaseDefinitions();
@@ -100,7 +100,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll($locale = null)
+    public function getAll(string $locale = null): array
     {
         $locale = $locale ?: $this->defaultLocale;
         $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
@@ -122,7 +122,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getList($locale = null)
+    public function getList(string $locale = null): array
     {
         $locale = $locale ?: $this->defaultLocale;
         $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
@@ -142,7 +142,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      *
      * @return array
      */
-    protected function loadDefinitions($locale)
+    protected function loadDefinitions(string $locale): array
     {
         if (!isset($this->definitions[$locale])) {
             $filename = $this->definitionPath . $locale . '.json';
@@ -163,7 +163,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      *   - The numeric code.
      *   - The fraction digits.
      */
-    protected function getBaseDefinitions()
+    protected function getBaseDefinitions(): array
     {
         return [
             'AED' => ['784', 2],
