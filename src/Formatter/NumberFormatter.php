@@ -88,7 +88,7 @@ class NumberFormatter implements NumberFormatterInterface
     /**
      * {@inheritdoc}
      */
-    public function parse(string $number, array $options = []): string
+    public function parse(string $number, array $options = []): string|bool
     {
         $this->validateOptions($options);
         $options = array_replace($this->defaultOptions, $options);
