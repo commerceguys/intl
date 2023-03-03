@@ -140,7 +140,7 @@ final class Currency
      *
      * @return int
      */
-    public function getFractionDigits(): string
+    public function getFractionDigits(): int
     {
         return $this->fractionDigits;
     }
