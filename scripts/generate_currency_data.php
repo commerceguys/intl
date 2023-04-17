@@ -138,7 +138,7 @@ function generate_localizations(array $baseData)
         $data = $data['main'][$locale]['numbers']['currencies'];
         foreach ($data as $currencyCode => $currency) {
             if (isset($baseData[$currencyCode])) {
-                $currencyName = $currency['displayName'];
+                $currencyName = $currency['displayName'] ?? $currencyCode;
                 // This currency name is untranslated, use the english version.
                 if ($currencyCode == $currencyName) {
                     $currencyName = $localizations['en'][$currencyCode]['name'];
@@ -152,7 +152,7 @@ function generate_localizations(array $baseData)
                 ];
                 // Decrease the dataset size by exporting the symbol only if it's
                 // different from the currency code.
-                if ($currency['symbol'] != $currencyCode) {
+                if (isset($currency['symbol']) && $currency['symbol'] != $currencyCode) {
                     $localizations[$locale][$currencyCode]['symbol'] = $currency['symbol'];
                 }
             }
