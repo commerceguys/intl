@@ -41,21 +41,22 @@ $ignoredLocales = [
     // Valencian differs from its parent only by a single character (è/é).
     'ca-ES-valencia',
     // Africa secondary languages.
-    'agq', 'ak', 'am', 'asa', 'bas', 'bem', 'bez', 'bm', 'cgg', 'dav',
-    'dje', 'dua', 'dyo', 'ebu', 'ee', 'ewo', 'ff', 'ff-Latn', 'guz',
+    'agq', 'aa', 'ak', 'am', 'asa', 'bas', 'bem', 'bez', 'bm', 'cgg', 'dav',
+    'dje', 'dua', 'dyo', 'ebu', 'ee', 'ewo', 'ff', 'ff-Latn', 'gez', 'guz',
     'ha', 'ig', 'jgo', 'jmc', 'kab', 'kam', 'kea', 'kde', 'ki', 'kkj',
     'kln', 'khq', 'ksb', 'ksf', 'lag', 'luo', 'luy', 'lu', 'lg', 'ln',
-    'mas', 'mer', 'mua', 'mgo', 'mgh', 'mfe', 'naq', 'nd', 'nmg', 'nnh',
+    'mas', 'mer', 'mua', 'mgo', 'mgh', 'mfe', 'naq', 'nd', 'nmg', 'nnh', 'nso',
     'nus', 'nyn', 'om', 'pcm', 'rof', 'rwk', 'saq', 'seh', 'ses', 'sbp',
-    'sg', 'shi', 'sn', 'teo', 'ti', 'tzm', 'twq', 'vai', 'vai-Latn', 'vun',
-    'wo', 'xog', 'xh', 'zgh', 'yav', 'yo', 'zu',
+    'sg', 'shi', 'sid', 'sn', 'teo', 'ti', 'tn', 'ts', 'tzm', 'twq', 'vai',
+    'vai-Latn', 've', 'vun', 'wo', 'xog', 'xh', 'zgh', 'yav', 'yo', 'zu',
     // Europe secondary languages.
     'br', 'dsb', 'fo', 'fur', 'fy', 'hsb', 'ksh', 'kw', 'nds', 'or', 'rm',
     'sc', 'se', 'smn', 'wae',
     // Other infrequently used locales.
-    'ceb', 'ccp', 'chr', 'ckb', 'haw', 'ii', 'jv', 'kgp', 'kl', 'kn', 'lkt',
-    'lrc', 'mi', 'mzn', 'os', 'qu', 'row', 'sah', 'su', 'tt', 'ug', 'yi',
-    'yrl',
+    'cad', 'ceb', 'ccp', 'chr', 'ckb', 'dv', 'haw', 'ii', 'jv', 'kgp', 'kl',
+    'kn', 'lkt',  'lrc', 'mi', 'mzn', 'os', 'qu', 'row', 'sah', 'su', 'tt',
+    'ug', 'yi', 'yrl', 'en-Shaw', 'iu', 'la', 'lmo', 'mn-Mong', 'ms-Arab',
+    'ms-Arab-BN', 'nr', 'oc', 'wal',
 ];
 
 /**
