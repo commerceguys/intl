@@ -44,19 +44,18 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      * @var array
      */
     protected array $availableLocales = [
-        'af', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn', 'bn-IN', 'brx', 'bs',
-        'bs-Cyrl', 'ca', 'ce', 'cs', 'cv', 'cy', 'da', 'de', 'de-CH', 'dz',
-        'el', 'el-polyton', 'en', 'en-001', 'en-AU', 'en-CA', 'en-GG', 'en-IM',
-        'en-JE', 'es', 'es-419', 'es-CL', 'es-GT', 'es-MX', 'es-US', 'es-VE',
-        'et', 'eu', 'fa', 'fa-AF', 'fi', 'fil', 'fr', 'fr-CA', 'ga', 'gd', 'gl',
-        'gsw', 'gu', 'he', 'hi', 'hi-Latn', 'hr', 'hu', 'hy', 'id', 'is', 'it',
-        'ja', 'ka', 'kk', 'km', 'ko', 'kok', 'ks', 'ky', 'lb', 'lo', 'lt', 'lv',
-        'mg', 'mk', 'ml', 'mn', 'mr', 'ms', 'my', 'ne', 'nl', 'nn', 'no', 'nqo',
-        'pa', 'pl', 'ps', 'pt', 'pt-PT', 'rn', 'ro', 'ru', 'sd', 'si', 'sk',
-        'sl', 'so', 'sq', 'sr', 'sr-Cyrl-BA', 'sr-Latn', 'sr-Latn-BA', 'sv',
-        'sw', 'sw-CD', 'sw-KE', 'ta', 'te', 'th', 'tk', 'tr', 'uk', 'ur',
-        'ur-IN', 'uz', 'uz-Cyrl', 'vi', 'yue', 'yue-Hans', 'zh', 'zh-Hans-HK',
-        'zh-Hant', 'zh-Hant-HK'
+        'af', 'am', 'ar', 'as', 'az', 'be', 'bg', 'bn', 'bn-IN', 'bs', 'ca',
+        'cs', 'cy', 'da', 'de', 'de-CH', 'el', 'el-polyton', 'en', 'en-001',
+        'en-AU', 'en-CA', 'en-GG', 'en-IM', 'en-JE', 'es', 'es-419', 'es-CL',
+        'es-GT', 'es-MX', 'es-US', 'es-VE', 'et', 'eu', 'fa', 'fa-AF', 'fi',
+        'fil', 'fr', 'fr-CA', 'ga', 'gd', 'gl', 'gu', 'he', 'hi', 'hi-Latn',
+        'hr', 'hu', 'hy', 'id', 'ig', 'is', 'it', 'ja', 'ka', 'kk', 'km', 'ko',
+        'kok', 'ky', 'lo', 'lt', 'lv', 'mk', 'mn', 'mr', 'ms', 'my', 'ne', 'nl',
+        'nn', 'no', 'or', 'pa', 'pcm', 'pl', 'ps', 'pt', 'pt-PT', 'ro', 'ru',
+        'si', 'sk', 'sl', 'so', 'sq', 'sr', 'sr-Cyrl-BA', 'sr-Latn',
+        'sr-Latn-BA', 'sv', 'sw', 'sw-CD', 'sw-KE', 'ta', 'te', 'th', 'tk',
+        'tr', 'uk', 'ur', 'ur-IN', 'uz', 'vi', 'yue', 'yue-Hans', 'zh',
+        'zh-Hans-HK', 'zh-Hant', 'zh-Hant-HK', 'zu'
     ];
 
     /**

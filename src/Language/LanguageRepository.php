@@ -44,31 +44,20 @@ class LanguageRepository implements LanguageRepositoryInterface
      * @var array
      */
     protected array $availableLocales = [
-        'ab', 'af', 'an', 'ann', 'apc', 'ar', 'ar-EG', 'ar-LY', 'ar-SA', 'arn',
-        'as', 'ast', 'az', 'az-Arab', 'az-Cyrl', 'ba', 'bal', 'bal-Latn', 'be',
-        'bg', 'bgc', 'bgn', 'bho', 'blt', 'bn', 'bn-IN', 'bo', 'brx', 'bs',
-        'bs-Cyrl', 'bss', 'byn', 'ca', 'cch', 'ce', 'cho', 'cic', 'co', 'cs',
-        'cv', 'cy', 'da', 'de', 'de-AT', 'de-CH', 'doi', 'dz', 'el',
-        'el-polyton', 'en', 'en-001', 'en-AU', 'en-CA', 'en-Dsrt', 'en-GB',
-        'en-IN', 'es', 'es-419', 'es-AR', 'es-BO', 'es-CL', 'es-CO', 'es-CR',
-        'es-DO', 'es-EC', 'es-GT', 'es-HN', 'es-MX', 'es-NI', 'es-PA', 'es-PE',
-        'es-PR', 'es-PY', 'es-SV', 'es-US', 'es-VE', 'et', 'eu', 'fa', 'fa-AF',
-        'fi', 'fil', 'fr', 'fr-BE', 'fr-CA', 'fr-CH', 'frr', 'ga', 'gaa', 'gd',
-        'gl', 'gn', 'gsw', 'gu', 'he', 'hi', 'hi-Latn', 'hnj', 'hr', 'hu', 'hy',
-        'id', 'io', 'is', 'it', 'ja', 'jbo', 'ka', 'kaj', 'kcg', 'ken', 'kk',
-        'km', 'ko', 'kok', 'kpe', 'ks', 'ks-Deva', 'ku', 'ky', 'lb', 'lij',
-        'lo', 'lt', 'lv', 'mai', 'mdf', 'mg', 'mk', 'ml', 'mn', 'mn-Mong-MN',
-        'mni', 'mni-Mtei', 'moh', 'mr', 'ms', 'mt', 'mus', 'my', 'myv', 'ne',
-        'nl', 'nn', 'no', 'nqo', 'nv', 'ny', 'osa', 'pa', 'pa-Arab', 'pap',
-        'pis', 'pl', 'ps', 'ps-PK', 'pt', 'pt-PT', 'quc', 'raj', 'rhg', 'rif',
-        'rn', 'ro', 'ro-MD', 'ru', 'rw', 'sat', 'sat-Deva', 'scn', 'sd',
-        'sd-Deva', 'sdh', 'shn', 'si', 'sk', 'sl', 'sma', 'smj', 'sms', 'so',
+        'af', 'am', 'ar', 'ar-EG', 'ar-LY', 'ar-SA', 'as', 'az', 'be', 'bg',
+        'bn', 'bs', 'ca', 'cs', 'cy', 'da', 'de', 'de-AT', 'el', 'el-polyton',
+        'en', 'en-AU', 'en-CA', 'en-IN', 'es', 'es-419', 'es-AR', 'es-BO',
+        'es-CL', 'es-CO', 'es-CR', 'es-DO', 'es-EC', 'es-GT', 'es-HN', 'es-MX',
+        'es-NI', 'es-PA', 'es-PE', 'es-PY', 'es-US', 'es-VE', 'et', 'eu', 'fa',
+        'fa-AF', 'fi', 'fil', 'fr', 'fr-BE', 'fr-CA', 'fr-CH', 'ga', 'gd', 'gl',
+        'gu', 'he', 'hi', 'hi-Latn', 'hr', 'hu', 'hy', 'id', 'ig', 'is', 'it',
+        'ja', 'ka', 'kk', 'km', 'ko', 'kok', 'ky', 'lo', 'lt', 'lv', 'mk', 'mn',
+        'mr', 'ms', 'my', 'ne', 'nl', 'nn', 'no', 'or', 'pa', 'pcm', 'pl', 'ps',
+        'ps-PK', 'pt', 'pt-PT', 'ro', 'ro-MD', 'ru', 'si', 'sk', 'sl', 'so',
         'sq', 'sr', 'sr-Cyrl-BA', 'sr-Cyrl-ME', 'sr-Cyrl-XK', 'sr-Latn',
-        'sr-Latn-BA', 'sr-Latn-ME', 'sr-Latn-XK', 'ss', 'ssy', 'st', 'sv', 'sw',
-        'sw-CD', 'sw-KE', 'syr', 'szl', 'ta', 'te', 'tg', 'th', 'tig', 'tk',
-        'to', 'tok', 'tpi', 'tr', 'trv', 'trw', 'uk', 'ur', 'ur-IN', 'uz',
-        'uz-Arab', 'uz-Cyrl', 'vec', 'vi', 'wa', 'wbp', 'yue', 'yue-Hans',
-        'zh', 'zh-Hant', 'zh-Hant-HK'
+        'sr-Latn-BA', 'sr-Latn-ME', 'sr-Latn-XK', 'sv', 'sw', 'sw-CD',
+        'sw-KE', 'ta', 'te', 'th', 'tk', 'tr', 'uk', 'ur', 'ur-IN', 'uz', 'vi',
+        'yue', 'yue-Hans', 'zh', 'zh-Hant', 'zh-Hant-HK', 'zu'
     ];
 
     /**
