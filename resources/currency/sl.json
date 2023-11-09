@@ -78,14 +78,6 @@
 	"BTN": {
 		"name": "butanski ngultrum"
 	},
-	"XAF": {
-		"name": "CFA frank BEAC",
-		"symbol": "FCFA"
-	},
-	"XPF": {
-		"name": "CFP frank",
-		"symbol": "CFPF"
-	},
 	"CZK": {
 		"name": "češka krona"
 	},
@@ -128,6 +120,10 @@
 	},
 	"PHP": {
 		"name": "filipinski peso"
+	},
+	"XPF": {
+		"name": "frank CFP",
+		"symbol": "CFPF"
 	},
 	"SHP": {
 		"name": "funt Sv. Helene"
@@ -387,8 +383,11 @@
 	"KPW": {
 		"name": "severnokorejski von"
 	},
-	"SLL": {
+	"SLE": {
 		"name": "sieraleonski leone"
+	},
+	"SLL": {
+		"name": "sieraleonski leone (1964—2022)"
 	},
 	"SGD": {
 		"name": "singapurski dolar"
@@ -404,6 +403,10 @@
 	},
 	"RSD": {
 		"name": "srbski dinar"
+	},
+	"XAF": {
+		"name": "srednjeafriški frank CFA",
+		"symbol": "FCFA"
 	},
 	"SDG": {
 		"name": "sudanski funt"
