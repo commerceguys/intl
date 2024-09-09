@@ -257,8 +257,8 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'grouping_separator' => '.',
             ],
             'en-BE' => [
-                'currency_pattern' => '#,##0.00 ¤',
-                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'currency_pattern' => '¤#,##0.00',
+                'accounting_currency_pattern' => '¤#,##0.00',
                 'decimal_separator' => ',',
                 'grouping_separator' => '.',
             ],
