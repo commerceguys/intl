@@ -17,7 +17,7 @@ interface LanguageRepositoryInterface
      *
      * @throws \CommerceGuys\Intl\Exception\UnknownLanguageException
      */
-    public function get(string $languageCode, string $locale = null): Language;
+    public function get(string $languageCode, ?string $locale = null): Language;
 
     /**
      * Gets all languages.
@@ -26,7 +26,7 @@ interface LanguageRepositoryInterface
      *
      * @return Language[] An array of languages, keyed by language code.
      */
-    public function getAll(string $locale = null): array;
+    public function getAll(?string $locale = null): array;
 
     /**
      * Gets a list of languages.
@@ -35,5 +35,5 @@ interface LanguageRepositoryInterface
      *
      * @return array An array of language names, keyed by language code.
      */
-    public function getList(string $locale = null): array;
+    public function getList(?string $locale = null): array;
 }
