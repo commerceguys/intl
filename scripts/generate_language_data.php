@@ -86,6 +86,9 @@ function generate_languages()
     $untranslatedCounts = [];
     $languages = [];
     foreach ($locales as $locale) {
+        if (!file_exists($localeDirectory . $locale . '/languages.json')) {
+            continue;
+        }
         $data = json_decode(file_get_contents($localeDirectory . $locale . '/languages.json'), true);
         $data = $data['main'][$locale]['localeDisplayNames']['languages'];
         foreach ($data as $languageCode => $languageName) {

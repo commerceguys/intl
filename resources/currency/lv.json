@@ -84,6 +84,10 @@
 	"BTN": {
 		"name": "Butānas ngultrums"
 	},
+	"XCG": {
+		"name": "Caribbean guilder",
+		"symbol": "Cg."
+	},
 	"XAF": {
 		"name": "Centrālāfrikas CFA franks",
 		"symbol": "FCFA"
@@ -117,9 +121,6 @@
 	"DJF": {
 		"name": "Džibutijas franks"
 	},
-	"EGP": {
-		"name": "Ēģiptes mārciņa"
-	},
 	"EUR": {
 		"name": "eiro",
 		"symbol": "€"
@@ -129,6 +130,9 @@
 	},
 	"ETB": {
 		"name": "Etiopijas birs"
+	},
+	"EGP": {
+		"name": "Ēģiptes mārciņa"
 	},
 	"FJD": {
 		"name": "Fidži dolārs"
@@ -247,9 +251,6 @@
 	"RUB": {
 		"name": "Krievijas rublis"
 	},
-	"CUC": {
-		"name": "Kubas konvertējamais peso"
-	},
 	"CUP": {
 		"name": "Kubas peso"
 	},
@@ -272,12 +273,12 @@
 	"LRD": {
 		"name": "Libērijas dolārs"
 	},
-	"LYD": {
-		"name": "Lībijas dinārs"
-	},
 	"GBP": {
 		"name": "Lielbritānijas mārciņa",
 		"symbol": "£"
+	},
+	"LYD": {
+		"name": "Lībijas dinārs"
 	},
 	"MGA": {
 		"name": "Madagaskaras ariari"
@@ -300,11 +301,11 @@
 	"MAD": {
 		"name": "Marokas dirhēms"
 	},
-	"MUR": {
-		"name": "Maurīcijas rūpija"
-	},
 	"MRU": {
 		"name": "Mauritānijas ugija"
+	},
+	"MUR": {
+		"name": "Maurīcijas rūpija"
 	},
 	"MXN": {
 		"name": "Meksikas peso",
@@ -327,9 +328,6 @@
 	},
 	"NPR": {
 		"name": "Nepālas rūpija"
-	},
-	"ANG": {
-		"name": "Nīderlandes Antiļu guldenis"
 	},
 	"NGN": {
 		"name": "Nigērijas naira"
@@ -473,17 +471,14 @@
 		"name": "Vjetnamas dongi",
 		"symbol": "₫"
 	},
-	"SBD": {
-		"name": "Zālamana Salu dolārs"
-	},
 	"ZMW": {
 		"name": "Zambijas kvača"
 	},
+	"SBD": {
+		"name": "Zālamana Salu dolārs"
+	},
 	"KPW": {
 		"name": "Ziemeļkorejas vona"
-	},
-	"ZWL": {
-		"name": "Zimbabves dolārs (2009)"
 	},
 	"SEK": {
 		"name": "Zviedrijas krona"

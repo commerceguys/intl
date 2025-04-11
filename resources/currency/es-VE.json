@@ -1,9 +1,9 @@
 {
 	"AFN": {
-		"name": "afgani"
+		"name": "afgani afgano"
 	},
 	"MGA": {
-		"name": "ariari"
+		"name": "ariari malgache"
 	},
 	"THB": {
 		"name": "baht tailandes"
@@ -12,7 +12,7 @@
 		"name": "balboa panameño"
 	},
 	"ETB": {
-		"name": "bir"
+		"name": "bir etíope"
 	},
 	"VES": {
 		"name": "bolívar soberano",
@@ -22,7 +22,7 @@
 		"name": "boliviano"
 	},
 	"GHS": {
-		"name": "cedi"
+		"name": "cedi ghanés"
 	},
 	"KES": {
 		"name": "chelín keniano"
@@ -61,7 +61,7 @@
 		"name": "corona sueca"
 	},
 	"GMD": {
-		"name": "dalasi"
+		"name": "dalasi gambiano"
 	},
 	"DZD": {
 		"name": "dinar argelino"
@@ -97,7 +97,7 @@
 		"name": "dírham marroquí"
 	},
 	"STN": {
-		"name": "dobra"
+		"name": "dobra santotomense"
 	},
 	"AUD": {
 		"name": "dólar australiano"
@@ -162,20 +162,17 @@
 	"SRD": {
 		"name": "dólar surinamés"
 	},
-	"ZWL": {
-		"name": "dólar zimbabuense"
-	},
 	"VND": {
-		"name": "dong"
+		"name": "dong vietnamita"
 	},
 	"AMD": {
-		"name": "dram"
+		"name": "dram armenio"
 	},
 	"CVE": {
 		"name": "escudo de Cabo Verde"
 	},
 	"PLN": {
-		"name": "esloti"
+		"name": "esloti polaco"
 	},
 	"EUR": {
 		"name": "euro"
@@ -183,8 +180,9 @@
 	"AWG": {
 		"name": "florín arubeño"
 	},
-	"ANG": {
-		"name": "florín de las Antillas Neerlandesas"
+	"XCG": {
+		"name": "florín caribeño",
+		"symbol": "Cg."
 	},
 	"HUF": {
 		"name": "forinto húngaro"
@@ -224,43 +222,43 @@
 		"name": "gourde haitiano"
 	},
 	"UAH": {
-		"name": "grivna"
+		"name": "grivna ucraniana"
 	},
 	"PYG": {
 		"name": "guaraní paraguayo"
 	},
 	"BTN": {
-		"name": "gultrum"
+		"name": "gultrum butanés"
 	},
 	"MMK": {
-		"name": "kiat"
+		"name": "kiat de Myanmar"
 	},
 	"PGK": {
-		"name": "kina"
+		"name": "kina papú"
 	},
 	"LAK": {
-		"name": "kip"
+		"name": "kip laosiano"
 	},
 	"ZMW": {
 		"name": "kuacha zambiano"
 	},
 	"AOA": {
-		"name": "kuanza"
+		"name": "kuanza angoleño"
 	},
 	"MWK": {
 		"name": "kwacha malauí"
 	},
 	"GEL": {
-		"name": "lari"
+		"name": "lari georgiano"
 	},
 	"ALL": {
-		"name": "lek"
+		"name": "lek albanés"
 	},
 	"HNL": {
 		"name": "lempira hondureño"
 	},
 	"SLE": {
-		"name": "leona"
+		"name": "leone"
 	},
 	"MDL": {
 		"name": "leu moldavo"
@@ -299,7 +297,7 @@
 		"name": "libra sursudanesa"
 	},
 	"SZL": {
-		"name": "lilangeni"
+		"name": "lilangeni esuatiní"
 	},
 	"TRY": {
 		"name": "lira turca"
@@ -317,13 +315,13 @@
 		"name": "marco convertible de Bosnia y Herzegovina"
 	},
 	"MZN": {
-		"name": "metical"
+		"name": "metical mozambiqueño"
 	},
 	"NGN": {
-		"name": "naira"
+		"name": "naira nigeriano"
 	},
 	"ERN": {
-		"name": "nakfa"
+		"name": "nakfa eritreo"
 	},
 	"TWD": {
 		"name": "nuevo dólar taiwanés"
@@ -332,10 +330,10 @@
 		"name": "nuevo séquel israelí"
 	},
 	"TOP": {
-		"name": "paanga"
+		"name": "paanga tongano"
 	},
 	"MOP": {
-		"name": "pataca de Macao"
+		"name": "pataca macaense"
 	},
 	"ARS": {
 		"name": "peso argentino"
@@ -348,9 +346,6 @@
 	},
 	"CUP": {
 		"name": "peso cubano"
-	},
-	"CUC": {
-		"name": "peso cubano convertible"
 	},
 	"DOP": {
 		"name": "peso dominicano"
@@ -365,13 +360,13 @@
 		"name": "peso uruguayo"
 	},
 	"BWP": {
-		"name": "pula"
+		"name": "pula botsuano"
 	},
 	"GTQ": {
 		"name": "quetzal guatemalteco"
 	},
 	"ZAR": {
-		"name": "rand"
+		"name": "rand sudafricano"
 	},
 	"BRL": {
 		"name": "real brasileño"
@@ -392,10 +387,10 @@
 		"name": "rial yemení"
 	},
 	"KHR": {
-		"name": "riel"
+		"name": "riel camboyano"
 	},
 	"MYR": {
-		"name": "ringit"
+		"name": "ringit malasio"
 	},
 	"BYN": {
 		"name": "rublo bielorruso"
@@ -404,7 +399,7 @@
 		"name": "rublo ruso"
 	},
 	"MVR": {
-		"name": "rufiya"
+		"name": "rufiya maldiva"
 	},
 	"LKR": {
 		"name": "rupia esrilanquesa"
@@ -431,7 +426,7 @@
 		"name": "sol peruano"
 	},
 	"KGS": {
-		"name": "som"
+		"name": "som kirguís"
 	},
 	"UZS": {
 		"name": "som uzbeko"
@@ -440,25 +435,25 @@
 		"name": "somoni tayiko"
 	},
 	"BDT": {
-		"name": "taka"
+		"name": "taka bangladesí"
 	},
 	"WST": {
-		"name": "tala"
+		"name": "tala samoano"
 	},
 	"KZT": {
 		"name": "tenge kazajo"
 	},
 	"MNT": {
-		"name": "tugrik"
+		"name": "tugrik mongol"
 	},
 	"MRU": {
-		"name": "uguiya"
+		"name": "uguiya mauritano"
 	},
 	"UYW": {
 		"name": "unidad previsional uruguayo"
 	},
 	"VUV": {
-		"name": "vatu"
+		"name": "vatu vanuatense"
 	},
 	"KPW": {
 		"name": "won norcoreano"
@@ -467,9 +462,9 @@
 		"name": "won surcoreano"
 	},
 	"JPY": {
-		"name": "yen"
+		"name": "yen japonés"
 	},
 	"CNY": {
-		"name": "yuan"
+		"name": "yuan renminbi"
 	}
 }

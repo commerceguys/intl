@@ -34,7 +34,7 @@
 		"name": "bahamski dolar"
 	},
 	"BHD": {
-		"name": "bahranski dinar"
+		"name": "bahrajnski dinar"
 	},
 	"BDT": {
 		"name": "bangladeška taka"
@@ -78,6 +78,10 @@
 	"BTN": {
 		"name": "butanski ngultrum"
 	},
+	"XCG": {
+		"name": "Caribbean guilder",
+		"symbol": "Cg."
+	},
 	"CZK": {
 		"name": "češka krona"
 	},
@@ -89,6 +93,9 @@
 	},
 	"AED": {
 		"name": "dirham Združenih arabskih emiratov"
+	},
+	"STN": {
+		"name": "dobra Svetega Tomaža in Princa"
 	},
 	"TTD": {
 		"name": "dolar Trinidada in Tobaga"
@@ -104,6 +111,9 @@
 	},
 	"ERN": {
 		"name": "eritrejska nakfa"
+	},
+	"SZL": {
+		"name": "esvatinski lilangeni"
 	},
 	"ETB": {
 		"name": "etiopski bir"
@@ -150,7 +160,7 @@
 		"name": "gvinejski frank"
 	},
 	"HTG": {
-		"name": "haitski gurd"
+		"name": "haitijski gurd"
 	},
 	"HNL": {
 		"name": "honduraška lempira"
@@ -242,9 +252,6 @@
 	"CRC": {
 		"name": "kostariški kolon"
 	},
-	"CUC": {
-		"name": "kubanski konvertibilni peso"
-	},
 	"CUP": {
 		"name": "kubanski peso"
 	},
@@ -266,11 +273,14 @@
 	"LYD": {
 		"name": "libijski dinar"
 	},
+	"MOP": {
+		"name": "macajska pataka"
+	},
+	"MGA": {
+		"name": "madagaskarski ariari"
+	},
 	"HUF": {
 		"name": "madžarski forint"
-	},
-	"MOP": {
-		"name": "makavska pataka"
 	},
 	"MKD": {
 		"name": "makedonski denar"
@@ -283,9 +293,6 @@
 	},
 	"MYR": {
 		"name": "malezijski ringit"
-	},
-	"MGA": {
-		"name": "malgaški ariarij"
 	},
 	"MAD": {
 		"name": "maroški dirham"
@@ -303,7 +310,7 @@
 		"name": "mjanmarski kjat"
 	},
 	"MDL": {
-		"name": "moldavijski leu"
+		"name": "moldavski lev"
 	},
 	"MNT": {
 		"name": "mongolski tugrik"
@@ -321,16 +328,10 @@
 		"name": "nigerijska naira"
 	},
 	"NIO": {
-		"name": "nikaraška zlata kordova"
-	},
-	"ANG": {
-		"name": "nizozemsko-antilski gulden"
+		"name": "nikaragovska kordova"
 	},
 	"NOK": {
 		"name": "norveška krona"
-	},
-	"TRY": {
-		"name": "nova turška lira"
 	},
 	"TWD": {
 		"name": "novi tajvanski dolar"
@@ -354,10 +355,10 @@
 		"name": "perujski sol"
 	},
 	"PLN": {
-		"name": "poljski novi zlot"
+		"name": "poljski zlot"
 	},
 	"RON": {
-		"name": "romunski leu"
+		"name": "romunski lev"
 	},
 	"RWF": {
 		"name": "ruandski frank"
@@ -371,9 +372,6 @@
 	"WST": {
 		"name": "samoanska tala"
 	},
-	"STN": {
-		"name": "saotomejska dobra"
-	},
 	"SAR": {
 		"name": "saudski rial"
 	},
@@ -384,7 +382,7 @@
 		"name": "severnokorejski von"
 	},
 	"SLE": {
-		"name": "sieraleonski leone"
+		"name": "sierraleonski leone"
 	},
 	"SGD": {
 		"name": "singapurski dolar"
@@ -411,9 +409,6 @@
 	"SRD": {
 		"name": "surinamski dolar"
 	},
-	"SZL": {
-		"name": "svazijski lilangeni"
-	},
 	"LKR": {
 		"name": "šrilanška rupija"
 	},
@@ -439,7 +434,10 @@
 		"name": "tunizijski dinar"
 	},
 	"TMT": {
-		"name": "turkmenistanski novi manat"
+		"name": "turkmenistanski manat"
+	},
+	"TRY": {
+		"name": "turška lira"
 	},
 	"UGX": {
 		"name": "ugandski šiling"
@@ -475,8 +473,5 @@
 	},
 	"CVE": {
 		"name": "zelenortski eskudo"
-	},
-	"ZWL": {
-		"name": "zimbabvejski dolar (2009)"
 	}
 }

@@ -6,8 +6,8 @@ require __DIR__ . '/../vendor/autoload.php';
 $isoCurrencies = __DIR__ . '/assets/c2.xml';
 // Downloaded from https://github.com/unicode-org/cldr-json.git
 $currencyData = __DIR__ . '/assets/cldr/cldr-json/cldr-core/supplemental/currencyData.json';
-$localeDirectory = __DIR__ . '/assets/cldr/cldr-json/cldr-localenames-modern/main/';
-$numbersDirectory = __DIR__ . '/assets/cldr/cldr-json/cldr-numbers-modern/main/';
+$localeDirectory = __DIR__ . '/assets/cldr/cldr-json/cldr-localenames-full/main/';
+$numbersDirectory = __DIR__ . '/assets/cldr/cldr-json/cldr-numbers-full/main/';
 
 // Preflight checks.
 if (!file_exists($currencyData)) {
