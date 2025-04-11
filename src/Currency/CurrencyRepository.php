@@ -66,7 +66,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      * @param string|null $definitionPath The path to the currency definitions.
      *                               Defaults to 'resources/currency'.
      */
-    public function __construct(string $defaultLocale = 'en', string $fallbackLocale = 'en', string $definitionPath = null)
+    public function __construct(string $defaultLocale = 'en', string $fallbackLocale = 'en', ?string $definitionPath = null)
     {
         $this->defaultLocale = $defaultLocale;
         $this->fallbackLocale = $fallbackLocale;
@@ -76,7 +76,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function get(string $currencyCode, string $locale = null): Currency
+    public function get(string $currencyCode, ?string $locale = null): Currency
     {
         $currencyCode = strtoupper($currencyCode);
         $baseDefinitions = $this->getBaseDefinitions();
@@ -99,7 +99,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getAll(string $locale = null): array
+    public function getAll(?string $locale = null): array
     {
         $locale = $locale ?: $this->defaultLocale;
         $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);
@@ -121,7 +121,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function getList(string $locale = null): array
+    public function getList(?string $locale = null): array
     {
         $locale = $locale ?: $this->defaultLocale;
         $locale = Locale::resolve($this->availableLocales, $locale, $this->fallbackLocale);

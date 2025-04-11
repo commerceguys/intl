@@ -19,7 +19,7 @@ interface CurrencyRepositoryInterface
      *
      * @throws UnknownCurrencyException
      */
-    public function get(string $currencyCode, string $locale = null): Currency;
+    public function get(string $currencyCode, ?string $locale = null): Currency;
 
     /**
      * Gets all currencies.
@@ -28,7 +28,7 @@ interface CurrencyRepositoryInterface
      *
      * @return Currency[] An array of currencies, keyed by currency code.
      */
-    public function getAll(string $locale = null): array;
+    public function getAll(?string $locale = null): array;
 
     /**
      * Gets a list of currencies.
@@ -37,5 +37,5 @@ interface CurrencyRepositoryInterface
      *
      * @return string[] An array of currency names, keyed by currency code.
      */
-    public function getList(string $locale = null): array;
+    public function getList(?string $locale = null): array;
 }

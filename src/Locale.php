@@ -282,7 +282,7 @@ final class Locale
      *
      * @throws UnknownLocaleException
      */
-    public static function resolve(array $availableLocales, string $locale, string $fallbackLocale = null): string
+    public static function resolve(array $availableLocales, string $locale, ?string $fallbackLocale = null): string
     {
         $locale = self::canonicalize($locale);
         $resolvedLocale = null;
@@ -353,7 +353,7 @@ final class Locale
      *
      * @return array An array of all variants of a locale.
      */
-    public static function getCandidates(string $locale, string $fallbackLocale = null): array
+    public static function getCandidates(string $locale, ?string $fallbackLocale = null): array
     {
         $locale = self::replaceAlias($locale);
         $candidates = [$locale];
