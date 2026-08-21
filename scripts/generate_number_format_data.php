@@ -43,7 +43,7 @@ function export_number_formats(array $numberFormats)
         $export .= $indent . $locale . " => [\n";
         foreach ($numberFormat as $key => $value) {
             $key = "'" . $key . "'";
-            $value = "'" . $value . "'";
+            $value = "'" . addslashes($value) . "'";
             $export .= $indent . $indent . $key . ' => ' . $value . ",\n";
         }
         $export .= "$indent],\n";

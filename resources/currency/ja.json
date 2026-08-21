@@ -1,8 +1,4 @@
 {
-	"XCG": {
-		"name": "Caribbean guilder",
-		"symbol": "Cg."
-	},
 	"XPF": {
 		"name": "CFP フラン",
 		"symbol": "CFPF"
@@ -107,6 +103,10 @@
 		"name": "カナダ ドル",
 		"symbol": "CA$"
 	},
+	"XCG": {
+		"name": "カリブ ギルダー",
+		"symbol": "Cg"
+	},
 	"GMD": {
 		"name": "ガンビア ダラシ"
 	},
@@ -178,6 +178,9 @@
 	},
 	"SGD": {
 		"name": "シンガポール ドル"
+	},
+	"ZWG": {
+		"name": "ジンバブエ ゴールド"
 	},
 	"CHF": {
 		"name": "スイス フラン"
@@ -318,9 +321,6 @@
 	"BRL": {
 		"name": "ブラジル レアル",
 		"symbol": "R$"
-	},
-	"BGN": {
-		"name": "ブルガリア 新レフ"
 	},
 	"BND": {
 		"name": "ブルネイ ドル"

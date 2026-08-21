@@ -1,4 +1,7 @@
 {
+	"MGA": {
+		"name": "arîarîyê madagaskarî"
+	},
 	"THB": {
 		"name": "bahtê taylandî"
 	},
@@ -8,15 +11,14 @@
 	"ETB": {
 		"name": "bîrê etyopyayî"
 	},
+	"VED": {
+		"name": "bolivar soberano (VED)"
+	},
 	"VES": {
 		"name": "bolîvarê venezuelayî"
 	},
 	"BOB": {
 		"name": "bolîvyanoyê bolîvyayî"
-	},
-	"XCG": {
-		"name": "Caribbean guilder",
-		"symbol": "Cg."
 	},
 	"GHS": {
 		"name": "cedîyê ganayî"
@@ -179,9 +181,6 @@
 	"CDF": {
 		"name": "frankê kongoyî"
 	},
-	"MGA": {
-		"name": "frankê madagaskarî"
-	},
 	"RWF": {
 		"name": "frankê rwandayî"
 	},
@@ -195,6 +194,10 @@
 	"UAH": {
 		"name": "grîvnayê ûkraynî"
 	},
+	"XCG": {
+		"name": "guldenê karayîbî",
+		"symbol": "Cg."
+	},
 	"PYG": {
 		"name": "gûaranîyê paragûayî"
 	},
@@ -206,6 +209,9 @@
 	},
 	"LAK": {
 		"name": "kîpê laosî"
+	},
+	"SVC": {
+		"name": "kolonê el salvadorî"
 	},
 	"CRC": {
 		"name": "kolonê kosta rîkayî"
@@ -252,9 +258,6 @@
 	"SLE": {
 		"name": "leoneyê sîera leoneyî"
 	},
-	"BGN": {
-		"name": "levê bulgarî"
-	},
 	"MDL": {
 		"name": "leyê moldovayî"
 	},
@@ -263,6 +266,9 @@
 	},
 	"SZL": {
 		"name": "lîlangenîyê swazîlî"
+	},
+	"GIP": {
+		"name": "lîreyê cebelîtariqî"
 	},
 	"LBP": {
 		"name": "lîreyê libnanî"
@@ -299,7 +305,7 @@
 		"name": "markê konvertibl ê bosna hersekî"
 	},
 	"MZN": {
-		"name": "meticalê mozambîkî"
+		"name": "metîkalê mozambîkî"
 	},
 	"NGN": {
 		"name": "naîrayê nîjeryayî"
@@ -320,7 +326,7 @@
 		"name": "patakayê makaoyî"
 	},
 	"FKP": {
-		"name": "paundê giravên falklandê"
+		"name": "paundê giravên falklandî"
 	},
 	"ARS": {
 		"name": "pesoyê arjantînî"
@@ -343,13 +349,10 @@
 		"symbol": "MX$"
 	},
 	"CLP": {
-		"name": "pesoyê şîlîyê"
+		"name": "pesoyê şîlîyî"
 	},
 	"UYU": {
 		"name": "pesoyê ûrûgûayî"
-	},
-	"GIP": {
-		"name": "poundê gîbraltarê"
 	},
 	"BWP": {
 		"name": "pulayê botswanayî"
@@ -385,11 +388,11 @@
 	"YER": {
 		"name": "rîyalê yemenî"
 	},
+	"BYN": {
+		"name": "rubleyê belarûsî"
+	},
 	"RUB": {
 		"name": "rubleyê rûsî"
-	},
-	"BYN": {
-		"name": "rûbleyê belarûsî"
 	},
 	"MVR": {
 		"name": "rûfîyaayê maldîvayî"
@@ -470,6 +473,9 @@
 		"name": "wonê koreya başûrî",
 		"symbol": "₩"
 	},
+	"UYW": {
+		"name": "yekeya îndeksa heqdestê nomînal yê ûrûguayî"
+	},
 	"JPY": {
 		"name": "yenê japonî",
 		"symbol": "JP¥"
@@ -477,6 +483,9 @@
 	"CNY": {
 		"name": "yûanê çînî",
 		"symbol": "CN¥"
+	},
+	"ZWG": {
+		"name": "zêrê zîmbabweyî"
 	},
 	"PLN": {
 		"name": "zlotîyê polonyayî"

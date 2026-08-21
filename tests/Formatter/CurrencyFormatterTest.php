@@ -195,7 +195,7 @@ final class CurrencyFormatterTest extends TestCase
             ['bn', 'BND', 'accounting', '-50.5', '(৫০.৫০BND)'],
             ['bn', 'BND', 'standard', '500100.05', '৫,০০,১০০.০৫BND'],
             ['de-AT', 'EUR', 'standard', '-1000.02', '-€ 1.000,02'],
-            ['fr-CH', 'CHF', 'standard', '-1000.02', '-1 000.02 CHF'],
+            ['fr-CH', 'CHF', 'standard', '-1000.02', '-1\'000.02 CHF'],
         ];
     }
 

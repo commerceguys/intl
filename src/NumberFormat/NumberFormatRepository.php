@@ -397,8 +397,9 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'grouping_separator' => '.',
             ],
             'ba' => [
-                'currency_pattern' => '¤ #,##0.00',
-                'accounting_currency_pattern' => '¤ #,##0.00',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'grouping_separator' => ' ',
             ],
             'bal' => [
                 'currency_pattern' => '¤ #,##0.00',
@@ -483,10 +484,14 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
             ],
+            'bqi' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
             'br' => [
                 'percent_pattern' => '#,##0 %',
                 'currency_pattern' => '#,##0.00 ¤',
-                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
             ],
@@ -510,6 +515,13 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'bss' => [
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'bua' => [
+                'percent_pattern' => '#,##0 %',
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
             ],
             'ca' => [
                 'percent_pattern' => '#,##0 %',
@@ -583,7 +595,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'cv' => [
                 'percent_pattern' => '#,##0 %',
                 'currency_pattern' => '#,##0.00 ¤',
-                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
             ],
@@ -614,12 +626,12 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'de-CH' => [
                 'currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
-                'grouping_separator' => '’',
+                'grouping_separator' => '\'',
             ],
             'de-LI' => [
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
-                'grouping_separator' => '’',
+                'grouping_separator' => '\'',
             ],
             'doi' => [
                 'accounting_currency_pattern' => '¤#,##0.00',
@@ -683,7 +695,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'en-CH' => [
                 'currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
-                'grouping_separator' => '’',
+                'grouping_separator' => '\'',
             ],
             'en-CZ' => [
                 'currency_pattern' => '#,##0.00 ¤',
@@ -709,6 +721,12 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
             ],
+            'en-EE' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
             'en-ES' => [
                 'currency_pattern' => '#,##0.00 ¤',
                 'accounting_currency_pattern' => '#,##0.00 ¤',
@@ -723,6 +741,12 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'grouping_separator' => ' ',
             ],
             'en-FR' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'en-GE' => [
                 'currency_pattern' => '#,##0.00 ¤',
                 'accounting_currency_pattern' => '#,##0.00 ¤',
                 'decimal_separator' => ',',
@@ -748,6 +772,18 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00 ¤',
                 'decimal_separator' => ',',
                 'grouping_separator' => '.',
+            ],
+            'en-LT' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
+            ],
+            'en-LV' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
             ],
             'en-MV' => [
                 'currency_pattern' => '¤ #,##0.00',
@@ -806,6 +842,12 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'en-Shaw' => [
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'en-UA' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
             ],
             'en-ZA' => [
                 'decimal_separator' => ',',
@@ -961,7 +1003,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'decimal_currency_separator' => '.',
-                'grouping_separator' => ' ',
+                'grouping_separator' => '\'',
             ],
             'fr-LU' => [
                 'percent_pattern' => '#,##0 %',
@@ -1006,7 +1048,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'gl' => [
                 'percent_pattern' => '#,##0 %',
                 'currency_pattern' => '#,##0.00 ¤',
-                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => '.',
             ],
@@ -1018,7 +1060,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'percent_pattern' => '#,##0 %',
                 'currency_pattern' => '#,##0.00 ¤',
                 'accounting_currency_pattern' => '#,##0.00 ¤',
-                'grouping_separator' => '’',
+                'grouping_separator' => '\'',
                 'minus_sign' => '−',
             ],
             'gu' => [
@@ -1120,7 +1162,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'it-CH' => [
                 'currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00;¤-#,##0.00',
-                'grouping_separator' => '’',
+                'grouping_separator' => '\'',
             ],
             'iu' => [
                 'currency_pattern' => '¤ #,##0.00',
@@ -1154,6 +1196,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
             ],
+            'kaa-Latn' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
             'kab' => [
                 'currency_pattern' => '#,##0.00¤',
                 'accounting_currency_pattern' => '#,##0.00¤',
@@ -1175,6 +1221,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
+            ],
+            'kek' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
             ],
             'ken' => [
                 'currency_pattern' => '¤ #,##0.00',
@@ -1222,7 +1272,9 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             ],
             'ko' => [],
             'kok' => [
-                'currency_pattern' => '¤ #,##0.00',
+                'decimal_pattern' => '#,##,##0.###',
+                'currency_pattern' => '¤#,##,##0.00',
+                'accounting_currency_pattern' => '¤#,##,##0.00',
             ],
             'kok-Latn' => [
                 'decimal_pattern' => '#,##,##0.###',
@@ -1270,6 +1322,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => '.',
+            ],
+            'ku-Arab' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
             ],
             'kw' => [
                 'accounting_currency_pattern' => '¤#,##0.00',
@@ -1338,7 +1394,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
                 'decimal_separator' => ',',
-                'grouping_separator' => '’',
+                'grouping_separator' => '\'',
             ],
             'ln' => [
                 'currency_pattern' => '#,##0.00 ¤',
@@ -1393,6 +1449,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00 ¤',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
+            ],
+            'lzz' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
             ],
             'mai' => [
                 'currency_pattern' => '¤ #,##0.00',
@@ -1498,6 +1558,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
             ],
+            'mww' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
             'my' => [
                 'currency_pattern' => '#,##0.00 ¤',
                 'accounting_currency_pattern' => '¤ #,##0.00',
@@ -1573,7 +1637,6 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'nso' => [
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤#,##0.00',
-                'grouping_separator' => ' ',
             ],
             'nus' => [],
             'nv' => [
@@ -1593,6 +1656,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00¤',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
+            ],
+            'oka' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
             ],
             'om' => [
                 'accounting_currency_pattern' => '¤#,##0.00',
@@ -1633,6 +1700,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'pcm' => [
                 'accounting_currency_pattern' => '¤#,##0.00',
             ],
+            'pi' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
             'pis' => [
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
@@ -1642,6 +1713,12 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => ' ',
+            ],
+            'pms' => [
+                'currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
             ],
             'ps' => [
                 'numbering_system' => 'arabext',
@@ -1694,11 +1771,8 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '¤ #,##0.00',
             ],
             'rm' => [
-                'percent_pattern' => '#,##0 %',
-                'currency_pattern' => '#,##0.00 ¤',
-                'accounting_currency_pattern' => '#,##0.00 ¤',
-                'grouping_separator' => '’',
-                'minus_sign' => '−',
+                'decimal_separator' => ',',
+                'grouping_separator' => ' ',
             ],
             'rn' => [
                 'percent_pattern' => '#,##0 %',
@@ -1754,13 +1828,15 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             ],
             'sc' => [
                 'currency_pattern' => '#,##0.00 ¤',
-                'accounting_currency_pattern' => '#,##0.00 ¤',
+                'accounting_currency_pattern' => '#,##0.00 ¤;(#,##0.00 ¤)',
                 'decimal_separator' => ',',
                 'grouping_separator' => '.',
             ],
             'scn' => [
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
+                'decimal_separator' => ',',
+                'grouping_separator' => '.',
             ],
             'sdh' => [
                 'numbering_system' => 'arab',
@@ -1796,6 +1872,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'accounting_currency_pattern' => '¤#,##0.00;¤-#,##0.00',
                 'decimal_separator' => ',',
                 'grouping_separator' => '.',
+            ],
+            'sgs' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
             ],
             'shn' => [
                 'currency_pattern' => '¤ #,##0.00',
@@ -1881,6 +1961,14 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'decimal_separator' => ',',
                 'grouping_separator' => '.',
             ],
+            'suz' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
+            'suz-Sunu' => [
+                'currency_pattern' => '¤ #,##0.00',
+                'accounting_currency_pattern' => '¤ #,##0.00',
+            ],
             'sv' => [
                 'percent_pattern' => '#,##0 %',
                 'currency_pattern' => '#,##0.00 ¤',
@@ -1948,11 +2036,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             ],
             'tn' => [
                 'accounting_currency_pattern' => '¤#,##0.00',
-                'grouping_separator' => '’',
+                'grouping_separator' => '\'',
             ],
             'tok' => [
                 'decimal_pattern' => '#,#0.###',
-                'percent_pattern' => '%#,#0',
                 'currency_pattern' => '¤#,#0.00',
                 'accounting_currency_pattern' => '¤#,#0.00',
                 'decimal_separator' => ',',
@@ -1996,6 +2083,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             'tyv' => [
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
+                'grouping_separator' => ' ',
             ],
             'tzm' => [
                 'currency_pattern' => '#,##0.00 ¤',
@@ -2016,7 +2104,6 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             ],
             'ur-IN' => [
                 'numbering_system' => 'arabext',
-                'currency_pattern' => '¤ #,##,##0.00',
                 'decimal_separator' => '٫',
                 'grouping_separator' => '٬',
                 'plus_sign' => '‎+‎',
@@ -2077,7 +2164,7 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
                 'currency_pattern' => '¤ #,##0.00',
                 'accounting_currency_pattern' => '¤ #,##0.00',
                 'decimal_separator' => ',',
-                'grouping_separator' => '’',
+                'grouping_separator' => '\'',
             ],
             'wal' => [
                 'currency_pattern' => '¤ #,##0.00',

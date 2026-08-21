@@ -70,9 +70,6 @@
 	"BMD": {
 		"name": "百慕大元"
 	},
-	"BGN": {
-		"name": "保加利亚列弗"
-	},
 	"ISK": {
 		"name": "冰岛克朗"
 	},
@@ -175,6 +172,10 @@
 	"GNF": {
 		"name": "几内亚法郎"
 	},
+	"XCG": {
+		"name": "加勒比盾",
+		"symbol": "Cg."
+	},
 	"CAD": {
 		"name": "加拿大元",
 		"symbol": "CA$"
@@ -187,6 +188,9 @@
 	},
 	"CZK": {
 		"name": "捷克克朗"
+	},
+	"ZWG": {
+		"name": "津巴布韦金元"
 	},
 	"QAR": {
 		"name": "卡塔尔里亚尔"
@@ -483,9 +487,5 @@
 	"XAF": {
 		"name": "中非法郎",
 		"symbol": "FCFA"
-	},
-	"XCG": {
-		"name": "Caribbean guilder",
-		"symbol": "Cg."
 	}
 }

@@ -64,9 +64,6 @@
 	"BMD": {
 		"name": "百慕达币"
 	},
-	"BGN": {
-		"name": "保加利亚新列弗"
-	},
 	"KPW": {
 		"name": "北韩圆"
 	},
@@ -178,6 +175,10 @@
 	"CAD": {
 		"name": "加币",
 		"symbol": "CA$"
+	},
+	"XCG": {
+		"name": "加勒比盾",
+		"symbol": "Cg."
 	},
 	"GHS": {
 		"name": "迦纳塞地"
@@ -317,11 +318,11 @@
 	},
 	"CNY": {
 		"name": "人民币",
-		"symbol": "￥"
+		"symbol": "CN¥"
 	},
 	"JPY": {
 		"name": "日圆",
-		"symbol": "JP¥"
+		"symbol": "¥"
 	},
 	"SEK": {
 		"name": "瑞典克朗"
@@ -413,6 +414,9 @@
 	"WST": {
 		"name": "西萨摩亚塔拉"
 	},
+	"ZWG": {
+		"name": "辛巴威金"
+	},
 	"SGD": {
 		"name": "新加坡币"
 	},
@@ -477,9 +481,5 @@
 	},
 	"CLP": {
 		"name": "智利披索"
-	},
-	"XCG": {
-		"name": "Caribbean guilder",
-		"symbol": "Cg."
 	}
 }

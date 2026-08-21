@@ -62,9 +62,6 @@
 	"BWP": {
 		"name": "Botswana Pula"
 	},
-	"BGN": {
-		"name": "Bɔɔgaria lɛv"
-	},
 	"BAM": {
 		"name": "Bɔsnia-Hɛzegɔvina nsesa maake"
 	},
@@ -84,10 +81,6 @@
 	},
 	"BTN": {
 		"name": "Butanfoɔ ngutrum"
-	},
-	"XCG": {
-		"name": "Caribbean guilder",
-		"symbol": "Cg."
 	},
 	"XPF": {
 		"name": "CFP Franc",
@@ -183,10 +176,6 @@
 		"name": "Irak dinaa",
 		"symbol": "Irak dinaa"
 	},
-	"EUR": {
-		"name": "Iro",
-		"symbol": "€"
-	},
 	"ILS": {
 		"name": "Israel hyekel foforɔ",
 		"symbol": "₪"
@@ -206,6 +195,10 @@
 	"CAD": {
 		"name": "Kanada Dɔla",
 		"symbol": "CA$"
+	},
+	"XCG": {
+		"name": "Karibiafoᴐ giida",
+		"symbol": "Cg."
 	},
 	"XCD": {
 		"name": "Karibine Apueeɛ dɔla",
@@ -246,7 +239,7 @@
 		"name": "Kuwait dinaa"
 	},
 	"CNY": {
-		"name": "kyaena yuan",
+		"name": "Kyaena yuan",
 		"symbol": "CN¥"
 	},
 	"CZK": {
@@ -272,9 +265,6 @@
 	},
 	"LYD": {
 		"name": "Libya Dina"
-	},
-	"SZL": {
-		"name": "Lilangeni"
 	},
 	"MGA": {
 		"name": "Madagasi Frank"
@@ -417,6 +407,9 @@
 	"SRD": {
 		"name": "Suriname dɔla"
 	},
+	"SZL": {
+		"name": "Swazi lilangeni"
+	},
 	"SEK": {
 		"name": "Sweden Krona"
 	},
@@ -473,6 +466,10 @@
 	"UAH": {
 		"name": "Yukren hryvnia"
 	},
+	"EUR": {
+		"name": "yuro",
+		"symbol": "€"
+	},
 	"UYU": {
 		"name": "Yurugueɛ peso"
 	},
@@ -481,5 +478,8 @@
 	},
 	"ZMW": {
 		"name": "Zambia Kwakya"
+	},
+	"ZWG": {
+		"name": "Zimbabwe sika kᴐkᴐᴐ"
 	}
 }

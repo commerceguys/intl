@@ -15,11 +15,19 @@
 	"BTN": {
 		"name": "不丹那特倫"
 	},
+	"XAF": {
+		"name": "中非法郎",
+		"symbol": "FCFA"
+	},
 	"DKK": {
 		"name": "丹麥克朗"
 	},
 	"ERN": {
-		"name": "厄立特里亞納克法"
+		"name": "厄利垂亞納可法"
+	},
+	"XPF": {
+		"name": "太平洋法郎",
+		"symbol": "CFPF"
 	},
 	"PGK": {
 		"name": "巴布亞紐幾內亞基那"
@@ -57,6 +65,10 @@
 		"name": "以色列新謝克爾",
 		"symbol": "₪"
 	},
+	"XCG": {
+		"name": "加勒比盾",
+		"symbol": "Cg."
+	},
 	"CAD": {
 		"name": "加幣",
 		"symbol": "CA$"
@@ -74,7 +86,7 @@
 		"name": "史瓦帝尼朗吉尼"
 	},
 	"NIO": {
-		"name": "尼加拉瓜金科多巴"
+		"name": "尼加拉瓜科多巴"
 	},
 	"NPR": {
 		"name": "尼泊爾盧比"
@@ -128,6 +140,10 @@
 	"ETB": {
 		"name": "衣索比亞比爾"
 	},
+	"XOF": {
+		"name": "西非法郎",
+		"symbol": "F CFA"
+	},
 	"WST": {
 		"name": "西薩摩亞塔拉"
 	},
@@ -142,6 +158,9 @@
 	},
 	"BZD": {
 		"name": "貝里斯元"
+	},
+	"ZWG": {
+		"name": "辛巴威金"
 	},
 	"AMD": {
 		"name": "亞美尼亞德拉姆"
@@ -166,18 +185,6 @@
 	},
 	"TOP": {
 		"name": "東加潘加"
-	},
-	"XOF": {
-		"name": "法郎 (CFA–BCEAO)",
-		"symbol": "F CFA"
-	},
-	"XAF": {
-		"name": "法郎 (CFA–BEAC)",
-		"symbol": "FCFA"
-	},
-	"XPF": {
-		"name": "法郎 (CFP)",
-		"symbol": "CFPF"
 	},
 	"BAM": {
 		"name": "波士尼亞-赫塞哥維納可轉換馬克"
@@ -217,9 +224,6 @@
 	},
 	"RUB": {
 		"name": "俄羅斯盧布"
-	},
-	"BGN": {
-		"name": "保加利亞新列弗"
 	},
 	"ZAR": {
 		"name": "南非蘭特"
@@ -423,11 +427,11 @@
 	"LAK": {
 		"name": "寮國基普"
 	},
-	"MDL": {
-		"name": "摩杜雲列伊"
-	},
 	"MAD": {
 		"name": "摩洛哥迪拉姆"
+	},
+	"MDL": {
+		"name": "摩爾多瓦列伊"
 	},
 	"MUR": {
 		"name": "模里西斯盧比"
@@ -477,9 +481,5 @@
 	},
 	"SRD": {
 		"name": "蘇利南元"
-	},
-	"XCG": {
-		"name": "Caribbean guilder",
-		"symbol": "Cg."
 	}
 }

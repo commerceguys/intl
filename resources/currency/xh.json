@@ -21,10 +21,6 @@
 	"CVE": {
 		"name": "Cape Verdean Escudo"
 	},
-	"XCG": {
-		"name": "Caribbean guilder",
-		"symbol": "Cg."
-	},
 	"KYD": {
 		"name": "Cayman Islands Dollar"
 	},
@@ -157,9 +153,6 @@
 	},
 	"RON": {
 		"name": "I-Leu yaseRomania"
-	},
-	"BGN": {
-		"name": "I-Lev yaseBulgaria"
 	},
 	"SZL": {
 		"name": "I-Lilangeni yase-Eswatini"
@@ -327,6 +320,10 @@
 		"name": "I-Yuan yaseTshayina",
 		"symbol": "CN¥"
 	},
+	"XCG": {
+		"name": "ICaribbean guilder",
+		"symbol": "ICg."
+	},
 	"GHS": {
 		"name": "ICedi yaseGhana"
 	},
@@ -439,6 +436,10 @@
 	"ZAR": {
 		"name": "IRandi yaseMzantsi Afrika",
 		"symbol": "R"
+	},
+	"ZWG": {
+		"name": "IZimbabwean Gold",
+		"symbol": "IZWG"
 	},
 	"JMD": {
 		"name": "Jamaican Dollar"

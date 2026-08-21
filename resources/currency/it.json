@@ -21,10 +21,6 @@
 	"BOB": {
 		"name": "boliviano"
 	},
-	"XCG": {
-		"name": "Caribbean guilder",
-		"symbol": "Cg."
-	},
 	"GHS": {
 		"name": "cedi ghanese"
 	},
@@ -171,6 +167,10 @@
 		"name": "euro",
 		"symbol": "€"
 	},
+	"XCG": {
+		"name": "fiorino caraibico",
+		"symbol": "Cf"
+	},
 	"AWG": {
 		"name": "fiorino di Aruba"
 	},
@@ -254,9 +254,6 @@
 	},
 	"RON": {
 		"name": "leu rumeno"
-	},
-	"BGN": {
-		"name": "lev bulgaro"
 	},
 	"SZL": {
 		"name": "lilangeni"
@@ -471,6 +468,9 @@
 	"CNY": {
 		"name": "yuan cinese",
 		"symbol": "CN¥"
+	},
+	"ZWG": {
+		"name": "Zimbabwe Gold"
 	},
 	"PLN": {
 		"name": "zloty polacco"

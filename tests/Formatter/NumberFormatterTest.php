@@ -163,7 +163,7 @@ final class NumberFormatterTest extends TestCase
             ['bn', 'decimal', '-50.5', '-৫০.৫'],
             ['bn', 'decimal', '5000000.5', '৫০,০০,০০০.৫'],
             ['de-AT', 'decimal', '-5000.00', '-5 000'],
-            ['fr-CH', 'decimal', '-5000.12', '-5 000,12'],
+            ['fr-CH', 'decimal', '-5000.12', '-5\'000,12'],
         ];
     }
 
