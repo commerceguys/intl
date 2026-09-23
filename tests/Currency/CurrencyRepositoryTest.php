@@ -135,6 +135,11 @@ final class CurrencyRepositoryTest extends TestCase
         foreach ($expected as $currencyCode => $fractionDigits) {
             $this->assertSame($fractionDigits, $currencyRepository->get($currencyCode)->getFractionDigits(), $currencyCode);
         }
+
+        // Display fraction digits come from CLDR.
+        $this->assertSame(0, $currencyRepository->get('HUF')->getDisplayFractionDigits());
+        $this->assertSame(2, $currencyRepository->get('USD')->getDisplayFractionDigits());
+        $this->assertSame(0, $currencyRepository->getAll()['HUF']->getDisplayFractionDigits());
     }
 
     /**

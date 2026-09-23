@@ -75,7 +75,9 @@ formats.
 **Fraction digits:** these come from the ISO 4217 list (`CcyMnrUnts`), not
 CLDR, since consumers use them for stored amounts and payment gateway minor
 units. CLDR's `_digits` is a display preference that changes between releases
-(CLDR 48 moved HUF from 2 to 0, which made Commerce charge 1/100). Still diff
+(CLDR 48 moved HUF from 2 to 0, which made Commerce charge 1/100). It's kept
+as the optional third element (display fraction digits), only when it differs
+from ISO, and used as the formatter's default. Still diff
 `getBaseDefinitions()` before committing and call out any fraction digit
 change in the release notes.
 

@@ -9,9 +9,10 @@
 
 require __DIR__ . '/generate_base.php';
 
+$currencyData = json_decode(file_get_contents($currencyData), true);
 $isoData = simplexml_load_file($isoCurrencies);
 
-$baseData = generate_base_data($isoData);
+$baseData = generate_base_data($currencyData, $isoData);
 $localizations = generate_localizations($baseData);
 $localizations = filter_duplicate_localizations($localizations);
 
@@ -52,6 +53,9 @@ function export_base_data($baseData)
     foreach ($baseData as $currencyCode => $currencyData) {
         $export .= "    '" . $currencyCode . "' => ['";
         $export .= $currencyData['numeric_code'] . "', " . $currencyData['fraction_digits'];
+        if (isset($currencyData['display_fraction_digits'])) {
+            $export .= ', ' . $currencyData['display_fraction_digits'];
+        }
         $export .= "],\n";
     }
     $export .= "];";
@@ -80,9 +84,10 @@ function export_locales($data)
 /**
  * Generates the base data.
  */
-function generate_base_data($isoData)
+function generate_base_data(array $currencyData, $isoData)
 {
     $baseData = [];
+    $currencyData = $currencyData['supplemental']['currencyData']['fractions'];
     foreach ($isoData->CcyTbl->CcyNtry as $currency) {
         $attributes = (array) $currency->CcyNm->attributes();
         if (!empty($attributes) && !empty($attributes['@attributes']['IsFund'])) {
@@ -108,6 +113,11 @@ function generate_base_data($isoData)
             'numeric_code' => $currency['CcyNbr'],
             'fraction_digits' => $currency['CcyMnrUnts'],
         ];
+        // CLDR's digits are used for display, stored only when different.
+        $displayFractionDigits = $currencyData[$currencyCode]['_digits'] ?? $currencyData['DEFAULT']['_digits'];
+        if ($displayFractionDigits != $currency['CcyMnrUnts']) {
+            $baseData[$currencyCode]['display_fraction_digits'] = $displayFractionDigits;
+        }
     }
     ksort($baseData);
 

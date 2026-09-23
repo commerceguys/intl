@@ -43,6 +43,13 @@ final class Currency
     protected int $fractionDigits = 2;
 
     /**
+     * The number of fraction digits used for display, if different.
+     *
+     * @var int|null
+     */
+    protected ?int $displayFractionDigits = null;
+
+    /**
      * The locale (i.e. "en_US").
      *
      * @var string
@@ -71,6 +78,9 @@ final class Currency
         $this->symbol = $definition['symbol'];
         if (isset($definition['fraction_digits'])) {
             $this->fractionDigits = $definition['fraction_digits'];
+        }
+        if (isset($definition['display_fraction_digits'])) {
+            $this->displayFractionDigits = $definition['display_fraction_digits'];
         }
         $this->locale = $definition['locale'];
     }
@@ -135,7 +145,8 @@ final class Currency
     /**
      * Gets the number of fraction digits.
      *
-     * Used when rounding or formatting an amount for display.
+     * Matches the ISO 4217 minor units. Used when rounding an amount, or
+     * converting it to minor units (e.g. for payment gateways).
      * Actual storage precision can be greater.
      *
      * @return int
@@ -143,6 +154,20 @@ final class Currency
     public function getFractionDigits(): int
     {
         return $this->fractionDigits;
+    }
+
+    /**
+     * Gets the number of fraction digits used for display.
+     *
+     * Matches CLDR, which can differ from the ISO 4217 minor units when
+     * the minor unit isn't used in practice (e.g. HUF is displayed without
+     * decimals). Used as the default when formatting an amount.
+     *
+     * @return int
+     */
+    public function getDisplayFractionDigits(): int
+    {
+        return $this->displayFractionDigits ?? $this->fractionDigits;
     }
 
     /**

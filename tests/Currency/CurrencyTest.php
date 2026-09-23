@@ -28,6 +28,7 @@ final class CurrencyTest extends TestCase
      * @covers ::getNumericCode
      * @covers ::getSymbol
      * @covers ::getFractionDigits
+     * @covers ::getDisplayFractionDigits
      * @covers ::getLocale
      */
     public function testValid()
@@ -39,6 +40,7 @@ final class CurrencyTest extends TestCase
             'symbol' => '$US',
             // Dummy value, intentionally different from the default.
             'fraction_digits' => 3,
+            'display_fraction_digits' => 1,
             'locale' => 'fr',
         ];
         $currency = new Currency($definition);
@@ -49,6 +51,12 @@ final class CurrencyTest extends TestCase
         $this->assertEquals($definition['numeric_code'], $currency->getNumericCode());
         $this->assertEquals($definition['symbol'], $currency->getSymbol());
         $this->assertEquals($definition['fraction_digits'], $currency->getFractionDigits());
+        $this->assertEquals($definition['display_fraction_digits'], $currency->getDisplayFractionDigits());
         $this->assertEquals($definition['locale'], $currency->getLocale());
+
+        // The display fraction digits default to the fraction digits.
+        unset($definition['display_fraction_digits']);
+        $currency = new Currency($definition);
+        $this->assertEquals($definition['fraction_digits'], $currency->getDisplayFractionDigits());
     }
 }

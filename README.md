@@ -64,6 +64,10 @@ echo $currencyFormatter->parse('US$ ١٬٢٣٠٫٩٩', 'USD'); // 1230.99
 
 Currencies
 ----------
+The list of currencies, their numeric codes and fraction digits come from
+[ISO 4217](https://www.iso.org/iso-4217-currency-codes.html).
+Names, symbols and display fraction digits come from CLDR.
+
 ```php
 use CommerceGuys\Intl\Currency\CurrencyRepository;
 
@@ -84,6 +88,13 @@ $currency = $currencyRepository->get('USD', 'fr-FR');
 echo $currency->getName(); // dollar des États-Unis
 echo $currency->getSymbol(); // $US
 echo $currency->getLocale(); // fr-FR
+
+// Fraction digits are used for rounding and payment gateways, display
+// fraction digits by the currency formatter. They differ when the minor
+// unit isn't used in practice.
+$currency = $currencyRepository->get('HUF');
+echo $currency->getFractionDigits(); // 2
+echo $currency->getDisplayFractionDigits(); // 0
 
 // Get all currencies, keyed by currency code.
 $allCurrencies = $currencyRepository->getAll();

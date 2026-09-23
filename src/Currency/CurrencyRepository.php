@@ -100,6 +100,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'currency_code' => $currencyCode,
             'numeric_code' => $baseDefinitions[$currencyCode][0],
             'fraction_digits' => $baseDefinitions[$currencyCode][1],
+            'display_fraction_digits' => $baseDefinitions[$currencyCode][2] ?? null,
             'locale' => $locale,
         ] + $definitions[$currencyCode]);
 
@@ -121,6 +122,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
                 'currency_code' => $currencyCode,
                 'numeric_code' => $baseDefinitions[$currencyCode][0],
                 'fraction_digits' => $baseDefinitions[$currencyCode][1],
+                'display_fraction_digits' => $baseDefinitions[$currencyCode][2] ?? null,
                 'locale' => $locale,
             ] + $definition);
         }
@@ -169,15 +171,17 @@ class CurrencyRepository implements CurrencyRepositoryInterface
      * @return array
      *   An array of definitions, keyed by currency code.
      *   Each definition is a numerically indexed array containing:
-     *   - The numeric code.
-     *   - The fraction digits.
+     *   - The numeric code (ISO 4217).
+     *   - The fraction digits (ISO 4217 minor units).
+     *   - The display fraction digits (CLDR), only present when different
+     *     from the fraction digits.
      */
     protected function getBaseDefinitions(): array
     {
         return [
             'AED' => ['784', 2],
-            'AFN' => ['971', 2],
-            'ALL' => ['008', 2],
+            'AFN' => ['971', 2, 0],
+            'ALL' => ['008', 2, 0],
             'AMD' => ['051', 2],
             'AOA' => ['973', 2],
             'ARS' => ['032', 2],
@@ -203,7 +207,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'CHF' => ['756', 2],
             'CLP' => ['152', 0],
             'CNY' => ['156', 2],
-            'COP' => ['170', 2],
+            'COP' => ['170', 2, 0],
             'CRC' => ['188', 2],
             'CUP' => ['192', 2],
             'CVE' => ['132', 2],
@@ -229,12 +233,12 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'HKD' => ['344', 2],
             'HNL' => ['340', 2],
             'HTG' => ['332', 2],
-            'HUF' => ['348', 2],
-            'IDR' => ['360', 2],
+            'HUF' => ['348', 2, 0],
+            'IDR' => ['360', 2, 0],
             'ILS' => ['376', 2],
             'INR' => ['356', 2],
-            'IQD' => ['368', 3],
-            'IRR' => ['364', 2],
+            'IQD' => ['368', 3, 0],
+            'IRR' => ['364', 2, 0],
             'ISK' => ['352', 0],
             'JMD' => ['388', 2],
             'JOD' => ['400', 3],
@@ -243,22 +247,22 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'KGS' => ['417', 2],
             'KHR' => ['116', 2],
             'KMF' => ['174', 0],
-            'KPW' => ['408', 2],
+            'KPW' => ['408', 2, 0],
             'KRW' => ['410', 0],
             'KWD' => ['414', 3],
             'KYD' => ['136', 2],
             'KZT' => ['398', 2],
-            'LAK' => ['418', 2],
-            'LBP' => ['422', 2],
+            'LAK' => ['418', 2, 0],
+            'LBP' => ['422', 2, 0],
             'LKR' => ['144', 2],
             'LRD' => ['430', 2],
             'LSL' => ['426', 2],
             'LYD' => ['434', 3],
             'MAD' => ['504', 2],
             'MDL' => ['498', 2],
-            'MGA' => ['969', 2],
+            'MGA' => ['969', 2, 0],
             'MKD' => ['807', 2],
-            'MMK' => ['104', 2],
+            'MMK' => ['104', 2, 0],
             'MNT' => ['496', 2],
             'MOP' => ['446', 2],
             'MRU' => ['929', 2],
@@ -279,7 +283,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'PEN' => ['604', 2],
             'PGK' => ['598', 2],
             'PHP' => ['608', 2],
-            'PKR' => ['586', 2],
+            'PKR' => ['586', 2, 0],
             'PLN' => ['985', 2],
             'PYG' => ['600', 0],
             'QAR' => ['634', 2],
@@ -295,12 +299,12 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'SGD' => ['702', 2],
             'SHP' => ['654', 2],
             'SLE' => ['925', 2],
-            'SOS' => ['706', 2],
+            'SOS' => ['706', 2, 0],
             'SRD' => ['968', 2],
             'SSP' => ['728', 2],
             'STN' => ['930', 2],
             'SVC' => ['222', 2],
-            'SYP' => ['760', 2],
+            'SYP' => ['760', 2, 0],
             'SZL' => ['748', 2],
             'THB' => ['764', 2],
             'TJS' => ['972', 2],
@@ -328,7 +332,7 @@ class CurrencyRepository implements CurrencyRepositoryInterface
             'XCG' => ['532', 2],
             'XOF' => ['952', 0],
             'XPF' => ['953', 0],
-            'YER' => ['886', 2],
+            'YER' => ['886', 2, 0],
             'ZAR' => ['710', 2],
             'ZMW' => ['967', 2],
             'ZWG' => ['924', 2],
