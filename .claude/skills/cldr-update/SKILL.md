@@ -72,6 +72,13 @@ Match existing formatting: 8-space indented, comma-separated, wrapped ~80 cols
 for locale arrays; nested associative arrays at 12-space indent for number
 formats.
 
+**Fraction digits:** these come from the ISO 4217 list (`CcyMnrUnts`), not
+CLDR, since consumers use them for stored amounts and payment gateway minor
+units. CLDR's `_digits` is a display preference that changes between releases
+(CLDR 48 moved HUF from 2 to 0, which made Commerce charge 1/100). Still diff
+`getBaseDefinitions()` before committing and call out any fraction digit
+change in the release notes.
+
 ## 5. Clean up scratch output
 
 ```

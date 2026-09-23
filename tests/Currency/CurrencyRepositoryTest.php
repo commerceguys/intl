@@ -122,6 +122,22 @@ final class CurrencyRepositoryTest extends TestCase
     }
 
     /**
+     * @covers ::get
+     *
+     * @uses \CommerceGuys\Intl\Currency\Currency
+     * @uses \CommerceGuys\Intl\Locale
+     */
+    public function testFractionDigits()
+    {
+        // Fraction digits come from ISO 4217, not CLDR (which has HUF at 0).
+        $currencyRepository = new CurrencyRepository();
+        $expected = ['HUF' => 2, 'IQD' => 3, 'JPY' => 0, 'USD' => 2];
+        foreach ($expected as $currencyCode => $fractionDigits) {
+            $this->assertSame($fractionDigits, $currencyRepository->get($currencyCode)->getFractionDigits(), $currencyCode);
+        }
+    }
+
+    /**
      * @covers ::getAll
      * @covers ::loadDefinitions
      *

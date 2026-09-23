@@ -9,10 +9,9 @@
 
 require __DIR__ . '/generate_base.php';
 
-$currencyData = json_decode(file_get_contents($currencyData), true);
 $isoData = simplexml_load_file($isoCurrencies);
 
-$baseData = generate_base_data($currencyData, $isoData);
+$baseData = generate_base_data($isoData);
 $localizations = generate_localizations($baseData);
 $localizations = filter_duplicate_localizations($localizations);
 
@@ -81,10 +80,9 @@ function export_locales($data)
 /**
  * Generates the base data.
  */
-function generate_base_data(array $currencyData, $isoData)
+function generate_base_data($isoData)
 {
     $baseData = [];
-    $currencyData = $currencyData['supplemental']['currencyData']['fractions'];
     foreach ($isoData->CcyTbl->CcyNtry as $currency) {
         $attributes = (array) $currency->CcyNm->attributes();
         if (!empty($attributes) && !empty($attributes['@attributes']['IsFund'])) {
@@ -102,16 +100,14 @@ function generate_base_data(array $currencyData, $isoData)
         }
 
         $currencyCode = $currency['Ccy'];
+        // Take the fraction digits from ISO, not CLDR. CLDR's digits are a
+        // display preference that changes between releases (e.g. HUF went
+        // from 2 to 0 in CLDR 48), while consumers rely on the fraction digits
+        // for stored amounts and payment gateway minor units.
         $baseData[$currencyCode] = [
             'numeric_code' => $currency['CcyNbr'],
+            'fraction_digits' => $currency['CcyMnrUnts'],
         ];
-        // Take the fraction digits from CLDR, not ISO, because it reflects real
-        // life usage more closely.
-        if (isset($currencyData[$currencyCode]['_digits'])) {
-            $baseData[$currencyCode]['fraction_digits'] = $currencyData[$currencyCode]['_digits'];
-        } else {
-            $baseData[$currencyCode]['fraction_digits'] = $currencyData['DEFAULT']['_digits'];
-        }
     }
     ksort($baseData);
 
