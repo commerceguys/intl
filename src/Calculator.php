@@ -102,6 +102,10 @@ final class Calculator
      */
     public static function ceil(string $number): string
     {
+        $whole = bcadd($number, '0', 0);
+        if (bccomp($number, $whole, strlen($number)) === 0) {
+            return $whole;
+        }
         if (self::compare($number, 0) == 1) {
             $result = bcadd($number, '1', 0);
         } else {
@@ -120,6 +124,10 @@ final class Calculator
      */
     public static function floor(string $number): string
     {
+        $whole = bcadd($number, '0', 0);
+        if (bccomp($number, $whole, strlen($number)) === 0) {
+            return $whole;
+        }
         if (self::compare($number, 0) == 1) {
             $result = bcadd($number, '0', 0);
         } else {

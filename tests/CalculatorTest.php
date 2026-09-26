@@ -48,9 +48,13 @@ final class CalculatorTest extends TestCase
     {
         $this->assertEquals('5', Calculator::ceil('4.4'));
         $this->assertEquals('-4', Calculator::ceil('-4.4'));
+        $this->assertEquals('4', Calculator::ceil('4'));
+        $this->assertEquals('4', Calculator::ceil('4.0'));
 
         $this->assertEquals('4', Calculator::floor('4.8'));
         $this->assertEquals('-5', Calculator::floor('-4.8'));
+        $this->assertEquals('-4', Calculator::floor('-4'));
+        $this->assertEquals('0', Calculator::floor('0'));
 
         $rounding_data = [
             ['1.95583', 2, PHP_ROUND_HALF_UP, '1.96'],
