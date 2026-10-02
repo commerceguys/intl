@@ -346,8 +346,11 @@ final class Locale
             if (strlen($part) == 4) {
                 // Script code.
                 $localeParts[$index] = ucfirst($part);
+            } elseif (strlen($part) > 4) {
+                // Variant code, which stays lowercase.
+                continue;
             } else {
-                // Country or variant code.
+                // Country code.
                 $localeParts[$index] = strtoupper($part);
             }
         }

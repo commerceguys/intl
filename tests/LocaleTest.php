@@ -70,6 +70,9 @@ final class LocaleTest extends TestCase
     {
         $locale = Locale::canonicalize('BS_cyrl-ba');
         $this->assertEquals('bs-Cyrl-BA', $locale);
+
+        $locale = Locale::canonicalize('EL_POLYTON');
+        $this->assertEquals('el-polyton', $locale);
     }
 
     /**
