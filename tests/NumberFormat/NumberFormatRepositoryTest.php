@@ -39,6 +39,11 @@ final class NumberFormatRepositoryTest extends TestCase
         $numberFormat = $numberFormatRepository->get('es');
         $this->assertEquals('es', $numberFormat->getLocale());
 
+        $numberFormat = $numberFormatRepository->get('ms-BN');
+        $this->assertEquals('ms-BN', $numberFormat->getLocale());
+        $this->assertEquals(',', $numberFormat->getDecimalSeparator());
+        $this->assertEquals('.', $numberFormat->getGroupingSeparator());
+
         $numberFormat = $numberFormatRepository->get('UNKNOWN');
         $this->assertEquals('de', $numberFormat->getLocale());
     }
